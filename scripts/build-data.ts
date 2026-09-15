@@ -151,6 +151,7 @@ async function main() {
     week: num(g.week),
     seasonType: "REG",
     date: g.gameday,
+    kickoffTimeEt: g.gametime || undefined,
     homeTeam: g.home_team,
     awayTeam: g.away_team,
     homeScore: g.home_score !== "" ? num(g.home_score) : undefined,

@@ -11,13 +11,13 @@ export function RecordAndStandingCard({
   const ties = played.filter((g) => g.result === "T").length;
 
   return (
-    <div className="rounded-lg border border-border bg-surface p-4">
-      <span className="text-sm font-medium text-muted">Record</span>
-      <div className="mt-1 text-3xl font-bold text-navy">
+    <div className="rounded-lg bg-white/10 p-4 backdrop-blur-sm">
+      <span className="text-sm font-medium text-white/70">Record</span>
+      <div className="mt-1 font-display text-4xl font-bold text-white">
         {wins}-{losses}
         {ties > 0 ? `-${ties}` : ""}
       </div>
-      <p className="mt-1 text-sm text-muted">AFC East</p>
+      <p className="mt-1 text-sm text-white/70">AFC East</p>
     </div>
   );
 }

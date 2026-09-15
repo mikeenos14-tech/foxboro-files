@@ -13,7 +13,7 @@ export function PlayerOfTheGameCard({
       </span>
       <div className="mt-2 flex items-center gap-3">
         <PlayerHeadshot name={playerOfTheGame.playerName} size={56} />
-        <span className="text-lg font-bold text-navy">
+        <span className="text-lg font-bold text-navy dark:text-white">
           {playerOfTheGame.playerName}
         </span>
       </div>

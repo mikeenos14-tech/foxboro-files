@@ -28,7 +28,7 @@ export function ScheduleTable({ rows }: { rows: ScheduleRow[] }) {
           {rows.map((r) => (
             <tr
               key={r.gameId}
-              className={`border-b border-border last:border-0 ${
+              className={`border-b border-border transition-colors last:border-0 hover:bg-navy/10 ${
                 r.isDivisional ? "bg-navy/5" : ""
               }`}
             >

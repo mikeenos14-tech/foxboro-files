@@ -3,7 +3,7 @@ import { formatDate } from "@/lib/util/format";
 
 const typeClasses: Record<NewsItem["type"], string> = {
   Injury: "bg-red/10 text-red",
-  Transaction: "bg-navy/10 text-navy",
+  Transaction: "bg-navy/10 text-navy dark:text-white",
   Analysis: "bg-rank-mid/10 text-rank-mid",
   "Beat Report": "bg-silver/20 text-muted",
 };
@@ -14,7 +14,7 @@ export function NewsFeedItem({ item }: { item: NewsItem }) {
       href={item.sourceUrl}
       target="_blank"
       rel="noopener noreferrer"
-      className="block rounded-lg border border-border bg-surface p-4 transition hover:border-navy/30"
+      className="lift block rounded-lg border border-border bg-surface p-4 hover:border-navy/30"
     >
       <div className="flex items-center gap-2 text-xs">
         <span

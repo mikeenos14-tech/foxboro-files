@@ -6,10 +6,12 @@ export function CountdownCard({ game }: { game: Game }) {
   const location = game.homeTeam === "NE" ? "Home" : "Away";
 
   return (
-    <div className="rounded-lg border border-border bg-surface p-4">
-      <span className="text-sm font-medium text-muted">Next Game</span>
-      <div className="mt-1 text-2xl font-bold text-navy">vs. {opponent}</div>
-      <p className="mt-1 text-sm text-muted">
+    <div className="rounded-lg bg-white/10 p-4 backdrop-blur-sm">
+      <span className="text-sm font-medium text-white/70">Next Game</span>
+      <div className="mt-1 font-display text-4xl font-bold text-white">
+        vs. {opponent}
+      </div>
+      <p className="mt-1 text-sm text-white/70">
         {formatDate(game.date)} · {location} · {game.venue}
       </p>
     </div>

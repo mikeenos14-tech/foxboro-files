@@ -28,6 +28,7 @@ export interface Game {
   week: number;
   seasonType: "REG" | "POST" | "PRE";
   date: string; // ISO date
+  kickoffTimeEt?: string; // "13:00", Eastern Time, from nflverse's schedule
   homeTeam: string;
   awayTeam: string;
   homeScore?: number;

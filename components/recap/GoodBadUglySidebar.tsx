@@ -16,7 +16,7 @@ export function GoodBadUglySidebar({
   goodBadUgly: GameRecap["goodBadUgly"];
 }) {
   return (
-    <div className="rounded-lg border border-border bg-surface p-4">
+    <div className="lift rounded-lg border border-border bg-surface p-4">
       <h3 className="font-semibold">Good, Bad & Ugly</h3>
       <div className="mt-3 space-y-4">
         {sections.map((s) => (

@@ -8,7 +8,7 @@ export default async function RecapIndexPage() {
   return (
     <div className="space-y-6">
       <div>
-        <h1 className="text-2xl font-bold text-navy">Game Recaps</h1>
+        <h1 className="font-display text-3xl font-bold uppercase tracking-wide text-navy dark:text-white">Game Recaps</h1>
         <p className="text-sm text-muted">Every game this season, broken down.</p>
       </div>
 
@@ -24,7 +24,7 @@ export default async function RecapIndexPage() {
             <Link
               key={game.id}
               href={`/recap/${game.id}`}
-              className="block rounded-lg border border-border bg-surface p-4 transition hover:border-navy/30"
+              className="lift block rounded-lg border border-border bg-surface p-4 hover:border-navy/30"
             >
               <div className="flex items-center justify-between">
                 <div className="flex items-center gap-3">
@@ -33,7 +33,7 @@ export default async function RecapIndexPage() {
                   >
                     {won ? "W" : "L"}
                   </span>
-                  <span className="text-xl font-bold text-navy">
+                  <span className="text-xl font-bold text-navy dark:text-white">
                     {usScore}-{themScore}
                   </span>
                   <span className="text-muted">vs. {opponent}</span>

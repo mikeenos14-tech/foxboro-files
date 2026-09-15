@@ -1,16 +1,21 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
 :root {
-  --background: #f5f6f8;
+  --background: #f2f3f6;
   --surface: #ffffff;
-  --foreground: #10151f;
+  --surface-raised: #ffffff;
+  --foreground: #0d1320;
   --muted: #5b6472;
 
   /* Foxboro Files brand palette (Patriots-inspired, original wordmark) */
   --navy: #0a1f44;
   --navy-light: #16305f;
-  --red: #c8102e;
+  --navy-deep: #060f24;
+  --red: #d1102e;
   --red-dark: #9c0c24;
+  --red-light: #ff3355;
   --silver: #a5acaf;
   --silver-light: #e7e9eb;
 
@@ -19,18 +24,72 @@
   --rank-bad: #c8102e;
 
   --border: #e2e4e8;
+  --shadow-color: 15 23 42;
+}
+
+[data-theme="dark"] {
+  --background: #070b14;
+  --surface: #10182a;
+  --surface-raised: #141d33;
+  --foreground: #eef1f6;
+  --muted: #96a1b5;
+
+  --navy: #16305f;
+  --navy-light: #24406f;
+  --navy-deep: #050a15;
+  --red: #ff3b56;
+  --red-dark: #d1102e;
+  --red-light: #ff6b81;
+  --silver: #7c8794;
+  --silver-light: #232c3f;
+
+  --rank-good: #35b56d;
+  --rank-mid: #d6a13a;
+  --rank-bad: #ff5065;
+
+  --border: #232c3f;
+  --shadow-color: 0 0 0;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --background: #070b14;
+    --surface: #10182a;
+    --surface-raised: #141d33;
+    --foreground: #eef1f6;
+    --muted: #96a1b5;
+
+    --navy: #16305f;
+    --navy-light: #24406f;
+    --navy-deep: #050a15;
+    --red: #ff3b56;
+    --red-dark: #d1102e;
+    --red-light: #ff6b81;
+    --silver: #7c8794;
+    --silver-light: #232c3f;
+
+    --rank-good: #35b56d;
+    --rank-mid: #d6a13a;
+    --rank-bad: #ff5065;
+
+    --border: #232c3f;
+    --shadow-color: 0 0 0;
+  }
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-surface: var(--surface);
+  --color-surface-raised: var(--surface-raised);
   --color-foreground: var(--foreground);
   --color-muted: var(--muted);
 
   --color-navy: var(--navy);
   --color-navy-light: var(--navy-light);
+  --color-navy-deep: var(--navy-deep);
   --color-red: var(--red);
   --color-red-dark: var(--red-dark);
+  --color-red-light: var(--red-light);
   --color-silver: var(--silver);
   --color-silver-light: var(--silver-light);
 
@@ -41,10 +100,38 @@
   --color-border: var(--border);
 
   --font-sans: var(--font-inter);
+  --font-display: var(--font-oswald);
 }
 
 body {
   background: var(--color-background);
   color: var(--color-foreground);
   font-family: var(--font-sans), system-ui, sans-serif;
+}
+
+/* Reusable card lift — used on anything clickable/scannable so the site has
+   a little life to it instead of being totally static. */
+.lift {
+  transition:
+    transform 0.15s ease,
+    box-shadow 0.15s ease,
+    border-color 0.15s ease;
+}
+.lift:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 24px -12px rgb(var(--shadow-color) / 0.35);
+}
+
+@keyframes count-in {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.count-in {
+  animation: count-in 0.4s ease both;
 }

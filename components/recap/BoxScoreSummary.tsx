@@ -9,22 +9,26 @@ export function BoxScoreSummary({ game }: { game: Game }) {
   const won = (usScore ?? 0) > (themScore ?? 0);
 
   return (
-    <div className="rounded-lg border border-border bg-surface p-6">
-      <p className="text-sm text-muted">
+    <div className="-mx-4 bg-gradient-to-br from-navy via-navy to-navy-deep px-4 py-8 text-center sm:mx-0 sm:rounded-xl sm:px-6">
+      <p className="text-sm text-white/70">
         {formatDate(game.date)} · {game.venue}
         {game.network ? ` · ${game.network}` : ""}
       </p>
-      <div className="mt-2 flex items-baseline gap-3">
+      <div className="mt-3 flex items-center justify-center gap-4">
         <span
-          className={`text-4xl font-extrabold ${won ? "text-rank-good" : "text-rank-bad"}`}
+          className={`font-display text-2xl font-bold uppercase tracking-widest ${
+            won ? "text-rank-good" : "text-red-light"
+          }`}
         >
-          {won ? "WIN" : "LOSS"}
+          {won ? "Win" : "Loss"}
         </span>
-        <span className="text-4xl font-extrabold text-navy">
-          {usScore}-{themScore}
-        </span>
-        <span className="text-lg text-muted">vs. {opponent}</span>
       </div>
+      <div className="mt-1 font-display text-7xl font-bold text-white sm:text-8xl">
+        {usScore}
+        <span className="mx-2 text-silver">–</span>
+        {themScore}
+      </div>
+      <p className="mt-2 text-lg text-white/70">vs. {opponent}</p>
     </div>
   );
 }

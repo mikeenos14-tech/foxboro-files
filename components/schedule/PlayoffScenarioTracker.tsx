@@ -14,7 +14,7 @@ export function PlayoffScenarioTracker({
   if (currentWeek < 10) return null;
 
   return (
-    <div className="rounded-lg border border-border bg-surface p-4">
+    <div className="lift rounded-lg border border-border bg-surface p-4">
       <h3 className="font-semibold">Playoff Scenarios</h3>
       <p className="mt-1 text-sm text-muted">
         Projected {projection.projectedWins}-{projection.projectedLosses}, ~

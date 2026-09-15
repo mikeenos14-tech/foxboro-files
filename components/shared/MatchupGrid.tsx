@@ -1,4 +1,5 @@
 import type { PositionMatchup } from "@/lib/data/types";
+import { SoWhatNote, type Sentiment } from "./SoWhatNote";
 
 const edgeClasses: Record<PositionMatchup["edge"], string> = {
   us: "bg-rank-good/10 text-rank-good ring-rank-good/30",
@@ -12,11 +13,17 @@ const edgeLabel: Record<PositionMatchup["edge"], string> = {
   even: "Even",
 };
 
+const edgeSentiment: Record<PositionMatchup["edge"], Sentiment> = {
+  us: "good",
+  them: "bad",
+  even: "mid",
+};
+
 export function MatchupGrid({ matchups }: { matchups: PositionMatchup[] }) {
   return (
     <div className="grid gap-3 sm:grid-cols-2">
       {matchups.map((m) => (
-        <div key={m.group} className="rounded-lg border border-border bg-surface p-4">
+        <div key={m.group} className="lift rounded-lg border border-border bg-surface p-4">
           <div className="flex items-center justify-between">
             <span className="font-semibold">{m.group}</span>
             <span
@@ -29,9 +36,7 @@ export function MatchupGrid({ matchups }: { matchups: PositionMatchup[] }) {
             <span>Us: {m.ourGrade}</span>
             <span>Them: {m.theirGrade}</span>
           </div>
-          <p className="mt-2 text-sm text-muted italic border-l-2 border-red pl-2">
-            {m.note}
-          </p>
+          <SoWhatNote sentiment={edgeSentiment[m.edge]}>{m.note}</SoWhatNote>
         </div>
       ))}
     </div>

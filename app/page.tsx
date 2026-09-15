@@ -21,24 +21,23 @@ export default async function HomePage() {
     ]);
 
   return (
-    <div className="space-y-8">
-      <div>
-        <h1 className="text-2xl font-bold text-navy">
-          {team.name} at a Glance
+    <div className="-mx-4 space-y-8 sm:mx-0">
+      <div className="bg-gradient-to-br from-navy via-navy to-navy-deep px-4 py-6 sm:rounded-xl sm:px-6">
+        <h1 className="font-display text-3xl font-bold uppercase tracking-wide text-white">
+          {team.name}
         </h1>
-        <p className="text-sm text-muted">
+        <p className="text-sm text-white/70">
           Season {teamStats.season} dashboard
         </p>
+        <div className="mt-5 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+          <RecordAndStandingCard schedule={schedule} />
+          <PlayoffOddsCard projection={projection} />
+          <CountdownCard game={nextGame} />
+          <GameResultCard game={lastGame} />
+        </div>
       </div>
 
-      <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
-        <RecordAndStandingCard schedule={schedule} />
-        <PlayoffOddsCard projection={projection} />
-        <CountdownCard game={nextGame} />
-        <GameResultCard game={lastGame} />
-      </div>
-
-      <div>
+      <div className="px-4 sm:px-0">
         <h2 className="mb-3 text-lg font-semibold">Team Strength vs. League</h2>
         <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
           <StatCard
@@ -62,7 +61,7 @@ export default async function HomePage() {
         </div>
       </div>
 
-      <div>
+      <div className="px-4 sm:px-0">
         <h2 className="mb-3 text-lg font-semibold">Latest Headlines</h2>
         <HeadlinesList items={news} />
       </div>

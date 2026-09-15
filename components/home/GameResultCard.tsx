@@ -12,21 +12,23 @@ export function GameResultCard({ game }: { game: Game }) {
   return (
     <Link
       href={`/recap/${game.id}`}
-      className="block rounded-lg border border-border bg-surface p-4 transition hover:border-navy/30"
+      className="block rounded-lg bg-white/10 p-4 backdrop-blur-sm transition hover:bg-white/15"
     >
-      <span className="text-sm font-medium text-muted">Last Game</span>
+      <span className="text-sm font-medium text-white/70">Last Game</span>
       <div className="mt-1 flex items-baseline gap-2">
         <span
-          className={`text-2xl font-bold ${won ? "text-rank-good" : "text-rank-bad"}`}
+          className={`font-display text-4xl font-bold ${won ? "text-rank-good" : "text-red-light"}`}
         >
           {won ? "W" : "L"}
         </span>
-        <span className="text-2xl font-bold text-navy">
+        <span className="font-display text-4xl font-bold text-white">
           {usScore}-{themScore}
         </span>
-        <span className="text-sm text-muted">vs. {opponent}</span>
+        <span className="text-sm text-white/70">vs. {opponent}</span>
       </div>
-      <p className="mt-1 text-sm text-muted">{formatDate(game.date)} · Full recap →</p>
+      <p className="mt-1 text-sm text-white/70">
+        {formatDate(game.date)} · Full recap →
+      </p>
     </Link>
   );
 }

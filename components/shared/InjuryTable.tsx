@@ -41,7 +41,10 @@ export function InjuryTable({ entries }: { entries: InjuryReportEntry[] }) {
         </thead>
         <tbody>
           {entries.map((e) => (
-            <tr key={e.playerId} className="border-b border-border last:border-0">
+            <tr
+              key={e.playerId}
+              className="border-b border-border transition-colors last:border-0 hover:bg-navy/10"
+            >
               <td className="px-3 py-2 font-medium">
                 {e.playerName} <span className="text-muted">{e.position}</span>
               </td>

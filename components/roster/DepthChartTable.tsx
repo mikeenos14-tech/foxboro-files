@@ -5,7 +5,7 @@ export function DepthChartTable({ chart }: { chart: DepthChartEntry[] }) {
   return (
     <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
       {chart.map((entry) => (
-        <div key={entry.position} className="rounded-lg border border-border bg-surface p-4">
+        <div key={entry.position} className="lift rounded-lg border border-border bg-surface p-4">
           <span className="text-xs font-bold uppercase tracking-wide text-muted">
             {entry.position}
           </span>

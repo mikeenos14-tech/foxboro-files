@@ -4,6 +4,7 @@ import { MatchupGrid } from "@/components/shared/MatchupGrid";
 import { InjuryTable } from "@/components/shared/InjuryTable";
 import { MatchupOfTheWeekCallout } from "@/components/next-game/MatchupOfTheWeekCallout";
 import { RecentFormTrend } from "@/components/next-game/RecentFormTrend";
+import { NextGameHero } from "@/components/next-game/NextGameHero";
 import { formatDate } from "@/lib/util/format";
 import { ordinal } from "@/lib/calc/ranks";
 
@@ -15,15 +16,7 @@ export default async function NextGamePage() {
 
   return (
     <div className="space-y-6">
-      <div>
-        <h1 className="text-2xl font-bold text-navy">
-          Week {game.week}: vs. {matchup.opponent}
-        </h1>
-        <p className="text-sm text-muted">
-          {formatDate(game.date)} · {game.venue}
-          {game.network ? ` · ${game.network}` : ""}
-        </p>
-      </div>
+      <NextGameHero game={game} opponent={matchup.opponent} />
 
       <div className="grid gap-3 sm:grid-cols-2">
         <StatCard
@@ -51,7 +44,7 @@ export default async function NextGamePage() {
       <div className="grid gap-4 lg:grid-cols-2">
         <RecentFormTrend recentForm={matchup.recentForm} />
 
-        <div className="rounded-lg border border-border bg-surface p-4">
+        <div className="lift rounded-lg border border-border bg-surface p-4">
           <h3 className="font-semibold">Head-to-Head</h3>
           <ul className="mt-2 space-y-1 text-sm text-muted">
             {matchup.headToHead.map((h, i) => (
