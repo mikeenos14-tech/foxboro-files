@@ -1,0 +1,38 @@
+[
+  {
+    "playerId": "4362890",
+    "playerName": "Ben Brown",
+    "position": "C",
+    "week": 2,
+    "injury": "Knee",
+    "gameStatus": "Questionable",
+    "lastUpdated": "2026-09-15T15:39Z"
+  },
+  {
+    "playerId": "4432710",
+    "playerName": "TreVeyon Henderson",
+    "position": "RB",
+    "week": 2,
+    "injury": "Ankle",
+    "gameStatus": "Questionable",
+    "lastUpdated": "2026-09-14T16:07Z"
+  },
+  {
+    "playerId": "3122793",
+    "playerName": "Harold Landry III",
+    "position": "LB",
+    "week": 2,
+    "injury": "Undisclosed",
+    "gameStatus": "Out",
+    "lastUpdated": "2026-08-31T18:30Z"
+  },
+  {
+    "playerId": "4047941",
+    "playerName": "Brenden Schooler",
+    "position": "S",
+    "week": 2,
+    "injury": "Undisclosed",
+    "gameStatus": "Out",
+    "lastUpdated": "2026-09-08T20:42Z"
+  }
+]

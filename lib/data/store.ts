@@ -128,9 +128,11 @@ export async function getOpponentMatchup(): Promise<OpponentMatchupData> {
 }
 
 export async function getInjuries(): Promise<InjuryReportEntry[]> {
-  return fixtures.injuries;
+  return (
+    (await readGenerated<InjuryReportEntry[]>("injuries.json")) ?? fixtures.injuries
+  );
 }
 
 export async function getNews(): Promise<NewsItem[]> {
-  return fixtures.news;
+  return (await readGenerated<NewsItem[]>("news.json")) ?? fixtures.news;
 }
