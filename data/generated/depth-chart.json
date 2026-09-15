@@ -1,0 +1,539 @@
+[
+  {
+    "position": "G",
+    "players": [
+      {
+        "playerId": "00-0029685",
+        "playerName": "Greg Van Roten",
+        "rank": 1
+      },
+      {
+        "playerId": "00-0036198",
+        "playerName": "Mike Onwenu",
+        "rank": 2
+      },
+      {
+        "playerId": "00-0036979",
+        "playerName": "Alijah Vera-Tucker",
+        "rank": 3
+      },
+      {
+        "playerId": "00-0039508",
+        "playerName": "Jake Kubas",
+        "rank": 4
+      }
+    ]
+  },
+  {
+    "position": "DT",
+    "players": [
+      {
+        "playerId": "00-0031054",
+        "playerName": "DaQuan Jones",
+        "espnId": "16910",
+        "rank": 1
+      },
+      {
+        "playerId": "00-0036916",
+        "playerName": "Milton Williams",
+        "espnId": "4239699",
+        "rank": 2
+      },
+      {
+        "playerId": "00-0036981",
+        "playerName": "Christian Barmore",
+        "espnId": "4372030",
+        "rank": 3
+      },
+      {
+        "playerId": "00-0037711",
+        "playerName": "Jeremiah Pharms Jr.",
+        "espnId": "5081728",
+        "rank": 4
+      },
+      {
+        "playerId": "00-0038653",
+        "playerName": "Cory Durden",
+        "espnId": "4240042",
+        "rank": 5
+      },
+      {
+        "playerId": "00-0039289",
+        "playerName": "Leonard Taylor III",
+        "espnId": "4431598",
+        "rank": 6
+      },
+      {
+        "playerId": "00-0040171",
+        "playerName": "Joshua Farmer",
+        "espnId": "4611993",
+        "rank": 7
+      },
+      {
+        "playerId": "00-0040371",
+        "playerName": "Eric Gregory",
+        "espnId": "4567171",
+        "rank": 8
+      }
+    ]
+  },
+  {
+    "position": "T",
+    "players": [
+      {
+        "playerId": "00-0031330",
+        "playerName": "Morgan Moses",
+        "rank": 1
+      },
+      {
+        "playerId": "00-0038426",
+        "playerName": "Lorenz Metz",
+        "rank": 2
+      },
+      {
+        "playerId": "00-0039828",
+        "playerName": "Walter Rouse",
+        "rank": 3
+      },
+      {
+        "playerId": "00-0040226",
+        "playerName": "Marcus Bryant",
+        "rank": 4
+      },
+      {
+        "playerId": "00-0040699",
+        "playerName": "Will Campbell",
+        "rank": 5
+      },
+      {
+        "playerId": "00-0041103",
+        "playerName": "Dametrious Crownover",
+        "rank": 6
+      },
+      {
+        "playerId": "00-0041541",
+        "playerName": "Caleb Lomu",
+        "rank": 7
+      }
+    ]
+  },
+  {
+    "position": "TE",
+    "players": [
+      {
+        "playerId": "00-0033090",
+        "playerName": "Hunter Henry",
+        "espnId": "3046439",
+        "rank": 1
+      },
+      {
+        "playerId": "00-0036534",
+        "playerName": "Shane Zylstra",
+        "espnId": "4608362",
+        "rank": 2
+      },
+      {
+        "playerId": "00-0038564",
+        "playerName": "Cameron Latu",
+        "espnId": "4372026",
+        "rank": 3
+      },
+      {
+        "playerId": "00-0038720",
+        "playerName": "Julian Hill",
+        "espnId": "4365395",
+        "rank": 4
+      },
+      {
+        "playerId": "00-0041314",
+        "playerName": "Tanner Arkin",
+        "rank": 5
+      },
+      {
+        "playerId": "00-0041395",
+        "playerName": "Eli Raridon",
+        "espnId": "4831959",
+        "rank": 6
+      }
+    ]
+  },
+  {
+    "position": "FS",
+    "players": [
+      {
+        "playerId": "00-0033132",
+        "playerName": "Kevin Byard",
+        "espnId": "2574056",
+        "rank": 1
+      },
+      {
+        "playerId": "00-0037205",
+        "playerName": "Brenden Schooler",
+        "espnId": "4047941",
+        "rank": 2
+      },
+      {
+        "playerId": "00-0037493",
+        "playerName": "Mike Brown",
+        "espnId": "4244310",
+        "rank": 3
+      },
+      {
+        "playerId": "00-0039692",
+        "playerName": "Dell Pettus",
+        "espnId": "4428232",
+        "rank": 4
+      }
+    ]
+  },
+  {
+    "position": "WR",
+    "players": [
+      {
+        "playerId": "00-0033555",
+        "playerName": "Mack Hollins",
+        "espnId": "2991662",
+        "rank": 1
+      },
+      {
+        "playerId": "00-0035676",
+        "playerName": "A.J. Brown",
+        "espnId": "4047646",
+        "rank": 2
+      },
+      {
+        "playerId": "00-0037816",
+        "playerName": "Romeo Doubs",
+        "espnId": "4361432",
+        "rank": 3
+      },
+      {
+        "playerId": "00-0038621",
+        "playerName": "DeMario Douglas",
+        "espnId": "4427095",
+        "rank": 4
+      },
+      {
+        "playerId": "00-0040131",
+        "playerName": "Kyle Williams",
+        "espnId": "4613202",
+        "rank": 5
+      },
+      {
+        "playerId": "00-0040323",
+        "playerName": "Chandler Brayboy",
+        "rank": 6
+      },
+      {
+        "playerId": "00-0040563",
+        "playerName": "Efton Chism III",
+        "espnId": "4695193",
+        "rank": 7
+      },
+      {
+        "playerId": "00-0040570",
+        "playerName": "Jeremiah Webb",
+        "rank": 8
+      },
+      {
+        "playerId": "00-0041318",
+        "playerName": "Kyle Dixon",
+        "espnId": "5011554",
+        "rank": 9
+      },
+      {
+        "playerId": "00-0041319",
+        "playerName": "Cameron Dorner",
+        "rank": 10
+      }
+    ]
+  },
+  {
+    "position": "ILB",
+    "players": [
+      {
+        "playerId": "00-0034720",
+        "playerName": "Robert Spillane",
+        "espnId": "3129446",
+        "rank": 1
+      },
+      {
+        "playerId": "00-0036643",
+        "playerName": "K.J. Britt",
+        "espnId": "4242521",
+        "rank": 2
+      },
+      {
+        "playerId": "00-0036813",
+        "playerName": "Christian Elliss",
+        "espnId": "4245273",
+        "rank": 3
+      },
+      {
+        "playerId": "00-0039829",
+        "playerName": "Darius Muasau",
+        "espnId": "4428072",
+        "rank": 4
+      },
+      {
+        "playerId": "00-0041109",
+        "playerName": "Namdi Obiazor",
+        "espnId": "5085407",
+        "rank": 5
+      },
+      {
+        "playerId": "00-0041321",
+        "playerName": "Khalil Jacobs",
+        "espnId": "4912116",
+        "rank": 6
+      },
+      {
+        "playerId": "00-0041564",
+        "playerName": "Riley Wilson",
+        "rank": 7
+      }
+    ]
+  },
+  {
+    "position": "CB",
+    "players": [
+      {
+        "playerId": "00-0034778",
+        "playerName": "Carlton Davis III",
+        "espnId": "3916923",
+        "rank": 1
+      },
+      {
+        "playerId": "00-0036307",
+        "playerName": "Kindle Vildor",
+        "espnId": "4036651",
+        "rank": 2
+      },
+      {
+        "playerId": "00-0037253",
+        "playerName": "Marcus Jones",
+        "espnId": "4241720",
+        "rank": 3
+      },
+      {
+        "playerId": "00-0039147",
+        "playerName": "Christian Gonzalez",
+        "espnId": "4686772",
+        "rank": 4
+      },
+      {
+        "playerId": "00-0039770",
+        "playerName": "Charles Woods",
+        "espnId": "4368113",
+        "rank": 5
+      },
+      {
+        "playerId": "00-0041088",
+        "playerName": "Karon Prunty",
+        "espnId": "4606666",
+        "rank": 6
+      },
+      {
+        "playerId": "00-0041316",
+        "playerName": "Channing Canada",
+        "rank": 7
+      }
+    ]
+  },
+  {
+    "position": "OLB",
+    "players": [
+      {
+        "playerId": "00-0034828",
+        "playerName": "Harold Landry III",
+        "espnId": "3122793",
+        "rank": 1
+      },
+      {
+        "playerId": "00-0035678",
+        "playerName": "Dre'Mont Jones",
+        "espnId": "3915525",
+        "rank": 2
+      },
+      {
+        "playerId": "00-0039053",
+        "playerName": "Jose Ramirez",
+        "espnId": "4569068",
+        "rank": 3
+      },
+      {
+        "playerId": "00-0040574",
+        "playerName": "Elijah Ponder",
+        "espnId": "4688432",
+        "rank": 4
+      },
+      {
+        "playerId": "00-0041402",
+        "playerName": "Quintayvious Hutchins",
+        "espnId": "4698181",
+        "rank": 5
+      },
+      {
+        "playerId": "00-0041412",
+        "playerName": "Xavier Holmes",
+        "rank": 6
+      },
+      {
+        "playerId": "00-0041455",
+        "playerName": "Erick Hunter",
+        "espnId": "4890074",
+        "rank": 7
+      },
+      {
+        "playerId": "00-0041569",
+        "playerName": "Gabe Jacas",
+        "espnId": "4837244",
+        "rank": 8
+      }
+    ]
+  },
+  {
+    "position": "P",
+    "players": [
+      {
+        "playerId": "00-0034941",
+        "playerName": "Mitch Wishnowsky",
+        "espnId": "4035685",
+        "rank": 1
+      },
+      {
+        "playerId": "00-0038610",
+        "playerName": "Bryce Baringer",
+        "espnId": "4240545",
+        "rank": 2
+      }
+    ]
+  },
+  {
+    "position": "FB",
+    "players": [
+      {
+        "playerId": "00-0036187",
+        "playerName": "Reggie Gilliam",
+        "espnId": "4039505",
+        "rank": 1
+      }
+    ]
+  },
+  {
+    "position": "RB",
+    "players": [
+      {
+        "playerId": "00-0036875",
+        "playerName": "Rhamondre Stevenson",
+        "espnId": "4569173",
+        "rank": 1
+      },
+      {
+        "playerId": "00-0040556",
+        "playerName": "Corey Kiner",
+        "espnId": "4431431",
+        "rank": 2
+      },
+      {
+        "playerId": "00-0040568",
+        "playerName": "Lan Larison",
+        "espnId": "4698253",
+        "rank": 3
+      },
+      {
+        "playerId": "00-0040734",
+        "playerName": "TreVeyon Henderson",
+        "espnId": "4432710",
+        "rank": 4
+      },
+      {
+        "playerId": "00-0041323",
+        "playerName": "Myles Montgomery",
+        "espnId": "4676889",
+        "rank": 5
+      }
+    ]
+  },
+  {
+    "position": "C",
+    "players": [
+      {
+        "playerId": "00-0037413",
+        "playerName": "Ben Brown",
+        "rank": 1
+      },
+      {
+        "playerId": "00-0040147",
+        "playerName": "Jared Wilson",
+        "rank": 2
+      },
+      {
+        "playerId": "00-0041325",
+        "playerName": "Jacob Rizy",
+        "rank": 3
+      }
+    ]
+  },
+  {
+    "position": "QB",
+    "players": [
+      {
+        "playerId": "00-0038476",
+        "playerName": "Tommy DeVito",
+        "espnId": "4240391",
+        "rank": 1
+      },
+      {
+        "playerId": "00-0039851",
+        "playerName": "Drake Maye",
+        "espnId": "4431452",
+        "rank": 2
+      },
+      {
+        "playerId": "00-0041123",
+        "playerName": "Behren Morton",
+        "espnId": "4431465",
+        "rank": 3
+      }
+    ]
+  },
+  {
+    "position": "K",
+    "players": [
+      {
+        "playerId": "00-0040200",
+        "playerName": "Andy Borregales",
+        "espnId": "4569923",
+        "rank": 1
+      }
+    ]
+  },
+  {
+    "position": "SS",
+    "players": [
+      {
+        "playerId": "00-0040204",
+        "playerName": "Jaylen Reed",
+        "espnId": "4432758",
+        "rank": 1
+      },
+      {
+        "playerId": "00-0040716",
+        "playerName": "Craig Woodson",
+        "espnId": "4428930",
+        "rank": 2
+      }
+    ]
+  },
+  {
+    "position": "LS",
+    "players": [
+      {
+        "playerId": "00-0040246",
+        "playerName": "Julian Ashby",
+        "rank": 1
+      }
+    ]
+  }
+]

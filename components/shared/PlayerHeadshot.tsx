@@ -1,8 +1,11 @@
+"use client";
+
+import { useState } from "react";
 import Image from "next/image";
 
-// Real headshots are sourced via each player's mapped espnId once the ESPN
-// pipeline (Phase 2) is wired up. Until then, or if a photo fails to load,
-// fall back to initials so the layout never breaks.
+// Real headshots are sourced via each player's mapped espnId (Phase 2/3
+// pipeline). If a player has no espnId, or the image fails to load, fall
+// back to initials so the layout never breaks.
 export function PlayerHeadshot({
   name,
   espnId,
@@ -12,6 +15,7 @@ export function PlayerHeadshot({
   espnId?: string;
   size?: number;
 }) {
+  const [failed, setFailed] = useState(false);
   const initials = name
     .split(" ")
     .map((p) => p[0])
@@ -19,15 +23,17 @@ export function PlayerHeadshot({
     .slice(0, 2)
     .toUpperCase();
 
-  if (espnId) {
+  if (espnId && !failed) {
     return (
       <Image
         src={`https://a.espncdn.com/i/headshots/nfl/players/full/${espnId}.png`}
         alt={name}
         width={size}
         height={size}
+        style={{ width: size, height: size }}
         className="rounded-full bg-silver-light object-cover"
         unoptimized
+        onError={() => setFailed(true)}
       />
     );
   }

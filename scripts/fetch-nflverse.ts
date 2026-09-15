@@ -17,6 +17,13 @@ const SOURCES: Array<{ name: string; url: string }> = [
     name: "play_by_play_2026.csv",
     url: "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv",
   },
+  {
+    // Weekly roster snapshots — also doubles as the gsis_id <-> espn_id
+    // crosswalk that lets us join play-by-play (gsis_id) to ESPN headshots
+    // and news (espn_id) for the same player.
+    name: "roster_2026.csv",
+    url: "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
+  },
 ];
 
 async function fetchOne(name: string, url: string) {

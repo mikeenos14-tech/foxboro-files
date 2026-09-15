@@ -1,0 +1,30 @@
+[
+  {
+    "group": "QB",
+    "grade": 32,
+    "leagueAvg": 50,
+    "trend": "flat",
+    "soWhat": "32nd percentile in the NFL for EPA/play generated at QB this season (36 plays sampled)."
+  },
+  {
+    "group": "RB",
+    "grade": 0,
+    "leagueAvg": 50,
+    "trend": "flat",
+    "soWhat": "0th percentile in the NFL for EPA/play generated at RB this season (24 plays sampled)."
+  },
+  {
+    "group": "WR",
+    "grade": 29,
+    "leagueAvg": 50,
+    "trend": "flat",
+    "soWhat": "29th percentile in the NFL for EPA/play generated at WR this season (19 plays sampled)."
+  },
+  {
+    "group": "TE",
+    "grade": 45,
+    "leagueAvg": 50,
+    "trend": "flat",
+    "soWhat": "45th percentile in the NFL for EPA/play generated at TE this season (4 plays sampled)."
+  }
+]

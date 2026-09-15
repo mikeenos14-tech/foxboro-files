@@ -6,7 +6,7 @@ export function QBDeepDive({ qb }: { qb: QBData }) {
   return (
     <div className="rounded-lg border border-border bg-surface p-4">
       <div className="flex items-center gap-3">
-        <PlayerHeadshot name={qb.playerName} size={56} />
+        <PlayerHeadshot name={qb.playerName} espnId={qb.espnId} size={56} />
         <div>
           <h3 className="text-lg font-bold text-navy">{qb.playerName}</h3>
           <p className="text-sm text-muted">

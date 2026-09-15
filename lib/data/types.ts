@@ -109,6 +109,7 @@ export interface PositionGroupReportCard {
 export interface QBDeepDive {
   playerId: string;
   playerName: string;
+  espnId?: string;
   attempts: number;
   completions: number;
   yards: number;
@@ -207,5 +208,5 @@ export interface OpponentMatchupData {
 
 export interface DepthChartEntry {
   position: string;
-  players: Array<{ playerId: string; playerName: string; rank: number }>;
+  players: Array<{ playerId: string; playerName: string; rank: number; espnId?: string }>;
 }

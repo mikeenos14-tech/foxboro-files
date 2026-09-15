@@ -104,15 +104,25 @@ export async function getTeamStats(): Promise<TeamStatSnapshot> {
 export async function getPositionGroupReportCards(): Promise<
   PositionGroupReportCard[]
 > {
-  return fixtures.positionGroupReportCards;
+  // Real for QB/RB/WR/TE (computed from play-by-play); the rest
+  // (OL/Edge/Interior DL/LB/Secondary) stay fixture-sourced until we have a
+  // real per-position defensive/line grading source — merge rather than
+  // replace so the page never silently drops those cards.
+  const real = await readGenerated<PositionGroupReportCard[]>("position-group-cards.json");
+  if (!real) return fixtures.positionGroupReportCards;
+  const realGroups = new Set(real.map((c) => c.group));
+  const remainingFixtures = fixtures.positionGroupReportCards.filter(
+    (c) => !realGroups.has(c.group)
+  );
+  return [...real, ...remainingFixtures];
 }
 
 export async function getQBDeepDive(): Promise<QBDeepDive> {
-  return fixtures.qbDeepDive;
+  return (await readGenerated<QBDeepDive>("qb-deep-dive.json")) ?? fixtures.qbDeepDive;
 }
 
 export async function getDepthChart(): Promise<DepthChartEntry[]> {
-  return fixtures.depthChart;
+  return (await readGenerated<DepthChartEntry[]>("depth-chart.json")) ?? fixtures.depthChart;
 }
 
 export async function getSchedule(): Promise<ScheduleRow[]> {

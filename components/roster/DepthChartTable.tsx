@@ -12,7 +12,7 @@ export function DepthChartTable({ chart }: { chart: DepthChartEntry[] }) {
           <ul className="mt-2 space-y-2">
             {entry.players.map((p) => (
               <li key={p.playerId} className="flex items-center gap-2">
-                <PlayerHeadshot name={p.playerName} size={32} />
+                <PlayerHeadshot name={p.playerName} espnId={p.espnId} size={32} />
                 <span className="text-sm font-medium">
                   {p.rank}. {p.playerName}
                 </span>

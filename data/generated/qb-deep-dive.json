@@ -1,0 +1,19 @@
+{
+  "playerId": "00-0039851",
+  "playerName": "Drake Maye",
+  "espnId": "4431452",
+  "attempts": 36,
+  "completions": 23,
+  "yards": 168,
+  "tds": 1,
+  "ints": 3,
+  "cpoe": 5.970450658952029,
+  "accuracyByDepth": {
+    "short": 0.8666666666666667,
+    "medium": 0.5,
+    "deep": 0
+  },
+  "pressureEpa": -1.1036812487097138,
+  "cleanPocketEpa": 0.06669111124241042,
+  "turnoverWorthyPlayRate": 0.08333333333333333
+}
