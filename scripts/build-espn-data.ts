@@ -191,23 +191,35 @@ async function fetchBodyPart(athleteId: string): Promise<string> {
   }
 }
 
-async function currentWeek(): Promise<number> {
+async function readNextGame(): Promise<Game | null> {
   try {
     const content = await readFile(
       path.join(GENERATED_DIR, "next-game.json"),
       "utf-8"
     );
-    const game = JSON.parse(content) as Game;
-    return game.week;
+    return JSON.parse(content) as Game;
   } catch {
-    return 0;
+    return null;
   }
 }
 
-async function buildInjuriesFromEspn(): Promise<InjuryReportEntry[] | null> {
-  const raw = await readRawJson<EspnRosterResponse>("espn-roster.json");
+async function currentWeek(): Promise<number> {
+  const game = await readNextGame();
+  return game?.week ?? 0;
+}
+
+async function nextGameOpponent(): Promise<string | null> {
+  const game = await readNextGame();
+  if (!game) return null;
+  return game.homeTeam === TEAM ? game.awayTeam : game.homeTeam;
+}
+
+async function buildInjuriesFromEspn(
+  rosterFile: string,
+  week: number
+): Promise<InjuryReportEntry[] | null> {
+  const raw = await readRawJson<EspnRosterResponse>(rosterFile);
   if (!raw?.athletes) return null;
-  const week = await currentWeek();
 
   const withInjuries = raw.athletes
     .flatMap((group) => group.items ?? [])
@@ -306,8 +318,9 @@ async function main() {
   }
 
   const week = await currentWeek();
+
   const nflverseInjuries = await buildInjuriesFromNflverse(TEAM, week);
-  const injuries = nflverseInjuries ?? (await buildInjuriesFromEspn());
+  const injuries = nflverseInjuries ?? (await buildInjuriesFromEspn("espn-roster.json", week));
   if (injuries) {
     await writeFile(
       path.join(GENERATED_DIR, "injuries.json"),
@@ -318,6 +331,24 @@ async function main() {
     );
   } else {
     console.warn("injuries.json not updated — kept previous version, if any.");
+  }
+
+  const opponent = await nextGameOpponent();
+  if (opponent) {
+    const nflverseOppInjuries = await buildInjuriesFromNflverse(opponent, week);
+    const oppInjuries =
+      nflverseOppInjuries ?? (await buildInjuriesFromEspn("espn-opponent-roster.json", week));
+    if (oppInjuries) {
+      await writeFile(
+        path.join(GENERATED_DIR, "opponent-injuries.json"),
+        JSON.stringify(oppInjuries, null, 2)
+      );
+      console.log(
+        `Wrote opponent-injuries.json (${oppInjuries.length} entries for ${opponent}, source: ${nflverseOppInjuries ? "nflverse" : "ESPN fallback"})`
+      );
+    } else {
+      console.warn("opponent-injuries.json not updated — kept previous version, if any.");
+    }
   }
 }
 

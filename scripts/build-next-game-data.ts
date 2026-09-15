@@ -1,0 +1,240 @@
+// Builds the Next Game page's opponent matchup data: real EPA-based
+// position-unit matchups (rush offense vs run defense, pass offense vs
+// pass defense, pass protection vs pass rush, and both mirrored on
+// defense), opponent EPA ranks, recent form, all-time head-to-head, and
+// the real current betting line from ESPN's scoreboard. Everything here
+// is computed from real play-by-play/schedule data — no PFF-style
+// player-vs-player grades (we don't have that data), just honest team/
+// unit-level EPA splits, which is a defensible substitute.
+//
+// Run with: npx tsx scripts/build-next-game-data.ts
+// (after: npx tsx scripts/build-data.ts, scripts/fetch-news-sources.ts)
+
+import { mkdir, readFile, writeFile } from "node:fs/promises";
+import path from "node:path";
+import { loadCsv, num, bool01 } from "./lib/csv";
+import type { PbpRow } from "./lib/pbp";
+import { rankGeneric } from "./lib/rank";
+import { ALL_TEAMS } from "./lib/teams";
+import { ordinal } from "../lib/calc/ranks";
+import type {
+  Game,
+  OpponentMatchupData,
+  PositionMatchup,
+} from "../lib/data/types";
+
+const TEAM = "NE";
+const SEASON = 2026;
+const GENERATED_DIR = path.join(process.cwd(), "data", "generated");
+
+type GameRow = Record<string, string>;
+
+function playEpa(
+  pbp: PbpRow[],
+  team: string,
+  side: "posteam" | "defteam",
+  playType: "run" | "pass"
+): number {
+  const rows = pbp.filter((r) => r[side] === team && r.play_type === playType);
+  if (rows.length === 0) return 0;
+  return rows.reduce((sum, r) => sum + num(r.epa), 0) / rows.length;
+}
+
+function sackRateAllowed(pbp: PbpRow[], team: string): number {
+  const dropbacks = pbp.filter((r) => r.posteam === team && bool01(r.pass_attempt));
+  const sacked = dropbacks.filter((r) => bool01(r.sack));
+  return dropbacks.length === 0 ? 0 : sacked.length / dropbacks.length;
+}
+
+function sackRateGenerated(pbp: PbpRow[], team: string): number {
+  const dropbacks = pbp.filter((r) => r.defteam === team && bool01(r.pass_attempt));
+  const sacked = dropbacks.filter((r) => bool01(r.sack));
+  return dropbacks.length === 0 ? 0 : sacked.length / dropbacks.length;
+}
+
+function edgeFor(ourGrade: number, theirGrade: number): PositionMatchup["edge"] {
+  const diff = ourGrade - theirGrade;
+  if (diff >= 12) return "us";
+  if (diff <= -12) return "them";
+  return "even";
+}
+
+async function main() {
+  await mkdir(GENERATED_DIR, { recursive: true });
+
+  const games = await loadCsv<GameRow>("games.csv");
+  const pbp = await loadCsv<PbpRow>("play_by_play_2026.csv");
+
+  let nextGame: Game;
+  try {
+    nextGame = JSON.parse(
+      await readFile(path.join(GENERATED_DIR, "next-game.json"), "utf-8")
+    );
+  } catch {
+    console.warn("next-game.json not found — run build-data.ts first. Skipping.");
+    return;
+  }
+  const opponent = nextGame.homeTeam === TEAM ? nextGame.awayTeam : nextGame.homeTeam;
+
+  // ---------- EPA-based unit matchups ----------
+  const grade = (valueOf: (t: string) => number, higherIsBetter: boolean, team: string) =>
+    rankGeneric(ALL_TEAMS, team, valueOf, higherIsBetter).leaguePercentile;
+
+  const rushOffGrade = (t: string) => grade((tt) => playEpa(pbp, tt, "posteam", "run"), true, t);
+  const passOffGrade = (t: string) => grade((tt) => playEpa(pbp, tt, "posteam", "pass"), true, t);
+  const rushDefGrade = (t: string) => grade((tt) => playEpa(pbp, tt, "defteam", "run"), false, t);
+  const passDefGrade = (t: string) => grade((tt) => playEpa(pbp, tt, "defteam", "pass"), false, t);
+  const passProGrade = (t: string) => grade((tt) => sackRateAllowed(pbp, tt), false, t);
+  const passRushGrade = (t: string) => grade((tt) => sackRateGenerated(pbp, tt), true, t);
+
+  function unitNote(
+    label: string,
+    ourGrade: number,
+    theirGrade: number,
+    edge: PositionMatchup["edge"]
+  ): string {
+    const verdict =
+      edge === "us"
+        ? "advantage us"
+        : edge === "them"
+          ? "advantage them"
+          : "close matchup";
+    return `${ordinal(ourGrade)} percentile vs. ${ordinal(theirGrade)} percentile (${verdict}).`;
+  }
+
+  const categories: Array<{ label: string; ours: number; theirs: number }> = [
+    { label: "Rush Offense vs. Run Defense", ours: rushOffGrade(TEAM), theirs: rushDefGrade(opponent) },
+    { label: "Pass Offense vs. Pass Defense", ours: passOffGrade(TEAM), theirs: passDefGrade(opponent) },
+    { label: "Run Defense vs. Rush Offense", ours: rushDefGrade(TEAM), theirs: rushOffGrade(opponent) },
+    { label: "Pass Defense vs. Pass Offense", ours: passDefGrade(TEAM), theirs: passOffGrade(opponent) },
+    { label: "Pass Protection vs. Pass Rush", ours: passProGrade(TEAM), theirs: passRushGrade(opponent) },
+  ];
+
+  const positionGroupMatchups: PositionMatchup[] = categories.map((c) => {
+    const edge = edgeFor(c.ours, c.theirs);
+    return {
+      group: c.label,
+      ourGrade: c.ours,
+      theirGrade: c.theirs,
+      edge,
+      note: unitNote(c.label, c.ours, c.theirs, edge),
+    };
+  });
+
+  const biggest = [...categories]
+    .map((c) => ({ ...c, gap: c.ours - c.theirs }))
+    .sort((a, b) => b.gap - a.gap)[0];
+  const matchupOfTheWeek = {
+    title: biggest.label,
+    description:
+      biggest.gap > 0
+        ? `Our ${biggest.label.split(" vs. ")[0].toLowerCase()} grades in the ${ordinal(biggest.ours)} percentile against a unit that grades ${ordinal(biggest.theirs)} — the widest real statistical edge on the board this week.`
+        : `Their unit actually grades better here (${ordinal(biggest.theirs)} percentile vs. our ${ordinal(biggest.ours)}) — the closest thing to a swing spot working against us this week.`,
+  };
+
+  // ---------- Opponent EPA rank ----------
+  const opponentEpaRank = {
+    offense: rankGeneric(ALL_TEAMS, opponent, (t) => {
+      const off = pbp.filter((r) => r.posteam === t && (r.play_type === "run" || r.play_type === "pass"));
+      return off.length === 0 ? 0 : off.reduce((s, r) => s + num(r.epa), 0) / off.length;
+    }, true).leagueRank,
+    defense: rankGeneric(ALL_TEAMS, opponent, (t) => {
+      const def = pbp.filter((r) => r.defteam === t && (r.play_type === "run" || r.play_type === "pass"));
+      return def.length === 0 ? 0 : def.reduce((s, r) => s + num(r.epa), 0) / def.length;
+    }, false).leagueRank,
+  };
+
+  // ---------- Recent form (net EPA/play: offense generated minus defense allowed) ----------
+  const opponentGames = games
+    .filter(
+      (g) =>
+        num(g.season) === SEASON &&
+        g.game_type === "REG" &&
+        (g.home_team === opponent || g.away_team === opponent) &&
+        g.home_score !== ""
+    )
+    .sort((a, b) => num(b.week) - num(a.week));
+
+  function netEpaOverGames(gameIds: string[]): number {
+    const rows = pbp.filter((r) => gameIds.includes(r.game_id) && (r.play_type === "run" || r.play_type === "pass"));
+    const off = rows.filter((r) => r.posteam === opponent);
+    const def = rows.filter((r) => r.defteam === opponent);
+    const offEpa = off.length === 0 ? 0 : off.reduce((s, r) => s + num(r.epa), 0) / off.length;
+    const defEpa = def.length === 0 ? 0 : def.reduce((s, r) => s + num(r.epa), 0) / def.length;
+    return offEpa - defEpa;
+  }
+
+  const recentForm = {
+    last3EpaPerPlay: netEpaOverGames(opponentGames.slice(0, 3).map((g) => g.game_id)),
+    last5EpaPerPlay: netEpaOverGames(opponentGames.slice(0, 5).map((g) => g.game_id)),
+    seasonEpaPerPlay: netEpaOverGames(opponentGames.map((g) => g.game_id)),
+  };
+
+  // ---------- All-time head-to-head ----------
+  const meetings = games
+    .filter(
+      (g) =>
+        g.game_type === "REG" &&
+        g.home_score !== "" &&
+        ((g.home_team === TEAM && g.away_team === opponent) ||
+          (g.home_team === opponent && g.away_team === TEAM))
+    )
+    .sort((a, b) => num(b.season) - num(a.season) || num(b.week) - num(a.week))
+    .slice(0, 5);
+
+  const headToHead = meetings.map((g) => {
+    const isHome = g.home_team === TEAM;
+    const usScore = num(isHome ? g.home_score : g.away_score);
+    const themScore = num(isHome ? g.away_score : g.home_score);
+    const result = usScore > themScore ? "W" : usScore < themScore ? "L" : "T";
+    return { season: num(g.season), result, score: `${usScore}-${themScore}` };
+  });
+
+  // ---------- Betting context (real, from ESPN's scoreboard) ----------
+  let bettingContext: OpponentMatchupData["bettingContext"];
+  try {
+    const raw = JSON.parse(
+      await readFile(path.join(process.cwd(), "data", "raw", "espn-scoreboard.json"), "utf-8")
+    );
+    const event = raw.events?.find((e: { competitions: Array<{ competitors: Array<{ team: { abbreviation: string } }> }> }) =>
+      e.competitions?.[0]?.competitors?.some((c) => c.team?.abbreviation === TEAM)
+    );
+    const odds = event?.competitions?.[0]?.odds?.[0];
+    if (odds?.spread !== undefined && odds?.overUnder !== undefined) {
+      const isHome = nextGame.homeTeam === TEAM;
+      // ESPN's `spread` is relative to the home team; flip sign if we're away.
+      const ourSpread = isHome ? odds.spread : -odds.spread;
+      bettingContext = {
+        spread: ourSpread,
+        overUnder: odds.overUnder,
+        asOf: new Date().toISOString().slice(0, 10),
+      };
+    }
+  } catch {
+    // No odds available (bye week, market not posted yet, endpoint changed) —
+    // omit the field rather than show stale/fake numbers.
+  }
+
+  const matchup: OpponentMatchupData = {
+    gameId: nextGame.id,
+    opponent,
+    opponentEpaRank,
+    positionGroupMatchups,
+    matchupOfTheWeek,
+    opponentInjuries: [], // filled in by build-espn-data.ts and merged in store.ts
+    recentForm,
+    headToHead,
+    bettingContext,
+  };
+
+  await writeFile(
+    path.join(GENERATED_DIR, "opponent-matchup.json"),
+    JSON.stringify(matchup, null, 2)
+  );
+  console.log(`Wrote opponent-matchup.json (vs. ${opponent})`);
+}
+
+main().catch((err) => {
+  console.error(err);
+  process.exit(1);
+});

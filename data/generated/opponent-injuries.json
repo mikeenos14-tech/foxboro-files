@@ -1,0 +1,20 @@
+[
+  {
+    "playerId": "4426506",
+    "playerName": "Joey Porter Jr.",
+    "position": "CB",
+    "week": 2,
+    "injury": "Back",
+    "gameStatus": "Questionable",
+    "lastUpdated": "2026-09-15T15:39Z"
+  },
+  {
+    "playerId": "4608004",
+    "playerName": "Donte Kent",
+    "position": "CB",
+    "week": 2,
+    "injury": "Undisclosed",
+    "gameStatus": "Out",
+    "lastUpdated": "2026-09-01T00:02Z"
+  }
+]
