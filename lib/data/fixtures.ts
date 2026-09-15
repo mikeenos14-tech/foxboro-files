@@ -1,0 +1,320 @@
+// Hand-written fixture data for Phase 0 (design/scaffold milestone).
+// Shapes match lib/data/types.ts exactly so swapping in scripts/build-data.ts's
+// real output in Phase 1 requires no component changes — only store.ts's
+// internals change.
+//
+// Numbers are illustrative, not real 2026 Patriots stats.
+
+import type {
+  DepthChartEntry,
+  Game,
+  GameRecap,
+  InjuryReportEntry,
+  NewsItem,
+  OpponentMatchupData,
+  PositionGroupReportCard,
+  QBDeepDive,
+  ScheduleRow,
+  SeasonProjection,
+  Team,
+  TeamStatSnapshot,
+} from "./types";
+
+export const team: Team = {
+  id: "NE",
+  espnId: "17",
+  name: "New England",
+  abbreviation: "NE",
+  conference: "AFC",
+  division: "AFC East",
+};
+
+export const lastGame: Game = {
+  id: "2026-w02-MIA",
+  season: 2026,
+  week: 2,
+  seasonType: "REG",
+  date: "2026-09-13",
+  homeTeam: "NE",
+  awayTeam: "MIA",
+  homeScore: 27,
+  awayScore: 17,
+  status: "final",
+  venue: "Gillette Stadium",
+  network: "CBS",
+};
+
+export const nextGame: Game = {
+  id: "2026-w03-NYJ",
+  season: 2026,
+  week: 3,
+  seasonType: "REG",
+  date: "2026-09-20",
+  homeTeam: "NYJ",
+  awayTeam: "NE",
+  status: "scheduled",
+  venue: "MetLife Stadium",
+  network: "FOX",
+};
+
+export const lastGameRecap: GameRecap = {
+  gameId: "2026-w02-MIA",
+  narrative:
+    "New England controlled the trenches from the opening drive, leaning on a run-heavy script that kept Miami's pass rush off balance. A third-quarter pick-six turned a one-score game into a comfortable margin, and the defense closed it out by winning third down all afternoon.",
+  epaPerPlay: { offense: 0.14, defense: -0.09 },
+  successRate: {
+    offenseByDown: { 1: 0.52, 2: 0.47, 3: 0.44, 4: 0.6 },
+    defenseByDown: { 1: 0.41, 2: 0.38, 3: 0.29, 4: 0.5 },
+  },
+  turnoverMargin: 2,
+  pointsOffTurnovers: { for: 10, against: 0 },
+  explosivePlayRate: { for: 0.12, against: 0.06 },
+  redZone: {
+    offense: { att: 4, td: 3 },
+    defense: { att: 2, td: 1 },
+  },
+  thirdDown: {
+    offense: { att: 12, conv: 7 },
+    defense: { att: 11, conv: 3 },
+  },
+  winProbabilityTimeline: [
+    { playIndex: 0, quarter: 1, clock: "15:00", homeWinProb: 0.5 },
+    { playIndex: 20, quarter: 1, clock: "5:00", homeWinProb: 0.58 },
+    { playIndex: 40, quarter: 2, clock: "10:00", homeWinProb: 0.55 },
+    { playIndex: 60, quarter: 2, clock: "2:00", homeWinProb: 0.62 },
+    { playIndex: 80, quarter: 3, clock: "9:00", homeWinProb: 0.7 },
+    { playIndex: 90, quarter: 3, clock: "4:30", homeWinProb: 0.88 },
+    { playIndex: 110, quarter: 4, clock: "8:00", homeWinProb: 0.93 },
+    { playIndex: 130, quarter: 4, clock: "1:00", homeWinProb: 0.99 },
+  ],
+  starOfTheGame: {
+    playerId: "00-nel-cb1",
+    playerName: "J. Bishop",
+    wpa: 0.31,
+  },
+  goodBadUgly: {
+    good: [
+      "Offensive line won at the point of attack all day — 5.4 yards per carry before contact adjustments.",
+      "Third-down defense held Miami to 27% — season-best.",
+    ],
+    bad: [
+      "Two false-start penalties stalled an early red-zone trip.",
+      "Kick coverage unit allowed a 38-yard return that flipped field position once.",
+    ],
+    ugly: [
+      "Starting right tackle left in the second half with an ankle injury — status for next week unclear.",
+    ],
+  },
+  playerOfTheGame: {
+    playerId: "00-nel-cb1",
+    playerName: "J. Bishop",
+    reason:
+      "His third-quarter interception return for a touchdown was the single biggest swing play of the game and iced it before the fourth quarter even started.",
+  },
+};
+
+export const teamStats: TeamStatSnapshot = {
+  team: "NE",
+  season: 2026,
+  epaPerPlay: {
+    offense: { value: 0.08, leagueRank: 9, leaguePercentile: 75 },
+    defense: { value: -0.05, leagueRank: 11, leaguePercentile: 68 },
+  },
+  successRate: {
+    offense: { value: 0.47, leagueRank: 10, leaguePercentile: 72 },
+    defense: { value: 0.39, leagueRank: 8, leaguePercentile: 78 },
+  },
+  explosivePlayRate: {
+    offense: { value: 0.11, leagueRank: 14, leaguePercentile: 57 },
+    defense: { value: 0.08, leagueRank: 6, leaguePercentile: 84 },
+  },
+  pointDifferential: { value: 19, leagueRank: 8, leaguePercentile: 76 },
+  pythagoreanWinPct: 0.63,
+  redZonePct: {
+    offense: { value: 0.68, leagueRank: 7, leaguePercentile: 79 },
+    defense: { value: 0.52, leagueRank: 12, leaguePercentile: 63 },
+  },
+  thirdDownPct: {
+    offense: { value: 0.44, leagueRank: 9, leaguePercentile: 73 },
+    defense: { value: 0.33, leagueRank: 5, leaguePercentile: 87 },
+  },
+  twoMinuteDrillEpa: {
+    offense: { value: 0.21, leagueRank: 6, leaguePercentile: 83 },
+    defense: { value: -0.02, leagueRank: 16, leaguePercentile: 50 },
+  },
+  splits: {
+    home: { wins: 1, losses: 0, epaPerPlay: 0.14 },
+    away: { wins: 1, losses: 0, epaPerPlay: 0.02 },
+    divisional: { wins: 0, losses: 0 },
+  },
+  specialTeams: {
+    fieldGoalPct: { value: 0.92, leagueRank: 4, leaguePercentile: 88 },
+    netPuntingAvg: { value: 43.1, leagueRank: 10, leaguePercentile: 71 },
+    kickReturnAvg: { value: 22.4, leagueRank: 18, leaguePercentile: 44 },
+    puntReturnAvg: { value: 8.9, leagueRank: 13, leaguePercentile: 59 },
+    specialTeamsEpa: { value: 0.03, leagueRank: 9, leaguePercentile: 74 },
+  },
+};
+
+export const positionGroupReportCards: PositionGroupReportCard[] = [
+  { group: "QB", grade: 78, leagueAvg: 65, trend: "up", soWhat: "Efficient, protecting the ball — top-10 turnover-worthy play rate." },
+  { group: "RB", grade: 71, leagueAvg: 64, trend: "flat", soWhat: "Solid between the tackles, not yet a explosive-play threat." },
+  { group: "WR", grade: 62, leagueAvg: 65, trend: "down", soWhat: "Separation has been inconsistent — below-average target depth." },
+  { group: "TE", grade: 69, leagueAvg: 61, trend: "up", soWhat: "Emerging as a reliable third-down safety valve." },
+  { group: "OL", grade: 74, leagueAvg: 63, trend: "up", soWhat: "Best unit on the team right now — top-10 pressure rate allowed." },
+  { group: "Edge", grade: 66, leagueAvg: 62, trend: "flat", soWhat: "Generating pressure without finishing — sacks lag win rate." },
+  { group: "Interior DL", grade: 70, leagueAvg: 60, trend: "up", soWhat: "Run defense has been stout early — top-10 stuff rate." },
+  { group: "LB", grade: 60, leagueAvg: 61, trend: "down", soWhat: "Coverage has been a soft spot against tight ends." },
+  { group: "Secondary", grade: 73, leagueAvg: 62, trend: "up", soWhat: "Ball-hawking early — leads league in turnover-worthy pass breakups." },
+];
+
+export const qbDeepDive: QBDeepDive = {
+  playerId: "00-nel-qb1",
+  playerName: "D. Maye",
+  attempts: 62,
+  completions: 41,
+  yards: 512,
+  tds: 4,
+  ints: 1,
+  cpoe: 4.2,
+  accuracyByDepth: { short: 0.78, medium: 0.61, deep: 0.38 },
+  pressureEpa: -0.04,
+  cleanPocketEpa: 0.31,
+  turnoverWorthyPlayRate: 0.021,
+};
+
+export const depthChart: DepthChartEntry[] = [
+  { position: "QB", players: [{ playerId: "00-nel-qb1", playerName: "D. Maye", rank: 1 }, { playerId: "00-nel-qb2", playerName: "J. Brissett", rank: 2 }] },
+  { position: "RB", players: [{ playerId: "00-nel-rb1", playerName: "R. Stevenson", rank: 1 }, { playerId: "00-nel-rb2", playerName: "A. Elliott", rank: 2 }] },
+  { position: "WR", players: [{ playerId: "00-nel-wr1", playerName: "K. Boutte", rank: 1 }, { playerId: "00-nel-wr2", playerName: "D. Douglas", rank: 2 }, { playerId: "00-nel-wr3", playerName: "P. Bourne", rank: 3 }] },
+  { position: "TE", players: [{ playerId: "00-nel-te1", playerName: "H. Henry", rank: 1 }] },
+  { position: "LT", players: [{ playerId: "00-nel-lt1", playerName: "W. Campbell", rank: 1 }] },
+  { position: "CB", players: [{ playerId: "00-nel-cb1", playerName: "J. Bishop", rank: 1 }, { playerId: "00-nel-cb2", playerName: "C. Gonzalez", rank: 2 }] },
+];
+
+export const injuries: InjuryReportEntry[] = [
+  {
+    playerId: "00-nel-rt1",
+    playerName: "M. Wallace",
+    position: "RT",
+    week: 3,
+    injury: "Ankle",
+    wednesday: "DNP",
+    thursday: "Limited",
+    friday: "Limited",
+    gameStatus: "Questionable",
+    lastUpdated: "2026-09-18",
+  },
+  {
+    playerId: "00-nel-lb2",
+    playerName: "S. Barrett",
+    position: "LB",
+    week: 3,
+    injury: "Hamstring",
+    wednesday: "Limited",
+    thursday: "Full",
+    friday: "Full",
+    gameStatus: "Probable",
+    lastUpdated: "2026-09-18",
+  },
+];
+
+export const opponentInjuries: InjuryReportEntry[] = [
+  {
+    playerId: "00-nyj-cb1",
+    playerName: "S. Reed",
+    position: "CB",
+    week: 3,
+    injury: "Knee",
+    wednesday: "DNP",
+    thursday: "DNP",
+    friday: "DNP",
+    gameStatus: "Out",
+    lastUpdated: "2026-09-18",
+  },
+];
+
+export const opponentMatchup: OpponentMatchupData = {
+  gameId: "2026-w03-NYJ",
+  opponent: "NYJ",
+  opponentEpaRank: { offense: 24, defense: 19 },
+  positionGroupMatchups: [
+    { group: "WR vs CB", ourGrade: 62, theirGrade: 41, edge: "us", note: "Their CB2 is starting in place of an injured starter — target this side early." },
+    { group: "OL vs Edge", ourGrade: 74, theirGrade: 58, edge: "us", note: "Our pass protection should hold up against a middling pass rush." },
+    { group: "RB vs Front 7", ourGrade: 71, theirGrade: 66, edge: "us", note: "Slight edge, but their run defense has tightened the last two weeks." },
+    { group: "Secondary vs WR", ourGrade: 73, theirGrade: 60, edge: "us", note: "Our ball-hawking corners against a receiver corps that's turnover-prone on contested catches." },
+    { group: "Our LB vs Their TE", ourGrade: 60, theirGrade: 68, edge: "them", note: "Their receiving tight end has been our defense's one soft spot all season." },
+  ],
+  matchupOfTheWeek: {
+    title: "WR1 vs backup CB2",
+    description:
+      "With the Jets' top cornerback ruled out, their CB2 grades bottom-10 in coverage over the last three weeks. Expect a heavy target share to our WR1 on that side of the field.",
+  },
+  opponentInjuries,
+  recentForm: { last3EpaPerPlay: -0.03, last5EpaPerPlay: -0.01, seasonEpaPerPlay: -0.02 },
+  headToHead: [
+    { season: 2025, result: "W", score: "24-17" },
+    { season: 2025, result: "W", score: "27-14" },
+  ],
+  weather: { tempF: 71, wind: "8 mph", precipitation: "0%", isDome: false },
+  bettingContext: { spread: -3.5, overUnder: 44.5, asOf: "2026-09-18" },
+};
+
+export const schedule: ScheduleRow[] = [
+  { gameId: "2026-w01-CIN", week: 1, opponent: "CIN", homeAway: "away", opponentRecord: "1-1", opponentPointDiff: 3, opponentEpaRank: 14, strengthOfSchedule: { season: 0.51, opponentSos: 0.49 }, restDays: 7, opponentRestDays: 7, isDivisional: false, isConference: true, result: "W", date: "2026-09-06" },
+  { gameId: "2026-w02-MIA", week: 2, opponent: "MIA", homeAway: "home", opponentRecord: "1-1", opponentPointDiff: -2, opponentEpaRank: 21, strengthOfSchedule: { season: 0.5, opponentSos: 0.47 }, restDays: 7, opponentRestDays: 7, isDivisional: true, isConference: true, result: "W", date: "2026-09-13" },
+  { gameId: "2026-w03-NYJ", week: 3, opponent: "NYJ", homeAway: "away", opponentRecord: "0-2", opponentPointDiff: -19, opponentEpaRank: 27, strengthOfSchedule: { season: 0.49, opponentSos: 0.44 }, restDays: 7, opponentRestDays: 7, isDivisional: true, isConference: true, winProbabilityEstimate: 0.66, date: "2026-09-20" },
+  { gameId: "2026-w04-SF", week: 4, opponent: "SF", homeAway: "home", opponentRecord: "2-0", opponentPointDiff: 21, opponentEpaRank: 3, strengthOfSchedule: { season: 0.52, opponentSos: 0.58 }, restDays: 7, opponentRestDays: 7, isDivisional: false, isConference: false, winProbabilityEstimate: 0.41, date: "2026-09-27" },
+  { gameId: "2026-w05-BUF", week: 5, opponent: "BUF", homeAway: "away", opponentRecord: "2-0", opponentPointDiff: 15, opponentEpaRank: 4, strengthOfSchedule: { season: 0.53, opponentSos: 0.55 }, restDays: 7, opponentRestDays: 7, isDivisional: true, isConference: true, winProbabilityEstimate: 0.35, date: "2026-10-04" },
+  { gameId: "2026-w06-NO", week: 6, opponent: "NO", homeAway: "home", opponentRecord: "0-2", opponentPointDiff: -14, opponentEpaRank: 29, strengthOfSchedule: { season: 0.52, opponentSos: 0.42 }, restDays: 7, opponentRestDays: 7, isDivisional: false, isConference: false, winProbabilityEstimate: 0.72, date: "2026-10-11" },
+];
+
+export const projection: SeasonProjection = {
+  projectedWins: 10,
+  projectedLosses: 7,
+  playoffOdds: 0.58,
+};
+
+export const news: NewsItem[] = [
+  {
+    id: "n1",
+    publishedAt: "2026-09-19T14:00:00Z",
+    type: "Injury",
+    headline: "RT Wallace limited again Friday, questionable for Jets",
+    summary:
+      "Wallace has missed the last two practices with an ankle issue picked up in Sunday's win. Coaches called him 'trending in the right direction' but stopped short of guaranteeing his availability.",
+    sourceUrl: "https://www.espn.com/",
+    sourceName: "ESPN",
+    relatedPlayerIds: ["00-nel-rt1"],
+  },
+  {
+    id: "n2",
+    publishedAt: "2026-09-18T18:30:00Z",
+    type: "Analysis",
+    headline: "Why the run game is finally clicking up front",
+    summary:
+      "A deeper look at the interior line splits that turned a middling rushing attack into a top-10 unit through two weeks.",
+    sourceUrl: "https://www.espn.com/",
+    sourceName: "ESPN",
+  },
+  {
+    id: "n3",
+    publishedAt: "2026-09-17T20:00:00Z",
+    type: "Transaction",
+    headline: "Patriots sign veteran DT to practice squad",
+    summary:
+      "New England added depth on the interior defensive line, a position that's already grading out as a season-long strength.",
+    sourceUrl: "https://www.espn.com/",
+    sourceName: "ESPN",
+  },
+  {
+    id: "n4",
+    publishedAt: "2026-09-16T12:00:00Z",
+    type: "Beat Report",
+    headline: "Practice notes: rookie CB getting first-team reps",
+    summary:
+      "With the secondary playing well, the staff is still rotating young corners in with the ones — a sign of the position's early-season depth.",
+    sourceUrl: "https://www.espn.com/",
+    sourceName: "ESPN",
+  },
+];

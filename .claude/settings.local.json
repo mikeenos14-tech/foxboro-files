@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx --yes create-next-app@latest . --typescript --tailwind --eslint --app --src-dir=false --import-alias \"@/*\" --use-npm --no-turbopack)",
+      "Bash(npm -v)",
+      "Bash(curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh)",
+      "Bash(bash)",
+      "Bash(mkdir -p \"/Users/mikeenos/Patriots Site/app/recap/[gameId]\" \"/Users/mikeenos/Patriots Site/app/next-game\" \"/Users/mikeenos/Patriots Site/app/schedule\" \"/Users/mikeenos/Patriots Site/app/news\" \"/Users/mikeenos/Patriots Site/app/roster\")"
+    ]
+  }
+}
