@@ -31,6 +31,7 @@ import {
 import { computeStandings, recordString, pointDiff, type TeamRecord } from "./lib/standings";
 import { TEAM_CONFERENCE, ALL_TEAMS } from "./lib/teams";
 import { rankGeneric } from "./lib/rank";
+import { buildLeagueRosterByGsis } from "./lib/roster";
 import type {
   Game,
   GameRecap,
@@ -303,6 +304,8 @@ async function main() {
 
     const star = starOfGame(gameRows, TEAM);
     const margin = turnoverMargin(gameRows, TEAM);
+    const rosterByGsis = await buildLeagueRosterByGsis();
+    const starHeadshot = star ? rosterByGsis.get(star.playerId)?.headshot_url : undefined;
 
     const recap: GameRecap = {
       gameId: lastRow.game_id,
@@ -324,7 +327,9 @@ async function main() {
         defense: thirdDown(gameRows, TEAM, "defteam"),
       },
       winProbabilityTimeline: winProbabilityTimeline(gameRows),
-      starOfTheGame: star ?? { playerId: "", playerName: "N/A", wpa: 0 },
+      starOfTheGame: star
+        ? { ...star, headshotUrl: starHeadshot || undefined }
+        : { playerId: "", playerName: "N/A", wpa: 0 },
       goodBadUgly: {
         good: [
           off.epa > 0
@@ -342,6 +347,7 @@ async function main() {
         ? {
             playerId: star.playerId,
             playerName: star.playerName,
+            headshotUrl: starHeadshot || undefined,
             reason:
               star.wpa > 0
                 ? `Led the team with ${signed(star.wpa * 100, 0)}% win probability added.`

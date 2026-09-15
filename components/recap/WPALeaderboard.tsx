@@ -13,7 +13,11 @@ export function WPALeaderboard({
         Star of the Game (Win Probability Added)
       </span>
       <div className="mt-2 flex items-center gap-3">
-        <PlayerHeadshot name={starOfTheGame.playerName} size={48} />
+        <PlayerHeadshot
+          name={starOfTheGame.playerName}
+          imageUrl={starOfTheGame.headshotUrl}
+          size={48}
+        />
         <div>
           <div className="font-bold text-navy dark:text-white">{starOfTheGame.playerName}</div>
           <div className="text-sm text-muted">

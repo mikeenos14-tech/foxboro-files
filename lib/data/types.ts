@@ -69,9 +69,9 @@ export interface GameRecap {
     clock: string;
     homeWinProb: number;
   }>;
-  starOfTheGame: { playerId: string; playerName: string; wpa: number };
+  starOfTheGame: { playerId: string; playerName: string; wpa: number; headshotUrl?: string };
   goodBadUgly: { good: string[]; bad: string[]; ugly: string[] };
-  playerOfTheGame: { playerId: string; playerName: string; reason: string };
+  playerOfTheGame: { playerId: string; playerName: string; reason: string; headshotUrl?: string };
 }
 
 export interface TeamStatSnapshot {
@@ -110,7 +110,7 @@ export interface PositionGroupReportCard {
 export interface QBDeepDive {
   playerId: string;
   playerName: string;
-  espnId?: string;
+  headshotUrl?: string;
   attempts: number;
   completions: number;
   yards: number;
@@ -209,5 +209,10 @@ export interface OpponentMatchupData {
 
 export interface DepthChartEntry {
   position: string;
-  players: Array<{ playerId: string; playerName: string; rank: number; espnId?: string }>;
+  players: Array<{
+    playerId: string;
+    playerName: string;
+    rank: number;
+    headshotUrl?: string;
+  }>;
 }

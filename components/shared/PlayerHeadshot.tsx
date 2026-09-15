@@ -3,16 +3,17 @@
 import { useState } from "react";
 import Image from "next/image";
 
-// Real headshots are sourced via each player's mapped espnId (Phase 2/3
-// pipeline). If a player has no espnId, or the image fails to load, fall
-// back to initials so the layout never breaks.
+// Prefers nflverse's own headshot_url (NFL.com-hosted, ~99% roster
+// coverage) over anything ESPN-ID-derived, which covered meaningfully
+// fewer players. Falls back to initials if there's no URL, or if the
+// image fails to load.
 export function PlayerHeadshot({
   name,
-  espnId,
+  imageUrl,
   size = 48,
 }: {
   name: string;
-  espnId?: string;
+  imageUrl?: string;
   size?: number;
 }) {
   const [failed, setFailed] = useState(false);
@@ -23,10 +24,10 @@ export function PlayerHeadshot({
     .slice(0, 2)
     .toUpperCase();
 
-  if (espnId && !failed) {
+  if (imageUrl && !failed) {
     return (
       <Image
-        src={`https://a.espncdn.com/i/headshots/nfl/players/full/${espnId}.png`}
+        src={imageUrl}
         alt={name}
         width={size}
         height={size}

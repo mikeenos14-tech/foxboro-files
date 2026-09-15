@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import type { Game } from "@/lib/data/types";
 import { formatDate, kickoffIso } from "@/lib/util/format";
+import { TeamLogo } from "@/components/shared/TeamLogo";
 
 function useCountdown(targetIso: string) {
   const [label, setLabel] = useState<string | null>(null);
@@ -46,10 +47,12 @@ export function NextGameHero({
       <p className="text-sm font-semibold uppercase tracking-widest text-red-light">
         Week {game.week} · {isHome ? "Home" : "Away"}
       </p>
-      <div className="mt-2 flex items-center justify-center gap-4 font-display text-5xl font-bold text-white sm:text-6xl">
+      <div className="mt-3 flex items-center justify-center gap-4 font-display text-5xl font-bold text-white sm:text-6xl">
+        <TeamLogo team="NE" size={56} onDark />
         <span>NE</span>
         <span className="text-2xl text-silver">vs</span>
         <span>{opponent}</span>
+        <TeamLogo team={opponent} size={56} onDark />
       </div>
       <p className="mt-3 text-white/70">
         {formatDate(game.date)} · {game.venue}

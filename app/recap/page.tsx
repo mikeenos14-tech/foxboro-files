@@ -1,6 +1,7 @@
 import Link from "next/link";
 import * as store from "@/lib/data/store";
 import { formatDate } from "@/lib/util/format";
+import { TeamLogo } from "@/components/shared/TeamLogo";
 
 export default async function RecapIndexPage() {
   const recaps = await store.getAllRecaps();
@@ -28,6 +29,7 @@ export default async function RecapIndexPage() {
             >
               <div className="flex items-center justify-between">
                 <div className="flex items-center gap-3">
+                  <TeamLogo team={opponent} size={28} />
                   <span
                     className={`text-xl font-bold ${won ? "text-rank-good" : "text-rank-bad"}`}
                   >

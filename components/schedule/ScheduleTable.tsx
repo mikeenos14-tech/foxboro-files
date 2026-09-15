@@ -1,6 +1,7 @@
 import type { ScheduleRow } from "@/lib/data/types";
 import { formatDate, formatPercent, signed } from "@/lib/util/format";
 import { ordinal } from "@/lib/calc/ranks";
+import { TeamLogo } from "@/components/shared/TeamLogo";
 
 const resultClasses: Record<string, string> = {
   W: "text-rank-good font-bold",
@@ -35,10 +36,13 @@ export function ScheduleTable({ rows }: { rows: ScheduleRow[] }) {
               <td className="px-3 py-2">{r.week}</td>
               <td className="px-3 py-2 text-muted">{formatDate(r.date)}</td>
               <td className="px-3 py-2 font-medium">
-                {r.opponent}
-                {r.isDivisional && (
-                  <span className="ml-1 text-xs text-red">DIV</span>
-                )}
+                <div className="flex items-center gap-2">
+                  <TeamLogo team={r.opponent} size={22} />
+                  {r.opponent}
+                  {r.isDivisional && (
+                    <span className="text-xs text-red">DIV</span>
+                  )}
+                </div>
               </td>
               <td className="px-3 py-2 text-muted">
                 {r.homeAway === "home" ? "Home" : "Away"}

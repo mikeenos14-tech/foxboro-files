@@ -20,7 +20,9 @@ export function TopNav() {
     <header className="sticky top-0 z-10 border-b-4 border-red bg-navy text-white">
       <div className="mx-auto flex max-w-6xl items-center gap-6 px-4 py-3">
         <Link href="/" className="flex shrink-0 items-center gap-2">
-          <span className="inline-block h-3.5 w-3.5 rotate-45 bg-red" />
+          <span className="text-xl" aria-hidden="true">
+            🏈
+          </span>
           <span className="font-display text-xl font-semibold uppercase tracking-wide">
             Foxboro Files
           </span>

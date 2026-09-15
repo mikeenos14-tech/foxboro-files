@@ -21,18 +21,6 @@ export async function loadTeamRoster(team: string): Promise<RosterRow[]> {
   return teamRows.filter((r) => num(r.week) === latestWeek);
 }
 
-// gsis_id (used throughout play-by-play as passer_id/rusher_id/receiver_id)
-// -> espn_id (used by ESPN's news/headshot endpoints). Built from the same
-// nflverse roster file, which carries both IDs for each player.
-export async function buildGsisToEspnMap(): Promise<Map<string, string>> {
-  const all = await loadCsv<RosterRow>("roster_2026.csv");
-  const map = new Map<string, string>();
-  for (const r of all) {
-    if (r.gsis_id && r.espn_id) map.set(r.gsis_id, r.espn_id);
-  }
-  return map;
-}
-
 export async function buildLeagueRosterByGsis(): Promise<Map<string, RosterRow>> {
   const all = await loadCsv<RosterRow>("roster_2026.csv");
   const sorted = [...all].sort((a, b) => num(a.week) - num(b.week));

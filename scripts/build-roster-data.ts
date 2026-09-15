@@ -41,7 +41,7 @@ async function buildDepthChart(): Promise<DepthChartEntry[]> {
     players: players.map((p, i) => ({
       playerId: p.gsis_id,
       playerName: p.full_name,
-      espnId: p.espn_id || undefined,
+      headshotUrl: p.headshot_url || undefined,
       rank: i + 1,
     })),
   }));
@@ -164,7 +164,7 @@ async function buildQbDeepDive(
   return {
     playerId: starterId,
     playerName: starterRoster?.full_name ?? rows[0]?.passer ?? "Unknown",
-    espnId: starterRoster?.espn_id || undefined,
+    headshotUrl: starterRoster?.headshot_url || undefined,
     attempts: rows.length,
     completions: completions.length,
     yards: rows.reduce((sum, r) => sum + num(r.yards_gained), 0),

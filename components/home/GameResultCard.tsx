@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Game } from "@/lib/data/types";
 import { formatDate } from "@/lib/util/format";
+import { TeamLogo } from "@/components/shared/TeamLogo";
 
 export function GameResultCard({ game }: { game: Game }) {
   const isHome = game.homeTeam === "NE";
@@ -14,7 +15,10 @@ export function GameResultCard({ game }: { game: Game }) {
       href={`/recap/${game.id}`}
       className="block rounded-lg bg-white/10 p-4 backdrop-blur-sm transition hover:bg-white/15"
     >
-      <span className="text-sm font-medium text-white/70">Last Game</span>
+      <div className="flex items-center justify-between">
+        <span className="text-sm font-medium text-white/70">Last Game</span>
+        <TeamLogo team={opponent} size={22} onDark />
+      </div>
       <div className="mt-1 flex items-baseline gap-2">
         <span
           className={`font-display text-4xl font-bold ${won ? "text-rank-good" : "text-red-light"}`}

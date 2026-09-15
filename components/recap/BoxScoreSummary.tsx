@@ -1,5 +1,6 @@
 import type { Game } from "@/lib/data/types";
 import { formatDate } from "@/lib/util/format";
+import { TeamLogo } from "@/components/shared/TeamLogo";
 
 export function BoxScoreSummary({ game }: { game: Game }) {
   const isHome = game.homeTeam === "NE";
@@ -23,10 +24,14 @@ export function BoxScoreSummary({ game }: { game: Game }) {
           {won ? "Win" : "Loss"}
         </span>
       </div>
-      <div className="mt-1 font-display text-7xl font-bold text-white sm:text-8xl">
-        {usScore}
-        <span className="mx-2 text-silver">–</span>
-        {themScore}
+      <div className="mt-1 flex items-center justify-center gap-4 font-display text-6xl font-bold text-white sm:text-8xl">
+        <TeamLogo team="NE" size={64} onDark />
+        <span>
+          {usScore}
+          <span className="mx-2 text-silver">–</span>
+          {themScore}
+        </span>
+        <TeamLogo team={opponent} size={64} onDark />
       </div>
       <p className="mt-2 text-lg text-white/70">vs. {opponent}</p>
     </div>
