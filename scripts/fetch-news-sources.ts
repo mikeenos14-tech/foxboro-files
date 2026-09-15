@@ -1,8 +1,9 @@
-// Downloads ESPN's public (undocumented, no-auth) endpoints into data/raw/.
-// These are unofficial and can change without notice — build-espn-data.ts
-// is written to fail soft (keep last-good generated JSON) rather than crash
-// the site if ESPN changes a field shape.
-// Run with: npx tsx scripts/fetch-espn.ts
+// Downloads news/injury/roster sources into data/raw/: ESPN's public
+// (undocumented, no-auth) endpoints, plus the official patriots.com RSS
+// feed. ESPN's endpoints are unofficial and can change without notice —
+// build-espn-data.ts is written to fail soft (keep last-good generated
+// JSON) rather than crash the site if a source changes shape.
+// Run with: npx tsx scripts/fetch-news-sources.ts
 
 import { mkdir, writeFile } from "node:fs/promises";
 import path from "node:path";
@@ -18,6 +19,14 @@ const SOURCES: Array<{ name: string; url: string }> = [
   {
     name: "espn-roster.json",
     url: `https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/${TEAM_ESPN_ID}/roster`,
+  },
+  {
+    // Official team RSS — 100% team-specific, no ESPN-style noise
+    // filtering needed, and it's the team's own public syndication feed
+    // (unlike Google News RSS, whose terms restrict use to personal,
+    // non-commercial feed readers — deliberately not using that source).
+    name: "team-rss.xml",
+    url: "https://www.patriots.com/rss/news",
   },
 ];
 
