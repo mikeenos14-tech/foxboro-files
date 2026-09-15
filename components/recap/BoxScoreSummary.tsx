@@ -1,6 +1,8 @@
 import type { Game } from "@/lib/data/types";
 import { formatDate } from "@/lib/util/format";
 import { TeamLogo } from "@/components/shared/TeamLogo";
+import { CountUp } from "@/components/shared/CountUp";
+import { WinConfetti } from "./WinConfetti";
 
 export function BoxScoreSummary({ game }: { game: Game }) {
   const isHome = game.homeTeam === "NE";
@@ -11,6 +13,7 @@ export function BoxScoreSummary({ game }: { game: Game }) {
 
   return (
     <div className="-mx-4 hero-texture bg-gradient-to-br from-navy via-navy to-navy-deep px-4 py-8 text-center sm:mx-0 sm:rounded-xl sm:px-6">
+      <WinConfetti won={won} />
       <p className="text-sm text-white/70">
         {formatDate(game.date)} · {game.venue}
         {game.network ? ` · ${game.network}` : ""}
@@ -27,9 +30,9 @@ export function BoxScoreSummary({ game }: { game: Game }) {
       <div className="mt-1 flex items-center justify-center gap-4 font-display text-6xl font-bold text-white sm:text-8xl">
         <TeamLogo team="NE" size={64} onDark />
         <span>
-          {usScore}
+          <CountUp value={usScore ?? 0} duration={1000} />
           <span className="mx-2 text-silver">–</span>
-          {themScore}
+          <CountUp value={themScore ?? 0} duration={1000} />
         </span>
         <TeamLogo team={opponent} size={64} onDark />
       </div>

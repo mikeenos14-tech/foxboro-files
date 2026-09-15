@@ -1,17 +1,21 @@
 import { rankTier } from "@/lib/calc/ranks";
 import { RankBadge } from "./RankBadge";
 import { SoWhatNote } from "./SoWhatNote";
+import { CountUp } from "./CountUp";
 
 export function StatCard({
   label,
   value,
   leagueRank,
   soWhat,
+  animate,
 }: {
   label: string;
   value: string;
   leagueRank?: number;
   soWhat?: string;
+  /** When provided, animates the number instead of showing static `value`. */
+  animate?: { value: number; decimals?: number; prefix?: string; suffix?: string };
 }) {
   const sentiment = leagueRank !== undefined ? rankTier(leagueRank) : "neutral";
 
@@ -22,7 +26,16 @@ export function StatCard({
         {leagueRank !== undefined && <RankBadge leagueRank={leagueRank} />}
       </div>
       <div className="mt-1 font-display text-3xl font-semibold text-navy dark:text-white">
-        {value}
+        {animate ? (
+          <CountUp
+            value={animate.value}
+            decimals={animate.decimals}
+            prefix={animate.prefix}
+            suffix={animate.suffix}
+          />
+        ) : (
+          value
+        )}
       </div>
       {soWhat && <SoWhatNote sentiment={sentiment}>{soWhat}</SoWhatNote>}
     </div>

@@ -48,18 +48,24 @@ export default async function HomePage() {
               value={`${teamStats.pointDifferential.value > 0 ? "+" : ""}${teamStats.pointDifferential.value}`}
               leagueRank={teamStats.pointDifferential.leagueRank}
               soWhat={`Pythagorean win% suggests a ${formatPercent(teamStats.pythagoreanWinPct)} true-talent team.`}
+              animate={{
+                value: teamStats.pointDifferential.value,
+                prefix: teamStats.pointDifferential.value > 0 ? "+" : "",
+              }}
             />
             <StatCard
               label="Offensive EPA/play"
               value={teamStats.epaPerPlay.offense.value.toFixed(2)}
               leagueRank={teamStats.epaPerPlay.offense.leagueRank}
               soWhat={`${ordinal(teamStats.epaPerPlay.offense.leagueRank)}-ranked offense by the metric that best predicts scoring.`}
+              animate={{ value: teamStats.epaPerPlay.offense.value, decimals: 2 }}
             />
             <StatCard
               label="Defensive EPA/play"
               value={teamStats.epaPerPlay.defense.value.toFixed(2)}
               leagueRank={teamStats.epaPerPlay.defense.leagueRank}
               soWhat={`${ordinal(teamStats.epaPerPlay.defense.leagueRank)}-ranked defense — negative is good here.`}
+              animate={{ value: teamStats.epaPerPlay.defense.value, decimals: 2 }}
             />
           </div>
         </div>

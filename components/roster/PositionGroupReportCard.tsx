@@ -1,5 +1,6 @@
 import type { PositionGroupReportCard as ReportCardData } from "@/lib/data/types";
 import { SoWhatNote } from "@/components/shared/SoWhatNote";
+import { CountUp } from "@/components/shared/CountUp";
 import { gradeTier } from "@/lib/calc/ranks";
 
 const trendSymbol: Record<ReportCardData["trend"], string> = {
@@ -26,7 +27,7 @@ export function PositionGroupReportCard({ card }: { card: ReportCardData }) {
       </div>
       <div className="mt-1 flex items-baseline gap-2">
         <span className="font-display text-3xl font-semibold text-navy dark:text-white">
-          {card.grade}
+          <CountUp value={card.grade} />
         </span>
         <span className="text-xs text-muted">
           vs. {card.leagueAvg} league avg ({diff > 0 ? "+" : ""}
