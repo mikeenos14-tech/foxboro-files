@@ -1,0 +1,34 @@
+[
+  {
+    "team": "NYJ",
+    "wins": 1,
+    "losses": 0,
+    "ties": 0,
+    "pointDifferential": 13,
+    "isUs": false
+  },
+  {
+    "team": "BUF",
+    "wins": 1,
+    "losses": 0,
+    "ties": 0,
+    "pointDifferential": 5,
+    "isUs": false
+  },
+  {
+    "team": "NE",
+    "wins": 0,
+    "losses": 1,
+    "ties": 0,
+    "pointDifferential": -3,
+    "isUs": true
+  },
+  {
+    "team": "MIA",
+    "wins": 0,
+    "losses": 1,
+    "ties": 0,
+    "pointDifferential": -14,
+    "isUs": false
+  }
+]

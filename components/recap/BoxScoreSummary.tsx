@@ -10,7 +10,7 @@ export function BoxScoreSummary({ game }: { game: Game }) {
   const won = (usScore ?? 0) > (themScore ?? 0);
 
   return (
-    <div className="-mx-4 bg-gradient-to-br from-navy via-navy to-navy-deep px-4 py-8 text-center sm:mx-0 sm:rounded-xl sm:px-6">
+    <div className="-mx-4 hero-texture bg-gradient-to-br from-navy via-navy to-navy-deep px-4 py-8 text-center sm:mx-0 sm:rounded-xl sm:px-6">
       <p className="text-sm text-white/70">
         {formatDate(game.date)} · {game.venue}
         {game.network ? ` · ${game.network}` : ""}

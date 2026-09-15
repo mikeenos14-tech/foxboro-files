@@ -17,10 +17,26 @@ const oswald = Oswald({
   weight: ["500", "600", "700"],
 });
 
+const description =
+  "An analytics-driven New England Patriots fan site: recaps, opponent breakdowns, schedule strength, news, and stats vs. the league.";
+
+// TODO once real hosting is set up: set NEXT_PUBLIC_SITE_URL so shared links
+// resolve OG/social preview images to the real domain instead of localhost.
 export const metadata: Metadata = {
-  title: "Foxboro Files",
-  description:
-    "An analytics-driven New England Patriots fan site: recaps, opponent breakdowns, schedule strength, news, and stats vs. the league.",
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000"),
+  title: {
+    default: "Foxboro Files",
+    template: "%s | Foxboro Files",
+  },
+  description,
+  openGraph: {
+    siteName: "Foxboro Files",
+    description,
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

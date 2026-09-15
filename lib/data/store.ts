@@ -10,6 +10,7 @@ import { readFile } from "node:fs/promises";
 import path from "node:path";
 import * as fixtures from "./fixtures";
 import type {
+  DivisionStanding,
   Game,
   GameRecap,
   InjuryReportEntry,
@@ -127,6 +128,13 @@ export async function getDepthChart(): Promise<DepthChartEntry[]> {
 
 export async function getSchedule(): Promise<ScheduleRow[]> {
   return (await readGenerated<ScheduleRow[]>("schedule.json")) ?? fixtures.schedule;
+}
+
+export async function getDivisionStandings(): Promise<DivisionStanding[]> {
+  return (
+    (await readGenerated<DivisionStanding[]>("division-standings.json")) ??
+    fixtures.divisionStandings
+  );
 }
 
 export async function getSeasonProjection(): Promise<SeasonProjection> {

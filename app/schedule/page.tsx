@@ -1,6 +1,9 @@
+import type { Metadata } from "next";
 import * as store from "@/lib/data/store";
 import { ScheduleTable } from "@/components/schedule/ScheduleTable";
 import { PlayoffScenarioTracker } from "@/components/schedule/PlayoffScenarioTracker";
+
+export const metadata: Metadata = { title: "Schedule" };
 
 export default async function SchedulePage() {
   const [rows, projection] = await Promise.all([

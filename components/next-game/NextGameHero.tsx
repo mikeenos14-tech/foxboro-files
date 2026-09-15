@@ -43,7 +43,7 @@ export function NextGameHero({
   const isHome = game.homeTeam === "NE";
 
   return (
-    <div className="-mx-4 bg-gradient-to-br from-navy via-navy to-navy-deep px-4 py-8 text-center sm:mx-0 sm:rounded-xl sm:px-6">
+    <div className="-mx-4 hero-texture bg-gradient-to-br from-navy via-navy to-navy-deep px-4 py-8 text-center sm:mx-0 sm:rounded-xl sm:px-6">
       <p className="text-sm font-semibold uppercase tracking-widest text-red-light">
         Week {game.week} · {isHome ? "Home" : "Away"}
       </p>

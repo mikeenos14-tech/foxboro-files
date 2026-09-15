@@ -29,7 +29,7 @@ import {
   defenseExplosiveRank,
 } from "./lib/leagueRanks";
 import { computeStandings, recordString, pointDiff, type TeamRecord } from "./lib/standings";
-import { TEAM_CONFERENCE, ALL_TEAMS } from "./lib/teams";
+import { TEAM_CONFERENCE, TEAM_DIVISION, ALL_TEAMS } from "./lib/teams";
 import { rankGeneric } from "./lib/rank";
 import { buildLeagueRosterByGsis } from "./lib/roster";
 import type {
@@ -82,6 +82,38 @@ async function main() {
 
   const standings = computeStandings(games, SEASON);
   const epaTable = computeLeagueEpaTable(pbp, ALL_TEAMS);
+
+  // ---------- Division standings ----------
+  const ourDivision = TEAM_DIVISION[TEAM];
+  const divisionTeams = ALL_TEAMS.filter((t) => TEAM_DIVISION[t] === ourDivision);
+  const divisionStandings = divisionTeams
+    .map((t) => {
+      const r = standings.get(t);
+      return {
+        team: t,
+        wins: r?.wins ?? 0,
+        losses: r?.losses ?? 0,
+        ties: r?.ties ?? 0,
+        pointDifferential: pointDiff(r),
+        isUs: t === TEAM,
+      };
+    })
+    // Sort by win% then point differential — a reasonable simplified
+    // ordering, not the NFL's full official tiebreaker chain (head-to-head,
+    // common games, conference record, etc.), which is out of scope here.
+    .sort((a, b) => {
+      const aGames = a.wins + a.losses + a.ties;
+      const bGames = b.wins + b.losses + b.ties;
+      const aPct = aGames === 0 ? 0 : (a.wins + a.ties * 0.5) / aGames;
+      const bPct = bGames === 0 ? 0 : (b.wins + b.ties * 0.5) / bGames;
+      if (bPct !== aPct) return bPct - aPct;
+      return b.pointDifferential - a.pointDifferential;
+    });
+
+  await writeFile(
+    path.join(GENERATED_DIR, "division-standings.json"),
+    JSON.stringify(divisionStandings, null, 2)
+  );
 
   // ---------- Schedule ----------
   const teamGames = games

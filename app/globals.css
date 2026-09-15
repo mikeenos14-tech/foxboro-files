@@ -109,6 +109,30 @@ body {
   font-family: var(--font-sans), system-ui, sans-serif;
 }
 
+/* Subtle "yard line" texture for navy hero bands — faint diagonal stripes
+   plus a radial highlight, so hero sections read as more than a flat
+   gradient without competing with the content on top of them. */
+.hero-texture {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+}
+.hero-texture::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background-image:
+    radial-gradient(circle at 15% 20%, rgb(255 255 255 / 0.06), transparent 55%),
+    repeating-linear-gradient(
+      115deg,
+      rgb(255 255 255 / 0.045) 0px,
+      rgb(255 255 255 / 0.045) 2px,
+      transparent 2px,
+      transparent 64px
+    );
+}
+
 /* Reusable card lift — used on anything clickable/scannable so the site has
    a little life to it instead of being totally static. */
 .lift {

@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import * as store from "@/lib/data/store";
 import { StatCard } from "@/components/shared/StatCard";
 import { MatchupGrid } from "@/components/shared/MatchupGrid";
@@ -7,6 +8,14 @@ import { RecentFormTrend } from "@/components/next-game/RecentFormTrend";
 import { NextGameHero } from "@/components/next-game/NextGameHero";
 import { formatDate } from "@/lib/util/format";
 import { ordinal } from "@/lib/calc/ranks";
+
+export async function generateMetadata(): Promise<Metadata> {
+  const [game, matchup] = await Promise.all([
+    store.getNextGame(),
+    store.getOpponentMatchup(),
+  ]);
+  return { title: `Week ${game.week} vs. ${matchup.opponent}` };
+}
 
 export default async function NextGamePage() {
   const [game, matchup] = await Promise.all([

@@ -1,4 +1,5 @@
 import { notFound } from "next/navigation";
+import type { Metadata } from "next";
 import * as store from "@/lib/data/store";
 import { BoxScoreSummary } from "@/components/recap/BoxScoreSummary";
 import { GoodBadUglySidebar } from "@/components/recap/GoodBadUglySidebar";
@@ -7,6 +8,23 @@ import { WPALeaderboard } from "@/components/recap/WPALeaderboard";
 import { WinProbabilityChart } from "@/components/shared/WinProbabilityChart";
 import { StatCard } from "@/components/shared/StatCard";
 import { formatPercent, signed } from "@/lib/util/format";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ gameId: string }>;
+}): Promise<Metadata> {
+  const { gameId } = await params;
+  const lastGame = await store.getLastGame();
+  if (lastGame.id !== gameId) return { title: "Recap" };
+  const isHome = lastGame.homeTeam === "NE";
+  const opponent = isHome ? lastGame.awayTeam : lastGame.homeTeam;
+  const usScore = isHome ? lastGame.homeScore : lastGame.awayScore;
+  const themScore = isHome ? lastGame.awayScore : lastGame.homeScore;
+  return {
+    title: `Week ${lastGame.week}: NE ${usScore}-${themScore} vs. ${opponent}`,
+  };
+}
 
 export default async function RecapDetailPage({
   params,

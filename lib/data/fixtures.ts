@@ -7,6 +7,7 @@
 
 import type {
   DepthChartEntry,
+  DivisionStanding,
   Game,
   GameRecap,
   InjuryReportEntry,
@@ -274,6 +275,13 @@ export const projection: SeasonProjection = {
   projectedLosses: 7,
   playoffOdds: 0.58,
 };
+
+export const divisionStandings: DivisionStanding[] = [
+  { team: "BUF", wins: 2, losses: 0, ties: 0, pointDifferential: 20, isUs: false },
+  { team: "NE", wins: 2, losses: 0, ties: 0, pointDifferential: 10, isUs: true },
+  { team: "MIA", wins: 1, losses: 1, ties: 0, pointDifferential: -2, isUs: false },
+  { team: "NYJ", wins: 0, losses: 2, ties: 0, pointDifferential: -19, isUs: false },
+];
 
 export const news: NewsItem[] = [
   {

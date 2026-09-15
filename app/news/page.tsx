@@ -1,6 +1,9 @@
+import type { Metadata } from "next";
 import * as store from "@/lib/data/store";
 import { NewsFeed } from "@/components/news/NewsFeed";
 import { InjuryTable } from "@/components/shared/InjuryTable";
+
+export const metadata: Metadata = { title: "News" };
 
 export default async function NewsPage() {
   const [news, injuries] = await Promise.all([

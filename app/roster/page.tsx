@@ -1,9 +1,12 @@
+import type { Metadata } from "next";
 import * as store from "@/lib/data/store";
 import { DepthChartTable } from "@/components/roster/DepthChartTable";
 import { PositionGroupReportCard } from "@/components/roster/PositionGroupReportCard";
 import { SpecialTeamsStats } from "@/components/roster/SpecialTeamsStats";
 import { SituationalSplitsTable } from "@/components/roster/SituationalSplitsTable";
 import { QBDeepDive } from "@/components/roster/QBDeepDive";
+
+export const metadata: Metadata = { title: "Roster & Stats" };
 
 export default async function RosterPage() {
   const [chart, reportCards, teamStats, qb] = await Promise.all([

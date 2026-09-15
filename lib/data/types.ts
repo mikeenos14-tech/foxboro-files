@@ -11,6 +11,15 @@ export interface Team {
   division: string;
 }
 
+export interface DivisionStanding {
+  team: string;
+  wins: number;
+  losses: number;
+  ties: number;
+  pointDifferential: number;
+  isUs: boolean;
+}
+
 export interface Player {
   id: string; // nflverse gsis_id
   espnId?: string;

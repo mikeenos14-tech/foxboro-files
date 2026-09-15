@@ -1,7 +1,10 @@
 import Link from "next/link";
+import type { Metadata } from "next";
 import * as store from "@/lib/data/store";
 import { formatDate } from "@/lib/util/format";
 import { TeamLogo } from "@/components/shared/TeamLogo";
+
+export const metadata: Metadata = { title: "Game Recaps" };
 
 export default async function RecapIndexPage() {
   const recaps = await store.getAllRecaps();
