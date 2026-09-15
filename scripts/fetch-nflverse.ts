@@ -24,6 +24,14 @@ const SOURCES: Array<{ name: string; url: string }> = [
     name: "roster_2026.csv",
     url: "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2026.csv",
   },
+  {
+    // Official, team-reported weekly injury report: practice participation
+    // + game-status designation + real injury body part. Preferred over
+    // ESPN's roster-embedded injury status when it has the target week
+    // published (see build-espn-data.ts's fallback logic).
+    name: "injuries_2026.csv",
+    url: "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv",
+  },
 ];
 
 async function fetchOne(name: string, url: string) {

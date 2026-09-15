@@ -161,7 +161,7 @@ export interface NewsItem {
   relatedPlayerIds?: string[];
 }
 
-export type PracticeStatus = "DNP" | "Limited" | "Full";
+export type PracticeStatus = "Did Not Participate" | "Limited" | "Full";
 export type GameStatus = "Out" | "Doubtful" | "Questionable" | "Probable";
 
 export interface InjuryReportEntry {
@@ -170,9 +170,10 @@ export interface InjuryReportEntry {
   position: string;
   week: number;
   injury: string;
-  wednesday?: PracticeStatus;
-  thursday?: PracticeStatus;
-  friday?: PracticeStatus;
+  // Most-recent practice participation available — real sources (nflverse's
+  // official report, ESPN's live status) give one current snapshot, not a
+  // Wed/Thu/Fri breakdown, so that's what this reflects.
+  practiceStatus?: PracticeStatus;
   gameStatus?: GameStatus | null;
   lastUpdated: string;
 }

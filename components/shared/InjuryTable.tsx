@@ -7,16 +7,11 @@ const statusClasses: Record<string, string> = {
   Probable: "text-rank-good font-semibold",
 };
 
-function Practice({ status }: { status?: string }) {
-  if (!status) return <span className="text-muted">—</span>;
-  const cls =
-    status === "DNP"
-      ? "text-red"
-      : status === "Limited"
-        ? "text-rank-mid"
-        : "text-rank-good";
-  return <span className={cls}>{status}</span>;
-}
+const practiceClasses: Record<string, string> = {
+  "Did Not Participate": "text-red",
+  Limited: "text-rank-mid",
+  Full: "text-rank-good",
+};
 
 export function InjuryTable({ entries }: { entries: InjuryReportEntry[] }) {
   if (entries.length === 0) {
@@ -33,10 +28,8 @@ export function InjuryTable({ entries }: { entries: InjuryReportEntry[] }) {
           <tr>
             <th className="px-3 py-2">Player</th>
             <th className="px-3 py-2">Injury</th>
-            <th className="px-3 py-2">Wed</th>
-            <th className="px-3 py-2">Thu</th>
-            <th className="px-3 py-2">Fri</th>
-            <th className="px-3 py-2">Status</th>
+            <th className="px-3 py-2">Practice Status</th>
+            <th className="px-3 py-2">Game Status</th>
           </tr>
         </thead>
         <tbody>
@@ -49,14 +42,10 @@ export function InjuryTable({ entries }: { entries: InjuryReportEntry[] }) {
                 {e.playerName} <span className="text-muted">{e.position}</span>
               </td>
               <td className="px-3 py-2 text-muted">{e.injury}</td>
-              <td className="px-3 py-2">
-                <Practice status={e.wednesday} />
-              </td>
-              <td className="px-3 py-2">
-                <Practice status={e.thursday} />
-              </td>
-              <td className="px-3 py-2">
-                <Practice status={e.friday} />
+              <td
+                className={`px-3 py-2 ${e.practiceStatus ? practiceClasses[e.practiceStatus] : "text-muted"}`}
+              >
+                {e.practiceStatus ?? "—"}
               </td>
               <td
                 className={`px-3 py-2 ${e.gameStatus ? statusClasses[e.gameStatus] : ""}`}

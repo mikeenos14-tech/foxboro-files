@@ -15,11 +15,13 @@
 import { readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { XMLParser } from "fast-xml-parser";
+import { loadCsv, num } from "./lib/csv";
 import type { Game, InjuryReportEntry, NewsItem, NewsType } from "../lib/data/types";
 
 const RAW_DIR = path.join(process.cwd(), "data", "raw");
 const GENERATED_DIR = path.join(process.cwd(), "data", "generated");
 const TEAM_NAME_KEYWORDS = ["patriots"];
+const TEAM = "NE";
 
 async function readRawJson<T>(filename: string): Promise<T | null> {
   try {
@@ -202,7 +204,7 @@ async function currentWeek(): Promise<number> {
   }
 }
 
-async function buildInjuries(): Promise<InjuryReportEntry[] | null> {
+async function buildInjuriesFromEspn(): Promise<InjuryReportEntry[] | null> {
   const raw = await readRawJson<EspnRosterResponse>("espn-roster.json");
   if (!raw?.athletes) return null;
   const week = await currentWeek();
@@ -223,13 +225,70 @@ async function buildInjuries(): Promise<InjuryReportEntry[] | null> {
       week,
       injury: bodyPart,
       // ESPN's public roster/injuries endpoints don't expose day-by-day
-      // (Wed/Thu/Fri) practice participation — only the current overall
-      // game-status designation, which is what's populated below.
+      // (Wed/Thu/Fri) practice participation, only an overall status — used
+      // as a live-ish fallback for whichever week nflverse's official
+      // report hasn't published yet.
       gameStatus: mapGameStatus(injury.status ?? ""),
       lastUpdated: injury.date ?? new Date().toISOString(),
     });
   }
   return entries;
+}
+
+// nflverse's official, team-reported weekly injury data — preferred over
+// ESPN when it has the target week published, since it's the real league
+// report (practice participation + official game status + actual injury
+// body part), not a live roster-status guess.
+interface NflverseInjuryRow {
+  season: string;
+  team: string;
+  week: string;
+  gsis_id: string;
+  position: string;
+  full_name: string;
+  report_primary_injury: string;
+  report_status: string;
+  practice_primary_injury: string;
+  practice_status: string;
+}
+
+function mapPracticeStatus(raw: string): InjuryReportEntry["practiceStatus"] {
+  if (raw === "Did Not Participate In Practice") return "Did Not Participate";
+  if (raw === "Limited Participation in Practice") return "Limited";
+  if (raw === "Full Participation in Practice") return "Full";
+  return undefined;
+}
+
+function mapNflverseGameStatus(raw: string): InjuryReportEntry["gameStatus"] {
+  if (raw === "Questionable" || raw === "Doubtful" || raw === "Out") return raw;
+  return null;
+}
+
+async function buildInjuriesFromNflverse(
+  team: string,
+  week: number
+): Promise<InjuryReportEntry[] | null> {
+  let rows: NflverseInjuryRow[];
+  try {
+    rows = await loadCsv<NflverseInjuryRow>("injuries_2026.csv");
+  } catch (err) {
+    console.error("Warning: could not read injuries_2026.csv, skipping this source.", err);
+    return null;
+  }
+
+  const targetRows = rows.filter((r) => r.team === team && num(r.week) === week);
+  if (targetRows.length === 0) return null;
+
+  return targetRows.map((r) => ({
+    playerId: r.gsis_id,
+    playerName: r.full_name,
+    position: r.position,
+    week,
+    injury: r.report_primary_injury || r.practice_primary_injury || "Not specified",
+    practiceStatus: mapPracticeStatus(r.practice_status),
+    gameStatus: mapNflverseGameStatus(r.report_status),
+    lastUpdated: new Date().toISOString(),
+  }));
 }
 
 async function main() {
@@ -246,13 +305,17 @@ async function main() {
     console.warn("news.json not updated — kept previous version, if any.");
   }
 
-  const injuries = await buildInjuries();
+  const week = await currentWeek();
+  const nflverseInjuries = await buildInjuriesFromNflverse(TEAM, week);
+  const injuries = nflverseInjuries ?? (await buildInjuriesFromEspn());
   if (injuries) {
     await writeFile(
       path.join(GENERATED_DIR, "injuries.json"),
       JSON.stringify(injuries, null, 2)
     );
-    console.log(`Wrote injuries.json (${injuries.length} current-week entries)`);
+    console.log(
+      `Wrote injuries.json (${injuries.length} entries for week ${week}, source: ${nflverseInjuries ? "nflverse" : "ESPN fallback"})`
+    );
   } else {
     console.warn("injuries.json not updated — kept previous version, if any.");
   }
