@@ -6,6 +6,7 @@ import { InjuryTable } from "@/components/shared/InjuryTable";
 import { MatchupOfTheWeekCallout } from "@/components/next-game/MatchupOfTheWeekCallout";
 import { RecentFormTrend } from "@/components/next-game/RecentFormTrend";
 import { NextGameHero } from "@/components/next-game/NextGameHero";
+import { ScorePredictor } from "@/components/next-game/ScorePredictor";
 import { formatDate } from "@/lib/util/format";
 import { ordinal } from "@/lib/calc/ranks";
 
@@ -18,14 +19,18 @@ export async function generateMetadata(): Promise<Metadata> {
 }
 
 export default async function NextGamePage() {
-  const [game, matchup] = await Promise.all([
+  const [game, matchup, schedule] = await Promise.all([
     store.getNextGame(),
     store.getOpponentMatchup(),
+    store.getSchedule(),
   ]);
+  const neWinProb = schedule.find((r) => r.gameId === game.id)?.winProbabilityEstimate;
 
   return (
     <div className="space-y-6">
       <NextGameHero game={game} opponent={matchup.opponent} />
+
+      <ScorePredictor opponent={matchup.opponent} neWinProb={neWinProb} />
 
       <div className="grid gap-3 sm:grid-cols-2">
         <StatCard
