@@ -12,8 +12,8 @@
 
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
-import { loadCsv, num, bool01 } from "./lib/csv";
-import type { PbpRow } from "./lib/pbp";
+import { loadCsv, num } from "./lib/csv";
+import { playTypeEpa, sackRateAllowed, sackRateGenerated, type PbpRow } from "./lib/pbp";
 import { rankGeneric } from "./lib/rank";
 import { ALL_TEAMS } from "./lib/teams";
 import { ordinal } from "../lib/calc/ranks";
@@ -28,29 +28,6 @@ const SEASON = 2026;
 const GENERATED_DIR = path.join(process.cwd(), "data", "generated");
 
 type GameRow = Record<string, string>;
-
-function playEpa(
-  pbp: PbpRow[],
-  team: string,
-  side: "posteam" | "defteam",
-  playType: "run" | "pass"
-): number {
-  const rows = pbp.filter((r) => r[side] === team && r.play_type === playType);
-  if (rows.length === 0) return 0;
-  return rows.reduce((sum, r) => sum + num(r.epa), 0) / rows.length;
-}
-
-function sackRateAllowed(pbp: PbpRow[], team: string): number {
-  const dropbacks = pbp.filter((r) => r.posteam === team && bool01(r.pass_attempt));
-  const sacked = dropbacks.filter((r) => bool01(r.sack));
-  return dropbacks.length === 0 ? 0 : sacked.length / dropbacks.length;
-}
-
-function sackRateGenerated(pbp: PbpRow[], team: string): number {
-  const dropbacks = pbp.filter((r) => r.defteam === team && bool01(r.pass_attempt));
-  const sacked = dropbacks.filter((r) => bool01(r.sack));
-  return dropbacks.length === 0 ? 0 : sacked.length / dropbacks.length;
-}
 
 function edgeFor(ourGrade: number, theirGrade: number): PositionMatchup["edge"] {
   const diff = ourGrade - theirGrade;
@@ -80,10 +57,10 @@ async function main() {
   const grade = (valueOf: (t: string) => number, higherIsBetter: boolean, team: string) =>
     rankGeneric(ALL_TEAMS, team, valueOf, higherIsBetter).leaguePercentile;
 
-  const rushOffGrade = (t: string) => grade((tt) => playEpa(pbp, tt, "posteam", "run"), true, t);
-  const passOffGrade = (t: string) => grade((tt) => playEpa(pbp, tt, "posteam", "pass"), true, t);
-  const rushDefGrade = (t: string) => grade((tt) => playEpa(pbp, tt, "defteam", "run"), false, t);
-  const passDefGrade = (t: string) => grade((tt) => playEpa(pbp, tt, "defteam", "pass"), false, t);
+  const rushOffGrade = (t: string) => grade((tt) => playTypeEpa(pbp, tt, "posteam", "run"), true, t);
+  const passOffGrade = (t: string) => grade((tt) => playTypeEpa(pbp, tt, "posteam", "pass"), true, t);
+  const rushDefGrade = (t: string) => grade((tt) => playTypeEpa(pbp, tt, "defteam", "run"), false, t);
+  const passDefGrade = (t: string) => grade((tt) => playTypeEpa(pbp, tt, "defteam", "pass"), false, t);
   const passProGrade = (t: string) => grade((tt) => sackRateAllowed(pbp, tt), false, t);
   const passRushGrade = (t: string) => grade((tt) => sackRateGenerated(pbp, tt), true, t);
 

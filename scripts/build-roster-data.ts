@@ -6,7 +6,7 @@
 import { mkdir, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { loadCsv, num, bool01 } from "./lib/csv";
-import type { PbpRow } from "./lib/pbp";
+import { playTypeEpa, sackRateAllowed, sackRateGenerated, type PbpRow } from "./lib/pbp";
 import {
   loadTeamRoster,
   buildLeagueRosterByGsis,
@@ -48,11 +48,17 @@ async function buildDepthChart(): Promise<DepthChartEntry[]> {
 }
 
 // ---------- Position-group report cards ----------
-// Real for QB/RB/WR/TE, where per-play EPA can be cleanly attributed to one
-// player via passer_id/rusher_id/receiver_id. Offensive line and every
-// defensive position group are left as illustrative placeholders (merged in
-// by lib/data/store.ts) — grading those properly needs charting data (pass-
-// block win rate, coverage grades) that isn't available from a free source.
+// QB/RB/WR/TE: per-play EPA cleanly attributed to one player via
+// passer_id/rusher_id/receiver_id.
+// OL/Edge/Interior DL/Secondary: no PFF-style pass-block-win-rate or
+// coverage-grade data is available for free, so these use the closest
+// honest team-unit proxy instead of a fabricated player-level grade —
+// pass protection (sack rate allowed), pass rush (sack rate generated),
+// run defense (rush EPA allowed), and pass defense (pass EPA allowed)
+// respectively. Each says so explicitly in its "so what" text.
+// LB is left as the one illustrative placeholder (merged in by
+// lib/data/store.ts) — linebacker play spans both run support and
+// coverage without a clean, non-redundant team-level metric to isolate it.
 
 function positionEpa(
   pbp: PbpRow[],
@@ -92,7 +98,7 @@ async function buildPositionGroupCards(
     { label: "TE", idField: "receiver_id", playType: "pass", rosterPosition: "TE" },
   ];
 
-  return groups.map(({ label, idField, playType, rosterPosition }) => {
+  const playerAttributed = groups.map(({ label, idField, playType, rosterPosition }) => {
     const valueOf = (t: string) =>
       positionEpa(pbp, rosterByGsis, t, rosterPosition, idField, playType).epa;
     const ranked = rankGeneric(ALL_TEAMS, TEAM, valueOf, true);
@@ -107,10 +113,46 @@ async function buildPositionGroupCards(
       leagueAvg: 50,
       // Only one week of data so far — nothing to trend against yet.
       // Revisit once multiple weeks accumulate.
-      trend: "flat",
+      trend: "flat" as const,
       soWhat: `${ordinal(grade)} percentile in the NFL for EPA/play generated at ${label} this season (${n} plays sampled).`,
     };
   });
+
+  const unitGrade = (valueOf: (t: string) => number, higherIsBetter: boolean) =>
+    rankGeneric(ALL_TEAMS, TEAM, valueOf, higherIsBetter).leaguePercentile;
+
+  const teamUnits: PositionGroupReportCard[] = [
+    {
+      group: "OL",
+      grade: unitGrade((t) => sackRateAllowed(pbp, t), false),
+      leagueAvg: 50,
+      trend: "flat",
+      soWhat: `${ordinal(unitGrade((t) => sackRateAllowed(pbp, t), false))} percentile in the NFL for sack rate allowed (pass protection proxy — no per-player blocking data available free).`,
+    },
+    {
+      group: "Edge",
+      grade: unitGrade((t) => sackRateGenerated(pbp, t), true),
+      leagueAvg: 50,
+      trend: "flat",
+      soWhat: `${ordinal(unitGrade((t) => sackRateGenerated(pbp, t), true))} percentile in the NFL for sack rate generated (pass rush proxy, team-wide — not isolated to edge rushers specifically).`,
+    },
+    {
+      group: "Interior DL",
+      grade: unitGrade((t) => playTypeEpa(pbp, t, "defteam", "run"), false),
+      leagueAvg: 50,
+      trend: "flat",
+      soWhat: `${ordinal(unitGrade((t) => playTypeEpa(pbp, t, "defteam", "run"), false))} percentile in the NFL for rush EPA allowed (run defense proxy, team-wide — not isolated to interior linemen specifically).`,
+    },
+    {
+      group: "Secondary",
+      grade: unitGrade((t) => playTypeEpa(pbp, t, "defteam", "pass"), false),
+      leagueAvg: 50,
+      trend: "flat",
+      soWhat: `${ordinal(unitGrade((t) => playTypeEpa(pbp, t, "defteam", "pass"), false))} percentile in the NFL for pass EPA allowed (pass defense proxy — includes pass rush effect, not isolated to coverage alone).`,
+    },
+  ];
+
+  return [...playerAttributed, ...teamUnits];
 }
 
 // ---------- QB deep dive ----------
@@ -202,7 +244,9 @@ async function main() {
     path.join(GENERATED_DIR, "position-group-cards.json"),
     JSON.stringify(positionCards, null, 2)
   );
-  console.log(`Wrote position-group-cards.json (${positionCards.length} real groups: QB/RB/WR/TE)`);
+  console.log(
+    `Wrote position-group-cards.json (${positionCards.length} real groups: QB/RB/WR/TE/OL/Edge/Interior DL/Secondary)`
+  );
 
   const qb = await buildQbDeepDive(pbp);
   if (qb) {

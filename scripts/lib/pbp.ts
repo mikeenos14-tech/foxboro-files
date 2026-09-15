@@ -52,6 +52,35 @@ export function defenseStats(rows: PbpRow[], team: string): TeamSplitStats {
   return aggregate(rows.filter((r) => r.defteam === team && isScrimmage(r)));
 }
 
+// EPA/play split by play type (run vs. pass) and side of ball — used
+// wherever a unit-level (not whole-offense/defense) grade is needed, e.g.
+// "rush offense vs. run defense" style matchups.
+export function playTypeEpa(
+  rows: PbpRow[],
+  team: string,
+  side: "posteam" | "defteam",
+  playType: "run" | "pass"
+): number {
+  const filtered = rows.filter((r) => r[side] === team && r.play_type === playType);
+  if (filtered.length === 0) return 0;
+  return filtered.reduce((sum, r) => sum + num(r.epa), 0) / filtered.length;
+}
+
+// Sack rate the team's own offense allows (pass protection quality — lower
+// is better) vs. the sack rate the team's defense generates against
+// opponents (pass rush quality — higher is better).
+export function sackRateAllowed(rows: PbpRow[], team: string): number {
+  const dropbacks = rows.filter((r) => r.posteam === team && bool01(r.pass_attempt));
+  if (dropbacks.length === 0) return 0;
+  return dropbacks.filter((r) => bool01(r.sack)).length / dropbacks.length;
+}
+
+export function sackRateGenerated(rows: PbpRow[], team: string): number {
+  const dropbacks = rows.filter((r) => r.defteam === team && bool01(r.pass_attempt));
+  if (dropbacks.length === 0) return 0;
+  return dropbacks.filter((r) => bool01(r.sack)).length / dropbacks.length;
+}
+
 export function successByDown(
   rows: PbpRow[],
   team: string,

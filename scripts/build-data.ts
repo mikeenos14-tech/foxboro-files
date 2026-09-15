@@ -172,6 +172,28 @@ async function main() {
     JSON.stringify(schedule, null, 2)
   );
 
+  // ---------- Season projection ----------
+  // Built from real inputs (actual results so far + our own per-game win
+  // probability estimates above), but the combination is our own simplified
+  // model, not a full playoff simulation — same honesty framing as the
+  // per-game win probabilities themselves.
+  const currentWins = schedule.filter((r) => r.result === "W").length;
+  const currentTies = schedule.filter((r) => r.result === "T").length;
+  const expectedAdditionalWins = schedule
+    .filter((r) => !r.result)
+    .reduce((sum, r) => sum + (r.winProbabilityEstimate ?? 0.5), 0);
+  const projectedWins = Math.round(currentWins + currentTies * 0.5 + expectedAdditionalWins);
+  const projectedLosses = schedule.length - projectedWins;
+  // Simplified playoff-odds curve centered on a typical wildcard cutoff
+  // (~9.5 wins in a 17-game season) — not a real playoff simulation across
+  // the whole conference, just a smooth function of projected win total.
+  const playoffOdds = 1 / (1 + Math.exp(-(projectedWins - 9.5) / 1.5));
+
+  await writeFile(
+    path.join(GENERATED_DIR, "season-projection.json"),
+    JSON.stringify({ projectedWins, projectedLosses, playoffOdds }, null, 2)
+  );
+
   // ---------- Last / Next game ----------
   const played = teamGames.filter((g) => g.home_score !== "" && g.home_score !== undefined);
   const upcoming = teamGames.filter((g) => g.home_score === "" || g.home_score === undefined);

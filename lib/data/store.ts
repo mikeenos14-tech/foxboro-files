@@ -105,10 +105,11 @@ export async function getTeamStats(): Promise<TeamStatSnapshot> {
 export async function getPositionGroupReportCards(): Promise<
   PositionGroupReportCard[]
 > {
-  // Real for QB/RB/WR/TE (computed from play-by-play); the rest
-  // (OL/Edge/Interior DL/LB/Secondary) stay fixture-sourced until we have a
-  // real per-position defensive/line grading source — merge rather than
-  // replace so the page never silently drops those cards.
+  // Real for QB/RB/WR/TE/OL/Edge/Interior DL/Secondary (computed from
+  // play-by-play — see scripts/build-roster-data.ts for what each proxy
+  // metric actually measures). LB stays fixture-sourced — no clean,
+  // non-redundant team-level proxy for it — merge rather than replace so
+  // the page never silently drops that card.
   const real = await readGenerated<PositionGroupReportCard[]>("position-group-cards.json");
   if (!real) return fixtures.positionGroupReportCards;
   const realGroups = new Set(real.map((c) => c.group));
@@ -138,7 +139,9 @@ export async function getDivisionStandings(): Promise<DivisionStanding[]> {
 }
 
 export async function getSeasonProjection(): Promise<SeasonProjection> {
-  return fixtures.projection;
+  return (
+    (await readGenerated<SeasonProjection>("season-projection.json")) ?? fixtures.projection
+  );
 }
 
 export async function getOpponentMatchup(): Promise<OpponentMatchupData> {
