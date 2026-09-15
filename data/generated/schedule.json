@@ -1,0 +1,325 @@
+[
+  {
+    "gameId": "2026_01_NE_SEA",
+    "week": 1,
+    "opponent": "SEA",
+    "homeAway": "away",
+    "opponentRecord": "1-0",
+    "opponentPointDiff": 3,
+    "opponentEpaRank": 10,
+    "strengthOfSchedule": {
+      "season": 3,
+      "opponentSos": -3
+    },
+    "restDays": 7,
+    "opponentRestDays": 7,
+    "isDivisional": false,
+    "isConference": false,
+    "result": "L",
+    "date": "2026-09-09"
+  },
+  {
+    "gameId": "2026_02_PIT_NE",
+    "week": 2,
+    "opponent": "PIT",
+    "homeAway": "home",
+    "opponentRecord": "1-0",
+    "opponentPointDiff": 7,
+    "opponentEpaRank": 15,
+    "strengthOfSchedule": {
+      "season": 3,
+      "opponentSos": -7
+    },
+    "restDays": 11,
+    "opponentRestDays": 7,
+    "isDivisional": false,
+    "isConference": true,
+    "winProbabilityEstimate": 0.30041831475694736,
+    "date": "2026-09-20"
+  },
+  {
+    "gameId": "2026_03_NE_JAX",
+    "week": 3,
+    "opponent": "JAX",
+    "homeAway": "away",
+    "opponentRecord": "1-0",
+    "opponentPointDiff": 24,
+    "opponentEpaRank": 2,
+    "strengthOfSchedule": {
+      "season": 3,
+      "opponentSos": -24
+    },
+    "restDays": 7,
+    "opponentRestDays": 7,
+    "isDivisional": false,
+    "isConference": true,
+    "winProbabilityEstimate": 0.1,
+    "date": "2026-09-27"
+  },
+  {
+    "gameId": "2026_04_NE_BUF",
+    "week": 4,
+    "opponent": "BUF",
+    "homeAway": "away",
+    "opponentRecord": "1-0",
+    "opponentPointDiff": 5,
+    "opponentEpaRank": 11,
+    "strengthOfSchedule": {
+      "season": 3,
+      "opponentSos": -5
+    },
+    "restDays": 7,
+    "opponentRestDays": 7,
+    "isDivisional": true,
+    "isConference": true,
+    "winProbabilityEstimate": 0.13237240647462054,
+    "date": "2026-10-04"
+  },
+  {
+    "gameId": "2026_05_LV_NE",
+    "week": 5,
+    "opponent": "LV",
+    "homeAway": "home",
+    "opponentRecord": "1-0",
+    "opponentPointDiff": 14,
+    "opponentEpaRank": 8,
+    "strengthOfSchedule": {
+      "season": 3,
+      "opponentSos": -14
+    },
+    "restDays": 7,
+    "opponentRestDays": 7,
+    "isDivisional": false,
+    "isConference": true,
+    "winProbabilityEstimate": 0.15971924946480917,
+    "date": "2026-10-11"
+  },
+  {
+    "gameId": "2026_06_NYJ_NE",
+    "week": 6,
+    "opponent": "NYJ",
+    "homeAway": "home",
+    "opponentRecord": "1-0",
+    "opponentPointDiff": 13,
+    "opponentEpaRank": 6,
+    "strengthOfSchedule": {
+      "season": 3,
+      "opponentSos": -13
+    },
+    "restDays": 7,
+    "opponentRestDays": 7,
+    "isDivisional": true,
+    "isConference": true,
+    "winProbabilityEstimate": 0.11521383893762602,
+    "date": "2026-10-18"
+  },
+  {
+    "gameId": "2026_07_NE_CHI",
+    "week": 7,
+    "opponent": "CHI",
+    "homeAway": "away",
+    "opponentRecord": "1-0",
+    "opponentPointDiff": 22,
+    "opponentEpaRank": 7,
+    "strengthOfSchedule": {
+      "season": 3,
+      "opponentSos": -22
+    },
+    "restDays": 4,
+    "opponentRestDays": 4,
+    "isDivisional": false,
+    "isConference": false,
+    "winProbabilityEstimate": 0.1,
+    "date": "2026-10-22"
+  },
+  {
+    "gameId": "2026_08_NE_MIA",
+    "week": 8,
+    "opponent": "MIA",
+    "homeAway": "away",
+    "opponentRecord": "0-1",
+    "opponentPointDiff": -14,
+    "opponentEpaRank": 25,
+    "strengthOfSchedule": {
+      "season": 3,
+      "opponentSos": 14
+    },
+    "restDays": 10,
+    "opponentRestDays": 7,
+    "isDivisional": true,
+    "isConference": true,
+    "winProbabilityEstimate": 0.5018607157811164,
+    "date": "2026-11-01"
+  },
+  {
+    "gameId": "2026_09_GB_NE",
+    "week": 9,
+    "opponent": "GB",
+    "homeAway": "home",
+    "opponentRecord": "0-1",
+    "opponentPointDiff": -17,
+    "opponentEpaRank": 21,
+    "strengthOfSchedule": {
+      "season": 3,
+      "opponentSos": 17
+    },
+    "restDays": 7,
+    "opponentRestDays": 10,
+    "isDivisional": false,
+    "isConference": false,
+    "winProbabilityEstimate": 0.5000164802817342,
+    "date": "2026-11-08"
+  },
+  {
+    "gameId": "2026_10_NE_DET",
+    "week": 10,
+    "opponent": "DET",
+    "homeAway": "away",
+    "opponentRecord": "1-0",
+    "opponentPointDiff": 1,
+    "opponentEpaRank": 14,
+    "strengthOfSchedule": {
+      "season": 3,
+      "opponentSos": -1
+    },
+    "restDays": 7,
+    "opponentRestDays": 7,
+    "isDivisional": false,
+    "isConference": false,
+    "winProbabilityEstimate": 0.23777566568918698,
+    "date": "2026-11-15"
+  },
+  {
+    "gameId": "2026_12_NE_LAC",
+    "week": 12,
+    "opponent": "LAC",
+    "homeAway": "away",
+    "opponentRecord": "0-1",
+    "opponentPointDiff": -12,
+    "opponentEpaRank": 28,
+    "strengthOfSchedule": {
+      "season": 3,
+      "opponentSos": 12
+    },
+    "restDays": 14,
+    "opponentRestDays": 7,
+    "isDivisional": false,
+    "isConference": true,
+    "winProbabilityEstimate": 0.7185213864882226,
+    "date": "2026-11-29"
+  },
+  {
+    "gameId": "2026_13_BUF_NE",
+    "week": 13,
+    "opponent": "BUF",
+    "homeAway": "home",
+    "opponentRecord": "1-0",
+    "opponentPointDiff": 5,
+    "opponentEpaRank": 11,
+    "strengthOfSchedule": {
+      "season": 3,
+      "opponentSos": -5
+    },
+    "restDays": 7,
+    "opponentRestDays": 10,
+    "isDivisional": true,
+    "isConference": true,
+    "winProbabilityEstimate": 0.18237240647462052,
+    "date": "2026-12-06"
+  },
+  {
+    "gameId": "2026_14_MIN_NE",
+    "week": 14,
+    "opponent": "MIN",
+    "homeAway": "home",
+    "opponentRecord": "1-0",
+    "opponentPointDiff": 17,
+    "opponentEpaRank": 12,
+    "strengthOfSchedule": {
+      "season": 3,
+      "opponentSos": -17
+    },
+    "restDays": 4,
+    "opponentRestDays": 4,
+    "isDivisional": false,
+    "isConference": false,
+    "winProbabilityEstimate": 0.18579870899121984,
+    "date": "2026-12-10"
+  },
+  {
+    "gameId": "2026_15_NE_KC",
+    "week": 15,
+    "opponent": "KC",
+    "homeAway": "away",
+    "opponentRecord": "1-0",
+    "opponentPointDiff": 21,
+    "opponentEpaRank": 3,
+    "strengthOfSchedule": {
+      "season": 3,
+      "opponentSos": -21
+    },
+    "restDays": 11,
+    "opponentRestDays": 8,
+    "isDivisional": false,
+    "isConference": true,
+    "winProbabilityEstimate": 0.1,
+    "date": "2026-12-21"
+  },
+  {
+    "gameId": "2026_16_NE_NYJ",
+    "week": 16,
+    "opponent": "NYJ",
+    "homeAway": "away",
+    "opponentRecord": "1-0",
+    "opponentPointDiff": 13,
+    "opponentEpaRank": 6,
+    "strengthOfSchedule": {
+      "season": 3,
+      "opponentSos": -13
+    },
+    "restDays": 6,
+    "opponentRestDays": 7,
+    "isDivisional": true,
+    "isConference": true,
+    "winProbabilityEstimate": 0.1,
+    "date": "2026-12-27"
+  },
+  {
+    "gameId": "2026_17_DEN_NE",
+    "week": 17,
+    "opponent": "DEN",
+    "homeAway": "home",
+    "opponentRecord": "0-1",
+    "opponentPointDiff": -21,
+    "opponentEpaRank": 30,
+    "strengthOfSchedule": {
+      "season": 3,
+      "opponentSos": 21
+    },
+    "restDays": 7,
+    "opponentRestDays": 9,
+    "isDivisional": false,
+    "isConference": true,
+    "winProbabilityEstimate": 0.8659410436087599,
+    "date": "2027-01-03"
+  },
+  {
+    "gameId": "2026_18_MIA_NE",
+    "week": 18,
+    "opponent": "MIA",
+    "homeAway": "home",
+    "opponentRecord": "0-1",
+    "opponentPointDiff": -14,
+    "opponentEpaRank": 25,
+    "strengthOfSchedule": {
+      "season": 3,
+      "opponentSos": 14
+    },
+    "restDays": 7,
+    "opponentRestDays": 7,
+    "isDivisional": true,
+    "isConference": true,
+    "winProbabilityEstimate": 0.5518607157811164,
+    "date": "2027-01-10"
+  }
+]

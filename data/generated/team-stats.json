@@ -1,0 +1,125 @@
+{
+  "team": "NE",
+  "season": 2026,
+  "epaPerPlay": {
+    "offense": {
+      "value": -0.10962827054056877,
+      "leagueRank": 21,
+      "leaguePercentile": 35
+    },
+    "defense": {
+      "value": 0.06560319343278366,
+      "leagueRank": 19,
+      "leaguePercentile": 42
+    }
+  },
+  "successRate": {
+    "offense": {
+      "value": 0.417910447761194,
+      "leagueRank": 21,
+      "leaguePercentile": 35
+    },
+    "defense": {
+      "value": 0.40425531914893614,
+      "leagueRank": 10,
+      "leaguePercentile": 71
+    }
+  },
+  "explosivePlayRate": {
+    "offense": {
+      "value": 0.07462686567164178,
+      "leagueRank": 29,
+      "leaguePercentile": 10
+    },
+    "defense": {
+      "value": 0.1276595744680851,
+      "leagueRank": 15,
+      "leaguePercentile": 55
+    }
+  },
+  "pointDifferential": {
+    "value": -3,
+    "leagueRank": 19,
+    "leaguePercentile": 42
+  },
+  "pythagoreanWinPct": 0.3493714286333239,
+  "redZonePct": {
+    "offense": {
+      "value": 0.5,
+      "leagueRank": 22,
+      "leaguePercentile": 32
+    },
+    "defense": {
+      "value": 0.3333333333333333,
+      "leagueRank": 1,
+      "leaguePercentile": 100
+    }
+  },
+  "thirdDownPct": {
+    "offense": {
+      "value": 0.3125,
+      "leagueRank": 21,
+      "leaguePercentile": 35
+    },
+    "defense": {
+      "value": 0.18181818181818182,
+      "leagueRank": 4,
+      "leaguePercentile": 90
+    }
+  },
+  "twoMinuteDrillEpa": {
+    "offense": {
+      "value": -0.022477486435408298,
+      "leagueRank": 16,
+      "leaguePercentile": 52
+    },
+    "defense": {
+      "value": 0.008577598831228238,
+      "leagueRank": 18,
+      "leaguePercentile": 45
+    }
+  },
+  "splits": {
+    "home": {
+      "wins": 0,
+      "losses": 0,
+      "epaPerPlay": 0
+    },
+    "away": {
+      "wins": 0,
+      "losses": 1,
+      "epaPerPlay": -0.10962827054056877
+    },
+    "divisional": {
+      "wins": 0,
+      "losses": 0
+    }
+  },
+  "specialTeams": {
+    "fieldGoalPct": {
+      "value": 1,
+      "leagueRank": 2,
+      "leaguePercentile": 97
+    },
+    "netPuntingAvg": {
+      "value": 42,
+      "leagueRank": 22,
+      "leaguePercentile": 32
+    },
+    "kickReturnAvg": {
+      "value": 26.75,
+      "leagueRank": 10,
+      "leaguePercentile": 71
+    },
+    "puntReturnAvg": {
+      "value": 0,
+      "leagueRank": 23,
+      "leaguePercentile": 29
+    },
+    "specialTeamsEpa": {
+      "value": 0.10860687682543493,
+      "leagueRank": 17,
+      "leaguePercentile": 48
+    }
+  }
+}

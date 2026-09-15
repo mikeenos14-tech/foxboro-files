@@ -45,15 +45,15 @@ export const lastGame: Game = {
 };
 
 export const nextGame: Game = {
-  id: "2026-w03-NYJ",
+  id: "2026_02_PIT_NE",
   season: 2026,
-  week: 3,
+  week: 2,
   seasonType: "REG",
   date: "2026-09-20",
-  homeTeam: "NYJ",
-  awayTeam: "NE",
+  homeTeam: "NE",
+  awayTeam: "PIT",
   status: "scheduled",
-  venue: "MetLife Stadium",
+  venue: "Gillette Stadium",
   network: "FOX",
 };
 
@@ -197,7 +197,7 @@ export const injuries: InjuryReportEntry[] = [
     playerId: "00-nel-rt1",
     playerName: "M. Wallace",
     position: "RT",
-    week: 3,
+    week: 2,
     injury: "Ankle",
     wednesday: "DNP",
     thursday: "Limited",
@@ -209,7 +209,7 @@ export const injuries: InjuryReportEntry[] = [
     playerId: "00-nel-lb2",
     playerName: "S. Barrett",
     position: "LB",
-    week: 3,
+    week: 2,
     injury: "Hamstring",
     wednesday: "Limited",
     thursday: "Full",
@@ -221,10 +221,10 @@ export const injuries: InjuryReportEntry[] = [
 
 export const opponentInjuries: InjuryReportEntry[] = [
   {
-    playerId: "00-nyj-cb1",
+    playerId: "00-pit-cb1",
     playerName: "S. Reed",
     position: "CB",
-    week: 3,
+    week: 2,
     injury: "Knee",
     wednesday: "DNP",
     thursday: "DNP",
@@ -234,9 +234,15 @@ export const opponentInjuries: InjuryReportEntry[] = [
   },
 ];
 
+// Position-group matchup grades, the matchup-of-the-week callout, and
+// head-to-head/weather/betting context are still illustrative placeholders —
+// they need the roster + play-by-play position-group grading work and the
+// ESPN injury feed from Phase 2. opponent/gameId below are kept in sync with
+// the real upcoming opponent (data/generated/next-game.json) so this page
+// never contradicts the real schedule, even before those grades are real.
 export const opponentMatchup: OpponentMatchupData = {
-  gameId: "2026-w03-NYJ",
-  opponent: "NYJ",
+  gameId: "2026_02_PIT_NE",
+  opponent: "PIT",
   opponentEpaRank: { offense: 24, defense: 19 },
   positionGroupMatchups: [
     { group: "WR vs CB", ourGrade: 62, theirGrade: 41, edge: "us", note: "Their CB2 is starting in place of an injured starter — target this side early." },
@@ -248,7 +254,7 @@ export const opponentMatchup: OpponentMatchupData = {
   matchupOfTheWeek: {
     title: "WR1 vs backup CB2",
     description:
-      "With the Jets' top cornerback ruled out, their CB2 grades bottom-10 in coverage over the last three weeks. Expect a heavy target share to our WR1 on that side of the field.",
+      "With Pittsburgh's top cornerback ruled out, their CB2 grades bottom-10 in coverage over the last three weeks. Expect a heavy target share to our WR1 on that side of the field.",
   },
   opponentInjuries,
   recentForm: { last3EpaPerPlay: -0.03, last5EpaPerPlay: -0.01, seasonEpaPerPlay: -0.02 },
@@ -263,7 +269,7 @@ export const opponentMatchup: OpponentMatchupData = {
 export const schedule: ScheduleRow[] = [
   { gameId: "2026-w01-CIN", week: 1, opponent: "CIN", homeAway: "away", opponentRecord: "1-1", opponentPointDiff: 3, opponentEpaRank: 14, strengthOfSchedule: { season: 0.51, opponentSos: 0.49 }, restDays: 7, opponentRestDays: 7, isDivisional: false, isConference: true, result: "W", date: "2026-09-06" },
   { gameId: "2026-w02-MIA", week: 2, opponent: "MIA", homeAway: "home", opponentRecord: "1-1", opponentPointDiff: -2, opponentEpaRank: 21, strengthOfSchedule: { season: 0.5, opponentSos: 0.47 }, restDays: 7, opponentRestDays: 7, isDivisional: true, isConference: true, result: "W", date: "2026-09-13" },
-  { gameId: "2026-w03-NYJ", week: 3, opponent: "NYJ", homeAway: "away", opponentRecord: "0-2", opponentPointDiff: -19, opponentEpaRank: 27, strengthOfSchedule: { season: 0.49, opponentSos: 0.44 }, restDays: 7, opponentRestDays: 7, isDivisional: true, isConference: true, winProbabilityEstimate: 0.66, date: "2026-09-20" },
+  { gameId: "2026-w03-NYJ", week: 2, opponent: "NYJ", homeAway: "away", opponentRecord: "0-2", opponentPointDiff: -19, opponentEpaRank: 27, strengthOfSchedule: { season: 0.49, opponentSos: 0.44 }, restDays: 7, opponentRestDays: 7, isDivisional: true, isConference: true, winProbabilityEstimate: 0.66, date: "2026-09-20" },
   { gameId: "2026-w04-SF", week: 4, opponent: "SF", homeAway: "home", opponentRecord: "2-0", opponentPointDiff: 21, opponentEpaRank: 3, strengthOfSchedule: { season: 0.52, opponentSos: 0.58 }, restDays: 7, opponentRestDays: 7, isDivisional: false, isConference: false, winProbabilityEstimate: 0.41, date: "2026-09-27" },
   { gameId: "2026-w05-BUF", week: 5, opponent: "BUF", homeAway: "away", opponentRecord: "2-0", opponentPointDiff: 15, opponentEpaRank: 4, strengthOfSchedule: { season: 0.53, opponentSos: 0.55 }, restDays: 7, opponentRestDays: 7, isDivisional: true, isConference: true, winProbabilityEstimate: 0.35, date: "2026-10-04" },
   { gameId: "2026-w06-NO", week: 6, opponent: "NO", homeAway: "home", opponentRecord: "0-2", opponentPointDiff: -14, opponentEpaRank: 29, strengthOfSchedule: { season: 0.52, opponentSos: 0.42 }, restDays: 7, opponentRestDays: 7, isDivisional: false, isConference: false, winProbabilityEstimate: 0.72, date: "2026-10-11" },
@@ -280,9 +286,9 @@ export const news: NewsItem[] = [
     id: "n1",
     publishedAt: "2026-09-19T14:00:00Z",
     type: "Injury",
-    headline: "RT Wallace limited again Friday, questionable for Jets",
+    headline: "RT Wallace limited again Friday, questionable vs. Steelers",
     summary:
-      "Wallace has missed the last two practices with an ankle issue picked up in Sunday's win. Coaches called him 'trending in the right direction' but stopped short of guaranteeing his availability.",
+      "Wallace has missed the last two practices with an ankle issue picked up in Week 1. Coaches called him 'trending in the right direction' but stopped short of guaranteeing his availability.",
     sourceUrl: "https://www.espn.com/",
     sourceName: "ESPN",
     relatedPlayerIds: ["00-nel-rt1"],

@@ -39,3 +39,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# nflverse raw download cache — regenerable via scripts/fetch-nflverse.ts,
+# large, not source. data/generated/ (normalized output) IS committed.
+/data/raw/

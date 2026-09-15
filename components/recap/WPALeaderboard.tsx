@@ -1,5 +1,6 @@
 import type { GameRecap } from "@/lib/data/types";
 import { PlayerHeadshot } from "@/components/shared/PlayerHeadshot";
+import { signed } from "@/lib/util/format";
 
 export function WPALeaderboard({
   starOfTheGame,
@@ -16,7 +17,7 @@ export function WPALeaderboard({
         <div>
           <div className="font-bold text-navy">{starOfTheGame.playerName}</div>
           <div className="text-sm text-muted">
-            +{(starOfTheGame.wpa * 100).toFixed(0)}% WPA
+            {signed(starOfTheGame.wpa * 100, 0)}% WPA
           </div>
         </div>
       </div>

@@ -1,0 +1,206 @@
+{
+  "gameId": "2026_01_NE_SEA",
+  "narrative": "New England fell to SEA 10-13. The offense posted -0.11 EPA/play (42% success rate) while the defense allowed 0.07 EPA/play. Turnover margin was -3.",
+  "epaPerPlay": {
+    "offense": -0.10962827054056877,
+    "defense": 0.06560319343278366
+  },
+  "successRate": {
+    "offenseByDown": {
+      "1": 0.37037037037037035,
+      "2": 0.45454545454545453,
+      "3": 0.375,
+      "4": 1
+    },
+    "defenseByDown": {
+      "1": 0.5238095238095238,
+      "2": 0.2857142857142857,
+      "3": 0.2727272727272727,
+      "4": 1
+    }
+  },
+  "turnoverMargin": -3,
+  "pointsOffTurnovers": {
+    "for": 0,
+    "against": 0
+  },
+  "explosivePlayRate": {
+    "for": 0.07462686567164178,
+    "against": 0.1276595744680851
+  },
+  "redZone": {
+    "offense": {
+      "att": 2,
+      "td": 1
+    },
+    "defense": {
+      "att": 3,
+      "td": 1
+    }
+  },
+  "thirdDown": {
+    "offense": {
+      "att": 16,
+      "conv": 5
+    },
+    "defense": {
+      "att": 11,
+      "conv": 2
+    }
+  },
+  "winProbabilityTimeline": [
+    {
+      "playIndex": 0,
+      "quarter": 1,
+      "clock": "15:00",
+      "homeWinProb": 0.546261787414551
+    },
+    {
+      "playIndex": 8,
+      "quarter": 1,
+      "clock": "11:49",
+      "homeWinProb": 0.486899465322495
+    },
+    {
+      "playIndex": 16,
+      "quarter": 1,
+      "clock": "07:41",
+      "homeWinProb": 0.512697070837021
+    },
+    {
+      "playIndex": 24,
+      "quarter": 1,
+      "clock": "04:35",
+      "homeWinProb": 0.514547258615494
+    },
+    {
+      "playIndex": 32,
+      "quarter": 1,
+      "clock": "00:08",
+      "homeWinProb": 0.527277052402496
+    },
+    {
+      "playIndex": 40,
+      "quarter": 2,
+      "clock": "12:21",
+      "homeWinProb": 0.470593631267548
+    },
+    {
+      "playIndex": 48,
+      "quarter": 2,
+      "clock": "09:11",
+      "homeWinProb": 0.311763048171997
+    },
+    {
+      "playIndex": 56,
+      "quarter": 2,
+      "clock": "04:54",
+      "homeWinProb": 0.287425071001053
+    },
+    {
+      "playIndex": 64,
+      "quarter": 2,
+      "clock": "01:46",
+      "homeWinProb": 0.223261058330536
+    },
+    {
+      "playIndex": 72,
+      "quarter": 2,
+      "clock": "00:39",
+      "homeWinProb": 0.259926587343216
+    },
+    {
+      "playIndex": 80,
+      "quarter": 3,
+      "clock": "14:53",
+      "homeWinProb": 0.266984760761261
+    },
+    {
+      "playIndex": 88,
+      "quarter": 3,
+      "clock": "11:53",
+      "homeWinProb": 0.250248372554779
+    },
+    {
+      "playIndex": 96,
+      "quarter": 3,
+      "clock": "09:29",
+      "homeWinProb": 0.183800756931305
+    },
+    {
+      "playIndex": 104,
+      "quarter": 3,
+      "clock": "05:36",
+      "homeWinProb": 0.242705672979355
+    },
+    {
+      "playIndex": 112,
+      "quarter": 3,
+      "clock": "03:06",
+      "homeWinProb": 0.236309468746185
+    },
+    {
+      "playIndex": 120,
+      "quarter": 4,
+      "clock": "14:12",
+      "homeWinProb": 0.231965005397797
+    },
+    {
+      "playIndex": 128,
+      "quarter": 4,
+      "clock": "10:49",
+      "homeWinProb": 0.534592241048813
+    },
+    {
+      "playIndex": 136,
+      "quarter": 4,
+      "clock": "06:42",
+      "homeWinProb": 0.704836845397949
+    },
+    {
+      "playIndex": 144,
+      "quarter": 4,
+      "clock": "05:22",
+      "homeWinProb": 0.705203592777252
+    },
+    {
+      "playIndex": 152,
+      "quarter": 4,
+      "clock": "02:10",
+      "homeWinProb": 0.742959201335907
+    },
+    {
+      "playIndex": 160,
+      "quarter": 4,
+      "clock": "00:38",
+      "homeWinProb": 0.45791494846344
+    },
+    {
+      "playIndex": 165,
+      "quarter": 4,
+      "clock": "00:00",
+      "homeWinProb": 1
+    }
+  ],
+  "starOfTheGame": {
+    "playerId": "00-0036875",
+    "playerName": "R.Stevenson",
+    "wpa": -0.03452450037002586
+  },
+  "goodBadUgly": {
+    "good": [
+      "Defense held opponent to 0.07 EPA/play allowed."
+    ],
+    "bad": [
+      "Offense generated negative EPA/play (-0.11)."
+    ],
+    "ugly": [
+      "Turnover margin was -3."
+    ]
+  },
+  "playerOfTheGame": {
+    "playerId": "00-0036875",
+    "playerName": "R.Stevenson",
+    "reason": "Had the team's best (though still net-negative) win probability contribution at -3% in a tough game offensively."
+  }
+}

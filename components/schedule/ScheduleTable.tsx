@@ -1,5 +1,5 @@
 import type { ScheduleRow } from "@/lib/data/types";
-import { formatDate, formatPercent } from "@/lib/util/format";
+import { formatDate, formatPercent, signed } from "@/lib/util/format";
 import { ordinal } from "@/lib/calc/ranks";
 
 const resultClasses: Record<string, string> = {
@@ -20,7 +20,7 @@ export function ScheduleTable({ rows }: { rows: ScheduleRow[] }) {
             <th className="px-3 py-2">Site</th>
             <th className="px-3 py-2">Opp Record</th>
             <th className="px-3 py-2">Opp EPA Rank</th>
-            <th className="px-3 py-2">Opp SOS</th>
+            <th className="px-3 py-2">Opp SOS (net pts)</th>
             <th className="px-3 py-2">Result / Win Prob</th>
           </tr>
         </thead>
@@ -51,7 +51,7 @@ export function ScheduleTable({ rows }: { rows: ScheduleRow[] }) {
                 {ordinal(r.opponentEpaRank)}
               </td>
               <td className="px-3 py-2 text-muted">
-                {formatPercent(r.strengthOfSchedule.opponentSos, 0)}
+                {signed(r.strengthOfSchedule.opponentSos, 1)}
               </td>
               <td className="px-3 py-2">
                 {r.result ? (
