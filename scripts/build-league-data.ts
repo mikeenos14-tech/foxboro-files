@@ -12,7 +12,8 @@ import path from "node:path";
 import { loadCsv, num } from "./lib/csv";
 import { computeStandings } from "./lib/standings";
 import { computeDivisionStandings } from "./lib/divisionStandings";
-import { computeLeagueEpaTable, offenseEpaRank, defenseEpaRank } from "./lib/leagueRanks";
+import { computeAdjustedEpa } from "./lib/leagueRanks";
+import { rankGeneric } from "./lib/rank";
 import { ALL_TEAMS, TEAM_DIVISION } from "./lib/teams";
 import type { PbpRow } from "./lib/pbp";
 import type { LeagueDivisionGroup, LeagueEpaRanking, LeagueScoreboardGame } from "../lib/data/types";
@@ -44,13 +45,19 @@ async function main() {
   );
 
   // ---------- League EPA power ranking ----------
-  // Same opponent-adjusted, prior-blended table that powers every other
-  // EPA rank on the site (see leagueRanks.ts) — just exposed for all 32
-  // teams instead of one.
-  const epaTable = computeLeagueEpaTable(pbp, ALL_TEAMS);
+  // Deliberately NOT the same blended table used elsewhere on the site —
+  // this section is framed as "who's been best in 2026," a pure
+  // current-season leaderboard, so it should only reflect 2026 games, not
+  // last year's real performance. Still opponent-adjusted (leave-one-out,
+  // see leagueRanks.ts), just without the prior-season blend layered on
+  // top. Every other EPA rank on the site (Team Strength cards, Next
+  // Game's Opponent EPA Rank, etc.) stays on the blended version — those
+  // are framed as "how good is this team, really," where leaning on real
+  // prior-year data early in the season is the right call.
+  const adjusted = computeAdjustedEpa(pbp, ALL_TEAMS);
   const leagueEpaRankings: LeagueEpaRanking[] = ALL_TEAMS.map((team) => {
-    const off = offenseEpaRank(epaTable, team);
-    const def = defenseEpaRank(epaTable, team);
+    const off = rankGeneric(ALL_TEAMS, team, (t) => adjusted.offense.get(t) ?? 0, true);
+    const def = rankGeneric(ALL_TEAMS, team, (t) => adjusted.defense.get(t) ?? 0, false);
     return {
       team,
       offenseEpa: off.value,

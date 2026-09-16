@@ -68,7 +68,12 @@ function perGamePerformances(
 // opponent's own opponents, recursively) — deliberately kept simple.
 // Success rate and explosive-play rate stay raw/unadjusted for the same
 // reason.
-function computeAdjustedEpa(
+// Exported for callers that specifically want a pure current-season
+// ranking (e.g. the Around the League power rankings, which are framed
+// as "who's been best in 2026," not a predictive blend with last year) —
+// still opponent-adjusted, just without the prior-season blend applied
+// by computeLeagueEpaTable below.
+export function computeAdjustedEpa(
   rows: PbpRow[],
   teams: string[]
 ): { offense: Map<string, number>; defense: Map<string, number>; gamesPlayed: Map<string, number> } {
