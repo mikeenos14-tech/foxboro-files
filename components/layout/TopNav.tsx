@@ -12,6 +12,7 @@ const links = [
   { href: "/schedule", label: "Schedule" },
   { href: "/news", label: "News" },
   { href: "/roster", label: "Roster & Stats" },
+  { href: "/around-the-league", label: "League" },
 ];
 
 export function TopNav() {

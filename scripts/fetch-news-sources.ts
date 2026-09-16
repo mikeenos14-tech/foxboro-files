@@ -47,6 +47,12 @@ async function main() {
       url: `https://site.api.espn.com/apis/site/v2/sports/football/nfl/news?team=${ESPN_TEAM_ID[TEAM]}&limit=20`,
     },
     {
+      // Same endpoint, no team filter — general league-wide news for the
+      // Around the League page.
+      name: "espn-league-news.json",
+      url: `https://site.api.espn.com/apis/site/v2/sports/football/nfl/news?limit=20`,
+    },
+    {
       name: "espn-roster.json",
       url: `https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/${ESPN_TEAM_ID[TEAM]}/roster`,
     },

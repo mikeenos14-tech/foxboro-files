@@ -15,6 +15,9 @@ import type {
   Game,
   GameRecap,
   InjuryReportEntry,
+  LeagueDivisionGroup,
+  LeagueEpaRanking,
+  LeagueScoreboardGame,
   NewsItem,
   OpponentMatchupData,
   PositionGroupReportCard,
@@ -168,4 +171,29 @@ export async function getNews(): Promise<NewsItem[]> {
 
 export async function getBeatDigest(): Promise<BeatDigest> {
   return (await readGenerated<BeatDigest>("beat-digest.json")) ?? fixtures.beatDigest;
+}
+
+export async function getLeagueStandings(): Promise<LeagueDivisionGroup[]> {
+  return (
+    (await readGenerated<LeagueDivisionGroup[]>("league-standings.json")) ??
+    fixtures.leagueStandings
+  );
+}
+
+export async function getLeagueEpaRankings(): Promise<LeagueEpaRanking[]> {
+  return (
+    (await readGenerated<LeagueEpaRanking[]>("league-epa-rankings.json")) ??
+    fixtures.leagueEpaRankings
+  );
+}
+
+export async function getLeagueScoreboard(): Promise<LeagueScoreboardGame[]> {
+  return (
+    (await readGenerated<LeagueScoreboardGame[]>("league-scoreboard.json")) ??
+    fixtures.leagueScoreboard
+  );
+}
+
+export async function getLeagueNews(): Promise<NewsItem[]> {
+  return (await readGenerated<NewsItem[]>("league-news.json")) ?? fixtures.leagueNews;
 }

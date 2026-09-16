@@ -16,11 +16,17 @@ function streakText(s: DivisionStanding["streak"]): string {
   return s ? `${s.result}${s.count}` : "—";
 }
 
-export function DivisionStandings({ standings }: { standings: DivisionStanding[] }) {
+export function DivisionStandings({
+  standings,
+  title = "Division Race — AFC East",
+}: {
+  standings: DivisionStanding[];
+  title?: string;
+}) {
   return (
     <div className="lift overflow-hidden rounded-lg border border-border bg-surface">
       <div className="border-b border-border px-4 py-3">
-        <h3 className="font-semibold">Division Race &mdash; AFC East</h3>
+        <h3 className="font-semibold">{title}</h3>
       </div>
       <table className="w-full text-left text-sm">
         <thead>

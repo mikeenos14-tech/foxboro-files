@@ -1,0 +1,586 @@
+[
+  {
+    "division": "AFC East",
+    "standings": [
+      {
+        "team": "NYJ",
+        "wins": 1,
+        "losses": 0,
+        "ties": 0,
+        "pointDifferential": 13,
+        "isUs": false,
+        "streak": {
+          "result": "W",
+          "count": 1
+        },
+        "divisionRecord": {
+          "wins": 0,
+          "losses": 0,
+          "ties": 0
+        }
+      },
+      {
+        "team": "BUF",
+        "wins": 1,
+        "losses": 0,
+        "ties": 0,
+        "pointDifferential": 5,
+        "isUs": false,
+        "streak": {
+          "result": "W",
+          "count": 1
+        },
+        "divisionRecord": {
+          "wins": 0,
+          "losses": 0,
+          "ties": 0
+        }
+      },
+      {
+        "team": "NE",
+        "wins": 0,
+        "losses": 1,
+        "ties": 0,
+        "pointDifferential": -3,
+        "isUs": false,
+        "streak": {
+          "result": "L",
+          "count": 1
+        },
+        "divisionRecord": {
+          "wins": 0,
+          "losses": 0,
+          "ties": 0
+        }
+      },
+      {
+        "team": "MIA",
+        "wins": 0,
+        "losses": 1,
+        "ties": 0,
+        "pointDifferential": -14,
+        "isUs": false,
+        "streak": {
+          "result": "L",
+          "count": 1
+        },
+        "divisionRecord": {
+          "wins": 0,
+          "losses": 0,
+          "ties": 0
+        }
+      }
+    ]
+  },
+  {
+    "division": "AFC North",
+    "standings": [
+      {
+        "team": "BAL",
+        "wins": 1,
+        "losses": 0,
+        "ties": 0,
+        "pointDifferential": 18,
+        "isUs": false,
+        "streak": {
+          "result": "W",
+          "count": 1
+        },
+        "divisionRecord": {
+          "wins": 0,
+          "losses": 0,
+          "ties": 0
+        }
+      },
+      {
+        "team": "PIT",
+        "wins": 1,
+        "losses": 0,
+        "ties": 0,
+        "pointDifferential": 7,
+        "isUs": false,
+        "streak": {
+          "result": "W",
+          "count": 1
+        },
+        "divisionRecord": {
+          "wins": 0,
+          "losses": 0,
+          "ties": 0
+        }
+      },
+      {
+        "team": "CIN",
+        "wins": 1,
+        "losses": 0,
+        "ties": 0,
+        "pointDifferential": 6,
+        "isUs": false,
+        "streak": {
+          "result": "W",
+          "count": 1
+        },
+        "divisionRecord": {
+          "wins": 0,
+          "losses": 0,
+          "ties": 0
+        }
+      },
+      {
+        "team": "CLE",
+        "wins": 0,
+        "losses": 1,
+        "ties": 0,
+        "pointDifferential": -24,
+        "isUs": false,
+        "streak": {
+          "result": "L",
+          "count": 1
+        },
+        "divisionRecord": {
+          "wins": 0,
+          "losses": 0,
+          "ties": 0
+        }
+      }
+    ]
+  },
+  {
+    "division": "AFC South",
+    "standings": [
+      {
+        "team": "JAX",
+        "wins": 1,
+        "losses": 0,
+        "ties": 0,
+        "pointDifferential": 24,
+        "isUs": false,
+        "streak": {
+          "result": "W",
+          "count": 1
+        },
+        "divisionRecord": {
+          "wins": 0,
+          "losses": 0,
+          "ties": 0
+        }
+      },
+      {
+        "team": "HOU",
+        "wins": 0,
+        "losses": 1,
+        "ties": 0,
+        "pointDifferential": -5,
+        "isUs": false,
+        "streak": {
+          "result": "L",
+          "count": 1
+        },
+        "divisionRecord": {
+          "wins": 0,
+          "losses": 0,
+          "ties": 0
+        }
+      },
+      {
+        "team": "TEN",
+        "wins": 0,
+        "losses": 1,
+        "ties": 0,
+        "pointDifferential": -13,
+        "isUs": false,
+        "streak": {
+          "result": "L",
+          "count": 1
+        },
+        "divisionRecord": {
+          "wins": 0,
+          "losses": 0,
+          "ties": 0
+        }
+      },
+      {
+        "team": "IND",
+        "wins": 0,
+        "losses": 1,
+        "ties": 0,
+        "pointDifferential": -18,
+        "isUs": false,
+        "streak": {
+          "result": "L",
+          "count": 1
+        },
+        "divisionRecord": {
+          "wins": 0,
+          "losses": 0,
+          "ties": 0
+        }
+      }
+    ]
+  },
+  {
+    "division": "AFC West",
+    "standings": [
+      {
+        "team": "KC",
+        "wins": 1,
+        "losses": 0,
+        "ties": 0,
+        "pointDifferential": 21,
+        "isUs": false,
+        "streak": {
+          "result": "W",
+          "count": 1
+        },
+        "divisionRecord": {
+          "wins": 1,
+          "losses": 0,
+          "ties": 0
+        }
+      },
+      {
+        "team": "LV",
+        "wins": 1,
+        "losses": 0,
+        "ties": 0,
+        "pointDifferential": 14,
+        "isUs": false,
+        "streak": {
+          "result": "W",
+          "count": 1
+        },
+        "divisionRecord": {
+          "wins": 0,
+          "losses": 0,
+          "ties": 0
+        }
+      },
+      {
+        "team": "LAC",
+        "wins": 0,
+        "losses": 1,
+        "ties": 0,
+        "pointDifferential": -12,
+        "isUs": false,
+        "streak": {
+          "result": "L",
+          "count": 1
+        },
+        "divisionRecord": {
+          "wins": 0,
+          "losses": 0,
+          "ties": 0
+        }
+      },
+      {
+        "team": "DEN",
+        "wins": 0,
+        "losses": 1,
+        "ties": 0,
+        "pointDifferential": -21,
+        "isUs": false,
+        "streak": {
+          "result": "L",
+          "count": 1
+        },
+        "divisionRecord": {
+          "wins": 0,
+          "losses": 1,
+          "ties": 0
+        }
+      }
+    ]
+  },
+  {
+    "division": "NFC East",
+    "standings": [
+      {
+        "team": "NYG",
+        "wins": 1,
+        "losses": 0,
+        "ties": 0,
+        "pointDifferential": 8,
+        "isUs": false,
+        "streak": {
+          "result": "W",
+          "count": 1
+        },
+        "divisionRecord": {
+          "wins": 1,
+          "losses": 0,
+          "ties": 0
+        }
+      },
+      {
+        "team": "PHI",
+        "wins": 1,
+        "losses": 0,
+        "ties": 0,
+        "pointDifferential": 2,
+        "isUs": false,
+        "streak": {
+          "result": "W",
+          "count": 1
+        },
+        "divisionRecord": {
+          "wins": 1,
+          "losses": 0,
+          "ties": 0
+        }
+      },
+      {
+        "team": "WAS",
+        "wins": 0,
+        "losses": 1,
+        "ties": 0,
+        "pointDifferential": -2,
+        "isUs": false,
+        "streak": {
+          "result": "L",
+          "count": 1
+        },
+        "divisionRecord": {
+          "wins": 0,
+          "losses": 1,
+          "ties": 0
+        }
+      },
+      {
+        "team": "DAL",
+        "wins": 0,
+        "losses": 1,
+        "ties": 0,
+        "pointDifferential": -8,
+        "isUs": false,
+        "streak": {
+          "result": "L",
+          "count": 1
+        },
+        "divisionRecord": {
+          "wins": 0,
+          "losses": 1,
+          "ties": 0
+        }
+      }
+    ]
+  },
+  {
+    "division": "NFC North",
+    "standings": [
+      {
+        "team": "CHI",
+        "wins": 1,
+        "losses": 0,
+        "ties": 0,
+        "pointDifferential": 22,
+        "isUs": false,
+        "streak": {
+          "result": "W",
+          "count": 1
+        },
+        "divisionRecord": {
+          "wins": 0,
+          "losses": 0,
+          "ties": 0
+        }
+      },
+      {
+        "team": "MIN",
+        "wins": 1,
+        "losses": 0,
+        "ties": 0,
+        "pointDifferential": 17,
+        "isUs": false,
+        "streak": {
+          "result": "W",
+          "count": 1
+        },
+        "divisionRecord": {
+          "wins": 1,
+          "losses": 0,
+          "ties": 0
+        }
+      },
+      {
+        "team": "DET",
+        "wins": 1,
+        "losses": 0,
+        "ties": 0,
+        "pointDifferential": 1,
+        "isUs": false,
+        "streak": {
+          "result": "W",
+          "count": 1
+        },
+        "divisionRecord": {
+          "wins": 0,
+          "losses": 0,
+          "ties": 0
+        }
+      },
+      {
+        "team": "GB",
+        "wins": 0,
+        "losses": 1,
+        "ties": 0,
+        "pointDifferential": -17,
+        "isUs": false,
+        "streak": {
+          "result": "L",
+          "count": 1
+        },
+        "divisionRecord": {
+          "wins": 0,
+          "losses": 1,
+          "ties": 0
+        }
+      }
+    ]
+  },
+  {
+    "division": "NFC South",
+    "standings": [
+      {
+        "team": "NO",
+        "wins": 0,
+        "losses": 1,
+        "ties": 0,
+        "pointDifferential": -1,
+        "isUs": false,
+        "streak": {
+          "result": "L",
+          "count": 1
+        },
+        "divisionRecord": {
+          "wins": 0,
+          "losses": 0,
+          "ties": 0
+        }
+      },
+      {
+        "team": "TB",
+        "wins": 0,
+        "losses": 1,
+        "ties": 0,
+        "pointDifferential": -6,
+        "isUs": false,
+        "streak": {
+          "result": "L",
+          "count": 1
+        },
+        "divisionRecord": {
+          "wins": 0,
+          "losses": 0,
+          "ties": 0
+        }
+      },
+      {
+        "team": "ATL",
+        "wins": 0,
+        "losses": 1,
+        "ties": 0,
+        "pointDifferential": -7,
+        "isUs": false,
+        "streak": {
+          "result": "L",
+          "count": 1
+        },
+        "divisionRecord": {
+          "wins": 0,
+          "losses": 0,
+          "ties": 0
+        }
+      },
+      {
+        "team": "CAR",
+        "wins": 0,
+        "losses": 1,
+        "ties": 0,
+        "pointDifferential": -22,
+        "isUs": false,
+        "streak": {
+          "result": "L",
+          "count": 1
+        },
+        "divisionRecord": {
+          "wins": 0,
+          "losses": 0,
+          "ties": 0
+        }
+      }
+    ]
+  },
+  {
+    "division": "NFC West",
+    "standings": [
+      {
+        "team": "SF",
+        "wins": 1,
+        "losses": 0,
+        "ties": 0,
+        "pointDifferential": 20,
+        "isUs": false,
+        "streak": {
+          "result": "W",
+          "count": 1
+        },
+        "divisionRecord": {
+          "wins": 1,
+          "losses": 0,
+          "ties": 0
+        }
+      },
+      {
+        "team": "ARI",
+        "wins": 1,
+        "losses": 0,
+        "ties": 0,
+        "pointDifferential": 12,
+        "isUs": false,
+        "streak": {
+          "result": "W",
+          "count": 1
+        },
+        "divisionRecord": {
+          "wins": 0,
+          "losses": 0,
+          "ties": 0
+        }
+      },
+      {
+        "team": "SEA",
+        "wins": 1,
+        "losses": 0,
+        "ties": 0,
+        "pointDifferential": 3,
+        "isUs": false,
+        "streak": {
+          "result": "W",
+          "count": 1
+        },
+        "divisionRecord": {
+          "wins": 0,
+          "losses": 0,
+          "ties": 0
+        }
+      },
+      {
+        "team": "LA",
+        "wins": 0,
+        "losses": 1,
+        "ties": 0,
+        "pointDifferential": -20,
+        "isUs": false,
+        "streak": {
+          "result": "L",
+          "count": 1
+        },
+        "divisionRecord": {
+          "wins": 0,
+          "losses": 1,
+          "ties": 0
+        }
+      }
+    ]
+  }
+]

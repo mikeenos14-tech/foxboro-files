@@ -29,6 +29,7 @@ import {
   defenseExplosiveRank,
 } from "./lib/leagueRanks";
 import { computeStandings, recordString, pointDiff, type TeamRecord } from "./lib/standings";
+import { computeDivisionStandings } from "./lib/divisionStandings";
 import { TEAM_CONFERENCE, TEAM_DIVISION, ALL_TEAMS } from "./lib/teams";
 import { rankGeneric } from "./lib/rank";
 import { buildLeagueRosterByGsis } from "./lib/roster";
@@ -86,81 +87,7 @@ async function main() {
   // ---------- Division standings ----------
   const ourDivision = TEAM_DIVISION[TEAM];
   const divisionTeams = ALL_TEAMS.filter((t) => TEAM_DIVISION[t] === ourDivision);
-
-  const teamGamesThisSeason = (t: string) =>
-    games
-      .filter(
-        (g) =>
-          num(g.season) === SEASON &&
-          g.game_type === "REG" &&
-          (g.home_team === t || g.away_team === t) &&
-          g.home_score !== "" &&
-          g.home_score !== undefined
-      )
-      .sort((a, b) => num(a.week) - num(b.week));
-
-  const resultFor = (g: GameRow, t: string): "W" | "L" | "T" => {
-    const isHome = g.home_team === t;
-    const own = num(isHome ? g.home_score : g.away_score);
-    const opp = num(isHome ? g.away_score : g.home_score);
-    return own > opp ? "W" : own < opp ? "L" : "T";
-  };
-
-  // Current win/loss/tie streak, most recent game backwards — null if the
-  // team hasn't played yet.
-  const computeStreak = (t: string): { result: "W" | "L" | "T"; count: number } | null => {
-    const results = teamGamesThisSeason(t).map((g) => resultFor(g, t));
-    if (results.length === 0) return null;
-    const last = results[results.length - 1];
-    let count = 0;
-    for (let i = results.length - 1; i >= 0 && results[i] === last; i--) count++;
-    return { result: last, count };
-  };
-
-  // Record against the other teams in the same division — the NFL's own
-  // first tiebreaker, and more relevant here than point differential.
-  const computeDivisionRecord = (t: string) => {
-    const played = teamGamesThisSeason(t).filter((g) => {
-      const opp = g.home_team === t ? g.away_team : g.home_team;
-      return opp !== t && divisionTeams.includes(opp);
-    });
-    let wins = 0,
-      losses = 0,
-      ties = 0;
-    for (const g of played) {
-      const r = resultFor(g, t);
-      if (r === "W") wins++;
-      else if (r === "L") losses++;
-      else ties++;
-    }
-    return { wins, losses, ties };
-  };
-
-  const divisionStandings = divisionTeams
-    .map((t) => {
-      const r = standings.get(t);
-      return {
-        team: t,
-        wins: r?.wins ?? 0,
-        losses: r?.losses ?? 0,
-        ties: r?.ties ?? 0,
-        pointDifferential: pointDiff(r),
-        isUs: t === TEAM,
-        streak: computeStreak(t),
-        divisionRecord: computeDivisionRecord(t),
-      };
-    })
-    // Sort by win% then point differential — a reasonable simplified
-    // ordering, not the NFL's full official tiebreaker chain (head-to-head,
-    // common games, conference record, etc.), which is out of scope here.
-    .sort((a, b) => {
-      const aGames = a.wins + a.losses + a.ties;
-      const bGames = b.wins + b.losses + b.ties;
-      const aPct = aGames === 0 ? 0 : (a.wins + a.ties * 0.5) / aGames;
-      const bPct = bGames === 0 ? 0 : (b.wins + b.ties * 0.5) / bGames;
-      if (bPct !== aPct) return bPct - aPct;
-      return b.pointDifferential - a.pointDifferential;
-    });
+  const divisionStandings = computeDivisionStandings(games, SEASON, divisionTeams, standings, TEAM);
 
   await writeFile(
     path.join(GENERATED_DIR, "division-standings.json"),

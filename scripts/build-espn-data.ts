@@ -77,6 +77,25 @@ async function buildNews(): Promise<NewsItem[] | null> {
   });
 }
 
+async function buildLeagueNews(): Promise<NewsItem[] | null> {
+  const raw = await readRawJson<EspnNewsResponse>("espn-league-news.json");
+  if (!raw?.articles) return null;
+
+  return raw.articles.map((a) => {
+    const headline = a.headline ?? "Untitled";
+    const summary = a.description ?? "";
+    return {
+      id: String(a.id),
+      publishedAt: a.published ?? new Date().toISOString(),
+      type: classify(headline, summary),
+      headline,
+      summary,
+      sourceUrl: a.links?.web?.href ?? "https://www.espn.com/nfl/",
+      sourceName: "ESPN",
+    };
+  });
+}
+
 // ---------- Official team RSS ----------
 
 interface RssItem {
@@ -315,6 +334,17 @@ async function main() {
     );
   } else {
     console.warn("news.json not updated — kept previous version, if any.");
+  }
+
+  const leagueNews = await buildLeagueNews();
+  if (leagueNews) {
+    await writeFile(
+      path.join(GENERATED_DIR, "league-news.json"),
+      JSON.stringify(leagueNews, null, 2)
+    );
+    console.log(`Wrote league-news.json (${leagueNews.length} stories)`);
+  } else {
+    console.warn("league-news.json not updated — kept previous version, if any.");
   }
 
   const week = await currentWeek();

@@ -22,6 +22,31 @@ export interface DivisionStanding {
   divisionRecord: { wins: number; losses: number; ties: number };
 }
 
+export interface LeagueDivisionGroup {
+  division: string;
+  standings: DivisionStanding[];
+}
+
+export interface LeagueEpaRanking {
+  team: string;
+  offenseEpa: number;
+  offenseRank: number;
+  defenseEpa: number;
+  defenseRank: number;
+}
+
+export interface LeagueScoreboardGame {
+  gameId: string;
+  week: number;
+  date: string;
+  weekday: string;
+  homeTeam: string;
+  awayTeam: string;
+  homeScore: number;
+  awayScore: number;
+  overtime: boolean;
+}
+
 export interface Player {
   id: string; // nflverse gsis_id
   espnId?: string;

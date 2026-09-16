@@ -58,6 +58,10 @@ jobs:
         run: npx tsx scripts/build-data.ts
         continue-on-error: true
 
+      - name: Build league-wide data (all divisions, EPA power rankings, last week's scores)
+        run: npx tsx scripts/build-league-data.ts
+        continue-on-error: true
+
       - name: Build roster data (depth chart, QB deep dive, position grades)
         run: npx tsx scripts/build-roster-data.ts
         continue-on-error: true

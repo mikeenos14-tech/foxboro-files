@@ -12,6 +12,9 @@ import type {
   Game,
   GameRecap,
   InjuryReportEntry,
+  LeagueDivisionGroup,
+  LeagueEpaRanking,
+  LeagueScoreboardGame,
   NewsItem,
   OpponentMatchupData,
   PositionGroupReportCard,
@@ -284,6 +287,33 @@ export const divisionStandings: DivisionStanding[] = [
   { team: "NYJ", wins: 0, losses: 2, ties: 0, pointDifferential: -19, isUs: false, streak: { result: "L", count: 2 }, divisionRecord: { wins: 0, losses: 1, ties: 0 } },
 ];
 
+export const leagueStandings: LeagueDivisionGroup[] = [
+  { division: "AFC East", standings: divisionStandings },
+  {
+    division: "NFC East",
+    standings: [
+      { team: "PHI", wins: 2, losses: 0, ties: 0, pointDifferential: 24, isUs: false, streak: { result: "W", count: 2 }, divisionRecord: { wins: 1, losses: 0, ties: 0 } },
+      { team: "DAL", wins: 1, losses: 1, ties: 0, pointDifferential: 3, isUs: false, streak: { result: "W", count: 1 }, divisionRecord: { wins: 0, losses: 1, ties: 0 } },
+      { team: "WAS", wins: 1, losses: 1, ties: 0, pointDifferential: -5, isUs: false, streak: { result: "L", count: 1 }, divisionRecord: { wins: 1, losses: 0, ties: 0 } },
+      { team: "NYG", wins: 0, losses: 2, ties: 0, pointDifferential: -22, isUs: false, streak: { result: "L", count: 2 }, divisionRecord: { wins: 0, losses: 1, ties: 0 } },
+    ],
+  },
+];
+
+export const leagueEpaRankings: LeagueEpaRanking[] = [
+  { team: "BUF", offenseEpa: 0.15, offenseRank: 1, defenseEpa: -0.02, defenseRank: 9 },
+  { team: "NE", offenseEpa: 0.13, offenseRank: 2, defenseEpa: -0.03, defenseRank: 12 },
+  { team: "PHI", offenseEpa: 0.1, offenseRank: 3, defenseEpa: -0.09, defenseRank: 2 },
+  { team: "JAX", offenseEpa: -0.05, offenseRank: 24, defenseEpa: -0.12, defenseRank: 1 },
+  { team: "NYJ", offenseEpa: -0.09, offenseRank: 30, defenseEpa: 0.08, defenseRank: 28 },
+];
+
+export const leagueScoreboard: LeagueScoreboardGame[] = [
+  { gameId: "2026_01_SF_LA", week: 1, date: "2026-09-04", weekday: "Thursday", homeTeam: "LA", awayTeam: "SF", homeScore: 7, awayScore: 27, overtime: false },
+  { gameId: "2026_01_NE_SEA", week: 1, date: "2026-09-09", weekday: "Wednesday", homeTeam: "SEA", awayTeam: "NE", homeScore: 13, awayScore: 10, overtime: false },
+  { gameId: "2026_01_DAL_PHI", week: 1, date: "2026-09-07", weekday: "Sunday", homeTeam: "PHI", awayTeam: "DAL", homeScore: 24, awayScore: 20, overtime: true },
+];
+
 export const news: NewsItem[] = [
   {
     id: "n1",
@@ -332,3 +362,24 @@ export const beatDigest: BeatDigest = {
   text: "Beat writers are cautiously optimistic this week — the interior O-line splits are getting real praise as the story behind the run game finally clicking, and the secondary's early-season depth keeps coming up as a strength even with a rookie corner rotating in. The one thing everyone's watching heading into Sunday is RT Wallace's ankle, which has kept him out of practice the last two days after he picked it up in Week 1.",
   asOf: "2026-09-19T14:00:00Z",
 };
+
+export const leagueNews: NewsItem[] = [
+  {
+    id: "ln1",
+    publishedAt: "2026-09-19T16:00:00Z",
+    type: "Analysis",
+    headline: "Fantasy football rankings Week 3: PPR and superflex",
+    summary: "Our analysts break down the top waiver-wire targets and start/sit calls heading into Week 3 across the league.",
+    sourceUrl: "https://www.espn.com/nfl/",
+    sourceName: "ESPN",
+  },
+  {
+    id: "ln2",
+    publishedAt: "2026-09-19T12:00:00Z",
+    type: "Injury",
+    headline: "Star QB questionable for Sunday with ankle injury",
+    summary: "A limited practice window this week has the team's status murky heading into the weekend slate.",
+    sourceUrl: "https://www.espn.com/nfl/",
+    sourceName: "ESPN",
+  },
+];
