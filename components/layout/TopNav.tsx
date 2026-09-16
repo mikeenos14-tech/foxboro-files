@@ -19,12 +19,12 @@ export function TopNav() {
   return (
     <header className="sticky top-0 z-10 border-b-4 border-red bg-navy text-white">
       <div className="mx-auto flex max-w-6xl items-center gap-6 px-4 py-3">
-        <Link href="/" className="flex shrink-0 items-center gap-2">
-          <span className="text-xl" aria-hidden="true">
+        <Link href="/" className="flex shrink-0 items-center gap-2.5">
+          <span className="text-3xl" aria-hidden="true">
             🏈
           </span>
-          <span className="font-display text-xl font-semibold uppercase tracking-wide">
-            Foxboro Files
+          <span className="font-display text-2xl font-semibold uppercase tracking-wide">
+            Route 1 Rewind
           </span>
         </Link>
         <nav className="hidden flex-1 gap-1 overflow-x-auto text-sm sm:flex">

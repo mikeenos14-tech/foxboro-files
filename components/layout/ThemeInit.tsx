@@ -12,7 +12,7 @@ import { useEffect } from "react";
 // Next's script injection in the App Router.
 export function ThemeInit() {
   useEffect(() => {
-    const saved = localStorage.getItem("foxboro-theme");
+    const saved = localStorage.getItem("route1rewind-theme");
     if (saved === "light" || saved === "dark") {
       document.documentElement.setAttribute("data-theme", saved);
     }

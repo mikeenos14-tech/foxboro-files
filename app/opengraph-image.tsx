@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 import * as store from "@/lib/data/store";
 
-export const alt = "Foxboro Files — New England Patriots analytics and coverage";
+export const alt = "Route 1 Rewind — New England Patriots analytics and coverage";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -38,7 +38,7 @@ export default async function Image() {
               display: "flex",
             }}
           >
-            FOXBORO FILES
+            ROUTE 1 REWIND
           </div>
         </div>
         <div
