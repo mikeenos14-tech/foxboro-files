@@ -2,6 +2,7 @@
   "playerId": "00-0039851",
   "playerName": "Drake Maye",
   "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/s1nmoon2xnrc3bnyulv4",
+  "team": "NE",
   "attempts": 36,
   "completions": 23,
   "yards": 168,
@@ -15,5 +16,27 @@
   },
   "pressureEpa": -1.1036812487097138,
   "cleanPocketEpa": 0.06669111124241042,
-  "turnoverWorthyPlayRate": 0.08333333333333333
+  "turnoverWorthyPlayRate": 0.08333333333333333,
+  "ranks": {
+    "cpoe": {
+      "value": 5.970450658952029,
+      "leagueRank": 11,
+      "leaguePercentile": 68
+    },
+    "turnoverWorthyPlayRate": {
+      "value": 0.08333333333333333,
+      "leagueRank": 32,
+      "leaguePercentile": 0
+    },
+    "cleanPocketEpa": {
+      "value": 0.06669111124241042,
+      "leagueRank": 21,
+      "leaguePercentile": 35
+    },
+    "pressureEpa": {
+      "value": -1.1036812487097138,
+      "leagueRank": 19,
+      "leaguePercentile": 42
+    }
+  }
 }

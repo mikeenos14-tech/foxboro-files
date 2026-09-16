@@ -127,6 +127,12 @@ export async function getQBDeepDive(): Promise<QBDeepDive> {
   return (await readGenerated<QBDeepDive>("qb-deep-dive.json")) ?? fixtures.qbDeepDive;
 }
 
+export async function getQbLeagueTable(): Promise<QBDeepDive[]> {
+  return (
+    (await readGenerated<QBDeepDive[]>("qb-league-table.json")) ?? fixtures.qbLeagueTable
+  );
+}
+
 export async function getDepthChart(): Promise<DepthChartEntry[]> {
   return (await readGenerated<DepthChartEntry[]>("depth-chart.json")) ?? fixtures.depthChart;
 }

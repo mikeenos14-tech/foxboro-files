@@ -156,6 +156,7 @@ export interface QBDeepDive {
   playerId: string;
   playerName: string;
   headshotUrl?: string;
+  team: string;
   attempts: number;
   completions: number;
   yards: number;
@@ -166,6 +167,16 @@ export interface QBDeepDive {
   pressureEpa: number;
   cleanPocketEpa: number;
   turnoverWorthyPlayRate: number;
+  // Percentile rank among league starting QBs for each advanced stat —
+  // only populated on the site's own featured entry (Maye), computed
+  // against the full league table; left undefined on the plain per-team
+  // rows of that table itself, where "rank vs. what" would be circular.
+  ranks?: {
+    cpoe: RankedStat;
+    turnoverWorthyPlayRate: RankedStat;
+    cleanPocketEpa: RankedStat;
+    pressureEpa: RankedStat;
+  };
 }
 
 export interface ScheduleRow {

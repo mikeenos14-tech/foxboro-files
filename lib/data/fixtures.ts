@@ -174,6 +174,7 @@ export const positionGroupReportCards: PositionGroupReportCard[] = [
 export const qbDeepDive: QBDeepDive = {
   playerId: "00-nel-qb1",
   playerName: "D. Maye",
+  team: "NE",
   attempts: 62,
   completions: 41,
   yards: 512,
@@ -184,7 +185,20 @@ export const qbDeepDive: QBDeepDive = {
   pressureEpa: -0.04,
   cleanPocketEpa: 0.31,
   turnoverWorthyPlayRate: 0.021,
+  ranks: {
+    cpoe: { value: 4.2, leagueRank: 9, leaguePercentile: 74 },
+    turnoverWorthyPlayRate: { value: 0.021, leagueRank: 12, leaguePercentile: 65 },
+    cleanPocketEpa: { value: 0.31, leagueRank: 6, leaguePercentile: 84 },
+    pressureEpa: { value: -0.04, leagueRank: 14, leaguePercentile: 58 },
+  },
 };
+
+export const qbLeagueTable: QBDeepDive[] = [
+  qbDeepDive,
+  { playerId: "00-pit-qb1", playerName: "A. Rodgers", team: "PIT", attempts: 58, completions: 37, yards: 470, tds: 3, ints: 2, cpoe: 1.1, accuracyByDepth: { short: 0.72, medium: 0.55, deep: 0.29 }, pressureEpa: -0.12, cleanPocketEpa: 0.18, turnoverWorthyPlayRate: 0.034 },
+  { playerId: "00-buf-qb1", playerName: "J. Allen", team: "BUF", attempts: 55, completions: 39, yards: 601, tds: 5, ints: 0, cpoe: 6.8, accuracyByDepth: { short: 0.81, medium: 0.66, deep: 0.44 }, pressureEpa: 0.05, cleanPocketEpa: 0.42, turnoverWorthyPlayRate: 0.011 },
+  { playerId: "00-kc-qb1", playerName: "P. Mahomes", team: "KC", attempts: 60, completions: 42, yards: 555, tds: 4, ints: 1, cpoe: 5.5, accuracyByDepth: { short: 0.79, medium: 0.63, deep: 0.4 }, pressureEpa: 0.02, cleanPocketEpa: 0.38, turnoverWorthyPlayRate: 0.017 },
+];
 
 export const depthChart: DepthChartEntry[] = [
   { position: "QB", players: [{ playerId: "00-nel-qb1", playerName: "D. Maye", rank: 1 }, { playerId: "00-nel-qb2", playerName: "J. Brissett", rank: 2 }] },

@@ -152,12 +152,17 @@ async function buildPositionGroupCards(
 
 // ---------- QB deep dive ----------
 
-async function buildQbDeepDive(
-  pbp: PbpRow[]
-): Promise<QBDeepDive | null> {
-  const rosterByGsis = await buildLeagueRosterByGsis();
+// Computes the same QB stat bundle for any team's current starter (most
+// pass attempts this season) — used both for Maye's own deep dive and,
+// called once per team, for the league-wide comparison table that powers
+// his rank badges and the head-to-head picker.
+function computeQbStats(
+  pbp: PbpRow[],
+  team: string,
+  rosterByGsis: Map<string, RosterRow>
+): QBDeepDive | null {
   const teamPasses = pbp.filter(
-    (r) => r.posteam === TEAM && bool01(r.pass_attempt) && r.passer_id
+    (r) => r.posteam === team && bool01(r.pass_attempt) && r.passer_id
   );
   if (teamPasses.length === 0) return null;
 
@@ -202,6 +207,7 @@ async function buildQbDeepDive(
     playerId: starterId,
     playerName: starterRoster?.full_name ?? rows[0]?.passer ?? "Unknown",
     headshotUrl: starterRoster?.headshot_url || undefined,
+    team,
     attempts: rows.length,
     completions: completions.length,
     yards: rows.reduce((sum, r) => sum + num(r.yards_gained), 0),
@@ -220,6 +226,32 @@ async function buildQbDeepDive(
     // used here as an honest, real (if narrower) substitute — it undercounts
     // near-picks a charter would flag, but every number in it is real.
     turnoverWorthyPlayRate: rows.length === 0 ? 0 : ints / rows.length,
+  };
+}
+
+// Ranks one team's QB against every other team's entry in the league
+// table (not the full 32 — only teams with real pass-attempt data this
+// season, so an early-season bye or missing starter doesn't quietly
+// distort the percentile math with a fake zero).
+function attachQbRanks(leagueTable: QBDeepDive[], team: string): QBDeepDive | null {
+  const byTeam = new Map(leagueTable.map((q) => [q.team, q]));
+  const mine = byTeam.get(team);
+  if (!mine) return null;
+
+  const teamsWithData = leagueTable.map((q) => q.team);
+  const valueOf =
+    (field: "cpoe" | "turnoverWorthyPlayRate" | "cleanPocketEpa" | "pressureEpa") =>
+    (t: string) =>
+      byTeam.get(t)?.[field] ?? 0;
+
+  return {
+    ...mine,
+    ranks: {
+      cpoe: rankGeneric(teamsWithData, team, valueOf("cpoe"), true),
+      turnoverWorthyPlayRate: rankGeneric(teamsWithData, team, valueOf("turnoverWorthyPlayRate"), false),
+      cleanPocketEpa: rankGeneric(teamsWithData, team, valueOf("cleanPocketEpa"), true),
+      pressureEpa: rankGeneric(teamsWithData, team, valueOf("pressureEpa"), true),
+    },
   };
 }
 
@@ -243,7 +275,17 @@ async function main() {
     `Wrote position-group-cards.json (${positionCards.length} real groups: QB/RB/WR/TE/OL/Edge/Interior DL/Secondary)`
   );
 
-  const qb = await buildQbDeepDive(pbp);
+  const rosterByGsis = await buildLeagueRosterByGsis();
+  const leagueQbTable = ALL_TEAMS
+    .map((team) => computeQbStats(pbp, team, rosterByGsis))
+    .filter((q): q is QBDeepDive => q !== null);
+  await writeFile(
+    path.join(GENERATED_DIR, "qb-league-table.json"),
+    JSON.stringify(leagueQbTable, null, 2)
+  );
+  console.log(`Wrote qb-league-table.json (${leagueQbTable.length} starting QBs)`);
+
+  const qb = attachQbRanks(leagueQbTable, TEAM);
   if (qb) {
     await writeFile(
       path.join(GENERATED_DIR, "qb-deep-dive.json"),
