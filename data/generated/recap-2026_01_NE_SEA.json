@@ -182,12 +182,6 @@
       "homeWinProb": 1
     }
   ],
-  "starOfTheGame": {
-    "playerId": "00-0036875",
-    "playerName": "R.Stevenson",
-    "wpa": -0.03452450037002586,
-    "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/zmpuirvuw4r04inxth5i"
-  },
   "goodBadUgly": {
     "good": [
       "Defense held opponent to 0.07 EPA/play allowed."
@@ -202,6 +196,7 @@
   "playerOfTheGame": {
     "playerId": "00-0036875",
     "playerName": "R.Stevenson",
+    "wpa": -0.03452450037002586,
     "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/zmpuirvuw4r04inxth5i",
     "reason": "Had the team's best (though still net-negative) win probability contribution at -3% in a tough game offensively."
   }

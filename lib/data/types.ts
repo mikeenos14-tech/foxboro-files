@@ -78,9 +78,14 @@ export interface GameRecap {
     clock: string;
     homeWinProb: number;
   }>;
-  starOfTheGame: { playerId: string; playerName: string; wpa: number; headshotUrl?: string };
   goodBadUgly: { good: string[]; bad: string[]; ugly: string[] };
-  playerOfTheGame: { playerId: string; playerName: string; reason: string; headshotUrl?: string };
+  playerOfTheGame: {
+    playerId: string;
+    playerName: string;
+    wpa: number;
+    reason: string;
+    headshotUrl?: string;
+  };
 }
 
 export interface TeamStatSnapshot {

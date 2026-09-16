@@ -88,11 +88,6 @@ export const lastGameRecap: GameRecap = {
     { playIndex: 110, quarter: 4, clock: "8:00", homeWinProb: 0.93 },
     { playIndex: 130, quarter: 4, clock: "1:00", homeWinProb: 0.99 },
   ],
-  starOfTheGame: {
-    playerId: "00-nel-cb1",
-    playerName: "J. Bishop",
-    wpa: 0.31,
-  },
   goodBadUgly: {
     good: [
       "Offensive line won at the point of attack all day — 5.4 yards per carry before contact adjustments.",
@@ -109,6 +104,7 @@ export const lastGameRecap: GameRecap = {
   playerOfTheGame: {
     playerId: "00-nel-cb1",
     playerName: "J. Bishop",
+    wpa: 0.31,
     reason:
       "His third-quarter interception return for a touchdown was the single biggest swing play of the game and iced it before the fourth quarter even started.",
   },

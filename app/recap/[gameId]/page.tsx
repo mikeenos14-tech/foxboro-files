@@ -4,7 +4,6 @@ import * as store from "@/lib/data/store";
 import { BoxScoreSummary } from "@/components/recap/BoxScoreSummary";
 import { GoodBadUglySidebar } from "@/components/recap/GoodBadUglySidebar";
 import { PlayerOfTheGameCard } from "@/components/recap/PlayerOfTheGameCard";
-import { WPALeaderboard } from "@/components/recap/WPALeaderboard";
 import { WinProbabilityChart } from "@/components/shared/WinProbabilityChart";
 import { StatCard } from "@/components/shared/StatCard";
 import { formatPercent, signed } from "@/lib/util/format";
@@ -82,7 +81,6 @@ export default async function RecapDetailPage({
         </div>
 
         <div className="space-y-4">
-          <WPALeaderboard starOfTheGame={recap.starOfTheGame} />
           <PlayerOfTheGameCard playerOfTheGame={recap.playerOfTheGame} />
           <GoodBadUglySidebar goodBadUgly={recap.goodBadUgly} />
         </div>
