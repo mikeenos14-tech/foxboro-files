@@ -14,6 +14,7 @@ import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { loadCsv, num } from "./lib/csv";
 import { playTypeEpa, sackRateAllowed, sackRateGenerated, type PbpRow } from "./lib/pbp";
+import { computeLeagueEpaTable, offenseEpaRankOnly, defenseEpaRankOnly } from "./lib/leagueRanks";
 import { rankGeneric } from "./lib/rank";
 import { ALL_TEAMS } from "./lib/teams";
 import { VENUES } from "./lib/venues";
@@ -111,15 +112,12 @@ async function main() {
   };
 
   // ---------- Opponent EPA rank ----------
+  // Opponent-adjusted (see leagueRanks.ts) — a defense doesn't rank highly
+  // just from facing bad offenses, and vice versa.
+  const leagueEpaTable = computeLeagueEpaTable(pbp, ALL_TEAMS);
   const opponentEpaRank = {
-    offense: rankGeneric(ALL_TEAMS, opponent, (t) => {
-      const off = pbp.filter((r) => r.posteam === t && (r.play_type === "run" || r.play_type === "pass"));
-      return off.length === 0 ? 0 : off.reduce((s, r) => s + num(r.epa), 0) / off.length;
-    }, true).leagueRank,
-    defense: rankGeneric(ALL_TEAMS, opponent, (t) => {
-      const def = pbp.filter((r) => r.defteam === t && (r.play_type === "run" || r.play_type === "pass"));
-      return def.length === 0 ? 0 : def.reduce((s, r) => s + num(r.epa), 0) / def.length;
-    }, false).leagueRank,
+    offense: offenseEpaRankOnly(leagueEpaTable, opponent),
+    defense: defenseEpaRankOnly(leagueEpaTable, opponent),
   };
 
   // ---------- Recent form (net EPA/play: offense generated minus defense allowed) ----------
