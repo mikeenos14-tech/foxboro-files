@@ -3,14 +3,14 @@
   "season": 2026,
   "epaPerPlay": {
     "offense": {
-      "value": 0.12559646618242892,
-      "leagueRank": 2,
-      "leaguePercentile": 97
+      "value": -0.10962827054056877,
+      "leagueRank": 21,
+      "leaguePercentile": 35
     },
     "defense": {
-      "value": -0.03301210082090204,
-      "leagueRank": 12,
-      "leaguePercentile": 65
+      "value": 0.06560319343278366,
+      "leagueRank": 19,
+      "leaguePercentile": 42
     }
   },
   "successRate": {

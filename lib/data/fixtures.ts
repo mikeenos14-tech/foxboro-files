@@ -160,15 +160,15 @@ export const teamStats: TeamStatSnapshot = {
 };
 
 export const positionGroupReportCards: PositionGroupReportCard[] = [
-  { group: "QB", grade: 78, leagueAvg: 65, trend: "up", soWhat: "Efficient, protecting the ball — top-10 turnover-worthy play rate." },
-  { group: "RB", grade: 71, leagueAvg: 64, trend: "flat", soWhat: "Solid between the tackles, not yet a explosive-play threat." },
-  { group: "WR", grade: 62, leagueAvg: 65, trend: "down", soWhat: "Separation has been inconsistent — below-average target depth." },
-  { group: "TE", grade: 69, leagueAvg: 61, trend: "up", soWhat: "Emerging as a reliable third-down safety valve." },
-  { group: "OL", grade: 74, leagueAvg: 63, trend: "up", soWhat: "Best unit on the team right now — top-10 pressure rate allowed." },
-  { group: "Edge", grade: 66, leagueAvg: 62, trend: "flat", soWhat: "Generating pressure without finishing — sacks lag win rate." },
-  { group: "Interior DL", grade: 70, leagueAvg: 60, trend: "up", soWhat: "Run defense has been stout early — top-10 stuff rate." },
-  { group: "LB", grade: 60, leagueAvg: 61, trend: "down", soWhat: "Coverage has been a soft spot against tight ends." },
-  { group: "Secondary", grade: 73, leagueAvg: 62, trend: "up", soWhat: "Ball-hawking early — leads league in turnover-worthy pass breakups." },
+  { group: "QB", grade: 78, trend: "up", soWhat: "Efficient, protecting the ball — top-10 turnover-worthy play rate." },
+  { group: "RB", grade: 71, trend: "flat", soWhat: "Solid between the tackles, not yet a explosive-play threat." },
+  { group: "WR", grade: 62, trend: "down", soWhat: "Separation has been inconsistent — below-average target depth." },
+  { group: "TE", grade: 69, trend: "up", soWhat: "Emerging as a reliable third-down safety valve." },
+  { group: "OL", grade: 74, trend: "up", soWhat: "Best unit on the team right now — top-10 pressure rate allowed." },
+  { group: "Edge", grade: 66, trend: "flat", soWhat: "Generating pressure without finishing — sacks lag win rate." },
+  { group: "Interior DL", grade: 70, trend: "up", soWhat: "Run defense has been stout early — top-10 stuff rate." },
+  { group: "LB", grade: 60, trend: "down", soWhat: "Coverage has been a soft spot against tight ends." },
+  { group: "Secondary", grade: 73, trend: "up", soWhat: "Ball-hawking early — leads league in turnover-worthy pass breakups." },
 ];
 
 export const qbDeepDive: QBDeepDive = {

@@ -21,8 +21,7 @@ import {
 } from "./lib/pbp";
 import {
   computeLeagueEpaTable,
-  offenseEpaRank,
-  defenseEpaRank,
+  computeAdjustedEpa,
   offenseSuccessRank,
   defenseSuccessRank,
   offenseExplosiveRank,
@@ -83,6 +82,12 @@ async function main() {
 
   const standings = computeStandings(games, SEASON);
   const epaTable = computeLeagueEpaTable(pbp, ALL_TEAMS);
+  // Pure current-season, opponent-adjusted EPA (no prior-season blend) —
+  // powers the home page's "Team Strength vs. League" EPA cards, which are
+  // framed as "how's this year going," not a predictive blend with 2025.
+  // Everything else (win probability, schedule projections, playoff odds)
+  // stays on epaTable's blended version below.
+  const currentSeasonEpa = computeAdjustedEpa(pbp, ALL_TEAMS);
 
   // ---------- Division standings ----------
   const ourDivision = TEAM_DIVISION[TEAM];
@@ -284,8 +289,8 @@ async function main() {
     team: TEAM,
     season: SEASON,
     epaPerPlay: {
-      offense: offenseEpaRank(epaTable, TEAM),
-      defense: defenseEpaRank(epaTable, TEAM),
+      offense: rankGeneric(ALL_TEAMS, TEAM, (t) => currentSeasonEpa.offense.get(t) ?? 0, true),
+      defense: rankGeneric(ALL_TEAMS, TEAM, (t) => currentSeasonEpa.defense.get(t) ?? 0, false),
     },
     successRate: {
       offense: offenseSuccessRank(epaTable, TEAM),

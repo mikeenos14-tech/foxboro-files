@@ -103,14 +103,13 @@ async function buildPositionGroupCards(
       positionEpa(pbp, rosterByGsis, t, rosterPosition, idField, playType).epa;
     const ranked = rankGeneric(ALL_TEAMS, TEAM, valueOf, true);
     // Percentile doubles as a 0-100 "grade" by construction (50 = league
-    // average), so leagueAvg is always 50 here — that's not a coincidence,
-    // it's what percentile-vs-the-other-31-teams means.
+    // average) — that's the whole "vs. league" story, so the card shows
+    // this number directly rather than a separate always-50 comparison.
     const grade = ranked.leaguePercentile;
     const { n } = positionEpa(pbp, rosterByGsis, TEAM, rosterPosition, idField, playType);
     return {
       group: label,
       grade,
-      leagueAvg: 50,
       // Only one week of data so far — nothing to trend against yet.
       // Revisit once multiple weeks accumulate.
       trend: "flat" as const,
@@ -125,28 +124,24 @@ async function buildPositionGroupCards(
     {
       group: "OL",
       grade: unitGrade((t) => sackRateAllowed(pbp, t), false),
-      leagueAvg: 50,
       trend: "flat",
       soWhat: `${ordinal(unitGrade((t) => sackRateAllowed(pbp, t), false))} percentile in the NFL for sack rate allowed (pass protection proxy — no per-player blocking data available free).`,
     },
     {
       group: "Edge",
       grade: unitGrade((t) => sackRateGenerated(pbp, t), true),
-      leagueAvg: 50,
       trend: "flat",
       soWhat: `${ordinal(unitGrade((t) => sackRateGenerated(pbp, t), true))} percentile in the NFL for sack rate generated (pass rush proxy, team-wide — not isolated to edge rushers specifically).`,
     },
     {
       group: "Interior DL",
       grade: unitGrade((t) => playTypeEpa(pbp, t, "defteam", "run"), false),
-      leagueAvg: 50,
       trend: "flat",
       soWhat: `${ordinal(unitGrade((t) => playTypeEpa(pbp, t, "defteam", "run"), false))} percentile in the NFL for rush EPA allowed (run defense proxy, team-wide — not isolated to interior linemen specifically).`,
     },
     {
       group: "Secondary",
       grade: unitGrade((t) => playTypeEpa(pbp, t, "defteam", "pass"), false),
-      leagueAvg: 50,
       trend: "flat",
       soWhat: `${ordinal(unitGrade((t) => playTypeEpa(pbp, t, "defteam", "pass"), false))} percentile in the NFL for pass EPA allowed (pass defense proxy — includes pass rush effect, not isolated to coverage alone).`,
     },

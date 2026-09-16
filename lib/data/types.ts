@@ -147,8 +147,7 @@ export interface TeamStatSnapshot {
 
 export interface PositionGroupReportCard {
   group: string;
-  grade: number; // 0-100 internal grade
-  leagueAvg: number;
+  grade: number; // 0-100 internal grade — a league percentile (50 = average)
   trend: "up" | "down" | "flat";
   soWhat: string;
 }
