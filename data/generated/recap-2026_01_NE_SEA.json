@@ -184,13 +184,15 @@
   ],
   "goodBadUgly": {
     "good": [
-      "Defense held opponent to 0.07 EPA/play allowed."
+      "Defense held Seattle to 13 points and forced them into difficult third-down situations (allowed only 2/11), showing some structural resistance.",
+      "Front office moved quickly to add depth by signing DaQuan Jones, showing they're not sitting idle during a tough stretch."
     ],
     "bad": [
-      "Offense generated negative EPA/play (-0.11)."
+      "We lost the turnover battle minus-3, and our offense couldn't generate positive EPA per play (-0.11), making it nearly impossible to win.",
+      "Red zone execution was rough—only 1/2 on offense while we allowed Seattle 1/3—these margin-of-error moments decided the game."
     ],
     "ugly": [
-      "Turnover margin was -3."
+      "A.J. Brown's high ankle sprain is a four-week minimum absence, which means our receiving corps will be tested heavily just as the season is getting started."
     ]
   },
   "playerOfTheGame": {
@@ -200,5 +202,5 @@
     "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/zmpuirvuw4r04inxth5i",
     "reason": "Had the team's best (though still net-negative) win probability contribution at -3% in a tough game offensively."
   },
-  "fanTake": "We had this one. Up 10-0 on the reigning Super Bowl champs, on the road, in Vrabel's opener \u2014 and somehow we still found a way to lose it. Maye's three picks were the whole story: Seattle turned two of them into the tying score and the eventual lead, and Josh Jobe slammed the door with a toe-tapping interception in the end zone on our last real shot to win it. A statement win against the team that beat us in the Super Bowl was sitting right there for three quarters. Instead it's 0-1, and everyone's already got questions about the turnovers. One game. Move on to Pittsburgh."
+  "fanTake": "Well, that's a tough pill to swallow. We couldn't get it done against Seattle, losing 13-10 in a game that felt winnable but slipped away—and now we're dealing with the A.J. Brown injury fallout. A high ankle sprain is the kind of thing that lingers, and losing him for at least four games is a massive blow to our offense when we're trying to build momentum. The silver lining? We're at least being proactive by bringing in DaQuan Jones to bolster the defense, but right now it feels like we're fighting uphill."
 }

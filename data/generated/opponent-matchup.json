@@ -82,12 +82,13 @@
   "weather": {
     "tempF": 52,
     "wind": "5 mph",
-    "precipitation": "41%",
+    "precipitation": "43%",
     "isDome": false
   },
   "bettingContext": {
-    "spread": -5.5,
+    "spread": -4.5,
     "overUnder": 41.5,
     "asOf": "2026-09-16"
-  }
+  },
+  "previewTake": "Here we go again with Pittsburgh—they've got us in our house for the home opener, and while we've got the betting line in our favor, I'm not exactly sleeping soundly. Yes, their offense ranks 30th in the league, which should theoretically work in our favor, but that defense is legitimately elite at #2 overall, and we're going to have our hands full. The real story here is their rushing attack versus our run defense—they grade 6th nationally in rushing while we're sitting at the 61st percentile, and that's the widest gap we'll see on the field all week. Add in that we're dealing with A.J. Brown's absence, and this feels like a game where Pittsburgh's smash-mouth, defense-first approach could give us problems. That said, we beat them in 2023 and 2019, and the line says we should win—but I'll believe it when I see it on Sunday at 1 PM."
 }
