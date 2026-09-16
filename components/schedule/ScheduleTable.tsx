@@ -21,7 +21,7 @@ export function ScheduleTable({ rows }: { rows: ScheduleRow[] }) {
             <th className="px-3 py-2">Site</th>
             <th className="px-3 py-2">Opp Record</th>
             <th className="px-3 py-2">Opp EPA Rank</th>
-            <th className="px-3 py-2">Opp SOS (net pts)</th>
+            <th className="px-3 py-2">Opp&apos;s SOS (net pts)</th>
             <th className="px-3 py-2">Result / Win Prob</th>
           </tr>
         </thead>
