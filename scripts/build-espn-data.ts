@@ -81,7 +81,14 @@ async function buildLeagueNews(): Promise<NewsItem[] | null> {
   const raw = await readRawJson<EspnNewsResponse>("espn-league-news.json");
   if (!raw?.articles) return null;
 
-  return raw.articles.map((a) => {
+  // Fantasy content isn't "around the league" news in the sense this
+  // section means — it's a different, deterministic exclusion, not
+  // something that needs the AI curation step below to judge.
+  const nonFantasy = raw.articles.filter(
+    (a) => !/fantasy/i.test(`${a.headline ?? ""} ${a.description ?? ""}`)
+  );
+
+  return nonFantasy.map((a) => {
     const headline = a.headline ?? "Untitled";
     const summary = a.description ?? "";
     return {
