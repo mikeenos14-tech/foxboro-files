@@ -44,6 +44,10 @@ jobs:
         run: npx tsx scripts/fetch-news-sources.ts
         continue-on-error: true
 
+      - name: Fetch nflverse injury report (practice status, official designations)
+        run: npx tsx scripts/fetch-nflverse.ts injuries_2026.csv
+        continue-on-error: true
+
       - name: Build news and injury reports
         run: npx tsx scripts/build-espn-data.ts
         continue-on-error: true

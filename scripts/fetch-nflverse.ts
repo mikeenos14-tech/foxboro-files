@@ -46,7 +46,14 @@ async function fetchOne(name: string, url: string) {
 
 async function main() {
   await mkdir(RAW_DIR, { recursive: true });
-  for (const { name, url } of SOURCES) {
+  // Optional CLI args restrict the fetch to specific files by name, e.g.
+  // `npx tsx scripts/fetch-nflverse.ts injuries_2026.csv` — used by the
+  // headlines workflow, which only needs the (small, fast-changing)
+  // injuries file and shouldn't re-pull the much larger play-by-play/
+  // roster files every 3 hours. No args fetches everything, as before.
+  const only = process.argv.slice(2);
+  const targets = only.length > 0 ? SOURCES.filter((s) => only.includes(s.name)) : SOURCES;
+  for (const { name, url } of targets) {
     await fetchOne(name, url);
   }
 }
