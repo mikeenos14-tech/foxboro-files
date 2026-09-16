@@ -10,9 +10,8 @@ import { ordinal } from "@/lib/calc/ranks";
 import { formatPercent } from "@/lib/util/format";
 
 export default async function HomePage() {
-  const [team, teamStats, schedule, projection, nextGame, lastGame, news, standings] =
+  const [teamStats, schedule, projection, nextGame, lastGame, news, standings] =
     await Promise.all([
-      store.getTeam(),
       store.getTeamStats(),
       store.getSchedule(),
       store.getSeasonProjection(),
@@ -26,10 +25,10 @@ export default async function HomePage() {
     <div className="-mx-4 space-y-8 sm:mx-0">
       <div className="hero-texture bg-gradient-to-br from-navy via-navy to-navy-deep px-4 py-6 sm:rounded-xl sm:px-6">
         <h1 className="font-display text-3xl font-bold uppercase tracking-wide text-white">
-          {team.name}
+          Pats
         </h1>
         <p className="text-sm text-white/70">
-          Season {teamStats.season} dashboard
+          {teamStats.season}-{String(teamStats.season + 1).slice(-2)} Season Dashboard
         </p>
         <div className="mt-5 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
           <RecordAndStandingCard schedule={schedule} />

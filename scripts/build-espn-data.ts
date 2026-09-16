@@ -48,7 +48,7 @@ interface EspnNewsResponse {
 
 function classify(headline: string, description: string): NewsType {
   const text = `${headline} ${description}`.toLowerCase();
-  if (/injur|questionable|doubtful|\bout\b|ir\b|injured reserve/.test(text)) return "Injury";
+  if (/injur|questionable|doubtful|\bout\b|\bir\b/.test(text)) return "Injury";
   if (/sign|trade|waive|release|activate|practice squad|cut\b/.test(text)) return "Transaction";
   if (/practice|camp notes|beat writer|notebook/.test(text)) return "Beat Report";
   return "Analysis";
