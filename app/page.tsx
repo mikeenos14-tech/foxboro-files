@@ -25,7 +25,7 @@ export default async function HomePage() {
     <div className="-mx-4 space-y-8 sm:mx-0">
       <div className="hero-texture bg-gradient-to-br from-navy via-navy to-navy-deep px-4 py-6 sm:rounded-xl sm:px-6">
         <h1 className="font-display text-3xl font-bold uppercase tracking-wide text-white">
-          Pats
+          Patriots
         </h1>
         <p className="text-sm text-white/70">
           {teamStats.season}-{String(teamStats.season + 1).slice(-2)} Season Dashboard
