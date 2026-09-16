@@ -1,5 +1,14 @@
 [
   {
+    "id": "0f4416f6-f251-4f76-a056-ff78cae97b53",
+    "publishedAt": "2026-09-16T20:19:00.000Z",
+    "type": "Injury",
+    "headline": "Week 2 Injury Report: Patriots vs. Steelers",
+    "summary": "The New England Patriots and the Pittsburgh Steelers announce the following player injuries and practice participation ahead of their Week 2 game.",
+    "sourceUrl": "https://www.patriots.com/news/week-2-injury-report-patriots-vs-steelers",
+    "sourceName": "Patriots.com"
+  },
+  {
     "id": "dceb4b9a-935e-4ac3-993e-f79d25ba8f90",
     "publishedAt": "2026-09-16T14:47:05.000Z",
     "type": "Analysis",
@@ -36,21 +45,12 @@
     "sourceName": "Patriots.com"
   },
   {
-    "id": "91b0bc66-c106-464e-982c-bac728bf03df",
-    "publishedAt": "2026-09-15T22:00:00.000Z",
+    "id": "fed10443-7a5d-4b16-a26c-d1e367dd6933",
+    "publishedAt": "2026-09-16T10:00:00.000Z",
     "type": "Analysis",
-    "headline": "Kraft Family, Patriots Foundation and Gillette Donate $275,000 in the Names of 2026 Myra Kraft Community MVP Award Winners",
-    "summary": "Twenty-six volunteers were recognized during an awards luncheon at Gillette Stadium on Tuesday, Sept. 15. Susie Shaw of Carlisle, MA presented with this year’s $25,000 grand prize donation for William’s Be Yourself Challenge.",
-    "sourceUrl": "https://www.patriots.com/news/kraft-family-patriots-foundation-and-gillette-donate-275-000-in-the-names-of-2026-myra-kraft-community-mvp-award-winners",
-    "sourceName": "Patriots.com"
-  },
-  {
-    "id": "d9d18f46-0881-4086-9313-52af0a339a79",
-    "publishedAt": "2026-09-15T20:00:00.000Z",
-    "type": "Transaction",
-    "headline": "Patriots Re-Sign S Elliott Davison to the Practice Squad; Release TE Shane Zylstra from the Practice Squad",
-    "summary": "The Patriots announced today that they have re-signed S Elliott Davison to the practice squad and released TE Shane Zylstra from the practice squad.",
-    "sourceUrl": "https://www.patriots.com/news/patriots-re-sign-s-elliott-davison-to-the-practice-squad-release-te-shane-zylstra-from-the-practice-squad",
+    "headline": "Transcript: Head Coach Mike Vrabel Press Conference 9/16",
+    "summary": "Read the full transcript from Head Coach Mike Vrabel's press conference on Wednesday, September 16, 2026.",
+    "sourceUrl": "https://www.patriots.com/news/transcript-head-coach-mike-vrabel-press-conference-9-16",
     "sourceName": "Patriots.com"
   },
   {

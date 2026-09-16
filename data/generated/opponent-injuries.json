@@ -1,10 +1,28 @@
 [
   {
+    "playerId": "4427170",
+    "playerName": "Troy Fautanu",
+    "position": "OT",
+    "week": 2,
+    "injury": "Ankle",
+    "gameStatus": "Questionable",
+    "lastUpdated": "2026-09-16T20:32Z"
+  },
+  {
+    "playerId": "4035687",
+    "playerName": "Michael Pittman Jr.",
+    "position": "WR",
+    "week": 2,
+    "injury": "Foot",
+    "gameStatus": "Questionable",
+    "lastUpdated": "2026-09-16T20:38Z"
+  },
+  {
     "playerId": "4426506",
     "playerName": "Joey Porter Jr.",
     "position": "CB",
     "week": 2,
-    "injury": "Back",
+    "injury": "Undisclosed",
     "gameStatus": "Questionable",
     "lastUpdated": "2026-09-15T15:39Z"
   },
