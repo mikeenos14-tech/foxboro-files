@@ -13,8 +13,17 @@
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { loadCsv, num } from "./lib/csv";
-import { playTypeEpa, sackRateAllowed, sackRateGenerated, type PbpRow } from "./lib/pbp";
+import { type PbpRow } from "./lib/pbp";
 import { computeLeagueEpaTable, offenseEpaRankOnly, defenseEpaRankOnly } from "./lib/leagueRanks";
+import { computeAdjustedPair, epaValue, sackIndicator, isPassAttempt } from "./lib/adjustedRate";
+import {
+  PRIOR_RUSH_OFFENSE_EPA,
+  PRIOR_RUSH_DEFENSE_EPA,
+  PRIOR_PASS_OFFENSE_EPA,
+  PRIOR_PASS_DEFENSE_EPA,
+  PRIOR_SACK_RATE_ALLOWED,
+  PRIOR_SACK_RATE_GENERATED,
+} from "./lib/priorSeasonStrength";
 import { rankGeneric } from "./lib/rank";
 import { ALL_TEAMS } from "./lib/teams";
 import { VENUES } from "./lib/venues";
@@ -56,15 +65,34 @@ async function main() {
   const opponent = nextGame.homeTeam === TEAM ? nextGame.awayTeam : nextGame.homeTeam;
 
   // ---------- EPA-based unit matchups ----------
+  // Each pair is opponent-adjusted (leave-one-out) and blended with real
+  // 2025 performance, phased out by 8 games — same treatment as the
+  // team-wide EPA rankings (see leagueRanks.ts), just applied per unit
+  // instead of to overall offense/defense. Without this, a unit's grade
+  // was pure current-season EPA off a 1-2 game sample, which is exactly
+  // the kind of distortion that let a defense show up at the 100th
+  // percentile off one good game against a bad passing offense.
+  const isRun = (r: PbpRow) => r.play_type === "run";
+  const isPass = (r: PbpRow) => r.play_type === "pass";
+  const rushPair = computeAdjustedPair(
+    pbp, ALL_TEAMS, { filter: isRun, value: epaValue }, PRIOR_RUSH_OFFENSE_EPA, PRIOR_RUSH_DEFENSE_EPA
+  );
+  const passPair = computeAdjustedPair(
+    pbp, ALL_TEAMS, { filter: isPass, value: epaValue }, PRIOR_PASS_OFFENSE_EPA, PRIOR_PASS_DEFENSE_EPA
+  );
+  const sackPair = computeAdjustedPair(
+    pbp, ALL_TEAMS, { filter: isPassAttempt, value: sackIndicator }, PRIOR_SACK_RATE_ALLOWED, PRIOR_SACK_RATE_GENERATED
+  );
+
   const grade = (valueOf: (t: string) => number, higherIsBetter: boolean, team: string) =>
     rankGeneric(ALL_TEAMS, team, valueOf, higherIsBetter).leaguePercentile;
 
-  const rushOffGrade = (t: string) => grade((tt) => playTypeEpa(pbp, tt, "posteam", "run"), true, t);
-  const passOffGrade = (t: string) => grade((tt) => playTypeEpa(pbp, tt, "posteam", "pass"), true, t);
-  const rushDefGrade = (t: string) => grade((tt) => playTypeEpa(pbp, tt, "defteam", "run"), false, t);
-  const passDefGrade = (t: string) => grade((tt) => playTypeEpa(pbp, tt, "defteam", "pass"), false, t);
-  const passProGrade = (t: string) => grade((tt) => sackRateAllowed(pbp, tt), false, t);
-  const passRushGrade = (t: string) => grade((tt) => sackRateGenerated(pbp, tt), true, t);
+  const rushOffGrade = (t: string) => grade((tt) => rushPair.a.get(tt) ?? 0, true, t);
+  const passOffGrade = (t: string) => grade((tt) => passPair.a.get(tt) ?? 0, true, t);
+  const rushDefGrade = (t: string) => grade((tt) => rushPair.b.get(tt) ?? 0, false, t);
+  const passDefGrade = (t: string) => grade((tt) => passPair.b.get(tt) ?? 0, false, t);
+  const passProGrade = (t: string) => grade((tt) => sackPair.a.get(tt) ?? 0, false, t);
+  const passRushGrade = (t: string) => grade((tt) => sackPair.b.get(tt) ?? 0, true, t);
 
   function unitNote(
     label: string,

@@ -8,43 +8,43 @@
   "positionGroupMatchups": [
     {
       "group": "Rush Offense vs. Run Defense",
-      "ourGrade": 23,
-      "theirGrade": 71,
-      "edge": "them",
-      "note": "23rd percentile vs. 71st percentile (advantage them)."
+      "ourGrade": 58,
+      "theirGrade": 48,
+      "edge": "even",
+      "note": "58th percentile vs. 48th percentile (close matchup)."
     },
     {
       "group": "Pass Offense vs. Pass Defense",
-      "ourGrade": 32,
-      "theirGrade": 100,
-      "edge": "them",
-      "note": "32nd percentile vs. 100th percentile (advantage them)."
+      "ourGrade": 100,
+      "theirGrade": 71,
+      "edge": "us",
+      "note": "100th percentile vs. 71st percentile (advantage us)."
     },
     {
       "group": "Run Defense vs. Rush Offense",
-      "ourGrade": 61,
-      "theirGrade": 6,
+      "ourGrade": 71,
+      "theirGrade": 48,
       "edge": "us",
-      "note": "61st percentile vs. 6th percentile (advantage us)."
+      "note": "71st percentile vs. 48th percentile (advantage us)."
     },
     {
       "group": "Pass Defense vs. Pass Offense",
-      "ourGrade": 29,
-      "theirGrade": 16,
+      "ourGrade": 58,
+      "theirGrade": 35,
       "edge": "us",
-      "note": "29th percentile vs. 16th percentile (advantage us)."
+      "note": "58th percentile vs. 35th percentile (advantage us)."
     },
     {
       "group": "Pass Protection vs. Pass Rush",
-      "ourGrade": 32,
-      "theirGrade": 94,
+      "ourGrade": 23,
+      "theirGrade": 87,
       "edge": "them",
-      "note": "32nd percentile vs. 94th percentile (advantage them)."
+      "note": "23rd percentile vs. 87th percentile (advantage them)."
     }
   ],
   "matchupOfTheWeek": {
-    "title": "Run Defense vs. Rush Offense",
-    "description": "Our run defense grades in the 61st percentile against a unit that grades 6th — the widest real statistical edge on the board this week."
+    "title": "Pass Offense vs. Pass Defense",
+    "description": "Our pass offense grades in the 100th percentile against a unit that grades 71st — the widest real statistical edge on the board this week."
   },
   "opponentInjuries": [],
   "recentForm": {
@@ -89,6 +89,5 @@
     "spread": -5.5,
     "overUnder": 41.5,
     "asOf": "2026-09-16"
-  },
-  "previewTake": "Here we sit at 1 PM ET on Sunday with a chance to right the ship after that Week 1 stumble, and frankly, the statistical universe is handing us a gift-wrapped opportunity: Pittsburgh's offense ranks 22nd in EPA while we're sitting 61st percentile in run defense against a Steelers rushing attack that grades out 6th—that's the widest real edge all week, and we'd be foolish not to lean into it. Drake Maye will need to navigate a Pittsburgh defense that sits 14th in EPA and has shown modest form (0.02 net EPA/play over their last three), which is hardly the murderous unit of Patriots-Steelers lore. The betting market likes us by 5.5 at home, and while recent history gives us pause—that 14-21 loss still stings—we've owned this matchup more often than not. A.J. Brown's absence will be felt, but if our front seven can make life miserable for that run game, this is a very winnable football game."
+  }
 }

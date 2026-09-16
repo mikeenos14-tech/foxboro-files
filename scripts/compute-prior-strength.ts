@@ -1,8 +1,8 @@
 // One-off (well — once-a-year) tool: computes each team's full-season
-// offensive and defensive EPA/play from a completed season's real nflverse
+// offensive and defensive splits from a completed season's real nflverse
 // play-by-play data, and writes them as frozen constant tables to
 // scripts/lib/priorSeasonStrength.ts. Those tables are the "preseason
-// prior" blended with the current season's in-progress EPA — real
+// prior" blended with the current season's in-progress numbers — real
 // prior-year performance instead of a blind guess, phased out linearly as
 // real current-season games accumulate (see scripts/lib/priorBlend.ts).
 //
@@ -11,7 +11,7 @@
 
 import { mkdir, writeFile } from "node:fs/promises";
 import path from "node:path";
-import { loadCsv, num } from "./lib/csv";
+import { bool01, loadCsv, num } from "./lib/csv";
 import { ALL_TEAMS } from "./lib/teams";
 import type { PbpRow } from "./lib/pbp";
 
@@ -26,6 +26,29 @@ async function fetchPbp(season: string): Promise<string> {
   await mkdir(RAW_DIR, { recursive: true });
   await writeFile(path.join(RAW_DIR, filename), buf);
   return filename;
+}
+
+// Per-team average of `value(row)` over rows matching `filter`, for the
+// given side of the ball ("posteam" for offense, "defteam" for defense).
+function perTeamAverage(
+  rows: PbpRow[],
+  side: "posteam" | "defteam",
+  filter: (r: PbpRow) => boolean,
+  value: (r: PbpRow) => number
+): Record<string, number> {
+  const out: Record<string, number> = {};
+  for (const team of ALL_TEAMS) {
+    const matched = rows.filter((r) => r[side] === team && filter(r));
+    out[team] =
+      matched.length === 0
+        ? 0
+        : Math.round((matched.reduce((s, r) => s + value(r), 0) / matched.length) * 10000) / 10000;
+  }
+  return out;
+}
+
+function toBody(table: Record<string, number>): string {
+  return ALL_TEAMS.map((t) => `  ${t}: ${table[t]},`).join("\n");
 }
 
 async function main() {
@@ -44,42 +67,41 @@ async function main() {
   // to measure.
   const regSeason = pbp.filter((r) => r.season_type === "REG");
 
-  const offenseEpa: Record<string, number> = {};
-  const defenseEpa: Record<string, number> = {};
-  for (const team of ALL_TEAMS) {
-    const off = regSeason.filter(
-      (r) => r.posteam === team && (r.play_type === "run" || r.play_type === "pass")
-    );
-    const def = regSeason.filter(
-      (r) => r.defteam === team && (r.play_type === "run" || r.play_type === "pass")
-    );
-    offenseEpa[team] =
-      off.length === 0 ? 0 : Math.round((off.reduce((s, r) => s + num(r.epa), 0) / off.length) * 10000) / 10000;
-    defenseEpa[team] =
-      def.length === 0 ? 0 : Math.round((def.reduce((s, r) => s + num(r.epa), 0) / def.length) * 10000) / 10000;
-  }
+  const epaValue = (r: PbpRow) => num(r.epa);
+  const isScrimmage = (r: PbpRow) => r.play_type === "run" || r.play_type === "pass";
+  const isRun = (r: PbpRow) => r.play_type === "run";
+  const isPass = (r: PbpRow) => r.play_type === "pass";
+  const isPassAttempt = (r: PbpRow) => bool01(r.pass_attempt);
+  const sackIndicator = (r: PbpRow) => (bool01(r.sack) ? 1 : 0);
+
+  const tables = {
+    PRIOR_OFFENSE_EPA: perTeamAverage(regSeason, "posteam", isScrimmage, epaValue),
+    PRIOR_DEFENSE_EPA: perTeamAverage(regSeason, "defteam", isScrimmage, epaValue),
+    PRIOR_RUSH_OFFENSE_EPA: perTeamAverage(regSeason, "posteam", isRun, epaValue),
+    PRIOR_RUSH_DEFENSE_EPA: perTeamAverage(regSeason, "defteam", isRun, epaValue),
+    PRIOR_PASS_OFFENSE_EPA: perTeamAverage(regSeason, "posteam", isPass, epaValue),
+    PRIOR_PASS_DEFENSE_EPA: perTeamAverage(regSeason, "defteam", isPass, epaValue),
+    PRIOR_SACK_RATE_ALLOWED: perTeamAverage(regSeason, "posteam", isPassAttempt, sackIndicator),
+    PRIOR_SACK_RATE_GENERATED: perTeamAverage(regSeason, "defteam", isPassAttempt, sackIndicator),
+  };
 
   const outPath = path.join(process.cwd(), "scripts", "lib", "priorSeasonStrength.ts");
-  const offBody = ALL_TEAMS.map((t) => `  ${t}: ${offenseEpa[t]},`).join("\n");
-  const defBody = ALL_TEAMS.map((t) => `  ${t}: ${defenseEpa[t]},`).join("\n");
-  const content = `// Frozen reference: each team's full-season offensive and defensive
-// EPA/play from the ${season} season, computed from real nflverse play-by-play
-// data via scripts/compute-prior-strength.ts. Used as the "preseason prior"
-// blended with the current season's in-progress EPA (see
-// scripts/lib/priorBlend.ts) so one or two early games don't single-handedly
-// swing win probabilities or EPA rankings.
+  const exports = Object.entries(tables)
+    .map(([name, table]) => `export const ${name}: Record<string, number> = {\n${toBody(table)}\n};`)
+    .join("\n\n");
+  const content = `// Frozen reference: each team's full-season offensive/defensive splits
+// from the ${season} season, computed from real nflverse play-by-play data
+// via scripts/compute-prior-strength.ts. Used as the "preseason prior"
+// blended with the current season's in-progress numbers (see
+// scripts/lib/priorBlend.ts) so one or two early games don't single-
+// handedly swing win probabilities, EPA rankings, or position-group
+// matchup grades.
 //
 // Regenerate at the start of each new season, once the prior season is
 // final: npx tsx scripts/compute-prior-strength.ts <season>
 export const PRIOR_SEASON = ${season};
 
-export const PRIOR_OFFENSE_EPA: Record<string, number> = {
-${offBody}
-};
-
-export const PRIOR_DEFENSE_EPA: Record<string, number> = {
-${defBody}
-};
+${exports}
 `;
 
   await writeFile(outPath, content);
