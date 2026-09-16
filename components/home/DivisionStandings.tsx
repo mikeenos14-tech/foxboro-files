@@ -13,13 +13,13 @@ export function DivisionStandings({ standings }: { standings: DivisionStanding[]
           {standings.map((s, i) => (
             <tr
               key={s.team}
-              className={`border-b border-border last:border-0 ${s.isUs ? "bg-navy/10" : ""}`}
+              className={`border-b border-border last:border-0 ${s.isUs ? "bg-red/10" : ""}`}
             >
               <td className="px-4 py-2.5 text-muted">{i + 1}</td>
-              <td className="px-4 py-2.5">
+              <td className={`px-4 py-2.5 ${s.isUs ? "border-l-4 border-l-red" : ""}`}>
                 <div className="flex items-center gap-2">
                   <TeamLogo team={s.team} size={22} />
-                  <span className={s.isUs ? "font-bold text-foreground" : "font-medium"}>
+                  <span className={s.isUs ? "font-bold text-red" : "font-medium"}>
                     {s.team}
                   </span>
                 </div>
