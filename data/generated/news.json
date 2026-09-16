@@ -1,16 +1,34 @@
 [
   {
-    "id": "d9d18f46-0881-4086-9313-52af0a339a79",
-    "publishedAt": "2026-09-15T20:00:00.000Z",
-    "type": "Transaction",
-    "headline": "Patriots Re-Sign S Elliott Davison to the Practice Squad; Release TE Shane Zylstra from the Practice Squad",
-    "summary": "The Patriots announced today that they have re-signed S Elliott Davison to the practice squad and released TE Shane Zylstra from the practice squad.",
-    "sourceUrl": "https://www.patriots.com/news/patriots-re-sign-s-elliott-davison-to-the-practice-squad-release-te-shane-zylstra-from-the-practice-squad",
+    "id": "dceb4b9a-935e-4ac3-993e-f79d25ba8f90",
+    "publishedAt": "2026-09-16T14:47:05.000Z",
+    "type": "Analysis",
+    "headline": "Teachers at Providence elementary school surprised with generous back-to-school donation from Drake & Ann Michael Maye",
+    "summary": "New England Patriots quarterback Drake Maye and his wife, Ann Michael, paid for the Amazon classroom wish lists of more than 50 teachers and support specialists at Alfred Lima Sr., Elementary School in Providence Rhode Island.",
+    "sourceUrl": "https://www.patriots.com/news/teachers-at-providence-elementary-school-surprised-with-generous-back-to-school-donation-from-drake-ann-michael-maye",
+    "sourceName": "Patriots.com"
+  },
+  {
+    "id": "49956845",
+    "publishedAt": "2026-09-16T14:18:58Z",
+    "type": "Analysis",
+    "headline": "Can Drake Maye and the Patriots bounce back vs. the Steelers?",
+    "summary": "Can Drake Maye and the Patriots bounce back vs. the Steelers?",
+    "sourceUrl": "https://www.espn.com/video/clip/_/id/49956845/can-drake-maye-patriots-bounce-back-vs-steelers",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "61037c13-023e-47d2-b11d-29b0d9f63b49",
+    "publishedAt": "2026-09-16T13:28:00.000Z",
+    "type": "Analysis",
+    "headline": "Game Preview: Patriots vs. Steelers",
+    "summary": "The New England Patriots will host the Pittsburgh Steelers for their 2026 home opener at Gillette Stadium on Sunday, September 20 at 1 PM ET.",
+    "sourceUrl": "https://www.patriots.com/news/game-preview-patriots-vs-steelers-week2",
     "sourceName": "Patriots.com"
   },
   {
     "id": "aa6798f2-4b89-4b03-a26e-2bbe6185ecad",
-    "publishedAt": "2026-09-15T15:41:38.000Z",
+    "publishedAt": "2026-09-16T13:27:00.000Z",
     "type": "Analysis",
     "headline": "How to Watch and Stream Sunday's Patriots Home Opener Against the Steelers",
     "summary": "Complete broadcast information for this week's game between the New England Patriots and the Pittsburgh Steelers on Sunday, September 20, 2026 at 1 PM ET.",
@@ -18,12 +36,21 @@
     "sourceName": "Patriots.com"
   },
   {
-    "id": "61037c13-023e-47d2-b11d-29b0d9f63b49",
-    "publishedAt": "2026-09-15T15:30:15.000Z",
+    "id": "91b0bc66-c106-464e-982c-bac728bf03df",
+    "publishedAt": "2026-09-15T22:00:00.000Z",
     "type": "Analysis",
-    "headline": "Game Preview: Patriots vs. Steelers",
-    "summary": "The New England Patriots will host the Pittsburgh Steelers for their 2026 home opener at Gillette Stadium on Sunday, September 20 at 1 PM ET.",
-    "sourceUrl": "https://www.patriots.com/news/game-preview-patriots-vs-steelers-week2",
+    "headline": "Kraft Family, Patriots Foundation and Gillette Donate $275,000 in the Names of 2026 Myra Kraft Community MVP Award Winners",
+    "summary": "Twenty-six volunteers were recognized during an awards luncheon at Gillette Stadium on Tuesday, Sept. 15. Susie Shaw of Carlisle, MA presented with this year’s $25,000 grand prize donation for William’s Be Yourself Challenge.",
+    "sourceUrl": "https://www.patriots.com/news/kraft-family-patriots-foundation-and-gillette-donate-275-000-in-the-names-of-2026-myra-kraft-community-mvp-award-winners",
+    "sourceName": "Patriots.com"
+  },
+  {
+    "id": "d9d18f46-0881-4086-9313-52af0a339a79",
+    "publishedAt": "2026-09-15T20:00:00.000Z",
+    "type": "Transaction",
+    "headline": "Patriots Re-Sign S Elliott Davison to the Practice Squad; Release TE Shane Zylstra from the Practice Squad",
+    "summary": "The Patriots announced today that they have re-signed S Elliott Davison to the practice squad and released TE Shane Zylstra from the practice squad.",
+    "sourceUrl": "https://www.patriots.com/news/patriots-re-sign-s-elliott-davison-to-the-practice-squad-release-te-shane-zylstra-from-the-practice-squad",
     "sourceName": "Patriots.com"
   },
   {
@@ -43,24 +70,6 @@
     "summary": "Mike Reiss breaks down who steps up in A.J. Brown's absence and how training looked heading into Sunday's game against the Steelers.",
     "sourceUrl": "https://www.espn.com/video/clip/_/id/49943225/how-patriots-play-aj-brown",
     "sourceName": "ESPN"
-  },
-  {
-    "id": "201fb53a-0e08-4731-b241-f9ba75c7776e",
-    "publishedAt": "2026-09-14T19:59:44.000Z",
-    "type": "Transaction",
-    "headline": "Patriots Sign WR Chandler Brayboy and LB Xavier Holmes to the Practice Squad; Release S Elliott Davison and RB Hassan Haskins from the Practice Squad",
-    "summary": "The Patriots announced today that they have signed first-year WR Chandler Brayboy and rookie LB Xavier Holmes to the practice squad. In addition, the Patriots released S Elliott Davison and RB Hassan Haskins from the practice squad.",
-    "sourceUrl": "https://www.patriots.com/news/patriots-sign-wr-chandler-brayboy-and-lb-xavier-holmes-to-the-practice-squad-release-s-elliott-davison-and-rb-hassan-haskins-from-the-practice-squad",
-    "sourceName": "Patriots.com"
-  },
-  {
-    "id": "0286333c-fd23-459d-8fb5-d0776286f966",
-    "publishedAt": "2026-09-14T18:45:13.000Z",
-    "type": "Analysis",
-    "headline": "Transcript: Head Coach Mike Vrabel Press Conference 9/14",
-    "summary": "Read the full transcript from Head Coach Mike Vrabel's press conference on Monday, September 14, 2026.",
-    "sourceUrl": "https://www.patriots.com/news/transcript-head-coach-mike-vrabel-press-conference-9-14",
-    "sourceName": "Patriots.com"
   },
   {
     "id": "49907771",
