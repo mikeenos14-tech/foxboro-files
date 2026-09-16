@@ -3,6 +3,7 @@ import * as store from "@/lib/data/store";
 import { StatCard } from "@/components/shared/StatCard";
 import { MatchupGrid } from "@/components/shared/MatchupGrid";
 import { InjuryTable } from "@/components/shared/InjuryTable";
+import { TeamLogo } from "@/components/shared/TeamLogo";
 import { MatchupOfTheWeekCallout } from "@/components/next-game/MatchupOfTheWeekCallout";
 import { RecentFormTrend } from "@/components/next-game/RecentFormTrend";
 import { NextGameHero } from "@/components/next-game/NextGameHero";
@@ -19,10 +20,11 @@ export async function generateMetadata(): Promise<Metadata> {
 }
 
 export default async function NextGamePage() {
-  const [game, matchup, schedule] = await Promise.all([
+  const [game, matchup, schedule, injuries] = await Promise.all([
     store.getNextGame(),
     store.getOpponentMatchup(),
     store.getSchedule(),
+    store.getInjuries(),
   ]);
   const neWinProb = schedule.find((r) => r.gameId === game.id)?.winProbabilityEstimate;
 
@@ -93,8 +95,23 @@ export default async function NextGamePage() {
       </div>
 
       <div>
-        <h2 className="mb-3 text-lg font-semibold">Opponent Injury Report</h2>
-        <InjuryTable entries={matchup.opponentInjuries} />
+        <h2 className="mb-3 text-lg font-semibold">Injury Report</h2>
+        <div className="grid gap-4 lg:grid-cols-2">
+          <div>
+            <div className="mb-2 flex items-center gap-2">
+              <TeamLogo team="NE" size={20} />
+              <h3 className="text-sm font-semibold text-muted">Patriots</h3>
+            </div>
+            <InjuryTable entries={injuries} />
+          </div>
+          <div>
+            <div className="mb-2 flex items-center gap-2">
+              <TeamLogo team={matchup.opponent} size={20} />
+              <h3 className="text-sm font-semibold text-muted">{matchup.opponent}</h3>
+            </div>
+            <InjuryTable entries={matchup.opponentInjuries} />
+          </div>
+        </div>
       </div>
     </div>
   );
