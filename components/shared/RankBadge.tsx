@@ -10,7 +10,7 @@ export function RankBadge({ leagueRank }: { leagueRank: number }) {
   const tier = rankTier(leagueRank);
   return (
     <span
-      className={`inline-flex items-center rounded-full px-2 py-0.5 text-xs font-semibold ring-1 ring-inset ${tierClasses[tier]}`}
+      className={`inline-flex shrink-0 items-center whitespace-nowrap rounded-full px-2 py-0.5 text-xs font-semibold ring-1 ring-inset ${tierClasses[tier]}`}
     >
       {ordinal(leagueRank)} in NFL
     </span>
