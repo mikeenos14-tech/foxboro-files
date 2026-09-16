@@ -79,6 +79,12 @@
       "score": "10-17"
     }
   ],
+  "weather": {
+    "tempF": 52,
+    "wind": "5 mph",
+    "precipitation": "41%",
+    "isDome": false
+  },
   "bettingContext": {
     "spread": -5.5,
     "overUnder": 41.5,

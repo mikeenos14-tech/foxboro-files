@@ -16,6 +16,7 @@ import { loadCsv, num } from "./lib/csv";
 import { playTypeEpa, sackRateAllowed, sackRateGenerated, type PbpRow } from "./lib/pbp";
 import { rankGeneric } from "./lib/rank";
 import { ALL_TEAMS } from "./lib/teams";
+import { VENUES } from "./lib/venues";
 import { ordinal } from "../lib/calc/ranks";
 import type {
   Game,
@@ -192,6 +193,47 @@ async function main() {
     // omit the field rather than show stale/fake numbers.
   }
 
+  // ---------- Weather (real forecast, from Open-Meteo — free, no key) ----------
+  // Domes/retractable roofs are treated as indoor (see venues.ts for why).
+  // Open-Meteo's forecast range tops out at 16 days out; if the game is
+  // further away than that (rare — only right after a bye), the fetch just
+  // fails and weather is omitted rather than showing a guess.
+  let weather: OpponentMatchupData["weather"];
+  const venue = VENUES[nextGame.homeTeam];
+  if (venue?.isDome) {
+    weather = { tempF: 72, wind: "0 mph (climate controlled)", precipitation: "0% (indoor)", isDome: true };
+  } else if (venue) {
+    try {
+      const url = new URL("https://api.open-meteo.com/v1/forecast");
+      url.searchParams.set("latitude", String(venue.lat));
+      url.searchParams.set("longitude", String(venue.lon));
+      url.searchParams.set("hourly", "temperature_2m,precipitation_probability,wind_speed_10m");
+      url.searchParams.set("temperature_unit", "fahrenheit");
+      url.searchParams.set("wind_speed_unit", "mph");
+      url.searchParams.set("timezone", "America/New_York");
+      url.searchParams.set("start_date", nextGame.date);
+      url.searchParams.set("end_date", nextGame.date);
+      const res = await fetch(url.toString());
+      if (res.ok) {
+        const data = await res.json();
+        const kickoffHour = (nextGame.kickoffTimeEt ?? "13:00").slice(0, 2);
+        const targetTime = `${nextGame.date}T${kickoffHour}:00`;
+        const idx = data.hourly?.time?.indexOf(targetTime);
+        if (idx >= 0) {
+          weather = {
+            tempF: Math.round(data.hourly.temperature_2m[idx]),
+            wind: `${Math.round(data.hourly.wind_speed_10m[idx])} mph`,
+            precipitation: `${Math.round(data.hourly.precipitation_probability[idx])}%`,
+            isDome: false,
+          };
+        }
+      }
+    } catch {
+      // Forecast unavailable (too far out, endpoint hiccup) — omit rather
+      // than show a stale or fabricated number.
+    }
+  }
+
   const matchup: OpponentMatchupData = {
     gameId: nextGame.id,
     opponent,
@@ -201,6 +243,7 @@ async function main() {
     opponentInjuries: [], // filled in by build-espn-data.ts and merged in store.ts
     recentForm,
     headToHead,
+    weather,
     bettingContext,
   };
 

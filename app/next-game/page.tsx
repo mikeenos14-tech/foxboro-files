@@ -69,9 +69,9 @@ export default async function NextGamePage() {
           </ul>
           {matchup.weather && (
             <p className="mt-3 border-t border-border pt-3 text-sm text-muted">
-              Weather: {matchup.weather.tempF}°F, wind {matchup.weather.wind},{" "}
-              {matchup.weather.precipitation} precip
-              {matchup.weather.isDome ? " (dome)" : ""}
+              {matchup.weather.isDome
+                ? "Game-day forecast: indoors, climate controlled — weather is not a factor."
+                : `Game-day forecast: ${matchup.weather.tempF}°F, wind ${matchup.weather.wind}, ${matchup.weather.precipitation} chance of precip.`}
             </p>
           )}
           {matchup.bettingContext && (

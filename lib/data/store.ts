@@ -152,10 +152,7 @@ export async function getOpponentMatchup(): Promise<OpponentMatchupData> {
     (await readGenerated<InjuryReportEntry[]>("opponent-injuries.json")) ??
     fixtures.opponentMatchup.opponentInjuries;
 
-  // weather isn't sourced from anywhere real yet (would need a forecast API
-  // keyed to the stadium and game date) — leave it out rather than show a
-  // fixture number that looks real but isn't.
-  return { ...real, opponentInjuries, weather: undefined };
+  return { ...real, opponentInjuries };
 }
 
 export async function getInjuries(): Promise<InjuryReportEntry[]> {
