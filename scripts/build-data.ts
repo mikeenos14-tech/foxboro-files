@@ -32,6 +32,7 @@ import { computeStandings, recordString, pointDiff, type TeamRecord } from "./li
 import { TEAM_CONFERENCE, TEAM_DIVISION, ALL_TEAMS } from "./lib/teams";
 import { rankGeneric } from "./lib/rank";
 import { buildLeagueRosterByGsis } from "./lib/roster";
+import { PRIOR_NET_EPA } from "./lib/priorSeasonStrength";
 import type {
   Game,
   GameRecap,
@@ -127,9 +128,33 @@ async function main() {
 
   const neSos = teamSos(TEAM, games, standings);
 
-  const netEpaOf = (t: string) => {
+  const currentNetEpaOf = (t: string) => {
     const e = epaTable.get(t);
     return e ? e.offenseEpa - e.defenseEpa : 0;
+  };
+
+  // Blends last season's real full-season net EPA/play (the "preseason
+  // prior") with this season's in-progress number, weighted by how many
+  // games have actually been played — so a single early-season result
+  // doesn't swing a team's projected strength (and therefore every
+  // remaining game's win probability) to an extreme. The prior is treated
+  // as worth PRIOR_WEIGHT_GAMES "phantom games" of data: with 0 games
+  // played this season the estimate is 100% the prior, at PRIOR_WEIGHT_GAMES
+  // played it's already half-and-half, and it fades toward pure
+  // current-season EPA as the sample grows — standard shrinkage-toward-a-
+  // prior, not a new prediction method.
+  const PRIOR_WEIGHT_GAMES = 4;
+  const gamesPlayedOf = (t: string) => {
+    const r = standings.get(t);
+    return r ? r.wins + r.losses + r.ties : 0;
+  };
+  const netEpaOf = (t: string) => {
+    const prior = PRIOR_NET_EPA[t] ?? 0;
+    const played = gamesPlayedOf(t);
+    return (
+      (prior * PRIOR_WEIGHT_GAMES + currentNetEpaOf(t) * played) /
+      (PRIOR_WEIGHT_GAMES + played)
+    );
   };
 
   const schedule: ScheduleRow[] = teamGames.map((g) => {
