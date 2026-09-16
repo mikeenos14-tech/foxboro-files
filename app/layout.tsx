@@ -21,15 +21,20 @@ const description =
   "An analytics-driven New England Patriots fan site: recaps, opponent breakdowns, schedule strength, news, and stats vs. the league.";
 
 // Resolves OG/social preview image URLs. Prefers an explicit custom domain
-// (NEXT_PUBLIC_SITE_URL) if one's set, otherwise falls back to Vercel's
-// auto-assigned deployment URL (VERCEL_URL, set automatically in
-// production/preview — no config needed there), then localhost for local
-// dev. Set NEXT_PUBLIC_SITE_URL once a custom domain is attached.
+// (NEXT_PUBLIC_SITE_URL) once one's attached. Otherwise: on a production
+// deploy, VERCEL_URL is actually the unique per-deployment URL (a new one
+// every deploy, not the stable foxboro-files.vercel.app domain people
+// actually share) — VERCEL_PROJECT_PRODUCTION_URL is the one that stays
+// constant. On preview deployments there's no stable equivalent, so
+// VERCEL_URL (that preview's own URL) is the correct choice there. Falls
+// back to localhost for local dev.
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL
   ? process.env.NEXT_PUBLIC_SITE_URL
-  : process.env.VERCEL_URL
-    ? `https://${process.env.VERCEL_URL}`
-    : "http://localhost:3000";
+  : process.env.VERCEL_ENV === "production" && process.env.VERCEL_PROJECT_PRODUCTION_URL
+    ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
+    : process.env.VERCEL_URL
+      ? `https://${process.env.VERCEL_URL}`
+      : "http://localhost:3000";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
