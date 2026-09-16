@@ -184,15 +184,15 @@
   ],
   "goodBadUgly": {
     "good": [
-      "We at least managed to hold Seattle to 13 points, which suggests our defense had moments of competence despite the EPA numbers.",
-      "The signing of DaQuan Jones provides some reinforcement on the defensive line as we navigate this injury-plagued stretch."
+      "Red zone defense held Seattle to 1 TD on 3 attempts—that's the kind of efficiency you need to build on going forward.",
+      "The Patriots' defense wasn't a complete disaster (0.07 EPA per play allowed), suggesting the unit can anchor games even without elite offensive support."
     ],
     "bad": [
-      "Our offense was deeply unpleasant: minus-0.11 EPA per play with only 5 of 16 third-down conversions is not a recipe for moving the football.",
-      "A.J. Brown's high ankle sprain puts him on IR for minimum four games, leaving us desperately short-handed at receiver during a critical stretch."
+      "A.J. Brown's high ankle sprain will sideline him for at least four games, removing the Patriots' top receiver right when they need weapons most.",
+      "Turnover margin of minus-3 is a death sentence—when you're giving away the football that freely, even a decent defensive effort can't bail you out."
     ],
     "ugly": [
-      "A minus-three turnover margin against a team we should be competitive with represents the kind of self-inflicted wounds that lose football games."
+      "Third-down offense was brutal at 5-for-16 (31.3%), turning what should've been extended drives into a parade of three-and-outs."
     ]
   },
   "playerOfTheGame": {
@@ -202,5 +202,5 @@
     "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/zmpuirvuw4r04inxth5i",
     "reason": "Had the team's best (though still net-negative) win probability contribution at -3% in a tough game offensively."
   },
-  "fanTake": "Well, that was exactly as fun as watching paint dry in a New England winter. We managed to scrape together ten points against Seattle while our defense was essentially a turnstile operating at full capacity—the 13-10 loss was the sort of thing that makes you wonder if we left our sense of urgency at the border. The turnover margin of minus-three tells you everything you need to know about how this one went; we were our own worst enemies, fumbling away opportunities like we were deliberately trying to lose. To make matters worse, we're now without A.J. Brown for at least a month thanks to that high ankle sprain from Week 1, which means our receiving corps is about to get a real workout in the creativity department."
+  "fanTake": "Well, that's what we call a weekend we'd all like back. A 10-13 loss to Seattle is the kind of game that stings precisely because it feels winnable—we were right there, we just couldn't quite finish the job. The offense sputtered (negative EPA per play will do that), the defense gave up a red zone touchdown they shouldn't have, and we coughed up the football three times to their zero. It's tough to win football games when you're beating yourself like that, and it's tougher still when you're about to face the next four weeks without your most explosive receiving target."
 }
