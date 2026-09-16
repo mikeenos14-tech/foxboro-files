@@ -77,15 +77,20 @@ async function buildNews(): Promise<NewsItem[] | null> {
   });
 }
 
+// Fantasy content isn't "around the league" news in the sense this section
+// means — it's a different, deterministic exclusion, applied the same way
+// to every league-news source, not something that needs the AI curation
+// step below to judge.
+function isFantasyFlavored(headline: string, description: string): boolean {
+  return /fantasy/i.test(`${headline} ${description}`);
+}
+
 async function buildLeagueNews(): Promise<NewsItem[] | null> {
   const raw = await readRawJson<EspnNewsResponse>("espn-league-news.json");
   if (!raw?.articles) return null;
 
-  // Fantasy content isn't "around the league" news in the sense this
-  // section means — it's a different, deterministic exclusion, not
-  // something that needs the AI curation step below to judge.
   const nonFantasy = raw.articles.filter(
-    (a) => !/fantasy/i.test(`${a.headline ?? ""} ${a.description ?? ""}`)
+    (a) => !isFantasyFlavored(a.headline ?? "", a.description ?? "")
   );
 
   return nonFantasy.map((a) => {
@@ -155,40 +160,82 @@ function classifyFromKeywords(keywords: string, headline: string, description: s
   return classify(headline, description);
 }
 
-async function buildTeamRssNews(): Promise<NewsItem[] | null> {
+async function parseRssItems(filename: string): Promise<RssItem[] | null> {
   let xml: string;
   try {
-    xml = await readFile(path.join(RAW_DIR, "team-rss.xml"), "utf-8");
+    xml = await readFile(path.join(RAW_DIR, filename), "utf-8");
   } catch (err) {
-    console.error("Warning: could not read team-rss.xml, skipping this source.", err);
+    console.error(`Warning: could not read ${filename}, skipping this source.`, err);
     return null;
   }
 
   try {
-    const parser = new XMLParser({ ignoreAttributes: false });
+    // htmlEntities: true — without it, numeric/named character references
+    // in headline text (e.g. "&#8217;" for a curly apostrophe, common in
+    // WordPress-generated feeds like PFR/PFT) are left un-decoded and show
+    // up literally on the page instead of as the actual character.
+    const parser = new XMLParser({ ignoreAttributes: false, htmlEntities: true });
     const parsed = parser.parse(xml);
     const rawItems = parsed?.rss?.channel?.item;
-    const items: RssItem[] = Array.isArray(rawItems) ? rawItems : rawItems ? [rawItems] : [];
-
-    return items.map((item, i) => {
-      const headline = String(item.title ?? "Untitled").trim();
-      const summary = String(item.description ?? "").trim();
-      const keywords = String(item["media:keywords"] ?? "").trim();
-      const guid = typeof item.guid === "string" ? item.guid : item.guid?.["#text"];
-      return {
-        id: guid ?? `rss-${i}`,
-        publishedAt: item.pubDate ? new Date(item.pubDate).toISOString() : new Date().toISOString(),
-        type: classifyFromKeywords(keywords, headline, summary),
-        headline,
-        summary,
-        sourceUrl: item.link ?? "https://www.patriots.com/news/",
-        sourceName: "Patriots.com",
-      } satisfies NewsItem;
-    });
+    return Array.isArray(rawItems) ? rawItems : rawItems ? [rawItems] : [];
   } catch (err) {
-    console.error("Warning: could not parse team-rss.xml, skipping this source.", err);
+    console.error(`Warning: could not parse ${filename}, skipping this source.`, err);
     return null;
   }
+}
+
+async function buildTeamRssNews(): Promise<NewsItem[] | null> {
+  const items = await parseRssItems("team-rss.xml");
+  if (!items) return null;
+
+  return items.map((item, i) => {
+    const headline = String(item.title ?? "Untitled").trim();
+    const summary = String(item.description ?? "").trim();
+    const keywords = String(item["media:keywords"] ?? "").trim();
+    const guid = typeof item.guid === "string" ? item.guid : item.guid?.["#text"];
+    return {
+      id: guid ?? `rss-${i}`,
+      publishedAt: item.pubDate ? new Date(item.pubDate).toISOString() : new Date().toISOString(),
+      type: classifyFromKeywords(keywords, headline, summary),
+      headline,
+      summary,
+      sourceUrl: item.link ?? "https://www.patriots.com/news/",
+      sourceName: "Patriots.com",
+    } satisfies NewsItem;
+  });
+}
+
+// Pro Football Rumors and Pro Football Talk — free, keyless RSS feeds that
+// broaden the Around the League candidate pool beyond ESPN's single feed
+// (checked by hand: both are real transactions/injuries/insider-news
+// content, no fantasy-football material observed). Same fantasy exclusion
+// applies here as everywhere else in league news, for consistency, even
+// though neither source seems to run that kind of content.
+async function buildRssLeagueNews(
+  filename: string,
+  sourceName: string,
+  fallbackUrl: string
+): Promise<NewsItem[] | null> {
+  const items = await parseRssItems(filename);
+  if (!items) return null;
+
+  const idPrefix = sourceName.toLowerCase().replace(/[^a-z0-9]/g, "");
+  return items
+    .filter((item) => !isFantasyFlavored(String(item.title ?? ""), String(item.description ?? "")))
+    .map((item, i) => {
+      const headline = String(item.title ?? "Untitled").trim();
+      const summary = String(item.description ?? "").trim();
+      const guid = typeof item.guid === "string" ? item.guid : item.guid?.["#text"];
+      return {
+        id: `${idPrefix}-${guid ?? i}`,
+        publishedAt: item.pubDate ? new Date(item.pubDate).toISOString() : new Date().toISOString(),
+        type: classify(headline, summary),
+        headline,
+        summary,
+        sourceUrl: item.link ?? fallbackUrl,
+        sourceName,
+      } satisfies NewsItem;
+    });
 }
 
 // Merge ESPN + official RSS, deduping stories both sources covered (compared
@@ -377,11 +424,22 @@ async function main() {
     console.warn("news.json not updated — kept previous version, if any.");
   }
 
-  const leagueNews = await buildLeagueNews();
-  if (leagueNews) {
-    const archive = await mergeLeagueNewsArchive(leagueNews);
+  const espnLeagueNews = await buildLeagueNews();
+  const pfrNews = await buildRssLeagueNews(
+    "pfr-league-news.xml",
+    "Pro Football Rumors",
+    "https://www.profootballrumors.com/"
+  );
+  const pftNews = await buildRssLeagueNews(
+    "pft-league-news.xml",
+    "Pro Football Talk",
+    "https://www.nbcsports.com/profootballtalk"
+  );
+  const fetchedLeagueNews = mergeNews([espnLeagueNews ?? [], pfrNews ?? [], pftNews ?? []]);
+  if (fetchedLeagueNews.length > 0) {
+    const archive = await mergeLeagueNewsArchive(fetchedLeagueNews);
     console.log(
-      `Merged ${leagueNews.length} fetched stories into league-news-archive.json (${archive.length} stories within ${ARCHIVE_MAX_AGE_DAYS} days). scripts/build-league-headlines.ts curates the calendar-week window from here into league-news.json.`
+      `Merged ${fetchedLeagueNews.length} fetched stories (ESPN: ${espnLeagueNews?.length ?? 0}, PFR: ${pfrNews?.length ?? 0}, PFT: ${pftNews?.length ?? 0}, deduped) into league-news-archive.json (${archive.length} stories within ${ARCHIVE_MAX_AGE_DAYS} days). scripts/build-league-headlines.ts curates the calendar-week window from here into league-news.json.`
     );
   } else {
     console.warn("league-news-archive.json not updated this run — kept previous version, if any.");

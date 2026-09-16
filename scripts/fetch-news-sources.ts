@@ -64,6 +64,20 @@ async function main() {
       name: "team-rss.xml",
       url: "https://www.patriots.com/rss/news",
     },
+    {
+      // Pro Football Rumors — free, keyless RSS, transactions/rumors focus.
+      // Verified by hand: consistently real news (signings, IR moves,
+      // trade buzz), no fantasy-football content observed.
+      name: "pfr-league-news.xml",
+      url: "https://www.profootballrumors.com/feed",
+    },
+    {
+      // Pro Football Talk (NBC Sports) — free, keyless RSS, broader
+      // insider news (injuries, awards, business/media, investigations).
+      // Also verified by hand: no fantasy-football content observed.
+      name: "pft-league-news.xml",
+      url: "https://www.nbcsports.com/profootballtalk.rss",
+    },
   ];
 
   if (nextGame) {
