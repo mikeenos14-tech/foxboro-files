@@ -28,7 +28,12 @@ export default async function NextGamePage() {
 
   return (
     <div className="space-y-6">
-      <NextGameHero game={game} opponent={matchup.opponent} />
+      <NextGameHero
+        game={game}
+        opponent={matchup.opponent}
+        weather={matchup.weather}
+        bettingContext={matchup.bettingContext}
+      />
 
       <ScorePredictor opponent={matchup.opponent} neWinProb={neWinProb} />
 
@@ -67,15 +72,8 @@ export default async function NextGamePage() {
               </li>
             ))}
           </ul>
-          {matchup.weather && (
-            <p className="mt-3 border-t border-border pt-3 text-sm text-muted">
-              {matchup.weather.isDome
-                ? "Game-day forecast: indoors, climate controlled — weather is not a factor."
-                : `Game-day forecast: ${matchup.weather.tempF}°F, wind ${matchup.weather.wind}, ${matchup.weather.precipitation} chance of precip.`}
-            </p>
-          )}
           {matchup.bettingContext && (
-            <p className="mt-1 text-xs text-muted">
+            <p className="mt-3 border-t border-border pt-3 text-xs text-muted">
               Market (as of {formatDate(matchup.bettingContext.asOf)}):{" "}
               {matchup.bettingContext.spread > 0 ? "+" : ""}
               {matchup.bettingContext.spread} spread, {matchup.bettingContext.overUnder}{" "}

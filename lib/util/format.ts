@@ -33,3 +33,22 @@ export function kickoffIso(date: string, kickoffTimeEt?: string): string {
   const offset = isEdt ? "-04:00" : "-05:00";
   return `${date}T${kickoffTimeEt}:00${offset}`;
 }
+
+// Picks a single representative emoji for a forecast. Deliberately coarse
+// (we only have temp/wind/precip, not sky condition) — precip and extreme
+// temp take priority since those are what actually affect a game, with a
+// generic "mild" glyph as the honest default rather than guessing sunny.
+export function weatherEmoji(weather: {
+  tempF: number;
+  precipitation: string;
+  isDome: boolean;
+}): string {
+  if (weather.isDome) return "🏟️";
+  const precipPct = parseInt(weather.precipitation, 10) || 0;
+  if (precipPct >= 50) return weather.tempF <= 34 ? "🌨️" : "🌧️";
+  if (precipPct >= 20) return "🌦️";
+  if (weather.tempF <= 32) return "❄️";
+  if (weather.tempF <= 45) return "🥶";
+  if (weather.tempF >= 85) return "🥵";
+  return "🌤️";
+}
