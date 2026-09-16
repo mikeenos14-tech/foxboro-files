@@ -1,0 +1,81 @@
+name: Refresh stats data
+
+# Real NFL stats (scores, EPA, standings, roster grades, opponent matchups)
+# only change when games have actually been played — the entire league's
+# games, not just the Patriots', since opponent data depends on it too.
+# Rather than rebuild on a blind timer, this runs on a schedule aimed at
+# "shortly after games typically finish": once daily (catches Thursday
+# Night Football and Monday Night Football the next morning, and doubles
+# as a catch-all for exceptions like season openers, Thanksgiving, or
+# other odd-day games within ~24 hours), plus two extra same-day passes on
+# Sunday/Monday morning so the usual 3-wave Sunday slate doesn't sit stale
+# until the daily catch-all. workflow_dispatch covers any exception that
+# needs updating sooner than that.
+#
+# Times are UTC and tuned for Eastern Time (ET); they drift an hour
+# relative to ET across the fall DST change, which only shifts "shortly
+# after games end" earlier or later by an hour — harmless for this purpose.
+
+on:
+  schedule:
+    - cron: "0 9 * * *" # ~5am ET daily — catches TNF (Fri) and MNF (Tue), and any exception day within ~24h
+    - cron: "0 21 * * 0" # ~5pm ET Sunday — after the early Sunday games, before late/SNF
+    - cron: "0 5 * * 1" # ~1am ET Monday — after the Sunday slate (including SNF) wraps
+  workflow_dispatch: {} # manual "Run workflow" button, for on-demand refreshes
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-stats
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Fetch nflverse data (schedule, play-by-play, rosters, injuries)
+        run: npx tsx scripts/fetch-nflverse.ts
+        continue-on-error: true
+
+      - name: Fetch ESPN scoreboard (odds, used by opponent matchup)
+        run: npx tsx scripts/fetch-news-sources.ts
+        continue-on-error: true
+
+      - name: Build core stats (schedule, team stats, recap, standings)
+        run: npx tsx scripts/build-data.ts
+        continue-on-error: true
+
+      - name: Build roster data (depth chart, QB deep dive, position grades)
+        run: npx tsx scripts/build-roster-data.ts
+        continue-on-error: true
+
+      - name: Build opponent matchup data
+        run: npx tsx scripts/build-next-game-data.ts
+        continue-on-error: true
+
+      - name: Commit and push if data changed
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git status --porcelain -- data/generated | grep -q .; then
+            git add data/generated
+            git commit -m "Automated stats refresh $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git pull --rebase origin main
+            git push
+          else
+            echo "No data changes this run — nothing to commit."
+          fi

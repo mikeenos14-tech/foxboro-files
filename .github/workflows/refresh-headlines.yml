@@ -1,0 +1,63 @@
+name: Refresh headlines data
+
+# News, injury practice reports, and betting odds change continuously
+# throughout the week — independent of whether a game has actually been
+# played — so this keeps the original every-3-hours, all-days cadence.
+# Real game stats (scores, EPA, standings, roster grades) are handled
+# separately by refresh-stats.yml on a schedule aimed at when games
+# actually finish, since rebuilding those blindly every 3 hours was mostly
+# wasted work.
+#
+# No secrets required: every source here (ESPN's public endpoints,
+# patriots.com's RSS feed) is free and keyless. Pushing back to this same
+# repo uses the token GitHub provides to every Actions run automatically.
+
+on:
+  schedule:
+    - cron: "0 */3 * * *"
+  workflow_dispatch: {} # manual "Run workflow" button, for on-demand refreshes
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-headlines
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Fetch news sources (ESPN, official RSS, scoreboard odds)
+        run: npx tsx scripts/fetch-news-sources.ts
+        continue-on-error: true
+
+      - name: Build news and injury reports
+        run: npx tsx scripts/build-espn-data.ts
+        continue-on-error: true
+
+      - name: Commit and push if data changed
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git status --porcelain -- data/generated | grep -q .; then
+            git add data/generated
+            git commit -m "Automated headlines refresh $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git pull --rebase origin main
+            git push
+          else
+            echo "No data changes this run — nothing to commit."
+          fi
