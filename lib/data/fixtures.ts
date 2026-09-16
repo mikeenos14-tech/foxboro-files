@@ -278,10 +278,10 @@ export const projection: SeasonProjection = {
 };
 
 export const divisionStandings: DivisionStanding[] = [
-  { team: "BUF", wins: 2, losses: 0, ties: 0, pointDifferential: 20, isUs: false },
-  { team: "NE", wins: 2, losses: 0, ties: 0, pointDifferential: 10, isUs: true },
-  { team: "MIA", wins: 1, losses: 1, ties: 0, pointDifferential: -2, isUs: false },
-  { team: "NYJ", wins: 0, losses: 2, ties: 0, pointDifferential: -19, isUs: false },
+  { team: "BUF", wins: 2, losses: 0, ties: 0, pointDifferential: 20, isUs: false, streak: { result: "W", count: 2 }, divisionRecord: { wins: 1, losses: 0, ties: 0 } },
+  { team: "NE", wins: 2, losses: 0, ties: 0, pointDifferential: 10, isUs: true, streak: { result: "W", count: 2 }, divisionRecord: { wins: 1, losses: 0, ties: 0 } },
+  { team: "MIA", wins: 1, losses: 1, ties: 0, pointDifferential: -2, isUs: false, streak: { result: "L", count: 1 }, divisionRecord: { wins: 0, losses: 1, ties: 0 } },
+  { team: "NYJ", wins: 0, losses: 2, ties: 0, pointDifferential: -19, isUs: false, streak: { result: "L", count: 2 }, divisionRecord: { wins: 0, losses: 1, ties: 0 } },
 ];
 
 export const news: NewsItem[] = [

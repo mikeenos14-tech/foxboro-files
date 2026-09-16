@@ -5,7 +5,16 @@
     "losses": 0,
     "ties": 0,
     "pointDifferential": 13,
-    "isUs": false
+    "isUs": false,
+    "streak": {
+      "result": "W",
+      "count": 1
+    },
+    "divisionRecord": {
+      "wins": 0,
+      "losses": 0,
+      "ties": 0
+    }
   },
   {
     "team": "BUF",
@@ -13,7 +22,16 @@
     "losses": 0,
     "ties": 0,
     "pointDifferential": 5,
-    "isUs": false
+    "isUs": false,
+    "streak": {
+      "result": "W",
+      "count": 1
+    },
+    "divisionRecord": {
+      "wins": 0,
+      "losses": 0,
+      "ties": 0
+    }
   },
   {
     "team": "NE",
@@ -21,7 +39,16 @@
     "losses": 1,
     "ties": 0,
     "pointDifferential": -3,
-    "isUs": true
+    "isUs": true,
+    "streak": {
+      "result": "L",
+      "count": 1
+    },
+    "divisionRecord": {
+      "wins": 0,
+      "losses": 0,
+      "ties": 0
+    }
   },
   {
     "team": "MIA",
@@ -29,6 +56,15 @@
     "losses": 1,
     "ties": 0,
     "pointDifferential": -14,
-    "isUs": false
+    "isUs": false,
+    "streak": {
+      "result": "L",
+      "count": 1
+    },
+    "divisionRecord": {
+      "wins": 0,
+      "losses": 0,
+      "ties": 0
+    }
   }
 ]

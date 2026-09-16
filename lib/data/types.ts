@@ -18,6 +18,8 @@ export interface DivisionStanding {
   ties: number;
   pointDifferential: number;
   isUs: boolean;
+  streak: { result: "W" | "L" | "T"; count: number } | null;
+  divisionRecord: { wins: number; losses: number; ties: number };
 }
 
 export interface Player {

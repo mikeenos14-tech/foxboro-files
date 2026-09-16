@@ -2,6 +2,16 @@ import type { DivisionStanding } from "@/lib/data/types";
 import { TeamLogo } from "@/components/shared/TeamLogo";
 import { signed } from "@/lib/util/format";
 
+const streakClass: Record<"W" | "L" | "T", string> = {
+  W: "text-rank-good",
+  L: "text-rank-bad",
+  T: "text-rank-mid",
+};
+
+function divisionRecordText(r: DivisionStanding["divisionRecord"]): string {
+  return `${r.wins}-${r.losses}${r.ties > 0 ? `-${r.ties}` : ""}`;
+}
+
 export function DivisionStandings({ standings }: { standings: DivisionStanding[] }) {
   return (
     <div className="lift overflow-hidden rounded-lg border border-border bg-surface">
@@ -24,9 +34,21 @@ export function DivisionStandings({ standings }: { standings: DivisionStanding[]
                   </span>
                 </div>
               </td>
-              <td className="px-4 py-2.5 font-medium">
-                {s.wins}-{s.losses}
-                {s.ties > 0 ? `-${s.ties}` : ""}
+              <td className="px-4 py-2.5">
+                <div className="font-medium">
+                  {s.wins}-{s.losses}
+                  {s.ties > 0 ? `-${s.ties}` : ""}
+                </div>
+                <div className="mt-0.5 text-xs text-muted">
+                  {s.streak && (
+                    <span className={`font-semibold ${streakClass[s.streak.result]}`}>
+                      {s.streak.result}
+                      {s.streak.count}
+                    </span>
+                  )}
+                  {s.streak && " · "}
+                  {divisionRecordText(s.divisionRecord)} div
+                </div>
               </td>
               <td className="px-4 py-2.5 text-right text-muted">
                 {signed(s.pointDifferential, 0)}
