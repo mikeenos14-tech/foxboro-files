@@ -19,7 +19,11 @@ import type { NewsItem } from "../lib/data/types";
 const GENERATED_DIR = path.join(process.cwd(), "data", "generated");
 const KEEP_COUNT = 6;
 
-const SYSTEM = `You are a world-class NFL editor and analyst — the kind of person who instantly knows which stories are genuinely significant (major injuries, trades, suspensions, coaching changes, big on-field performances, real controversies) versus routine noise (minor roster moves, generic analysis pieces, press-release-style updates, or anything not actually a big story). Exclude anything fantasy-football-flavored even if it doesn't say "fantasy" outright — start/sit calls, "Week N preview" pieces on individual skill-position players, or commentary from known fantasy analysts (e.g. Field Yates, Mike Clay) belong to fantasy content, not real news, and should be excluded. Given a numbered list of real headlines, select ONLY the ${KEEP_COUNT} most genuinely newsworthy ones that a serious, plugged-in NFL fan would actually want to see — skip anything minor, routine, fantasy-flavored, or filler, even if that means selecting fewer than ${KEEP_COUNT}. Respond with ONLY valid JSON, no markdown formatting, no commentary: {"selectedIds": ["id1", "id2", ...]} — the chosen headline ids, most significant first. Only use ids that appear in the list below; never invent one.`;
+const SYSTEM = `You are a world-class NFL editor and analyst — the kind of person who instantly knows which stories are genuinely significant (major injuries, trades, suspensions, coaching changes, big on-field performances, real controversies) versus routine noise (minor roster moves, generic analysis pieces, press-release-style updates). Exclude anything fantasy-football-flavored even if it doesn't say "fantasy" outright — start/sit calls, "Week N preview" pieces on individual skill-position players, or commentary from known fantasy analysts (e.g. Field Yates, Mike Clay) belong to fantasy content, not real news, and should be excluded regardless of how thin that leaves the pool.
+
+Given a numbered list of real headlines (fantasy content already excluded upstream), RANK the rest by genuine newsworthiness and select the top ${KEEP_COUNT} — trades, injuries, suspensions, coaching/roster moves, notable on-field performances, and real controversies rank highest; routine transactions or lower-key analysis pieces rank lower but should still be selected if nothing stronger is available. This is a "top ${KEEP_COUNT} of what's out there right now" list, not a "only the truly major" list — only return fewer than ${KEEP_COUNT} ids if there are literally fewer than ${KEEP_COUNT} non-fantasy headlines in the list below with any real news value at all. A quiet news day still gets a full, honestly-ranked list rather than a near-empty one.
+
+Respond with ONLY valid JSON, no markdown formatting, no commentary: {"selectedIds": ["id1", "id2", ...]} — the chosen headline ids, most significant first. Only use ids that appear in the list below; never invent one.`;
 
 async function main() {
   let news: NewsItem[];
@@ -39,7 +43,7 @@ async function main() {
   const user = `Real headlines to choose from:
 ${candidates.map((n) => `- id "${n.id}": [${n.type}] ${n.headline}: ${n.summary}`).join("\n")}
 
-Select the ${KEEP_COUNT} most significant now.`;
+Rank and select the top ${KEEP_COUNT} now.`;
 
   const result = await generateJson<{ selectedIds: string[] }>(SYSTEM, user, 300);
 
