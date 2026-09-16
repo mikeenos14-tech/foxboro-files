@@ -6,9 +6,10 @@ import { InjuryTable } from "@/components/shared/InjuryTable";
 export const metadata: Metadata = { title: "News" };
 
 export default async function NewsPage() {
-  const [news, injuries] = await Promise.all([
+  const [news, injuries, digest] = await Promise.all([
     store.getNews(),
     store.getInjuries(),
+    store.getBeatDigest(),
   ]);
 
   return (
@@ -19,6 +20,15 @@ export default async function NewsPage() {
           What&apos;s happening with the team this week.
         </p>
       </div>
+
+      {digest && (
+        <div className="rounded-lg border border-red/30 bg-red/5 p-4">
+          <span className="text-xs font-bold uppercase tracking-wide text-red">
+            What Beat Writers Are Saying
+          </span>
+          <p className="mt-2 text-sm leading-relaxed">{digest.text}</p>
+        </div>
+      )}
 
       <div>
         <h2 className="mb-3 text-lg font-semibold">Injury Report</h2>

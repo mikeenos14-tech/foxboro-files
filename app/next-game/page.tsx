@@ -37,6 +37,15 @@ export default async function NextGamePage() {
 
       <ScorePredictor opponent={matchup.opponent} neWinProb={neWinProb} />
 
+      {matchup.previewTake && (
+        <div className="rounded-lg border border-red/30 bg-red/5 p-4">
+          <span className="text-xs font-bold uppercase tracking-wide text-red">
+            The Preview
+          </span>
+          <p className="mt-2 text-sm leading-relaxed">{matchup.previewTake}</p>
+        </div>
+      )}
+
       <div className="grid gap-3 sm:grid-cols-2">
         <StatCard
           label="Opponent Offensive EPA Rank"

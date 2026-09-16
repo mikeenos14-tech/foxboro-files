@@ -221,6 +221,12 @@ export interface OpponentMatchupData {
     isDome: boolean;
   };
   bettingContext?: { spread: number; overUnder: number; asOf: string };
+  previewTake?: string;
+}
+
+export interface BeatDigest {
+  text: string;
+  asOf: string;
 }
 
 export interface DepthChartEntry {

@@ -66,6 +66,12 @@ jobs:
         run: npx tsx scripts/build-next-game-data.ts
         continue-on-error: true
 
+      - name: Generate AI recap take, good/bad/ugly, and next-game preview
+        run: npx tsx scripts/build-ai-recap.ts
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        continue-on-error: true
+
       - name: Commit and push if data changed
         if: always()
         run: |

@@ -10,6 +10,7 @@ import { readFile } from "node:fs/promises";
 import path from "node:path";
 import * as fixtures from "./fixtures";
 import type {
+  BeatDigest,
   DivisionStanding,
   Game,
   GameRecap,
@@ -163,4 +164,8 @@ export async function getInjuries(): Promise<InjuryReportEntry[]> {
 
 export async function getNews(): Promise<NewsItem[]> {
   return (await readGenerated<NewsItem[]>("news.json")) ?? fixtures.news;
+}
+
+export async function getBeatDigest(): Promise<BeatDigest> {
+  return (await readGenerated<BeatDigest>("beat-digest.json")) ?? fixtures.beatDigest;
 }

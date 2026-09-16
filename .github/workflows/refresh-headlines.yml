@@ -8,9 +8,12 @@ name: Refresh headlines data
 # actually finish, since rebuilding those blindly every 3 hours was mostly
 # wasted work.
 #
-# No secrets required: every source here (ESPN's public endpoints,
-# patriots.com's RSS feed) is free and keyless. Pushing back to this same
-# repo uses the token GitHub provides to every Actions run automatically.
+# Every source here (ESPN's public endpoints, patriots.com's RSS feed) is
+# free and keyless; pushing back to this same repo uses the token GitHub
+# provides to every Actions run automatically. The one exception is the
+# beat-writer digest step, which uses the ANTHROPIC_API_KEY repo secret —
+# it fails soft (continue-on-error) and simply leaves the previous digest
+# in place if that secret is ever missing or the call fails.
 
 on:
   schedule:
@@ -50,6 +53,12 @@ jobs:
 
       - name: Build news and injury reports
         run: npx tsx scripts/build-espn-data.ts
+        continue-on-error: true
+
+      - name: Generate beat-writer digest
+        run: npx tsx scripts/build-beat-digest.ts
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         continue-on-error: true
 
       - name: Commit and push if data changed

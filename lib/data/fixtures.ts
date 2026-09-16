@@ -6,6 +6,7 @@
 // Numbers are illustrative, not real 2026 Patriots stats.
 
 import type {
+  BeatDigest,
   DepthChartEntry,
   DivisionStanding,
   Game,
@@ -257,6 +258,8 @@ export const opponentMatchup: OpponentMatchupData = {
   ],
   weather: { tempF: 71, wind: "8 mph", precipitation: "0%", isDome: false },
   bettingContext: { spread: -3.5, overUnder: 44.5, asOf: "2026-09-18" },
+  previewTake:
+    "This is exactly the kind of game we need after last week. Pittsburgh's missing their top corner and it shows — their CB2 has been a liability all month, so if our WR1 doesn't have a big day I'll be surprised. Still feels a little nervy on defense against their tight end, but I like our matchups everywhere else. Let's get to 2-0.",
 };
 
 export const schedule: ScheduleRow[] = [
@@ -324,3 +327,8 @@ export const news: NewsItem[] = [
     sourceName: "ESPN",
   },
 ];
+
+export const beatDigest: BeatDigest = {
+  text: "Beat writers are cautiously optimistic this week — the interior O-line splits are getting real praise as the story behind the run game finally clicking, and the secondary's early-season depth keeps coming up as a strength even with a rookie corner rotating in. The RT injury is the one thing everyone's watching heading into Sunday.",
+  asOf: "2026-09-19T14:00:00Z",
+};
