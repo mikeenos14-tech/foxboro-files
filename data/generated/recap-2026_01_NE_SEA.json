@@ -184,15 +184,15 @@
   ],
   "goodBadUgly": {
     "good": [
-      "R. Stevenson's presence provided some measure of stability in a disjointed offensive effort.",
-      "Our red zone defense held Seattle to 1-for-3, at least preventing runaway scoring in the most critical situations."
+      "Red zone defense held Seattle to 1 for 3, showing some discipline when it mattered most in that area.",
+      "The defense at least prevented a complete offensive explosion, forcing Seattle to kick field goals despite the Patriots' struggles."
     ],
     "bad": [
-      "Our offense generated -0.11 EPA per play, a genuinely ugly efficiency metric that explains the anemic 10-point output.",
-      "Third down conversion rate of just 5-for-16 (31.3%) means we couldn't sustain drives when it mattered most."
+      "Turnover margin of minus-3 is the kind of self-inflicted wound that loses football games, especially tight ones like this.",
+      "Third down offense was brutal at 5 for 16—we simply couldn't sustain drives when we needed to."
     ],
     "ugly": [
-      "Losing A.J. Brown to IR for a minimum of four games is a gut-punch to offensive firepower that we can't afford early in the season."
+      "A.J. Brown's high ankle sprain and subsequent IR placement leaves us without one of our key weapons for a minimum of four games, and the offense was already struggling to generate anything positive."
     ]
   },
   "playerOfTheGame": {
@@ -202,5 +202,5 @@
     "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/zmpuirvuw4r04inxth5i",
     "reason": "Had the team's best (though still net-negative) win probability contribution at -3% in a tough game offensively."
   },
-  "fanTake": "Well, that's the kind of loss that stings in a way that goes beyond the final score—a 13-10 defeat to Seattle where we couldn't quite find our footing on either side of the ball. The numbers tell a grim story: negative EPA on offense, positive EPA allowed on defense, and a turnover margin of minus-three that basically encapsulates why we came up short. To make matters worse, we're now facing an extended stretch without A.J. Brown after his high ankle sprain in Week 1, which means this offense has to get creative in a hurry. It's early in the season, sure, but this one feels like it got away from us."
+  "fanTake": "Well, that was about as fun as a high ankle sprain—which, coincidentally, is exactly what we're dealing with now that A.J. Brown is headed to IR for at least four games. We couldn't get out of our own way against Seattle, turning the ball over three times while generating almost nothing offensively (negative EPA per play will do that), and somehow Rhamondre Stevenson managed to be our most impactful player while still posting a negative win probability added. The defense wasn't exactly lights out either, giving up an EPA per play of 0.07. This loss stings, but the injury to Brown might sting worse."
 }
