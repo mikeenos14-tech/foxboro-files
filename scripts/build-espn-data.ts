@@ -128,9 +128,15 @@ async function mergeLeagueNewsArchive(freshItems: NewsItem[]): Promise<NewsItem[
     existing = [];
   }
 
+  // Fresh data always overwrites an existing entry with the same id (rather
+  // than keeping whichever was archived first) — a source can correct a
+  // headline after publish, and this is also what lets a parsing fix (e.g.
+  // the entity-decoding one below) actually reach already-archived stories
+  // instead of leaving a stale, wrongly-parsed copy stuck for the rest of
+  // the archive's 14-day retention.
   const byId = new Map(existing.map((item) => [item.id, item]));
   for (const item of freshItems) {
-    if (!byId.has(item.id)) byId.set(item.id, item);
+    byId.set(item.id, item);
   }
 
   const cutoff = Date.now() - ARCHIVE_MAX_AGE_DAYS * 24 * 60 * 60 * 1000;
@@ -184,13 +190,32 @@ async function parseRssItems(filename: string): Promise<RssItem[] | null> {
   }
 }
 
+// fast-xml-parser's htmlEntities option decodes character references in
+// plain XML text nodes, but never inside a CDATA section — CDATA content is
+// literal by the XML spec, on any conformant parser. WordPress-generated
+// feeds (PFR, PFT) wrap <description> in CDATA but still HTML-entity-encode
+// punctuation inside it (e.g. "&#8217;" for a curly apostrophe), so that
+// text needs a second, manual decode pass after parsing.
+const NAMED_HTML_ENTITIES: Record<string, string> = {
+  amp: "&", lt: "<", gt: ">", quot: '"', apos: "'",
+  nbsp: " ", hellip: "…", mdash: "—", ndash: "–",
+  rsquo: "’", lsquo: "‘", rdquo: "”", ldquo: "“",
+};
+
+function decodeHtmlEntities(text: string): string {
+  return text
+    .replace(/&#x([0-9a-fA-F]+);/g, (_, hex) => String.fromCodePoint(parseInt(hex, 16)))
+    .replace(/&#(\d+);/g, (_, dec) => String.fromCodePoint(parseInt(dec, 10)))
+    .replace(/&([a-zA-Z]+);/g, (match, name) => NAMED_HTML_ENTITIES[name] ?? match);
+}
+
 async function buildTeamRssNews(): Promise<NewsItem[] | null> {
   const items = await parseRssItems("team-rss.xml");
   if (!items) return null;
 
   return items.map((item, i) => {
-    const headline = String(item.title ?? "Untitled").trim();
-    const summary = String(item.description ?? "").trim();
+    const headline = decodeHtmlEntities(String(item.title ?? "Untitled").trim());
+    const summary = decodeHtmlEntities(String(item.description ?? "").trim());
     const keywords = String(item["media:keywords"] ?? "").trim();
     const guid = typeof item.guid === "string" ? item.guid : item.guid?.["#text"];
     return {
@@ -223,8 +248,8 @@ async function buildRssLeagueNews(
   return items
     .filter((item) => !isFantasyFlavored(String(item.title ?? ""), String(item.description ?? "")))
     .map((item, i) => {
-      const headline = String(item.title ?? "Untitled").trim();
-      const summary = String(item.description ?? "").trim();
+      const headline = decodeHtmlEntities(String(item.title ?? "Untitled").trim());
+      const summary = decodeHtmlEntities(String(item.description ?? "").trim());
       const guid = typeof item.guid === "string" ? item.guid : item.guid?.["#text"];
       return {
         id: `${idPrefix}-${guid ?? i}`,
