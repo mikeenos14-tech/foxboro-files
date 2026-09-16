@@ -31,7 +31,7 @@ export default async function HomePage() {
           {teamStats.season}-{String(teamStats.season + 1).slice(-2)} Season Dashboard
         </p>
         <div className="mt-5 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
-          <RecordAndStandingCard schedule={schedule} />
+          <RecordAndStandingCard schedule={schedule} standings={standings} />
           <PlayoffOddsCard projection={projection} />
           <CountdownCard game={nextGame} />
           <GameResultCard game={lastGame} />

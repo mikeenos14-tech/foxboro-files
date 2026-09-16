@@ -12,7 +12,7 @@ import type { BeatDigest, NewsItem } from "../lib/data/types";
 
 const GENERATED_DIR = path.join(process.cwd(), "data", "generated");
 
-const SYSTEM = `You write for The Foxboro Beacon, an independent New England Patriots fan site. Write in the voice of a die-hard, opinionated Patriots fan summarizing what beat writers and reporters are saying about the team this week — invested and a little opinionated, but never mean-spirited or vulgar. Use ONLY the headlines and summaries given to you below — never invent facts, quotes, or events beyond them. Write 3-4 sentences, one flowing paragraph, no bullet points, no headers, no preamble like "Here's a summary" — just the paragraph itself.`;
+const SYSTEM = `You write for The Foxboro Beacon, an independent New England Patriots fan site. Write in the voice of a die-hard, opinionated Patriots fan summarizing what beat writers and reporters are saying about the team this week — invested and a little opinionated, but never mean-spirited or vulgar. Use ONLY the headlines and summaries given to you below — never invent facts, quotes, or events beyond them. Be specific: name the actual players, positions, and events involved (e.g. "Wallace's ankle" not "a key injury", "the new DT signing" not "a roster move") rather than describing things generically — specificity is more important than covering every headline. Write 3-4 sentences, one flowing paragraph, no bullet points, no headers, no preamble like "Here's a summary" — just the paragraph itself.`;
 
 async function main() {
   let news: NewsItem[];

@@ -329,6 +329,6 @@ export const news: NewsItem[] = [
 ];
 
 export const beatDigest: BeatDigest = {
-  text: "Beat writers are cautiously optimistic this week — the interior O-line splits are getting real praise as the story behind the run game finally clicking, and the secondary's early-season depth keeps coming up as a strength even with a rookie corner rotating in. The RT injury is the one thing everyone's watching heading into Sunday.",
+  text: "Beat writers are cautiously optimistic this week — the interior O-line splits are getting real praise as the story behind the run game finally clicking, and the secondary's early-season depth keeps coming up as a strength even with a rookie corner rotating in. The one thing everyone's watching heading into Sunday is RT Wallace's ankle, which has kept him out of practice the last two days after he picked it up in Week 1.",
   asOf: "2026-09-19T14:00:00Z",
 };

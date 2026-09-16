@@ -1,15 +1,19 @@
-import type { ScheduleRow } from "@/lib/data/types";
+import type { DivisionStanding, ScheduleRow } from "@/lib/data/types";
 import { CountUp } from "@/components/shared/CountUp";
+import { ordinal } from "@/lib/calc/ranks";
 
 export function RecordAndStandingCard({
   schedule,
+  standings,
 }: {
   schedule: ScheduleRow[];
+  standings: DivisionStanding[];
 }) {
   const played = schedule.filter((g) => g.result);
   const wins = played.filter((g) => g.result === "W").length;
   const losses = played.filter((g) => g.result === "L").length;
   const ties = played.filter((g) => g.result === "T").length;
+  const rank = standings.findIndex((s) => s.isUs) + 1;
 
   return (
     <div className="rounded-lg bg-white/10 p-4 backdrop-blur-sm">
@@ -23,7 +27,9 @@ export function RecordAndStandingCard({
           </>
         )}
       </div>
-      <p className="mt-1 text-sm text-white/70">AFC East</p>
+      <p className="mt-1 text-sm text-white/70">
+        {rank > 0 ? `${ordinal(rank)} in AFC East` : "AFC East"}
+      </p>
     </div>
   );
 }
