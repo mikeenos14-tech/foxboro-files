@@ -17,41 +17,23 @@ export function QBDeepDive({ qb }: { qb: QBData }) {
         </div>
       </div>
 
-      <div className="mt-4 grid grid-cols-2 gap-3 sm:grid-cols-4">
-        <div>
-          <div className="flex items-center justify-between gap-1">
-            <span className="text-xs text-muted">CPOE</span>
-            {qb.ranks && <RankBadge leagueRank={qb.ranks.cpoe.leagueRank} />}
-          </div>
-          <div className="mt-0.5 text-xl font-bold text-foreground">{signed(qb.cpoe, 1)}</div>
-        </div>
-        <div>
-          <div className="flex items-center justify-between gap-1">
-            <span className="text-xs text-muted">Turnover-worthy rate</span>
-            {qb.ranks && <RankBadge leagueRank={qb.ranks.turnoverWorthyPlayRate.leagueRank} />}
-          </div>
-          <div className="mt-0.5 text-xl font-bold text-foreground">
-            {formatPercent(qb.turnoverWorthyPlayRate, 1)}
-          </div>
-        </div>
-        <div>
-          <div className="flex items-center justify-between gap-1">
-            <span className="text-xs text-muted">Clean pocket EPA</span>
-            {qb.ranks && <RankBadge leagueRank={qb.ranks.cleanPocketEpa.leagueRank} />}
-          </div>
-          <div className="mt-0.5 text-xl font-bold text-foreground">
-            {signed(qb.cleanPocketEpa)}
-          </div>
-        </div>
-        <div>
-          <div className="flex items-center justify-between gap-1">
-            <span className="text-xs text-muted">Under pressure EPA</span>
-            {qb.ranks && <RankBadge leagueRank={qb.ranks.pressureEpa.leagueRank} />}
-          </div>
-          <div className="mt-0.5 text-xl font-bold text-foreground">
-            {signed(qb.pressureEpa)}
-          </div>
-        </div>
+      <div className="mt-4 grid grid-cols-2 gap-x-4 gap-y-4">
+        <StatTile label="CPOE" value={signed(qb.cpoe, 1)} rank={qb.ranks?.cpoe.leagueRank} />
+        <StatTile
+          label="Turnover-worthy rate"
+          value={formatPercent(qb.turnoverWorthyPlayRate, 1)}
+          rank={qb.ranks?.turnoverWorthyPlayRate.leagueRank}
+        />
+        <StatTile
+          label="Clean pocket EPA"
+          value={signed(qb.cleanPocketEpa)}
+          rank={qb.ranks?.cleanPocketEpa.leagueRank}
+        />
+        <StatTile
+          label="Under pressure EPA"
+          value={signed(qb.pressureEpa)}
+          rank={qb.ranks?.pressureEpa.leagueRank}
+        />
       </div>
 
       <div className="mt-4">
@@ -79,6 +61,28 @@ export function QBDeepDive({ qb }: { qb: QBData }) {
           </div>
         </div>
       </div>
+    </div>
+  );
+}
+
+// items-start (not items-center) so the badge stays pinned to the top of
+// the row regardless of whether the label wraps to a second line — with
+// items-center, a wrapped label grows the row taller and re-centers the
+// badge lower than a sibling tile whose shorter label stayed on one line.
+// gap-1.5 with no justify-between keeps the badge hugging the label
+// instead of stretching to the tile's far edge.
+function StatTile({ label, value, rank }: { label: string; value: string; rank?: number }) {
+  return (
+    <div>
+      <div className="flex items-start gap-1.5">
+        <span className="text-xs text-muted">{label}</span>
+        {rank !== undefined && (
+          <span className="mt-px shrink-0">
+            <RankBadge leagueRank={rank} />
+          </span>
+        )}
+      </div>
+      <div className="mt-0.5 text-xl font-bold text-foreground">{value}</div>
     </div>
   );
 }
