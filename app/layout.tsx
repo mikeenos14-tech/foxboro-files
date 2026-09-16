@@ -20,10 +20,19 @@ const oswald = Oswald({
 const description =
   "An analytics-driven New England Patriots fan site: recaps, opponent breakdowns, schedule strength, news, and stats vs. the league.";
 
-// TODO once real hosting is set up: set NEXT_PUBLIC_SITE_URL so shared links
-// resolve OG/social preview images to the real domain instead of localhost.
+// Resolves OG/social preview image URLs. Prefers an explicit custom domain
+// (NEXT_PUBLIC_SITE_URL) if one's set, otherwise falls back to Vercel's
+// auto-assigned deployment URL (VERCEL_URL, set automatically in
+// production/preview — no config needed there), then localhost for local
+// dev. Set NEXT_PUBLIC_SITE_URL once a custom domain is attached.
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL
+  ? process.env.NEXT_PUBLIC_SITE_URL
+  : process.env.VERCEL_URL
+    ? `https://${process.env.VERCEL_URL}`
+    : "http://localhost:3000";
+
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000"),
+  metadataBase: new URL(siteUrl),
   title: {
     default: "Foxboro Files",
     template: "%s | Foxboro Files",
