@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 import * as store from "@/lib/data/store";
 
-export const alt = "Route 1 Rewind — New England Patriots analytics and coverage";
+export const alt = "The Foxboro Beacon — New England Patriots analytics and coverage";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -27,18 +27,29 @@ export default async function Image() {
           padding: 80,
         }}
       >
-        <div style={{ display: "flex", alignItems: "center", gap: 20 }}>
-          <div style={{ fontSize: 70, display: "flex" }}>🏈</div>
+        <div style={{ display: "flex", alignItems: "center", gap: 24 }}>
+          <svg width="64" height="77" viewBox="0 0 200 240">
+            <rect x="70" y="150" width="60" height="80" fill="#e7ecef" stroke="#0a1424" strokeWidth="6" />
+            <line x1="100" y1="150" x2="100" y2="230" stroke="#0a1424" strokeWidth="4" />
+            <rect x="76" y="95" width="48" height="55" fill="#dce7ec" stroke="#0a1424" strokeWidth="6" />
+            <line x1="92" y1="95" x2="92" y2="150" stroke="#0a1424" strokeWidth="4" />
+            <line x1="108" y1="95" x2="108" y2="150" stroke="#0a1424" strokeWidth="4" />
+            <rect x="90" y="104" width="9" height="22" fill="#ff3b56" />
+            <rect x="68" y="90" width="64" height="9" rx="1" fill="#0a1424" stroke="#0a1424" strokeWidth="6" />
+            <rect x="62" y="72" width="76" height="18" rx="4" fill="#0a1424" stroke="#0a1424" strokeWidth="6" />
+            <line x1="100" y1="72" x2="100" y2="54" stroke="#0a1424" strokeWidth="6" />
+            <circle cx="100" cy="50" r="8" fill="#ff3b56" stroke="#0a1424" strokeWidth="6" />
+          </svg>
           <div
             style={{
-              fontSize: 66,
+              fontSize: 58,
               fontWeight: 700,
               color: "white",
               letterSpacing: -1,
               display: "flex",
             }}
           >
-            ROUTE 1 REWIND
+            THE FOXBORO BEACON
           </div>
         </div>
         <div

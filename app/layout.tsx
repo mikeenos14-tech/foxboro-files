@@ -39,12 +39,12 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Route 1 Rewind",
-    template: "%s | Route 1 Rewind",
+    default: "The Foxboro Beacon",
+    template: "%s | The Foxboro Beacon",
   },
   description,
   openGraph: {
-    siteName: "Route 1 Rewind",
+    siteName: "The Foxboro Beacon",
     description,
     type: "website",
   },

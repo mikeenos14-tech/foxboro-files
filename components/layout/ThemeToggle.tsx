@@ -17,7 +17,7 @@ export function ThemeToggle() {
       explicit ?? (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
     const next = effective === "dark" ? "light" : "dark";
     document.documentElement.setAttribute("data-theme", next);
-    localStorage.setItem("route1rewind-theme", next);
+    localStorage.setItem("foxboro-beacon-theme", next);
   }
 
   return (

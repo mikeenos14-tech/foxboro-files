@@ -43,3 +43,6 @@ next-env.d.ts
 # nflverse raw download cache — regenerable via scripts/fetch-nflverse.ts,
 # large, not source. data/generated/ (normalized output) IS committed.
 /data/raw/
+
+# design mockups used to preview Artifact pitches — not site source.
+/scratch/

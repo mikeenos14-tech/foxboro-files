@@ -1,4 +1,4 @@
-// Core data types for Route 1 Rewind.
+// Core data types for The Foxboro Beacon.
 // Phase 0: populated from hand-written fixtures (lib/data/fixtures.ts).
 // Phase 1+: populated by scripts/build-data.ts from nflverse + ESPN, same shapes.
 

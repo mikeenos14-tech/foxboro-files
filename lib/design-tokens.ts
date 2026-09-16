@@ -1,4 +1,4 @@
-// Route 1 Rewind brand palette. The actual color VALUES live as CSS custom
+// The Foxboro Beacon brand palette. The actual color VALUES live as CSS custom
 // properties in app/globals.css (light + dark), which is what lets the
 // whole site re-theme instantly. Chart components reference the CSS
 // variables directly (e.g. "var(--color-navy)") so charts follow the
