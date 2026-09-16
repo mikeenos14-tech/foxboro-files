@@ -5,10 +5,19 @@ export function formatDate(iso: string): string {
   const date = /^\d{4}-\d{2}-\d{2}$/.test(iso)
     ? new Date(`${iso}T12:00:00Z`)
     : new Date(iso);
+  // Pinning the timezone (rather than leaving it to the runtime's local
+  // zone) matters for two reasons: it keeps every date framed in the
+  // team's own Eastern time regardless of a visitor's own location, and it
+  // makes the formatted string identical between the server (Vercel's
+  // build/render machines run in UTC) and the client (whatever timezone
+  // the visitor's browser is in) — without it, a news timestamp near UTC
+  // midnight could format to a different calendar day server-side vs
+  // client-side, which React reports as a hydration mismatch.
   return date.toLocaleDateString("en-US", {
     weekday: "short",
     month: "short",
     day: "numeric",
+    timeZone: "America/New_York",
   });
 }
 
