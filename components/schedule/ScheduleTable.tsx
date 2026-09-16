@@ -47,10 +47,7 @@ export function ScheduleTable({ rows }: { rows: ScheduleRow[] }) {
               <td className="px-3 py-2 text-muted">
                 {r.homeAway === "home" ? "Home" : "Away"}
               </td>
-              <td className="px-3 py-2 text-muted">
-                {r.opponentRecord} ({r.opponentPointDiff > 0 ? "+" : ""}
-                {r.opponentPointDiff})
-              </td>
+              <td className="px-3 py-2 text-muted">{r.opponentRecord}</td>
               <td className="px-3 py-2 text-muted">
                 {ordinal(r.opponentEpaRank)}
               </td>
@@ -59,7 +56,14 @@ export function ScheduleTable({ rows }: { rows: ScheduleRow[] }) {
               </td>
               <td className="px-3 py-2">
                 {r.result ? (
-                  <span className={resultClasses[r.result]}>{r.result}</span>
+                  <span className={resultClasses[r.result]}>
+                    {r.result}
+                    {r.ourScore !== undefined && r.theirScore !== undefined && (
+                      <span className="ml-1 font-normal text-muted">
+                        {r.ourScore}-{r.theirScore}
+                      </span>
+                    )}
+                  </span>
                 ) : r.winProbabilityEstimate !== undefined ? (
                   <span className="text-muted">
                     {formatPercent(r.winProbabilityEstimate, 0)} win prob.

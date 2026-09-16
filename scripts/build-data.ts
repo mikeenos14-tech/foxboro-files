@@ -149,6 +149,8 @@ async function main() {
       isDivisional: bool01(g.div_game),
       isConference: TEAM_CONFERENCE[opponent] === TEAM_CONFERENCE[TEAM],
       result,
+      ourScore: ourScore ?? undefined,
+      theirScore: theirScore ?? undefined,
       winProbabilityEstimate: result
         ? undefined
         : simpleWinProb(netEpaOf(TEAM) - netEpaOf(opponent), isHome),

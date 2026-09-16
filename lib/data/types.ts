@@ -194,6 +194,8 @@ export interface ScheduleRow {
   isConference: boolean;
   winProbabilityEstimate?: number;
   result?: "W" | "L" | "T";
+  ourScore?: number;
+  theirScore?: number;
   date: string;
 }
 
