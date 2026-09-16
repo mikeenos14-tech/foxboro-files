@@ -10,7 +10,7 @@
 import { mkdir, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { loadCsv, num } from "./lib/csv";
-import { computeStandings } from "./lib/standings";
+import { computeStandings, recordString } from "./lib/standings";
 import { computeDivisionStandings } from "./lib/divisionStandings";
 import { computeAdjustedEpa } from "./lib/leagueRanks";
 import { rankGeneric } from "./lib/rank";
@@ -87,6 +87,8 @@ async function main() {
       awayTeam: g.away_team,
       homeScore: num(g.home_score),
       awayScore: num(g.away_score),
+      homeRecord: recordString(standings.get(g.home_team)),
+      awayRecord: recordString(standings.get(g.away_team)),
       overtime: g.overtime === "1",
     }))
     .sort((a, b) => a.date.localeCompare(b.date) || a.homeTeam.localeCompare(b.homeTeam));

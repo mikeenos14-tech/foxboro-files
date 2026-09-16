@@ -44,6 +44,10 @@ export interface LeagueScoreboardGame {
   awayTeam: string;
   homeScore: number;
   awayScore: number;
+  // Season record after this game (current standings — this is the most
+  // recently completed week league-wide, so it reflects the result shown).
+  homeRecord: string;
+  awayRecord: string;
   overtime: boolean;
 }
 

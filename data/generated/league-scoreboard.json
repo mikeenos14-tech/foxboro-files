@@ -8,6 +8,8 @@
     "awayTeam": "NE",
     "homeScore": 13,
     "awayScore": 10,
+    "homeRecord": "1-0",
+    "awayRecord": "0-1",
     "overtime": false
   },
   {
@@ -19,6 +21,8 @@
     "awayTeam": "SF",
     "homeScore": 7,
     "awayScore": 27,
+    "homeRecord": "0-1",
+    "awayRecord": "1-0",
     "overtime": false
   },
   {
@@ -30,6 +34,8 @@
     "awayTeam": "CHI",
     "homeScore": 37,
     "awayScore": 59,
+    "homeRecord": "0-1",
+    "awayRecord": "1-0",
     "overtime": false
   },
   {
@@ -41,6 +47,8 @@
     "awayTeam": "TB",
     "homeScore": 33,
     "awayScore": 27,
+    "homeRecord": "1-0",
+    "awayRecord": "0-1",
     "overtime": false
   },
   {
@@ -52,6 +60,8 @@
     "awayTeam": "NO",
     "homeScore": 31,
     "awayScore": 30,
+    "homeRecord": "1-0",
+    "awayRecord": "0-1",
     "overtime": true
   },
   {
@@ -63,6 +73,8 @@
     "awayTeam": "BUF",
     "homeScore": 31,
     "awayScore": 36,
+    "homeRecord": "0-1",
+    "awayRecord": "1-0",
     "overtime": false
   },
   {
@@ -74,6 +86,8 @@
     "awayTeam": "BAL",
     "homeScore": 23,
     "awayScore": 41,
+    "homeRecord": "0-1",
+    "awayRecord": "1-0",
     "overtime": false
   },
   {
@@ -85,6 +99,8 @@
     "awayTeam": "CLE",
     "homeScore": 34,
     "awayScore": 10,
+    "homeRecord": "1-0",
+    "awayRecord": "0-1",
     "overtime": false
   },
   {
@@ -96,6 +112,8 @@
     "awayTeam": "ARI",
     "homeScore": 14,
     "awayScore": 26,
+    "homeRecord": "0-1",
+    "awayRecord": "1-0",
     "overtime": false
   },
   {
@@ -107,6 +125,8 @@
     "awayTeam": "MIA",
     "homeScore": 27,
     "awayScore": 13,
+    "homeRecord": "1-0",
+    "awayRecord": "0-1",
     "overtime": false
   },
   {
@@ -118,6 +138,8 @@
     "awayTeam": "GB",
     "homeScore": 39,
     "awayScore": 22,
+    "homeRecord": "1-0",
+    "awayRecord": "0-1",
     "overtime": false
   },
   {
@@ -129,6 +151,8 @@
     "awayTeam": "DAL",
     "homeScore": 28,
     "awayScore": 20,
+    "homeRecord": "1-0",
+    "awayRecord": "0-1",
     "overtime": false
   },
   {
@@ -140,6 +164,8 @@
     "awayTeam": "WAS",
     "homeScore": 24,
     "awayScore": 22,
+    "homeRecord": "1-0",
+    "awayRecord": "0-1",
     "overtime": false
   },
   {
@@ -151,6 +177,8 @@
     "awayTeam": "ATL",
     "homeScore": 20,
     "awayScore": 13,
+    "homeRecord": "1-0",
+    "awayRecord": "0-1",
     "overtime": false
   },
   {
@@ -162,6 +190,8 @@
     "awayTeam": "NYJ",
     "homeScore": 10,
     "awayScore": 23,
+    "homeRecord": "0-1",
+    "awayRecord": "1-0",
     "overtime": false
   },
   {
@@ -173,6 +203,8 @@
     "awayTeam": "DEN",
     "homeScore": 31,
     "awayScore": 10,
+    "homeRecord": "1-0",
+    "awayRecord": "0-1",
     "overtime": false
   }
 ]

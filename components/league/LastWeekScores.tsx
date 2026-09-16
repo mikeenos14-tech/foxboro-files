@@ -12,6 +12,7 @@ function GameCard({ game }: { game: LeagueScoreboardGame }) {
           <span className={`text-sm ${awayWon ? "font-bold text-foreground" : "text-muted"}`}>
             {game.awayTeam}
           </span>
+          <span className="text-xs text-muted">{game.awayRecord}</span>
         </div>
         <span className={`text-sm ${awayWon ? "font-bold text-foreground" : "text-muted"}`}>
           {game.awayScore}
@@ -23,6 +24,7 @@ function GameCard({ game }: { game: LeagueScoreboardGame }) {
           <span className={`text-sm ${homeWon ? "font-bold text-foreground" : "text-muted"}`}>
             {game.homeTeam}
           </span>
+          <span className="text-xs text-muted">{game.homeRecord}</span>
         </div>
         <span className={`text-sm ${homeWon ? "font-bold text-foreground" : "text-muted"}`}>
           {game.homeScore}

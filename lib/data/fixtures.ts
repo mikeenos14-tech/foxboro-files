@@ -309,9 +309,9 @@ export const leagueEpaRankings: LeagueEpaRanking[] = [
 ];
 
 export const leagueScoreboard: LeagueScoreboardGame[] = [
-  { gameId: "2026_01_SF_LA", week: 1, date: "2026-09-04", weekday: "Thursday", homeTeam: "LA", awayTeam: "SF", homeScore: 7, awayScore: 27, overtime: false },
-  { gameId: "2026_01_NE_SEA", week: 1, date: "2026-09-09", weekday: "Wednesday", homeTeam: "SEA", awayTeam: "NE", homeScore: 13, awayScore: 10, overtime: false },
-  { gameId: "2026_01_DAL_PHI", week: 1, date: "2026-09-07", weekday: "Sunday", homeTeam: "PHI", awayTeam: "DAL", homeScore: 24, awayScore: 20, overtime: true },
+  { gameId: "2026_01_SF_LA", week: 1, date: "2026-09-04", weekday: "Thursday", homeTeam: "LA", awayTeam: "SF", homeScore: 7, awayScore: 27, homeRecord: "0-1", awayRecord: "1-0", overtime: false },
+  { gameId: "2026_01_NE_SEA", week: 1, date: "2026-09-09", weekday: "Wednesday", homeTeam: "SEA", awayTeam: "NE", homeScore: 13, awayScore: 10, homeRecord: "1-0", awayRecord: "0-1", overtime: false },
+  { gameId: "2026_01_DAL_PHI", week: 1, date: "2026-09-07", weekday: "Sunday", homeTeam: "PHI", awayTeam: "DAL", homeScore: 24, awayScore: 20, homeRecord: "1-0", awayRecord: "0-1", overtime: true },
 ];
 
 export const news: NewsItem[] = [
