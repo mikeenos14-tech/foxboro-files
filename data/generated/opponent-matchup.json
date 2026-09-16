@@ -2,8 +2,8 @@
   "gameId": "2026_02_PIT_NE",
   "opponent": "PIT",
   "opponentEpaRank": {
-    "offense": 30,
-    "defense": 2
+    "offense": 22,
+    "defense": 14
   },
   "positionGroupMatchups": [
     {
@@ -82,13 +82,12 @@
   "weather": {
     "tempF": 52,
     "wind": "8 mph",
-    "precipitation": "45%",
+    "precipitation": "46%",
     "isDome": false
   },
   "bettingContext": {
     "spread": -5.5,
     "overUnder": 41.5,
     "asOf": "2026-09-16"
-  },
-  "previewTake": "The Steelers come to Gillette with a legitimately scary defense—second in the NFL—but their offense is downright pedestrian at 30th, which means this game will likely be decided in the trenches. Here's where it gets interesting: we've got a clear statistical edge in the one matchup that matters most, with our run defense grading significantly better than their rushing attack, the widest real advantage on the board this week. The Steelers have been pedestrian of late (0.02 EPA/play over their last three games), and we've had their number historically, though that stings a bit when you remember that 21-14 loss from last year. With A.J. Brown out, our offense will need to get creative, but if we can impose our will on the ground and keep their defense off the field, we should be able to control this game on our home field."
+  }
 }

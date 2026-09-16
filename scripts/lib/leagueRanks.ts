@@ -1,5 +1,7 @@
 import { num } from "./csv";
 import { offenseStats, defenseStats, type PbpRow } from "./pbp";
+import { blendWithPrior } from "./priorBlend";
+import { PRIOR_OFFENSE_EPA, PRIOR_DEFENSE_EPA } from "./priorSeasonStrength";
 import type { RankedStat } from "../../lib/data/types";
 
 interface LeagueEpaEntry {
@@ -69,7 +71,7 @@ function perGamePerformances(
 function computeAdjustedEpa(
   rows: PbpRow[],
   teams: string[]
-): { offense: Map<string, number>; defense: Map<string, number> } {
+): { offense: Map<string, number>; defense: Map<string, number>; gamesPlayed: Map<string, number> } {
   const offByTeam = new Map<string, GamePerf[]>();
   const defByTeam = new Map<string, GamePerf[]>();
   for (const team of teams) {
@@ -109,13 +111,15 @@ function computeAdjustedEpa(
 
   const offense = new Map<string, number>();
   const defense = new Map<string, number>();
+  const gamesPlayed = new Map<string, number>();
   for (const team of teams) {
     // Offense is adjusted against each opponent's defensive baseline, and
     // vice versa.
     offense.set(team, adjustedAverage(offByTeam.get(team) ?? [], defByTeam));
     defense.set(team, adjustedAverage(defByTeam.get(team) ?? [], offByTeam));
+    gamesPlayed.set(team, (offByTeam.get(team) ?? []).length);
   }
-  return { offense, defense };
+  return { offense, defense, gamesPlayed };
 }
 
 export function computeLeagueEpaTable(
@@ -127,12 +131,18 @@ export function computeLeagueEpaTable(
   for (const team of teams) {
     const off = offenseStats(rows, team);
     const def = defenseStats(rows, team);
+    const played = adjusted.gamesPlayed.get(team) ?? 0;
+    // Blend the (opponent-adjusted) current-season value with real prior-
+    // season performance — same shrink-toward-a-real-prior idea used for
+    // win probability, phased out linearly by 8 games (see priorBlend.ts).
+    const currentOffense = adjusted.offense.get(team) ?? off.epa;
+    const currentDefense = adjusted.defense.get(team) ?? def.epa;
     table.set(team, {
       team,
-      offenseEpa: adjusted.offense.get(team) ?? off.epa,
+      offenseEpa: blendWithPrior(PRIOR_OFFENSE_EPA[team] ?? 0, currentOffense, played),
       offenseSuccess: off.successRate,
       offenseExplosive: off.explosiveRate,
-      defenseEpa: adjusted.defense.get(team) ?? def.epa,
+      defenseEpa: blendWithPrior(PRIOR_DEFENSE_EPA[team] ?? 0, currentDefense, played),
       defenseSuccess: def.successRate,
       defenseExplosive: def.explosiveRate,
     });

@@ -1,11 +1,10 @@
-// One-off (well — once-a-year) tool: computes each team's full-season net
-// EPA/play (offense EPA/play minus defense EPA/play) from a completed
-// season's real nflverse play-by-play data, and writes it as a frozen
-// constant table to scripts/lib/priorSeasonStrength.ts. That table is the
-// "preseason prior" build-data.ts blends with the current season's
-// in-progress EPA — real prior-year performance instead of a blind guess,
-// used only until enough current-season games accumulate to speak for
-// themselves (see the shrinkage blend in build-data.ts).
+// One-off (well — once-a-year) tool: computes each team's full-season
+// offensive and defensive EPA/play from a completed season's real nflverse
+// play-by-play data, and writes them as frozen constant tables to
+// scripts/lib/priorSeasonStrength.ts. Those tables are the "preseason
+// prior" blended with the current season's in-progress EPA — real
+// prior-year performance instead of a blind guess, phased out linearly as
+// real current-season games accumulate (see scripts/lib/priorBlend.ts).
 //
 // Run once at the start of each new season, pointed at the season that
 // just finished: npx tsx scripts/compute-prior-strength.ts 2025
@@ -45,7 +44,8 @@ async function main() {
   // to measure.
   const regSeason = pbp.filter((r) => r.season_type === "REG");
 
-  const netEpa: Record<string, number> = {};
+  const offenseEpa: Record<string, number> = {};
+  const defenseEpa: Record<string, number> = {};
   for (const team of ALL_TEAMS) {
     const off = regSeason.filter(
       (r) => r.posteam === team && (r.play_type === "run" || r.play_type === "pass")
@@ -53,27 +53,32 @@ async function main() {
     const def = regSeason.filter(
       (r) => r.defteam === team && (r.play_type === "run" || r.play_type === "pass")
     );
-    const offEpa = off.length === 0 ? 0 : off.reduce((s, r) => s + num(r.epa), 0) / off.length;
-    const defEpa = def.length === 0 ? 0 : def.reduce((s, r) => s + num(r.epa), 0) / def.length;
-    netEpa[team] = Math.round((offEpa - defEpa) * 10000) / 10000;
+    offenseEpa[team] =
+      off.length === 0 ? 0 : Math.round((off.reduce((s, r) => s + num(r.epa), 0) / off.length) * 10000) / 10000;
+    defenseEpa[team] =
+      def.length === 0 ? 0 : Math.round((def.reduce((s, r) => s + num(r.epa), 0) / def.length) * 10000) / 10000;
   }
 
   const outPath = path.join(process.cwd(), "scripts", "lib", "priorSeasonStrength.ts");
-  const body = ALL_TEAMS.map((t) => `  ${t}: ${netEpa[t]},`).join("\n");
-  const content = `// Frozen reference: each team's full-season net EPA/play (offense minus
-// defense) from the ${season} season, computed from real nflverse play-by-play
+  const offBody = ALL_TEAMS.map((t) => `  ${t}: ${offenseEpa[t]},`).join("\n");
+  const defBody = ALL_TEAMS.map((t) => `  ${t}: ${defenseEpa[t]},`).join("\n");
+  const content = `// Frozen reference: each team's full-season offensive and defensive
+// EPA/play from the ${season} season, computed from real nflverse play-by-play
 // data via scripts/compute-prior-strength.ts. Used as the "preseason prior"
-// in build-data.ts's win-probability model, blended with the current
-// season's in-progress EPA via games-played shrinkage so one or two early
-// games don't single-handedly swing every remaining game's odds — see the
-// blend in build-data.ts for how the weighting works.
+// blended with the current season's in-progress EPA (see
+// scripts/lib/priorBlend.ts) so one or two early games don't single-handedly
+// swing win probabilities or EPA rankings.
 //
 // Regenerate at the start of each new season, once the prior season is
 // final: npx tsx scripts/compute-prior-strength.ts <season>
 export const PRIOR_SEASON = ${season};
 
-export const PRIOR_NET_EPA: Record<string, number> = {
-${body}
+export const PRIOR_OFFENSE_EPA: Record<string, number> = {
+${offBody}
+};
+
+export const PRIOR_DEFENSE_EPA: Record<string, number> = {
+${defBody}
 };
 `;
 
