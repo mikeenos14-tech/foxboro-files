@@ -184,15 +184,15 @@
   ],
   "goodBadUgly": {
     "good": [
-      "Red zone defense held Seattle to 1 TD on 3 attempts—that's the kind of efficiency you need to build on going forward.",
-      "The Patriots' defense wasn't a complete disaster (0.07 EPA per play allowed), suggesting the unit can anchor games even without elite offensive support."
+      "R. Stevenson's presence provided some measure of stability in a disjointed offensive effort.",
+      "Our red zone defense held Seattle to 1-for-3, at least preventing runaway scoring in the most critical situations."
     ],
     "bad": [
-      "A.J. Brown's high ankle sprain will sideline him for at least four games, removing the Patriots' top receiver right when they need weapons most.",
-      "Turnover margin of minus-3 is a death sentence—when you're giving away the football that freely, even a decent defensive effort can't bail you out."
+      "Our offense generated -0.11 EPA per play, a genuinely ugly efficiency metric that explains the anemic 10-point output.",
+      "Third down conversion rate of just 5-for-16 (31.3%) means we couldn't sustain drives when it mattered most."
     ],
     "ugly": [
-      "Third-down offense was brutal at 5-for-16 (31.3%), turning what should've been extended drives into a parade of three-and-outs."
+      "Losing A.J. Brown to IR for a minimum of four games is a gut-punch to offensive firepower that we can't afford early in the season."
     ]
   },
   "playerOfTheGame": {
@@ -202,5 +202,5 @@
     "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/zmpuirvuw4r04inxth5i",
     "reason": "Had the team's best (though still net-negative) win probability contribution at -3% in a tough game offensively."
   },
-  "fanTake": "Well, that's what we call a weekend we'd all like back. A 10-13 loss to Seattle is the kind of game that stings precisely because it feels winnable—we were right there, we just couldn't quite finish the job. The offense sputtered (negative EPA per play will do that), the defense gave up a red zone touchdown they shouldn't have, and we coughed up the football three times to their zero. It's tough to win football games when you're beating yourself like that, and it's tougher still when you're about to face the next four weeks without your most explosive receiving target."
+  "fanTake": "Well, that's the kind of loss that stings in a way that goes beyond the final score—a 13-10 defeat to Seattle where we couldn't quite find our footing on either side of the ball. The numbers tell a grim story: negative EPA on offense, positive EPA allowed on defense, and a turnover margin of minus-three that basically encapsulates why we came up short. To make matters worse, we're now facing an extended stretch without A.J. Brown after his high ankle sprain in Week 1, which means this offense has to get creative in a hurry. It's early in the season, sure, but this one feels like it got away from us."
 }
