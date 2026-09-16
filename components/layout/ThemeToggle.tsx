@@ -1,14 +1,21 @@
 "use client";
 
 // No React state here on purpose: the active theme lives on the DOM
-// (data-theme, set by the inline init script before hydration), and both
-// icons are always rendered with CSS deciding which one shows. That avoids
-// any server/client hydration mismatch a stateful "current theme" read
-// would otherwise risk.
+// (data-theme, read by CSS/Tailwind's dark: variant — see globals.css),
+// and both icons are always rendered with CSS deciding which one shows.
+// That avoids any server/client hydration mismatch a stateful "current
+// theme" read would otherwise risk.
 export function ThemeToggle() {
   function toggle() {
-    const current = document.documentElement.getAttribute("data-theme");
-    const next = current === "dark" ? "light" : "dark";
+    const explicit = document.documentElement.getAttribute("data-theme");
+    // No explicit override yet doesn't mean "light" — most visitors are
+    // relying on their system preference, which might already be dark.
+    // Flip from the *effective* theme, not just the raw attribute, so one
+    // click always does something instead of the first click merely
+    // pinning whatever was already showing.
+    const effective =
+      explicit ?? (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+    const next = effective === "dark" ? "light" : "dark";
     document.documentElement.setAttribute("data-theme", next);
     localStorage.setItem("foxboro-theme", next);
   }

@@ -19,7 +19,7 @@ export function WPALeaderboard({
           size={48}
         />
         <div>
-          <div className="font-bold text-navy dark:text-white">{starOfTheGame.playerName}</div>
+          <div className="font-bold text-foreground">{starOfTheGame.playerName}</div>
           <div className="text-sm text-muted">
             {signed(starOfTheGame.wpa * 100, 0)}% WPA
           </div>

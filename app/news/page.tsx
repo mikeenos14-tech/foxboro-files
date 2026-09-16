@@ -14,7 +14,7 @@ export default async function NewsPage() {
   return (
     <div className="space-y-8">
       <div>
-        <h1 className="font-display text-3xl font-bold uppercase tracking-wide text-navy dark:text-white">News</h1>
+        <h1 className="font-display text-3xl font-bold uppercase tracking-wide text-foreground">News</h1>
         <p className="text-sm text-muted">
           What&apos;s happening with the team this week.
         </p>

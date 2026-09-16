@@ -3,7 +3,7 @@ import { formatDate } from "@/lib/util/format";
 
 const typeClasses: Record<NewsItem["type"], string> = {
   Injury: "bg-red/10 text-red",
-  Transaction: "bg-navy/10 text-navy dark:text-white",
+  Transaction: "bg-navy/10 text-foreground",
   Analysis: "bg-rank-mid/10 text-rank-mid",
   "Beat Report": "bg-silver/20 text-muted",
 };

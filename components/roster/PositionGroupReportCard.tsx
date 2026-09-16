@@ -26,7 +26,7 @@ export function PositionGroupReportCard({ card }: { card: ReportCardData }) {
         </span>
       </div>
       <div className="mt-1 flex items-baseline gap-2">
-        <span className="font-display text-3xl font-semibold text-navy dark:text-white">
+        <span className="font-display text-3xl font-semibold text-foreground">
           <CountUp value={card.grade} />
         </span>
         <span className="text-xs text-muted">

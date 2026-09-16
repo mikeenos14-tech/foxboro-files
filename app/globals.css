@@ -1,6 +1,20 @@
 @import "tailwindcss";
 
-@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+/* dark: applies when EITHER data-theme="dark" is explicitly set, OR the
+   system prefers dark and no explicit "light" override is set — mirrors
+   the plain CSS variable cascade below exactly, so dark: utilities (icon
+   swaps, one-off overrides) behave consistently with the rest of the
+   theme instead of only working for people who've explicitly toggled it. */
+@custom-variant dark {
+  &:where([data-theme="dark"], [data-theme="dark"] *) {
+    @slot;
+  }
+  @media (prefers-color-scheme: dark) {
+    &:not(:where([data-theme="light"], [data-theme="light"] *)) {
+      @slot;
+    }
+  }
+}
 
 :root {
   --background: #f2f3f6;

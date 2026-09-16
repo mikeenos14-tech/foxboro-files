@@ -19,7 +19,7 @@ export function DivisionStandings({ standings }: { standings: DivisionStanding[]
               <td className="px-4 py-2.5">
                 <div className="flex items-center gap-2">
                   <TeamLogo team={s.team} size={22} />
-                  <span className={s.isUs ? "font-bold text-navy dark:text-white" : "font-medium"}>
+                  <span className={s.isUs ? "font-bold text-foreground" : "font-medium"}>
                     {s.team}
                   </span>
                 </div>

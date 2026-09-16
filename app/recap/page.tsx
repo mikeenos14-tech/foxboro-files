@@ -12,7 +12,7 @@ export default async function RecapIndexPage() {
   return (
     <div className="space-y-6">
       <div>
-        <h1 className="font-display text-3xl font-bold uppercase tracking-wide text-navy dark:text-white">Game Recaps</h1>
+        <h1 className="font-display text-3xl font-bold uppercase tracking-wide text-foreground">Game Recaps</h1>
         <p className="text-sm text-muted">Every game this season, broken down.</p>
       </div>
 
@@ -38,7 +38,7 @@ export default async function RecapIndexPage() {
                   >
                     {won ? "W" : "L"}
                   </span>
-                  <span className="text-xl font-bold text-navy dark:text-white">
+                  <span className="text-xl font-bold text-foreground">
                     {usScore}-{themScore}
                   </span>
                   <span className="text-muted">vs. {opponent}</span>

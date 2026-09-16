@@ -10,7 +10,7 @@ export function MatchupOfTheWeekCallout({
       <span className="text-xs font-bold uppercase tracking-wide text-red">
         Matchup of the Week
       </span>
-      <h3 className="mt-1 text-xl font-bold text-navy dark:text-white">{title}</h3>
+      <h3 className="mt-1 text-xl font-bold text-foreground">{title}</h3>
       <p className="mt-2 text-sm text-muted">{description}</p>
     </div>
   );

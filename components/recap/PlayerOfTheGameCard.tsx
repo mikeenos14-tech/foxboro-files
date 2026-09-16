@@ -17,7 +17,7 @@ export function PlayerOfTheGameCard({
           imageUrl={playerOfTheGame.headshotUrl}
           size={56}
         />
-        <span className="text-lg font-bold text-navy dark:text-white">
+        <span className="text-lg font-bold text-foreground">
           {playerOfTheGame.playerName}
         </span>
       </div>

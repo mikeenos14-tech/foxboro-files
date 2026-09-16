@@ -19,7 +19,7 @@ export default async function RosterPage() {
   return (
     <div className="space-y-8">
       <div>
-        <h1 className="font-display text-3xl font-bold uppercase tracking-wide text-navy dark:text-white">Roster & Stats</h1>
+        <h1 className="font-display text-3xl font-bold uppercase tracking-wide text-foreground">Roster & Stats</h1>
         <p className="text-sm text-muted">
           Depth chart, position-group grades vs. league, and situational
           splits.

@@ -57,7 +57,7 @@ export function ScorePredictor({
             inputMode="numeric"
             value={neScore}
             onChange={(e) => setNeScore(e.target.value)}
-            className="w-16 rounded-md border border-border bg-background px-2 py-1.5 text-center font-display text-xl font-bold text-navy dark:text-white"
+            className="w-16 rounded-md border border-border bg-background px-2 py-1.5 text-center font-display text-xl font-bold text-foreground"
           />
         </div>
         <span className="mt-4 text-muted">–</span>
@@ -72,7 +72,7 @@ export function ScorePredictor({
             inputMode="numeric"
             value={oppScore}
             onChange={(e) => setOppScore(e.target.value)}
-            className="w-16 rounded-md border border-border bg-background px-2 py-1.5 text-center font-display text-xl font-bold text-navy dark:text-white"
+            className="w-16 rounded-md border border-border bg-background px-2 py-1.5 text-center font-display text-xl font-bold text-foreground"
           />
         </div>
       </div>

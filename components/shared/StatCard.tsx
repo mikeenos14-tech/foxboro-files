@@ -25,7 +25,7 @@ export function StatCard({
         <span className="text-sm font-medium text-muted">{label}</span>
         {leagueRank !== undefined && <RankBadge leagueRank={leagueRank} />}
       </div>
-      <div className="mt-1 font-display text-3xl font-semibold text-navy dark:text-white">
+      <div className="mt-1 font-display text-3xl font-semibold text-foreground">
         {animate ? (
           <CountUp
             value={animate.value}
