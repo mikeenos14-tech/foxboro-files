@@ -103,6 +103,40 @@ async function buildLeagueNews(): Promise<NewsItem[] | null> {
   });
 }
 
+// ESPN's league news endpoint only ever returns a snapshot of the
+// current/recent feed (whatever's freshest right now), and this job runs
+// every 3 hours — so instead of overwriting league-news.json outright each
+// time (which would make "today" the only news the curation step could ever
+// see), fresh items get merged into a rolling archive keyed by ESPN's
+// article id. build-league-headlines.ts reads this archive and windows it
+// to the trailing calendar week itself; pruning here just keeps the archive
+// file from growing forever (comfortably wider than that week-long window
+// so a missed run can't quietly drop real candidates).
+const ARCHIVE_MAX_AGE_DAYS = 14;
+
+async function mergeLeagueNewsArchive(freshItems: NewsItem[]): Promise<NewsItem[]> {
+  const archivePath = path.join(GENERATED_DIR, "league-news-archive.json");
+  let existing: NewsItem[] = [];
+  try {
+    existing = JSON.parse(await readFile(archivePath, "utf-8"));
+  } catch {
+    existing = [];
+  }
+
+  const byId = new Map(existing.map((item) => [item.id, item]));
+  for (const item of freshItems) {
+    if (!byId.has(item.id)) byId.set(item.id, item);
+  }
+
+  const cutoff = Date.now() - ARCHIVE_MAX_AGE_DAYS * 24 * 60 * 60 * 1000;
+  const merged = [...byId.values()]
+    .filter((item) => new Date(item.publishedAt).getTime() >= cutoff)
+    .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime());
+
+  await writeFile(archivePath, JSON.stringify(merged, null, 2));
+  return merged;
+}
+
 // ---------- Official team RSS ----------
 
 interface RssItem {
@@ -345,13 +379,12 @@ async function main() {
 
   const leagueNews = await buildLeagueNews();
   if (leagueNews) {
-    await writeFile(
-      path.join(GENERATED_DIR, "league-news.json"),
-      JSON.stringify(leagueNews, null, 2)
+    const archive = await mergeLeagueNewsArchive(leagueNews);
+    console.log(
+      `Merged ${leagueNews.length} fetched stories into league-news-archive.json (${archive.length} stories within ${ARCHIVE_MAX_AGE_DAYS} days). scripts/build-league-headlines.ts curates the calendar-week window from here into league-news.json.`
     );
-    console.log(`Wrote league-news.json (${leagueNews.length} stories)`);
   } else {
-    console.warn("league-news.json not updated — kept previous version, if any.");
+    console.warn("league-news-archive.json not updated this run — kept previous version, if any.");
   }
 
   const week = await currentWeek();

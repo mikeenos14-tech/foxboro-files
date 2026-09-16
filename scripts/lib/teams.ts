@@ -25,3 +25,18 @@ export const TEAM_DIVISION: Record<string, string> = {
 };
 
 export const ALL_TEAMS = Object.keys(TEAM_CONFERENCE);
+
+// Lowercase nickname each team is referred to by in headline text (ESPN
+// news copy says "Cowboys' defense," never "DAL's defense"). Used for
+// headline-level team detection — e.g. spotting that two differently-worded
+// stories are both about the same team, so they can be treated as one story.
+export const TEAM_NICKNAMES: Record<string, string> = {
+  BUF: "bills", MIA: "dolphins", NE: "patriots", NYJ: "jets",
+  BAL: "ravens", CIN: "bengals", CLE: "browns", PIT: "steelers",
+  HOU: "texans", IND: "colts", JAX: "jaguars", TEN: "titans",
+  DEN: "broncos", KC: "chiefs", LV: "raiders", LAC: "chargers",
+  DAL: "cowboys", NYG: "giants", PHI: "eagles", WAS: "commanders",
+  CHI: "bears", DET: "lions", GB: "packers", MIN: "vikings",
+  ATL: "falcons", CAR: "panthers", NO: "saints", TB: "buccaneers",
+  ARI: "cardinals", LA: "rams", SF: "49ers", SEA: "seahawks",
+};
