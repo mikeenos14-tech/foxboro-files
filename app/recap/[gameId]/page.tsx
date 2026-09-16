@@ -42,6 +42,15 @@ export default async function RecapDetailPage({
     <div className="space-y-6">
       <BoxScoreSummary game={lastGame} />
 
+      {recap.fanTake && (
+        <div className="rounded-lg border border-red/30 bg-red/5 p-4">
+          <span className="text-xs font-bold uppercase tracking-wide text-red">
+            The Take
+          </span>
+          <p className="mt-2 text-sm leading-relaxed">{recap.fanTake}</p>
+        </div>
+      )}
+
       <p className="rounded-lg border border-border bg-surface p-4 text-sm leading-relaxed">
         {recap.narrative}
       </p>

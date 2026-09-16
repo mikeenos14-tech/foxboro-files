@@ -62,6 +62,8 @@ export const lastGameRecap: GameRecap = {
   gameId: "2026-w02-MIA",
   narrative:
     "New England controlled the trenches from the opening drive, leaning on a run-heavy script that kept Miami's pass rush off balance. A third-quarter pick-six turned a one-score game into a comfortable margin, and the defense closed it out by winning third down all afternoon.",
+  fanTake:
+    "This is the version of the Patriots we've been waiting for. Physical up front, no wasted possessions, and that pick-six was the dagger we needed after years of watching games like this slip away. Keep building on this.",
   epaPerPlay: { offense: 0.14, defense: -0.09 },
   successRate: {
     offenseByDown: { 1: 0.52, 2: 0.47, 3: 0.44, 4: 0.6 },

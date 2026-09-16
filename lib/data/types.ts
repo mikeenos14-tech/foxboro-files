@@ -56,6 +56,7 @@ export interface RankedStat {
 export interface GameRecap {
   gameId: string;
   narrative: string;
+  fanTake?: string;
   epaPerPlay: { offense: number; defense: number };
   successRate: {
     offenseByDown: Record<1 | 2 | 3 | 4, number>;
