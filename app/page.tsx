@@ -69,7 +69,6 @@ export default async function HomePage() {
           </div>
         </div>
         <div>
-          <h2 className="mb-3 text-lg font-semibold">Division Race</h2>
           <DivisionStandings standings={standings} />
         </div>
       </div>
