@@ -157,13 +157,19 @@ async function main() {
   }
 
   const validAbbrs = [TEAM, opponent];
-  const bodyLower = article.articleBody.toLowerCase();
+  // Real player names in the source text use a curly apostrophe (e.g.
+  // "Dre’Mont Jones"), but the model's JSON output can't be relied on to
+  // reproduce that exact character — normalizing both sides to a plain
+  // straight apostrophe before comparing avoids dropping a real,
+  // correctly-extracted player over a punctuation-glyph mismatch.
+  const normalizeForMatch = (s: string) => s.toLowerCase().replace(/[’‘`´]/g, "'");
+  const bodyNormalized = normalizeForMatch(article.articleBody);
   const players: PracticeReportPlayer[] = [];
   for (const p of result.players) {
     // Verify against the source text before trusting anything the model
     // returned — the same defense-in-depth already used for headline
     // curation's id-matching, adapted here to a free-text extraction.
-    if (!p.playerName || !bodyLower.includes(p.playerName.toLowerCase())) {
+    if (!p.playerName || !bodyNormalized.includes(normalizeForMatch(p.playerName))) {
       console.warn(`Dropping "${p.playerName}" — not found verbatim in source text.`);
       continue;
     }
