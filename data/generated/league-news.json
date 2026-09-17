@@ -1,5 +1,23 @@
 [
   {
+    "id": "49964107",
+    "publishedAt": "2026-09-17T13:16:44Z",
+    "type": "Injury",
+    "headline": "Source: Texans' Nico Collins (hamstring) uncertain for Week 2",
+    "summary": "Texans star wide receiver Nico Collins suffered a hamstring injury during Wednesday's practice and is uncertain to play in Week 2 against the Bengals, a source told ESPN.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49964107/source-texans-nico-collins-hamstring-uncertain-week-2",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/brian-belichick-takes-over-steve-belichicks-role-calling-defense-for-bill-belichicks-team",
+    "publishedAt": "2026-09-17T14:45:16.000Z",
+    "type": "Transaction",
+    "headline": "Brian Belichick takes over Steve Belichick's role calling defense for Bill Belichick's team",
+    "summary": "With one of Bill Belichick's sons resigning as his defensive coordinator, Belichick's other son will take on the role.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/brian-belichick-takes-over-steve-belichicks-role-calling-defense-for-bill-belichicks-team",
+    "sourceName": "Pro Football Talk"
+  },
+  {
     "id": "profootballrumors-https://www.profootballrumors.com/?p=420079",
     "publishedAt": "2026-09-17T03:38:04.000Z",
     "type": "Injury",
@@ -9,35 +27,8 @@
     "sourceName": "Pro Football Rumors"
   },
   {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/nico-collins-hurt-his-hamstring-in-wednesdays-practice",
-    "publishedAt": "2026-09-17T11:17:04.000Z",
-    "type": "Injury",
-    "headline": "Nico Collins hurt his hamstring in Wednesday's practice",
-    "summary": "Texans wide receiver Nico Collins was listed as a limited participant in Wednesday's practice due to a hamstring injury that took place during the session.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/nico-collins-hurt-his-hamstring-in-wednesdays-practice",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=420050",
-    "publishedAt": "2026-09-17T01:00:53.000Z",
-    "type": "Injury",
-    "headline": "49ers Place TE Jake Tonges On IR",
-    "summary": "8:00PM: ESPN’s Adam Schefter confirmed again today that Tonges’ knee injury “wasn’t good.” He reported that the undrafted Cal product is set to miss the rest of the season. Tonges’ injury was diagnosed as a torn MCL, and the 27-year-old will undergo surgery that will keep him on IR for all of 2026. 2:45PM: After […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/09/49ers-place-te-jake-tonges-on-ir",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=420014",
-    "publishedAt": "2026-09-17T03:31:10.000Z",
-    "type": "Analysis",
-    "headline": "Colts WR Keenan Allen Formally Charged With Two Misdemeanors",
-    "summary": "Colts wide receiver Keenan Allen was arrested on misdemeanor charges of DWI and DWI endangering a person on Aug. 30. Allen has now been formally charged with operating a vehicle with an alcohol concentration equivalent of 0.15 or more and operating a vehicle while intoxicated, Nathan Brown of the Indianapolis Star reports. Both charges are […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/09/colts-wr-keenan-allen-formally-charged-with-two-misdemeanors",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
     "id": "49962106",
-    "publishedAt": "2026-09-17T10:00:12Z",
+    "publishedAt": "2026-09-17T14:38:32Z",
     "type": "Analysis",
     "headline": "How family and fatherhood are fueling Lions QB Jared Goff",
     "summary": "The arrival of Goff's daughter, Romy Isabelle, has helped sharpened the quarterback's focus heading into 2026.",
@@ -52,5 +43,14 @@
     "summary": "— Baker Mayfield has become the leader and face of the franchise the Cleveland Browns hoped for when they drafted him No. 1 overall in 2018.",
     "sourceUrl": "http://www.espn.com/nfl/preview?gameId=401872935",
     "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=420119",
+    "publishedAt": "2026-09-17T14:52:09.000Z",
+    "type": "Analysis",
+    "headline": "Former LB Fredd Young Passes Away",
+    "summary": "Former Seahawks and Colts linebacker Fredd Young passed away at the age of 64 on Tuesday, the Seahawks confirmed. The cause of death was not disclosed. “A standout linebacker who impacted the game in multiple ways,” the Seahawks wrote in an X post. “We remember the life and legacy of Fredd Young.” After a stellar […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/09/former-lb-fredd-young-passes-away",
+    "sourceName": "Pro Football Rumors"
   }
 ]
