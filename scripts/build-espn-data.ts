@@ -469,22 +469,6 @@ function normalizeName(name: string): string {
     .trim();
 }
 
-// TEMPORARY: writes a small diagnostic file (committed like any other
-// generated file) so a real run's behavior can be inspected after the
-// fact without needing raw Actions log access. Remove once the merge is
-// confirmed working reliably in production.
-async function debugLog(entry: Record<string, unknown>) {
-  const debugPath = path.join(GENERATED_DIR, "_debug-injury-merge.json");
-  let existing: Record<string, unknown>[] = [];
-  try {
-    existing = JSON.parse(await readFile(debugPath, "utf-8"));
-  } catch {
-    existing = [];
-  }
-  existing.push({ at: new Date().toISOString(), ...entry });
-  await writeFile(debugPath, JSON.stringify(existing.slice(-10), null, 2));
-}
-
 async function applyPatriotsPracticeReport(
   entries: InjuryReportEntry[],
   team: string,
@@ -497,33 +481,18 @@ async function applyPatriotsPracticeReport(
       "utf-8"
     );
     report = JSON.parse(content) as PatriotsPracticeReport;
-  } catch (err) {
-    await debugLog({ team, week, outcome: "read-failed", error: String(err) });
+  } catch {
     return entries;
   }
-  if (report.week !== week) {
-    await debugLog({ team, week, reportWeek: report.week, outcome: "week-mismatch" });
-    return entries;
-  }
+  if (report.week !== week) return entries;
 
   const teamPlayers = report.players.filter((p) => p.team === team);
-  if (teamPlayers.length === 0) {
-    await debugLog({
-      team,
-      week,
-      outcome: "no-team-players",
-      reportTeams: [...new Set(report.players.map((p) => p.team))],
-    });
-    return entries;
-  }
+  if (teamPlayers.length === 0) return entries;
 
   const byName = new Map(teamPlayers.map((p) => [normalizeName(p.playerName), p]));
-  const entryNames = entries.map((e) => normalizeName(e.playerName));
-  let matchCount = 0;
   const merged = entries.map((e) => {
     const match = byName.get(normalizeName(e.playerName));
     if (!match) return e;
-    matchCount++;
     byName.delete(normalizeName(e.playerName));
     return {
       ...e,
@@ -573,17 +542,6 @@ async function applyPatriotsPracticeReport(
     }
   }
 
-  await debugLog({
-    team,
-    week,
-    outcome: "applied",
-    entryCount: entries.length,
-    entryNames,
-    reportTeamPlayerCount: teamPlayers.length,
-    matchCount,
-    addedCount: byName.size,
-    mergedCount: merged.length,
-  });
   return merged;
 }
 
@@ -636,15 +594,6 @@ async function main() {
       `Wrote injuries.json (${injuries.length} entries for week ${week}, source: ${nflverseInjuries ? "nflverse" : "ESPN fallback"}, patriots.com practice-report merged where matched)`
     );
   } else {
-    const rosterRaw = await readRawJson<EspnRosterResponse>("espn-roster.json");
-    await debugLog({
-      stage: "base-injuries-null",
-      team: TEAM,
-      week,
-      nflverseInjuriesWasNull: nflverseInjuries === null,
-      espnRosterRawReadable: rosterRaw !== null,
-      espnRosterHasAthletes: !!rosterRaw?.athletes,
-    });
     console.warn("injuries.json not updated — kept previous version, if any.");
   }
 
@@ -663,15 +612,6 @@ async function main() {
         `Wrote opponent-injuries.json (${oppInjuries.length} entries for ${opponent}, source: ${nflverseOppInjuries ? "nflverse" : "ESPN fallback"}, patriots.com practice-report merged where matched)`
       );
     } else {
-      const oppRosterRaw = await readRawJson<EspnRosterResponse>("espn-opponent-roster.json");
-      await debugLog({
-        stage: "base-injuries-null",
-        team: opponent,
-        week,
-        nflverseInjuriesWasNull: nflverseOppInjuries === null,
-        espnRosterRawReadable: oppRosterRaw !== null,
-        espnRosterHasAthletes: !!oppRosterRaw?.athletes,
-      });
       console.warn("opponent-injuries.json not updated — kept previous version, if any.");
     }
   }
