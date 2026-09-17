@@ -46,47 +46,53 @@ async function fetchOne(name: string, url: string) {
 // it can lag the team's own site by a day or more during game week.
 // scripts/build-patriots-injury-report.ts parses the article this fetches.
 async function fetchPatriotsInjuryArticle() {
-  let xml: string;
+  // Everything here — not just the network call — is wrapped in one try/
+  // catch. An uncaught throw (e.g. the XML parser choking on some edge-case
+  // character in whatever headline happens to be in the feed this run)
+  // would otherwise reject main()'s promise and exit the whole script with
+  // code 1, exactly the kind of hard failure this codebase avoids
+  // everywhere else in favor of failing soft and keeping last-good data.
   try {
-    xml = await readFile(path.join(RAW_DIR, "team-rss.xml"), "utf-8");
-  } catch {
-    console.warn("team-rss.xml not available, skipping patriots.com injury article fetch.");
-    return;
-  }
+    let xml: string;
+    try {
+      xml = await readFile(path.join(RAW_DIR, "team-rss.xml"), "utf-8");
+    } catch {
+      console.warn("team-rss.xml not available, skipping patriots.com injury article fetch.");
+      return;
+    }
 
-  interface RssItem {
-    title?: string;
-    link?: string;
-    pubDate?: string;
-    "media:keywords"?: string;
-  }
-  const parser = new XMLParser({ ignoreAttributes: false, htmlEntities: true });
-  const parsed = parser.parse(xml);
-  const rawItems = parsed?.rss?.channel?.item;
-  const items: RssItem[] = Array.isArray(rawItems) ? rawItems : rawItems ? [rawItems] : [];
+    interface RssItem {
+      title?: string;
+      link?: string;
+      pubDate?: string;
+      "media:keywords"?: string;
+    }
+    const parser = new XMLParser({ ignoreAttributes: false, htmlEntities: true });
+    const parsed = parser.parse(xml);
+    const rawItems = parsed?.rss?.channel?.item;
+    const items: RssItem[] = Array.isArray(rawItems) ? rawItems : rawItems ? [rawItems] : [];
 
-  const injuryItems = items.filter((item) =>
-    String(item["media:keywords"] ?? "")
-      .toLowerCase()
-      .includes("injury report")
-  );
-  if (injuryItems.length === 0) {
-    console.log("No injury-report article found in this fetch of team-rss.xml.");
-    return;
-  }
+    const injuryItems = items.filter((item) =>
+      String(item["media:keywords"] ?? "")
+        .toLowerCase()
+        .includes("injury report")
+    );
+    if (injuryItems.length === 0) {
+      console.log("No injury-report article found in this fetch of team-rss.xml.");
+      return;
+    }
 
-  // Newest first, in case more than one is present (shouldn't normally
-  // happen within one week, but pubDate is the honest tiebreaker either way).
-  injuryItems.sort(
-    (a, b) => new Date(b.pubDate ?? 0).getTime() - new Date(a.pubDate ?? 0).getTime()
-  );
-  const link = injuryItems[0].link;
-  if (!link) return;
+    // Newest first, in case more than one is present (shouldn't normally
+    // happen within one week, but pubDate is the honest tiebreaker either way).
+    injuryItems.sort(
+      (a, b) => new Date(b.pubDate ?? 0).getTime() - new Date(a.pubDate ?? 0).getTime()
+    );
+    const link = injuryItems[0].link;
+    if (!link) return;
 
-  try {
     await fetchOne("patriots-injury-article.html", link);
   } catch (err) {
-    console.error("Warning: patriots-injury-article.html fetch failed, keeping last-good copy.", err);
+    console.error("Warning: patriots.com injury article fetch/parse failed, keeping last-good copy.", err);
   }
 }
 

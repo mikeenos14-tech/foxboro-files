@@ -621,6 +621,15 @@ async function main() {
       `Wrote injuries.json (${injuries.length} entries for week ${week}, source: ${nflverseInjuries ? "nflverse" : "ESPN fallback"}, patriots.com practice-report merged where matched)`
     );
   } else {
+    const rosterRaw = await readRawJson<EspnRosterResponse>("espn-roster.json");
+    await debugLog({
+      stage: "base-injuries-null",
+      team: TEAM,
+      week,
+      nflverseInjuriesWasNull: nflverseInjuries === null,
+      espnRosterRawReadable: rosterRaw !== null,
+      espnRosterHasAthletes: !!rosterRaw?.athletes,
+    });
     console.warn("injuries.json not updated — kept previous version, if any.");
   }
 
@@ -639,6 +648,15 @@ async function main() {
         `Wrote opponent-injuries.json (${oppInjuries.length} entries for ${opponent}, source: ${nflverseOppInjuries ? "nflverse" : "ESPN fallback"}, patriots.com practice-report merged where matched)`
       );
     } else {
+      const oppRosterRaw = await readRawJson<EspnRosterResponse>("espn-opponent-roster.json");
+      await debugLog({
+        stage: "base-injuries-null",
+        team: opponent,
+        week,
+        nflverseInjuriesWasNull: nflverseOppInjuries === null,
+        espnRosterRawReadable: oppRosterRaw !== null,
+        espnRosterHasAthletes: !!oppRosterRaw?.athletes,
+      });
       console.warn("opponent-injuries.json not updated — kept previous version, if any.");
     }
   }
