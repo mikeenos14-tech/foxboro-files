@@ -9,6 +9,24 @@
     "sourceName": "ESPN"
   },
   {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=420144",
+    "publishedAt": "2026-09-17T17:15:11.000Z",
+    "type": "Injury",
+    "headline": "Lions Down Multiple O-Line Starters",
+    "summary": "Visiting Buffalo on Thursday night, Detroit will have to start multiple backups along the offensive line. The Lions have ruled out right tackle Blake Miller (knee) and left guard Christian Mahogany (hip) for Week 2. Beginning with the March release of longtime stalwart Taylor Decker, the Lions shook up their offensive tackle alignment in the offseason. […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/09/lions-down-multiple-o-line-starters",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/tua-tagovailoa-remains-out-of-practice-on-thursday",
+    "publishedAt": "2026-09-17T17:57:51.000Z",
+    "type": "Injury",
+    "headline": "Tua Tagovailoa remains out of practice on Thursday",
+    "summary": "At this point, it looks like Tua Tagovailoa is out of the running to start Atlanta's Week 2 matchup against Carolina.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/tua-tagovailoa-remains-out-of-practice-on-thursday",
+    "sourceName": "Pro Football Talk"
+  },
+  {
     "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/brian-belichick-takes-over-steve-belichicks-role-calling-defense-for-bill-belichicks-team",
     "publishedAt": "2026-09-17T14:45:16.000Z",
     "type": "Transaction",
@@ -18,39 +36,21 @@
     "sourceName": "Pro Football Talk"
   },
   {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=420079",
-    "publishedAt": "2026-09-17T03:38:04.000Z",
-    "type": "Injury",
-    "headline": "Seahawks Rule Out QB Sam Darnold For Week 2",
-    "summary": "As expected, the Seahawks will be without their starting quarterback in Week 2. Head coach Mike Macdonald confirmed on Wednesday that Sam Darnold will miss Seattle’s upcoming game against the Cardinals. Darnold’s season debut was cut short by what initially appeared to be a hip injury. Early testing suggested a long-term absence would not be in store, and it […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/09/seahawks-rule-out-qb-sam-darnold-for-week-2",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "49962106",
-    "publishedAt": "2026-09-17T14:38:32Z",
+    "id": "49966224",
+    "publishedAt": "2026-09-17T17:53:30Z",
     "type": "Analysis",
-    "headline": "How family and fatherhood are fueling Lions QB Jared Goff",
-    "summary": "The arrival of Goff's daughter, Romy Isabelle, has helped sharpened the quarterback's focus heading into 2026.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49962106/jared-goff-lions-family-wife-christen-goff-fatherhood-daughter-super-bowl-2026-season",
+    "headline": "Packers on a 6-game skid going back to last season and face a Jets squad looking for a 2-0 start",
+    "summary": "— It has been quite a while since Jordan Love and the Green Bay Packers walked off the field with a victory.",
+    "sourceUrl": "http://www.espn.com/nfl/preview?gameId=401872936",
     "sourceName": "ESPN"
   },
   {
-    "id": "49962326",
-    "publishedAt": "2026-09-17T04:43:29Z",
+    "id": "49966099",
+    "publishedAt": "2026-09-17T17:30:53Z",
     "type": "Analysis",
-    "headline": "Browns-Buccaneers matchup Sunday is more than just Baker Mayfield facing his old team",
-    "summary": "— Baker Mayfield has become the leader and face of the franchise the Cleveland Browns hoped for when they drafted him No. 1 overall in 2018.",
-    "sourceUrl": "http://www.espn.com/nfl/preview?gameId=401872935",
+    "headline": "The 49ers return from dominating win in Australia to take on the Dolphins in home opener",
+    "summary": "— The scenario to start the season for the San Francisco 49ers couldn't have been much more challenging.",
+    "sourceUrl": "http://www.espn.com/nfl/preview?gameId=401872942",
     "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=420119",
-    "publishedAt": "2026-09-17T14:52:09.000Z",
-    "type": "Analysis",
-    "headline": "Former LB Fredd Young Passes Away",
-    "summary": "Former Seahawks and Colts linebacker Fredd Young passed away at the age of 64 on Tuesday, the Seahawks confirmed. The cause of death was not disclosed. “A standout linebacker who impacted the game in multiple ways,” the Seahawks wrote in an X post. “We remember the life and legacy of Fredd Young.” After a stellar […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/09/former-lb-fredd-young-passes-away",
-    "sourceName": "Pro Football Rumors"
   }
 ]
