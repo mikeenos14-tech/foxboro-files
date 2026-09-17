@@ -469,6 +469,22 @@ function normalizeName(name: string): string {
     .trim();
 }
 
+// TEMPORARY: writes a small diagnostic file (committed like any other
+// generated file) so a real run's behavior can be inspected after the
+// fact without needing raw Actions log access. Remove once the merge is
+// confirmed working reliably in production.
+async function debugLog(entry: Record<string, unknown>) {
+  const debugPath = path.join(GENERATED_DIR, "_debug-injury-merge.json");
+  let existing: Record<string, unknown>[] = [];
+  try {
+    existing = JSON.parse(await readFile(debugPath, "utf-8"));
+  } catch {
+    existing = [];
+  }
+  existing.push({ at: new Date().toISOString(), ...entry });
+  await writeFile(debugPath, JSON.stringify(existing.slice(-10), null, 2));
+}
+
 async function applyPatriotsPracticeReport(
   entries: InjuryReportEntry[],
   team: string,
@@ -481,18 +497,33 @@ async function applyPatriotsPracticeReport(
       "utf-8"
     );
     report = JSON.parse(content) as PatriotsPracticeReport;
-  } catch {
+  } catch (err) {
+    await debugLog({ team, week, outcome: "read-failed", error: String(err) });
     return entries;
   }
-  if (report.week !== week) return entries;
+  if (report.week !== week) {
+    await debugLog({ team, week, reportWeek: report.week, outcome: "week-mismatch" });
+    return entries;
+  }
 
   const teamPlayers = report.players.filter((p) => p.team === team);
-  if (teamPlayers.length === 0) return entries;
+  if (teamPlayers.length === 0) {
+    await debugLog({
+      team,
+      week,
+      outcome: "no-team-players",
+      reportTeams: [...new Set(report.players.map((p) => p.team))],
+    });
+    return entries;
+  }
 
   const byName = new Map(teamPlayers.map((p) => [normalizeName(p.playerName), p]));
+  const entryNames = entries.map((e) => normalizeName(e.playerName));
+  let matchCount = 0;
   const merged = entries.map((e) => {
     const match = byName.get(normalizeName(e.playerName));
     if (!match) return e;
+    matchCount++;
     byName.delete(normalizeName(e.playerName));
     return {
       ...e,
@@ -527,6 +558,17 @@ async function applyPatriotsPracticeReport(
     }
   }
 
+  await debugLog({
+    team,
+    week,
+    outcome: "applied",
+    entryCount: entries.length,
+    entryNames,
+    reportTeamPlayerCount: teamPlayers.length,
+    matchCount,
+    addedCount: byName.size,
+    mergedCount: merged.length,
+  });
   return merged;
 }
 
