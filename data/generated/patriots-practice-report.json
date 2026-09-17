@@ -25,6 +25,13 @@
     },
     {
       "team": "NE",
+      "playerName": "Dre'Mont Jones",
+      "position": "LB",
+      "injury": "Foot",
+      "practiceStatus": "Limited"
+    },
+    {
+      "team": "NE",
       "playerName": "Robert Spillane",
       "position": "LB",
       "injury": "Knee",

@@ -9,15 +9,6 @@
     "sourceName": "ESPN"
   },
   {
-    "id": "49959077",
-    "publishedAt": "2026-09-16T19:34:55Z",
-    "type": "Injury",
-    "headline": "Vikings RB Jordan Mason put on IR after having surgery on thumb",
-    "summary": "Vikings running back Jordan Mason was placed on injured reserve Wednesday after undergoing surgery to repair a fractured thumb.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49959077/vikings-rb-jordan-mason-put-ir-having-surgery-thumb",
-    "sourceName": "ESPN"
-  },
-  {
     "id": "profootballrumors-https://www.profootballrumors.com/?p=420082",
     "publishedAt": "2026-09-16T22:09:51.000Z",
     "type": "Injury",
@@ -27,12 +18,21 @@
     "sourceName": "Pro Football Rumors"
   },
   {
-    "id": "49959236",
-    "publishedAt": "2026-09-16T21:35:59Z",
+    "id": "49959077",
+    "publishedAt": "2026-09-16T19:34:55Z",
     "type": "Injury",
-    "headline": "Seahawks rule QB Sam Darnold (glute) out vs. Cardinals",
-    "summary": "The Seahawks ruled out QB Sam Darnold for Sunday's game against the Cardinals due to the glute injury he suffered in Wednesday's season-opening win.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49959236/seahawks-rule-qb-sam-darnold-glute-vs-cardinals",
+    "headline": "Vikings RB Jordan Mason put on IR after having surgery on thumb",
+    "summary": "Vikings running back Jordan Mason was placed on injured reserve Wednesday after undergoing surgery to repair a fractured thumb.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49959077/vikings-rb-jordan-mason-put-ir-having-surgery-thumb",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "49960637",
+    "publishedAt": "2026-09-17T00:15:36Z",
+    "type": "Analysis",
+    "headline": "Buccaneers' Zampese says Browns messed up by trading Mayfield",
+    "summary": "Buccaneers assistant coach Ken Zampease, who was Baker Mayfield's QB coach with the Browns in 2018, says Cleveland messed up by trading the QB.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49960637/buccaneers-zampese-says-browns-messed-trading-mayfield",
     "sourceName": "ESPN"
   },
   {
@@ -45,12 +45,12 @@
     "sourceName": "ESPN"
   },
   {
-    "id": "49960637",
-    "publishedAt": "2026-09-16T23:43:54Z",
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/broncos-chiefs-drew-23-2-million-viewers-on-monday-night",
+    "publishedAt": "2026-09-17T00:04:42.000Z",
     "type": "Analysis",
-    "headline": "Buccaneers' Zampese says Browns messed up by trading Mayfield",
-    "summary": "Buccaneers assistant coach Ken Zampease, who was Baker Mayfield's QB coach with the Browns in 2018, says Cleveland messed up by trading the QB.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49960637/buccaneers-zampese-says-browns-messed-trading-mayfield",
-    "sourceName": "ESPN"
+    "headline": "Broncos-Chiefs drew 23.2 million viewers on Monday night",
+    "summary": "The Monday Night Football opener drew a big audience, with the Chiefs' 31-10 win over the Broncos getting 23.2 million viewers.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/broncos-chiefs-drew-23-2-million-viewers-on-monday-night",
+    "sourceName": "Pro Football Talk"
   }
 ]
