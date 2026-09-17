@@ -9,15 +9,6 @@
     "sourceName": "ESPN"
   },
   {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=420082",
-    "publishedAt": "2026-09-16T22:09:51.000Z",
-    "type": "Injury",
-    "headline": "49ers TE Jake Tonges To Undergo Season-Ending Knee Surgery",
-    "summary": "The 49ers placed tight end Jake Tonges on injured reserve Wednesday. The fifth-year tight end was known to be in store for missed time as a result, but he will not return in 2026. Head coach Kyle Shanahan announced (h/t Matt Barrows of The Athletic) Tonges will undergo surgery on his injured MCL. He will miss the remainder of […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/09/49ers-te-jake-tonges-to-undergo-season-ending-knee-surgery",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
     "id": "49959077",
     "publishedAt": "2026-09-16T19:34:55Z",
     "type": "Injury",
@@ -27,12 +18,21 @@
     "sourceName": "ESPN"
   },
   {
-    "id": "49960637",
-    "publishedAt": "2026-09-17T00:15:36Z",
-    "type": "Analysis",
-    "headline": "Buccaneers' Zampese says Browns messed up by trading Mayfield",
-    "summary": "Buccaneers assistant coach Ken Zampease, who was Baker Mayfield's QB coach with the Browns in 2018, says Cleveland messed up by trading the QB.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49960637/buccaneers-zampese-says-browns-messed-trading-mayfield",
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=420082",
+    "publishedAt": "2026-09-16T22:09:51.000Z",
+    "type": "Injury",
+    "headline": "49ers TE Jake Tonges To Undergo Season-Ending Knee Surgery",
+    "summary": "The 49ers placed tight end Jake Tonges on injured reserve Wednesday. The fifth-year tight end was known to be in store for missed time as a result, but he will not return in 2026. Head coach Kyle Shanahan announced (h/t Matt Barrows of The Athletic) Tonges will undergo surgery on his injured MCL. He will miss the remainder of […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/09/49ers-te-jake-tonges-to-undergo-season-ending-knee-surgery",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "49959236",
+    "publishedAt": "2026-09-16T21:35:59Z",
+    "type": "Injury",
+    "headline": "Seahawks rule QB Sam Darnold (glute) out vs. Cardinals",
+    "summary": "The Seahawks ruled out QB Sam Darnold for Sunday's game against the Cardinals due to the glute injury he suffered in Wednesday's season-opening win.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49959236/seahawks-rule-qb-sam-darnold-glute-vs-cardinals",
     "sourceName": "ESPN"
   },
   {
@@ -45,12 +45,12 @@
     "sourceName": "ESPN"
   },
   {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/broncos-chiefs-drew-23-2-million-viewers-on-monday-night",
-    "publishedAt": "2026-09-17T00:04:42.000Z",
+    "id": "49960637",
+    "publishedAt": "2026-09-17T00:26:07Z",
     "type": "Analysis",
-    "headline": "Broncos-Chiefs drew 23.2 million viewers on Monday night",
-    "summary": "The Monday Night Football opener drew a big audience, with the Chiefs' 31-10 win over the Broncos getting 23.2 million viewers.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/broncos-chiefs-drew-23-2-million-viewers-on-monday-night",
-    "sourceName": "Pro Football Talk"
+    "headline": "Buccaneers' Zampese says Browns messed up by trading Mayfield",
+    "summary": "Buccaneers assistant coach Ken Zampease, who was Baker Mayfield's QB coach with the Browns in 2018, says Cleveland messed up by trading the QB.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49960637/buccaneers-zampese-says-browns-messed-trading-mayfield",
+    "sourceName": "ESPN"
   }
 ]
