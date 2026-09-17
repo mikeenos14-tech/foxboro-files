@@ -16,6 +16,7 @@ import { readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { XMLParser } from "fast-xml-parser";
 import { loadCsv, num } from "./lib/csv";
+import { buildLeagueRosterByGsis } from "./lib/roster";
 import type { Game, InjuryReportEntry, NewsItem, NewsType } from "../lib/data/types";
 
 const RAW_DIR = path.join(process.cwd(), "data", "raw");
@@ -435,6 +436,100 @@ async function buildInjuriesFromNflverse(
   }));
 }
 
+// patriots.com's own weekly report (parsed by build-patriots-injury-report.ts)
+// covers both teams and is the freshest available source for practice
+// status specifically — nflverse mirrors the same official report but only
+// on its own release cadence, so during game week it can lag the team's
+// own site by a day or more; ESPN's public endpoints never carry practice
+// status at all. This overlays that fresher data onto whichever base list
+// (nflverse or ESPN) was already built, and adds any player patriots.com
+// flags that the base list missed entirely — real during Wed/Thu, when a
+// merely-limited player often has no game-status designation yet for
+// ESPN's live-status feed to have picked up.
+interface PatriotsPracticeReport {
+  week: number;
+  asOf: string;
+  players: Array<{
+    team: string;
+    playerName: string;
+    position: string;
+    injury: string;
+    practiceStatus: InjuryReportEntry["practiceStatus"];
+    gameStatus?: "Out" | "Doubtful" | "Questionable" | "Probable";
+  }>;
+}
+
+function normalizeName(name: string): string {
+  return name
+    .toLowerCase()
+    .replace(/[.'’]/g, "")
+    .replace(/\b(jr|sr|ii|iii|iv|v)\b/g, "")
+    .replace(/[^a-z ]/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+async function applyPatriotsPracticeReport(
+  entries: InjuryReportEntry[],
+  team: string,
+  week: number
+): Promise<InjuryReportEntry[]> {
+  let report: PatriotsPracticeReport;
+  try {
+    const content = await readFile(
+      path.join(GENERATED_DIR, "patriots-practice-report.json"),
+      "utf-8"
+    );
+    report = JSON.parse(content) as PatriotsPracticeReport;
+  } catch {
+    return entries;
+  }
+  if (report.week !== week) return entries;
+
+  const teamPlayers = report.players.filter((p) => p.team === team);
+  if (teamPlayers.length === 0) return entries;
+
+  const byName = new Map(teamPlayers.map((p) => [normalizeName(p.playerName), p]));
+  const merged = entries.map((e) => {
+    const match = byName.get(normalizeName(e.playerName));
+    if (!match) return e;
+    byName.delete(normalizeName(e.playerName));
+    return {
+      ...e,
+      practiceStatus: match.practiceStatus,
+      gameStatus: match.gameStatus ?? e.gameStatus,
+      lastUpdated: report.asOf,
+    };
+  });
+
+  // Anything left in byName is a player patriots.com flagged that the base
+  // source didn't have at all — add them so real signal isn't dropped just
+  // because ESPN hadn't assigned a game-status designation yet.
+  if (byName.size > 0) {
+    const rosterByGsis = await buildLeagueRosterByGsis();
+    const rosterByName = new Map(
+      [...rosterByGsis.values()]
+        .filter((r) => r.team === team)
+        .map((r) => [normalizeName(r.full_name), r])
+    );
+    for (const p of byName.values()) {
+      const rosterMatch = rosterByName.get(normalizeName(p.playerName));
+      merged.push({
+        playerId: rosterMatch?.gsis_id ?? `patriots-${normalizeName(p.playerName).replace(/ /g, "-")}`,
+        playerName: p.playerName,
+        position: p.position || rosterMatch?.position || "",
+        week,
+        injury: p.injury,
+        practiceStatus: p.practiceStatus,
+        gameStatus: p.gameStatus ?? null,
+        lastUpdated: report.asOf,
+      });
+    }
+  }
+
+  return merged;
+}
+
 async function main() {
   const espnNews = await buildNews();
   const rssNews = await buildTeamRssNews();
@@ -473,14 +568,15 @@ async function main() {
   const week = await currentWeek();
 
   const nflverseInjuries = await buildInjuriesFromNflverse(TEAM, week);
-  const injuries = nflverseInjuries ?? (await buildInjuriesFromEspn("espn-roster.json", week));
-  if (injuries) {
+  const baseInjuries = nflverseInjuries ?? (await buildInjuriesFromEspn("espn-roster.json", week));
+  if (baseInjuries) {
+    const injuries = await applyPatriotsPracticeReport(baseInjuries, TEAM, week);
     await writeFile(
       path.join(GENERATED_DIR, "injuries.json"),
       JSON.stringify(injuries, null, 2)
     );
     console.log(
-      `Wrote injuries.json (${injuries.length} entries for week ${week}, source: ${nflverseInjuries ? "nflverse" : "ESPN fallback"})`
+      `Wrote injuries.json (${injuries.length} entries for week ${week}, source: ${nflverseInjuries ? "nflverse" : "ESPN fallback"}, patriots.com practice-report merged where matched)`
     );
   } else {
     console.warn("injuries.json not updated — kept previous version, if any.");
@@ -489,15 +585,16 @@ async function main() {
   const opponent = await nextGameOpponent();
   if (opponent) {
     const nflverseOppInjuries = await buildInjuriesFromNflverse(opponent, week);
-    const oppInjuries =
+    const baseOppInjuries =
       nflverseOppInjuries ?? (await buildInjuriesFromEspn("espn-opponent-roster.json", week));
-    if (oppInjuries) {
+    if (baseOppInjuries) {
+      const oppInjuries = await applyPatriotsPracticeReport(baseOppInjuries, opponent, week);
       await writeFile(
         path.join(GENERATED_DIR, "opponent-injuries.json"),
         JSON.stringify(oppInjuries, null, 2)
       );
       console.log(
-        `Wrote opponent-injuries.json (${oppInjuries.length} entries for ${opponent}, source: ${nflverseOppInjuries ? "nflverse" : "ESPN fallback"})`
+        `Wrote opponent-injuries.json (${oppInjuries.length} entries for ${opponent}, source: ${nflverseOppInjuries ? "nflverse" : "ESPN fallback"}, patriots.com practice-report merged where matched)`
       );
     } else {
       console.warn("opponent-injuries.json not updated — kept previous version, if any.");

@@ -11,10 +11,10 @@ name: Refresh headlines data
 # Every source here (ESPN's public endpoints, patriots.com's RSS feed) is
 # free and keyless; pushing back to this same repo uses the token GitHub
 # provides to every Actions run automatically. The exceptions are the
-# beat-writer digest and league-headlines curation steps, which use the
-# ANTHROPIC_API_KEY repo secret — both fail soft (continue-on-error) and
-# simply leave the previous output in place if that secret is ever
-# missing or a call fails.
+# beat-writer digest, league-headlines curation, and patriots.com practice
+# report steps, which use the ANTHROPIC_API_KEY repo secret — all three
+# fail soft (continue-on-error) and simply leave the previous output in
+# place if that secret is ever missing or a call fails.
 
 on:
   schedule:
@@ -50,6 +50,12 @@ jobs:
 
       - name: Fetch nflverse injury report (practice status, official designations)
         run: npx tsx scripts/fetch-nflverse.ts injuries_2026.csv
+        continue-on-error: true
+
+      - name: Parse patriots.com's own practice report (freshest practice-status source)
+        run: npx tsx scripts/build-patriots-injury-report.ts
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         continue-on-error: true
 
       - name: Build news and injury reports

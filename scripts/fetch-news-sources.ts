@@ -9,6 +9,7 @@
 
 import { mkdir, writeFile, readFile } from "node:fs/promises";
 import path from "node:path";
+import { XMLParser } from "fast-xml-parser";
 import { ESPN_TEAM_ID } from "./lib/espnTeams";
 import type { Game } from "../lib/data/types";
 
@@ -33,6 +34,60 @@ async function fetchOne(name: string, url: string) {
   const text = await res.text();
   await writeFile(path.join(RAW_DIR, name), text);
   console.log(`Saved ${name} (${(text.length / 1024).toFixed(0)} KB)`);
+}
+
+// patriots.com tags their weekly practice-report article (title format
+// varies — "Week N Injury Report", "Patriots-Opponent Injury Report Week
+// N", etc. — but the media:keywords tag "Injury Report" has stayed
+// consistent) with the real Wed/Thu/Fri practice-participation detail
+// (Did Not Participate/Limited/Full) that neither ESPN's public endpoints
+// nor nflverse's periodic release can offer same-day — nflverse mirrors
+// the official report but only refreshes on its own release cadence, so
+// it can lag the team's own site by a day or more during game week.
+// scripts/build-patriots-injury-report.ts parses the article this fetches.
+async function fetchPatriotsInjuryArticle() {
+  let xml: string;
+  try {
+    xml = await readFile(path.join(RAW_DIR, "team-rss.xml"), "utf-8");
+  } catch {
+    console.warn("team-rss.xml not available, skipping patriots.com injury article fetch.");
+    return;
+  }
+
+  interface RssItem {
+    title?: string;
+    link?: string;
+    pubDate?: string;
+    "media:keywords"?: string;
+  }
+  const parser = new XMLParser({ ignoreAttributes: false, htmlEntities: true });
+  const parsed = parser.parse(xml);
+  const rawItems = parsed?.rss?.channel?.item;
+  const items: RssItem[] = Array.isArray(rawItems) ? rawItems : rawItems ? [rawItems] : [];
+
+  const injuryItems = items.filter((item) =>
+    String(item["media:keywords"] ?? "")
+      .toLowerCase()
+      .includes("injury report")
+  );
+  if (injuryItems.length === 0) {
+    console.log("No injury-report article found in this fetch of team-rss.xml.");
+    return;
+  }
+
+  // Newest first, in case more than one is present (shouldn't normally
+  // happen within one week, but pubDate is the honest tiebreaker either way).
+  injuryItems.sort(
+    (a, b) => new Date(b.pubDate ?? 0).getTime() - new Date(a.pubDate ?? 0).getTime()
+  );
+  const link = injuryItems[0].link;
+  if (!link) return;
+
+  try {
+    await fetchOne("patriots-injury-article.html", link);
+  } catch (err) {
+    console.error("Warning: patriots-injury-article.html fetch failed, keeping last-good copy.", err);
+  }
 }
 
 async function main() {
@@ -110,6 +165,8 @@ async function main() {
       console.error(`Warning: ${name} fetch failed, keeping last-good copy.`, err);
     }
   }
+
+  await fetchPatriotsInjuryArticle();
 }
 
 main().catch((err) => {
