@@ -16,7 +16,7 @@ import { readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { XMLParser } from "fast-xml-parser";
 import { loadCsv, num } from "./lib/csv";
-import { buildLeagueRosterByGsis } from "./lib/roster";
+import { buildLeagueRosterByGsis, type RosterRow } from "./lib/roster";
 import type { Game, InjuryReportEntry, NewsItem, NewsType } from "../lib/data/types";
 
 const RAW_DIR = path.join(process.cwd(), "data", "raw");
@@ -536,13 +536,28 @@ async function applyPatriotsPracticeReport(
   // Anything left in byName is a player patriots.com flagged that the base
   // source didn't have at all — add them so real signal isn't dropped just
   // because ESPN hadn't assigned a game-status designation yet.
+  //
+  // roster_2026.csv isn't fetched by every workflow that runs this script
+  // — refresh-headlines.yml deliberately only pulls the small,
+  // fast-changing injuries CSV every 3 hours, not the much larger roster
+  // file (see fetch-nflverse.ts) — so it may genuinely not exist on disk
+  // here. loadCsv has no fallback of its own for a missing file, so this
+  // is wrapped: better to add these players with a synthetic id (still
+  // real data) than let a missing, unrelated CSV crash the whole script
+  // and silently skip writing injuries.json entirely (the actual root
+  // cause of the practice-report merge never showing up in production).
   if (byName.size > 0) {
-    const rosterByGsis = await buildLeagueRosterByGsis();
-    const rosterByName = new Map(
-      [...rosterByGsis.values()]
-        .filter((r) => r.team === team)
-        .map((r) => [normalizeName(r.full_name), r])
-    );
+    let rosterByName = new Map<string, RosterRow>();
+    try {
+      const rosterByGsis = await buildLeagueRosterByGsis();
+      rosterByName = new Map(
+        [...rosterByGsis.values()]
+          .filter((r) => r.team === team)
+          .map((r) => [normalizeName(r.full_name), r])
+      );
+    } catch (err) {
+      console.warn("Could not load roster_2026.csv for id/position lookup — adding players without it.", err);
+    }
     for (const p of byName.values()) {
       const rosterMatch = rosterByName.get(normalizeName(p.playerName));
       merged.push({
