@@ -1,5 +1,41 @@
 [
   {
+    "id": "0f4416f6-f251-4f76-a056-ff78cae97b53",
+    "publishedAt": "2026-09-17T20:08:00.000Z",
+    "type": "Injury",
+    "headline": "Week 2 Injury Report: Patriots vs. Steelers",
+    "summary": "The New England Patriots and the Pittsburgh Steelers announce the following player injuries and practice participation ahead of their Week 2 game.",
+    "sourceUrl": "https://www.patriots.com/news/week-2-injury-report-patriots-vs-steelers",
+    "sourceName": "Patriots.com"
+  },
+  {
+    "id": "d64c52bd-3569-4ba8-af51-f8edb3e57f0a",
+    "publishedAt": "2026-09-17T20:04:50.000Z",
+    "type": "Transaction",
+    "headline": "Patriots Sign OL Xavier Newman-Johnson to the Practice Squad and Release OL Jacob Rizy from the Practice Squad",
+    "summary": "The Patriots announced today that they have signed OL Xavier Newman-Johnson to the practice squad and released OL Jacob Rizy from the practice squad.",
+    "sourceUrl": "https://www.patriots.com/news/patriots-sign-ol-xavier-newman-johnson-to-the-practice-squad-and-release-ol-jacob-rizy-from-the-practice-squad",
+    "sourceName": "Patriots.com"
+  },
+  {
+    "id": "77e66f62-423f-40df-bff7-d94029c79f7f",
+    "publishedAt": "2026-09-17T19:51:53.000Z",
+    "type": "Analysis",
+    "headline": "Stefon Gilmore Returns to Foxborough to Retire a Patriot",
+    "summary": "The New England Patriots will host former All-Pro cornerback Stephon Gilmore on Friday, Sept. 18, as he returns to Foxborough to retire a Patriot. He will address the  media during a press conference at 2:10 PM ET.",
+    "sourceUrl": "https://www.patriots.com/news/stefon-gilmore-returns-to-foxborough-to-retire-a-patriot",
+    "sourceName": "Patriots.com"
+  },
+  {
+    "id": "49966375",
+    "publishedAt": "2026-09-17T18:25:53Z",
+    "type": "Injury",
+    "headline": "Patriots' TreVeyon Henderson says he's 'ready to go' for Week 2",
+    "summary": "Patriots running back TreVeyon Henderson said Thursday he's \"ready to go\" for Sunday's game against the Steelers after missing New England's opener with an ankle injury.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49966375/patriots-treveyon-henderson-says-ready-go-week-2",
+    "sourceName": "ESPN"
+  },
+  {
     "id": "caf5bbef-4b7a-4f37-b197-34e57501be6f",
     "publishedAt": "2026-09-17T16:16:49.000Z",
     "type": "Analysis",
@@ -18,24 +54,6 @@
     "sourceName": "Patriots.com"
   },
   {
-    "id": "0f4416f6-f251-4f76-a056-ff78cae97b53",
-    "publishedAt": "2026-09-17T03:59:00.000Z",
-    "type": "Injury",
-    "headline": "Week 2 Injury Report: Patriots vs. Steelers",
-    "summary": "The New England Patriots and the Pittsburgh Steelers announce the following player injuries and practice participation ahead of their Week 2 game.",
-    "sourceUrl": "https://www.patriots.com/news/week-2-injury-report-patriots-vs-steelers",
-    "sourceName": "Patriots.com"
-  },
-  {
-    "id": "dceb4b9a-935e-4ac3-993e-f79d25ba8f90",
-    "publishedAt": "2026-09-16T14:47:05.000Z",
-    "type": "Analysis",
-    "headline": "Teachers at Providence elementary school surprised with generous back-to-school donation from Drake & Ann Michael Maye",
-    "summary": "New England Patriots quarterback Drake Maye and his wife, Ann Michael, paid for the Amazon classroom wish lists of more than 50 teachers and support specialists at Alfred Lima Sr., Elementary School in Providence Rhode Island.",
-    "sourceUrl": "https://www.patriots.com/news/teachers-at-providence-elementary-school-surprised-with-generous-back-to-school-donation-from-drake-ann-michael-maye",
-    "sourceName": "Patriots.com"
-  },
-  {
     "id": "49956845",
     "publishedAt": "2026-09-16T14:18:58Z",
     "type": "Analysis",
@@ -43,15 +61,6 @@
     "summary": "Can Drake Maye and the Patriots bounce back vs. the Steelers?",
     "sourceUrl": "https://www.espn.com/video/clip/_/id/49956845/can-drake-maye-patriots-bounce-back-vs-steelers",
     "sourceName": "ESPN"
-  },
-  {
-    "id": "61037c13-023e-47d2-b11d-29b0d9f63b49",
-    "publishedAt": "2026-09-16T13:28:00.000Z",
-    "type": "Analysis",
-    "headline": "Game Preview: Patriots vs. Steelers",
-    "summary": "The New England Patriots will host the Pittsburgh Steelers for their 2026 home opener at Gillette Stadium on Sunday, September 20 at 1 PM ET.",
-    "sourceUrl": "https://www.patriots.com/news/game-preview-patriots-vs-steelers-week2",
-    "sourceName": "Patriots.com"
   },
   {
     "id": "49943754",
@@ -87,15 +96,6 @@
     "headline": "Sources: Patriots' A.J. Brown to go on IR, miss at least 4 games",
     "summary": "The Patriots are placing wide receiver A.J .Brown on injured reserve due to his high ankle sprain, sidelining him for a minimum of four games, sources told ESPN's Adam Schefter.",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/49905144/sources-patriots-aj-brown-go-ir-miss-least-4-games",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "49904397",
-    "publishedAt": "2026-09-11T16:46:26Z",
-    "type": "Transaction",
-    "headline": "Sources: Patriots to add DaQuan Jones on 1-year deal",
-    "summary": "The Patriots are expected to sign free agent defensive tackle DaQuan Jones to a one-year deal worth up to $6 million, sources told NFL Network.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49904397/sources-patriots-add-daquan-jones-1-year-6m-deal",
     "sourceName": "ESPN"
   }
 ]

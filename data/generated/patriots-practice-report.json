@@ -1,6 +1,6 @@
 {
   "week": 2,
-  "asOf": "2026-09-17T13:33:01.684Z",
+  "asOf": "2026-09-17T20:08:16.546Z",
   "players": [
     {
       "team": "NE",
@@ -32,23 +32,23 @@
     },
     {
       "team": "NE",
-      "playerName": "Robert Spillane",
-      "position": "LB",
-      "injury": "Knee",
-      "practiceStatus": "Limited"
-    },
-    {
-      "team": "NE",
       "playerName": "TreVeyon Henderson",
       "position": "RB",
       "injury": "Ankle",
       "practiceStatus": "Full"
     },
     {
+      "team": "NE",
+      "playerName": "Robert Spillane",
+      "position": "LB",
+      "injury": "Knee",
+      "practiceStatus": "Full"
+    },
+    {
       "team": "PIT",
-      "playerName": "Troy Fautanu",
-      "position": "OT",
-      "injury": "Ankle",
+      "playerName": "Michael Pittman Jr.",
+      "position": "WR",
+      "injury": "Foot",
       "practiceStatus": "Did Not Participate"
     },
     {
@@ -60,9 +60,16 @@
     },
     {
       "team": "PIT",
-      "playerName": "Michael Pittman Jr.",
-      "position": "WR",
-      "injury": "Foot",
+      "playerName": "Cameron Heyward",
+      "position": "DT",
+      "injury": "Not Injury Related / Rest",
+      "practiceStatus": "Did Not Participate"
+    },
+    {
+      "team": "PIT",
+      "playerName": "Troy Fautanu",
+      "position": "OT",
+      "injury": "Ankle",
       "practiceStatus": "Limited"
     },
     {

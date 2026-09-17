@@ -5,9 +5,9 @@
     "position": "WR",
     "week": 2,
     "injury": "Foot",
-    "practiceStatus": "Limited",
+    "practiceStatus": "Did Not Participate",
     "gameStatus": null,
-    "lastUpdated": "2026-09-17T13:33:01.684Z"
+    "lastUpdated": "2026-09-17T20:08:16.546Z"
   },
   {
     "playerId": "00-0038558",
@@ -17,7 +17,7 @@
     "injury": "Not injury related - personal matter",
     "practiceStatus": "Did Not Participate",
     "gameStatus": null,
-    "lastUpdated": "2026-09-17T13:33:01.684Z"
+    "lastUpdated": "2026-09-17T20:08:16.546Z"
   },
   {
     "playerId": "00-0039167",
@@ -27,7 +27,7 @@
     "injury": "Not injury related - other",
     "practiceStatus": "Limited",
     "gameStatus": null,
-    "lastUpdated": "2026-09-17T13:33:01.684Z"
+    "lastUpdated": "2026-09-17T20:08:16.546Z"
   },
   {
     "playerId": "00-0039871",
@@ -35,8 +35,18 @@
     "position": "T",
     "week": 2,
     "injury": "Ankle",
+    "practiceStatus": "Limited",
+    "gameStatus": null,
+    "lastUpdated": "2026-09-17T20:08:16.546Z"
+  },
+  {
+    "playerId": "patriots-cameron-heyward",
+    "playerName": "Cameron Heyward",
+    "position": "DT",
+    "week": 2,
+    "injury": "Not Injury Related / Rest",
     "practiceStatus": "Did Not Participate",
     "gameStatus": null,
-    "lastUpdated": "2026-09-17T13:33:01.684Z"
+    "lastUpdated": "2026-09-17T20:08:16.546Z"
   }
 ]
