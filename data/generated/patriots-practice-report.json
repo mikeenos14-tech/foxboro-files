@@ -1,0 +1,69 @@
+{
+  "week": 2,
+  "asOf": "2026-09-16T20:21:53.326Z",
+  "players": [
+    {
+      "team": "NE",
+      "playerName": "Dametrious Crownover",
+      "position": "T",
+      "injury": "Knee",
+      "practiceStatus": "Did Not Participate"
+    },
+    {
+      "team": "NE",
+      "playerName": "Carlton Davis III",
+      "position": "CB",
+      "injury": "Neck",
+      "practiceStatus": "Did Not Participate"
+    },
+    {
+      "team": "NE",
+      "playerName": "Ben Brown",
+      "position": "OL",
+      "injury": "Knee",
+      "practiceStatus": "Limited"
+    },
+    {
+      "team": "NE",
+      "playerName": "Robert Spillane",
+      "position": "LB",
+      "injury": "Knee",
+      "practiceStatus": "Limited"
+    },
+    {
+      "team": "NE",
+      "playerName": "TreVeyon Henderson",
+      "position": "RB",
+      "injury": "Ankle",
+      "practiceStatus": "Full"
+    },
+    {
+      "team": "PIT",
+      "playerName": "Troy Fautanu",
+      "position": "OT",
+      "injury": "Ankle",
+      "practiceStatus": "Did Not Participate"
+    },
+    {
+      "team": "PIT",
+      "playerName": "Darnell Washington",
+      "position": "TE",
+      "injury": "Not Injury Related / Personal",
+      "practiceStatus": "Did Not Participate"
+    },
+    {
+      "team": "PIT",
+      "playerName": "Michael Pittman Jr.",
+      "position": "WR",
+      "injury": "Foot",
+      "practiceStatus": "Limited"
+    },
+    {
+      "team": "PIT",
+      "playerName": "Joey Porter Jr.",
+      "position": "CB",
+      "injury": "Not Injury Related / Conditioning",
+      "practiceStatus": "Limited"
+    }
+  ]
+}
