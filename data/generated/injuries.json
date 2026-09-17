@@ -1,79 +1,61 @@
 [
   {
-    "playerId": "4362890",
-    "playerName": "Ben Brown",
-    "position": "C",
-    "week": 2,
-    "injury": "Knee",
-    "gameStatus": "Questionable",
-    "lastUpdated": "2026-09-16T20:21:53.326Z",
-    "practiceStatus": "Limited"
-  },
-  {
-    "playerId": "4431526",
-    "playerName": "Dametrious Crownover",
-    "position": "OT",
-    "week": 2,
-    "injury": "Knee",
-    "gameStatus": "Questionable",
-    "lastUpdated": "2026-09-16T20:21:53.326Z",
-    "practiceStatus": "Did Not Participate"
-  },
-  {
-    "playerId": "3916923",
-    "playerName": "Carlton Davis III",
-    "position": "CB",
-    "week": 2,
-    "injury": "Neck",
-    "gameStatus": "Questionable",
-    "lastUpdated": "2026-09-16T20:21:53.326Z",
-    "practiceStatus": "Did Not Participate"
-  },
-  {
-    "playerId": "3915525",
-    "playerName": "Dre'Mont Jones",
-    "position": "DE",
-    "week": 2,
-    "injury": "Foot",
-    "gameStatus": "Questionable",
-    "lastUpdated": "2026-09-16T20:21:53.326Z",
-    "practiceStatus": "Limited"
-  },
-  {
-    "playerId": "3129446",
+    "playerId": "00-0034720",
     "playerName": "Robert Spillane",
     "position": "LB",
     "week": 2,
     "injury": "Knee",
-    "gameStatus": "Questionable",
-    "lastUpdated": "2026-09-16T20:21:53.326Z",
-    "practiceStatus": "Limited"
+    "practiceStatus": "Limited",
+    "gameStatus": null,
+    "lastUpdated": "2026-09-16T20:21:53.326Z"
   },
   {
-    "playerId": "3122793",
-    "playerName": "Harold Landry III",
+    "playerId": "00-0034778",
+    "playerName": "Carlton Davis III",
+    "position": "CB",
+    "week": 2,
+    "injury": "Neck",
+    "practiceStatus": "Did Not Participate",
+    "gameStatus": null,
+    "lastUpdated": "2026-09-16T20:21:53.326Z"
+  },
+  {
+    "playerId": "00-0035678",
+    "playerName": "Dre'Mont Jones",
     "position": "LB",
     "week": 2,
-    "injury": "Undisclosed",
-    "gameStatus": "Out",
-    "lastUpdated": "2026-08-31T18:30Z"
+    "injury": "Foot",
+    "practiceStatus": "Limited",
+    "gameStatus": null,
+    "lastUpdated": "2026-09-16T20:21:53.326Z"
   },
   {
-    "playerId": "4047941",
-    "playerName": "Brenden Schooler",
-    "position": "S",
+    "playerId": "00-0037413",
+    "playerName": "Ben Brown",
+    "position": "C",
     "week": 2,
-    "injury": "Undisclosed",
-    "gameStatus": "Out",
-    "lastUpdated": "2026-09-08T20:42Z"
+    "injury": "Knee",
+    "practiceStatus": "Limited",
+    "gameStatus": null,
+    "lastUpdated": "2026-09-16T20:21:53.326Z"
   },
   {
-    "playerId": "patriots-treveyon-henderson",
+    "playerId": "00-0040734",
     "playerName": "TreVeyon Henderson",
     "position": "RB",
     "week": 2,
     "injury": "Ankle",
     "practiceStatus": "Full",
+    "gameStatus": null,
+    "lastUpdated": "2026-09-16T20:21:53.326Z"
+  },
+  {
+    "playerId": "00-0041103",
+    "playerName": "Dametrious Crownover",
+    "position": "T",
+    "week": 2,
+    "injury": "Knee",
+    "practiceStatus": "Did Not Participate",
     "gameStatus": null,
     "lastUpdated": "2026-09-16T20:21:53.326Z"
   }

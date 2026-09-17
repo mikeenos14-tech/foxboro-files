@@ -1,49 +1,40 @@
 [
   {
-    "playerId": "4427170",
-    "playerName": "Troy Fautanu",
-    "position": "OT",
-    "week": 2,
-    "injury": "Ankle",
-    "gameStatus": "Questionable",
-    "lastUpdated": "2026-09-16T20:21:53.326Z",
-    "practiceStatus": "Did Not Participate"
-  },
-  {
-    "playerId": "4035687",
-    "playerName": "Michael Pittman Jr.",
+    "playerId": "00-0036252",
+    "playerName": "Michael Pittman",
     "position": "WR",
     "week": 2,
     "injury": "Foot",
-    "gameStatus": "Questionable",
-    "lastUpdated": "2026-09-16T20:21:53.326Z",
-    "practiceStatus": "Limited"
+    "practiceStatus": "Limited",
+    "gameStatus": null,
+    "lastUpdated": "2026-09-16T20:21:53.326Z"
   },
   {
-    "playerId": "4426506",
-    "playerName": "Joey Porter Jr.",
-    "position": "CB",
-    "week": 2,
-    "injury": "Undisclosed",
-    "gameStatus": "Questionable",
-    "lastUpdated": "2026-09-16T20:21:53.326Z",
-    "practiceStatus": "Limited"
-  },
-  {
-    "playerId": "4608004",
-    "playerName": "Donte Kent",
-    "position": "CB",
-    "week": 2,
-    "injury": "Undisclosed",
-    "gameStatus": "Out",
-    "lastUpdated": "2026-09-01T00:02Z"
-  },
-  {
-    "playerId": "patriots-darnell-washington",
+    "playerId": "00-0038558",
     "playerName": "Darnell Washington",
     "position": "TE",
     "week": 2,
-    "injury": "Not Injury Related / Personal",
+    "injury": "Not injury related - personal matter",
+    "practiceStatus": "Did Not Participate",
+    "gameStatus": null,
+    "lastUpdated": "2026-09-16T20:21:53.326Z"
+  },
+  {
+    "playerId": "00-0039167",
+    "playerName": "Joey Porter Jr.",
+    "position": "CB",
+    "week": 2,
+    "injury": "Not injury related - other",
+    "practiceStatus": "Limited",
+    "gameStatus": null,
+    "lastUpdated": "2026-09-16T20:21:53.326Z"
+  },
+  {
+    "playerId": "00-0039871",
+    "playerName": "Troy Fautanu",
+    "position": "T",
+    "week": 2,
+    "injury": "Ankle",
     "practiceStatus": "Did Not Participate",
     "gameStatus": null,
     "lastUpdated": "2026-09-16T20:21:53.326Z"
