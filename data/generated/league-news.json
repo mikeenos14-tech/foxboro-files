@@ -36,21 +36,21 @@
     "sourceName": "ESPN"
   },
   {
-    "id": "49960740",
-    "publishedAt": "2026-09-16T23:57:00Z",
-    "type": "Analysis",
-    "headline": "Bears anticipate 'great challenge' vs. Brian Flores' Vikings defense",
-    "summary": "\"Coach [Ben Johnson] calls this 'mental war' when you go against versus him, and that's what it is,\" Bears QB Caleb Williams said of facing a Brian Flores-led defense, which Chicago will do Sunday against Minnesota.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49960740/bears-caleb-williams-prepare-great-challenge-facing-brian-flores-led-vikings-defense",
-    "sourceName": "ESPN"
-  },
-  {
     "id": "49960637",
     "publishedAt": "2026-09-17T00:26:07Z",
     "type": "Analysis",
     "headline": "Buccaneers' Zampese says Browns messed up by trading Mayfield",
     "summary": "Buccaneers assistant coach Ken Zampease, who was Baker Mayfield's QB coach with the Browns in 2018, says Cleveland messed up by trading the QB.",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/49960637/buccaneers-zampese-says-browns-messed-trading-mayfield",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "49960740",
+    "publishedAt": "2026-09-16T23:57:00Z",
+    "type": "Analysis",
+    "headline": "Bears anticipate 'great challenge' vs. Brian Flores' Vikings defense",
+    "summary": "\"Coach [Ben Johnson] calls this 'mental war' when you go against versus him, and that's what it is,\" Bears QB Caleb Williams said of facing a Brian Flores-led defense, which Chicago will do Sunday against Minnesota.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49960740/bears-caleb-williams-prepare-great-challenge-facing-brian-flores-led-vikings-defense",
     "sourceName": "ESPN"
   }
 ]

@@ -1,0 +1,39 @@
+[
+  {
+    "at": "2026-09-17T00:40:14.298Z",
+    "team": "NE",
+    "week": 2,
+    "outcome": "applied",
+    "entryCount": 7,
+    "entryNames": [
+      "ben brown",
+      "dametrious crownover",
+      "carlton davis",
+      "dremont jones",
+      "robert spillane",
+      "harold landry",
+      "brenden schooler"
+    ],
+    "reportTeamPlayerCount": 6,
+    "matchCount": 5,
+    "addedCount": 1,
+    "mergedCount": 8
+  },
+  {
+    "at": "2026-09-17T00:40:14.446Z",
+    "team": "PIT",
+    "week": 2,
+    "outcome": "applied",
+    "entryCount": 4,
+    "entryNames": [
+      "troy fautanu",
+      "michael pittman",
+      "joey porter",
+      "donte kent"
+    ],
+    "reportTeamPlayerCount": 4,
+    "matchCount": 3,
+    "addedCount": 1,
+    "mergedCount": 5
+  }
+]

@@ -6,7 +6,8 @@
     "week": 2,
     "injury": "Ankle",
     "gameStatus": "Questionable",
-    "lastUpdated": "2026-09-16T20:32Z"
+    "lastUpdated": "2026-09-16T20:21:53.326Z",
+    "practiceStatus": "Did Not Participate"
   },
   {
     "playerId": "4035687",
@@ -15,7 +16,8 @@
     "week": 2,
     "injury": "Foot",
     "gameStatus": "Questionable",
-    "lastUpdated": "2026-09-16T20:38Z"
+    "lastUpdated": "2026-09-16T20:21:53.326Z",
+    "practiceStatus": "Limited"
   },
   {
     "playerId": "4426506",
@@ -24,7 +26,8 @@
     "week": 2,
     "injury": "Undisclosed",
     "gameStatus": "Questionable",
-    "lastUpdated": "2026-09-15T15:39Z"
+    "lastUpdated": "2026-09-16T20:21:53.326Z",
+    "practiceStatus": "Limited"
   },
   {
     "playerId": "4608004",
@@ -34,5 +37,15 @@
     "injury": "Undisclosed",
     "gameStatus": "Out",
     "lastUpdated": "2026-09-01T00:02Z"
+  },
+  {
+    "playerId": "patriots-darnell-washington",
+    "playerName": "Darnell Washington",
+    "position": "TE",
+    "week": 2,
+    "injury": "Not Injury Related / Personal",
+    "practiceStatus": "Did Not Participate",
+    "gameStatus": null,
+    "lastUpdated": "2026-09-16T20:21:53.326Z"
   }
 ]
