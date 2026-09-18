@@ -1,5 +1,15 @@
 [
   {
+    "playerId": "00-0027969",
+    "playerName": "Cameron Heyward",
+    "position": "DT",
+    "week": 2,
+    "injury": "Not injury related - resting player",
+    "practiceStatus": "Did Not Participate",
+    "gameStatus": null,
+    "lastUpdated": "2026-09-18T02:44:58.753Z"
+  },
+  {
     "playerId": "00-0036252",
     "playerName": "Michael Pittman",
     "position": "WR",
@@ -24,7 +34,7 @@
     "playerName": "Joey Porter Jr.",
     "position": "CB",
     "week": 2,
-    "injury": "Not injury related - other",
+    "injury": "Back",
     "practiceStatus": "Limited",
     "gameStatus": null,
     "lastUpdated": "2026-09-18T02:44:58.753Z"
@@ -36,16 +46,6 @@
     "week": 2,
     "injury": "Ankle",
     "practiceStatus": "Limited",
-    "gameStatus": null,
-    "lastUpdated": "2026-09-18T02:44:58.753Z"
-  },
-  {
-    "playerId": "patriots-cameron-heyward",
-    "playerName": "Cameron Heyward",
-    "position": "DT",
-    "week": 2,
-    "injury": "Not Injury Related / Rest",
-    "practiceStatus": "Did Not Participate",
     "gameStatus": null,
     "lastUpdated": "2026-09-18T02:44:58.753Z"
   }
