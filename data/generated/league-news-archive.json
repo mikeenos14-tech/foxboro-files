@@ -1,12 +1,282 @@
 [
   {
+    "id": "49975015",
+    "publishedAt": "2026-09-18T21:04:28Z",
+    "type": "Analysis",
+    "headline": "FBI case against fake 49ers player adds more alleged victims",
+    "summary": "The FBI has identified 35 additional women who say they were defrauded by Daejon Love and Taylor Chan, bringing the total number of alleged victims in a case that included Love impersonating as a 49ers player to more than 60.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49975015/fbi-case-fake-49ers-player-adds-more-alleged-victims",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-macdonald-not-sure-when-sam-darnold-will-be-back-but-im-optimistic",
+    "publishedAt": "2026-09-18T20:57:37.000Z",
+    "type": "Injury",
+    "headline": "Mike Macdonald: Not sure when Sam Darnold will be back, but I'm optimistic",
+    "summary": "The Seahawks ruled quarterback Sam Darnold out for Week 2 a couple of days ago, but his health was still a topic for head coach Mike Macdonald during Friday's press conference.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-macdonald-not-sure-when-sam-darnold-will-be-back-but-im-optimistic",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "49974690",
+    "publishedAt": "2026-09-18T20:51:42Z",
+    "type": "Injury",
+    "headline": "Raiders listing TE Brock Bowers as doubtful vs. Chargers",
+    "summary": "Brock Bowers is doubtful to play against the Chargers, though the Raiders will see how the tight end feels pregame before making a final decision.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49974690/raiders-listing-te-brock-bowers-doubtful-vs-chargers",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=420220",
+    "publishedAt": "2026-09-18T20:50:00.000Z",
+    "type": "Injury",
+    "headline": "Giants Place Paulson Adebo On IR, Sign Nikko Reed Off Chargers’ Practice Squad",
+    "summary": "The Giants’ cornerback depth chart will have a different look for the time being. Head coach John Harbaugh announced on Friday that veteran Paulson Adebo has been moved to injured reserve. That means an absence of at least four games is now in store. Adebo, who carries a team-high cap charge of $24.2MM in 2026, was absent from practice […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/09/giants-place-paulson-adebo-on-ir-sign-nikko-reed-off-chargers-practice-squad",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "49973986",
+    "publishedAt": "2026-09-18T20:48:31Z",
+    "type": "Transaction",
+    "headline": "Stephon Gilmore, '19 NFL DPOY, retires as member of the Patriots",
+    "summary": "Stephon Gilmore, a two-time All-Pro cornerback and the NFL's 2019 Defensive Player of the Year, signed a one-day contract in New England on Friday to retire as a member of the Patriots,",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49973986/stephon-gilmore-19-nfl-dpoy-retiring-member-patriots",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/chargers-list-ladd-mcconkey-as-questionable",
+    "publishedAt": "2026-09-18T20:40:40.000Z",
+    "type": "Injury",
+    "headline": "Chargers list Ladd McConkey as questionable",
+    "summary": "The Chargers had wide receiver Ladd McConkey on the practice field Friday for the first time this week, but his status for Sunday's game against the Raiders remains up in the air.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/chargers-list-ladd-mcconkey-as-questionable",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "49974647",
+    "publishedAt": "2026-09-18T20:26:04Z",
+    "type": "Injury",
+    "headline": "Joey Porter Jr. out again for Steelers; WR Pittman questionable",
+    "summary": "The Steelers will be without top cornerback Joey Porter Jr. again amid their contentious contract negotiation. Wide receiver Michael Pittman Jr. (foot) and offensive tackle Troy Fautanu (ankle) are questionable to play.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49974647/joey-porter-jr-again-steelers-wr-pittman-questionable",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/chris-jones-mansoor-delane-listed-as-questionable-to-face-colts",
+    "publishedAt": "2026-09-18T20:25:58.000Z",
+    "type": "Injury",
+    "headline": "Chris Jones, Mansoor Delane listed as questionable to face Colts",
+    "summary": "The Chiefs have a couple of question marks on the defensive side of the ball heading into Sunday's game against the Colts.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/chris-jones-mansoor-delane-listed-as-questionable-to-face-colts",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "49974738",
+    "publishedAt": "2026-09-18T20:22:54Z",
+    "type": "Injury",
+    "headline": "Ravens' Zay Flowers doubtful vs. Saints; Nnamdi Madubuike out",
+    "summary": "Ravens receiver Zay Flowers is doubtful for Sunday's game vs. the Saints after he aggravated a left hamstring injury and missed the majority of practices this week.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49974738/ravens-zay-flowers-doubtful-vs-saints-nnamdi-madubuike-out",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/nico-collins-one-of-four-texans-players-ruled-out-for-week-2",
+    "publishedAt": "2026-09-18T20:10:18.000Z",
+    "type": "Injury",
+    "headline": "Nico Collins one of four Texans players ruled out for Week 2",
+    "summary": "If the Texans are going to beat the Bengals on Sunday, they'll have to do it without a few key players.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/nico-collins-one-of-four-texans-players-ruled-out-for-week-2",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "49974401",
+    "publishedAt": "2026-09-18T20:06:43Z",
+    "type": "Analysis",
+    "headline": "Vikings to start QB Wentz vs. Bears with Murray still on the mend",
+    "summary": "Carson Wentz will be the Vikings' starting quarterback Sunday against the Bears while Kyler Murray continues to work his way back after suffering a concussion in the season opener.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49974401/vikings-start-qb-wentz-vs-bears-murray-mend",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bengals-officially-list-joe-burrow-as-questionable",
+    "publishedAt": "2026-09-18T20:05:29.000Z",
+    "type": "Injury",
+    "headline": "Bengals officially list Joe Burrow as questionable",
+    "summary": "Burrow said earlier this week that he will be playing against the Texans on Sunday.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bengals-officially-list-joe-burrow-as-questionable",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jonathan-greenard-ruled-out-for-eagles-titans",
+    "publishedAt": "2026-09-18T20:02:05.000Z",
+    "type": "Injury",
+    "headline": "Jonathan Greenard ruled out for Eagles-Titans",
+    "summary": "The Eagles will once again be without edge rusher Jonathan Greenard for Sunday’s matchup against the Titans.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jonathan-greenard-ruled-out-for-eagles-titans",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=420216",
+    "publishedAt": "2026-09-18T20:01:00.000Z",
+    "type": "Injury",
+    "headline": "Vikings QB Kyler Murray Out For Week 2",
+    "summary": "Kyler Murray’s Vikings debut ended with a concussion. The free agent addition has made progress over the past few days with respect to his practice participation, but at least one full game on the sidelines is now in store. Head coach Kevin O’Connell said on Friday that Murray will be out for Week 2. He added that […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/09/vikings-qb-kyler-murray-out-for-week-2",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/steeler-rule-joey-porter-jr-out-again-this-week",
+    "publishedAt": "2026-09-18T19:48:35.000Z",
+    "type": "Injury",
+    "headline": "Steeler rule Joey Porter Jr. out again this week",
+    "summary": "Any hopes that cornerback Joey Porter Jr. would be in the Steelers' lineup for Sunday's game against the Patriots came to an end on Friday afternoon.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/steeler-rule-joey-porter-jr-out-again-this-week",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "49974508",
+    "publishedAt": "2026-09-18T19:47:27Z",
+    "type": "Injury",
+    "headline": "Dolphins' Chop Robinson has concussion, out vs. 49ers",
+    "summary": "Dolphins defensive end Chop Robinson will not play Sunday against the 49ers after suffering a concussion during Wednesday's practice, coach Jeff Hafley said.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49974508/dolphins-chop-robinson-concussion-vs-49ers",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/will-mcdonald-questionable-for-jets-minkah-fitzpatrick-ruled-out",
+    "publishedAt": "2026-09-18T19:39:07.000Z",
+    "type": "Injury",
+    "headline": "Will McDonald questionable for Jets, Minkah Fitzpatrick ruled out",
+    "summary": "The Jets will be missing a handful of players as they try to open a season with a 2-0 record for the first time since 2015, but they hope linebacker Will McDonald won't be one of them.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/will-mcdonald-questionable-for-jets-minkah-fitzpatrick-ruled-out",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/joe-brady-if-dj-moore-can-be-out-there-for-week-3-hell-be-out-there",
+    "publishedAt": "2026-09-18T19:37:56.000Z",
+    "type": "Injury",
+    "headline": "Joe Brady: If DJ Moore can be out there for Week 3, he’ll be out there",
+    "summary": "After defeating the Lions on Thursday night, the Bills will have a long weekend to rest up and heal before hosting the Chargers in Week 3.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/joe-brady-if-dj-moore-can-be-out-there-for-week-3-hell-be-out-there",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "49974555",
+    "publishedAt": "2026-09-18T19:26:53Z",
+    "type": "Injury",
+    "headline": "O'Connell confirms Wentz to start Week 2 with Murray out",
+    "summary": "O'Connell confirms Wentz to start Week 2 with Murray out",
+    "sourceUrl": "https://www.espn.com/video/clip/_/id/49974555/oconnell-confirms-wentz-start-week-2-murray-out",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/ravens-list-zay-flowers-as-doubtful-trey-hendrickson-and-ronnie-stanley-are-questionable",
+    "publishedAt": "2026-09-18T19:22:23.000Z",
+    "type": "Injury",
+    "headline": "Ravens list Zay Flowers as doubtful; Trey Hendrickson and Ronnie Stanley are questionable",
+    "summary": "Ravens wide receiver Zay Flowers was back on the practice field Friday, but he's unlikely to be back in their lineup for Sunday's game against the Saints.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/ravens-list-zay-flowers-as-doubtful-trey-hendrickson-and-ronnie-stanley-are-questionable",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=420204",
+    "publishedAt": "2026-09-18T19:18:20.000Z",
+    "type": "Analysis",
+    "headline": "Steelers-Joey Porter Jr. Impasse Based On Guarantee Structure",
+    "summary": "Every NFL team has their preferred way of doing business. The Steelers, who have enjoyed long stretches of continuity in terms of their ownership, front office, and coaching staff, are no different. They have a clear and established contract precedent, which specifically excludes negotiating extensions during the regular season and offering fully guaranteed money after […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/09/steelers-joey-porter-jr-impasse-based-on-guarantee-structure",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dandre-swift-kyle-monangai-good-to-go-for-bears",
+    "publishedAt": "2026-09-18T19:12:47.000Z",
+    "type": "Injury",
+    "headline": "D'Andre Swift, Kyle Monangai good to go for Bears",
+    "summary": "The Bears had their top two running backs on the injury report this week, but neither one of them is at risk of missing Sunday's game against the Vikings.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dandre-swift-kyle-monangai-good-to-go-for-bears",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/raiders-call-brock-bowers-doubtful-to-play-in-week-2",
+    "publishedAt": "2026-09-18T18:55:25.000Z",
+    "type": "Injury",
+    "headline": "Raiders call Brock Bowers doubtful to play in Week 2",
+    "summary": "Tight end Brock Bowers was back at practice for the Raiders on Friday, but it looks like he is going to miss another game.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/raiders-call-brock-bowers-doubtful-to-play-in-week-2",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bills-are-third-team-ever-to-start-2-0-while-giving-up-more-than-30-points-in-both-games",
+    "publishedAt": "2026-09-18T18:50:13.000Z",
+    "type": "Analysis",
+    "headline": "Bills are third team ever to start 2-0 while giving up more than 30 points in both games",
+    "summary": "The Bills have started the season with two wins over two teams that entered the season as favorites to win their divisions.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bills-are-third-team-ever-to-start-2-0-while-giving-up-more-than-30-points-in-both-games",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/rams-sign-s-tanner-ingle-to-53-man-roster",
+    "publishedAt": "2026-09-18T18:47:55.000Z",
+    "type": "Transaction",
+    "headline": "Rams sign S Tanner Ingle to 53-man roster",
+    "summary": "The Rams have made a couple of roster moves on Friday.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/rams-sign-s-tanner-ingle-to-53-man-roster",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/carson-wentz-will-start-for-the-vikings-on-sunday",
+    "publishedAt": "2026-09-18T18:47:18.000Z",
+    "type": "Analysis",
+    "headline": "Carson Wentz will start for the Vikings on Sunday",
+    "summary": "Kyler Murray remains in the concussion protocol.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/carson-wentz-will-start-for-the-vikings-on-sunday",
+    "sourceName": "Pro Football Talk"
+  },
+  {
     "id": "49974212",
-    "publishedAt": "2026-09-18T17:58:27Z",
+    "publishedAt": "2026-09-18T18:33:00Z",
     "type": "Beat Report",
     "headline": "QB Burrow good to go, DE Stewart set for Bengals debut vs. Texans",
     "summary": "Bengals QB Joe Burrow (back) was a full participant at Friday's practice and is set to start in Sunday's road affair against the Texans.",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/49974212/qb-burrow-good-go-de-stewart-set-bengals-debut-vs-texans",
     "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/frankie-luvu-chig-okonkwo-ruled-out-for-the-commanders",
+    "publishedAt": "2026-09-18T18:23:18.000Z",
+    "type": "Injury",
+    "headline": "Frankie Luvu, Chig Okonkwo ruled out for the Commanders",
+    "summary": "The Commanders ruled players out for Week 2 on both sides of the ball on Friday.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/frankie-luvu-chig-okonkwo-ruled-out-for-the-commanders",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-hope-to-avoid-historic-losing-streak-0-2-start",
+    "publishedAt": "2026-09-18T18:22:09.000Z",
+    "type": "Analysis",
+    "headline": "Packers hope to avoid historic losing streak, 0-2 start",
+    "summary": "The Packers, like half the league after Week 1, are 0-1.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-hope-to-avoid-historic-losing-streak-0-2-start",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=420211",
+    "publishedAt": "2026-09-18T18:17:55.000Z",
+    "type": "Analysis",
+    "headline": "Lions’ Brian Branch, Kerby Joseph Could Make Early Returns",
+    "summary": "The Lions’ secondary has been shorthanded to begin the season, something which was plainly obvious during last night’s blowout loss to the Bills. The unit could receive reinforcements earlier than Detroit hoped, though. During Thursday’s contest, Amazon Prime’s James Palmer reported there is an expectation that at least one of Brian Branch or Kerby Joseph could […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/09/lions-brian-branch-kerby-joseph-could-make-early-returns",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/chris-olave-chase-young-questionable-to-face-ravens",
+    "publishedAt": "2026-09-18T18:13:39.000Z",
+    "type": "Injury",
+    "headline": "Chris Olave, Chase Young questionable to face Ravens",
+    "summary": "Wide receiver Chris Olave and defensive end Chase Young practiced for the Saints on Friday, but the team isn't ready to guarantee they'll be in the lineup against the Ravens on Sunday.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/chris-olave-chase-young-questionable-to-face-ravens",
+    "sourceName": "Pro Football Talk"
   },
   {
     "id": "49974012",
@@ -24,15 +294,6 @@
     "headline": "Stefanski confirms Cooper Rush to start vs. Panthers",
     "summary": "Stefanski confirms Cooper Rush to start vs. Panthers",
     "sourceUrl": "https://www.espn.com/video/clip/_/id/49974205/stefanski-confirms-cooper-rush-start-vs-panthers",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "49973986",
-    "publishedAt": "2026-09-18T17:49:44Z",
-    "type": "Transaction",
-    "headline": "Stephon Gilmore, '19 NFL DPOY, retiring as member of the Patriots",
-    "summary": "Stephon Gilmore, a two-time All-Pro cornerback and the NFL's 2019 Defensive Player of the Year, is signing a one-day contract in New England to retire as a member of the Patriots,",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49973986/stephon-gilmore-19-nfl-dpoy-retiring-member-patriots",
     "sourceName": "ESPN"
   },
   {

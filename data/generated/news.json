@@ -1,29 +1,47 @@
 [
   {
     "id": "49973986",
-    "publishedAt": "2026-09-18T17:49:44Z",
+    "publishedAt": "2026-09-18T20:48:31Z",
     "type": "Transaction",
-    "headline": "Stephon Gilmore, '19 NFL DPOY, retiring as member of the Patriots",
-    "summary": "Stephon Gilmore, a two-time All-Pro cornerback and the NFL's 2019 Defensive Player of the Year, is signing a one-day contract in New England to retire as a member of the Patriots,",
+    "headline": "Stephon Gilmore, '19 NFL DPOY, retires as member of the Patriots",
+    "summary": "Stephon Gilmore, a two-time All-Pro cornerback and the NFL's 2019 Defensive Player of the Year, signed a one-day contract in New England on Friday to retire as a member of the Patriots,",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/49973986/stephon-gilmore-19-nfl-dpoy-retiring-member-patriots",
     "sourceName": "ESPN"
+  },
+  {
+    "id": "75f13f8b-0e28-4ebf-bc14-91b9498f5afb",
+    "publishedAt": "2026-09-18T19:33:13.000Z",
+    "type": "Injury",
+    "headline": "Injury Report Analysis: RB TreVeyon Henderson expected to play, CB Carlton Davis III officially questionable for Week 2 vs. Steelers",
+    "summary": "Henderson (ankle) is expected to return for the Patriots, but New England could be down its starting cornerback vs. the Steelers on Sunday.",
+    "sourceUrl": "https://www.patriots.com/news/injury-report-analysis-rb-treveyon-henderson-expected-to-play-cb-carlton-davis-iii-officially-questionable-for-week-2-vs-steelers",
+    "sourceName": "Patriots.com"
+  },
+  {
+    "id": "0f4416f6-f251-4f76-a056-ff78cae97b53",
+    "publishedAt": "2026-09-18T19:30:00.000Z",
+    "type": "Injury",
+    "headline": "Week 2 Injury Report: Patriots vs. Steelers",
+    "summary": "The New England Patriots and the Pittsburgh Steelers announce the following player injuries and game statuses ahead of their Week 2 game.",
+    "sourceUrl": "https://www.patriots.com/news/week-2-injury-report-patriots-vs-steelers",
+    "sourceName": "Patriots.com"
+  },
+  {
+    "id": "6cf91f59-da03-47a3-b518-27cd83e477e8",
+    "publishedAt": "2026-09-18T19:12:14.000Z",
+    "type": "Analysis",
+    "headline": "Patriots Honor Stephon Gilmore's Legacy as One of the Greatest Cornerbacks in Franchise History",
+    "summary": "Cornerback Stephon Gilmore announced his retirement from the NFL as a New England Patriot on Friday.",
+    "sourceUrl": "https://www.patriots.com/news/patriots-honor-stephon-gilmore-s-legacy-as-one-of-the-greatest-cornerbacks-in-franchise-history",
+    "sourceName": "Patriots.com"
   },
   {
     "id": "708ce3c6-297b-4f4b-a078-63fd7ae4fb36",
     "publishedAt": "2026-09-18T15:58:06.000Z",
     "type": "Analysis",
     "headline": "Pro Football Hall of Famer Adam Vinatieri to Kick off the Patriots Countdown to Munich by Attempting a Guinness World Record on the Jungfraujoch",
-    "summary": "The Patriots are joining forces with Jungfrau Railways to promote this year’s game in Munich with a kickoff event in the Swiss Alps in the DACH region. On Tuesday, September 22, Pro Football Hall of Fame placekicker Adam Vinatieri will attempt an official Guinness World Records kick at Jungfraujoch, a resort known as the Top of Europe in the Swiss Alps.",
+    "summary": "The Patriots are joining forces with Jungfrau Railways to promote this year’s game in Munich with a kickoff event in the Swiss Alps in the DACH region. Pro Football Hall of Fame placekicker Adam Vinatieri will attempt an official Guinness World Records kick at Jungfraujoch, a resort known as the Top of Europe in the Swiss Alps.",
     "sourceUrl": "https://www.patriots.com/news/pro-football-hall-of-famer-adam-vinatieri-to-kick-off-the-patriots-countdown-to-munich-by-attempting-a-guinness-world-record-on-the-jungfraujoch",
-    "sourceName": "Patriots.com"
-  },
-  {
-    "id": "77e66f62-423f-40df-bff7-d94029c79f7f",
-    "publishedAt": "2026-09-18T15:26:00.000Z",
-    "type": "Analysis",
-    "headline": "Stephon Gilmore Returns to Foxborough to Retire a Patriot",
-    "summary": "The New England Patriots will host former All-Pro cornerback Stephon Gilmore on Friday, Sept. 18, as he returns to Foxborough to retire a Patriot. He will address the  media during a press conference at 2:10 PM ET.",
-    "sourceUrl": "https://www.patriots.com/news/stephon-gilmore-returns-to-foxborough-to-retire-a-patriot",
     "sourceName": "Patriots.com"
   },
   {
@@ -33,24 +51,6 @@
     "headline": "How to Watch and Stream Sunday's Patriots Home Opener Against the Steelers",
     "summary": "Complete broadcast information for this week's game between the New England Patriots and the Pittsburgh Steelers on Sunday, September 20, 2026 at 1 PM ET.",
     "sourceUrl": "https://www.patriots.com/news/how-to-watch-and-stream-sunday-s-patriots-home-opener-against-the-steelers",
-    "sourceName": "Patriots.com"
-  },
-  {
-    "id": "24e32b1a-2fcc-4c11-b46a-8fccc48bb1f0",
-    "publishedAt": "2026-09-18T14:34:00.000Z",
-    "type": "Analysis",
-    "headline": "Expert Predictions: Week 2 Picks for Steelers at Patriots",
-    "summary": "Experts share their picks for the Patriots' Week 2 matchup against the Pittsburgh Steelers.",
-    "sourceUrl": "https://www.patriots.com/news/expert-predictions-week-2-picks-for-steelers-at-patriots",
-    "sourceName": "Patriots.com"
-  },
-  {
-    "id": "0f05dd3d-7cbf-49e0-b722-973dc1d25005",
-    "publishedAt": "2026-09-18T14:05:15.000Z",
-    "type": "Analysis",
-    "headline": "A son's memory, a mother's mission: Susan Shaw wins grand prize as Patriots honor 26 volunteers at 2026 Myra Kraft Community MVP Awards",
-    "summary": "The Patriots Foundation and presenting sponsor Gillette hosted the 2026 Myra Kraft Community MVP Awards, where volunteers from all six New England states were honored for their impact in the community.",
-    "sourceUrl": "https://www.patriots.com/news/a-son-s-memory-a-mother-s-mission-susan-shaw-wins-grand-prize-as-patriots-honor-26-volunteers-at-2026-myra-kraft-community-mvp-awards",
     "sourceName": "Patriots.com"
   },
   {

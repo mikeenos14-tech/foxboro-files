@@ -7,7 +7,7 @@
     "injury": "Not injury related - resting player",
     "practiceStatus": "Did Not Participate",
     "gameStatus": null,
-    "lastUpdated": "2026-09-18T14:33:35.214Z"
+    "lastUpdated": "2026-09-18T21:06:34.619Z"
   },
   {
     "playerId": "00-0036252",
@@ -15,9 +15,9 @@
     "position": "WR",
     "week": 2,
     "injury": "Foot",
-    "practiceStatus": "Did Not Participate",
-    "gameStatus": null,
-    "lastUpdated": "2026-09-18T14:33:35.214Z"
+    "practiceStatus": "Limited",
+    "gameStatus": "Questionable",
+    "lastUpdated": "2026-09-18T20:13:03.839Z"
   },
   {
     "playerId": "00-0038558",
@@ -27,7 +27,7 @@
     "injury": "Not injury related - personal matter",
     "practiceStatus": "Did Not Participate",
     "gameStatus": null,
-    "lastUpdated": "2026-09-18T14:33:35.214Z"
+    "lastUpdated": "2026-09-18T21:06:34.619Z"
   },
   {
     "playerId": "00-0039167",
@@ -35,9 +35,9 @@
     "position": "CB",
     "week": 2,
     "injury": "Back",
-    "practiceStatus": "Limited",
-    "gameStatus": null,
-    "lastUpdated": "2026-09-18T14:33:35.214Z"
+    "practiceStatus": "Did Not Participate",
+    "gameStatus": "Out",
+    "lastUpdated": "2026-09-18T20:13:03.839Z"
   },
   {
     "playerId": "00-0039871",
@@ -47,6 +47,6 @@
     "injury": "Ankle",
     "practiceStatus": "Limited",
     "gameStatus": null,
-    "lastUpdated": "2026-09-18T14:33:35.214Z"
+    "lastUpdated": "2026-09-18T21:06:34.619Z"
   }
 ]

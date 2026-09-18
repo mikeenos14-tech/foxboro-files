@@ -1,83 +1,61 @@
 {
   "week": 2,
-  "asOf": "2026-09-18T14:33:35.214Z",
+  "asOf": "2026-09-18T20:13:03.839Z",
   "players": [
     {
       "team": "NE",
+      "playerName": "TreVeyon Henderson",
+      "position": "RB",
+      "injury": "ankle",
+      "practiceStatus": "Full"
+    },
+    {
+      "team": "NE",
       "playerName": "Dametrious Crownover",
-      "position": "T",
-      "injury": "Knee",
-      "practiceStatus": "Did Not Participate"
+      "position": "OT",
+      "injury": "knee",
+      "practiceStatus": "Did Not Participate",
+      "gameStatus": "Out"
     },
     {
       "team": "NE",
       "playerName": "Carlton Davis III",
       "position": "CB",
-      "injury": "Neck",
-      "practiceStatus": "Did Not Participate"
-    },
-    {
-      "team": "NE",
-      "playerName": "Ben Brown",
-      "position": "OL",
-      "injury": "Knee",
-      "practiceStatus": "Limited"
+      "injury": "neck",
+      "practiceStatus": "Did Not Participate",
+      "gameStatus": "Questionable"
     },
     {
       "team": "NE",
       "playerName": "Dre'Mont Jones",
-      "position": "LB",
-      "injury": "Foot",
-      "practiceStatus": "Limited"
+      "position": "OLB",
+      "injury": "foot",
+      "practiceStatus": "Limited",
+      "gameStatus": "Questionable"
     },
     {
       "team": "NE",
-      "playerName": "TreVeyon Henderson",
-      "position": "RB",
-      "injury": "Ankle",
-      "practiceStatus": "Full"
-    },
-    {
-      "team": "NE",
-      "playerName": "Robert Spillane",
-      "position": "LB",
-      "injury": "Knee",
-      "practiceStatus": "Full"
+      "playerName": "Ben Brown",
+      "position": "C/G",
+      "injury": "knee",
+      "practiceStatus": "Limited",
+      "gameStatus": "Questionable"
     },
     {
       "team": "PIT",
       "playerName": "Michael Pittman Jr.",
       "position": "WR",
-      "injury": "Foot",
-      "practiceStatus": "Did Not Participate"
-    },
-    {
-      "team": "PIT",
-      "playerName": "Darnell Washington",
-      "position": "TE",
-      "injury": "Not Injury Related / Personal",
-      "practiceStatus": "Did Not Participate"
-    },
-    {
-      "team": "PIT",
-      "playerName": "Cameron Heyward",
-      "position": "DT",
-      "injury": "Not Injury Related / Rest",
-      "practiceStatus": "Did Not Participate"
-    },
-    {
-      "team": "PIT",
-      "playerName": "Troy Fautanu",
-      "position": "OT",
-      "injury": "Ankle",
-      "practiceStatus": "Limited"
+      "injury": "foot",
+      "practiceStatus": "Limited",
+      "gameStatus": "Questionable"
     },
     {
       "team": "PIT",
       "playerName": "Joey Porter Jr.",
       "position": "CB",
-      "injury": "Not Injury Related / Conditioning / Back",
-      "practiceStatus": "Limited"
+      "injury": "back",
+      "practiceStatus": "Did Not Participate",
+      "gameStatus": "Out"
     }
   ]
 }

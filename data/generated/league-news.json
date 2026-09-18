@@ -1,39 +1,30 @@
 [
   {
+    "id": "49975015",
+    "publishedAt": "2026-09-18T21:04:28Z",
+    "type": "Analysis",
+    "headline": "FBI case against fake 49ers player adds more alleged victims",
+    "summary": "The FBI has identified 35 additional women who say they were defrauded by Daejon Love and Taylor Chan, bringing the total number of alleged victims in a case that included Love impersonating as a 49ers player to more than 60.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49975015/fbi-case-fake-49ers-player-adds-more-alleged-victims",
+    "sourceName": "ESPN"
+  },
+  {
     "id": "49973986",
-    "publishedAt": "2026-09-18T17:49:44Z",
+    "publishedAt": "2026-09-18T20:48:31Z",
     "type": "Transaction",
-    "headline": "Stephon Gilmore, '19 NFL DPOY, retiring as member of the Patriots",
-    "summary": "Stephon Gilmore, a two-time All-Pro cornerback and the NFL's 2019 Defensive Player of the Year, is signing a one-day contract in New England to retire as a member of the Patriots,",
+    "headline": "Stephon Gilmore, '19 NFL DPOY, retires as member of the Patriots",
+    "summary": "Stephon Gilmore, a two-time All-Pro cornerback and the NFL's 2019 Defensive Player of the Year, signed a one-day contract in New England on Friday to retire as a member of the Patriots,",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/49973986/stephon-gilmore-19-nfl-dpoy-retiring-member-patriots",
     "sourceName": "ESPN"
   },
   {
-    "id": "49974212",
-    "publishedAt": "2026-09-18T17:58:27Z",
-    "type": "Beat Report",
-    "headline": "QB Burrow good to go, DE Stewart set for Bengals debut vs. Texans",
-    "summary": "Bengals QB Joe Burrow (back) was a full participant at Friday's practice and is set to start in Sunday's road affair against the Texans.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49974212/qb-burrow-good-go-de-stewart-set-bengals-debut-vs-texans",
+    "id": "49974401",
+    "publishedAt": "2026-09-18T20:06:43Z",
+    "type": "Analysis",
+    "headline": "Vikings to start QB Wentz vs. Bears with Murray still on the mend",
+    "summary": "Carson Wentz will be the Vikings' starting quarterback Sunday against the Bears while Kyler Murray continues to work his way back after suffering a concussion in the season opener.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49974401/vikings-start-qb-wentz-vs-bears-murray-mend",
     "sourceName": "ESPN"
-  },
-  {
-    "id": "49973798",
-    "publishedAt": "2026-09-18T16:32:20Z",
-    "type": "Injury",
-    "headline": "Mired in historic interception drought, Jets rule out Fitzpatrick",
-    "summary": "The Jets, mired in the longest interception drought in NFL history, will be without their most accomplished interceptor Sunday against the Packers as former All-Pro safety Minkah Fitzpatrick was ruled out with a groin injury.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49973798/mired-historic-interception-drought-jets-rule-fitzpatrick",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=420205",
-    "publishedAt": "2026-09-18T15:45:40.000Z",
-    "type": "Injury",
-    "headline": "Bills WR D.J. Moore Day-To-Day With AC Joint Sprain",
-    "summary": "Bills wide receiver D.J. Moore left Thursday night’s win over the Lions before halftime and did not return with the team announcing a shoulder injury as the cause. Moore is suspected to have suffered an AC joint sprain, according to NFL Network’s Ian Rapoport. ESPN’s Adam Schefter adds that the veteran wideout “has a chance” […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/09/bills-wr-d-j-moore-day-to-day-with-ac-joint-sprain",
-    "sourceName": "Pro Football Rumors"
   },
   {
     "id": "49974012",
@@ -45,12 +36,21 @@
     "sourceName": "ESPN"
   },
   {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jack-campbell-fights-back-tears-in-explaining-lions-loss-to-bills",
-    "publishedAt": "2026-09-18T13:56:36.000Z",
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=420211",
+    "publishedAt": "2026-09-18T18:17:55.000Z",
     "type": "Analysis",
-    "headline": "Jack Campbell fights back tears in explaining Lions loss to Bills",
-    "summary": "The Bills shredded the Lions on Thursday night for 41 points and 446 yards.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jack-campbell-fights-back-tears-in-explaining-lions-loss-to-bills",
+    "headline": "Lions’ Brian Branch, Kerby Joseph Could Make Early Returns",
+    "summary": "The Lions’ secondary has been shorthanded to begin the season, something which was plainly obvious during last night’s blowout loss to the Bills. The unit could receive reinforcements earlier than Detroit hoped, though. During Thursday’s contest, Amazon Prime’s James Palmer reported there is an expectation that at least one of Brian Branch or Kerby Joseph could […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/09/lions-brian-branch-kerby-joseph-could-make-early-returns",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bills-are-third-team-ever-to-start-2-0-while-giving-up-more-than-30-points-in-both-games",
+    "publishedAt": "2026-09-18T18:50:13.000Z",
+    "type": "Analysis",
+    "headline": "Bills are third team ever to start 2-0 while giving up more than 30 points in both games",
+    "summary": "The Bills have started the season with two wins over two teams that entered the season as favorites to win their divisions.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bills-are-third-team-ever-to-start-2-0-while-giving-up-more-than-30-points-in-both-games",
     "sourceName": "Pro Football Talk"
   }
 ]
