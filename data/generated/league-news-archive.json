@@ -1,11 +1,29 @@
 [
   {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dan-campbell-its-a-long-season-lions-need-to-get-better",
+    "publishedAt": "2026-09-18T08:24:29.000Z",
+    "type": "Analysis",
+    "headline": "Dan Campbell: It's a long season, Lions need to get better",
+    "summary": "\"They got after us, and we didn't play good enough, and we didn't coach good enough. That falls on me,\" Campbell said.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dan-campbell-its-a-long-season-lions-need-to-get-better",
+    "sourceName": "Pro Football Talk"
+  },
+  {
     "id": "49970421",
-    "publishedAt": "2026-09-18T06:07:17Z",
+    "publishedAt": "2026-09-18T06:35:37Z",
     "type": "Analysis",
     "headline": "Emotional All-Pro LB Campbell shoulders blame for Lions' loss",
     "summary": "Jack Campbell fought back tears while reflecting on Detroit's poor defensive effort in Thursday night's loss in Buffalo.",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/49970421/emotional-all-pro-lb-campbell-shoulders-blame-lions-loss",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "49970295",
+    "publishedAt": "2026-09-18T06:22:23Z",
+    "type": "Analysis",
+    "headline": "Bills celebrate new Highmark Stadium in style with big win",
+    "summary": "The Bills threw a heck of a housewarming party for their new Highmark Stadium on Thursday, launching fireworks to open the night and then piling up points in a 41-31 victory over the Detroit Lions that felt more dominant than the final score indicated.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49970295/bills-celebrate-new-highmark-stadium-style-big-win",
     "sourceName": "ESPN"
   },
   {
@@ -15,15 +33,6 @@
     "headline": "Bo Nix, Broncos 'not freaking out' after mistake-filled loss to Chiefs",
     "summary": "Denver Broncos quarterback Bo Nix said the mistakes were clear to see from Monday night's loss in Kansas City, but \"we're not freaking out'' as the team prepares for Sunday's home opener against the Jacksonville Jaguars.",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/49968173/bo-nix-broncos-not-freaking-mistake-filled-loss-chiefs",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "49970295",
-    "publishedAt": "2026-09-18T06:04:04Z",
-    "type": "Analysis",
-    "headline": "Bills celebrate new Highmark Stadium in style with big win",
-    "summary": "The Bills threw a heck of a housewarming party for their new Highmark Stadium on Thursday, launching fireworks to open the night and then piling up points in a 41-31 victory over the Detroit Lions that felt more dominant than the final score indicated.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49970295/bills-celebrate-new-highmark-stadium-style-big-win",
     "sourceName": "ESPN"
   },
   {
@@ -117,6 +126,15 @@
     "sourceName": "Pro Football Talk"
   },
   {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=420191",
+    "publishedAt": "2026-09-18T03:34:13.000Z",
+    "type": "Analysis",
+    "headline": "Roger Goodell: International NFL Expansion Likely To Target Europe",
+    "summary": "Last month, NFL commissioner Roger Goodell said he has “no doubt” the league will eventually expand to include foreign-based teams. There is still no timeline on that front, but Goodell has spoken further on the subject. During an appearance on the countdown to Thursday Night Football, Goodell confirmed (via Amazon Prime’s James Palmer) he sees the league […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/09/roger-goodell-international-nfl-expansion-likely-to-target-europe",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
     "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/sean-mcvay-hopes-the-rams-never-play-in-australia-again",
     "publishedAt": "2026-09-18T03:12:14.000Z",
     "type": "Analysis",
@@ -160,15 +178,6 @@
     "summary": "Steve Young is second on the all-time list, with four.",
     "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/josh-allen-registers-10th-game-with-2-rushing-2-passing-touchdowns",
     "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=420191",
-    "publishedAt": "2026-09-18T02:34:13.000Z",
-    "type": "Analysis",
-    "headline": "Roger Goodell: International NFL Expansion Likely To Target Europe",
-    "summary": "Last month, NFL commissioner Roger Goodell said he has “no doubt” the league will eventually expand to include foreign-based teams. There is still no timeline on that front, but Goodell has spoken further on the subject. During an appearance on the countdown to Thursday Night Football, Goodell confirmed (via Amazon Prime’s James Palmer) he sees the league […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/09/roger-goodell-international-nfl-expansion-likely-to-target-europe",
-    "sourceName": "Pro Football Rumors"
   },
   {
     "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bills-rule-out-wr-dj-moore",
