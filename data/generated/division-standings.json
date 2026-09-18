@@ -1,14 +1,14 @@
 [
   {
-    "team": "NYJ",
-    "wins": 1,
+    "team": "BUF",
+    "wins": 2,
     "losses": 0,
     "ties": 0,
-    "pointDifferential": 13,
+    "pointDifferential": 15,
     "isUs": false,
     "streak": {
       "result": "W",
-      "count": 1
+      "count": 2
     },
     "divisionRecord": {
       "wins": 0,
@@ -17,11 +17,11 @@
     }
   },
   {
-    "team": "BUF",
+    "team": "NYJ",
     "wins": 1,
     "losses": 0,
     "ties": 0,
-    "pointDifferential": 5,
+    "pointDifferential": 13,
     "isUs": false,
     "streak": {
       "result": "W",

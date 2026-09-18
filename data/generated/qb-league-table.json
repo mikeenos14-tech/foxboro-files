@@ -4,19 +4,19 @@
     "playerName": "Josh Allen",
     "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/mjwbioajzldkq1vzoz2d",
     "team": "BUF",
-    "attempts": 32,
-    "completions": 20,
-    "yards": 323,
-    "tds": 2,
+    "attempts": 65,
+    "completions": 40,
+    "yards": 566,
+    "tds": 5,
     "ints": 0,
-    "cpoe": 8.141485282352992,
+    "cpoe": 6.930085271596907,
     "accuracyByDepth": {
       "short": 0.6666666666666666,
-      "medium": 0.875,
-      "deep": 0.5
+      "medium": 0.9285714285714286,
+      "deep": 0.45454545454545453
     },
-    "pressureEpa": -1.2759004447337556,
-    "cleanPocketEpa": 0.6331974227669955,
+    "pressureEpa": -0.17212954281024945,
+    "cleanPocketEpa": 0.582912165427659,
     "turnoverWorthyPlayRate": 0
   },
   {
@@ -424,19 +424,19 @@
     "playerName": "Jared Goff",
     "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/kaicbot8qhzrvddilbtp",
     "team": "DET",
-    "attempts": 40,
-    "completions": 26,
-    "yards": 204,
-    "tds": 2,
+    "attempts": 82,
+    "completions": 52,
+    "yards": 493,
+    "tds": 6,
     "ints": 0,
-    "cpoe": -2.909686702948353,
+    "cpoe": 1.4858792354534138,
     "accuracyByDepth": {
-      "short": 0.72,
-      "medium": 0.5,
-      "deep": 0.5
+      "short": 0.75,
+      "medium": 0.55,
+      "deep": 0.6
     },
-    "pressureEpa": -0.06479569616203676,
-    "cleanPocketEpa": 0.039234067000527235,
+    "pressureEpa": -0.2342972752812783,
+    "cleanPocketEpa": 0.3676681605493388,
     "turnoverWorthyPlayRate": 0
   },
   {

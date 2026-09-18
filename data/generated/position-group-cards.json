@@ -37,14 +37,14 @@
   },
   {
     "group": "Interior DL",
-    "grade": 61,
+    "grade": 65,
     "trend": "flat",
-    "soWhat": "61st percentile in the NFL for rush EPA allowed (run defense proxy, team-wide — not isolated to interior linemen specifically)."
+    "soWhat": "65th percentile in the NFL for rush EPA allowed (run defense proxy, team-wide — not isolated to interior linemen specifically)."
   },
   {
     "group": "Secondary",
-    "grade": 29,
+    "grade": 32,
     "trend": "flat",
-    "soWhat": "29th percentile in the NFL for pass EPA allowed (pass defense proxy — includes pass rush effect, not isolated to coverage alone)."
+    "soWhat": "32nd percentile in the NFL for pass EPA allowed (pass defense proxy — includes pass rush effect, not isolated to coverage alone)."
   }
 ]

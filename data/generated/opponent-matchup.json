@@ -2,23 +2,23 @@
   "gameId": "2026_02_PIT_NE",
   "opponent": "PIT",
   "opponentEpaRank": {
-    "offense": 22,
+    "offense": 21,
     "defense": 14
   },
   "positionGroupMatchups": [
     {
       "group": "Rush Offense vs. Run Defense",
       "ourGrade": 58,
-      "theirGrade": 48,
+      "theirGrade": 52,
       "edge": "even",
-      "note": "58th percentile vs. 48th percentile (close matchup)."
+      "note": "58th percentile vs. 52nd percentile (close matchup)."
     },
     {
       "group": "Pass Offense vs. Pass Defense",
-      "ourGrade": 100,
+      "ourGrade": 97,
       "theirGrade": 71,
       "edge": "us",
-      "note": "100th percentile vs. 71st percentile (advantage us)."
+      "note": "97th percentile vs. 71st percentile (advantage us)."
     },
     {
       "group": "Run Defense vs. Rush Offense",
@@ -29,10 +29,10 @@
     },
     {
       "group": "Pass Defense vs. Pass Offense",
-      "ourGrade": 58,
-      "theirGrade": 35,
+      "ourGrade": 61,
+      "theirGrade": 39,
       "edge": "us",
-      "note": "58th percentile vs. 35th percentile (advantage us)."
+      "note": "61st percentile vs. 39th percentile (advantage us)."
     },
     {
       "group": "Pass Protection vs. Pass Rush",
@@ -44,7 +44,7 @@
   ],
   "matchupOfTheWeek": {
     "title": "Pass Offense vs. Pass Defense",
-    "description": "Our pass offense grades in the 100th percentile against a unit that grades 71st — the widest real statistical edge on the board this week."
+    "description": "Our pass offense grades in the 97th percentile against a unit that grades 71st — the widest real statistical edge on the board this week."
   },
   "opponentInjuries": [],
   "recentForm": {
@@ -80,15 +80,15 @@
     }
   ],
   "weather": {
-    "tempF": 53,
+    "tempF": 58,
     "wind": "5 mph",
-    "precipitation": "44%",
+    "precipitation": "17%",
     "isDome": false
   },
   "bettingContext": {
     "spread": -5.5,
     "overUnder": 41.5,
-    "asOf": "2026-09-17"
+    "asOf": "2026-09-18"
   },
-  "previewTake": "Here we go: the Patriots welcome Pittsburgh to Gillette for their home opener, and the matchup sheet is practically begging us to get excited about one thing — our pass offense is operating in the 100th percentile against a Steelers secondary that grades 71st, which is genuinely the widest edge anywhere on the board this week. Drake Maye gets his first real chance to showcase that arm in a meaningful home game, though we'll need to navigate A.J. Brown's absence, which is hardly ideal when you're trying to prove something against a defense ranked 14th overall. The Steelers bring recent form that's essentially neutral (0.02 net EPA/play over their last three), and we're favored by 5.5 at home, but let's not get ahead of ourselves — we dropped the most recent meeting 14-21 last year, so this division rivalry has a way of humbling expectations. Still, if there's ever a spot to make a statement with your young quarterback against a secondary that's vulnerable to the deep ball, this is it."
+  "previewTake": "Here's the thing about Week 2: we're staring down a Steelers team that's humming along nicely, but we've got something they can't game-plan for — a pass offense operating at the 97th percentile going up against a defense stuck at 71st in the rankings, which is genuinely the widest statistical mismatch on the board this week. Drake Maye getting to operate in that sweet spot is exactly what we need to bounce back from last week and start building some momentum at home. The Steelers have that recent win over us fresh in the memory (21-14, 2025), but our head-to-head history suggests we know how to handle them, and with TreVeyon Henderson ready to go after his ankle injury, we're getting healthier at exactly the right time. Sure, Pittsburgh's defense is no pushover at 14th overall, but our offensive firepower here is the story — this is our game to take."
 }

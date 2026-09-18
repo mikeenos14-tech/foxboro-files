@@ -184,15 +184,15 @@
   ],
   "goodBadUgly": {
     "good": [
-      "Red zone defense held Seattle to just 1 TD on 3 opportunities—at least we weren't getting torched in the most critical situations.",
-      "DaQuan Jones joining the defensive line provides some reinforcement in the trenches as we navigate the injury fallout."
+      "Defense kept Seattle's red zone efficiency in check, allowing just 1 of 3 scoring opportunities.",
+      "Third down defense was solid, holding Seattle to 2 of 11 conversions."
     ],
     "bad": [
-      "A.J. Brown's high ankle sprain lands him on IR for at least four games, removing our most explosive receiving weapon at perhaps the worst possible time.",
-      "Third-down efficiency was a disaster: 5 for 16 on offense while Seattle converted 2 for 11—we couldn't sustain drives when we needed to, and couldn't force them into obvious passing situations."
+      "Turnover margin of -3 is a killer—can't win games giving the ball away that many times.",
+      "Third down offense struggled badly at 5 of 16, making it hard to sustain drives and manage the clock."
     ],
     "ugly": [
-      "Minus-3 turnover margin in a three-point loss is exactly how you doom yourself; we coughed it up at critical moments and couldn't create takeaways to compensate."
+      "A.J. Brown's high ankle sprain and subsequent IR placement removes a crucial pass-catcher just as the season begins, leaving the offense to figure out who steps up next."
     ]
   },
   "playerOfTheGame": {
@@ -202,5 +202,5 @@
     "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/zmpuirvuw4r04inxth5i",
     "reason": "Had the team's best (though still net-negative) win probability contribution at -3% in a tough game offensively."
   },
-  "fanTake": "Well, that's the kind of loss that stings in ways that go beyond the scoreboard. Down 10-13 to Seattle in a game we absolutely should have won, we managed the impressive feat of turning the ball over three more times than we forced them to—which is a fancy way of saying we beat ourselves. The offense couldn't find its footing (negative EPA per play will do that to you), the defense couldn't tighten up when it mattered most, and R. Stevenson, our Player of the Game by WPA, somehow managed negative win probability added, which tells you everything you need to know about how this one went. And now we're doing it all without A.J. Brown for the next month, minimum. Fun times."
+  "fanTake": "Well, that stings. We lose to Seattle 13-10 in a game that felt winnable but never quite came together, and now we're facing the cruel reality that A.J. Brown is headed to injured reserve with a high ankle sprain—four games gone, minimum. Our offense managed just -0.11 EPA per play, we couldn't convert in the red zone (1 for 2), and we gift-wrapped three turnovers to a Seahawks team that capitalized. It's the kind of loss that feels doubly painful because it arrives alongside the news that one of our most dynamic weapons will be watching from the sideline for weeks. This is not how you wanted Week 1 to unfold."
 }

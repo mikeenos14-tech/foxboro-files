@@ -63,18 +63,18 @@
     "week": 4,
     "opponent": "BUF",
     "homeAway": "away",
-    "opponentRecord": "1-0",
-    "opponentPointDiff": 5,
-    "opponentEpaRank": 3,
+    "opponentRecord": "2-0",
+    "opponentPointDiff": 15,
+    "opponentEpaRank": 2,
     "strengthOfSchedule": {
       "season": 3,
-      "opponentSos": -5
+      "opponentSos": -7
     },
     "restDays": 7,
     "opponentRestDays": 7,
     "isDivisional": true,
     "isConference": true,
-    "winProbabilityEstimate": 0.48217419245875015,
+    "winProbabilityEstimate": 0.46298794514163,
     "date": "2026-10-04"
   },
   {
@@ -122,7 +122,7 @@
     "homeAway": "away",
     "opponentRecord": "1-0",
     "opponentPointDiff": 22,
-    "opponentEpaRank": 10,
+    "opponentEpaRank": 9,
     "strengthOfSchedule": {
       "season": 3,
       "opponentSos": -22
@@ -177,18 +177,18 @@
     "week": 10,
     "opponent": "DET",
     "homeAway": "away",
-    "opponentRecord": "1-0",
-    "opponentPointDiff": 1,
-    "opponentEpaRank": 8,
+    "opponentRecord": "1-1",
+    "opponentPointDiff": -9,
+    "opponentEpaRank": 12,
     "strengthOfSchedule": {
       "season": 3,
-      "opponentSos": -1
+      "opponentSos": 7
     },
     "restDays": 7,
     "opponentRestDays": 7,
     "isDivisional": false,
     "isConference": false,
-    "winProbabilityEstimate": 0.5666223274010507,
+    "winProbabilityEstimate": 0.5840461578956897,
     "date": "2026-11-15"
   },
   {
@@ -215,18 +215,18 @@
     "week": 13,
     "opponent": "BUF",
     "homeAway": "home",
-    "opponentRecord": "1-0",
-    "opponentPointDiff": 5,
-    "opponentEpaRank": 3,
+    "opponentRecord": "2-0",
+    "opponentPointDiff": 15,
+    "opponentEpaRank": 2,
     "strengthOfSchedule": {
       "season": 3,
-      "opponentSos": -5
+      "opponentSos": -7
     },
     "restDays": 7,
     "opponentRestDays": 10,
     "isDivisional": true,
     "isConference": true,
-    "winProbabilityEstimate": 0.5321741924587502,
+    "winProbabilityEstimate": 0.51298794514163,
     "date": "2026-12-06"
   },
   {

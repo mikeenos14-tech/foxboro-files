@@ -30,13 +30,13 @@
     },
     "cleanPocketEpa": {
       "value": 0.06669111124241042,
-      "leagueRank": 21,
-      "leaguePercentile": 35
+      "leagueRank": 22,
+      "leaguePercentile": 32
     },
     "pressureEpa": {
       "value": -1.1036812487097138,
-      "leagueRank": 19,
-      "leaguePercentile": 42
+      "leagueRank": 20,
+      "leaguePercentile": 39
     }
   }
 }
