@@ -1,12 +1,192 @@
 [
   {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jadarian-price-will-get-more-reps-moving-forward",
+    "publishedAt": "2026-09-18T03:02:36.000Z",
+    "type": "Analysis",
+    "headline": "Jadarian Price will get more reps moving forward",
+    "summary": "In his Week 1 debut, running back Jadarian Price was on the field for only 24 snaps — less than half of the Seahawks' total offensive workload.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jadarian-price-will-get-more-reps-moving-forward",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "49969688",
+    "publishedAt": "2026-09-18T03:01:49Z",
+    "type": "Injury",
+    "headline": "Drew Lock: Taking care of football key in Seahawks start",
+    "summary": "As Drew Lock steps into a starting role for the Seattle Seahawks, the veteran quarterback knows he doesn't have to force the issue while he fills in for the injured Sam Darnold.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49969688/drew-lock-taking-care-football-key-seahawks-start",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "49969419",
+    "publishedAt": "2026-09-18T02:45:11Z",
+    "type": "Injury",
+    "headline": "Bills rule out D.J. Moore after WR suffers shoulder injury",
+    "summary": "DJ Moore was ruled out of Thursday night's game against the Lions because of a shoulder injury.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49969419/bills-rule-dj-moore-wr-suffers-shoulder-injury",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "49969456",
+    "publishedAt": "2026-09-18T02:44:33Z",
+    "type": "Injury",
+    "headline": "Lions rule out DB Avonte Maddox vs. Bills with foot injury",
+    "summary": "Lions defensive back Avonte Maddox was ruled out for the rest of Thursday night's game at Buffalo after injuring his foot in the second quarter.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49969456/lions-avonte-maddox-injures-foot-vs-bills-ruled-rest-game",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/josh-allen-registers-10th-game-with-2-rushing-2-passing-touchdowns",
+    "publishedAt": "2026-09-18T02:37:21.000Z",
+    "type": "Analysis",
+    "headline": "Josh Allen registers 10th game with 2+ rushing, 2+ passing touchdowns",
+    "summary": "Steve Young is second on the all-time list, with four.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/josh-allen-registers-10th-game-with-2-rushing-2-passing-touchdowns",
+    "sourceName": "Pro Football Talk"
+  },
+  {
     "id": "49951448",
-    "publishedAt": "2026-09-18T00:05:55Z",
+    "publishedAt": "2026-09-18T02:35:45Z",
     "type": "Analysis",
     "headline": "Live results, best moments and analysis from Bills-Lions",
     "summary": "The Buffalo Bills host the Detroit Lions in their first game at their new home, Highmark Stadium. Here are all the highlights from Bills vs. Lions in Buffalo.",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/49951448/buffalo-bills-detroit-lions-live-results-analysis-best-moments-highmark-stadium",
     "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=420191",
+    "publishedAt": "2026-09-18T02:34:13.000Z",
+    "type": "Analysis",
+    "headline": "Roger Goodell: International NFL Expansion Likely To Target Europe",
+    "summary": "Last month, NFL commissioner Roger Goodell said he has “no doubt” the league will eventually expand to include foreign-based teams. There is still no timeline on that front, but Goodell has spoken further on the subject. During an appearance on the countdown to Thursday Night Football, Goodell confirmed (via Amazon Prime’s James Palmer) he sees the league […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/09/roger-goodell-international-nfl-expansion-likely-to-target-europe",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bills-rule-out-wr-dj-moore",
+    "publishedAt": "2026-09-18T02:32:31.000Z",
+    "type": "Injury",
+    "headline": "Bills rule out WR DJ Moore",
+    "summary": "Bills wide receiver DJ Moore will not return tonight.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bills-rule-out-wr-dj-moore",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/lions-score-on-first-drive-of-second-half-to-close-to-within-27-17",
+    "publishedAt": "2026-09-18T02:20:07.000Z",
+    "type": "Analysis",
+    "headline": "Lions score on first drive of second half to close to within 27-17",
+    "summary": "The Lions aren't dead yet.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/lions-score-on-first-drive-of-second-half-to-close-to-within-27-17",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/thursday-night-football-josh-allen-bills-running-over-lions-up-27-10-at-halftime",
+    "publishedAt": "2026-09-18T02:01:54.000Z",
+    "type": "Analysis",
+    "headline": "Thursday Night Football: Josh Allen, Bills running over Lions, up 27-10 at halftime",
+    "summary": "The Bills quarterback has thrown three touchdowns and run for another.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/thursday-night-football-josh-allen-bills-running-over-lions-up-27-10-at-halftime",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bills-wr-dj-moore-questionable-to-return-after-injuring-shoulder",
+    "publishedAt": "2026-09-18T01:37:09.000Z",
+    "type": "Injury",
+    "headline": "Bills WR DJ Moore questionable to return after injuring shoulder",
+    "summary": "Moore was injured while diving in the end zone late in the second quarter.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bills-wr-dj-moore-questionable-to-return-after-injuring-shoulder",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=420189",
+    "publishedAt": "2026-09-18T01:33:50.000Z",
+    "type": "Transaction",
+    "headline": "NFL Practice Squad Updates: 9/17/26",
+    "summary": "Here are Thursday’s taxi squad moves: Carolina Panthers Signed: WR EJ Williams Dallas Cowboys Signed: RB Israel Abanikanda Houston Texans Signed: WR Bryce Oliver Released: QB Mark Gronowski Los Angeles Chargers Signed: CB Kaiir Elam  New England Patriots Signed: OL Xavier Newman-Johnson Released: C Jacob Rizy New York Giants Signed: CB Jaden Robinson Released: OL Ryan Schernecke",
+    "sourceUrl": "https://www.profootballrumors.com/2026/09/nfl-practice-squad-updates-9-17-26-2",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/lions-on-the-board-trail-21-7",
+    "publishedAt": "2026-09-18T01:23:48.000Z",
+    "type": "Analysis",
+    "headline": "Lions on the board, trail 21-7",
+    "summary": "It took long enough for Detroit to show up.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/lions-on-the-board-trail-21-7",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/korn-ferry-tries-to-keep-key-document-in-brian-flores-case-under-seal",
+    "publishedAt": "2026-09-18T01:15:36.000Z",
+    "type": "Transaction",
+    "headline": "Korn Ferry tries to keep key document in Brian Flores case under seal",
+    "summary": "The Brian Flores litigation has uncovered a potentially significant document through a subpoena issued to the Korn Ferry search firm.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/korn-ferry-tries-to-keep-key-document-in-brian-flores-case-under-seal",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "49968972",
+    "publishedAt": "2026-09-18T01:11:32Z",
+    "type": "Analysis",
+    "headline": "Rams, Giants looking to build on disparate Week 1 showings when they meet on Monday night",
+    "summary": "— The Los Angeles Rams could not have looked worse, while the New York Giants ",
+    "sourceUrl": "http://www.espn.com/nfl/preview?gameId=401872947",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/rout-is-on-in-buffalo-as-bills-take-21-0-lead",
+    "publishedAt": "2026-09-18T01:10:10.000Z",
+    "type": "Analysis",
+    "headline": "Rout is on in Buffalo as Bills take 21-0 lead",
+    "summary": "Josh Allen has run for a touchdown and thrown for two on three possessions for the Bills.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/rout-is-on-in-buffalo-as-bills-take-21-0-lead",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/josh-palmer-scores-his-second-td-of-the-season-on-his-second-catch",
+    "publishedAt": "2026-09-18T00:47:11.000Z",
+    "type": "Analysis",
+    "headline": "Josh Palmer scores his second TD of the season on his second catch",
+    "summary": "Josh Palmer has only two catches this season.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/josh-palmer-scores-his-second-td-of-the-season-on-his-second-catch",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=419953",
+    "publishedAt": "2026-09-18T00:46:57.000Z",
+    "type": "Beat Report",
+    "headline": "Rams Hoping To Have Aaron Donald For Week 2",
+    "summary": "SEPTEMBER 17: Donald was a full participant in today’s practice, and McVay said (via ESPN’s Sarah Barshop) the plan is for Donald to take part in team drills again tomorrow. Provided no setbacks occur over the coming days, Donald will be in line for his NFL return on Monday night. SEPTEMBER 15: It will be a while […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/09/rams-hoping-to-have-aaron-donald-for-week-2",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/hall-of-fame-announces-its-new-group-of-voters",
+    "publishedAt": "2026-09-18T00:46:48.000Z",
+    "type": "Analysis",
+    "headline": "Hall of Fame announces its new group of voters",
+    "summary": "The recent overhaul of the Hall of Fame selection process includes a dramatic reduction in the number of voters, from 50 down to 28.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/hall-of-fame-announces-its-new-group-of-voters",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bills-take-7-0-lead-on-josh-allens-1-yard-run",
+    "publishedAt": "2026-09-18T00:35:10.000Z",
+    "type": "Analysis",
+    "headline": "Bills take 7-0 lead on Josh Allen's 1-yard run",
+    "summary": "The Bills started Thursday night's game with a holding penalty on the opening kickoff.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bills-take-7-0-lead-on-josh-allens-1-yard-run",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/sean-mcvay-hopeful-aaron-donald-will-play-this-week",
+    "publishedAt": "2026-09-18T00:26:44.000Z",
+    "type": "Analysis",
+    "headline": "Sean McVay \"hopeful\" Aaron Donald will play this week",
+    "summary": "The Giants expect Rams defensive lineman Aaron Donald to play on Monday night.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/sean-mcvay-hopeful-aaron-donald-will-play-this-week",
+    "sourceName": "Pro Football Talk"
   },
   {
     "id": "profootballrumors-https://www.profootballrumors.com/?p=420188",
@@ -2040,15 +2220,6 @@
     "headline": "Drew Brees, Sean Payton Address Potential Broncos Reunion",
     "summary": "Hall of Fame quarterback Drew Brees confirmed (via WFAA’s Ed Werder) that he considered coming out of retirement to play for the Broncos in the AFC championship game last season, but his right arm was not up for the challenge. Brees’ account aligns with Monday’s report that former Saints coaches Joe Lombardi and Pete Carmichael, […]",
     "sourceUrl": "https://www.profootballrumors.com/2026/09/drew-brees-sean-payton-address-potential-broncos-reunion",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=419953",
-    "publishedAt": "2026-09-16T03:48:57.000Z",
-    "type": "Injury",
-    "headline": "Rams Hoping To Have Aaron Donald For Week 2",
-    "summary": "It will be a while before the Rams can deploy their Myles Garrett–Aaron Donald duo, as Garrett is now on IR with a knee issue — one the team hopes will be resolved through arthroscopic surgery. But Los Angeles is looking to have its other defensive megastar in uniform for Week 2. The Rams have […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/09/rams-hoping-to-have-aaron-donald-for-week-2",
     "sourceName": "Pro Football Rumors"
   },
   {

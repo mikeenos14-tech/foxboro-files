@@ -1,29 +1,20 @@
 [
   {
-    "id": "49968285",
-    "publishedAt": "2026-09-17T23:56:59Z",
+    "id": "49969419",
+    "publishedAt": "2026-09-18T02:45:11Z",
     "type": "Injury",
-    "headline": "Bills' top DT Ed Oliver inactive after injuring hip in warmups",
-    "summary": "The Buffalo Bills' standout defensive tackle Ed Oliver was a surprise inactive for Thursday night's game against the Detroit Lions.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49968285/bills-top-dt-ed-oliver-inactive-injuring-hip-warmups",
+    "headline": "Bills rule out D.J. Moore after WR suffers shoulder injury",
+    "summary": "DJ Moore was ruled out of Thursday night's game against the Lions because of a shoulder injury.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49969419/bills-rule-dj-moore-wr-suffers-shoulder-injury",
     "sourceName": "ESPN"
   },
   {
-    "id": "49968127",
-    "publishedAt": "2026-09-17T23:33:25Z",
-    "type": "Beat Report",
-    "headline": "McVay: Rams 'hopeful' Donald will play against Giants on MNF",
-    "summary": "Rams defensive tackle Aaron Donald will practice in full Thursday and the team is \"hopeful\" he will play Monday night against the Giants, coach Sean McVay said.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49968127/mcvay-rams-hopeful-donald-play-giants-mnf",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "49968242",
-    "publishedAt": "2026-09-17T22:52:31Z",
-    "type": "Analysis",
-    "headline": "There's sudden urgency for old NFC East rivals as Commanders visit Cowboys following opening losses",
-    "summary": "— There's a sudden sense of urgency as the Washington Commanders and Dallas Cowboys renew an old NFC East rivalry with both teams staring at an 0-2 start in division games.",
-    "sourceUrl": "http://www.espn.com/nfl/preview?gameId=401872944",
+    "id": "49968365",
+    "publishedAt": "2026-09-17T23:38:17Z",
+    "type": "Injury",
+    "headline": "Eagles' Jalen Carter to wear cast on injured wrist vs. Titans",
+    "summary": "Eagles defensive tackle Jalen Carter expects to wear a cast on his injured right wrist for Sunday's Week 2 matchup against the Titans.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49968365/eagles-jalen-carter-wear-cast-injured-right-wrist-week-2-game-titans",
     "sourceName": "ESPN"
   },
   {
@@ -36,21 +27,30 @@
     "sourceName": "ESPN"
   },
   {
-    "id": "49951448",
-    "publishedAt": "2026-09-18T00:05:55Z",
+    "id": "49968242",
+    "publishedAt": "2026-09-17T22:52:31Z",
     "type": "Analysis",
-    "headline": "Live results, best moments and analysis from Bills-Lions",
-    "summary": "The Buffalo Bills host the Detroit Lions in their first game at their new home, Highmark Stadium. Here are all the highlights from Bills vs. Lions in Buffalo.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49951448/buffalo-bills-detroit-lions-live-results-analysis-best-moments-highmark-stadium",
+    "headline": "There's sudden urgency for old NFC East rivals as Commanders visit Cowboys following opening losses",
+    "summary": "— There's a sudden sense of urgency as the Washington Commanders and Dallas Cowboys renew an old NFC East rivalry with both teams staring at an 0-2 start in division games.",
+    "sourceUrl": "http://www.espn.com/nfl/preview?gameId=401872944",
     "sourceName": "ESPN"
   },
   {
-    "id": "49968087",
-    "publishedAt": "2026-09-17T22:21:33Z",
-    "type": "Analysis",
-    "headline": "Steelers rolling, Patriots looking to bounce back in latest matchup between franchises",
-    "summary": "— During his 24 seasons with the New England Patriots, Bill Belichick never held back in expressing his affinity for the ",
-    "sourceUrl": "http://www.espn.com/nfl/preview?gameId=401872946",
+    "id": "49967979",
+    "publishedAt": "2026-09-17T22:48:24Z",
+    "type": "Beat Report",
+    "headline": "Saints' Alvin Kamara practices, 'moving well' after MCL sprain",
+    "summary": "Saints running back Alvin Kamara has \"no limitations,\" was a full participant in practice and says his knee feels good only one month after spraining his MCL in practice.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49967979/saints-alvin-kamara-practices-moving-well-mcl-sprain",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "49968173",
+    "publishedAt": "2026-09-17T23:10:12Z",
+    "type": "Injury",
+    "headline": "Bo Nix, Broncos 'not freaking out' after mistake-filled loss to Chiefs",
+    "summary": "Denver Broncos quarterback Bo Nix said the mistakes were clear to see from Monday night's loss in Kansas City, but \"we're not freaking out'' as the team prepares for Sunday's home opener against the Jacksonville Jaguars.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49968173/bo-nix-broncos-not-freaking-mistake-filled-loss-chiefs",
     "sourceName": "ESPN"
   }
 ]
