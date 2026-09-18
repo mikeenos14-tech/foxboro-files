@@ -1,12 +1,30 @@
 [
   {
-    "id": "49969896",
-    "publishedAt": "2026-09-18T11:43:28Z",
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=420202",
+    "publishedAt": "2026-09-18T15:03:22.000Z",
+    "type": "Injury",
+    "headline": "Texans WR Nico Collins Could Miss Week 2 With Hamstring Injury",
+    "summary": "Texans wide receiver Nico Collins suffered a hamstring injury in practice on Wednesday that could sideline him for Houston’s Week 2 matchup with the Bengals on Sunday. Testing revealed that Collins is not seriously injured, per KPRC2’s Aaron Wilson, but even a one-week absence could be a significant issue for the Texans offense. The 27-year-old […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/09/texans-wr-nico-collins-could-miss-week-2-with-hamstring-injury",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/patrick-mahomes-my-leg-is-the-least-of-my-worries-right-now",
+    "publishedAt": "2026-09-18T13:47:25.000Z",
     "type": "Analysis",
-    "headline": "Josh Allen opens the Bills' new stadium with a 5-TD outing in a 41-31 win over the Lions",
-    "summary": "— Forget the official name of the Buffalo Bills' new stadium. It’s Josh Allen’s house.",
-    "sourceUrl": "http://www.espn.com/nfl/recap?gameId=401872932",
-    "sourceName": "ESPN"
+    "headline": "Patrick Mahomes: My leg is the least of my worries right now",
+    "summary": "Despite tearing his ACL and LCL in December, Patrick Mahomes certainly looked healthy on Monday night.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/patrick-mahomes-my-leg-is-the-least-of-my-worries-right-now",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-dj-moore-day-to-day-with-shoulder-injury",
+    "publishedAt": "2026-09-18T12:00:05.000Z",
+    "type": "Injury",
+    "headline": "Report: DJ Moore day-to-day with shoulder injury",
+    "summary": "Thursday night was a good night for the Bills on most fronts, but one exception was the shoulder injury that knocked wide receiver DJ Moore out of the game in the second quarter.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-dj-moore-day-to-day-with-shoulder-injury",
+    "sourceName": "Pro Football Talk"
   },
   {
     "id": "49968982",
@@ -18,21 +36,12 @@
     "sourceName": "ESPN"
   },
   {
-    "id": "49964734",
-    "publishedAt": "2026-09-18T11:28:24Z",
+    "id": "49969896",
+    "publishedAt": "2026-09-18T11:43:28Z",
     "type": "Analysis",
-    "headline": "Career-defining season for Vikings coach Kevin O'Connell?",
-    "summary": "O'Connell has had tremendous regular-season success, but is this the season it extends into the playoffs?",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49964734/nfl-minnesota-vikings-kevin-oconnell-kyler-murray-jj-mccarthy",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "49970421",
-    "publishedAt": "2026-09-18T06:35:37Z",
-    "type": "Analysis",
-    "headline": "Emotional All-Pro LB Campbell shoulders blame for Lions' loss",
-    "summary": "Jack Campbell fought back tears while reflecting on Detroit's poor defensive effort in Thursday night's loss in Buffalo.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49970421/emotional-all-pro-lb-campbell-shoulders-blame-lions-loss",
+    "headline": "Josh Allen opens the Bills' new stadium with a 5-TD outing in a 41-31 win over the Lions",
+    "summary": "— Forget the official name of the Buffalo Bills' new stadium. It’s Josh Allen’s house.",
+    "sourceUrl": "http://www.espn.com/nfl/recap?gameId=401872932",
     "sourceName": "ESPN"
   },
   {
@@ -43,14 +52,5 @@
     "summary": "\"They got after us, and we didn't play good enough, and we didn't coach good enough. That falls on me,\" Campbell said.",
     "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dan-campbell-its-a-long-season-lions-need-to-get-better",
     "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "49968173",
-    "publishedAt": "2026-09-18T06:04:49Z",
-    "type": "Injury",
-    "headline": "Bo Nix, Broncos 'not freaking out' after mistake-filled loss to Chiefs",
-    "summary": "Denver Broncos quarterback Bo Nix said the mistakes were clear to see from Monday night's loss in Kansas City, but \"we're not freaking out'' as the team prepares for Sunday's home opener against the Jacksonville Jaguars.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49968173/bo-nix-broncos-not-freaking-mistake-filled-loss-chiefs",
-    "sourceName": "ESPN"
   }
 ]

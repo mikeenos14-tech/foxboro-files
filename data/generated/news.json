@@ -1,11 +1,38 @@
 [
   {
+    "id": "aa6798f2-4b89-4b03-a26e-2bbe6185ecad",
+    "publishedAt": "2026-09-18T14:40:00.000Z",
+    "type": "Analysis",
+    "headline": "How to Watch and Stream Sunday's Patriots Home Opener Against the Steelers",
+    "summary": "Complete broadcast information for this week's game between the New England Patriots and the Pittsburgh Steelers on Sunday, September 20, 2026 at 1 PM ET.",
+    "sourceUrl": "https://www.patriots.com/news/how-to-watch-and-stream-sunday-s-patriots-home-opener-against-the-steelers",
+    "sourceName": "Patriots.com"
+  },
+  {
     "id": "24e32b1a-2fcc-4c11-b46a-8fccc48bb1f0",
-    "publishedAt": "2026-09-18T10:00:22.000Z",
+    "publishedAt": "2026-09-18T14:34:00.000Z",
     "type": "Analysis",
     "headline": "Expert Predictions: Week 2 Picks for Steelers at Patriots",
     "summary": "Experts share their picks for the Patriots' Week 2 matchup against the Pittsburgh Steelers.",
     "sourceUrl": "https://www.patriots.com/news/expert-predictions-week-2-picks-for-steelers-at-patriots",
+    "sourceName": "Patriots.com"
+  },
+  {
+    "id": "c254c2e7-2352-4c45-8c50-92b6c3bdb2e7",
+    "publishedAt": "2026-09-18T14:00:00.000Z",
+    "type": "Analysis",
+    "headline": "Patriots Gameplan: Is a Blueprint Forming vs. Drake Maye and the Patriots Offense?",
+    "summary": "Previewing the chess match between the Patriots and Steelers in Sunday's home opener at Gillette Stadium.",
+    "sourceUrl": "https://www.patriots.com/news/patriots-gameplan-is-a-blueprint-forming-vs-drake-maye-and-the-patriots-offense",
+    "sourceName": "Patriots.com"
+  },
+  {
+    "id": "caf5bbef-4b7a-4f37-b197-34e57501be6f",
+    "publishedAt": "2026-09-18T10:34:00.000Z",
+    "type": "Analysis",
+    "headline": "3 to Watch: Patriots Look to Get on Winning Track vs. Steelers",
+    "summary": "Three key areas to watch as the Patriots look to beat the Steelers for their first win of the 2026 NFL season.",
+    "sourceUrl": "https://www.patriots.com/news/3-to-watch-patriots-look-to-get-on-winning-track-vs-steelers",
     "sourceName": "Patriots.com"
   },
   {
@@ -27,24 +54,6 @@
     "sourceName": "Patriots.com"
   },
   {
-    "id": "d64c52bd-3569-4ba8-af51-f8edb3e57f0a",
-    "publishedAt": "2026-09-17T20:04:50.000Z",
-    "type": "Transaction",
-    "headline": "Patriots Sign OL Xavier Newman-Johnson to the Practice Squad and Release OL Jacob Rizy from the Practice Squad",
-    "summary": "The Patriots announced today that they have signed OL Xavier Newman-Johnson to the practice squad and released OL Jacob Rizy from the practice squad.",
-    "sourceUrl": "https://www.patriots.com/news/patriots-sign-ol-xavier-newman-johnson-to-the-practice-squad-and-release-ol-jacob-rizy-from-the-practice-squad",
-    "sourceName": "Patriots.com"
-  },
-  {
-    "id": "77e66f62-423f-40df-bff7-d94029c79f7f",
-    "publishedAt": "2026-09-17T19:51:53.000Z",
-    "type": "Analysis",
-    "headline": "Stefon Gilmore Returns to Foxborough to Retire a Patriot",
-    "summary": "The New England Patriots will host former All-Pro cornerback Stephon Gilmore on Friday, Sept. 18, as he returns to Foxborough to retire a Patriot. He will address the  media during a press conference at 2:10 PM ET.",
-    "sourceUrl": "https://www.patriots.com/news/stefon-gilmore-returns-to-foxborough-to-retire-a-patriot",
-    "sourceName": "Patriots.com"
-  },
-  {
     "id": "49966375",
     "publishedAt": "2026-09-17T18:25:53Z",
     "type": "Injury",
@@ -52,15 +61,6 @@
     "summary": "Patriots running back TreVeyon Henderson said Thursday he's \"ready to go\" for Sunday's game against the Steelers after missing New England's opener with an ankle injury.",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/49966375/patriots-treveyon-henderson-says-ready-go-week-2",
     "sourceName": "ESPN"
-  },
-  {
-    "id": "caf5bbef-4b7a-4f37-b197-34e57501be6f",
-    "publishedAt": "2026-09-17T16:16:49.000Z",
-    "type": "Analysis",
-    "headline": "3 to Watch: Patriots Look to Get on Winning Track vs. Steelers",
-    "summary": "Three key areas to watch as the Patriots look to beat the Steelers for their first win of the 2026 NFL season.",
-    "sourceUrl": "https://www.patriots.com/news/3-to-watch-patriots-look-to-get-on-winning-track-vs-steelers",
-    "sourceName": "Patriots.com"
   },
   {
     "id": "49956845",
