@@ -5,17 +5,16 @@
 // and both icons are always rendered with CSS deciding which one shows.
 // That avoids any server/client hydration mismatch a stateful "current
 // theme" read would otherwise risk.
+//
+// data-theme is always explicitly "dark" or "light" by the time this can
+// be clicked — the blocking script in app/layout.tsx sets it before first
+// paint (dark by default, the site's real identity; light only if
+// previously chosen) — so there's no "no preference yet" case to fall
+// back on here anymore.
 export function ThemeToggle() {
   function toggle() {
-    const explicit = document.documentElement.getAttribute("data-theme");
-    // No explicit override yet doesn't mean "light" — most visitors are
-    // relying on their system preference, which might already be dark.
-    // Flip from the *effective* theme, not just the raw attribute, so one
-    // click always does something instead of the first click merely
-    // pinning whatever was already showing.
-    const effective =
-      explicit ?? (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
-    const next = effective === "dark" ? "light" : "dark";
+    const current = document.documentElement.getAttribute("data-theme");
+    const next = current === "dark" ? "light" : "dark";
     document.documentElement.setAttribute("data-theme", next);
     localStorage.setItem("foxboro-beacon-theme", next);
   }

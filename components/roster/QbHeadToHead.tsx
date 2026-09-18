@@ -4,6 +4,7 @@ import { Fragment, useMemo, useState } from "react";
 import type { QBDeepDive } from "@/lib/data/types";
 import { PlayerHeadshot } from "@/components/shared/PlayerHeadshot";
 import { TeamLogo } from "@/components/shared/TeamLogo";
+import { Legend } from "@/components/shared/Legend";
 import { formatPercent, signed } from "@/lib/util/format";
 
 interface Props {
@@ -246,6 +247,13 @@ export function QbHeadToHead({ maye, league, defaultOpponentTeam }: Props) {
           </tbody>
         </table>
       </div>
+      <Legend
+        className="-mx-4 -mb-4 mt-4 rounded-b-lg border-t border-border bg-background/50"
+        items={[
+          { term: "CPOE", definition: "completion % over expected" },
+          { term: "EPA", definition: "expected points added per play" },
+        ]}
+      />
     </div>
   );
 }

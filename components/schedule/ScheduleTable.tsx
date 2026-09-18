@@ -2,6 +2,7 @@ import type { ScheduleRow } from "@/lib/data/types";
 import { formatDate, formatPercent, signed } from "@/lib/util/format";
 import { ordinal } from "@/lib/calc/ranks";
 import { TeamLogo } from "@/components/shared/TeamLogo";
+import { Legend } from "@/components/shared/Legend";
 
 const resultClasses: Record<string, string> = {
   W: "text-rank-good font-bold",
@@ -76,6 +77,13 @@ export function ScheduleTable({ rows }: { rows: ScheduleRow[] }) {
           ))}
         </tbody>
       </table>
+      <Legend
+        className="min-w-[720px] border-t border-border bg-background/50"
+        items={[
+          { term: "DIV", definition: "divisional matchup" },
+          { term: "Opp's SOS", definition: "average point differential of that opponent's own opponents so far" },
+        ]}
+      />
     </div>
   );
 }

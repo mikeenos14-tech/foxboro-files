@@ -4,7 +4,6 @@ import "./globals.css";
 import { TopNav } from "@/components/layout/TopNav";
 import { Footer } from "@/components/layout/Footer";
 import { BottomNav } from "@/components/layout/BottomNav";
-import { ThemeInit } from "@/components/layout/ThemeInit";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -72,7 +71,19 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       suppressHydrationWarning
     >
       <body className="min-h-full flex flex-col bg-background text-foreground">
-        <ThemeInit />
+        {/* Dark is the site's real default identity, not just "whatever
+            the OS prefers" — this runs synchronously before first paint
+            (a plain script tag, not next/script, so it isn't deferred)
+            so every fresh visitor sees dark immediately with zero flash,
+            while anyone who's explicitly chosen light keeps that choice.
+            ThemeToggle.tsx writes the same localStorage key on every
+            switch. Safe with the html tag's suppressHydrationWarning
+            above since this only ever runs client-side. */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `(function(){try{var t=localStorage.getItem("foxboro-beacon-theme");document.documentElement.setAttribute("data-theme",t==="light"?"light":"dark");}catch(e){document.documentElement.setAttribute("data-theme","dark");}})();`,
+          }}
+        />
         <TopNav />
         <main className="mx-auto w-full max-w-6xl flex-1 px-4 py-6 pb-[calc(5rem+env(safe-area-inset-bottom))] sm:pb-6">
           {children}

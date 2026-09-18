@@ -1,5 +1,6 @@
 import type { DivisionStanding } from "@/lib/data/types";
 import { TeamLogo } from "@/components/shared/TeamLogo";
+import { Legend } from "@/components/shared/Legend";
 import { signed } from "@/lib/util/format";
 
 const streakClass: Record<"W" | "L" | "T", string> = {
@@ -19,9 +20,11 @@ function streakText(s: DivisionStanding["streak"]): string {
 export function DivisionStandings({
   standings,
   title = "Division Race — AFC East",
+  showLegend = true,
 }: {
   standings: DivisionStanding[];
   title?: string;
+  showLegend?: boolean;
 }) {
   return (
     <div className="lift overflow-hidden rounded-lg border border-border bg-surface">
@@ -71,6 +74,16 @@ export function DivisionStandings({
           ))}
         </tbody>
       </table>
+      {showLegend && (
+        <Legend
+          className="border-t border-border bg-background/50"
+          items={[
+            { term: "Div", definition: "division record" },
+            { term: "Strk", definition: "current streak" },
+            { term: "+/−", definition: "point differential" },
+          ]}
+        />
+      )}
     </div>
   );
 }

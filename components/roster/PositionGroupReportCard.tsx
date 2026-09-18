@@ -1,6 +1,7 @@
 import type { PositionGroupReportCard as ReportCardData } from "@/lib/data/types";
 import { SoWhatNote } from "@/components/shared/SoWhatNote";
 import { CountUp } from "@/components/shared/CountUp";
+import { PercentBar } from "@/components/shared/PercentBar";
 import { gradeTier, ordinal } from "@/lib/calc/ranks";
 
 const trendSymbol: Record<ReportCardData["trend"], string> = {
@@ -54,6 +55,7 @@ export function PositionGroupReportCard({ card }: { card: ReportCardData }) {
           {ordinal(card.grade)} percentile
         </span>
       </div>
+      <PercentBar value={card.grade} sentiment={tier} className="mt-2" />
       <SoWhatNote sentiment={tier}>{card.soWhat}</SoWhatNote>
     </div>
   );
