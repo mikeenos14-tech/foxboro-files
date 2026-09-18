@@ -1,56 +1,56 @@
 [
   {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/rams-officially-place-myles-garrett-on-injured-reserve",
-    "publishedAt": "2026-09-17T18:58:29.000Z",
+    "id": "49968285",
+    "publishedAt": "2026-09-17T23:56:59Z",
     "type": "Injury",
-    "headline": "Rams officially place Myles Garrett on injured reserve",
-    "summary": "The Rams have made one of their expected roster moves official on Thursday.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/rams-officially-place-myles-garrett-on-injured-reserve",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=420144",
-    "publishedAt": "2026-09-17T17:15:11.000Z",
-    "type": "Injury",
-    "headline": "Lions Down Multiple O-Line Starters",
-    "summary": "Visiting Buffalo on Thursday night, Detroit will have to start multiple backups along the offensive line. The Lions have ruled out right tackle Blake Miller (knee) and left guard Christian Mahogany (hip) for Week 2. Beginning with the March release of longtime stalwart Taylor Decker, the Lions shook up their offensive tackle alignment in the offseason. […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/09/lions-down-multiple-o-line-starters",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/tyson-campbell-did-not-practice-thursday-with-ankle-injury",
-    "publishedAt": "2026-09-17T20:27:02.000Z",
-    "type": "Injury",
-    "headline": "Tyson Campbell did not practice Thursday with ankle injury",
-    "summary": "Already thin at cornerback, the Browns are dealing with another injury at the position.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/tyson-campbell-did-not-practice-thursday-with-ankle-injury",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "49967303",
-    "publishedAt": "2026-09-17T19:59:29Z",
-    "type": "Analysis",
-    "headline": "Will Anderson calls Texans’ loss to Bills a 'wake-up call' for the defense ahead of Bengals visit",
-    "summary": "— Houston Texans defensive end Will Anderson said giving up 36 points in a season-opening loss to the Bills wasn’t a reason to get mad but instead should be a catalyst to improve.",
-    "sourceUrl": "http://www.espn.com/nfl/preview?gameId=401872934",
+    "headline": "Bills' top DT Ed Oliver inactive after injuring hip in warmups",
+    "summary": "The Buffalo Bills' standout defensive tackle Ed Oliver was a surprise inactive for Thursday night's game against the Detroit Lions.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49968285/bills-top-dt-ed-oliver-inactive-injuring-hip-warmups",
     "sourceName": "ESPN"
   },
   {
-    "id": "49966573",
-    "publishedAt": "2026-09-17T18:31:30Z",
-    "type": "Analysis",
-    "headline": "Ben Johnson and Brian Flores face off again as the Bears take on the Vikings in Week 2",
-    "summary": "— It's a stressful week for Chicago Bears coach Ben Johnson. Same for Minnesota Vikings defensive coordinator Brian Flores.",
-    "sourceUrl": "http://www.espn.com/nfl/preview?gameId=401872937",
+    "id": "49968127",
+    "publishedAt": "2026-09-17T23:33:25Z",
+    "type": "Beat Report",
+    "headline": "McVay: Rams 'hopeful' Donald will play against Giants on MNF",
+    "summary": "Rams defensive tackle Aaron Donald will practice in full Thursday and the team is \"hopeful\" he will play Monday night against the Giants, coach Sean McVay said.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49968127/mcvay-rams-hopeful-donald-play-giants-mnf",
     "sourceName": "ESPN"
   },
   {
-    "id": "49966099",
-    "publishedAt": "2026-09-17T17:30:53Z",
+    "id": "49968242",
+    "publishedAt": "2026-09-17T22:52:31Z",
     "type": "Analysis",
-    "headline": "The 49ers return from dominating win in Australia to take on the Dolphins in home opener",
-    "summary": "— The scenario to start the season for the San Francisco 49ers couldn't have been much more challenging.",
-    "sourceUrl": "http://www.espn.com/nfl/preview?gameId=401872942",
+    "headline": "There's sudden urgency for old NFC East rivals as Commanders visit Cowboys following opening losses",
+    "summary": "— There's a sudden sense of urgency as the Washington Commanders and Dallas Cowboys renew an old NFC East rivalry with both teams staring at an 0-2 start in division games.",
+    "sourceUrl": "http://www.espn.com/nfl/preview?gameId=401872944",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "49968413",
+    "publishedAt": "2026-09-17T23:19:29Z",
+    "type": "Analysis",
+    "headline": "After a poor 2025 at home, the Ravens try to turn the page when they host New Orleans",
+    "summary": "Jesse Minter wasn't even with the Ravens last season, but the new coach seems to have a healthy grasp of how 2025 went so badly wrong for Baltimore.",
+    "sourceUrl": "http://www.espn.com/nfl/preview?gameId=401872938",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "49951448",
+    "publishedAt": "2026-09-18T00:05:55Z",
+    "type": "Analysis",
+    "headline": "Live results, best moments and analysis from Bills-Lions",
+    "summary": "The Buffalo Bills host the Detroit Lions in their first game at their new home, Highmark Stadium. Here are all the highlights from Bills vs. Lions in Buffalo.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49951448/buffalo-bills-detroit-lions-live-results-analysis-best-moments-highmark-stadium",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "49968087",
+    "publishedAt": "2026-09-17T22:21:33Z",
+    "type": "Analysis",
+    "headline": "Steelers rolling, Patriots looking to bounce back in latest matchup between franchises",
+    "summary": "— During his 24 seasons with the New England Patriots, Bill Belichick never held back in expressing his affinity for the ",
+    "sourceUrl": "http://www.espn.com/nfl/preview?gameId=401872946",
     "sourceName": "ESPN"
   }
 ]
