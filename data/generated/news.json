@@ -1,5 +1,14 @@
 [
   {
+    "id": "24e32b1a-2fcc-4c11-b46a-8fccc48bb1f0",
+    "publishedAt": "2026-09-18T10:00:22.000Z",
+    "type": "Analysis",
+    "headline": "Expert Predictions: Week 2 Picks for Steelers at Patriots",
+    "summary": "Experts share their picks for the Patriots' Week 2 matchup against the Pittsburgh Steelers.",
+    "sourceUrl": "https://www.patriots.com/news/expert-predictions-week-2-picks-for-steelers-at-patriots",
+    "sourceName": "Patriots.com"
+  },
+  {
     "id": "49968087",
     "publishedAt": "2026-09-17T22:21:33Z",
     "type": "Analysis",
@@ -54,15 +63,6 @@
     "sourceName": "Patriots.com"
   },
   {
-    "id": "c254c2e7-2352-4c45-8c50-92b6c3bdb2e7",
-    "publishedAt": "2026-09-17T10:00:00.000Z",
-    "type": "Analysis",
-    "headline": "Patriots Gameplan: Is a Blueprint Forming vs. Drake Maye and the Patriots Offense?",
-    "summary": "Previewing the chess match between the Patriots and Steelers in Sunday's home opener at Gillette Stadium.",
-    "sourceUrl": "https://www.patriots.com/news/patriots-gameplan-is-a-blueprint-forming-vs-drake-maye-and-the-patriots-offense",
-    "sourceName": "Patriots.com"
-  },
-  {
     "id": "49956845",
     "publishedAt": "2026-09-16T14:18:58Z",
     "type": "Analysis",
@@ -87,15 +87,6 @@
     "headline": "Patriots face uphill battle without A.J. Brown for four weeks",
     "summary": "Brown suffered a high ankle sprain in Week 1 that will keep him out of the lineup. Who will need to step up for the Patriots in his absence?",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/49907771/new-england-patriots-receivers-replace-aj-brown",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "49905144",
-    "publishedAt": "2026-09-11T17:42:00Z",
-    "type": "Injury",
-    "headline": "Sources: Patriots' A.J. Brown to go on IR, miss at least 4 games",
-    "summary": "The Patriots are placing wide receiver A.J .Brown on injured reserve due to his high ankle sprain, sidelining him for a minimum of four games, sources told ESPN's Adam Schefter.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49905144/sources-patriots-aj-brown-go-ir-miss-least-4-games",
     "sourceName": "ESPN"
   }
 ]
