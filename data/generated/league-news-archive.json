@@ -1,5 +1,113 @@
 [
   {
+    "id": "49980918",
+    "publishedAt": "2026-09-19T18:04:18Z",
+    "type": "Injury",
+    "headline": "Steelers rule out WR Pittman Jr. vs. Patriots with foot injury",
+    "summary": "The Steelers will be without another starter for their Week 2 game against the Patriots after downgrading wide receiver Michael Pittman Jr. to out with a foot injury.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49980918/steelers-rule-wr-pittman-jr-vs-patriots-foot-injury",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=420185",
+    "publishedAt": "2026-09-19T18:00:39.000Z",
+    "type": "Injury",
+    "headline": "TE Dae’Quan Wright, DT Zxavian Harris Ineligible To Join NFL Teams In 2026",
+    "summary": "SEPTEMBER 19: The Packers worked out Harris prior to the NFL’s memo but will not face any discipline, per Pelissero. That may not be the end of this saga, either. The NFLPA is investigating the matter and “the possibility of a grievance is still on the table,” Pelissero adds. SEPTEMBER 17: Both tight end Dae’Quan Wright and defensive […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/09/te-daequan-wright-dt-zxavian-harris-ineligible-to-join-nfl-teams-in-2026",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "49980661",
+    "publishedAt": "2026-09-19T17:46:25Z",
+    "type": "Injury",
+    "headline": "Source: Jets rookie WR Cooper Jr. put on IR with sprained ankle",
+    "summary": "Jets rookie wide receiver Omar Cooper Jr., one of the team's three first-round picks, has been placed on injured reserve with a sprained ankle, a source told NFL Network's Ian Rapoport.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49980661/source-jets-rookie-wr-cooper-jr-put-ir-sprained-ankle",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/peter-king-expresses-concern-about-changes-to-hall-of-fame-voting-panel",
+    "publishedAt": "2026-09-19T17:44:54.000Z",
+    "type": "Analysis",
+    "headline": "Peter King expresses concern about changes to Hall of Fame voting panel",
+    "summary": "Our good friend and former colleague, Peter King, spent 32 years on the Pro Football Hall of Fame's selection committee.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/peter-king-expresses-concern-about-changes-to-hall-of-fame-voting-panel",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=420250",
+    "publishedAt": "2026-09-19T17:30:45.000Z",
+    "type": "Injury",
+    "headline": "Jets To Place WR Omar Cooper On IR",
+    "summary": "The Jets are expected to place rookie wide receiver Omar Cooper on injured reserve due to an ankle sprain, per NFL Network’s Ian Rapoport. The first-round pick will now be sidelined until at least Week 5. Cooper, 22, started his NFL career with a 30-yard reception on New York’s opening drive that converted a third-and-nine and […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/09/jets-to-place-wr-omar-cooper-on-ir",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/steelers-downgrade-wr-michael-pittman-jr-to-out-with-a-foot-injury",
+    "publishedAt": "2026-09-19T17:28:19.000Z",
+    "type": "Injury",
+    "headline": "Steelers downgrade WR Michael Pittman Jr. to out, with a foot injury",
+    "summary": "Pittman caught three passes for 58 yards in his Week 1 Pittsburgh debut.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/steelers-downgrade-wr-michael-pittman-jr-to-out-with-a-foot-injury",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/browns-add-cb-noah-igbinoghene-to-injury-report-list-him-as-questionable",
+    "publishedAt": "2026-09-19T17:20:25.000Z",
+    "type": "Injury",
+    "headline": "Browns add CB Noah Igbinoghene to injury report, list him as questionable",
+    "summary": "The Browns added another player to their injury report on Saturday.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/browns-add-cb-noah-igbinoghene-to-injury-report-list-him-as-questionable",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jets-to-put-rookie-wr-omar-cooper-on-ir",
+    "publishedAt": "2026-09-19T17:08:17.000Z",
+    "type": "Injury",
+    "headline": "Jets to put rookie WR Omar Cooper on IR",
+    "summary": "Jets first-round pick Omar Cooper is set to miss several games with an ankle injury.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jets-to-put-rookie-wr-omar-cooper-on-ir",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/at-least-one-team-has-called-steelers-about-joey-porter-jr",
+    "publishedAt": "2026-09-19T17:07:39.000Z",
+    "type": "Transaction",
+    "headline": "At least one team has called Steelers about Joey Porter Jr.",
+    "summary": "Friday's deep dive from ESPN into the far-simpler-than-it-seems contract issue between the Steelers and cornerback Joey Porter Jr. included a contention that the team has not received any \"serious inquiries\" regarding a trade.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/at-least-one-team-has-called-steelers-about-joey-porter-jr",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=420248",
+    "publishedAt": "2026-09-19T16:28:00.000Z",
+    "type": "Injury",
+    "headline": "Seahawks QB Sam Darnold Could Be Out Until October",
+    "summary": "The Seahawks have been hesitant to provide a clear timeline for the return of quarterback Sam Darnold from the injury he suffered in Week 1. Initial concerns about Darnold’s hip were allayed by testing that indicated his glute was impacted instead. But Seattle’s update that their star quarterback was dealing with a “very unique soft-tissue” […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/09/seahawks-qb-sam-darnold-could-be-out-until-october",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bengals-de-shemar-stewart-will-make-season-debut-on-sunday",
+    "publishedAt": "2026-09-19T16:01:34.000Z",
+    "type": "Analysis",
+    "headline": "Bengals DE Shemar Stewart will make season debut on Sunday",
+    "summary": "Bengals defensive end Shemar Stewart will make his season debut on Sunday.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bengals-de-shemar-stewart-will-make-season-debut-on-sunday",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=420246",
+    "publishedAt": "2026-09-19T15:14:23.000Z",
+    "type": "Injury",
+    "headline": "Steelers Rule Out CB Joey Porter For Week 2",
+    "summary": "The Steelers have ruled out star cornerback Joey Porter Jr. for a second straight week, though it remains unclear if a lingering back injury or an impasse in contract talks is the true source. Porter, 26, spent all of training camp on the physically unable to perform list due to his back issue. Head coach […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/09/steelers-rule-out-cb-joey-porter-for-week-2",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
     "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/will-sec-whack-lane-kiffin-for-injury-report-shenanigans",
     "publishedAt": "2026-09-19T14:02:57.000Z",
     "type": "Injury",
@@ -1474,15 +1582,6 @@
     "summary": "Jesse Minter wasn't even with the Ravens last season, but the new coach seems to have a healthy grasp of how 2025 went so badly wrong for Baltimore.",
     "sourceUrl": "http://www.espn.com/nfl/preview?gameId=401872938",
     "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=420185",
-    "publishedAt": "2026-09-17T23:10:39.000Z",
-    "type": "Transaction",
-    "headline": "TE Dae’Quan Wright, DT Zxavian Harris Ineligible To Join NFL Teams In 2026",
-    "summary": "Both tight end Dae’Quan Wright and defensive tackle Zxavian Harris are unsigned at the college and pro levels as things stand. That is set to continue through the remainder of the 2026 season. Wright and Harris were among the players who entered the 2026 NFL draft with their college eligibility having been exhausted at the time. Since then, […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/09/te-daequan-wright-dt-zxavian-harris-ineligible-to-join-nfl-teams-in-2026",
-    "sourceName": "Pro Football Rumors"
   },
   {
     "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/thursday-night-football-bills-dl-ed-oliver-wont-play-after-injuring-hip-in-pregame",
