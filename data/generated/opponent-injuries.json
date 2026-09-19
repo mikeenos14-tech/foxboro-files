@@ -5,9 +5,9 @@
     "position": "DT",
     "week": 2,
     "injury": "Not injury related - resting player",
-    "practiceStatus": "Did Not Participate",
+    "practiceStatus": "Full",
     "gameStatus": null,
-    "lastUpdated": "2026-09-19T03:07:13.221Z"
+    "lastUpdated": "2026-09-19T06:08:50.753Z"
   },
   {
     "playerId": "00-0036252",
@@ -25,9 +25,9 @@
     "position": "TE",
     "week": 2,
     "injury": "Not injury related - personal matter",
-    "practiceStatus": "Did Not Participate",
+    "practiceStatus": "Full",
     "gameStatus": null,
-    "lastUpdated": "2026-09-19T03:07:13.221Z"
+    "lastUpdated": "2026-09-19T06:08:50.753Z"
   },
   {
     "playerId": "00-0039167",
@@ -45,8 +45,8 @@
     "position": "T",
     "week": 2,
     "injury": "Ankle",
-    "practiceStatus": "Limited",
-    "gameStatus": null,
-    "lastUpdated": "2026-09-19T03:07:13.221Z"
+    "practiceStatus": "Full",
+    "gameStatus": "Questionable",
+    "lastUpdated": "2026-09-19T06:08:50.753Z"
   }
 ]
