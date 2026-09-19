@@ -1,20 +1,38 @@
 [
   {
-    "id": "49975015",
-    "publishedAt": "2026-09-18T21:04:28Z",
-    "type": "Analysis",
-    "headline": "FBI case against fake 49ers player adds more alleged victims",
-    "summary": "The FBI has identified 35 additional women who say they were defrauded by Daejon Love and Taylor Chan, bringing the total number of alleged victims in a case that included Love impersonating as a 49ers player to more than 60.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49975015/fbi-case-fake-49ers-player-adds-more-alleged-victims",
-    "sourceName": "ESPN"
-  },
-  {
     "id": "49973986",
-    "publishedAt": "2026-09-18T20:48:31Z",
+    "publishedAt": "2026-09-18T21:13:51Z",
     "type": "Transaction",
     "headline": "Stephon Gilmore, '19 NFL DPOY, retires as member of the Patriots",
     "summary": "Stephon Gilmore, a two-time All-Pro cornerback and the NFL's 2019 Defensive Player of the Year, signed a one-day contract in New England on Friday to retire as a member of the Patriots,",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/49973986/stephon-gilmore-19-nfl-dpoy-retiring-member-patriots",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "49975040",
+    "publishedAt": "2026-09-18T22:11:10Z",
+    "type": "Injury",
+    "headline": "Texans rule WR Nico Collins out vs. Bengals with hamstring injury",
+    "summary": "The Texans have ruled star wide receiver Nico Collins out for Sunday's matchup against the Bengals due to a hamstring injury.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49975040/texans-rule-wr-nico-collins-vs-bengals-hamstring-injury",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "49975308",
+    "publishedAt": "2026-09-18T22:40:13Z",
+    "type": "Injury",
+    "headline": "Broncos rule out WR Marvin Mims Jr. (foot) for Sunday",
+    "summary": "Denver Broncos wide receiver Marvin Mims Jr. will miss Sunday's game against the Jacksonville Jaguars.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49975308/broncos-rule-wr-marvin-mims-jr-foot-sunday",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "49975015",
+    "publishedAt": "2026-09-18T22:10:01Z",
+    "type": "Analysis",
+    "headline": "FBI case against fake 49ers player adds more alleged victims",
+    "summary": "The FBI has identified 35 additional women who say they were defrauded by Daejon Love and Taylor Chan, bringing the total number of alleged victims in a case that included Love impersonating as a 49ers player to more than 60.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49975015/fbi-case-fake-49ers-player-adds-more-alleged-victims",
     "sourceName": "ESPN"
   },
   {
@@ -27,30 +45,12 @@
     "sourceName": "ESPN"
   },
   {
-    "id": "49974012",
-    "publishedAt": "2026-09-18T17:57:49Z",
-    "type": "Analysis",
-    "headline": "With Penix not ready, Rush getting second start for Falcons",
-    "summary": "The Falcons will start quarterback Cooper Rush for the second straight week, coach Kevin Stefanski said Friday.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49974012/qb-cooper-rush-getting-second-start-falcons-sources-say",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=420211",
-    "publishedAt": "2026-09-18T18:17:55.000Z",
-    "type": "Analysis",
-    "headline": "Lions’ Brian Branch, Kerby Joseph Could Make Early Returns",
-    "summary": "The Lions’ secondary has been shorthanded to begin the season, something which was plainly obvious during last night’s blowout loss to the Bills. The unit could receive reinforcements earlier than Detroit hoped, though. During Thursday’s contest, Amazon Prime’s James Palmer reported there is an expectation that at least one of Brian Branch or Kerby Joseph could […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/09/lions-brian-branch-kerby-joseph-could-make-early-returns",
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=420220",
+    "publishedAt": "2026-09-18T20:50:00.000Z",
+    "type": "Injury",
+    "headline": "Giants Place Paulson Adebo On IR, Sign Nikko Reed Off Chargers’ Practice Squad",
+    "summary": "The Giants’ cornerback depth chart will have a different look for the time being. Head coach John Harbaugh announced on Friday that veteran Paulson Adebo has been moved to injured reserve. That means an absence of at least four games is now in store. Adebo, who carries a team-high cap charge of $24.2MM in 2026, was absent from practice […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/09/giants-place-paulson-adebo-on-ir-sign-nikko-reed-off-chargers-practice-squad",
     "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bills-are-third-team-ever-to-start-2-0-while-giving-up-more-than-30-points-in-both-games",
-    "publishedAt": "2026-09-18T18:50:13.000Z",
-    "type": "Analysis",
-    "headline": "Bills are third team ever to start 2-0 while giving up more than 30 points in both games",
-    "summary": "The Bills have started the season with two wins over two teams that entered the season as favorites to win their divisions.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bills-are-third-team-ever-to-start-2-0-while-giving-up-more-than-30-points-in-both-games",
-    "sourceName": "Pro Football Talk"
   }
 ]
