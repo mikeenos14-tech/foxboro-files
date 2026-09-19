@@ -184,15 +184,15 @@
   ],
   "goodBadUgly": {
     "good": [
-      "Defense kept Seattle's red zone efficiency in check, allowing just 1 of 3 scoring opportunities.",
-      "Third down defense was solid, holding Seattle to 2 of 11 conversions."
+      "The defense actually held up reasonably well against a tough opponent, allowing just 13 points and giving up only 1-for-3 in the red zone.",
+      "We converted 5 of 16 third downs—not great, but the defense was even stingier at 2-for-11."
     ],
     "bad": [
-      "Turnover margin of -3 is a killer—can't win games giving the ball away that many times.",
-      "Third down offense struggled badly at 5 of 16, making it hard to sustain drives and manage the clock."
+      "We lost the turnover battle decisively at minus-3, and in a game this close, that margin is the difference between a win and a loss.",
+      "Offensive EPA per play of minus-0.11 is deeply unimpressive; we simply didn't move the ball efficiently enough."
     ],
     "ugly": [
-      "A.J. Brown's high ankle sprain and subsequent IR placement removes a crucial pass-catcher just as the season begins, leaving the offense to figure out who steps up next."
+      "A.J. Brown's four-week absence is a legitimate disaster for an offense that already struggled to generate points in this one."
     ]
   },
   "playerOfTheGame": {
@@ -202,5 +202,5 @@
     "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/zmpuirvuw4r04inxth5i",
     "reason": "Had the team's best (though still net-negative) win probability contribution at -3% in a tough game offensively."
   },
-  "fanTake": "Well, that stings. We lose to Seattle 13-10 in a game that felt winnable but never quite came together, and now we're facing the cruel reality that A.J. Brown is headed to injured reserve with a high ankle sprain—four games gone, minimum. Our offense managed just -0.11 EPA per play, we couldn't convert in the red zone (1 for 2), and we gift-wrapped three turnovers to a Seahawks team that capitalized. It's the kind of loss that feels doubly painful because it arrives alongside the news that one of our most dynamic weapons will be watching from the sideline for weeks. This is not how you wanted Week 1 to unfold."
+  "fanTake": "Well, that was a brutal way to start the season. We came out flat against Seattle, managed a field goal and a touchdown, and somehow still found a way to lose by three—which tells you everything you need to know about how this game went. The turnover battle was particularly ugly (minus-3 in our favor), and we couldn't convert when it mattered in the red zone (1-for-2). To make matters worse, we're now without A.J. Brown for the next four weeks thanks to a high ankle sprain, which means we'll be trying to right this ship with half our receiving arsenal tied up in the training room."
 }
