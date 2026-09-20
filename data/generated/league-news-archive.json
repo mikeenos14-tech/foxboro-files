@@ -1,12 +1,444 @@
 [
   {
+    "id": "49992451",
+    "publishedAt": "2026-09-20T21:00:31Z",
+    "type": "Analysis",
+    "headline": "Trey Smack’s OT kick lifts the Packers past the Jets, ending a 6-game skid",
+    "summary": "— Trey Smack kicked a 26-yard field goal in overtime and the Green Bay Packers overcame a 10-point fourth-quarter deficit and a sloppy, penalty-filled performance to snap a six-game skid with a 20-17 victory over the New York Jets on Sunday.",
+    "sourceUrl": "http://www.espn.com/nfl/recap?gameId=401872936",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "49991729",
+    "publishedAt": "2026-09-20T20:56:32Z",
+    "type": "Injury",
+    "headline": "Bears' Caleb Williams leaves on cart after falling on scramble",
+    "summary": "Bears quarterback Caleb Williams exited Sunday's game against the Minnesota Vikings with a right hamstring injury.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49991729/bears-caleb-williams-leaves-cart-falling-scramble",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cowboys-safety-p-j-locke-questionable-to-return-with-foot-injury",
+    "publishedAt": "2026-09-20T20:56:16.000Z",
+    "type": "Injury",
+    "headline": "Cowboys safety P.J. Locke questionable to return with foot injury",
+    "summary": "The Cowboys are without starting safety Malik Hooker, who fractured his forearm in the season opener.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cowboys-safety-p-j-locke-questionable-to-return-with-foot-injury",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/chargers-te-david-njoku-carted-off-with-knee-injury",
+    "publishedAt": "2026-09-20T20:52:50.000Z",
+    "type": "Injury",
+    "headline": "Chargers TE David Njoku carted off with knee injury",
+    "summary": "Chargers tight end David Njoku is likely out for the rest of Sunday’s game against the Raiders.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/chargers-te-david-njoku-carted-off-with-knee-injury",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jaguars-get-out-to-7-0-lead-in-denver",
+    "publishedAt": "2026-09-20T20:51:38.000Z",
+    "type": "Injury",
+    "headline": "Jaguars get out to 7-0 lead in Denver",
+    "summary": "The Jaguars got a win in Denver last season and they are on the board first in this year's visit.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jaguars-get-out-to-7-0-lead-in-denver",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "49992260",
+    "publishedAt": "2026-09-20T20:50:45Z",
+    "type": "Analysis",
+    "headline": "Minnesota Vikings vs. Chicago Bears: Game Highlights",
+    "summary": "Minnesota Vikings vs. Chicago Bears: Game Highlights",
+    "sourceUrl": "https://www.espn.com/video/clip/_/id/49992260/game-highlights",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "49992225",
+    "publishedAt": "2026-09-20T20:45:48Z",
+    "type": "Analysis",
+    "headline": "Cincinnati Bengals vs. Houston Texans: Game Highlights",
+    "summary": " Cincinnati Bengals vs. Houston Texans: Game Highlights",
+    "sourceUrl": "https://www.espn.com/video/clip/_/id/49992225/game-highlights",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "49992197",
+    "publishedAt": "2026-09-20T20:44:00Z",
+    "type": "Analysis",
+    "headline": "Carolina Panthers vs. Atlanta Falcons: Game Highlights",
+    "summary": "Carolina Panthers vs. Atlanta Falcons: Game Highlights",
+    "sourceUrl": "https://www.espn.com/video/clip/_/id/49992197/game-highlights",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-beat-jets-20-17-in-overtime",
+    "publishedAt": "2026-09-20T20:42:30.000Z",
+    "type": "Analysis",
+    "headline": "Packers beat Jets 20-17 in overtime",
+    "summary": "The Packers' losing streak has come to an end.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-beat-jets-20-17-in-overtime",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "49992018",
+    "publishedAt": "2026-09-20T20:36:29Z",
+    "type": "Analysis",
+    "headline": "Rodgers and Turner help the Vikings shut down the Bears for a 9-3 win in the rain",
+    "summary": "— Isaiah Rodgers recovered a fumble and blocked a late field-goal attempt, and the Minnesota Vikings shut down Caleb Williams and the Chicago Bears for a 9-3 victory on a rainy Sunday.",
+    "sourceUrl": "http://www.espn.com/nfl/recap?gameId=401872937",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bengals-stymie-texans-20-6-as-houston-drops-first-two-games-again",
+    "publishedAt": "2026-09-20T20:35:56.000Z",
+    "type": "Analysis",
+    "headline": "Bengals stymie Texans 20-6 as Houston drops first two games again",
+    "summary": "The Bengals defense is not the same defense as last season.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bengals-stymie-texans-20-6-as-houston-drops-first-two-games-again",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "49992172",
+    "publishedAt": "2026-09-20T20:33:30Z",
+    "type": "Analysis",
+    "headline": "Pittsburgh Steelers vs. New England Patriots: Game Highlights",
+    "summary": "Pittsburgh Steelers vs. New England Patriots: Game Highlights",
+    "sourceUrl": "https://www.espn.com/video/clip/_/id/49992172/game-highlights",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "49992174",
+    "publishedAt": "2026-09-20T20:32:40Z",
+    "type": "Analysis",
+    "headline": "Ja'Marr Chase scores 2 TDs on passes from Joe Burrow to lead the Bengals past the Texans 20-6",
+    "summary": "— Joe Burrow threw two touchdown passes to Ja’Marr Chase to lead the Cincinnati Bengals to a 20-6 win over the Houston Texans on Sunday.",
+    "sourceUrl": "http://www.espn.com/nfl/recap?gameId=401872934",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "49992051",
+    "publishedAt": "2026-09-20T20:29:53Z",
+    "type": "Analysis",
+    "headline": "Philadelphia Eagles vs. Tennessee Titans: Game Highlights",
+    "summary": "Philadelphia Eagles vs. Tennessee Titans: Game Highlights",
+    "sourceUrl": "https://www.espn.com/video/clip/_/id/49992051/game-highlights",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/ben-johnson-on-caleb-williams-well-see-how-bad-it-is-tomorrow-go-from-there",
+    "publishedAt": "2026-09-20T20:24:14.000Z",
+    "type": "Injury",
+    "headline": "Ben Johnson on Caleb Williams: We’ll see how bad it is tomorrow, go from there",
+    "summary": "In the immediate aftermath of Sunday's loss to the Vikings, Bears head coach Ben Johnson told reporters he's unsure of the severity of Caleb Williams' hamstring injury.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/ben-johnson-on-caleb-williams-well-see-how-bad-it-is-tomorrow-go-from-there",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jets-packers-head-to-overtime",
+    "publishedAt": "2026-09-20T20:22:56.000Z",
+    "type": "Analysis",
+    "headline": "Jets, Packers head to overtime",
+    "summary": "It was a sloppy, rainy four quarters at MetLife Stadium and it isn't over yet.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jets-packers-head-to-overtime",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=420329",
+    "publishedAt": "2026-09-20T20:22:03.000Z",
+    "type": "Injury",
+    "headline": "Bears QB Caleb Williams Carted Off After Suffering Hamstring Injury",
+    "summary": "3:22pm: Williams has a hamstring injury, Mike Garafolo of NFL Network relays. Johnson said after the game that Williams is “in good spirits,” but the Bears won’t know the severity of the injury until Monday (via Tom Pelissero of The Ringer). He is scheduled to undergo imaging, Adam Schefter of ESPN relays. 2:40pm: In a […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/09/bears-qb-caleb-williams-carted-off-in-week-2",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "49991994",
+    "publishedAt": "2026-09-20T20:20:25Z",
+    "type": "Analysis",
+    "headline": "New Orleans Saints vs. Baltimore Ravens: Game Highlights",
+    "summary": "New Orleans Saints vs. Baltimore Ravens: Game Highlights",
+    "sourceUrl": "https://www.espn.com/video/clip/_/id/49991994/game-highlights",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "49992029",
+    "publishedAt": "2026-09-20T20:18:34Z",
+    "type": "Analysis",
+    "headline": "Jalen Hurts hits Darius Cooper for TD with 9 seconds left to lift the Eagles past the Titans 24-20",
+    "summary": "— Jalen Hurts threw a 3-yard touchdown pass to Darius Cooper with 9 seconds left, and the ",
+    "sourceUrl": "http://www.espn.com/nfl/recap?gameId=401872939",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "49992023",
+    "publishedAt": "2026-09-20T20:16:33Z",
+    "type": "Analysis",
+    "headline": "Young throws 3 TD passes, including 2 to Waller, as Panthers dominate short-handed Falcons 34-3",
+    "summary": "— Bryce Young threw for 287 yards and three touchdowns, including two to Darren Waller, Carolina's Devin Lloyd returned one of his two interceptions for a touchdown and the...",
+    "sourceUrl": "http://www.espn.com/nfl/recap?gameId=401872933",
+    "sourceName": "ESPN"
+  },
+  {
     "id": "49984903",
-    "publishedAt": "2026-09-20T18:05:26Z",
+    "publishedAt": "2026-09-20T20:14:48Z",
     "type": "Injury",
     "headline": "Week 2 NFL highlights: Best plays, moments, touchdowns, more",
-    "summary": "Check out the TDs and top Week 2 plays, with Drake Maye, Aaron Rodgers, Caleb Williams and more in action.",
+    "summary": "Check out top Week 2 plays, with Dak Prescott, Jacoby Brissett and Justin Herbert in action.",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/49984903/week-2-highlights-best-plays-touchdowns-2026",
     "sourceName": "ESPN"
+  },
+  {
+    "id": "49992010",
+    "publishedAt": "2026-09-20T20:14:30Z",
+    "type": "Analysis",
+    "headline": "TreVeyon Henderson runs for a TD and the Patriots pummel Aaron Rodgers in a 20-3 win over Steelers",
+    "summary": "— TreVeyon Henderson ran for a 39-yard touchdown in his season debut, Eli Ponder added a 19-yard fumble recovery for a score and the New England Patriots’ defense smothered Aaron Rodgers on the way to a 20-3 victory over the Pittsburgh Steelers on...",
+    "sourceUrl": "http://www.espn.com/nfl/recap?gameId=401872946",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/browns-bucs-hit-lightning-delay-with-2-00-left-in-fourth-quarter",
+    "publishedAt": "2026-09-20T20:14:21.000Z",
+    "type": "Analysis",
+    "headline": "Browns-Bucs hit lightning delay with 2:00 left in fourth quarter",
+    "summary": "Todd Monken is two minutes away from his first win as an NFL head coach.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/browns-bucs-hit-lightning-delay-with-2-00-left-in-fourth-quarter",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "49991415",
+    "publishedAt": "2026-09-20T20:12:17Z",
+    "type": "Injury",
+    "headline": "Saints LT Kelvin Banks Jr. carted off with ankle injury",
+    "summary": "Saints left tackle Kelvin Banks Jr. (ankle) was ruled out against the Ravens in the fourth quarter.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49991415/saints-lt-kelvin-banks-jr-carted-ankle-injury",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "49991957",
+    "publishedAt": "2026-09-20T20:11:30Z",
+    "type": "Analysis",
+    "headline": "Tyler Shough and the Saints produce two big drives at the end to topple the Ravens 24-17",
+    "summary": "— Tyler Shough scored on a fourth-down sneak with 1:28 remaining, and the New Orleans Saints rallied to a 24-17 win over the Baltimore Ravens on Sunday.",
+    "sourceUrl": "http://www.espn.com/nfl/recap?gameId=401872938",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/saints-rally-for-24-17-upset-of-ravens",
+    "publishedAt": "2026-09-20T20:09:59.000Z",
+    "type": "Analysis",
+    "headline": "Saints rally for 24-17 upset of Ravens",
+    "summary": "The Saints fell behind the Lions 21-0 in the season opener but rallied to force overtime.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/saints-rally-for-24-17-upset-of-ravens",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/eagles-need-last-minute-comeback-to-beat-titans-24-20",
+    "publishedAt": "2026-09-20T20:08:53.000Z",
+    "type": "Injury",
+    "headline": "Eagles need last-minute comeback to beat Titans 24-20",
+    "summary": "It wasn't easy, but the Eagles pulled out a win in Tennessee.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/eagles-need-last-minute-comeback-to-beat-titans-24-20",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/caleb-williams-suffers-hamstring-injury-vikings-beat-bears-9-3",
+    "publishedAt": "2026-09-20T20:08:17.000Z",
+    "type": "Injury",
+    "headline": "Caleb Williams suffers hamstring injury, Vikings beat Bears 9-3",
+    "summary": "Williams exited in the fourth quarter after suffering what appeared to be a significant hamstring injury.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/caleb-williams-suffers-hamstring-injury-vikings-beat-bears-9-3",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/panthers-rout-falcons-move-to-1-1-on-the-season",
+    "publishedAt": "2026-09-20T20:06:39.000Z",
+    "type": "Analysis",
+    "headline": "Panthers rout Falcons, move to 1-1 on the season",
+    "summary": "The Panthers scored 37 points and lost in Week 1, but they didn't let a strong offensive performance go to waste this weekend.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/panthers-rout-falcons-move-to-1-1-on-the-season",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/patriots-shut-down-steelers-offense-win-20-3",
+    "publishedAt": "2026-09-20T19:57:47.000Z",
+    "type": "Analysis",
+    "headline": "Patriots shut down Steelers' offense, win 20-3",
+    "summary": "Aaron Rodgers could do nothing today in New England.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/patriots-shut-down-steelers-offense-win-20-3",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/caleb-williams-appears-to-suffer-non-contact-leg-injury",
+    "publishedAt": "2026-09-20T19:41:51.000Z",
+    "type": "Injury",
+    "headline": "Caleb Williams appears to suffer non-contact leg injury",
+    "summary": "Williams was trying to run in the fourth quarter when he went down. He was eventually carted back to the locker room.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/caleb-williams-appears-to-suffer-non-contact-leg-injury",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jamarr-chase-scores-second-td-of-day",
+    "publishedAt": "2026-09-20T19:27:13.000Z",
+    "type": "Analysis",
+    "headline": "Ja'Marr Chase scores second TD of day",
+    "summary": "Ja'Marr Chase scored his second touchdown of the day, on an 18-yard pass from Joe Burrow.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jamarr-chase-scores-second-td-of-day",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/falcons-turn-to-jack-strand-at-qb-with-panthers-up-27-3",
+    "publishedAt": "2026-09-20T19:23:11.000Z",
+    "type": "Analysis",
+    "headline": "Falcons turn to Jack Strand at QB with Panthers up 27-3",
+    "summary": "The Falcons have made a quarterback change in the third quarter of Sunday's home game against the Panthers.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/falcons-turn-to-jack-strand-at-qb-with-panthers-up-27-3",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/denzel-boston-55-yard-touchdown-ties-browns-bucs-at-16-16",
+    "publishedAt": "2026-09-20T19:22:21.000Z",
+    "type": "Analysis",
+    "headline": "Denzel Boston 55-yard touchdown ties Browns-Bucs at 16-16",
+    "summary": "Last week, Denzel Boston's first touchdown catch came in garbage time with Cleveland down 34-3.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/denzel-boston-55-yard-touchdown-ties-browns-bucs-at-16-16",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jets-take-14-7-lead-on-garrett-wilson-touchdown-catch",
+    "publishedAt": "2026-09-20T19:19:03.000Z",
+    "type": "Analysis",
+    "headline": "Jets take 14-7 lead on Garrett Wilson touchdown catch",
+    "summary": "The Jets have their first lead of Sunday's game.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jets-take-14-7-lead-on-garrett-wilson-touchdown-catch",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/saints-lt-kelvin-banks-carted-off-with-ankle-injury",
+    "publishedAt": "2026-09-20T19:17:51.000Z",
+    "type": "Injury",
+    "headline": "Saints LT Kelvin Banks carted off with ankle injury",
+    "summary": "Saints left tackle Kelvin Banks was carted off the field in the third quarter Sunday.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/saints-lt-kelvin-banks-carted-off-with-ankle-injury",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/saquon-barkley-returns-but-titans-tie-it-17-17-with-cam-wards-second-rushing-td",
+    "publishedAt": "2026-09-20T19:10:47.000Z",
+    "type": "Analysis",
+    "headline": "Saquon Barkley returns, but Titans tie it 17-17 with Cam Ward's second rushing TD",
+    "summary": "Titans quarterback Cam Ward has two rushing touchdowns today against the Eagles, and the game is tied 17-17 at the start of the fourth quarter.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/saquon-barkley-returns-but-titans-tie-it-17-17-with-cam-wards-second-rushing-td",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/no-surprises-among-cowboys-commanders-inactives",
+    "publishedAt": "2026-09-20T19:04:33.000Z",
+    "type": "Analysis",
+    "headline": "No surprises among Cowboys-Commanders inactives",
+    "summary": "The Cowboys and Commanders each won't have two key players on Sunday.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/no-surprises-among-cowboys-commanders-inactives",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/baker-mayfield-5-yard-td-pass-gives-bucs-16-6-lead-over-browns",
+    "publishedAt": "2026-09-20T18:56:59.000Z",
+    "type": "Analysis",
+    "headline": "Baker Mayfield 5-yard TD pass gives Bucs 16-6 lead over Browns",
+    "summary": "The Buccaneers' quarterback made some things shake and bake on the first drive of the second half, and now Tampa Bay has a 16-6 lead.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/baker-mayfield-5-yard-td-pass-gives-bucs-16-6-lead-over-browns",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=420316",
+    "publishedAt": "2026-09-20T18:55:13.000Z",
+    "type": "Transaction",
+    "headline": "Lions Among Teams Interested In CB Kenny Moore",
+    "summary": "Veteran slot corner Kenny Moore has gone unsigned since the Colts released him in May, but he might not be on the market for much longer. The Lions are among multiple clubs showing interest in Moore, who could find his next team soon, according to Mike Garafolo of NFL Network. After spending his first nine […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/09/lions-among-teams-interested-in-cb-kenny-moore",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/ladd-mcconkey-active-brock-bowers-inactive-for-chargers-raiders",
+    "publishedAt": "2026-09-20T18:47:21.000Z",
+    "type": "Transaction",
+    "headline": "Ladd McConkey active, Brock Bowers inactive for Chargers-Raiders",
+    "summary": "It's good news for the Chargers and bad news for the Raiders with the release of inactives before the two teams play on Sunday afternoon.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/ladd-mcconkey-active-brock-bowers-inactive-for-chargers-raiders",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/rj-harvey-is-out-for-the-broncos-on-sunday",
+    "publishedAt": "2026-09-20T18:46:36.000Z",
+    "type": "Injury",
+    "headline": "RJ Harvey is out for the Broncos on Sunday",
+    "summary": "Word on Sunday morning was that Broncos running back RJ Harvey would be inactive for Sunday afternoon's home game against the Broncos and that became official 90 minutes ahead of kickoff in Denver.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/rj-harvey-is-out-for-the-broncos-on-sunday",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jamarr-chase-makes-a-poster-catch-to-give-bengals-7-3-halftime-lead",
+    "publishedAt": "2026-09-20T18:43:31.000Z",
+    "type": "Analysis",
+    "headline": "Ja'Marr Chase makes a poster catch to give Bengals 7-3 halftime lead",
+    "summary": "Ja'Marr Chase has a habit of starting slowly in Week 1 and blowing up in Week 2.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jamarr-chase-makes-a-poster-catch-to-give-bengals-7-3-halftime-lead",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/panthers-lead-falcons-20-3-at-halftime",
+    "publishedAt": "2026-09-20T18:42:09.000Z",
+    "type": "Analysis",
+    "headline": "Panthers lead Falcons 20-3 at halftime",
+    "summary": "The Panthers defense gave up 59 points last Sunday, but things have gone better on the defensive side of the ball through 30 minutes this weekend.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/panthers-lead-falcons-20-3-at-halftime",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=419868",
+    "publishedAt": "2026-09-20T18:39:48.000Z",
+    "type": "Injury",
+    "headline": "Chargers WR Ladd McConkey Active For Week 2",
+    "summary": "SEPTEMBER 20, 1:39pm: McConkey is active for Sunday’s game, Schefter relays. 9:43am: The Ringer’s Tom Pelissero says McConkey has made “rapid progress” and plans to play in Week 2. If he does suit up, he will be wearing a flak jacket, per Schefter. SEPTEMBER 14: It sounds like Ladd McConkey avoided a serious injury during […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/09/chargers-wr-ladd-mcconkey-day-to-day-with-rib-injury",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jets-packers-tied-7-7-at-halftime",
+    "publishedAt": "2026-09-20T18:36:49.000Z",
+    "type": "Analysis",
+    "headline": "Jets, Packers tied 7-7 at halftime",
+    "summary": "The Jets and Packers have not produced many offensive highlights through 30 minutes of play at a wet MetLife Stadium.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jets-packers-tied-7-7-at-halftime",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/todd-monkens-fourth-down-decision-allows-bucs-to-take-9-6-halftime-lead",
+    "publishedAt": "2026-09-20T18:32:56.000Z",
+    "type": "Analysis",
+    "headline": "Todd Monken's fourth-down decision allows Bucs to take 9-6 halftime lead",
+    "summary": "The Browns and the Buccaneers both look like teams with a lot of improvements to make if they’re going to be competitors this season.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/todd-monkens-fourth-down-decision-allows-bucs-to-take-9-6-halftime-lead",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "49961538",
+    "publishedAt": "2026-09-20T18:30:27Z",
+    "type": "Analysis",
+    "headline": "NFL Week 2's best arrivals, led by George Pickens and Jayden Daniels",
+    "summary": "Rounding up all top pregame and tunnel arrivals from around the league.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49961538/nfl-week-2-fashionable-arrivals",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/vikings-lead-bears-6-3-at-halftime",
+    "publishedAt": "2026-09-20T18:27:29.000Z",
+    "type": "Analysis",
+    "headline": "Vikings lead Bears 6-3 at halftime",
+    "summary": "It was a wet and rainy first half in Chicago, as the Vikings carry a 6-3 lead into halftime.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/vikings-lead-bears-6-3-at-halftime",
+    "sourceName": "Pro Football Talk"
   },
   {
     "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/marshawn-lloyds-first-nfl-td-puts-packers-up-7-0",
@@ -147,7 +579,7 @@
     "id": "profootballrumors-https://www.profootballrumors.com/?p=419801",
     "publishedAt": "2026-09-20T17:18:05.000Z",
     "type": "Analysis",
-    "headline": "Browns QB Deshaun Watson Expected To Start In Week 2; Team To Evaluate Matter Prior To Week 3",
+    "headline": "Browns QB Deshaun Watson To Start In Week 2; Team To Evaluate Matter Prior To Week 3",
     "summary": "SEPTEMBER 20: While Watson will get the nod in Week 2, the Browns will evaluate their QB situation before their home opener against the Panthers in Week 3, as ESPN’s Ian Rapoport relays. If Watson plays well against the Bucs, he will remain in the starting lineup. If he performs poorly, or even at an […]",
     "sourceUrl": "https://www.profootballrumors.com/2026/09/browns-hc-todd-monken-non-committal-on-deshaun-watsons-week-2-status",
     "sourceName": "Pro Football Rumors"
@@ -169,15 +601,6 @@
     "summary": "The Packers lost a wide receiver early in their bid for a win over the Jets at MetLife Stadium.",
     "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jayden-reed-placed-on-backboard-carted-off-in-first-quarter",
     "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "49961538",
-    "publishedAt": "2026-09-20T17:10:03Z",
-    "type": "Analysis",
-    "headline": "NFL Week 2's best arrivals, led by Baker Mayfield and Justin Jefferson",
-    "summary": "Rounding up all top pregame and tunnel arrivals from around the league.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49961538/nfl-week-2-fashionable-arrivals",
-    "sourceName": "ESPN"
   },
   {
     "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/second-opinions-resulted-in-good-news-for-sam-darnold",
@@ -331,15 +754,6 @@
     "summary": "The Week 1 win over Washington was more sluggish than expected for the Eagles.",
     "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/nick-sirianni-has-had-plenty-of-success-in-september",
     "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=419868",
-    "publishedAt": "2026-09-20T14:43:48.000Z",
-    "type": "Injury",
-    "headline": "Chargers WR Ladd McConkey Day-To-Day With Rib Injury",
-    "summary": "SEPTEMBER 20: The Ringer’s Tom Pelissero says McConkey has made “rapid progress” and plans to play in Week 2. If he does suit up, he will be wearing a flak jacket, per Schefter. SEPTEMBER 14: It sounds like Ladd McConkey avoided a serious injury during yesterday’s season-opening loss. The Chargers WR is dealing with a […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/09/chargers-wr-ladd-mcconkey-day-to-day-with-rib-injury",
-    "sourceName": "Pro Football Rumors"
   },
   {
     "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/deion-sanders-wasnt-happy-that-some-players-were-laughing-after-blowout-loss",

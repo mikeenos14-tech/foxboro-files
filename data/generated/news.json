@@ -1,12 +1,39 @@
 [
   {
+    "id": "49992172",
+    "publishedAt": "2026-09-20T20:33:30Z",
+    "type": "Analysis",
+    "headline": "Pittsburgh Steelers vs. New England Patriots: Game Highlights",
+    "summary": "Pittsburgh Steelers vs. New England Patriots: Game Highlights",
+    "sourceUrl": "https://www.espn.com/video/clip/_/id/49992172/game-highlights",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "49992010",
+    "publishedAt": "2026-09-20T20:14:30Z",
+    "type": "Analysis",
+    "headline": "TreVeyon Henderson runs for a TD and the Patriots pummel Aaron Rodgers in a 20-3 win over Steelers",
+    "summary": "— TreVeyon Henderson ran for a 39-yard touchdown in his season debut, Eli Ponder added a 19-yard fumble recovery for a score and the New England Patriots’ defense smothered Aaron Rodgers on the way to a 20-3 victory over the Pittsburgh Steelers on...",
+    "sourceUrl": "http://www.espn.com/nfl/recap?gameId=401872946",
+    "sourceName": "ESPN"
+  },
+  {
     "id": "49990760",
-    "publishedAt": "2026-09-20T18:03:09Z",
+    "publishedAt": "2026-09-20T20:08:15Z",
     "type": "Injury",
     "headline": "Patriots starting RG Mike Onwenu carted off with ankle injury",
-    "summary": "Patriots starting right guard Mike Onwenu was carted off the field with an ankle injury late in the first quarter of Sunday's game against the Steelers.",
+    "summary": "Patriots starting right guard Mike Onwenu was carted off the field with an ankle injury late in the first quarter against the Steelers.",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/49990760/patriots-starting-rg-mike-onwenu-carted-ankle-injury",
     "sourceName": "ESPN"
+  },
+  {
+    "id": "9c121546-b93b-4b84-b2d6-f9002f182596",
+    "publishedAt": "2026-09-20T20:06:14.000Z",
+    "type": "Analysis",
+    "headline": "Gamebook: Steelers at Patriots Week 2",
+    "summary": "Download the NFL Gamebook with all of the statistics from the Patriots Week 2 game against the Pittsburgh Steelers on Sunday, September 20, 2026.",
+    "sourceUrl": "https://www.patriots.com/news/gamebook-steelers-at-patriots-week-2",
+    "sourceName": "Patriots.com"
   },
   {
     "id": "49976142",
@@ -54,15 +81,6 @@
     "sourceName": "Patriots.com"
   },
   {
-    "id": "c254c2e7-2352-4c45-8c50-92b6c3bdb2e7",
-    "publishedAt": "2026-09-20T10:00:00.000Z",
-    "type": "Analysis",
-    "headline": "Patriots Gameplan: Is a Blueprint Forming vs. Drake Maye and the Patriots Offense?",
-    "summary": "Previewing the chess match between the Patriots and Steelers in Sunday's home opener at Gillette Stadium.",
-    "sourceUrl": "https://www.patriots.com/news/patriots-gameplan-is-a-blueprint-forming-vs-drake-maye-and-the-patriots-offense",
-    "sourceName": "Patriots.com"
-  },
-  {
     "id": "49973986",
     "publishedAt": "2026-09-18T21:13:51Z",
     "type": "Transaction",
@@ -87,24 +105,6 @@
     "headline": "Patriots' TreVeyon Henderson says he's 'ready to go' for Week 2",
     "summary": "Patriots running back TreVeyon Henderson said Thursday he's \"ready to go\" for Sunday's game against the Steelers after missing New England's opener with an ankle injury.",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/49966375/patriots-treveyon-henderson-says-ready-go-week-2",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "49956845",
-    "publishedAt": "2026-09-16T14:18:58Z",
-    "type": "Analysis",
-    "headline": "Can Drake Maye and the Patriots bounce back vs. the Steelers?",
-    "summary": "Can Drake Maye and the Patriots bounce back vs. the Steelers?",
-    "sourceUrl": "https://www.espn.com/video/clip/_/id/49956845/can-drake-maye-patriots-bounce-back-vs-steelers",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "49943754",
-    "publishedAt": "2026-09-14T23:47:08Z",
-    "type": "Analysis",
-    "headline": "Patriots' Kraft says Macklemore performance would cross line",
-    "summary": "Robert Kraft said he had Macklemore removed as an opening act for Ed Sheeran's shows at Gillette Stadium due in part to a \"history of antisemitic rhetoric and imagery that we believe has been deeply offensive and hurtful to the Jewish community.\"",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49943754/patriots-kraft-says-macklemore-performance-cross-line",
     "sourceName": "ESPN"
   }
 ]
