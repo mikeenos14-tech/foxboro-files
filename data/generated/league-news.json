@@ -1,14 +1,5 @@
 [
   {
-    "id": "49980661",
-    "publishedAt": "2026-09-19T21:27:54Z",
-    "type": "Injury",
-    "headline": "Jets rookie WR Omar Cooper Jr. put on IR with sprained ankle",
-    "summary": "Jets rookie wide receiver Omar Cooper Jr., one of the team's three first-round picks, has been placed on injured reserve with a sprained ankle.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49980661/source-jets-rookie-wr-cooper-jr-put-ir-sprained-ankle",
-    "sourceName": "ESPN"
-  },
-  {
     "id": "49982377",
     "publishedAt": "2026-09-19T21:53:31Z",
     "type": "Injury",
@@ -18,12 +9,39 @@
     "sourceName": "ESPN"
   },
   {
+    "id": "49980918",
+    "publishedAt": "2026-09-19T18:23:36Z",
+    "type": "Injury",
+    "headline": "Steelers rule out WR Pittman Jr. vs. Patriots with foot injury",
+    "summary": "The Steelers will be without another starter for their Week 2 game against the Patriots after downgrading wide receiver Michael Pittman Jr. to out with a foot injury.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49980918/steelers-rule-wr-pittman-jr-vs-patriots-foot-injury",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bengals-elevate-josh-johnson-to-active-roster-with-joe-burrow-questionable",
+    "publishedAt": "2026-09-19T22:37:47.000Z",
+    "type": "Injury",
+    "headline": "Bengals elevate Josh Johnson to active roster with Joe Burrow questionable",
+    "summary": "Bengals quarterback Joe Burrow says he plans to play tomorrow against the Texans.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bengals-elevate-josh-johnson-to-active-roster-with-joe-burrow-questionable",
+    "sourceName": "Pro Football Talk"
+  },
+  {
     "id": "profootballrumors-https://www.profootballrumors.com/?p=420248",
-    "publishedAt": "2026-09-19T16:28:00.000Z",
+    "publishedAt": "2026-09-20T03:00:00.000Z",
     "type": "Injury",
     "headline": "Seahawks QB Sam Darnold Could Be Out Until October",
     "summary": "The Seahawks have been hesitant to provide a clear timeline for the return of quarterback Sam Darnold from the injury he suffered in Week 1. Initial concerns about Darnold’s hip were allayed by testing that indicated his glute was impacted instead. But Seattle’s update that their star quarterback was dealing with a “very unique soft-tissue” […]",
     "sourceUrl": "https://www.profootballrumors.com/2026/09/seahawks-qb-sam-darnold-could-be-out-until-october",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=420250",
+    "publishedAt": "2026-09-20T02:58:45.000Z",
+    "type": "Injury",
+    "headline": "Jets Place Omar Cooper Jr. On IR",
+    "summary": "The Jets are expected to place rookie wide receiver Omar Cooper Jr. on injured reserve due to an ankle sprain, per NFL Network’s Ian Rapoport. The first-round pick will now be sidelined until at least Week 5. Cooper, 22, started his NFL career with a 30-yard reception on New York’s opening drive that converted a third-and-nine […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/09/jets-place-wr-omar-cooper-on-ir",
     "sourceName": "Pro Football Rumors"
   },
   {
@@ -33,24 +51,6 @@
     "headline": "Raiders elevate TE Chris Myarick with Brock Bowers listed as doubtful",
     "summary": "The Raiders didn't officially rule Brock Bowers out on Friday, but signs point to the tight end missing his second straight game on Sunday,.",
     "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/raiders-elevate-te-chris-myarick-with-brock-bowers-listed-as-doubtful",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "49981547",
-    "publishedAt": "2026-09-19T20:27:40Z",
-    "type": "Injury",
-    "headline": "Rams' Puka Nacua again misses practice, questionable for MNF",
-    "summary": "Rams receiver Puka Nacua will not practice for the second day in a row and will be listed as questionable for Monday night's game against the Giants.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49981547/rams-puka-nacua-again-misses-practice-questionable-mnf",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-downgrade-dt-javon-hargrave-to-out-remove-de-lukas-van-ness-from-injury-report",
-    "publishedAt": "2026-09-19T18:40:19.000Z",
-    "type": "Injury",
-    "headline": "Packers downgrade DT Javon Hargrave to out, remove DE Lukas Van Ness from injury report",
-    "summary": "When the Packers face the Jets on Sunday, they won't have defensive tackle Javon Hargrave.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-downgrade-dt-javon-hargrave-to-out-remove-de-lukas-van-ness-from-injury-report",
     "sourceName": "Pro Football Talk"
   }
 ]
