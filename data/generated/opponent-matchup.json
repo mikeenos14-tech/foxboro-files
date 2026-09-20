@@ -80,15 +80,15 @@
     }
   ],
   "weather": {
-    "tempF": 64,
-    "wind": "9 mph",
-    "precipitation": "18%",
+    "tempF": 60,
+    "wind": "4 mph",
+    "precipitation": "44%",
     "isDome": false
   },
   "bettingContext": {
     "spread": -5.5,
     "overUnder": 41.5,
-    "asOf": "2026-09-19"
+    "asOf": "2026-09-20"
   },
-  "previewTake": "Here's the thing about this week: we're staring down the widest statistical edge on the board — our pass offense in the 97th percentile going up against Pittsburgh's 71st-percentile pass defense — and yet we're still favored by just 5.5 points at home, which tells you everything about how messy this matchup feels. The Steelers are rolling with that league-average offense (ranked 21st) and a legitimately stout defense (14th), and while we have the weapons to light them up through the air, there's the small matter of potentially being without Carlton Davis III at corner, the kind of detail that can swing a game when you're facing one of the NFL's toughest defensive minds. TreVeyon Henderson says he's ready to go, which is excellent news for our run game, and we've got recent history on our side — wins in three of our last five meetings — but we can't ignore that Week 1 stumble or the fact that the Steelers have been the steadier team lately. This is precisely the kind of game where our schematic advantage in the passing game has to translate into points, because defensive soundness has a way of overcoming statistical edge in these rivalry matchups."
+  "previewTake": "Here's the thing about this matchup: we're staring down the widest statistical edge on the board this week — our pass offense in the 97th percentile against a Steelers defense that grades 71st — and that's genuinely the kind of advantage you dream about. The problem is we're doing it without Carlton Davis III at cornerback, which is precisely the wrong time to be short-handed in coverage, even against a Steelers offense ranked 21st overall. Pittsburgh's recent form (0.02 net EPA per play over their last three) suggests they're beatable, and we've handled them well in recent history (3-2 in our last five meetings), but this is a bounce-back moment we can't afford to bungle. TreVeyon Henderson's back from that ankle, Mitch Wishnowsky's in for the second straight week, and we're favored by 5.5 — everything points to New England seizing this opportunity, assuming our pass game does what the numbers say it should."
 }

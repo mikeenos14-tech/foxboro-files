@@ -184,15 +184,15 @@
   ],
   "goodBadUgly": {
     "good": [
-      "The defense actually held up reasonably well against a tough opponent, allowing just 13 points and giving up only 1-for-3 in the red zone.",
-      "We converted 5 of 16 third downs—not great, but the defense was even stingier at 2-for-11."
+      "Red zone defense held up reasonably well, allowing just one score on three opportunities.",
+      "Third down defense wasn't a total disaster, forcing two stops on 11 Seattle chances."
     ],
     "bad": [
-      "We lost the turnover battle decisively at minus-3, and in a game this close, that margin is the difference between a win and a loss.",
-      "Offensive EPA per play of minus-0.11 is deeply unimpressive; we simply didn't move the ball efficiently enough."
+      "The offense managed just 1 for 2 in the red zone and 5 for 16 on third down—basically couldn't execute when it mattered.",
+      "Turnover margin of minus-3 is a death sentence, and losing the ball battle that decisively against an opponent never ends well."
     ],
     "ugly": [
-      "A.J. Brown's four-week absence is a legitimate disaster for an offense that already struggled to generate points in this one."
+      "Offensive EPA of minus-0.11 per play says the entire attack was operating in negative space; when your offense is generating negative value on every snap, 10 points is honestly all you deserve."
     ]
   },
   "playerOfTheGame": {
@@ -202,5 +202,5 @@
     "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/zmpuirvuw4r04inxth5i",
     "reason": "Had the team's best (though still net-negative) win probability contribution at -3% in a tough game offensively."
   },
-  "fanTake": "Well, that was a brutal way to start the season. We came out flat against Seattle, managed a field goal and a touchdown, and somehow still found a way to lose by three—which tells you everything you need to know about how this game went. The turnover battle was particularly ugly (minus-3 in our favor), and we couldn't convert when it mattered in the red zone (1-for-2). To make matters worse, we're now without A.J. Brown for the next four weeks thanks to a high ankle sprain, which means we'll be trying to right this ship with half our receiving arsenal tied up in the training room."
+  "fanTake": "Well, that was a three-point lesson in how football games slip away when nothing—and I mean nothing—goes right. The Patriots offense generated negative EPA per play while the defense allowed positive EPA per play, and somehow we managed to gift Seattle three turnovers on top of it all. This was the kind of loss that doesn't sting because it was close; it stings because we beat ourselves so thoroughly that the final margin almost feels generous. R.Stevenson taking the hit in win probability added tells you everything you need to know: this was a team self-destructing rather than getting outplayed."
 }
