@@ -6,10 +6,10 @@
     "homeAway": "away",
     "opponentRecord": "1-0",
     "opponentPointDiff": 3,
-    "opponentEpaRank": 4,
+    "opponentEpaRank": 1,
     "strengthOfSchedule": {
-      "season": 3,
-      "opponentSos": -3
+      "season": -3.5,
+      "opponentSos": 14
     },
     "restDays": 7,
     "opponentRestDays": 7,
@@ -25,18 +25,20 @@
     "week": 2,
     "opponent": "PIT",
     "homeAway": "home",
-    "opponentRecord": "1-0",
-    "opponentPointDiff": 7,
-    "opponentEpaRank": 15,
+    "opponentRecord": "1-1",
+    "opponentPointDiff": -10,
+    "opponentEpaRank": 27,
     "strengthOfSchedule": {
-      "season": 3,
-      "opponentSos": -7
+      "season": -3.5,
+      "opponentSos": -12
     },
     "restDays": 11,
     "opponentRestDays": 7,
     "isDivisional": false,
     "isConference": true,
-    "winProbabilityEstimate": 0.7029708171380055,
+    "result": "W",
+    "ourScore": 20,
+    "theirScore": 3,
     "date": "2026-09-20"
   },
   {
@@ -46,16 +48,16 @@
     "homeAway": "away",
     "opponentRecord": "1-0",
     "opponentPointDiff": 24,
-    "opponentEpaRank": 1,
+    "opponentEpaRank": 2,
     "strengthOfSchedule": {
-      "season": 3,
+      "season": -3.5,
       "opponentSos": -24
     },
     "restDays": 7,
     "opponentRestDays": 7,
     "isDivisional": false,
     "isConference": true,
-    "winProbabilityEstimate": 0.4419436427093764,
+    "winProbabilityEstimate": 0.452824062124114,
     "date": "2026-09-27"
   },
   {
@@ -65,16 +67,16 @@
     "homeAway": "away",
     "opponentRecord": "2-0",
     "opponentPointDiff": 15,
-    "opponentEpaRank": 2,
+    "opponentEpaRank": 5,
     "strengthOfSchedule": {
-      "season": 3,
-      "opponentSos": -7
+      "season": -3.5,
+      "opponentSos": -14
     },
     "restDays": 7,
     "opponentRestDays": 7,
     "isDivisional": true,
     "isConference": true,
-    "winProbabilityEstimate": 0.46298794514163,
+    "winProbabilityEstimate": 0.5030071533435636,
     "date": "2026-10-04"
   },
   {
@@ -84,16 +86,16 @@
     "homeAway": "home",
     "opponentRecord": "1-0",
     "opponentPointDiff": 14,
-    "opponentEpaRank": 30,
+    "opponentEpaRank": 31,
     "strengthOfSchedule": {
-      "season": 3,
+      "season": -3.5,
       "opponentSos": -14
     },
     "restDays": 7,
     "opponentRestDays": 7,
     "isDivisional": false,
     "isConference": true,
-    "winProbabilityEstimate": 0.8729699976459885,
+    "winProbabilityEstimate": 0.8785129855222452,
     "date": "2026-10-11"
   },
   {
@@ -101,18 +103,18 @@
     "week": 6,
     "opponent": "NYJ",
     "homeAway": "home",
-    "opponentRecord": "1-0",
-    "opponentPointDiff": 13,
-    "opponentEpaRank": 31,
+    "opponentRecord": "1-1",
+    "opponentPointDiff": 10,
+    "opponentEpaRank": 30,
     "strengthOfSchedule": {
-      "season": 3,
-      "opponentSos": -13
+      "season": -3.5,
+      "opponentSos": -15.5
     },
     "restDays": 7,
     "opponentRestDays": 7,
     "isDivisional": true,
     "isConference": true,
-    "winProbabilityEstimate": 0.8844973820272114,
+    "winProbabilityEstimate": 0.870266486699241,
     "date": "2026-10-18"
   },
   {
@@ -120,18 +122,18 @@
     "week": 7,
     "opponent": "CHI",
     "homeAway": "away",
-    "opponentRecord": "1-0",
-    "opponentPointDiff": 22,
-    "opponentEpaRank": 9,
+    "opponentRecord": "1-1",
+    "opponentPointDiff": 16,
+    "opponentEpaRank": 4,
     "strengthOfSchedule": {
-      "season": 3,
-      "opponentSos": -22
+      "season": -3.5,
+      "opponentSos": 16
     },
     "restDays": 4,
     "opponentRestDays": 4,
     "isDivisional": false,
     "isConference": false,
-    "winProbabilityEstimate": 0.5693588064999365,
+    "winProbabilityEstimate": 0.4785553314167381,
     "date": "2026-10-22"
   },
   {
@@ -141,16 +143,16 @@
     "homeAway": "away",
     "opponentRecord": "0-1",
     "opponentPointDiff": -14,
-    "opponentEpaRank": 26,
+    "opponentEpaRank": 25,
     "strengthOfSchedule": {
-      "season": 3,
+      "season": -3.5,
       "opponentSos": 14
     },
     "restDays": 10,
     "opponentRestDays": 7,
     "isDivisional": true,
     "isConference": true,
-    "winProbabilityEstimate": 0.773248111852291,
+    "winProbabilityEstimate": 0.7801874668873336,
     "date": "2026-11-01"
   },
   {
@@ -158,18 +160,18 @@
     "week": 9,
     "opponent": "GB",
     "homeAway": "home",
-    "opponentRecord": "0-1",
-    "opponentPointDiff": -17,
-    "opponentEpaRank": 14,
+    "opponentRecord": "1-1",
+    "opponentPointDiff": -14,
+    "opponentEpaRank": 10,
     "strengthOfSchedule": {
-      "season": 3,
-      "opponentSos": 17
+      "season": -3.5,
+      "opponentSos": 16.5
     },
     "restDays": 7,
     "opponentRestDays": 10,
     "isDivisional": false,
     "isConference": false,
-    "winProbabilityEstimate": 0.6561137601704058,
+    "winProbabilityEstimate": 0.6404952282374817,
     "date": "2026-11-08"
   },
   {
@@ -179,16 +181,16 @@
     "homeAway": "away",
     "opponentRecord": "1-1",
     "opponentPointDiff": -9,
-    "opponentEpaRank": 12,
+    "opponentEpaRank": 9,
     "strengthOfSchedule": {
-      "season": 3,
-      "opponentSos": 7
+      "season": -3.5,
+      "opponentSos": 10.5
     },
     "restDays": 7,
     "opponentRestDays": 7,
     "isDivisional": false,
     "isConference": false,
-    "winProbabilityEstimate": 0.5840461578956897,
+    "winProbabilityEstimate": 0.5880302946164393,
     "date": "2026-11-15"
   },
   {
@@ -200,14 +202,14 @@
     "opponentPointDiff": -12,
     "opponentEpaRank": 17,
     "strengthOfSchedule": {
-      "season": 3,
+      "season": -3.5,
       "opponentSos": 12
     },
     "restDays": 14,
     "opponentRestDays": 7,
     "isDivisional": false,
     "isConference": true,
-    "winProbabilityEstimate": 0.6596649846981221,
+    "winProbabilityEstimate": 0.6690135429177458,
     "date": "2026-11-29"
   },
   {
@@ -217,16 +219,16 @@
     "homeAway": "home",
     "opponentRecord": "2-0",
     "opponentPointDiff": 15,
-    "opponentEpaRank": 2,
+    "opponentEpaRank": 5,
     "strengthOfSchedule": {
-      "season": 3,
-      "opponentSos": -7
+      "season": -3.5,
+      "opponentSos": -14
     },
     "restDays": 7,
     "opponentRestDays": 10,
     "isDivisional": true,
     "isConference": true,
-    "winProbabilityEstimate": 0.51298794514163,
+    "winProbabilityEstimate": 0.5530071533435637,
     "date": "2026-12-06"
   },
   {
@@ -234,18 +236,18 @@
     "week": 14,
     "opponent": "MIN",
     "homeAway": "home",
-    "opponentRecord": "1-0",
-    "opponentPointDiff": 17,
-    "opponentEpaRank": 16,
+    "opponentRecord": "2-0",
+    "opponentPointDiff": 23,
+    "opponentEpaRank": 15,
     "strengthOfSchedule": {
-      "season": 3,
-      "opponentSos": -17
+      "season": -3.5,
+      "opponentSos": 1
     },
     "restDays": 4,
     "opponentRestDays": 4,
     "isDivisional": false,
     "isConference": false,
-    "winProbabilityEstimate": 0.707660468811886,
+    "winProbabilityEstimate": 0.688526759451238,
     "date": "2026-12-10"
   },
   {
@@ -255,16 +257,16 @@
     "homeAway": "away",
     "opponentRecord": "1-0",
     "opponentPointDiff": 21,
-    "opponentEpaRank": 6,
+    "opponentEpaRank": 7,
     "strengthOfSchedule": {
-      "season": 3,
+      "season": -3.5,
       "opponentSos": -21
     },
     "restDays": 11,
     "opponentRestDays": 8,
     "isDivisional": false,
     "isConference": true,
-    "winProbabilityEstimate": 0.5343882914144139,
+    "winProbabilityEstimate": 0.5451189405959963,
     "date": "2026-12-21"
   },
   {
@@ -272,18 +274,18 @@
     "week": 16,
     "opponent": "NYJ",
     "homeAway": "away",
-    "opponentRecord": "1-0",
-    "opponentPointDiff": 13,
-    "opponentEpaRank": 31,
+    "opponentRecord": "1-1",
+    "opponentPointDiff": 10,
+    "opponentEpaRank": 30,
     "strengthOfSchedule": {
-      "season": 3,
-      "opponentSos": -13
+      "season": -3.5,
+      "opponentSos": -15.5
     },
     "restDays": 6,
     "opponentRestDays": 7,
     "isDivisional": true,
     "isConference": true,
-    "winProbabilityEstimate": 0.8344973820272114,
+    "winProbabilityEstimate": 0.820266486699241,
     "date": "2026-12-27"
   },
   {
@@ -295,14 +297,14 @@
     "opponentPointDiff": -21,
     "opponentEpaRank": 13,
     "strengthOfSchedule": {
-      "season": 3,
+      "season": -3.5,
       "opponentSos": 21
     },
     "restDays": 7,
     "opponentRestDays": 9,
     "isDivisional": false,
     "isConference": true,
-    "winProbabilityEstimate": 0.6495059726748439,
+    "winProbabilityEstimate": 0.659686416947422,
     "date": "2027-01-03"
   },
   {
@@ -312,16 +314,16 @@
     "homeAway": "home",
     "opponentRecord": "0-1",
     "opponentPointDiff": -14,
-    "opponentEpaRank": 26,
+    "opponentEpaRank": 25,
     "strengthOfSchedule": {
-      "season": 3,
+      "season": -3.5,
       "opponentSos": 14
     },
     "restDays": 7,
     "opponentRestDays": 7,
     "isDivisional": true,
     "isConference": true,
-    "winProbabilityEstimate": 0.8232481118522911,
+    "winProbabilityEstimate": 0.8301874668873337,
     "date": "2027-01-10"
   }
 ]

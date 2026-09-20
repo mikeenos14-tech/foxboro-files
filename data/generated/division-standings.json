@@ -17,12 +17,12 @@
     }
   },
   {
-    "team": "NYJ",
+    "team": "NE",
     "wins": 1,
-    "losses": 0,
+    "losses": 1,
     "ties": 0,
-    "pointDifferential": 13,
-    "isUs": false,
+    "pointDifferential": 14,
+    "isUs": true,
     "streak": {
       "result": "W",
       "count": 1
@@ -34,12 +34,12 @@
     }
   },
   {
-    "team": "NE",
-    "wins": 0,
+    "team": "NYJ",
+    "wins": 1,
     "losses": 1,
     "ties": 0,
-    "pointDifferential": -3,
-    "isUs": true,
+    "pointDifferential": 10,
+    "isUs": false,
     "streak": {
       "result": "L",
       "count": 1

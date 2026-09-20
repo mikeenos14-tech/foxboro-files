@@ -1,14 +1,14 @@
 {
-  "id": "2026_01_NE_SEA",
+  "id": "2026_02_PIT_NE",
   "season": 2026,
-  "week": 1,
+  "week": 2,
   "seasonType": "REG",
-  "date": "2026-09-09",
-  "kickoffTimeEt": "20:20",
-  "homeTeam": "SEA",
-  "awayTeam": "NE",
-  "homeScore": 13,
-  "awayScore": 10,
+  "date": "2026-09-20",
+  "kickoffTimeEt": "13:00",
+  "homeTeam": "NE",
+  "awayTeam": "PIT",
+  "homeScore": 20,
+  "awayScore": 3,
   "status": "final",
-  "venue": "Lumen Field"
+  "venue": "Gillette Stadium"
 }

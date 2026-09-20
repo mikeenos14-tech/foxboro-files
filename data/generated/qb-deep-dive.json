@@ -3,40 +3,40 @@
   "playerName": "Drake Maye",
   "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/s1nmoon2xnrc3bnyulv4",
   "team": "NE",
-  "attempts": 36,
-  "completions": 23,
-  "yards": 168,
+  "attempts": 61,
+  "completions": 37,
+  "yards": 359,
   "tds": 1,
-  "ints": 3,
-  "cpoe": 5.970450658952029,
+  "ints": 4,
+  "cpoe": 3.903530881955063,
   "accuracyByDepth": {
-    "short": 0.8666666666666667,
-    "medium": 0.5,
-    "deep": 0
+    "short": 0.7916666666666666,
+    "medium": 0.4444444444444444,
+    "deep": 0.375
   },
-  "pressureEpa": -1.1036812487097138,
-  "cleanPocketEpa": 0.06669111124241042,
-  "turnoverWorthyPlayRate": 0.08333333333333333,
+  "pressureEpa": -0.730894948675358,
+  "cleanPocketEpa": -0.023079257941820166,
+  "turnoverWorthyPlayRate": 0.06557377049180328,
   "ranks": {
     "cpoe": {
-      "value": 5.970450658952029,
-      "leagueRank": 11,
-      "leaguePercentile": 68
+      "value": 3.903530881955063,
+      "leagueRank": 15,
+      "leaguePercentile": 55
     },
     "turnoverWorthyPlayRate": {
-      "value": 0.08333333333333333,
-      "leagueRank": 32,
-      "leaguePercentile": 0
+      "value": 0.06557377049180328,
+      "leagueRank": 30,
+      "leaguePercentile": 6
     },
     "cleanPocketEpa": {
-      "value": 0.06669111124241042,
-      "leagueRank": 22,
-      "leaguePercentile": 32
+      "value": -0.023079257941820166,
+      "leagueRank": 25,
+      "leaguePercentile": 23
     },
     "pressureEpa": {
-      "value": -1.1036812487097138,
-      "leagueRank": 20,
-      "leaguePercentile": 39
+      "value": -0.730894948675358,
+      "leagueRank": 13,
+      "leaguePercentile": 61
     }
   }
 }

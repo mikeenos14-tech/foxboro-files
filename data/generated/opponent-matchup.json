@@ -1,94 +1,89 @@
 {
-  "gameId": "2026_02_PIT_NE",
-  "opponent": "PIT",
+  "gameId": "2026_03_NE_JAX",
+  "opponent": "JAX",
   "opponentEpaRank": {
-    "offense": 21,
-    "defense": 14
+    "offense": 9,
+    "defense": 3
   },
   "positionGroupMatchups": [
     {
       "group": "Rush Offense vs. Run Defense",
       "ourGrade": 58,
-      "theirGrade": 52,
+      "theirGrade": 68,
       "edge": "even",
-      "note": "58th percentile vs. 52nd percentile (close matchup)."
+      "note": "58th percentile vs. 68th percentile (close matchup)."
     },
     {
       "group": "Pass Offense vs. Pass Defense",
       "ourGrade": 97,
-      "theirGrade": 71,
-      "edge": "us",
-      "note": "97th percentile vs. 71st percentile (advantage us)."
+      "theirGrade": 100,
+      "edge": "even",
+      "note": "97th percentile vs. 100th percentile (close matchup)."
     },
     {
       "group": "Run Defense vs. Rush Offense",
-      "ourGrade": 71,
-      "theirGrade": 48,
-      "edge": "us",
-      "note": "71st percentile vs. 48th percentile (advantage us)."
+      "ourGrade": 45,
+      "theirGrade": 45,
+      "edge": "even",
+      "note": "45th percentile vs. 45th percentile (close matchup)."
     },
     {
       "group": "Pass Defense vs. Pass Offense",
-      "ourGrade": 61,
-      "theirGrade": 39,
-      "edge": "us",
-      "note": "61st percentile vs. 39th percentile (advantage us)."
+      "ourGrade": 71,
+      "theirGrade": 71,
+      "edge": "even",
+      "note": "71st percentile vs. 71st percentile (close matchup)."
     },
     {
       "group": "Pass Protection vs. Pass Rush",
-      "ourGrade": 23,
-      "theirGrade": 87,
+      "ourGrade": 26,
+      "theirGrade": 68,
       "edge": "them",
-      "note": "23rd percentile vs. 87th percentile (advantage them)."
+      "note": "26th percentile vs. 68th percentile (advantage them)."
     }
   ],
   "matchupOfTheWeek": {
-    "title": "Pass Offense vs. Pass Defense",
-    "description": "Our pass offense grades in the 97th percentile against a unit that grades 71st — the widest real statistical edge on the board this week."
+    "title": "Run Defense vs. Rush Offense",
+    "description": "Their unit actually grades better here (45th percentile vs. our 45th) — the closest thing to a swing spot working against us this week."
   },
   "opponentInjuries": [],
   "recentForm": {
-    "last3EpaPerPlay": 0.018229219225411653,
-    "last5EpaPerPlay": 0.018229219225411653,
-    "seasonEpaPerPlay": 0.018229219225411653
+    "last3EpaPerPlay": 0.522438269815026,
+    "last5EpaPerPlay": 0.522438269815026,
+    "seasonEpaPerPlay": 0.522438269815026
   },
   "headToHead": [
     {
-      "season": 2025,
+      "season": 2024,
       "result": "L",
-      "score": "14-21"
+      "score": "16-32"
     },
     {
-      "season": 2023,
+      "season": 2021,
       "result": "W",
-      "score": "21-18"
-    },
-    {
-      "season": 2022,
-      "result": "W",
-      "score": "17-14"
-    },
-    {
-      "season": 2019,
-      "result": "W",
-      "score": "33-3"
+      "score": "50-10"
     },
     {
       "season": 2018,
       "result": "L",
-      "score": "10-17"
+      "score": "20-31"
+    },
+    {
+      "season": 2015,
+      "result": "W",
+      "score": "51-17"
+    },
+    {
+      "season": 2012,
+      "result": "W",
+      "score": "23-16"
     }
   ],
   "weather": {
-    "tempF": 60,
+    "tempF": 89,
     "wind": "4 mph",
-    "precipitation": "44%",
+    "precipitation": "5%",
     "isDome": false
   },
-  "bettingContext": {
-    "spread": -5.5,
-    "overUnder": 41.5,
-    "asOf": "2026-09-20"
-  },
-  "previewTake": "Here's the thing about this matchup: we're staring down the widest statistical edge on the board this week — our pass offense in the 97th percentile against a Steelers defense that grades 71st — and that's genuinely the kind of advantage you dream about. The problem is we're doing it without Carlton Davis III at cornerback, which is precisely the wrong time to be short-handed in coverage, even against a Steelers offense ranked 21st overall. Pittsburgh's recent form (0.02 net EPA per play over their last three) suggests they're beatable, and we've handled them well in recent history (3-2 in our last five meetings), but this is a bounce-back moment we can't afford to bungle. TreVeyon Henderson's back from that ankle, Mitch Wishnowsky's in for the second straight week, and we're favored by 5.5 — everything points to New England seizing this opportunity, assuming our pass game does what the numbers say it should."
+  "previewTake": "Jacksonville's defense is genuinely elite — third in the NFL — which means this is going to be a grind, and frankly, their offense at ninth isn't exactly a pushover either. The one silver lining is that their rush defense and our rushing offense are basically identical twins in terms of grade (both 45th percentile), so if there's a place to attack them, it's probably there, though it's hardly a glaring weakness. They've been rolling lately at +0.52 EPA per play over their last three games, and that recent form is the kind of momentum that makes road games uncomfortable. The head-to-head history is delightfully chaotic — we've beaten them twice, they've beaten us twice since 2012 — but that 2024 loss was rough (32-16), a reminder of just how formidable they can be when firing on all cylinders."
 }

@@ -20,11 +20,11 @@
         }
       },
       {
-        "team": "NYJ",
+        "team": "NE",
         "wins": 1,
-        "losses": 0,
+        "losses": 1,
         "ties": 0,
-        "pointDifferential": 13,
+        "pointDifferential": 14,
         "isUs": false,
         "streak": {
           "result": "W",
@@ -37,11 +37,11 @@
         }
       },
       {
-        "team": "NE",
-        "wins": 0,
+        "team": "NYJ",
+        "wins": 1,
         "losses": 1,
         "ties": 0,
-        "pointDifferential": -3,
+        "pointDifferential": 10,
         "isUs": false,
         "streak": {
           "result": "L",
@@ -76,14 +76,31 @@
     "division": "AFC North",
     "standings": [
       {
-        "team": "BAL",
-        "wins": 1,
+        "team": "CIN",
+        "wins": 2,
         "losses": 0,
         "ties": 0,
-        "pointDifferential": 18,
+        "pointDifferential": 20,
         "isUs": false,
         "streak": {
           "result": "W",
+          "count": 2
+        },
+        "divisionRecord": {
+          "wins": 0,
+          "losses": 0,
+          "ties": 0
+        }
+      },
+      {
+        "team": "BAL",
+        "wins": 1,
+        "losses": 1,
+        "ties": 0,
+        "pointDifferential": 11,
+        "isUs": false,
+        "streak": {
+          "result": "L",
           "count": 1
         },
         "divisionRecord": {
@@ -95,29 +112,12 @@
       {
         "team": "PIT",
         "wins": 1,
-        "losses": 0,
+        "losses": 1,
         "ties": 0,
-        "pointDifferential": 7,
+        "pointDifferential": -10,
         "isUs": false,
         "streak": {
-          "result": "W",
-          "count": 1
-        },
-        "divisionRecord": {
-          "wins": 0,
-          "losses": 0,
-          "ties": 0
-        }
-      },
-      {
-        "team": "CIN",
-        "wins": 1,
-        "losses": 0,
-        "ties": 0,
-        "pointDifferential": 6,
-        "isUs": false,
-        "streak": {
-          "result": "W",
+          "result": "L",
           "count": 1
         },
         "divisionRecord": {
@@ -166,32 +166,15 @@
         }
       },
       {
-        "team": "HOU",
-        "wins": 0,
-        "losses": 1,
-        "ties": 0,
-        "pointDifferential": -5,
-        "isUs": false,
-        "streak": {
-          "result": "L",
-          "count": 1
-        },
-        "divisionRecord": {
-          "wins": 0,
-          "losses": 0,
-          "ties": 0
-        }
-      },
-      {
         "team": "TEN",
         "wins": 0,
-        "losses": 1,
+        "losses": 2,
         "ties": 0,
-        "pointDifferential": -13,
+        "pointDifferential": -17,
         "isUs": false,
         "streak": {
           "result": "L",
-          "count": 1
+          "count": 2
         },
         "divisionRecord": {
           "wins": 0,
@@ -209,6 +192,23 @@
         "streak": {
           "result": "L",
           "count": 1
+        },
+        "divisionRecord": {
+          "wins": 0,
+          "losses": 0,
+          "ties": 0
+        }
+      },
+      {
+        "team": "HOU",
+        "wins": 0,
+        "losses": 2,
+        "ties": 0,
+        "pointDifferential": -19,
+        "isUs": false,
+        "streak": {
+          "result": "L",
+          "count": 2
         },
         "divisionRecord": {
           "wins": 0,
@@ -313,14 +313,14 @@
       },
       {
         "team": "PHI",
-        "wins": 1,
+        "wins": 2,
         "losses": 0,
         "ties": 0,
-        "pointDifferential": 2,
+        "pointDifferential": 6,
         "isUs": false,
         "streak": {
           "result": "W",
-          "count": 1
+          "count": 2
         },
         "divisionRecord": {
           "wins": 1,
@@ -368,36 +368,36 @@
     "division": "NFC North",
     "standings": [
       {
-        "team": "CHI",
-        "wins": 1,
+        "team": "MIN",
+        "wins": 2,
         "losses": 0,
         "ties": 0,
-        "pointDifferential": 22,
+        "pointDifferential": 23,
         "isUs": false,
         "streak": {
           "result": "W",
-          "count": 1
+          "count": 2
         },
         "divisionRecord": {
-          "wins": 0,
+          "wins": 2,
           "losses": 0,
           "ties": 0
         }
       },
       {
-        "team": "MIN",
+        "team": "CHI",
         "wins": 1,
-        "losses": 0,
+        "losses": 1,
         "ties": 0,
-        "pointDifferential": 17,
+        "pointDifferential": 16,
         "isUs": false,
         "streak": {
-          "result": "W",
+          "result": "L",
           "count": 1
         },
         "divisionRecord": {
-          "wins": 1,
-          "losses": 0,
+          "wins": 0,
+          "losses": 1,
           "ties": 0
         }
       },
@@ -420,13 +420,13 @@
       },
       {
         "team": "GB",
-        "wins": 0,
+        "wins": 1,
         "losses": 1,
         "ties": 0,
-        "pointDifferential": -17,
+        "pointDifferential": -14,
         "isUs": false,
         "streak": {
-          "result": "L",
+          "result": "W",
           "count": 1
         },
         "divisionRecord": {
@@ -441,14 +441,31 @@
     "division": "NFC South",
     "standings": [
       {
-        "team": "NO",
-        "wins": 0,
+        "team": "CAR",
+        "wins": 1,
         "losses": 1,
         "ties": 0,
-        "pointDifferential": -1,
+        "pointDifferential": 9,
         "isUs": false,
         "streak": {
-          "result": "L",
+          "result": "W",
+          "count": 1
+        },
+        "divisionRecord": {
+          "wins": 1,
+          "losses": 0,
+          "ties": 0
+        }
+      },
+      {
+        "team": "NO",
+        "wins": 1,
+        "losses": 1,
+        "ties": 0,
+        "pointDifferential": 6,
+        "isUs": false,
+        "streak": {
+          "result": "W",
           "count": 1
         },
         "divisionRecord": {
@@ -477,34 +494,17 @@
       {
         "team": "ATL",
         "wins": 0,
-        "losses": 1,
+        "losses": 2,
         "ties": 0,
-        "pointDifferential": -7,
+        "pointDifferential": -38,
         "isUs": false,
         "streak": {
           "result": "L",
-          "count": 1
+          "count": 2
         },
         "divisionRecord": {
           "wins": 0,
-          "losses": 0,
-          "ties": 0
-        }
-      },
-      {
-        "team": "CAR",
-        "wins": 0,
-        "losses": 1,
-        "ties": 0,
-        "pointDifferential": -22,
-        "isUs": false,
-        "streak": {
-          "result": "L",
-          "count": 1
-        },
-        "divisionRecord": {
-          "wins": 0,
-          "losses": 0,
+          "losses": 1,
           "ties": 0
         }
       }

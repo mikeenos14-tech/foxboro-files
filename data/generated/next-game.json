@@ -1,12 +1,12 @@
 {
-  "id": "2026_02_PIT_NE",
+  "id": "2026_03_NE_JAX",
   "season": 2026,
-  "week": 2,
+  "week": 3,
   "seasonType": "REG",
-  "date": "2026-09-20",
+  "date": "2026-09-27",
   "kickoffTimeEt": "13:00",
-  "homeTeam": "NE",
-  "awayTeam": "PIT",
+  "homeTeam": "JAX",
+  "awayTeam": "NE",
   "status": "scheduled",
-  "venue": "Gillette Stadium"
+  "venue": "EverBank Stadium"
 }

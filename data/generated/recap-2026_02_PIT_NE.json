@@ -1,0 +1,206 @@
+{
+  "gameId": "2026_02_PIT_NE",
+  "narrative": "New England beat PIT 20-3. The offense posted -0.07 EPA/play (41% success rate) while the defense allowed -0.36 EPA/play. Turnover margin was 0.",
+  "epaPerPlay": {
+    "offense": -0.06967234526046844,
+    "defense": -0.35573699201915937
+  },
+  "successRate": {
+    "offenseByDown": {
+      "1": 0.4782608695652174,
+      "2": 0.3125,
+      "3": 0.4166666666666667,
+      "4": 0
+    },
+    "defenseByDown": {
+      "1": 0.35714285714285715,
+      "2": 0.46153846153846156,
+      "3": 0.16666666666666666,
+      "4": 1
+    }
+  },
+  "turnoverMargin": 0,
+  "pointsOffTurnovers": {
+    "for": 0,
+    "against": 0
+  },
+  "explosivePlayRate": {
+    "for": 0.1568627450980392,
+    "against": 0.07462686567164178
+  },
+  "redZone": {
+    "offense": {
+      "att": 3,
+      "td": 1
+    },
+    "defense": {
+      "att": 1,
+      "td": 0
+    }
+  },
+  "thirdDown": {
+    "offense": {
+      "att": 12,
+      "conv": 4
+    },
+    "defense": {
+      "att": 12,
+      "conv": 2
+    }
+  },
+  "winProbabilityTimeline": [
+    {
+      "playIndex": 0,
+      "quarter": 1,
+      "clock": "15:00",
+      "homeWinProb": 0.566792041063309
+    },
+    {
+      "playIndex": 8,
+      "quarter": 1,
+      "clock": "12:02",
+      "homeWinProb": 0.640445172786713
+    },
+    {
+      "playIndex": 16,
+      "quarter": 1,
+      "clock": "09:26",
+      "homeWinProb": 0.620735108852387
+    },
+    {
+      "playIndex": 24,
+      "quarter": 1,
+      "clock": "06:25",
+      "homeWinProb": 0.734620451927185
+    },
+    {
+      "playIndex": 32,
+      "quarter": 1,
+      "clock": "02:28",
+      "homeWinProb": 0.83917373418808
+    },
+    {
+      "playIndex": 40,
+      "quarter": 2,
+      "clock": "14:14",
+      "homeWinProb": 0.812541872262955
+    },
+    {
+      "playIndex": 48,
+      "quarter": 2,
+      "clock": "10:07",
+      "homeWinProb": 0.786558866500855
+    },
+    {
+      "playIndex": 56,
+      "quarter": 2,
+      "clock": "07:21",
+      "homeWinProb": 0.851393282413483
+    },
+    {
+      "playIndex": 64,
+      "quarter": 2,
+      "clock": "03:47",
+      "homeWinProb": 0.819445908069611
+    },
+    {
+      "playIndex": 72,
+      "quarter": 2,
+      "clock": "01:40",
+      "homeWinProb": 0.855235636234283
+    },
+    {
+      "playIndex": 80,
+      "quarter": 2,
+      "clock": "00:12",
+      "homeWinProb": 0.829418554902077
+    },
+    {
+      "playIndex": 88,
+      "quarter": 3,
+      "clock": "14:21",
+      "homeWinProb": 0.820650637149811
+    },
+    {
+      "playIndex": 96,
+      "quarter": 3,
+      "clock": "10:02",
+      "homeWinProb": 0.748872250318527
+    },
+    {
+      "playIndex": 104,
+      "quarter": 3,
+      "clock": "07:19",
+      "homeWinProb": 0.798702418804169
+    },
+    {
+      "playIndex": 112,
+      "quarter": 3,
+      "clock": "02:27",
+      "homeWinProb": 0.770096823573113
+    },
+    {
+      "playIndex": 120,
+      "quarter": 3,
+      "clock": "00:43",
+      "homeWinProb": 0.854578822851181
+    },
+    {
+      "playIndex": 128,
+      "quarter": 4,
+      "clock": "13:31",
+      "homeWinProb": 0.976077564060688
+    },
+    {
+      "playIndex": 136,
+      "quarter": 4,
+      "clock": "10:04",
+      "homeWinProb": 0.993547737598419
+    },
+    {
+      "playIndex": 144,
+      "quarter": 4,
+      "clock": "07:31",
+      "homeWinProb": 0.980113105848432
+    },
+    {
+      "playIndex": 152,
+      "quarter": 4,
+      "clock": "03:39",
+      "homeWinProb": 0.998748540878296
+    },
+    {
+      "playIndex": 160,
+      "quarter": 4,
+      "clock": "01:57",
+      "homeWinProb": 0.999313712120056
+    },
+    {
+      "playIndex": 164,
+      "quarter": 4,
+      "clock": "00:00",
+      "homeWinProb": 1
+    }
+  ],
+  "goodBadUgly": {
+    "good": [
+      "Defensive dominance: held Pittsburgh to 3 points and allowed just 0/1 in the red zone, forcing the Steelers into complete offensive incompetence.",
+      "Skill position playmakers delivered: Henderson's 39-yard TD in his season debut and Ponder's fumble recovery touchdown gave us scoring plays in bunches."
+    ],
+    "bad": [
+      "Our offense generated just -0.07 EPA/play, which is nearly league-average mediocrity—we won because our defense was transcendent, not because we were efficient.",
+      "Third down offense at 4/12 shows we were still stalling on crucial situations rather than sustaining drives."
+    ],
+    "ugly": [
+      "Mike Onwenu carted off with an ankle injury in the first quarter—losing a starting right guard is the kind of depth hit that stings, especially this early in the season."
+    ]
+  },
+  "playerOfTheGame": {
+    "playerId": "00-0036875",
+    "playerName": "R.Stevenson",
+    "wpa": 0.03091961145400997,
+    "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/zmpuirvuw4r04inxth5i",
+    "reason": "Led the team with +3% win probability added."
+  },
+  "fanTake": "Well, that was the kind of dominant defensive performance that reminds you why you fall in love with Patriots football in the first place. We absolutely smothered Pittsburgh's offense—the kind of suffocating game where the Steelers managed just three points and looked thoroughly confused all afternoon. TreVeyon Henderson picked the perfect time to make his season debut with a 39-yard touchdown run, Eli Ponder added a fumble recovery score, and our defense turned the whole thing into a masterclass in clock management and field position. The only blemish on an otherwise beautiful afternoon was watching Mike Onwenu get carted off with an ankle injury late in the first quarter, but on a day when we were this good on defense, it's hard to complain too much about a 20-3 win."
+}
