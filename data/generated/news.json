@@ -1,12 +1,39 @@
 [
   {
+    "id": "49990760",
+    "publishedAt": "2026-09-20T18:03:09Z",
+    "type": "Injury",
+    "headline": "Patriots starting RG Mike Onwenu carted off with ankle injury",
+    "summary": "Patriots starting right guard Mike Onwenu was carted off the field with an ankle injury late in the first quarter of Sunday's game against the Steelers.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49990760/patriots-starting-rg-mike-onwenu-carted-ankle-injury",
+    "sourceName": "ESPN"
+  },
+  {
     "id": "49976142",
-    "publishedAt": "2026-09-20T13:26:15Z",
+    "publishedAt": "2026-09-20T16:45:17Z",
     "type": "Analysis",
     "headline": "What to expect from Patriots QB Drake Maye vs. the Steelers",
     "summary": "New England wants Maye to be patient but aggressive. Can he have success against the daunting Pittsburgh defense?",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/49976142/new-england-patriots-drake-maye-week-2",
     "sourceName": "ESPN"
+  },
+  {
+    "id": "e09b4368-4cb6-4209-af3f-2c2ad86383d3",
+    "publishedAt": "2026-09-20T15:34:40.000Z",
+    "type": "Analysis",
+    "headline": "Week 2 Inactives: Steelers at Patriots",
+    "summary": "The New England Patriots and Pittsburgh Steelers announce the following inactive players ahead of their NFL Week 2 game on September 20, 2026.",
+    "sourceUrl": "https://www.patriots.com/news/week-2-inactives-steelers-at-patriots",
+    "sourceName": "Patriots.com"
+  },
+  {
+    "id": "46e6cc3c-55c7-40b3-84fc-8ea349c43f1c",
+    "publishedAt": "2026-09-20T15:32:27.000Z",
+    "type": "Injury",
+    "headline": "Inactives Analysis: RB TreVeyon Henderson, WR Efton Chism III to make season debuts vs. Steelers",
+    "summary": "Henderson and Chism III are officially active for Week 2 vs. the Steelers after sitting out the Patriots season opener.",
+    "sourceUrl": "https://www.patriots.com/news/inactives-analysis-rb-treveyon-henderson-to-make-season-debut-wr-efton-chism-iii-active-vs-steelers",
+    "sourceName": "Patriots.com"
   },
   {
     "id": "aa6798f2-4b89-4b03-a26e-2bbe6185ecad",
@@ -33,24 +60,6 @@
     "headline": "Patriots Gameplan: Is a Blueprint Forming vs. Drake Maye and the Patriots Offense?",
     "summary": "Previewing the chess match between the Patriots and Steelers in Sunday's home opener at Gillette Stadium.",
     "sourceUrl": "https://www.patriots.com/news/patriots-gameplan-is-a-blueprint-forming-vs-drake-maye-and-the-patriots-offense",
-    "sourceName": "Patriots.com"
-  },
-  {
-    "id": "caf5bbef-4b7a-4f37-b197-34e57501be6f",
-    "publishedAt": "2026-09-20T00:37:00.000Z",
-    "type": "Analysis",
-    "headline": "3 to Watch: Patriots Look to Get on Winning Track vs. Steelers",
-    "summary": "Three key areas to watch as the Patriots look to beat the Steelers for their first win of the 2026 NFL season.",
-    "sourceUrl": "https://www.patriots.com/news/3-to-watch-patriots-look-to-get-on-winning-track-vs-steelers",
-    "sourceName": "Patriots.com"
-  },
-  {
-    "id": "411858eb-592e-42fe-bbbf-be68f7d4217a",
-    "publishedAt": "2026-09-19T20:00:27.000Z",
-    "type": "Injury",
-    "headline": "Roster Analysis: Patriots downgrade CB Carlton Davis III to out, elevate P Mitch Wishnowsky from the practice squad for Week 2 vs. Steelers",
-    "summary": "The Patriots will be without their starting corner while the Steelers are also missing starting WR Michael Pittman Jr. (foot).",
-    "sourceUrl": "https://www.patriots.com/news/roster-analysis-patriots-downgrade-cb-carlton-davis-iii-to-out-elevate-p-mitch-wishnowsky-from-the-practice-squad-for-week-2-vs-steelers",
     "sourceName": "Patriots.com"
   },
   {

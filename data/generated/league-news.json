@@ -1,5 +1,41 @@
 [
   {
+    "id": "49990760",
+    "publishedAt": "2026-09-20T18:03:09Z",
+    "type": "Injury",
+    "headline": "Patriots starting RG Mike Onwenu carted off with ankle injury",
+    "summary": "Patriots starting right guard Mike Onwenu was carted off the field with an ankle injury late in the first quarter of Sunday's game against the Steelers.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49990760/patriots-starting-rg-mike-onwenu-carted-ankle-injury",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "49990499",
+    "publishedAt": "2026-09-20T17:48:20Z",
+    "type": "Injury",
+    "headline": "Packers WR Reed, RT Bako-Bewele carted off with injuries",
+    "summary": "Packers wide receiver Jayden Reed and right tackle Zach Bako-Bewele were carted off the field on back-to-back plays Sunday.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49990499/packers-wr-reed-rt-bako-bewele-carted-injuries",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jayden-reed-ruled-out-with-neck-injury-zach-bako-bewele-out-with-knee-injury",
+    "publishedAt": "2026-09-20T17:32:58.000Z",
+    "type": "Injury",
+    "headline": "Jayden Reed ruled out with neck injury, Zach Bako-Bewele out with knee injury",
+    "summary": "The Packers had two players leave with injuries on their opening offensive possession and both of them have been ruled out for the rest of Sunday's game against the Jets.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jayden-reed-ruled-out-with-neck-injury-zach-bako-bewele-out-with-knee-injury",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/source-josh-simmons-is-week-to-week-with-back-injury",
+    "publishedAt": "2026-09-20T17:42:35.000Z",
+    "type": "Injury",
+    "headline": "Source: Josh Simmons is \"week-to-week\" with back injury",
+    "summary": "Chiefs left tackle Josh Simmons, the team's first-round pick in 2025, missed the opening game of the season with a back injury.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/source-josh-simmons-is-week-to-week-with-back-injury",
+    "sourceName": "Pro Football Talk"
+  },
+  {
     "id": "49983528",
     "publishedAt": "2026-09-20T12:33:56Z",
     "type": "Analysis",
@@ -9,48 +45,12 @@
     "sourceName": "ESPN"
   },
   {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/browns-will-make-evaluation-of-quarterback-position-after-week-2",
-    "publishedAt": "2026-09-20T15:05:24.000Z",
+    "id": "49990145",
+    "publishedAt": "2026-09-20T17:39:33Z",
     "type": "Analysis",
-    "headline": "Browns will make \"evaluation\" of quarterback position after Week 2",
-    "summary": "When the Browns decided, two days after an all-time press-conference meltdown from Deshaun Watson, to make him the Week 1 starting quarterback, it immediately seemed to be a product of the fact that Cleveland starts the season with two games, you know, not in Cleveland.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/browns-will-make-evaluation-of-quarterback-position-after-week-2",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=420301",
-    "publishedAt": "2026-09-20T14:59:24.000Z",
-    "type": "Injury",
-    "headline": "Eagles To Move Cam Jurgens To LG In Week 2; Drew Kendall To Start At C",
-    "summary": "Eagles left guard Landon Dickerson struggled in the team’s Week 1 victory over the Commanders, and after the game, he admitted he probably should not have played. He suffered a bone bruise in his knee during training camp, and as a result of that injury, he is now on injured reserve. When Dickerson went on […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/09/eagles-to-move-cam-jurgens-to-lg-in-week-2-drew-kendall-to-start-at-c",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=420248",
-    "publishedAt": "2026-09-20T03:00:00.000Z",
-    "type": "Injury",
-    "headline": "Seahawks QB Sam Darnold Could Be Out Until October",
-    "summary": "The Seahawks have been hesitant to provide a clear timeline for the return of quarterback Sam Darnold from the injury he suffered in Week 1. Initial concerns about Darnold’s hip were allayed by testing that indicated his glute was impacted instead. But Seattle’s update that their star quarterback was dealing with a “very unique soft-tissue” […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/09/seahawks-qb-sam-darnold-could-be-out-until-october",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/sam-darnold-is-recovering-faster-than-anyone-had-anticipated",
-    "publishedAt": "2026-09-20T13:22:44.000Z",
-    "type": "Injury",
-    "headline": "Sam Darnold is \"recovering faster than anyone had anticipated\"",
-    "summary": "Seahawks quarterback Sam Darnold left the Week 1 game against the Patriots after five snaps, with a hip injury becoming a glute tendon injury for which the team reportedly sought multiple second opinions.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/sam-darnold-is-recovering-faster-than-anyone-had-anticipated",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "49982377",
-    "publishedAt": "2026-09-19T21:53:31Z",
-    "type": "Injury",
-    "headline": "Ravens' Zay Flowers downgraded to out because of hamstring injury",
-    "summary": "The Baltimore Ravens downgraded Pro Bowl wide receiver Zay Flowers to out for Sunday's game against the New Orleans Saints.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49982377/ravens-zay-flowers-downgraded-hamstring-injury",
+    "headline": "Ernie Accorsi, longtime NFL executive and Giants GM, dies at 84",
+    "summary": "Longtime NFL executive Ernie Accorsi, the architect of the Giants team that pulled off one of the biggest upsets in Super Bowl history, has died. He was 84.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49990145/ernie-accorsi-long-nfl-executive-giants-gm-dies-84",
     "sourceName": "ESPN"
   }
 ]
