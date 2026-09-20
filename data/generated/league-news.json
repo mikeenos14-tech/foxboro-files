@@ -1,11 +1,11 @@
 [
   {
-    "id": "49980918",
-    "publishedAt": "2026-09-19T18:23:36Z",
+    "id": "49980661",
+    "publishedAt": "2026-09-19T21:27:54Z",
     "type": "Injury",
-    "headline": "Steelers rule out WR Pittman Jr. vs. Patriots with foot injury",
-    "summary": "The Steelers will be without another starter for their Week 2 game against the Patriots after downgrading wide receiver Michael Pittman Jr. to out with a foot injury.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49980918/steelers-rule-wr-pittman-jr-vs-patriots-foot-injury",
+    "headline": "Jets rookie WR Omar Cooper Jr. put on IR with sprained ankle",
+    "summary": "Jets rookie wide receiver Omar Cooper Jr., one of the team's three first-round picks, has been placed on injured reserve with a sprained ankle.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49980661/source-jets-rookie-wr-cooper-jr-put-ir-sprained-ankle",
     "sourceName": "ESPN"
   },
   {
@@ -18,15 +18,6 @@
     "sourceName": "ESPN"
   },
   {
-    "id": "49981547",
-    "publishedAt": "2026-09-19T20:27:40Z",
-    "type": "Injury",
-    "headline": "Rams' Puka Nacua again misses practice, questionable for MNF",
-    "summary": "Rams receiver Puka Nacua will not practice for the second day in a row and will be listed as questionable for Monday night's game against the Giants.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49981547/rams-puka-nacua-again-misses-practice-questionable-mnf",
-    "sourceName": "ESPN"
-  },
-  {
     "id": "profootballrumors-https://www.profootballrumors.com/?p=420248",
     "publishedAt": "2026-09-19T16:28:00.000Z",
     "type": "Injury",
@@ -36,21 +27,30 @@
     "sourceName": "Pro Football Rumors"
   },
   {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=420260",
-    "publishedAt": "2026-09-19T22:58:48.000Z",
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/raiders-elevate-te-chris-myarick-with-brock-bowers-listed-as-doubtful",
+    "publishedAt": "2026-09-19T20:08:06.000Z",
     "type": "Injury",
-    "headline": "Dolphins Place LB Ronnie Harrison On IR",
-    "summary": "The Dolphins announced today that veteran linebacker Ronnie Harrison Jr. has been placed on injured reserve. To fill Harrison’s spot on the 53-man roster, Miami signed linebacker Liam Anderson from the practice squad. Joining Anderson on the active roster for Week 2 will be edge rushers Clelin Ferrell and Max Llewellyn. As standard gameday elevations, Ferrell […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/09/dolphins-place-lb-ronnie-harrison-on-ir",
-    "sourceName": "Pro Football Rumors"
+    "headline": "Raiders elevate TE Chris Myarick with Brock Bowers listed as doubtful",
+    "summary": "The Raiders didn't officially rule Brock Bowers out on Friday, but signs point to the tight end missing his second straight game on Sunday,.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/raiders-elevate-te-chris-myarick-with-brock-bowers-listed-as-doubtful",
+    "sourceName": "Pro Football Talk"
   },
   {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bengals-elevate-josh-johnson-to-active-roster-with-joe-burrow-questionable",
-    "publishedAt": "2026-09-19T22:37:47.000Z",
+    "id": "49981547",
+    "publishedAt": "2026-09-19T20:27:40Z",
     "type": "Injury",
-    "headline": "Bengals elevate Josh Johnson to active roster with Joe Burrow questionable",
-    "summary": "Bengals quarterback Joe Burrow says he plans to play tomorrow against the Texans.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bengals-elevate-josh-johnson-to-active-roster-with-joe-burrow-questionable",
+    "headline": "Rams' Puka Nacua again misses practice, questionable for MNF",
+    "summary": "Rams receiver Puka Nacua will not practice for the second day in a row and will be listed as questionable for Monday night's game against the Giants.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49981547/rams-puka-nacua-again-misses-practice-questionable-mnf",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-downgrade-dt-javon-hargrave-to-out-remove-de-lukas-van-ness-from-injury-report",
+    "publishedAt": "2026-09-19T18:40:19.000Z",
+    "type": "Injury",
+    "headline": "Packers downgrade DT Javon Hargrave to out, remove DE Lukas Van Ness from injury report",
+    "summary": "When the Packers face the Jets on Sunday, they won't have defensive tackle Javon Hargrave.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-downgrade-dt-javon-hargrave-to-out-remove-de-lukas-van-ness-from-injury-report",
     "sourceName": "Pro Football Talk"
   }
 ]
