@@ -1,12 +1,48 @@
 [
   {
     "id": "49976142",
-    "publishedAt": "2026-09-20T10:00:02Z",
+    "publishedAt": "2026-09-20T13:26:15Z",
     "type": "Analysis",
     "headline": "What to expect from Patriots QB Drake Maye vs. the Steelers",
     "summary": "New England wants Maye to be patient but aggressive. Can he have success against the daunting Pittsburgh defense?",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/49976142/new-england-patriots-drake-maye-week-2",
     "sourceName": "ESPN"
+  },
+  {
+    "id": "aa6798f2-4b89-4b03-a26e-2bbe6185ecad",
+    "publishedAt": "2026-09-20T12:25:00.000Z",
+    "type": "Analysis",
+    "headline": "How to Watch and Stream Sunday's Patriots Home Opener Against the Steelers",
+    "summary": "Complete broadcast information for this week's game between the New England Patriots and the Pittsburgh Steelers on Sunday, September 20, 2026 at 1 PM ET.",
+    "sourceUrl": "https://www.patriots.com/news/how-to-watch-and-stream-sunday-s-patriots-home-opener-against-the-steelers",
+    "sourceName": "Patriots.com"
+  },
+  {
+    "id": "24e32b1a-2fcc-4c11-b46a-8fccc48bb1f0",
+    "publishedAt": "2026-09-20T11:36:00.000Z",
+    "type": "Analysis",
+    "headline": "Expert Predictions: Week 2 Picks for Steelers at Patriots",
+    "summary": "Experts share their picks for the Patriots' Week 2 matchup against the Pittsburgh Steelers.",
+    "sourceUrl": "https://www.patriots.com/news/expert-predictions-week-2-picks-for-steelers-at-patriots",
+    "sourceName": "Patriots.com"
+  },
+  {
+    "id": "c254c2e7-2352-4c45-8c50-92b6c3bdb2e7",
+    "publishedAt": "2026-09-20T10:00:00.000Z",
+    "type": "Analysis",
+    "headline": "Patriots Gameplan: Is a Blueprint Forming vs. Drake Maye and the Patriots Offense?",
+    "summary": "Previewing the chess match between the Patriots and Steelers in Sunday's home opener at Gillette Stadium.",
+    "sourceUrl": "https://www.patriots.com/news/patriots-gameplan-is-a-blueprint-forming-vs-drake-maye-and-the-patriots-offense",
+    "sourceName": "Patriots.com"
+  },
+  {
+    "id": "caf5bbef-4b7a-4f37-b197-34e57501be6f",
+    "publishedAt": "2026-09-20T00:37:00.000Z",
+    "type": "Analysis",
+    "headline": "3 to Watch: Patriots Look to Get on Winning Track vs. Steelers",
+    "summary": "Three key areas to watch as the Patriots look to beat the Steelers for their first win of the 2026 NFL season.",
+    "sourceUrl": "https://www.patriots.com/news/3-to-watch-patriots-look-to-get-on-winning-track-vs-steelers",
+    "sourceName": "Patriots.com"
   },
   {
     "id": "411858eb-592e-42fe-bbbf-be68f7d4217a",
@@ -18,15 +54,6 @@
     "sourceName": "Patriots.com"
   },
   {
-    "id": "f714603d-9043-48ba-97d4-aeb325269f5a",
-    "publishedAt": "2026-09-19T20:00:02.000Z",
-    "type": "Transaction",
-    "headline": "Patriots Elevate P Mitch Wishnowsky from the Practice Squad",
-    "summary": "The Patriots announced today that they have elevated P Mitch Wishnowsky to the active roster from the practice squad for the second straight week.",
-    "sourceUrl": "https://www.patriots.com/news/patriots-elevate-p-mitch-wishnowsky-from-the-practice-squad",
-    "sourceName": "Patriots.com"
-  },
-  {
     "id": "49973986",
     "publishedAt": "2026-09-18T21:13:51Z",
     "type": "Transaction",
@@ -34,33 +61,6 @@
     "summary": "Stephon Gilmore, a two-time All-Pro cornerback and the NFL's 2019 Defensive Player of the Year, signed a one-day contract in New England on Friday to retire as a member of the Patriots,",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/49973986/stephon-gilmore-19-nfl-dpoy-retiring-member-patriots",
     "sourceName": "ESPN"
-  },
-  {
-    "id": "75f13f8b-0e28-4ebf-bc14-91b9498f5afb",
-    "publishedAt": "2026-09-18T19:33:13.000Z",
-    "type": "Injury",
-    "headline": "Injury Report Analysis: RB TreVeyon Henderson expected to play, CB Carlton Davis III officially questionable for Week 2 vs. Steelers",
-    "summary": "Henderson (ankle) is expected to return for the Patriots, but New England could be down its starting cornerback vs. the Steelers on Sunday.",
-    "sourceUrl": "https://www.patriots.com/news/injury-report-analysis-rb-treveyon-henderson-expected-to-play-cb-carlton-davis-iii-officially-questionable-for-week-2-vs-steelers",
-    "sourceName": "Patriots.com"
-  },
-  {
-    "id": "0f4416f6-f251-4f76-a056-ff78cae97b53",
-    "publishedAt": "2026-09-18T19:30:00.000Z",
-    "type": "Injury",
-    "headline": "Week 2 Injury Report: Patriots vs. Steelers",
-    "summary": "The New England Patriots and the Pittsburgh Steelers announce the following player injuries and game statuses ahead of their Week 2 game.",
-    "sourceUrl": "https://www.patriots.com/news/week-2-injury-report-patriots-vs-steelers",
-    "sourceName": "Patriots.com"
-  },
-  {
-    "id": "6cf91f59-da03-47a3-b518-27cd83e477e8",
-    "publishedAt": "2026-09-18T19:12:14.000Z",
-    "type": "Analysis",
-    "headline": "Patriots Honor Stephon Gilmore's Legacy as One of the Greatest Cornerbacks in Franchise History",
-    "summary": "Cornerback Stephon Gilmore announced his retirement from the NFL as a New England Patriot on Friday.",
-    "sourceUrl": "https://www.patriots.com/news/patriots-honor-stephon-gilmore-s-legacy-as-one-of-the-greatest-cornerbacks-in-franchise-history",
-    "sourceName": "Patriots.com"
   },
   {
     "id": "49968087",

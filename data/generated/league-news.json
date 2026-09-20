@@ -1,21 +1,48 @@
 [
   {
     "id": "49983528",
-    "publishedAt": "2026-09-20T11:33:21Z",
+    "publishedAt": "2026-09-20T12:33:56Z",
     "type": "Analysis",
     "headline": "Sources: Colts' Keenan Allen faces minimum 3-game suspension",
-    "summary": "Colts wide receiver Keenan Allen, who was formally charged last week with two misdemeanor offenses stemming from his drunk-driving arrest in downtown Indianapolis last month, is facing a minimum three-game suspension, sources told ESPN.",
+    "summary": "Colts wide receiver Keenan Allen, who was formally charged last week with two misdemeanor offenses stemming from his drunken driving arrest in downtown Indianapolis last month, is facing a minimum three-game suspension, sources told ESPN.",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/49983528/sources-colts-keenan-allen-faces-minimum-3-game-suspension",
     "sourceName": "ESPN"
   },
   {
-    "id": "49985117",
-    "publishedAt": "2026-09-20T12:04:26Z",
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/browns-will-make-evaluation-of-quarterback-position-after-week-2",
+    "publishedAt": "2026-09-20T15:05:24.000Z",
     "type": "Analysis",
-    "headline": "Sources: Falcons QB Michael Penix Jr. could play in Week 3",
-    "summary": "Falcons quarterback Michael Penix Jr. is nearing a return and could make his 2026 debut Thursday night against the Packers, sources told ESPN.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49985117/sources-falcons-qb-michael-penix-jr-play-week-3",
-    "sourceName": "ESPN"
+    "headline": "Browns will make \"evaluation\" of quarterback position after Week 2",
+    "summary": "When the Browns decided, two days after an all-time press-conference meltdown from Deshaun Watson, to make him the Week 1 starting quarterback, it immediately seemed to be a product of the fact that Cleveland starts the season with two games, you know, not in Cleveland.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/browns-will-make-evaluation-of-quarterback-position-after-week-2",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=420301",
+    "publishedAt": "2026-09-20T14:59:24.000Z",
+    "type": "Injury",
+    "headline": "Eagles To Move Cam Jurgens To LG In Week 2; Drew Kendall To Start At C",
+    "summary": "Eagles left guard Landon Dickerson struggled in the team’s Week 1 victory over the Commanders, and after the game, he admitted he probably should not have played. He suffered a bone bruise in his knee during training camp, and as a result of that injury, he is now on injured reserve. When Dickerson went on […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/09/eagles-to-move-cam-jurgens-to-lg-in-week-2-drew-kendall-to-start-at-c",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=420248",
+    "publishedAt": "2026-09-20T03:00:00.000Z",
+    "type": "Injury",
+    "headline": "Seahawks QB Sam Darnold Could Be Out Until October",
+    "summary": "The Seahawks have been hesitant to provide a clear timeline for the return of quarterback Sam Darnold from the injury he suffered in Week 1. Initial concerns about Darnold’s hip were allayed by testing that indicated his glute was impacted instead. But Seattle’s update that their star quarterback was dealing with a “very unique soft-tissue” […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/09/seahawks-qb-sam-darnold-could-be-out-until-october",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/sam-darnold-is-recovering-faster-than-anyone-had-anticipated",
+    "publishedAt": "2026-09-20T13:22:44.000Z",
+    "type": "Injury",
+    "headline": "Sam Darnold is \"recovering faster than anyone had anticipated\"",
+    "summary": "Seahawks quarterback Sam Darnold left the Week 1 game against the Patriots after five snaps, with a hip injury becoming a glute tendon injury for which the team reportedly sought multiple second opinions.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/sam-darnold-is-recovering-faster-than-anyone-had-anticipated",
+    "sourceName": "Pro Football Talk"
   },
   {
     "id": "49982377",
@@ -24,24 +51,6 @@
     "headline": "Ravens' Zay Flowers downgraded to out because of hamstring injury",
     "summary": "The Baltimore Ravens downgraded Pro Bowl wide receiver Zay Flowers to out for Sunday's game against the New Orleans Saints.",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/49982377/ravens-zay-flowers-downgraded-hamstring-injury",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/nfl-will-no-longer-allow-patriots-to-use-video-board-to-confuse-opposing-kickers",
-    "publishedAt": "2026-09-19T21:18:36.000Z",
-    "type": "Analysis",
-    "headline": "NFL will no longer allow Patriots to use video board to confuse opposing kickers",
-    "summary": "The Patriots' longstanding tactic of creating an optical illusion for the road team's kicker has been banned.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/nfl-will-no-longer-allow-patriots-to-use-video-board-to-confuse-opposing-kickers",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "49985471",
-    "publishedAt": "2026-09-20T12:04:56Z",
-    "type": "Analysis",
-    "headline": "Broncos remain confident in OC Davis Webb as playcaller",
-    "summary": "The Broncos maintain a \"high level of confidence and comfort\" in Davis Webb as their offensive playcaller, a team source told ESPN.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49985471/source-broncos-confident-davis-webb-playcaller",
     "sourceName": "ESPN"
   }
 ]
