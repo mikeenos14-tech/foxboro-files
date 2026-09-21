@@ -1,7 +1,43 @@
 [
   {
+    "id": "50000044",
+    "publishedAt": "2026-09-21T21:01:16Z",
+    "type": "Analysis",
+    "headline": "Jayden Daniels to see specialists before Commanders form plan",
+    "summary": "The Commanders have not established a timeline for star quarterback Jayden Daniels to return from a dislocated left elbow.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50000044/jayden-daniels-see-specialists-commanders-form-plan",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "49999247",
+    "publishedAt": "2026-09-21T20:54:11Z",
+    "type": "Injury",
+    "headline": "Bears' Johnson: Williams week-to-week, but not ruled out for MNF",
+    "summary": "Bears quarterback Caleb Williams is considered \"week-to-week\" with a right hamstring injury he sustained in a 9-3 loss to the Vikings, coach Ben Johnson said Monday afternoon.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49999247/bears-johnson-qb-williams-week-week-likely-miss",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50000601",
+    "publishedAt": "2026-09-21T21:05:25Z",
+    "type": "Analysis",
+    "headline": "Adam Schefter: Michael Penix Jr. will start for the Falcons vs. the Packers",
+    "summary": "Adam Schefter: Michael Penix Jr. will start for the Falcons vs. the Packers",
+    "sourceUrl": "https://www.espn.com/video/clip/_/id/50000601/michael-penix-jr-start-falcons-vs-packers",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "49999712",
+    "publishedAt": "2026-09-21T19:22:29Z",
+    "type": "Injury",
+    "headline": "Saints LT Kelvin Banks to have ankle surgery, out indefinitely",
+    "summary": "Saints left tackle Kelvin Banks Jr. is out indefinitely with a high ankle sprain and needs surgery, coach Kellen Moore said Monday.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49999712/sources-saints-lt-banks-ankle-surgery-indefinitely",
+    "sourceName": "ESPN"
+  },
+  {
     "id": "49999325",
-    "publishedAt": "2026-09-21T18:02:18Z",
+    "publishedAt": "2026-09-21T20:57:56Z",
     "type": "Analysis",
     "headline": "Lions lose DB Avonte Maddox for season; Dan Campbell defends DC",
     "summary": "The embattled Lions defense has lost defensive back Avonte Maddox for the season, while coach Dan Campbell is defending second-year defensive coordinator Kelvin Sheppard.",
@@ -9,48 +45,12 @@
     "sourceName": "ESPN"
   },
   {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-kelvin-banks-is-expected-to-have-ankle-surgery",
-    "publishedAt": "2026-09-21T18:01:38.000Z",
-    "type": "Analysis",
-    "headline": "Report: Kelvin Banks is expected to have ankle surgery",
-    "summary": "Word on Monday morning was that the Saints believed left tackle Kelvin Banks suffered a high-ankle sprain during Sunday's win over the Ravens and an update on Monday afternoon paints a bleaker picture for Banks.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-kelvin-banks-is-expected-to-have-ankle-surgery",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=420403",
-    "publishedAt": "2026-09-21T17:53:46.000Z",
-    "type": "Injury",
-    "headline": "Bears Not Expecting Long-Term Caleb Williams Absence",
-    "summary": "Caleb Williams was carted off the field Sunday after suffering a hamstring injury. Early optimism emerged with respect to a lengthy absence being avoided, and it appears that was well-placed. The Ringer’s Tom Pelissero reported on Monday that a serious injury is indeed not the case for Williams and the Bears. Shortly thereafter, head coach Ben Johnson appeared […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/09/bears-not-expecting-long-term-caleb-williams-absence",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/ben-johnson-caleb-williams-week-to-week-likely-will-miss-time",
-    "publishedAt": "2026-09-21T17:27:12.000Z",
-    "type": "Injury",
-    "headline": "Ben Johnson: Caleb Williams week-to-week, likely will miss time",
-    "summary": "While Williams appears to have avoided a major hamstring injury, he is likely to be sidelined.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/ben-johnson-caleb-williams-week-to-week-likely-will-miss-time",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/kevin-stefanski-has-a-decent-idea-of-week-3-starter-but-will-address-with-team-first",
-    "publishedAt": "2026-09-21T16:54:09.000Z",
-    "type": "Analysis",
-    "headline": "Kevin Stefanski has a \"decent idea\" of Week 3 starter, but will address with team first",
-    "summary": "Michael Penix Jr.?",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/kevin-stefanski-has-a-decent-idea-of-week-3-starter-but-will-address-with-team-first",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "49999012",
-    "publishedAt": "2026-09-21T16:16:55Z",
-    "type": "Analysis",
-    "headline": "What went wrong for the Colts at Arrowhead?",
-    "summary": "Stephen Holder breaks down the Colts’ tough overtime loss to the Kansas City Chiefs at Arrowhead Stadium.",
-    "sourceUrl": "https://www.espn.com/video/clip/_/id/49999012/what-went-wrong-colts-arrowhead",
+    "id": "49999016",
+    "publishedAt": "2026-09-21T16:06:29Z",
+    "type": "Transaction",
+    "headline": "Cody White making a name for himself as Raiders start 2-0",
+    "summary": "Daniel Oyefusi breaks down how practice squad wide receiver Cody White made an impact with two touchdowns as the Raiders moved to 2-0.",
+    "sourceUrl": "https://www.espn.com/video/clip/_/id/49999016/cody-white-making-name-raiders-start-2-0",
     "sourceName": "ESPN"
   }
 ]

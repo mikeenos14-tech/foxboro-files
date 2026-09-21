@@ -1,20 +1,254 @@
 [
   {
-    "id": "49999315",
-    "publishedAt": "2026-09-21T18:02:24Z",
+    "id": "50000601",
+    "publishedAt": "2026-09-21T21:05:25Z",
     "type": "Analysis",
-    "headline": "Sauce Gardner's journey with Colts is stuck in a 9-game rut",
-    "summary": "The Colts are off to an 0-2 start, which doesn't bode well for the front office and doesn't sit well with the players.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49999315/sauce-gardner-journey-colts-stuck-9-game-rut",
+    "headline": "Adam Schefter: Michael Penix Jr. will start for the Falcons vs. the Packers",
+    "summary": "Adam Schefter: Michael Penix Jr. will start for the Falcons vs. the Packers",
+    "sourceUrl": "https://www.espn.com/video/clip/_/id/50000601/michael-penix-jr-start-falcons-vs-packers",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50000605",
+    "publishedAt": "2026-09-21T21:02:08Z",
+    "type": "Injury",
+    "headline": "Sources: Colts WR Alec Pierce seeking second opinion on heel",
+    "summary": "Colts WR Alec Pierce is seeking a second opinion on his left heel injury, sources told ESPN's Jeremy Fowler on Monday.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50000605/colts-wr-alec-pierce-seeking-second-opinion-heel",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50000044",
+    "publishedAt": "2026-09-21T21:01:16Z",
+    "type": "Analysis",
+    "headline": "Jayden Daniels to see specialists before Commanders form plan",
+    "summary": "The Commanders have not established a timeline for star quarterback Jayden Daniels to return from a dislocated left elbow.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50000044/jayden-daniels-see-specialists-commanders-form-plan",
     "sourceName": "ESPN"
   },
   {
     "id": "49999325",
-    "publishedAt": "2026-09-21T18:02:18Z",
+    "publishedAt": "2026-09-21T20:57:56Z",
     "type": "Analysis",
     "headline": "Lions lose DB Avonte Maddox for season; Dan Campbell defends DC",
     "summary": "The embattled Lions defense has lost defensive back Avonte Maddox for the season, while coach Dan Campbell is defending second-year defensive coordinator Kelvin Sheppard.",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/49999325/lions-lose-db-avonte-maddox-season-dan-campbell-defends-dc",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50000410",
+    "publishedAt": "2026-09-21T20:57:13Z",
+    "type": "Analysis",
+    "headline": "Falcons to start QB Michael Penix on Thursday vs. Packers",
+    "summary": "Falcons quarterback Michael Penix Jr. will make his season debut this Thursday night when he starts against the Packers, the team announced Monday.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50000410/falcons-start-qb-michael-penix-thursday-vs-packers",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "49999247",
+    "publishedAt": "2026-09-21T20:54:11Z",
+    "type": "Injury",
+    "headline": "Bears' Johnson: Williams week-to-week, but not ruled out for MNF",
+    "summary": "Bears quarterback Caleb Williams is considered \"week-to-week\" with a right hamstring injury he sustained in a 9-3 loss to the Vikings, coach Ben Johnson said Monday afternoon.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49999247/bears-johnson-qb-williams-week-week-likely-miss",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50000433",
+    "publishedAt": "2026-09-21T20:48:15Z",
+    "type": "Analysis",
+    "headline": "NFL: 'No concerns' over field conditions in Rio for Cowboys-Ravens",
+    "summary": "NFL field director Nick Pappas said there are \"no concerns right now\" over the field conditions for Sunday's game between the Cowboys and Ravens in Rio de Janeiro.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50000433/nfl-no-concerns-field-conditions-rio-cowboys-ravens",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/michael-penix-jr-will-start-for-falcons-on-thursday-night",
+    "publishedAt": "2026-09-21T20:45:50.000Z",
+    "type": "Analysis",
+    "headline": "Michael Penix Jr. will start for Falcons on Thursday night",
+    "summary": "2024 first-rounder will return from November 2025 ACL tear.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/michael-penix-jr-will-start-for-falcons-on-thursday-night",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/kyle-shanahan-mike-evans-hip-injury-will-have-to-be-managed-this-week",
+    "publishedAt": "2026-09-21T20:45:45.000Z",
+    "type": "Injury",
+    "headline": "Kyle Shanahan: Mike Evans' hip injury will have to be managed this week",
+    "summary": "The 49ers have a few injury concerns entering Week 3, including one to veteran receiver Mike Evans.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/kyle-shanahan-mike-evans-hip-injury-will-have-to-be-managed-this-week",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=420403",
+    "publishedAt": "2026-09-21T20:43:46.000Z",
+    "type": "Injury",
+    "headline": "Bears Not Expecting Long-Term Caleb Williams Absence",
+    "summary": "3:43pm: Williams is unlikely to practice this week, Johnson said (via Cronin). Nevertheless, he has not yet officially been ruled out for Week 3. 12:53pm: Caleb Williams was carted off the field Sunday after suffering a hamstring injury. Early optimism emerged with respect to a lengthy absence being avoided, and it appears that was well-placed. The Ringer’s […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/09/bears-not-expecting-long-term-caleb-williams-absence",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "50000310",
+    "publishedAt": "2026-09-21T20:35:27Z",
+    "type": "Injury",
+    "headline": "Packers WR Reed sustained back, not neck injury, source says",
+    "summary": "Packers receiver Jayden Reed actually sustained a back injury - and not a neck injury as originally thought - in Sunday's game against the Jets and was expected to return to Green Bay on Monday, a sourced told ESPN's Adam Schefter.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50000310/packers-wr-reed-sustained-back-not-neck-injury-source-says",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "49999840",
+    "publishedAt": "2026-09-21T20:22:50Z",
+    "type": "Analysis",
+    "headline": "Vikings' Murray clears concussion protocol, will start vs. Bucs",
+    "summary": "Vikings quarterback Kyler Murray has cleared the concussion protocol and will start Sunday's game at the Buccaneers, coach Kevin O'Connell announced Monday.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49999840/vikings-murray-clears-concussion-protocol-start-vs-bucs",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50000059",
+    "publishedAt": "2026-09-21T20:02:43Z",
+    "type": "Analysis",
+    "headline": "Why Orlvosky thinks Bears can stay afloat without Caleb Williams",
+    "summary": "Why Orlvosky thinks Bears can stay afloat without Caleb Williams ",
+    "sourceUrl": "https://www.espn.com/video/clip/_/id/50000059/why-orlvosky-thinks-bears-stay-afloat-caleb-williams",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=420412",
+    "publishedAt": "2026-09-21T19:44:54.000Z",
+    "type": "Analysis",
+    "headline": "Vikings QB Kyler Murray Clears Concussion Protocol",
+    "summary": "On Sunday, Vikings head coach Kevin O’Connell said he expected Kyler Murray to clear concussion protocol in short order. Minnesota’s starting quarterback will indeed be available this week. Murray cleared the protocol on Monday, per O’Connell. He will reprise his QB1 role in Week 3 as a result. Carson Wentz took over after the concussion Murray suffered during his […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/09/vikings-qb-kyler-murray-clears-concussion-protocol",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jayden-reed-remains-in-new-jersey-being-evaluated-after-back-injury",
+    "publishedAt": "2026-09-21T19:43:09.000Z",
+    "type": "Injury",
+    "headline": "Jayden Reed remains in New Jersey, being evaluated after back injury",
+    "summary": "Packers wide receiver Jayden Reed remains in New Jersey after being taken to a hospital following an injury in Sunday's overtime win over the Jets.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jayden-reed-remains-in-new-jersey-being-evaluated-after-back-injury",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/todd-monken-on-deshaun-watson-i-still-see-him-as-a-very-young-player-who-will-continue-to-grow",
+    "publishedAt": "2026-09-21T19:31:47.000Z",
+    "type": "Transaction",
+    "headline": "Todd Monken on Deshaun Watson: I still see him as a very young player who will continue to grow",
+    "summary": "Deshaun Watson played one of his best games since his trade to the Browns on Sunday, helping power the club to a 23-19 victory over Tampa Bay.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/todd-monken-on-deshaun-watson-i-still-see-him-as-a-very-young-player-who-will-continue-to-grow",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "49999712",
+    "publishedAt": "2026-09-21T19:22:29Z",
+    "type": "Injury",
+    "headline": "Saints LT Kelvin Banks to have ankle surgery, out indefinitely",
+    "summary": "Saints left tackle Kelvin Banks Jr. is out indefinitely with a high ankle sprain and needs surgery, coach Kellen Moore said Monday.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49999712/sources-saints-lt-banks-ankle-surgery-indefinitely",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/commanders-db-nick-cross-stayed-in-dallas-sunday-after-suffering-internal-injury",
+    "publishedAt": "2026-09-21T19:21:28.000Z",
+    "type": "Injury",
+    "headline": "Commanders DB Nick Cross stayed in Dallas Sunday after suffering internal injury",
+    "summary": "Jayden Daniels's injury was the major storyline for the Commanders in Sunday's loss to the Cowboys, but the quarterback was not the only member of the team to suffer an injury.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/commanders-db-nick-cross-stayed-in-dallas-sunday-after-suffering-internal-injury",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/reports-jayden-daniels-consulting-specialists-after-dislocating-left-elbow-sunday",
+    "publishedAt": "2026-09-21T19:14:06.000Z",
+    "type": "Injury",
+    "headline": "Jayden Daniels consulting specialists after dislocating left elbow Sunday",
+    "summary": "Commanders quarterback Jayden Daniels dislocated his left elbow during Sunday's loss to the Cowboys and is now trying to sort out how long he will be out of action as a result of the injury.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/reports-jayden-daniels-consulting-specialists-after-dislocating-left-elbow-sunday",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=420406",
+    "publishedAt": "2026-09-21T18:59:10.000Z",
+    "type": "Injury",
+    "headline": "Lions To Sign DB Jalen Mills; Latest On S Kerby Joseph",
+    "summary": "Monday has indeed brought about an addition in the secondary for the Lions. Jalen Mills was among the free agents who recently worked out with the team, and it has produced a deal. Mills is signing with Detroit, ESPN’s Jeremy Fowler reports. This will be a practice squad deal, he adds. Mills made three appearances with the […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/09/lions-to-sign-db-jalen-mills-latest-on-s-kerby-joseph",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-joey-porter-jr-rejected-27-million-in-2026",
+    "publishedAt": "2026-09-21T18:56:43.000Z",
+    "type": "Analysis",
+    "headline": "Report: Joey Porter Jr. rejected $27 million in 2026",
+    "summary": "As the contract standoff continues between the Steelers and cornerback Joey Porter Jr., some of the details regarding the negotiations are leaking.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-joey-porter-jr-rejected-27-million-in-2026",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "49999460",
+    "publishedAt": "2026-09-21T18:47:54Z",
+    "type": "Injury",
+    "headline": "J.K. Dobbins, RJ Harvey injured; Broncos' run game in question",
+    "summary": "With injuries to J.K. Dobbins and RJ Harvey, the Denver Broncos are looking at the week ahead before determining which running back will be ready for Sunday night's game against the Los Angeles Rams.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49999460/jk-dobbins-rj-harvey-injured-broncos-run-game-question",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jerry-jones-i-was-worried-what-it-would-be-like-if-cowboys-started-0-2",
+    "publishedAt": "2026-09-21T18:42:05.000Z",
+    "type": "Analysis",
+    "headline": "Jerry Jones: I was worried what it would be like if Cowboys started 0-2",
+    "summary": "The Cowboys got their first win of the season on Sunday, and Jerry Jones breathed a sigh of relief.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jerry-jones-i-was-worried-what-it-would-be-like-if-cowboys-started-0-2",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/kyler-murray-clears-concussion-protocol-set-to-start-week-3-vs-bucs",
+    "publishedAt": "2026-09-21T18:27:02.000Z",
+    "type": "Analysis",
+    "headline": "Kyler Murray clears concussion protocol, set to start Week 3 vs. Bucs",
+    "summary": "Murray will be back in the starting lineup for next week's game after Carson Wentz started Week 2.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/kyler-murray-clears-concussion-protocol-set-to-start-week-3-vs-bucs",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/seahawks-dont-think-jadarian-prices-shoulder-injury-is-serious",
+    "publishedAt": "2026-09-21T18:18:55.000Z",
+    "type": "Injury",
+    "headline": "Seahawks don't think Jadarian Price's shoulder injury is serious",
+    "summary": "Seahawks rookie running back Jadarian Price left Sunday's win over the Cardinals with an injury, but it doesn't look like he is facing an extended absence from the lineup.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/seahawks-dont-think-jadarian-prices-shoulder-injury-is-serious",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=420393",
+    "publishedAt": "2026-09-21T18:15:12.000Z",
+    "type": "Injury",
+    "headline": "Saints LT Kelvin Banks Jr. To Undergo Ankle Surgery",
+    "summary": "1:15pm: Banks did indeed suffer a “severe” high ankle sprain, Rapoport reports. As a result, surgery is now expected. With an indefinite absence in store, a move to injured reserve would come as no surprise. Banks’ procedure will take place in the coming days, per head coach Kellen Moore (h/t ESPN’s Katherine Terrell). 9:57am: The Saints recorded a comeback […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/09/saints-believe-lt-kelvin-banks-jr-suffered-high-ankle-sprain",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "49999619",
+    "publishedAt": "2026-09-21T18:07:47Z",
+    "type": "Injury",
+    "headline": "Dan Campbell: Lions DB Avonte Maddox out for season",
+    "summary": "Dan Campbell: Lions DB Avonte Maddox out for season",
+    "sourceUrl": "https://www.espn.com/video/clip/_/id/49999619/lions-db-avonte-maddox-season",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "49999315",
+    "publishedAt": "2026-09-21T18:06:42Z",
+    "type": "Analysis",
+    "headline": "Sauce Gardner's journey with Colts is stuck in a 9-game rut",
+    "summary": "The Colts are off to an 0-2 start, which doesn't bode well for the front office and doesn't sit well with the players.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49999315/sauce-gardner-journey-colts-stuck-9-game-rut",
     "sourceName": "ESPN"
   },
   {
@@ -25,33 +259,6 @@
     "summary": "Word on Monday morning was that the Saints believed left tackle Kelvin Banks suffered a high-ankle sprain during Sunday's win over the Ravens and an update on Monday afternoon paints a bleaker picture for Banks.",
     "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-kelvin-banks-is-expected-to-have-ankle-surgery",
     "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "49999619",
-    "publishedAt": "2026-09-21T18:00:54Z",
-    "type": "Injury",
-    "headline": "Dan Campbell: Lions DB Avonte Maddox out for season",
-    "summary": "Dan Campbell: Lions DB Avonte Maddox out for season",
-    "sourceUrl": "https://www.espn.com/video/clip/_/id/49999619/lions-db-avonte-maddox-season",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "49999460",
-    "publishedAt": "2026-09-21T17:58:22Z",
-    "type": "Injury",
-    "headline": "J.K. Dobbins, RJ Harvey injured; Broncos' run game in question",
-    "summary": "With injuries to J.K. Dobbins and RJ Harvey, the Denver Broncos are looking at the week ahead before determining which running back will be ready for Sunday night's game against the Los Angeles Rams.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49999460/jk-dobbins-rj-harvey-injured-broncos-run-game-question",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=420403",
-    "publishedAt": "2026-09-21T17:53:46.000Z",
-    "type": "Injury",
-    "headline": "Bears Not Expecting Long-Term Caleb Williams Absence",
-    "summary": "Caleb Williams was carted off the field Sunday after suffering a hamstring injury. Early optimism emerged with respect to a lengthy absence being avoided, and it appears that was well-placed. The Ringer’s Tom Pelissero reported on Monday that a serious injury is indeed not the case for Williams and the Bears. Shortly thereafter, head coach Ben Johnson appeared […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/09/bears-not-expecting-long-term-caleb-williams-absence",
-    "sourceName": "Pro Football Rumors"
   },
   {
     "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/andy-reid-josh-simmons-working-his-tail-off-to-return",
@@ -106,15 +313,6 @@
     "summary": "The christening of the new Bills' stadium had plenty of witnesses.",
     "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/lions-bills-averages-18-6-million-on-prime-video",
     "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "49999247",
-    "publishedAt": "2026-09-21T17:11:18Z",
-    "type": "Injury",
-    "headline": "Bears' Johnson: QB Williams week-to-week, likely to miss time",
-    "summary": "Bears coach Ben Johnson said Monday on ESPN 1000 that quarterback Caleb Williams' right hamstring injury \"sounds like it's going to be a week-to-week deal for him.\"",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49999247/bears-johnson-qb-williams-week-week-likely-miss",
-    "sourceName": "ESPN"
   },
   {
     "id": "49545945",
@@ -331,15 +529,6 @@
     "summary": "After the conclusion of the 2025 season in January, Colts owner Carlie Irsay-Gordon made it clear that General Manager Chris Ballard and head coach Shane Steichen had to put a better product on the field in 2026.",
     "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/shane-steichen-on-9-straight-losses-were-right-there-have-to-find-a-way-to-win-at-the-end",
     "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=420393",
-    "publishedAt": "2026-09-21T14:57:12.000Z",
-    "type": "Analysis",
-    "headline": "Saints Believe LT Kelvin Banks Jr. Suffered High Ankle Sprain",
-    "summary": "The Saints recorded a comeback win on Sunday but their offense was dealt a notable blow in the process. Left tackle Kelvin Banks Jr. was carted off the field, and he appears to be in line to miss time. New Orleans believes Banks suffered a high ankle sprain yesterday, Ian Rapoport of NFL Network reports. An MRI […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/09/saints-believe-lt-kelvin-banks-jr-suffered-high-ankle-sprain",
-    "sourceName": "Pro Football Rumors"
   },
   {
     "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-saints-lt-kelvin-banks-believed-to-have-a-high-ankle-sprain",

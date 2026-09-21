@@ -1,41 +1,5 @@
 [
   {
-    "playerId": "4889929",
-    "playerName": "Quinn Ewers",
-    "position": "QB",
-    "week": 3,
-    "injury": "Coach's Decision",
-    "gameStatus": "Out",
-    "lastUpdated": "2026-09-20T18:55Z"
-  },
-  {
-    "playerId": "4360964",
-    "playerName": "Daniel Faalele",
-    "position": "G",
-    "week": 3,
-    "injury": "Coach's Decision",
-    "gameStatus": "Out",
-    "lastUpdated": "2026-09-20T18:49Z"
-  },
-  {
-    "playerId": "4917427",
-    "playerName": "Tanner Koziol",
-    "position": "TE",
-    "week": 3,
-    "injury": "Coach's Decision",
-    "gameStatus": "Out",
-    "lastUpdated": "2026-09-20T18:57Z"
-  },
-  {
-    "playerId": "5085024",
-    "playerName": "CJ Williams",
-    "position": "WR",
-    "week": 3,
-    "injury": "Coach's Decision",
-    "gameStatus": "Out",
-    "lastUpdated": "2026-09-20T19:00Z"
-  },
-  {
     "playerId": "3915520",
     "playerName": "DaVon Hamilton",
     "position": "DT",
@@ -43,33 +7,6 @@
     "injury": "Back",
     "gameStatus": "Questionable",
     "lastUpdated": "2026-09-20T22:58Z"
-  },
-  {
-    "playerId": "4912185",
-    "playerName": "Jalen Huskey",
-    "position": "S",
-    "week": 3,
-    "injury": "Coach's Decision",
-    "gameStatus": "Out",
-    "lastUpdated": "2026-09-20T18:49Z"
-  },
-  {
-    "playerId": "4427716",
-    "playerName": "Jack Kiser",
-    "position": "LB",
-    "week": 3,
-    "injury": "Coach's Decision",
-    "gameStatus": "Out",
-    "lastUpdated": "2026-09-20T18:49Z"
-  },
-  {
-    "playerId": "4832922",
-    "playerName": "Wesley Williams",
-    "position": "DE",
-    "week": 3,
-    "injury": "Coach's Decision",
-    "gameStatus": "Out",
-    "lastUpdated": "2026-09-20T18:49Z"
   },
   {
     "playerId": "5083287",
