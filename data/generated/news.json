@@ -1,7 +1,16 @@
 [
   {
+    "id": "168b89d6-d18b-4834-9ad5-f65dc68937e3",
+    "publishedAt": "2026-09-20T22:45:33.000Z",
+    "type": "Analysis",
+    "headline": "Game Observations: 8 takeaways from the Patriots win over the Steelers in Week 2",
+    "summary": "The Patriots cruised to a 20-3 victory over the Steelers in Sunday's home opener at Gillette Stadium.",
+    "sourceUrl": "https://www.patriots.com/news/game-observations-8-takeaways-from-the-patriots-win-over-the-steelers-in-week-2",
+    "sourceName": "Patriots.com"
+  },
+  {
     "id": "49992172",
-    "publishedAt": "2026-09-20T20:33:30Z",
+    "publishedAt": "2026-09-20T22:37:43Z",
     "type": "Analysis",
     "headline": "Pittsburgh Steelers vs. New England Patriots: Game Highlights",
     "summary": "Pittsburgh Steelers vs. New England Patriots: Game Highlights",
@@ -9,22 +18,49 @@
     "sourceName": "ESPN"
   },
   {
+    "id": "49990760",
+    "publishedAt": "2026-09-20T22:28:54Z",
+    "type": "Analysis",
+    "headline": "Patriots starting RG Mike Onwenu has broken right ankle, source says",
+    "summary": "Initial X-rays revealed that New England Patriots starting right guard Mike Onwenu has a broken right ankle, a source said.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49990760/patriots-starting-rg-mike-onwenu-carted-ankle-injury",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "cbd7675e-0c18-48a7-b3fe-88683bb968a5",
+    "publishedAt": "2026-09-20T22:01:50.000Z",
+    "type": "Analysis",
+    "headline": "New England Patriots Postgame Quotes 9/20",
+    "summary": "New England Patriots Head Coach Mike Vrabel and select players comment on their Week 2 game against the Pittsburgh Steelers on Sunday, September 20, 2026.",
+    "sourceUrl": "https://www.patriots.com/news/new-england-patriots-postgame-quotes-9-20-x7623",
+    "sourceName": "Patriots.com"
+  },
+  {
+    "id": "164147e2-c26e-4770-993a-a66bc8815ae2",
+    "publishedAt": "2026-09-20T21:57:14.000Z",
+    "type": "Analysis",
+    "headline": "Game Notes: Patriots Become First of Original AFL Teams to Reach 600 Wins",
+    "summary": "Game notes and stats from the Patriots Week 2 game against the Pittsburgh Steelers on Sunday, September 20, 2026.",
+    "sourceUrl": "https://www.patriots.com/news/game-notes-patriots-reach-600-wins",
+    "sourceName": "Patriots.com"
+  },
+  {
     "id": "49992010",
-    "publishedAt": "2026-09-20T20:14:30Z",
+    "publishedAt": "2026-09-20T21:14:31Z",
     "type": "Analysis",
     "headline": "TreVeyon Henderson runs for a TD and the Patriots pummel Aaron Rodgers in a 20-3 win over Steelers",
-    "summary": "— TreVeyon Henderson ran for a 39-yard touchdown in his season debut, Eli Ponder added a 19-yard fumble recovery for a score and the New England Patriots’ defense smothered Aaron Rodgers on the way to a 20-3 victory over the Pittsburgh Steelers on...",
+    "summary": "— The New England Patriots have yet to find much of the offensive rhythm that propelled their Super Bowl run last season. The defense was there to pick up the pieces against the ",
     "sourceUrl": "http://www.espn.com/nfl/recap?gameId=401872946",
     "sourceName": "ESPN"
   },
   {
-    "id": "49990760",
-    "publishedAt": "2026-09-20T20:08:15Z",
-    "type": "Injury",
-    "headline": "Patriots starting RG Mike Onwenu carted off with ankle injury",
-    "summary": "Patriots starting right guard Mike Onwenu was carted off the field with an ankle injury late in the first quarter against the Steelers.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49990760/patriots-starting-rg-mike-onwenu-carted-ankle-injury",
-    "sourceName": "ESPN"
+    "id": "e9c7f7fe-0abd-40ec-aaf1-60aa328d160b",
+    "publishedAt": "2026-09-20T21:00:00.000Z",
+    "type": "Analysis",
+    "headline": "Pittsburgh Steelers Postgame Quotes 9/20",
+    "summary": "Pittsburgh Steelers Head Coach Mike McCarthy and select players comment on their Week 2 game against the New England Patriots on Sunday, September 20, 2026.",
+    "sourceUrl": "https://www.patriots.com/news/pittsburgh-steelers-postgame-quotes-9-20",
+    "sourceName": "Patriots.com"
   },
   {
     "id": "9c121546-b93b-4b84-b2d6-f9002f182596",
@@ -43,42 +79,6 @@
     "summary": "New England wants Maye to be patient but aggressive. Can he have success against the daunting Pittsburgh defense?",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/49976142/new-england-patriots-drake-maye-week-2",
     "sourceName": "ESPN"
-  },
-  {
-    "id": "e09b4368-4cb6-4209-af3f-2c2ad86383d3",
-    "publishedAt": "2026-09-20T15:34:40.000Z",
-    "type": "Analysis",
-    "headline": "Week 2 Inactives: Steelers at Patriots",
-    "summary": "The New England Patriots and Pittsburgh Steelers announce the following inactive players ahead of their NFL Week 2 game on September 20, 2026.",
-    "sourceUrl": "https://www.patriots.com/news/week-2-inactives-steelers-at-patriots",
-    "sourceName": "Patriots.com"
-  },
-  {
-    "id": "46e6cc3c-55c7-40b3-84fc-8ea349c43f1c",
-    "publishedAt": "2026-09-20T15:32:27.000Z",
-    "type": "Injury",
-    "headline": "Inactives Analysis: RB TreVeyon Henderson, WR Efton Chism III to make season debuts vs. Steelers",
-    "summary": "Henderson and Chism III are officially active for Week 2 vs. the Steelers after sitting out the Patriots season opener.",
-    "sourceUrl": "https://www.patriots.com/news/inactives-analysis-rb-treveyon-henderson-to-make-season-debut-wr-efton-chism-iii-active-vs-steelers",
-    "sourceName": "Patriots.com"
-  },
-  {
-    "id": "aa6798f2-4b89-4b03-a26e-2bbe6185ecad",
-    "publishedAt": "2026-09-20T12:25:00.000Z",
-    "type": "Analysis",
-    "headline": "How to Watch and Stream Sunday's Patriots Home Opener Against the Steelers",
-    "summary": "Complete broadcast information for this week's game between the New England Patriots and the Pittsburgh Steelers on Sunday, September 20, 2026 at 1 PM ET.",
-    "sourceUrl": "https://www.patriots.com/news/how-to-watch-and-stream-sunday-s-patriots-home-opener-against-the-steelers",
-    "sourceName": "Patriots.com"
-  },
-  {
-    "id": "24e32b1a-2fcc-4c11-b46a-8fccc48bb1f0",
-    "publishedAt": "2026-09-20T11:36:00.000Z",
-    "type": "Analysis",
-    "headline": "Expert Predictions: Week 2 Picks for Steelers at Patriots",
-    "summary": "Experts share their picks for the Patriots' Week 2 matchup against the Pittsburgh Steelers.",
-    "sourceUrl": "https://www.patriots.com/news/expert-predictions-week-2-picks-for-steelers-at-patriots",
-    "sourceName": "Patriots.com"
   },
   {
     "id": "49973986",

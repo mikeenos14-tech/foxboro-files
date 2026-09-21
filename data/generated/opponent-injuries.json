@@ -1,52 +1,83 @@
 [
   {
-    "playerId": "00-0027969",
-    "playerName": "Cameron Heyward",
-    "position": "DT",
-    "week": 2,
-    "injury": "Not injury related - resting player",
-    "practiceStatus": "Full",
-    "gameStatus": null,
-    "lastUpdated": "2026-09-20T21:06:17.327Z"
-  },
-  {
-    "playerId": "00-0036252",
-    "playerName": "Michael Pittman",
-    "position": "WR",
-    "week": 2,
-    "injury": "Foot",
-    "practiceStatus": "Limited",
-    "gameStatus": "Questionable",
-    "lastUpdated": "2026-09-18T20:13:03.839Z"
-  },
-  {
-    "playerId": "00-0038558",
-    "playerName": "Darnell Washington",
-    "position": "TE",
-    "week": 2,
-    "injury": "Not injury related - personal matter",
-    "practiceStatus": "Full",
-    "gameStatus": null,
-    "lastUpdated": "2026-09-20T21:06:17.327Z"
-  },
-  {
-    "playerId": "00-0039167",
-    "playerName": "Joey Porter Jr.",
-    "position": "CB",
-    "week": 2,
-    "injury": "Back",
-    "practiceStatus": "Did Not Participate",
+    "playerId": "4889929",
+    "playerName": "Quinn Ewers",
+    "position": "QB",
+    "week": 3,
+    "injury": "Coach's Decision",
     "gameStatus": "Out",
-    "lastUpdated": "2026-09-18T20:13:03.839Z"
+    "lastUpdated": "2026-09-20T18:55Z"
   },
   {
-    "playerId": "00-0039871",
-    "playerName": "Troy Fautanu",
-    "position": "T",
-    "week": 2,
-    "injury": "Ankle",
-    "practiceStatus": "Full",
+    "playerId": "4360964",
+    "playerName": "Daniel Faalele",
+    "position": "G",
+    "week": 3,
+    "injury": "Coach's Decision",
+    "gameStatus": "Out",
+    "lastUpdated": "2026-09-20T18:49Z"
+  },
+  {
+    "playerId": "4917427",
+    "playerName": "Tanner Koziol",
+    "position": "TE",
+    "week": 3,
+    "injury": "Coach's Decision",
+    "gameStatus": "Out",
+    "lastUpdated": "2026-09-20T18:57Z"
+  },
+  {
+    "playerId": "5085024",
+    "playerName": "CJ Williams",
+    "position": "WR",
+    "week": 3,
+    "injury": "Coach's Decision",
+    "gameStatus": "Out",
+    "lastUpdated": "2026-09-20T19:00Z"
+  },
+  {
+    "playerId": "3915520",
+    "playerName": "DaVon Hamilton",
+    "position": "DT",
+    "week": 3,
+    "injury": "Back",
     "gameStatus": "Questionable",
-    "lastUpdated": "2026-09-20T21:06:17.327Z"
+    "lastUpdated": "2026-09-20T22:58Z"
+  },
+  {
+    "playerId": "4912185",
+    "playerName": "Jalen Huskey",
+    "position": "S",
+    "week": 3,
+    "injury": "Coach's Decision",
+    "gameStatus": "Out",
+    "lastUpdated": "2026-09-20T18:49Z"
+  },
+  {
+    "playerId": "4427716",
+    "playerName": "Jack Kiser",
+    "position": "LB",
+    "week": 3,
+    "injury": "Coach's Decision",
+    "gameStatus": "Out",
+    "lastUpdated": "2026-09-20T18:49Z"
+  },
+  {
+    "playerId": "4832922",
+    "playerName": "Wesley Williams",
+    "position": "DE",
+    "week": 3,
+    "injury": "Coach's Decision",
+    "gameStatus": "Out",
+    "lastUpdated": "2026-09-20T18:49Z"
+  },
+  {
+    "playerId": "5083287",
+    "playerName": "Devon Marshall",
+    "position": "CB",
+    "week": 3,
+    "injury": "Undisclosed",
+    "gameStatus": "Questionable",
+    "lastUpdated": "2026-08-27T23:55Z"
   }
 ]
