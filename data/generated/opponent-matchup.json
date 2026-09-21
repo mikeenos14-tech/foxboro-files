@@ -2,55 +2,55 @@
   "gameId": "2026_03_NE_JAX",
   "opponent": "JAX",
   "opponentEpaRank": {
-    "offense": 9,
-    "defense": 3
+    "offense": 12,
+    "defense": 9
   },
   "positionGroupMatchups": [
     {
       "group": "Rush Offense vs. Run Defense",
-      "ourGrade": 58,
-      "theirGrade": 68,
-      "edge": "even",
-      "note": "58th percentile vs. 68th percentile (close matchup)."
+      "ourGrade": 81,
+      "theirGrade": 29,
+      "edge": "us",
+      "note": "81st percentile vs. 29th percentile (advantage us)."
     },
     {
       "group": "Pass Offense vs. Pass Defense",
-      "ourGrade": 97,
-      "theirGrade": 100,
-      "edge": "even",
-      "note": "97th percentile vs. 100th percentile (close matchup)."
+      "ourGrade": 100,
+      "theirGrade": 77,
+      "edge": "us",
+      "note": "100th percentile vs. 77th percentile (advantage us)."
     },
     {
       "group": "Run Defense vs. Rush Offense",
-      "ourGrade": 45,
-      "theirGrade": 45,
-      "edge": "even",
-      "note": "45th percentile vs. 45th percentile (close matchup)."
+      "ourGrade": 35,
+      "theirGrade": 19,
+      "edge": "us",
+      "note": "35th percentile vs. 19th percentile (advantage us)."
     },
     {
       "group": "Pass Defense vs. Pass Offense",
-      "ourGrade": 71,
-      "theirGrade": 71,
+      "ourGrade": 81,
+      "theirGrade": 74,
       "edge": "even",
-      "note": "71st percentile vs. 71st percentile (close matchup)."
+      "note": "81st percentile vs. 74th percentile (close matchup)."
     },
     {
       "group": "Pass Protection vs. Pass Rush",
-      "ourGrade": 26,
-      "theirGrade": 68,
-      "edge": "them",
-      "note": "26th percentile vs. 68th percentile (advantage them)."
+      "ourGrade": 32,
+      "theirGrade": 13,
+      "edge": "us",
+      "note": "32nd percentile vs. 13th percentile (advantage us)."
     }
   ],
   "matchupOfTheWeek": {
-    "title": "Run Defense vs. Rush Offense",
-    "description": "Their unit actually grades better here (45th percentile vs. our 45th) — the closest thing to a swing spot working against us this week."
+    "title": "Rush Offense vs. Run Defense",
+    "description": "Our rush offense grades in the 81st percentile against a unit that grades 29th — the widest real statistical edge on the board this week."
   },
   "opponentInjuries": [],
   "recentForm": {
-    "last3EpaPerPlay": 0.522438269815026,
-    "last5EpaPerPlay": 0.522438269815026,
-    "seasonEpaPerPlay": 0.522438269815026
+    "last3EpaPerPlay": 0.16134696154066014,
+    "last5EpaPerPlay": 0.16134696154066014,
+    "seasonEpaPerPlay": 0.16134696154066014
   },
   "headToHead": [
     {
@@ -80,10 +80,15 @@
     }
   ],
   "weather": {
-    "tempF": 89,
-    "wind": "4 mph",
-    "precipitation": "5%",
+    "tempF": 87,
+    "wind": "5 mph",
+    "precipitation": "3%",
     "isDome": false
   },
-  "previewTake": "Jacksonville's defense is genuinely elite — third in the NFL — which means this is going to be a grind, and frankly, their offense at ninth isn't exactly a pushover either. The one silver lining is that their rush defense and our rushing offense are basically identical twins in terms of grade (both 45th percentile), so if there's a place to attack them, it's probably there, though it's hardly a glaring weakness. They've been rolling lately at +0.52 EPA per play over their last three games, and that recent form is the kind of momentum that makes road games uncomfortable. The head-to-head history is delightfully chaotic — we've beaten them twice, they've beaten us twice since 2012 — but that 2024 loss was rough (32-16), a reminder of just how formidable they can be when firing on all cylinders."
+  "bettingContext": {
+    "spread": 2.5,
+    "overUnder": 44.5,
+    "asOf": "2026-09-21"
+  },
+  "previewTake": "Here's a matchup that actually has some real meat on the bone: our run game is operating at an elite level — 81st percentile — and we're going up against Jacksonville's run defense, which grades out at just 29th. That's the widest edge on the entire slate this week, which means if we're serious about winning, we have a blueprint. The Jaguars' defense is solid overall (9th in the league), and their offense has been respectable at 12th, but that middle-of-the-pack rush defense is the string we need to pull. Jacksonville's come in a touch cool lately, averaging just 0.16 net EPA per play over their last three, so the window is there. The line has us at plus-2.5, which feels reasonable for a road game where we have a clear schematic advantage — this is one where execution and staying true to our strength matters most."
 }
