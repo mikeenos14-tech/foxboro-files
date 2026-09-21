@@ -1,16 +1,232 @@
 [
   {
-    "id": "49990404",
-    "publishedAt": "2026-09-21T00:05:45Z",
+    "id": "49995389",
+    "publishedAt": "2026-09-21T03:05:56Z",
+    "type": "Analysis",
+    "headline": "Nashville turf temp of 157 F melts cleats, sends Sirianni for IV",
+    "summary": "Players cleats were melting and head coach Nick Sirianni needed an IV as a result of extreme heat conditions at Nissan Stadium during Sunday's game between the Philadelphia Eagles and Tennessee Titans, a 24-20 Eagles win.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49995389/turf-temps-157-f-nashville-melts-cleats",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "49995560",
+    "publishedAt": "2026-09-21T03:05:25Z",
     "type": "Injury",
-    "headline": "NFL Week 2 eye-popping stats from Eagles, Pats, Jets, Bears",
-    "summary": "We found six of the coolest advanced stats to come out of Sunday's games -- from third-down completions to matchup route stats.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49990404/week-2-five-key-stats-numbers-solak",
+    "headline": "QB Baker Mayfield says Bucs need to 'fight our way out' of 0-2 start",
+    "summary": "Buccaneers quarterback Baker Mayfield admitted to being \"pretty shocked\" the Bucs are 0-2 for the first time since he has been their quarterback and the first time since 2014 after losing to his former team, the Browns, 23-19.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49995560/qb-baker-mayfield-says-bucs-need-fight-our-way-0-2-start",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "49984903",
+    "publishedAt": "2026-09-21T03:04:23Z",
+    "type": "Injury",
+    "headline": "Week 2 NFL highlights: Best plays, moments, touchdowns, more",
+    "summary": "Check out top Week 2 plays, with Dak Prescott, Jacoby Brissett and Justin Herbert in action.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49984903/week-2-highlights-best-plays-touchdowns-2026",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=420372",
+    "publishedAt": "2026-09-21T03:01:33.000Z",
+    "type": "Analysis",
+    "headline": "Broncos Put Faith In OC Davis Webb",
+    "summary": "After taking two years to put together a group he could weaponize in Denver, Broncos head coach Sean Payton finally fielded a top 10 offense in the NFL last year. After nearly 20 years of calling plays, though, Payton ceded those duties to offensive coordinator Davis Webb for the 2026 season. Despite a rough offensive […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/09/broncos-put-faith-in-oc-davis-webb",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "49995377",
+    "publishedAt": "2026-09-21T03:01:17Z",
+    "type": "Injury",
+    "headline": "Colts' Alec Pierce hurts heel; X-rays negative, source says",
+    "summary": "Colts wide receiver Alec Pierce was ruled out of Sunday night's game against the Kansas City Chiefs after suffering a left heel injury with 1:45 left in the first quarter.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49995377/colts-rule-alec-pierce-left-heel-injury-vs-chiefs",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-alec-pierces-x-rays-negative-will-undergo-more-testing-on-monday",
+    "publishedAt": "2026-09-21T02:51:57.000Z",
+    "type": "Injury",
+    "headline": "Report: Alec Pierce's X-rays negative, will undergo more testing on Monday",
+    "summary": "There is a little more information about Colts receiver Alec Pierce after he left Sunday's game with a heel injury.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-alec-pierces-x-rays-negative-will-undergo-more-testing-on-monday",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "49995729",
+    "publishedAt": "2026-09-21T02:50:49Z",
+    "type": "Analysis",
+    "headline": "Sirianni proud of Eagles for battling through Nashville heat",
+    "summary": "Sirianni proud of Eagles for battling through Nashville heat",
+    "sourceUrl": "https://www.espn.com/video/clip/_/id/49995729/sirianni-proud-eagles-battling-nashville-heat",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "49995719",
+    "publishedAt": "2026-09-21T02:45:37Z",
+    "type": "Analysis",
+    "headline": "Carolina Panthers vs. Atlanta Falcons: Game Highlights",
+    "summary": "Carolina Panthers vs. Atlanta Falcons: Game Highlights",
+    "sourceUrl": "https://www.espn.com/video/clip/_/id/49995719/game-highlights",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/josh-allen-surges-in-mvp-odds-and-caleb-williams-is-off-the-board",
+    "publishedAt": "2026-09-21T02:39:16.000Z",
+    "type": "Analysis",
+    "headline": "Josh Allen surges in MVP odds, and Caleb Williams is off the board",
+    "summary": "After Week 1, Bills quarterback Josh Allen had his MVP odds move from +600 to +500.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/josh-allen-surges-in-mvp-odds-and-caleb-williams-is-off-the-board",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "49995421",
+    "publishedAt": "2026-09-21T02:29:36Z",
+    "type": "Analysis",
+    "headline": "Brock Purdy keeps 49ers rolling with 'MVP' game vs. Dolphins",
+    "summary": "Brock Purdy authored a near-perfect game at quarterback in the 49ers' 35-13 win over the rebuilding Dolphins, ending the day with a 99.7 QBR.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49995421/brock-purdy-keeps-49ers-rolling-mvp-game-vs-dolphins",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "49995676",
+    "publishedAt": "2026-09-21T02:28:07Z",
+    "type": "Analysis",
+    "headline": "Kirk Cousins' 'phenomenal' play has new-look Raiders at 2-0",
+    "summary": "Kirk Cousins has done more than just help the Raiders transition through a rebuilding process after two games, leading Las Vegas to their first 2-0 record since 2021.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49995676/kirk-cousins-phenomenal-play-new-look-raiders-2-0",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=420363",
+    "publishedAt": "2026-09-21T02:21:19.000Z",
+    "type": "Injury",
+    "headline": "Lions Hosting Jalen Mills, Jordan Fuller At Workout For DBs",
+    "summary": "Through two weeks, the Lions’ defense has given up 310.5 passing yards per game. To be fair, they are dealing with a devastating number of injuries to start their 2026 campaign, and with a thought to perhaps rally some reinforcements, Detroit will host veteran defensive backs Jalen Mills and Jordan Fuller, among others, on Monday, […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/09/lions-hosting-jalen-mills-jordan-fuller-at-workout-for-dbs",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/chiefs-score-on-fourth-down-after-patrick-mahomes-deep-ball-lead-24-20",
+    "publishedAt": "2026-09-21T02:19:15.000Z",
+    "type": "Analysis",
+    "headline": "Chiefs score on fourth down after Patrick Mahomes deep ball, lead 24-20",
+    "summary": "The Chiefs are back in the lead.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/chiefs-score-on-fourth-down-after-patrick-mahomes-deep-ball-lead-24-20",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "49994608",
+    "publishedAt": "2026-09-21T02:01:17Z",
+    "type": "Analysis",
+    "headline": "DeMeco Ryans urges Texans to 'dig deep' after 0-2 start",
+    "summary": "Coach DeMeco Ryans challenged his Texans after they fell to 0-2 on Sunday, asking them: If you call yourselves playmakers, where are the plays?",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49994608/demeco-ryans-urges-texans-dig-deep-0-2-start",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/nfl-intends-to-proceed-with-ravens-cowboys-in-brazil-despite-field-concerns",
+    "publishedAt": "2026-09-21T01:53:14.000Z",
+    "type": "Analysis",
+    "headline": "NFL intends to proceed with Ravens-Cowboys in Brazil, despite field concerns",
+    "summary": "When it comes to the NFL's obsession with expanding pro football's footprint, nothing will get in the way.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/nfl-intends-to-proceed-with-ravens-cowboys-in-brazil-despite-field-concerns",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/sunday-night-football-colts-lead-chiefs-20-17-at-halftime",
+    "publishedAt": "2026-09-21T01:51:58.000Z",
+    "type": "Analysis",
+    "headline": "Sunday Night Football: Colts lead Chiefs 20-17 at halftime",
+    "summary": "Jonathan Taylor ran in a 24-yard touchdown to give the Colts the lead at the break.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/sunday-night-football-colts-lead-chiefs-20-17-at-halftime",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "49995335",
+    "publishedAt": "2026-09-21T01:42:51Z",
+    "type": "Analysis",
+    "headline": "Todd Monken gives fiery response to Mike Tomlin's Browns diss",
+    "summary": "Todd Monken gives fiery response to Mike Tomlin's Browns diss",
+    "sourceUrl": "https://www.espn.com/video/clip/_/id/49995335/todd-monken-gives-fiery-response-mike-tomlin-browns-diss",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/get-ready-for-three-straight-falcons-prime-time-games-barring-a-week-5-flex",
+    "publishedAt": "2026-09-21T01:31:25.000Z",
+    "type": "Analysis",
+    "headline": "Get ready for three straight Falcons prime-time games (barring a Week 5 flex)",
+    "summary": "The Falcons aren't ready for prime time.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/get-ready-for-three-straight-falcons-prime-time-games-barring-a-week-5-flex",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "49994580",
+    "publishedAt": "2026-09-21T01:30:08Z",
+    "type": "Analysis",
+    "headline": "Deshaun Watson makes case in Browns win with job on line",
+    "summary": "With rumblings about his starting job being on the line, quarterback Deshaun Watson responded with maybe his best game as a Cleveland Brown.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49994580/deshaun-watson-browns-win-job",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/alec-pierce-downgraded-to-out-with-heel-injury",
+    "publishedAt": "2026-09-21T01:24:39.000Z",
+    "type": "Injury",
+    "headline": "Alec Pierce downgraded to out with heel injury",
+    "summary": "There is not good news on Colts receiver Alec Pierce.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/alec-pierce-downgraded-to-out-with-heel-injury",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=420248",
+    "publishedAt": "2026-09-21T01:22:00.000Z",
+    "type": "Injury",
+    "headline": "Seahawks QB Sam Darnold’s Recovery Timeline Unclear",
+    "summary": "SEPTEMBER 20: While, just yesterday, Seattle was hesitant to commit to a clear timeline for Darnold’s return from injury, head coach Mike Macdonald told reporters today that the quarterback’s timetable for a return has “shifted quite drastically” for the better, per ESPN’s Brady Henderson. General manager John Schneider had made similar comments before this afternoon’s […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/09/seahawks-qb-sam-darnold-could-be-out-until-october",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "49993163",
+    "publishedAt": "2026-09-21T01:21:54Z",
+    "type": "Analysis",
+    "headline": "Eagles' Broadway jab at Titans leads NFL Week 2 trolls",
+    "summary": "Teams across the NFL came with petty postgame energy after wins in Week 2, led by the Philadelphia Eagles.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49993163/nfl-week-2-2026-trolls",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "49961538",
+    "publishedAt": "2026-09-21T01:17:18Z",
+    "type": "Analysis",
+    "headline": "NFL Week 2's best arrivals, led by Travis Kelce and Patrick Mahomes",
+    "summary": "Rounding up the top pregame and tunnel arrivals from around the league.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49961538/nfl-week-2-fashionable-arrivals",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/initial-hope-is-that-caleb-williams-has-a-grade-1-hamstring-strain",
+    "publishedAt": "2026-09-21T01:16:27.000Z",
+    "type": "Analysis",
+    "headline": "Initial hope is that Caleb Williams has a Grade 1 hamstring strain",
+    "summary": "It looked bad.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/initial-hope-is-that-caleb-williams-has-a-grade-1-hamstring-strain",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "49991137",
+    "publishedAt": "2026-09-21T01:13:23Z",
+    "type": "Analysis",
+    "headline": "Week 2 winners and losers: Jaxon Smith-Njigba, CeeDee Lamb shine; Bijan Robinson struggles",
+    "summary": "Jaxon Smith-Njigba and CeeDee Lamb came up big in Week 2, while Bijan Robinson and Justin Jefferson had very quiet days.",
+    "sourceUrl": "https://www.espn.com/fantasy/football/story/_/page/FFSundayHighLows-49991137/nfl-week-2-fantasy-football-winners-losers-injuries-rankings-more",
     "sourceName": "ESPN"
   },
   {
     "id": "49907062",
-    "publishedAt": "2026-09-21T00:04:40Z",
+    "publishedAt": "2026-09-21T01:11:23Z",
     "type": "Analysis",
     "headline": "Aaron Rodgers' 2026 NFL season: Tracking records, milestones",
     "summary": "The Steelers QB, who is entering his 22nd season in the league, is chasing records, and ESPN will be chronicling his \"last rodeo.\"",
@@ -18,12 +234,129 @@
     "sourceName": "ESPN"
   },
   {
-    "id": "49961538",
-    "publishedAt": "2026-09-21T00:00:22Z",
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/alec-pierce-questionable-to-return-with-heel-injury",
+    "publishedAt": "2026-09-21T01:10:48.000Z",
+    "type": "Injury",
+    "headline": "Alec Pierce questionable to return with heel injury",
+    "summary": "The Colts may have a significant injury issue with one of their best offensive players.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/alec-pierce-questionable-to-return-with-heel-injury",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/tyler-shough-loved-anthony-weaver-calling-him-a-poor-mans-josh-allen",
+    "publishedAt": "2026-09-21T01:05:10.000Z",
     "type": "Analysis",
-    "headline": "NFL Week 2's best arrivals, led by Travis Kelce and Patrick Mahomes",
-    "summary": "Rounding up the top pregame and tunnel arrivals from around the league.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49961538/nfl-week-2-fashionable-arrivals",
+    "headline": "Tyler Shough \"loved\" Anthony Weaver calling him a \"poor man's Josh Allen\"",
+    "summary": "Ravens defensive coordinator Anthony Weaver unintentionally gave Saints quarterback Tyler Shough a new nickname last week.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/tyler-shough-loved-anthony-weaver-calling-him-a-poor-mans-josh-allen",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/the-browns-apparently-will-stick-with-deshaun-watson-for-home-opener",
+    "publishedAt": "2026-09-21T01:03:47.000Z",
+    "type": "Analysis",
+    "headline": "The Browns apparently will stick with Deshaun Watson for home opener",
+    "summary": "Browns quarterback Deshaun Watson didn't throw for 400 yards and five touchdowns, but he likely did enough to earn another start.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/the-browns-apparently-will-stick-with-deshaun-watson-for-home-opener",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/travis-kelce-scores-after-kristian-fulton-interception-chiefs-lead-10-7",
+    "publishedAt": "2026-09-21T00:50:39.000Z",
+    "type": "Analysis",
+    "headline": "Travis Kelce scores after Kristian Fulton interception, Chiefs lead 10-7",
+    "summary": "For the second week in a row, the Chiefs have gotten a first-quarter interception.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/travis-kelce-scores-after-kristian-fulton-interception-chiefs-lead-10-7",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/kyle-shanahan-mike-evans-hip-injury-is-not-serious",
+    "publishedAt": "2026-09-21T00:44:59.000Z",
+    "type": "Injury",
+    "headline": "Kyle Shanahan: Mike Evans' hip injury is not serious",
+    "summary": "49ers wide receiver Mike Evans left Sunday's game in the second half.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/kyle-shanahan-mike-evans-hip-injury-is-not-serious",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-tomlin-on-his-browns-bulleting-board-material-youre-welcome",
+    "publishedAt": "2026-09-21T00:43:17.000Z",
+    "type": "Analysis",
+    "headline": "Mike Tomlin on his Browns bulleting board material: \"You're welcome\"",
+    "summary": "Last Sunday, former Steelers coach Mike Tomlin channeled former Steelers receiver JuJu Smith Schuster, during Tomlin's first Sunday with NBC.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-tomlin-on-his-browns-bulleting-board-material-youre-welcome",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/daniel-jones-hits-tyler-warren-for-1-yard-td-colts-lead-7-0",
+    "publishedAt": "2026-09-21T00:35:58.000Z",
+    "type": "Analysis",
+    "headline": "Daniel Jones hits Tyler Warren for 1-yard TD, Colts lead 7-0",
+    "summary": "For the second week in a row, the Colts have gone right down the field on their opening drive for a touchdown.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/daniel-jones-hits-tyler-warren-for-1-yard-td-colts-lead-7-0",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=420329",
+    "publishedAt": "2026-09-21T00:34:03.000Z",
+    "type": "Injury",
+    "headline": "Bears QB Caleb Williams Carted Off After Suffering Hamstring Injury",
+    "summary": "7:34PM: According to a report tonight from Mike Florio of NBC Sports, there’s optimism Williams’ hamstring issue “is not a severe injury.” There’s belief that, assuming he suffered a hamstring strain, it could be as minor as a Grade 1, the lowest severity for hamstring injuries. Williams hurt the hamstring on his other leg in […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/09/bears-qb-caleb-williams-carted-off-in-week-2",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "49994807",
+    "publishedAt": "2026-09-21T00:32:38Z",
+    "type": "Analysis",
+    "headline": "Washington Commanders vs Dallas Cowboys: Game Highlights",
+    "summary": "Washington Commanders vs Dallas Cowboys: Game Highlights",
+    "sourceUrl": "https://www.espn.com/video/clip/_/id/49994807/game-highlights",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "49994661",
+    "publishedAt": "2026-09-21T00:25:20Z",
+    "type": "Analysis",
+    "headline": "Jacksonville Jaguars vs. Denver Broncos: Game Highlights",
+    "summary": "Jacksonville Jaguars vs. Denver Broncos: Game Highlights",
+    "sourceUrl": "https://www.espn.com/video/clip/_/id/49994661/game-highlights",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "49994606",
+    "publishedAt": "2026-09-21T00:15:07Z",
+    "type": "Analysis",
+    "headline": "Las Vegas Raiders vs Los Angeles Chargers: Game Highlights",
+    "summary": "Las Vegas Raiders vs Los Angeles Chargers: Game Highlights",
+    "sourceUrl": "https://www.espn.com/video/clip/_/id/49994606/game-highlights",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dan-quinn-commanders-are-bummed-for-jayden-daniels-will-rally-around-marcus-mariota",
+    "publishedAt": "2026-09-21T00:14:13.000Z",
+    "type": "Analysis",
+    "headline": "Dan Quinn: Commanders are bummed for Jayden Daniels, will rally around Marcus Mariota",
+    "summary": "Daniels suffered a dislocation to his left (non-throwing) elbow.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dan-quinn-commanders-are-bummed-for-jayden-daniels-will-rally-around-marcus-mariota",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=420354",
+    "publishedAt": "2026-09-21T00:12:16.000Z",
+    "type": "Injury",
+    "headline": "Commanders QB Jayden Daniels Carted Off After Reinjuring Left Elbow",
+    "summary": "7:12PM: According to ESPN’s John Keim, Commanders head coach Dan Quinn informed the media this evening that Daniels, indeed, suffered another dislocated elbow today. Per Quinn, X-rays were negative for a fracture, and more imaging tests will take place tomorrow. Like last year, the possibility of an extended absence will depend on the results of […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/09/commanders-qb-jayden-daniels-carted-off-after-reinjuring-left-elbow",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "49990404",
+    "publishedAt": "2026-09-21T00:05:45Z",
+    "type": "Injury",
+    "headline": "NFL Week 2 eye-popping stats from Eagles, Pats, Jets, Bears",
+    "summary": "We found six of the coolest advanced stats to come out of Sunday's games -- from third-down completions to matchup route stats.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49990404/week-2-five-key-stats-numbers-solak",
     "sourceName": "ESPN"
   },
   {
@@ -144,30 +477,12 @@
     "sourceName": "Pro Football Talk"
   },
   {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=420354",
-    "publishedAt": "2026-09-20T23:30:16.000Z",
-    "type": "Injury",
-    "headline": "Commanders QB Jayden Daniels Carted Off After Reinjuring Left Elbow",
-    "summary": "In their Week 2 matchup with the division rival Cowboys, the Commanders saw the first half come to a disastrous end. Failing to score before the half from the one-yard line is never ideal, but in the process quarterback Jayden Daniels hurt his left elbow, the same elbow that limited his playing time last year. […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/09/commanders-qb-jayden-daniels-carted-off-after-reinjuring-left-elbow",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
     "id": "49940226",
     "publishedAt": "2026-09-20T23:28:31Z",
     "type": "Analysis",
     "headline": "Cowboys' TD record: I caught a TD pass from Dak Prescott",
     "summary": "Prescott passed Tony Romo in the record book, so we bring you the best moments from those who helped him make history.",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/49940226/nfl-dallas-cowboys-dak-prescott-tony-romo-touchdowns-passes-all-record",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "49991137",
-    "publishedAt": "2026-09-20T23:26:52Z",
-    "type": "Analysis",
-    "headline": "Week 2 winners and losers: Tyler Shough, DeVonta Smith shine; Bijan Robinson struggles",
-    "summary": "Tyler Shough and DeVonta Smith came up big in Week 2, while Bijan Robinson and Justin Jefferson had very quiet days.",
-    "sourceUrl": "https://www.espn.com/fantasy/football/story/_/page/FFSundayHighLows-49991137/nfl-week-2-fantasy-football-winners-losers-injuries-rankings-more",
     "sourceName": "ESPN"
   },
   {
@@ -250,15 +565,6 @@
     "summary": "Falcons wide receiver Drake London got into a verbal altercation with a fan during the team's 34-3 home loss to the Panthers.",
     "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/drake-london-exchanges-words-with-fan-during-sundays-game",
     "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "49984903",
-    "publishedAt": "2026-09-20T23:09:23Z",
-    "type": "Injury",
-    "headline": "Week 2 NFL highlights: Best plays, moments, touchdowns, more",
-    "summary": "Check out top Week 2 plays, with Dak Prescott, Jacoby Brissett and Justin Herbert in action.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49984903/week-2-highlights-best-plays-touchdowns-2026",
-    "sourceName": "ESPN"
   },
   {
     "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/broncos-rally-for-20-13-win-over-jaguars",
@@ -583,15 +889,6 @@
     "summary": "It was a sloppy, rainy four quarters at MetLife Stadium and it isn't over yet.",
     "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jets-packers-head-to-overtime",
     "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=420329",
-    "publishedAt": "2026-09-20T20:22:03.000Z",
-    "type": "Injury",
-    "headline": "Bears QB Caleb Williams Carted Off After Suffering Hamstring Injury",
-    "summary": "3:22pm: Williams has a hamstring injury, Mike Garafolo of NFL Network relays. Johnson said after the game that Williams is “in good spirits,” but the Bears won’t know the severity of the injury until Monday (via Tom Pelissero of The Ringer). He is scheduled to undergo imaging, Adam Schefter of ESPN relays. 2:40pm: In a […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/09/bears-qb-caleb-williams-carted-off-in-week-2",
-    "sourceName": "Pro Football Rumors"
   },
   {
     "id": "49991994",
@@ -1383,15 +1680,6 @@
     "headline": "Trade Interest In Steelers CB Joey Porter Jr. Light",
     "summary": "The news of late has not been short mentions of Steelers cornerback Joey Porter Jr. With Porter being ruled out for the second week in a row, some believe he may be employing a similar strategy utilized by Packers pass rusher Micah Parsons before he was traded from Dallas last year. Unfortunately for Porter, though, it […]",
     "sourceUrl": "https://www.profootballrumors.com/2026/09/trade-interest-in-steelers-cb-joey-porter-jr-light",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=420248",
-    "publishedAt": "2026-09-20T03:00:00.000Z",
-    "type": "Injury",
-    "headline": "Seahawks QB Sam Darnold Could Be Out Until October",
-    "summary": "The Seahawks have been hesitant to provide a clear timeline for the return of quarterback Sam Darnold from the injury he suffered in Week 1. Initial concerns about Darnold’s hip were allayed by testing that indicated his glute was impacted instead. But Seattle’s update that their star quarterback was dealing with a “very unique soft-tissue” […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/09/seahawks-qb-sam-darnold-could-be-out-until-october",
     "sourceName": "Pro Football Rumors"
   },
   {
