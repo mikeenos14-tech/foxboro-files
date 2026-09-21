@@ -1,46 +1,37 @@
 [
   {
-    "id": "49995389",
-    "publishedAt": "2026-09-21T03:05:56Z",
-    "type": "Analysis",
-    "headline": "Nashville turf temp of 157 F melts cleats, sends Sirianni for IV",
-    "summary": "Players cleats were melting and head coach Nick Sirianni needed an IV as a result of extreme heat conditions at Nissan Stadium during Sunday's game between the Philadelphia Eagles and Tennessee Titans, a 24-20 Eagles win.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49995389/turf-temps-157-f-nashville-melts-cleats",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "49995560",
-    "publishedAt": "2026-09-21T03:05:25Z",
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=420354",
+    "publishedAt": "2026-09-21T04:22:16.000Z",
     "type": "Injury",
-    "headline": "QB Baker Mayfield says Bucs need to 'fight our way out' of 0-2 start",
-    "summary": "Buccaneers quarterback Baker Mayfield admitted to being \"pretty shocked\" the Bucs are 0-2 for the first time since he has been their quarterback and the first time since 2014 after losing to his former team, the Browns, 23-19.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49995560/qb-baker-mayfield-says-bucs-need-fight-our-way-0-2-start",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=420372",
-    "publishedAt": "2026-09-21T03:01:33.000Z",
-    "type": "Analysis",
-    "headline": "Broncos Put Faith In OC Davis Webb",
-    "summary": "After taking two years to put together a group he could weaponize in Denver, Broncos head coach Sean Payton finally fielded a top 10 offense in the NFL last year. After nearly 20 years of calling plays, though, Payton ceded those duties to offensive coordinator Davis Webb for the 2026 season. Despite a rough offensive […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/09/broncos-put-faith-in-oc-davis-webb",
+    "headline": "Commanders QB Jayden Daniels Reinjures Left Elbow",
+    "summary": "11:22pm: According to ESPN’s John Keim, Commanders head coach Dan Quinn informed the media this evening that Daniels, indeed, suffered another dislocated elbow today. Per Quinn, X-rays were negative for a fracture, and more imaging tests will take place tomorrow. Like last year, the possibility of an extended absence will depend on the results of […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/09/commanders-qb-jayden-daniels-carted-off-after-reinjuring-left-elbow",
     "sourceName": "Pro Football Rumors"
   },
   {
-    "id": "49995421",
-    "publishedAt": "2026-09-21T02:29:36Z",
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=420329",
+    "publishedAt": "2026-09-21T04:30:03.000Z",
+    "type": "Injury",
+    "headline": "Bears QB Caleb Williams Carted Off After Suffering Hamstring Injury",
+    "summary": "11:30pm: According to a report tonight from Mike Florio of NBC Sports, there’s optimism Williams’ hamstring issue “is not a severe injury.” There’s belief that, assuming he suffered a hamstring strain, it could be as minor as a Grade 1, the lowest severity for hamstring injuries. Williams hurt the hamstring on his other leg in […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/09/bears-qb-caleb-williams-carted-off-in-week-2",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "49996165",
+    "publishedAt": "2026-09-21T05:03:29Z",
     "type": "Analysis",
-    "headline": "Brock Purdy keeps 49ers rolling with 'MVP' game vs. Dolphins",
-    "summary": "Brock Purdy authored a near-perfect game at quarterback in the 49ers' 35-13 win over the rebuilding Dolphins, ending the day with a 99.7 QBR.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49995421/brock-purdy-keeps-49ers-rolling-mvp-game-vs-dolphins",
+    "headline": "Mahomes and Walker shine, Butker hits winning 40-yarder as Chiefs beat Colts 33-30 in OT",
+    "summary": "— The Kansas City Chiefs thought they had beaten the Indianapolis Colts on a bizarre fumble in overtime Sunday night.",
+    "sourceUrl": "http://www.espn.com/nfl/recap?gameId=401872945",
     "sourceName": "ESPN"
   },
   {
     "id": "49995676",
-    "publishedAt": "2026-09-21T02:28:07Z",
+    "publishedAt": "2026-09-21T03:12:03Z",
     "type": "Analysis",
     "headline": "Kirk Cousins' 'phenomenal' play has new-look Raiders at 2-0",
-    "summary": "Kirk Cousins has done more than just help the Raiders transition through a rebuilding process after two games, leading Las Vegas to their first 2-0 record since 2021.",
+    "summary": "Kirk Cousins has done more than just help the Raiders transition through a rebuilding process after two games, leading Las Vegas to its first 2-0 record since 2021.",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/49995676/kirk-cousins-phenomenal-play-new-look-raiders-2-0",
     "sourceName": "ESPN"
   },
@@ -51,6 +42,15 @@
     "headline": "Deshaun Watson makes case in Browns win with job on line",
     "summary": "With rumblings about his starting job being on the line, quarterback Deshaun Watson responded with maybe his best game as a Cleveland Brown.",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/49994580/deshaun-watson-browns-win-job",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "49995421",
+    "publishedAt": "2026-09-21T02:29:36Z",
+    "type": "Analysis",
+    "headline": "Brock Purdy keeps 49ers rolling with 'MVP' game vs. Dolphins",
+    "summary": "Brock Purdy authored a near-perfect game at quarterback in the 49ers' 35-13 win over the rebuilding Dolphins, ending the day with a 99.7 QBR.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49995421/brock-purdy-keeps-49ers-rolling-mvp-game-vs-dolphins",
     "sourceName": "ESPN"
   }
 ]
