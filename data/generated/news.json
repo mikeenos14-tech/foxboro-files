@@ -1,5 +1,14 @@
 [
   {
+    "id": "168b89d6-d18b-4834-9ad5-f65dc68937e3",
+    "publishedAt": "2026-09-21T13:00:00.000Z",
+    "type": "Analysis",
+    "headline": "Game Observations: 8 takeaways from the Patriots win over the Steelers in Week 2",
+    "summary": "The Patriots cruised to a 20-3 victory over the Steelers in Sunday's home opener at Gillette Stadium.",
+    "sourceUrl": "https://www.patriots.com/news/game-observations-8-takeaways-from-the-patriots-win-over-the-steelers-in-week-2",
+    "sourceName": "Patriots.com"
+  },
+  {
     "id": "49995833",
     "publishedAt": "2026-09-21T03:00:39Z",
     "type": "Analysis",
@@ -7,15 +16,6 @@
     "summary": "Patriots get banged up in win",
     "sourceUrl": "https://www.espn.com/video/clip/_/id/49995833/patriots-get-banged-win",
     "sourceName": "ESPN"
-  },
-  {
-    "id": "168b89d6-d18b-4834-9ad5-f65dc68937e3",
-    "publishedAt": "2026-09-20T22:45:33.000Z",
-    "type": "Analysis",
-    "headline": "Game Observations: 8 takeaways from the Patriots win over the Steelers in Week 2",
-    "summary": "The Patriots cruised to a 20-3 victory over the Steelers in Sunday's home opener at Gillette Stadium.",
-    "sourceUrl": "https://www.patriots.com/news/game-observations-8-takeaways-from-the-patriots-win-over-the-steelers-in-week-2",
-    "sourceName": "Patriots.com"
   },
   {
     "id": "49992172",
