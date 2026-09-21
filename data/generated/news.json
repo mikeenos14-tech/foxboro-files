@@ -9,6 +9,15 @@
     "sourceName": "Patriots.com"
   },
   {
+    "id": "ef30559d-731f-4c97-ab6c-619a42c59fdd",
+    "publishedAt": "2026-09-21T10:00:00.000Z",
+    "type": "Analysis",
+    "headline": "Transcript: Head Coach Mike Vrabel Press Conference 9/21",
+    "summary": "Read the full transcript from Head Coach Mike Vrabel's press conference on Monday, September 21, 2026.",
+    "sourceUrl": "https://www.patriots.com/news/transcript-head-coach-mike-vrabel-press-conference-9-21",
+    "sourceName": "Patriots.com"
+  },
+  {
     "id": "49995833",
     "publishedAt": "2026-09-21T03:00:39Z",
     "type": "Analysis",
@@ -72,15 +81,6 @@
     "sourceName": "Patriots.com"
   },
   {
-    "id": "9c121546-b93b-4b84-b2d6-f9002f182596",
-    "publishedAt": "2026-09-20T20:06:14.000Z",
-    "type": "Analysis",
-    "headline": "Gamebook: Steelers at Patriots Week 2",
-    "summary": "Download the NFL Gamebook with all of the statistics from the Patriots Week 2 game against the Pittsburgh Steelers on Sunday, September 20, 2026.",
-    "sourceUrl": "https://www.patriots.com/news/gamebook-steelers-at-patriots-week-2",
-    "sourceName": "Patriots.com"
-  },
-  {
     "id": "49976142",
     "publishedAt": "2026-09-20T16:45:17Z",
     "type": "Analysis",
@@ -96,24 +96,6 @@
     "headline": "Stephon Gilmore, '19 NFL DPOY, retires as member of the Patriots",
     "summary": "Stephon Gilmore, a two-time All-Pro cornerback and the NFL's 2019 Defensive Player of the Year, signed a one-day contract in New England on Friday to retire as a member of the Patriots,",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/49973986/stephon-gilmore-19-nfl-dpoy-retiring-member-patriots",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "49968087",
-    "publishedAt": "2026-09-17T22:21:33Z",
-    "type": "Analysis",
-    "headline": "Steelers rolling, Patriots looking to bounce back in latest matchup between franchises",
-    "summary": "— During his 24 seasons with the New England Patriots, Bill Belichick never held back in expressing his affinity for the ",
-    "sourceUrl": "http://www.espn.com/nfl/preview?gameId=401872946",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "49966375",
-    "publishedAt": "2026-09-17T18:25:53Z",
-    "type": "Injury",
-    "headline": "Patriots' TreVeyon Henderson says he's 'ready to go' for Week 2",
-    "summary": "Patriots running back TreVeyon Henderson said Thursday he's \"ready to go\" for Sunday's game against the Steelers after missing New England's opener with an ankle injury.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49966375/patriots-treveyon-henderson-says-ready-go-week-2",
     "sourceName": "ESPN"
   }
 ]
