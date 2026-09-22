@@ -383,6 +383,13 @@ export interface InjuryReportEntry {
   lastUpdated: string;
 }
 
+export interface RecentFormSide {
+  last3EpaPerPlay: number;
+  last5EpaPerPlay: number;
+  seasonEpaPerPlay: number;
+  gamesPlayed: number;
+}
+
 export interface PositionMatchup {
   group: string;
   ourGrade: number;
@@ -404,16 +411,20 @@ export interface OpponentMatchupData {
   positionGroupMatchups: PositionMatchup[];
   matchupOfTheWeek: { title: string; description: string };
   opponentInjuries: InjuryReportEntry[];
-  recentForm: {
-    last3EpaPerPlay: number;
-    last5EpaPerPlay: number;
-    seasonEpaPerPlay: number;
-    // How many games the opponent has actually played. A "last 3" over
-    // two games is just the season under another name, and rendering
-    // three identical numbers side by side reads as a broken widget
-    // rather than as a team that hasn't played much yet.
-    gamesPlayed: number;
-  };
+  // Net EPA/play (offense minus defense allowed) for both sides, so the
+  // form line is a comparison rather than a number floating on its own.
+  // `gamesPlayed` is per side: a "last 3" over two games is just the
+  // season under another name, and three identical numbers in a row
+  // reads as a broken widget rather than as a team that's played twice.
+  recentForm: { us: RecentFormSide; them: RecentFormSide };
+  // How much of this page's grades and EPA ranks still comes from last
+  // season, 1 down to 0 (see scripts/lib/priorBlend.ts). This page is
+  // forward-looking so it blends; the League page is current-season
+  // only, and the two disagree while this is above zero — JAX's defense
+  // ranked 7th here and 15th there in Week 3 of 2026. Surfaced so the
+  // reader is told rather than left to notice. It reaches 0 at 4 games,
+  // and the note it drives disappears with it.
+  priorBlendWeight: number;
   headToHead: Array<{ season: number; result: string; score: string }>;
   weather?: {
     tempF: number;

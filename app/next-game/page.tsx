@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import * as store from "@/lib/data/store";
 import { StatCard } from "@/components/shared/StatCard";
 import { MatchupGrid } from "@/components/shared/MatchupGrid";
+import { PriorBlendNote } from "@/components/next-game/PriorBlendNote";
 import { InjuryTable } from "@/components/shared/InjuryTable";
 import { TeamLogo } from "@/components/shared/TeamLogo";
 import { Tabs } from "@/components/shared/Tabs";
@@ -67,6 +68,7 @@ export default async function NextGamePage() {
                     leagueRank={matchup.opponentEpaRank.defense}
                   />
                 </div>
+                <PriorBlendNote weight={matchup.priorBlendWeight} className="-mt-2" />
 
                 <MatchupOfTheWeekCallout
                   title={matchup.matchupOfTheWeek.title}
@@ -96,16 +98,17 @@ export default async function NextGamePage() {
                        the most efficient runs on the team. */}
                 <div>
                   <h2 className="text-lg font-semibold">Position Group Matchups</h2>
-                  <p className="mb-3 mt-1 text-xs text-muted">
-                    Forward-looking whole-unit grades: they include last season while this
-                    one is young, and count every play by the unit (rushing includes QB
-                    scrambles). The Roster page grades this season only, by position.
+                  <p className="mt-1 text-xs text-muted">
+                    Whole-unit grades — &ldquo;Rush Offense&rdquo; is every run play including QB
+                    scrambles, where the Roster page&apos;s &ldquo;RB&rdquo; is carries by running
+                    backs.
                   </p>
+                  <PriorBlendNote weight={matchup.priorBlendWeight} className="mb-3 mt-1" />
                   <MatchupGrid matchups={matchup.positionGroupMatchups} />
                 </div>
 
                 <div className="grid gap-4 lg:grid-cols-2">
-                  <RecentFormTrend recentForm={matchup.recentForm} />
+                  <RecentFormTrend recentForm={matchup.recentForm} opponent={matchup.opponent} />
 
                   <div className="lift rounded-lg border border-border bg-surface p-4">
                     <h3 className="font-semibold">Head-to-Head</h3>

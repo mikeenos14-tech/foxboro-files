@@ -127,7 +127,7 @@ async function buildPreviewContent() {
   const user = `Upcoming game: New England ${isHome ? "hosts" : "at"} ${matchup.opponent}, Week ${nextGame.week}, ${nextGame.date}.
 Opponent EPA ranks: offense #${matchup.opponentEpaRank.offense} in NFL, defense #${matchup.opponentEpaRank.defense} in NFL.
 Matchup of the week: ${matchup.matchupOfTheWeek.title} — ${matchup.matchupOfTheWeek.description}
-Opponent recent form (net EPA/play, last 3 games): ${matchup.recentForm.last3EpaPerPlay.toFixed(2)}
+Recent form (net EPA/play, last 3 games): New England ${matchup.recentForm.us.last3EpaPerPlay.toFixed(2)}, ${matchup.opponent} ${matchup.recentForm.them.last3EpaPerPlay.toFixed(2)}
 Head-to-head, most recent meetings: ${matchup.headToHead.map((h) => `${h.season}: ${h.result} ${h.score}`).join(", ") || "none on record"}
 ${matchup.bettingContext ? `Betting line: New England ${matchup.bettingContext.spread > 0 ? "+" : ""}${matchup.bettingContext.spread}, O/U ${matchup.bettingContext.overUnder}` : ""}
 Opponent injuries: ${matchup.opponentInjuries.map((i) => `${i.playerName} (${i.position}) — ${i.injury}, ${i.gameStatus ?? "status unclear"}`).join("; ") || "none reported"}

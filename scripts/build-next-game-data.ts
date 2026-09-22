@@ -16,6 +16,7 @@ import { loadCsv, num } from "./lib/csv";
 import { type PbpRow } from "./lib/pbp";
 import { computeLeagueEpaTable, offenseEpaRankOnly, defenseEpaRankOnly } from "./lib/leagueRanks";
 import { computeAdjustedPair, epaValue, sackIndicator, isPassAttempt } from "./lib/adjustedRate";
+import { priorWeightFor } from "./lib/priorBlend";
 import {
   rushOffenseStatLine,
   rushDefenseStatLine,
@@ -195,31 +196,53 @@ async function main() {
   };
 
   // ---------- Recent form (net EPA/play: offense generated minus defense allowed) ----------
-  const opponentGames = games
-    .filter(
-      (g) =>
-        num(g.season) === SEASON &&
-        g.game_type === "REG" &&
-        (g.home_team === opponent || g.away_team === opponent) &&
-        g.home_score !== ""
-    )
-    .sort((a, b) => num(b.week) - num(a.week));
-
-  function netEpaOverGames(gameIds: string[]): number {
-    const rows = pbp.filter((r) => gameIds.includes(r.game_id) && (r.play_type === "run" || r.play_type === "pass"));
-    const off = rows.filter((r) => r.posteam === opponent);
-    const def = rows.filter((r) => r.defteam === opponent);
+  // Net EPA/play: what a team gains on offense minus what it gives up
+  // on defense. One number for "how well has this team been playing",
+  // which is what a form line is for — not a claim about either unit
+  // separately.
+  //
+  // Raw, deliberately not opponent-adjusted: over a 3-game window the
+  // leave-one-out baseline is too thin to be worth the complication
+  // (same reasoning as the site's other windowed views — see
+  // scripts/lib/statWindows.ts).
+  function netEpaOverGames(gameIds: string[], team: string): number {
+    const ids = new Set(gameIds);
+    const rows = pbp.filter((r) => ids.has(r.game_id) && (r.play_type === "run" || r.play_type === "pass"));
+    const off = rows.filter((r) => r.posteam === team);
+    const def = rows.filter((r) => r.defteam === team);
     const offEpa = off.length === 0 ? 0 : off.reduce((s, r) => s + num(r.epa), 0) / off.length;
     const defEpa = def.length === 0 ? 0 : def.reduce((s, r) => s + num(r.epa), 0) / def.length;
     return offEpa - defEpa;
   }
 
-  const recentForm = {
-    last3EpaPerPlay: netEpaOverGames(opponentGames.slice(0, 3).map((g) => g.game_id)),
-    last5EpaPerPlay: netEpaOverGames(opponentGames.slice(0, 5).map((g) => g.game_id)),
-    seasonEpaPerPlay: netEpaOverGames(opponentGames.map((g) => g.game_id)),
-    gamesPlayed: opponentGames.length,
+  const gamesFor = (team: string): GameRow[] =>
+    games
+      .filter(
+        (g) =>
+          num(g.season) === SEASON &&
+          g.game_type === "REG" &&
+          (g.home_team === team || g.away_team === team) &&
+          g.home_score !== ""
+      )
+      .sort((a, b) => num(b.week) - num(a.week));
+
+  const formFor = (team: string) => {
+    const played = gamesFor(team);
+    const ids = (n: number) => played.slice(0, n).map((g) => g.game_id);
+    return {
+      last3EpaPerPlay: netEpaOverGames(ids(3), team),
+      last5EpaPerPlay: netEpaOverGames(ids(5), team),
+      seasonEpaPerPlay: netEpaOverGames(played.map((g) => g.game_id), team),
+      gamesPlayed: played.length,
+    };
   };
+
+  const recentForm = { us: formFor(TEAM), them: formFor(opponent) };
+
+  // Our own games drive the blend weight, matching how the grades on
+  // this page are built (computeAdjustedPair phases the prior out by
+  // OUR games played).
+  const priorBlendWeight = priorWeightFor(recentForm.us.gamesPlayed);
 
   // ---------- All-time head-to-head ----------
   const meetings = games
@@ -315,6 +338,7 @@ async function main() {
     matchupOfTheWeek,
     opponentInjuries: [], // filled in by build-espn-data.ts and merged in store.ts
     recentForm,
+    priorBlendWeight,
     headToHead,
     weather,
     bettingContext,

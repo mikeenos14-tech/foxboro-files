@@ -33,12 +33,24 @@ export const PHASE_OUT_GAMES = 4;
 // one shouldn't silently change the other.
 export const OPPONENT_BASELINE_SHRINK_GAMES = 8;
 
+// The weight last season still carries, 1 down to 0. Exposed so the UI
+// can say so: pages that blend the prior season disagree with pages
+// that don't, and the honest fix is to show the reader which is which
+// rather than to quietly pick one. Returns 0 once the blend is over, so
+// any note driven by this disappears on its own.
+export function priorWeightFor(
+  gamesPlayed: number,
+  phaseOutGames: number = PHASE_OUT_GAMES
+): number {
+  return Math.max(0, 1 - gamesPlayed / phaseOutGames);
+}
+
 export function blendWithPrior(
   prior: number,
   current: number,
   gamesPlayed: number,
   phaseOutGames: number = PHASE_OUT_GAMES
 ): number {
-  const priorWeight = Math.max(0, 1 - gamesPlayed / phaseOutGames);
+  const priorWeight = priorWeightFor(gamesPlayed, phaseOutGames);
   return prior * priorWeight + current * (1 - priorWeight);
 }

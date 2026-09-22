@@ -58,11 +58,20 @@
   },
   "opponentInjuries": [],
   "recentForm": {
-    "last3EpaPerPlay": 0.16134696154066014,
-    "last5EpaPerPlay": 0.16134696154066014,
-    "seasonEpaPerPlay": 0.16134696154066014,
-    "gamesPlayed": 2
+    "us": {
+      "last3EpaPerPlay": 0.08966738049301422,
+      "last5EpaPerPlay": 0.08966738049301422,
+      "seasonEpaPerPlay": 0.08966738049301422,
+      "gamesPlayed": 2
+    },
+    "them": {
+      "last3EpaPerPlay": 0.16134696154066014,
+      "last5EpaPerPlay": 0.16134696154066014,
+      "seasonEpaPerPlay": 0.16134696154066014,
+      "gamesPlayed": 2
+    }
   },
+  "priorBlendWeight": 0.5,
   "headToHead": [
     {
       "season": 2024,
