@@ -7,10 +7,19 @@ name: Refresh stats data
 # "shortly after games typically finish": once daily (catches Thursday
 # Night Football and Monday Night Football the next morning, and doubles
 # as a catch-all for exceptions like season openers, Thanksgiving, or
-# other odd-day games within ~24 hours), plus two extra same-day passes on
-# Sunday/Monday morning so the usual 3-wave Sunday slate doesn't sit stale
-# until the daily catch-all. workflow_dispatch covers any exception that
-# needs updating sooner than that.
+# other odd-day games within ~24 hours), plus extra same-day passes around
+# the Sunday slate so it doesn't sit stale until the daily catch-all.
+# workflow_dispatch covers any exception that needs updating sooner than
+# that.
+#
+# The 5pm ET Sunday and 1am ET Monday passes update scores/standings
+# promptly, but nflverse's play-by-play CSV (the source for every EPA
+# stat) isn't fully finalized that fast — confirmed directly against
+# nflverse's GitHub release timestamps, a full Sunday slate wasn't
+# finalized until ~11:54am ET the following Monday, well after both of
+# those runs. That's why EPA rankings could look "half updated" (scores
+# current, some teams' EPA stale) right after a Sunday. The 1pm ET Monday
+# pass exists specifically to catch that finalized file once it's ready.
 #
 # Times are UTC and tuned for Eastern Time (ET); they drift an hour
 # relative to ET across the fall DST change, which only shifts "shortly
@@ -20,7 +29,8 @@ on:
   schedule:
     - cron: "0 9 * * *" # ~5am ET daily — catches TNF (Fri) and MNF (Tue), and any exception day within ~24h
     - cron: "0 21 * * 0" # ~5pm ET Sunday — after the early Sunday games, before late/SNF
-    - cron: "0 5 * * 1" # ~1am ET Monday — after the Sunday slate (including SNF) wraps
+    - cron: "0 5 * * 1" # ~1am ET Monday — after the Sunday slate (including SNF) wraps (scores/standings; EPA may still be pending nflverse finalization)
+    - cron: "0 17 * * 1" # ~1pm ET Monday — catches nflverse's play-by-play finalization lag, so EPA stats catch up to the scores from the ~1am run
   workflow_dispatch: {} # manual "Run workflow" button, for on-demand refreshes
 
 permissions:
