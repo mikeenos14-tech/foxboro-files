@@ -17,6 +17,14 @@ import { type PbpRow } from "./lib/pbp";
 import { computeLeagueEpaTable, offenseEpaRankOnly, defenseEpaRankOnly } from "./lib/leagueRanks";
 import { computeAdjustedPair, epaValue, sackIndicator, isPassAttempt } from "./lib/adjustedRate";
 import {
+  rushOffenseStatLine,
+  rushDefenseStatLine,
+  passOffenseStatLine,
+  passDefenseStatLine,
+  passProStatLine,
+  passRushStatLine,
+} from "./lib/matchupStats";
+import {
   PRIOR_RUSH_OFFENSE_EPA,
   PRIOR_RUSH_DEFENSE_EPA,
   PRIOR_PASS_OFFENSE_EPA,
@@ -109,12 +117,48 @@ async function main() {
     return `${ordinal(ourGrade)} percentile vs. ${ordinal(theirGrade)} percentile (${verdict}).`;
   }
 
-  const categories: Array<{ label: string; ours: number; theirs: number }> = [
-    { label: "Rush Offense vs. Run Defense", ours: rushOffGrade(TEAM), theirs: rushDefGrade(opponent) },
-    { label: "Pass Offense vs. Pass Defense", ours: passOffGrade(TEAM), theirs: passDefGrade(opponent) },
-    { label: "Run Defense vs. Rush Offense", ours: rushDefGrade(TEAM), theirs: rushOffGrade(opponent) },
-    { label: "Pass Defense vs. Pass Offense", ours: passDefGrade(TEAM), theirs: passOffGrade(opponent) },
-    { label: "Pass Protection vs. Pass Rush", ours: passProGrade(TEAM), theirs: passRushGrade(opponent) },
+  const categories: Array<{
+    label: string;
+    ours: number;
+    theirs: number;
+    ourStatLine: string;
+    theirStatLine: string;
+  }> = [
+    {
+      label: "Rush Offense vs. Run Defense",
+      ours: rushOffGrade(TEAM),
+      theirs: rushDefGrade(opponent),
+      ourStatLine: rushOffenseStatLine(pbp, TEAM),
+      theirStatLine: rushDefenseStatLine(pbp, opponent),
+    },
+    {
+      label: "Pass Offense vs. Pass Defense",
+      ours: passOffGrade(TEAM),
+      theirs: passDefGrade(opponent),
+      ourStatLine: passOffenseStatLine(pbp, TEAM),
+      theirStatLine: passDefenseStatLine(pbp, opponent),
+    },
+    {
+      label: "Run Defense vs. Rush Offense",
+      ours: rushDefGrade(TEAM),
+      theirs: rushOffGrade(opponent),
+      ourStatLine: rushDefenseStatLine(pbp, TEAM),
+      theirStatLine: rushOffenseStatLine(pbp, opponent),
+    },
+    {
+      label: "Pass Defense vs. Pass Offense",
+      ours: passDefGrade(TEAM),
+      theirs: passOffGrade(opponent),
+      ourStatLine: passDefenseStatLine(pbp, TEAM),
+      theirStatLine: passOffenseStatLine(pbp, opponent),
+    },
+    {
+      label: "Pass Protection vs. Pass Rush",
+      ours: passProGrade(TEAM),
+      theirs: passRushGrade(opponent),
+      ourStatLine: passProStatLine(pbp, TEAM),
+      theirStatLine: passRushStatLine(pbp, opponent),
+    },
   ];
 
   const positionGroupMatchups: PositionMatchup[] = categories.map((c) => {
@@ -125,6 +169,8 @@ async function main() {
       theirGrade: c.theirs,
       edge,
       note: unitNote(c.label, c.ours, c.theirs, edge),
+      ourStatLine: c.ourStatLine,
+      theirStatLine: c.theirStatLine,
     };
   });
 

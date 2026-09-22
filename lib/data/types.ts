@@ -295,6 +295,12 @@ export interface PositionMatchup {
   theirGrade: number;
   edge: "us" | "them" | "even";
   note: string;
+  // Real traditional-stat lines for each side, scoped to match exactly
+  // what the grade measures (see scripts/lib/matchupStats.ts) — e.g.
+  // "187 yds, 4.2 YPC, 2 TD" for a rush offense grade. Empty string when
+  // there's no real data yet for that side.
+  ourStatLine: string;
+  theirStatLine: string;
 }
 
 export interface OpponentMatchupData {

@@ -320,11 +320,11 @@ export const opponentMatchup: OpponentMatchupData = {
   opponent: "PIT",
   opponentEpaRank: { offense: 24, defense: 19 },
   positionGroupMatchups: [
-    { group: "WR vs CB", ourGrade: 62, theirGrade: 41, edge: "us", note: "Their CB2 is starting in place of an injured starter — target this side early." },
-    { group: "OL vs Edge", ourGrade: 74, theirGrade: 58, edge: "us", note: "Our pass protection should hold up against a middling pass rush." },
-    { group: "RB vs Front 7", ourGrade: 71, theirGrade: 66, edge: "us", note: "Slight edge, but their run defense has tightened the last two weeks." },
-    { group: "Secondary vs WR", ourGrade: 73, theirGrade: 60, edge: "us", note: "Our ball-hawking corners against a receiver corps that's turnover-prone on contested catches." },
-    { group: "Our LB vs Their TE", ourGrade: 60, theirGrade: 68, edge: "them", note: "Their receiving tight end has been our defense's one soft spot all season." },
+    { group: "WR vs CB", ourGrade: 62, theirGrade: 41, edge: "us", note: "Their CB2 is starting in place of an injured starter — target this side early.", ourStatLine: "20/30 (67%), 228 yds, 0 TD, 1 INT", theirStatLine: "24/33 (73%) allowed, 301 yds allowed, 2 TD allowed, 0 INT gained" },
+    { group: "OL vs Edge", ourGrade: 74, theirGrade: 58, edge: "us", note: "Our pass protection should hold up against a middling pass rush.", ourStatLine: "3 sacks allowed, 8% sack rate", theirStatLine: "2 sacks, 6 QB hits, 5% sack rate" },
+    { group: "RB vs Front 7", ourGrade: 71, theirGrade: 66, edge: "us", note: "Slight edge, but their run defense has tightened the last two weeks.", ourStatLine: "181 yds, 3.8 YPC, 1 TD, 0 FUM, 8% explosive", theirStatLine: "142 yds allowed, 3.4 YPC allowed, 1 TD allowed, 6% explosive allowed" },
+    { group: "Secondary vs WR", ourGrade: 73, theirGrade: 60, edge: "us", note: "Our ball-hawking corners against a receiver corps that's turnover-prone on contested catches.", ourStatLine: "24/33 (73%) allowed, 301 yds allowed, 2 TD allowed, 0 INT gained", theirStatLine: "20/30 (67%), 228 yds, 0 TD, 1 INT" },
+    { group: "Our LB vs Their TE", ourGrade: 60, theirGrade: 68, edge: "them", note: "Their receiving tight end has been our defense's one soft spot all season.", ourStatLine: "", theirStatLine: "" },
   ],
   matchupOfTheWeek: {
     title: "WR1 vs backup CB2",

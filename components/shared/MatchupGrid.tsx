@@ -36,6 +36,12 @@ export function MatchupGrid({ matchups }: { matchups: PositionMatchup[] }) {
             <span>Us: {m.ourGrade}</span>
             <span>Them: {m.theirGrade}</span>
           </div>
+          {(m.ourStatLine || m.theirStatLine) && (
+            <div className="mt-1.5 space-y-0.5 text-xs tabular-nums text-muted">
+              {m.ourStatLine && <div>Us: {m.ourStatLine}</div>}
+              {m.theirStatLine && <div>Them: {m.theirStatLine}</div>}
+            </div>
+          )}
           <SoWhatNote sentiment={edgeSentiment[m.edge]}>{m.note}</SoWhatNote>
         </div>
       ))}

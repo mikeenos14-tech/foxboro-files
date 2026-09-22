@@ -8,43 +8,53 @@
   "positionGroupMatchups": [
     {
       "group": "Rush Offense vs. Run Defense",
-      "ourGrade": 81,
-      "theirGrade": 29,
-      "edge": "us",
-      "note": "81st percentile vs. 29th percentile (advantage us)."
+      "ourGrade": 68,
+      "theirGrade": 61,
+      "edge": "even",
+      "note": "68th percentile vs. 61st percentile (close matchup).",
+      "ourStatLine": "248 yds, 4.4 YPC, 1 TD, 0 FUM, 12% explosive",
+      "theirStatLine": "194 yds allowed, 4.1 YPC allowed, 1 TD allowed, 11% explosive allowed"
     },
     {
       "group": "Pass Offense vs. Pass Defense",
-      "ourGrade": 100,
-      "theirGrade": 77,
-      "edge": "us",
-      "note": "100th percentile vs. 77th percentile (advantage us)."
+      "ourGrade": 87,
+      "theirGrade": 90,
+      "edge": "even",
+      "note": "87th percentile vs. 90th percentile (close matchup).",
+      "ourStatLine": "37/61 (61%), 386 yds, 1 TD, 4 INT",
+      "theirStatLine": "38/58 (66%) allowed, 493 yds allowed, 2 TD allowed, 2 INT gained"
     },
     {
       "group": "Run Defense vs. Rush Offense",
-      "ourGrade": 35,
-      "theirGrade": 19,
+      "ourGrade": 71,
+      "theirGrade": 55,
       "edge": "us",
-      "note": "35th percentile vs. 19th percentile (advantage us)."
+      "note": "71st percentile vs. 55th percentile (advantage us).",
+      "ourStatLine": "189 yds allowed, 4.3 YPC allowed, 0 TD allowed, 11% explosive allowed",
+      "theirStatLine": "224 yds, 4.2 YPC, 1 TD, 0 FUM, 13% explosive"
     },
     {
       "group": "Pass Defense vs. Pass Offense",
-      "ourGrade": 81,
+      "ourGrade": 87,
       "theirGrade": 74,
-      "edge": "even",
-      "note": "81st percentile vs. 74th percentile (close matchup)."
+      "edge": "us",
+      "note": "87th percentile vs. 74th percentile (advantage us).",
+      "ourStatLine": "40/70 (57%) allowed, 387 yds allowed, 1 TD allowed, 1 INT gained",
+      "theirStatLine": "35/55 (64%), 434 yds, 4 TD, 1 INT"
     },
     {
       "group": "Pass Protection vs. Pass Rush",
-      "ourGrade": 32,
-      "theirGrade": 13,
-      "edge": "us",
-      "note": "32nd percentile vs. 13th percentile (advantage us)."
+      "ourGrade": 29,
+      "theirGrade": 19,
+      "edge": "even",
+      "note": "29th percentile vs. 19th percentile (close matchup).",
+      "ourStatLine": "6 sacks allowed, 10% sack rate",
+      "theirStatLine": "5 sacks, 11 QB hits, 9% sack rate"
     }
   ],
   "matchupOfTheWeek": {
-    "title": "Rush Offense vs. Run Defense",
-    "description": "Our rush offense grades in the 81st percentile against a unit that grades 29th — the widest real statistical edge on the board this week."
+    "title": "Run Defense vs. Rush Offense",
+    "description": "Our run defense grades in the 71st percentile against a unit that grades 55th — the widest real statistical edge on the board this week."
   },
   "opponentInjuries": [],
   "recentForm": {
