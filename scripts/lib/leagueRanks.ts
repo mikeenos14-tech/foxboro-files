@@ -1,6 +1,6 @@
 import { num } from "./csv";
 import { offenseStats, defenseStats, type PbpRow } from "./pbp";
-import { blendWithPrior } from "./priorBlend";
+import { blendWithPrior, OPPONENT_BASELINE_SHRINK_GAMES } from "./priorBlend";
 import { PRIOR_OFFENSE_EPA, PRIOR_DEFENSE_EPA } from "./priorSeasonStrength";
 import type { RankedStat } from "../../lib/data/types";
 
@@ -136,7 +136,7 @@ export function computeAdjustedEpa(
       otherGames++;
     }
     const raw = plays === 0 ? leagueAvg : sum / plays;
-    return blendWithPrior(leagueAvg, raw, otherGames);
+    return blendWithPrior(leagueAvg, raw, otherGames, OPPONENT_BASELINE_SHRINK_GAMES);
   }
 
   function adjustedAverage(

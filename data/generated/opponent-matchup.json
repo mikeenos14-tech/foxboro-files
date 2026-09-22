@@ -2,59 +2,59 @@
   "gameId": "2026_03_NE_JAX",
   "opponent": "JAX",
   "opponentEpaRank": {
-    "offense": 12,
-    "defense": 9
+    "offense": 10,
+    "defense": 6
   },
   "positionGroupMatchups": [
     {
       "group": "Rush Offense vs. Run Defense",
       "ourGrade": 68,
-      "theirGrade": 61,
-      "edge": "even",
-      "note": "68th percentile vs. 61st percentile (close matchup).",
+      "theirGrade": 45,
+      "edge": "us",
+      "note": "68th percentile vs. 45th percentile (advantage us).",
       "ourStatLine": "248 yds, 4.4 YPC, 1 TD, 0 FUM, 12% explosive",
       "theirStatLine": "194 yds allowed, 4.1 YPC allowed, 1 TD allowed, 11% explosive allowed"
     },
     {
       "group": "Pass Offense vs. Pass Defense",
-      "ourGrade": 87,
-      "theirGrade": 90,
-      "edge": "even",
-      "note": "87th percentile vs. 90th percentile (close matchup).",
+      "ourGrade": 71,
+      "theirGrade": 84,
+      "edge": "them",
+      "note": "71st percentile vs. 84th percentile (advantage them).",
       "ourStatLine": "37/61 (61%), 386 yds, 1 TD, 4 INT",
       "theirStatLine": "38/58 (66%) allowed, 493 yds allowed, 2 TD allowed, 2 INT gained"
     },
     {
       "group": "Run Defense vs. Rush Offense",
-      "ourGrade": 71,
-      "theirGrade": 55,
-      "edge": "us",
-      "note": "71st percentile vs. 55th percentile (advantage us).",
+      "ourGrade": 61,
+      "theirGrade": 61,
+      "edge": "even",
+      "note": "61st percentile vs. 61st percentile (close matchup).",
       "ourStatLine": "189 yds allowed, 4.3 YPC allowed, 0 TD allowed, 11% explosive allowed",
       "theirStatLine": "224 yds, 4.2 YPC, 1 TD, 0 FUM, 13% explosive"
     },
     {
       "group": "Pass Defense vs. Pass Offense",
-      "ourGrade": 87,
-      "theirGrade": 74,
+      "ourGrade": 97,
+      "theirGrade": 81,
       "edge": "us",
-      "note": "87th percentile vs. 74th percentile (advantage us).",
+      "note": "97th percentile vs. 81st percentile (advantage us).",
       "ourStatLine": "40/70 (57%) allowed, 387 yds allowed, 1 TD allowed, 1 INT gained",
       "theirStatLine": "35/55 (64%), 434 yds, 4 TD, 1 INT"
     },
     {
       "group": "Pass Protection vs. Pass Rush",
-      "ourGrade": 29,
-      "theirGrade": 19,
-      "edge": "even",
-      "note": "29th percentile vs. 19th percentile (close matchup).",
+      "ourGrade": 19,
+      "theirGrade": 35,
+      "edge": "them",
+      "note": "19th percentile vs. 35th percentile (advantage them).",
       "ourStatLine": "6 sacks allowed, 10% sack rate",
       "theirStatLine": "5 sacks, 11 QB hits, 9% sack rate"
     }
   ],
   "matchupOfTheWeek": {
-    "title": "Run Defense vs. Rush Offense",
-    "description": "Our run defense grades in the 71st percentile against a unit that grades 55th — the widest real statistical edge on the board this week."
+    "title": "Rush Offense vs. Run Defense",
+    "description": "Our rush offense grades in the 68th percentile against a unit that grades 45th — the widest real statistical edge on the board this week."
   },
   "opponentInjuries": [],
   "recentForm": {
@@ -90,15 +90,14 @@
     }
   ],
   "weather": {
-    "tempF": 89,
-    "wind": "7 mph",
-    "precipitation": "5%",
+    "tempF": 83,
+    "wind": "10 mph",
+    "precipitation": "0%",
     "isDome": false
   },
   "bettingContext": {
-    "spread": 2.5,
-    "overUnder": 44.5,
-    "asOf": "2026-09-21"
-  },
-  "previewTake": "Here's the thing about Jacksonville: they're a middling outfit statistically—12th in offensive EPA, 9th on defense—which means they're beatable, especially when you've got a genuine schematic advantage staring you in the face. Our rush offense is operating in the 81st percentile against a Jacksonville run defense sitting at 29th, and that's the widest edge on the board this week; that's not hyperbole, that's the matchup telling us exactly where to attack. Sure, the Jaguars have been steady in recent games (0.16 net EPA per play), and sure, that 32-16 loss from 2024 stings, but we've got the blueprint—we've torched them before, most memorably that 50-10 beatdown in 2021—and the setup this week says we should be able to do it again on the ground. The oddsmakers have us favored by 2.5, and honestly, that feels about right given what we can do in the trenches; the question is whether we're disciplined enough to lean into our strength and not let Jacksonville's defense (which is competent, if not spectacular) fluster us into something it isn't."
+    "spread": 5.5,
+    "overUnder": 41.5,
+    "asOf": "2026-09-22"
+  }
 }

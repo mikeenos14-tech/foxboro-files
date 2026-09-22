@@ -68,11 +68,11 @@
     }
   },
   "pointDifferential": {
-    "value": -3,
-    "leagueRank": 19,
-    "leaguePercentile": 42
+    "value": 14,
+    "leagueRank": 10,
+    "leaguePercentile": 71
   },
-  "pythagoreanWinPct": 0.3493714286333239,
+  "pythagoreanWinPct": 0.8160486304883904,
   "redZonePct": {
     "offense": {
       "value": 0.4,
@@ -111,9 +111,9 @@
   },
   "splits": {
     "home": {
-      "wins": 0,
+      "wins": 1,
       "losses": 0,
-      "epaPerPlay": 0
+      "epaPerPlay": -0.06967234526046844
     },
     "away": {
       "wins": 0,

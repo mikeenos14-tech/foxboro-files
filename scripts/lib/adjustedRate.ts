@@ -19,7 +19,7 @@
 
 import { bool01, num } from "./csv";
 import type { PbpRow } from "./pbp";
-import { blendWithPrior } from "./priorBlend";
+import { blendWithPrior, OPPONENT_BASELINE_SHRINK_GAMES } from "./priorBlend";
 
 interface GamePerf {
   gameId: string;
@@ -86,7 +86,7 @@ function shrunkBaseline(
     otherGames++;
   }
   const raw = n === 0 ? leagueAvg : sum / n;
-  return blendWithPrior(leagueAvg, raw, otherGames);
+  return blendWithPrior(leagueAvg, raw, otherGames, OPPONENT_BASELINE_SHRINK_GAMES);
 }
 
 function adjustedAverage(
