@@ -1,5 +1,14 @@
 [
   {
+    "id": "50001578",
+    "publishedAt": "2026-09-22T05:39:24Z",
+    "type": "Analysis",
+    "headline": "Sources: Giants QB Jaxson Dart believed to have sprained MCL",
+    "summary": "Giants quarterback Jaxson Dart is believed to have sustained a sprained MCL on Monday night based on initial exams, sources told NFL Network's Ian Rapoport and Mike Garafolo. He will undergo an MRI on Tuesday.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50001578/giants-qb-jaxson-dart-exits-mnf-game-vs-rams-knee-injury",
+    "sourceName": "ESPN"
+  },
+  {
     "id": "profootballrumors-https://www.profootballrumors.com/?p=420489",
     "publishedAt": "2026-09-22T03:01:38.000Z",
     "type": "Injury",
@@ -10,7 +19,7 @@
   },
   {
     "id": "profootballrumors-https://www.profootballrumors.com/?p=420420",
-    "publishedAt": "2026-09-21T21:13:07.000Z",
+    "publishedAt": "2026-09-22T03:03:07.000Z",
     "type": "Transaction",
     "headline": "Falcons Name Michael Penix Jr. Week 3 Starting QB",
     "summary": "Earlier today, Falcons head coach Kevin Stefanski said a decision on the team’s starting quarterback would be made in short order. Atlanta’s setup atop the depth chart is indeed now known. Michael Penix Jr. will get the nod for Week 3, per a team announcement. Signs pointed to Atlanta’s Thursday night contest being a logical target in […]",
@@ -18,39 +27,30 @@
     "sourceName": "Pro Football Rumors"
   },
   {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/reports-jayden-daniels-consulting-specialists-after-dislocating-left-elbow-sunday",
-    "publishedAt": "2026-09-21T19:14:06.000Z",
-    "type": "Injury",
-    "headline": "Jayden Daniels consulting specialists after dislocating left elbow Sunday",
-    "summary": "Commanders quarterback Jayden Daniels dislocated his left elbow during Sunday's loss to the Cowboys and is now trying to sort out how long he will be out of action as a result of the injury.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/reports-jayden-daniels-consulting-specialists-after-dislocating-left-elbow-sunday",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=420325",
-    "publishedAt": "2026-09-21T22:47:01.000Z",
-    "type": "Injury",
-    "headline": "Rams Rule Out WR Puka Nacua For Week 2",
-    "summary": "SEPTEMBER 21: While Aaron Donald will make his long-awaited return tonight, the Rams will not have Nacua in uniform. The All-Pro wideout will be inactive against the Giants. SEPTEMBER 20: The Rams may enter their Monday night matchup against the Giants without No. 1 receiver Puka Nacua. While Nacua is officially listed as questionable because […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/09/puka-nacua-trending-in-wrong-direction-for-week-2",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "50001578",
-    "publishedAt": "2026-09-22T02:58:49Z",
-    "type": "Injury",
-    "headline": "Giants QB Jaxson Dart exits MNF game vs. Rams with knee injury",
-    "summary": "Giants quarterback Jaxson Dart was ruled out for Monday night's game against the Rams after taking a hard hit on his left knee in the first quarter.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50001578/giants-qb-jaxson-dart-exits-mnf-game-vs-rams-knee-injury",
+    "id": "50002943",
+    "publishedAt": "2026-09-22T06:04:21Z",
+    "type": "Analysis",
+    "headline": "Aaron Donald's return fires up Rams in rout of Giants",
+    "summary": "Aaron Donald -- and the SoFi Stadium crowd's response to him -- sparked the Rams in his first game since the end of the 2023 season.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50002943/aaron-donald-return-fires-rams-rout-giants",
     "sourceName": "ESPN"
   },
   {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dallas-goedert-sprained-his-mcl-will-miss-a-few-weeks",
-    "publishedAt": "2026-09-21T21:19:57.000Z",
+    "id": "50002173",
+    "publishedAt": "2026-09-22T05:46:33Z",
+    "type": "Analysis",
+    "headline": "Rams' Stafford passes Rivers for 6th all time in passing TDs",
+    "summary": "Rams QB Matthew Stafford moved to sixth all time in passing touchdowns after throwing his 426th to Davante Adams on Monday night.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50002173/rams-stafford-passes-rivers-6th-all-passing-tds",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=420427",
+    "publishedAt": "2026-09-22T00:12:48.000Z",
     "type": "Injury",
-    "headline": "Dallas Goedert sprained his MCL, will miss a few weeks",
-    "summary": "Eagles tight end Dallas Goedert underwent an MRI on his injured right knee on Monday.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dallas-goedert-sprained-his-mcl-will-miss-a-few-weeks",
-    "sourceName": "Pro Football Talk"
+    "headline": "Cardinals CB Will Johnson Suffers Potential Season-Ending Injury",
+    "summary": "An injury issue sidetracked Will Johnson’s route into the 2025 first round. More health issues are intervening for the Cardinals cornerback. Mike LaFleur said Monday that Johnson is facing a season-ending neck injury. While LaFleur said (via AZCardinals.com’s Darren Urban) the Week 2 setback could “potentially” end Johnson’s season, the Michigan product is almost definitely […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/09/cardinals-cb-will-johnson-suffers-potential-season-ending-injury",
+    "sourceName": "Pro Football Rumors"
   }
 ]
