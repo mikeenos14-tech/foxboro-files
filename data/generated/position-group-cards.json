@@ -1,9 +1,9 @@
 [
   {
     "group": "QB",
-    "grade": 10,
+    "grade": 19,
     "trend": "flat",
-    "soWhat": "Ranked on EPA/play generated at QB, regressed to the league mean on a 61-play sample.",
+    "soWhat": "Opponent-adjusted EPA/play at QB, regressed to the league mean on a 61-play sample.",
     "windows": [
       {
         "key": "last-1",
@@ -13,7 +13,7 @@
       {
         "key": "last-2",
         "label": "Last 2 Games",
-        "grade": 10
+        "grade": 19
       }
     ],
     "statLine": "",
@@ -22,9 +22,9 @@
   },
   {
     "group": "RB",
-    "grade": 19,
+    "grade": 26,
     "trend": "up",
-    "soWhat": "Ranked on EPA/play generated at RB, regressed to the league mean on a 48-play sample.",
+    "soWhat": "Opponent-adjusted EPA/play at RB, regressed to the league mean on a 48-play sample.",
     "windows": [
       {
         "key": "last-1",
@@ -34,7 +34,7 @@
       {
         "key": "last-2",
         "label": "Last 2 Games",
-        "grade": 23
+        "grade": 26
       }
     ],
     "statLine": "181 yds, 3.8 YPC, 1 TD, 0 FUM, 8% explosive",
@@ -43,9 +43,9 @@
   },
   {
     "group": "WR",
-    "grade": 32,
+    "grade": 48,
     "trend": "up",
-    "soWhat": "Ranked on EPA/play generated at WR, regressed to the league mean on a 30-play sample.",
+    "soWhat": "Opponent-adjusted EPA/play at WR, regressed to the league mean on a 30-play sample.",
     "windows": [
       {
         "key": "last-1",
@@ -55,7 +55,7 @@
       {
         "key": "last-2",
         "label": "Last 2 Games",
-        "grade": 29
+        "grade": 48
       }
     ],
     "statLine": "20/30 (67%), 228 yds, 3.9 YAC/rec, 0 TD",
@@ -64,19 +64,19 @@
   },
   {
     "group": "TE",
-    "grade": 29,
+    "grade": 35,
     "trend": "flat",
-    "soWhat": "Ranked on EPA/play generated at TE, regressed to the league mean on a 10-play sample.",
+    "soWhat": "Opponent-adjusted EPA/play at TE, regressed to the league mean on a 10-play sample.",
     "windows": [
       {
         "key": "last-1",
         "label": "Last Game",
-        "grade": 32
+        "grade": 26
       },
       {
         "key": "last-2",
         "label": "Last 2 Games",
-        "grade": 29
+        "grade": 35
       }
     ],
     "statLine": "8/10 (80%), 98 yds, 4.6 YAC/rec, 1 TD",
@@ -85,19 +85,19 @@
   },
   {
     "group": "OL",
-    "grade": 18,
+    "grade": 29,
     "trend": "flat",
-    "soWhat": "Blends sacks that weren't the QB's own fault (10th) with pressure rate allowed — sacks or QB hits (26th). Team-wide; no per-player blocking data exists free.",
+    "soWhat": "Opponent-adjusted pressure rate allowed — sacks or QB hits, so a beaten block still counts when a quick throw bails it out. Team-wide; no per-player blocking data exists free.",
     "windows": [
       {
         "key": "last-1",
         "label": "Last Game",
-        "grade": 10
+        "grade": 26
       },
       {
         "key": "last-2",
         "label": "Last 2 Games",
-        "grade": 18
+        "grade": 29
       }
     ],
     "statLine": "",
@@ -106,19 +106,19 @@
   },
   {
     "group": "Edge",
-    "grade": 77,
+    "grade": 84,
     "trend": "flat",
-    "soWhat": "Ranked on sack rate generated — a pass-rush proxy measured team-wide, not isolated to edge rushers.",
+    "soWhat": "Opponent-adjusted sack rate generated — a pass-rush proxy measured team-wide, not isolated to edge rushers.",
     "windows": [
       {
         "key": "last-1",
         "label": "Last Game",
-        "grade": 74
+        "grade": 77
       },
       {
         "key": "last-2",
         "label": "Last 2 Games",
-        "grade": 74
+        "grade": 84
       }
     ],
     "statLine": "3 sacks, 8 QB hits — leader: Dre'Mont Jones (1 sack)",
@@ -127,9 +127,9 @@
   },
   {
     "group": "Interior DL",
-    "grade": 55,
+    "grade": 52,
     "trend": "down",
-    "soWhat": "Ranked on rush EPA allowed — a run-defense proxy measured team-wide, not isolated to interior linemen.",
+    "soWhat": "Opponent-adjusted rush EPA allowed — a run-defense proxy measured team-wide, not isolated to interior linemen.",
     "windows": [
       {
         "key": "last-1",
@@ -139,7 +139,7 @@
       {
         "key": "last-2",
         "label": "Last 2 Games",
-        "grade": 55
+        "grade": 52
       }
     ],
     "statLine": "2 TFL, 2 sacks — leader: Christian Barmore (1 TFL)",
@@ -148,23 +148,23 @@
   },
   {
     "group": "Secondary",
-    "grade": 97,
+    "grade": 94,
     "trend": "flat",
-    "soWhat": "Ranked on pass EPA allowed — includes the pass rush's effect, not coverage alone.",
+    "soWhat": "Opponent-adjusted pass EPA allowed — includes the pass rush's effect, not coverage alone.",
     "windows": [
       {
         "key": "last-1",
         "label": "Last Game",
-        "grade": 94
+        "grade": 97
       },
       {
         "key": "last-2",
         "label": "Last 2 Games",
-        "grade": 97
+        "grade": 94
       }
     ],
+    "statLine": "0 INT, 6 PBU",
     "sampleSize": 70,
-    "confidence": "medium",
-    "statLine": "0 INT, 6 PBU"
+    "confidence": "medium"
   }
 ]

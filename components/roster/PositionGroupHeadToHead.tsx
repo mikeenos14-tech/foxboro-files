@@ -18,8 +18,11 @@ interface Props {
 // always "higher is better" no matter the group — unlike QbHeadToHead,
 // which has to track higherIsBetter per stat, comparing two teams here is
 // just comparing the two grades directly.
+// Matched on substring rather than the exact label: an exact `=== "EPA/play"`
+// check silently fell through to the percent formatter the moment the
+// label gained an "Adj." prefix, rendering -0.152 EPA/play as "-15.2%".
 function formatRaw(rawLabel: string, rawValue: number): string {
-  return rawLabel === "EPA/play" ? signed(rawValue, 2) : formatPercent(rawValue, 1);
+  return rawLabel.includes("EPA") ? signed(rawValue, 2) : formatPercent(rawValue, 1);
 }
 
 export function PositionGroupHeadToHead({ myTeam, league, defaultOpponentTeam }: Props) {

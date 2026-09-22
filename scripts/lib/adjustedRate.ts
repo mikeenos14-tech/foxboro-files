@@ -28,24 +28,40 @@ interface GamePerf {
   n: number;
 }
 
-function perGamePerformances(
+// Every team's per-game performances on one side of the ball, built in a
+// single pass over the rows.
+//
+// This used to be a per-team function called once per team per side —
+// 64 full scans of the play-by-play for every metric. That was fine when
+// only the three Next Game matchup pairs used it, but the position-group
+// grades need the same adjustment across eight groups and several
+// windows, which would have meant hundreds of scans of ~48k rows. One
+// pass, bucketed by team, makes that tractable.
+function perGamePerformancesAllTeams(
   rows: PbpRow[],
-  team: string,
   side: "posteam" | "defteam",
   filter: (r: PbpRow) => boolean,
   value: (r: PbpRow) => number
-): GamePerf[] {
+): Map<string, GamePerf[]> {
   const oppSide = side === "posteam" ? "defteam" : "posteam";
-  const byGame = new Map<string, GamePerf>();
+  const byTeamGame = new Map<string, Map<string, GamePerf>>();
   for (const r of rows) {
-    if (r[side] !== team || !filter(r)) continue;
+    const team = r[side];
+    if (!team || !filter(r)) continue;
+    let games = byTeamGame.get(team);
+    if (!games) {
+      games = new Map<string, GamePerf>();
+      byTeamGame.set(team, games);
+    }
     const gid = r.game_id;
-    const cur = byGame.get(gid) ?? { gameId: gid, opponent: r[oppSide], valueSum: 0, n: 0 };
+    const cur = games.get(gid) ?? { gameId: gid, opponent: r[oppSide], valueSum: 0, n: 0 };
     cur.valueSum += value(r);
     cur.n += 1;
-    byGame.set(gid, cur);
+    games.set(gid, cur);
   }
-  return [...byGame.values()];
+  const out = new Map<string, GamePerf[]>();
+  for (const [team, games] of byTeamGame) out.set(team, [...games.values()]);
+  return out;
 }
 
 // League-average raw value this metric/side this season (plays-weighted) —
@@ -107,6 +123,59 @@ function adjustedAverage(
   return sum / n;
 }
 
+// Both sides of a metric for every team, opponent-adjusted and nothing
+// else — no prior-season blend.
+//
+// Split out from computeAdjustedPair because the two callers want
+// different things. The Next Game matchup grades are predictive, so they
+// want the 2025 blend on top. The position-group grades are descriptive
+// ("how has this unit actually played this year") and have no
+// position-level 2025 prior to blend with anyway — but they still need
+// the adjustment, because a unit's grade shouldn't depend on whether
+// it happened to draw good or bad opponents so far.
+//
+// Also returns each team's play count per side, since callers shrink the
+// result toward the league mean by sample size (see lib/shrink.ts) and
+// would otherwise have to recount the same rows.
+export function computeOpponentAdjustedPair(
+  rows: PbpRow[],
+  teams: string[],
+  metric: { filter: (r: PbpRow) => boolean; value: (r: PbpRow) => number }
+): {
+  a: Map<string, number>;
+  b: Map<string, number>;
+  aPlays: Map<string, number>;
+  bPlays: Map<string, number>;
+  gamesPlayed: Map<string, number>;
+} {
+  const aByTeam = perGamePerformancesAllTeams(rows, "posteam", metric.filter, metric.value);
+  const bByTeam = perGamePerformancesAllTeams(rows, "defteam", metric.filter, metric.value);
+  for (const team of teams) {
+    if (!aByTeam.has(team)) aByTeam.set(team, []);
+    if (!bByTeam.has(team)) bByTeam.set(team, []);
+  }
+  const leagueAvgA = leagueAverage(aByTeam);
+  const leagueAvgB = leagueAverage(bByTeam);
+
+  const a = new Map<string, number>();
+  const b = new Map<string, number>();
+  const aPlays = new Map<string, number>();
+  const bPlays = new Map<string, number>();
+  const gamesPlayed = new Map<string, number>();
+  const countPlays = (games: GamePerf[]) => games.reduce((sum, g) => sum + g.n, 0);
+
+  for (const team of teams) {
+    const aGames = aByTeam.get(team) ?? [];
+    const bGames = bByTeam.get(team) ?? [];
+    a.set(team, adjustedAverage(aGames, bByTeam, leagueAvgB) ?? 0);
+    b.set(team, adjustedAverage(bGames, aByTeam, leagueAvgA) ?? 0);
+    aPlays.set(team, countPlays(aGames));
+    bPlays.set(team, countPlays(bGames));
+    gamesPlayed.set(team, aGames.length);
+  }
+  return { a, b, aPlays, bPlays, gamesPlayed };
+}
+
 // Computes both sides of a matchup pair (e.g. rush offense EPA and run
 // defense EPA) for every team: opponent-adjusted, then blended with the
 // given prior-season tables and phased out by games played.
@@ -117,25 +186,14 @@ export function computeAdjustedPair(
   priorA: Record<string, number>,
   priorB: Record<string, number>
 ): { a: Map<string, number>; b: Map<string, number> } {
-  const aByTeam = new Map<string, GamePerf[]>();
-  const bByTeam = new Map<string, GamePerf[]>();
-  for (const team of teams) {
-    aByTeam.set(team, perGamePerformances(rows, team, "posteam", metric.filter, metric.value));
-    bByTeam.set(team, perGamePerformances(rows, team, "defteam", metric.filter, metric.value));
-  }
-  const leagueAvgA = leagueAverage(aByTeam);
-  const leagueAvgB = leagueAverage(bByTeam);
+  const adjusted = computeOpponentAdjustedPair(rows, teams, metric);
 
   const a = new Map<string, number>();
   const b = new Map<string, number>();
   for (const team of teams) {
-    const aGames = aByTeam.get(team) ?? [];
-    const bGames = bByTeam.get(team) ?? [];
-    const played = aGames.length; // a team has the same # of games on both sides
-    const rawA = adjustedAverage(aGames, bByTeam, leagueAvgB);
-    const rawB = adjustedAverage(bGames, aByTeam, leagueAvgA);
-    a.set(team, blendWithPrior(priorA[team] ?? 0, rawA ?? 0, played));
-    b.set(team, blendWithPrior(priorB[team] ?? 0, rawB ?? 0, played));
+    const played = adjusted.gamesPlayed.get(team) ?? 0;
+    a.set(team, blendWithPrior(priorA[team] ?? 0, adjusted.a.get(team) ?? 0, played));
+    b.set(team, blendWithPrior(priorB[team] ?? 0, adjusted.b.get(team) ?? 0, played));
   }
   return { a, b };
 }
