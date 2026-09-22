@@ -172,18 +172,23 @@ export const teamStats: TeamStatSnapshot = {
     puntReturnAvg: { value: 8.9, leagueRank: 13, leaguePercentile: 59 },
     specialTeamsEpa: { value: 0.03, leagueRank: 9, leaguePercentile: 74 },
   },
+  discipline: {
+    penaltiesCommitted: { value: 5, leagueRank: 10, leaguePercentile: 71 },
+    penaltyYardsCommitted: { value: 38, leagueRank: 12, leaguePercentile: 65 },
+    mostPenalized: { playerName: "M. Wallace", count: 2 },
+  },
 };
 
 export const positionGroupReportCards: PositionGroupReportCard[] = [
-  { group: "QB", grade: 78, trend: "up", soWhat: "Efficient, protecting the ball — top-10 turnover-worthy play rate.", windows: [] },
-  { group: "RB", grade: 71, trend: "flat", soWhat: "Solid between the tackles, not yet a explosive-play threat.", windows: [] },
-  { group: "WR", grade: 62, trend: "down", soWhat: "Separation has been inconsistent — below-average target depth.", windows: [] },
-  { group: "TE", grade: 69, trend: "up", soWhat: "Emerging as a reliable third-down safety valve.", windows: [] },
-  { group: "OL", grade: 74, trend: "up", soWhat: "Best unit on the team right now — top-10 pressure rate allowed.", windows: [] },
-  { group: "Edge", grade: 66, trend: "flat", soWhat: "Generating pressure without finishing — sacks lag win rate.", windows: [] },
-  { group: "Interior DL", grade: 70, trend: "up", soWhat: "Run defense has been stout early — top-10 stuff rate.", windows: [] },
-  { group: "LB", grade: 60, trend: "down", soWhat: "Coverage has been a soft spot against tight ends.", windows: [] },
-  { group: "Secondary", grade: 73, trend: "up", soWhat: "Ball-hawking early — leads league in turnover-worthy pass breakups.", windows: [] },
+  { group: "QB", grade: 78, trend: "up", soWhat: "Efficient, protecting the ball — top-10 turnover-worthy play rate.", windows: [], statLine: "" },
+  { group: "RB", grade: 71, trend: "flat", soWhat: "Solid between the tackles, not yet a explosive-play threat.", windows: [], statLine: "" },
+  { group: "WR", grade: 62, trend: "down", soWhat: "Separation has been inconsistent — below-average target depth.", windows: [], statLine: "" },
+  { group: "TE", grade: 69, trend: "up", soWhat: "Emerging as a reliable third-down safety valve.", windows: [], statLine: "" },
+  { group: "OL", grade: 74, trend: "up", soWhat: "Best unit on the team right now — top-10 pressure rate allowed.", windows: [], statLine: "" },
+  { group: "Edge", grade: 66, trend: "flat", soWhat: "Generating pressure without finishing — sacks lag win rate.", windows: [], statLine: "" },
+  { group: "Interior DL", grade: 70, trend: "up", soWhat: "Run defense has been stout early — top-10 stuff rate.", windows: [], statLine: "" },
+  { group: "LB", grade: 60, trend: "down", soWhat: "Coverage has been a soft spot against tight ends.", windows: [], statLine: "" },
+  { group: "Secondary", grade: 73, trend: "up", soWhat: "Ball-hawking early — leads league in turnover-worthy pass breakups.", windows: [], statLine: "" },
 ];
 
 // Illustrative only, same as qbLeagueTable below — real data covers all

@@ -5,6 +5,7 @@ import { PositionGroupCardsGrid } from "@/components/roster/PositionGroupCardsGr
 import { PositionGroupSummaryStrip } from "@/components/roster/PositionGroupSummaryStrip";
 import { PositionGroupHeadToHead } from "@/components/roster/PositionGroupHeadToHead";
 import { SpecialTeamsStats } from "@/components/roster/SpecialTeamsStats";
+import { DisciplineStats } from "@/components/roster/DisciplineStats";
 import { SituationalSplitsTable } from "@/components/roster/SituationalSplitsTable";
 import { QBDeepDive } from "@/components/roster/QBDeepDive";
 import { QbHeadToHead } from "@/components/roster/QbHeadToHead";
@@ -86,6 +87,10 @@ export default async function RosterPage({
                 <div>
                   <h2 className="mb-3 text-lg font-semibold">Special Teams</h2>
                   <SpecialTeamsStats specialTeams={teamStats.specialTeams} />
+                </div>
+                <div>
+                  <h2 className="mb-3 text-lg font-semibold">Discipline</h2>
+                  <DisciplineStats discipline={teamStats.discipline} />
                 </div>
               </div>
             ),

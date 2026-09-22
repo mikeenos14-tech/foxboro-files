@@ -151,5 +151,21 @@
       "leagueRank": 25,
       "leaguePercentile": 23
     }
+  },
+  "discipline": {
+    "penaltiesCommitted": {
+      "value": 13,
+      "leagueRank": 13,
+      "leaguePercentile": 61
+    },
+    "penaltyYardsCommitted": {
+      "value": 81,
+      "leagueRank": 8,
+      "leaguePercentile": 77
+    },
+    "mostPenalized": {
+      "playerName": "Morgan Moses",
+      "count": 2
+    }
   }
 }

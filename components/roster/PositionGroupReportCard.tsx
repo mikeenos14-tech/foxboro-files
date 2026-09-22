@@ -56,6 +56,9 @@ export function PositionGroupReportCard({ card }: { card: ReportCardData }) {
         </span>
       </div>
       <PercentBar value={card.grade} sentiment={tier} className="mt-2" />
+      {card.statLine && (
+        <div className="mt-2 text-xs tabular-nums text-muted">{card.statLine}</div>
+      )}
       <SoWhatNote sentiment={tier}>{card.soWhat}</SoWhatNote>
     </div>
   );

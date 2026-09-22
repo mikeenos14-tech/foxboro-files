@@ -149,6 +149,16 @@ export interface TeamStatSnapshot {
     puntReturnAvg: RankedStat;
     specialTeamsEpa: RankedStat;
   };
+  // Real penalty counts/yards — a traditional stat with no presence on
+  // the site before this (EPA reflects a penalty's down/distance swing
+  // but doesn't isolate "how disciplined is this team" as its own real
+  // number). Lower rank number is better (fewer penalties = good), same
+  // convention RankedStat always uses via leagueRank.
+  discipline: {
+    penaltiesCommitted: RankedStat;
+    penaltyYardsCommitted: RankedStat;
+    mostPenalized?: { playerName: string; count: number };
+  };
 }
 
 export interface PositionGroupReportCard {
@@ -160,6 +170,13 @@ export interface PositionGroupReportCard {
   // every N from 1 up to games played — lets Position Grades show recent
   // form the same way QB Deep Dive does (see QBDeepDive.windows).
   windows: Array<{ key: string; label: string; grade: number }>;
+  // A real traditional-counting-stat line, full-season only (not
+  // windowed — the numeric grade above already gets that treatment).
+  // EPA/proxy-based grades don't change here; this is added texture, not
+  // a replacement — e.g. RB: "187 yds, 3.9 YPC, 2 TD, 1 FUM"; Edge:
+  // "6.5 sacks, 13 QB hits — leader: G. Jacas (2.5 sacks)". Empty string
+  // when there's nothing real to show yet (e.g. LB's placeholder card).
+  statLine: string;
 }
 
 // Every team's position-group grades, full-season only — powers the

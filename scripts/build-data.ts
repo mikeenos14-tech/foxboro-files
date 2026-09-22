@@ -17,6 +17,8 @@ import {
   turnoverMargin,
   winProbabilityTimeline,
   starOfGame,
+  penaltyStats,
+  mostPenalizedPlayer,
   type PbpRow,
 } from "./lib/pbp";
 import {
@@ -80,6 +82,7 @@ async function main() {
 
   const games = await loadCsv<GameRow>("games.csv");
   const pbp = await loadCsv<PbpRow>("play_by_play_2026.csv");
+  const rosterByGsis = await buildLeagueRosterByGsis();
 
   const standings = computeStandings(games, SEASON);
   const epaTable = computeLeagueEpaTable(pbp, ALL_TEAMS);
@@ -347,6 +350,15 @@ async function main() {
       puntReturnAvg: rankGeneric(ALL_TEAMS, TEAM, puntReturnAvg, true),
       specialTeamsEpa: rankGeneric(ALL_TEAMS, TEAM, specialTeamsEpa, true),
     },
+    discipline: {
+      penaltiesCommitted: rankGeneric(ALL_TEAMS, TEAM, (t) => penaltyStats(pbp, t).count, false),
+      penaltyYardsCommitted: rankGeneric(ALL_TEAMS, TEAM, (t) => penaltyStats(pbp, t).yards, false),
+      mostPenalized: (() => {
+        const mp = mostPenalizedPlayer(pbp, TEAM);
+        if (!mp) return undefined;
+        return { playerName: rosterByGsis.get(mp.playerId)?.full_name ?? mp.playerName, count: mp.count };
+      })(),
+    },
   };
 
   await writeFile(
@@ -368,7 +380,6 @@ async function main() {
 
     const star = starOfGame(gameRows, TEAM);
     const margin = turnoverMargin(gameRows, TEAM);
-    const rosterByGsis = await buildLeagueRosterByGsis();
     const starHeadshot = star ? rosterByGsis.get(star.playerId)?.headshot_url : undefined;
 
     const recap: GameRecap = {

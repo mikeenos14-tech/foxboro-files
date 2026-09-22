@@ -14,6 +14,7 @@ import {
   type PbpRow,
 } from "./lib/pbp";
 import { loadQbFaultSackKeys } from "./lib/ftn";
+import { computeDefensivePlayerStats, defensiveGroupStatLine } from "./lib/defensiveStats";
 import {
   loadTeamRoster,
   buildLeagueRosterByGsis,
@@ -91,6 +92,51 @@ function positionEpa(
     epa: rows.reduce((sum, r) => sum + num(r.epa), 0) / rows.length,
     n: rows.length,
   };
+}
+
+// Real traditional rushing counting stats for a team's RB group —
+// EPA/play (above) says how valuable the production was; this says what
+// it actually was in box-score terms. "Explosive" here matches the
+// site's other 10+-yard explosive-play convention (see pbp.ts).
+function rushingStatLine(pbp: PbpRow[], rosterByGsis: Map<string, RosterRow>, team: string): string {
+  const rows = pbp.filter(
+    (r) => r.posteam === team && r.play_type === "run" && r.rusher_id && rosterByGsis.get(r.rusher_id)?.position === "RB"
+  );
+  if (rows.length === 0) return "";
+  const yards = rows.reduce((sum, r) => sum + num(r.yards_gained), 0);
+  const ypc = yards / rows.length;
+  const tds = rows.filter((r) => bool01(r.rush_touchdown)).length;
+  const fumbles = rows.filter((r) => bool01(r.fumble_lost)).length;
+  const explosiveRate = rows.filter((r) => num(r.yards_gained) >= 10).length / rows.length;
+  return `${yards} yds, ${ypc.toFixed(1)} YPC, ${tds} TD, ${fumbles} FUM, ${(explosiveRate * 100).toFixed(0)}% explosive`;
+}
+
+// Real traditional receiving counting stats for a WR/TE group —
+// receptions/targets, catch rate, yards, yards after catch (a real
+// signal EPA doesn't isolate: two players at the same EPA/play can get
+// there very differently, contested possession-catches vs. YAC threats),
+// and TDs.
+function receivingStatLine(
+  pbp: PbpRow[],
+  rosterByGsis: Map<string, RosterRow>,
+  team: string,
+  position: "WR" | "TE"
+): string {
+  const targets = pbp.filter(
+    (r) =>
+      r.posteam === team &&
+      bool01(r.pass_attempt) &&
+      r.receiver_id &&
+      rosterByGsis.get(r.receiver_id)?.position === position
+  );
+  if (targets.length === 0) return "";
+  const receptions = targets.filter((r) => bool01(r.complete_pass));
+  const catchRate = receptions.length / targets.length;
+  const yards = receptions.reduce((sum, r) => sum + num(r.yards_gained), 0);
+  const yacRows = receptions.filter((r) => r.yards_after_catch !== "" && r.yards_after_catch !== "NA");
+  const yac = yacRows.length === 0 ? 0 : yacRows.reduce((sum, r) => sum + num(r.yards_after_catch), 0) / yacRows.length;
+  const tds = receptions.filter((r) => bool01(r.pass_touchdown)).length;
+  return `${receptions.length}/${targets.length} (${(catchRate * 100).toFixed(0)}%), ${yards} yds, ${yac.toFixed(1)} YAC/rec, ${tds} TD`;
 }
 
 // Every group here is a raw (not opponent-adjusted) team-wide proxy
@@ -186,6 +232,12 @@ async function buildPositionGroupCards(
     // this number directly rather than a separate always-50 comparison.
     const grade = ranked.leaguePercentile;
     const { n } = positionEpa(pbp, rosterByGsis, TEAM, rosterPosition, idField, playType);
+    const statLine =
+      label === "RB"
+        ? rushingStatLine(pbp, rosterByGsis, TEAM)
+        : label === "WR" || label === "TE"
+          ? receivingStatLine(pbp, rosterByGsis, TEAM, label)
+          : "";
     return {
       group: label,
       grade,
@@ -197,11 +249,21 @@ async function buildPositionGroupCards(
         (rows, t) => positionEpa(rows, rosterByGsis, t, rosterPosition, idField, playType).epa,
         true
       ),
+      statLine,
     };
   });
 
   const unitGrade = (valueOf: (t: string) => number, higherIsBetter: boolean) =>
     rankGeneric(ALL_TEAMS, TEAM, valueOf, higherIsBetter).leaguePercentile;
+
+  // Real per-player counting stats (sacks, QB hits, TFL, forced fumbles,
+  // INT, passes defended) straight from nflverse's own player-attribution
+  // columns — see lib/defensiveStats.ts. These don't change how any grade
+  // above is computed (still the team-wide EPA/rate proxies, which stay
+  // the fairest available "vs. league" comparison); they add real texture
+  // underneath, the same way rushingStatLine/receivingStatLine do for the
+  // offensive skill positions.
+  const defPlayerStats = computeDefensivePlayerStats(pbp, TEAM);
 
   const teamUnits: PositionGroupReportCard[] = [
     (() => {
@@ -223,6 +285,9 @@ async function buildPositionGroupCards(
         trend: "flat" as const,
         soWhat: `${ordinal(grade)} percentile in the NFL for pass protection — blends sacks that weren't the QB's own fault (${ordinal(sackGrade)} percentile) with pressure rate allowed, sacks or QB hits combined (${ordinal(pressureGrade)} percentile). Real per-play data, still team-wide — no per-player blocking grade available free.`,
         windows: blendedWindowedGrade(sackValue, false, pressureValue, false),
+        // No per-player pass-block data exists free — the OL grade above
+        // is the ceiling here.
+        statLine: "",
       };
     })(),
     {
@@ -231,6 +296,7 @@ async function buildPositionGroupCards(
       trend: "flat",
       soWhat: `${ordinal(unitGrade((t) => sackRateGenerated(pbp, t), true))} percentile in the NFL for sack rate generated (pass rush proxy, team-wide — not isolated to edge rushers specifically).`,
       windows: windowedGrade((rows, t) => sackRateGenerated(rows, t), true),
+      statLine: defensiveGroupStatLine(defPlayerStats, rosterByGsis, ["OLB"], "sacks", "sacks", "qbHits", "QB hits"),
     },
     {
       group: "Interior DL",
@@ -238,6 +304,7 @@ async function buildPositionGroupCards(
       trend: "flat",
       soWhat: `${ordinal(unitGrade((t) => playTypeEpa(pbp, t, "defteam", "run"), false))} percentile in the NFL for rush EPA allowed (run defense proxy, team-wide — not isolated to interior linemen specifically).`,
       windows: windowedGrade((rows, t) => playTypeEpa(rows, t, "defteam", "run"), false),
+      statLine: defensiveGroupStatLine(defPlayerStats, rosterByGsis, ["DT", "NT", "DE"], "tfl", "TFL", "sacks", "sacks"),
     },
     {
       group: "Secondary",
@@ -245,6 +312,15 @@ async function buildPositionGroupCards(
       trend: "flat",
       soWhat: `${ordinal(unitGrade((t) => playTypeEpa(pbp, t, "defteam", "pass"), false))} percentile in the NFL for pass EPA allowed (pass defense proxy — includes pass rush effect, not isolated to coverage alone).`,
       windows: windowedGrade((rows, t) => playTypeEpa(rows, t, "defteam", "pass"), false),
+      statLine: defensiveGroupStatLine(
+        defPlayerStats,
+        rosterByGsis,
+        ["CB", "FS", "SS", "S"],
+        "interceptions",
+        "INT",
+        "passesDefended",
+        "PBU"
+      ),
     },
   ];
 

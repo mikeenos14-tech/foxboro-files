@@ -233,3 +233,38 @@ export function starOfGame(
   }
   return best;
 }
+
+// Real penalty counting stats — a traditional stat EPA doesn't isolate on
+// its own (a penalty's down/distance swing shows up in EPA, but "how
+// disciplined is this team" as its own real number doesn't). penalty_team
+// is the team that committed the penalty, whichever side of the ball they
+// were on — confirmed against real data.
+export function penaltyStats(rows: PbpRow[], team: string): { count: number; yards: number } {
+  const penalties = rows.filter((r) => bool01(r.penalty) && r.penalty_team === team);
+  return {
+    count: penalties.length,
+    yards: penalties.reduce((sum, r) => sum + num(r.penalty_yards), 0),
+  };
+}
+
+// Team penalties (Delay of Game, Too Many Men) have no player attribution
+// in the data — filtered out here rather than counted as a blank name.
+// Keyed by playerId (not name) so the caller can resolve a real roster
+// name instead of pbp's own abbreviated "M.Moses" form.
+export function mostPenalizedPlayer(
+  rows: PbpRow[],
+  team: string
+): { playerId: string; playerName: string; count: number } | null {
+  const counts = new Map<string, { playerName: string; count: number }>();
+  for (const r of rows) {
+    if (!bool01(r.penalty) || r.penalty_team !== team || !r.penalty_player_id) continue;
+    const cur = counts.get(r.penalty_player_id) ?? { playerName: r.penalty_player_name, count: 0 };
+    cur.count += 1;
+    counts.set(r.penalty_player_id, cur);
+  }
+  let best: { playerId: string; playerName: string; count: number } | null = null;
+  for (const [playerId, { playerName, count }] of counts) {
+    if (!best || count > best.count) best = { playerId, playerName, count };
+  }
+  return best;
+}

@@ -15,7 +15,8 @@
         "label": "Last 2 Games",
         "grade": 13
       }
-    ]
+    ],
+    "statLine": ""
   },
   {
     "group": "RB",
@@ -33,7 +34,8 @@
         "label": "Last 2 Games",
         "grade": 19
       }
-    ]
+    ],
+    "statLine": "181 yds, 3.8 YPC, 1 TD, 0 FUM, 8% explosive"
   },
   {
     "group": "WR",
@@ -51,7 +53,8 @@
         "label": "Last 2 Games",
         "grade": 29
       }
-    ]
+    ],
+    "statLine": "20/30 (67%), 228 yds, 3.9 YAC/rec, 0 TD"
   },
   {
     "group": "TE",
@@ -69,7 +72,8 @@
         "label": "Last 2 Games",
         "grade": 29
       }
-    ]
+    ],
+    "statLine": "8/10 (80%), 98 yds, 4.6 YAC/rec, 1 TD"
   },
   {
     "group": "OL",
@@ -87,7 +91,8 @@
         "label": "Last 2 Games",
         "grade": 20
       }
-    ]
+    ],
+    "statLine": ""
   },
   {
     "group": "Edge",
@@ -105,7 +110,8 @@
         "label": "Last 2 Games",
         "grade": 74
       }
-    ]
+    ],
+    "statLine": "3 sacks, 8 QB hits — leader: Dre'Mont Jones (1 sack)"
   },
   {
     "group": "Interior DL",
@@ -123,7 +129,8 @@
         "label": "Last 2 Games",
         "grade": 55
       }
-    ]
+    ],
+    "statLine": "2 TFL, 2 sacks — leader: Christian Barmore (1 TFL)"
   },
   {
     "group": "Secondary",
@@ -141,6 +148,7 @@
         "label": "Last 2 Games",
         "grade": 97
       }
-    ]
+    ],
+    "statLine": "0 INT, 6 PBU"
   }
 ]
