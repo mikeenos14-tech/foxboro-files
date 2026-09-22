@@ -5,7 +5,7 @@
       {
         "group": "QB",
         "rawLabel": "EPA/play",
-        "grade": 94,
+        "grade": 97,
         "rawValue": 0.4551358763412436
       },
       {
@@ -23,12 +23,12 @@
       {
         "group": "TE",
         "rawLabel": "EPA/play",
-        "grade": 97,
+        "grade": 100,
         "rawValue": 0.9933989639702143
       },
       {
         "group": "OL",
-        "grade": 62,
+        "grade": 60,
         "rawValue": 0.046153846153846156,
         "rawLabel": "Sack rate allowed (excl. QB fault)"
       },
@@ -41,7 +41,7 @@
       {
         "group": "Interior DL",
         "rawLabel": "Rush EPA allowed",
-        "grade": 42,
+        "grade": 39,
         "rawValue": -0.012172579110043295
       },
       {
@@ -58,13 +58,13 @@
       {
         "group": "QB",
         "rawLabel": "EPA/play",
-        "grade": 29,
+        "grade": 26,
         "rawValue": -0.08094864190003861
       },
       {
         "group": "RB",
         "rawLabel": "EPA/play",
-        "grade": 29,
+        "grade": 32,
         "rawValue": -0.18237047301411868
       },
       {
@@ -81,14 +81,14 @@
       },
       {
         "group": "OL",
-        "grade": 3,
-        "rawValue": 0.11864406779661017,
+        "grade": 10,
+        "rawValue": 0.0847457627118644,
         "rawLabel": "Sack rate allowed (excl. QB fault)"
       },
       {
         "group": "Edge",
         "rawLabel": "Sack rate generated",
-        "grade": 6,
+        "grade": 0,
         "rawValue": 0
       },
       {
@@ -111,13 +111,13 @@
       {
         "group": "QB",
         "rawLabel": "EPA/play",
-        "grade": 13,
+        "grade": 10,
         "rawValue": -0.1623216889057948
       },
       {
         "group": "RB",
         "rawLabel": "EPA/play",
-        "grade": 19,
+        "grade": 23,
         "rawValue": -0.2101654276448247
       },
       {
@@ -134,7 +134,7 @@
       },
       {
         "group": "OL",
-        "grade": 20,
+        "grade": 18,
         "rawValue": 0.09836065573770492,
         "rawLabel": "Sack rate allowed (excl. QB fault)"
       },
@@ -164,7 +164,7 @@
       {
         "group": "QB",
         "rawLabel": "EPA/play",
-        "grade": 71,
+        "grade": 74,
         "rawValue": 0.2067507543914118
       },
       {
@@ -176,18 +176,18 @@
       {
         "group": "WR",
         "rawLabel": "EPA/play",
-        "grade": 74,
+        "grade": 77,
         "rawValue": 0.5244535832086253
       },
       {
         "group": "TE",
         "rawLabel": "EPA/play",
-        "grade": 6,
+        "grade": 3,
         "rawValue": -0.293391567417226
       },
       {
         "group": "OL",
-        "grade": 68,
+        "grade": 66,
         "rawValue": 0.057971014492753624,
         "rawLabel": "Sack rate allowed (excl. QB fault)"
       },
@@ -206,7 +206,7 @@
       {
         "group": "Secondary",
         "rawLabel": "Pass EPA allowed",
-        "grade": 81,
+        "grade": 77,
         "rawValue": -0.15701131390790773
       }
     ]
@@ -217,7 +217,7 @@
       {
         "group": "QB",
         "rawLabel": "EPA/play",
-        "grade": 74,
+        "grade": 77,
         "rawValue": 0.22325195847620546
       },
       {
@@ -235,12 +235,12 @@
       {
         "group": "TE",
         "rawLabel": "EPA/play",
-        "grade": 55,
+        "grade": 58,
         "rawValue": 0.38402024756942404
       },
       {
         "group": "OL",
-        "grade": 55,
+        "grade": 53,
         "rawValue": 0.08196721311475409,
         "rawLabel": "Sack rate allowed (excl. QB fault)"
       },
@@ -253,13 +253,13 @@
       {
         "group": "Interior DL",
         "rawLabel": "Rush EPA allowed",
-        "grade": 35,
+        "grade": 29,
         "rawValue": 0.02251442700117584
       },
       {
         "group": "Secondary",
         "rawLabel": "Pass EPA allowed",
-        "grade": 65,
+        "grade": 61,
         "rawValue": -0.06148625600536923
       }
     ]
@@ -270,7 +270,7 @@
       {
         "group": "QB",
         "rawLabel": "EPA/play",
-        "grade": 35,
+        "grade": 32,
         "rawValue": -0.04409275908423555
       },
       {
@@ -288,13 +288,13 @@
       {
         "group": "TE",
         "rawLabel": "EPA/play",
-        "grade": 71,
+        "grade": 74,
         "rawValue": 0.4794985128350418
       },
       {
         "group": "OL",
-        "grade": 24,
-        "rawValue": 0.06944444444444445,
+        "grade": 32,
+        "rawValue": 0.05555555555555555,
         "rawLabel": "Sack rate allowed (excl. QB fault)"
       },
       {
@@ -323,7 +323,7 @@
       {
         "group": "QB",
         "rawLabel": "EPA/play",
-        "grade": 42,
+        "grade": 39,
         "rawValue": 0.009131842653448194
       },
       {
@@ -341,12 +341,12 @@
       {
         "group": "TE",
         "rawLabel": "EPA/play",
-        "grade": 65,
+        "grade": 68,
         "rawValue": 0.4602154743867393
       },
       {
         "group": "OL",
-        "grade": 25,
+        "grade": 19,
         "rawValue": 0.06779661016949153,
         "rawLabel": "Sack rate allowed (excl. QB fault)"
       },
@@ -359,13 +359,13 @@
       {
         "group": "Interior DL",
         "rawLabel": "Rush EPA allowed",
-        "grade": 23,
+        "grade": 19,
         "rawValue": 0.06309643242727243
       },
       {
         "group": "Secondary",
         "rawLabel": "Pass EPA allowed",
-        "grade": 45,
+        "grade": 42,
         "rawValue": 0.089522696518334
       }
     ]
@@ -382,13 +382,13 @@
       {
         "group": "RB",
         "rawLabel": "EPA/play",
-        "grade": 13,
+        "grade": 16,
         "rawValue": -0.21609726569486648
       },
       {
         "group": "WR",
         "rawLabel": "EPA/play",
-        "grade": 6,
+        "grade": 3,
         "rawValue": -0.2336804793625095
       },
       {
@@ -399,7 +399,7 @@
       },
       {
         "group": "OL",
-        "grade": 55,
+        "grade": 52,
         "rawValue": 0.06896551724137931,
         "rawLabel": "Sack rate allowed (excl. QB fault)"
       },
@@ -412,7 +412,7 @@
       {
         "group": "Interior DL",
         "rawLabel": "Rush EPA allowed",
-        "grade": 48,
+        "grade": 45,
         "rawValue": -0.014136828959288219
       },
       {
@@ -429,7 +429,7 @@
       {
         "group": "QB",
         "rawLabel": "EPA/play",
-        "grade": 39,
+        "grade": 35,
         "rawValue": -0.04395780460880779
       },
       {
@@ -452,7 +452,7 @@
       },
       {
         "group": "OL",
-        "grade": 50,
+        "grade": 47,
         "rawValue": 0.06930693069306931,
         "rawLabel": "Sack rate allowed (excl. QB fault)"
       },
@@ -482,7 +482,7 @@
       {
         "group": "QB",
         "rawLabel": "EPA/play",
-        "grade": 16,
+        "grade": 13,
         "rawValue": -0.14604172327856693
       },
       {
@@ -500,12 +500,12 @@
       {
         "group": "TE",
         "rawLabel": "EPA/play",
-        "grade": 16,
+        "grade": 13,
         "rawValue": -0.12727650532698487
       },
       {
         "group": "OL",
-        "grade": 54,
+        "grade": 48,
         "rawValue": 0.03125,
         "rawLabel": "Sack rate allowed (excl. QB fault)"
       },
@@ -524,7 +524,7 @@
       {
         "group": "Secondary",
         "rawLabel": "Pass EPA allowed",
-        "grade": 6,
+        "grade": 10,
         "rawValue": 0.3093515404553207
       }
     ]
@@ -535,7 +535,7 @@
       {
         "group": "QB",
         "rawLabel": "EPA/play",
-        "grade": 84,
+        "grade": 87,
         "rawValue": 0.271025856138787
       },
       {
@@ -553,7 +553,7 @@
       {
         "group": "TE",
         "rawLabel": "EPA/play",
-        "grade": 87,
+        "grade": 90,
         "rawValue": 0.6585112301641131
       },
       {
@@ -571,13 +571,13 @@
       {
         "group": "Interior DL",
         "rawLabel": "Rush EPA allowed",
-        "grade": 45,
+        "grade": 42,
         "rawValue": -0.0139504600332123
       },
       {
         "group": "Secondary",
         "rawLabel": "Pass EPA allowed",
-        "grade": 58,
+        "grade": 55,
         "rawValue": -0.02420974490595055
       }
     ]
@@ -588,31 +588,31 @@
       {
         "group": "QB",
         "rawLabel": "EPA/play",
-        "grade": 19,
+        "grade": 16,
         "rawValue": -0.13068365403198867
       },
       {
         "group": "RB",
         "rawLabel": "EPA/play",
-        "grade": 68,
+        "grade": 71,
         "rawValue": -0.032297418504755496
       },
       {
         "group": "WR",
         "rawLabel": "EPA/play",
-        "grade": 61,
+        "grade": 65,
         "rawValue": 0.32814919571413775
       },
       {
         "group": "TE",
         "rawLabel": "EPA/play",
-        "grade": 10,
+        "grade": 6,
         "rawValue": -0.2084168031652002
       },
       {
         "group": "OL",
-        "grade": 63,
-        "rawValue": 0.05263157894736842,
+        "grade": 71,
+        "rawValue": 0.03508771929824561,
         "rawLabel": "Sack rate allowed (excl. QB fault)"
       },
       {
@@ -641,7 +641,7 @@
       {
         "group": "QB",
         "rawLabel": "EPA/play",
-        "grade": 26,
+        "grade": 23,
         "rawValue": -0.0944527841111421
       },
       {
@@ -653,18 +653,18 @@
       {
         "group": "WR",
         "rawLabel": "EPA/play",
-        "grade": 10,
+        "grade": 6,
         "rawValue": -0.1150964307492937
       },
       {
         "group": "TE",
         "rawLabel": "EPA/play",
-        "grade": 90,
+        "grade": 94,
         "rawValue": 0.6761201907744789
       },
       {
         "group": "OL",
-        "grade": 65,
+        "grade": 63,
         "rawValue": 0.047619047619047616,
         "rawLabel": "Sack rate allowed (excl. QB fault)"
       },
@@ -683,7 +683,7 @@
       {
         "group": "Secondary",
         "rawLabel": "Pass EPA allowed",
-        "grade": 71,
+        "grade": 68,
         "rawValue": -0.10694808423171986
       }
     ]
@@ -694,7 +694,7 @@
       {
         "group": "QB",
         "rawLabel": "EPA/play",
-        "grade": 61,
+        "grade": 65,
         "rawValue": 0.14259902217413273
       },
       {
@@ -712,12 +712,12 @@
       {
         "group": "TE",
         "rawLabel": "EPA/play",
-        "grade": 77,
+        "grade": 81,
         "rawValue": 0.5518906076428681
       },
       {
         "group": "OL",
-        "grade": 78,
+        "grade": 76,
         "rawValue": 0.05128205128205128,
         "rawLabel": "Sack rate allowed (excl. QB fault)"
       },
@@ -730,13 +730,13 @@
       {
         "group": "Interior DL",
         "rawLabel": "Rush EPA allowed",
-        "grade": 29,
+        "grade": 23,
         "rawValue": 0.05238993814756303
       },
       {
         "group": "Secondary",
         "rawLabel": "Pass EPA allowed",
-        "grade": 77,
+        "grade": 74,
         "rawValue": -0.13484191745270155
       }
     ]
@@ -753,13 +753,13 @@
       {
         "group": "RB",
         "rawLabel": "EPA/play",
-        "grade": 26,
+        "grade": 29,
         "rawValue": -0.20123953224623553
       },
       {
         "group": "WR",
         "rawLabel": "EPA/play",
-        "grade": 52,
+        "grade": 55,
         "rawValue": 0.29670845308464844
       },
       {
@@ -770,7 +770,7 @@
       },
       {
         "group": "OL",
-        "grade": 62,
+        "grade": 58,
         "rawValue": 0.03278688524590164,
         "rawLabel": "Sack rate allowed (excl. QB fault)"
       },
@@ -789,7 +789,7 @@
       {
         "group": "Secondary",
         "rawLabel": "Pass EPA allowed",
-        "grade": 84,
+        "grade": 81,
         "rawValue": -0.15795193956445816
       }
     ]
@@ -800,7 +800,7 @@
       {
         "group": "QB",
         "rawLabel": "EPA/play",
-        "grade": 23,
+        "grade": 19,
         "rawValue": -0.10284666576950567
       },
       {
@@ -823,7 +823,7 @@
       },
       {
         "group": "OL",
-        "grade": 11,
+        "grade": 8,
         "rawValue": 0.1,
         "rawLabel": "Sack rate allowed (excl. QB fault)"
       },
@@ -853,7 +853,7 @@
       {
         "group": "QB",
         "rawLabel": "EPA/play",
-        "grade": 87,
+        "grade": 90,
         "rawValue": 0.3803720708833604
       },
       {
@@ -865,19 +865,19 @@
       {
         "group": "WR",
         "rawLabel": "EPA/play",
-        "grade": 77,
+        "grade": 81,
         "rawValue": 0.5287983276442058
       },
       {
         "group": "TE",
         "rawLabel": "EPA/play",
-        "grade": 94,
+        "grade": 97,
         "rawValue": 0.8498636942531452
       },
       {
         "group": "OL",
-        "grade": 84,
-        "rawValue": 0.029850746268656716,
+        "grade": 91,
+        "rawValue": 0,
         "rawLabel": "Sack rate allowed (excl. QB fault)"
       },
       {
@@ -889,13 +889,13 @@
       {
         "group": "Interior DL",
         "rawLabel": "Rush EPA allowed",
-        "grade": 16,
+        "grade": 13,
         "rawValue": 0.08270627405462735
       },
       {
         "group": "Secondary",
         "rawLabel": "Pass EPA allowed",
-        "grade": 3,
+        "grade": 6,
         "rawValue": 0.3503731691205574
       }
     ]
@@ -906,50 +906,50 @@
       {
         "group": "QB",
         "rawLabel": "EPA/play",
-        "grade": 100,
-        "rawValue": 0.7068532854290452
+        "grade": 48,
+        "rawValue": 0.06624919644043724
       },
       {
         "group": "RB",
         "rawLabel": "EPA/play",
-        "grade": 32,
-        "rawValue": -0.1680568633612262
+        "grade": 13,
+        "rawValue": -0.23771435734963875
       },
       {
         "group": "WR",
         "rawLabel": "EPA/play",
-        "grade": 81,
-        "rawValue": 0.531752103415783
+        "grade": 10,
+        "rawValue": -0.026667772956509097
       },
       {
         "group": "TE",
         "rawLabel": "EPA/play",
-        "grade": 100,
-        "rawValue": 1.3208724453611975
+        "grade": 55,
+        "rawValue": 0.3518122507413628
       },
       {
         "group": "OL",
-        "grade": 50,
-        "rawValue": 0.06451612903225806,
+        "grade": 31,
+        "rawValue": 0.06153846153846154,
         "rawLabel": "Sack rate allowed (excl. QB fault)"
       },
       {
         "group": "Edge",
         "rawLabel": "Sack rate generated",
         "grade": 3,
-        "rawValue": 0
+        "rawValue": 0.015151515151515152
       },
       {
         "group": "Interior DL",
         "rawLabel": "Rush EPA allowed",
-        "grade": 26,
-        "rawValue": 0.060774440615205
+        "grade": 48,
+        "rawValue": -0.026218717733701307
       },
       {
         "group": "Secondary",
         "rawLabel": "Pass EPA allowed",
-        "grade": 10,
-        "rawValue": 0.3053206695459424
+        "grade": 3,
+        "rawValue": 0.4437411507582652
       }
     ]
   },
@@ -959,7 +959,7 @@
       {
         "group": "QB",
         "rawLabel": "EPA/play",
-        "grade": 65,
+        "grade": 68,
         "rawValue": 0.14765278678073127
       },
       {
@@ -971,19 +971,19 @@
       {
         "group": "WR",
         "rawLabel": "EPA/play",
-        "grade": 71,
+        "grade": 74,
         "rawValue": 0.5054930704315445
       },
       {
         "group": "TE",
         "rawLabel": "EPA/play",
-        "grade": 84,
+        "grade": 87,
         "rawValue": 0.59180947627609
       },
       {
         "group": "OL",
-        "grade": 52,
-        "rawValue": 0.04411764705882353,
+        "grade": 58,
+        "rawValue": 0.014705882352941176,
         "rawLabel": "Sack rate allowed (excl. QB fault)"
       },
       {
@@ -995,13 +995,13 @@
       {
         "group": "Interior DL",
         "rawLabel": "Rush EPA allowed",
-        "grade": 19,
+        "grade": 16,
         "rawValue": 0.06706696256457988
       },
       {
         "group": "Secondary",
         "rawLabel": "Pass EPA allowed",
-        "grade": 52,
+        "grade": 48,
         "rawValue": 0.06565725725658017
       }
     ]
@@ -1024,7 +1024,7 @@
       {
         "group": "WR",
         "rawLabel": "EPA/play",
-        "grade": 58,
+        "grade": 61,
         "rawValue": 0.3230268344004092
       },
       {
@@ -1048,7 +1048,7 @@
       {
         "group": "Interior DL",
         "rawLabel": "Rush EPA allowed",
-        "grade": 39,
+        "grade": 35,
         "rawValue": -0.011738705980612458
       },
       {
@@ -1065,7 +1065,7 @@
       {
         "group": "QB",
         "rawLabel": "EPA/play",
-        "grade": 68,
+        "grade": 71,
         "rawValue": 0.1483352121188585
       },
       {
@@ -1077,7 +1077,7 @@
       {
         "group": "WR",
         "rawLabel": "EPA/play",
-        "grade": 68,
+        "grade": 71,
         "rawValue": 0.4870475588396591
       },
       {
@@ -1088,7 +1088,7 @@
       },
       {
         "group": "OL",
-        "grade": 26,
+        "grade": 23,
         "rawValue": 0.08571428571428572,
         "rawLabel": "Sack rate allowed (excl. QB fault)"
       },
@@ -1118,7 +1118,7 @@
       {
         "group": "QB",
         "rawLabel": "EPA/play",
-        "grade": 77,
+        "grade": 81,
         "rawValue": 0.23552940634261804
       },
       {
@@ -1130,18 +1130,18 @@
       {
         "group": "WR",
         "rawLabel": "EPA/play",
-        "grade": 55,
+        "grade": 58,
         "rawValue": 0.31921597287369013
       },
       {
         "group": "TE",
         "rawLabel": "EPA/play",
-        "grade": 74,
+        "grade": 77,
         "rawValue": 0.5327122634444098
       },
       {
         "group": "OL",
-        "grade": 54,
+        "grade": 52,
         "rawValue": 0.012195121951219513,
         "rawLabel": "Sack rate allowed (excl. QB fault)"
       },
@@ -1154,7 +1154,7 @@
       {
         "group": "Interior DL",
         "rawLabel": "Rush EPA allowed",
-        "grade": 10,
+        "grade": 6,
         "rawValue": 0.2065704754109148
       },
       {
@@ -1171,7 +1171,7 @@
       {
         "group": "QB",
         "rawLabel": "EPA/play",
-        "grade": 32,
+        "grade": 29,
         "rawValue": -0.07528397923040234
       },
       {
@@ -1189,13 +1189,13 @@
       {
         "group": "TE",
         "rawLabel": "EPA/play",
-        "grade": 68,
+        "grade": 71,
         "rawValue": 0.46164093217036384
       },
       {
         "group": "OL",
-        "grade": 10,
-        "rawValue": 0.08974358974358974,
+        "grade": 18,
+        "rawValue": 0.0641025641025641,
         "rawLabel": "Sack rate allowed (excl. QB fault)"
       },
       {
@@ -1213,7 +1213,7 @@
       {
         "group": "Secondary",
         "rawLabel": "Pass EPA allowed",
-        "grade": 48,
+        "grade": 45,
         "rawValue": 0.06698633274850307
       }
     ]
@@ -1224,7 +1224,7 @@
       {
         "group": "QB",
         "rawLabel": "EPA/play",
-        "grade": 48,
+        "grade": 45,
         "rawValue": 0.020237657453315724
       },
       {
@@ -1236,18 +1236,18 @@
       {
         "group": "WR",
         "rawLabel": "EPA/play",
-        "grade": 48,
+        "grade": 52,
         "rawValue": 0.23331144037612492
       },
       {
         "group": "TE",
         "rawLabel": "EPA/play",
-        "grade": 81,
+        "grade": 84,
         "rawValue": 0.5732399330811512
       },
       {
         "group": "OL",
-        "grade": 26,
+        "grade": 24,
         "rawValue": 0.11764705882352941,
         "rawLabel": "Sack rate allowed (excl. QB fault)"
       },
@@ -1266,7 +1266,7 @@
       {
         "group": "Secondary",
         "rawLabel": "Pass EPA allowed",
-        "grade": 68,
+        "grade": 65,
         "rawValue": -0.07611644126535179
       }
     ]
@@ -1295,12 +1295,12 @@
       {
         "group": "TE",
         "rawLabel": "EPA/play",
-        "grade": 3,
+        "grade": 0,
         "rawValue": -0.9113165360629676
       },
       {
         "group": "OL",
-        "grade": 25,
+        "grade": 23,
         "rawValue": 0.09836065573770492,
         "rawLabel": "Sack rate allowed (excl. QB fault)"
       },
@@ -1319,7 +1319,7 @@
       {
         "group": "Secondary",
         "rawLabel": "Pass EPA allowed",
-        "grade": 61,
+        "grade": 58,
         "rawValue": -0.03530408163038731
       }
     ]
@@ -1330,7 +1330,7 @@
       {
         "group": "QB",
         "rawLabel": "EPA/play",
-        "grade": 81,
+        "grade": 84,
         "rawValue": 0.27067150703010157
       },
       {
@@ -1342,18 +1342,18 @@
       {
         "group": "WR",
         "rawLabel": "EPA/play",
-        "grade": 65,
+        "grade": 68,
         "rawValue": 0.3935864323562582
       },
       {
         "group": "TE",
         "rawLabel": "EPA/play",
-        "grade": 61,
+        "grade": 65,
         "rawValue": 0.430839773473175
       },
       {
         "group": "OL",
-        "grade": 68,
+        "grade": 66,
         "rawValue": 0.05128205128205128,
         "rawLabel": "Sack rate allowed (excl. QB fault)"
       },
@@ -1366,13 +1366,13 @@
       {
         "group": "Interior DL",
         "rawLabel": "Rush EPA allowed",
-        "grade": 13,
+        "grade": 10,
         "rawValue": 0.11361006861814918
       },
       {
         "group": "Secondary",
         "rawLabel": "Pass EPA allowed",
-        "grade": 87,
+        "grade": 84,
         "rawValue": -0.1685670308970902
       }
     ]
@@ -1406,7 +1406,7 @@
       },
       {
         "group": "OL",
-        "grade": 55,
+        "grade": 54,
         "rawValue": 0.08080808080808081,
         "rawLabel": "Sack rate allowed (excl. QB fault)"
       },
@@ -1419,13 +1419,13 @@
       {
         "group": "Interior DL",
         "rawLabel": "Rush EPA allowed",
-        "grade": 32,
+        "grade": 26,
         "rawValue": 0.041588453767524854
       },
       {
         "group": "Secondary",
         "rawLabel": "Pass EPA allowed",
-        "grade": 55,
+        "grade": 52,
         "rawValue": 0.056605201575677715
       }
     ]
@@ -1436,7 +1436,7 @@
       {
         "group": "QB",
         "rawLabel": "EPA/play",
-        "grade": 10,
+        "grade": 6,
         "rawValue": -0.31120078332782664
       },
       {
@@ -1454,13 +1454,13 @@
       {
         "group": "TE",
         "rawLabel": "EPA/play",
-        "grade": 13,
+        "grade": 10,
         "rawValue": -0.1403462814100842
       },
       {
         "group": "OL",
-        "grade": 69,
-        "rawValue": 0.043478260869565216,
+        "grade": 71,
+        "rawValue": 0.028985507246376812,
         "rawLabel": "Sack rate allowed (excl. QB fault)"
       },
       {
@@ -1478,7 +1478,7 @@
       {
         "group": "Secondary",
         "rawLabel": "Pass EPA allowed",
-        "grade": 42,
+        "grade": 39,
         "rawValue": 0.11392437110042485
       }
     ]
@@ -1489,13 +1489,13 @@
       {
         "group": "QB",
         "rawLabel": "EPA/play",
-        "grade": 45,
+        "grade": 42,
         "rawValue": 0.013655654424378568
       },
       {
         "group": "RB",
         "rawLabel": "EPA/play",
-        "grade": 23,
+        "grade": 26,
         "rawValue": -0.20658355018887462
       },
       {
@@ -1507,12 +1507,12 @@
       {
         "group": "TE",
         "rawLabel": "EPA/play",
-        "grade": 58,
+        "grade": 61,
         "rawValue": 0.3861630543452661
       },
       {
         "group": "OL",
-        "grade": 58,
+        "grade": 57,
         "rawValue": 0.04411764705882353,
         "rawLabel": "Sack rate allowed (excl. QB fault)"
       },
@@ -1542,50 +1542,50 @@
       {
         "group": "QB",
         "rawLabel": "EPA/play",
-        "grade": 6,
-        "rawValue": -0.3938521855889116
+        "grade": 61,
+        "rawValue": 0.12600696335992667
       },
       {
         "group": "RB",
         "rawLabel": "EPA/play",
-        "grade": 71,
-        "rawValue": -0.03114579346192129
+        "grade": 65,
+        "rawValue": -0.048459878048160945
       },
       {
         "group": "WR",
         "rawLabel": "EPA/play",
-        "grade": 3,
-        "rawValue": -0.26822380924953415
+        "grade": 48,
+        "rawValue": 0.22957516491260366
       },
       {
         "group": "TE",
         "rawLabel": "EPA/play",
-        "grade": 0,
-        "rawValue": -1.0949952848410842
+        "grade": 16,
+        "rawValue": -0.11949205979342577
       },
       {
         "group": "OL",
-        "grade": 50,
-        "rawValue": 0,
+        "grade": 71,
+        "rawValue": 0.016666666666666666,
         "rawLabel": "Sack rate allowed (excl. QB fault)"
       },
       {
         "group": "Edge",
         "rawLabel": "Sack rate generated",
-        "grade": 0,
-        "rawValue": 0
+        "grade": 6,
+        "rawValue": 0.029411764705882353
       },
       {
         "group": "Interior DL",
         "rawLabel": "Rush EPA allowed",
-        "grade": 6,
-        "rawValue": 0.22051654653235675
+        "grade": 32,
+        "rawValue": 0.012075278564881367
       },
       {
         "group": "Secondary",
         "rawLabel": "Pass EPA allowed",
-        "grade": 39,
-        "rawValue": 0.14193022164355695
+        "grade": 87,
+        "rawValue": -0.18795039034986835
       }
     ]
   },
@@ -1595,13 +1595,13 @@
       {
         "group": "QB",
         "rawLabel": "EPA/play",
-        "grade": 97,
+        "grade": 100,
         "rawValue": 0.5027864475395084
       },
       {
         "group": "RB",
         "rawLabel": "EPA/play",
-        "grade": 65,
+        "grade": 68,
         "rawValue": -0.037191763403825316
       },
       {
@@ -1637,7 +1637,7 @@
       {
         "group": "Secondary",
         "rawLabel": "Pass EPA allowed",
-        "grade": 74,
+        "grade": 71,
         "rawValue": -0.11952626263166276
       }
     ]
@@ -1648,13 +1648,13 @@
       {
         "group": "QB",
         "rawLabel": "EPA/play",
-        "grade": 90,
+        "grade": 94,
         "rawValue": 0.38599479983089047
       },
       {
         "group": "RB",
         "rawLabel": "EPA/play",
-        "grade": 16,
+        "grade": 19,
         "rawValue": -0.21056678421054736
       },
       {
@@ -1671,7 +1671,7 @@
       },
       {
         "group": "OL",
-        "grade": 50,
+        "grade": 49,
         "rawValue": 0.05660377358490566,
         "rawLabel": "Sack rate allowed (excl. QB fault)"
       },

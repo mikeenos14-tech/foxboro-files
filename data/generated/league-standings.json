@@ -295,23 +295,6 @@
     "division": "NFC East",
     "standings": [
       {
-        "team": "NYG",
-        "wins": 1,
-        "losses": 0,
-        "ties": 0,
-        "pointDifferential": 8,
-        "isUs": false,
-        "streak": {
-          "result": "W",
-          "count": 1
-        },
-        "divisionRecord": {
-          "wins": 1,
-          "losses": 0,
-          "ties": 0
-        }
-      },
-      {
         "team": "PHI",
         "wins": 2,
         "losses": 0,
@@ -342,6 +325,23 @@
         "divisionRecord": {
           "wins": 1,
           "losses": 1,
+          "ties": 0
+        }
+      },
+      {
+        "team": "NYG",
+        "wins": 1,
+        "losses": 1,
+        "ties": 0,
+        "pointDifferential": -14,
+        "isUs": false,
+        "streak": {
+          "result": "L",
+          "count": 1
+        },
+        "divisionRecord": {
+          "wins": 1,
+          "losses": 0,
           "ties": 0
         }
       },
@@ -548,14 +548,14 @@
         }
       },
       {
-        "team": "ARI",
+        "team": "LA",
         "wins": 1,
         "losses": 1,
         "ties": 0,
-        "pointDifferential": -12,
+        "pointDifferential": 2,
         "isUs": false,
         "streak": {
-          "result": "L",
+          "result": "W",
           "count": 1
         },
         "divisionRecord": {
@@ -565,11 +565,11 @@
         }
       },
       {
-        "team": "LA",
-        "wins": 0,
+        "team": "ARI",
+        "wins": 1,
         "losses": 1,
         "ties": 0,
-        "pointDifferential": -20,
+        "pointDifferential": -12,
         "isUs": false,
         "streak": {
           "result": "L",

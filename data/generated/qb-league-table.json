@@ -344,19 +344,19 @@
     "playerName": "Jaxson Dart",
     "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/n6uymxssgiicjmxkzxoc",
     "team": "NYG",
-    "attempts": 31,
-    "completions": 23,
-    "yards": 229,
+    "attempts": 36,
+    "completions": 26,
+    "yards": 249,
     "tds": 3,
     "ints": 0,
-    "cpoe": 13.383558186991449,
+    "cpoe": 10.62989120974259,
     "accuracyByDepth": {
-      "short": 1,
-      "medium": 0.7,
+      "short": 0.9285714285714286,
+      "medium": 0.7272727272727273,
       "deep": 0
     },
-    "pressureEpa": -0.013077375572174855,
-    "cleanPocketEpa": 0.8453014894677414,
+    "pressureEpa": -0.3152181156522907,
+    "cleanPocketEpa": 0.7562657140166265,
     "turnoverWorthyPlayRate": 0
   },
   {
@@ -584,20 +584,20 @@
     "playerName": "Matthew Stafford",
     "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/jwpkjfrkzufdyh8u1mg7",
     "team": "LA",
-    "attempts": 25,
-    "completions": 15,
-    "yards": 155,
-    "tds": 0,
-    "ints": 1,
-    "cpoe": -4.6885203570127505,
+    "attempts": 56,
+    "completions": 37,
+    "yards": 473,
+    "tds": 4,
+    "ints": 2,
+    "cpoe": 1.9565673338042333,
     "accuracyByDepth": {
-      "short": 0.8333333333333334,
-      "medium": 0.5,
-      "deep": 0
+      "short": 0.7692307692307693,
+      "medium": 0.6428571428571429,
+      "deep": 0.3333333333333333
     },
-    "pressureEpa": -1.1384173078695294,
-    "cleanPocketEpa": -0.18043390158305142,
-    "turnoverWorthyPlayRate": 0.04
+    "pressureEpa": -1.0578234221191236,
+    "cleanPocketEpa": 0.3567223712811846,
+    "turnoverWorthyPlayRate": 0.03571428571428571
   },
   {
     "playerId": "00-0037834",

@@ -1,9 +1,9 @@
 [
   {
     "group": "QB",
-    "grade": 13,
+    "grade": 10,
     "trend": "flat",
-    "soWhat": "13th percentile in the NFL for EPA/play generated at QB this season (61 plays sampled).",
+    "soWhat": "10th percentile in the NFL for EPA/play generated at QB this season (61 plays sampled).",
     "windows": [
       {
         "key": "last-1",
@@ -13,16 +13,16 @@
       {
         "key": "last-2",
         "label": "Last 2 Games",
-        "grade": 13
+        "grade": 10
       }
     ],
     "statLine": ""
   },
   {
     "group": "RB",
-    "grade": 19,
+    "grade": 23,
     "trend": "flat",
-    "soWhat": "19th percentile in the NFL for EPA/play generated at RB this season (48 plays sampled).",
+    "soWhat": "23rd percentile in the NFL for EPA/play generated at RB this season (48 plays sampled).",
     "windows": [
       {
         "key": "last-1",
@@ -32,7 +32,7 @@
       {
         "key": "last-2",
         "label": "Last 2 Games",
-        "grade": 19
+        "grade": 23
       }
     ],
     "statLine": "181 yds, 3.8 YPC, 1 TD, 0 FUM, 8% explosive"
@@ -77,19 +77,19 @@
   },
   {
     "group": "OL",
-    "grade": 20,
+    "grade": 18,
     "trend": "flat",
-    "soWhat": "20th percentile in the NFL for pass protection — blends sacks that weren't the QB's own fault (13th percentile) with pressure rate allowed, sacks or QB hits combined (26th percentile). Real per-play data, still team-wide — no per-player blocking grade available free.",
+    "soWhat": "18th percentile in the NFL for pass protection — blends sacks that weren't the QB's own fault (10th percentile) with pressure rate allowed, sacks or QB hits combined (26th percentile). Real per-play data, still team-wide — no per-player blocking grade available free.",
     "windows": [
       {
         "key": "last-1",
         "label": "Last Game",
-        "grade": 15
+        "grade": 10
       },
       {
         "key": "last-2",
         "label": "Last 2 Games",
-        "grade": 20
+        "grade": 18
       }
     ],
     "statLine": ""
@@ -122,7 +122,7 @@
       {
         "key": "last-1",
         "label": "Last Game",
-        "grade": 45
+        "grade": 39
       },
       {
         "key": "last-2",
@@ -141,7 +141,7 @@
       {
         "key": "last-1",
         "label": "Last Game",
-        "grade": 97
+        "grade": 94
       },
       {
         "key": "last-2",

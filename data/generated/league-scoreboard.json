@@ -193,5 +193,18 @@
     "homeRecord": "0-2",
     "awayRecord": "2-0",
     "overtime": false
+  },
+  {
+    "gameId": "2026_02_NYG_LA",
+    "week": 2,
+    "date": "2026-09-21",
+    "weekday": "Monday",
+    "homeTeam": "LA",
+    "awayTeam": "NYG",
+    "homeScore": 28,
+    "awayScore": 6,
+    "homeRecord": "1-1",
+    "awayRecord": "1-1",
+    "overtime": false
   }
 ]

@@ -2,59 +2,59 @@
   "gameId": "2026_03_NE_JAX",
   "opponent": "JAX",
   "opponentEpaRank": {
-    "offense": 10,
-    "defense": 6
+    "offense": 9,
+    "defense": 7
   },
   "positionGroupMatchups": [
     {
       "group": "Rush Offense vs. Run Defense",
-      "ourGrade": 68,
-      "theirGrade": 45,
+      "ourGrade": 71,
+      "theirGrade": 42,
       "edge": "us",
-      "note": "68th percentile vs. 45th percentile (advantage us).",
+      "note": "71st percentile vs. 42nd percentile (advantage us).",
       "ourStatLine": "248 yds, 4.4 YPC, 1 TD, 0 FUM, 12% explosive",
       "theirStatLine": "194 yds allowed, 4.1 YPC allowed, 1 TD allowed, 11% explosive allowed"
     },
     {
       "group": "Pass Offense vs. Pass Defense",
       "ourGrade": 71,
-      "theirGrade": 84,
-      "edge": "them",
-      "note": "71st percentile vs. 84th percentile (advantage them).",
+      "theirGrade": 81,
+      "edge": "even",
+      "note": "71st percentile vs. 81st percentile (close matchup).",
       "ourStatLine": "37/61 (61%), 386 yds, 1 TD, 4 INT",
       "theirStatLine": "38/58 (66%) allowed, 493 yds allowed, 2 TD allowed, 2 INT gained"
     },
     {
       "group": "Run Defense vs. Rush Offense",
       "ourGrade": 61,
-      "theirGrade": 61,
+      "theirGrade": 65,
       "edge": "even",
-      "note": "61st percentile vs. 61st percentile (close matchup).",
+      "note": "61st percentile vs. 65th percentile (close matchup).",
       "ourStatLine": "189 yds allowed, 4.3 YPC allowed, 0 TD allowed, 11% explosive allowed",
       "theirStatLine": "224 yds, 4.2 YPC, 1 TD, 0 FUM, 13% explosive"
     },
     {
       "group": "Pass Defense vs. Pass Offense",
-      "ourGrade": 97,
-      "theirGrade": 81,
-      "edge": "us",
-      "note": "97th percentile vs. 81st percentile (advantage us).",
+      "ourGrade": 94,
+      "theirGrade": 84,
+      "edge": "even",
+      "note": "94th percentile vs. 84th percentile (close matchup).",
       "ourStatLine": "40/70 (57%) allowed, 387 yds allowed, 1 TD allowed, 1 INT gained",
       "theirStatLine": "35/55 (64%), 434 yds, 4 TD, 1 INT"
     },
     {
       "group": "Pass Protection vs. Pass Rush",
-      "ourGrade": 19,
-      "theirGrade": 35,
+      "ourGrade": 16,
+      "theirGrade": 42,
       "edge": "them",
-      "note": "19th percentile vs. 35th percentile (advantage them).",
+      "note": "16th percentile vs. 42nd percentile (advantage them).",
       "ourStatLine": "6 sacks allowed, 10% sack rate",
       "theirStatLine": "5 sacks, 11 QB hits, 9% sack rate"
     }
   ],
   "matchupOfTheWeek": {
     "title": "Rush Offense vs. Run Defense",
-    "description": "Our rush offense grades in the 68th percentile against a unit that grades 45th — the widest real statistical edge on the board this week."
+    "description": "Our rush offense grades in the 71st percentile against a unit that grades 42nd — the widest real statistical edge on the board this week."
   },
   "opponentInjuries": [],
   "recentForm": {
@@ -90,14 +90,15 @@
     }
   ],
   "weather": {
-    "tempF": 83,
-    "wind": "10 mph",
+    "tempF": 87,
+    "wind": "6 mph",
     "precipitation": "0%",
     "isDome": false
   },
   "bettingContext": {
-    "spread": 5.5,
-    "overUnder": 41.5,
+    "spread": 3,
+    "overUnder": 45.5,
     "asOf": "2026-09-22"
-  }
+  },
+  "previewTake": "Here's the thing about Jacksonville: their offense is ninth in EPA and their defense is seventh, which sounds formidable until you realize we've got the widest statistical edge on the entire Week 3 board, and it's in the trenches where games get won. Our rush offense grades in the 71st percentile against a run defense that grades 42nd—that's not a matchup advantage, that's a mismatch. Yes, Jacksonville took us to the woodshed 32-16 just two years ago, but we've also put up 50 and 51 on them in recent memory, and this team just cruised past Pittsburgh 20-3 with Drake Maye looking sharp. The Jaguars come in at +0.16 net EPA per play over their last three games, which is basically treading water, and they're showing up healthy with no reported injuries. If we can impose our will in the run game like the numbers suggest we should, we're looking at a day where we control the line of scrimmage and dictate terms—and frankly, that's the kind of football that wins in September."
 }
