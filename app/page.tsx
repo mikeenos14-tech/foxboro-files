@@ -8,6 +8,7 @@ import { DivisionStandings } from "@/components/home/DivisionStandings";
 import { TeamStrengthSection } from "@/components/home/TeamStrengthSection";
 import * as store from "@/lib/data/store";
 import { ordinal } from "@/lib/calc/ranks";
+import { buildVerdict } from "@/lib/calc/verdict";
 
 export default async function HomePage({
   searchParams,
@@ -33,9 +34,12 @@ export default async function HomePage({
   const divisionRank = standings.findIndex((s) => s.isUs) + 1;
   const us = standings.find((s) => s.isUs);
 
-  // A real, single-sentence season snapshot using numbers already computed
-  // elsewhere on this page — the StatMuse "hero answer" pattern (a bold
-  // colored headline sentence, not a bare number in a box).
+  // The verdict this page exists to deliver. The hero used to restate the
+  // record that's already displayed 100px above it, leaving the reader to
+  // assemble "are we actually good?" out of seven equally-weighted stat
+  // cards pointing different directions.
+  const verdict = buildVerdict(teamStats, wins, losses, ties);
+
   const streakText = us?.streak
     ? `on a ${us.streak.count}-game ${us.streak.result === "W" ? "winning" : us.streak.result === "L" ? "losing" : ""} streak`
     : "yet to establish a streak";
@@ -98,15 +102,13 @@ export default async function HomePage({
       </div>
 
       <div className="px-4 sm:px-0">
-        <HeroAnswerCard
-          headline={
-            <>
-              The <span className="underline decoration-white/40">Patriots</span> are {wins}-{losses}
-              {ties > 0 ? `-${ties}` : ""}, {streakText}, with {diffText} point differential this
-              season.
-            </>
-          }
-        />
+        <HeroAnswerCard headline={verdict.headline} tone={verdict.tone}>
+          <p className="text-sm text-muted">{verdict.detail}</p>
+          <p className="mt-1 text-sm text-muted">
+            {streakText.charAt(0).toUpperCase() + streakText.slice(1)}, with {diffText} point
+            differential.
+          </p>
+        </HeroAnswerCard>
       </div>
 
       <div className="grid gap-6 px-4 sm:px-0 lg:grid-cols-3">

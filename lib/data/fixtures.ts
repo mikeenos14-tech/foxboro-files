@@ -130,12 +130,28 @@ export const teamStats: TeamStatSnapshot = {
       label: "Last Week",
       offense: { value: 0.11, leagueRank: 7, leaguePercentile: 80 },
       defense: { value: -0.03, leagueRank: 14, leaguePercentile: 58 },
+      successRate: {
+        offense: { value: 0.49, leagueRank: 8, leaguePercentile: 77 },
+        defense: { value: 0.37, leagueRank: 6, leaguePercentile: 84 },
+      },
+      yardsPerPlay: {
+        offense: { value: 5.9, leagueRank: 7, leaguePercentile: 80 },
+        defense: { value: 4.8, leagueRank: 9, leaguePercentile: 74 },
+      },
     },
     {
       key: "last-2-weeks",
       label: "Last 2 Weeks",
       offense: { value: 0.08, leagueRank: 9, leaguePercentile: 75 },
       defense: { value: -0.05, leagueRank: 11, leaguePercentile: 68 },
+      successRate: {
+        offense: { value: 0.47, leagueRank: 10, leaguePercentile: 72 },
+        defense: { value: 0.39, leagueRank: 8, leaguePercentile: 78 },
+      },
+      yardsPerPlay: {
+        offense: { value: 5.6, leagueRank: 9, leaguePercentile: 74 },
+        defense: { value: 5.1, leagueRank: 12, leaguePercentile: 65 },
+      },
     },
   ],
   successRate: {

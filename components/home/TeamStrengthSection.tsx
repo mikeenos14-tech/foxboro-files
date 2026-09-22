@@ -8,10 +8,11 @@ import { useWindowParam } from "@/lib/hooks/useWindowParam";
 import { ordinal } from "@/lib/calc/ranks";
 import { formatPercent } from "@/lib/util/format";
 
-// Point differential/Pythagorean win% aren't windowed (they're simple
-// season-to-date box-score totals, not something a "last N games" slice
-// changes the meaning of the same way EPA does) — only the two EPA cards
-// swap with the selector, so this owns just that piece of the section.
+// Every per-play card follows the window selector. Point differential
+// stays season-to-date on purpose — it's a cumulative box-score total,
+// so "last N weeks point differential" would be a different stat rather
+// than the same one over a shorter span — and says so on the card when a
+// window is active, rather than silently showing season numbers.
 export function TeamStrengthSection({
   teamStats,
   initialWindow,
@@ -24,10 +25,17 @@ export function TeamStrengthSection({
     [teamStats.epaPerPlayWindows]
   );
   const [selected, setSelected] = useWindowParam("teamWindow", initialWindow, "season");
-  const epa =
-    selected === "season"
-      ? teamStats.epaPerPlay
-      : teamStats.epaPerPlayWindows.find((w) => w.key === selected) ?? teamStats.epaPerPlay;
+  const isSeason = selected === "season";
+  const window = teamStats.epaPerPlayWindows.find((w) => w.key === selected);
+
+  // Every per-play metric follows the selector. Previously only the two
+  // EPA cards did, so choosing "Last Week" left success rate and
+  // yards/play showing full-season numbers under a selector that said
+  // otherwise.
+  const epa = isSeason || !window ? teamStats.epaPerPlay : window;
+  const successRate = isSeason || !window ? teamStats.successRate : window.successRate;
+  const yardsPerPlay = isSeason || !window ? teamStats.yardsPerPlay : window.yardsPerPlay;
+  const windowLabel = isSeason ? null : (window?.label ?? null);
 
   return (
     <div className="lg:col-span-2">
@@ -48,7 +56,11 @@ export function TeamStrengthSection({
           label="Point Differential"
           value={`${teamStats.pointDifferential.value > 0 ? "+" : ""}${teamStats.pointDifferential.value}`}
           leagueRank={teamStats.pointDifferential.leagueRank}
-          soWhat={`Pythagorean win% suggests a ${formatPercent(teamStats.pythagoreanWinPct)} true-talent team.`}
+          soWhat={
+            windowLabel
+              ? `Season to date — point differential is a cumulative total, not a per-play rate.`
+              : `Pythagorean win% suggests a ${formatPercent(teamStats.pythagoreanWinPct)} true-talent team.`
+          }
           animate={{
             value: teamStats.pointDifferential.value,
             prefix: teamStats.pointDifferential.value > 0 ? "+" : "",
@@ -70,30 +82,30 @@ export function TeamStrengthSection({
         />
         <StatCard
           label="Offensive Success Rate"
-          value={formatPercent(teamStats.successRate.offense.value)}
-          leagueRank={teamStats.successRate.offense.leagueRank}
+          value={formatPercent(successRate.offense.value)}
+          leagueRank={successRate.offense.leagueRank}
           soWhat="Share of plays that kept the offense ahead of down-and-distance expectations."
-          animate={{ value: teamStats.successRate.offense.value * 100, suffix: "%" }}
+          animate={{ value: successRate.offense.value * 100, suffix: "%" }}
         />
         <StatCard
           label="Defensive Success Rate"
-          value={formatPercent(teamStats.successRate.defense.value)}
-          leagueRank={teamStats.successRate.defense.leagueRank}
+          value={formatPercent(successRate.defense.value)}
+          leagueRank={successRate.defense.leagueRank}
           soWhat="Share of opponent plays allowed to succeed — lower is better here."
-          animate={{ value: teamStats.successRate.defense.value * 100, suffix: "%" }}
+          animate={{ value: successRate.defense.value * 100, suffix: "%" }}
         />
         <StatCard
           label="Offensive Yards/Play"
-          value={teamStats.yardsPerPlay.offense.value.toFixed(1)}
-          leagueRank={teamStats.yardsPerPlay.offense.leagueRank}
-          animate={{ value: teamStats.yardsPerPlay.offense.value, decimals: 1 }}
+          value={yardsPerPlay.offense.value.toFixed(1)}
+          leagueRank={yardsPerPlay.offense.leagueRank}
+          animate={{ value: yardsPerPlay.offense.value, decimals: 1 }}
         />
         <StatCard
           label="Defensive Yards/Play"
-          value={teamStats.yardsPerPlay.defense.value.toFixed(1)}
-          leagueRank={teamStats.yardsPerPlay.defense.leagueRank}
+          value={yardsPerPlay.defense.value.toFixed(1)}
+          leagueRank={yardsPerPlay.defense.leagueRank}
           soWhat="Fewer yards allowed per snap is better here."
-          animate={{ value: teamStats.yardsPerPlay.defense.value, decimals: 1 }}
+          animate={{ value: yardsPerPlay.defense.value, decimals: 1 }}
         />
       </div>
     </div>

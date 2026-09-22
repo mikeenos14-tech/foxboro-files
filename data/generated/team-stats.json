@@ -26,6 +26,30 @@
         "value": -0.3484461443182246,
         "leagueRank": 3,
         "leaguePercentile": 94
+      },
+      "successRate": {
+        "offense": {
+          "value": 0.4117647058823529,
+          "leagueRank": 17,
+          "leaguePercentile": 48
+        },
+        "defense": {
+          "value": 0.373134328358209,
+          "leagueRank": 11,
+          "leaguePercentile": 68
+        }
+      },
+      "yardsPerPlay": {
+        "offense": {
+          "value": 6.470588235294118,
+          "leagueRank": 6,
+          "leaguePercentile": 84
+        },
+        "defense": {
+          "value": 3.5074626865671643,
+          "leagueRank": 3,
+          "leaguePercentile": 94
+        }
       }
     },
     {
@@ -40,6 +64,30 @@
         "value": -0.1698992279398166,
         "leagueRank": 4,
         "leaguePercentile": 90
+      },
+      "successRate": {
+        "offense": {
+          "value": 0.4152542372881356,
+          "leagueRank": 22,
+          "leaguePercentile": 32
+        },
+        "defense": {
+          "value": 0.38596491228070173,
+          "leagueRank": 9,
+          "leaguePercentile": 74
+        }
+      },
+      "yardsPerPlay": {
+        "offense": {
+          "value": 5.1440677966101696,
+          "leagueRank": 18,
+          "leaguePercentile": 45
+        },
+        "defense": {
+          "value": 4.5701754385964914,
+          "leagueRank": 4,
+          "leaguePercentile": 90
+        }
       }
     }
   ],

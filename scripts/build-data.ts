@@ -100,13 +100,28 @@ async function main() {
   // than each team's own game count) keeps every team's window aligned to
   // the same games, so an opponent's leave-one-out baseline is always
   // drawn from that same window.
+  //
+  // Success rate and yards/play are windowed here too. They used not to
+  // be, which made the Team Strength filter actively misleading: picking
+  // "Last Week" moved the two EPA cards and silently left the other five
+  // showing full-season numbers directly under a selector that said
+  // "Last Week". A partial filter is worse than no filter.
   const epaPerPlayWindows = buildLastNWeekWindows(pbp).map((window) => {
-    const windowedEpa = computeAdjustedEpa(filterRowsToWindow(pbp, window), ALL_TEAMS);
+    const windowRows = filterRowsToWindow(pbp, window);
+    const windowedEpa = computeAdjustedEpa(windowRows, ALL_TEAMS);
     return {
       key: window.key,
       label: window.label,
       offense: rankGeneric(ALL_TEAMS, TEAM, (t) => windowedEpa.offense.get(t) ?? 0, true),
       defense: rankGeneric(ALL_TEAMS, TEAM, (t) => windowedEpa.defense.get(t) ?? 0, false),
+      successRate: {
+        offense: rankGeneric(ALL_TEAMS, TEAM, (t) => offenseStats(windowRows, t).successRate, true),
+        defense: rankGeneric(ALL_TEAMS, TEAM, (t) => defenseStats(windowRows, t).successRate, false),
+      },
+      yardsPerPlay: {
+        offense: rankGeneric(ALL_TEAMS, TEAM, (t) => offenseStats(windowRows, t).yardsPerPlay, true),
+        defense: rankGeneric(ALL_TEAMS, TEAM, (t) => defenseStats(windowRows, t).yardsPerPlay, false),
+      },
     };
   });
 

@@ -129,7 +129,19 @@ export interface TeamStatSnapshot {
   // just the full-season snapshot. Real opponent-adjustment throughout
   // (see statWindows.ts's buildLastNWeekWindows for why calendar weeks,
   // not per-team game counts, keep that adjustment sound).
-  epaPerPlayWindows: Array<{ key: string; label: string; offense: RankedStat; defense: RankedStat }>;
+  epaPerPlayWindows: Array<{
+    key: string;
+    label: string;
+    offense: RankedStat;
+    defense: RankedStat;
+    // Windowed alongside EPA so the Team Strength filter moves every
+    // metric it claims to. Point differential stays season-to-date — it's
+    // a cumulative box-score total, not a per-play rate, so a "last N
+    // weeks point differential" would be a different stat rather than the
+    // same one over a shorter span.
+    successRate: { offense: RankedStat; defense: RankedStat };
+    yardsPerPlay: { offense: RankedStat; defense: RankedStat };
+  }>;
   successRate: { offense: RankedStat; defense: RankedStat };
   // Raw yards/play, not opponent-adjusted — the classic pre-EPA box-score
   // number, computed but previously entirely absent from the site (see
