@@ -1,30 +1,27 @@
 import type { TeamStatSnapshot } from "@/lib/data/types";
-import { StatCard } from "@/components/shared/StatCard";
+import { StatListTable } from "@/components/shared/StatListTable";
 
-// Real penalty counts/yards — a traditional stat with no presence on the
-// site before this (see lib/pbp.ts's penaltyStats/mostPenalizedPlayer).
-// Fewer penalties is better, same as every other "lower is better"
-// RankedStat on the site — StatCard's rank coloring already handles that
-// via leagueRank without any extra flag here.
+// Fewer penalties is better, which StatListTable's rank colouring already
+// reflects — leagueRank is computed with that direction baked in, so rank
+// 1 means fewest (see rankGeneric).
 export function DisciplineStats({ discipline }: { discipline: TeamStatSnapshot["discipline"] }) {
   return (
-    <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-      <StatCard
-        label="Penalties"
-        value={String(discipline.penaltiesCommitted.value)}
-        leagueRank={discipline.penaltiesCommitted.leagueRank}
-      />
-      <StatCard
-        label="Penalty Yards"
-        value={String(discipline.penaltyYardsCommitted.value)}
-        leagueRank={discipline.penaltyYardsCommitted.leagueRank}
-      />
-      {discipline.mostPenalized && (
-        <StatCard
-          label="Most Penalized"
-          value={`${discipline.mostPenalized.playerName} (${discipline.mostPenalized.count})`}
-        />
-      )}
-    </div>
+    <StatListTable
+      rows={[
+        {
+          label: "Penalties",
+          stat: discipline.penaltiesCommitted,
+          format: (v) => String(v),
+          note: discipline.mostPenalized
+            ? `most: ${discipline.mostPenalized.playerName} (${discipline.mostPenalized.count})`
+            : undefined,
+        },
+        {
+          label: "Penalty yards",
+          stat: discipline.penaltyYardsCommitted,
+          format: (v) => String(v),
+        },
+      ]}
+    />
   );
 }

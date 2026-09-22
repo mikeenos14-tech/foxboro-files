@@ -114,7 +114,12 @@ export default async function HomePage({
       </div>
 
       <div className="grid gap-6 px-4 sm:px-0 lg:grid-cols-3">
-        <div className="lg:col-span-2">
+        {/* min-w-0 is load-bearing: a grid item defaults to min-width:auto,
+            so the horizontally-scrolling unit-grades strip inside expanded
+            this whole column to its content width (727px on a 375px phone)
+            instead of scrolling, which pushed every table beside it off the
+            screen. */}
+        <div className="min-w-0 lg:col-span-2">
           <TeamSnapshot
             teamStats={teamStats}
             cards={reportCards}

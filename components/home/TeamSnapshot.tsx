@@ -6,7 +6,8 @@ import type {
   PriorSeasonSnapshot,
   TeamStatSnapshot,
 } from "@/lib/data/types";
-import { StatCard } from "@/components/shared/StatCard";
+import { CountUp } from "@/components/shared/CountUp";
+import { MetricComparisonTable } from "@/components/shared/MetricComparisonTable";
 import { StatWindowSelector } from "@/components/shared/StatWindowSelector";
 import { PositionGroupSummaryStrip } from "@/components/roster/PositionGroupSummaryStrip";
 import { useWindowParam } from "@/lib/hooks/useWindowParam";
@@ -118,79 +119,51 @@ export function TeamSnapshot({
         <PositionGroupSummaryStrip cards={gradeCards} />
       </div>
 
-      <div className="space-y-4">
+      {/* Point differential is the one summary number, so it gets to be
+          the headline rather than one of seven identical tiles. */}
+      <div className="flex flex-col gap-2 rounded-lg border border-border bg-surface px-4 py-3 sm:flex-row sm:items-baseline sm:gap-4">
         <div>
-          <h3 className="mb-2 text-xs font-bold uppercase tracking-wide text-muted">Overall</h3>
-          <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-            <StatCard
-              label="Point Differential"
-              value={`${pointDifferential.value > 0 ? "+" : ""}${pointDifferential.value}`}
-              leagueRank={pointDifferential.leagueRank}
-              soWhat={
-                windowLabel
-                  ? undefined
-                  : `Pythagorean win% suggests a ${formatPercent(teamStats.pythagoreanWinPct)} true-talent team.`
-              }
-              animate={{
-                value: pointDifferential.value,
-                prefix: pointDifferential.value > 0 ? "+" : "",
-              }}
-            />
+          <div className="text-[11px] uppercase tracking-wide text-muted">Point Differential</div>
+          <div className="font-display text-4xl font-semibold tabular-nums text-foreground">
+            {pointDifferential.value > 0 ? "+" : ""}
+            <CountUp value={pointDifferential.value} />
           </div>
         </div>
-
-        <div>
-          <h3 className="mb-2 text-xs font-bold uppercase tracking-wide text-muted">Offense</h3>
-          <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-            <StatCard
-              label="EPA/play"
-              value={epa.offense.value.toFixed(2)}
-              leagueRank={epa.offense.leagueRank}
-              soWhat={`${ordinal(epa.offense.leagueRank)}-ranked by the metric that best predicts scoring.`}
-              animate={{ value: epa.offense.value, decimals: 2 }}
-            />
-            <StatCard
-              label="Success Rate"
-              value={formatPercent(successRate.offense.value)}
-              leagueRank={successRate.offense.leagueRank}
-              soWhat="Share of plays that stayed ahead of down-and-distance expectations."
-              animate={{ value: successRate.offense.value * 100, suffix: "%" }}
-            />
-            <StatCard
-              label="Yards/Play"
-              value={yardsPerPlay.offense.value.toFixed(1)}
-              leagueRank={yardsPerPlay.offense.leagueRank}
-              animate={{ value: yardsPerPlay.offense.value, decimals: 1 }}
-            />
-          </div>
-        </div>
-
-        <div>
-          <h3 className="mb-2 text-xs font-bold uppercase tracking-wide text-muted">Defense</h3>
-          <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-            <StatCard
-              label="EPA/play allowed"
-              value={epa.defense.value.toFixed(2)}
-              leagueRank={epa.defense.leagueRank}
-              soWhat={`${ordinal(epa.defense.leagueRank)}-ranked — negative is good here.`}
-              animate={{ value: epa.defense.value, decimals: 2 }}
-            />
-            <StatCard
-              label="Success Rate allowed"
-              value={formatPercent(successRate.defense.value)}
-              leagueRank={successRate.defense.leagueRank}
-              soWhat="Share of opponent plays allowed to succeed — lower is better."
-              animate={{ value: successRate.defense.value * 100, suffix: "%" }}
-            />
-            <StatCard
-              label="Yards/Play allowed"
-              value={yardsPerPlay.defense.value.toFixed(1)}
-              leagueRank={yardsPerPlay.defense.leagueRank}
-              animate={{ value: yardsPerPlay.defense.value, decimals: 1 }}
-            />
-          </div>
+        <div className="text-sm text-muted sm:flex-1 sm:border-l sm:border-border sm:pl-4">
+          <span className="font-medium text-foreground">
+            {ordinal(pointDifferential.leagueRank)} in the NFL
+          </span>
+          {!windowLabel && (
+            <>
+              {" · "}
+              Pythagorean win% suggests a {formatPercent(teamStats.pythagoreanWinPct)} true-talent team.
+            </>
+          )}
         </div>
       </div>
+
+      <MetricComparisonTable
+        rows={[
+          {
+            label: "EPA / play",
+            offense: epa.offense,
+            defense: epa.defense,
+            format: (v) => v.toFixed(2),
+          },
+          {
+            label: "Success rate",
+            offense: successRate.offense,
+            defense: successRate.defense,
+            format: (v) => formatPercent(v),
+          },
+          {
+            label: "Yards / play",
+            offense: yardsPerPlay.offense,
+            defense: yardsPerPlay.defense,
+            format: (v) => v.toFixed(1),
+          },
+        ]}
+      />
     </div>
   );
 }

@@ -1,5 +1,5 @@
 import type { TeamStatSnapshot } from "@/lib/data/types";
-import { StatCard } from "@/components/shared/StatCard";
+import { StatListTable } from "@/components/shared/StatListTable";
 import { formatPercent } from "@/lib/util/format";
 
 export function SpecialTeamsStats({
@@ -8,32 +8,14 @@ export function SpecialTeamsStats({
   specialTeams: TeamStatSnapshot["specialTeams"];
 }) {
   return (
-    <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-      <StatCard
-        label="Field Goal %"
-        value={formatPercent(specialTeams.fieldGoalPct.value)}
-        leagueRank={specialTeams.fieldGoalPct.leagueRank}
-      />
-      <StatCard
-        label="Net Punting Avg"
-        value={specialTeams.netPuntingAvg.value.toFixed(1)}
-        leagueRank={specialTeams.netPuntingAvg.leagueRank}
-      />
-      <StatCard
-        label="Kick Return Avg"
-        value={specialTeams.kickReturnAvg.value.toFixed(1)}
-        leagueRank={specialTeams.kickReturnAvg.leagueRank}
-      />
-      <StatCard
-        label="Punt Return Avg"
-        value={specialTeams.puntReturnAvg.value.toFixed(1)}
-        leagueRank={specialTeams.puntReturnAvg.leagueRank}
-      />
-      <StatCard
-        label="Special Teams EPA"
-        value={specialTeams.specialTeamsEpa.value.toFixed(2)}
-        leagueRank={specialTeams.specialTeamsEpa.leagueRank}
-      />
-    </div>
+    <StatListTable
+      rows={[
+        { label: "Field goal %", stat: specialTeams.fieldGoalPct, format: (v) => formatPercent(v) },
+        { label: "Net punting avg", stat: specialTeams.netPuntingAvg, format: (v) => v.toFixed(1) },
+        { label: "Kick return avg", stat: specialTeams.kickReturnAvg, format: (v) => v.toFixed(1) },
+        { label: "Punt return avg", stat: specialTeams.puntReturnAvg, format: (v) => v.toFixed(1) },
+        { label: "Special teams EPA", stat: specialTeams.specialTeamsEpa, format: (v) => v.toFixed(2) },
+      ]}
+    />
   );
 }
