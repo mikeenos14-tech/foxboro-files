@@ -64,30 +64,26 @@ jobs:
         run: npx tsx scripts/fetch-news-sources.ts
         continue-on-error: true
 
-      - name: Build core stats (schedule, team stats, recap, standings)
-        run: npx tsx scripts/build-data.ts
-        continue-on-error: true
-
-      - name: Build league-wide data (all divisions, EPA power rankings, last week's scores)
-        run: npx tsx scripts/build-league-data.ts
-        continue-on-error: true
-
-      - name: Build roster data (depth chart, QB deep dive, position grades)
-        run: npx tsx scripts/build-roster-data.ts
-        continue-on-error: true
-
-      - name: Build opponent matchup data
-        run: npx tsx scripts/build-next-game-data.ts
-        continue-on-error: true
-
-      - name: Generate AI recap take, good/bad/ugly, and next-game preview
-        run: npx tsx scripts/build-ai-recap.ts
+      # One orchestrated rebuild off a single raw snapshot, NOT four
+      # independent continue-on-error steps. Those used to be separate,
+      # which meant a failure in any one of them left the others' output
+      # committed against a different snapshot — that's how the Home page
+      # and the League page ended up disagreeing about NE's offensive EPA
+      # in production (20th vs 7th). build-all.ts stops on the first data
+      # failure, fails soft only on the AI step, and runs the cross-file
+      # consistency assertions before declaring success.
+      - name: Build all derived data (orchestrated + consistency-checked)
+        run: npm run build:data
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        continue-on-error: true
+
+      # Belt and braces: re-verify the committed state itself, so a
+      # partially-updated working tree can never be pushed even if
+      # something above exits 0 unexpectedly.
+      - name: Verify data consistency before commit
+        run: npm run verify:data
 
       - name: Commit and push if data changed
-        if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

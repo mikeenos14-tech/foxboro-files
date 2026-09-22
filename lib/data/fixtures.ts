@@ -191,7 +191,6 @@ export const positionGroupReportCards: PositionGroupReportCard[] = [
   { group: "OL", grade: 74, trend: "up", soWhat: "Best unit on the team right now — top-10 pressure rate allowed.", windows: [], statLine: "" },
   { group: "Edge", grade: 66, trend: "flat", soWhat: "Generating pressure without finishing — sacks lag win rate.", windows: [], statLine: "" },
   { group: "Interior DL", grade: 70, trend: "up", soWhat: "Run defense has been stout early — top-10 stuff rate.", windows: [], statLine: "" },
-  { group: "LB", grade: 60, trend: "down", soWhat: "Coverage has been a soft spot against tight ends.", windows: [], statLine: "" },
   { group: "Secondary", grade: 73, trend: "up", soWhat: "Ball-hawking early — leads league in turnover-worthy pass breakups.", windows: [], statLine: "" },
 ];
 

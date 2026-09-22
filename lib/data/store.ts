@@ -112,16 +112,20 @@ export async function getPositionGroupReportCards(): Promise<
 > {
   // Real for QB/RB/WR/TE/OL/Edge/Interior DL/Secondary (computed from
   // play-by-play — see scripts/build-roster-data.ts for what each proxy
-  // metric actually measures). LB stays fixture-sourced — no clean,
-  // non-redundant team-level proxy for it — merge rather than replace so
-  // the page never silently drops that card.
+  // metric actually measures).
+  //
+  // LB is deliberately NOT merged in from fixtures any more. It used to
+  // be, which meant the live site rendered an invented grade (60), an
+  // invented trend arrow, and an invented factual claim ("Coverage has
+  // been a soft spot against tight ends") in a card visually identical to
+  // the eight real ones — the only card on the page with a trend arrow,
+  // so the fabricated data actually looked like the most live thing
+  // there. That directly contradicts the site's own rule that every
+  // number shown is computed from real data. No free metric cleanly
+  // isolates linebacker play, so the honest answer is to show nothing
+  // rather than something made up.
   const real = await readGenerated<PositionGroupReportCard[]>("position-group-cards.json");
-  if (!real) return fixtures.positionGroupReportCards;
-  const realGroups = new Set(real.map((c) => c.group));
-  const remainingFixtures = fixtures.positionGroupReportCards.filter(
-    (c) => !realGroups.has(c.group)
-  );
-  return [...real, ...remainingFixtures];
+  return real ?? fixtures.positionGroupReportCards.filter((c) => c.group !== "LB");
 }
 
 export async function getPositionGroupLeagueTable(): Promise<PositionGroupLeagueTeamEntry[]> {
@@ -143,6 +147,16 @@ export async function getQbLeagueTable(): Promise<QBDeepDive[]> {
 
 export async function getDepthChart(): Promise<DepthChartEntry[]> {
   return (await readGenerated<DepthChartEntry[]>("depth-chart.json")) ?? fixtures.depthChart;
+}
+
+// When the whole data snapshot was last rebuilt (written by
+// scripts/build-all.ts). Surfaced in the footer so stale data is visible
+// rather than silent — the site previously had no freshness indicator at
+// all, which is how two pages disagreed about the same stat in
+// production without anyone noticing.
+export async function getDataGeneratedAt(): Promise<string | null> {
+  const meta = await readGenerated<{ generatedAt: string }>("build-meta.json");
+  return meta?.generatedAt ?? null;
 }
 
 export async function getSchedule(): Promise<ScheduleRow[]> {

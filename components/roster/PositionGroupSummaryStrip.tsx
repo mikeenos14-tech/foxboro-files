@@ -7,14 +7,11 @@ const tierClass: Record<ReturnType<typeof gradeTier>, string> = {
   bad: "border-rank-bad/40 bg-rank-bad/10 text-rank-bad",
 };
 
-// A one-glance "how good are we, everywhere" strip — every real position
+// A one-glance "how good are we, everywhere" strip — every position
 // group's grade, before you'd otherwise have to click into the Position
-// Grades tab to see any of it. LB is left out on purpose: it's the one
-// illustrative placeholder in reportCards (see build-roster-data.ts),
-// not real computed data, and this strip is specifically the "here's
-// what we can actually back up" summary.
+// Grades tab to see any of it.
 export function PositionGroupSummaryStrip({ cards }: { cards: PositionGroupReportCard[] }) {
-  const real = cards.filter((c) => c.group !== "LB");
+  const real = cards;
   return (
     <div className="relative -mx-4 sm:mx-0">
       <div className="flex gap-2 overflow-x-auto px-4 pb-1 sm:flex-wrap sm:overflow-visible sm:px-0">

@@ -5,7 +5,7 @@
 // Run with: npx tsx scripts/build-data.ts
 // (after: npx tsx scripts/fetch-nflverse.ts)
 
-import { mkdir, readdir, writeFile } from "node:fs/promises";
+import { mkdir, readdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { loadCsv, num, bool01 } from "./lib/csv";
 import {
@@ -433,10 +433,26 @@ async function main() {
         : { playerId: "", playerName: "N/A", wpa: 0, reason: "No standout WPA leader computed." },
     };
 
-    await writeFile(
-      path.join(GENERATED_DIR, `recap-${lastRow.game_id}.json`),
-      JSON.stringify(recap, null, 2)
-    );
+    // Preserve any AI-authored fields already on disk. This file is
+    // rebuilt from scratch on every run, but fanTake/goodBadUgly are
+    // written later by build-ai-recap.ts and cost a real API call. Without
+    // this merge, any run where the AI step doesn't execute (no
+    // ANTHROPIC_API_KEY locally, or a soft failure in CI) silently
+    // replaces a real written recap with the generic template strings
+    // above and there's no way to get it back. build-ai-recap.ts only
+    // regenerates fanTake when it's absent, so a wipe here is permanent.
+    const recapPath = path.join(GENERATED_DIR, `recap-${lastRow.game_id}.json`);
+    let merged: GameRecap = recap;
+    try {
+      const existing = JSON.parse(await readFile(recapPath, "utf-8")) as Partial<GameRecap>;
+      if (existing.fanTake) {
+        merged = { ...recap, fanTake: existing.fanTake, goodBadUgly: existing.goodBadUgly ?? recap.goodBadUgly };
+      }
+    } catch {
+      // No existing recap (first run for this game) — write the fresh one.
+    }
+
+    await writeFile(recapPath, JSON.stringify(merged, null, 2));
 
     // Derived directly from whichever recap-<gameId>.json files actually
     // exist on disk, rather than trusting/appending to a separately
