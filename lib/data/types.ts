@@ -178,9 +178,15 @@ export interface PositionGroupReportCard {
   // windowed — the numeric grade above already gets that treatment).
   // EPA/proxy-based grades don't change here; this is added texture, not
   // a replacement — e.g. RB: "187 yds, 3.9 YPC, 2 TD, 1 FUM"; Edge:
-  // "6.5 sacks, 13 QB hits — leader: G. Jacas (2.5 sacks)". Empty string
-  // when there's nothing real to show yet (e.g. LB's placeholder card).
+  // "6.5 sacks, 13 QB hits — leader: G. Jacas (2.5 sacks)".
   statLine: string;
+  // How many plays the grade is actually built on, and how much of the
+  // displayed value is the team's own play rather than the league mean it
+  // was regressed toward (see scripts/lib/shrink.ts). Surfaced in the UI
+  // so a grade off 10 targets doesn't present itself with the same
+  // confidence as one off 300.
+  sampleSize: number;
+  confidence: "low" | "medium" | "high";
 }
 
 // Every team's position-group grades, full-season only — powers the

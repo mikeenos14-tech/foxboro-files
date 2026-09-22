@@ -3,7 +3,7 @@
     "group": "QB",
     "grade": 10,
     "trend": "flat",
-    "soWhat": "10th percentile in the NFL for EPA/play generated at QB this season (61 plays sampled).",
+    "soWhat": "Ranked on EPA/play generated at QB, regressed to the league mean on a 61-play sample.",
     "windows": [
       {
         "key": "last-1",
@@ -16,13 +16,15 @@
         "grade": 10
       }
     ],
-    "statLine": ""
+    "statLine": "",
+    "sampleSize": 61,
+    "confidence": "high"
   },
   {
     "group": "RB",
-    "grade": 23,
-    "trend": "flat",
-    "soWhat": "23rd percentile in the NFL for EPA/play generated at RB this season (48 plays sampled).",
+    "grade": 19,
+    "trend": "up",
+    "soWhat": "Ranked on EPA/play generated at RB, regressed to the league mean on a 48-play sample.",
     "windows": [
       {
         "key": "last-1",
@@ -35,13 +37,15 @@
         "grade": 23
       }
     ],
-    "statLine": "181 yds, 3.8 YPC, 1 TD, 0 FUM, 8% explosive"
+    "statLine": "181 yds, 3.8 YPC, 1 TD, 0 FUM, 8% explosive",
+    "sampleSize": 48,
+    "confidence": "high"
   },
   {
     "group": "WR",
-    "grade": 29,
-    "trend": "flat",
-    "soWhat": "29th percentile in the NFL for EPA/play generated at WR this season (30 plays sampled).",
+    "grade": 32,
+    "trend": "up",
+    "soWhat": "Ranked on EPA/play generated at WR, regressed to the league mean on a 30-play sample.",
     "windows": [
       {
         "key": "last-1",
@@ -54,13 +58,15 @@
         "grade": 29
       }
     ],
-    "statLine": "20/30 (67%), 228 yds, 3.9 YAC/rec, 0 TD"
+    "statLine": "20/30 (67%), 228 yds, 3.9 YAC/rec, 0 TD",
+    "sampleSize": 30,
+    "confidence": "medium"
   },
   {
     "group": "TE",
     "grade": 29,
     "trend": "flat",
-    "soWhat": "29th percentile in the NFL for EPA/play generated at TE this season (10 plays sampled).",
+    "soWhat": "Ranked on EPA/play generated at TE, regressed to the league mean on a 10-play sample.",
     "windows": [
       {
         "key": "last-1",
@@ -73,13 +79,15 @@
         "grade": 29
       }
     ],
-    "statLine": "8/10 (80%), 98 yds, 4.6 YAC/rec, 1 TD"
+    "statLine": "8/10 (80%), 98 yds, 4.6 YAC/rec, 1 TD",
+    "sampleSize": 10,
+    "confidence": "low"
   },
   {
     "group": "OL",
     "grade": 18,
     "trend": "flat",
-    "soWhat": "18th percentile in the NFL for pass protection — blends sacks that weren't the QB's own fault (10th percentile) with pressure rate allowed, sacks or QB hits combined (26th percentile). Real per-play data, still team-wide — no per-player blocking grade available free.",
+    "soWhat": "Blends sacks that weren't the QB's own fault (10th) with pressure rate allowed — sacks or QB hits (26th). Team-wide; no per-player blocking data exists free.",
     "windows": [
       {
         "key": "last-1",
@@ -92,13 +100,15 @@
         "grade": 18
       }
     ],
-    "statLine": ""
+    "statLine": "",
+    "sampleSize": 61,
+    "confidence": "medium"
   },
   {
     "group": "Edge",
-    "grade": 74,
+    "grade": 77,
     "trend": "flat",
-    "soWhat": "74th percentile in the NFL for sack rate generated (pass rush proxy, team-wide — not isolated to edge rushers specifically).",
+    "soWhat": "Ranked on sack rate generated — a pass-rush proxy measured team-wide, not isolated to edge rushers.",
     "windows": [
       {
         "key": "last-1",
@@ -111,13 +121,15 @@
         "grade": 74
       }
     ],
-    "statLine": "3 sacks, 8 QB hits — leader: Dre'Mont Jones (1 sack)"
+    "statLine": "3 sacks, 8 QB hits — leader: Dre'Mont Jones (1 sack)",
+    "sampleSize": 70,
+    "confidence": "medium"
   },
   {
     "group": "Interior DL",
     "grade": 55,
-    "trend": "flat",
-    "soWhat": "55th percentile in the NFL for rush EPA allowed (run defense proxy, team-wide — not isolated to interior linemen specifically).",
+    "trend": "down",
+    "soWhat": "Ranked on rush EPA allowed — a run-defense proxy measured team-wide, not isolated to interior linemen.",
     "windows": [
       {
         "key": "last-1",
@@ -130,13 +142,15 @@
         "grade": 55
       }
     ],
-    "statLine": "2 TFL, 2 sacks — leader: Christian Barmore (1 TFL)"
+    "statLine": "2 TFL, 2 sacks — leader: Christian Barmore (1 TFL)",
+    "sampleSize": 44,
+    "confidence": "medium"
   },
   {
     "group": "Secondary",
     "grade": 97,
     "trend": "flat",
-    "soWhat": "97th percentile in the NFL for pass EPA allowed (pass defense proxy — includes pass rush effect, not isolated to coverage alone).",
+    "soWhat": "Ranked on pass EPA allowed — includes the pass rush's effect, not coverage alone.",
     "windows": [
       {
         "key": "last-1",
@@ -149,6 +163,8 @@
         "grade": 97
       }
     ],
+    "sampleSize": 70,
+    "confidence": "medium",
     "statLine": "0 INT, 6 PBU"
   }
 ]

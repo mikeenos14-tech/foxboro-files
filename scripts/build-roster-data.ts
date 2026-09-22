@@ -23,6 +23,7 @@ import {
 import { rankGeneric } from "./lib/rank";
 import { ALL_TEAMS } from "./lib/teams";
 import { buildLastNGameWindows, filterRowsToWindow } from "./lib/statWindows";
+import { SHRINK_K, leagueMean, shrink, confidenceLabel } from "./lib/shrink";
 import { ordinal } from "../lib/calc/ranks";
 import type {
   DepthChartEntry,
@@ -72,6 +73,22 @@ async function buildDepthChart(): Promise<DepthChartEntry[]> {
 // LB is left as the one illustrative placeholder (merged in by
 // lib/data/store.ts) — linebacker play spans both run support and
 // coverage without a clean, non-redundant team-level metric to isolate it.
+
+// Real trend from the windowed grades that already exist: most recent
+// single game vs. the full-season grade. Previously every card was
+// hardcoded "flat", so the arrows were pure decoration occupying the
+// top-right of every card — and the one card that showed a real arrow
+// was the fabricated LB placeholder. A 10-point percentile move is the
+// threshold for calling it a direction rather than noise.
+function trendFor(windows: Array<{ key: string; label: string; grade: number }>): "up" | "down" | "flat" {
+  if (windows.length < 2) return "flat";
+  const lastGame = windows[0].grade; // "last-1" — most recent single game
+  const season = windows[windows.length - 1].grade; // widest window = full season
+  const diff = lastGame - season;
+  if (diff >= 10) return "up";
+  if (diff <= -10) return "down";
+  return "flat";
+}
 
 function positionEpa(
   pbp: PbpRow[],
@@ -224,14 +241,24 @@ async function buildPositionGroupCards(
     });
 
   const playerAttributed = groups.map(({ label, idField, playType, rosterPosition }) => {
-    const valueOf = (t: string) =>
-      positionEpa(pbp, rosterByGsis, t, rosterPosition, idField, playType).epa;
-    const ranked = rankGeneric(ALL_TEAMS, TEAM, valueOf, true);
-    // Percentile doubles as a 0-100 "grade" by construction (50 = league
-    // average) — that's the whole "vs. league" story, so the card shows
-    // this number directly rather than a separate always-50 comparison.
-    const grade = ranked.leaguePercentile;
+    // Shrink every team's raw per-play EPA toward the plays-weighted
+    // league mean before ranking, so the percentile reflects evidence
+    // rather than sample-size luck. Without this, TE grades were built on
+    // a median of 12 targets per team (min 5) across a 2.42 EPA/play
+    // league spread — noise rendered as precision. See lib/shrink.ts.
+    const k = label === "RB" ? SHRINK_K.rushingEpa : label === "QB" ? SHRINK_K.passingEpa : SHRINK_K.receivingEpa;
+    const samples = new Map(
+      ALL_TEAMS.map((t) => {
+        const { epa, n } = positionEpa(pbp, rosterByGsis, t, rosterPosition, idField, playType);
+        return [t, { value: epa, n }];
+      })
+    );
+    const mean = leagueMean([...samples.values()]);
+    const shrunkValueOf = (t: string) => shrink(samples.get(t) ?? { value: 0, n: 0 }, mean, k);
+    const grade = rankGeneric(ALL_TEAMS, TEAM, shrunkValueOf, true).leaguePercentile;
+
     const { n } = positionEpa(pbp, rosterByGsis, TEAM, rosterPosition, idField, playType);
+    const confidence = confidenceLabel(n, k);
     const statLine =
       label === "RB"
         ? rushingStatLine(pbp, rosterByGsis, TEAM)
@@ -241,20 +268,49 @@ async function buildPositionGroupCards(
     return {
       group: label,
       grade,
-      // Only one week of data so far — nothing to trend against yet.
-      // Revisit once multiple weeks accumulate.
-      trend: "flat" as const,
-      soWhat: `${ordinal(grade)} percentile in the NFL for EPA/play generated at ${label} this season (${n} plays sampled).`,
+      trend: trendFor(
+        windowedGrade(
+          (rows, t) => positionEpa(rows, rosterByGsis, t, rosterPosition, idField, playType).epa,
+          true
+        )
+      ),
+      soWhat: `Ranked on EPA/play generated at ${label}, regressed to the league mean on a ${n}-play sample.`,
       windows: windowedGrade(
         (rows, t) => positionEpa(rows, rosterByGsis, t, rosterPosition, idField, playType).epa,
         true
       ),
       statLine,
+      sampleSize: n,
+      confidence,
     };
   });
 
-  const unitGrade = (valueOf: (t: string) => number, higherIsBetter: boolean) =>
-    rankGeneric(ALL_TEAMS, TEAM, valueOf, higherIsBetter).leaguePercentile;
+  // Team-unit metrics (sack rate, rush/pass EPA allowed) run over every
+  // defensive snap, so they're far better sampled than a 12-target TE
+  // grade — but two games is still two games, so they get the same
+  // shrinkage treatment with a larger K. countOf supplies the play count
+  // that drives how much the raw value is trusted.
+  const shrunkUnitGrade = (
+    valueOf: (rows: PbpRow[], t: string) => number,
+    countOf: (rows: PbpRow[], t: string) => number,
+    higherIsBetter: boolean
+  ) => {
+    const samples = new Map(
+      ALL_TEAMS.map((t) => [t, { value: valueOf(pbp, t), n: countOf(pbp, t) }] as const)
+    );
+    const mean = leagueMean([...samples.values()]);
+    return rankGeneric(
+      ALL_TEAMS,
+      TEAM,
+      (t) => shrink(samples.get(t) ?? { value: 0, n: 0 }, mean, SHRINK_K.teamRate),
+      higherIsBetter
+    ).leaguePercentile;
+  };
+
+  const dropbacksFor = (rows: PbpRow[], t: string, side: "posteam" | "defteam") =>
+    rows.filter((r) => r[side] === t && bool01(r.pass_attempt)).length;
+  const playsFor = (rows: PbpRow[], t: string, playType: "run" | "pass") =>
+    rows.filter((r) => r.defteam === t && r.play_type === playType).length;
 
   // Real per-player counting stats (sacks, QB hits, TFL, forced fumbles,
   // INT, passes defended) straight from nflverse's own player-attribution
@@ -279,39 +335,72 @@ async function buildPositionGroupCards(
       const grade = blendedGrade(sackValue, false, pressureValue, false);
       const sackGrade = rankGeneric(ALL_TEAMS, TEAM, (t) => sackValue(pbp, t), false).leaguePercentile;
       const pressureGrade = rankGeneric(ALL_TEAMS, TEAM, (t) => pressureValue(pbp, t), false).leaguePercentile;
+      const olWindows = blendedWindowedGrade(sackValue, false, pressureValue, false);
+      const olN = dropbacksFor(pbp, TEAM, "posteam");
       return {
         group: "OL",
         grade,
-        trend: "flat" as const,
-        soWhat: `${ordinal(grade)} percentile in the NFL for pass protection — blends sacks that weren't the QB's own fault (${ordinal(sackGrade)} percentile) with pressure rate allowed, sacks or QB hits combined (${ordinal(pressureGrade)} percentile). Real per-play data, still team-wide — no per-player blocking grade available free.`,
-        windows: blendedWindowedGrade(sackValue, false, pressureValue, false),
+        trend: trendFor(olWindows),
+        soWhat: `Blends sacks that weren't the QB's own fault (${ordinal(sackGrade)}) with pressure rate allowed — sacks or QB hits (${ordinal(pressureGrade)}). Team-wide; no per-player blocking data exists free.`,
+        windows: olWindows,
         // No per-player pass-block data exists free — the OL grade above
         // is the ceiling here.
         statLine: "",
+        sampleSize: olN,
+        confidence: confidenceLabel(olN, SHRINK_K.teamRate),
       };
     })(),
-    {
-      group: "Edge",
-      grade: unitGrade((t) => sackRateGenerated(pbp, t), true),
-      trend: "flat",
-      soWhat: `${ordinal(unitGrade((t) => sackRateGenerated(pbp, t), true))} percentile in the NFL for sack rate generated (pass rush proxy, team-wide — not isolated to edge rushers specifically).`,
-      windows: windowedGrade((rows, t) => sackRateGenerated(rows, t), true),
-      statLine: defensiveGroupStatLine(defPlayerStats, rosterByGsis, ["OLB"], "sacks", "sacks", "qbHits", "QB hits"),
-    },
-    {
-      group: "Interior DL",
-      grade: unitGrade((t) => playTypeEpa(pbp, t, "defteam", "run"), false),
-      trend: "flat",
-      soWhat: `${ordinal(unitGrade((t) => playTypeEpa(pbp, t, "defteam", "run"), false))} percentile in the NFL for rush EPA allowed (run defense proxy, team-wide — not isolated to interior linemen specifically).`,
-      windows: windowedGrade((rows, t) => playTypeEpa(rows, t, "defteam", "run"), false),
-      statLine: defensiveGroupStatLine(defPlayerStats, rosterByGsis, ["DT", "NT", "DE"], "tfl", "TFL", "sacks", "sacks"),
-    },
-    {
+    (() => {
+      const grade = shrunkUnitGrade(
+        (rows, t) => sackRateGenerated(rows, t),
+        (rows, t) => dropbacksFor(rows, t, "defteam"),
+        true
+      );
+      const n = dropbacksFor(pbp, TEAM, "defteam");
+      return {
+        group: "Edge",
+        grade,
+        trend: trendFor(windowedGrade((rows, t) => sackRateGenerated(rows, t), true)),
+        soWhat: `Ranked on sack rate generated — a pass-rush proxy measured team-wide, not isolated to edge rushers.`,
+        windows: windowedGrade((rows, t) => sackRateGenerated(rows, t), true),
+        statLine: defensiveGroupStatLine(defPlayerStats, rosterByGsis, ["OLB"], "sacks", "sacks", "qbHits", "QB hits"),
+        sampleSize: n,
+        confidence: confidenceLabel(n, SHRINK_K.teamRate),
+      };
+    })(),
+    (() => {
+      const grade = shrunkUnitGrade(
+        (rows, t) => playTypeEpa(rows, t, "defteam", "run"),
+        (rows, t) => playsFor(rows, t, "run"),
+        false
+      );
+      const n = playsFor(pbp, TEAM, "run");
+      return {
+        group: "Interior DL",
+        grade,
+        trend: trendFor(windowedGrade((rows, t) => playTypeEpa(rows, t, "defteam", "run"), false)),
+        soWhat: `Ranked on rush EPA allowed — a run-defense proxy measured team-wide, not isolated to interior linemen.`,
+        windows: windowedGrade((rows, t) => playTypeEpa(rows, t, "defteam", "run"), false),
+        statLine: defensiveGroupStatLine(defPlayerStats, rosterByGsis, ["DT", "NT", "DE"], "tfl", "TFL", "sacks", "sacks"),
+        sampleSize: n,
+        confidence: confidenceLabel(n, SHRINK_K.teamRate),
+      };
+    })(),
+    (() => {
+      const grade = shrunkUnitGrade(
+        (rows, t) => playTypeEpa(rows, t, "defteam", "pass"),
+        (rows, t) => playsFor(rows, t, "pass"),
+        false
+      );
+      const n = playsFor(pbp, TEAM, "pass");
+      return {
       group: "Secondary",
-      grade: unitGrade((t) => playTypeEpa(pbp, t, "defteam", "pass"), false),
-      trend: "flat",
-      soWhat: `${ordinal(unitGrade((t) => playTypeEpa(pbp, t, "defteam", "pass"), false))} percentile in the NFL for pass EPA allowed (pass defense proxy — includes pass rush effect, not isolated to coverage alone).`,
+      grade,
+      trend: trendFor(windowedGrade((rows, t) => playTypeEpa(rows, t, "defteam", "pass"), false)),
+      soWhat: `Ranked on pass EPA allowed — includes the pass rush's effect, not coverage alone.`,
       windows: windowedGrade((rows, t) => playTypeEpa(rows, t, "defteam", "pass"), false),
+      sampleSize: n,
+      confidence: confidenceLabel(n, SHRINK_K.teamRate),
       statLine: defensiveGroupStatLine(
         defPlayerStats,
         rosterByGsis,
@@ -321,7 +410,8 @@ async function buildPositionGroupCards(
         "passesDefended",
         "PBU"
       ),
-    },
+      };
+    })(),
   ];
 
   return [...playerAttributed, ...teamUnits];
@@ -340,36 +430,73 @@ async function buildPositionGroupLeagueTable(
   const rosterByGsis = await buildLeagueRosterByGsis();
   const qbFaultSackKeys = await loadQbFaultSackKeys();
 
-  const rankAndValue = (valueOf: (t: string) => number, higherIsBetter: boolean, team: string) => ({
-    grade: rankGeneric(ALL_TEAMS, team, valueOf, higherIsBetter).leaguePercentile,
-    rawValue: valueOf(team),
-  });
+  // Grades here MUST be computed the same way as the position-group
+  // cards, including shrinkage — the compare tool and the cards show the
+  // same team's same group, so any divergence is a visible contradiction.
+  // (verify-data.ts asserts this; it caught exactly that when shrinkage
+  // was first added to the cards only.)
+  const shrunkGrades = (
+    valueOf: (t: string) => number,
+    countOf: (t: string) => number,
+    higherIsBetter: boolean,
+    k: number
+  ) => {
+    const samples = new Map(ALL_TEAMS.map((t) => [t, { value: valueOf(t), n: countOf(t) }] as const));
+    const mean = leagueMean([...samples.values()]);
+    const shrunkOf = (t: string) => shrink(samples.get(t) ?? { value: 0, n: 0 }, mean, k);
+    return (team: string) => ({
+      grade: rankGeneric(ALL_TEAMS, team, shrunkOf, higherIsBetter).leaguePercentile,
+      rawValue: valueOf(team),
+    });
+  };
 
   const sackValue = (t: string) => olFaultSackRateAllowed(pbp, t, qbFaultSackKeys);
   const pressureValue = (t: string) => pressureRateAllowed(pbp, t);
-  const edgeValue = (t: string) => sackRateGenerated(pbp, t);
-  const idlValue = (t: string) => playTypeEpa(pbp, t, "defteam", "run");
-  const secValue = (t: string) => playTypeEpa(pbp, t, "defteam", "pass");
+  const dropbacks = (t: string, side: "posteam" | "defteam") =>
+    pbp.filter((r) => r[side] === t && bool01(r.pass_attempt)).length;
+  const defPlays = (t: string, playType: "run" | "pass") =>
+    pbp.filter((r) => r.defteam === t && r.play_type === playType).length;
+
+  // Built once outside the per-team loop — the league mean each team is
+  // shrunk toward is a property of the league, not of the team being
+  // rendered.
+  const gradeFns = {
+    edge: shrunkGrades((t) => sackRateGenerated(pbp, t), (t) => dropbacks(t, "defteam"), true, SHRINK_K.teamRate),
+    idl: shrunkGrades((t) => playTypeEpa(pbp, t, "defteam", "run"), (t) => defPlays(t, "run"), false, SHRINK_K.teamRate),
+    sec: shrunkGrades((t) => playTypeEpa(pbp, t, "defteam", "pass"), (t) => defPlays(t, "pass"), false, SHRINK_K.teamRate),
+    olSack: shrunkGrades(sackValue, (t) => dropbacks(t, "posteam"), false, SHRINK_K.teamRate),
+    olPressure: shrunkGrades(pressureValue, (t) => dropbacks(t, "posteam"), false, SHRINK_K.teamRate),
+  };
+  const playerGradeFns = PLAYER_ATTRIBUTED_GROUPS.map(({ label, idField, playType, rosterPosition }) => {
+    const k = label === "RB" ? SHRINK_K.rushingEpa : label === "QB" ? SHRINK_K.passingEpa : SHRINK_K.receivingEpa;
+    return {
+      label,
+      fn: shrunkGrades(
+        (t) => positionEpa(pbp, rosterByGsis, t, rosterPosition, idField, playType).epa,
+        (t) => positionEpa(pbp, rosterByGsis, t, rosterPosition, idField, playType).n,
+        true,
+        k
+      ),
+    };
+  });
 
   return ALL_TEAMS.map((team) => {
-    const playerGroups = PLAYER_ATTRIBUTED_GROUPS.map(({ label, idField, playType, rosterPosition }) => {
-      const valueOf = (t: string) => positionEpa(pbp, rosterByGsis, t, rosterPosition, idField, playType).epa;
-      return { group: label, rawLabel: "EPA/play", ...rankAndValue(valueOf, true, team) };
-    });
-
-    const olSackGrade = rankGeneric(ALL_TEAMS, team, sackValue, false).leaguePercentile;
-    const olPressureGrade = rankGeneric(ALL_TEAMS, team, pressureValue, false).leaguePercentile;
+    const playerGroups = playerGradeFns.map(({ label, fn }) => ({
+      group: label,
+      rawLabel: "EPA/play",
+      ...fn(team),
+    }));
 
     const teamUnitGroups = [
       {
         group: "OL",
-        grade: Math.round((olSackGrade + olPressureGrade) / 2),
+        grade: Math.round((gradeFns.olSack(team).grade + gradeFns.olPressure(team).grade) / 2),
         rawValue: sackValue(team),
         rawLabel: "Sack rate allowed (excl. QB fault)",
       },
-      { group: "Edge", rawLabel: "Sack rate generated", ...rankAndValue(edgeValue, true, team) },
-      { group: "Interior DL", rawLabel: "Rush EPA allowed", ...rankAndValue(idlValue, false, team) },
-      { group: "Secondary", rawLabel: "Pass EPA allowed", ...rankAndValue(secValue, false, team) },
+      { group: "Edge", rawLabel: "Sack rate generated", ...gradeFns.edge(team) },
+      { group: "Interior DL", rawLabel: "Rush EPA allowed", ...gradeFns.idl(team) },
+      { group: "Secondary", rawLabel: "Pass EPA allowed", ...gradeFns.sec(team) },
     ];
 
     return { team, groups: [...playerGroups, ...teamUnitGroups] };
