@@ -162,6 +162,24 @@ export interface PositionGroupReportCard {
   windows: Array<{ key: string; label: string; grade: number }>;
 }
 
+// Every team's position-group grades, full-season only — powers the
+// group-vs-group compare tool (see components/roster/PositionGroupHeadToHead.tsx),
+// the same idea as QbHeadToHead but for any position group, not just QB.
+export interface PositionGroupLeagueGroupEntry {
+  group: string;
+  grade: number; // 0-100 league percentile, same convention as PositionGroupReportCard
+  rawValue: number;
+  // What rawValue actually is — varies by group (EPA/play for the four
+  // skill positions, a rate stat for the rest), so each entry carries its
+  // own label rather than assuming one shared unit.
+  rawLabel: string;
+}
+
+export interface PositionGroupLeagueTeamEntry {
+  team: string;
+  groups: PositionGroupLeagueGroupEntry[];
+}
+
 export interface QBWindowStats {
   attempts: number;
   completions: number;

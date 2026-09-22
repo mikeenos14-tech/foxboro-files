@@ -26,6 +26,7 @@ import { ordinal } from "../lib/calc/ranks";
 import type {
   DepthChartEntry,
   PositionGroupReportCard,
+  PositionGroupLeagueTeamEntry,
   QBDeepDive,
   QBWindowStats,
 } from "../lib/data/types";
@@ -112,6 +113,21 @@ function windowedRowsByTeamAndIndex(
   };
 }
 
+// Shared by buildPositionGroupCards (TEAM's own card, windowed) and
+// buildPositionGroupLeagueTable (all 32 teams' grades, for head-to-head
+// comparison) so the group definitions can't drift between the two.
+const PLAYER_ATTRIBUTED_GROUPS: Array<{
+  label: string;
+  idField: "passer_id" | "rusher_id" | "receiver_id";
+  playType: "pass" | "run";
+  rosterPosition: string;
+}> = [
+  { label: "QB", idField: "passer_id", playType: "pass", rosterPosition: "QB" },
+  { label: "RB", idField: "rusher_id", playType: "run", rosterPosition: "RB" },
+  { label: "WR", idField: "receiver_id", playType: "pass", rosterPosition: "WR" },
+  { label: "TE", idField: "receiver_id", playType: "pass", rosterPosition: "TE" },
+];
+
 async function buildPositionGroupCards(
   pbp: PbpRow[]
 ): Promise<PositionGroupReportCard[]> {
@@ -119,18 +135,7 @@ async function buildPositionGroupCards(
   const qbFaultSackKeys = await loadQbFaultSackKeys();
   const rowsFor = windowedRowsByTeamAndIndex(pbp, ALL_TEAMS);
   const windowLabels = buildLastNGameWindows(pbp, TEAM).map((w) => ({ key: w.key, label: w.label }));
-
-  const groups: Array<{
-    label: string;
-    idField: "passer_id" | "rusher_id" | "receiver_id";
-    playType: "pass" | "run";
-    rosterPosition: string;
-  }> = [
-    { label: "QB", idField: "passer_id", playType: "pass", rosterPosition: "QB" },
-    { label: "RB", idField: "rusher_id", playType: "run", rosterPosition: "RB" },
-    { label: "WR", idField: "receiver_id", playType: "pass", rosterPosition: "WR" },
-    { label: "TE", idField: "receiver_id", playType: "pass", rosterPosition: "TE" },
-  ];
+  const groups = PLAYER_ATTRIBUTED_GROUPS;
 
   const windowedGrade = (
     valueOf: (rows: PbpRow[], t: string) => number,
@@ -244,6 +249,55 @@ async function buildPositionGroupCards(
   ];
 
   return [...playerAttributed, ...teamUnits];
+}
+
+// Every team's grade in every group, full-season only (no windowing —
+// same scope as the QB head-to-head tool this mirrors), for the
+// position-group compare tool. rawValue/rawLabel carry the underlying
+// metric so the comparison shows a real number, not just a percentile —
+// units vary by group (EPA/play for the four skill positions, a rate for
+// the rest), which is why each group also gets its own rawLabel rather
+// than assuming one shared unit.
+async function buildPositionGroupLeagueTable(
+  pbp: PbpRow[]
+): Promise<PositionGroupLeagueTeamEntry[]> {
+  const rosterByGsis = await buildLeagueRosterByGsis();
+  const qbFaultSackKeys = await loadQbFaultSackKeys();
+
+  const rankAndValue = (valueOf: (t: string) => number, higherIsBetter: boolean, team: string) => ({
+    grade: rankGeneric(ALL_TEAMS, team, valueOf, higherIsBetter).leaguePercentile,
+    rawValue: valueOf(team),
+  });
+
+  const sackValue = (t: string) => olFaultSackRateAllowed(pbp, t, qbFaultSackKeys);
+  const pressureValue = (t: string) => pressureRateAllowed(pbp, t);
+  const edgeValue = (t: string) => sackRateGenerated(pbp, t);
+  const idlValue = (t: string) => playTypeEpa(pbp, t, "defteam", "run");
+  const secValue = (t: string) => playTypeEpa(pbp, t, "defteam", "pass");
+
+  return ALL_TEAMS.map((team) => {
+    const playerGroups = PLAYER_ATTRIBUTED_GROUPS.map(({ label, idField, playType, rosterPosition }) => {
+      const valueOf = (t: string) => positionEpa(pbp, rosterByGsis, t, rosterPosition, idField, playType).epa;
+      return { group: label, rawLabel: "EPA/play", ...rankAndValue(valueOf, true, team) };
+    });
+
+    const olSackGrade = rankGeneric(ALL_TEAMS, team, sackValue, false).leaguePercentile;
+    const olPressureGrade = rankGeneric(ALL_TEAMS, team, pressureValue, false).leaguePercentile;
+
+    const teamUnitGroups = [
+      {
+        group: "OL",
+        grade: Math.round((olSackGrade + olPressureGrade) / 2),
+        rawValue: sackValue(team),
+        rawLabel: "Sack rate allowed (excl. QB fault)",
+      },
+      { group: "Edge", rawLabel: "Sack rate generated", ...rankAndValue(edgeValue, true, team) },
+      { group: "Interior DL", rawLabel: "Rush EPA allowed", ...rankAndValue(idlValue, false, team) },
+      { group: "Secondary", rawLabel: "Pass EPA allowed", ...rankAndValue(secValue, false, team) },
+    ];
+
+    return { team, groups: [...playerGroups, ...teamUnitGroups] };
+  });
 }
 
 // ---------- QB deep dive ----------
@@ -399,6 +453,13 @@ async function main() {
   console.log(
     `Wrote position-group-cards.json (${positionCards.length} real groups: QB/RB/WR/TE/OL/Edge/Interior DL/Secondary)`
   );
+
+  const positionGroupLeagueTable = await buildPositionGroupLeagueTable(pbp);
+  await writeFile(
+    path.join(GENERATED_DIR, "position-group-league-table.json"),
+    JSON.stringify(positionGroupLeagueTable, null, 2)
+  );
+  console.log(`Wrote position-group-league-table.json (${positionGroupLeagueTable.length} teams)`);
 
   const rosterByGsis = await buildLeagueRosterByGsis();
   const leagueQbTable = ALL_TEAMS

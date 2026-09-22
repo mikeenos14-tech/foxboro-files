@@ -18,6 +18,7 @@ import type {
   NewsItem,
   OpponentMatchupData,
   PositionGroupReportCard,
+  PositionGroupLeagueTeamEntry,
   QBDeepDive,
   ScheduleRow,
   SeasonProjection,
@@ -183,6 +184,50 @@ export const positionGroupReportCards: PositionGroupReportCard[] = [
   { group: "Interior DL", grade: 70, trend: "up", soWhat: "Run defense has been stout early — top-10 stuff rate.", windows: [] },
   { group: "LB", grade: 60, trend: "down", soWhat: "Coverage has been a soft spot against tight ends.", windows: [] },
   { group: "Secondary", grade: 73, trend: "up", soWhat: "Ball-hawking early — leads league in turnover-worthy pass breakups.", windows: [] },
+];
+
+// Illustrative only, same as qbLeagueTable below — real data covers all
+// 32 teams once the pipeline runs (see build-roster-data.ts).
+export const positionGroupLeagueTable: PositionGroupLeagueTeamEntry[] = [
+  {
+    team: "NE",
+    groups: [
+      { group: "QB", grade: 78, rawValue: 0.14, rawLabel: "EPA/play" },
+      { group: "RB", grade: 71, rawValue: 0.05, rawLabel: "EPA/play" },
+      { group: "WR", grade: 62, rawValue: 0.02, rawLabel: "EPA/play" },
+      { group: "TE", grade: 69, rawValue: 0.08, rawLabel: "EPA/play" },
+      { group: "OL", grade: 74, rawValue: 0.04, rawLabel: "Sack rate allowed (excl. QB fault)" },
+      { group: "Edge", grade: 66, rawValue: 0.07, rawLabel: "Sack rate generated" },
+      { group: "Interior DL", grade: 70, rawValue: -0.09, rawLabel: "Rush EPA allowed" },
+      { group: "Secondary", grade: 73, rawValue: -0.12, rawLabel: "Pass EPA allowed" },
+    ],
+  },
+  {
+    team: "PIT",
+    groups: [
+      { group: "QB", grade: 55, rawValue: 0.01, rawLabel: "EPA/play" },
+      { group: "RB", grade: 48, rawValue: -0.02, rawLabel: "EPA/play" },
+      { group: "WR", grade: 51, rawValue: -0.01, rawLabel: "EPA/play" },
+      { group: "TE", grade: 44, rawValue: -0.05, rawLabel: "EPA/play" },
+      { group: "OL", grade: 40, rawValue: 0.09, rawLabel: "Sack rate allowed (excl. QB fault)" },
+      { group: "Edge", grade: 82, rawValue: 0.12, rawLabel: "Sack rate generated" },
+      { group: "Interior DL", grade: 58, rawValue: -0.03, rawLabel: "Rush EPA allowed" },
+      { group: "Secondary", grade: 61, rawValue: -0.06, rawLabel: "Pass EPA allowed" },
+    ],
+  },
+  {
+    team: "JAX",
+    groups: [
+      { group: "QB", grade: 60, rawValue: 0.03, rawLabel: "EPA/play" },
+      { group: "RB", grade: 66, rawValue: 0.06, rawLabel: "EPA/play" },
+      { group: "WR", grade: 58, rawValue: 0.0, rawLabel: "EPA/play" },
+      { group: "TE", grade: 50, rawValue: -0.02, rawLabel: "EPA/play" },
+      { group: "OL", grade: 63, rawValue: 0.05, rawLabel: "Sack rate allowed (excl. QB fault)" },
+      { group: "Edge", grade: 57, rawValue: 0.06, rawLabel: "Sack rate generated" },
+      { group: "Interior DL", grade: 45, rawValue: 0.01, rawLabel: "Rush EPA allowed" },
+      { group: "Secondary", grade: 52, rawValue: -0.01, rawLabel: "Pass EPA allowed" },
+    ],
+  },
 ];
 
 export const qbDeepDive: QBDeepDive = {

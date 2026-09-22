@@ -21,6 +21,7 @@ import type {
   NewsItem,
   OpponentMatchupData,
   PositionGroupReportCard,
+  PositionGroupLeagueTeamEntry,
   QBDeepDive,
   ScheduleRow,
   SeasonProjection,
@@ -121,6 +122,13 @@ export async function getPositionGroupReportCards(): Promise<
     (c) => !realGroups.has(c.group)
   );
   return [...real, ...remainingFixtures];
+}
+
+export async function getPositionGroupLeagueTable(): Promise<PositionGroupLeagueTeamEntry[]> {
+  return (
+    (await readGenerated<PositionGroupLeagueTeamEntry[]>("position-group-league-table.json")) ??
+    fixtures.positionGroupLeagueTable
+  );
 }
 
 export async function getQBDeepDive(): Promise<QBDeepDive> {

@@ -3,6 +3,7 @@ import * as store from "@/lib/data/store";
 import { DepthChartTable } from "@/components/roster/DepthChartTable";
 import { PositionGroupCardsGrid } from "@/components/roster/PositionGroupCardsGrid";
 import { PositionGroupSummaryStrip } from "@/components/roster/PositionGroupSummaryStrip";
+import { PositionGroupHeadToHead } from "@/components/roster/PositionGroupHeadToHead";
 import { SpecialTeamsStats } from "@/components/roster/SpecialTeamsStats";
 import { SituationalSplitsTable } from "@/components/roster/SituationalSplitsTable";
 import { QBDeepDive } from "@/components/roster/QBDeepDive";
@@ -17,14 +18,16 @@ export default async function RosterPage({
   searchParams: Promise<{ qbWindow?: string; gradeWindow?: string }>;
 }) {
   const { qbWindow, gradeWindow } = await searchParams;
-  const [chart, reportCards, teamStats, qb, qbLeagueTable, nextGame] = await Promise.all([
-    store.getDepthChart(),
-    store.getPositionGroupReportCards(),
-    store.getTeamStats(),
-    store.getQBDeepDive(),
-    store.getQbLeagueTable(),
-    store.getNextGame(),
-  ]);
+  const [chart, reportCards, positionGroupLeagueTable, teamStats, qb, qbLeagueTable, nextGame] =
+    await Promise.all([
+      store.getDepthChart(),
+      store.getPositionGroupReportCards(),
+      store.getPositionGroupLeagueTable(),
+      store.getTeamStats(),
+      store.getQBDeepDive(),
+      store.getQbLeagueTable(),
+      store.getNextGame(),
+    ]);
   const opponentTeam = nextGame.homeTeam === qb.team ? nextGame.awayTeam : nextGame.homeTeam;
 
   return (
@@ -58,7 +61,19 @@ export default async function RosterPage({
           },
           {
             label: "Position Grades",
-            content: <PositionGroupCardsGrid cards={reportCards} initialWindow={gradeWindow} />,
+            content: (
+              <div className="space-y-6">
+                <PositionGroupCardsGrid cards={reportCards} initialWindow={gradeWindow} />
+                <div>
+                  <h2 className="mb-3 text-lg font-semibold">Compare a Position Group</h2>
+                  <PositionGroupHeadToHead
+                    myTeam={qb.team}
+                    league={positionGroupLeagueTable}
+                    defaultOpponentTeam={opponentTeam}
+                  />
+                </div>
+              </div>
+            ),
           },
           {
             label: "Splits & Special Teams",
