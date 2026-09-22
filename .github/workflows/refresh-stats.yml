@@ -56,6 +56,12 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      # Run before touching any data: if the stat math is broken, the last
+      # thing we want is to compute and commit a fresh set of wrong
+      # numbers over the previous good ones.
+      - name: Run tests
+        run: npm test
+
       - name: Fetch nflverse data (schedule, play-by-play, rosters, injuries)
         run: npx tsx scripts/fetch-nflverse.ts
         continue-on-error: true

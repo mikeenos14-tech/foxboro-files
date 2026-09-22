@@ -35,6 +35,7 @@ import { TEAM_CONFERENCE, TEAM_DIVISION, ALL_TEAMS } from "./lib/teams";
 import { rankGeneric } from "./lib/rank";
 import { buildLastNWeekWindows, filterRowsToWindow } from "./lib/statWindows";
 import { buildLeagueRosterByGsis } from "./lib/roster";
+import { simpleWinProb, blendedWinProb } from "./lib/winProbability";
 import type {
   Game,
   GameRecap,
@@ -64,54 +65,6 @@ function teamSos(
   if (opponents.length === 0) return 0;
   const total = opponents.reduce((sum, opp) => sum + pointDiff(standings.get(opp)), 0);
   return total / opponents.length;
-}
-
-function simpleWinProb(netEpaDiff: number, isHome: boolean): number {
-  // Rough heuristic, explicitly not a real predictive model: maps EPA/play
-  // differential through a bounded curve, plus a small home-field bump.
-  // Scale factor kept modest so early-season, small-sample EPA gaps don't
-  // saturate the estimate to the clamp floor/ceiling on nearly every game.
-  const scaled = Math.tanh(netEpaDiff * 2.5);
-  const base = 0.5 + 0.5 * scaled;
-  const homeBump = isHome ? 0.025 : -0.025;
-  return Math.min(0.9, Math.max(0.1, base + homeBump));
-}
-
-// Standard normal CDF, for converting a point spread to a win
-// probability below.
-function normalCdf(z: number): number {
-  // Abramowitz & Stegun 7.1.26 approximation of erf.
-  const t = 1 / (1 + 0.2316419 * Math.abs(z));
-  const d = 0.3989423 * Math.exp((-z * z) / 2);
-  const p = d * t * (0.3193815 + t * (-0.3565638 + t * (1.781478 + t * (-1.821256 + t * 1.330274))));
-  return z > 0 ? 1 - p : p;
-}
-
-// A real market line is a strictly better estimate than a two-game EPA
-// differential — it's thousands of people pricing every injury, matchup
-// and weather note the site's own model knows nothing about. The site
-// already fetches the spread for the upcoming game but never used it for
-// anything except display.
-//
-// 13.86 is the historical standard deviation of NFL scoring margin, the
-// standard conversion from spread to win probability.
-//
-// `ourSpread` follows the convention used elsewhere in this codebase:
-// positive means we're getting points (underdog).
-function winProbFromSpread(ourSpread: number): number {
-  return normalCdf(-ourSpread / 13.86);
-}
-
-// Blended 50/50 rather than replacing the model outright. The market is
-// better, but the site's framing is that its own numbers are computed
-// from real play data and the betting line is "public perception, not a
-// prediction" — so this keeps both visible in the estimate instead of
-// quietly becoming a Vegas mirror.
-function blendedWinProb(epaEstimate: number, ourSpread: number | undefined, isHome: boolean): number {
-  if (ourSpread === undefined) return epaEstimate;
-  const market = winProbFromSpread(ourSpread);
-  void isHome; // home advantage is already priced into the market line
-  return Math.min(0.9, Math.max(0.1, epaEstimate * 0.5 + market * 0.5));
 }
 
 async function main() {
@@ -261,8 +214,7 @@ async function main() {
         ? undefined
         : blendedWinProb(
             simpleWinProb(netEpaOf(TEAM) - netEpaOf(opponent), isHome),
-            marketSpreadByGameId.get(g.game_id),
-            isHome
+            marketSpreadByGameId.get(g.game_id)
           ),
       date: g.gameday,
     };

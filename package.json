@@ -9,7 +9,8 @@
     "lint": "eslint",
     "build:data": "tsx scripts/build-all.ts",
     "build:data:skip-ai": "tsx scripts/build-all.ts --skip-ai",
-    "verify:data": "tsx scripts/verify-data.ts"
+    "verify:data": "tsx scripts/verify-data.ts",
+    "test": "tsx --test tests/*.test.ts"
   },
   "dependencies": {
     "canvas-confetti": "^1.9.4",
