@@ -9,11 +9,6 @@
         "key": "last-1",
         "label": "Last Game",
         "grade": 16
-      },
-      {
-        "key": "last-2",
-        "label": "Last 2 Games",
-        "grade": 19
       }
     ],
     "statLine": "",
@@ -23,18 +18,13 @@
   {
     "group": "RB",
     "grade": 26,
-    "trend": "up",
+    "trend": "flat",
     "soWhat": "Opponent-adjusted EPA/play at RB, regressed to the league mean on a 48-play sample.",
     "windows": [
       {
         "key": "last-1",
         "label": "Last Game",
         "grade": 77
-      },
-      {
-        "key": "last-2",
-        "label": "Last 2 Games",
-        "grade": 26
       }
     ],
     "statLine": "181 yds, 3.8 YPC, 1 TD, 0 FUM, 8% explosive",
@@ -45,18 +35,13 @@
   {
     "group": "WR",
     "grade": 48,
-    "trend": "up",
+    "trend": "flat",
     "soWhat": "Opponent-adjusted EPA/play at WR, regressed to the league mean on a 30-play sample.",
     "windows": [
       {
         "key": "last-1",
         "label": "Last Game",
         "grade": 61
-      },
-      {
-        "key": "last-2",
-        "label": "Last 2 Games",
-        "grade": 48
       }
     ],
     "statLine": "20/30 (67%), 228 yds, 3.9 YAC/rec, 0 TD",
@@ -79,11 +64,6 @@
         "key": "last-1",
         "label": "Last Game",
         "grade": 26
-      },
-      {
-        "key": "last-2",
-        "label": "Last 2 Games",
-        "grade": 35
       }
     ],
     "statLine": "8/10 (80%), 98 yds, 4.6 YAC/rec, 1 TD",
@@ -107,11 +87,6 @@
         "key": "last-1",
         "label": "Last Game",
         "grade": 26
-      },
-      {
-        "key": "last-2",
-        "label": "Last 2 Games",
-        "grade": 29
       }
     ],
     "statLine": "",
@@ -128,11 +103,6 @@
         "key": "last-1",
         "label": "Last Game",
         "grade": 77
-      },
-      {
-        "key": "last-2",
-        "label": "Last 2 Games",
-        "grade": 84
       }
     ],
     "statLine": "3 sacks, 8 QB hits — leader: Dre'Mont Jones (1 sack)",
@@ -142,18 +112,13 @@
   {
     "group": "Run Defense",
     "grade": 52,
-    "trend": "down",
+    "trend": "flat",
     "soWhat": "Opponent-adjusted rush EPA allowed, team-wide — the front seven and run-support safeties together.",
     "windows": [
       {
         "key": "last-1",
         "label": "Last Game",
         "grade": 39
-      },
-      {
-        "key": "last-2",
-        "label": "Last 2 Games",
-        "grade": 52
       }
     ],
     "statLine": "2 TFL, 2 sacks — leader: Christian Barmore (1 TFL)",
@@ -170,11 +135,6 @@
         "key": "last-1",
         "label": "Last Game",
         "grade": 97
-      },
-      {
-        "key": "last-2",
-        "label": "Last 2 Games",
-        "grade": 94
       }
     ],
     "statLine": "0 INT, 6 PBU",

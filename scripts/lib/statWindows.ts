@@ -11,6 +11,23 @@ export interface StatWindow {
   weeks?: Set<number>;
 }
 
+// The recent-form windows the site offers, and the only ones it offers.
+//
+// These used to be every N from 1 up to games played, which meant the
+// dropdown grew all season: two entries in Week 2, nineteen by Week 17,
+// almost all of them ("Last 13 Games") things nobody wants. The filter
+// exists as a gut check on recent form, and a gut check is last game /
+// last three / last five — the same splits ESPN, PFF and every fantasy
+// tool settle on, because they're what people actually reason in.
+export const RECENT_WINDOW_SIZES = [1, 3, 5] as const;
+
+// A window is only offered once it says something the full-season view
+// doesn't: at exactly 3 games played, "Last 3 Games" IS the season, so
+// offering both is just two names for one number.
+function offeredSizes(total: number): number[] {
+  return RECENT_WINDOW_SIZES.filter((n) => n < total);
+}
+
 // Every "last N games" window for a team, N = 1 up to however many games
 // they've played so far this season. Game IDs are nflverse's own
 // YYYY_WW_AWAY_HOME strings, zero-padded on week, so a plain string sort
@@ -22,20 +39,38 @@ export interface StatWindow {
 // distinct from the full-season default view (which stays opponent-
 // adjusted as before).
 export function buildLastNGameWindows(pbp: PbpRow[], team: string): StatWindow[] {
-  const gameIds = [
+  const gameIds = teamGameIds(pbp, team);
+  return offeredSizes(gameIds.length).map((n) => gameWindow(gameIds, n));
+}
+
+function teamGameIds(pbp: PbpRow[], team: string): string[] {
+  return [
     ...new Set(pbp.filter((r) => r.posteam === team || r.defteam === team).map((r) => r.game_id)),
   ].sort();
-  const windows: StatWindow[] = [];
-  for (let n = 1; n <= gameIds.length; n++) {
-    const slice = gameIds.slice(gameIds.length - n);
-    windows.push({
-      key: `last-${n}`,
-      label: n === 1 ? "Last Game" : `Last ${n} Games`,
-      games: n,
-      gameIds: new Set(slice),
-    });
-  }
-  return windows;
+}
+
+function gameWindow(gameIds: string[], n: number): StatWindow {
+  const size = Math.min(n, gameIds.length);
+  return {
+    key: `last-${n}`,
+    label: n === 1 ? "Last Game" : `Last ${n} Games`,
+    games: size,
+    gameIds: new Set(gameIds.slice(gameIds.length - size)),
+  };
+}
+
+// The same window for any team, clamped to the games that team has
+// actually played.
+//
+// Used to build the league baseline a windowed grade is ranked against.
+// It's resolved by SIZE rather than by position in a list, because teams
+// don't all have the same number of games once byes start: looking up
+// "the third window" would silently compare our last five games against
+// someone else's last three.
+export function gameWindowForSize(pbp: PbpRow[], team: string, n: number): StatWindow | null {
+  const gameIds = teamGameIds(pbp, team);
+  if (gameIds.length === 0) return null;
+  return gameWindow(gameIds, n);
 }
 
 export function filterRowsToWindow(rows: PbpRow[], window: StatWindow): PbpRow[] {
@@ -52,15 +87,14 @@ export function filterRowsToWindow(rows: PbpRow[], window: StatWindow): PbpRow[]
 // shift the count), breaking that baseline. Weeks give every team the
 // same window by construction; a team on a bye during one of those weeks
 // just has fewer actual games in it, which is correct, not a bug.
-export function buildLastNWeekWindows(pbp: PbpRow[], maxWindows = 18): StatWindow[] {
+export function buildLastNWeekWindows(pbp: PbpRow[]): StatWindow[] {
   const weeks = [...new Set(pbp.map((r) => Number(r.week)).filter((w) => Number.isFinite(w)))].sort(
     (a, b) => a - b
   );
   if (weeks.length === 0) return [];
   const currentWeek = weeks[weeks.length - 1];
   const windows: StatWindow[] = [];
-  const n = Math.min(weeks.length, maxWindows);
-  for (let i = 1; i <= n; i++) {
+  for (const i of offeredSizes(weeks.length)) {
     const minWeek = currentWeek - i + 1;
     const gameIds = new Set(
       pbp.filter((r) => Number(r.week) >= minWeek && Number(r.week) <= currentWeek).map((r) => r.game_id)

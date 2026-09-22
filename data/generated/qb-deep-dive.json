@@ -59,26 +59,6 @@
         "cleanPocketEpa": -0.1648219461274474,
         "turnoverWorthyPlayRate": 0.04
       }
-    },
-    {
-      "key": "last-2",
-      "label": "Last 2 Games",
-      "stats": {
-        "attempts": 61,
-        "completions": 37,
-        "yards": 359,
-        "tds": 1,
-        "ints": 4,
-        "cpoe": 3.903530881955063,
-        "accuracyByDepth": {
-          "short": 0.7916666666666666,
-          "medium": 0.4444444444444444,
-          "deep": 0.375
-        },
-        "pressureEpa": -0.730894948675358,
-        "cleanPocketEpa": -0.023079257941820166,
-        "turnoverWorthyPlayRate": 0.06557377049180328
-      }
     }
   ],
   "situational": [

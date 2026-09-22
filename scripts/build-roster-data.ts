@@ -17,7 +17,7 @@ import {
 } from "./lib/roster";
 import { rankGeneric } from "./lib/rank";
 import { ALL_TEAMS } from "./lib/teams";
-import { buildLastNGameWindows, filterRowsToWindow } from "./lib/statWindows";
+import { buildLastNGameWindows, gameWindowForSize, filterRowsToWindow } from "./lib/statWindows";
 import { confidenceLabel } from "./lib/shrink";
 import { GROUP_METRICS, gradeGroupAllTeams, type GroupGrade } from "./lib/positionGrades";
 import { leagueMean, shrink } from "./lib/shrink";
@@ -134,17 +134,25 @@ function receivingStatLine(
 // window aligned to the same calendar weeks; each team's own "last N
 // games I've played" is a perfectly fine, self-contained input. A team
 // that hasn't played N games yet (bye, or fewer games so far than the
-// window being requested) clamps to the most games they do have, same
-// early-season fallback used everywhere else on the site.
-function windowedRowsByTeamAndIndex(
-  pbp: PbpRow[],
-  teams: string[]
-): (team: string, index: number) => PbpRow[] {
-  const windowsByTeam = new Map(teams.map((t) => [t, buildLastNGameWindows(pbp, t)]));
-  return (team: string, index: number): PbpRow[] => {
-    const windows = windowsByTeam.get(team) ?? [];
-    if (windows.length === 0) return [];
-    return filterRowsToWindow(pbp, windows[Math.min(index, windows.length - 1)]);
+// window being requested) clamps to the most games they do have.
+//
+// Resolved by window SIZE, not by position in the team's window list.
+// Teams stop having equal game counts as soon as byes begin, and the
+// list of windows offered depends on games played — so asking for "the
+// third window" would compare our last five games against another
+// team's last three without anything saying so.
+function windowedRowsByTeamAndSize(
+  pbp: PbpRow[]
+): (team: string, size: number) => PbpRow[] {
+  const cache = new Map<string, PbpRow[]>();
+  return (team: string, size: number): PbpRow[] => {
+    const cacheKey = `${team}|${size}`;
+    const hit = cache.get(cacheKey);
+    if (hit) return hit;
+    const window = gameWindowForSize(pbp, team, size);
+    const rows = window ? filterRowsToWindow(pbp, window) : [];
+    cache.set(cacheKey, rows);
+    return rows;
   };
 }
 
@@ -524,16 +532,20 @@ async function main() {
 
   // Windowed grades use the same pipeline over a narrower row set. Each
   // team's window is its own last-N games, so a team with fewer games
-  // clamps to what it has (see windowedRowsByTeamAndIndex).
-  const rowsFor = windowedRowsByTeamAndIndex(pbp, ALL_TEAMS);
-  const windowLabels = buildLastNGameWindows(pbp, TEAM).map((w) => ({ key: w.key, label: w.label }));
+  // clamps to what it has (see windowedRowsByTeamAndSize).
+  const rowsFor = windowedRowsByTeamAndSize(pbp);
+  const windowLabels = buildLastNGameWindows(pbp, TEAM).map((w) => ({
+    key: w.key,
+    label: w.label,
+    size: Number(w.key.replace("last-", "")),
+  }));
   const windowGradesByGroup = new Map(
     GROUP_METRICS.map((m) => [
       m.label,
-      windowLabels.map(({ key, label }, i) => {
-        // Every team evaluated over its own i-th window, so the ranking
-        // compares like with like.
-        const windowRows = ALL_TEAMS.flatMap((t) => rowsFor(t, i));
+      windowLabels.map(({ key, label, size }) => {
+        // Every team evaluated over a window of the same size, so the
+        // ranking compares like with like.
+        const windowRows = ALL_TEAMS.flatMap((t) => rowsFor(t, size));
         const deduped = [...new Map(windowRows.map((r) => [`${r.game_id}|${r.play_id}`, r])).values()];
         return { key, label, grade: gradeGroupAllTeams(deduped, ALL_TEAMS, roster, m).get(TEAM)!.grade };
       }),
