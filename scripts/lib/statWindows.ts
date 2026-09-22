@@ -5,6 +5,10 @@ export interface StatWindow {
   label: string;
   games: number;
   gameIds: Set<string>;
+  // Week numbers covered, for callers that work off the schedule rather
+  // than play-by-play (point differential comes from final scores, not
+  // plays). Only populated by the week-based builder.
+  weeks?: Set<number>;
 }
 
 // Every "last N games" window for a team, N = 1 up to however many games
@@ -61,11 +65,14 @@ export function buildLastNWeekWindows(pbp: PbpRow[], maxWindows = 18): StatWindo
     const gameIds = new Set(
       pbp.filter((r) => Number(r.week) >= minWeek && Number(r.week) <= currentWeek).map((r) => r.game_id)
     );
+    const weekNumbers = new Set<number>();
+    for (let w = minWeek; w <= currentWeek; w++) weekNumbers.add(w);
     windows.push({
       key: `last-${i}-weeks`,
       label: i === 1 ? "Last Week" : `Last ${i} Weeks`,
       games: i,
       gameIds,
+      weeks: weekNumbers,
     });
   }
   return windows;

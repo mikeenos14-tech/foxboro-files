@@ -15,9 +15,13 @@ function isPlayed(g: GameRow): boolean {
   return g.home_score !== "" && g.away_score !== "" && g.home_score !== undefined;
 }
 
+// `weeks` optionally restricts the table to a set of week numbers, which
+// is what lets the site show a real "last N weeks" point differential
+// rather than always the season-to-date total.
 export function computeStandings(
   games: GameRow[],
-  season: number
+  season: number,
+  weeks?: Set<number>
 ): Map<string, TeamRecord> {
   const table = new Map<string, TeamRecord>();
 
@@ -30,6 +34,7 @@ export function computeStandings(
 
   for (const g of games) {
     if (num(g.season) !== season || g.game_type !== "REG" || !isPlayed(g)) continue;
+    if (weeks && !weeks.has(num(g.week))) continue;
     const home = num(g.home_score);
     const away = num(g.away_score);
     const h = get(g.home_team);

@@ -99,6 +99,12 @@ async function main() {
   const epaPerPlayWindows = buildLastNWeekWindows(pbp).map((window) => {
     const windowRows = filterRowsToWindow(pbp, window);
     const windowedEpa = computeAdjustedEpa(windowRows, ALL_TEAMS);
+    // Point differential over the window, from final scores rather than
+    // plays. This was previously left season-to-date on the grounds that
+    // a cumulative total isn't a per-play rate — but "we're +17 over the
+    // last week" is a perfectly coherent stat and exactly what someone
+    // filtering to last week is asking for.
+    const windowStandings = computeStandings(games, SEASON, window.weeks);
     return {
       key: window.key,
       label: window.label,
@@ -112,6 +118,7 @@ async function main() {
         offense: rankGeneric(ALL_TEAMS, TEAM, (t) => offenseStats(windowRows, t).yardsPerPlay, true),
         defense: rankGeneric(ALL_TEAMS, TEAM, (t) => defenseStats(windowRows, t).yardsPerPlay, false),
       },
+      pointDifferential: rankGeneric(ALL_TEAMS, TEAM, (t) => pointDiff(windowStandings.get(t)), true),
     };
   });
 

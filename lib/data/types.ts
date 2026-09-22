@@ -134,13 +134,13 @@ export interface TeamStatSnapshot {
     label: string;
     offense: RankedStat;
     defense: RankedStat;
-    // Windowed alongside EPA so the Team Strength filter moves every
-    // metric it claims to. Point differential stays season-to-date — it's
-    // a cumulative box-score total, not a per-play rate, so a "last N
-    // weeks point differential" would be a different stat rather than the
-    // same one over a shorter span.
+    // Windowed alongside EPA so the filter moves every metric under it.
+    // Point differential included: it comes from final scores rather than
+    // plays, but "+17 over the last week" is exactly what someone
+    // filtering to last week is asking for.
     successRate: { offense: RankedStat; defense: RankedStat };
     yardsPerPlay: { offense: RankedStat; defense: RankedStat };
+    pointDifferential: RankedStat;
   }>;
   successRate: { offense: RankedStat; defense: RankedStat };
   // Raw yards/play, not opponent-adjusted — the classic pre-EPA box-score
@@ -251,6 +251,7 @@ export interface PriorSeasonSnapshot {
     epaPerPlay: { offense: RankedStat; defense: RankedStat };
     successRate: { offense: RankedStat; defense: RankedStat };
     yardsPerPlay: { offense: RankedStat; defense: RankedStat };
+    pointDifferential: RankedStat;
   };
   positionGroups: Array<{
     group: string;

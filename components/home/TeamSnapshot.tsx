@@ -13,11 +13,14 @@ import { useWindowParam } from "@/lib/hooks/useWindowParam";
 import { ordinal } from "@/lib/calc/ranks";
 import { formatPercent } from "@/lib/util/format";
 
-// One filter for the whole snapshot. Previously the selector lived in the
-// Team Strength header with the Unit Grades strip sitting directly above
-// it — so changing the window moved the cards below and left the biggest
-// numbers on the page untouched, which reads as a broken filter. Whatever
-// sits under this control responds to it.
+// One filter for the whole snapshot: every number under this control
+// responds to it, with no exceptions. Getting there took two passes —
+// first the selector only moved two of seven cards, then the Unit Grades
+// strip sat frozen directly above it, then point differential stayed
+// season-to-date behind a justification that was really just an excuse
+// for not implementing it. A filter that moves some of what it sits above
+// is worse than no filter, because it silently mislabels whatever it
+// didn't touch.
 export function TeamSnapshot({
   teamStats,
   cards,
@@ -58,13 +61,15 @@ export function TeamSnapshot({
             epaPerPlay: { offense: window.offense, defense: window.defense },
             successRate: window.successRate,
             yardsPerPlay: window.yardsPerPlay,
+            pointDifferential: window.pointDifferential,
           }
         : {
             epaPerPlay: teamStats.epaPerPlay,
             successRate: teamStats.successRate,
             yardsPerPlay: teamStats.yardsPerPlay,
+            pointDifferential: teamStats.pointDifferential,
           };
-  const { epaPerPlay: epa, successRate, yardsPerPlay } = view;
+  const { epaPerPlay: epa, successRate, yardsPerPlay, pointDifferential } = view;
 
   // Team stats window by calendar week (required for opponent adjustment
   // to stay valid across teams); position grades window by the team's own
@@ -119,16 +124,16 @@ export function TeamSnapshot({
           <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
             <StatCard
               label="Point Differential"
-              value={`${teamStats.pointDifferential.value > 0 ? "+" : ""}${teamStats.pointDifferential.value}`}
-              leagueRank={teamStats.pointDifferential.leagueRank}
+              value={`${pointDifferential.value > 0 ? "+" : ""}${pointDifferential.value}`}
+              leagueRank={pointDifferential.leagueRank}
               soWhat={
                 windowLabel
-                  ? `Season to date — point differential is a cumulative total, not a per-play rate.`
+                  ? undefined
                   : `Pythagorean win% suggests a ${formatPercent(teamStats.pythagoreanWinPct)} true-talent team.`
               }
               animate={{
-                value: teamStats.pointDifferential.value,
-                prefix: teamStats.pointDifferential.value > 0 ? "+" : "",
+                value: pointDifferential.value,
+                prefix: pointDifferential.value > 0 ? "+" : "",
               }}
             />
           </div>

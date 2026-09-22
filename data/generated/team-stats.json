@@ -50,6 +50,11 @@
           "leagueRank": 3,
           "leaguePercentile": 94
         }
+      },
+      "pointDifferential": {
+        "value": 17,
+        "leagueRank": 5,
+        "leaguePercentile": 87
       }
     },
     {
@@ -88,6 +93,11 @@
           "leagueRank": 4,
           "leaguePercentile": 90
         }
+      },
+      "pointDifferential": {
+        "value": 14,
+        "leagueRank": 10,
+        "leaguePercentile": 71
       }
     }
   ],

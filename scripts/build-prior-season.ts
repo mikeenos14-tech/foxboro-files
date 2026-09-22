@@ -20,18 +20,13 @@ import { mkdir, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { existsSync } from "node:fs";
 import { loadCsv, num, bool01 } from "./lib/csv";
-import {
-  offenseStats,
-  defenseStats,
-  playTypeEpa,
-  sackRateGenerated,
-  pressureRateAllowed,
-  type PbpRow,
-} from "./lib/pbp";
+import { offenseStats, defenseStats, type PbpRow } from "./lib/pbp";
 import { computeAdjustedEpa } from "./lib/leagueRanks";
+import { computeStandings, pointDiff } from "./lib/standings";
 import { rankGeneric } from "./lib/rank";
 import { ALL_TEAMS } from "./lib/teams";
-import { SHRINK_K, leagueMean, shrink, confidenceLabel } from "./lib/shrink";
+import { confidenceLabel } from "./lib/shrink";
+import { GROUP_METRICS, gradeGroupAllTeams } from "./lib/positionGrades";
 import type { RosterRow } from "./lib/roster";
 import type { PriorSeasonSnapshot } from "../lib/data/types";
 
@@ -49,36 +44,6 @@ async function ensureFile(filename: string, url: string): Promise<void> {
   const res = await fetch(url, { redirect: "follow" });
   if (!res.ok) throw new Error(`Failed to fetch ${filename}: ${res.status}`);
   await writeFile(dest, Buffer.from(await res.arrayBuffer()));
-}
-
-const PLAYER_GROUPS: Array<{
-  label: string;
-  idField: "passer_id" | "rusher_id" | "receiver_id";
-  playType: "pass" | "run";
-  rosterPosition: string;
-}> = [
-  { label: "QB", idField: "passer_id", playType: "pass", rosterPosition: "QB" },
-  { label: "RB", idField: "rusher_id", playType: "run", rosterPosition: "RB" },
-  { label: "WR", idField: "receiver_id", playType: "pass", rosterPosition: "WR" },
-  { label: "TE", idField: "receiver_id", playType: "pass", rosterPosition: "TE" },
-];
-
-function positionEpa(
-  pbp: PbpRow[],
-  rosterByGsis: Map<string, RosterRow>,
-  team: string,
-  position: string,
-  idField: "passer_id" | "rusher_id" | "receiver_id",
-  playType: "pass" | "run"
-): { epa: number; n: number } {
-  const rows = pbp.filter((r) => {
-    if (r.posteam !== team || r.play_type !== playType) return false;
-    const pid = r[idField];
-    if (!pid) return false;
-    return rosterByGsis.get(pid)?.position === position;
-  });
-  if (rows.length === 0) return { epa: 0, n: 0 };
-  return { epa: rows.reduce((s, r) => s + num(r.epa), 0) / rows.length, n: rows.length };
 }
 
 async function main() {
@@ -117,6 +82,7 @@ async function main() {
   // thin-sample caveats — this is the one snapshot on the site that's
   // genuinely well-sampled.
   const adjusted = computeAdjustedEpa(pbp, ALL_TEAMS);
+  const priorStandings = computeStandings(await loadCsv("games.csv"), Number(season));
   const teamStrength = {
     epaPerPlay: {
       offense: rankGeneric(ALL_TEAMS, TEAM, (t) => adjusted.offense.get(t) ?? 0, true),
@@ -130,78 +96,27 @@ async function main() {
       offense: rankGeneric(ALL_TEAMS, TEAM, (t) => offenseStats(pbp, t).yardsPerPlay, true),
       defense: rankGeneric(ALL_TEAMS, TEAM, (t) => defenseStats(pbp, t).yardsPerPlay, false),
     },
+    pointDifferential: rankGeneric(ALL_TEAMS, TEAM, (t) => pointDiff(priorStandings.get(t)), true),
   };
 
   // ---------- Position groups ----------
-  // Same shrinkage as the current season for methodological consistency,
-  // though over a full season it barely moves anything — which is the
-  // point: the correction is sample-size driven, so it fades out on its
-  // own when the sample is real.
-  const dropbacks = (t: string, side: "posteam" | "defteam") =>
-    pbp.filter((r) => r[side] === t && bool01(r.pass_attempt)).length;
-  const defPlays = (t: string, playType: "run" | "pass") =>
-    pbp.filter((r) => r.defteam === t && r.play_type === playType).length;
-
-  const shrunkGrade = (
-    valueOf: (t: string) => number,
-    countOf: (t: string) => number,
-    higherIsBetter: boolean,
-    k: number
-  ) => {
-    const samples = new Map(ALL_TEAMS.map((t) => [t, { value: valueOf(t), n: countOf(t) }] as const));
-    const mean = leagueMean([...samples.values()]);
-    const shrunkOf = (t: string) => shrink(samples.get(t) ?? { value: 0, n: 0 }, mean, k);
-    return rankGeneric(ALL_TEAMS, TEAM, shrunkOf, higherIsBetter).leaguePercentile;
-  };
-
-  const positionGroups = [
-    ...PLAYER_GROUPS.map(({ label, idField, playType, rosterPosition }) => {
-      const k = label === "RB" ? SHRINK_K.rushingEpa : label === "QB" ? SHRINK_K.passingEpa : SHRINK_K.receivingEpa;
-      const grade = shrunkGrade(
-        (t) => positionEpa(pbp, rosterByGsis, t, rosterPosition, idField, playType).epa,
-        (t) => positionEpa(pbp, rosterByGsis, t, rosterPosition, idField, playType).n,
-        true,
-        k
-      );
-      const { n } = positionEpa(pbp, rosterByGsis, TEAM, rosterPosition, idField, playType);
-      return { group: label, grade, sampleSize: n, confidence: confidenceLabel(n, k) };
-    }),
-    (() => {
-      const grade = shrunkGrade(
-        (t) => pressureRateAllowed(pbp, t),
-        (t) => dropbacks(t, "posteam"),
-        false,
-        SHRINK_K.teamRate
-      );
-      const n = dropbacks(TEAM, "posteam");
-      return { group: "OL", grade, sampleSize: n, confidence: confidenceLabel(n, SHRINK_K.teamRate) };
-    })(),
-    (() => {
-      const grade = shrunkGrade((t) => sackRateGenerated(pbp, t), (t) => dropbacks(t, "defteam"), true, SHRINK_K.teamRate);
-      const n = dropbacks(TEAM, "defteam");
-      return { group: "Edge", grade, sampleSize: n, confidence: confidenceLabel(n, SHRINK_K.teamRate) };
-    })(),
-    (() => {
-      const grade = shrunkGrade(
-        (t) => playTypeEpa(pbp, t, "defteam", "run"),
-        (t) => defPlays(t, "run"),
-        false,
-        SHRINK_K.teamRate
-      );
-      const n = defPlays(TEAM, "run");
-      return { group: "Interior DL", grade, sampleSize: n, confidence: confidenceLabel(n, SHRINK_K.teamRate) };
-    })(),
-    (() => {
-      const grade = shrunkGrade(
-        (t) => playTypeEpa(pbp, t, "defteam", "pass"),
-        (t) => defPlays(t, "pass"),
-        false,
-        SHRINK_K.teamRate
-      );
-      const n = defPlays(TEAM, "pass");
-      return { group: "Secondary", grade, sampleSize: n, confidence: confidenceLabel(n, SHRINK_K.teamRate) };
-    })(),
-  ];
+  // Uses the exact same pipeline as the current season (opponent-adjust,
+  // shrink, rank) so a 2025 grade and a 2026 grade mean the same thing.
+  // Comparing a raw prior-season grade against an adjusted current one
+  // would be the whole point of the feature, broken.
+  //
+  // Over a full season the shrinkage barely moves anything — which is
+  // correct: the correction is sample-size driven, so it fades out on its
+  // own once the sample is real.
+  const positionGroups = GROUP_METRICS.map((metric) => {
+    const g = gradeGroupAllTeams(pbp, ALL_TEAMS, rosterByGsis, metric).get(TEAM)!;
+    return {
+      group: metric.label,
+      grade: g.grade,
+      sampleSize: g.sampleSize,
+      confidence: confidenceLabel(g.sampleSize, metric.shrinkK),
+    };
+  });
 
   // ---------- QB ----------
   // The team's primary passer that season, by attempts.

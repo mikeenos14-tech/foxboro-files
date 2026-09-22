@@ -138,6 +138,7 @@ export const teamStats: TeamStatSnapshot = {
         offense: { value: 5.9, leagueRank: 7, leaguePercentile: 80 },
         defense: { value: 4.8, leagueRank: 9, leaguePercentile: 74 },
       },
+      pointDifferential: { value: 12, leagueRank: 6, leaguePercentile: 84 },
     },
     {
       key: "last-2-weeks",
@@ -152,6 +153,7 @@ export const teamStats: TeamStatSnapshot = {
         offense: { value: 5.6, leagueRank: 9, leaguePercentile: 74 },
         defense: { value: 5.1, leagueRank: 12, leaguePercentile: 65 },
       },
+      pointDifferential: { value: 19, leagueRank: 8, leaguePercentile: 76 },
     },
   ],
   successRate: {

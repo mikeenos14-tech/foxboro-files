@@ -37,18 +37,23 @@
         "leagueRank": 6,
         "leaguePercentile": 84
       }
+    },
+    "pointDifferential": {
+      "value": 170,
+      "leagueRank": 3,
+      "leaguePercentile": 94
     }
   },
   "positionGroups": [
     {
       "group": "QB",
-      "grade": 94,
+      "grade": 90,
       "sampleSize": 692,
       "confidence": "high"
     },
     {
       "group": "RB",
-      "grade": 29,
+      "grade": 26,
       "sampleSize": 460,
       "confidence": "high"
     },
@@ -60,31 +65,31 @@
     },
     {
       "group": "TE",
-      "grade": 94,
+      "grade": 87,
       "sampleSize": 136,
       "confidence": "high"
     },
     {
       "group": "OL",
-      "grade": 35,
+      "grade": 32,
       "sampleSize": 694,
       "confidence": "high"
     },
     {
       "group": "Edge",
-      "grade": 52,
+      "grade": 29,
       "sampleSize": 724,
       "confidence": "high"
     },
     {
       "group": "Interior DL",
-      "grade": 84,
+      "grade": 71,
       "sampleSize": 504,
       "confidence": "high"
     },
     {
       "group": "Secondary",
-      "grade": 87,
+      "grade": 68,
       "sampleSize": 722,
       "confidence": "high"
     }
