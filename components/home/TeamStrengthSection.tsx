@@ -1,9 +1,10 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useMemo } from "react";
 import type { TeamStatSnapshot } from "@/lib/data/types";
 import { StatCard } from "@/components/shared/StatCard";
 import { StatWindowSelector } from "@/components/shared/StatWindowSelector";
+import { useWindowParam } from "@/lib/hooks/useWindowParam";
 import { ordinal } from "@/lib/calc/ranks";
 import { formatPercent } from "@/lib/util/format";
 
@@ -11,12 +12,18 @@ import { formatPercent } from "@/lib/util/format";
 // season-to-date box-score totals, not something a "last N games" slice
 // changes the meaning of the same way EPA does) — only the two EPA cards
 // swap with the selector, so this owns just that piece of the section.
-export function TeamStrengthSection({ teamStats }: { teamStats: TeamStatSnapshot }) {
+export function TeamStrengthSection({
+  teamStats,
+  initialWindow,
+}: {
+  teamStats: TeamStatSnapshot;
+  initialWindow?: string;
+}) {
   const options = useMemo(
     () => [{ key: "season", label: "Full Season" }, ...teamStats.epaPerPlayWindows.map((w) => ({ key: w.key, label: w.label }))],
     [teamStats.epaPerPlayWindows]
   );
-  const [selected, setSelected] = useState("season");
+  const [selected, setSelected] = useWindowParam("teamWindow", initialWindow, "season");
   const epa =
     selected === "season"
       ? teamStats.epaPerPlay

@@ -1,15 +1,22 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useMemo } from "react";
 import type { PositionGroupReportCard as ReportCardData } from "@/lib/data/types";
 import { PositionGroupReportCard } from "./PositionGroupReportCard";
 import { StatWindowSelector } from "@/components/shared/StatWindowSelector";
+import { useWindowParam } from "@/lib/hooks/useWindowParam";
 
 // One shared window selector for the whole grid (rather than one per
 // card) so you can compare every unit over the same recent stretch at
 // once. Only the grade/percentile swaps per window — trend and the
 // "so what" text stay tied to the full-season sample, same as before.
-export function PositionGroupCardsGrid({ cards }: { cards: ReportCardData[] }) {
+export function PositionGroupCardsGrid({
+  cards,
+  initialWindow,
+}: {
+  cards: ReportCardData[];
+  initialWindow?: string;
+}) {
   const options = useMemo(
     () => [
       { key: "season", label: "Full Season" },
@@ -17,7 +24,7 @@ export function PositionGroupCardsGrid({ cards }: { cards: ReportCardData[] }) {
     ],
     [cards]
   );
-  const [selected, setSelected] = useState("season");
+  const [selected, setSelected] = useWindowParam("gradeWindow", initialWindow, "season");
 
   const displayed = cards.map((card) => {
     if (selected === "season") return card;

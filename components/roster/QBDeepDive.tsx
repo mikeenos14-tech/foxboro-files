@@ -1,18 +1,19 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useMemo } from "react";
 import type { QBDeepDive as QBData, QBWindowStats } from "@/lib/data/types";
 import { PlayerHeadshot } from "@/components/shared/PlayerHeadshot";
 import { RankBadge } from "@/components/shared/RankBadge";
 import { StatWindowSelector } from "@/components/shared/StatWindowSelector";
+import { useWindowParam } from "@/lib/hooks/useWindowParam";
 import { formatPercent, signed } from "@/lib/util/format";
 
-export function QBDeepDive({ qb }: { qb: QBData }) {
+export function QBDeepDive({ qb, initialWindow }: { qb: QBData; initialWindow?: string }) {
   const options = useMemo(
     () => [{ key: "season", label: "Full Season" }, ...(qb.windows ?? []).map((w) => ({ key: w.key, label: w.label }))],
     [qb.windows]
   );
-  const [selected, setSelected] = useState("season");
+  const [selected, setSelected] = useWindowParam("qbWindow", initialWindow, "season");
   const isFullSeason = selected === "season";
   // Ranks (percentile among league starters) are only computed against
   // the full-season league table — a "last N games" slice only has

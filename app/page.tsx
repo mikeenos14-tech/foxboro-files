@@ -9,7 +9,12 @@ import { TeamStrengthSection } from "@/components/home/TeamStrengthSection";
 import * as store from "@/lib/data/store";
 import { ordinal } from "@/lib/calc/ranks";
 
-export default async function HomePage() {
+export default async function HomePage({
+  searchParams,
+}: {
+  searchParams: Promise<{ teamWindow?: string }>;
+}) {
+  const { teamWindow } = await searchParams;
   const [teamStats, schedule, projection, nextGame, lastGame, news, standings] =
     await Promise.all([
       store.getTeamStats(),
@@ -105,7 +110,7 @@ export default async function HomePage() {
       </div>
 
       <div className="grid gap-6 px-4 sm:px-0 lg:grid-cols-3">
-        <TeamStrengthSection teamStats={teamStats} />
+        <TeamStrengthSection teamStats={teamStats} initialWindow={teamWindow} />
         <div>
           <DivisionStandings standings={standings} />
         </div>

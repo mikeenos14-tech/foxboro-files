@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import * as store from "@/lib/data/store";
 import { DepthChartTable } from "@/components/roster/DepthChartTable";
 import { PositionGroupCardsGrid } from "@/components/roster/PositionGroupCardsGrid";
+import { PositionGroupSummaryStrip } from "@/components/roster/PositionGroupSummaryStrip";
 import { SpecialTeamsStats } from "@/components/roster/SpecialTeamsStats";
 import { SituationalSplitsTable } from "@/components/roster/SituationalSplitsTable";
 import { QBDeepDive } from "@/components/roster/QBDeepDive";
@@ -10,7 +11,12 @@ import { Tabs } from "@/components/shared/Tabs";
 
 export const metadata: Metadata = { title: "Roster & Stats" };
 
-export default async function RosterPage() {
+export default async function RosterPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ qbWindow?: string; gradeWindow?: string }>;
+}) {
+  const { qbWindow, gradeWindow } = await searchParams;
   const [chart, reportCards, teamStats, qb, qbLeagueTable, nextGame] = await Promise.all([
     store.getDepthChart(),
     store.getPositionGroupReportCards(),
@@ -31,6 +37,8 @@ export default async function RosterPage() {
         </p>
       </div>
 
+      <PositionGroupSummaryStrip cards={reportCards} />
+
       <Tabs
         tabs={[
           {
@@ -39,7 +47,7 @@ export default async function RosterPage() {
               <div className="space-y-6">
                 <div>
                   <h2 className="mb-3 text-lg font-semibold">QB Deep Dive</h2>
-                  <QBDeepDive qb={qb} />
+                  <QBDeepDive qb={qb} initialWindow={qbWindow} />
                 </div>
                 <div>
                   <h2 className="mb-3 text-lg font-semibold">Head-to-Head</h2>
@@ -50,7 +58,7 @@ export default async function RosterPage() {
           },
           {
             label: "Position Grades",
-            content: <PositionGroupCardsGrid cards={reportCards} />,
+            content: <PositionGroupCardsGrid cards={reportCards} initialWindow={gradeWindow} />,
           },
           {
             label: "Splits & Special Teams",
