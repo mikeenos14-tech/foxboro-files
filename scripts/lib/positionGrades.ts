@@ -97,10 +97,22 @@ export const GROUP_METRICS: GroupMetric[] = [
     filter: byReceiverPosition("TE"),
     value: epaValue,
   },
+  // The four team-unit metrics below are named for what they MEASURE,
+  // not for a position group.
+  //
+  // They were previously labelled OL / Edge / Interior DL / Secondary,
+  // which promised something free data cannot deliver: real per-position
+  // grading needs every player charted on every snap, which is PFF's
+  // entire business. What's actually computed here is four team-level
+  // rates. "Secondary 94" read as "our defensive backs are elite" when
+  // it meant "our pass defense has been good" — and a large share of
+  // that is the pass rush, which the Pass Rush card is also counting.
+  // The caveat was always in the fine print; the label and the big
+  // number said otherwise, and that's what people read.
   {
     // Pressure rate allowed rather than sack rate: a tackle who gets
     // beaten and is bailed out by a quick throw shouldn't grade clean.
-    label: "OL",
+    label: "Pass Protection",
     side: "offense",
     higherIsBetter: false,
     shrinkK: SHRINK_K.teamRate,
@@ -108,7 +120,7 @@ export const GROUP_METRICS: GroupMetric[] = [
     value: pressureIndicator,
   },
   {
-    label: "Edge",
+    label: "Pass Rush",
     side: "defense",
     higherIsBetter: true,
     shrinkK: SHRINK_K.teamRate,
@@ -116,7 +128,7 @@ export const GROUP_METRICS: GroupMetric[] = [
     value: sackIndicator,
   },
   {
-    label: "Interior DL",
+    label: "Run Defense",
     side: "defense",
     higherIsBetter: false,
     shrinkK: SHRINK_K.teamRate,
@@ -124,7 +136,7 @@ export const GROUP_METRICS: GroupMetric[] = [
     value: epaValue,
   },
   {
-    label: "Secondary",
+    label: "Pass Defense",
     side: "defense",
     higherIsBetter: false,
     shrinkK: SHRINK_K.teamRate,

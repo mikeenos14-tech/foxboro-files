@@ -98,10 +98,10 @@
     }
   },
   {
-    "group": "OL",
+    "group": "Pass Protection",
     "grade": 29,
     "trend": "flat",
-    "soWhat": "Opponent-adjusted pressure rate allowed — sacks or QB hits, so a beaten block still counts when a quick throw bails it out. Team-wide; no per-player blocking data exists free.",
+    "soWhat": "Opponent-adjusted pressure rate allowed — sacks or QB hits, so a beaten block still counts when a quick throw bails it out. Team-wide, and partly the QB's own time to throw.",
     "windows": [
       {
         "key": "last-1",
@@ -119,10 +119,10 @@
     "confidence": "medium"
   },
   {
-    "group": "Edge",
+    "group": "Pass Rush",
     "grade": 84,
     "trend": "flat",
-    "soWhat": "Opponent-adjusted sack rate generated — a pass-rush proxy measured team-wide, not isolated to edge rushers.",
+    "soWhat": "Opponent-adjusted sack rate generated, team-wide — edge rushers, interior linemen and blitzers all included.",
     "windows": [
       {
         "key": "last-1",
@@ -140,10 +140,10 @@
     "confidence": "medium"
   },
   {
-    "group": "Interior DL",
+    "group": "Run Defense",
     "grade": 52,
     "trend": "down",
-    "soWhat": "Opponent-adjusted rush EPA allowed — a run-defense proxy measured team-wide, not isolated to interior linemen.",
+    "soWhat": "Opponent-adjusted rush EPA allowed, team-wide — the front seven and run-support safeties together.",
     "windows": [
       {
         "key": "last-1",
@@ -161,10 +161,10 @@
     "confidence": "medium"
   },
   {
-    "group": "Secondary",
+    "group": "Pass Defense",
     "grade": 94,
     "trend": "flat",
-    "soWhat": "Opponent-adjusted pass EPA allowed — includes the pass rush's effect, not coverage alone.",
+    "soWhat": "Opponent-adjusted pass EPA allowed, team-wide — coverage and pass rush together, since the two aren't separable in this data.",
     "windows": [
       {
         "key": "last-1",

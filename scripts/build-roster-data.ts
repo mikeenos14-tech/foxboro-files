@@ -221,11 +221,11 @@ async function buildPositionGroupCards(
       case "WR":
       case "TE":
         return receivingStatLine(pbp, rosterByGsis, TEAM, group);
-      case "Edge":
+      case "Pass Rush":
         return defensiveGroupStatLine(defPlayerStats, rosterByGsis, ["OLB"], "sacks", "sacks", "qbHits", "QB hits");
-      case "Interior DL":
+      case "Run Defense":
         return defensiveGroupStatLine(defPlayerStats, rosterByGsis, ["DT", "NT", "DE"], "tfl", "TFL", "sacks", "sacks");
-      case "Secondary":
+      case "Pass Defense":
         return defensiveGroupStatLine(
           defPlayerStats,
           rosterByGsis,
@@ -236,7 +236,7 @@ async function buildPositionGroupCards(
           "PBU"
         );
       default:
-        // QB has its own deep dive; OL has no free per-player blocking
+        // QB has its own deep dive; Pass Protection has no free per-player blocking
         // data, so the grade is the whole story there.
         return "";
     }
@@ -249,14 +249,14 @@ async function buildPositionGroupCards(
       case "WR":
       case "TE":
         return `Opponent-adjusted EPA/play at ${group}, regressed to the league mean on a ${sampleSize}-play sample.`;
-      case "OL":
-        return `Opponent-adjusted pressure rate allowed — sacks or QB hits, so a beaten block still counts when a quick throw bails it out. Team-wide; no per-player blocking data exists free.`;
-      case "Edge":
-        return `Opponent-adjusted sack rate generated — a pass-rush proxy measured team-wide, not isolated to edge rushers.`;
-      case "Interior DL":
-        return `Opponent-adjusted rush EPA allowed — a run-defense proxy measured team-wide, not isolated to interior linemen.`;
-      case "Secondary":
-        return `Opponent-adjusted pass EPA allowed — includes the pass rush's effect, not coverage alone.`;
+      case "Pass Protection":
+        return `Opponent-adjusted pressure rate allowed — sacks or QB hits, so a beaten block still counts when a quick throw bails it out. Team-wide, and partly the QB's own time to throw.`;
+      case "Pass Rush":
+        return `Opponent-adjusted sack rate generated, team-wide — edge rushers, interior linemen and blitzers all included.`;
+      case "Run Defense":
+        return `Opponent-adjusted rush EPA allowed, team-wide — the front seven and run-support safeties together.`;
+      case "Pass Defense":
+        return `Opponent-adjusted pass EPA allowed, team-wide — coverage and pass rush together, since the two aren't separable in this data.`;
       default:
         return "";
     }
@@ -298,11 +298,11 @@ function buildPositionGroupLeagueTable(
       case "WR":
       case "TE":
         return "Adj. EPA/play";
-      case "OL":
+      case "Pass Protection":
         return "Adj. pressure rate allowed";
-      case "Edge":
+      case "Pass Rush":
         return "Adj. sack rate generated";
-      case "Interior DL":
+      case "Run Defense":
         return "Adj. rush EPA allowed";
       default:
         return "Adj. pass EPA allowed";

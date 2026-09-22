@@ -60,7 +60,7 @@ describe("GROUP_METRICS", () => {
   test("covers the eight real groups and no fabricated ones", () => {
     assert.deepEqual(
       GROUP_METRICS.map((m) => m.label),
-      ["QB", "RB", "WR", "TE", "OL", "Edge", "Interior DL", "Secondary"]
+      ["QB", "RB", "WR", "TE", "Pass Protection", "Pass Rush", "Run Defense", "Pass Defense"]
     );
     // LB used to be merged in from fixtures with an invented grade.
     assert.ok(!GROUP_METRICS.some((m) => m.label === "LB"));
@@ -68,19 +68,19 @@ describe("GROUP_METRICS", () => {
 
   test("defensive groups where allowing less is better are marked as such", () => {
     const byLabel = new Map(GROUP_METRICS.map((m) => [m.label, m]));
-    assert.equal(byLabel.get("Secondary")!.higherIsBetter, false);
-    assert.equal(byLabel.get("Interior DL")!.higherIsBetter, false);
-    assert.equal(byLabel.get("OL")!.higherIsBetter, false); // pressure allowed
-    assert.equal(byLabel.get("Edge")!.higherIsBetter, true); // sacks generated
+    assert.equal(byLabel.get("Pass Defense")!.higherIsBetter, false);
+    assert.equal(byLabel.get("Run Defense")!.higherIsBetter, false);
+    assert.equal(byLabel.get("Pass Protection")!.higherIsBetter, false); // pressure allowed
+    assert.equal(byLabel.get("Pass Rush")!.higherIsBetter, true); // sacks generated
     assert.equal(byLabel.get("QB")!.higherIsBetter, true);
   });
 
   test("each group reads from the side of the ball it actually plays on", () => {
     const byLabel = new Map(GROUP_METRICS.map((m) => [m.label, m]));
-    for (const g of ["QB", "RB", "WR", "TE", "OL"]) {
+    for (const g of ["QB", "RB", "WR", "TE", "Pass Protection"]) {
       assert.equal(byLabel.get(g)!.side, "offense", `${g} should grade off offensive plays`);
     }
-    for (const g of ["Edge", "Interior DL", "Secondary"]) {
+    for (const g of ["Pass Rush", "Run Defense", "Pass Defense"]) {
       assert.equal(byLabel.get(g)!.side, "defense", `${g} should grade off defensive plays`);
     }
   });
@@ -88,7 +88,7 @@ describe("GROUP_METRICS", () => {
 
 describe("gradeGroupAllTeams", () => {
   const roster = new Map<string, RosterRow>();
-  const secondary = GROUP_METRICS.find((m) => m.label === "Secondary")!;
+  const passDefense = GROUP_METRICS.find((m) => m.label === "Pass Defense")!;
 
   test("grades every team and returns percentiles in range", () => {
     const rows: PbpRow[] = [
@@ -97,7 +97,7 @@ describe("gradeGroupAllTeams", () => {
       play("g3", "A", "C", 0.1),
       play("g4", "C", "A", 0.2),
     ];
-    const graded = gradeGroupAllTeams(rows, ["A", "B", "C"], roster, secondary);
+    const graded = gradeGroupAllTeams(rows, ["A", "B", "C"], roster, passDefense);
     assert.equal(graded.size, 3);
     for (const [, g] of graded) {
       assert.ok(g.grade >= 0 && g.grade <= 100);
@@ -113,7 +113,7 @@ describe("gradeGroupAllTeams", () => {
       play("g3", "D", "B", -0.5),
       play("g4", "D", "C", 0.9),
     ];
-    const graded = gradeGroupAllTeams(rows, ["A", "B", "C", "D"], roster, secondary);
+    const graded = gradeGroupAllTeams(rows, ["A", "B", "C", "D"], roster, passDefense);
     assert.ok(
       graded.get("B")!.grade > graded.get("C")!.grade,
       `B (${graded.get("B")!.grade}) should outgrade C (${graded.get("C")!.grade})`
@@ -126,8 +126,8 @@ describe("raw-value labels stay compatible with the UI formatter", () => {
   // percent formatting (9.8%) by inspecting the label. An exact-match
   // check there broke the moment labels gained an "Adj." prefix and
   // rendered -0.152 EPA/play as "-15.2%". This pins the contract.
-  const EPA_GROUPS = ["QB", "RB", "WR", "TE", "Interior DL", "Secondary"];
-  const RATE_GROUPS = ["OL", "Edge"];
+  const EPA_GROUPS = ["QB", "RB", "WR", "TE", "Run Defense", "Pass Defense"];
+  const RATE_GROUPS = ["Pass Protection", "Pass Rush"];
 
   // Mirrors formatRaw in components/roster/PositionGroupHeadToHead.tsx.
   const isEpaLabel = (label: string) => label.includes("EPA");
