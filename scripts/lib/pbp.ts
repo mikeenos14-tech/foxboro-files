@@ -101,6 +101,24 @@ export function olFaultSackRateAllowed(
   return olFaultSacks.length / dropbacks.length;
 }
 
+// Sacks are a real but late, low-sample signal of pass protection — a
+// tackle can get beaten repeatedly and get bailed out by a quick throw,
+// and it never shows up as a sack. qb_hit is nflverse's own broader,
+// earlier-triggering pressure marker (confirmed against real data: this
+// season 348 dropbacks were marked qb_hit vs. only 147 sacks, and 11 of
+// those sacks weren't even flagged qb_hit — a materially different, not
+// redundant, signal). This is the rush-environment stat ("how often did
+// the pass rush get home at all"), deliberately NOT narrowed by
+// qbFaultSackKeys the way olFaultSackRateAllowed is — a sack from the QB
+// holding the ball too long still means a real rusher got there, which is
+// exactly what this metric is describing.
+export function pressureRateAllowed(rows: PbpRow[], team: string): number {
+  const dropbacks = rows.filter((r) => r.posteam === team && bool01(r.pass_attempt));
+  if (dropbacks.length === 0) return 0;
+  const pressured = dropbacks.filter((r) => bool01(r.sack) || bool01(r.qb_hit));
+  return pressured.length / dropbacks.length;
+}
+
 export function successByDown(
   rows: PbpRow[],
   team: string,

@@ -6,7 +6,13 @@
 import { mkdir, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { loadCsv, num, bool01 } from "./lib/csv";
-import { playTypeEpa, olFaultSackRateAllowed, sackRateGenerated, type PbpRow } from "./lib/pbp";
+import {
+  playTypeEpa,
+  olFaultSackRateAllowed,
+  pressureRateAllowed,
+  sackRateGenerated,
+  type PbpRow,
+} from "./lib/pbp";
 import { loadQbFaultSackKeys } from "./lib/ftn";
 import {
   loadTeamRoster,
@@ -137,6 +143,35 @@ async function buildPositionGroupCards(
         .leaguePercentile,
     }));
 
+  // Averages two independent percentile ranks into one grade — used for
+  // OL, where sack rate alone is too late/low-sample a signal on its own
+  // (see pressureRateAllowed in pbp.ts): each metric is ranked across the
+  // league on its own terms, then the two percentiles are blended 50/50.
+  const blendedGrade = (
+    valueOfA: (rows: PbpRow[], t: string) => number,
+    higherIsBetterA: boolean,
+    valueOfB: (rows: PbpRow[], t: string) => number,
+    higherIsBetterB: boolean
+  ): number => {
+    const a = rankGeneric(ALL_TEAMS, TEAM, (t) => valueOfA(pbp, t), higherIsBetterA).leaguePercentile;
+    const b = rankGeneric(ALL_TEAMS, TEAM, (t) => valueOfB(pbp, t), higherIsBetterB).leaguePercentile;
+    return Math.round((a + b) / 2);
+  };
+
+  const blendedWindowedGrade = (
+    valueOfA: (rows: PbpRow[], t: string) => number,
+    higherIsBetterA: boolean,
+    valueOfB: (rows: PbpRow[], t: string) => number,
+    higherIsBetterB: boolean
+  ): Array<{ key: string; label: string; grade: number }> =>
+    windowLabels.map(({ key, label }, i) => {
+      const a = rankGeneric(ALL_TEAMS, TEAM, (t) => valueOfA(rowsFor(t, i), t), higherIsBetterA)
+        .leaguePercentile;
+      const b = rankGeneric(ALL_TEAMS, TEAM, (t) => valueOfB(rowsFor(t, i), t), higherIsBetterB)
+        .leaguePercentile;
+      return { key, label, grade: Math.round((a + b) / 2) };
+    });
+
   const playerAttributed = groups.map(({ label, idField, playType, rosterPosition }) => {
     const valueOf = (t: string) =>
       positionEpa(pbp, rosterByGsis, t, rosterPosition, idField, playType).epa;
@@ -164,13 +199,27 @@ async function buildPositionGroupCards(
     rankGeneric(ALL_TEAMS, TEAM, valueOf, higherIsBetter).leaguePercentile;
 
   const teamUnits: PositionGroupReportCard[] = [
-    {
-      group: "OL",
-      grade: unitGrade((t) => olFaultSackRateAllowed(pbp, t, qbFaultSackKeys), false),
-      trend: "flat",
-      soWhat: `${ordinal(unitGrade((t) => olFaultSackRateAllowed(pbp, t, qbFaultSackKeys), false))} percentile in the NFL for sacks allowed that weren't the QB's own fault (real per-play charting data, not just raw sack rate — still team-wide, no per-player blocking grade available free).`,
-      windows: windowedGrade((rows, t) => olFaultSackRateAllowed(rows, t, qbFaultSackKeys), false),
-    },
+    (() => {
+      // Blends two independent signals so the grade isn't just sack rate:
+      // sacks that weren't the QB's own fault (real per-play charting
+      // data, see lib/ftn.ts), and pressure rate allowed — sacks OR QB
+      // hits, a broader, earlier-triggering signal that catches a beaten
+      // block even when a quick throw bails out the sack (see
+      // pressureRateAllowed in lib/pbp.ts). Each is ranked across the
+      // league on its own terms, then averaged 50/50.
+      const sackValue = (rows: PbpRow[], t: string) => olFaultSackRateAllowed(rows, t, qbFaultSackKeys);
+      const pressureValue = (rows: PbpRow[], t: string) => pressureRateAllowed(rows, t);
+      const grade = blendedGrade(sackValue, false, pressureValue, false);
+      const sackGrade = rankGeneric(ALL_TEAMS, TEAM, (t) => sackValue(pbp, t), false).leaguePercentile;
+      const pressureGrade = rankGeneric(ALL_TEAMS, TEAM, (t) => pressureValue(pbp, t), false).leaguePercentile;
+      return {
+        group: "OL",
+        grade,
+        trend: "flat" as const,
+        soWhat: `${ordinal(grade)} percentile in the NFL for pass protection — blends sacks that weren't the QB's own fault (${ordinal(sackGrade)} percentile) with pressure rate allowed, sacks or QB hits combined (${ordinal(pressureGrade)} percentile). Real per-play data, still team-wide — no per-player blocking grade available free.`,
+        windows: blendedWindowedGrade(sackValue, false, pressureValue, false),
+      };
+    })(),
     {
       group: "Edge",
       grade: unitGrade((t) => sackRateGenerated(pbp, t), true),

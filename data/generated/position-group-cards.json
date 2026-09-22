@@ -73,19 +73,19 @@
   },
   {
     "group": "OL",
-    "grade": 13,
+    "grade": 20,
     "trend": "flat",
-    "soWhat": "13th percentile in the NFL for sacks allowed that weren't the QB's own fault (real per-play charting data, not just raw sack rate — still team-wide, no per-player blocking grade available free).",
+    "soWhat": "20th percentile in the NFL for pass protection — blends sacks that weren't the QB's own fault (13th percentile) with pressure rate allowed, sacks or QB hits combined (26th percentile). Real per-play data, still team-wide — no per-player blocking grade available free.",
     "windows": [
       {
         "key": "last-1",
         "label": "Last Game",
-        "grade": 10
+        "grade": 15
       },
       {
         "key": "last-2",
         "label": "Last 2 Games",
-        "grade": 13
+        "grade": 20
       }
     ]
   },
