@@ -1,4 +1,5 @@
 import { loadCsv, bool01 } from "./csv";
+import type { FtnReceivingFlags } from "./receiving";
 
 interface FtnRow {
   nflverse_game_id: string;
@@ -7,6 +8,10 @@ interface FtnRow {
   is_interception_worthy: string;
   is_play_action: string;
   is_screen_pass: string;
+  is_catchable_ball: string;
+  is_drop: string;
+  is_contested_ball: string;
+  is_created_reception: string;
   n_blitzers: string;
   is_qb_out_of_pocket: string;
 }
@@ -72,4 +77,21 @@ export async function loadInterceptionWorthyKeys(): Promise<Set<string>> {
     }
   }
   return keys;
+}
+
+// Receiver-side charting flags, keyed like everything else here. These
+// are what make it possible to separate receiver play from quarterback
+// play — see lib/receiving.ts for why that matters.
+export async function loadReceivingFlags(): Promise<Map<string, FtnReceivingFlags>> {
+  const rows = await loadCsv<FtnRow>("ftn_charting_2026.csv");
+  const map = new Map<string, FtnReceivingFlags>();
+  for (const r of rows) {
+    map.set(`${r.nflverse_game_id}|${r.nflverse_play_id}`, {
+      catchable: bool01(r.is_catchable_ball),
+      drop: bool01(r.is_drop),
+      contested: bool01(r.is_contested_ball),
+      created: bool01(r.is_created_reception),
+    });
+  }
+  return map;
 }

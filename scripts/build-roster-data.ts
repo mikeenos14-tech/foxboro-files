@@ -20,6 +20,15 @@ import { ALL_TEAMS } from "./lib/teams";
 import { buildLastNGameWindows, filterRowsToWindow } from "./lib/statWindows";
 import { confidenceLabel } from "./lib/shrink";
 import { GROUP_METRICS, gradeGroupAllTeams, type GroupGrade } from "./lib/positionGrades";
+import { leagueMean, shrink } from "./lib/shrink";
+import { SHRINK_K } from "./lib/shrink";
+import {
+  receivingSplit,
+  positionTargets,
+  receivingDetailLine,
+  receiverIsolatedGrade,
+} from "./lib/receiving";
+import { loadReceivingFlags } from "./lib/ftn";
 import { trendFor } from "./lib/trend";
 import type {
   DepthChartEntry,
@@ -143,6 +152,49 @@ async function buildPositionGroupCards(
   windowGradesByGroup: Map<string, Array<{ key: string; label: string; grade: number }>>
 ): Promise<PositionGroupReportCard[]> {
   const rosterByGsis = await buildLeagueRosterByGsis();
+
+  // Receiver-isolated grades for WR/TE. Their headline grade is EPA per
+  // target, which is mostly a measure of the quarterback — this grades
+  // what the receiver controls once the ball arrives. See lib/receiving.ts.
+  const receivingFlags = await loadReceivingFlags();
+  const receiverExtras = new Map<
+    string,
+    { label: string; grade: number | null; detail: string; note?: string }
+  >();
+  for (const position of ["WR", "TE"] as const) {
+    const splits = new Map(
+      ALL_TEAMS.map((t) => [
+        t,
+        receivingSplit(positionTargets(pbp, rosterByGsis, t, position, "posteam"), receivingFlags),
+      ])
+    );
+    const result = receiverIsolatedGrade(splits, ALL_TEAMS, TEAM, SHRINK_K.receivingEpa, {
+      leagueMean,
+      shrink,
+      rank: (teams, team, valueOf, higherIsBetter) =>
+        rankGeneric(teams, team, valueOf, higherIsBetter).leaguePercentile,
+    });
+    const detail = receivingDetailLine(splits.get(TEAM)!);
+    // Logged every run because the gate is the interesting part: it says
+    // whether a league rank is being withheld and why.
+    console.log(
+      `  ${position} receiver-isolated: ${result.grade ?? "no rank"} ` +
+        result.diagnostics
+          .map((d) => `[${d.label} reliability=${d.reliability.toFixed(2)} n=${d.n}]`)
+          .join(" ")
+    );
+    if (detail) {
+      receiverExtras.set(position, {
+        label: "Hands & YAC (QB-independent)",
+        grade: result.grade,
+        detail,
+        note:
+          result.grade === null
+            ? "Not ranked yet — teams are still closer together than chance alone explains."
+            : undefined,
+      });
+    }
+  }
   const defPlayerStats = computeDefensivePlayerStats(pbp, TEAM);
 
   // Extra descriptive context per group. The grade itself is uniform
@@ -208,6 +260,7 @@ async function buildPositionGroupCards(
       statLine: statLineFor(metric.label),
       sampleSize: grade.sampleSize,
       confidence: confidenceLabel(grade.sampleSize, metric.shrinkK),
+      secondaryGrade: receiverExtras.get(metric.label),
     };
   });
 }
@@ -482,7 +535,7 @@ async function main() {
   );
 
   const leaderboards: TeamLeaderboards = {
-    receiving: receivingLeaders(pbp, await buildLeagueRosterByGsis(), TEAM),
+    receiving: receivingLeaders(pbp, await buildLeagueRosterByGsis(), TEAM, await loadReceivingFlags()),
     rushing: rushingLeaders(pbp, await buildLeagueRosterByGsis(), TEAM),
     defense: defensiveLeaders(pbp, await buildLeagueRosterByGsis(), TEAM),
   };

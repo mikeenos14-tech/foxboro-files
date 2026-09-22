@@ -53,6 +53,38 @@ export function PositionGroupReportCard({ card }: { card: ReportCardData }) {
       {card.statLine && (
         <div className="mt-2 text-sm tabular-nums text-foreground">{card.statLine}</div>
       )}
+      {/* A second measure that strips a confound out of the headline one.
+          WR/TE are graded on EPA per target, which mostly measures the
+          quarterback — this is what the receivers control once the ball
+          arrives, so the two diverging is the interesting part, not a
+          contradiction.
+
+          The percentile is frequently absent, and that is deliberate
+          rather than a missing-data case: a league rank only appears once
+          the spread between teams exceeds what chance explains, which
+          takes most of a season for these. Until then the raw counts
+          carry it, and the note says why there's no rank — so the reader
+          isn't left wondering whether something failed to load. */}
+      {card.secondaryGrade && (
+        <div className="mt-3 rounded-md border border-border bg-background/40 px-3 py-2">
+          <div className="flex items-baseline justify-between gap-2">
+            <span className="text-[11px] uppercase tracking-wide text-muted">
+              {card.secondaryGrade.label}
+            </span>
+            {card.secondaryGrade.grade !== null && (
+              <span className="font-display text-lg font-semibold tabular-nums text-foreground">
+                {card.secondaryGrade.grade}
+              </span>
+            )}
+          </div>
+          <div className="mt-0.5 text-[11px] tabular-nums text-foreground">
+            {card.secondaryGrade.detail}
+          </div>
+          {card.secondaryGrade.note && (
+            <div className="mt-1 text-[11px] text-muted">{card.secondaryGrade.note}</div>
+          )}
+        </div>
+      )}
       {card.confidence === "low" && card.sampleSize > 0 && (
         <div className="mt-2 flex items-center gap-1.5 text-[11px] text-muted">
           <span

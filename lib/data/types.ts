@@ -199,6 +199,17 @@ export interface PositionGroupReportCard {
   // confidence as one off 300.
   sampleSize: number;
   confidence: "low" | "medium" | "high";
+  // An additional measure that isolates the group from a confound in the
+  // headline grade. Currently WR/TE only: their main grade is EPA per
+  // target, which mostly measures the quarterback, so this covers what
+  // the receiver actually controls once the ball arrives (see
+  // scripts/lib/receiving.ts).
+  //
+  // `grade` is null when the sample can't yet support a league ranking —
+  // the raw counts in `detail` are still shown, with `note` explaining
+  // the absence. Early in a season that is the normal state; see
+  // scripts/lib/reliability.ts for why a percentile is withheld.
+  secondaryGrade?: { label: string; grade: number | null; detail: string; note?: string };
 }
 
 // Every team's position-group grades, full-season only — powers the

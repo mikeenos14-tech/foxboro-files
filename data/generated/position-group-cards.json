@@ -60,7 +60,13 @@
     ],
     "statLine": "20/30 (67%), 228 yds, 3.9 YAC/rec, 0 TD",
     "sampleSize": 30,
-    "confidence": "medium"
+    "confidence": "medium",
+    "secondaryGrade": {
+      "label": "Hands & YAC (QB-independent)",
+      "grade": null,
+      "detail": "20 of 21 catchable balls caught · 1 drop · 3.9 YAC/rec · 1/4 contested",
+      "note": "Not ranked yet — teams are still closer together than chance alone explains."
+    }
   },
   {
     "group": "TE",
@@ -81,7 +87,13 @@
     ],
     "statLine": "8/10 (80%), 98 yds, 4.6 YAC/rec, 1 TD",
     "sampleSize": 10,
-    "confidence": "low"
+    "confidence": "low",
+    "secondaryGrade": {
+      "label": "Hands & YAC (QB-independent)",
+      "grade": null,
+      "detail": "8 of 8 catchable balls caught · 0 drops · 4.6 YAC/rec · 2/2 contested",
+      "note": "Not ranked yet — teams are still closer together than chance alone explains."
+    }
   },
   {
     "group": "OL",

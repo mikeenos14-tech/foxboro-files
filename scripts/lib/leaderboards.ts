@@ -10,6 +10,7 @@ import { bool01, num } from "./csv";
 import type { PbpRow } from "./pbp";
 import type { RosterRow } from "./roster";
 import { computeDefensivePlayerStats } from "./defensiveStats";
+import { ftnKey, type FtnReceivingFlags } from "./receiving";
 
 export interface PlayerStatLine {
   playerId: string;
@@ -38,11 +39,25 @@ function describe(
 export function receivingLeaders(
   pbp: PbpRow[],
   rosterByGsis: Map<string, RosterRow>,
-  team: string
+  team: string,
+  // Optional so the board still builds if charting is unavailable; the
+  // receiver-controlled columns are simply omitted in that case.
+  receivingFlags?: Map<string, FtnReceivingFlags>
 ): PlayerStatLine[] {
   const byPlayer = new Map<
     string,
-    { name: string; targets: number; rec: number; yards: number; tds: number; yac: number; yacN: number }
+    {
+      name: string;
+      targets: number;
+      rec: number;
+      yards: number;
+      tds: number;
+      yac: number;
+      yacN: number;
+      drops: number;
+      catchable: number;
+      catchableCaught: number;
+    }
   >();
   for (const r of pbp) {
     if (r.posteam !== team || !bool01(r.pass_attempt) || !r.receiver_id) continue;
@@ -54,6 +69,9 @@ export function receivingLeaders(
       tds: 0,
       yac: 0,
       yacN: 0,
+      drops: 0,
+      catchable: 0,
+      catchableCaught: 0,
     };
     cur.targets += 1;
     if (bool01(r.complete_pass)) {
@@ -65,6 +83,14 @@ export function receivingLeaders(
       }
     }
     if (bool01(r.pass_touchdown)) cur.tds += 1;
+    const flags = receivingFlags?.get(ftnKey(r));
+    if (flags) {
+      if (flags.drop) cur.drops += 1;
+      if (flags.catchable) {
+        cur.catchable += 1;
+        if (bool01(r.complete_pass)) cur.catchableCaught += 1;
+      }
+    }
     byPlayer.set(r.receiver_id, cur);
   }
 
@@ -77,6 +103,13 @@ export function receivingLeaders(
         { label: "Rec", value: `${v.rec}/${v.targets}` },
         { label: "Yds", value: String(v.yards) },
         { label: "YAC/rec", value: v.yacN === 0 ? "—" : (v.yac / v.yacN).toFixed(1) },
+        // Receiver-controlled: what he did with balls he could actually
+        // catch, rather than being charged for wayward throws.
+        {
+          label: "Catchable",
+          value: v.catchable === 0 ? "—" : `${((v.catchableCaught / v.catchable) * 100).toFixed(0)}%`,
+        },
+        { label: "Drops", value: String(v.drops) },
         { label: "TD", value: String(v.tds) },
       ],
     }))
