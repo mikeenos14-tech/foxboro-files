@@ -274,6 +274,7 @@ async function buildPositionGroupCards(
       statLine: statLineFor(metric.label),
       sampleSize: grade.sampleSize,
       confidence: confidenceLabel(grade.sampleSize, metric.shrinkK),
+      noisyMetric: metric.noisy,
       secondaryGrade: receiverExtras.get(metric.label),
     };
   });

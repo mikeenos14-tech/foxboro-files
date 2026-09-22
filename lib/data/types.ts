@@ -210,6 +210,11 @@ export interface PositionGroupReportCard {
   // the absence. Early in a season that is the normal state; see
   // scripts/lib/reliability.ts for why a percentile is withheld.
   secondaryGrade?: { label: string; grade: number | null; detail: string; note?: string };
+  // True for metrics that stay noisy across a whole season regardless of
+  // sample — distinct from `confidence`, which is about how much data
+  // has accumulated so far. See GroupMetric.noisy in
+  // scripts/lib/positionGrades.ts for the measured figures.
+  noisyMetric?: boolean;
 }
 
 // Every team's position-group grades, full-season only — powers the

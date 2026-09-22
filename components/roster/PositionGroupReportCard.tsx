@@ -85,6 +85,22 @@ export function PositionGroupReportCard({ card }: { card: ReportCardData }) {
           )}
         </div>
       )}
+      {/* Distinct from the thin-sample note below: this one never goes
+          away. RB EPA/carry and TE EPA/target measured 0.41 and 0.29
+          reliability over the COMPLETED 2025 season, against 0.74-0.77
+          for the team-level numbers — most of what separates teams on
+          these is noise even in January. The grade is still the best
+          answer available, so it stays; it just shouldn't be read with
+          the same confidence as the QB number beside it. */}
+      {card.noisyMetric && (
+        <div className="mt-2 flex items-center gap-1.5 text-[11px] text-muted">
+          <span
+            aria-hidden
+            className="inline-block h-1.5 w-1.5 shrink-0 rounded-full bg-rank-mid"
+          />
+          Noisy stat — teams separate slowly here, so read this as a rough tier.
+        </div>
+      )}
       {card.confidence === "low" && card.sampleSize > 0 && (
         <div className="mt-2 flex items-center gap-1.5 text-[11px] text-muted">
           <span

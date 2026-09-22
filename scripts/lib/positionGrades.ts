@@ -33,6 +33,21 @@ export interface GroupMetric {
   shrinkK: number;
   filter: (r: PbpRow, roster: Map<string, RosterRow>) => boolean;
   value: (r: PbpRow) => number;
+  /**
+   * This metric stays noisy even with a full season in hand — a property
+   * of the stat, not of how early it is. Measured on the completed 2025
+   * season (npm run calibrate:shrink 2025), reliability was 0.41 for RB
+   * EPA/carry and 0.29 for TE EPA/target, against 0.74-0.77 for the
+   * team-level EPA metrics.
+   *
+   * Rushing efficiency being mostly blocking, scheme and game script
+   * rather than the back is a long-standing public-analytics finding;
+   * tight end target volume is simply too low to separate teams. The
+   * grade is still shown — it is the best available answer — but it
+   * carries a marker so it isn't read with the same confidence as the
+   * QB or team-level numbers.
+   */
+  noisy?: true;
 }
 
 const epaValue = (r: PbpRow) => num(r.epa);
@@ -58,6 +73,7 @@ export const GROUP_METRICS: GroupMetric[] = [
   },
   {
     label: "RB",
+    noisy: true,
     side: "offense",
     higherIsBetter: true,
     shrinkK: SHRINK_K.rushingEpa,
@@ -74,6 +90,7 @@ export const GROUP_METRICS: GroupMetric[] = [
   },
   {
     label: "TE",
+    noisy: true,
     side: "offense",
     higherIsBetter: true,
     shrinkK: SHRINK_K.receivingEpa,

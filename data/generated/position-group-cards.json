@@ -39,7 +39,8 @@
     ],
     "statLine": "181 yds, 3.8 YPC, 1 TD, 0 FUM, 8% explosive",
     "sampleSize": 48,
-    "confidence": "high"
+    "confidence": "high",
+    "noisyMetric": true
   },
   {
     "group": "WR",
@@ -88,6 +89,7 @@
     "statLine": "8/10 (80%), 98 yds, 4.6 YAC/rec, 1 TD",
     "sampleSize": 10,
     "confidence": "low",
+    "noisyMetric": true,
     "secondaryGrade": {
       "label": "Hands & YAC (QB-independent)",
       "grade": null,
