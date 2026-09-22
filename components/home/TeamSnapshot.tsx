@@ -1,45 +1,52 @@
 "use client";
 
 import { useMemo } from "react";
-import type { PriorSeasonSnapshot, TeamStatSnapshot } from "@/lib/data/types";
+import type {
+  PositionGroupReportCard,
+  PriorSeasonSnapshot,
+  TeamStatSnapshot,
+} from "@/lib/data/types";
 import { StatCard } from "@/components/shared/StatCard";
 import { StatWindowSelector } from "@/components/shared/StatWindowSelector";
+import { PositionGroupSummaryStrip } from "@/components/roster/PositionGroupSummaryStrip";
 import { useWindowParam } from "@/lib/hooks/useWindowParam";
 import { ordinal } from "@/lib/calc/ranks";
 import { formatPercent } from "@/lib/util/format";
 
-// Every per-play card follows the window selector. Point differential
-// stays season-to-date on purpose — it's a cumulative box-score total,
-// so "last N weeks point differential" would be a different stat rather
-// than the same one over a shorter span — and says so on the card when a
-// window is active, rather than silently showing season numbers.
-export function TeamStrengthSection({
+// One filter for the whole snapshot. Previously the selector lived in the
+// Team Strength header with the Unit Grades strip sitting directly above
+// it — so changing the window moved the cards below and left the biggest
+// numbers on the page untouched, which reads as a broken filter. Whatever
+// sits under this control responds to it.
+export function TeamSnapshot({
   teamStats,
+  cards,
   priorSeason,
   initialWindow,
 }: {
   teamStats: TeamStatSnapshot;
+  cards: PositionGroupReportCard[];
   priorSeason?: PriorSeasonSnapshot | null;
   initialWindow?: string;
 }) {
   const priorKey = priorSeason ? `season-${priorSeason.season}` : null;
+
   const options = useMemo(
     () => [
       { key: "season", label: "Full Season" },
       ...teamStats.epaPerPlayWindows.map((w) => ({ key: w.key, label: w.label })),
-      ...(priorSeason ? [{ key: `season-${priorSeason.season}`, label: `${priorSeason.season} Season` }] : []),
+      ...(priorSeason
+        ? [{ key: `season-${priorSeason.season}`, label: `${priorSeason.season} Season` }]
+        : []),
     ],
     [teamStats.epaPerPlayWindows, priorSeason]
   );
+
   const [selected, setSelected] = useWindowParam("teamWindow", initialWindow, "season");
   const isPrior = priorKey !== null && selected === priorKey;
   const window = teamStats.epaPerPlayWindows.find((w) => w.key === selected);
+  const windowLabel = isPrior ? `${priorSeason?.season} season` : (window?.label ?? null);
 
-  // Every per-play metric follows the selector. Previously only the two
-  // EPA cards did, so choosing "Last Week" left success rate and
-  // yards/play showing full-season numbers under a selector that said
-  // otherwise. A completed prior season is just another source of the
-  // same three metric groups.
   // Three possible sources, normalised to one shape. The live windows
   // carry EPA as top-level offense/defense; the prior-season snapshot
   // nests it under epaPerPlay like the season default does.
@@ -57,28 +64,55 @@ export function TeamStrengthSection({
             successRate: teamStats.successRate,
             yardsPerPlay: teamStats.yardsPerPlay,
           };
-  const epa = view.epaPerPlay;
-  const successRate = view.successRate;
-  const yardsPerPlay = view.yardsPerPlay;
-  const windowLabel = isPrior ? `${priorSeason?.season} season` : (window?.label ?? null);
+  const { epaPerPlay: epa, successRate, yardsPerPlay } = view;
+
+  // Team stats window by calendar week (required for opponent adjustment
+  // to stay valid across teams); position grades window by the team's own
+  // games. At the same N these describe the same stretch unless a bye
+  // falls inside it, in which case the grade window reaches back one game
+  // further. Acceptable for a summary strip — the Roster page's full
+  // breakdown uses exact game windows either way.
+  const gradeCards = useMemo(() => {
+    if (selected === "season") return cards;
+    if (isPrior && priorSeason) {
+      return cards.map((c) => {
+        const p = priorSeason.positionGroups.find((g) => g.group === c.group);
+        return p ? { ...c, grade: p.grade } : c;
+      });
+    }
+    const n = Number(selected.match(/^last-(\d+)-weeks$/)?.[1]);
+    if (!Number.isFinite(n)) return cards;
+    return cards.map((c) => {
+      const w = c.windows.find((x) => x.key === `last-${n}`) ?? c.windows[c.windows.length - 1];
+      return w ? { ...c, grade: w.grade } : c;
+    });
+  }, [cards, selected, isPrior, priorSeason]);
 
   return (
-    <div className="lg:col-span-2">
-      <div className="mb-3 flex flex-wrap items-center justify-between gap-2">
-        <h2 className="text-lg font-semibold">Team Strength vs. League</h2>
+    <div className="space-y-5">
+      <div className="flex flex-wrap items-center justify-between gap-2">
+        <h2 className="text-lg font-semibold">Team Snapshot</h2>
         {options.length > 1 && (
           <StatWindowSelector
             options={options}
             value={selected}
             onChange={setSelected}
-            label="Show EPA for"
+            label="Show stats for"
             hideLabelVisually
           />
         )}
       </div>
-      {/* Grouped by side of the ball. Interleaving offense and defense
-          across a flat seven-card grid meant scanning "how's our defense"
-          required hopping every other card. */}
+
+      <div>
+        <div className="mb-2 flex items-baseline justify-between gap-2">
+          <h3 className="text-xs font-bold uppercase tracking-wide text-muted">Unit Grades</h3>
+          <a href="/roster" className="text-xs text-muted underline hover:text-foreground">
+            Full breakdown →
+          </a>
+        </div>
+        <PositionGroupSummaryStrip cards={gradeCards} />
+      </div>
+
       <div className="space-y-4">
         <div>
           <h3 className="mb-2 text-xs font-bold uppercase tracking-wide text-muted">Overall</h3>

@@ -5,8 +5,7 @@ import { MiniGameCard } from "@/components/home/MiniGameCard";
 import { CountUp } from "@/components/shared/CountUp";
 import { HeadlinesList } from "@/components/home/HeadlinesList";
 import { DivisionStandings } from "@/components/home/DivisionStandings";
-import { TeamStrengthSection } from "@/components/home/TeamStrengthSection";
-import { PositionGroupSummaryStrip } from "@/components/roster/PositionGroupSummaryStrip";
+import { TeamSnapshot } from "@/components/home/TeamSnapshot";
 import * as store from "@/lib/data/store";
 import { ordinal } from "@/lib/calc/ranks";
 import { buildVerdict } from "@/lib/calc/verdict";
@@ -114,25 +113,15 @@ export default async function HomePage({
         </HeroAnswerCard>
       </div>
 
-      {/* The best "how are we everywhere" element on the site used to
-          live only on Roster & Stats, below the fold. It answers the
-          Home page's own question, so it belongs here too. */}
-      <div className="px-4 sm:px-0">
-        <div className="mb-2 flex items-baseline justify-between gap-2">
-          <h2 className="text-lg font-semibold">Unit Grades</h2>
-          <a href="/roster" className="text-xs text-muted underline hover:text-foreground">
-            Full breakdown →
-          </a>
-        </div>
-        <PositionGroupSummaryStrip cards={reportCards} />
-      </div>
-
       <div className="grid gap-6 px-4 sm:px-0 lg:grid-cols-3">
-        <TeamStrengthSection
-          teamStats={teamStats}
-          priorSeason={priorSeason}
-          initialWindow={teamWindow}
-        />
+        <div className="lg:col-span-2">
+          <TeamSnapshot
+            teamStats={teamStats}
+            cards={reportCards}
+            priorSeason={priorSeason}
+            initialWindow={teamWindow}
+          />
+        </div>
         <div>
           <DivisionStandings standings={standings} />
         </div>
