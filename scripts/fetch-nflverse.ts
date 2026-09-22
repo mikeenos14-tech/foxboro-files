@@ -32,6 +32,16 @@ const SOURCES: Array<{ name: string; url: string }> = [
     name: "injuries_2026.csv",
     url: "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv",
   },
+  {
+    // FTN's per-play charting data (real human-charted, not derived from
+    // play-by-play) — used specifically for is_qb_fault_sack, which lets
+    // the OL pass-protection grade exclude sacks caused by the QB holding
+    // the ball/scrambling into pressure rather than a real blocking
+    // failure. Joins to play_by_play_2026.csv via
+    // nflverse_game_id/nflverse_play_id == game_id/play_id.
+    name: "ftn_charting_2026.csv",
+    url: "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2026.csv",
+  },
 ];
 
 async function fetchOne(name: string, url: string) {

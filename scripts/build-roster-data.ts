@@ -6,7 +6,8 @@
 import { mkdir, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { loadCsv, num, bool01 } from "./lib/csv";
-import { playTypeEpa, sackRateAllowed, sackRateGenerated, type PbpRow } from "./lib/pbp";
+import { playTypeEpa, olFaultSackRateAllowed, sackRateGenerated, type PbpRow } from "./lib/pbp";
+import { loadQbFaultSackKeys } from "./lib/ftn";
 import {
   loadTeamRoster,
   buildLeagueRosterByGsis,
@@ -53,9 +54,11 @@ async function buildDepthChart(): Promise<DepthChartEntry[]> {
 // OL/Edge/Interior DL/Secondary: no PFF-style pass-block-win-rate or
 // coverage-grade data is available for free, so these use the closest
 // honest team-unit proxy instead of a fabricated player-level grade —
-// pass protection (sack rate allowed), pass rush (sack rate generated),
-// run defense (rush EPA allowed), and pass defense (pass EPA allowed)
-// respectively. Each says so explicitly in its "so what" text.
+// pass protection (sack rate allowed, narrowed to sacks FTN's real
+// charting data didn't flag as the QB's own fault — see lib/ftn.ts),
+// pass rush (sack rate generated), run defense (rush EPA allowed), and
+// pass defense (pass EPA allowed) respectively. Each says so explicitly
+// in its "so what" text.
 // LB is left as the one illustrative placeholder (merged in by
 // lib/data/store.ts) — linebacker play spans both run support and
 // coverage without a clean, non-redundant team-level metric to isolate it.
@@ -85,6 +88,7 @@ async function buildPositionGroupCards(
   pbp: PbpRow[]
 ): Promise<PositionGroupReportCard[]> {
   const rosterByGsis = await buildLeagueRosterByGsis();
+  const qbFaultSackKeys = await loadQbFaultSackKeys();
 
   const groups: Array<{
     label: string;
@@ -123,9 +127,9 @@ async function buildPositionGroupCards(
   const teamUnits: PositionGroupReportCard[] = [
     {
       group: "OL",
-      grade: unitGrade((t) => sackRateAllowed(pbp, t), false),
+      grade: unitGrade((t) => olFaultSackRateAllowed(pbp, t, qbFaultSackKeys), false),
       trend: "flat",
-      soWhat: `${ordinal(unitGrade((t) => sackRateAllowed(pbp, t), false))} percentile in the NFL for sack rate allowed (pass protection proxy — no per-player blocking data available free).`,
+      soWhat: `${ordinal(unitGrade((t) => olFaultSackRateAllowed(pbp, t, qbFaultSackKeys), false))} percentile in the NFL for sacks allowed that weren't the QB's own fault (real per-play charting data, not just raw sack rate — still team-wide, no per-player blocking grade available free).`,
     },
     {
       group: "Edge",

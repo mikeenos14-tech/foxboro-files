@@ -25,9 +25,9 @@
   },
   {
     "group": "OL",
-    "grade": 19,
+    "grade": 13,
     "trend": "flat",
-    "soWhat": "19th percentile in the NFL for sack rate allowed (pass protection proxy — no per-player blocking data available free)."
+    "soWhat": "13th percentile in the NFL for sacks allowed that weren't the QB's own fault (real per-play charting data, not just raw sack rate — still team-wide, no per-player blocking grade available free)."
   },
   {
     "group": "Edge",

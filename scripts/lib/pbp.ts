@@ -81,6 +81,26 @@ export function sackRateGenerated(rows: PbpRow[], team: string): number {
   return dropbacks.filter((r) => bool01(r.sack)).length / dropbacks.length;
 }
 
+// Same as sackRateAllowed, but excludes sacks FTN's charters flagged as
+// the QB's own fault (held the ball too long, scrambled into pressure)
+// rather than a real blocking breakdown — a fairer pass-protection metric
+// than raw sack rate, which blames the OL for every sack regardless of
+// cause. A sack with no charting match (not in qbFaultSackKeys) is treated
+// as a real OL-caused sack, same as the raw metric would — this only
+// removes sacks we have positive evidence weren't the line's fault.
+export function olFaultSackRateAllowed(
+  rows: PbpRow[],
+  team: string,
+  qbFaultSackKeys: Set<string>
+): number {
+  const dropbacks = rows.filter((r) => r.posteam === team && bool01(r.pass_attempt));
+  if (dropbacks.length === 0) return 0;
+  const olFaultSacks = dropbacks.filter(
+    (r) => bool01(r.sack) && !qbFaultSackKeys.has(`${r.game_id}|${r.play_id}`)
+  );
+  return olFaultSacks.length / dropbacks.length;
+}
+
 export function successByDown(
   rows: PbpRow[],
   team: string,
