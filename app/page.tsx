@@ -16,7 +16,7 @@ export default async function HomePage({
   searchParams: Promise<{ teamWindow?: string }>;
 }) {
   const { teamWindow } = await searchParams;
-  const [teamStats, schedule, projection, nextGame, lastGame, news, standings] =
+  const [teamStats, schedule, projection, nextGame, lastGame, news, standings, priorSeason] =
     await Promise.all([
       store.getTeamStats(),
       store.getSchedule(),
@@ -25,6 +25,7 @@ export default async function HomePage({
       store.getLastGame(),
       store.getNews(),
       store.getDivisionStandings(),
+      store.getPriorSeason(),
     ]);
 
   const played = schedule.filter((g) => g.result);
@@ -112,7 +113,11 @@ export default async function HomePage({
       </div>
 
       <div className="grid gap-6 px-4 sm:px-0 lg:grid-cols-3">
-        <TeamStrengthSection teamStats={teamStats} initialWindow={teamWindow} />
+        <TeamStrengthSection
+          teamStats={teamStats}
+          priorSeason={priorSeason}
+          initialWindow={teamWindow}
+        />
         <div>
           <DivisionStandings standings={standings} />
         </div>

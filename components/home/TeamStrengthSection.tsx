@@ -1,7 +1,7 @@
 "use client";
 
 import { useMemo } from "react";
-import type { TeamStatSnapshot } from "@/lib/data/types";
+import type { PriorSeasonSnapshot, TeamStatSnapshot } from "@/lib/data/types";
 import { StatCard } from "@/components/shared/StatCard";
 import { StatWindowSelector } from "@/components/shared/StatWindowSelector";
 import { useWindowParam } from "@/lib/hooks/useWindowParam";
@@ -15,27 +15,52 @@ import { formatPercent } from "@/lib/util/format";
 // window is active, rather than silently showing season numbers.
 export function TeamStrengthSection({
   teamStats,
+  priorSeason,
   initialWindow,
 }: {
   teamStats: TeamStatSnapshot;
+  priorSeason?: PriorSeasonSnapshot | null;
   initialWindow?: string;
 }) {
+  const priorKey = priorSeason ? `season-${priorSeason.season}` : null;
   const options = useMemo(
-    () => [{ key: "season", label: "Full Season" }, ...teamStats.epaPerPlayWindows.map((w) => ({ key: w.key, label: w.label }))],
-    [teamStats.epaPerPlayWindows]
+    () => [
+      { key: "season", label: "Full Season" },
+      ...teamStats.epaPerPlayWindows.map((w) => ({ key: w.key, label: w.label })),
+      ...(priorSeason ? [{ key: `season-${priorSeason.season}`, label: `${priorSeason.season} Season` }] : []),
+    ],
+    [teamStats.epaPerPlayWindows, priorSeason]
   );
   const [selected, setSelected] = useWindowParam("teamWindow", initialWindow, "season");
-  const isSeason = selected === "season";
+  const isPrior = priorKey !== null && selected === priorKey;
   const window = teamStats.epaPerPlayWindows.find((w) => w.key === selected);
 
   // Every per-play metric follows the selector. Previously only the two
   // EPA cards did, so choosing "Last Week" left success rate and
   // yards/play showing full-season numbers under a selector that said
-  // otherwise.
-  const epa = isSeason || !window ? teamStats.epaPerPlay : window;
-  const successRate = isSeason || !window ? teamStats.successRate : window.successRate;
-  const yardsPerPlay = isSeason || !window ? teamStats.yardsPerPlay : window.yardsPerPlay;
-  const windowLabel = isSeason ? null : (window?.label ?? null);
+  // otherwise. A completed prior season is just another source of the
+  // same three metric groups.
+  // Three possible sources, normalised to one shape. The live windows
+  // carry EPA as top-level offense/defense; the prior-season snapshot
+  // nests it under epaPerPlay like the season default does.
+  const view =
+    isPrior && priorSeason
+      ? priorSeason.teamStrength
+      : window
+        ? {
+            epaPerPlay: { offense: window.offense, defense: window.defense },
+            successRate: window.successRate,
+            yardsPerPlay: window.yardsPerPlay,
+          }
+        : {
+            epaPerPlay: teamStats.epaPerPlay,
+            successRate: teamStats.successRate,
+            yardsPerPlay: teamStats.yardsPerPlay,
+          };
+  const epa = view.epaPerPlay;
+  const successRate = view.successRate;
+  const yardsPerPlay = view.yardsPerPlay;
+  const windowLabel = isPrior ? `${priorSeason?.season} season` : (window?.label ?? null);
 
   return (
     <div className="lg:col-span-2">

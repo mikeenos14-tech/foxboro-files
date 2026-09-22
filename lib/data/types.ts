@@ -219,6 +219,29 @@ export interface PositionGroupLeagueTeamEntry {
   groups: PositionGroupLeagueGroupEntry[];
 }
 
+// A complete, frozen snapshot of a finished season (see
+// scripts/build-prior-season.ts), so window selectors can offer
+// "2025 Season" next to "Last 3 Games". "How good was our running game
+// last year" was previously unanswerable on the site — the only 2025 data
+// that existed was team-level EPA constants used internally for blending,
+// never anything a reader could look at.
+export interface PriorSeasonSnapshot {
+  season: number;
+  team: string;
+  teamStrength: {
+    epaPerPlay: { offense: RankedStat; defense: RankedStat };
+    successRate: { offense: RankedStat; defense: RankedStat };
+    yardsPerPlay: { offense: RankedStat; defense: RankedStat };
+  };
+  positionGroups: Array<{
+    group: string;
+    grade: number;
+    sampleSize: number;
+    confidence: "low" | "medium" | "high";
+  }>;
+  qb: QBWindowStats & { playerName: string };
+}
+
 export interface QBWindowStats {
   attempts: number;
   completions: number;

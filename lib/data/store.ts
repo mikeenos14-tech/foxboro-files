@@ -22,6 +22,7 @@ import type {
   OpponentMatchupData,
   PositionGroupReportCard,
   PositionGroupLeagueTeamEntry,
+  PriorSeasonSnapshot,
   QBDeepDive,
   ScheduleRow,
   SeasonProjection,
@@ -147,6 +148,13 @@ export async function getQbLeagueTable(): Promise<QBDeepDive[]> {
 
 export async function getDepthChart(): Promise<DepthChartEntry[]> {
   return (await readGenerated<DepthChartEntry[]>("depth-chart.json")) ?? fixtures.depthChart;
+}
+
+// A finished season's frozen snapshot, if one has been built (see
+// scripts/build-prior-season.ts). Returns null rather than throwing when
+// absent, so the window selectors simply don't offer that option.
+export async function getPriorSeason(season = 2025): Promise<PriorSeasonSnapshot | null> {
+  return readGenerated<PriorSeasonSnapshot>(`prior-season-${season}.json`);
 }
 
 // When the whole data snapshot was last rebuilt (written by

@@ -1,17 +1,30 @@
 "use client";
 
 import { useMemo } from "react";
-import type { QBDeepDive as QBData, QBWindowStats } from "@/lib/data/types";
+import type { QBDeepDive as QBData, QBWindowStats, PriorSeasonSnapshot } from "@/lib/data/types";
 import { PlayerHeadshot } from "@/components/shared/PlayerHeadshot";
 import { RankBadge } from "@/components/shared/RankBadge";
 import { StatWindowSelector } from "@/components/shared/StatWindowSelector";
 import { useWindowParam } from "@/lib/hooks/useWindowParam";
 import { formatPercent, signed } from "@/lib/util/format";
 
-export function QBDeepDive({ qb, initialWindow }: { qb: QBData; initialWindow?: string }) {
+export function QBDeepDive({
+  qb,
+  priorSeason,
+  initialWindow,
+}: {
+  qb: QBData;
+  priorSeason?: PriorSeasonSnapshot | null;
+  initialWindow?: string;
+}) {
+  const priorKey = priorSeason ? `season-${priorSeason.season}` : null;
   const options = useMemo(
-    () => [{ key: "season", label: "Full Season" }, ...(qb.windows ?? []).map((w) => ({ key: w.key, label: w.label }))],
-    [qb.windows]
+    () => [
+      { key: "season", label: "Full Season" },
+      ...(qb.windows ?? []).map((w) => ({ key: w.key, label: w.label })),
+      ...(priorSeason ? [{ key: `season-${priorSeason.season}`, label: `${priorSeason.season} Season` }] : []),
+    ],
+    [qb.windows, priorSeason]
   );
   const [selected, setSelected] = useWindowParam("qbWindow", initialWindow, "season");
   const isFullSeason = selected === "season";
@@ -19,14 +32,21 @@ export function QBDeepDive({ qb, initialWindow }: { qb: QBData; initialWindow?: 
   // the full-season league table — a "last N games" slice only has
   // Maye's own numbers, no league-wide comparison table for that same
   // window, so rank badges are shown for the full-season view only.
-  const stats: QBWindowStats = isFullSeason ? qb : qb.windows?.find((w) => w.key === selected)?.stats ?? qb;
+  const isPrior = priorKey !== null && selected === priorKey;
+  const stats: QBWindowStats = isFullSeason
+    ? qb
+    : isPrior && priorSeason
+      ? priorSeason.qb
+      : (qb.windows?.find((w) => w.key === selected)?.stats ?? qb);
 
   return (
     <div className="lift rounded-lg border border-border bg-surface p-4">
       <div className="flex items-center gap-3">
         <PlayerHeadshot name={qb.playerName} imageUrl={qb.headshotUrl} size={56} />
         <div>
-          <h3 className="text-lg font-bold text-foreground">{qb.playerName}</h3>
+          <h3 className="text-lg font-bold text-foreground">
+            {isPrior && priorSeason ? priorSeason.qb.playerName : qb.playerName}
+          </h3>
           <p className="text-sm text-muted">
             {stats.completions}/{stats.attempts}
             {stats.attempts > 0 && ` (${formatPercent(stats.completions / stats.attempts, 1)})`}, {stats.yards}{" "}

@@ -1,0 +1,109 @@
+{
+  "season": 2025,
+  "team": "NE",
+  "teamStrength": {
+    "epaPerPlay": {
+      "offense": {
+        "value": 0.08073978883417655,
+        "leagueRank": 6,
+        "leaguePercentile": 84
+      },
+      "defense": {
+        "value": -0.06371844059297264,
+        "leagueRank": 10,
+        "leaguePercentile": 71
+      }
+    },
+    "successRate": {
+      "offense": {
+        "value": 0.46214511041009465,
+        "leagueRank": 7,
+        "leaguePercentile": 81
+      },
+      "defense": {
+        "value": 0.42414355628058725,
+        "leagueRank": 11,
+        "leaguePercentile": 68
+      }
+    },
+    "yardsPerPlay": {
+      "offense": {
+        "value": 6.044164037854889,
+        "leagueRank": 4,
+        "leaguePercentile": 90
+      },
+      "defense": {
+        "value": 4.887438825448613,
+        "leagueRank": 6,
+        "leaguePercentile": 84
+      }
+    }
+  },
+  "positionGroups": [
+    {
+      "group": "QB",
+      "grade": 94,
+      "sampleSize": 692,
+      "confidence": "high"
+    },
+    {
+      "group": "RB",
+      "grade": 29,
+      "sampleSize": 460,
+      "confidence": "high"
+    },
+    {
+      "group": "WR",
+      "grade": 100,
+      "sampleSize": 352,
+      "confidence": "high"
+    },
+    {
+      "group": "TE",
+      "grade": 94,
+      "sampleSize": 136,
+      "confidence": "high"
+    },
+    {
+      "group": "OL",
+      "grade": 35,
+      "sampleSize": 694,
+      "confidence": "high"
+    },
+    {
+      "group": "Edge",
+      "grade": 52,
+      "sampleSize": 724,
+      "confidence": "high"
+    },
+    {
+      "group": "Interior DL",
+      "grade": 84,
+      "sampleSize": 504,
+      "confidence": "high"
+    },
+    {
+      "group": "Secondary",
+      "grade": 87,
+      "sampleSize": 722,
+      "confidence": "high"
+    }
+  ],
+  "qb": {
+    "playerName": "Drake Maye",
+    "attempts": 682,
+    "completions": 424,
+    "yards": 4890,
+    "tds": 37,
+    "ints": 12,
+    "cpoe": 8.003999165490141,
+    "accuracyByDepth": {
+      "short": 0.7428571428571429,
+      "medium": 0.6349206349206349,
+      "deep": 0.45263157894736844
+    },
+    "pressureEpa": -0.9410680317347967,
+    "cleanPocketEpa": 0.4174654277227733,
+    "turnoverWorthyPlayRate": 0.017595307917888565
+  }
+}

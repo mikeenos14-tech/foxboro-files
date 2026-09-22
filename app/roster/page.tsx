@@ -19,7 +19,7 @@ export default async function RosterPage({
   searchParams: Promise<{ qbWindow?: string; gradeWindow?: string }>;
 }) {
   const { qbWindow, gradeWindow } = await searchParams;
-  const [chart, reportCards, positionGroupLeagueTable, teamStats, qb, qbLeagueTable, nextGame] =
+  const [chart, reportCards, positionGroupLeagueTable, teamStats, qb, qbLeagueTable, nextGame, priorSeason] =
     await Promise.all([
       store.getDepthChart(),
       store.getPositionGroupReportCards(),
@@ -28,6 +28,7 @@ export default async function RosterPage({
       store.getQBDeepDive(),
       store.getQbLeagueTable(),
       store.getNextGame(),
+      store.getPriorSeason(),
     ]);
   const opponentTeam = nextGame.homeTeam === qb.team ? nextGame.awayTeam : nextGame.homeTeam;
 
@@ -51,7 +52,7 @@ export default async function RosterPage({
               <div className="space-y-6">
                 <div>
                   <h2 className="mb-3 text-lg font-semibold">QB Deep Dive</h2>
-                  <QBDeepDive qb={qb} initialWindow={qbWindow} />
+                  <QBDeepDive qb={qb} priorSeason={priorSeason} initialWindow={qbWindow} />
                 </div>
                 <div>
                   <h2 className="mb-3 text-lg font-semibold">Head-to-Head</h2>
@@ -64,7 +65,11 @@ export default async function RosterPage({
             label: "Position Grades",
             content: (
               <div className="space-y-6">
-                <PositionGroupCardsGrid cards={reportCards} initialWindow={gradeWindow} />
+                <PositionGroupCardsGrid
+                  cards={reportCards}
+                  priorSeason={priorSeason}
+                  initialWindow={gradeWindow}
+                />
                 <div>
                   <h2 className="mb-3 text-lg font-semibold">Compare a Position Group</h2>
                   <PositionGroupHeadToHead
