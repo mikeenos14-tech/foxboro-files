@@ -1,29 +1,47 @@
 [
   {
+    "id": "5c411f81-1b2e-4fe4-8915-c15a58a3fc33",
+    "publishedAt": "2026-09-22T20:00:00.000Z",
+    "type": "Transaction",
+    "headline": "Patriots Place OL Mike Onwenu on Injured Reserve; Make Additional Roster Moves",
+    "summary": "The Patriots announced today that they have signed P Mitch Wishnowsky to the 53-man roster from the practice squad and placed OL Mike Onwenu on injured reserve. In addition, the Patriots signed TE Tanner Conner to the practice squad.",
+    "sourceUrl": "https://www.patriots.com/news/patriots-place-ol-mike-onwenu-on-injured-reserve-make-additional-roster-moves",
+    "sourceName": "Patriots.com"
+  },
+  {
+    "id": "00ca2ff5-8585-42e4-8f45-2d8f5cd88771",
+    "publishedAt": "2026-09-22T19:35:40.000Z",
+    "type": "Analysis",
+    "headline": "The highest field goal in the world: Patriots legend Adam Vinatieri sets a GUINNESS WORLD RECORDS™ title at 3,454 meters on the Jungfraujoch – Top of Europe",
+    "summary": "The New England Patriots, six-time Super Bowl champions of the NFL, set a new world record together with Jungfraubahnen on September 22, 2026: At an altitude of 3,454 meters, legendary kicker Adam Vinatieri converted a field goal on the Jungfraujoch – Top of Europe against the spectacular backdrop of the Swiss Alps. GUINNESS WORLD RECORDS confirmed the title for the highest field goal in the world.",
+    "sourceUrl": "https://www.patriots.com/news/the-highest-field-goal-in-the-world-patriots-legend-adam-vinatieri-sets-a-guinness-world-recordstm-title-at-3-454-meters-on-the-jungfraujoch-top-of-europe",
+    "sourceName": "Patriots.com"
+  },
+  {
+    "id": "fdb0d224-5464-44f2-b4fc-7572dd84f43d",
+    "publishedAt": "2026-09-22T18:38:36.000Z",
+    "type": "Analysis",
+    "headline": "How to Watch and Stream Sunday's Patriots Week 3 Game Against the Jaguars",
+    "summary": "Complete broadcast information for this week's game between the New England Patriots and the Jacksonville Jaguars on Sunday, September 27, 2026 at 1 PM ET.",
+    "sourceUrl": "https://www.patriots.com/news/how-to-watch-and-stream-sunday-s-patriots-week-3-game-against-the-jaguars",
+    "sourceName": "Patriots.com"
+  },
+  {
+    "id": "8c31f7c2-abef-4409-b7be-04adc2a2ff77",
+    "publishedAt": "2026-09-22T18:38:08.000Z",
+    "type": "Analysis",
+    "headline": "Game Preview: Patriots at Jaguars | NFL Week 3",
+    "summary": "The New England Patriots will travel to Jacksonville to face the Jaguars at Everbank Stadium on Sunday, September 27 at 1 PM ET.",
+    "sourceUrl": "https://www.patriots.com/news/game-preview-patriots-at-jaguars-nfl-week-3",
+    "sourceName": "Patriots.com"
+  },
+  {
     "id": "9f1a5b8e-16d4-477c-977d-835776222187",
-    "publishedAt": "2026-09-21T20:43:05.000Z",
+    "publishedAt": "2026-09-22T18:22:00.000Z",
     "type": "Analysis",
     "headline": "After Further Review: Drake Maye film breakdown, defense review, and quick-hit film notes from the Week 2 win over the Steelers",
     "summary": "The Patriots defense dominated the Steelers in man coverage, but what did the film say about Drake Maye's performance?",
     "sourceUrl": "https://www.patriots.com/news/after-further-review-drake-maye-film-breakdown-defense-review-and-quick-hit-film-notes-from-the-week-2-win-over-the-steelers",
-    "sourceName": "Patriots.com"
-  },
-  {
-    "id": "168b89d6-d18b-4834-9ad5-f65dc68937e3",
-    "publishedAt": "2026-09-21T13:00:00.000Z",
-    "type": "Analysis",
-    "headline": "Game Observations: 8 takeaways from the Patriots win over the Steelers in Week 2",
-    "summary": "The Patriots cruised to a 20-3 victory over the Steelers in Sunday's home opener at Gillette Stadium.",
-    "sourceUrl": "https://www.patriots.com/news/game-observations-8-takeaways-from-the-patriots-win-over-the-steelers-in-week-2",
-    "sourceName": "Patriots.com"
-  },
-  {
-    "id": "ef30559d-731f-4c97-ab6c-619a42c59fdd",
-    "publishedAt": "2026-09-21T10:00:00.000Z",
-    "type": "Analysis",
-    "headline": "Transcript: Head Coach Mike Vrabel Press Conference 9/21",
-    "summary": "Read the full transcript from Head Coach Mike Vrabel's press conference on Monday, September 21, 2026.",
-    "sourceUrl": "https://www.patriots.com/news/transcript-head-coach-mike-vrabel-press-conference-9-21",
     "sourceName": "Patriots.com"
   },
   {
@@ -36,15 +54,6 @@
     "sourceName": "ESPN"
   },
   {
-    "id": "49992172",
-    "publishedAt": "2026-09-20T22:37:43Z",
-    "type": "Analysis",
-    "headline": "Pittsburgh Steelers vs. New England Patriots: Game Highlights",
-    "summary": "Pittsburgh Steelers vs. New England Patriots: Game Highlights",
-    "sourceUrl": "https://www.espn.com/video/clip/_/id/49992172/game-highlights",
-    "sourceName": "ESPN"
-  },
-  {
     "id": "49990760",
     "publishedAt": "2026-09-20T22:28:54Z",
     "type": "Analysis",
@@ -52,24 +61,6 @@
     "summary": "Initial X-rays revealed that New England Patriots starting right guard Mike Onwenu has a broken right ankle, a source said.",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/49990760/patriots-starting-rg-mike-onwenu-carted-ankle-injury",
     "sourceName": "ESPN"
-  },
-  {
-    "id": "cbd7675e-0c18-48a7-b3fe-88683bb968a5",
-    "publishedAt": "2026-09-20T22:01:50.000Z",
-    "type": "Analysis",
-    "headline": "New England Patriots Postgame Quotes 9/20",
-    "summary": "New England Patriots Head Coach Mike Vrabel and select players comment on their Week 2 game against the Pittsburgh Steelers on Sunday, September 20, 2026.",
-    "sourceUrl": "https://www.patriots.com/news/new-england-patriots-postgame-quotes-9-20-x7623",
-    "sourceName": "Patriots.com"
-  },
-  {
-    "id": "164147e2-c26e-4770-993a-a66bc8815ae2",
-    "publishedAt": "2026-09-20T21:57:14.000Z",
-    "type": "Analysis",
-    "headline": "Game Notes: Patriots Become First of Original AFL Teams to Reach 600 Wins",
-    "summary": "Game notes and stats from the Patriots Week 2 game against the Pittsburgh Steelers on Sunday, September 20, 2026.",
-    "sourceUrl": "https://www.patriots.com/news/game-notes-patriots-reach-600-wins",
-    "sourceName": "Patriots.com"
   },
   {
     "id": "49992010",

@@ -1,5 +1,374 @@
 [
   {
+    "id": "49949224",
+    "publishedAt": "2026-09-22T21:01:02Z",
+    "type": "Transaction",
+    "headline": "Rest-of-season rankings: Walker, Shough on the rise while Maye, McConkey fall",
+    "summary": "Need a quick free agent pickup -- or roster overhaul -- after Week 2? These rankings are designed to help.",
+    "sourceUrl": "https://www.espn.com/fantasy/football/story/_/id/49949224/fantasy-football-2026-updated-rest-season-rankings",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/lions-place-db-avonte-maddox-on-ir-sign-s-bishop-fitzgerald",
+    "publishedAt": "2026-09-22T20:59:47.000Z",
+    "type": "Injury",
+    "headline": "Lions place DB Avonte Maddox on IR, sign S Bishop Fitzgerald",
+    "summary": "The Lions signed safety Bishop Fitzgerald off the Steelers' practice squad on Tuesday, according to the NFL's personnel notice.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/lions-place-db-avonte-maddox-on-ir-sign-s-bishop-fitzgerald",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-bears-sign-p-johnny-hekker",
+    "publishedAt": "2026-09-22T20:48:35.000Z",
+    "type": "Transaction",
+    "headline": "Report: Bears sign P Johnny Hekker",
+    "summary": "The Bears are bringing in a veteran punter.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-bears-sign-p-johnny-hekker",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "50007034",
+    "publishedAt": "2026-09-22T20:45:34Z",
+    "type": "Transaction",
+    "headline": "Jets sign ex-Titans QB Will Levis, release Bailey Zappe",
+    "summary": "The Jets have signed former Titans starting QB Will Levis to their practice squad and have released Bailey Zappe.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50007034/jets-sign-qb-levis-release-bailey-zappe",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/sean-mcvay-on-aaron-donalds-first-game-back-never-ceases-to-amaze-me",
+    "publishedAt": "2026-09-22T20:42:17.000Z",
+    "type": "Analysis",
+    "headline": "Sean McVay on Aaron Donald's first game back: \"Never ceases to amaze me\"",
+    "summary": "Rams coach Sean McVay was pleased with how defensive tackle Aaron Donald played on Monday night, in his first game back after being retired for two years.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/sean-mcvay-on-aaron-donalds-first-game-back-never-ceases-to-amaze-me",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jets-place-three-players-on-injured-reserve",
+    "publishedAt": "2026-09-22T20:42:09.000Z",
+    "type": "Injury",
+    "headline": "Jets place three players on injured reserve",
+    "summary": "The Jets are placing three players on injured reserve, Rich Cimini of ESPN reports.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jets-place-three-players-on-injured-reserve",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "50007939",
+    "publishedAt": "2026-09-22T20:39:41Z",
+    "type": "Analysis",
+    "headline": "Macdonald says Broncos' Payton accused Seahawks of cheating",
+    "summary": "Seahawks coach Mike Macdonald says the Broncos wrongfully accused Seattle of a Spygate-like cheating scandal in 2024. Denver coach Sean Payton ultimately \"backed off\" after the Seahawks threatened a lawsuit if they went public with the allegation.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50007939/macdonald-says-broncos-payton-accused-seahawks-cheating-2024",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50007211",
+    "publishedAt": "2026-09-22T20:39:34Z",
+    "type": "Injury",
+    "headline": "Sources: Giants QB Jaxson Dart out for extended period",
+    "summary": "Jaxson Dart's knee injury is more severe than originally anticipated, and the Giants QB could miss the rest of the season, sources told NFL Network's Ian Rapoport and Mike Garafolo.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50007211/sources-giants-qb-jaxson-dart-extended-period",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=420533",
+    "publishedAt": "2026-09-22T20:39:13.000Z",
+    "type": "Injury",
+    "headline": "Falcons Place CB AJ Terrell On IR",
+    "summary": "Already in an 0-2 hole, the Falcons will go at least four games without one of their top defenders. The team has placed cornerback AJ Terrell on IR with a groin injury. In a corresponding move, the Falcons signed defensive lineman Zach Harrison from their practice squad. Now in his seventh year, Terrell had never […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/09/falcons-place-cb-aj-terrell-on-ir",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "50007652",
+    "publishedAt": "2026-09-22T20:36:31Z",
+    "type": "Analysis",
+    "headline": "Packers lose RT Zach Bako-Bewele to season-ending surgery",
+    "summary": "Packers RT Zach Bako-Bewele, considered the team's best offensive lineman, is set to undergo knee surgery that will sideline him for 8-10 months.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50007652/packers-lose-rt-zach-bako-bewele-season-ending-surgery",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50008178",
+    "publishedAt": "2026-09-22T20:36:15Z",
+    "type": "Injury",
+    "headline": "Kimes on Packers' latest O-line injury: 'It completely changes their identity'",
+    "summary": "Kimes on Packers' latest O-line injury: 'It completely changes their identity'",
+    "sourceUrl": "https://www.espn.com/video/clip/_/id/50008178/completely-changes-their-identity",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50008168",
+    "publishedAt": "2026-09-22T20:34:42Z",
+    "type": "Injury",
+    "headline": "Orlovsky: I don't understand how Giants made mistake over Dart injury",
+    "summary": "Orlovsky: I don't understand how Giants made mistake over Dart injury",
+    "sourceUrl": "https://www.espn.com/video/clip/_/id/50008168/understand-how-giants-made-mistake-dart-injury",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50008137",
+    "publishedAt": "2026-09-22T20:31:29Z",
+    "type": "Analysis",
+    "headline": "Dopp: Starting Patrick Mahomes in Week 3 is a great move",
+    "summary": "Dopp: Starting Patrick Mahomes in Week 3 is a great move",
+    "sourceUrl": "https://www.espn.com/video/clip/_/id/50008137/starting-patrick-mahomes-week-3-great-move",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/g-aaron-banks-misses-practice-for-packers-ot-anthony-belton-limited",
+    "publishedAt": "2026-09-22T20:30:12.000Z",
+    "type": "Injury",
+    "headline": "G Aaron Banks misses practice for Packers, OT Anthony Belton limited",
+    "summary": "The Packers added another offensive lineman to their injury list on Tuesday.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/g-aaron-banks-misses-practice-for-packers-ot-anthony-belton-limited",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "50008158",
+    "publishedAt": "2026-09-22T20:22:35Z",
+    "type": "Analysis",
+    "headline": "Why Dopp is downgrading De'Von Achane in Week 3",
+    "summary": "Why Dopp is downgrading De'Von Achane in Week 3",
+    "sourceUrl": "https://www.espn.com/video/clip/_/id/50008158/why-dopp-downgrading-devon-achane-week-3",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/patriots-place-g-mike-onwenu-on-injured-reserve",
+    "publishedAt": "2026-09-22T20:15:53.000Z",
+    "type": "Injury",
+    "headline": "Patriots place G Mike Onwenu on injured reserve",
+    "summary": "The Patriots moved right guard Mike Onwenu to their injured reserve list on Tuesday.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/patriots-place-g-mike-onwenu-on-injured-reserve",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-saints-to-sign-ls-cal-adomitis-off-dolphins-practice-squad",
+    "publishedAt": "2026-09-22T20:11:05.000Z",
+    "type": "Transaction",
+    "headline": "Report: Saints to sign LS Cal Adomitis off Dolphins practice squad",
+    "summary": "After losing Scott Daly to the Bears, the Saints are adding another long snapper.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-saints-to-sign-ls-cal-adomitis-off-dolphins-practice-squad",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/after-putting-two-tight-ends-on-injured-reserve-chargers-sign-hayden-rucci",
+    "publishedAt": "2026-09-22T20:10:50.000Z",
+    "type": "Injury",
+    "headline": "After putting two tight ends on injured reserve, Chargers sign Hayden Rucci",
+    "summary": "The Chargers have added a player to their injury-depleted tight end room.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/after-putting-two-tight-ends-on-injured-reserve-chargers-sign-hayden-rucci",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/tua-tagovailoa-returns-to-full-participation-at-falcons-practice",
+    "publishedAt": "2026-09-22T20:06:29.000Z",
+    "type": "Beat Report",
+    "headline": "Tua Tagovailoa returns to full participation at Falcons practice",
+    "summary": "Tua Tagovailoa won't be starting for the Falcons on Thursday night, but he could suit up for the first time this season.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/tua-tagovailoa-returns-to-full-participation-at-falcons-practice",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "50007991",
+    "publishedAt": "2026-09-22T20:03:15Z",
+    "type": "Analysis",
+    "headline": "Dopp starting Jalen Coker 'with confidence' in Week 3",
+    "summary": "Dopp starting Jalen Coker 'with confidence' in Week 3",
+    "sourceUrl": "https://www.espn.com/video/clip/_/id/50007991/dopp-starting-jalen-coker-confidence-week-3",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50005892",
+    "publishedAt": "2026-09-22T19:59:54Z",
+    "type": "Analysis",
+    "headline": "Knockout league pickups: Nacua and Bowers among big names available in Week 3",
+    "summary": "Tristan H. Cockcroft lists the most common players on eliminated teams and finds how much FAB to spend this week.",
+    "sourceUrl": "https://www.espn.com/fantasy/football/story/_/id/50005892/espn-nfl-fantasy-football-knockout-league-picks-week-3-strategy-adds",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50007133",
+    "publishedAt": "2026-09-22T19:55:23Z",
+    "type": "Analysis",
+    "headline": "Sources: Bagent has concussion, leaving Bears' QB situation unclear",
+    "summary": "Bears quarterback Tyson Bagent is in the NFL's concussion protocol, sources told NFL Network's Ian Rapoport on Tuesday.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50007133/bagent-concussion-leaving-bears-qb-situation-muddled",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50007840",
+    "publishedAt": "2026-09-22T19:54:53Z",
+    "type": "Analysis",
+    "headline": "Ian Rapoport reveals Case Keenum could start for Bears on MNF",
+    "summary": "Ian Rapoport reveals Case Keenum could start for Bears on MNF",
+    "sourceUrl": "https://www.espn.com/video/clip/_/id/50007840/ian-rapoport-reveals-case-keenum-start-bears-mnf",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/panthers-sign-wr-ihmir-smith-marsette-to-practice-squad",
+    "publishedAt": "2026-09-22T19:53:29.000Z",
+    "type": "Transaction",
+    "headline": "Panthers sign WR Ihmir Smith-Marsette to practice squad",
+    "summary": "The Panthers have added an experienced receiver and returner to their practice squad.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/panthers-sign-wr-ihmir-smith-marsette-to-practice-squad",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/colts-place-de-micheal-clemons-on-ir-to-make-room-for-darius-slayton",
+    "publishedAt": "2026-09-22T19:52:53.000Z",
+    "type": "Injury",
+    "headline": "Colts place DE Micheal Clemons on IR to make room for Darius Slayton",
+    "summary": "The Colts made official the signing of free agent wide receiver Darius Slayton on Tuesday, the team announced.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/colts-place-de-micheal-clemons-on-ir-to-make-room-for-darius-slayton",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "50007455",
+    "publishedAt": "2026-09-22T19:51:13Z",
+    "type": "Analysis",
+    "headline": "Davante Adams calls loss in Australia a 'blessing in disguise'",
+    "summary": "Davante Adams calls loss in Australia a 'blessing in disguise'",
+    "sourceUrl": "https://www.espn.com/video/clip/_/id/50007455/davante-adams-calls-loss-australia-blessing-disguise",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-bears-to-sign-ls-scott-daly-off-saints-practice-squad",
+    "publishedAt": "2026-09-22T19:48:44.000Z",
+    "type": "Transaction",
+    "headline": "Report: Bears to sign LS Scott Daly off Saints practice squad",
+    "summary": "Long snapper Scott Daly is headed back to a familiar spot.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-bears-to-sign-ls-scott-daly-off-saints-practice-squad",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dolphins-sign-olb-andre-jones-jr-off-bills-practice-squad",
+    "publishedAt": "2026-09-22T19:16:10.000Z",
+    "type": "Transaction",
+    "headline": "Dolphins sign OLB Andre Jones Jr. off Bills' practice squad",
+    "summary": "The Dolphins signed pass rusher Andre Jones Jr. off the Bills' practice squad, the team announced Tuesday.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dolphins-sign-olb-andre-jones-jr-off-bills-practice-squad",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "50007228",
+    "publishedAt": "2026-09-22T19:15:58Z",
+    "type": "Injury",
+    "headline": "McAfee & Co. react to Jaxson Dart injury news",
+    "summary": "McAfee & Co. react to Jaxson Dart injury news",
+    "sourceUrl": "https://www.espn.com/video/clip/_/id/50007228/mcafee-co-react-jaxson-dart-injury-news",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/john-harbaugh-on-jaxson-dart-evaluations-ongoing-no-final-decisions-yet",
+    "publishedAt": "2026-09-22T19:14:34.000Z",
+    "type": "Injury",
+    "headline": "John Harbaugh on Jaxson Dart: Evaluations ongoing, no final decisions yet",
+    "summary": "A report on Tuesday indicated Dart may miss the rest of the season with a knee injury.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/john-harbaugh-on-jaxson-dart-evaluations-ongoing-no-final-decisions-yet",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/deion-sanders-dismisses-a-few-guys-from-the-team-after-blowout-loss-in-northwestern",
+    "publishedAt": "2026-09-22T19:12:23.000Z",
+    "type": "Analysis",
+    "headline": "Deion Sanders dismisses \"a few guys\" from the team after blowout loss in Northwestern",
+    "summary": "After Saturday's blowout loss to Northwestern, Colorado coach Deion Sanders wasn't happy that some players were laughing.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/deion-sanders-dismisses-a-few-guys-from-the-team-after-blowout-loss-in-northwestern",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-rt-zach-bako-bewele-out-for-season-with-torn-patellar-tendon",
+    "publishedAt": "2026-09-22T19:01:23.000Z",
+    "type": "Injury",
+    "headline": "Packers RT Zach Bako-Bewele out for season with torn patellar tendon",
+    "summary": "The Packers will need a new right tackle for the rest of the 2026 season.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-rt-zach-bako-bewele-out-for-season-with-torn-patellar-tendon",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=420544",
+    "publishedAt": "2026-09-22T18:46:45.000Z",
+    "type": "Injury",
+    "headline": "Giants QB Jaxson Dart Could Undergo Season-Ending Knee Surgery",
+    "summary": "The knee injury that knocked Giants quarterback Jaxson Dart out of their Week 2 loss to the Rams on Monday is worse than initially feared, Adam Schefter of ESPN reports. Dart could undergo season-ending knee surgery, per Schefter. Regardless, he will miss a significant amount of time, according to Ian Rapoport and Mike Garafolo of […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/09/giants-qb-jaxson-dart-could-undergo-season-ending-knee-surgery",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-jaxson-darts-injury-could-be-season-ending",
+    "publishedAt": "2026-09-22T18:44:56.000Z",
+    "type": "Injury",
+    "headline": "Report: Jaxson Dart's injury could be season-ending",
+    "summary": "MRI brings bad news for the Giants.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-jaxson-darts-injury-could-be-season-ending",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/sean-mcvay-hopeful-but-unsure-of-puka-nacuas-availability-for-week-3",
+    "publishedAt": "2026-09-22T18:39:39.000Z",
+    "type": "Analysis",
+    "headline": "Sean McVay hopeful, but unsure of Puka Nacua's availability for Week 3",
+    "summary": "The Rams did not have an issue playing without star receiver Puka Nacua on Monday night, defeating the Giants, 28-6.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/sean-mcvay-hopeful-but-unsure-of-puka-nacuas-availability-for-week-3",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/through-two-weeks-four-starting-quarterbacks-have-been-injured",
+    "publishedAt": "2026-09-22T18:33:21.000Z",
+    "type": "Injury",
+    "headline": "Through two weeks, four starting quarterbacks have been injured",
+    "summary": "The 2023 season featured more than a few serious quarterback injuries.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/through-two-weeks-four-starting-quarterbacks-have-been-injured",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "50006942",
+    "publishedAt": "2026-09-22T18:24:07Z",
+    "type": "Injury",
+    "headline": "Sources: Pro Bowler Kenny Moore II to boost Eagles' DB group",
+    "summary": "With a defensive back group dealing with injuries, the Eagles are expected to sign Pro Bowler Kenny Moore II to the practice squad, sources said.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50006942/sources-pro-bowler-kenny-moore-ii-boost-eagles-db-group",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/tyson-bagent-placed-in-concussion-protocol-putting-case-keenum-in-line-to-start-week-3",
+    "publishedAt": "2026-09-22T18:22:00.000Z",
+    "type": "Injury",
+    "headline": "Tyson Bagent placed in concussion protocol, putting Case Keenum in line to start Week 3",
+    "summary": "Chicago is dealing with multiple injuries at quarterback. The club will play Philadelphia on Monday night.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/tyson-bagent-placed-in-concussion-protocol-putting-case-keenum-in-line-to-start-week-3",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=420538",
+    "publishedAt": "2026-09-22T18:19:54.000Z",
+    "type": "Injury",
+    "headline": "Packers RT Zach Bako-Bewele To Undergo Season-Ending Knee Surgery",
+    "summary": "Packers right tackle Zach Bako-Bewele fully tore the patellar tendon in his right knee during the team’s win over the Jets in Week 2, Matt Schneidman of The Athletic reports. Bako-Bewele will undergo surgery and miss the rest of the season. He faces a nine-month recovery. Bako-Bewele suffered a similar injury to the same knee […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/09/packers-rt-zach-bako-bewele-to-undergo-season-ending-knee-surgery",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=420535",
+    "publishedAt": "2026-09-22T18:14:45.000Z",
+    "type": "Injury",
+    "headline": "Bears QB Tyson Bagent In Concussion Protocol",
+    "summary": "The Bears may have to turn to third-string quarterback Case Keenum next Monday against the Eagles. Backup Tyson Bagent, who had been set to start in place of the injured Caleb Williams, is in concussion protocol, Ian Rapoport of NFL Network reports. Bagent’s status for Week 3 is up in the air. This is an […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/09/bears-qb-tyson-bagent-in-concussion-protocol",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/the-three-players-fined-for-the-violating-one-of-the-five-key-safety-rules-have-appealed",
+    "publishedAt": "2026-09-22T18:08:49.000Z",
+    "type": "Analysis",
+    "headline": "The three players fined for violating one of the five key safety rules have appealed",
+    "summary": "The NFL has adopted a new procedure when it comes to five key safety rules.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/the-three-players-fined-for-the-violating-one-of-the-five-key-safety-rules-have-appealed",
+    "sourceName": "Pro Football Talk"
+  },
+  {
     "id": "50006619",
     "publishedAt": "2026-09-22T17:41:24Z",
     "type": "Injury",
@@ -6459,15 +6828,6 @@
     "headline": "Lions offensive linemen Mahogany, Miller ruled out vs. Bills",
     "summary": "A pair of starters won't be playing this week for the Detroit Lions as offensive linemen Christian Mahogany (hip) and Blake Miller (knee) have been ruled out ahead of Thursday night's showdown in Buffalo.",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/49959732/lions-offensive-linemen-mahogany-miller-ruled-vs-bills",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "49949224",
-    "publishedAt": "2026-09-16T20:41:06Z",
-    "type": "Transaction",
-    "headline": "Rest-of-season rankings: Williams, Dart on the rise while Achane, London fall",
-    "summary": "Need a quick free agent pickup -- or roster overhaul -- after Week 1? These rankings are designed to help.",
-    "sourceUrl": "https://www.espn.com/fantasy/football/story/_/id/49949224/fantasy-football-2026-updated-rest-season-rankings",
     "sourceName": "ESPN"
   },
   {
