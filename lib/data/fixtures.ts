@@ -142,6 +142,10 @@ export const teamStats: TeamStatSnapshot = {
     offense: { value: 0.47, leagueRank: 10, leaguePercentile: 72 },
     defense: { value: 0.39, leagueRank: 8, leaguePercentile: 78 },
   },
+  yardsPerPlay: {
+    offense: { value: 5.6, leagueRank: 9, leaguePercentile: 74 },
+    defense: { value: 5.1, leagueRank: 12, leaguePercentile: 65 },
+  },
   explosivePlayRate: {
     offense: { value: 0.11, leagueRank: 14, leaguePercentile: 57 },
     defense: { value: 0.08, leagueRank: 6, leaguePercentile: 84 },

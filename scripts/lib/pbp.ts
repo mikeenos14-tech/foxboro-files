@@ -23,23 +23,27 @@ export interface TeamSplitStats {
   epa: number;
   successRate: number;
   explosiveRate: number;
+  yardsPerPlay: number;
   plays: number;
 }
 
 function aggregate(rows: PbpRow[]): TeamSplitStats {
-  if (rows.length === 0) return { epa: 0, successRate: 0, explosiveRate: 0, plays: 0 };
+  if (rows.length === 0) return { epa: 0, successRate: 0, explosiveRate: 0, yardsPerPlay: 0, plays: 0 };
   let epaSum = 0;
   let successSum = 0;
   let explosiveSum = 0;
+  let yardsSum = 0;
   for (const r of rows) {
     epaSum += num(r.epa);
     successSum += bool01(r.success) ? 1 : 0;
     explosiveSum += isExplosive(r) ? 1 : 0;
+    yardsSum += num(r.yards_gained);
   }
   return {
     epa: epaSum / rows.length,
     successRate: successSum / rows.length,
     explosiveRate: explosiveSum / rows.length,
+    yardsPerPlay: yardsSum / rows.length,
     plays: rows.length,
   };
 }

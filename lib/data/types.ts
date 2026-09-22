@@ -131,6 +131,10 @@ export interface TeamStatSnapshot {
   // not per-team game counts, keep that adjustment sound).
   epaPerPlayWindows: Array<{ key: string; label: string; offense: RankedStat; defense: RankedStat }>;
   successRate: { offense: RankedStat; defense: RankedStat };
+  // Raw yards/play, not opponent-adjusted — the classic pre-EPA box-score
+  // number, computed but previously entirely absent from the site (see
+  // TeamSplitStats in scripts/lib/pbp.ts).
+  yardsPerPlay: { offense: RankedStat; defense: RankedStat };
   explosivePlayRate: { offense: RankedStat; defense: RankedStat };
   pointDifferential: RankedStat;
   pythagoreanWinPct: number;

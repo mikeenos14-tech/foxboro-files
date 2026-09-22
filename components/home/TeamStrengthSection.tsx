@@ -68,6 +68,33 @@ export function TeamStrengthSection({
           soWhat={`${ordinal(epa.defense.leagueRank)}-ranked defense — negative is good here.`}
           animate={{ value: epa.defense.value, decimals: 2 }}
         />
+        <StatCard
+          label="Offensive Success Rate"
+          value={formatPercent(teamStats.successRate.offense.value)}
+          leagueRank={teamStats.successRate.offense.leagueRank}
+          soWhat="Share of plays that kept the offense ahead of down-and-distance expectations."
+          animate={{ value: teamStats.successRate.offense.value * 100, suffix: "%" }}
+        />
+        <StatCard
+          label="Defensive Success Rate"
+          value={formatPercent(teamStats.successRate.defense.value)}
+          leagueRank={teamStats.successRate.defense.leagueRank}
+          soWhat="Share of opponent plays allowed to succeed — lower is better here."
+          animate={{ value: teamStats.successRate.defense.value * 100, suffix: "%" }}
+        />
+        <StatCard
+          label="Offensive Yards/Play"
+          value={teamStats.yardsPerPlay.offense.value.toFixed(1)}
+          leagueRank={teamStats.yardsPerPlay.offense.leagueRank}
+          animate={{ value: teamStats.yardsPerPlay.offense.value, decimals: 1 }}
+        />
+        <StatCard
+          label="Defensive Yards/Play"
+          value={teamStats.yardsPerPlay.defense.value.toFixed(1)}
+          leagueRank={teamStats.yardsPerPlay.defense.leagueRank}
+          soWhat="Fewer yards allowed per snap is better here."
+          animate={{ value: teamStats.yardsPerPlay.defense.value, decimals: 1 }}
+        />
       </div>
     </div>
   );

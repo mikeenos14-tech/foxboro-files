@@ -55,6 +55,18 @@
       "leaguePercentile": 74
     }
   },
+  "yardsPerPlay": {
+    "offense": {
+      "value": 5.1440677966101696,
+      "leagueRank": 19,
+      "leaguePercentile": 42
+    },
+    "defense": {
+      "value": 4.5701754385964914,
+      "leagueRank": 4,
+      "leaguePercentile": 90
+    }
+  },
   "explosivePlayRate": {
     "offense": {
       "value": 0.11016949152542373,

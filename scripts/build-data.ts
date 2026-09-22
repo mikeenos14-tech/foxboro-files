@@ -320,6 +320,10 @@ async function main() {
       offense: offenseSuccessRank(epaTable, TEAM),
       defense: defenseSuccessRank(epaTable, TEAM),
     },
+    yardsPerPlay: {
+      offense: rankGeneric(ALL_TEAMS, TEAM, (t) => offenseStats(pbp, t).yardsPerPlay, true),
+      defense: rankGeneric(ALL_TEAMS, TEAM, (t) => defenseStats(pbp, t).yardsPerPlay, false),
+    },
     explosivePlayRate: {
       offense: offenseExplosiveRank(epaTable, TEAM),
       defense: defenseExplosiveRank(epaTable, TEAM),
