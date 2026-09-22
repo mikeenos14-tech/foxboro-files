@@ -42,6 +42,14 @@ function buildSections(maye: QBDeepDive, opp: QBDeepDive): Section[] {
           mayeRaw: 0,
           oppRaw: 0,
         },
+        {
+          label: "Comp %",
+          mayeDisplay: maye.attempts > 0 ? formatPercent(maye.completions / maye.attempts, 1) : "—",
+          oppDisplay: opp.attempts > 0 ? formatPercent(opp.completions / opp.attempts, 1) : "—",
+          mayeRaw: maye.attempts > 0 ? maye.completions / maye.attempts : 0,
+          oppRaw: opp.attempts > 0 ? opp.completions / opp.attempts : 0,
+          higherIsBetter: true,
+        },
         { label: "Yards", mayeDisplay: `${maye.yards}`, oppDisplay: `${opp.yards}`, mayeRaw: 0, oppRaw: 0 },
         {
           label: "TD",

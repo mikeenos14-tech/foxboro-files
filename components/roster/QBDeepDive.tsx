@@ -11,8 +11,9 @@ export function QBDeepDive({ qb }: { qb: QBData }) {
         <div>
           <h3 className="text-lg font-bold text-foreground">{qb.playerName}</h3>
           <p className="text-sm text-muted">
-            {qb.completions}/{qb.attempts}, {qb.yards} yds, {qb.tds} TD,{" "}
-            {qb.ints} INT
+            {qb.completions}/{qb.attempts}
+            {qb.attempts > 0 && ` (${formatPercent(qb.completions / qb.attempts, 1)})`}, {qb.yards}{" "}
+            yds, {qb.tds} TD, {qb.ints} INT
           </p>
         </div>
       </div>
