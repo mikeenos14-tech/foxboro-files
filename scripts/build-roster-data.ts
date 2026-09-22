@@ -15,11 +15,13 @@ import {
 } from "./lib/roster";
 import { rankGeneric } from "./lib/rank";
 import { ALL_TEAMS } from "./lib/teams";
+import { buildLastNGameWindows, filterRowsToWindow } from "./lib/statWindows";
 import { ordinal } from "../lib/calc/ranks";
 import type {
   DepthChartEntry,
   PositionGroupReportCard,
   QBDeepDive,
+  QBWindowStats,
 } from "../lib/data/types";
 
 const TEAM = "NE";
@@ -84,11 +86,33 @@ function positionEpa(
   };
 }
 
+// Every group here is a raw (not opponent-adjusted) team-wide proxy
+// stat — see the note above buildPositionGroupCards — so, unlike Team
+// Strength's opponent-adjusted EPA, windowing doesn't need every team's
+// window aligned to the same calendar weeks; each team's own "last N
+// games I've played" is a perfectly fine, self-contained input. A team
+// that hasn't played N games yet (bye, or fewer games so far than the
+// window being requested) clamps to the most games they do have, same
+// early-season fallback used everywhere else on the site.
+function windowedRowsByTeamAndIndex(
+  pbp: PbpRow[],
+  teams: string[]
+): (team: string, index: number) => PbpRow[] {
+  const windowsByTeam = new Map(teams.map((t) => [t, buildLastNGameWindows(pbp, t)]));
+  return (team: string, index: number): PbpRow[] => {
+    const windows = windowsByTeam.get(team) ?? [];
+    if (windows.length === 0) return [];
+    return filterRowsToWindow(pbp, windows[Math.min(index, windows.length - 1)]);
+  };
+}
+
 async function buildPositionGroupCards(
   pbp: PbpRow[]
 ): Promise<PositionGroupReportCard[]> {
   const rosterByGsis = await buildLeagueRosterByGsis();
   const qbFaultSackKeys = await loadQbFaultSackKeys();
+  const rowsFor = windowedRowsByTeamAndIndex(pbp, ALL_TEAMS);
+  const windowLabels = buildLastNGameWindows(pbp, TEAM).map((w) => ({ key: w.key, label: w.label }));
 
   const groups: Array<{
     label: string;
@@ -101,6 +125,17 @@ async function buildPositionGroupCards(
     { label: "WR", idField: "receiver_id", playType: "pass", rosterPosition: "WR" },
     { label: "TE", idField: "receiver_id", playType: "pass", rosterPosition: "TE" },
   ];
+
+  const windowedGrade = (
+    valueOf: (rows: PbpRow[], t: string) => number,
+    higherIsBetter: boolean
+  ): Array<{ key: string; label: string; grade: number }> =>
+    windowLabels.map(({ key, label }, i) => ({
+      key,
+      label,
+      grade: rankGeneric(ALL_TEAMS, TEAM, (t) => valueOf(rowsFor(t, i), t), higherIsBetter)
+        .leaguePercentile,
+    }));
 
   const playerAttributed = groups.map(({ label, idField, playType, rosterPosition }) => {
     const valueOf = (t: string) =>
@@ -118,6 +153,10 @@ async function buildPositionGroupCards(
       // Revisit once multiple weeks accumulate.
       trend: "flat" as const,
       soWhat: `${ordinal(grade)} percentile in the NFL for EPA/play generated at ${label} this season (${n} plays sampled).`,
+      windows: windowedGrade(
+        (rows, t) => positionEpa(rows, rosterByGsis, t, rosterPosition, idField, playType).epa,
+        true
+      ),
     };
   });
 
@@ -130,24 +169,28 @@ async function buildPositionGroupCards(
       grade: unitGrade((t) => olFaultSackRateAllowed(pbp, t, qbFaultSackKeys), false),
       trend: "flat",
       soWhat: `${ordinal(unitGrade((t) => olFaultSackRateAllowed(pbp, t, qbFaultSackKeys), false))} percentile in the NFL for sacks allowed that weren't the QB's own fault (real per-play charting data, not just raw sack rate — still team-wide, no per-player blocking grade available free).`,
+      windows: windowedGrade((rows, t) => olFaultSackRateAllowed(rows, t, qbFaultSackKeys), false),
     },
     {
       group: "Edge",
       grade: unitGrade((t) => sackRateGenerated(pbp, t), true),
       trend: "flat",
       soWhat: `${ordinal(unitGrade((t) => sackRateGenerated(pbp, t), true))} percentile in the NFL for sack rate generated (pass rush proxy, team-wide — not isolated to edge rushers specifically).`,
+      windows: windowedGrade((rows, t) => sackRateGenerated(rows, t), true),
     },
     {
       group: "Interior DL",
       grade: unitGrade((t) => playTypeEpa(pbp, t, "defteam", "run"), false),
       trend: "flat",
       soWhat: `${ordinal(unitGrade((t) => playTypeEpa(pbp, t, "defteam", "run"), false))} percentile in the NFL for rush EPA allowed (run defense proxy, team-wide — not isolated to interior linemen specifically).`,
+      windows: windowedGrade((rows, t) => playTypeEpa(rows, t, "defteam", "run"), false),
     },
     {
       group: "Secondary",
       grade: unitGrade((t) => playTypeEpa(pbp, t, "defteam", "pass"), false),
       trend: "flat",
       soWhat: `${ordinal(unitGrade((t) => playTypeEpa(pbp, t, "defteam", "pass"), false))} percentile in the NFL for pass EPA allowed (pass defense proxy — includes pass rush effect, not isolated to coverage alone).`,
+      windows: windowedGrade((rows, t) => playTypeEpa(rows, t, "defteam", "pass"), false),
     },
   ];
 
@@ -156,28 +199,11 @@ async function buildPositionGroupCards(
 
 // ---------- QB deep dive ----------
 
-// Computes the same QB stat bundle for any team's current starter (most
-// pass attempts this season) — used both for Maye's own deep dive and,
-// called once per team, for the league-wide comparison table that powers
-// his rank badges and the head-to-head picker.
-function computeQbStats(
-  pbp: PbpRow[],
-  team: string,
-  rosterByGsis: Map<string, RosterRow>
-): QBDeepDive | null {
-  const teamPasses = pbp.filter(
-    (r) => r.posteam === team && bool01(r.pass_attempt) && r.passer_id
-  );
-  if (teamPasses.length === 0) return null;
-
-  const attemptsByPasser = new Map<string, number>();
-  for (const r of teamPasses) {
-    attemptsByPasser.set(r.passer_id, (attemptsByPasser.get(r.passer_id) ?? 0) + 1);
-  }
-  const starterId = [...attemptsByPasser.entries()].sort((a, b) => b[1] - a[1])[0][0];
-  const starterRoster = rosterByGsis.get(starterId);
-  const rows = teamPasses.filter((r) => r.passer_id === starterId);
-
+// Pure stat computation given an already-filtered set of one passer's
+// pass-attempt rows — shared by the full-season computation below and by
+// the per-window ("last N games") computation, which just feeds this a
+// smaller row set.
+function qbStatsFromRows(rows: PbpRow[]): QBWindowStats {
   const completions = rows.filter((r) => bool01(r.complete_pass));
   const withAirYards = rows.filter((r) => r.air_yards !== "" && r.air_yards !== "NA");
 
@@ -208,10 +234,6 @@ function computeQbStats(
   const ints = rows.filter((r) => bool01(r.interception)).length;
 
   return {
-    playerId: starterId,
-    playerName: starterRoster?.full_name ?? rows[0]?.passer ?? "Unknown",
-    headshotUrl: starterRoster?.headshot_url || undefined,
-    team,
     attempts: rows.length,
     completions: completions.length,
     yards: rows.reduce((sum, r) => sum + num(r.yards_gained), 0),
@@ -231,6 +253,56 @@ function computeQbStats(
     // near-picks a charter would flag, but every number in it is real.
     turnoverWorthyPlayRate: rows.length === 0 ? 0 : ints / rows.length,
   };
+}
+
+// Computes the same QB stat bundle for any team's current starter (most
+// pass attempts this season) — used both for Maye's own deep dive and,
+// called once per team, for the league-wide comparison table that powers
+// his rank badges and the head-to-head picker.
+function computeQbStats(
+  pbp: PbpRow[],
+  team: string,
+  rosterByGsis: Map<string, RosterRow>
+): QBDeepDive | null {
+  const teamPasses = pbp.filter(
+    (r) => r.posteam === team && bool01(r.pass_attempt) && r.passer_id
+  );
+  if (teamPasses.length === 0) return null;
+
+  const attemptsByPasser = new Map<string, number>();
+  for (const r of teamPasses) {
+    attemptsByPasser.set(r.passer_id, (attemptsByPasser.get(r.passer_id) ?? 0) + 1);
+  }
+  const starterId = [...attemptsByPasser.entries()].sort((a, b) => b[1] - a[1])[0][0];
+  const starterRoster = rosterByGsis.get(starterId);
+  const rows = teamPasses.filter((r) => r.passer_id === starterId);
+
+  return {
+    playerId: starterId,
+    playerName: starterRoster?.full_name ?? rows[0]?.passer ?? "Unknown",
+    headshotUrl: starterRoster?.headshot_url || undefined,
+    team,
+    ...qbStatsFromRows(rows),
+  };
+}
+
+// The starter's stat bundle recomputed over just the last N games, for
+// every N from 1 up to games played — reuses the same starterId already
+// resolved for the full season so a window can never silently pick up a
+// different passer (e.g. after a QB change) than the featured card shows.
+function computeQbWindows(
+  pbp: PbpRow[],
+  team: string,
+  starterId: string
+): Array<{ key: string; label: string; stats: QBWindowStats }> {
+  const teamPasses = pbp.filter(
+    (r) => r.posteam === team && bool01(r.pass_attempt) && r.passer_id === starterId
+  );
+  return buildLastNGameWindows(pbp, team).map((window) => ({
+    key: window.key,
+    label: window.label,
+    stats: qbStatsFromRows(filterRowsToWindow(teamPasses, window)),
+  }));
 }
 
 // Ranks one team's QB against every other team's entry in the league
@@ -291,11 +363,17 @@ async function main() {
 
   const qb = attachQbRanks(leagueQbTable, TEAM);
   if (qb) {
+    const qbWithWindows: QBDeepDive = {
+      ...qb,
+      windows: computeQbWindows(pbp, TEAM, qb.playerId),
+    };
     await writeFile(
       path.join(GENERATED_DIR, "qb-deep-dive.json"),
-      JSON.stringify(qb, null, 2)
+      JSON.stringify(qbWithWindows, null, 2)
     );
-    console.log(`Wrote qb-deep-dive.json (${qb.playerName})`);
+    console.log(
+      `Wrote qb-deep-dive.json (${qb.playerName}, ${qbWithWindows.windows!.length} game windows)`
+    );
   } else {
     console.warn("qb-deep-dive.json not updated — no pass attempts found.");
   }

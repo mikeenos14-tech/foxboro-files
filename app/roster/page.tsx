@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import * as store from "@/lib/data/store";
 import { DepthChartTable } from "@/components/roster/DepthChartTable";
-import { PositionGroupReportCard } from "@/components/roster/PositionGroupReportCard";
+import { PositionGroupCardsGrid } from "@/components/roster/PositionGroupCardsGrid";
 import { SpecialTeamsStats } from "@/components/roster/SpecialTeamsStats";
 import { SituationalSplitsTable } from "@/components/roster/SituationalSplitsTable";
 import { QBDeepDive } from "@/components/roster/QBDeepDive";
@@ -50,13 +50,7 @@ export default async function RosterPage() {
           },
           {
             label: "Position Grades",
-            content: (
-              <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-                {reportCards.map((card) => (
-                  <PositionGroupReportCard key={card.group} card={card} />
-                ))}
-              </div>
-            ),
+            content: <PositionGroupCardsGrid cards={reportCards} />,
           },
           {
             label: "Splits & Special Teams",

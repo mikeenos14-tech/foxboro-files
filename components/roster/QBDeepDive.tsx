@@ -1,9 +1,25 @@
-import type { QBDeepDive as QBData } from "@/lib/data/types";
+"use client";
+
+import { useMemo, useState } from "react";
+import type { QBDeepDive as QBData, QBWindowStats } from "@/lib/data/types";
 import { PlayerHeadshot } from "@/components/shared/PlayerHeadshot";
 import { RankBadge } from "@/components/shared/RankBadge";
+import { StatWindowSelector } from "@/components/shared/StatWindowSelector";
 import { formatPercent, signed } from "@/lib/util/format";
 
 export function QBDeepDive({ qb }: { qb: QBData }) {
+  const options = useMemo(
+    () => [{ key: "season", label: "Full Season" }, ...(qb.windows ?? []).map((w) => ({ key: w.key, label: w.label }))],
+    [qb.windows]
+  );
+  const [selected, setSelected] = useState("season");
+  const isFullSeason = selected === "season";
+  // Ranks (percentile among league starters) are only computed against
+  // the full-season league table — a "last N games" slice only has
+  // Maye's own numbers, no league-wide comparison table for that same
+  // window, so rank badges are shown for the full-season view only.
+  const stats: QBWindowStats = isFullSeason ? qb : qb.windows?.find((w) => w.key === selected)?.stats ?? qb;
+
   return (
     <div className="lift rounded-lg border border-border bg-surface p-4">
       <div className="flex items-center gap-3">
@@ -11,29 +27,39 @@ export function QBDeepDive({ qb }: { qb: QBData }) {
         <div>
           <h3 className="text-lg font-bold text-foreground">{qb.playerName}</h3>
           <p className="text-sm text-muted">
-            {qb.completions}/{qb.attempts}
-            {qb.attempts > 0 && ` (${formatPercent(qb.completions / qb.attempts, 1)})`}, {qb.yards}{" "}
-            yds, {qb.tds} TD, {qb.ints} INT
+            {stats.completions}/{stats.attempts}
+            {stats.attempts > 0 && ` (${formatPercent(stats.completions / stats.attempts, 1)})`}, {stats.yards}{" "}
+            yds, {stats.tds} TD, {stats.ints} INT
           </p>
         </div>
       </div>
 
+      {options.length > 1 && (
+        <div className="mt-3">
+          <StatWindowSelector options={options} value={selected} onChange={setSelected} label="Show stats for" />
+        </div>
+      )}
+
       <div className="mt-4 grid grid-cols-2 gap-x-4 gap-y-4">
-        <StatTile label="CPOE" value={signed(qb.cpoe, 1)} rank={qb.ranks?.cpoe.leagueRank} />
+        <StatTile
+          label="CPOE"
+          value={signed(stats.cpoe, 1)}
+          rank={isFullSeason ? qb.ranks?.cpoe.leagueRank : undefined}
+        />
         <StatTile
           label="Turnover-worthy rate"
-          value={formatPercent(qb.turnoverWorthyPlayRate, 1)}
-          rank={qb.ranks?.turnoverWorthyPlayRate.leagueRank}
+          value={formatPercent(stats.turnoverWorthyPlayRate, 1)}
+          rank={isFullSeason ? qb.ranks?.turnoverWorthyPlayRate.leagueRank : undefined}
         />
         <StatTile
           label="Clean pocket EPA"
-          value={signed(qb.cleanPocketEpa)}
-          rank={qb.ranks?.cleanPocketEpa.leagueRank}
+          value={signed(stats.cleanPocketEpa)}
+          rank={isFullSeason ? qb.ranks?.cleanPocketEpa.leagueRank : undefined}
         />
         <StatTile
           label="Under pressure EPA"
-          value={signed(qb.pressureEpa)}
-          rank={qb.ranks?.pressureEpa.leagueRank}
+          value={signed(stats.pressureEpa)}
+          rank={isFullSeason ? qb.ranks?.pressureEpa.leagueRank : undefined}
         />
       </div>
 
@@ -44,19 +70,19 @@ export function QBDeepDive({ qb }: { qb: QBData }) {
         <div className="mt-2 grid grid-cols-3 gap-3 text-center">
           <div>
             <div className="text-lg font-bold text-foreground">
-              {formatPercent(qb.accuracyByDepth.short)}
+              {formatPercent(stats.accuracyByDepth.short)}
             </div>
             <div className="text-xs text-muted">Short (0-9 yds)</div>
           </div>
           <div>
             <div className="text-lg font-bold text-foreground">
-              {formatPercent(qb.accuracyByDepth.medium)}
+              {formatPercent(stats.accuracyByDepth.medium)}
             </div>
             <div className="text-xs text-muted">Medium (10-19 yds)</div>
           </div>
           <div>
             <div className="text-lg font-bold text-foreground">
-              {formatPercent(qb.accuracyByDepth.deep)}
+              {formatPercent(stats.accuracyByDepth.deep)}
             </div>
             <div className="text-xs text-muted">Deep (20+ yds)</div>
           </div>

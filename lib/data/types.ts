@@ -124,6 +124,12 @@ export interface TeamStatSnapshot {
   team: string;
   season: number;
   epaPerPlay: { offense: RankedStat; defense: RankedStat };
+  // Same opponent-adjusted EPA/play as epaPerPlay above, recomputed for
+  // each "last N weeks" window so Team Strength can show recent form, not
+  // just the full-season snapshot. Real opponent-adjustment throughout
+  // (see statWindows.ts's buildLastNWeekWindows for why calendar weeks,
+  // not per-team game counts, keep that adjustment sound).
+  epaPerPlayWindows: Array<{ key: string; label: string; offense: RankedStat; defense: RankedStat }>;
   successRate: { offense: RankedStat; defense: RankedStat };
   explosivePlayRate: { offense: RankedStat; defense: RankedStat };
   pointDifferential: RankedStat;
@@ -150,13 +156,13 @@ export interface PositionGroupReportCard {
   grade: number; // 0-100 internal grade — a league percentile (50 = average)
   trend: "up" | "down" | "flat";
   soWhat: string;
+  // Same grade recomputed over just the team's own last N games, for
+  // every N from 1 up to games played — lets Position Grades show recent
+  // form the same way QB Deep Dive does (see QBDeepDive.windows).
+  windows: Array<{ key: string; label: string; grade: number }>;
 }
 
-export interface QBDeepDive {
-  playerId: string;
-  playerName: string;
-  headshotUrl?: string;
-  team: string;
+export interface QBWindowStats {
   attempts: number;
   completions: number;
   yards: number;
@@ -167,6 +173,13 @@ export interface QBDeepDive {
   pressureEpa: number;
   cleanPocketEpa: number;
   turnoverWorthyPlayRate: number;
+}
+
+export interface QBDeepDive extends QBWindowStats {
+  playerId: string;
+  playerName: string;
+  headshotUrl?: string;
+  team: string;
   // Percentile rank among league starting QBs for each advanced stat —
   // only populated on the site's own featured entry (Maye), computed
   // against the full league table; left undefined on the plain per-team
@@ -177,6 +190,11 @@ export interface QBDeepDive {
     cleanPocketEpa: RankedStat;
     pressureEpa: RankedStat;
   };
+  // Same stat bundle recomputed over just the last N games, for every N
+  // from 1 up to games played this season — lets the QB Deep Dive page
+  // show "how's he looked lately" instead of only the full-season blend.
+  // Only populated on the featured entry (Maye), same as ranks above.
+  windows?: Array<{ key: string; label: string; stats: QBWindowStats }>;
 }
 
 export interface ScheduleRow {

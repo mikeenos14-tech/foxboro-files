@@ -31,6 +31,7 @@ import { computeStandings, recordString, pointDiff, type TeamRecord } from "./li
 import { computeDivisionStandings } from "./lib/divisionStandings";
 import { TEAM_CONFERENCE, TEAM_DIVISION, ALL_TEAMS } from "./lib/teams";
 import { rankGeneric } from "./lib/rank";
+import { buildLastNWeekWindows, filterRowsToWindow } from "./lib/statWindows";
 import { buildLeagueRosterByGsis } from "./lib/roster";
 import type {
   Game,
@@ -88,6 +89,23 @@ async function main() {
   // Everything else (win probability, schedule projections, playoff odds)
   // stays on epaTable's blended version below.
   const currentSeasonEpa = computeAdjustedEpa(pbp, ALL_TEAMS);
+
+  // Same opponent-adjusted EPA/play, recomputed per "last N weeks" window
+  // (see statWindows.ts) so Team Strength can show recent form alongside
+  // the full-season default — real opponent-adjustment throughout, not a
+  // raw/unadjusted shortcut, since windowing by calendar week (rather
+  // than each team's own game count) keeps every team's window aligned to
+  // the same games, so an opponent's leave-one-out baseline is always
+  // drawn from that same window.
+  const epaPerPlayWindows = buildLastNWeekWindows(pbp).map((window) => {
+    const windowedEpa = computeAdjustedEpa(filterRowsToWindow(pbp, window), ALL_TEAMS);
+    return {
+      key: window.key,
+      label: window.label,
+      offense: rankGeneric(ALL_TEAMS, TEAM, (t) => windowedEpa.offense.get(t) ?? 0, true),
+      defense: rankGeneric(ALL_TEAMS, TEAM, (t) => windowedEpa.defense.get(t) ?? 0, false),
+    };
+  });
 
   // ---------- Division standings ----------
   const ourDivision = TEAM_DIVISION[TEAM];
@@ -294,6 +312,7 @@ async function main() {
       offense: rankGeneric(ALL_TEAMS, TEAM, (t) => currentSeasonEpa.offense.get(t) ?? 0, true),
       defense: rankGeneric(ALL_TEAMS, TEAM, (t) => currentSeasonEpa.defense.get(t) ?? 0, false),
     },
+    epaPerPlayWindows,
     successRate: {
       offense: offenseSuccessRank(epaTable, TEAM),
       defense: defenseSuccessRank(epaTable, TEAM),

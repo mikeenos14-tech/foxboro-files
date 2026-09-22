@@ -38,5 +38,47 @@
       "leagueRank": 13,
       "leaguePercentile": 61
     }
-  }
+  },
+  "windows": [
+    {
+      "key": "last-1",
+      "label": "Last Game",
+      "stats": {
+        "attempts": 25,
+        "completions": 14,
+        "yards": 191,
+        "tds": 0,
+        "ints": 1,
+        "cpoe": 0.8523635921023988,
+        "accuracyByDepth": {
+          "short": 0.6666666666666666,
+          "medium": 0.3333333333333333,
+          "deep": 0.75
+        },
+        "pressureEpa": -0.35810864864100206,
+        "cleanPocketEpa": -0.1648219461274474,
+        "turnoverWorthyPlayRate": 0.04
+      }
+    },
+    {
+      "key": "last-2",
+      "label": "Last 2 Games",
+      "stats": {
+        "attempts": 61,
+        "completions": 37,
+        "yards": 359,
+        "tds": 1,
+        "ints": 4,
+        "cpoe": 3.903530881955063,
+        "accuracyByDepth": {
+          "short": 0.7916666666666666,
+          "medium": 0.4444444444444444,
+          "deep": 0.375
+        },
+        "pressureEpa": -0.730894948675358,
+        "cleanPocketEpa": -0.023079257941820166,
+        "turnoverWorthyPlayRate": 0.06557377049180328
+      }
+    }
+  ]
 }

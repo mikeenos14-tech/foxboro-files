@@ -3,48 +3,144 @@
     "group": "QB",
     "grade": 13,
     "trend": "flat",
-    "soWhat": "13th percentile in the NFL for EPA/play generated at QB this season (61 plays sampled)."
+    "soWhat": "13th percentile in the NFL for EPA/play generated at QB this season (61 plays sampled).",
+    "windows": [
+      {
+        "key": "last-1",
+        "label": "Last Game",
+        "grade": 16
+      },
+      {
+        "key": "last-2",
+        "label": "Last 2 Games",
+        "grade": 13
+      }
+    ]
   },
   {
     "group": "RB",
     "grade": 19,
     "trend": "flat",
-    "soWhat": "19th percentile in the NFL for EPA/play generated at RB this season (48 plays sampled)."
+    "soWhat": "19th percentile in the NFL for EPA/play generated at RB this season (48 plays sampled).",
+    "windows": [
+      {
+        "key": "last-1",
+        "label": "Last Game",
+        "grade": 77
+      },
+      {
+        "key": "last-2",
+        "label": "Last 2 Games",
+        "grade": 19
+      }
+    ]
   },
   {
     "group": "WR",
     "grade": 29,
     "trend": "flat",
-    "soWhat": "29th percentile in the NFL for EPA/play generated at WR this season (30 plays sampled)."
+    "soWhat": "29th percentile in the NFL for EPA/play generated at WR this season (30 plays sampled).",
+    "windows": [
+      {
+        "key": "last-1",
+        "label": "Last Game",
+        "grade": 61
+      },
+      {
+        "key": "last-2",
+        "label": "Last 2 Games",
+        "grade": 29
+      }
+    ]
   },
   {
     "group": "TE",
     "grade": 29,
     "trend": "flat",
-    "soWhat": "29th percentile in the NFL for EPA/play generated at TE this season (10 plays sampled)."
+    "soWhat": "29th percentile in the NFL for EPA/play generated at TE this season (10 plays sampled).",
+    "windows": [
+      {
+        "key": "last-1",
+        "label": "Last Game",
+        "grade": 32
+      },
+      {
+        "key": "last-2",
+        "label": "Last 2 Games",
+        "grade": 29
+      }
+    ]
   },
   {
     "group": "OL",
     "grade": 13,
     "trend": "flat",
-    "soWhat": "13th percentile in the NFL for sacks allowed that weren't the QB's own fault (real per-play charting data, not just raw sack rate — still team-wide, no per-player blocking grade available free)."
+    "soWhat": "13th percentile in the NFL for sacks allowed that weren't the QB's own fault (real per-play charting data, not just raw sack rate — still team-wide, no per-player blocking grade available free).",
+    "windows": [
+      {
+        "key": "last-1",
+        "label": "Last Game",
+        "grade": 10
+      },
+      {
+        "key": "last-2",
+        "label": "Last 2 Games",
+        "grade": 13
+      }
+    ]
   },
   {
     "group": "Edge",
     "grade": 74,
     "trend": "flat",
-    "soWhat": "74th percentile in the NFL for sack rate generated (pass rush proxy, team-wide — not isolated to edge rushers specifically)."
+    "soWhat": "74th percentile in the NFL for sack rate generated (pass rush proxy, team-wide — not isolated to edge rushers specifically).",
+    "windows": [
+      {
+        "key": "last-1",
+        "label": "Last Game",
+        "grade": 74
+      },
+      {
+        "key": "last-2",
+        "label": "Last 2 Games",
+        "grade": 74
+      }
+    ]
   },
   {
     "group": "Interior DL",
     "grade": 55,
     "trend": "flat",
-    "soWhat": "55th percentile in the NFL for rush EPA allowed (run defense proxy, team-wide — not isolated to interior linemen specifically)."
+    "soWhat": "55th percentile in the NFL for rush EPA allowed (run defense proxy, team-wide — not isolated to interior linemen specifically).",
+    "windows": [
+      {
+        "key": "last-1",
+        "label": "Last Game",
+        "grade": 45
+      },
+      {
+        "key": "last-2",
+        "label": "Last 2 Games",
+        "grade": 55
+      }
+    ]
   },
   {
     "group": "Secondary",
     "grade": 97,
     "trend": "flat",
-    "soWhat": "97th percentile in the NFL for pass EPA allowed (pass defense proxy — includes pass rush effect, not isolated to coverage alone)."
+    "soWhat": "97th percentile in the NFL for pass EPA allowed (pass defense proxy — includes pass rush effect, not isolated to coverage alone).",
+    "windows": [
+      {
+        "key": "last-1",
+        "label": "Last Game",
+        "grade": 97
+      },
+      {
+        "key": "last-2",
+        "label": "Last 2 Games",
+        "grade": 97
+      }
+    ]
   }
 ]

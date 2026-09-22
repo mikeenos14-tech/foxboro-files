@@ -1,4 +1,3 @@
-import { StatCard } from "@/components/shared/StatCard";
 import { TeamLogo } from "@/components/shared/TeamLogo";
 import { PercentBar } from "@/components/shared/PercentBar";
 import { HeroAnswerCard } from "@/components/shared/HeroAnswerCard";
@@ -6,9 +5,9 @@ import { MiniGameCard } from "@/components/home/MiniGameCard";
 import { CountUp } from "@/components/shared/CountUp";
 import { HeadlinesList } from "@/components/home/HeadlinesList";
 import { DivisionStandings } from "@/components/home/DivisionStandings";
+import { TeamStrengthSection } from "@/components/home/TeamStrengthSection";
 import * as store from "@/lib/data/store";
 import { ordinal } from "@/lib/calc/ranks";
-import { formatPercent } from "@/lib/util/format";
 
 export default async function HomePage() {
   const [teamStats, schedule, projection, nextGame, lastGame, news, standings] =
@@ -106,35 +105,7 @@ export default async function HomePage() {
       </div>
 
       <div className="grid gap-6 px-4 sm:px-0 lg:grid-cols-3">
-        <div className="lg:col-span-2">
-          <h2 className="mb-3 text-lg font-semibold">Team Strength vs. League</h2>
-          <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-            <StatCard
-              label="Point Differential"
-              value={`${teamStats.pointDifferential.value > 0 ? "+" : ""}${teamStats.pointDifferential.value}`}
-              leagueRank={teamStats.pointDifferential.leagueRank}
-              soWhat={`Pythagorean win% suggests a ${formatPercent(teamStats.pythagoreanWinPct)} true-talent team.`}
-              animate={{
-                value: teamStats.pointDifferential.value,
-                prefix: teamStats.pointDifferential.value > 0 ? "+" : "",
-              }}
-            />
-            <StatCard
-              label="Offensive EPA/play"
-              value={teamStats.epaPerPlay.offense.value.toFixed(2)}
-              leagueRank={teamStats.epaPerPlay.offense.leagueRank}
-              soWhat={`${ordinal(teamStats.epaPerPlay.offense.leagueRank)}-ranked offense by the metric that best predicts scoring.`}
-              animate={{ value: teamStats.epaPerPlay.offense.value, decimals: 2 }}
-            />
-            <StatCard
-              label="Defensive EPA/play"
-              value={teamStats.epaPerPlay.defense.value.toFixed(2)}
-              leagueRank={teamStats.epaPerPlay.defense.leagueRank}
-              soWhat={`${ordinal(teamStats.epaPerPlay.defense.leagueRank)}-ranked defense — negative is good here.`}
-              animate={{ value: teamStats.epaPerPlay.defense.value, decimals: 2 }}
-            />
-          </div>
-        </div>
+        <TeamStrengthSection teamStats={teamStats} />
         <div>
           <DivisionStandings standings={standings} />
         </div>
