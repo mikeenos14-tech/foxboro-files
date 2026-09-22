@@ -23,6 +23,7 @@ import type {
   PositionGroupReportCard,
   PositionGroupLeagueTeamEntry,
   PriorSeasonSnapshot,
+  TeamLeaderboards,
   QBDeepDive,
   ScheduleRow,
   SeasonProjection,
@@ -148,6 +149,17 @@ export async function getQbLeagueTable(): Promise<QBDeepDive[]> {
 
 export async function getDepthChart(): Promise<DepthChartEntry[]> {
   return (await readGenerated<DepthChartEntry[]>("depth-chart.json")) ?? fixtures.depthChart;
+}
+
+// Per-player season stat lines for the team's roster.
+export async function getLeaderboards(): Promise<TeamLeaderboards> {
+  return (
+    (await readGenerated<TeamLeaderboards>("leaderboards.json")) ?? {
+      receiving: [],
+      rushing: [],
+      defense: [],
+    }
+  );
 }
 
 // A finished season's frozen snapshot, if one has been built (see

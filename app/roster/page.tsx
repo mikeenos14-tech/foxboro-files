@@ -4,6 +4,7 @@ import { DepthChartTable } from "@/components/roster/DepthChartTable";
 import { PositionGroupCardsGrid } from "@/components/roster/PositionGroupCardsGrid";
 import { PositionGroupSummaryStrip } from "@/components/roster/PositionGroupSummaryStrip";
 import { PositionGroupHeadToHead } from "@/components/roster/PositionGroupHeadToHead";
+import { Leaderboards } from "@/components/roster/Leaderboards";
 import { SpecialTeamsStats } from "@/components/roster/SpecialTeamsStats";
 import { DisciplineStats } from "@/components/roster/DisciplineStats";
 import { SituationalSplitsTable } from "@/components/roster/SituationalSplitsTable";
@@ -19,7 +20,7 @@ export default async function RosterPage({
   searchParams: Promise<{ qbWindow?: string; gradeWindow?: string }>;
 }) {
   const { qbWindow, gradeWindow } = await searchParams;
-  const [chart, reportCards, positionGroupLeagueTable, teamStats, qb, qbLeagueTable, nextGame, priorSeason] =
+  const [chart, reportCards, positionGroupLeagueTable, teamStats, qb, qbLeagueTable, nextGame, priorSeason, leaders] =
     await Promise.all([
       store.getDepthChart(),
       store.getPositionGroupReportCards(),
@@ -29,6 +30,7 @@ export default async function RosterPage({
       store.getQbLeagueTable(),
       store.getNextGame(),
       store.getPriorSeason(),
+      store.getLeaderboards(),
     ]);
   const opponentTeam = nextGame.homeTeam === qb.team ? nextGame.awayTeam : nextGame.homeTeam;
 
@@ -58,6 +60,15 @@ export default async function RosterPage({
                   <h2 className="mb-3 text-lg font-semibold">Head-to-Head</h2>
                   <QbHeadToHead maye={qb} league={qbLeagueTable} defaultOpponentTeam={opponentTeam} />
                 </div>
+              </div>
+            ),
+          },
+          {
+            label: "Leaders",
+            content: (
+              <div>
+                <h2 className="mb-3 text-lg font-semibold">Team Leaders</h2>
+                <Leaderboards leaders={leaders} />
               </div>
             ),
           },

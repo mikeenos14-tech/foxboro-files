@@ -225,6 +225,25 @@ export interface PositionGroupLeagueTeamEntry {
 // last year" was previously unanswerable on the site — the only 2025 data
 // that existed was team-level EPA constants used internally for blending,
 // never anything a reader could look at.
+// Per-player season stat lines for the team's own roster (see
+// scripts/lib/leaderboards.ts). The site previously had team-level
+// everything and exactly one player surface (the QB), so "who leads us
+// in receiving yards" had no answer anywhere.
+export interface PlayerStatLine {
+  playerId: string;
+  playerName: string;
+  position: string;
+  headshotUrl?: string;
+  stats: Array<{ label: string; value: string }>;
+  sortValue: number;
+}
+
+export interface TeamLeaderboards {
+  receiving: PlayerStatLine[];
+  rushing: PlayerStatLine[];
+  defense: PlayerStatLine[];
+}
+
 export interface PriorSeasonSnapshot {
   season: number;
   team: string;

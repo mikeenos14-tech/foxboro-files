@@ -15,6 +15,7 @@ import {
 } from "./lib/pbp";
 import { loadQbFaultSackKeys } from "./lib/ftn";
 import { computeDefensivePlayerStats, defensiveGroupStatLine } from "./lib/defensiveStats";
+import { receivingLeaders, rushingLeaders, defensiveLeaders } from "./lib/leaderboards";
 import {
   loadTeamRoster,
   buildLeagueRosterByGsis,
@@ -30,6 +31,7 @@ import type {
   PositionGroupReportCard,
   PositionGroupLeagueTeamEntry,
   QBDeepDive,
+  TeamLeaderboards,
   QBWindowStats,
 } from "../lib/data/types";
 
@@ -655,6 +657,19 @@ async function main() {
   );
   console.log(
     `Wrote position-group-cards.json (${positionCards.length} real groups: QB/RB/WR/TE/OL/Edge/Interior DL/Secondary)`
+  );
+
+  const leaderboards: TeamLeaderboards = {
+    receiving: receivingLeaders(pbp, await buildLeagueRosterByGsis(), TEAM),
+    rushing: rushingLeaders(pbp, await buildLeagueRosterByGsis(), TEAM),
+    defense: defensiveLeaders(pbp, await buildLeagueRosterByGsis(), TEAM),
+  };
+  await writeFile(
+    path.join(GENERATED_DIR, "leaderboards.json"),
+    JSON.stringify(leaderboards, null, 2)
+  );
+  console.log(
+    `Wrote leaderboards.json (${leaderboards.receiving.length} receivers, ${leaderboards.rushing.length} rushers, ${leaderboards.defense.length} defenders)`
   );
 
   const positionGroupLeagueTable = await buildPositionGroupLeagueTable(pbp);
