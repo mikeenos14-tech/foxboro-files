@@ -48,29 +48,59 @@ function perGamePerformances(
   return [...byGame.values()];
 }
 
-function baselineExcluding(games: GamePerf[] | undefined, gameId: string): number | null {
-  if (!games) return null;
+// League-average raw value this metric/side this season (plays-weighted) —
+// the shrinkage target for a thin-sample opponent baseline below. Same
+// rationale as leagueRanks.ts's computeAdjustedEpa: an opponent's own
+// leave-one-out baseline is a noisy, sometimes single-game sample early in
+// the season, and trusting it at full face value can make an ordinary
+// performance against a fluky outlier read as historic. Shrinking toward
+// the current league average — real regression to the mean, weighted by
+// how many OTHER games the opponent has played, via the same linear taper
+// used everywhere else — fixes the adjustment step itself without touching
+// the separate prior-season blend already applied below.
+function leagueAverage(byTeam: Map<string, GamePerf[]>): number {
   let sum = 0;
   let n = 0;
+  for (const games of byTeam.values()) {
+    for (const g of games) {
+      sum += g.valueSum;
+      n += g.n;
+    }
+  }
+  return n === 0 ? 0 : sum / n;
+}
+
+function shrunkBaseline(
+  games: GamePerf[] | undefined,
+  gameId: string,
+  leagueAvg: number
+): number {
+  if (!games) return leagueAvg;
+  let sum = 0;
+  let n = 0;
+  let otherGames = 0;
   for (const g of games) {
     if (g.gameId === gameId) continue;
     sum += g.valueSum;
     n += g.n;
+    otherGames++;
   }
-  return n === 0 ? null : sum / n;
+  const raw = n === 0 ? leagueAvg : sum / n;
+  return blendWithPrior(leagueAvg, raw, otherGames);
 }
 
 function adjustedAverage(
   teamGames: GamePerf[],
-  opponentGamesByTeam: Map<string, GamePerf[]>
+  opponentGamesByTeam: Map<string, GamePerf[]>,
+  leagueAvgForOpponentSide: number
 ): number | null {
   if (teamGames.length === 0) return null;
   let sum = 0;
   let n = 0;
   for (const g of teamGames) {
-    const oppBaseline = baselineExcluding(opponentGamesByTeam.get(g.opponent), g.gameId);
+    const oppBaseline = shrunkBaseline(opponentGamesByTeam.get(g.opponent), g.gameId, leagueAvgForOpponentSide);
     const rawThisGame = g.valueSum / g.n;
-    const adjustedThisGame = oppBaseline === null ? rawThisGame : rawThisGame - oppBaseline;
+    const adjustedThisGame = rawThisGame - oppBaseline;
     sum += adjustedThisGame * g.n;
     n += g.n;
   }
@@ -93,6 +123,8 @@ export function computeAdjustedPair(
     aByTeam.set(team, perGamePerformances(rows, team, "posteam", metric.filter, metric.value));
     bByTeam.set(team, perGamePerformances(rows, team, "defteam", metric.filter, metric.value));
   }
+  const leagueAvgA = leagueAverage(aByTeam);
+  const leagueAvgB = leagueAverage(bByTeam);
 
   const a = new Map<string, number>();
   const b = new Map<string, number>();
@@ -100,8 +132,8 @@ export function computeAdjustedPair(
     const aGames = aByTeam.get(team) ?? [];
     const bGames = bByTeam.get(team) ?? [];
     const played = aGames.length; // a team has the same # of games on both sides
-    const rawA = adjustedAverage(aGames, bByTeam);
-    const rawB = adjustedAverage(bGames, aByTeam);
+    const rawA = adjustedAverage(aGames, bByTeam, leagueAvgB);
+    const rawB = adjustedAverage(bGames, aByTeam, leagueAvgA);
     a.set(team, blendWithPrior(priorA[team] ?? 0, rawA ?? 0, played));
     b.set(team, blendWithPrior(priorB[team] ?? 0, rawB ?? 0, played));
   }

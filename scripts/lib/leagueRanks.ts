@@ -84,30 +84,73 @@ export function computeAdjustedEpa(
     defByTeam.set(team, perGamePerformances(rows, team, "defteam"));
   }
 
-  // Opponent's own raw EPA/play across all their games EXCEPT gameId.
-  function baselineExcluding(games: GamePerf[] | undefined, gameId: string): number | null {
-    if (!games) return null;
+  // League-average raw EPA/play this season (offense and defense computed
+  // separately, plays-weighted) — the shrinkage target for a thin-sample
+  // opponent baseline below.
+  function leagueAverage(byTeam: Map<string, GamePerf[]>): number {
     let sum = 0;
     let plays = 0;
+    for (const games of byTeam.values()) {
+      for (const g of games) {
+        sum += g.epaSum;
+        plays += g.plays;
+      }
+    }
+    return plays === 0 ? 0 : sum / plays;
+  }
+  const leagueAvgOffense = leagueAverage(offByTeam);
+  const leagueAvgDefense = leagueAverage(defByTeam);
+
+  // An opponent's own raw baseline (their average across every OTHER game,
+  // excluding the one being adjusted) is itself a thin, noisy sample early
+  // in the season — sometimes just one game. Trusting that single-game
+  // number at full face value is exactly what let an ordinary performance
+  // against a fluky-great single-game defense read as a historic one (see
+  // the real case that surfaced this: two of NE's first two opponents each
+  // had only one other game, and each happened to be an outlier stingy
+  // defensive showing, which combined to rank NE's pass offense 1st in the
+  // NFL despite a negative raw EPA/play). Shrinking the baseline toward the
+  // current league average — real regression to the mean, weighted by how
+  // many OTHER games the opponent has actually played, using the same
+  // linear taper as everywhere else in this file — fixes that without
+  // touching the team's own current-vs-prior blend at all, so a caller
+  // that wants pure current-season numbers (Team Strength, Around the
+  // League power rankings) stays exactly that; this only makes the
+  // adjustment step itself statistically sound. Also replaces the old
+  // "no other games -> no adjustment at all" fallback with a real (fully
+  // shrunk-to-league-average) adjustment, which is a better estimate than
+  // skipping adjustment outright.
+  function shrunkBaseline(
+    games: GamePerf[] | undefined,
+    gameId: string,
+    leagueAvg: number
+  ): number {
+    if (!games) return leagueAvg;
+    let sum = 0;
+    let plays = 0;
+    let otherGames = 0;
     for (const g of games) {
       if (g.gameId === gameId) continue;
       sum += g.epaSum;
       plays += g.plays;
+      otherGames++;
     }
-    return plays === 0 ? null : sum / plays;
+    const raw = plays === 0 ? leagueAvg : sum / plays;
+    return blendWithPrior(leagueAvg, raw, otherGames);
   }
 
   function adjustedAverage(
     teamGames: GamePerf[],
-    opponentGamesByTeam: Map<string, GamePerf[]>
+    opponentGamesByTeam: Map<string, GamePerf[]>,
+    leagueAvgForOpponentSide: number
   ): number {
     if (teamGames.length === 0) return 0;
     let sum = 0;
     let plays = 0;
     for (const g of teamGames) {
-      const oppBaseline = baselineExcluding(opponentGamesByTeam.get(g.opponent), g.gameId);
+      const oppBaseline = shrunkBaseline(opponentGamesByTeam.get(g.opponent), g.gameId, leagueAvgForOpponentSide);
       const rawThisGame = g.epaSum / g.plays;
-      const adjustedThisGame = oppBaseline === null ? rawThisGame : rawThisGame - oppBaseline;
+      const adjustedThisGame = rawThisGame - oppBaseline;
       sum += adjustedThisGame * g.plays;
       plays += g.plays;
     }
@@ -118,10 +161,10 @@ export function computeAdjustedEpa(
   const defense = new Map<string, number>();
   const gamesPlayed = new Map<string, number>();
   for (const team of teams) {
-    // Offense is adjusted against each opponent's defensive baseline, and
-    // vice versa.
-    offense.set(team, adjustedAverage(offByTeam.get(team) ?? [], defByTeam));
-    defense.set(team, adjustedAverage(defByTeam.get(team) ?? [], offByTeam));
+    // Offense is adjusted against each opponent's defensive baseline
+    // (shrunk toward the league-average defense), and vice versa.
+    offense.set(team, adjustedAverage(offByTeam.get(team) ?? [], defByTeam, leagueAvgDefense));
+    defense.set(team, adjustedAverage(defByTeam.get(team) ?? [], offByTeam, leagueAvgOffense));
     gamesPlayed.set(team, (offByTeam.get(team) ?? []).length);
   }
   return { offense, defense, gamesPlayed };
