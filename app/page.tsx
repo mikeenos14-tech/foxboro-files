@@ -6,6 +6,7 @@ import { CountUp } from "@/components/shared/CountUp";
 import { HeadlinesList } from "@/components/home/HeadlinesList";
 import { DivisionStandings } from "@/components/home/DivisionStandings";
 import { TeamStrengthSection } from "@/components/home/TeamStrengthSection";
+import { PositionGroupSummaryStrip } from "@/components/roster/PositionGroupSummaryStrip";
 import * as store from "@/lib/data/store";
 import { ordinal } from "@/lib/calc/ranks";
 import { buildVerdict } from "@/lib/calc/verdict";
@@ -16,7 +17,7 @@ export default async function HomePage({
   searchParams: Promise<{ teamWindow?: string }>;
 }) {
   const { teamWindow } = await searchParams;
-  const [teamStats, schedule, projection, nextGame, lastGame, news, standings, priorSeason] =
+  const [teamStats, schedule, projection, nextGame, lastGame, news, standings, priorSeason, reportCards] =
     await Promise.all([
       store.getTeamStats(),
       store.getSchedule(),
@@ -26,6 +27,7 @@ export default async function HomePage({
       store.getNews(),
       store.getDivisionStandings(),
       store.getPriorSeason(),
+      store.getPositionGroupReportCards(),
     ]);
 
   const played = schedule.filter((g) => g.result);
@@ -110,6 +112,19 @@ export default async function HomePage({
             differential.
           </p>
         </HeroAnswerCard>
+      </div>
+
+      {/* The best "how are we everywhere" element on the site used to
+          live only on Roster & Stats, below the fold. It answers the
+          Home page's own question, so it belongs here too. */}
+      <div className="px-4 sm:px-0">
+        <div className="mb-2 flex items-baseline justify-between gap-2">
+          <h2 className="text-lg font-semibold">Unit Grades</h2>
+          <a href="/roster" className="text-xs text-muted underline hover:text-foreground">
+            Full breakdown →
+          </a>
+        </div>
+        <PositionGroupSummaryStrip cards={reportCards} />
       </div>
 
       <div className="grid gap-6 px-4 sm:px-0 lg:grid-cols-3">

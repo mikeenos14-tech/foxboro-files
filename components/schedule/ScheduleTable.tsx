@@ -1,3 +1,4 @@
+import { Fragment } from "react";
 import type { ScheduleRow } from "@/lib/data/types";
 import { formatDate, formatPercent, signed } from "@/lib/util/format";
 import { ordinal } from "@/lib/calc/ranks";
@@ -27,61 +28,82 @@ export function ScheduleTable({ rows }: { rows: ScheduleRow[] }) {
           </tr>
         </thead>
         <tbody>
-          {rows.map((r) => (
-            <tr
-              key={r.gameId}
-              className={`border-b border-border transition-colors last:border-0 hover:bg-navy/10 ${
-                r.isDivisional ? "bg-navy/5" : ""
-              }`}
-            >
-              <td className="px-3 py-2">{r.week}</td>
-              <td className="px-3 py-2 text-muted">{formatDate(r.date)}</td>
-              <td className="px-3 py-2 font-medium">
-                <div className="flex items-center gap-2">
-                  <TeamLogo team={r.opponent} size={22} />
-                  {r.opponent}
-                  {r.isDivisional && (
-                    <span className="text-xs text-red">DIV</span>
-                  )}
-                </div>
-              </td>
-              <td className="px-3 py-2 text-muted">
-                {r.homeAway === "home" ? "Home" : "Away"}
-              </td>
-              <td className="px-3 py-2 text-muted">{r.opponentRecord}</td>
-              <td className="px-3 py-2 text-muted">
-                {ordinal(r.opponentEpaRank)}
-              </td>
-              <td className="px-3 py-2 text-muted">
-                {signed(r.strengthOfSchedule.opponentSos, 1)}
-              </td>
-              <td className="px-3 py-2">
-                {r.result ? (
-                  <span className={resultClasses[r.result]}>
-                    {r.result}
-                    {r.ourScore !== undefined && r.theirScore !== undefined && (
-                      <span className="ml-1 font-normal text-muted">
-                        {r.ourScore}-{r.theirScore}
-                      </span>
-                    )}
-                  </span>
-                ) : r.winProbabilityEstimate !== undefined ? (
-                  <span className="text-muted">
-                    {formatPercent(r.winProbabilityEstimate, 0)} win prob.
-                  </span>
-                ) : (
-                  <span className="text-muted">—</span>
+          {rows.map((r, i) => {
+            // The bye is simply absent from the schedule data, so the
+            // table used to jump from Week 10 straight to Week 12 with no
+            // explanation — which reads as a rendering bug. Every real
+            // schedule page labels it.
+            const prev = i > 0 ? rows[i - 1] : null;
+            const byeWeek = prev && r.week > prev.week + 1 ? prev.week + 1 : null;
+
+            return (
+              <Fragment key={r.gameId}>
+                {byeWeek !== null && (
+                  <tr className="border-b border-border bg-navy/5">
+                    <td className="px-3 py-2 text-muted">{byeWeek}</td>
+                    <td
+                      className="px-3 py-2 text-xs uppercase tracking-wide text-muted"
+                      colSpan={7}
+                    >
+                      Bye week
+                    </td>
+                  </tr>
                 )}
-              </td>
-            </tr>
-          ))}
+                <tr
+                  className={`border-b border-border transition-colors last:border-0 hover:bg-navy/10 ${
+                    r.isDivisional ? "bg-navy/5" : ""
+                  }`}
+                >
+                  <td className="px-3 py-2">{r.week}</td>
+                  <td className="px-3 py-2 text-muted">{formatDate(r.date)}</td>
+                  <td className="px-3 py-2 font-medium">
+                    <div className="flex items-center gap-2">
+                      <TeamLogo team={r.opponent} size={22} />
+                      {r.opponent}
+                      {r.isDivisional && <span className="text-xs text-red">DIV</span>}
+                    </div>
+                  </td>
+                  <td className="px-3 py-2 text-muted">
+                    {r.homeAway === "home" ? "Home" : "Away"}
+                  </td>
+                  <td className="px-3 py-2 text-muted">{r.opponentRecord}</td>
+                  <td className="px-3 py-2 text-muted">{ordinal(r.opponentEpaRank)}</td>
+                  <td className="px-3 py-2 text-muted">
+                    {signed(r.strengthOfSchedule.opponentSos, 1)}
+                  </td>
+                  <td className="px-3 py-2">
+                    {r.result ? (
+                      <span className={resultClasses[r.result]}>
+                        {r.result}
+                        {r.ourScore !== undefined && r.theirScore !== undefined && (
+                          <span className="ml-1 font-normal text-muted">
+                            {r.ourScore}-{r.theirScore}
+                          </span>
+                        )}
+                      </span>
+                    ) : r.winProbabilityEstimate !== undefined ? (
+                      <span className="text-muted">
+                        {formatPercent(r.winProbabilityEstimate, 0)} win prob.
+                      </span>
+                    ) : (
+                      <span className="text-muted">—</span>
+                    )}
+                  </td>
+                </tr>
+              </Fragment>
+            );
+          })}
         </tbody>
       </table>
       <Legend
         className="min-w-[720px] border-t border-border bg-background/50"
         items={[
           { term: "DIV", definition: "divisional matchup" },
-          { term: "Opp's SOS", definition: "average point differential of that opponent's own opponents so far" },
+          {
+            term: "Opp's SOS",
+            definition:
+              "average point differential of that opponent's own opponents so far — a higher number means they've faced tougher teams",
+          },
         ]}
       />
     </div>
