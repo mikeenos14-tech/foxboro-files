@@ -80,5 +80,43 @@
         "turnoverWorthyPlayRate": 0.06557377049180328
       }
     }
+  ],
+  "situational": [
+    {
+      "label": "Play action",
+      "epa": -0.49991382836686493,
+      "plays": 13,
+      "shareOfDropbacks": 0.21311475409836064
+    },
+    {
+      "label": "No play action",
+      "epa": -0.07089048446842162,
+      "plays": 48,
+      "shareOfDropbacks": 0.7868852459016393
+    },
+    {
+      "label": "Blitzed (5+ rushers)",
+      "epa": -0.030720109361574866,
+      "plays": 20,
+      "shareOfDropbacks": 0.32786885245901637
+    },
+    {
+      "label": "Not blitzed",
+      "epa": -0.2265175813663899,
+      "plays": 41,
+      "shareOfDropbacks": 0.6721311475409836
+    },
+    {
+      "label": "Outside the pocket",
+      "epa": 0.1484360531692147,
+      "plays": 11,
+      "shareOfDropbacks": 0.18032786885245902
+    },
+    {
+      "label": "Screens",
+      "epa": -0.22266263812850312,
+      "plays": 9,
+      "shareOfDropbacks": 0.14754098360655737
+    }
   ]
 }

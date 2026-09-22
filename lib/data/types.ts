@@ -274,6 +274,16 @@ export interface QBWindowStats {
   turnoverWorthyPlayRate: number;
 }
 
+// Real charted situational splits for a QB (see lib/ftn.ts). EPA/play
+// on each split plus how often it happens, so "he's great on play-action"
+// is either supported or not.
+export interface QbSituationalSplit {
+  label: string;
+  epa: number;
+  plays: number;
+  shareOfDropbacks: number;
+}
+
 export interface QBDeepDive extends QBWindowStats {
   playerId: string;
   playerName: string;
@@ -294,6 +304,9 @@ export interface QBDeepDive extends QBWindowStats {
   // show "how's he looked lately" instead of only the full-season blend.
   // Only populated on the featured entry (Maye), same as ranks above.
   windows?: Array<{ key: string; label: string; stats: QBWindowStats }>;
+  // Full-season only — these come from FTN's charting and aren't worth
+  // slicing further at this sample size.
+  situational?: QbSituationalSplit[];
 }
 
 export interface ScheduleRow {

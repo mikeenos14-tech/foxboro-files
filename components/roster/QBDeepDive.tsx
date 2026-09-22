@@ -109,6 +109,34 @@ export function QBDeepDive({
           </div>
         </div>
       </div>
+
+      {/* Real charted situational splits — what actually explains the
+          overall number. Full-season only, so hidden when a shorter
+          window is selected rather than silently showing season data. */}
+      {isFullSeason && qb.situational && qb.situational.length > 0 && (
+        <div className="mt-4">
+          <span className="text-xs font-bold uppercase tracking-wide text-muted">
+            EPA/play by situation
+          </span>
+          <ul className="mt-2 space-y-1.5">
+            {qb.situational.map((s) => (
+              <li key={s.label} className="flex items-center gap-3 text-sm">
+                <span className="w-40 shrink-0 text-muted">{s.label}</span>
+                <span
+                  className={`w-14 shrink-0 text-right font-semibold tabular-nums ${
+                    s.epa > 0 ? "text-rank-good" : s.epa < -0.15 ? "text-rank-bad" : "text-foreground"
+                  }`}
+                >
+                  {signed(s.epa)}
+                </span>
+                <span className="text-xs tabular-nums text-muted">
+                  {s.plays} plays · {formatPercent(s.shareOfDropbacks)}
+                </span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
     </div>
   );
 }

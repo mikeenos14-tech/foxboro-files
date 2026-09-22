@@ -77,6 +77,43 @@ function simpleWinProb(netEpaDiff: number, isHome: boolean): number {
   return Math.min(0.9, Math.max(0.1, base + homeBump));
 }
 
+// Standard normal CDF, for converting a point spread to a win
+// probability below.
+function normalCdf(z: number): number {
+  // Abramowitz & Stegun 7.1.26 approximation of erf.
+  const t = 1 / (1 + 0.2316419 * Math.abs(z));
+  const d = 0.3989423 * Math.exp((-z * z) / 2);
+  const p = d * t * (0.3193815 + t * (-0.3565638 + t * (1.781478 + t * (-1.821256 + t * 1.330274))));
+  return z > 0 ? 1 - p : p;
+}
+
+// A real market line is a strictly better estimate than a two-game EPA
+// differential — it's thousands of people pricing every injury, matchup
+// and weather note the site's own model knows nothing about. The site
+// already fetches the spread for the upcoming game but never used it for
+// anything except display.
+//
+// 13.86 is the historical standard deviation of NFL scoring margin, the
+// standard conversion from spread to win probability.
+//
+// `ourSpread` follows the convention used elsewhere in this codebase:
+// positive means we're getting points (underdog).
+function winProbFromSpread(ourSpread: number): number {
+  return normalCdf(-ourSpread / 13.86);
+}
+
+// Blended 50/50 rather than replacing the model outright. The market is
+// better, but the site's framing is that its own numbers are computed
+// from real play data and the betting line is "public perception, not a
+// prediction" — so this keeps both visible in the estimate instead of
+// quietly becoming a Vegas mirror.
+function blendedWinProb(epaEstimate: number, ourSpread: number | undefined, isHome: boolean): number {
+  if (ourSpread === undefined) return epaEstimate;
+  const market = winProbFromSpread(ourSpread);
+  void isHome; // home advantage is already priced into the market line
+  return Math.min(0.9, Math.max(0.1, epaEstimate * 0.5 + market * 0.5));
+}
+
 async function main() {
   await mkdir(GENERATED_DIR, { recursive: true });
 
@@ -147,6 +184,39 @@ async function main() {
 
   const neSos = teamSos(TEAM, games, standings);
 
+  // Real market spreads, where ESPN has posted them. Only the current
+  // week's games are priced, so this improves one game's estimate rather
+  // than the whole schedule — but that's the game anyone actually cares
+  // about this week, and the data was already being fetched and used for
+  // display only.
+  const marketSpreadByGameId = new Map<string, number>();
+  try {
+    const raw = JSON.parse(
+      await readFile(path.join(process.cwd(), "data", "raw", "espn-scoreboard.json"), "utf-8")
+    );
+    for (const event of raw.events ?? []) {
+      const comp = event.competitions?.[0];
+      const spread = comp?.odds?.[0]?.spread;
+      if (typeof spread !== "number") continue;
+      const competitors: Array<{ homeAway: string; team: { abbreviation: string } }> =
+        comp.competitors ?? [];
+      const home = competitors.find((c) => c.homeAway === "home")?.team?.abbreviation;
+      const away = competitors.find((c) => c.homeAway === "away")?.team?.abbreviation;
+      if (home !== TEAM && away !== TEAM) continue;
+      const match = games.find(
+        (gm) =>
+          num(gm.season) === SEASON &&
+          gm.home_team === home &&
+          gm.away_team === away &&
+          (gm.home_score === "" || gm.home_score === undefined)
+      );
+      // ESPN's spread is relative to the home team; flip when we're away.
+      if (match) marketSpreadByGameId.set(match.game_id, home === TEAM ? spread : -spread);
+    }
+  } catch {
+    // No scoreboard cached — every estimate simply stays EPA-only.
+  }
+
   // epaTable's offenseEpa/defenseEpa are already opponent-adjusted and
   // blended with real prior-season performance (see computeLeagueEpaTable
   // in leagueRanks.ts) — net is just the difference of those two, so both
@@ -189,7 +259,11 @@ async function main() {
       theirScore: theirScore ?? undefined,
       winProbabilityEstimate: result
         ? undefined
-        : simpleWinProb(netEpaOf(TEAM) - netEpaOf(opponent), isHome),
+        : blendedWinProb(
+            simpleWinProb(netEpaOf(TEAM) - netEpaOf(opponent), isHome),
+            marketSpreadByGameId.get(g.game_id),
+            isHome
+          ),
       date: g.gameday,
     };
   });

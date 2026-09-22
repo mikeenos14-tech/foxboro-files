@@ -13,7 +13,7 @@ import {
   sackRateGenerated,
   type PbpRow,
 } from "./lib/pbp";
-import { loadQbFaultSackKeys, loadInterceptionWorthyKeys } from "./lib/ftn";
+import { loadQbFaultSackKeys, loadInterceptionWorthyKeys, loadPlayContext, type FtnPlayContext } from "./lib/ftn";
 import { computeDefensivePlayerStats, defensiveGroupStatLine } from "./lib/defensiveStats";
 import { receivingLeaders, rushingLeaders, defensiveLeaders } from "./lib/leaderboards";
 import {
@@ -33,6 +33,7 @@ import type {
   QBDeepDive,
   TeamLeaderboards,
   QBWindowStats,
+  QbSituationalSplit,
 } from "../lib/data/types";
 
 const TEAM = "NE";
@@ -621,6 +622,43 @@ function computeQbWindows(
   }));
 }
 
+// Real charted situational splits — what actually explains a QB's
+// overall number. FTN charts play-action, screens, blitzers faced and
+// whether the QB left the pocket on every play; the site was fetching
+// all of it every run and using none of it.
+function computeQbSituational(
+  rows: PbpRow[],
+  ctx: Map<string, FtnPlayContext>
+): QbSituationalSplit[] {
+  const total = rows.length;
+  if (total === 0) return [];
+
+  const split = (label: string, pred: (c: FtnPlayContext) => boolean): QbSituationalSplit | null => {
+    const matched = rows.filter((r) => {
+      const c = ctx.get(`${r.game_id}|${r.play_id}`);
+      return c ? pred(c) : false;
+    });
+    // Below ~8 plays the EPA average is one throw away from meaningless,
+    // so the split is omitted rather than shown as a number.
+    if (matched.length < 8) return null;
+    return {
+      label,
+      epa: matched.reduce((sum, r) => sum + num(r.epa), 0) / matched.length,
+      plays: matched.length,
+      shareOfDropbacks: matched.length / total,
+    };
+  };
+
+  return [
+    split("Play action", (c) => c.isPlayAction),
+    split("No play action", (c) => !c.isPlayAction),
+    split("Blitzed (5+ rushers)", (c) => c.blitzers > 0),
+    split("Not blitzed", (c) => c.blitzers === 0),
+    split("Outside the pocket", (c) => c.isOutOfPocket),
+    split("Screens", (c) => c.isScreen),
+  ].filter((s): s is QbSituationalSplit => s !== null);
+}
+
 // Ranks one team's QB against every other team's entry in the league
 // table (not the full 32 — only teams with real pass-attempt data this
 // season, so an early-season bye or missing starter doesn't quietly
@@ -689,6 +727,7 @@ async function main() {
 
   const rosterByGsis = await buildLeagueRosterByGsis();
   const twpKeys = await loadInterceptionWorthyKeys();
+  const playContext = await loadPlayContext();
   const leagueQbTable = ALL_TEAMS
     .map((team) => computeQbStats(pbp, team, rosterByGsis, twpKeys))
     .filter((q): q is QBDeepDive => q !== null);
@@ -703,6 +742,10 @@ async function main() {
     const qbWithWindows: QBDeepDive = {
       ...qb,
       windows: computeQbWindows(pbp, TEAM, qb.playerId, twpKeys),
+      situational: computeQbSituational(
+        pbp.filter((r) => r.posteam === TEAM && bool01(r.pass_attempt) && r.passer_id === qb.playerId),
+        playContext
+      ),
     };
     await writeFile(
       path.join(GENERATED_DIR, "qb-deep-dive.json"),
