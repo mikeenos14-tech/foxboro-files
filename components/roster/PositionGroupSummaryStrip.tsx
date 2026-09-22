@@ -16,19 +16,25 @@ const tierClass: Record<ReturnType<typeof gradeTier>, string> = {
 export function PositionGroupSummaryStrip({ cards }: { cards: PositionGroupReportCard[] }) {
   const real = cards.filter((c) => c.group !== "LB");
   return (
-    <div className="-mx-4 flex gap-2 overflow-x-auto px-4 pb-1 sm:mx-0 sm:flex-wrap sm:overflow-visible sm:px-0">
-      {real.map((card) => {
-        const tier = gradeTier(card.grade);
-        return (
-          <div
-            key={card.group}
-            className={`flex shrink-0 items-center gap-2 rounded-full border px-3 py-1.5 text-sm ${tierClass[tier]}`}
-          >
-            <span className="font-medium text-foreground">{card.group}</span>
-            <span className="font-display font-bold">{card.grade}</span>
-          </div>
-        );
-      })}
+    <div className="relative -mx-4 sm:mx-0">
+      <div className="flex gap-2 overflow-x-auto px-4 pb-1 sm:flex-wrap sm:overflow-visible sm:px-0">
+        {real.map((card) => {
+          const tier = gradeTier(card.grade);
+          return (
+            <div
+              key={card.group}
+              className={`flex shrink-0 items-center gap-2 rounded-full border px-3 py-1.5 text-sm ${tierClass[tier]}`}
+            >
+              <span className="font-medium text-foreground">{card.group}</span>
+              <span className="font-display font-bold">{card.grade}</span>
+            </div>
+          );
+        })}
+      </div>
+      {/* Fade hint that the row scrolls sideways for more — only needed
+          below the sm breakpoint, where the strip overflows instead of
+          wrapping to a second line. */}
+      <div className="pointer-events-none absolute inset-y-0 right-0 w-8 bg-gradient-to-l from-background to-transparent sm:hidden" />
     </div>
   );
 }

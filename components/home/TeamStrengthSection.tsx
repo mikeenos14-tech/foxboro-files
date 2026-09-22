@@ -34,7 +34,13 @@ export function TeamStrengthSection({
       <div className="mb-3 flex flex-wrap items-center justify-between gap-2">
         <h2 className="text-lg font-semibold">Team Strength vs. League</h2>
         {options.length > 1 && (
-          <StatWindowSelector options={options} value={selected} onChange={setSelected} label="" />
+          <StatWindowSelector
+            options={options}
+            value={selected}
+            onChange={setSelected}
+            label="Show EPA for"
+            hideLabelVisually
+          />
         )}
       </div>
       <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
