@@ -260,6 +260,11 @@ export function QbHeadToHead({ maye, league, defaultOpponentTeam }: Props) {
         items={[
           { term: "CPOE", definition: "completion % over expected" },
           { term: "EPA", definition: "expected points added per play" },
+          {
+            term: "Turnover-worthy rate",
+            definition:
+              "share of dropbacks charted as turnover-worthy by FTN — includes dropped interceptions, excludes picks that weren't the QB's fault",
+          },
         ]}
       />
     </div>

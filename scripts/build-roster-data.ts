@@ -13,7 +13,7 @@ import {
   sackRateGenerated,
   type PbpRow,
 } from "./lib/pbp";
-import { loadQbFaultSackKeys } from "./lib/ftn";
+import { loadQbFaultSackKeys, loadInterceptionWorthyKeys } from "./lib/ftn";
 import { computeDefensivePlayerStats, defensiveGroupStatLine } from "./lib/defensiveStats";
 import { receivingLeaders, rushingLeaders, defensiveLeaders } from "./lib/leaderboards";
 import {
@@ -511,7 +511,7 @@ async function buildPositionGroupLeagueTable(
 // pass-attempt rows — shared by the full-season computation below and by
 // the per-window ("last N games") computation, which just feeds this a
 // smaller row set.
-function qbStatsFromRows(rows: PbpRow[]): QBWindowStats {
+function qbStatsFromRows(rows: PbpRow[], twpKeys?: Set<string>): QBWindowStats {
   const completions = rows.filter((r) => bool01(r.complete_pass));
   const withAirYards = rows.filter((r) => r.air_yards !== "" && r.air_yards !== "NA");
 
@@ -555,11 +555,17 @@ function qbStatsFromRows(rows: PbpRow[]): QBWindowStats {
     },
     pressureEpa: avgEpa(pressureRows),
     cleanPocketEpa: avgEpa(cleanRows),
-    // Real charting-based "turnover-worthy play rate" needs play-level
-    // grading data we don't have from a free source. Interception rate is
-    // used here as an honest, real (if narrower) substitute — it undercounts
-    // near-picks a charter would flag, but every number in it is real.
-    turnoverWorthyPlayRate: rows.length === 0 ? 0 : ints / rows.length,
+    // Real charted turnover-worthy plays when FTN's charting is
+    // available (see lib/ftn.ts) — this counts the dropped interceptions
+    // a charter flags and excludes picks that weren't the QB's fault.
+    // Falls back to raw interception rate only if the charting file is
+    // missing, which is a narrower but still real measure.
+    turnoverWorthyPlayRate:
+      rows.length === 0
+        ? 0
+        : twpKeys
+          ? rows.filter((r) => twpKeys.has(`${r.game_id}|${r.play_id}`)).length / rows.length
+          : ints / rows.length,
   };
 }
 
@@ -570,7 +576,8 @@ function qbStatsFromRows(rows: PbpRow[]): QBWindowStats {
 function computeQbStats(
   pbp: PbpRow[],
   team: string,
-  rosterByGsis: Map<string, RosterRow>
+  rosterByGsis: Map<string, RosterRow>,
+  twpKeys?: Set<string>
 ): QBDeepDive | null {
   const teamPasses = pbp.filter(
     (r) => r.posteam === team && bool01(r.pass_attempt) && r.passer_id
@@ -590,7 +597,7 @@ function computeQbStats(
     playerName: starterRoster?.full_name ?? rows[0]?.passer ?? "Unknown",
     headshotUrl: starterRoster?.headshot_url || undefined,
     team,
-    ...qbStatsFromRows(rows),
+    ...qbStatsFromRows(rows, twpKeys),
   };
 }
 
@@ -601,7 +608,8 @@ function computeQbStats(
 function computeQbWindows(
   pbp: PbpRow[],
   team: string,
-  starterId: string
+  starterId: string,
+  twpKeys?: Set<string>
 ): Array<{ key: string; label: string; stats: QBWindowStats }> {
   const teamPasses = pbp.filter(
     (r) => r.posteam === team && bool01(r.pass_attempt) && r.passer_id === starterId
@@ -609,7 +617,7 @@ function computeQbWindows(
   return buildLastNGameWindows(pbp, team).map((window) => ({
     key: window.key,
     label: window.label,
-    stats: qbStatsFromRows(filterRowsToWindow(teamPasses, window)),
+    stats: qbStatsFromRows(filterRowsToWindow(teamPasses, window), twpKeys),
   }));
 }
 
@@ -680,8 +688,9 @@ async function main() {
   console.log(`Wrote position-group-league-table.json (${positionGroupLeagueTable.length} teams)`);
 
   const rosterByGsis = await buildLeagueRosterByGsis();
+  const twpKeys = await loadInterceptionWorthyKeys();
   const leagueQbTable = ALL_TEAMS
-    .map((team) => computeQbStats(pbp, team, rosterByGsis))
+    .map((team) => computeQbStats(pbp, team, rosterByGsis, twpKeys))
     .filter((q): q is QBDeepDive => q !== null);
   await writeFile(
     path.join(GENERATED_DIR, "qb-league-table.json"),
@@ -693,7 +702,7 @@ async function main() {
   if (qb) {
     const qbWithWindows: QBDeepDive = {
       ...qb,
-      windows: computeQbWindows(pbp, TEAM, qb.playerId),
+      windows: computeQbWindows(pbp, TEAM, qb.playerId, twpKeys),
     };
     await writeFile(
       path.join(GENERATED_DIR, "qb-deep-dive.json"),
