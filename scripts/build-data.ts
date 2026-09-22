@@ -5,7 +5,7 @@
 // Run with: npx tsx scripts/build-data.ts
 // (after: npx tsx scripts/fetch-nflverse.ts)
 
-import { mkdir, writeFile } from "node:fs/promises";
+import { mkdir, readdir, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { loadCsv, num, bool01 } from "./lib/csv";
 import {
@@ -403,9 +403,21 @@ async function main() {
       path.join(GENERATED_DIR, `recap-${lastRow.game_id}.json`),
       JSON.stringify(recap, null, 2)
     );
+
+    // Derived directly from whichever recap-<gameId>.json files actually
+    // exist on disk, rather than trusting/appending to a separately
+    // tracked index — self-healing (a previous run had overwritten this
+    // index with only the single most-recent game every time, silently
+    // hiding every earlier recap even though its file was still right
+    // there) and can't drift out of sync with the real files again.
+    const files = await readdir(GENERATED_DIR);
+    const fullIndex = files
+      .filter((f) => f.startsWith("recap-") && f.endsWith(".json") && f !== "recap-index.json")
+      .map((f) => f.slice("recap-".length, -".json".length))
+      .sort();
     await writeFile(
       path.join(GENERATED_DIR, "recap-index.json"),
-      JSON.stringify([lastRow.game_id], null, 2)
+      JSON.stringify(fullIndex, null, 2)
     );
   }
 
