@@ -31,6 +31,7 @@ import {
 import { loadReceivingFlags } from "./lib/ftn";
 import { trendFor } from "./lib/trend";
 import { loadGates, gateStateFor, recordGate, saveGates } from "./lib/gateStore";
+import { passerId, receiverId, rusherId } from "./lib/playerIds";
 import type {
   DepthChartEntry,
   PositionGroupReportCard,
@@ -88,7 +89,7 @@ async function buildDepthChart(): Promise<DepthChartEntry[]> {
 // site's other 10+-yard explosive-play convention (see pbp.ts).
 function rushingStatLine(pbp: PbpRow[], rosterByGsis: Map<string, RosterRow>, team: string): string {
   const rows = pbp.filter(
-    (r) => r.posteam === team && r.play_type === "run" && r.rusher_id && rosterByGsis.get(r.rusher_id)?.position === "RB"
+    (r) => r.posteam === team && r.play_type === "run" && rusherId(r) && rosterByGsis.get(rusherId(r))?.position === "RB"
   );
   if (rows.length === 0) return "";
   const yards = rows.reduce((sum, r) => sum + num(r.yards_gained), 0);
@@ -114,8 +115,8 @@ function receivingStatLine(
     (r) =>
       r.posteam === team &&
       bool01(r.pass_attempt) &&
-      r.receiver_id &&
-      rosterByGsis.get(r.receiver_id)?.position === position
+      receiverId(r) &&
+      rosterByGsis.get(receiverId(r))?.position === position
   );
   if (targets.length === 0) return "";
   const receptions = targets.filter((r) => bool01(r.complete_pass));
@@ -397,17 +398,17 @@ function computeQbStats(
   twpKeys?: Set<string>
 ): QBDeepDive | null {
   const teamPasses = pbp.filter(
-    (r) => r.posteam === team && bool01(r.pass_attempt) && r.passer_id
+    (r) => r.posteam === team && bool01(r.pass_attempt) && passerId(r)
   );
   if (teamPasses.length === 0) return null;
 
   const attemptsByPasser = new Map<string, number>();
   for (const r of teamPasses) {
-    attemptsByPasser.set(r.passer_id, (attemptsByPasser.get(r.passer_id) ?? 0) + 1);
+    attemptsByPasser.set(passerId(r), (attemptsByPasser.get(passerId(r)) ?? 0) + 1);
   }
   const starterId = [...attemptsByPasser.entries()].sort((a, b) => b[1] - a[1])[0][0];
   const starterRoster = rosterByGsis.get(starterId);
-  const rows = teamPasses.filter((r) => r.passer_id === starterId);
+  const rows = teamPasses.filter((r) => passerId(r) === starterId);
 
   return {
     playerId: starterId,
@@ -429,7 +430,7 @@ function computeQbWindows(
   twpKeys?: Set<string>
 ): Array<{ key: string; label: string; stats: QBWindowStats }> {
   const teamPasses = pbp.filter(
-    (r) => r.posteam === team && bool01(r.pass_attempt) && r.passer_id === starterId
+    (r) => r.posteam === team && bool01(r.pass_attempt) && passerId(r) === starterId
   );
   return buildLastNGameWindows(pbp, team).map((window) => ({
     key: window.key,
@@ -585,7 +586,7 @@ async function main() {
       ...qb,
       windows: computeQbWindows(pbp, TEAM, qb.playerId, twpKeys),
       situational: computeQbSituational(
-        pbp.filter((r) => r.posteam === TEAM && bool01(r.pass_attempt) && r.passer_id === qb.playerId),
+        pbp.filter((r) => r.posteam === TEAM && bool01(r.pass_attempt) && passerId(r) === qb.playerId),
         playContext
       ),
     };

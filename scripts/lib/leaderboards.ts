@@ -11,6 +11,7 @@ import type { PbpRow } from "./pbp";
 import type { RosterRow } from "./roster";
 import { computeDefensivePlayerStats } from "./defensiveStats";
 import { ftnKey, type FtnReceivingFlags } from "./receiving";
+import { receiverId, rusherId, fumblerId } from "./playerIds";
 
 export interface PlayerStatLine {
   playerId: string;
@@ -36,6 +37,37 @@ function describe(
   };
 }
 
+// Fumbles, counted by whoever actually put the ball down, on the kind
+// of play where it happened.
+//
+// Two things were wrong before: fumbles were read off the rushing rows
+// only, so a running back who fumbled on a catch showed a clean sheet
+// (Rhamondre Stevenson, Week 2), and the count was of fumbles LOST, so
+// one that bounced out of bounds never appeared (Romeo Doubs, same
+// game). A fumble is a fumble whoever recovers it.
+//
+// Split by play type rather than totalled per player, so a fumble shows
+// up on the board for the play it happened on. Charging Stevenson's
+// receiving fumble to his rushing line would just be a different wrong
+// number. This mirrors how nflverse splits rushing_fumbles from
+// receiving_fumbles, which is what verify-data.ts checks against.
+function fumblesByPlayer(
+  pbp: PbpRow[],
+  team: string,
+  kind: "rush" | "receive"
+): Map<string, number> {
+  const out = new Map<string, number>();
+  for (const r of pbp) {
+    if (r.posteam !== team || !bool01(r.fumble)) continue;
+    const isRushPlay = r.play_type === "run" || r.play_type === "qb_kneel";
+    if (kind === "rush" ? !isRushPlay : isRushPlay) continue;
+    const id = fumblerId(r);
+    if (!id) continue;
+    out.set(id, (out.get(id) ?? 0) + 1);
+  }
+  return out;
+}
+
 export function receivingLeaders(
   pbp: PbpRow[],
   rosterByGsis: Map<string, RosterRow>,
@@ -44,6 +76,7 @@ export function receivingLeaders(
   // receiver-controlled columns are simply omitted in that case.
   receivingFlags?: Map<string, FtnReceivingFlags>
 ): PlayerStatLine[] {
+  const fumbles = fumblesByPlayer(pbp, team, "receive");
   const byPlayer = new Map<
     string,
     {
@@ -60,8 +93,8 @@ export function receivingLeaders(
     }
   >();
   for (const r of pbp) {
-    if (r.posteam !== team || !bool01(r.pass_attempt) || !r.receiver_id) continue;
-    const cur = byPlayer.get(r.receiver_id) ?? {
+    if (r.posteam !== team || !bool01(r.pass_attempt) || !receiverId(r)) continue;
+    const cur = byPlayer.get(receiverId(r)) ?? {
       name: r.receiver || r.receiver_player_name || "",
       targets: 0,
       rec: 0,
@@ -91,7 +124,7 @@ export function receivingLeaders(
         if (bool01(r.complete_pass)) cur.catchableCaught += 1;
       }
     }
-    byPlayer.set(r.receiver_id, cur);
+    byPlayer.set(receiverId(r), cur);
   }
 
   return [...byPlayer.entries()]
@@ -111,6 +144,7 @@ export function receivingLeaders(
         },
         { label: "Drops", value: String(v.drops) },
         { label: "TD", value: String(v.tds) },
+        { label: "FUM", value: String(fumbles.get(playerId) ?? 0) },
       ],
     }))
     .sort((a, b) => b.sortValue - a.sortValue);
@@ -121,21 +155,26 @@ export function rushingLeaders(
   rosterByGsis: Map<string, RosterRow>,
   team: string
 ): PlayerStatLine[] {
-  const byPlayer = new Map<string, { name: string; att: number; yards: number; tds: number; fum: number }>();
+  const fumbles = fumblesByPlayer(pbp, team, "rush");
+  const byPlayer = new Map<string, { name: string; att: number; yards: number; tds: number }>();
   for (const r of pbp) {
-    if (r.posteam !== team || r.play_type !== "run" || !r.rusher_id) continue;
-    const cur = byPlayer.get(r.rusher_id) ?? {
+    // Kneels count as rushing attempts in every official box score, and
+    // this board exists to match what a reader sees on a box score
+    // elsewhere. The analytical grades deliberately exclude them (see
+    // lib/positionGrades.ts) — a kneel is a chosen loss of yardage, not
+    // a failed run. Two different jobs, two different filters.
+    const isRush = r.play_type === "run" || r.play_type === "qb_kneel";
+    if (r.posteam !== team || !isRush || !rusherId(r)) continue;
+    const cur = byPlayer.get(rusherId(r)) ?? {
       name: r.rusher || r.rusher_player_name || "",
       att: 0,
       yards: 0,
       tds: 0,
-      fum: 0,
     };
     cur.att += 1;
     cur.yards += num(r.yards_gained);
     if (bool01(r.rush_touchdown)) cur.tds += 1;
-    if (bool01(r.fumble_lost)) cur.fum += 1;
-    byPlayer.set(r.rusher_id, cur);
+    byPlayer.set(rusherId(r), cur);
   }
 
   return [...byPlayer.entries()]
@@ -148,7 +187,7 @@ export function rushingLeaders(
         { label: "Yds", value: String(v.yards) },
         { label: "YPC", value: v.att === 0 ? "—" : (v.yards / v.att).toFixed(1) },
         { label: "TD", value: String(v.tds) },
-        { label: "FUM", value: String(v.fum) },
+        { label: "FUM", value: String(fumbles.get(playerId) ?? 0) },
       ],
     }))
     .sort((a, b) => b.sortValue - a.sortValue);

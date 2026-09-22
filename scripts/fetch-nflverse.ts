@@ -39,6 +39,14 @@ const SOURCES: Array<{ name: string; url: string }> = [
     // the ball/scrambling into pressure rather than a real blocking
     // failure. Joins to play_by_play_2026.csv via
     // nflverse_game_id/nflverse_play_id == game_id/play_id.
+    name: "stats_player_reg_2026.csv",
+    // nflverse's OWN season aggregation of per-player box-score stats.
+    // Not used to render anything — it's the independent check that our
+    // play-by-play aggregation agrees with the canonical numbers. See
+    // verify-data.ts.
+    url: "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
+  },
+  {
     name: "ftn_charting_2026.csv",
     url: "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2026.csv",
   },

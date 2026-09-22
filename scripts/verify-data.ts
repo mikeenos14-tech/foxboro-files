@@ -15,8 +15,11 @@
 
 import { readFile } from "node:fs/promises";
 import path from "node:path";
+import { loadCsv } from "./lib/csv";
+import type { TeamLeaderboards } from "../lib/data/types";
 
 const GENERATED_DIR = path.join(process.cwd(), "data", "generated");
+const GENERATED = GENERATED_DIR;
 
 async function readGenerated<T>(filename: string): Promise<T> {
   return JSON.parse(await readFile(path.join(GENERATED_DIR, filename), "utf-8")) as T;
@@ -105,6 +108,99 @@ export async function verifyData(): Promise<string[]> {
   //    grade and an invented claim about the defense.
   if (cards.some((c) => c.group === "LB")) {
     failures.push("position-group-cards.json contains an LB card — no real metric backs it");
+  }
+
+  failures.push(...(await checkAgainstOfficialStats()));
+
+  return failures;
+}
+
+// Cross-checks our own play-by-play aggregation against nflverse's
+// canonical per-player season totals.
+//
+// This exists because three real bugs shipped that no internal
+// consistency check could have caught — our numbers agreed with
+// themselves perfectly, they just didn't match football. A fumble on a
+// reception was attributed to nobody, fumbles that stayed in the
+// offense's hands weren't counted, and every QB scramble in the league
+// was dropped because nflverse leaves rusher_id blank on those rows.
+// Each was found by a reader noticing a number was wrong, which is the
+// worst possible way to find it.
+//
+// Comparing against an independently-produced aggregation of the same
+// underlying games is the check that catches this whole class at once.
+async function checkAgainstOfficialStats(): Promise<string[]> {
+  const failures: string[] = [];
+  let official: Array<Record<string, string>>;
+  try {
+    official = (await loadCsv<Record<string, string>>("stats_player_reg_2026.csv")).filter(
+      (r) => r.recent_team === TEAM
+    );
+  } catch {
+    // The raw cache is gitignored, so a fresh clone that hasn't fetched
+    // yet shouldn't fail the build over a missing file.
+    return failures;
+  }
+  if (official.length === 0) return failures;
+
+  const boards = JSON.parse(
+    await readFile(path.join(GENERATED, "leaderboards.json"), "utf8")
+  ) as TeamLeaderboards;
+  const byId = new Map(official.map((r) => [r.player_id, r]));
+  const n = (v: string | undefined) => (!v || v === "NA" ? 0 : Number(v));
+  const statOf = (line: { stats: Array<{ label: string; value: string }> }, label: string) =>
+    Number(line.stats.find((s) => s.label === label)?.value ?? NaN);
+
+  for (const line of boards.rushing) {
+    const o = byId.get(line.playerId);
+    if (!o) continue;
+    const expect: Array<[string, number, number]> = [
+      ["carries", statOf(line, "Att"), n(o.carries)],
+      ["rushing yards", statOf(line, "Yds"), n(o.rushing_yards)],
+      ["rushing TDs", statOf(line, "TD"), n(o.rushing_tds)],
+    ];
+    for (const [what, ours, theirs] of expect) {
+      if (Number.isFinite(ours) && Math.abs(ours - theirs) > 0.5) {
+        failures.push(`${line.playerName} ${what}: site ${ours}, nflverse ${theirs}`);
+      }
+    }
+  }
+
+  for (const line of boards.receiving) {
+    const o = byId.get(line.playerId);
+    if (!o) continue;
+    const rec = String(line.stats.find((s) => s.label === "Rec")?.value ?? "");
+    const [caught, targeted] = rec.split("/").map(Number);
+    const expect: Array<[string, number, number]> = [
+      ["receptions", caught, n(o.receptions)],
+      ["targets", targeted, n(o.targets)],
+      ["receiving yards", statOf(line, "Yds"), n(o.receiving_yards)],
+      ["receiving TDs", statOf(line, "TD"), n(o.receiving_tds)],
+    ];
+    for (const [what, ours, theirs] of expect) {
+      if (Number.isFinite(ours) && Math.abs(ours - theirs) > 0.5) {
+        failures.push(`${line.playerName} ${what}: site ${ours}, nflverse ${theirs}`);
+      }
+    }
+  }
+
+  // Fumbles are shown on the board for the play they happened on, so
+  // each board is checked against its own nflverse column. Summing them
+  // would hide exactly the bug this was written for: a fumble on a
+  // reception appearing against a player's rushing line.
+  for (const [board, column, label] of [
+    [boards.rushing, "rushing_fumbles", "rushing fumbles"],
+    [boards.receiving, "receiving_fumbles", "receiving fumbles"],
+  ] as Array<[typeof boards.rushing, string, string]>) {
+    for (const line of board) {
+      const o = byId.get(line.playerId);
+      if (!o) continue;
+      const ours = statOf(line, "FUM");
+      const theirs = n(o[column]);
+      if (Number.isFinite(ours) && Math.abs(ours - theirs) > 0.5) {
+        failures.push(`${line.playerName} ${label}: site ${ours}, nflverse ${theirs}`);
+      }
+    }
   }
 
   return failures;

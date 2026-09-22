@@ -36,6 +36,7 @@ import { loadCsv, bool01, num } from "./lib/csv";
 import { ALL_TEAMS } from "./lib/teams";
 import { reliability, calibrateK } from "./lib/reliability";
 import { SHRINK_K } from "./lib/shrink";
+import { receiverId, rusherId } from "./lib/playerIds";
 import type { PbpRow } from "./lib/pbp";
 
 async function main() {
@@ -52,8 +53,8 @@ async function main() {
   const targetOf = (pos: string) => (r: PbpRow, t: string) =>
     r.posteam === t &&
     bool01(r.pass_attempt) &&
-    !!r.receiver_id &&
-    position.get(r.receiver_id) === pos;
+    !!receiverId(r) &&
+    position.get(receiverId(r)) === pos;
 
   const metrics: Array<{
     label: string;
@@ -66,7 +67,7 @@ async function main() {
       label: "RB EPA/carry",
       currentK: SHRINK_K.rushingEpa,
       match: (r, t) =>
-        r.posteam === t && r.play_type === "run" && !!r.rusher_id && position.get(r.rusher_id) === "RB",
+        r.posteam === t && r.play_type === "run" && !!rusherId(r) && position.get(rusherId(r)) === "RB",
     },
     {
       label: "Team EPA/dropback",

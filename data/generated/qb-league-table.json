@@ -64,7 +64,7 @@
     "playerName": "Geno Smith",
     "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/zppfqqcyjfma14jjif3a",
     "team": "NYJ",
-    "attempts": 68,
+    "attempts": 69,
     "completions": 46,
     "yards": 433,
     "tds": 1,
@@ -76,28 +76,28 @@
       "deep": 0.4
     },
     "pressureEpa": -0.6152349632595574,
-    "cleanPocketEpa": 0.33213840623647495,
-    "turnoverWorthyPlayRate": 0.014705882352941176
+    "cleanPocketEpa": 0.32627006308841955,
+    "turnoverWorthyPlayRate": 0.014492753623188406
   },
   {
     "playerId": "00-0034796",
     "playerName": "Lamar Jackson",
     "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/eno6s5qzl9grbfbfwhoa",
     "team": "BAL",
-    "attempts": 59,
+    "attempts": 61,
     "completions": 38,
     "yards": 508,
     "tds": 2,
     "ints": 1,
     "cpoe": 6.473067796455235,
     "accuracyByDepth": {
-      "short": 0.7916666666666666,
+      "short": 0.76,
       "medium": 0.7,
       "deep": 0.36363636363636365
     },
     "pressureEpa": -1.5861102212194427,
-    "cleanPocketEpa": 0.5070734768598365,
-    "turnoverWorthyPlayRate": 0.03389830508474576
+    "cleanPocketEpa": 0.497168901356427,
+    "turnoverWorthyPlayRate": 0.03278688524590164
   },
   {
     "playerId": "00-0036442",
@@ -164,7 +164,7 @@
     "playerName": "C.J. Stroud",
     "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tt4zrtxlhifaljhj0rn7",
     "team": "HOU",
-    "attempts": 98,
+    "attempts": 100,
     "completions": 56,
     "yards": 571,
     "tds": 2,
@@ -176,8 +176,8 @@
       "deep": 0.36363636363636365
     },
     "pressureEpa": -1.516312537471673,
-    "cleanPocketEpa": 0.24333092375467813,
-    "turnoverWorthyPlayRate": 0.01020408163265306
+    "cleanPocketEpa": 0.23093100043218415,
+    "turnoverWorthyPlayRate": 0.01
   },
   {
     "playerId": "00-0035710",
@@ -524,20 +524,20 @@
     "playerName": "Tyler Shough",
     "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/toiafc7qighw86geo7jf",
     "team": "NO",
-    "attempts": 98,
+    "attempts": 99,
     "completions": 62,
     "yards": 611,
     "tds": 4,
     "ints": 2,
     "cpoe": 4.6064498169081505,
     "accuracyByDepth": {
-      "short": 0.6862745098039216,
+      "short": 0.6730769230769231,
       "medium": 0.5,
       "deep": 0.7
     },
     "pressureEpa": -0.934659207521831,
-    "cleanPocketEpa": 0.2599713746017374,
-    "turnoverWorthyPlayRate": 0.02040816326530612
+    "cleanPocketEpa": 0.25665386942213453,
+    "turnoverWorthyPlayRate": 0.020202020202020204
   },
   {
     "playerId": "00-0034855",
@@ -584,20 +584,20 @@
     "playerName": "Matthew Stafford",
     "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/jwpkjfrkzufdyh8u1mg7",
     "team": "LA",
-    "attempts": 56,
+    "attempts": 57,
     "completions": 37,
     "yards": 473,
     "tds": 4,
     "ints": 2,
     "cpoe": 1.9565673338042333,
     "accuracyByDepth": {
-      "short": 0.7692307692307693,
+      "short": 0.7407407407407407,
       "medium": 0.6428571428571429,
       "deep": 0.3333333333333333
     },
     "pressureEpa": -1.0578234221191236,
-    "cleanPocketEpa": 0.3567223712811846,
-    "turnoverWorthyPlayRate": 0.05357142857142857
+    "cleanPocketEpa": 0.35286735035955274,
+    "turnoverWorthyPlayRate": 0.05263157894736842
   },
   {
     "playerId": "00-0037834",

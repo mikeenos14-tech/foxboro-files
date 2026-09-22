@@ -30,6 +30,10 @@
         {
           "label": "TD",
           "value": "0"
+        },
+        {
+          "label": "FUM",
+          "value": "1"
         }
       ]
     },
@@ -62,6 +66,10 @@
         },
         {
           "label": "TD",
+          "value": "0"
+        },
+        {
+          "label": "FUM",
           "value": "0"
         }
       ]
@@ -96,6 +104,10 @@
         {
           "label": "TD",
           "value": "0"
+        },
+        {
+          "label": "FUM",
+          "value": "0"
         }
       ]
     },
@@ -129,6 +141,10 @@
         {
           "label": "TD",
           "value": "0"
+        },
+        {
+          "label": "FUM",
+          "value": "1"
         }
       ]
     },
@@ -162,6 +178,10 @@
         {
           "label": "TD",
           "value": "1"
+        },
+        {
+          "label": "FUM",
+          "value": "0"
         }
       ]
     },
@@ -194,6 +214,10 @@
         },
         {
           "label": "TD",
+          "value": "0"
+        },
+        {
+          "label": "FUM",
           "value": "0"
         }
       ]
@@ -228,6 +252,10 @@
         {
           "label": "TD",
           "value": "0"
+        },
+        {
+          "label": "FUM",
+          "value": "0"
         }
       ]
     },
@@ -260,6 +288,10 @@
         },
         {
           "label": "TD",
+          "value": "0"
+        },
+        {
+          "label": "FUM",
           "value": "0"
         }
       ]
@@ -294,6 +326,10 @@
         {
           "label": "TD",
           "value": "0"
+        },
+        {
+          "label": "FUM",
+          "value": "0"
         }
       ]
     },
@@ -327,6 +363,10 @@
         {
           "label": "TD",
           "value": "0"
+        },
+        {
+          "label": "FUM",
+          "value": "0"
         }
       ]
     },
@@ -359,6 +399,10 @@
         },
         {
           "label": "TD",
+          "value": "0"
+        },
+        {
+          "label": "FUM",
           "value": "0"
         }
       ]
@@ -424,6 +468,35 @@
       ]
     },
     {
+      "playerId": "00-0039851",
+      "playerName": "Drake Maye",
+      "position": "QB",
+      "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/s1nmoon2xnrc3bnyulv4",
+      "sortValue": 64,
+      "stats": [
+        {
+          "label": "Att",
+          "value": "11"
+        },
+        {
+          "label": "Yds",
+          "value": "64"
+        },
+        {
+          "label": "YPC",
+          "value": "5.8"
+        },
+        {
+          "label": "TD",
+          "value": "0"
+        },
+        {
+          "label": "FUM",
+          "value": "0"
+        }
+      ]
+    },
+    {
       "playerId": "00-0040556",
       "playerName": "Corey Kiner",
       "position": "RB",
@@ -441,35 +514,6 @@
         {
           "label": "YPC",
           "value": "1.4"
-        },
-        {
-          "label": "TD",
-          "value": "0"
-        },
-        {
-          "label": "FUM",
-          "value": "0"
-        }
-      ]
-    },
-    {
-      "playerId": "00-0039851",
-      "playerName": "Drake Maye",
-      "position": "QB",
-      "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/s1nmoon2xnrc3bnyulv4",
-      "sortValue": 3,
-      "stats": [
-        {
-          "label": "Att",
-          "value": "1"
-        },
-        {
-          "label": "Yds",
-          "value": "3"
-        },
-        {
-          "label": "YPC",
-          "value": "3.0"
         },
         {
           "label": "TD",

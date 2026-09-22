@@ -29,6 +29,7 @@ import { confidenceLabel } from "./lib/shrink";
 import { GROUP_METRICS, gradeGroupAllTeams } from "./lib/positionGrades";
 import type { RosterRow } from "./lib/roster";
 import type { PriorSeasonSnapshot } from "../lib/data/types";
+import { passerId } from "./lib/playerIds";
 
 const TEAM = "NE";
 const RAW_DIR = path.join(process.cwd(), "data", "raw");
@@ -120,13 +121,13 @@ async function main() {
 
   // ---------- QB ----------
   // The team's primary passer that season, by attempts.
-  const teamPasses = pbp.filter((r) => r.posteam === TEAM && bool01(r.pass_attempt) && r.passer_id);
+  const teamPasses = pbp.filter((r) => r.posteam === TEAM && bool01(r.pass_attempt) && passerId(r));
   const attemptsByPasser = new Map<string, number>();
   for (const r of teamPasses) {
-    attemptsByPasser.set(r.passer_id, (attemptsByPasser.get(r.passer_id) ?? 0) + 1);
+    attemptsByPasser.set(passerId(r), (attemptsByPasser.get(passerId(r)) ?? 0) + 1);
   }
   const starterId = [...attemptsByPasser.entries()].sort((a, b) => b[1] - a[1])[0]?.[0];
-  const rows = teamPasses.filter((r) => r.passer_id === starterId);
+  const rows = teamPasses.filter((r) => passerId(r) === starterId);
   const completions = rows.filter((r) => bool01(r.complete_pass));
   const withAirYards = rows.filter((r) => r.air_yards !== "" && r.air_yards !== "NA");
   const depthBucket = (bucket: PbpRow[]) =>

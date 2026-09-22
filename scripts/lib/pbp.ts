@@ -3,6 +3,7 @@
 // or EPA model needs to be built from scratch here, only aggregated.
 
 import { num, bool01 } from "./csv";
+import { passerId, rusherId } from "./playerIds";
 
 export type PbpRow = Record<string, string>;
 
@@ -221,14 +222,14 @@ export function starOfGame(
   for (const r of rows) {
     if (r.posteam !== team) continue;
     const wpa = num(r.wpa);
-    if (r.play_type === "pass" && r.passer_id) {
-      const cur = wpaByPlayer.get(r.passer_id) ?? { name: r.passer || r.passer_player_name, wpa: 0 };
+    if (r.play_type === "pass" && passerId(r)) {
+      const cur = wpaByPlayer.get(passerId(r)) ?? { name: r.passer || r.passer_player_name, wpa: 0 };
       cur.wpa += wpa;
-      wpaByPlayer.set(r.passer_id, cur);
-    } else if (r.play_type === "run" && r.rusher_id) {
-      const cur = wpaByPlayer.get(r.rusher_id) ?? { name: r.rusher || r.rusher_player_name, wpa: 0 };
+      wpaByPlayer.set(passerId(r), cur);
+    } else if (r.play_type === "run" && rusherId(r)) {
+      const cur = wpaByPlayer.get(rusherId(r)) ?? { name: r.rusher || r.rusher_player_name, wpa: 0 };
       cur.wpa += wpa;
-      wpaByPlayer.set(r.rusher_id, cur);
+      wpaByPlayer.set(rusherId(r), cur);
     }
   }
   let best: { playerId: string; playerName: string; wpa: number } | null = null;

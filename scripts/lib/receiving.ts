@@ -27,6 +27,7 @@ import { bool01, num } from "./csv";
 import type { PbpRow } from "./pbp";
 import type { RosterRow } from "./roster";
 import { resolveGate, type GateState } from "./reliability";
+import { receiverId } from "./playerIds";
 
 export interface ReceivingSplit {
   targets: number;
@@ -158,8 +159,8 @@ export function positionTargets(
     (r) =>
       r[side] === team &&
       bool01(r.pass_attempt) &&
-      !!r.receiver_id &&
-      roster.get(r.receiver_id)?.position === position
+      !!receiverId(r) &&
+      roster.get(receiverId(r))?.position === position
   );
 }
 

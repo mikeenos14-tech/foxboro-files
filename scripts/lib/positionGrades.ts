@@ -23,6 +23,7 @@ import type { RosterRow } from "./roster";
 import { computeOpponentAdjustedPair } from "./adjustedRate";
 import { SHRINK_K, leagueMean, shrink } from "./shrink";
 import { rankGeneric } from "./rank";
+import { passerId, receiverId, rusherId } from "./playerIds";
 
 export interface GroupMetric {
   label: string;
@@ -44,7 +45,7 @@ const sackIndicator = (r: PbpRow) => (bool01(r.sack) ? 1 : 0);
 // from the defense it's "tight end production allowed" — which is exactly
 // the opponent baseline the adjustment needs.
 const byReceiverPosition = (position: string) => (r: PbpRow, roster: Map<string, RosterRow>) =>
-  r.play_type === "pass" && !!r.receiver_id && roster.get(r.receiver_id)?.position === position;
+  r.play_type === "pass" && !!receiverId(r) && roster.get(receiverId(r))?.position === position;
 
 export const GROUP_METRICS: GroupMetric[] = [
   {
@@ -52,7 +53,7 @@ export const GROUP_METRICS: GroupMetric[] = [
     side: "offense",
     higherIsBetter: true,
     shrinkK: SHRINK_K.passingEpa,
-    filter: (r, roster) => r.play_type === "pass" && !!r.passer_id && roster.get(r.passer_id)?.position === "QB",
+    filter: (r, roster) => r.play_type === "pass" && !!passerId(r) && roster.get(passerId(r))?.position === "QB",
     value: epaValue,
   },
   {
@@ -60,7 +61,7 @@ export const GROUP_METRICS: GroupMetric[] = [
     side: "offense",
     higherIsBetter: true,
     shrinkK: SHRINK_K.rushingEpa,
-    filter: (r, roster) => r.play_type === "run" && !!r.rusher_id && roster.get(r.rusher_id)?.position === "RB",
+    filter: (r, roster) => r.play_type === "run" && !!rusherId(r) && roster.get(rusherId(r))?.position === "RB",
     value: epaValue,
   },
   {
