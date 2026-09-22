@@ -353,7 +353,7 @@ export const opponentMatchup: OpponentMatchupData = {
       "With Pittsburgh's top cornerback ruled out, their CB2 grades bottom-10 in coverage over the last three weeks. Expect a heavy target share to our WR1 on that side of the field.",
   },
   opponentInjuries,
-  recentForm: { last3EpaPerPlay: -0.03, last5EpaPerPlay: -0.01, seasonEpaPerPlay: -0.02 },
+  recentForm: { last3EpaPerPlay: -0.03, last5EpaPerPlay: -0.01, seasonEpaPerPlay: -0.02, gamesPlayed: 8 },
   headToHead: [
     { season: 2025, result: "W", score: "24-17" },
     { season: 2025, result: "W", score: "27-14" },

@@ -1,5 +1,4 @@
 import type { PositionMatchup } from "@/lib/data/types";
-import { SoWhatNote, type Sentiment } from "./SoWhatNote";
 
 const edgeClasses: Record<PositionMatchup["edge"], string> = {
   us: "bg-rank-good/10 text-rank-good ring-rank-good/30",
@@ -11,12 +10,6 @@ const edgeLabel: Record<PositionMatchup["edge"], string> = {
   us: "Edge: Us",
   them: "Edge: Them",
   even: "Even",
-};
-
-const edgeSentiment: Record<PositionMatchup["edge"], Sentiment> = {
-  us: "good",
-  them: "bad",
-  even: "mid",
 };
 
 export function MatchupGrid({ matchups }: { matchups: PositionMatchup[] }) {
@@ -32,17 +25,31 @@ export function MatchupGrid({ matchups }: { matchups: PositionMatchup[] }) {
               {edgeLabel[m.edge]}
             </span>
           </div>
-          <div className="mt-2 flex items-center gap-3 text-sm text-muted">
-            <span>Us: {m.ourGrade}</span>
-            <span>Them: {m.theirGrade}</span>
+          {/* The card used to end with a sentence reading "71st
+              percentile vs. 42nd percentile (advantage us)" — which is
+              the two numbers above it and the badge beside it, said a
+              third time. The numbers just needed a unit. */}
+          <div className="mt-2 flex items-baseline gap-4">
+            <div>
+              <span className="font-display text-xl font-semibold tabular-nums text-foreground">
+                {m.ourGrade}
+              </span>
+              <span className="ml-1 text-xs text-muted">us</span>
+            </div>
+            <div>
+              <span className="font-display text-xl font-semibold tabular-nums text-foreground">
+                {m.theirGrade}
+              </span>
+              <span className="ml-1 text-xs text-muted">them</span>
+            </div>
+            <span className="text-[11px] text-muted">percentile vs. league</span>
           </div>
           {(m.ourStatLine || m.theirStatLine) && (
-            <div className="mt-1.5 space-y-0.5 text-xs tabular-nums text-muted">
+            <div className="mt-2 space-y-0.5 text-xs tabular-nums text-muted">
               {m.ourStatLine && <div>Us: {m.ourStatLine}</div>}
               {m.theirStatLine && <div>Them: {m.theirStatLine}</div>}
             </div>
           )}
-          <SoWhatNote sentiment={edgeSentiment[m.edge]}>{m.note}</SoWhatNote>
         </div>
       ))}
     </div>

@@ -79,8 +79,28 @@ export default async function NextGamePage() {
             label: "Matchups",
             content: (
               <div className="space-y-6">
+                {/* These grades are deliberately not the same numbers as
+                    the Roster page's, and readers notice, so the page
+                    says why rather than letting it look like a
+                    contradiction. Two real differences:
+
+                    1. These are forward-looking, so they blend last
+                       season while the sample is thin (weight hits zero
+                       at 4 games — see scripts/lib/priorBlend.ts). The
+                       Roster page is a record of this season only.
+                    2. These are whole-unit: "Rush Offense" is every run
+                       play including QB scrambles, where the Roster
+                       page's "RB" is carries by running backs. Through
+                       Week 2 that single distinction is worth ~45
+                       percentile points, because Maye's scrambles are
+                       the most efficient runs on the team. */}
                 <div>
-                  <h2 className="mb-3 text-lg font-semibold">Position Group Matchups</h2>
+                  <h2 className="text-lg font-semibold">Position Group Matchups</h2>
+                  <p className="mb-3 mt-1 text-xs text-muted">
+                    Forward-looking whole-unit grades: they include last season while this
+                    one is young, and count every play by the unit (rushing includes QB
+                    scrambles). The Roster page grades this season only, by position.
+                  </p>
                   <MatchupGrid matchups={matchup.positionGroupMatchups} />
                 </div>
 

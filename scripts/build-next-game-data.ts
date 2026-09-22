@@ -218,6 +218,7 @@ async function main() {
     last3EpaPerPlay: netEpaOverGames(opponentGames.slice(0, 3).map((g) => g.game_id)),
     last5EpaPerPlay: netEpaOverGames(opponentGames.slice(0, 5).map((g) => g.game_id)),
     seasonEpaPerPlay: netEpaOverGames(opponentGames.map((g) => g.game_id)),
+    gamesPlayed: opponentGames.length,
   };
 
   // ---------- All-time head-to-head ----------

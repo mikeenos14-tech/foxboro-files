@@ -408,6 +408,11 @@ export interface OpponentMatchupData {
     last3EpaPerPlay: number;
     last5EpaPerPlay: number;
     seasonEpaPerPlay: number;
+    // How many games the opponent has actually played. A "last 3" over
+    // two games is just the season under another name, and rendering
+    // three identical numbers side by side reads as a broken widget
+    // rather than as a team that hasn't played much yet.
+    gamesPlayed: number;
   };
   headToHead: Array<{ season: number; result: string; score: string }>;
   weather?: {
