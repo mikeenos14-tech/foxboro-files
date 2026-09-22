@@ -30,6 +30,7 @@ import {
 } from "./lib/receiving";
 import { loadReceivingFlags } from "./lib/ftn";
 import { trendFor } from "./lib/trend";
+import { loadGates, gateStateFor, recordGate, saveGates } from "./lib/gateStore";
 import type {
   DepthChartEntry,
   PositionGroupReportCard,
@@ -157,6 +158,13 @@ async function buildPositionGroupCards(
   // target, which is mostly a measure of the quarterback — this grades
   // what the receiver controls once the ball arrives. See lib/receiving.ts.
   const receivingFlags = await loadReceivingFlags();
+
+  // Gate state persists across builds so a rank that's already been
+  // earned this season doesn't blink off on a noisy week. See
+  // lib/reliability.ts for why a single threshold flickers.
+  const season = Math.max(...pbp.map((r) => +r.season || 0));
+  const currentWeek = Math.max(...pbp.map((r) => +r.week || 0));
+  const gates = await loadGates(season);
   const receiverExtras = new Map<
     string,
     { label: string; grade: number | null; detail: string; note?: string }
@@ -173,14 +181,17 @@ async function buildPositionGroupCards(
       shrink,
       rank: (teams, team, valueOf, higherIsBetter) =>
         rankGeneric(teams, team, valueOf, higherIsBetter).leaguePercentile,
-    });
+    }, (label) => gateStateFor(gates, `${position}:${label}`));
+    for (const d of result.diagnostics) {
+      recordGate(gates, `${position}:${d.label}`, d.open, currentWeek);
+    }
     const detail = receivingDetailLine(splits.get(TEAM)!);
     // Logged every run because the gate is the interesting part: it says
     // whether a league rank is being withheld and why.
     console.log(
       `  ${position} receiver-isolated: ${result.grade ?? "no rank"} ` +
         result.diagnostics
-          .map((d) => `[${d.label} reliability=${d.reliability.toFixed(2)} n=${d.n}]`)
+          .map((d) => `[${d.label} reliability=${d.reliability.toFixed(2)} n=${d.n} ${d.open ? "OPEN" : "held"}]`)
           .join(" ")
     );
     if (detail) {
@@ -195,6 +206,8 @@ async function buildPositionGroupCards(
       });
     }
   }
+  await saveGates(gates);
+
   const defPlayerStats = computeDefensivePlayerStats(pbp, TEAM);
 
   // Extra descriptive context per group. The grade itself is uniform

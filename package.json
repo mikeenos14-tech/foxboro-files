@@ -9,6 +9,7 @@
     "lint": "eslint",
     "build:data": "tsx scripts/build-all.ts",
     "build:data:skip-ai": "tsx scripts/build-all.ts --skip-ai",
+    "calibrate:shrink": "tsx scripts/calibrate-shrink.ts",
     "verify:data": "tsx scripts/verify-data.ts",
     "test": "tsx --test tests/*.test.ts"
   },

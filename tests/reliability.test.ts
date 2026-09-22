@@ -1,6 +1,13 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { reliability, isRankable, MIN_RELIABILITY } from "../scripts/lib/reliability";
+import {
+  reliability,
+  isRankable,
+  resolveGate,
+  MIN_RELIABILITY,
+  OPEN_RELIABILITY,
+  KEEP_RELIABILITY,
+} from "../scripts/lib/reliability";
 
 // Deterministic coin flips, so "pure noise" is actually pure noise and
 // the test can't flake.
@@ -68,4 +75,35 @@ test("works for continuous values, not just rates", () => {
     Array.from({ length: 300 }, (_, j) => (i % 8) + ((j * 7919) % 11) - 5)
   );
   assert.equal(isRankable(groups), true);
+});
+
+// --- hysteresis -------------------------------------------------------
+
+test("the gate needs a higher bar to open than to stay open", () => {
+  assert.ok(OPEN_RELIABILITY > KEEP_RELIABILITY, "otherwise it flickers");
+});
+
+test("a rank already earned survives a noisy week", () => {
+  // Reliability lands between the two thresholds — the exact band that
+  // made the real 2025 replay blink on at Week 8, off at Week 10, and
+  // back on at Week 14.
+  const groups = Array.from({ length: 32 }, (_, i) =>
+    pseudoFlips(90, 0.72 + (i / 31) * 0.2, i + 11)
+  );
+  const r = reliability(groups).reliability;
+  assert.ok(
+    r > KEEP_RELIABILITY && r < OPEN_RELIABILITY,
+    `fixture must sit in the hysteresis band, got ${r.toFixed(2)}`
+  );
+  assert.equal(resolveGate(groups, undefined).open, false, "shouldn't open from closed");
+  assert.equal(resolveGate(groups, { open: true }).open, true, "shouldn't close once open");
+});
+
+test("a genuine collapse below the keep bar does close the gate", () => {
+  const noise = Array.from({ length: 32 }, (_, i) => pseudoFlips(20, 0.9, i + 1));
+  assert.equal(
+    resolveGate(noise, { open: true }).open,
+    false,
+    "hysteresis must not latch a rank open forever"
+  );
 });

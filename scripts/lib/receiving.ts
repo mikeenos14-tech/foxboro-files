@@ -26,7 +26,7 @@
 import { bool01, num } from "./csv";
 import type { PbpRow } from "./pbp";
 import type { RosterRow } from "./roster";
-import { reliability, MIN_RELIABILITY } from "./reliability";
+import { resolveGate, type GateState } from "./reliability";
 
 export interface ReceivingSplit {
   targets: number;
@@ -201,7 +201,7 @@ export interface ReceiverIsolatedResult {
   /** Component labels that passed the reliability gate. */
   ranked: string[];
   /** Per-component reliability, for logging and tests. */
-  diagnostics: Array<{ label: string; reliability: number; n: number }>;
+  diagnostics: Array<{ label: string; reliability: number; n: number; open: boolean }>;
 }
 
 // A receiver-isolated grade: the average of the league-ranked,
@@ -239,7 +239,10 @@ export function receiverIsolatedGrade(
     leagueMean: (s: Array<{ value: number; n: number }>) => number;
     shrink: (s: { value: number; n: number }, mean: number, k: number) => number;
     rank: (teams: string[], team: string, valueOf: (t: string) => number, higherIsBetter: boolean) => number;
-  }
+  },
+  // Previous gate state per component label, so a rank that has already
+  // been earned this season doesn't blink off on a noisy week.
+  gates?: (label: string) => GateState | undefined
 ): ReceiverIsolatedResult {
   // The baseline is only the fully-charted teams, and we can't rank a
   // team that isn't in its own baseline.
@@ -256,9 +259,15 @@ export function receiverIsolatedGrade(
     countOf: (s: ReceivingSplit) => number,
     observationsOf: (s: ReceivingSplit) => number[]
   ): { label: string; percentile: number } | null => {
-    const rel = reliability(eligible.map((t) => observationsOf(splitsByTeam.get(t)!)));
-    diagnostics.push({ label, reliability: rel.reliability, n: rel.n });
-    if (rel.reliability < MIN_RELIABILITY) return null;
+    const observations = eligible.map((t) => observationsOf(splitsByTeam.get(t)!));
+    const gate = resolveGate(observations, gates?.(label));
+    diagnostics.push({
+      label,
+      reliability: gate.reliability,
+      n: observations.reduce((a, g) => a + g.length, 0),
+      open: gate.open,
+    });
+    if (!gate.open) return null;
 
     const samples = eligible.map((t) => {
       const s = splitsByTeam.get(t)!;

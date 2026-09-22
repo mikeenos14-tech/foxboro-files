@@ -34,6 +34,14 @@ export interface ReliabilityResult {
   observedVar: number;
   /** Variance attributable to sampling noise at these n. */
   noiseVar: number;
+  /** Variance of a SINGLE observation around its own team's mean. */
+  withinVar: number;
+  /**
+   * Estimated real spread in team talent: observed minus noise. Floors
+   * at 0 — a negative estimate means the data shows no team differences
+   * at all, not a negative amount of them.
+   */
+  trueVar: number;
   grandMean: number;
   /** Total observations across all teams. */
   n: number;
@@ -48,7 +56,7 @@ export function reliability(groups: number[][]): ReliabilityResult {
   const valid = groups.filter((g) => g.length > 0);
   const n = valid.reduce((a, g) => a + g.length, 0);
   if (n === 0 || valid.length < 2) {
-    return { reliability: 0, observedVar: 0, noiseVar: 0, grandMean: 0, n };
+    return { reliability: 0, observedVar: 0, noiseVar: 0, withinVar: 0, trueVar: 0, grandMean: 0, n };
   }
 
   const grandMean = valid.reduce((a, g) => a + g.reduce((x, y) => x + y, 0), 0) / n;
@@ -72,26 +80,82 @@ export function reliability(groups: number[][]): ReliabilityResult {
   // same way as observedVar so the two are comparable.
   const noiseVar = valid.reduce((a, g) => a + g.length * (withinVar / g.length), 0) / n;
 
+  const trueVar = Math.max(0, observedVar - noiseVar);
   if (observedVar <= 0) {
-    return { reliability: 0, observedVar, noiseVar, grandMean, n };
+    return { reliability: 0, observedVar, noiseVar, withinVar, trueVar, grandMean, n };
   }
   return {
     reliability: Math.max(0, 1 - noiseVar / observedVar),
     observedVar,
     noiseVar,
+    withinVar,
+    trueVar,
     grandMean,
     n,
   };
 }
 
-// Below this, the ranking is mostly noise and we report raw counts
-// instead of a percentile. 0.5 = at least half the visible spread
-// between teams is real. Deliberately strict: the cost of showing
-// nothing is a fan seeing "not enough data yet", which is true and
-// understandable; the cost of showing a bad rank is telling them their
-// receivers are 3rd in the league when they're 16th.
-export const MIN_RELIABILITY = 0.5;
+// Two thresholds, not one, because a single cutoff makes the rank blink
+// on and off week to week.
+//
+// Reliability is itself an estimate from ~32 team means, so it carries
+// roughly 25% relative error and wobbles by ±0.06 between weeks even as
+// the underlying sample grows. Replaying the real 2025 season through a
+// single 0.5 cutoff, WR catch rate opened at Week 8 (0.50), closed at
+// Week 10 (0.49), stayed closed at Week 12 (0.44), then reopened at
+// Week 14 (0.55). A league rank that appears, vanishes, and reappears
+// is worse than either showing it or not.
+//
+// So: clear the higher bar to start ranking, and fall below the lower
+// bar to stop. Within a season the gate only opens once — see
+// resolveGate, which carries the decision forward.
+export const OPEN_RELIABILITY = 0.55;
+export const KEEP_RELIABILITY = 0.4;
 
-export function isRankable(groups: number[][]): boolean {
-  return reliability(groups).reliability >= MIN_RELIABILITY;
+/** Back-compat alias for the opening bar. */
+export const MIN_RELIABILITY = OPEN_RELIABILITY;
+
+export interface GateState {
+  /** Whether this metric was already being ranked. */
+  open: boolean;
+}
+
+// Hysteresis. `was` is the gate's state from the previous build; pass
+// undefined on the first build of a season.
+export function resolveGate(groups: number[][], was?: GateState): GateState & { reliability: number } {
+  const r = reliability(groups).reliability;
+  const open = was?.open ? r >= KEEP_RELIABILITY : r >= OPEN_RELIABILITY;
+  return { open, reliability: r };
+}
+
+export function isRankable(groups: number[][], was?: GateState): boolean {
+  return resolveGate(groups, was).open;
+}
+
+// The shrinkage constant K, derived rather than guessed.
+//
+// Shrinking by w = n/(n+K) is the optimal (empirical-Bayes) estimator
+// when K is the ratio of play-to-play noise to real spread in team
+// talent:
+//
+//   K = withinVar / trueVar
+//
+// Read plainly: K is how many plays it takes for the signal to
+// outweigh the noise. A metric where teams differ a lot relative to
+// play-to-play variance gets a small K and is trusted quickly. A metric
+// where teams barely differ gets a large K and stays regressed — which
+// is correct, not conservative, because there genuinely isn't much
+// there to measure.
+//
+// This matters most for the question "do the small-sample safeguards
+// ever let go?" A hand-picked K answers that arbitrarily. A derived K
+// answers it with the data: the pull that remains at full season is
+// exactly the pull the metric's own signal-to-noise justifies.
+//
+// Returns null when trueVar is 0 — no measurable spread, so no finite K
+// is right and the caller should not be ranking this metric at all.
+export function calibrateK(groups: number[][]): number | null {
+  const r = reliability(groups);
+  if (r.trueVar <= 0 || r.withinVar <= 0) return null;
+  return r.withinVar / r.trueVar;
 }
