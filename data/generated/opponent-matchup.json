@@ -101,13 +101,14 @@
   ],
   "weather": {
     "tempF": 86,
-    "wind": "10 mph",
+    "wind": "4 mph",
     "precipitation": "0%",
     "isDome": false
   },
   "bettingContext": {
     "spread": 3,
     "overUnder": 45.5,
-    "asOf": "2026-09-22"
-  }
+    "asOf": "2026-09-23"
+  },
+  "previewTake": "Here's the thing about Jacksonville: they're fine. Their offense ranks ninth and their defense seventh, which is respectable enough, but when you zoom in on the actual battle royale this week—our rushing attack in the 71st percentile against their 42nd-percentile run defense—we're looking at what might be the widest real statistical edge on anyone's board this Sunday. The Jaguars have had our number recently, throttling us 32-16 just two years ago, but that 2021 win where we put up 50 tells you this matchup can swing wildly depending on execution. We're getting three points and playing at Everbank, which is never a gift, though our recent form (0.09 net EPA/play over three games) suggests we're still finding our way while Jacksonville's been marginally sharper at 0.16. The loss of Mike Onwenu up front is a real complication we'll be managing, but if we can impose our ground game the way the film suggests we should be able to, this feels like a spot where the numbers are genuinely in our favor."
 }
