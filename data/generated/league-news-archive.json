@@ -1,5 +1,68 @@
 [
   {
+    "id": "50012387",
+    "publishedAt": "2026-09-23T11:55:54Z",
+    "type": "Injury",
+    "headline": "Sources: Panthers RB Jonathon Brooks set for surgery, IR move",
+    "summary": "Panthers running back Jonathon Brooks is expected to undergo surgery to repair a core muscle injury and is set to miss at least six weeks, sources told NFL Network.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50012387/sources-panthers-rb-jonathon-brooks-set-surgery-ir-move",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/michael-penix-being-healthy-was-my-target-i-feel-im-where-i-want-to-be",
+    "publishedAt": "2026-09-23T10:57:04.000Z",
+    "type": "Analysis",
+    "headline": "Michael Penix: Being healthy was my target, I feel I'm where I want to be",
+    "summary": "Michael Penix is set to make his first start for the Falcons since last November when the team faces the Packers on Thursday night and the quarterback shared his excitement about that return during a press conference on Tuesday.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/michael-penix-being-healthy-was-my-target-i-feel-im-where-i-want-to-be",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "50008765",
+    "publishedAt": "2026-09-23T10:40:07Z",
+    "type": "Transaction",
+    "headline": "Source: Niners signing veteran receiver Cooks to practice squad",
+    "summary": "The Niners are signing free agent wideout Brandin Cooks to their practice squad, a source told ESPN on Tuesday.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50008765/niners-signing-veteran-receiver-cooks-practice-squad",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "49998629",
+    "publishedAt": "2026-09-23T10:35:15Z",
+    "type": "Injury",
+    "headline": "Evaluating surprise early-season trends for 32 NFL teams",
+    "summary": "T.J. Watt is dominant again? The Packers can't run the ball? Drew Lock is fourth in QBR? Let's figure out which early stats and trends have staying power and which are a mirage.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49998629/evaluating-32-nfl-team-surprise-trends-2026-first-two-weeks-real-mirage",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50005196",
+    "publishedAt": "2026-09-23T10:00:04Z",
+    "type": "Injury",
+    "headline": "Why 49ers' Brock Purdy looks poised for his best season yet",
+    "summary": "Purdy is dominating through two weeks of the 2026 season despite many injuries at wide receiver. And it all started in training camp.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50005196/san-francisco-49ers-brock-purdy-2026-season-hot-start-expectations",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "49999959",
+    "publishedAt": "2026-09-23T10:00:02Z",
+    "type": "Analysis",
+    "headline": "Why Aaron Glenn is encouraged by the Jets' progress",
+    "summary": "New York is an overtime loss away from being undefeated after allowing the fewest yards through two weeks.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49999959/new-york-jets-progress-top-defense-aaron-glenn-encouraged",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50005134",
+    "publishedAt": "2026-09-23T10:00:01Z",
+    "type": "Analysis",
+    "headline": "Cowboys' CeeDee Lamb, George Pickens playing with 'no egos'",
+    "summary": "Lamb and Pickens believe their off-field connection is helping their on-field production.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50005134/nfl-dallas-cowboys-ceedee-lamb-george-pickens",
+    "sourceName": "ESPN"
+  },
+  {
     "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/derrick-henry-says-ravens-werent-good-enough-but-not-complaining-about-lack-of-carries",
     "publishedAt": "2026-09-23T08:37:43.000Z",
     "type": "Analysis",
@@ -196,15 +259,6 @@
     "summary": "Adam Vinatieri isn't in the NFL record book for the longest field goal, but he now is the Guinness World Record-holder for the highest field goal.",
     "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/adam-vinatieri-sets-guinness-world-record-for-the-highest-fg",
     "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "50008765",
-    "publishedAt": "2026-09-22T22:59:09Z",
-    "type": "Transaction",
-    "headline": "Source: Niners signing veteran receiver Cooks to practice squad",
-    "summary": "The Niners are signing free agent wideout Brandin Cooks to their practice squad, a source told ESPN on Tuesday.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50008765/niners-signing-veteran-receiver-cooks-practice-squad",
-    "sourceName": "ESPN"
   },
   {
     "id": "profootballrumors-https://www.profootballrumors.com/?p=420567",
