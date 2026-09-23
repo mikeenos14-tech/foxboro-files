@@ -108,6 +108,9 @@ rather than a confident grade.
 
 ## Documentation
 
+- **[HOW-THIS-WAS-BUILT.md](HOW-THIS-WAS-BUILT.md)** — plain-English walkthrough of the
+  tools, the architecture, and what went wrong along the way. Assumes no coding
+  background.
 - **[STATS-METHODOLOGY.md](STATS-METHODOLOGY.md)** — what every number means, which tier
   it belongs to, and where the estimates are estimates
 - **[FEATURES-SUMMARY.md](FEATURES-SUMMARY.md)** — feature-by-feature breakdown
