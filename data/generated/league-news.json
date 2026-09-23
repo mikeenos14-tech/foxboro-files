@@ -9,48 +9,48 @@
     "sourceName": "ESPN"
   },
   {
-    "id": "50007652",
-    "publishedAt": "2026-09-22T20:36:31Z",
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-giants-could-re-sign-brandon-allen-as-their-third-qb",
+    "publishedAt": "2026-09-22T22:54:43.000Z",
+    "type": "Injury",
+    "headline": "Report: Giants could re-sign Brandon Allen as their third QB",
+    "summary": "With Jaxson Dart's injury worse than expected, Jameis Winston will become the Giants' starting quarterback.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-giants-could-re-sign-brandon-allen-as-their-third-qb",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=420597",
+    "publishedAt": "2026-09-23T02:44:58.000Z",
+    "type": "Injury",
+    "headline": "Packers Unsure If WR Jayden Reed Will Return This Season",
+    "summary": "Packers head coach Matt LaFleur said on Tuesday (via ESPN’s Rob Demovsky) that it was “way too early” to make any prognostications about wide receiver Jayden Reed’s potential to return to the field this season. Reed, 26, was carted off the field after a scary injury on the second play of the Packers’ Week 2 […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/09/packers-unsure-if-wr-jayden-reed-will-return-this-season",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "50007939",
+    "publishedAt": "2026-09-22T22:10:49Z",
     "type": "Analysis",
-    "headline": "Packers lose RT Zach Bako-Bewele to season-ending surgery",
-    "summary": "Packers RT Zach Bako-Bewele, considered the team's best offensive lineman, is set to undergo knee surgery that will sideline him for 8-10 months.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50007652/packers-lose-rt-zach-bako-bewele-season-ending-surgery",
+    "headline": "Macdonald says Broncos' Payton accused Seahawks of cheating",
+    "summary": "Seahawks coach Mike Macdonald says the Broncos wrongfully accused Seattle of a Spygate-like cheating scandal in 2024. Denver coach Sean Payton ultimately \"backed off\" after the Seahawks threatened a lawsuit if the Broncos went public with the allegation.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50007939/macdonald-says-broncos-payton-accused-seahawks-cheating-2024",
     "sourceName": "ESPN"
   },
   {
-    "id": "50009432",
-    "publishedAt": "2026-09-23T00:05:50Z",
-    "type": "Analysis",
-    "headline": "Woman says she reported alleged 49ers impersonator to team in December",
-    "summary": "A woman who says she is a victim in the FBI's fraud case against Daejon Love said she sent a \"complaint/concern\" to the Niners in December 2025, eight months before Love was arrested and charged with wire fraud and conspiracy to commit wire fraud.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50009432/woman-says-reported-alleged-49ers-impersonator-team-december",
-    "sourceName": "ESPN"
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=420423",
+    "publishedAt": "2026-09-22T21:38:09.000Z",
+    "type": "Injury",
+    "headline": "Chargers To Place TEs David Njoku, Charlie Kolar On IR",
+    "summary": "SEPTEMBER 22: Kolar broke his forearm and will undergo surgery, Jeremy Fowler of ESPN reports. He plans on returning in four weeks. SEPTEMBER 21: The Chargers fell to 0-2 on Sunday. Their offense was once again a sore spot, and the unit suffered multiple injuries along the way. David Njoku was carted off the field […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/09/chargers-to-place-tes-david-njoku-charlie-kolar-on-ir",
+    "sourceName": "Pro Football Rumors"
   },
   {
-    "id": "50007133",
-    "publishedAt": "2026-09-22T19:55:23Z",
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/a-hit-from-the-texans-popped-joe-burrows-rib-back-into-place",
+    "publishedAt": "2026-09-22T21:24:56.000Z",
     "type": "Analysis",
-    "headline": "Sources: Bagent has concussion, leaving Bears' QB situation unclear",
-    "summary": "Bears quarterback Tyson Bagent is in the NFL's concussion protocol, sources told NFL Network's Ian Rapoport on Tuesday.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50007133/bagent-concussion-leaving-bears-qb-situation-muddled",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50007034",
-    "publishedAt": "2026-09-22T20:45:34Z",
-    "type": "Transaction",
-    "headline": "Jets sign ex-Titans QB Will Levis, release Bailey Zappe",
-    "summary": "The Jets have signed former Titans starting QB Will Levis to their practice squad and have released Bailey Zappe.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50007034/jets-sign-qb-levis-release-bailey-zappe",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50007840",
-    "publishedAt": "2026-09-22T19:54:53Z",
-    "type": "Analysis",
-    "headline": "Ian Rapoport reveals Case Keenum could start for Bears on MNF",
-    "summary": "Ian Rapoport reveals Case Keenum could start for Bears on MNF",
-    "sourceUrl": "https://www.espn.com/video/clip/_/id/50007840/ian-rapoport-reveals-case-keenum-start-bears-mnf",
-    "sourceName": "ESPN"
+    "headline": "A hit from the Texans popped Joe Burrow's rib back into place",
+    "summary": "On Sunday, Bengals quarterback Joe Burrow took five sacks and 10 total hits against the Texans.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/a-hit-from-the-texans-popped-joe-burrows-rib-back-into-place",
+    "sourceName": "Pro Football Talk"
   }
 ]
