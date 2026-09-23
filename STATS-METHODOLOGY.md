@@ -14,8 +14,8 @@ Used where the site is making a forward-looking claim ("who's going to win," "ho
 **Tier 2 — Opponent-adjusted, current-season only, NOT blended (descriptive numbers).**
 Used where the site is describing "how good has this team actually been this year" — deliberately not diluted with 2025 data, even though that means more noise early in the season. Where: **Home page's Team Strength EPA cards, Around the League's power rankings.**
 
-**Tier 3 — Not opponent-adjusted, not blended, but regressed to the league mean (position/player-level numbers).**
-Used for QB Deep Dive and Position Grades. No opponent-of-opponent math and no prior-season blend — but every per-play value IS shrunk toward the plays-weighted league mean by sample size before ranking (see `scripts/lib/shrink.ts`), because these run on far thinner samples than team-level stats. A TE grade can come off 10 targets; without shrinkage that's noise rendered as precision. Cards built on thin samples say so explicitly in the UI. Still doesn't correct for a unit having faced an unusually strong or weak set of opponents.
+**Tier 3 — Opponent-adjusted and regressed to the league mean, current-season only (position/player-level numbers).**
+Used for QB Deep Dive and Position Grades. These get the same leave-one-out opponent adjustment as Tier 2 (a unit that faced three top-five defenses shouldn't be graded as though it played nobody), then every per-play value is shrunk toward the plays-weighted league mean by sample size before ranking (see `scripts/lib/shrink.ts`), because they run on far thinner samples than team-level stats. A TE grade can come off 10 targets; without shrinkage that's noise rendered as precision. No prior-season blend — these describe this year. Cards built on thin samples say so explicitly in the UI.
 
 **What "opponent-adjusted" means, concretely:** a defense doesn't just get credit for "opponents scored X EPA against us" — it gets compared against what those same opponents do in their *other* games. Shutting down a normally-explosive offense counts for more than shutting down a team that's bad against everybody. (This was tightened up this session — see "Recent fixes" below.)
 
@@ -67,17 +67,28 @@ League-wide power rankings — **Tier 2**, deliberately "who's been best in 2026
 
 ## What each position grade actually measures (the honest version)
 
-| Group | What it measures | Adjusted? | Real per-player data? |
-|---|---|---|---|
-| QB | EPA/play, cleanly attributed via `passer_id` | No | Yes |
-| RB | EPA/play, via `rusher_id` | No | Yes |
-| WR / TE | EPA/play, via `receiver_id` | No | Yes |
-| OL | Blends two signals: sacks allowed that weren't the QB's own fault (real FTN charting data), and pressure rate allowed (sacks + QB hits) | No | No — team-wide, no free per-lineman blocking data exists |
-| Edge | Sack rate generated | No | Team-wide only *(see note below — real per-player data exists but isn't wired in yet)* |
-| Interior DL | Rush EPA allowed | No | Same as above |
-| Secondary | Pass EPA allowed | No | Same as above |
+All eight are opponent-adjusted and sample-shrunk. The honest distinction is not the math — it's **whether the card is really about a position group at all.**
 
-**Note on the defensive front/secondary:** the *grades* are still team-wide proxies, but each card now also shows real per-player sack, QB hit, tackle-for-loss, forced-fumble, interception and pass-defensed totals with a named leader, pulled from nflverse's own player-attribution columns.
+| Card | What it measures | Genuinely per-position? |
+|---|---|---|
+| QB | EPA/dropback, attributed via `passer_id` | Yes |
+| RB | EPA/carry, via `rusher_id` | Yes |
+| WR / TE | EPA/target, via `receiver_id` | Yes, but see the confound below |
+| Pass Protection | Pressure rate allowed (sacks + QB hits) | **No — team-wide**, and partly the QB's own time to throw |
+| Pass Rush | Sack rate generated | **No — team-wide.** Edge rushers, interior linemen and blitzers all included |
+| Run Defense | Rush EPA allowed | **No — team-wide.** Front seven and run-support safeties together |
+| Pass Defense | Pass EPA allowed | **No — team-wide.** Coverage and pass rush aren't separable in this data |
+
+Those bottom four were previously labelled **OL, Edge, Interior DL and Secondary**, which promised something free data cannot deliver: real per-position grading needs every player charted on every snap, which is PFF's entire business. They're now named for what they measure. "Secondary 94" read as "our defensive backs are elite" when it meant "our pass defense has been good" — and a good share of that is the same pass rush the Pass Rush card was separately taking credit for, so the two cards were partly counting one fact twice.
+
+**Per-player context:** each of those four also shows real per-player sack, QB hit, tackle-for-loss, forced-fumble, interception and pass-defensed totals with a named leader, from nflverse's own attribution columns.
+
+**Two grades carry honest caveats in the UI:**
+
+- **RB and TE are marked "noisy stat."** Measured against the *completed* 2025 season (`npm run calibrate:shrink 2025`), RB EPA/carry has a reliability of 0.41 and TE EPA/target 0.29, against 0.74–0.77 for the team-level EPA metrics. Most of what separates teams on those two is noise even in January — rushing efficiency being largely blocking, scheme and game script is a long-standing public finding, and tight end target volume is simply too low to separate 32 teams. The grades stay, because they're the best answer the data supports; they just shouldn't be read with the same confidence as the QB number beside them.
+- **WR/TE EPA per target mostly measures the quarterback.** A receiver catching passes from an accurate QB grades well whatever he does. So those cards carry a second, QB-independent measure built from FTN charting — catch rate on balls charted *catchable*, yards after catch, drops, contested targets. See "Only ranking what's measurable" below for why that one often shows counts instead of a percentile.
+
+**LB has no card.** It used to show a fabricated grade merged in from fixture data. No free metric cleanly isolates linebacker play, so the site shows nothing there rather than something invented. `scripts/verify-data.ts` asserts no LB card can come back.
 
 **LB has no card.** It used to show a fabricated grade and an invented claim about the defense, merged in from fixture data. No free metric cleanly isolates linebacker play, so the site now shows nothing there rather than something made up.
 
@@ -106,9 +117,37 @@ Fan Take (recaps), preview takes (Next Game), and the beat digest (News) are the
 
 Four scheduled runs: ~5am ET daily (catches Thursday/Monday night games), ~5pm ET Sunday (after early games), ~1am ET Monday (after the full Sunday slate including Sunday Night), and ~1pm ET Monday (added this session — nflverse's play-by-play file isn't actually finalized until roughly midday Monday, which is why the League tab used to look "half-updated" right after Sunday).
 
-## The "last N games" filter — how it works and why no database
+## The recent-form filter — how it works and why no database
 
-Three places have it: QB Deep Dive, Team Strength, Position Grades. Every possible window (1 game back, 2 games back, ... up to however many games have been played) is precomputed at build time, not queried live — nflverse hosts each season's play-by-play as one complete, re-fetchable file, so there's no need for a database to slice it arbitrarily. QB and Position Grades windows are simple raw slices (no cross-team math involved). Team Strength's windows are calendar-week-based rather than per-team-game-count, specifically so the real opponent-adjustment math stays valid across teams with different bye weeks — full explanation is in the code comments if you ever want the details (`scripts/lib/statWindows.ts`).
+Three places have it: QB Deep Dive, Team Strength, Position Grades. It offers **last game, last 3, last 5** — a fixed set, not one window per game played. It used to build every N from 1 up to games played, which was two options in Week 2 and nineteen by Week 17, almost all of them ("Last 13 Games") things nobody wants. Last-1/3/5 is what ESPN, PFF and the fantasy tools settle on, because it's what people actually reason in. A window only appears once it differs from the full season: at exactly 3 games played, "Last 3 Games" *is* the season, so offering both would be two names for one number.
+
+Each window is precomputed at build time, not queried live — nflverse hosts each season's play-by-play as one complete, re-fetchable file, so there's no need for a database to slice it arbitrarily. QB and Position Grades windows are simple raw slices (no cross-team math involved). Team Strength's windows are calendar-week-based rather than per-team-game-count, specifically so the real opponent-adjustment math stays valid across teams with different bye weeks — full explanation is in the code comments if you ever want the details (`scripts/lib/statWindows.ts`).
+
+## Only ranking what's measurable
+
+Shrinking toward the league mean stops one small-sample team from outranking a well-measured one. It does **not** stop a ranking that's entirely noise: when the whole league is small-sample, every team gets pulled by roughly the same weight, the ordering survives almost intact, and the table still looks authoritative.
+
+So before any league rank is published for the receiver-isolated metrics, the site compares the spread actually observed between teams against the spread random chance alone would produce at those sample sizes (`scripts/lib/reliability.ts` — a one-way intraclass correlation). Two games into 2026, WR catch-rate-on-catchable scored **0.00**: teams differed by *less* than coin-flipping explains. The raw table ran 80% to 100% and looked like a real ladder. It wasn't one — New England sat 3rd, and flipping a single drop moved them to 16th.
+
+Below a reliability of 0.55 the card shows raw counts instead ("20 of 21 catchable balls caught · 1 drop · 3.9 YAC/rec") and says why there's no rank. Replaying the completed 2025 season week by week, a single 0.5 threshold made the rank blink on at Week 8, off at Week 10, and back on at Week 14 — reliability is itself an estimate off 32 team means and wobbles ±0.06. So the gate has hysteresis: it opens at 0.55, stays until it falls under 0.40, and the decision persists per season in `data/generated/metric-gates.json`.
+
+`npm run calibrate:shrink 2025` measures the shrinkage constants against a finished season rather than leaving them as four numbers picked by feel. The hand-picked values turned out 5–18× too small — so if anything the shrink was too weak. It barely matters either way, because the site displays percentile *ranks* and shrinking every team toward the same mean is nearly order-preserving: swapping K=40 for K=221 moves grades by at most 6 points.
+
+---
+
+## Guarding against numbers that are wrong but self-consistent
+
+Three counting stats shipped wrong, and no internal check could have caught any of them — the site's numbers agreed with each other perfectly and simply didn't match football:
+
+- A **fumble on a reception** was attributed to nobody, because fumbles were read off rushing rows only.
+- The count was of fumbles **lost**, not fumbles, so one that bounced out of bounds never appeared.
+- **Every QB scramble in the league** was dropped — 141 of 1,675 run plays — because nflverse leaves `rusher_id` empty on those rows and only fills `rusher_player_id`. Drake Maye's rushing line read 1 carry for 3 yards. It was 11 for 64.
+
+All three were found by a reader noticing a number looked wrong, which is the worst way to find them. So `scripts/verify-data.ts` now diffs the leaderboards against **nflverse's own season aggregation of the same games** — carries, yards, TDs, receptions, targets, and fumbles per play type. An independently-produced aggregation is the only thing that catches this whole class. It found a fourth discrepancy within a minute of existing (kneels, which every official box score counts as carries).
+
+It also asserts cross-file agreement: team EPA must match the league rankings file to 1e-9, position-group cards must match the league table, and no LB card may exist. CI gates on it, and on 108 unit tests (`npm test`) covering the shrinkage, prior-blend taper, win probability, reliability gate, window construction and the stat math.
+
+---
 
 ## Recent fixes this session, if useful context
 
