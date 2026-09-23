@@ -1,12 +1,165 @@
 [
   {
+    "id": "50009432",
+    "publishedAt": "2026-09-23T00:05:50Z",
+    "type": "Analysis",
+    "headline": "Woman says she reported alleged 49ers impersonator to team in December",
+    "summary": "A woman who says she is a victim in the FBI's fraud case against Daejon Love said she sent a \"complaint/concern\" to the Niners in December 2025, eight months before Love was arrested and charged with wire fraud and conspiracy to commit wire fraud.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50009432/woman-says-reported-alleged-49ers-impersonator-team-december",
+    "sourceName": "ESPN"
+  },
+  {
     "id": "49949224",
-    "publishedAt": "2026-09-22T21:01:02Z",
+    "publishedAt": "2026-09-22T23:54:54Z",
     "type": "Transaction",
     "headline": "Rest-of-season rankings: Walker, Shough on the rise while Maye, McConkey fall",
     "summary": "Need a quick free agent pickup -- or roster overhaul -- after Week 2? These rankings are designed to help.",
     "sourceUrl": "https://www.espn.com/fantasy/football/story/_/id/49949224/fantasy-football-2026-updated-rest-season-rankings",
     "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/colts-chiefs-generated-24-3-million-viewers-on-average",
+    "publishedAt": "2026-09-22T23:47:42.000Z",
+    "type": "Analysis",
+    "headline": "Colts-Chiefs generated 24.3 million viewers, on average",
+    "summary": "Based on the way the respective teams played in Week 1, many expected Sunday night's game between the Colts and Chiefs to be a snoozer.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/colts-chiefs-generated-24-3-million-viewers-on-average",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/adam-vinatieri-sets-guinness-world-record-for-the-highest-fg",
+    "publishedAt": "2026-09-22T23:41:58.000Z",
+    "type": "Analysis",
+    "headline": "Adam Vinatieri sets Guinness World Record for the highest FG",
+    "summary": "Adam Vinatieri isn't in the NFL record book for the longest field goal, but he now is the Guinness World Record-holder for the highest field goal.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/adam-vinatieri-sets-guinness-world-record-for-the-highest-fg",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "50008765",
+    "publishedAt": "2026-09-22T22:59:09Z",
+    "type": "Transaction",
+    "headline": "Source: Niners signing veteran receiver Cooks to practice squad",
+    "summary": "The Niners are signing free agent wideout Brandin Cooks to their practice squad, a source told ESPN on Tuesday.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50008765/niners-signing-veteran-receiver-cooks-practice-squad",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=420567",
+    "publishedAt": "2026-09-22T22:54:52.000Z",
+    "type": "Injury",
+    "headline": "Jets Make Several Roster Moves",
+    "summary": "Dealing with a few serious injuries, the Jets shook up their 53-man roster on Tuesday. The team placed defensive tackle David Onyemata, receiver Arian Smith and linebacker Marcelino McCrary-Ball on IR, Rich Cimini of ESPN reports. To take their spots, the Jets signed defensive end Jack Heflin, receiver Malik McClain and linebacker Troy Reeder (story) […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/09/jets-make-several-roster-moves",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-giants-could-re-sign-brandon-allen-as-their-third-qb",
+    "publishedAt": "2026-09-22T22:54:43.000Z",
+    "type": "Injury",
+    "headline": "Report: Giants could re-sign Brandon Allen as their third QB",
+    "summary": "With Jaxson Dart's injury worse than expected, Jameis Winston will become the Giants' starting quarterback.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-giants-could-re-sign-brandon-allen-as-their-third-qb",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/wr-brandin-cooks-to-sign-with-49ers-practice-squad",
+    "publishedAt": "2026-09-22T22:49:49.000Z",
+    "type": "Transaction",
+    "headline": "WR Brandin Cooks to sign with 49ers practice squad",
+    "summary": "The 49ers are adding a veteran wide receiver to their practice squad.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/wr-brandin-cooks-to-sign-with-49ers-practice-squad",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-jets-te-mason-taylor-week-to-week-with-thumb-injury",
+    "publishedAt": "2026-09-22T22:38:27.000Z",
+    "type": "Injury",
+    "headline": "Report: Jets TE Mason Taylor week-to-week with thumb injury",
+    "summary": "The Jets placed three players on injured reserve Tuesday and they may be missing another member of their offense for their Week 3 game in Detroit.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-jets-te-mason-taylor-week-to-week-with-thumb-injury",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jayden-reed-back-in-green-bay-too-early-to-tell-if-hell-play-again-this-season",
+    "publishedAt": "2026-09-22T22:18:28.000Z",
+    "type": "Analysis",
+    "headline": "Jayden Reed back in Green Bay, \"too early\" to tell if he'll play again this season",
+    "summary": "Packers wide receiver Jayden Reed has returned to Green Bay.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jayden-reed-back-in-green-bay-too-early-to-tell-if-hell-play-again-this-season",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/vikings-add-p-johnny-hekker-rb-jaret-patterson-to-practice-squad",
+    "publishedAt": "2026-09-22T22:13:44.000Z",
+    "type": "Injury",
+    "headline": "Vikings add P Johnny Hekker, RB Jaret Patterson to practice squad",
+    "summary": "With punter Brett Thorson set to miss some time with a hamstring injury, the Vikings have added a veteran punter to their practice squad.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/vikings-add-p-johnny-hekker-rb-jaret-patterson-to-practice-squad",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "50007939",
+    "publishedAt": "2026-09-22T22:10:49Z",
+    "type": "Analysis",
+    "headline": "Macdonald says Broncos' Payton accused Seahawks of cheating",
+    "summary": "Seahawks coach Mike Macdonald says the Broncos wrongfully accused Seattle of a Spygate-like cheating scandal in 2024. Denver coach Sean Payton ultimately \"backed off\" after the Seahawks threatened a lawsuit if the Broncos went public with the allegation.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50007939/macdonald-says-broncos-payton-accused-seahawks-cheating-2024",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-rico-dowdle-day-to-day-with-toe-injury",
+    "publishedAt": "2026-09-22T22:03:21.000Z",
+    "type": "Injury",
+    "headline": "Report: Rico Dowdle day-to-day with toe injury",
+    "summary": "Steelers running back Rico Dowdle was able to return to Sunday's loss to the Patriots after being called questionable to return from a toe injury in the first half, but he was ultimately ruled out of the game.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-rico-dowdle-day-to-day-with-toe-injury",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=420573",
+    "publishedAt": "2026-09-22T22:00:46.000Z",
+    "type": "Transaction",
+    "headline": "49ers Add WR Brandin Cooks To P-Squad",
+    "summary": "Veteran wide receiver Brandin Cooks visited the Ravens last week, but it did not lead to an agreement. Cooks is now joining San Francisco’s practice squad, Adam Schefter of ESPN reports. The 49ers coasted to a 2-0 start with blowout wins over the Rams and Dolphins, but they are bringing in Cooks after their receiving […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/09/49ers-add-wr-brandin-cooks-to-p-squad",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=420423",
+    "publishedAt": "2026-09-22T21:38:09.000Z",
+    "type": "Injury",
+    "headline": "Chargers To Place TEs David Njoku, Charlie Kolar On IR",
+    "summary": "SEPTEMBER 22: Kolar broke his forearm and will undergo surgery, Jeremy Fowler of ESPN reports. He plans on returning in four weeks. SEPTEMBER 21: The Chargers fell to 0-2 on Sunday. Their offense was once again a sore spot, and the unit suffered multiple injuries along the way. David Njoku was carted off the field […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/09/chargers-to-place-tes-david-njoku-charlie-kolar-on-ir",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/a-hit-from-the-texans-popped-joe-burrows-rib-back-into-place",
+    "publishedAt": "2026-09-22T21:24:56.000Z",
+    "type": "Analysis",
+    "headline": "A hit from the Texans popped Joe Burrow's rib back into place",
+    "summary": "On Sunday, Bengals quarterback Joe Burrow took five sacks and 10 total hits against the Texans.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/a-hit-from-the-texans-popped-joe-burrows-rib-back-into-place",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=420563",
+    "publishedAt": "2026-09-22T21:22:33.000Z",
+    "type": "Transaction",
+    "headline": "Vikings To Sign P Johnny Hekker",
+    "summary": "The Vikings released punter Johnny Hekker on Aug. 30, but a reunion is taking place three weeks later. Hekker has agreed to a deal with Minnesota, Mike Garafolo of NFL Network reports. Although the Vikings gave Hekker a guaranteed $1.26MM in free agency during the offseason, he lost their punting competition to rookie Brett Thorson […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/09/vikings-to-sign-p-johnny-hekker-2",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-macdonald-recounts-cold-war-with-sean-payton-during-the-2024-season",
+    "publishedAt": "2026-09-22T21:05:08.000Z",
+    "type": "Analysis",
+    "headline": "Mike Macdonald recounts \"Cold War\" with Sean Payton over cheating suspicions during the 2024 season",
+    "summary": "The Week 6 game between the Broncos and Seahawks has gained a new subplot.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-macdonald-recounts-cold-war-with-sean-payton-during-the-2024-season",
+    "sourceName": "Pro Football Talk"
   },
   {
     "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/lions-place-db-avonte-maddox-on-ir-sign-s-bishop-fitzgerald",
@@ -52,15 +205,6 @@
     "summary": "The Jets are placing three players on injured reserve, Rich Cimini of ESPN reports.",
     "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jets-place-three-players-on-injured-reserve",
     "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "50007939",
-    "publishedAt": "2026-09-22T20:39:41Z",
-    "type": "Analysis",
-    "headline": "Macdonald says Broncos' Payton accused Seahawks of cheating",
-    "summary": "Seahawks coach Mike Macdonald says the Broncos wrongfully accused Seattle of a Spygate-like cheating scandal in 2024. Denver coach Sean Payton ultimately \"backed off\" after the Seahawks threatened a lawsuit if they went public with the allegation.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50007939/macdonald-says-broncos-payton-accused-seahawks-cheating-2024",
-    "sourceName": "ESPN"
   },
   {
     "id": "50007211",
@@ -1312,15 +1456,6 @@
     "summary": "Cardinals cornerback Will Johnson's season might be finished.",
     "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cardinals-cb-will-johnson-has-a-neck-injury-that-could-end-his-season",
     "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=420423",
-    "publishedAt": "2026-09-21T21:57:09.000Z",
-    "type": "Injury",
-    "headline": "Chargers To Place TEs David Njoku, Charlie Kolar On IR",
-    "summary": "The Chargers fell to 0-2 on Sunday. Their offense was once again a sore spot, and the unit suffered multiple injuries along the way. David Njoku was carted off the field and did not return. Fellow tight end Charlie Kolar was also injured in Week 2, with ESPN’s Kris Rhim noting his arm was in a sling […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/09/chargers-to-place-tes-david-njoku-charlie-kolar-on-ir",
-    "sourceName": "Pro Football Rumors"
   },
   {
     "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cowboys-cb-cobie-durant-s-p-j-locke-will-miss-a-few-weeks-with-injuries",
