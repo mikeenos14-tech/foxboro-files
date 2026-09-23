@@ -6,7 +6,28 @@
     "week": 3,
     "injury": "Knee",
     "gameStatus": "Questionable",
-    "lastUpdated": "2026-09-22T20:56Z"
+    "lastUpdated": "2026-09-23T20:17:57.341Z",
+    "practiceStatus": "Limited"
+  },
+  {
+    "playerId": "4039505",
+    "playerName": "Reggie Gilliam",
+    "position": "FB",
+    "week": 3,
+    "injury": "Knee",
+    "gameStatus": "Questionable",
+    "lastUpdated": "2026-09-23T20:17:57.341Z",
+    "practiceStatus": "Limited"
+  },
+  {
+    "playerId": "16771",
+    "playerName": "Morgan Moses",
+    "position": "OT",
+    "week": 3,
+    "injury": "Foot",
+    "gameStatus": "Questionable",
+    "lastUpdated": "2026-09-23T20:17:57.341Z",
+    "practiceStatus": "Limited"
   },
   {
     "playerId": "4831959",
@@ -15,16 +36,18 @@
     "week": 3,
     "injury": "Thigh",
     "gameStatus": "Questionable",
-    "lastUpdated": "2026-09-20T19:42Z"
+    "lastUpdated": "2026-09-23T20:17:57.341Z",
+    "practiceStatus": "Limited"
   },
   {
-    "playerId": "3916923",
-    "playerName": "Carlton Davis III",
-    "position": "CB",
+    "playerId": "4698181",
+    "playerName": "Quintayvious Hutchins",
+    "position": "LB",
     "week": 3,
-    "injury": "Neck",
+    "injury": "Knee",
     "gameStatus": "Questionable",
-    "lastUpdated": "2026-09-22T20:56Z"
+    "lastUpdated": "2026-09-23T20:17:57.341Z",
+    "practiceStatus": "Did Not Participate"
   },
   {
     "playerId": "3915525",
@@ -33,16 +56,8 @@
     "week": 3,
     "injury": "Shoulder",
     "gameStatus": "Questionable",
-    "lastUpdated": "2026-09-20T18:50Z"
-  },
-  {
-    "playerId": "4428232",
-    "playerName": "Dell Pettus",
-    "position": "S",
-    "week": 3,
-    "injury": "Ankle",
-    "gameStatus": "Questionable",
-    "lastUpdated": "2026-09-20T19:46Z"
+    "lastUpdated": "2026-09-23T20:17:57.341Z",
+    "practiceStatus": "Did Not Participate"
   },
   {
     "playerId": "4428930",
@@ -51,7 +66,8 @@
     "week": 3,
     "injury": "Shoulder",
     "gameStatus": "Questionable",
-    "lastUpdated": "2026-09-20T19:33Z"
+    "lastUpdated": "2026-09-23T20:17:57.341Z",
+    "practiceStatus": "Did Not Participate"
   },
   {
     "playerId": "3122793",
@@ -67,8 +83,19 @@
     "playerName": "Brenden Schooler",
     "position": "S",
     "week": 3,
-    "injury": "Undisclosed",
+    "injury": "Back",
     "gameStatus": "Out",
-    "lastUpdated": "2026-09-08T20:42Z"
+    "lastUpdated": "2026-09-23T20:17:57.341Z",
+    "practiceStatus": "Limited"
+  },
+  {
+    "playerId": "patriots-carlton-davis",
+    "playerName": "Carlton Davis III",
+    "position": "CB",
+    "week": 3,
+    "injury": "Neck",
+    "practiceStatus": "Full",
+    "gameStatus": null,
+    "lastUpdated": "2026-09-23T20:17:57.341Z"
   }
 ]

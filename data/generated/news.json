@@ -1,5 +1,32 @@
 [
   {
+    "id": "56613b7d-ad9d-4eaa-9a35-e279afe36f68",
+    "publishedAt": "2026-09-23T20:17:57.000Z",
+    "type": "Injury",
+    "headline": "Week 3 Injury Report: Patriots at Jaguars",
+    "summary": "The New England Patriots and the Jacksonville Jaguars announce the following player injuries and practice participation ahead of their Week 3 game.",
+    "sourceUrl": "https://www.patriots.com/news/week-3-injury-report-patriots-at-jaguars",
+    "sourceName": "Patriots.com"
+  },
+  {
+    "id": "4a30608f-ac63-4ea2-82c4-31851162ed4a",
+    "publishedAt": "2026-09-23T20:00:02.000Z",
+    "type": "Transaction",
+    "headline": "Patriots Place S Dell Pettus on Injured Reserve; Make Additional Roster Moves",
+    "summary": "The Patriots announced today that they have signed LB Jose Ramirez to the 53-man roster from the practice squad and placed S Dell Pettus on injured reserve. In addition, the Patriots signed LB Benton Whitley to the practice squad.",
+    "sourceUrl": "https://www.patriots.com/news/patriots-place-s-dell-pettus-on-injured-reserve-make-additional-roster-moves",
+    "sourceName": "Patriots.com"
+  },
+  {
+    "id": "fdb0d224-5464-44f2-b4fc-7572dd84f43d",
+    "publishedAt": "2026-09-23T17:48:00.000Z",
+    "type": "Analysis",
+    "headline": "How to Watch and Stream Sunday's Patriots Week 3 Game Against the Jaguars",
+    "summary": "Complete broadcast information for this week's game between the New England Patriots and the Jacksonville Jaguars on Sunday, September 27, 2026 at 1 PM ET.",
+    "sourceUrl": "https://www.patriots.com/news/how-to-watch-and-stream-sunday-s-patriots-week-3-game-against-the-jaguars",
+    "sourceName": "Patriots.com"
+  },
+  {
     "id": "8c31f7c2-abef-4409-b7be-04adc2a2ff77",
     "publishedAt": "2026-09-23T17:48:00.000Z",
     "type": "Analysis",
@@ -9,39 +36,12 @@
     "sourceName": "Patriots.com"
   },
   {
-    "id": "5c411f81-1b2e-4fe4-8915-c15a58a3fc33",
-    "publishedAt": "2026-09-22T20:00:00.000Z",
-    "type": "Transaction",
-    "headline": "Patriots Place OL Mike Onwenu on Injured Reserve; Make Additional Roster Moves",
-    "summary": "The Patriots announced today that they have signed P Mitch Wishnowsky to the 53-man roster from the practice squad and placed OL Mike Onwenu on injured reserve. In addition, the Patriots signed TE Tanner Conner to the practice squad.",
-    "sourceUrl": "https://www.patriots.com/news/patriots-place-ol-mike-onwenu-on-injured-reserve-make-additional-roster-moves",
-    "sourceName": "Patriots.com"
-  },
-  {
-    "id": "00ca2ff5-8585-42e4-8f45-2d8f5cd88771",
-    "publishedAt": "2026-09-22T19:35:40.000Z",
+    "id": "c4fe2dfb-ef10-4a64-91b5-bf6216ba5ba7",
+    "publishedAt": "2026-09-23T10:00:00.000Z",
     "type": "Analysis",
-    "headline": "The highest field goal in the world: Patriots legend Adam Vinatieri sets a GUINNESS WORLD RECORDS™ title at 3,454 meters on the Jungfraujoch – Top of Europe",
-    "summary": "The New England Patriots, six-time Super Bowl champions of the NFL, set a new world record together with Jungfraubahnen on September 22, 2026: At an altitude of 3,454 meters, legendary kicker Adam Vinatieri converted a field goal on the Jungfraujoch – Top of Europe against the spectacular backdrop of the Swiss Alps. GUINNESS WORLD RECORDS confirmed the title for the highest field goal in the world.",
-    "sourceUrl": "https://www.patriots.com/news/the-highest-field-goal-in-the-world-patriots-legend-adam-vinatieri-sets-a-guinness-world-recordstm-title-at-3-454-meters-on-the-jungfraujoch-top-of-europe",
-    "sourceName": "Patriots.com"
-  },
-  {
-    "id": "fdb0d224-5464-44f2-b4fc-7572dd84f43d",
-    "publishedAt": "2026-09-22T18:38:36.000Z",
-    "type": "Analysis",
-    "headline": "How to Watch and Stream Sunday's Patriots Week 3 Game Against the Jaguars",
-    "summary": "Complete broadcast information for this week's game between the New England Patriots and the Jacksonville Jaguars on Sunday, September 27, 2026 at 1 PM ET.",
-    "sourceUrl": "https://www.patriots.com/news/how-to-watch-and-stream-sunday-s-patriots-week-3-game-against-the-jaguars",
-    "sourceName": "Patriots.com"
-  },
-  {
-    "id": "9f1a5b8e-16d4-477c-977d-835776222187",
-    "publishedAt": "2026-09-22T18:22:00.000Z",
-    "type": "Analysis",
-    "headline": "After Further Review: Drake Maye film breakdown, defense review, and quick-hit film notes from the Week 2 win over the Steelers",
-    "summary": "The Patriots defense dominated the Steelers in man coverage, but what did the film say about Drake Maye's performance?",
-    "sourceUrl": "https://www.patriots.com/news/after-further-review-drake-maye-film-breakdown-defense-review-and-quick-hit-film-notes-from-the-week-2-win-over-the-steelers",
+    "headline": "Transcript: Head Coach Mike Vrabel Press Conference 9/23",
+    "summary": "Read the full transcript from Head Coach Mike Vrabel's press conference on Wednesday, September 23, 2026.",
+    "sourceUrl": "https://www.patriots.com/news/transcript-head-coach-mike-vrabel-press-conference-9-23",
     "sourceName": "Patriots.com"
   },
   {
