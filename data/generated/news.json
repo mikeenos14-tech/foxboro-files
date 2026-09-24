@@ -1,5 +1,14 @@
 [
   {
+    "id": "50016860",
+    "publishedAt": "2026-09-24T02:08:33Z",
+    "type": "Transaction",
+    "headline": "Patriots get positive sign from rookie TE Eli Raridon",
+    "summary": "Mike Reiss breaks down Eli Raridon's return to practice as the Patriots monitor his status ahead of Sunday's matchup with Jacksonville.",
+    "sourceUrl": "https://www.espn.com/video/clip/_/id/50016860/patriots-get-positive-sign-rookie-te-eli-raridon",
+    "sourceName": "ESPN"
+  },
+  {
     "id": "56613b7d-ad9d-4eaa-9a35-e279afe36f68",
     "publishedAt": "2026-09-23T20:17:57.000Z",
     "type": "Injury",
@@ -43,15 +52,6 @@
     "summary": "Read the full transcript from Head Coach Mike Vrabel's press conference on Wednesday, September 23, 2026.",
     "sourceUrl": "https://www.patriots.com/news/transcript-head-coach-mike-vrabel-press-conference-9-23",
     "sourceName": "Patriots.com"
-  },
-  {
-    "id": "49995833",
-    "publishedAt": "2026-09-21T03:00:39Z",
-    "type": "Analysis",
-    "headline": "Patriots get banged up in win",
-    "summary": "Patriots get banged up in win",
-    "sourceUrl": "https://www.espn.com/video/clip/_/id/49995833/patriots-get-banged-win",
-    "sourceName": "ESPN"
   },
   {
     "id": "49990760",
