@@ -9,24 +9,6 @@
     "sourceName": "Pro Football Rumors"
   },
   {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=420378",
-    "publishedAt": "2026-09-24T03:30:21.000Z",
-    "type": "Analysis",
-    "headline": "Bengals’ Creative Defensive Overhaul Produces Promising Early Returns",
-    "summary": "Through two games, the Bengals have a defense ranked eighth in points allowed and fifth in EPA per play. A franchise that threw just about all its offseason resources into an overdue repair — as no notable staff changes occurred — has seen the effort produce encouraging results. A Joe Burrow-fronted team may finally have, […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/09/420378",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=420633",
-    "publishedAt": "2026-09-23T20:52:23.000Z",
-    "type": "Injury",
-    "headline": "Panthers Place RB Jonathon Brooks On IR, Work Out Austin Ekeler",
-    "summary": "3:52pm: Ekeler’s workout went well, but he will not sign with the Panthers today, a league source told Mike Kaye of ESPN. It’s unknown if Ekeler has set up any other visits around the league. 8:09am: The Panthers will go at least six weeks without running back Jonathon Brooks, who is expected to have surgery […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/09/panthers-to-place-rb-jonathon-brooks-on-ir-work-out-austin-ekeler",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
     "id": "50015866",
     "publishedAt": "2026-09-23T22:50:18Z",
     "type": "Injury",
@@ -36,12 +18,21 @@
     "sourceName": "ESPN"
   },
   {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=420730",
-    "publishedAt": "2026-09-24T00:59:52.000Z",
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=420378",
+    "publishedAt": "2026-09-24T03:30:21.000Z",
+    "type": "Analysis",
+    "headline": "Bengals’ Creative Defensive Overhaul Produces Promising Early Returns",
+    "summary": "Through two games, the Bengals have a defense ranked eighth in points allowed and fifth in EPA per play. A franchise that threw just about all its offseason resources into an overdue repair — as no notable staff changes occurred — has seen the effort produce encouraging results. A Joe Burrow-fronted team may finally have, […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/09/420378",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=420748",
+    "publishedAt": "2026-09-24T03:21:27.000Z",
     "type": "Injury",
-    "headline": "Colts Work Out DEs Carl Lawson, David Ojabo, Preston Smith",
-    "summary": "The Colts explored potential additions to their defensive end room on Wednesday, hosting tryouts for Carl Lawson, David Ojabo, and Preston Smith, per NFL Network’s Mike Garafolo. Indianapolis just placed Micheal Clemons on injured reserve on Tuesday, leaving them with just five edge rushers on the active roster and one – undrafted rookie Mitchell Melton […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/09/colts-work-out-des-carl-lawson-david-ojabo-preston-smith",
+    "headline": "Potential Trade Interest In Cardinals’ Marvin Harrison Jr.",
+    "summary": "After a solid rookie campaign Cardinals wide receiver Marvin Harrison Jr. saw injuries derail Year 2. So far, through two games, improved health hasn’t quite led to improved results in his third season, and according to ESPN’s Dan Graziano, some in the league are starting to wonder if Harrison might become a candidate to be traded. […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/09/potential-trade-interest-in-cardinals-marvin-harrison-jr",
     "sourceName": "Pro Football Rumors"
   },
   {
@@ -52,5 +43,14 @@
     "summary": "After a short video clip showed a number of Commanders walking past Jayden Daniels as he was being helped by medical personnel Sunday, many players fired back at the takes being spouted on social media, emphasizing, \"It's bulls--- what people are saying.\"",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/50015858/commanders-respond-viral-video-clip-reject-notion-abandoned-injured-jayden-daniels",
     "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/the-joey-porter-jr-situation-lingers-with-no-end-in-sight",
+    "publishedAt": "2026-09-23T20:57:05.000Z",
+    "type": "Analysis",
+    "headline": "The Joey Porter Jr. situation lingers, with no end in sight",
+    "summary": "With the Steelers facing the Bengals this weekend — and receivers Ja'Marr Chase and Tee Higgins — it would be helpful to have cornerback Joey Porter Jr. on the field.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/the-joey-porter-jr-situation-lingers-with-no-end-in-sight",
+    "sourceName": "Pro Football Talk"
   }
 ]
