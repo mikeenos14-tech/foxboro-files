@@ -1,7 +1,25 @@
 [
   {
+    "id": "56613b7d-ad9d-4eaa-9a35-e279afe36f68",
+    "publishedAt": "2026-09-24T20:13:00.000Z",
+    "type": "Injury",
+    "headline": "Week 3 Injury Report: Patriots at Jaguars",
+    "summary": "The New England Patriots and the Jacksonville Jaguars announce the following player injuries and practice participation ahead of their Week 3 game.",
+    "sourceUrl": "https://www.patriots.com/news/week-3-injury-report-patriots-at-jaguars",
+    "sourceName": "Patriots.com"
+  },
+  {
+    "id": "e8ba0210-3602-41ea-8cd2-6bbd8cb12308",
+    "publishedAt": "2026-09-24T19:50:00.000Z",
+    "type": "Analysis",
+    "headline": "Patriots Gameplan: Building on 'X' plays and solving Cover-6 in Week 3 matchup vs. Jaguars",
+    "summary": "The Patriots will head to Jacksonville to face the Jaguars, where they're almost guaranteed to see this coverage from the Jags defense.",
+    "sourceUrl": "https://www.patriots.com/news/patriots-gameplan-building-on-x-plays-and-solving-cover-6-in-week-3-matchup-vs-jaguars",
+    "sourceName": "Patriots.com"
+  },
+  {
     "id": "33c8e036-c852-45a9-9a23-d8c254480669",
-    "publishedAt": "2026-09-24T16:05:12.000Z",
+    "publishedAt": "2026-09-24T19:45:00.000Z",
     "type": "Analysis",
     "headline": "3 to Watch: Patriots Hit the Road to Jacksonville for Week 3 AFC Showdown with Jaguars",
     "summary": "The Patriots travel to Florida for an AFC showdown with the Jacksonville Jaguars.",
@@ -9,13 +27,13 @@
     "sourceName": "Patriots.com"
   },
   {
-    "id": "e8ba0210-3602-41ea-8cd2-6bbd8cb12308",
-    "publishedAt": "2026-09-24T13:00:07.000Z",
+    "id": "50022132",
+    "publishedAt": "2026-09-24T19:02:30Z",
     "type": "Analysis",
-    "headline": "Patriots Gameplan: Building on 'X' plays and solving Cover-6 in Week 3 matchup vs. Jaguars",
-    "summary": "The Patriots will head to Jacksonville to face the Jaguars, where they're almost guaranteed to see this coverage from the Jags defense.",
-    "sourceUrl": "https://www.patriots.com/news/patriots-gameplan-building-on-x-plays-and-solving-cover-6-in-week-3-matchup-vs-jaguars",
-    "sourceName": "Patriots.com"
+    "headline": "Jaguars expect a favorable response against the Patriots, who are still 'finding ourselves'",
+    "summary": "— Trevor Lawrence and the Jacksonville Jaguars are counting on one thing following their worst offensive performance in 11 months: a...",
+    "sourceUrl": "http://www.espn.com/nfl/preview?gameId=401872957",
+    "sourceName": "ESPN"
   },
   {
     "id": "50016408",
@@ -34,15 +52,6 @@
     "summary": "Mike Reiss breaks down Eli Raridon's return to practice as the Patriots monitor his status ahead of Sunday's matchup with Jacksonville.",
     "sourceUrl": "https://www.espn.com/video/clip/_/id/50016860/patriots-get-positive-sign-rookie-te-eli-raridon",
     "sourceName": "ESPN"
-  },
-  {
-    "id": "56613b7d-ad9d-4eaa-9a35-e279afe36f68",
-    "publishedAt": "2026-09-23T20:17:57.000Z",
-    "type": "Injury",
-    "headline": "Week 3 Injury Report: Patriots at Jaguars",
-    "summary": "The New England Patriots and the Jacksonville Jaguars announce the following player injuries and practice participation ahead of their Week 3 game.",
-    "sourceUrl": "https://www.patriots.com/news/week-3-injury-report-patriots-at-jaguars",
-    "sourceName": "Patriots.com"
   },
   {
     "id": "4a30608f-ac63-4ea2-82c4-31851162ed4a",
@@ -78,15 +87,6 @@
     "headline": "TreVeyon Henderson runs for a TD and the Patriots pummel Aaron Rodgers in a 20-3 win over Steelers",
     "summary": "— The New England Patriots have yet to find much of the offensive rhythm that propelled their Super Bowl run last season. The defense was there to pick up the pieces against the ",
     "sourceUrl": "http://www.espn.com/nfl/recap?gameId=401872946",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "49976142",
-    "publishedAt": "2026-09-20T16:45:17Z",
-    "type": "Analysis",
-    "headline": "What to expect from Patriots QB Drake Maye vs. the Steelers",
-    "summary": "New England wants Maye to be patient but aggressive. Can he have success against the daunting Pittsburgh defense?",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49976142/new-england-patriots-drake-maye-week-2",
     "sourceName": "ESPN"
   }
 ]
