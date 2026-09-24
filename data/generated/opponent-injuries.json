@@ -1,70 +1,61 @@
 [
   {
-    "playerId": "4911851",
-    "playerName": "LeQuint Allen Jr.",
-    "position": "RB",
-    "week": 3,
-    "injury": "Hip",
-    "gameStatus": "Questionable",
-    "lastUpdated": "2026-09-23T21:14:44.456Z",
-    "practiceStatus": "Limited"
-  },
-  {
-    "playerId": "4242391",
-    "playerName": "Robert Hainsey",
-    "position": "C",
-    "week": 3,
-    "injury": "Elbow",
-    "gameStatus": "Questionable",
-    "lastUpdated": "2026-09-23T21:14:44.456Z",
-    "practiceStatus": "Limited"
-  },
-  {
-    "playerId": "3916433",
+    "playerId": "00-0034960",
     "playerName": "Jakobi Meyers",
     "position": "WR",
     "week": 3,
     "injury": "Thumb",
-    "gameStatus": "Questionable",
-    "lastUpdated": "2026-09-23T21:14:44.456Z",
-    "practiceStatus": "Limited"
+    "practiceStatus": "Limited",
+    "gameStatus": null,
+    "lastUpdated": "2026-09-23T21:14:44.456Z"
   },
   {
-    "playerId": "4035791",
-    "playerName": "Cole Van Lanen",
-    "position": "OT",
-    "week": 3,
-    "injury": "Knee",
-    "gameStatus": "Questionable",
-    "lastUpdated": "2026-09-23T21:14:44.456Z",
-    "practiceStatus": "Limited"
-  },
-  {
-    "playerId": "3915520",
+    "playerId": "00-0036262",
     "playerName": "DaVon Hamilton",
     "position": "DT",
     "week": 3,
     "injury": "Back",
-    "gameStatus": "Questionable",
-    "lastUpdated": "2026-09-23T21:14:44.456Z",
-    "practiceStatus": "Limited"
+    "practiceStatus": "Limited",
+    "gameStatus": null,
+    "lastUpdated": "2026-09-23T21:14:44.456Z"
   },
   {
-    "playerId": "5083287",
-    "playerName": "Devon Marshall",
-    "position": "CB",
+    "playerId": "00-0036655",
+    "playerName": "Cole Van Lanen",
+    "position": "T",
     "week": 3,
-    "injury": "Undisclosed",
-    "gameStatus": "Questionable",
-    "lastUpdated": "2026-08-27T23:55Z"
+    "injury": "Knee",
+    "practiceStatus": "Limited",
+    "gameStatus": null,
+    "lastUpdated": "2026-09-23T21:14:44.456Z"
   },
   {
-    "playerId": "patriots-christian-braswell",
+    "playerId": "00-0036985",
+    "playerName": "Robert Hainsey",
+    "position": "C",
+    "week": 3,
+    "injury": "Elbow",
+    "practiceStatus": "Limited",
+    "gameStatus": null,
+    "lastUpdated": "2026-09-23T21:14:44.456Z"
+  },
+  {
+    "playerId": "00-0038616",
     "playerName": "Christian Braswell",
     "position": "CB",
     "week": 3,
     "injury": "Knee",
     "practiceStatus": "Full",
+    "gameStatus": null,
+    "lastUpdated": "2026-09-23T21:14:44.456Z"
+  },
+  {
+    "playerId": "00-0040238",
+    "playerName": "LeQuint Allen Jr.",
+    "position": "RB",
+    "week": 3,
+    "injury": "Hip",
+    "practiceStatus": "Limited",
     "gameStatus": null,
     "lastUpdated": "2026-09-23T21:14:44.456Z"
   }

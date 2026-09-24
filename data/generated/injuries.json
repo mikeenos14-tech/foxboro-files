@@ -1,110 +1,101 @@
 [
   {
-    "playerId": "4431526",
-    "playerName": "Dametrious Crownover",
-    "position": "OT",
-    "week": 3,
-    "injury": "Knee",
-    "gameStatus": "Questionable",
-    "lastUpdated": "2026-09-23T21:14:44.456Z",
-    "practiceStatus": "Limited"
-  },
-  {
-    "playerId": "4039505",
-    "playerName": "Reggie Gilliam",
-    "position": "FB",
-    "week": 3,
-    "injury": "Not specified",
-    "gameStatus": "Questionable",
-    "lastUpdated": "2026-09-23T21:14:44.456Z",
-    "practiceStatus": "Limited"
-  },
-  {
-    "playerId": "16771",
-    "playerName": "Morgan Moses",
-    "position": "OT",
-    "week": 3,
-    "injury": "Foot",
-    "gameStatus": "Questionable",
-    "lastUpdated": "2026-09-23T21:14:44.456Z",
-    "practiceStatus": "Limited"
-  },
-  {
-    "playerId": "4831959",
-    "playerName": "Eli Raridon",
-    "position": "TE",
-    "week": 3,
-    "injury": "Thigh",
-    "gameStatus": "Questionable",
-    "lastUpdated": "2026-09-23T21:14:44.456Z",
-    "practiceStatus": "Limited"
-  },
-  {
-    "playerId": "4698181",
-    "playerName": "Quintayvious Hutchins",
-    "position": "LB",
-    "week": 3,
-    "injury": "Knee",
-    "gameStatus": "Questionable",
-    "lastUpdated": "2026-09-23T21:14:44.456Z",
-    "practiceStatus": "Did Not Participate"
-  },
-  {
-    "playerId": "3915525",
-    "playerName": "Dre'Mont Jones",
-    "position": "DE",
-    "week": 3,
-    "injury": "Shoulder",
-    "gameStatus": "Questionable",
-    "lastUpdated": "2026-09-23T21:14:44.456Z",
-    "practiceStatus": "Did Not Participate"
-  },
-  {
-    "playerId": "4428930",
-    "playerName": "Craig Woodson",
-    "position": "S",
-    "week": 3,
-    "injury": "Shoulder",
-    "gameStatus": "Questionable",
-    "lastUpdated": "2026-09-23T21:14:44.456Z",
-    "practiceStatus": "Did Not Participate"
-  },
-  {
-    "playerId": "3122793",
-    "playerName": "Harold Landry III",
-    "position": "LB",
-    "week": 3,
-    "injury": "Undisclosed",
-    "gameStatus": "Out",
-    "lastUpdated": "2026-08-31T18:30Z"
-  },
-  {
-    "playerId": "4047941",
-    "playerName": "Brenden Schooler",
-    "position": "S",
-    "week": 3,
-    "injury": "Not specified",
-    "gameStatus": "Out",
-    "lastUpdated": "2026-09-23T21:14:44.456Z",
-    "practiceStatus": "Limited"
-  },
-  {
-    "playerId": "patriots-daquan-jones",
+    "playerId": "00-0031054",
     "playerName": "DaQuan Jones",
     "position": "DT",
     "week": 3,
-    "injury": "Not Injury Related / Personal",
+    "injury": "Not injury related - personal matter",
     "practiceStatus": "Did Not Participate",
     "gameStatus": null,
     "lastUpdated": "2026-09-23T21:14:44.456Z"
   },
   {
-    "playerId": "patriots-carlton-davis",
+    "playerId": "00-0031330",
+    "playerName": "Morgan Moses",
+    "position": "T",
+    "week": 3,
+    "injury": "Foot",
+    "practiceStatus": "Limited",
+    "gameStatus": null,
+    "lastUpdated": "2026-09-23T21:14:44.456Z"
+  },
+  {
+    "playerId": "00-0034778",
     "playerName": "Carlton Davis III",
     "position": "CB",
     "week": 3,
     "injury": "Neck",
     "practiceStatus": "Full",
+    "gameStatus": null,
+    "lastUpdated": "2026-09-23T21:14:44.456Z"
+  },
+  {
+    "playerId": "00-0035678",
+    "playerName": "Dre'Mont Jones",
+    "position": "LB",
+    "week": 3,
+    "injury": "Shoulder",
+    "practiceStatus": "Did Not Participate",
+    "gameStatus": null,
+    "lastUpdated": "2026-09-23T21:14:44.456Z"
+  },
+  {
+    "playerId": "00-0036187",
+    "playerName": "Reggie Gilliam",
+    "position": "FB",
+    "week": 3,
+    "injury": "Knee",
+    "practiceStatus": "Limited",
+    "gameStatus": null,
+    "lastUpdated": "2026-09-23T21:14:44.456Z"
+  },
+  {
+    "playerId": "00-0037205",
+    "playerName": "Brenden Schooler",
+    "position": "S",
+    "week": 3,
+    "injury": "Back",
+    "practiceStatus": "Limited",
+    "gameStatus": null,
+    "lastUpdated": "2026-09-23T21:14:44.456Z"
+  },
+  {
+    "playerId": "00-0040716",
+    "playerName": "Craig Woodson",
+    "position": "S",
+    "week": 3,
+    "injury": "Shoulder",
+    "practiceStatus": "Did Not Participate",
+    "gameStatus": null,
+    "lastUpdated": "2026-09-23T21:14:44.456Z"
+  },
+  {
+    "playerId": "00-0041103",
+    "playerName": "Dametrious Crownover",
+    "position": "T",
+    "week": 3,
+    "injury": "Knee",
+    "practiceStatus": "Limited",
+    "gameStatus": null,
+    "lastUpdated": "2026-09-23T21:14:44.456Z"
+  },
+  {
+    "playerId": "00-0041395",
+    "playerName": "Eli Raridon",
+    "position": "TE",
+    "week": 3,
+    "injury": "Thigh",
+    "practiceStatus": "Limited",
+    "gameStatus": null,
+    "lastUpdated": "2026-09-23T21:14:44.456Z"
+  },
+  {
+    "playerId": "00-0041402",
+    "playerName": "Quintayvious Hutchins",
+    "position": "LB",
+    "week": 3,
+    "injury": "Knee",
+    "practiceStatus": "Did Not Participate",
     "gameStatus": null,
     "lastUpdated": "2026-09-23T21:14:44.456Z"
   }

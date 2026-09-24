@@ -1,7 +1,7 @@
 [
   {
     "id": "profootballrumors-https://www.profootballrumors.com/?p=420720",
-    "publishedAt": "2026-09-23T22:50:04.000Z",
+    "publishedAt": "2026-09-24T03:50:04.000Z",
     "type": "Injury",
     "headline": "Giants To Add QB After Jaxson Dart Injury; OLB Brian Burns To Miss Time",
     "summary": "The Giants are moving forward without starting quarterback Jaxson Dart, who is set to undergo knee surgery after tearing his meniscus and MCL in their Week 2 loss to the Rams. Head coach John Harbaugh confirmed on Wednesday that Dart would miss the remainder of the regular season. He left the door open for the […]",
@@ -9,12 +9,21 @@
     "sourceName": "Pro Football Rumors"
   },
   {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=420427",
-    "publishedAt": "2026-09-23T23:30:48.000Z",
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=420378",
+    "publishedAt": "2026-09-24T03:30:21.000Z",
+    "type": "Analysis",
+    "headline": "Bengals’ Creative Defensive Overhaul Produces Promising Early Returns",
+    "summary": "Through two games, the Bengals have a defense ranked eighth in points allowed and fifth in EPA per play. A franchise that threw just about all its offseason resources into an overdue repair — as no notable staff changes occurred — has seen the effort produce encouraging results. A Joe Burrow-fronted team may finally have, […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/09/420378",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=420633",
+    "publishedAt": "2026-09-23T20:52:23.000Z",
     "type": "Injury",
-    "headline": "Cardinals CB Will Johnson Suffers Potential Season-Ending Injury",
-    "summary": "SEPTEMBER 23: Johnson is indeed expected to miss the entire season, per ESPN’s Jeremy Fowler, something that LaFleur seemed to confirm on Wednesday. “We’re bracing for the worst right there,” LaFleur said (via Cards Wire’s Howard Balzer). “I don’t know if that’s exactly the wording of it, but we’re not prepared to have him back.” […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/09/cardinals-cb-will-johnson-suffers-potential-season-ending-injury",
+    "headline": "Panthers Place RB Jonathon Brooks On IR, Work Out Austin Ekeler",
+    "summary": "3:52pm: Ekeler’s workout went well, but he will not sign with the Panthers today, a league source told Mike Kaye of ESPN. It’s unknown if Ekeler has set up any other visits around the league. 8:09am: The Panthers will go at least six weeks without running back Jonathon Brooks, who is expected to have surgery […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/09/panthers-to-place-rb-jonathon-brooks-on-ir-work-out-austin-ekeler",
     "sourceName": "Pro Football Rumors"
   },
   {
@@ -27,30 +36,21 @@
     "sourceName": "ESPN"
   },
   {
-    "id": "50015234",
-    "publishedAt": "2026-09-24T02:33:01Z",
-    "type": "Analysis",
-    "headline": "Seahawks' Macdonald apologizes to Broncos' Payton for comments",
-    "summary": "Seahawks coach Mike Macdonald said Wednesday he called Broncos coach Sean Payton and apologized for comments he made in a published video that went viral Tuesday.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50015234/seahawks-macdonald-apologizes-broncos-payton-comments",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/justin-herbert-disputes-perception-of-lack-of-vocal-leadership",
-    "publishedAt": "2026-09-24T03:01:04.000Z",
-    "type": "Analysis",
-    "headline": "Justin Herbert disputes perception of lack of vocal leadership",
-    "summary": "Something has kept Chargers quarterback Justin Herbert from fulfilling a skillset that has had coach Jim Harbaugh proclaim that Herbert will be regarded as the best to ever play the game.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/justin-herbert-disputes-perception-of-lack-of-vocal-leadership",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=420378",
-    "publishedAt": "2026-09-24T01:10:21.000Z",
-    "type": "Analysis",
-    "headline": "Bengals’ Creative Defensive Overhaul Produces Promising Early Returns",
-    "summary": "Through two games, the Bengals have a defense ranked eighth in points allowed and fifth in EPA per play. A franchise that threw just about all its offseason resources into an overdue repair — as no notable staff changes occurred — has seen the effort produce encouraging results. A Joe Burrow-fronted team may finally have, […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/09/420378",
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=420730",
+    "publishedAt": "2026-09-24T00:59:52.000Z",
+    "type": "Injury",
+    "headline": "Colts Work Out DEs Carl Lawson, David Ojabo, Preston Smith",
+    "summary": "The Colts explored potential additions to their defensive end room on Wednesday, hosting tryouts for Carl Lawson, David Ojabo, and Preston Smith, per NFL Network’s Mike Garafolo. Indianapolis just placed Micheal Clemons on injured reserve on Tuesday, leaving them with just five edge rushers on the active roster and one – undrafted rookie Mitchell Melton […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/09/colts-work-out-des-carl-lawson-david-ojabo-preston-smith",
     "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "50015858",
+    "publishedAt": "2026-09-23T22:21:30Z",
+    "type": "Injury",
+    "headline": "Commanders say clip didn't reflect team response to Daniels injury",
+    "summary": "After a short video clip showed a number of Commanders walking past Jayden Daniels as he was being helped by medical personnel Sunday, many players fired back at the takes being spouted on social media, emphasizing, \"It's bulls--- what people are saying.\"",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50015858/commanders-respond-viral-video-clip-reject-notion-abandoned-injured-jayden-daniels",
+    "sourceName": "ESPN"
   }
 ]
