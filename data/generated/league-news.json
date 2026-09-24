@@ -9,6 +9,15 @@
     "sourceName": "Pro Football Rumors"
   },
   {
+    "id": "50016014",
+    "publishedAt": "2026-09-24T10:49:38Z",
+    "type": "Injury",
+    "headline": "McVay says Nacua's injury not 'long-term' concern, but Rams being cautious",
+    "summary": "Rams coach Sean McVay said receiver Puka Nacua does not have a hernia, but the team will \"err on the side of caution\" with the injury.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50016014/mcvay-says-nacua-injury-not-long-term-concern-rams-being-cautious",
+    "sourceName": "ESPN"
+  },
+  {
     "id": "50015866",
     "publishedAt": "2026-09-23T22:50:18Z",
     "type": "Injury",
@@ -18,39 +27,30 @@
     "sourceName": "ESPN"
   },
   {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=420378",
-    "publishedAt": "2026-09-24T03:30:21.000Z",
+    "id": "50016633",
+    "publishedAt": "2026-09-24T10:43:00Z",
     "type": "Analysis",
-    "headline": "Bengals’ Creative Defensive Overhaul Produces Promising Early Returns",
-    "summary": "Through two games, the Bengals have a defense ranked eighth in points allowed and fifth in EPA per play. A franchise that threw just about all its offseason resources into an overdue repair — as no notable staff changes occurred — has seen the effort produce encouraging results. A Joe Burrow-fronted team may finally have, […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/09/420378",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=420748",
-    "publishedAt": "2026-09-24T03:21:27.000Z",
-    "type": "Injury",
-    "headline": "Potential Trade Interest In Cardinals’ Marvin Harrison Jr.",
-    "summary": "After a solid rookie campaign Cardinals wide receiver Marvin Harrison Jr. saw injuries derail Year 2. So far, through two games, improved health hasn’t quite led to improved results in his third season, and according to ESPN’s Dan Graziano, some in the league are starting to wonder if Harrison might become a candidate to be traded. […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/09/potential-trade-interest-in-cardinals-marvin-harrison-jr",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "50015858",
-    "publishedAt": "2026-09-23T22:21:30Z",
-    "type": "Injury",
-    "headline": "Commanders say clip didn't reflect team response to Daniels injury",
-    "summary": "After a short video clip showed a number of Commanders walking past Jayden Daniels as he was being helped by medical personnel Sunday, many players fired back at the takes being spouted on social media, emphasizing, \"It's bulls--- what people are saying.\"",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50015858/commanders-respond-viral-video-clip-reject-notion-abandoned-injured-jayden-daniels",
+    "headline": "Herbert shuts down leadership questions amid Chargers' 0-2 start",
+    "summary": "Justin Herbert was uncharacteristically fiery when asked Wednesday about increased vocal leadership on the Chargers amid the team's 0-2 start.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50016633/herbert-shuts-leadership-questions-amid-chargers-0-2-start",
     "sourceName": "ESPN"
   },
   {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/the-joey-porter-jr-situation-lingers-with-no-end-in-sight",
-    "publishedAt": "2026-09-23T20:57:05.000Z",
+    "id": "50015234",
+    "publishedAt": "2026-09-24T10:49:06Z",
     "type": "Analysis",
-    "headline": "The Joey Porter Jr. situation lingers, with no end in sight",
-    "summary": "With the Steelers facing the Bengals this weekend — and receivers Ja'Marr Chase and Tee Higgins — it would be helpful to have cornerback Joey Porter Jr. on the field.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/the-joey-porter-jr-situation-lingers-with-no-end-in-sight",
-    "sourceName": "Pro Football Talk"
+    "headline": "Seahawks' Macdonald apologizes to Broncos' Payton for comments",
+    "summary": "Seahawks coach Mike Macdonald said Wednesday he called Broncos coach Sean Payton and apologized for comments he made in a published video that went viral Tuesday.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50015234/seahawks-macdonald-apologizes-broncos-payton-comments",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50006560",
+    "publishedAt": "2026-09-24T10:35:02Z",
+    "type": "Analysis",
+    "headline": "Ranking eight winless NFL teams: Texans, Bucs, others at 0-2",
+    "summary": "Can the Texans turn it around (again)? Do the Buccaneers, Colts or Chargers have a chance to get right? Is the season already over for the Falcons and Dolphins?",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50006560/ranking-winless-two-loss-teams-playoffs-barnwell-2026",
+    "sourceName": "ESPN"
   }
 ]
