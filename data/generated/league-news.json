@@ -1,12 +1,21 @@
 [
   {
-    "id": "50025270",
-    "publishedAt": "2026-09-25T06:14:39Z",
-    "type": "Analysis",
-    "headline": "Penix's return revives Falcons' attack in rout of Packers",
-    "summary": "In his first game since tearing his ACL last November, Michael Penix Jr. sparked the Falcons by passing for 256 yards with a touchdown in a 35-14 rout of the Packers at Lambeau Field.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50025270/penix-return-revives-falcons-attack-rout-packers",
+    "id": "50000042",
+    "publishedAt": "2026-09-25T14:57:43Z",
+    "type": "Injury",
+    "headline": "What's next for Jayden Daniels, Commanders after elbow injury?",
+    "summary": "Experts weigh in on Daniels' latest injury and what it means for him, the Commanders and their collective futures.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50000042/washington-commanders-jayden-daniels-dislocated-elbow-injury-cowboys",
     "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=420864",
+    "publishedAt": "2026-09-25T14:56:28.000Z",
+    "type": "Injury",
+    "headline": "Giants QB Jaxson Dart’s Surgery To Address PCL In Addition To Meniscus, MCL",
+    "summary": "Jaxson Dart is now on injured reserve, and attention is set to turn to his lengthy recovery process. The second-year Giants quarterback will have his knee surgery today. Dan Duggan of The Athletic reports the procedure will focus primarily on Dart’s meniscus being fully repaired. It was already known Dart’s MCL would also be an area of […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/09/giants-qb-jaxson-darts-surgery-to-address-pcl-in-addition-to-meniscus-mcl",
+    "sourceName": "Pro Football Rumors"
   },
   {
     "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/thursday-night-football-drake-london-bijan-robinson-run-by-packers-35-14",
@@ -18,39 +27,30 @@
     "sourceName": "Pro Football Talk"
   },
   {
-    "id": "50025463",
-    "publishedAt": "2026-09-25T06:31:44Z",
+    "id": "50027411",
+    "publishedAt": "2026-09-25T14:30:42Z",
     "type": "Analysis",
-    "headline": "LaFleur at a loss for answers to Packers' offensive woes",
-    "summary": "The Packers are off to their worst start in coach Matt LaFleur's eight seasons after they were booed off Lambeau Field on Thursday night.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50025463/lafleur-loss-answers-packers-offensive-woes",
+    "headline": "Stephen A. believes Matt LaFleur's days in Green Bay are numbered",
+    "summary": "Stephen A. believes Matt LaFleur's days in Green Bay are numbered ",
+    "sourceUrl": "https://www.espn.com/video/clip/_/id/50027411/stephen-believes-matt-lafleur-days-green-bay-numbered",
     "sourceName": "ESPN"
   },
   {
-    "id": "50024081",
-    "publishedAt": "2026-09-25T10:00:11Z",
-    "type": "Transaction",
-    "headline": "Why are the Jaguars using CB/WR Travis Hunter sparingly?",
-    "summary": "The highly anticipated two-way player is playing half of defensive snaps and has barely been seen on offense. But coach Liam Coen said it's by design.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50024081/jacksonville-jaguars-week-3-travis-hunter-usage",
-    "sourceName": "ESPN"
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/ed-policy-may-regret-not-waiting-on-matt-lafleur-brian-gutenkunst-contracts",
+    "publishedAt": "2026-09-25T13:46:31.000Z",
+    "type": "Injury",
+    "headline": "Ed Policy may regret not waiting on Matt LaFleur, Brian Gutenkunst contracts",
+    "summary": "After Ed Policy succeeded Mark Murphy as the president and CEO of the Packers, it quickly became clear that 2025 would be an up-or-out season for coach Matt LaFleur and G.M.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/ed-policy-may-regret-not-waiting-on-matt-lafleur-brian-gutenkunst-contracts",
+    "sourceName": "Pro Football Talk"
   },
   {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=420796",
-    "publishedAt": "2026-09-25T04:08:45.000Z",
-    "type": "Transaction",
-    "headline": "Joey Porter Jr. Denies Requesting Trade, Intends To Play This Year",
-    "summary": "In his first media availability since failing to reach an extension agreement with the Steelers, cornerback Joey Porter Jr. denied requesting a trade but insisted he would “definitely” play this season as soon as he is healthy. “It didn’t get done,” Porter said of his contract negotiations (via Mike DeFabo of The Athletic). “It didn’t […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/09/joey-porter-jr-denies-requesting-trade-intends-to-play-this-year",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "50021792",
-    "publishedAt": "2026-09-25T10:00:08Z",
+    "id": "50027569",
+    "publishedAt": "2026-09-25T14:53:56Z",
     "type": "Analysis",
-    "headline": "Texans face troubling trend when they play without Nico Collins",
-    "summary": "Houston has seen a dip in scoring, and quarterback C.J. Stroud has seen his QBR decrease when targeting others.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50021792/houston-texans-troubling-wr-nico-collins",
+    "headline": "Nakobe Dean making an early impact as Raiders' defense takes shape",
+    "summary": "Daniel Oyefusi breaks down Nakobe Dean's strong start and why adding both Dean and Quay Walker has already paid off for the Raiders.",
+    "sourceUrl": "https://www.espn.com/video/clip/_/id/50027569/nakobe-dean-making-early-impact-raiders-defense-takes-shape",
     "sourceName": "ESPN"
   }
 ]
