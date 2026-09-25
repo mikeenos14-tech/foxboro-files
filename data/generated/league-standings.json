@@ -421,12 +421,12 @@
       {
         "team": "GB",
         "wins": 1,
-        "losses": 1,
+        "losses": 2,
         "ties": 0,
-        "pointDifferential": -14,
+        "pointDifferential": -35,
         "isUs": false,
         "streak": {
-          "result": "W",
+          "result": "L",
           "count": 1
         },
         "divisionRecord": {
@@ -475,6 +475,23 @@
         }
       },
       {
+        "team": "ATL",
+        "wins": 1,
+        "losses": 2,
+        "ties": 0,
+        "pointDifferential": -17,
+        "isUs": false,
+        "streak": {
+          "result": "W",
+          "count": 1
+        },
+        "divisionRecord": {
+          "wins": 0,
+          "losses": 1,
+          "ties": 0
+        }
+      },
+      {
         "team": "TB",
         "wins": 0,
         "losses": 2,
@@ -488,23 +505,6 @@
         "divisionRecord": {
           "wins": 0,
           "losses": 0,
-          "ties": 0
-        }
-      },
-      {
-        "team": "ATL",
-        "wins": 0,
-        "losses": 2,
-        "ties": 0,
-        "pointDifferential": -38,
-        "isUs": false,
-        "streak": {
-          "result": "L",
-          "count": 2
-        },
-        "divisionRecord": {
-          "wins": 0,
-          "losses": 1,
           "ties": 0
         }
       }

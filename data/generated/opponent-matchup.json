@@ -8,10 +8,10 @@
   "positionGroupMatchups": [
     {
       "group": "Rush Offense vs. Run Defense",
-      "ourGrade": 71,
+      "ourGrade": 68,
       "theirGrade": 42,
       "edge": "us",
-      "note": "71st percentile vs. 42nd percentile (advantage us).",
+      "note": "68th percentile vs. 42nd percentile (advantage us).",
       "ourStatLine": "248 yds, 4.4 YPC, 1 TD, 0 FUM, 12% explosive",
       "theirStatLine": "194 yds allowed, 4.1 YPC allowed, 1 TD allowed, 11% explosive allowed"
     },
@@ -26,10 +26,10 @@
     },
     {
       "group": "Run Defense vs. Rush Offense",
-      "ourGrade": 61,
-      "theirGrade": 65,
+      "ourGrade": 65,
+      "theirGrade": 58,
       "edge": "even",
-      "note": "61st percentile vs. 65th percentile (close matchup).",
+      "note": "65th percentile vs. 58th percentile (close matchup).",
       "ourStatLine": "189 yds allowed, 4.3 YPC allowed, 0 TD allowed, 11% explosive allowed",
       "theirStatLine": "224 yds, 4.2 YPC, 1 TD, 0 FUM, 13% explosive"
     },
@@ -45,16 +45,16 @@
     {
       "group": "Pass Protection vs. Pass Rush",
       "ourGrade": 16,
-      "theirGrade": 42,
+      "theirGrade": 48,
       "edge": "them",
-      "note": "16th percentile vs. 42nd percentile (advantage them).",
+      "note": "16th percentile vs. 48th percentile (advantage them).",
       "ourStatLine": "6 sacks allowed, 10% sack rate",
       "theirStatLine": "5 sacks, 11 QB hits, 9% sack rate"
     }
   ],
   "matchupOfTheWeek": {
     "title": "Rush Offense vs. Run Defense",
-    "description": "Our rush offense grades in the 71st percentile against a unit that grades 42nd — the widest real statistical edge on the board this week."
+    "description": "Our rush offense grades in the 68th percentile against a unit that grades 42nd — the widest real statistical edge on the board this week."
   },
   "opponentInjuries": [],
   "recentForm": {
@@ -100,15 +100,15 @@
     }
   ],
   "weather": {
-    "tempF": 81,
-    "wind": "4 mph",
+    "tempF": 87,
+    "wind": "7 mph",
     "precipitation": "0%",
     "isDome": false
   },
   "bettingContext": {
     "spread": 3,
-    "overUnder": 45.5,
-    "asOf": "2026-09-24"
+    "overUnder": 46.5,
+    "asOf": "2026-09-25"
   },
-  "previewTake": "We're heading to Jacksonville as underdogs on a betting line that feels generous, and honestly, this matchup has all the makings of a statement game if our offense can execute where it matters most. The Jaguars have the ninth-ranked offense and seventh-ranked defense, which sounds formidable until you look at the real edge on the board: our rushing attack grades in the 71st percentile against a Jacksonville run defense sitting at 42nd — the widest statistical advantage all week. That's the kind of inefficiency we should be able to exploit ruthlessly. The concern, naturally, is that Jacksonville's been playing slightly better than us over the last three games (0.16 EPA/play to our 0.09), and we're still dealing with injuries, including the loss of Dell Pettus to injured reserve, though rookie TE Eli Raridon is back in the fold. This is the kind of game where a team playing complementary football and leaning on its biggest structural advantage can walk out of a hostile environment feeling pretty good about where it stands."
+  "previewTake": "Here's the thing about this Jacksonville matchup: we've got the widest real statistical edge of any game on the board this week, and it's in our wheelhouse — a rushing offense in the 68th percentile against a run defense that grades 42nd. That's the kind of advantage you have to cash in on. But Jacksonville's offense still grades in the top ten, and we're coming off a game where we made clock management decisions that had our own coaches shaking their heads, which feels like something the Jaguars will absolutely punish. The good news is we're favored on the road; the complicated news is our last trip to Jacksonville was a disaster just two years ago, and these aren't the same Jaguars teams we handled in 2021 and 2015. This one's winnable if we execute the gameplan — especially on the ground — but Jacksonville's clearly counting on us to look the way they say we do: still finding ourselves."
 }

@@ -444,20 +444,20 @@
     "playerName": "Jordan Love",
     "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/thz8stjkbjwddxqnozi5",
     "team": "GB",
-    "attempts": 78,
-    "completions": 37,
-    "yards": 489,
-    "tds": 4,
-    "ints": 1,
-    "cpoe": -11.310840128124621,
+    "attempts": 132,
+    "completions": 65,
+    "yards": 800,
+    "tds": 6,
+    "ints": 2,
+    "cpoe": -10.120615363121031,
     "accuracyByDepth": {
-      "short": 0.5757575757575758,
-      "medium": 0.47619047619047616,
-      "deep": 0.3333333333333333
+      "short": 0.5901639344262295,
+      "medium": 0.5357142857142857,
+      "deep": 0.25
     },
-    "pressureEpa": -0.6185985204483252,
-    "cleanPocketEpa": 0.09968172048384409,
-    "turnoverWorthyPlayRate": 0.038461538461538464
+    "pressureEpa": -0.6726365523976978,
+    "cleanPocketEpa": 0.18367120052502692,
+    "turnoverWorthyPlayRate": 0.022727272727272728
   },
   {
     "playerId": "00-0032950",
