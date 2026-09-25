@@ -1,5 +1,14 @@
 [
   {
+    "id": "b5a29365-17e4-46a6-907e-fc674da2709d",
+    "publishedAt": "2026-09-25T15:15:00.000Z",
+    "type": "Analysis",
+    "headline": "Cheerleader Spotlight: Rachel",
+    "summary": "In this Cheerleader Spotlight, learn more about how Rachel's experiences as a dancer and choreographer prepared her for a role as an NFL Cheerleader.",
+    "sourceUrl": "https://www.patriots.com/news/cheerleader-spotlight-rachel",
+    "sourceName": "Patriots.com"
+  },
+  {
     "id": "3d32ed82-10a6-4d31-b571-76177e5723ea",
     "publishedAt": "2026-09-25T14:00:41.000Z",
     "type": "Analysis",
@@ -33,15 +42,6 @@
     "headline": "Week 3 Injury Report: Patriots at Jaguars",
     "summary": "The New England Patriots and the Jacksonville Jaguars announce the following player injuries and practice participation ahead of their Week 3 game.",
     "sourceUrl": "https://www.patriots.com/news/week-3-injury-report-patriots-at-jaguars",
-    "sourceName": "Patriots.com"
-  },
-  {
-    "id": "e8ba0210-3602-41ea-8cd2-6bbd8cb12308",
-    "publishedAt": "2026-09-24T19:50:00.000Z",
-    "type": "Analysis",
-    "headline": "Patriots Gameplan: Building on 'X' plays and solving Cover-6 in Week 3 matchup vs. Jaguars",
-    "summary": "The Patriots will head to Jacksonville to face the Jaguars, where they're almost guaranteed to see this coverage from the Jags defense.",
-    "sourceUrl": "https://www.patriots.com/news/patriots-gameplan-building-on-x-plays-and-solving-cover-6-in-week-3-matchup-vs-jaguars",
     "sourceName": "Patriots.com"
   },
   {
