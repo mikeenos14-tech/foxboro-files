@@ -1,125 +1,38 @@
 {
   "week": 3,
-  "asOf": "2026-09-24T20:13:52.153Z",
+  "asOf": "2026-09-25T20:05:33.307Z",
   "players": [
     {
       "team": "NE",
-      "playerName": "Quintayvious Hutchins",
-      "position": "LB",
-      "injury": "Knee",
-      "practiceStatus": "Did Not Participate"
+      "playerName": "Dre'Mont Jones",
+      "position": "OLB",
+      "injury": "shoulder",
+      "practiceStatus": "Did Not Participate",
+      "gameStatus": "Out"
     },
     {
       "team": "NE",
-      "playerName": "Dre'Mont Jones",
-      "position": "LB",
-      "injury": "Shoulder",
-      "practiceStatus": "Did Not Participate"
+      "playerName": "Quintayvious Hutchins",
+      "position": "OLB",
+      "injury": "knee",
+      "practiceStatus": "Did Not Participate",
+      "gameStatus": "Out"
     },
     {
       "team": "NE",
       "playerName": "Eli Raridon",
       "position": "TE",
-      "injury": "Thigh",
-      "practiceStatus": "Did Not Participate"
+      "injury": "thigh",
+      "practiceStatus": "Did Not Participate",
+      "gameStatus": "Questionable"
     },
     {
       "team": "NE",
       "playerName": "Craig Woodson",
       "position": "S",
-      "injury": "Shoulder",
-      "practiceStatus": "Did Not Participate"
-    },
-    {
-      "team": "NE",
-      "playerName": "Reggie Gilliam",
-      "position": "FB",
-      "injury": "Knee",
-      "practiceStatus": "Limited"
-    },
-    {
-      "team": "NE",
-      "playerName": "Morgan Moses",
-      "position": "T",
-      "injury": "Foot",
-      "practiceStatus": "Limited"
-    },
-    {
-      "team": "NE",
-      "playerName": "Brenden Schooler",
-      "position": "S",
-      "injury": "Back",
-      "practiceStatus": "Limited"
-    },
-    {
-      "team": "NE",
-      "playerName": "Dametrious Crownover",
-      "position": "T",
-      "injury": "Knee",
-      "practiceStatus": "Full"
-    },
-    {
-      "team": "NE",
-      "playerName": "Carlton Davis III",
-      "position": "CB",
-      "injury": "Neck",
-      "practiceStatus": "Full"
-    },
-    {
-      "team": "NE",
-      "playerName": "DaQuan Jones",
-      "position": "DT",
-      "injury": "Not Injury Related / Personal",
-      "practiceStatus": "Full"
-    },
-    {
-      "team": "JAX",
-      "playerName": "Branson Combs",
-      "position": "LB",
-      "injury": "Not Injury Related / Personal",
-      "practiceStatus": "Did Not Participate"
-    },
-    {
-      "team": "JAX",
-      "playerName": "LeQuint Allen Jr.",
-      "position": "RB",
-      "injury": "Hip",
-      "practiceStatus": "Limited"
-    },
-    {
-      "team": "JAX",
-      "playerName": "Robert Hainsey",
-      "position": "OL",
-      "injury": "Elbow, Groin",
-      "practiceStatus": "Limited"
-    },
-    {
-      "team": "JAX",
-      "playerName": "DaVon Hamilton",
-      "position": "DT",
-      "injury": "Back",
-      "practiceStatus": "Limited"
-    },
-    {
-      "team": "JAX",
-      "playerName": "Jakobi Meyers",
-      "position": "WR",
-      "injury": "Thumb",
-      "practiceStatus": "Limited"
-    },
-    {
-      "team": "JAX",
-      "playerName": "Cole Van Lanen",
-      "position": "OL",
-      "injury": "Knee",
-      "practiceStatus": "Limited"
-    },
-    {
-      "team": "JAX",
-      "playerName": "Christian Braswell",
-      "position": "CB",
-      "injury": "Knee",
-      "practiceStatus": "Full"
+      "injury": "shoulder",
+      "practiceStatus": "Limited",
+      "gameStatus": "Questionable"
     }
   ]
 }

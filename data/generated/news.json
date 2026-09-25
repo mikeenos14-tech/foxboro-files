@@ -1,5 +1,32 @@
 [
   {
+    "id": "9f379be8-8b35-432a-8f27-fc310d8ea1ca",
+    "publishedAt": "2026-09-25T20:05:33.000Z",
+    "type": "Injury",
+    "headline": "Injury Report Analysis: CB Carlton Davis III set to return, two players ruled out, two players listed as questionable for Patriots vs. Jaguars",
+    "summary": "The Patriots ruled out OLB Dre'Mont Jones (shoulder) and OLB Quintayvious Hutchins (knee) for Sunday's Week 3 matchup vs. the Jaguars.",
+    "sourceUrl": "https://www.patriots.com/news/injury-report-analysis-cb-carlton-davis-iii-set-to-return-two-players-ruled-out-two-players-listed-as-questionable-for-patriots-vs-jaguars",
+    "sourceName": "Patriots.com"
+  },
+  {
+    "id": "56613b7d-ad9d-4eaa-9a35-e279afe36f68",
+    "publishedAt": "2026-09-25T20:01:00.000Z",
+    "type": "Injury",
+    "headline": "Week 3 Injury Report: Patriots at Jaguars",
+    "summary": "The New England Patriots and the Jacksonville Jaguars announce the following player injuries and practice participation ahead of their Week 3 game.",
+    "sourceUrl": "https://www.patriots.com/news/week-3-injury-report-patriots-at-jaguars",
+    "sourceName": "Patriots.com"
+  },
+  {
+    "id": "7f8d1a2a-617c-49c7-8ebd-455a68ec714a",
+    "publishedAt": "2026-09-25T20:00:00.000Z",
+    "type": "Transaction",
+    "headline": "Patriots Place Rookie LB Quintayvious Hutchins on Injured Reserve",
+    "summary": "The Patriots announced today that they have placed LB Quintayvious Hutchins on injured reserve.",
+    "sourceUrl": "https://www.patriots.com/news/patriots-place-rookie-lb-quintayvious-hutchins-on-injured-reserve",
+    "sourceName": "Patriots.com"
+  },
+  {
     "id": "b5a29365-17e4-46a6-907e-fc674da2709d",
     "publishedAt": "2026-09-25T15:15:00.000Z",
     "type": "Analysis",
@@ -15,33 +42,6 @@
     "headline": "Christian Gonzalez, Andy Borregales, and Patriots teammates celebrate Hispanic Heritage Celebration at IBA in Boston",
     "summary": "To celebrate Hispanic Heritage Month, the New England Patriots Foundation, IBA, and Bank of America hosted a family-friendly event at IBA’s new arts center La Casa to highlight the rich cultures and traditions of Hispanic communities.",
     "sourceUrl": "https://www.patriots.com/news/christian-gonzalez-andy-borregales-and-patriots-teammates-celebrate-hispanic-heritage-celebration-at-iba-in-boston",
-    "sourceName": "Patriots.com"
-  },
-  {
-    "id": "2fec73ce-3adf-4c89-9f23-a19287ba233a",
-    "publishedAt": "2026-09-25T13:00:00.000Z",
-    "type": "Analysis",
-    "headline": "Expert Predictions: Week 3 Picks for Patriots at Jaguars",
-    "summary": "Experts share their picks for the Patriots' Week 3 matchup against the Jacksonville Jaguars.",
-    "sourceUrl": "https://www.patriots.com/news/expert-predictions-week-3-picks-for-patriots-at-jaguars",
-    "sourceName": "Patriots.com"
-  },
-  {
-    "id": "aa2bab7c-4198-42e9-a543-cf757784a4b7",
-    "publishedAt": "2026-09-25T10:00:56.000Z",
-    "type": "Analysis",
-    "headline": "Inside the Patriots 'Mobile Classroom' at the New Balance Athletics Center",
-    "summary": "The Patriots are using their new 'mobile classroom' as a new way to prepare their players for games this season.",
-    "sourceUrl": "https://www.patriots.com/news/inside-the-patriots-mobile-classroom-at-the-new-balance-athletics-center",
-    "sourceName": "Patriots.com"
-  },
-  {
-    "id": "56613b7d-ad9d-4eaa-9a35-e279afe36f68",
-    "publishedAt": "2026-09-24T20:13:00.000Z",
-    "type": "Injury",
-    "headline": "Week 3 Injury Report: Patriots at Jaguars",
-    "summary": "The New England Patriots and the Jacksonville Jaguars announce the following player injuries and practice participation ahead of their Week 3 game.",
-    "sourceUrl": "https://www.patriots.com/news/week-3-injury-report-patriots-at-jaguars",
     "sourceName": "Patriots.com"
   },
   {
