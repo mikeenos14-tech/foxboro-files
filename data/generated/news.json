@@ -1,5 +1,14 @@
 [
   {
+    "id": "aa2bab7c-4198-42e9-a543-cf757784a4b7",
+    "publishedAt": "2026-09-25T10:00:56.000Z",
+    "type": "Analysis",
+    "headline": "Inside the Patriots 'Mobile Classroom' at the New Balance Athletics Center",
+    "summary": "The Patriots are using their new 'mobile classroom' as a new way to prepare their players for games this season.",
+    "sourceUrl": "https://www.patriots.com/news/inside-the-patriots-mobile-classroom-at-the-new-balance-athletics-center",
+    "sourceName": "Patriots.com"
+  },
+  {
     "id": "56613b7d-ad9d-4eaa-9a35-e279afe36f68",
     "publishedAt": "2026-09-24T20:13:00.000Z",
     "type": "Injury",
@@ -61,24 +70,6 @@
     "summary": "The Patriots announced today that they have signed LB Jose Ramirez to the 53-man roster from the practice squad and placed S Dell Pettus on injured reserve. In addition, the Patriots signed LB Benton Whitley to the practice squad.",
     "sourceUrl": "https://www.patriots.com/news/patriots-place-s-dell-pettus-on-injured-reserve-make-additional-roster-moves",
     "sourceName": "Patriots.com"
-  },
-  {
-    "id": "fdb0d224-5464-44f2-b4fc-7572dd84f43d",
-    "publishedAt": "2026-09-23T17:48:00.000Z",
-    "type": "Analysis",
-    "headline": "How to Watch and Stream Sunday's Patriots Week 3 Game Against the Jaguars",
-    "summary": "Complete broadcast information for this week's game between the New England Patriots and the Jacksonville Jaguars on Sunday, September 27, 2026 at 1 PM ET.",
-    "sourceUrl": "https://www.patriots.com/news/how-to-watch-and-stream-sunday-s-patriots-week-3-game-against-the-jaguars",
-    "sourceName": "Patriots.com"
-  },
-  {
-    "id": "49990760",
-    "publishedAt": "2026-09-20T22:28:54Z",
-    "type": "Analysis",
-    "headline": "Patriots starting RG Mike Onwenu has broken right ankle, source says",
-    "summary": "Initial X-rays revealed that New England Patriots starting right guard Mike Onwenu has a broken right ankle, a source said.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49990760/patriots-starting-rg-mike-onwenu-carted-ankle-injury",
-    "sourceName": "ESPN"
   },
   {
     "id": "49992010",
