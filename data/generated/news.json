@@ -1,5 +1,23 @@
 [
   {
+    "id": "279ff0f5-4d4f-4501-96b4-c9940b1a452b",
+    "publishedAt": "2026-09-26T20:00:52.000Z",
+    "type": "Injury",
+    "headline": "Roster Analysis: TE Eli Raridon and S Craig Woodson make the trip, Patriots elevate two players for Sunday's Game vs. the Jaguars",
+    "summary": "Raridon (thigh) and Woodson (shoulder) are both questionable for Week 3 in Jacksonville.",
+    "sourceUrl": "https://www.patriots.com/news/roster-analysis-te-eli-raridon-and-s-craig-woodson-make-the-trip-patriots-elevate-two-players-for-sunday-s-game-vs-the-jaguars",
+    "sourceName": "Patriots.com"
+  },
+  {
+    "id": "446b87e2-81a8-4fc9-8f44-ef02743aea68",
+    "publishedAt": "2026-09-26T20:00:00.000Z",
+    "type": "Transaction",
+    "headline": "Patriots Elevate S Mike Brown and DT Jeremiah Pharms Jr. to the Active Roster",
+    "summary": "The Patriots announced today that they have elevated S Mike Brown and DT Jeremiah Pharms Jr. to the active roster from the practice squad.",
+    "sourceUrl": "https://www.patriots.com/news/patriots-elevate-s-mike-brown-and-dt-jeremiah-pharms-jr-to-the-active-roster",
+    "sourceName": "Patriots.com"
+  },
+  {
     "id": "9f379be8-8b35-432a-8f27-fc310d8ea1ca",
     "publishedAt": "2026-09-25T20:05:33.000Z",
     "type": "Injury",
@@ -24,24 +42,6 @@
     "headline": "Patriots Place Rookie LB Quintayvious Hutchins on Injured Reserve",
     "summary": "The Patriots announced today that they have placed LB Quintayvious Hutchins on injured reserve.",
     "sourceUrl": "https://www.patriots.com/news/patriots-place-rookie-lb-quintayvious-hutchins-on-injured-reserve",
-    "sourceName": "Patriots.com"
-  },
-  {
-    "id": "b5a29365-17e4-46a6-907e-fc674da2709d",
-    "publishedAt": "2026-09-25T15:15:00.000Z",
-    "type": "Analysis",
-    "headline": "Cheerleader Spotlight: Rachel",
-    "summary": "In this Cheerleader Spotlight, learn more about how Rachel's experiences as a dancer and choreographer prepared her for a role as an NFL Cheerleader.",
-    "sourceUrl": "https://www.patriots.com/news/cheerleader-spotlight-rachel",
-    "sourceName": "Patriots.com"
-  },
-  {
-    "id": "3d32ed82-10a6-4d31-b571-76177e5723ea",
-    "publishedAt": "2026-09-25T14:00:41.000Z",
-    "type": "Analysis",
-    "headline": "Christian Gonzalez, Andy Borregales, and Patriots teammates celebrate Hispanic Heritage Celebration at IBA in Boston",
-    "summary": "To celebrate Hispanic Heritage Month, the New England Patriots Foundation, IBA, and Bank of America hosted a family-friendly event at IBA’s new arts center La Casa to highlight the rich cultures and traditions of Hispanic communities.",
-    "sourceUrl": "https://www.patriots.com/news/christian-gonzalez-andy-borregales-and-patriots-teammates-celebrate-hispanic-heritage-celebration-at-iba-in-boston",
     "sourceName": "Patriots.com"
   },
   {
