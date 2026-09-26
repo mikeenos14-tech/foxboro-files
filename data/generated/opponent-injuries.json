@@ -5,9 +5,9 @@
     "position": "WR",
     "week": 3,
     "injury": "Thumb",
-    "practiceStatus": "Limited",
+    "practiceStatus": "Full",
     "gameStatus": null,
-    "lastUpdated": "2026-09-26T03:06:44.037Z"
+    "lastUpdated": "2026-09-26T06:08:49.920Z"
   },
   {
     "playerId": "00-0036262",
@@ -17,7 +17,7 @@
     "injury": "Back",
     "practiceStatus": "Limited",
     "gameStatus": null,
-    "lastUpdated": "2026-09-26T03:06:44.037Z"
+    "lastUpdated": "2026-09-26T06:08:49.920Z"
   },
   {
     "playerId": "00-0036655",
@@ -25,9 +25,9 @@
     "position": "T",
     "week": 3,
     "injury": "Knee",
-    "practiceStatus": "Limited",
+    "practiceStatus": "Full",
     "gameStatus": null,
-    "lastUpdated": "2026-09-26T03:06:44.037Z"
+    "lastUpdated": "2026-09-26T06:08:49.920Z"
   },
   {
     "playerId": "00-0036985",
@@ -35,9 +35,9 @@
     "position": "C",
     "week": 3,
     "injury": "Elbow",
-    "practiceStatus": "Limited",
+    "practiceStatus": "Full",
     "gameStatus": null,
-    "lastUpdated": "2026-09-26T03:06:44.037Z"
+    "lastUpdated": "2026-09-26T06:08:49.920Z"
   },
   {
     "playerId": "00-0038616",
@@ -47,7 +47,7 @@
     "injury": "Knee",
     "practiceStatus": "Full",
     "gameStatus": null,
-    "lastUpdated": "2026-09-26T03:06:44.037Z"
+    "lastUpdated": "2026-09-26T06:08:49.920Z"
   },
   {
     "playerId": "00-0040238",
@@ -57,7 +57,7 @@
     "injury": "Hip",
     "practiceStatus": "Limited",
     "gameStatus": null,
-    "lastUpdated": "2026-09-26T03:06:44.037Z"
+    "lastUpdated": "2026-09-26T06:08:49.920Z"
   },
   {
     "playerId": "00-0040326",
@@ -65,8 +65,18 @@
     "position": "LB",
     "week": 3,
     "injury": "Not injury related - personal matter",
-    "practiceStatus": "Did Not Participate",
+    "practiceStatus": "Full",
     "gameStatus": null,
-    "lastUpdated": "2026-09-26T03:06:44.037Z"
+    "lastUpdated": "2026-09-26T06:08:49.920Z"
+  },
+  {
+    "playerId": "00-0041045",
+    "playerName": "Albert Regis",
+    "position": "DT",
+    "week": 3,
+    "injury": "Elbow",
+    "practiceStatus": "Limited",
+    "gameStatus": "Doubtful",
+    "lastUpdated": "2026-09-26T06:08:49.920Z"
   }
 ]
