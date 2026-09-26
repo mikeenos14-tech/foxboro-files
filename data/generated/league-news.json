@@ -1,11 +1,20 @@
 [
   {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=420862",
-    "publishedAt": "2026-09-26T03:17:19.000Z",
-    "type": "Analysis",
-    "headline": "Commanders QB Jayden Daniels Unlikely To Undergo Surgery",
-    "summary": "The past several days have seen Jayden Daniels and the Commanders receive a number of opinions with surgery being considered. This year’s elbow dislocation is not expected to lead to a procedure, however. “He met with doctors all over the country,” general manager Adam Peters said during an appearance on 106.7 The Fan Friday morning. “We got a lot of good […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/09/commanders-qb-jayden-daniels-unlikely-to-undergo-surgery",
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=420942",
+    "publishedAt": "2026-09-26T16:44:11.000Z",
+    "type": "Transaction",
+    "headline": "Jets Make Multiple Roster Moves",
+    "summary": "The Jets made a few roster moves ahead of their Week 3 meeting with the Lions, per Zack Rosenblatt of The Athletic. New York elevated wide receiver Sterling Shepard and kicker Jason Sanders from the practice squad, and it signed wideout Jamaal Pritchett to the active roster. Sunday’s game will be Shepard’s debut with the […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/09/jets-make-multiple-roster-moves",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=420927",
+    "publishedAt": "2026-09-26T16:02:40.000Z",
+    "type": "Injury",
+    "headline": "Giants Exploring QB Options But Plan To Stick With Jameis Winston",
+    "summary": "The Giants are exploring potential quarterback additions following a knee injury to Jaxson Dart that is expected to sideline the second-year quarterback for the rest of the regular season. But after giving Jameis Winston a two-year, $13MM extension for this exact purpose – backing up a young injury-prone quarterback – the starting job is his […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/09/giants-exploring-qb-options-but-plan-to-stick-with-jameis-winston",
     "sourceName": "Pro Football Rumors"
   },
   {
@@ -18,6 +27,15 @@
     "sourceName": "Pro Football Rumors"
   },
   {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/commanders-announce-marcus-mariota-will-be-a-team-captain-for-the-rest-of-the-season",
+    "publishedAt": "2026-09-26T08:25:00.000Z",
+    "type": "Injury",
+    "headline": "Commanders announce Marcus Mariota will be a team captain for the rest of the season",
+    "summary": "Mariota will start in place of the injured Jayden Daniels on Sunday against the Seahawks.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/commanders-announce-marcus-mariota-will-be-a-team-captain-for-the-rest-of-the-season",
+    "sourceName": "Pro Football Talk"
+  },
+  {
     "id": "profootballrumors-https://www.profootballrumors.com/?p=420867",
     "publishedAt": "2026-09-26T03:15:09.000Z",
     "type": "Injury",
@@ -27,30 +45,12 @@
     "sourceName": "Pro Football Rumors"
   },
   {
-    "id": "50029190",
-    "publishedAt": "2026-09-25T21:20:48Z",
-    "type": "Injury",
-    "headline": "Jayden Daniels avoids IR after elbow injury",
-    "summary": "Ian Rapoport shares encouraging news on Jayden Daniels' elbow injury, with the Commanders hopeful their quarterback will return sooner rather than later.",
-    "sourceUrl": "https://www.espn.com/video/clip/_/id/50029190/jayden-daniels-avoids-ir-elbow-injury",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jim-harbaugh-hopes-to-rebound-from-first-0-2-start-as-a-head-coach",
-    "publishedAt": "2026-09-26T14:12:03.000Z",
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/josh-allen-is-having-a-historic-start-to-the-season",
+    "publishedAt": "2026-09-25T23:28:35.000Z",
     "type": "Analysis",
-    "headline": "Jim Harbaugh hopes to rebound from first 0-2 start as a head coach",
-    "summary": "It was a bad weekend for the Brothers Harbaugh at SoFi Stadium.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jim-harbaugh-hopes-to-rebound-from-first-0-2-start-as-a-head-coach",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/seven-teams-face-an-0-3-hole-and-only-seven-0-3-teams-have-ever-made-the-playoffs",
-    "publishedAt": "2026-09-26T03:39:03.000Z",
-    "type": "Analysis",
-    "headline": "Seven teams face an 0-3 hole — and only seven 0-3 teams have ever made the playoffs",
-    "summary": "Eight teams entered Week 3 at 0-2.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/seven-teams-face-an-0-3-hole-and-only-seven-0-3-teams-have-ever-made-the-playoffs",
+    "headline": "Josh Allen is having a historic start to the season",
+    "summary": "Bills quarterback Josh Allen has gotten off to a great start in 2026.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/josh-allen-is-having-a-historic-start-to-the-season",
     "sourceName": "Pro Football Talk"
   }
 ]
