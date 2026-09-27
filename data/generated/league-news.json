@@ -1,20 +1,38 @@
 [
   {
+    "id": "50036929",
+    "publishedAt": "2026-09-27T12:00:48Z",
+    "type": "Injury",
+    "headline": "Sources: Caleb Williams injury considered to have 3-4 week timeline",
+    "summary": "Bears QB Caleb Williams has a Grade 2 hamstring injury that doctors consider a three-to-four-week injury, league sources told ESPN and NFL Network.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50036929/sources-caleb-williams-injury-considered-3-4-week-line",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50038925",
+    "publishedAt": "2026-09-27T11:50:10Z",
+    "type": "Analysis",
+    "headline": "Sources: Myles Garrett faces 6-week timeline from knee surgery",
+    "summary": "Myles Garrett was given a six-week recovery timeline from his knee surgery, meaning the star pass rusher might not return until early November, sources told NFL Network.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50038925/sources-myles-garrett-faces-6-week-line-knee-surgery",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=421022",
+    "publishedAt": "2026-09-27T12:05:53.000Z",
+    "type": "Analysis",
+    "headline": "Cowboys, Lions Among Teams To Inquire On Steelers CB Joey Porter Jr.",
+    "summary": "Recently named as a team to watch as a possible landing spot for Steelers CB Joey Porter Jr., the Lions have inquired on his availability, per ESPN’s Adam Schefter. The Cowboys, who were speculatively connected to a possible Porter pursuit, are also among the clubs to make an inquiry. More to come.",
+    "sourceUrl": "https://www.profootballrumors.com/2026/09/cowboys-lions-among-teams-to-inquire-on-steelers-cb-joey-porter-jr",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
     "id": "profootballrumors-https://www.profootballrumors.com/?p=420943",
     "publishedAt": "2026-09-27T02:57:34.000Z",
     "type": "Beat Report",
     "headline": "Commanders QB Jayden Daniels Could Return Sooner Than Expected",
     "summary": "Commanders quarterback Jayden Daniels could return to practice – albeit with a bulky brace on his left arm – as soon as next week Daniels, 25, dislocated his left elbow in Week 2 for the second time in a year. He was sidelined for about a month last season, but his 2026 absence may only last […]",
     "sourceUrl": "https://www.profootballrumors.com/2026/09/commanders-qb-jayden-daniels-could-return-sooner-than-expected",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=420949",
-    "publishedAt": "2026-09-27T03:00:47.000Z",
-    "type": "Injury",
-    "headline": "Bears’ Tyson Bagent Returns To Practice; Caleb Williams Out For Week 3",
-    "summary": "10:00pm: To no surprise, the Bears have ruled Williams out for Week 3. Bagent is questionable. 12:14pm: Bears second-string quarterback Tyson Bagent entered the NFL’s concussion protocol on Tuesday, but he may not miss any action. Bagent advanced through the protocol and will practice on Saturday, head coach Ben Johnson announced (via Patrick Finley of […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/09/tyson-bagent-clears-concussion-protocol",
     "sourceName": "Pro Football Rumors"
   },
   {
@@ -27,30 +45,12 @@
     "sourceName": "Pro Football Rumors"
   },
   {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/justin-herbert-could-pass-to-his-brother-as-chargers-elevate-tight-end-patrick-herbert",
-    "publishedAt": "2026-09-27T09:02:45.000Z",
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/former-oklahoma-teammates-kyler-murray-baker-mayfield-meet-again",
+    "publishedAt": "2026-09-27T02:20:22.000Z",
     "type": "Analysis",
-    "headline": "Justin Herbert could pass to his brother as Chargers elevate tight end Patrick Herbert",
-    "summary": "The younger Herbert brother will be active for the Chargers for the first time today.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/justin-herbert-could-pass-to-his-brother-as-chargers-elevate-tight-end-patrick-herbert",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=421015",
-    "publishedAt": "2026-09-27T03:58:39.000Z",
-    "type": "Transaction",
-    "headline": "Jimmy Garoppolo Open To Deal; Giants Could Make Two QB Additions?",
-    "summary": "With the Giants in position to add a quarterback, many have labeled Jimmy Garoppolo a candidate to be brought into the fold. The veteran passer is open to a deal for 2026. “I’m ready to play, in the right situation,” Garoppolo said when speaking to The Exhibit’s Josina Anderson. The 34-year-old remained unsigned after his Rams deal […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/09/jimmy-garoppolo-open-to-deal-giants-could-make-two-qb-additions",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/aaron-rodgers-has-gone-seven-straight-games-without-multiple-td-passes",
-    "publishedAt": "2026-09-27T02:55:33.000Z",
-    "type": "Analysis",
-    "headline": "Aaron Rodgers has gone seven straight games without multiple TD passes",
-    "summary": "The final years of Aaron Rodgers's career aren't going as well as the rest of it.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/aaron-rodgers-has-gone-seven-straight-games-without-multiple-td-passes",
+    "headline": "Former Oklahoma teammates Kyler Murray, Baker Mayfield meet again",
+    "summary": "Vikings quarterback Kyler Murray's return from a Week 1 concussion adds a separate wrinkle to the Week 3 game against the Buccaneers.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/former-oklahoma-teammates-kyler-murray-baker-mayfield-meet-again",
     "sourceName": "Pro Football Talk"
   }
 ]
