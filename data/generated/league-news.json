@@ -1,16 +1,16 @@
 [
   {
     "id": "50036929",
-    "publishedAt": "2026-09-27T12:00:48Z",
+    "publishedAt": "2026-09-27T13:53:56Z",
     "type": "Injury",
     "headline": "Sources: Caleb Williams injury considered to have 3-4 week timeline",
-    "summary": "Bears QB Caleb Williams has a Grade 2 hamstring injury that doctors consider a three-to-four-week injury, league sources told ESPN and NFL Network.",
+    "summary": "Bears quarterback Caleb Williams has a Grade 2 hamstring injury that doctors say could sideline him for three to four weeks, league sources told ESPN and NFL Network.",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/50036929/sources-caleb-williams-injury-considered-3-4-week-line",
     "sourceName": "ESPN"
   },
   {
     "id": "50038925",
-    "publishedAt": "2026-09-27T11:50:10Z",
+    "publishedAt": "2026-09-27T13:39:05Z",
     "type": "Analysis",
     "headline": "Sources: Myles Garrett faces 6-week timeline from knee surgery",
     "summary": "Myles Garrett was given a six-week recovery timeline from his knee surgery, meaning the star pass rusher might not return until early November, sources told NFL Network.",
@@ -18,13 +18,22 @@
     "sourceName": "ESPN"
   },
   {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=421022",
-    "publishedAt": "2026-09-27T12:05:53.000Z",
+    "id": "50036843",
+    "publishedAt": "2026-09-26T22:43:52Z",
+    "type": "Injury",
+    "headline": "Broncos place RB Jonah Coleman (ankle) on IR",
+    "summary": "Denver Broncos rookie running back Jonah Coleman was placed on injured reserve Saturday with an ankle injury he suffered in the team's Week 2 win over the Jacksonville Jaguars.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50036843/broncos-place-rb-jonah-coleman-ankle-ir",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50037942",
+    "publishedAt": "2026-09-27T13:25:19Z",
     "type": "Analysis",
-    "headline": "Cowboys, Lions Among Teams To Inquire On Steelers CB Joey Porter Jr.",
-    "summary": "Recently named as a team to watch as a possible landing spot for Steelers CB Joey Porter Jr., the Lions have inquired on his availability, per ESPN’s Adam Schefter. The Cowboys, who were speculatively connected to a possible Porter pursuit, are also among the clubs to make an inquiry. More to come.",
-    "sourceUrl": "https://www.profootballrumors.com/2026/09/cowboys-lions-among-teams-to-inquire-on-steelers-cb-joey-porter-jr",
-    "sourceName": "Pro Football Rumors"
+    "headline": "Giants set game plan with Jameis Winston, mull options to add QB",
+    "summary": "The Giants' pursuit of a veteran quarterback will depend on how well Jameis Winston performs against the Titans in Week 3.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50037942/giants-set-gameplan-jameis-winston-mull-options-add-qb",
+    "sourceName": "ESPN"
   },
   {
     "id": "profootballrumors-https://www.profootballrumors.com/?p=420943",
@@ -36,21 +45,12 @@
     "sourceName": "Pro Football Rumors"
   },
   {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=420796",
-    "publishedAt": "2026-09-27T02:11:45.000Z",
+    "id": "50038725",
+    "publishedAt": "2026-09-27T13:33:32Z",
     "type": "Transaction",
-    "headline": "Joey Porter Jr. Denies Requesting Trade, Intends To Play This Year",
-    "summary": "SEPTEMBER 26: Mark Kaboly of the Pat McAfee Show notes it would be a surprise if Porter were to suit up tomorrow. He adds this situation is “approaching untenable status,” so trade speculation will no doubt intensify especially if Porter remains sidelined for Week 3. SEPTEMBER 24: In his first media availability since failing to reach an extension agreement […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/09/joey-porter-jr-denies-requesting-trade-intends-to-play-this-year",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/former-oklahoma-teammates-kyler-murray-baker-mayfield-meet-again",
-    "publishedAt": "2026-09-27T02:20:22.000Z",
-    "type": "Analysis",
-    "headline": "Former Oklahoma teammates Kyler Murray, Baker Mayfield meet again",
-    "summary": "Vikings quarterback Kyler Murray's return from a Week 1 concussion adds a separate wrinkle to the Week 3 game against the Buccaneers.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/former-oklahoma-teammates-kyler-murray-baker-mayfield-meet-again",
-    "sourceName": "Pro Football Talk"
+    "headline": "Sources: Cowboys, Lions make trade inquiries on Joey Porter Jr.",
+    "summary": "A handful of teams, including the Cowboys and Lions, have begun making inquiries about the availability of Steelers cornerback Joey Porter Jr., sources told ESPN.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50038725/sources-steelers-field-joey-porter-jr-trade-calls-cowboys-lions",
+    "sourceName": "ESPN"
   }
 ]
