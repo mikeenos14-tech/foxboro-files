@@ -1,0 +1,206 @@
+{
+  "gameId": "2026_03_NE_JAX",
+  "narrative": "New England fell to JAX 6-35. The offense posted -0.25 EPA/play (37% success rate) while the defense allowed 0.23 EPA/play. Turnover margin was -2.",
+  "epaPerPlay": {
+    "offense": -0.25274263077326486,
+    "defense": 0.23317454462650306
+  },
+  "successRate": {
+    "offenseByDown": {
+      "1": 0.2692307692307692,
+      "2": 0.5,
+      "3": 0.3333333333333333,
+      "4": 0.5
+    },
+    "defenseByDown": {
+      "1": 0.37037037037037035,
+      "2": 0.55,
+      "3": 0.75,
+      "4": 0
+    }
+  },
+  "turnoverMargin": -2,
+  "pointsOffTurnovers": {
+    "for": 0,
+    "against": 0
+  },
+  "explosivePlayRate": {
+    "for": 0.11666666666666667,
+    "against": 0.1016949152542373
+  },
+  "redZone": {
+    "offense": {
+      "att": 4,
+      "td": 0
+    },
+    "defense": {
+      "att": 5,
+      "td": 5
+    }
+  },
+  "thirdDown": {
+    "offense": {
+      "att": 12,
+      "conv": 4
+    },
+    "defense": {
+      "att": 12,
+      "conv": 8
+    }
+  },
+  "winProbabilityTimeline": [
+    {
+      "playIndex": 0,
+      "quarter": 1,
+      "clock": "15:00",
+      "homeWinProb": 0.546261787414551
+    },
+    {
+      "playIndex": 8,
+      "quarter": 1,
+      "clock": "12:29",
+      "homeWinProb": 0.514850288629532
+    },
+    {
+      "playIndex": 16,
+      "quarter": 1,
+      "clock": "09:43",
+      "homeWinProb": 0.546261787414551
+    },
+    {
+      "playIndex": 24,
+      "quarter": 1,
+      "clock": "05:59",
+      "homeWinProb": 0.45122230052948
+    },
+    {
+      "playIndex": 32,
+      "quarter": 1,
+      "clock": "00:56",
+      "homeWinProb": 0.613230228424072
+    },
+    {
+      "playIndex": 40,
+      "quarter": 2,
+      "clock": "13:25",
+      "homeWinProb": 0.707536429166794
+    },
+    {
+      "playIndex": 48,
+      "quarter": 2,
+      "clock": "10:34",
+      "homeWinProb": 0.680945813655853
+    },
+    {
+      "playIndex": 56,
+      "quarter": 2,
+      "clock": "07:16",
+      "homeWinProb": 0.738778829574585
+    },
+    {
+      "playIndex": 64,
+      "quarter": 2,
+      "clock": "04:17",
+      "homeWinProb": 0.820989057421684
+    },
+    {
+      "playIndex": 72,
+      "quarter": 2,
+      "clock": "01:19",
+      "homeWinProb": 0.768536239862442
+    },
+    {
+      "playIndex": 80,
+      "quarter": 2,
+      "clock": "00:49",
+      "homeWinProb": 0.841181337833405
+    },
+    {
+      "playIndex": 88,
+      "quarter": 2,
+      "clock": "00:07",
+      "homeWinProb": 0.871298253536224
+    },
+    {
+      "playIndex": 96,
+      "quarter": 3,
+      "clock": "13:02",
+      "homeWinProb": 0.809441477060318
+    },
+    {
+      "playIndex": 104,
+      "quarter": 3,
+      "clock": "09:08",
+      "homeWinProb": 0.887901961803436
+    },
+    {
+      "playIndex": 112,
+      "quarter": 3,
+      "clock": "04:28",
+      "homeWinProb": 0.903352856636047
+    },
+    {
+      "playIndex": 120,
+      "quarter": 3,
+      "clock": "01:19",
+      "homeWinProb": 0.942128419876099
+    },
+    {
+      "playIndex": 128,
+      "quarter": 3,
+      "clock": "00:49",
+      "homeWinProb": 0.996602193219587
+    },
+    {
+      "playIndex": 136,
+      "quarter": 4,
+      "clock": "13:32",
+      "homeWinProb": 0.996434376575053
+    },
+    {
+      "playIndex": 144,
+      "quarter": 4,
+      "clock": "09:40",
+      "homeWinProb": 0.999847292900085
+    },
+    {
+      "playIndex": 152,
+      "quarter": 4,
+      "clock": "06:38",
+      "homeWinProb": 0.999923067240161
+    },
+    {
+      "playIndex": 160,
+      "quarter": 4,
+      "clock": "02:39",
+      "homeWinProb": 0.999923349452729
+    },
+    {
+      "playIndex": 167,
+      "quarter": 4,
+      "clock": "00:00",
+      "homeWinProb": 1
+    }
+  ],
+  "goodBadUgly": {
+    "good": [
+      "Remy Stevenson was the bright spot, leading the team in win probability added with 7% despite the blowout.",
+      "Our defense did show some resistance, holding the line on third down conversions allowed at 8-for-12."
+    ],
+    "bad": [
+      "The red zone was a complete disaster: 0-for-4 on offense while Jacksonville punished us 5-for-5.",
+      "Our offense generated a negative EPA per play at -0.25, and we couldn't convert third downs at a respectable rate (4-for-12)."
+    ],
+    "ugly": [
+      "A turnover margin of -2 combined with Jacksonville's clinical execution left us completely overwhelmed in every phase."
+    ]
+  },
+  "playerOfTheGame": {
+    "playerId": "00-0036875",
+    "playerName": "R.Stevenson",
+    "wpa": 0.06984391808509827,
+    "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/zmpuirvuw4r04inxth5i",
+    "reason": "Led the team with +7% win probability added."
+  },
+  "fanTake": "Well, that was thorough. The Jaguars came to Foxboro and conducted what can only be described as a masterclass in how to dismantle a football team, winning 35-6 in a performance that felt less like a game and more like a carefully orchestrated dismantling. Trevor Lawrence threw three touchdown passes—including a ridiculous fingertip catch from Parker Washington that probably played on highlight reels for a week—while our offense managed to score a field goal and not much else. We went 0-for-4 in the red zone while Jacksonville converted 5-for-5 in theirs, which is basically the mathematical equivalent of saying \"they executed and we didn't.\" With Eli Raridon and Craig Woodson inactive, we were already dealing with roster constraints, but that doesn't fully explain an offensive EPA per play of -0.25 or a third-down conversion rate of 4-for-12. Remy Stevenson salvaged something with a 7% win probability added, but when your running back is your player of the game in a 35-6 loss, that tells you everything you need to know about the afternoon."
+}

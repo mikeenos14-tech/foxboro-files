@@ -1,226 +1,226 @@
 [
   {
-    "team": "BUF",
-    "offenseEpa": 0.3432656645393612,
-    "offenseRank": 1,
-    "defenseEpa": 0.15261834078074912,
-    "defenseRank": 28
-  },
-  {
     "team": "SF",
-    "offenseEpa": 0.3229685191649077,
-    "offenseRank": 2,
-    "defenseEpa": -0.1442776175135321,
-    "defenseRank": 9
-  },
-  {
-    "team": "BAL",
-    "offenseEpa": 0.20026205840640235,
-    "offenseRank": 3,
-    "defenseEpa": -0.04246655922550001,
-    "defenseRank": 11
-  },
-  {
-    "team": "DAL",
-    "offenseEpa": 0.19333525590576808,
-    "offenseRank": 4,
-    "defenseEpa": 0.2310833602808979,
-    "defenseRank": 30
-  },
-  {
-    "team": "CAR",
-    "offenseEpa": 0.17709502475360905,
-    "offenseRank": 5,
-    "defenseEpa": -0.025104298553156056,
-    "defenseRank": 14
-  },
-  {
-    "team": "CHI",
-    "offenseEpa": 0.17651189206947654,
-    "offenseRank": 6,
-    "defenseEpa": 0.04773595092237488,
-    "defenseRank": 20
-  },
-  {
-    "team": "KC",
-    "offenseEpa": 0.17240150946004895,
-    "offenseRank": 7,
-    "defenseEpa": -0.05303763108157489,
-    "defenseRank": 10
-  },
-  {
-    "team": "SEA",
-    "offenseEpa": 0.13377387085903533,
-    "offenseRank": 8,
-    "defenseEpa": -0.2089036725262838,
-    "defenseRank": 3
-  },
-  {
-    "team": "JAX",
-    "offenseEpa": 0.13214668603352375,
-    "offenseRank": 9,
-    "defenseEpa": -0.005314888907713076,
-    "defenseRank": 15
-  },
-  {
-    "team": "DET",
-    "offenseEpa": 0.08707566392605776,
-    "offenseRank": 10,
-    "defenseEpa": 0.14030808598717465,
-    "defenseRank": 27
-  },
-  {
-    "team": "WAS",
-    "offenseEpa": 0.028606995390629598,
-    "offenseRank": 11,
-    "defenseEpa": 0.12642929692615976,
-    "defenseRank": 26
-  },
-  {
-    "team": "PHI",
-    "offenseEpa": 0.020121119694232168,
-    "offenseRank": 12,
-    "defenseEpa": 0.05974962310411475,
-    "defenseRank": 22
-  },
-  {
-    "team": "NO",
-    "offenseEpa": 0.019652009348420922,
-    "offenseRank": 13,
-    "defenseEpa": 0.00824256202947551,
-    "defenseRank": 16
-  },
-  {
-    "team": "LA",
-    "offenseEpa": -0.009115027918151584,
-    "offenseRank": 14,
-    "defenseEpa": -0.16256546094948607,
-    "defenseRank": 8
-  },
-  {
-    "team": "NYJ",
-    "offenseEpa": -0.012408467510948281,
-    "offenseRank": 15,
-    "defenseEpa": -0.17251716381326065,
-    "defenseRank": 6
-  },
-  {
-    "team": "TEN",
-    "offenseEpa": -0.018147775291250584,
-    "offenseRank": 16,
-    "defenseEpa": 0.09089780217797618,
-    "defenseRank": 25
-  },
-  {
-    "team": "IND",
-    "offenseEpa": -0.019566299786200825,
-    "offenseRank": 17,
-    "defenseEpa": 0.24317725419200809,
-    "defenseRank": 31
-  },
-  {
-    "team": "NYG",
-    "offenseEpa": -0.019877589753388582,
-    "offenseRank": 18,
-    "defenseEpa": 0.25206453624890607,
-    "defenseRank": 32
-  },
-  {
-    "team": "ARI",
-    "offenseEpa": -0.041384291002255796,
-    "offenseRank": 19,
-    "defenseEpa": -0.02818222069354764,
-    "defenseRank": 13
-  },
-  {
-    "team": "NE",
-    "offenseEpa": -0.06000777991362375,
-    "offenseRank": 20,
-    "defenseEpa": -0.1747451088630905,
+    "offenseEpa": 0.32104512001720986,
+    "offenseRank": 1,
+    "defenseEpa": -0.13141762029645335,
     "defenseRank": 5
   },
   {
-    "team": "CIN",
-    "offenseEpa": -0.06776597418084966,
-    "offenseRank": 21,
-    "defenseEpa": -0.22828870870251824,
-    "defenseRank": 2
+    "team": "BUF",
+    "offenseEpa": 0.217214535020395,
+    "offenseRank": 2,
+    "defenseEpa": 0.10163325190451644,
+    "defenseRank": 27
   },
   {
-    "team": "MIN",
-    "offenseEpa": -0.07842638739406381,
-    "offenseRank": 22,
-    "defenseEpa": -0.17202077422750045,
-    "defenseRank": 7
+    "team": "DAL",
+    "offenseEpa": 0.2108539564243892,
+    "offenseRank": 3,
+    "defenseEpa": 0.24710161950842321,
+    "defenseRank": 32
   },
   {
-    "team": "MIA",
-    "offenseEpa": -0.08700248709023822,
-    "offenseRank": 23,
-    "defenseEpa": 0.16181006597200123,
-    "defenseRank": 29
-  },
-  {
-    "team": "DEN",
-    "offenseEpa": -0.09088043420919611,
-    "offenseRank": 24,
-    "defenseEpa": 0.023444163594677235,
-    "defenseRank": 18
-  },
-  {
-    "team": "CLE",
-    "offenseEpa": -0.09910150825317435,
-    "offenseRank": 25,
-    "defenseEpa": 0.08426128721959758,
-    "defenseRank": 23
-  },
-  {
-    "team": "HOU",
-    "offenseEpa": -0.10289780130162841,
-    "offenseRank": 26,
-    "defenseEpa": 0.02625332777377723,
-    "defenseRank": 19
-  },
-  {
-    "team": "GB",
-    "offenseEpa": -0.11238322229109793,
-    "offenseRank": 27,
-    "defenseEpa": 0.08718908265685668,
-    "defenseRank": 24
-  },
-  {
-    "team": "LV",
-    "offenseEpa": -0.11316661337148173,
-    "offenseRank": 28,
-    "defenseEpa": -0.2409708987581058,
-    "defenseRank": 1
-  },
-  {
-    "team": "ATL",
-    "offenseEpa": -0.16798382315392418,
-    "offenseRank": 29,
-    "defenseEpa": -0.033799644017828034,
+    "team": "BAL",
+    "offenseEpa": 0.20609167915895893,
+    "offenseRank": 4,
+    "defenseEpa": -0.030962582437742366,
     "defenseRank": 12
   },
   {
-    "team": "TB",
-    "offenseEpa": -0.1810367337851574,
-    "offenseRank": 30,
-    "defenseEpa": 0.01221163951454106,
+    "team": "JAX",
+    "offenseEpa": 0.1903176561961477,
+    "offenseRank": 5,
+    "defenseEpa": -0.08463871383096716,
+    "defenseRank": 6
+  },
+  {
+    "team": "CHI",
+    "offenseEpa": 0.18318580386106764,
+    "offenseRank": 6,
+    "defenseEpa": 0.06273227970787885,
+    "defenseRank": 24
+  },
+  {
+    "team": "KC",
+    "offenseEpa": 0.15775548086887675,
+    "offenseRank": 7,
+    "defenseEpa": -0.07421056500194625,
+    "defenseRank": 7
+  },
+  {
+    "team": "DET",
+    "offenseEpa": 0.13738377334736132,
+    "offenseRank": 8,
+    "defenseEpa": 0.129113008537009,
+    "defenseRank": 29
+  },
+  {
+    "team": "CIN",
+    "offenseEpa": 0.06779195026860374,
+    "offenseRank": 9,
+    "defenseEpa": -0.06660283934856548,
+    "defenseRank": 8
+  },
+  {
+    "team": "CAR",
+    "offenseEpa": 0.055316905479248446,
+    "offenseRank": 10,
+    "defenseEpa": -0.016244021103754513,
+    "defenseRank": 16
+  },
+  {
+    "team": "SEA",
+    "offenseEpa": 0.05030100661295831,
+    "offenseRank": 11,
+    "defenseEpa": -0.15458100357961096,
+    "defenseRank": 3
+  },
+  {
+    "team": "PHI",
+    "offenseEpa": 0.03617571674890102,
+    "offenseRank": 12,
+    "defenseEpa": 0.07758447177361845,
+    "defenseRank": 25
+  },
+  {
+    "team": "NO",
+    "offenseEpa": 0.016510646404005225,
+    "offenseRank": 13,
+    "defenseEpa": -0.0011412322438418832,
+    "defenseRank": 19
+  },
+  {
+    "team": "NYJ",
+    "offenseEpa": 0.013781262605061675,
+    "offenseRank": 14,
+    "defenseEpa": -0.03577937837050716,
+    "defenseRank": 10
+  },
+  {
+    "team": "WAS",
+    "offenseEpa": 0.011393400693903046,
+    "offenseRank": 15,
+    "defenseEpa": 0.05202940965058089,
+    "defenseRank": 23
+  },
+  {
+    "team": "LA",
+    "offenseEpa": 0.005292124546420886,
+    "offenseRank": 16,
+    "defenseEpa": -0.15352981860342105,
+    "defenseRank": 4
+  },
+  {
+    "team": "ARI",
+    "offenseEpa": -0.0314884599385209,
+    "offenseRank": 17,
+    "defenseEpa": -0.015489931254788796,
     "defenseRank": 17
   },
   {
-    "team": "LAC",
-    "offenseEpa": -0.25278774661217257,
-    "offenseRank": 31,
-    "defenseEpa": 0.051687106054434495,
+    "team": "IND",
+    "offenseEpa": -0.054892639604163344,
+    "offenseRank": 18,
+    "defenseEpa": 0.15372093557614516,
+    "defenseRank": 31
+  },
+  {
+    "team": "CLE",
+    "offenseEpa": -0.05667077733368415,
+    "offenseRank": 19,
+    "defenseEpa": -0.02167520983996404,
+    "defenseRank": 14
+  },
+  {
+    "team": "NYG",
+    "offenseEpa": -0.05726501561218674,
+    "offenseRank": 20,
+    "defenseEpa": 0.11733810699018417,
+    "defenseRank": 28
+  },
+  {
+    "team": "DEN",
+    "offenseEpa": -0.05952780829901373,
+    "offenseRank": 21,
+    "defenseEpa": 0.004104659400217646,
     "defenseRank": 21
   },
   {
+    "team": "MIN",
+    "offenseEpa": -0.07483661765346254,
+    "offenseRank": 22,
+    "defenseEpa": -0.16840672520533273,
+    "defenseRank": 2
+  },
+  {
+    "team": "TEN",
+    "offenseEpa": -0.09591991778406653,
+    "offenseRank": 23,
+    "defenseEpa": 0.026759721613819804,
+    "defenseRank": 22
+  },
+  {
+    "team": "MIA",
+    "offenseEpa": -0.10542645021576455,
+    "offenseRank": 24,
+    "defenseEpa": 0.1408462530438775,
+    "defenseRank": 30
+  },
+  {
+    "team": "GB",
+    "offenseEpa": -0.11641287200031408,
+    "offenseRank": 25,
+    "defenseEpa": 0.08686873043580078,
+    "defenseRank": 26
+  },
+  {
+    "team": "LV",
+    "offenseEpa": -0.11665576011233206,
+    "offenseRank": 26,
+    "defenseEpa": -0.22371497343081606,
+    "defenseRank": 1
+  },
+  {
+    "team": "HOU",
+    "offenseEpa": -0.12181551925356887,
+    "offenseRank": 27,
+    "defenseEpa": -0.03518078989156631,
+    "defenseRank": 11
+  },
+  {
+    "team": "NE",
+    "offenseEpa": -0.1293432540122619,
+    "offenseRank": 28,
+    "defenseEpa": -0.053213985901637936,
+    "defenseRank": 9
+  },
+  {
+    "team": "TB",
+    "offenseEpa": -0.17006622418623682,
+    "offenseRank": 29,
+    "defenseEpa": -0.0016108294476390955,
+    "defenseRank": 18
+  },
+  {
+    "team": "ATL",
+    "offenseEpa": -0.175280375465908,
+    "offenseRank": 30,
+    "defenseEpa": -0.029788101094826873,
+    "defenseRank": 13
+  },
+  {
     "team": "PIT",
-    "offenseEpa": -0.3513416942520192,
+    "offenseEpa": -0.1762632051536575,
+    "offenseRank": 31,
+    "defenseEpa": -0.016632259877554328,
+    "defenseRank": 15
+  },
+  {
+    "team": "LAC",
+    "offenseEpa": -0.19902767238328556,
     "offenseRank": 32,
-    "defenseEpa": -0.19316436090610198,
-    "defenseRank": 4
+    "defenseEpa": 0.0007941437282591516,
+    "defenseRank": 20
   }
 ]

@@ -3,14 +3,14 @@
   "season": 2026,
   "epaPerPlay": {
     "offense": {
-      "value": -0.06000777991362375,
-      "leagueRank": 20,
-      "leaguePercentile": 39
+      "value": -0.1293432540122619,
+      "leagueRank": 28,
+      "leaguePercentile": 13
     },
     "defense": {
-      "value": -0.1747451088630905,
-      "leagueRank": 5,
-      "leaguePercentile": 87
+      "value": -0.053213985901637936,
+      "leagueRank": 9,
+      "leaguePercentile": 74
     }
   },
   "epaPerPlayWindows": [
@@ -18,122 +18,122 @@
       "key": "last-1-weeks",
       "label": "Last Week",
       "offense": {
-        "value": 0,
-        "leagueRank": 4,
-        "leaguePercentile": 90
+        "value": -0.26095603824849456,
+        "leagueRank": 32,
+        "leaguePercentile": 0
       },
       "defense": {
-        "value": 0,
-        "leagueRank": 4,
-        "leaguePercentile": 90
+        "value": 0.2249611371512734,
+        "leagueRank": 30,
+        "leaguePercentile": 6
       },
       "successRate": {
         "offense": {
-          "value": 0,
-          "leagueRank": 5,
-          "leaguePercentile": 87
+          "value": 0.36666666666666664,
+          "leagueRank": 17,
+          "leaguePercentile": 48
         },
         "defense": {
-          "value": 0,
-          "leagueRank": 3,
-          "leaguePercentile": 94
+          "value": 0.5084745762711864,
+          "leagueRank": 28,
+          "leaguePercentile": 13
         }
       },
       "yardsPerPlay": {
         "offense": {
-          "value": 0,
-          "leagueRank": 5,
-          "leaguePercentile": 87
+          "value": 5.283333333333333,
+          "leagueRank": 11,
+          "leaguePercentile": 68
         },
         "defense": {
-          "value": 0,
-          "leagueRank": 3,
-          "leaguePercentile": 94
+          "value": 5.338983050847458,
+          "leagueRank": 23,
+          "leaguePercentile": 29
         }
       },
       "pointDifferential": {
-        "value": 0,
-        "leagueRank": 4,
-        "leaguePercentile": 90
+        "value": -29,
+        "leagueRank": 32,
+        "leaguePercentile": 0
       }
     }
   ],
   "successRate": {
     "offense": {
-      "value": 0.4152542372881356,
-      "leagueRank": 23,
-      "leaguePercentile": 29
+      "value": 0.398876404494382,
+      "leagueRank": 26,
+      "leaguePercentile": 19
     },
     "defense": {
-      "value": 0.38596491228070173,
-      "leagueRank": 7,
-      "leaguePercentile": 81
+      "value": 0.4277456647398844,
+      "leagueRank": 11,
+      "leaguePercentile": 68
     }
   },
   "yardsPerPlay": {
     "offense": {
-      "value": 5.1440677966101696,
+      "value": 5.191011235955056,
       "leagueRank": 19,
       "leaguePercentile": 42
     },
     "defense": {
-      "value": 4.5701754385964914,
-      "leagueRank": 3,
-      "leaguePercentile": 94
+      "value": 4.832369942196531,
+      "leagueRank": 6,
+      "leaguePercentile": 84
     }
   },
   "explosivePlayRate": {
     "offense": {
-      "value": 0.11016949152542373,
+      "value": 0.11235955056179775,
       "leagueRank": 22,
       "leaguePercentile": 32
     },
     "defense": {
-      "value": 0.09649122807017543,
-      "leagueRank": 7,
-      "leaguePercentile": 81
+      "value": 0.09826589595375723,
+      "leagueRank": 6,
+      "leaguePercentile": 84
     }
   },
   "pointDifferential": {
-    "value": 14,
-    "leagueRank": 10,
-    "leaguePercentile": 71
+    "value": -15,
+    "leagueRank": 23,
+    "leaguePercentile": 29
   },
-  "pythagoreanWinPct": 0.8160486304883904,
+  "pythagoreanWinPct": 0.30460019353827916,
   "redZonePct": {
     "offense": {
-      "value": 0.4,
-      "leagueRank": 29,
-      "leaguePercentile": 10
+      "value": 0.2222222222222222,
+      "leagueRank": 32,
+      "leaguePercentile": 0
     },
     "defense": {
-      "value": 0.25,
-      "leagueRank": 3,
-      "leaguePercentile": 94
+      "value": 0.6666666666666666,
+      "leagueRank": 17,
+      "leaguePercentile": 48
     }
   },
   "thirdDownPct": {
     "offense": {
-      "value": 0.32142857142857145,
-      "leagueRank": 27,
-      "leaguePercentile": 16
+      "value": 0.325,
+      "leagueRank": 29,
+      "leaguePercentile": 10
     },
     "defense": {
-      "value": 0.17391304347826086,
-      "leagueRank": 1,
-      "leaguePercentile": 100
+      "value": 0.34285714285714286,
+      "leagueRank": 8,
+      "leaguePercentile": 77
     }
   },
   "twoMinuteDrillEpa": {
     "offense": {
-      "value": -0.09950891524931625,
-      "leagueRank": 23,
-      "leaguePercentile": 29
+      "value": -0.32312492146791666,
+      "leagueRank": 27,
+      "leaguePercentile": 16
     },
     "defense": {
-      "value": -0.03844765143113699,
-      "leagueRank": 14,
-      "leaguePercentile": 58
+      "value": -0.06544605424163266,
+      "leagueRank": 13,
+      "leaguePercentile": 61
     }
   },
   "splits": {
@@ -144,8 +144,8 @@
     },
     "away": {
       "wins": 0,
-      "losses": 1,
-      "epaPerPlay": -0.10962827054056877
+      "losses": 2,
+      "epaPerPlay": -0.17724135411507086
     },
     "divisional": {
       "wins": 0,
@@ -154,45 +154,45 @@
   },
   "specialTeams": {
     "fieldGoalPct": {
-      "value": 0.75,
-      "leagueRank": 22,
-      "leaguePercentile": 32
+      "value": 0.7142857142857143,
+      "leagueRank": 25,
+      "leaguePercentile": 23
     },
     "netPuntingAvg": {
-      "value": 41.5,
-      "leagueRank": 27,
-      "leaguePercentile": 16
+      "value": 43.8,
+      "leagueRank": 19,
+      "leaguePercentile": 42
     },
     "kickReturnAvg": {
-      "value": 27.2,
-      "leagueRank": 3,
-      "leaguePercentile": 94
+      "value": 24.454545454545453,
+      "leagueRank": 10,
+      "leaguePercentile": 71
     },
     "puntReturnAvg": {
-      "value": 3.076923076923077,
-      "leagueRank": 22,
-      "leaguePercentile": 32
+      "value": 3.6875,
+      "leagueRank": 19,
+      "leaguePercentile": 42
     },
     "specialTeamsEpa": {
-      "value": -0.018983896642739362,
-      "leagueRank": 24,
-      "leaguePercentile": 26
+      "value": -0.12823677745772424,
+      "leagueRank": 27,
+      "leaguePercentile": 16
     }
   },
   "discipline": {
     "penaltiesCommitted": {
-      "value": 13,
-      "leagueRank": 12,
-      "leaguePercentile": 65
+      "value": 22,
+      "leagueRank": 21,
+      "leaguePercentile": 35
     },
     "penaltyYardsCommitted": {
-      "value": 81,
-      "leagueRank": 7,
-      "leaguePercentile": 81
+      "value": 149,
+      "leagueRank": 17,
+      "leaguePercentile": 48
     },
     "mostPenalized": {
       "playerName": "Morgan Moses",
-      "count": 2
+      "count": 3
     }
   }
 }

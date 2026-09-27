@@ -1,13 +1,30 @@
 [
   {
     "team": "BUF",
-    "wins": 2,
+    "wins": 3,
     "losses": 0,
     "ties": 0,
-    "pointDifferential": 15,
+    "pointDifferential": 23,
     "isUs": false,
     "streak": {
       "result": "W",
+      "count": 3
+    },
+    "divisionRecord": {
+      "wins": 0,
+      "losses": 0,
+      "ties": 0
+    }
+  },
+  {
+    "team": "NYJ",
+    "wins": 1,
+    "losses": 2,
+    "ties": 0,
+    "pointDifferential": 3,
+    "isUs": false,
+    "streak": {
+      "result": "L",
       "count": 2
     },
     "divisionRecord": {
@@ -19,27 +36,10 @@
   {
     "team": "NE",
     "wins": 1,
-    "losses": 1,
+    "losses": 2,
     "ties": 0,
-    "pointDifferential": 14,
+    "pointDifferential": -15,
     "isUs": true,
-    "streak": {
-      "result": "W",
-      "count": 1
-    },
-    "divisionRecord": {
-      "wins": 0,
-      "losses": 0,
-      "ties": 0
-    }
-  },
-  {
-    "team": "NYJ",
-    "wins": 1,
-    "losses": 1,
-    "ties": 0,
-    "pointDifferential": 10,
-    "isUs": false,
     "streak": {
       "result": "L",
       "count": 1
@@ -53,13 +53,13 @@
   {
     "team": "MIA",
     "wins": 0,
-    "losses": 2,
+    "losses": 3,
     "ties": 0,
-    "pointDifferential": -36,
+    "pointDifferential": -50,
     "isUs": false,
     "streak": {
       "result": "L",
-      "count": 2
+      "count": 3
     },
     "divisionRecord": {
       "wins": 0,

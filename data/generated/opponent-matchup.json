@@ -1,114 +1,109 @@
 {
-  "gameId": "2026_03_NE_JAX",
-  "opponent": "JAX",
+  "gameId": "2026_04_NE_BUF",
+  "opponent": "BUF",
   "opponentEpaRank": {
-    "offense": 9,
-    "defense": 7
+    "offense": 2,
+    "defense": 25
   },
   "positionGroupMatchups": [
     {
       "group": "Rush Offense vs. Run Defense",
-      "ourGrade": 68,
-      "theirGrade": 42,
+      "ourGrade": 65,
+      "theirGrade": 10,
       "edge": "us",
-      "note": "68th percentile vs. 42nd percentile (advantage us).",
-      "ourStatLine": "248 yds, 4.4 YPC, 1 TD, 0 FUM, 12% explosive",
-      "theirStatLine": "194 yds allowed, 4.1 YPC allowed, 1 TD allowed, 11% explosive allowed"
+      "note": "65th percentile vs. 10th percentile (advantage us).",
+      "ourStatLine": "331 yds, 4.0 YPC, 1 TD, 0 FUM, 8% explosive",
+      "theirStatLine": "321 yds allowed, 4.0 YPC allowed, 2 TD allowed, 11% explosive allowed"
     },
     {
       "group": "Pass Offense vs. Pass Defense",
-      "ourGrade": 71,
-      "theirGrade": 81,
-      "edge": "even",
-      "note": "71st percentile vs. 81st percentile (close matchup).",
-      "ourStatLine": "37/61 (61%), 386 yds, 1 TD, 4 INT",
-      "theirStatLine": "38/58 (66%) allowed, 493 yds allowed, 2 TD allowed, 2 INT gained"
+      "ourGrade": 19,
+      "theirGrade": 39,
+      "edge": "them",
+      "note": "19th percentile vs. 39th percentile (advantage them).",
+      "ourStatLine": "55/95 (58%), 631 yds, 1 TD, 6 INT",
+      "theirStatLine": "72/119 (61%) allowed, 827 yds allowed, 7 TD allowed, 1 INT gained"
     },
     {
       "group": "Run Defense vs. Rush Offense",
-      "ourGrade": 65,
-      "theirGrade": 58,
-      "edge": "even",
-      "note": "65th percentile vs. 58th percentile (close matchup).",
-      "ourStatLine": "189 yds allowed, 4.3 YPC allowed, 0 TD allowed, 11% explosive allowed",
-      "theirStatLine": "224 yds, 4.2 YPC, 1 TD, 0 FUM, 13% explosive"
+      "ourGrade": 19,
+      "theirGrade": 100,
+      "edge": "them",
+      "note": "19th percentile vs. 100th percentile (advantage them).",
+      "ourStatLine": "326 yds allowed, 4.4 YPC allowed, 2 TD allowed, 9% explosive allowed",
+      "theirStatLine": "470 yds, 5.5 YPC, 8 TD, 1 FUM, 19% explosive"
     },
     {
       "group": "Pass Defense vs. Pass Offense",
-      "ourGrade": 94,
-      "theirGrade": 84,
+      "ourGrade": 87,
+      "theirGrade": 87,
       "edge": "even",
-      "note": "94th percentile vs. 84th percentile (close matchup).",
-      "ourStatLine": "40/70 (57%) allowed, 387 yds allowed, 1 TD allowed, 1 INT gained",
-      "theirStatLine": "35/55 (64%), 434 yds, 4 TD, 1 INT"
+      "note": "87th percentile vs. 87th percentile (close matchup).",
+      "ourStatLine": "59/100 (59%) allowed, 569 yds allowed, 4 TD allowed, 2 INT gained",
+      "theirStatLine": "56/95 (59%), 786 yds, 5 TD, 2 INT"
     },
     {
       "group": "Pass Protection vs. Pass Rush",
-      "ourGrade": 16,
-      "theirGrade": 48,
+      "ourGrade": 23,
+      "theirGrade": 58,
       "edge": "them",
-      "note": "16th percentile vs. 48th percentile (advantage them).",
-      "ourStatLine": "6 sacks allowed, 10% sack rate",
-      "theirStatLine": "5 sacks, 11 QB hits, 9% sack rate"
+      "note": "23rd percentile vs. 58th percentile (advantage them).",
+      "ourStatLine": "9 sacks allowed, 9% sack rate",
+      "theirStatLine": "9 sacks, 27 QB hits, 8% sack rate"
     }
   ],
   "matchupOfTheWeek": {
     "title": "Rush Offense vs. Run Defense",
-    "description": "Our rush offense grades in the 68th percentile against a unit that grades 42nd — the widest real statistical edge on the board this week."
+    "description": "Our rush offense grades in the 65th percentile against a unit that grades 10th — the widest real statistical edge on the board this week."
   },
   "opponentInjuries": [],
   "recentForm": {
     "us": {
-      "last3EpaPerPlay": 0.08966738049301422,
-      "last5EpaPerPlay": 0.08966738049301422,
-      "seasonEpaPerPlay": 0.08966738049301422,
-      "gamesPlayed": 2
+      "last3EpaPerPlay": -0.1059948337533625,
+      "last5EpaPerPlay": -0.1059948337533625,
+      "seasonEpaPerPlay": -0.1059948337533625,
+      "gamesPlayed": 3
     },
     "them": {
-      "last3EpaPerPlay": 0.16134696154066014,
-      "last5EpaPerPlay": 0.16134696154066014,
-      "seasonEpaPerPlay": 0.16134696154066014,
-      "gamesPlayed": 2
+      "last3EpaPerPlay": 0.1436646335528123,
+      "last5EpaPerPlay": 0.1436646335528123,
+      "seasonEpaPerPlay": 0.1436646335528123,
+      "gamesPlayed": 3
     }
   },
-  "priorBlendWeight": 0.5,
+  "priorBlendWeight": 0.25,
   "headToHead": [
+    {
+      "season": 2025,
+      "result": "L",
+      "score": "31-35"
+    },
+    {
+      "season": 2025,
+      "result": "W",
+      "score": "23-20"
+    },
+    {
+      "season": 2024,
+      "result": "W",
+      "score": "23-16"
+    },
     {
       "season": 2024,
       "result": "L",
-      "score": "16-32"
+      "score": "21-24"
     },
     {
-      "season": 2021,
-      "result": "W",
-      "score": "50-10"
-    },
-    {
-      "season": 2018,
+      "season": 2023,
       "result": "L",
-      "score": "20-31"
-    },
-    {
-      "season": 2015,
-      "result": "W",
-      "score": "51-17"
-    },
-    {
-      "season": 2012,
-      "result": "W",
-      "score": "23-16"
+      "score": "21-27"
     }
   ],
   "weather": {
-    "tempF": 83,
-    "wind": "6 mph",
-    "precipitation": "0%",
+    "tempF": 63,
+    "wind": "7 mph",
+    "precipitation": "23%",
     "isDome": false
   },
-  "bettingContext": {
-    "spread": 3,
-    "overUnder": 45.5,
-    "asOf": "2026-09-27"
-  },
-  "previewTake": "Here's a preview that should make Patriots fans sit up in their chairs: we're bringing a rush offense that grades in the 68th percentile against Jacksonville's run defense sitting at 42nd — the widest statistical edge on the board this week. That's not hypothetical; that's a real matchup advantage we should be able to exploit. The nervousness, though, comes wrapped in the injury report: we're missing OLB Dre'Mont Jones and rookie OLB Quintayvious Hutchins on defense, and TE Eli Raridon and S Craig Woodson are both questionable, which means we're already operating short-handed against an offense that ranks 9th in EPA. The good news is rookie LB Gabe Jacas has made impact plays his first two weeks and will start Sunday, and CB Carlton Davis III returns. Jacksonville may be expecting a favorable response after their worst offensive performance in 11 months, but if we can lean on that rushing advantage and avoid the clock-management blunders that have plagued us in the first half, there's real opportunity here."
+  "previewTake": "Buffalo's offense ranks second in EPA—they're elite, full stop—but here's where we get to play the hand we've been dealt: their defense is 25th, and we have the widest statistical edge on the board this week in the one area we can actually exploit it. Our rush offense grades in the 65th percentile against their run defense at 10th; that's a chasm, and it's precisely where we need to live for four quarters. The Bills have been the marginally better team in the recent ledger (they're +0.14 in net EPA over their last three versus our -0.11), but we've won in Buffalo twice in the last three meetings, and that's not nothing—especially when you're walking into a game where your path to victory is as clear as the rushing lanes we should be finding. This is a winnable game if we can keep their offense off the field and pound the rock. The bad news? Their second-ranked EPA tells you they're going to score. The good news? We know exactly where to attack."
 }

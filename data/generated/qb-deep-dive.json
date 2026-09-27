@@ -3,40 +3,40 @@
   "playerName": "Drake Maye",
   "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/s1nmoon2xnrc3bnyulv4",
   "team": "NE",
-  "attempts": 61,
-  "completions": 37,
-  "yards": 359,
+  "attempts": 89,
+  "completions": 51,
+  "yards": 547,
   "tds": 1,
-  "ints": 4,
-  "cpoe": 3.903530881955063,
+  "ints": 6,
+  "cpoe": 2.7974268323496676,
   "accuracyByDepth": {
-    "short": 0.7916666666666666,
-    "medium": 0.4444444444444444,
-    "deep": 0.375
+    "short": 0.7575757575757576,
+    "medium": 0.42105263157894735,
+    "deep": 0.4166666666666667
   },
-  "pressureEpa": -0.730894948675358,
-  "cleanPocketEpa": -0.023079257941820166,
-  "turnoverWorthyPlayRate": 0.06557377049180328,
+  "pressureEpa": -1.3884099393758096,
+  "cleanPocketEpa": -0.025424781417441596,
+  "turnoverWorthyPlayRate": 0.0449438202247191,
   "ranks": {
     "cpoe": {
-      "value": 3.903530881955063,
-      "leagueRank": 15,
-      "leaguePercentile": 55
+      "value": 2.7974268323496676,
+      "leagueRank": 16,
+      "leaguePercentile": 52
     },
     "turnoverWorthyPlayRate": {
-      "value": 0.06557377049180328,
-      "leagueRank": 30,
-      "leaguePercentile": 6
+      "value": 0.0449438202247191,
+      "leagueRank": 28,
+      "leaguePercentile": 13
     },
     "cleanPocketEpa": {
-      "value": -0.023079257941820166,
-      "leagueRank": 30,
-      "leaguePercentile": 6
+      "value": -0.025424781417441596,
+      "leagueRank": 28,
+      "leaguePercentile": 13
     },
     "pressureEpa": {
-      "value": -0.730894948675358,
-      "leagueRank": 13,
-      "leaguePercentile": 61
+      "value": -1.3884099393758096,
+      "leagueRank": 27,
+      "leaguePercentile": 16
     }
   },
   "windows": [
@@ -44,20 +44,20 @@
       "key": "last-1",
       "label": "Last Game",
       "stats": {
-        "attempts": 25,
+        "attempts": 28,
         "completions": 14,
-        "yards": 191,
+        "yards": 188,
         "tds": 0,
-        "ints": 1,
-        "cpoe": 0.8523635921023988,
+        "ints": 2,
+        "cpoe": 0.4008680582046456,
         "accuracyByDepth": {
           "short": 0.6666666666666666,
-          "medium": 0.3333333333333333,
-          "deep": 0.75
+          "medium": 0.4,
+          "deep": 0.5
         },
-        "pressureEpa": -0.35810864864100206,
-        "cleanPocketEpa": -0.1648219461274474,
-        "turnoverWorthyPlayRate": 0.04
+        "pressureEpa": -3.3609549114771644,
+        "cleanPocketEpa": -0.03021355851350203,
+        "turnoverWorthyPlayRate": 0
       }
     }
   ],
@@ -66,37 +66,37 @@
       "label": "Play action",
       "epa": -0.49991382836686493,
       "plays": 13,
-      "shareOfDropbacks": 0.21311475409836064
+      "shareOfDropbacks": 0.14606741573033707
     },
     {
       "label": "No play action",
       "epa": -0.07089048446842162,
       "plays": 48,
-      "shareOfDropbacks": 0.7868852459016393
+      "shareOfDropbacks": 0.5393258426966292
     },
     {
       "label": "Blitzed (5+ rushers)",
       "epa": -0.030720109361574866,
       "plays": 20,
-      "shareOfDropbacks": 0.32786885245901637
+      "shareOfDropbacks": 0.2247191011235955
     },
     {
       "label": "Not blitzed",
       "epa": -0.2265175813663899,
       "plays": 41,
-      "shareOfDropbacks": 0.6721311475409836
+      "shareOfDropbacks": 0.4606741573033708
     },
     {
       "label": "Outside the pocket",
       "epa": 0.1484360531692147,
       "plays": 11,
-      "shareOfDropbacks": 0.18032786885245902
+      "shareOfDropbacks": 0.12359550561797752
     },
     {
       "label": "Screens",
       "epa": -0.22266263812850312,
       "plays": 9,
-      "shareOfDropbacks": 0.14754098360655737
+      "shareOfDropbacks": 0.10112359550561797
     }
   ]
 }
