@@ -1,14 +1,5 @@
 [
   {
-    "id": "50036929",
-    "publishedAt": "2026-09-27T13:53:56Z",
-    "type": "Injury",
-    "headline": "Sources: Caleb Williams injury considered to have 3-4 week timeline",
-    "summary": "Bears quarterback Caleb Williams has a Grade 2 hamstring injury that doctors say could sideline him for three to four weeks, league sources told ESPN and NFL Network.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50036929/sources-caleb-williams-injury-considered-3-4-week-line",
-    "sourceName": "ESPN"
-  },
-  {
     "id": "50038925",
     "publishedAt": "2026-09-27T13:39:05Z",
     "type": "Analysis",
@@ -18,39 +9,48 @@
     "sourceName": "ESPN"
   },
   {
-    "id": "50036843",
-    "publishedAt": "2026-09-26T22:43:52Z",
+    "id": "50036929",
+    "publishedAt": "2026-09-27T13:53:56Z",
     "type": "Injury",
-    "headline": "Broncos place RB Jonah Coleman (ankle) on IR",
-    "summary": "Denver Broncos rookie running back Jonah Coleman was placed on injured reserve Saturday with an ankle injury he suffered in the team's Week 2 win over the Jacksonville Jaguars.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50036843/broncos-place-rb-jonah-coleman-ankle-ir",
+    "headline": "Sources: Caleb Williams injury considered to have 3-4 week timeline",
+    "summary": "Bears quarterback Caleb Williams has a Grade 2 hamstring injury that doctors say could sideline him for three to four weeks, league sources told ESPN and NFL Network.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50036929/sources-caleb-williams-injury-considered-3-4-week-line",
     "sourceName": "ESPN"
-  },
-  {
-    "id": "50037942",
-    "publishedAt": "2026-09-27T13:25:19Z",
-    "type": "Analysis",
-    "headline": "Giants set game plan with Jameis Winston, mull options to add QB",
-    "summary": "The Giants' pursuit of a veteran quarterback will depend on how well Jameis Winston performs against the Titans in Week 3.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50037942/giants-set-gameplan-jameis-winston-mull-options-add-qb",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=420943",
-    "publishedAt": "2026-09-27T02:57:34.000Z",
-    "type": "Beat Report",
-    "headline": "Commanders QB Jayden Daniels Could Return Sooner Than Expected",
-    "summary": "Commanders quarterback Jayden Daniels could return to practice – albeit with a bulky brace on his left arm – as soon as next week Daniels, 25, dislocated his left elbow in Week 2 for the second time in a year. He was sidelined for about a month last season, but his 2026 absence may only last […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/09/commanders-qb-jayden-daniels-could-return-sooner-than-expected",
-    "sourceName": "Pro Football Rumors"
   },
   {
     "id": "50038725",
-    "publishedAt": "2026-09-27T13:33:32Z",
+    "publishedAt": "2026-09-27T15:42:45Z",
     "type": "Transaction",
     "headline": "Sources: Cowboys, Lions make trade inquiries on Joey Porter Jr.",
     "summary": "A handful of teams, including the Cowboys and Lions, have begun making inquiries about the availability of Steelers cornerback Joey Porter Jr., sources told ESPN.",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/50038725/sources-steelers-field-joey-porter-jr-trade-calls-cowboys-lions",
     "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=421024",
+    "publishedAt": "2026-09-27T16:40:27.000Z",
+    "type": "Injury",
+    "headline": "Bears QB Caleb Williams Diagnosed With Grade 2 Hamstring Injury; Case Keenum To Start In Week 3",
+    "summary": "11:35am: Although Bagent has cleared the concussion protocol, Case Keenum will get the start against the Eagles in Week 3, per Fox Sports’ Jay Glazer (via Mike Florio of Pro Football Talk). It will be Keenum’s first regular season appearance since 2023. According to Glazer, Bagent was unable to sufficiently prepare for the game as […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/09/bears-qb-caleb-williams-diagnosed-with-grade-2-hamstring-injury",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=420963",
+    "publishedAt": "2026-09-27T16:22:47.000Z",
+    "type": "Injury",
+    "headline": "Bills WRs D.J. Moore, Keon Coleman ’50/50′ For Week 3",
+    "summary": "SEPTEMBER 27: Good news for Buffalo, as both Moore and Coleman are active for Week 3. SEPTEMBER 26: The Bills’ offense hummed along during a 2-0 start, but the unit may go without a couple of key receivers in Week 3. D.J. Moore (shoulder) and Keon Coleman (ankle), who are listed as questionable, are truly […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/09/bills-wrs-d-j-moore-keon-coleman-50-50-for-week-3",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/through-two-weeks-several-seats-are-heating-up",
+    "publishedAt": "2026-09-27T14:14:04.000Z",
+    "type": "Analysis",
+    "headline": "Through two weeks, several seats are heating up",
+    "summary": "10 of 32 jobs opened after 2025. Surely, more will be vacant in January.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/through-two-weeks-several-seats-are-heating-up",
+    "sourceName": "Pro Football Talk"
   }
 ]

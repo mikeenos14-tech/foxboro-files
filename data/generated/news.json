@@ -1,5 +1,23 @@
 [
   {
+    "id": "e191d3ee-0d70-4d48-8475-54b6f9b1080e",
+    "publishedAt": "2026-09-27T15:32:12.000Z",
+    "type": "Injury",
+    "headline": "Inactives Analysis: TE Eli Raridon, S Craig Woodson officially inactive for Sunday's Week 3 matchup vs. the Jaguars",
+    "summary": "Raridon (thigh) and Woodson (shoulder) are officially inactive after carrying questionable designations into Sunday's game.",
+    "sourceUrl": "https://www.patriots.com/news/inactives-analysis-te-eli-raridon-s-craig-woodson-officially-inactive-for-sunday-s-week-3-matchup-vs-the-jaguars",
+    "sourceName": "Patriots.com"
+  },
+  {
+    "id": "65551ba1-242f-4f1b-9718-179cb5f22e28",
+    "publishedAt": "2026-09-27T15:32:02.000Z",
+    "type": "Analysis",
+    "headline": "Week 3 Inactives: Patriots at Jaguars",
+    "summary": "The New England Patriots and Jacksonville Jaguars announce the following inactive players ahead of their NFL Week 3 game on September 27, 2026.",
+    "sourceUrl": "https://www.patriots.com/news/week-3-inactives-patriots-at-jaguars",
+    "sourceName": "Patriots.com"
+  },
+  {
     "id": "fdb0d224-5464-44f2-b4fc-7572dd84f43d",
     "publishedAt": "2026-09-27T12:44:00.000Z",
     "type": "Analysis",
@@ -34,24 +52,6 @@
     "summary": "The second-round pick has made impact plays over the first two weeks and will start vs. the Jaguars. Here's the latest on Jacas and other notes on the Patriots.",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/50028606/new-england-patriots-week-3-defense-gabe-jacas-rookie",
     "sourceName": "ESPN"
-  },
-  {
-    "id": "279ff0f5-4d4f-4501-96b4-c9940b1a452b",
-    "publishedAt": "2026-09-26T20:00:52.000Z",
-    "type": "Injury",
-    "headline": "Roster Analysis: TE Eli Raridon and S Craig Woodson make the trip, Patriots elevate two players for Sunday's Game vs. the Jaguars",
-    "summary": "Raridon (thigh) and Woodson (shoulder) are both questionable for Week 3 in Jacksonville.",
-    "sourceUrl": "https://www.patriots.com/news/roster-analysis-te-eli-raridon-and-s-craig-woodson-make-the-trip-patriots-elevate-two-players-for-sunday-s-game-vs-the-jaguars",
-    "sourceName": "Patriots.com"
-  },
-  {
-    "id": "446b87e2-81a8-4fc9-8f44-ef02743aea68",
-    "publishedAt": "2026-09-26T20:00:00.000Z",
-    "type": "Transaction",
-    "headline": "Patriots Elevate S Mike Brown and DT Jeremiah Pharms Jr. to the Active Roster",
-    "summary": "The Patriots announced today that they have elevated S Mike Brown and DT Jeremiah Pharms Jr. to the active roster from the practice squad.",
-    "sourceUrl": "https://www.patriots.com/news/patriots-elevate-s-mike-brown-and-dt-jeremiah-pharms-jr-to-the-active-roster",
-    "sourceName": "Patriots.com"
   },
   {
     "id": "50022132",
