@@ -9,15 +9,6 @@
     "sourceName": "ESPN"
   },
   {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=420927",
-    "publishedAt": "2026-09-26T16:02:40.000Z",
-    "type": "Injury",
-    "headline": "Giants Exploring QB Options But Plan To Stick With Jameis Winston",
-    "summary": "The Giants are exploring potential quarterback additions following a knee injury to Jaxson Dart that is expected to sideline the second-year quarterback for the rest of the regular season. But after giving Jameis Winston a two-year, $13MM extension for this exact purpose – backing up a young injury-prone quarterback – the starting job is his […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/09/giants-exploring-qb-options-but-plan-to-stick-with-jameis-winston",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
     "id": "profootballrumors-https://www.profootballrumors.com/?p=420943",
     "publishedAt": "2026-09-26T17:57:34.000Z",
     "type": "Beat Report",
@@ -27,30 +18,39 @@
     "sourceName": "Pro Football Rumors"
   },
   {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/colts-defense-has-already-given-up-more-than-1-000-yards",
-    "publishedAt": "2026-09-26T20:00:56.000Z",
-    "type": "Analysis",
-    "headline": "Colts' defense has already given up more than 1,000 yards",
-    "summary": "As the 0-2 Colts prepare for an AFC South showdown with the 0-2 Texans, Indy needs to hope for something better from the defense.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/colts-defense-has-already-given-up-more-than-1-000-yards",
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=420927",
+    "publishedAt": "2026-09-26T16:02:40.000Z",
+    "type": "Injury",
+    "headline": "Giants Exploring QB Options But Plan To Stick With Jameis Winston",
+    "summary": "The Giants are exploring potential quarterback additions following a knee injury to Jaxson Dart that is expected to sideline the second-year quarterback for the rest of the regular season. But after giving Jameis Winston a two-year, $13MM extension for this exact purpose – backing up a young injury-prone quarterback – the starting job is his […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/09/giants-exploring-qb-options-but-plan-to-stick-with-jameis-winston",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/matt-judon-three-others-work-out-for-49ers-with-nick-bosa-injured",
+    "publishedAt": "2026-09-26T21:30:14.000Z",
+    "type": "Injury",
+    "headline": "Matt Judon, three others work out for 49ers with Nick Bosa injured",
+    "summary": "49ers defensive end Nick Bosa is out for Sunday's game with a calf injury and he is expected to miss more time, so the team looked at a few options to bolster the position on Saturday.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/matt-judon-three-others-work-out-for-49ers-with-nick-bosa-injured",
     "sourceName": "Pro Football Talk"
   },
   {
-    "id": "50024098",
-    "publishedAt": "2026-09-26T10:00:12Z",
-    "type": "Analysis",
-    "headline": "'Growing pains': What's going on with the Chargers' offense?",
-    "summary": "Is the Chargers' offense too complicated for the team? What's going wrong with McDaniels' scheme in L.A.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50024098/los-angeles-chargers-offense-troubles-jim-harbaugh-mike-mcdaniel",
+    "id": "50029379",
+    "publishedAt": "2026-09-26T21:33:09Z",
+    "type": "Injury",
+    "headline": "QB Sam Darnold back Sunday, but Seahawks down two safeties",
+    "summary": "Seahawks quarterback Sam Darnold will start Sunday, but the defending Super Bowl champions will be without both starting safeties as Julian Love and Ty Okada have been ruled out.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50029379/qb-sam-darnold-back-sunday-seahawks-two-safeties",
     "sourceName": "ESPN"
   },
   {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jets-suddenly-stout-defense-gets-a-big-test-at-lions",
-    "publishedAt": "2026-09-26T14:44:57.000Z",
-    "type": "Analysis",
-    "headline": "Jets' suddenly stout defense gets a big test at Lions",
-    "summary": "Although the Jets have extended the record for games without an interception to 19, their defense has quietly become stout.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jets-suddenly-stout-defense-gets-a-big-test-at-lions",
-    "sourceName": "Pro Football Talk"
+    "id": "50034608",
+    "publishedAt": "2026-09-26T18:52:22Z",
+    "type": "Transaction",
+    "headline": "Sources: Packers sign OG Tomlinson off Cowboys' practice squad",
+    "summary": "The Packers have added some much-needed offensive line help by signing veteran guard Laken Tomlinson off the Cowboys' practice squad, according to the NFL Network's Ian Rapoport and Mike Garafolo.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50034608/sources-packers-sign-og-tomlinson-cowboys-practice-squad",
+    "sourceName": "ESPN"
   }
 ]
