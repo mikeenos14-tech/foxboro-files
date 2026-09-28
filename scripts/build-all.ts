@@ -21,6 +21,7 @@ import { spawnSync } from "node:child_process";
 import { writeFile } from "node:fs/promises";
 import path from "node:path";
 import { verifyData } from "./verify-data";
+import { readSourceStatus } from "./lib/sourceStatus";
 
 const GENERATED_DIR = path.join(process.cwd(), "data", "generated");
 
@@ -73,9 +74,18 @@ async function main() {
   // A single stamp for the whole snapshot, so the site can show how fresh
   // its numbers are — previously nothing in the UI exposed this, which is
   // why stale data was invisible.
+  // statsAsOf is when play-by-play was last actually downloaded, not when
+  // this build ran — a build over a failed fetch shouldn't make the
+  // footer look fresh. Falls back to now for local runs without a status.
+  const status = await readSourceStatus(process.env.SOURCE_STATUS_JOB || "local");
+  const generatedAt = new Date().toISOString();
   await writeFile(
     path.join(GENERATED_DIR, "build-meta.json"),
-    JSON.stringify({ generatedAt: new Date().toISOString() }, null, 2)
+    JSON.stringify(
+      { generatedAt, statsAsOf: status["nflverse:play_by_play_2026.csv"]?.lastSuccess ?? generatedAt },
+      null,
+      2
+    )
   );
 
   console.log("\n✓ All builds complete, cross-file consistency verified.");

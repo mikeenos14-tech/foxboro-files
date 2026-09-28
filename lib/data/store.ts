@@ -199,9 +199,8 @@ export async function getPriorSeason(season = 2025): Promise<PriorSeasonSnapshot
 // rather than silent — the site previously had no freshness indicator at
 // all, which is how two pages disagreed about the same stat in
 // production without anyone noticing.
-export async function getDataGeneratedAt(): Promise<string | null> {
-  const meta = await readGenerated<{ generatedAt: string }>("build-meta.json");
-  return meta?.generatedAt ?? null;
+export async function getBuildMeta(): Promise<{ generatedAt: string; statsAsOf?: string } | null> {
+  return readGenerated<{ generatedAt: string; statsAsOf?: string }>("build-meta.json");
 }
 
 export async function getSchedule(): Promise<ScheduleRow[]> {

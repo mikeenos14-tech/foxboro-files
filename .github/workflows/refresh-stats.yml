@@ -43,6 +43,10 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    # Which source-status file the fetch steps record into (see
+    # scripts/lib/sourceStatus.ts) — one per job so the two never conflict.
+    env:
+      SOURCE_STATUS_JOB: stats
     steps:
       - name: Check out repo
         uses: actions/checkout@v7
@@ -101,3 +105,11 @@ jobs:
           else
             echo "No data changes this run — nothing to commit."
           fi
+
+      # Runs last, even if something above failed: fails this run (so it
+      # shows red and notifies) when a source this job fetches has been
+      # failing past its limit, or a finished game has no recap. The data
+      # above is still committed — it's the best available.
+      - name: Check data is current
+        if: always()
+        run: npx tsx scripts/check-freshness.ts --job stats

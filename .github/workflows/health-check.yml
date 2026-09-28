@@ -1,0 +1,41 @@
+name: Daily health check
+
+# Is the site current and working? Checks every data source's age, that
+# finished games have recaps, that no refresh failed in the last day, and
+# that the live site is serving the repo's latest data. Problems open a
+# GitHub issue (which emails the repo owner); the issue closes itself once
+# a check passes. See scripts/health-check.ts.
+on:
+  schedule:
+    - cron: "0 15 * * *" # ~11am ET daily — after the Monday-midday nflverse finalization run
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  issues: write
+  actions: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v7
+
+      - name: Set up Node
+        uses: actions/setup-node@v7
+        with:
+          node-version: "24"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      # Only the schedule is needed, to check finished games have recaps.
+      - name: Fetch the schedule
+        run: npx tsx scripts/fetch-nflverse.ts games.csv
+
+      - name: Run health check
+        run: npx tsx scripts/health-check.ts
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

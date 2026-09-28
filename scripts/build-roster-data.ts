@@ -71,8 +71,17 @@ async function buildDepthChart(): Promise<DepthChartEntry[]> {
   try {
     raw = JSON.parse(await readFile(path.join(process.cwd(), "data", "raw", "espn-depth-chart.json"), "utf-8"));
   } catch {
-    console.warn("espn-depth-chart.json missing — writing an empty depth chart rather than a guessed one.");
-    return [];
+    // Missing in a job whose ESPN fetch failed (raw files aren't kept
+    // between runs). Keep the last published chart rather than blank the
+    // tab; check-freshness.ts flags the source once it's too old.
+    try {
+      const previous = JSON.parse(await readFile(path.join(GENERATED_DIR, "depth-chart.json"), "utf-8"));
+      console.warn("espn-depth-chart.json missing — keeping the previous depth chart.");
+      return previous;
+    } catch {
+      console.warn("espn-depth-chart.json missing and no previous chart — writing an empty one rather than a guessed one.");
+      return [];
+    }
   }
 
   const headshotByEspnId = new Map(

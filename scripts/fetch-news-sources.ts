@@ -8,6 +8,7 @@
 // how we know which opponent's roster/injuries to fetch)
 
 import { mkdir, writeFile, readFile } from "node:fs/promises";
+import { recordSource } from "./lib/sourceStatus";
 import path from "node:path";
 import { XMLParser } from "fast-xml-parser";
 import { ESPN_TEAM_ID } from "./lib/espnTeams";
@@ -177,11 +178,14 @@ async function main() {
   for (const { name, url } of sources) {
     try {
       await fetchOne(name, url);
+      await recordSource(`web:${name}`);
     } catch (err) {
       // Don't let one bad ESPN endpoint take down the whole refresh — the
       // normalize step will fall back to whatever raw JSON already exists
-      // on disk from the last successful fetch.
+      // on disk from the last successful fetch. (In the automated jobs
+      // there is none, so the failure is recorded for check-freshness.ts.)
       console.error(`Warning: ${name} fetch failed, keeping last-good copy.`, err);
+      await recordSource(`web:${name}`, err);
     }
   }
 

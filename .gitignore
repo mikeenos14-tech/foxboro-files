@@ -46,3 +46,6 @@ next-env.d.ts
 
 # design mockups used to preview Artifact pitches — not site source.
 /scratch/
+
+# local runs of the fetch scripts (see scripts/lib/sourceStatus.ts)
+/data/generated/source-status-local.json

@@ -6,6 +6,7 @@
 import { mkdir, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { gunzipSync } from "node:zlib";
+import { recordSource } from "./lib/sourceStatus";
 
 const RAW_DIR = path.join(process.cwd(), "data", "raw");
 
@@ -98,9 +99,20 @@ async function main() {
   // roster files every 3 hours. No args fetches everything, as before.
   const only = process.argv.slice(2);
   const targets = only.length > 0 ? SOURCES.filter((s) => only.includes(s.name)) : SOURCES;
+  // Every source is attempted and recorded, rather than stopping at the
+  // first failure; the step still exits non-zero if any failed.
+  const failed: string[] = [];
   for (const { name, url, gzip } of targets) {
-    await fetchOne(name, url, gzip);
+    try {
+      await fetchOne(name, url, gzip);
+      await recordSource(`nflverse:${name}`);
+    } catch (err) {
+      console.error(`Failed to fetch ${name}:`, err);
+      await recordSource(`nflverse:${name}`, err);
+      failed.push(name);
+    }
   }
+  if (failed.length > 0) throw new Error(`Failed: ${failed.join(", ")}`);
 }
 
 main().catch((err) => {

@@ -112,7 +112,89 @@ export async function verifyData(): Promise<string[]> {
 
   failures.push(...(await checkAgainstOfficialStats()));
   failures.push(...(await checkPlayLists()));
+  failures.push(...(await checkSanity()));
 
+  return failures;
+}
+
+// Values that must hold in real football, whatever else is true. The
+// other checks compare the site with itself and with nflverse; these
+// catch a number that's simply impossible — a 140% conversion rate, a
+// rank of 33 — even if it somehow agreed with everything else.
+async function checkSanity(): Promise<string[]> {
+  const failures: string[] = [];
+  const bad = (what: string) => failures.push(`sanity: ${what}`);
+
+  // Every ranked stat, wherever it appears: rank 1-32, percentile 0-100.
+  const walk = (node: unknown, where: string) => {
+    if (!node || typeof node !== "object") return;
+    const o = node as Record<string, unknown>;
+    if (typeof o.leagueRank === "number" && typeof o.leaguePercentile === "number") {
+      if (!Number.isInteger(o.leagueRank) || o.leagueRank < 1 || o.leagueRank > 32) bad(`${where} rank ${o.leagueRank}`);
+      if (o.leaguePercentile < 0 || o.leaguePercentile > 100) bad(`${where} percentile ${o.leaguePercentile}`);
+    }
+    for (const [k, v] of Object.entries(o)) walk(v, `${where}.${k}`);
+  };
+  const t = await readGenerated<Record<string, unknown>>("team-stats.json");
+  walk(t, "team-stats");
+
+  type Ranked = { value: number };
+  const ts = t as unknown as {
+    epaPerPlay: { offense: Ranked; defense: Ranked };
+    successRate: { offense: Ranked; defense: Ranked };
+    explosivePlayRate: { offense: Ranked; defense: Ranked };
+    redZonePct: { offense: Ranked; defense: Ranked };
+    thirdDownPct: { offense: Ranked; defense: Ranked };
+    specialTeams: { fieldGoalPct: Ranked };
+  };
+  const rates: Array<[string, number]> = [
+    ["success rate (off)", ts.successRate.offense.value],
+    ["success rate (def)", ts.successRate.defense.value],
+    ["explosive rate (off)", ts.explosivePlayRate.offense.value],
+    ["explosive rate (def)", ts.explosivePlayRate.defense.value],
+    ["red zone TD% (off)", ts.redZonePct.offense.value],
+    ["red zone TD% (def)", ts.redZonePct.defense.value],
+    ["third down % (off)", ts.thirdDownPct.offense.value],
+    ["third down % (def)", ts.thirdDownPct.defense.value],
+    ["field goal %", ts.specialTeams.fieldGoalPct.value],
+  ];
+  for (const [what, v] of rates) if (!(v >= 0 && v <= 1)) bad(`${what} is ${v}`);
+  for (const [what, v] of [["EPA/play (off)", ts.epaPerPlay.offense.value], ["EPA/play (def)", ts.epaPerPlay.defense.value]] as const) {
+    if (!(Math.abs(v) <= 1)) bad(`${what} is ${v}, outside any real season's range`);
+  }
+
+  // League-wide: every game has one winner and one loser, and point
+  // differentials cancel out.
+  const standings = await readGenerated<Array<{ standings: Array<{ team: string; wins: number; losses: number; pointDifferential: number }> }>>("league-standings.json");
+  const teams = standings.flatMap((d) => d.standings);
+  if (teams.length !== 32) bad(`league standings list ${teams.length} teams`);
+  const wins = teams.reduce((s, x) => s + x.wins, 0);
+  const losses = teams.reduce((s, x) => s + x.losses, 0);
+  if (wins !== losses) bad(`league-wide wins (${wins}) and losses (${losses}) differ`);
+  const diff = teams.reduce((s, x) => s + x.pointDifferential, 0);
+  if (diff !== 0) bad(`league-wide point differentials sum to ${diff}, not 0`);
+
+  // Our season.
+  const schedule = await readGenerated<Array<{ week: number; result?: string; winProbabilityEstimate?: number }>>("schedule.json");
+  if (schedule.length !== 17) bad(`schedule has ${schedule.length} games, not 17`);
+  if (new Set(schedule.map((g) => g.week)).size !== schedule.length) bad("schedule repeats a week");
+  for (const g of schedule) {
+    const p = g.winProbabilityEstimate;
+    if (p !== undefined && !(p >= 0.05 && p <= 0.95)) bad(`week ${g.week} win chance ${p}`);
+  }
+  const proj = await readGenerated<{ projectedWins: number; projectedLosses: number; playoffOdds?: number }>("season-projection.json");
+  if (proj.projectedWins + proj.projectedLosses !== 17) bad(`projected record ${proj.projectedWins}-${proj.projectedLosses} isn't 17 games`);
+  if (proj.playoffOdds !== undefined && !(proj.playoffOdds >= 0 && proj.playoffOdds <= 1)) bad(`playoff odds ${proj.playoffOdds}`);
+
+  // Grades and QBs.
+  const units = await readGenerated<Array<{ team: string; groups: Array<{ group: string; grade: number }> }>>("position-group-league-table.json");
+  if (units.length !== 32) bad(`unit table lists ${units.length} teams`);
+  for (const u of units) for (const g of u.groups) if (!(g.grade >= 0 && g.grade <= 100)) bad(`${u.team} ${g.group} grade ${g.grade}`);
+  const qbs = await readGenerated<Array<{ playerName: string; completions: number; attempts: number; yards: number }>>("qb-league-table.json");
+  for (const q of qbs) {
+    if (q.completions > q.attempts || q.completions < 0) bad(`${q.playerName} ${q.completions}/${q.attempts}`);
+    if (q.attempts > 0 && Math.abs(q.yards / q.attempts) > 20) bad(`${q.playerName} ${q.yards} yds on ${q.attempts} attempts`);
+  }
   return failures;
 }
 

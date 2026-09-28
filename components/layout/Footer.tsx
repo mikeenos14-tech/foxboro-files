@@ -1,4 +1,5 @@
 import * as store from "@/lib/data/store";
+import { DataFreshness } from "./DataFreshness";
 
 function formatStamp(iso: string): string {
   const d = new Date(iso);
@@ -13,7 +14,10 @@ function formatStamp(iso: string): string {
 }
 
 export async function Footer() {
-  const generatedAt = await store.getDataGeneratedAt();
+  const meta = await store.getBuildMeta();
+  // When play-by-play was last actually downloaded (falls back to the
+  // build time for data built before that was recorded).
+  const asOf = meta?.statsAsOf ?? meta?.generatedAt ?? null;
 
   return (
     <footer className="mt-12 border-t border-border bg-surface py-6 text-center text-xs text-muted">
@@ -22,11 +26,7 @@ export async function Footer() {
         or any team. Stats sourced from nflverse (CC-BY 4.0) and public
         endpoints.
       </p>
-      {generatedAt && (
-        <p className="mt-2">
-          Stats last updated <time dateTime={generatedAt}>{formatStamp(generatedAt)}</time>
-        </p>
-      )}
+      {asOf && <DataFreshness asOf={asOf} label={formatStamp(asOf)} />}
     </footer>
   );
 }
