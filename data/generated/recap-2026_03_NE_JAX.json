@@ -184,16 +184,16 @@
   ],
   "goodBadUgly": {
     "good": [
-      "Rhamondre Stevenson was the bright spot, posting 7% win probability added—the only player on either side generating meaningful positive momentum.",
-      "Marcus Jones recorded his first interception of the season, a rare defensive bright spot in an otherwise dismal day."
+      "Rhamondre Stevenson was our silver lining, adding 7% win probability on a day when almost everything went wrong.",
+      "Marcus Jones notched his first interception of the season, giving the defense at least one bright moment in Jacksonville."
     ],
     "bad": [
-      "The red zone offense was an absolute disaster: 0 touchdowns on 4 trips, while Jacksonville scored on all 5 of theirs—a 5 TD performance that basically decided the game.",
-      "Drake Maye's three turnovers (two interceptions and a lost fumble) and the offense's -0.25 EPA per play told the whole story: this unit is struggling mightily right now.",
-      "Third down conversion rate of 4 for 12 (33%) falls well short of the league average, and that kind of offensive futility on manageable downs compounds every other problem."
+      "Drake Maye threw two interceptions and lost a fumble — three turnovers that completely derailed any offensive rhythm we might have built.",
+      "Red zone catastrophe: we scored zero touchdowns on four trips while Jacksonville punched in five scores on five attempts, a devastating 0-for-4 versus 5-for-5 split.",
+      "Our defense allowed Jacksonville to convert eight of twelve third downs (67%), well above the league norm of 40%."
     ],
     "ugly": [
-      "The defensive unit allowed 8 of 12 third downs (67%)—nearly double the league norm—and couldn't stop Jacksonville's offense when it mattered, surrendering five touchdown drives."
+      "An offensive performance that generated minus-0.25 EPA per play, meaningfully below the league average of zero, and a defensive showing that allowed plus-0.23 EPA per play — the kind of two-sided collapse that makes 35-6 feel inevitable rather than surprising."
     ]
   },
   "playerOfTheGame": {
@@ -215,6 +215,6 @@
       "safety": 0
     }
   },
-  "fanTake": "Well, that was genuinely difficult to watch. The Patriots traveled to Jacksonville and got thoroughly dismantled, 35-6, in a performance that left Drake Maye calling his own offense \"unacceptable\"—and frankly, it's hard to argue with him after three turnovers and a unit that managed just two field goals all afternoon. Jacksonville's defense made life miserable, while the Jaguars' offense (led by Lawrence's three touchdown passes) operated like they were playing a different sport entirely. The gap between what this team needs to be and what it showed up as on Sunday was genuinely alarming.",
-  "aiVersion": 2
+  "fanTake": "Look, there's no way around it: Jacksonville came to play and we came to get embarrassed. A 35-6 loss on the road where our defense allowed five touchdowns on five red-zone trips, our offense managed zero touchdowns despite four trips into the end zone, and Drake Maye turned the ball over three times — that's not a competitive football game, that's a disaster. The stats tell the whole grim story: we were minus-0.25 EPA per play on offense, our defense yielded plus-0.23, and we lost the turnover battle by two. When your quarterback calls his own performance \"unacceptable\" and the entire offensive unit deserves the same verdict, you know this one stings.",
+  "aiVersion": 4
 }

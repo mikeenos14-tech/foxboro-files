@@ -184,15 +184,15 @@
   ],
   "goodBadUgly": {
     "good": [
-      "Red zone offense converted 1 of 2 trips for a touchdown—that 50% rate at least matches the league average on a game we badly needed to be more efficient.",
-      "Third down defense was respectable, holding Seattle to 2 conversions on 11 attempts (18%), well below the league norm of around 40%."
+      "Red zone offense converted one of two trips into a touchdown, hitting better than the league's typically converts on its third attempt.",
+      "Defensive pass coverage held Seattle to just 2 for 11 on third-down conversions, a genuinely bright spot in an otherwise grim outing."
     ],
     "bad": [
-      "Third down offense was a disaster: 5 for 16 (31%) keeps drives from extending and puts constant pressure on the defense.",
-      "Turnover margin of -3 is an avalanche in a close game; we simply beat ourselves with careless ball security."
+      "Turnover margin of minus-3 is a recipe for heartbreak, and that's exactly what we got on the road.",
+      "Offensive EPA of -0.11 per play shows we were consistently inefficient—not just in spots, but as a system."
     ],
     "ugly": [
-      "Rhamondre Stevenson, our most influential player by win probability added, finished at -3% WPA—meaning his plays actively worked against us when we needed them most."
+      "Third-down offense at 5 for 16 is abysmal; we couldn't sustain a drive to save our lives, converting at less than 32% when teams should be hitting 40%."
     ]
   },
   "playerOfTheGame": {
@@ -214,6 +214,6 @@
       "safety": 0
     }
   },
-  "fanTake": "Well, that was not what we needed. The Patriots traveled to Seattle and came away with a 10-13 loss, which is the sort of deflating road defeat that tends to linger for a while—not because it was particularly close (though it was), but because we had our chances and simply couldn't execute when it mattered. The offense sputtered to a -0.11 EPA per play, the defense couldn't keep the Seahawks out of the end zone when it counted, and we turned the ball over three more times than we forced. When you're playing away from home and you hand your opponent that many extra possessions, you don't deserve to win.",
-  "aiVersion": 3
+  "fanTake": "Well, that was a thoroughly deflating way to start the season. The Patriots trudged into Seattle and left with a 13-10 loss that felt like leaving money on the table—we had our opportunities in the red zone but couldn't capitalize when it mattered most, managing just one touchdown on two trips while coughing up the ball three times overall. Our offense was sluggish (negative EPA), our defense got gashed enough to matter (allowing positive EPA), and third-down efficiency was a disaster (5 for 16 when league average sits around 40%). Rhamondre Stevenson, for all his effort, couldn't reverse the tide. Welcome to 2026, folks—hopefully this is rock bottom.",
+  "aiVersion": 4
 }

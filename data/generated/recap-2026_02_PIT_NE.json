@@ -184,15 +184,15 @@
   ],
   "goodBadUgly": {
     "good": [
-      "The defense was elite: allowed just 3 points and forced teams into abysmal third-down conversions (2-for-12), while our red zone defense was flawless at 0 TDs allowed on 1 trip.",
-      "Rhamondre Stevenson was the game's difference-maker by win probability added, anchoring our offensive identity when it mattered most."
+      "The defense was suffocating: held Pittsburgh to a field goal and forced no red-zone touchdowns on their one trip, while the unit allowed just 2 third-down conversions on 12 attempts.",
+      "Rhamondre Stevenson was the game's most valuable Patriot, delivering in the clutch moments that swung win probability."
     ],
     "bad": [
-      "Our offensive EPA/play was negative, confirming we're still searching for consistent yardage efficiency on that side of the ball.",
-      "Red zone execution remains a concern: 1 touchdown on 3 trips (33%) is well below the league norm of 55%, and third-down conversion at 33% (4-for-12) shows we're still struggling with rhythm and consistency."
+      "The offense sputtered relative to league norms: converted just 4 of 12 third downs (well below the 40% standard) and scored TDs on only 1 of 3 red-zone trips instead of the typical 55%.",
+      "Clock management continues to haunt this team—the coaching staff has already acknowledged two straight games with questionable decisions late in the second quarter."
     ],
     "ugly": [
-      "The articles mention two straight games with questionable clock management decisions before halftime—a pattern the Patriots have publicly acknowledged needs to improve, and it's the kind of self-inflicted wound that can cost you closer games down the road."
+      "Negative EPA per play on offense is a long-term concern masquerading as a win—this defensive performance papered over some real offensive inefficiency."
     ]
   },
   "playerOfTheGame": {
@@ -214,6 +214,6 @@
       "safety": 0
     }
   },
-  "fanTake": "The Patriots absolutely throttled Pittsburgh at home, 20-3, in a game that felt less like a competitive affair and more like a necessary cleansing. Our defense was genuinely exceptional—holding the Steelers to a field goal while generating the kind of suffocating pressure that reminds you why this team has weathered so many storms. Offensively, we weren't exactly lighting it up (that negative EPA/play is a sobering reminder), but two touchdowns and two field goals proved sufficient when your defense is playing like it did. Rhamondre Stevenson was our MVP in win probability terms, which tells you we leaned on the ground game and played complementary football. It wasn't pretty, but in October, sometimes ugly wins are exactly what you need.",
-  "aiVersion": 3
+  "fanTake": "Well, that's more like it. The Patriots absolutely dominated the Steelers at home, 20-3, in a performance that felt like a genuine defensive masterclass—holding Pittsburgh scoreless in the touchdown department while our offense churned out two scores and two field goals. Rhamondre Stevenson was the architect of the win, delivering 3% win probability added when it mattered most. The defense was genuinely excellent, allowing negative 0.36 EPA per play, which is well above the standard. The only real sting is that our offense generated negative 0.07 EPA per play—not bad by any stretch, but a reminder that we're still searching for consistency on that side of the ball.",
+  "aiVersion": 4
 }
