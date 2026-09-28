@@ -1,21 +1,12 @@
 [
   {
-    "id": "50049787",
-    "publishedAt": "2026-09-28T05:40:31Z",
+    "id": "50051321",
+    "publishedAt": "2026-09-28T12:01:46Z",
     "type": "Analysis",
-    "headline": "Broncos erase 16-point deficit, take down Rams 30-26 in a thriller",
-    "summary": "Broncos erase 16-point deficit, take down Rams 30-26 in a thriller",
-    "sourceUrl": "https://www.espn.com/video/clip/_/id/50049787/broncos-erase-16-point-deficit-take-rams-30-26-thriller",
+    "headline": "Sources: Giants' Brian Burns believed to have torn ACL",
+    "summary": "Giants pass rusher Brian Burns is believed to have torn his ACL during Sunday's win over the  Titans, sources told ESPN and NFL Network.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50051321/sources-giants-brian-burns-believed-torn-acl",
     "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/sunday-night-football-broncos-complete-comeback-defeat-rams-30-26",
-    "publishedAt": "2026-09-28T04:13:31.000Z",
-    "type": "Analysis",
-    "headline": "Sunday Night Football: Broncos complete comeback, defeat Rams 30-26",
-    "summary": "Los Angeles was in it until the last play, but Denver was able to hang on for the team's second victory of the season.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/sunday-night-football-broncos-complete-comeback-defeat-rams-30-26",
-    "sourceName": "Pro Football Talk"
   },
   {
     "id": "50049488",
@@ -27,22 +18,13 @@
     "sourceName": "ESPN"
   },
   {
-    "id": "50048293",
-    "publishedAt": "2026-09-28T01:38:35Z",
-    "type": "Analysis",
-    "headline": "Kirk Cousins passes for 3 TDs and the unbeaten Raiders come back to top the Saints 35-27",
-    "summary": "— It took the Las Vegas Raiders an entire season to accumulate three victories in 2025.",
-    "sourceUrl": "http://www.espn.com/nfl/recap?gameId=401872961",
+    "id": "50051074",
+    "publishedAt": "2026-09-28T11:06:47Z",
+    "type": "Transaction",
+    "headline": "Commanders set to re-add Austin Ekeler to RB room, sources say",
+    "summary": "The Commanders are expected to sign free agent running back Austin Ekeler to their 53-man roster, pending a physical, sources told NFL Network's Ian Rapoport and Mike Garafolo.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50051074/commanders-set-re-add-austin-ekeler-rb-room-sources-say",
     "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=421022",
-    "publishedAt": "2026-09-28T04:05:53.000Z",
-    "type": "Analysis",
-    "headline": "Cowboys, Lions Among Teams To Inquire On Steelers CB Joey Porter Jr.",
-    "summary": "Recently named as a team to watch as a possible landing spot for Steelers CB Joey Porter Jr., the Lions have inquired on his availability, per ESPN’s Adam Schefter. The Cowboys, who were speculatively connected to a possible Porter pursuit, are also among the clubs to make an inquiry. Possibly the most-discussed player in the […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/09/cowboys-lions-among-teams-to-inquire-on-steelers-cb-joey-porter-jr",
-    "sourceName": "Pro Football Rumors"
   },
   {
     "id": "profootballrumors-https://www.profootballrumors.com/?p=421099",
@@ -52,5 +34,23 @@
     "summary": "After today’s loss to the Vikings, Buccaneers head coach Todd Bowles told the media that quarterback Baker Mayfield suffered a dislocated thumb on his throwing hand, per Greg Auman of FOX Sports. Mayfield will have an MRI scan performed tomorrow, but the veteran passer is expected to miss time as a result of the injury. […]",
     "sourceUrl": "https://www.profootballrumors.com/2026/09/buccaneers-qb-baker-mayfield-suffers-dislocated-thumb",
     "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "50050069",
+    "publishedAt": "2026-09-28T10:25:09Z",
+    "type": "Analysis",
+    "headline": "Bo Nix and Talanoa Hufanga lead the Broncos past the Rams 30-26 in a Sunday night thriller",
+    "summary": "- Bo Nix didn't flinch from his slow start and Talanoa Hufanga didn't lose faith after dropping two interceptions Sunday night.",
+    "sourceUrl": "http://www.espn.com/nfl/recap?gameId=401872962",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50049529",
+    "publishedAt": "2026-09-28T12:04:45Z",
+    "type": "Analysis",
+    "headline": "Saints again on losing end of controversial fumble ruling",
+    "summary": "The Saints walked away from Sunday's home loss to the Raiders just as confused about the application of the quarterback fumble rules as they were in Week 1.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50049529/saints-again-losing-end-controversial-fumble-ruling",
+    "sourceName": "ESPN"
   }
 ]
