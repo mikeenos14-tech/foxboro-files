@@ -33,6 +33,9 @@ import { trendFor } from "./lib/trend";
 import { loadGates, gateStateFor, recordGate, saveGates } from "./lib/gateStore";
 import { passerId, receiverId, rusherId } from "./lib/playerIds";
 import { passingLine } from "./lib/boxScore";
+import { loadNgsSeason, ngsRank } from "./lib/ngs";
+import { ordinal } from "../lib/calc/ranks";
+import { signed } from "../lib/util/format";
 import type {
   DepthChartEntry,
   PositionGroupReportCard,
@@ -597,7 +600,21 @@ async function main() {
     ])
   );
 
+  const ngs = await loadNgsSeason();
+  if (!ngs) console.warn("Next Gen Stats files missing — NGS context left off this build.");
+
   const positionCards = await buildPositionGroupCards(pbp, gradesByGroup, windowGradesByGroup);
+  // The card's own caveat is that sacks are "partly the QB's own time to
+  // throw". Next Gen Stats measures exactly that, so say how long ours
+  // actually holds it.
+  const ourPasser = ngs?.passing
+    .filter((r) => r.team_abbr === TEAM)
+    .sort((a, b) => num(b.attempts) - num(a.attempts))[0];
+  const holdTime = ourPasser ? ngsRank(ngs!.passing, ourPasser.player_gsis_id, "avg_time_to_throw") : null;
+  const protection = positionCards.find((c) => c.group === "Pass Protection");
+  if (protection && ourPasser && holdTime) {
+    protection.statLine = `${ourPasser.player_display_name} takes ${holdTime.value.toFixed(2)} sec to throw on average — ${ordinal(holdTime.rank)}-longest of ${holdTime.of} qualified QBs (a longer hold gives the rush more time)`;
+  }
   await writeFile(
     path.join(GENERATED_DIR, "position-group-cards.json"),
     JSON.stringify(positionCards, null, 2)
@@ -607,8 +624,23 @@ async function main() {
   );
 
   const leaderboards: TeamLeaderboards = {
-    receiving: receivingLeaders(pbp, await buildLeagueRosterByGsis(), TEAM, await loadReceivingFlags()),
-    rushing: rushingLeaders(pbp, await buildLeagueRosterByGsis(), TEAM),
+    receiving: receivingLeaders(pbp, await buildLeagueRosterByGsis(), TEAM, await loadReceivingFlags()).map(
+      (line) => {
+        const sep = ngs ? ngsRank(ngs.receiving, line.playerId, "avg_separation") : null;
+        return sep
+          ? { ...line, detail: `${sep.value.toFixed(1)} yds of separation · ${ordinal(sep.rank)} of ${sep.of} qualified` }
+          : line;
+      }
+    ),
+    rushing: rushingLeaders(pbp, await buildLeagueRosterByGsis(), TEAM).map((line) => {
+      const ryoe = ngs ? ngsRank(ngs.rushing, line.playerId, "rush_yards_over_expected_per_att") : null;
+      return ryoe
+        ? {
+            ...line,
+            detail: `${signed(ryoe.value, 2)} yds/carry over expected · ${ordinal(ryoe.rank)} of ${ryoe.of} qualified`,
+          }
+        : line;
+    }),
     defense: defensiveLeaders(pbp, await buildLeagueRosterByGsis(), TEAM),
   };
   await writeFile(
@@ -634,7 +666,12 @@ async function main() {
   const playContext = await loadPlayContext();
   const leagueQbTable = ALL_TEAMS
     .map((team) => computeQbStats(pbp, team, rosterByGsis, twp))
-    .filter((q): q is QBDeepDive => q !== null);
+    .filter((q): q is QBDeepDive => q !== null)
+    .map((q) => {
+      const timeToThrow = ngs ? ngsRank(ngs.passing, q.playerId, "avg_time_to_throw") : null;
+      const aggressiveness = ngs ? ngsRank(ngs.passing, q.playerId, "aggressiveness") : null;
+      return timeToThrow && aggressiveness ? { ...q, ngs: { timeToThrow, aggressiveness } } : q;
+    });
   await writeFile(
     path.join(GENERATED_DIR, "qb-league-table.json"),
     JSON.stringify(leagueQbTable, null, 2)

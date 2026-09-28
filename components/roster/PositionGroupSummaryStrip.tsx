@@ -1,3 +1,4 @@
+import Link from "next/link";
 import type { PositionGroupReportCard } from "@/lib/data/types";
 import { gradeTier } from "@/lib/calc/ranks";
 
@@ -9,7 +10,8 @@ const tierClass: Record<ReturnType<typeof gradeTier>, string> = {
 
 // A one-glance "how good are we, everywhere" strip — every position
 // group's grade, before you'd otherwise have to click into the Position
-// Grades tab to see any of it.
+// Grades tab to see any of it. Each chip opens that unit's all-32-team
+// ranking: "how does our pass defense compare league-wide" in one tap.
 export function PositionGroupSummaryStrip({ cards }: { cards: PositionGroupReportCard[] }) {
   const real = cards;
   return (
@@ -18,13 +20,15 @@ export function PositionGroupSummaryStrip({ cards }: { cards: PositionGroupRepor
         {real.map((card) => {
           const tier = gradeTier(card.grade);
           return (
-            <div
+            <Link
               key={card.group}
-              className={`flex shrink-0 items-center gap-2 rounded-full border px-3 py-1.5 text-sm ${tierClass[tier]}`}
+              href={`/around-the-league?unit=${encodeURIComponent(card.group)}#units`}
+              aria-label={`${card.group}: ${card.grade} out of 100 — see all 32 teams`}
+              className={`flex shrink-0 items-center gap-2 rounded-full border px-3 py-1.5 text-sm transition-opacity hover:opacity-80 ${tierClass[tier]}`}
             >
               <span className="font-medium text-foreground">{card.group}</span>
               <span className="font-display font-bold">{card.grade}</span>
-            </div>
+            </Link>
           );
         })}
       </div>

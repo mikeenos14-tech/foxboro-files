@@ -61,6 +61,8 @@ AI beat-writer digest (grounded, same rules and checks), merged ESPN + Patriots 
 
 ### Around the League
 
+**Every Team, Every Unit** — pick any of the eight units and see all 32 teams ranked by grade, New England highlighted, with each team's actual (unadjusted) rate alongside. Same grades as the Roster page (**Tier 3**, 2026 only), so the two always agree. Home's grade chips and each Roster grade card link straight to the matching ranking. RB and TE carry the noisy-stat note here too.
+
 League-wide offense and defense rankings by EPA/play — **Tier 2**, deliberately "who's been best in 2026," no 2025 mixed in. All 8 divisions' standings, last week's scores, AI-curated top league headlines (real trades/injuries/storylines, fantasy content filtered out).
 
 ---
@@ -84,7 +86,7 @@ Those bottom four were previously labelled **OL, Edge, Interior DL and Secondary
 **What's changed about "free data can't do this" (September 2026):** two free nflverse datasets narrow the gap, but neither closes it.
 
 - `pbp_participation` lists all 22 players on the field for every play. That allows on/off comparisons ("pass defense with vs. without this safety"), not true individual grades — being on the field isn't the same as winning your matchup. It's also **only published through 2025**; there's no 2026 file yet, so it can't feed this season's pages.
-- `nextgen_stats` (player tracking) *is* published for 2026 and updated weekly: time to throw, receiver separation, rushing yards over expected. Time to throw in particular would separate "the line broke down" from "the QB held it" on the Pass Protection card.
+- `nextgen_stats` (player tracking) *is* published for 2026, updated weekly, and now used — see "Next Gen Stats" below.
 
 **Per-player context:** the three defensive cards show team-wide totals with a named leader — sacks and QB hits (Pass Rush), tackles for loss and forced fumbles (Run Defense), interceptions and pass breakups (Pass Defense) — from nflverse's own attribution columns. These used to count only one position group, so Pass Rush said "4 sacks" for a team with 7.
 
@@ -94,6 +96,24 @@ Those bottom four were previously labelled **OL, Edge, Interior DL and Secondary
 - **WR/TE EPA per target mostly measures the quarterback.** A receiver catching passes from an accurate QB grades well whatever he does. So those cards carry a second, QB-independent measure built from FTN charting — catch rate on balls charted *catchable*, yards after catch, drops, contested targets. See "Only ranking what's measurable" below for why that one often shows counts instead of a percentile.
 
 **LB has no card.** It used to show a fabricated grade and an invented claim about the defense, merged in from fixture data. No free metric cleanly isolates linebacker play, so the site shows nothing there rather than something invented. `scripts/verify-data.ts` asserts no LB card can come back.
+
+---
+
+## Next Gen Stats (player tracking)
+
+NFL Next Gen Stats, via nflverse, answers questions play-by-play can't. Only NGS's own season totals are used (its "week 0" rows), which cover players over NGS's minimums — roughly 25 attempts for a QB, 15 carries for a runner, 8 targets for a receiver. Every rank says "of N qualified", because 37 qualified QBs isn't the same ladder as 32 teams.
+
+| Where | Stat | Why it's there |
+|---|---|---|
+| QB tab, QB compare | Time to throw | Separates "the line broke down" from "the QB held it" |
+| QB tab, QB compare | Tight-window throws (NGS "aggressiveness") | Share of throws with a defender within a yard — how much risk he takes |
+| Pass Protection card | Our QB's time to throw and rank | The card's own caveat is that sacks are partly the QB's hold time; this measures it |
+| Leaders — receiving | Separation | How open a receiver gets, independent of the throw |
+| Leaders — rushing | Rush yards over expected per carry | The part of a run that's the runner, not the blocking |
+
+Time to throw and tight-window rate are shown in neutral colors, not green/red: they describe style, not quality. NGS isn't blended with anything or used in any grade.
+
+NGS also publishes completions, attempts, yards, TDs and INTs for every qualified QB, so `verify:data` checks the site's QB lines against it as a second independent source alongside nflverse's own totals.
 
 ---
 
@@ -108,6 +128,7 @@ Those bottom four were previously labelled **OL, Edge, Interior DL and Secondary
 ## Data sources
 
 - **nflverse** (`nflverse/nflverse-data` on GitHub, free, CC-BY 4.0): play-by-play (the source of every EPA/success-rate/explosive-play number — EPA itself is nflverse's own pre-computed column, not something built from scratch here), weekly rosters, official injury reports, and **FTN's real per-play charting data** — turnover-worthy throws, play-action, blitz and pocket splits, and catchable/drop/contested flags for receivers. FTN lands a game or more behind the play-by-play, so every FTN-based number uses only charted games for both halves of the rate, and the page says when charting trails the games played. Also nflverse's own per-player season stats, used only by `verify:data`.
+- **NFL Next Gen Stats** (via nflverse, weekly): time to throw, tight-window throws, receiver separation, rush yards over expected.
 - **ESPN's public endpoints**: news, scoreboard/odds, the depth chart, the injury fallback, and the official standings order (used only to break ties).
 - **patriots.com**: the team's own injury-report article, parsed for real Wed/Thu/Fri practice status (same-day accurate, which nflverse's periodic release can't match).
 - **Pro Football Rumors / Pro Football Talk RSS**: league-wide headline sourcing for Around the League.

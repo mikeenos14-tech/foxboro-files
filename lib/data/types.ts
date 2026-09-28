@@ -261,6 +261,18 @@ export interface PlayerStatLine {
   headshotUrl?: string;
   stats: Array<{ label: string; value: string }>;
   sortValue: number;
+  // One Next Gen Stats line under the name — separation for receivers,
+  // rush yards over expected for runners. A line rather than another
+  // column: the receiving board already has seven on a phone.
+  detail?: string;
+}
+
+// A Next Gen Stats value and its rank among NGS's qualified players
+// (1 = highest value; whether that's good depends on the stat).
+export interface NgsRank {
+  value: number;
+  rank: number;
+  of: number;
 }
 
 export interface TeamLeaderboards {
@@ -336,6 +348,12 @@ export interface QBDeepDive extends QBWindowStats {
   // Set while FTN's charting trails the games played, so the FTN-based
   // numbers say what they cover instead of passing as "Full Season".
   chartingNote?: string;
+  // Next Gen Stats, full season only. Absent when the QB is under NGS's
+  // attempt minimum or the files weren't fetched.
+  ngs?: {
+    timeToThrow: NgsRank;
+    aggressiveness: NgsRank;
+  };
 }
 
 export interface ScheduleRow {

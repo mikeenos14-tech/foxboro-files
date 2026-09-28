@@ -7,6 +7,7 @@ import { RankBadge } from "@/components/shared/RankBadge";
 import { StatWindowSelector } from "@/components/shared/StatWindowSelector";
 import { useWindowParam } from "@/lib/hooks/useWindowParam";
 import { formatPercent, signed } from "@/lib/util/format";
+import { ordinal } from "@/lib/calc/ranks";
 
 export function QBDeepDive({
   qb,
@@ -84,6 +85,29 @@ export function QBDeepDive({
         />
       </div>
 
+      {/* Next Gen Stats tracking. Neutral rather than green/red: a long
+          time to throw or a low tight-window rate isn't good or bad on its
+          own — it's style, and it's what explains the sack and EPA numbers. */}
+      {isFullSeason && qb.ngs && (
+        <div className="mt-4 border-t border-border pt-4">
+          <span className="text-xs font-bold uppercase tracking-wide text-muted">
+            Style · NFL Next Gen Stats
+          </span>
+          <div className="mt-2 grid grid-cols-2 gap-x-4 gap-y-4">
+            <NgsTile
+              label="Time to throw"
+              value={`${qb.ngs.timeToThrow.value.toFixed(2)} sec`}
+              context={`${ordinal(qb.ngs.timeToThrow.rank)}-longest of ${qb.ngs.timeToThrow.of} qualified QBs`}
+            />
+            <NgsTile
+              label="Tight-window throws"
+              value={formatPercent(qb.ngs.aggressiveness.value / 100, 1)}
+              context={`${ordinal(qb.ngs.aggressiveness.rank)} of ${qb.ngs.aggressiveness.of} · a defender within a yard`}
+            />
+          </div>
+        </div>
+      )}
+
       <div className="mt-4">
         <span className="text-xs font-bold uppercase tracking-wide text-muted">
           Completion % by depth of target
@@ -150,6 +174,16 @@ export function QBDeepDive({
 // badge lower than a sibling tile whose shorter label stayed on one line.
 // gap-1.5 with no justify-between keeps the badge hugging the label
 // instead of stretching to the tile's far edge.
+function NgsTile({ label, value, context }: { label: string; value: string; context: string }) {
+  return (
+    <div>
+      <span className="text-xs text-muted">{label}</span>
+      <div className="mt-0.5 text-xl font-bold text-foreground">{value}</div>
+      <div className="text-[11px] text-muted">{context}</div>
+    </div>
+  );
+}
+
 function StatTile({ label, value, rank }: { label: string; value: string; rank?: number }) {
   return (
     <div>

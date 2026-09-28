@@ -33,6 +33,14 @@ export function formatPercent(value: number, digits = 0): string {
   return `${Number((value * 100).toPrecision(12)).toFixed(digits)}%`;
 }
 
+// A unit's real rate beside its grade: EPA as a signed number, the
+// rest as a percentage. Matched on substring, not the exact label — an
+// exact "EPA/play" check once fell through to the percent formatter and
+// rendered -0.152 EPA/play as "-15.2%".
+export function formatUnitRate(rawLabel: string, rawValue: number): string {
+  return rawLabel.includes("EPA") ? signed(rawValue, 2) : formatPercent(rawValue, 1);
+}
+
 export function signed(value: number, digits = 2): string {
   const s = value.toFixed(digits);
   return value > 0 ? `+${s}` : s;

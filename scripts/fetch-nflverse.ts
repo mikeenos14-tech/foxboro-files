@@ -5,10 +5,11 @@
 
 import { mkdir, writeFile } from "node:fs/promises";
 import path from "node:path";
+import { gunzipSync } from "node:zlib";
 
 const RAW_DIR = path.join(process.cwd(), "data", "raw");
 
-const SOURCES: Array<{ name: string; url: string }> = [
+const SOURCES: Array<{ name: string; url: string; gzip?: boolean }> = [
   {
     name: "games.csv",
     url: "https://github.com/nflverse/nflverse-data/releases/download/schedules/games.csv",
@@ -55,14 +56,35 @@ const SOURCES: Array<{ name: string; url: string }> = [
     name: "ftn_charting_2026.csv",
     url: "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2026.csv",
   },
+  // Next Gen Stats (player tracking): time to throw, tight-window throws,
+  // receiver separation, rush yards over expected. Published for the
+  // current season and updated weekly — unlike FTN it doesn't trail the
+  // games. One gzipped file per stat family, every season since 2016;
+  // week 0 rows are season totals for players over NGS's minimums.
+  {
+    name: "ngs_passing.csv",
+    url: "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_passing.csv.gz",
+    gzip: true,
+  },
+  {
+    name: "ngs_receiving.csv",
+    url: "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_receiving.csv.gz",
+    gzip: true,
+  },
+  {
+    name: "ngs_rushing.csv",
+    url: "https://github.com/nflverse/nflverse-data/releases/download/nextgen_stats/ngs_rushing.csv.gz",
+    gzip: true,
+  },
 ];
 
-async function fetchOne(name: string, url: string) {
+async function fetchOne(name: string, url: string, gzip = false) {
   const res = await fetch(url, { redirect: "follow" });
   if (!res.ok) {
     throw new Error(`Failed to fetch ${name}: ${res.status} ${res.statusText}`);
   }
-  const buf = Buffer.from(await res.arrayBuffer());
+  const raw = Buffer.from(await res.arrayBuffer());
+  const buf = gzip ? gunzipSync(raw) : raw;
   await writeFile(path.join(RAW_DIR, name), buf);
   console.log(`Saved ${name} (${(buf.length / 1024).toFixed(0)} KB)`);
 }
@@ -76,8 +98,8 @@ async function main() {
   // roster files every 3 hours. No args fetches everything, as before.
   const only = process.argv.slice(2);
   const targets = only.length > 0 ? SOURCES.filter((s) => only.includes(s.name)) : SOURCES;
-  for (const { name, url } of targets) {
-    await fetchOne(name, url);
+  for (const { name, url, gzip } of targets) {
+    await fetchOne(name, url, gzip);
   }
 }
 

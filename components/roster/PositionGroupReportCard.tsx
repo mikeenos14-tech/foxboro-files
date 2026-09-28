@@ -1,3 +1,4 @@
+import Link from "next/link";
 import type { PositionGroupReportCard as ReportCardData } from "@/lib/data/types";
 import { SoWhatNote } from "@/components/shared/SoWhatNote";
 import { CountUp } from "@/components/shared/CountUp";
@@ -109,6 +110,12 @@ export function PositionGroupReportCard({ card }: { card: ReportCardData }) {
         </div>
       )}
       <SoWhatNote sentiment={tier}>{card.soWhat}</SoWhatNote>
+      <Link
+        href={`/around-the-league?unit=${encodeURIComponent(card.group)}#units`}
+        className="mt-2 inline-block text-xs text-muted underline hover:text-foreground"
+      >
+        Where all 32 teams rank →
+      </Link>
     </div>
   );
 }

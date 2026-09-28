@@ -4,15 +4,23 @@ import { LeagueEpaRankings } from "@/components/league/LeagueEpaRankings";
 import { LastWeekScores } from "@/components/league/LastWeekScores";
 import { AllDivisionStandings } from "@/components/league/AllDivisionStandings";
 import { HeadlinesList } from "@/components/home/HeadlinesList";
+import { UnitRankings } from "@/components/league/UnitRankings";
 
 export const metadata: Metadata = { title: "Around the League" };
 
-export default async function AroundTheLeaguePage() {
-  const [epaRankings, scoreboard, standings, news] = await Promise.all([
+export default async function AroundTheLeaguePage({
+  searchParams,
+}: {
+  searchParams: Promise<{ unit?: string }>;
+}) {
+  const { unit } = await searchParams;
+  const [epaRankings, scoreboard, standings, news, unitTable, reportCards] = await Promise.all([
     store.getLeagueEpaRankings(),
     store.getLeagueScoreboard(),
     store.getLeagueStandings(),
     store.getLeagueNews(),
+    store.getPositionGroupLeagueTable(),
+    store.getPositionGroupReportCards(),
   ]);
 
   return (
@@ -24,6 +32,19 @@ export default async function AroundTheLeaguePage() {
         <p className="text-sm text-muted">
           What&apos;s happening across the rest of the NFL.
         </p>
+      </div>
+
+      <div id="units" className="scroll-mt-20">
+        <h2 className="text-lg font-semibold">Every Team, Every Unit</h2>
+        <p className="mb-3 text-sm text-muted">
+          Pick a unit to see where all 32 teams rank — New England is highlighted.
+        </p>
+        <UnitRankings
+          league={unitTable}
+          highlightTeam="NE"
+          noisyUnits={reportCards.filter((c) => c.noisyMetric).map((c) => c.group)}
+          initialUnit={unit}
+        />
       </div>
 
       <div>

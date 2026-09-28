@@ -236,7 +236,45 @@ async function checkAgainstOfficialStats(): Promise<string[]> {
 
   failures.push(...(await checkPassingLines(allOfficial)));
   failures.push(...(await checkPriorSeasonQb()));
+  failures.push(...(await checkAgainstNextGenStats()));
 
+  return failures;
+}
+
+// A second, independently-produced source for passing totals: NFL Next
+// Gen Stats' season rows carry completions, attempts, yards, TDs and INTs
+// for every qualified QB. Two outside sources agreeing with the site is a
+// much stronger check than one.
+async function checkAgainstNextGenStats(): Promise<string[]> {
+  let rows: Array<Record<string, string>>;
+  try {
+    rows = (await loadCsv<Record<string, string>>("ngs_passing.csv")).filter(
+      (r) => r.season === "2026" && r.season_type === "REG" && r.week === "0"
+    );
+  } catch {
+    return ["data/raw/ngs_passing.csv is missing, so passing wasn't cross-checked against Next Gen Stats — run `npx tsx scripts/fetch-nflverse.ts`"];
+  }
+  const league = await readGenerated<
+    Array<{ playerId: string; playerName: string; team: string; completions: number; attempts: number; yards: number; tds: number; ints: number }>
+  >("qb-league-table.json");
+  const byId = new Map(rows.map((r) => [r.player_gsis_id, r]));
+  const failures: string[] = [];
+  for (const qb of league) {
+    const o = byId.get(qb.playerId);
+    if (!o || o.team_abbr !== qb.team) continue;
+    const expect: Array<[string, number, number]> = [
+      ["completions", qb.completions, Number(o.completions)],
+      ["pass attempts", qb.attempts, Number(o.attempts)],
+      ["passing yards", qb.yards, Number(o.pass_yards)],
+      ["passing TDs", qb.tds, Number(o.pass_touchdowns)],
+      ["interceptions", qb.ints, Number(o.interceptions)],
+    ];
+    for (const [what, ours, theirs] of expect) {
+      if (Math.abs(ours - theirs) > 0.5) {
+        failures.push(`${qb.playerName} (${qb.team}) ${what}: site ${ours}, Next Gen Stats ${theirs}`);
+      }
+    }
+  }
   return failures;
 }
 

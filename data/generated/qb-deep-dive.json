@@ -17,6 +17,18 @@
   "pressureEpa": -1.3884099393758096,
   "cleanPocketEpa": -0.025424781417441596,
   "turnoverWorthyPlayRate": 0.06557377049180328,
+  "ngs": {
+    "timeToThrow": {
+      "value": 3.0412875,
+      "rank": 6,
+      "of": 37
+    },
+    "aggressiveness": {
+      "value": 11.25,
+      "rank": 31,
+      "of": 37
+    }
+  },
   "ranks": {
     "cpoe": {
       "value": 2.7974268323496676,

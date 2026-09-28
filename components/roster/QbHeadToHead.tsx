@@ -106,6 +106,30 @@ function buildSections(maye: QBDeepDive, opp: QBDeepDive): Section[] {
         },
       ],
     },
+    // Style, not quality — no winner is highlighted (no higherIsBetter).
+    ...(maye.ngs && opp.ngs
+      ? [
+          {
+            title: "Style (Next Gen Stats)",
+            rows: [
+              {
+                label: "Time to throw",
+                mayeDisplay: `${maye.ngs.timeToThrow.value.toFixed(2)}s`,
+                oppDisplay: `${opp.ngs.timeToThrow.value.toFixed(2)}s`,
+                mayeRaw: 0,
+                oppRaw: 0,
+              },
+              {
+                label: "Tight-window throws",
+                mayeDisplay: formatPercent(maye.ngs.aggressiveness.value / 100, 1),
+                oppDisplay: formatPercent(opp.ngs.aggressiveness.value / 100, 1),
+                mayeRaw: 0,
+                oppRaw: 0,
+              },
+            ],
+          },
+        ]
+      : []),
     {
       title: "Accuracy by Depth",
       rows: [
@@ -260,6 +284,10 @@ export function QbHeadToHead({ maye, league, defaultOpponentTeam }: Props) {
         items={[
           { term: "CPOE", definition: "completion % over expected" },
           { term: "EPA", definition: "expected points added per play" },
+          {
+            term: "Tight-window throws",
+            definition: "share of throws with a defender within a yard of the receiver (NFL Next Gen Stats)",
+          },
           {
             term: "Turnover-worthy rate",
             definition:

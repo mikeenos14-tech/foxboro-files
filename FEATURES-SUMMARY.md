@@ -44,13 +44,14 @@ A page-by-page rundown of what's actually live on the site (foxboro-files.vercel
 ## Roster & Stats
 
 Tabbed:
-- **QB** — official box score (matches nflverse exactly), CPOE, turnover-worthy rate, EPA when hit or sacked vs. not, accuracy by depth, ranked against the other 31 starting QBs; head-to-head comparison tool against any other starter.
+- **QB** — official box score (matches nflverse and Next Gen Stats exactly), CPOE, turnover-worthy rate, EPA when hit or sacked vs. not, accuracy by depth, ranked against the other 31 starting QBs, plus Next Gen Stats time to throw and tight-window throws; head-to-head comparison tool against any other starter.
 - **Grades** — 8 units graded out of 100 vs. the league with a visual bar and trend arrow, each showing its real box-score stat line and flagging thin samples.
 - **Splits & Special Teams** — situational splits, kicking/return stats.
 - **Depth Chart** — the team's own, via ESPN, by offense, defense and special teams.
 
 ## Around the League
 
+- **Every Team, Every Unit** — all 32 teams ranked on any unit grade, New England highlighted; one tap from Home's grade chips.
 - League-wide offense and defense rankings — current-season-only, opponent-adjusted EPA.
 - Last week's final scores across the whole league.
 - All 8 division standings.
