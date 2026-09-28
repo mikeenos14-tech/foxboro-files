@@ -10,12 +10,12 @@
 // format), so this is parsing a real, longstanding template, not
 // guessing at fragile markup.
 //
-// The AI's job here is pure extraction, never generation: given the real
-// article text, pull out real facts already stated in it. It's told
-// explicitly never to invent a player or a status, and every returned
-// player name is verified to actually appear in the source text before
-// being trusted — the same "select/extract from real text only" pattern
-// already used for league headlines curation and the AI recap takes.
+// Parsed in code (scripts/lib/injuryArticle.ts), not by AI. The AI
+// extraction this replaced returned 4 of the 16 players on the real Week 3
+// report — no Jaguars at all, including one listed Doubtful — and its
+// prompt pointed it at the wrong report day. If the article ever stops
+// matching the template, nothing is written and the site uses the
+// official nflverse / ESPN data alone.
 //
 // Run after: fetch-news-sources.ts (needs patriots-injury-article.html)
 // Run before: build-espn-data.ts (which merges this into injuries.json /
@@ -23,29 +23,19 @@
 
 import { readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
-import { generateJson } from "./lib/claude";
-import { TEAM_NICKNAMES } from "./lib/teams";
+import { parseInjuryArticle } from "./lib/injuryArticle";
 import type { Game } from "../lib/data/types";
 
 const RAW_DIR = path.join(process.cwd(), "data", "raw");
 const GENERATED_DIR = path.join(process.cwd(), "data", "generated");
 const TEAM = "NE";
 
-interface ExtractedPlayer {
-  team: string; // team name as written in the article, e.g. "New England Patriots"
-  playerName: string;
-  position: string;
-  injury: string;
-  practiceStatus: "Did Not Participate" | "Limited" | "Full";
-  gameStatus?: "Out" | "Doubtful" | "Questionable" | "Probable";
-}
-
 interface PracticeReportPlayer {
   team: string; // resolved to our own abbreviation, e.g. "NE"
   playerName: string;
   position: string;
   injury: string;
-  practiceStatus: "Did Not Participate" | "Limited" | "Full";
+  practiceStatus?: "Did Not Participate" | "Limited" | "Full";
   gameStatus?: "Out" | "Doubtful" | "Questionable" | "Probable";
 }
 
@@ -98,27 +88,6 @@ function extractWeekFromKeywords(keywords: string): number | null {
   return match ? Number(match[1]) : null;
 }
 
-function resolveTeamAbbr(teamNameAsWritten: string, validAbbrs: string[]): string | null {
-  const lower = teamNameAsWritten.toLowerCase();
-  for (const abbr of validAbbrs) {
-    const nickname = TEAM_NICKNAMES[abbr];
-    if (nickname && lower.includes(nickname)) return abbr;
-  }
-  return null;
-}
-
-const SYSTEM = `You extract real facts from a real NFL team's official injury/practice report article — you never invent, guess, or infer anything not explicitly stated in the text.
-
-The article's "articleBody" text lists one or more dated sections (e.g. WEDNESDAY, THURSDAY, FRIDAY), each repeating both teams' full practice report. Use ONLY the section for the MOST RECENT day present (the one that appears last in the text) — ignore earlier days entirely, since later reports supersede them.
-
-For each player explicitly listed under that most-recent day's practice-participation groups (skip any group that says "No Players Listed."), extract:
-- team: the team name exactly as written in that section's header (e.g. "New England Patriots")
-- playerName, position, injury (the injury/reason text after the dash)
-- practiceStatus: map the group heading to exactly one of "Did Not Participate", "Limited", or "Full" — "Did Not Participate"/"DNP" -> "Did Not Participate"; "Limited Participation"/"Limited Availability"/"LP" -> "Limited"; "Full Participation"/"Full Availability"/"FP" -> "Full"
-- gameStatus: ONLY if that same most-recent day's section also states an official game designation (Out/Doubtful/Questionable/Probable) for that player — omit this field entirely if none is stated, never guess one
-
-Respond with ONLY valid JSON, no markdown, no commentary: {"players": [{"team": "...", "playerName": "...", "position": "...", "injury": "...", "practiceStatus": "...", "gameStatus": "..."}]} — gameStatus omitted where not stated. Every player must be one explicitly named in the text; never add a player who isn't listed.`;
-
 async function main() {
   const nextGame = await readNextGame();
   if (!nextGame) {
@@ -149,50 +118,24 @@ async function main() {
     return;
   }
 
-  const user = `Real article text:\n\n${article.articleBody}`;
-  const result = await generateJson<{ players: ExtractedPlayer[] }>(SYSTEM, user, 2000);
-  if (!result?.players) {
-    console.warn("Claude extraction failed or returned nothing — skipping.");
+  const parsed = parseInjuryArticle(article.articleBody, [TEAM, opponent]);
+  if (!parsed) {
+    console.warn(
+      "patriots.com article didn't match the injury-report template — nothing written; nflverse/ESPN data stands alone."
+    );
     return;
   }
-
-  const validAbbrs = [TEAM, opponent];
-  // Real player names in the source text use a curly apostrophe (e.g.
-  // "Dre’Mont Jones"), but the model's JSON output can't be relied on to
-  // reproduce that exact character — normalizing both sides to a plain
-  // straight apostrophe before comparing avoids dropping a real,
-  // correctly-extracted player over a punctuation-glyph mismatch.
-  const normalizeForMatch = (s: string) => s.toLowerCase().replace(/[’‘`´]/g, "'");
-  const bodyNormalized = normalizeForMatch(article.articleBody);
-  const players: PracticeReportPlayer[] = [];
-  for (const p of result.players) {
-    // Verify against the source text before trusting anything the model
-    // returned — the same defense-in-depth already used for headline
-    // curation's id-matching, adapted here to a free-text extraction.
-    if (!p.playerName || !bodyNormalized.includes(normalizeForMatch(p.playerName))) {
-      console.warn(`Dropping "${p.playerName}" — not found verbatim in source text.`);
-      continue;
-    }
-    const team = resolveTeamAbbr(p.team, validAbbrs);
-    if (!team) {
-      console.warn(`Dropping "${p.playerName}" — team "${p.team}" didn't resolve to ${TEAM} or ${opponent}.`);
-      continue;
-    }
-    if (!["Did Not Participate", "Limited", "Full"].includes(p.practiceStatus)) {
-      console.warn(`Dropping "${p.playerName}" — invalid practiceStatus "${p.practiceStatus}".`);
-      continue;
-    }
-    players.push({
-      team,
-      playerName: p.playerName,
-      position: p.position ?? "",
-      injury: p.injury ?? "Not specified",
-      practiceStatus: p.practiceStatus,
-      ...(p.gameStatus && ["Out", "Doubtful", "Questionable", "Probable"].includes(p.gameStatus)
-        ? { gameStatus: p.gameStatus }
-        : {}),
-    });
+  if (parsed.conflicts.length > 0) {
+    console.warn(`Left out (listed twice with different statuses): ${parsed.conflicts.join(", ")}`);
   }
+  const players: PracticeReportPlayer[] = parsed.players.map((p) => ({
+    team: p.team,
+    playerName: p.playerName,
+    position: p.position,
+    injury: p.injury,
+    ...(p.practiceStatus ? { practiceStatus: p.practiceStatus } : {}),
+    ...(p.gameStatus ? { gameStatus: p.gameStatus } : {}),
+  }));
 
   const report: PracticeReport = { week, asOf: article.dateModified, players };
   await writeFile(
@@ -200,7 +143,7 @@ async function main() {
     JSON.stringify(report, null, 2)
   );
   console.log(
-    `Wrote patriots-practice-report.json (week ${week}, ${players.length} players, ${players.filter((p) => p.team === TEAM).length} ${TEAM} / ${players.filter((p) => p.team === opponent).length} ${opponent})`
+    `Wrote patriots-practice-report.json (${parsed.day}, week ${week}, ${players.length} players, ${players.filter((p) => p.team === TEAM).length} ${TEAM} / ${players.filter((p) => p.team === opponent).length} ${opponent})`
   );
 }
 

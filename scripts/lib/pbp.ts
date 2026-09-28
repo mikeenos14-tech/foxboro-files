@@ -3,7 +3,7 @@
 // or EPA model needs to be built from scratch here, only aggregated.
 
 import { num, bool01, loadCsv } from "./csv";
-import { passerId, rusherId } from "./playerIds";
+import { passerId, receiverId, rusherId } from "./playerIds";
 
 export type PbpRow = Record<string, string>;
 
@@ -237,27 +237,81 @@ export function scoringSummary(
   };
 }
 
+export type StarRole = "passing" | "rushing" | "receiving" | "defense" | "kicking" | "returns";
+
+// New England's player of the game by win probability added.
+//
+// It used to credit only passers and runners, so a receiver's 150-yard
+// day, a strip-sack or a game-winning field goal could never win it. Now
+// every New England player directly involved in a play is credited with
+// that play's WPA, from New England's side:
+//   - passer and targeted receiver each get the full play (the same way
+//     nflverse credits passing and receiving EPA to both)
+//   - runner
+//   - defender with the sack (half each on a split sack), interception or
+//     forced fumble — nflverse's wpa is the offense's, so a defensive play
+//     is credited with its sign flipped
+//   - kicker on field goals and extra points
+//   - kick and punt returner
 export function starOfGame(
   rows: PbpRow[],
   team: string
-): { playerId: string; playerName: string; wpa: number } | null {
-  const wpaByPlayer = new Map<string, { name: string; wpa: number }>();
+): { playerId: string; playerName: string; wpa: number; role: StarRole } | null {
+  const totals = new Map<string, { name: string; wpa: number; byRole: Map<StarRole, number> }>();
+  // At most once per player per play: a strip-sack names the same
+  // defender as sacker and fumble-forcer, and was counted twice.
+  let creditedThisPlay = new Set<string>();
+  const credit = (id: string | undefined, name: string | undefined, wpa: number, role: StarRole) => {
+    if (!id || id === "NA" || creditedThisPlay.has(id)) return;
+    creditedThisPlay.add(id);
+    const cur = totals.get(id) ?? { name: name || "", wpa: 0, byRole: new Map() };
+    cur.wpa += wpa;
+    cur.byRole.set(role, (cur.byRole.get(role) ?? 0) + wpa);
+    totals.set(id, cur);
+  };
+
   for (const r of rows) {
-    if (r.posteam !== team) continue;
-    const wpa = num(r.wpa);
-    if (r.play_type === "pass" && passerId(r)) {
-      const cur = wpaByPlayer.get(passerId(r)) ?? { name: r.passer || r.passer_player_name, wpa: 0 };
-      cur.wpa += wpa;
-      wpaByPlayer.set(passerId(r), cur);
-    } else if (r.play_type === "run" && rusherId(r)) {
-      const cur = wpaByPlayer.get(rusherId(r)) ?? { name: r.rusher || r.rusher_player_name, wpa: 0 };
-      cur.wpa += wpa;
-      wpaByPlayer.set(rusherId(r), cur);
+    creditedThisPlay = new Set();
+    if (r.wpa === "" || r.wpa === "NA") continue;
+    const ours = r.posteam === team ? num(r.wpa) : r.defteam === team ? -num(r.wpa) : 0;
+    if (ours === 0) continue;
+
+    if (r.posteam === team) {
+      if (r.play_type === "pass") {
+        credit(passerId(r), r.passer || r.passer_player_name, ours, "passing");
+        credit(receiverId(r), r.receiver || r.receiver_player_name, ours, "receiving");
+      } else if (r.play_type === "run") {
+        credit(rusherId(r), r.rusher || r.rusher_player_name, ours, "rushing");
+      } else if (r.play_type === "field_goal" || r.play_type === "extra_point") {
+        credit(r.kicker_player_id, r.kicker_player_name, ours, "kicking");
+      } else if (r.play_type === "kickoff") {
+        // On kickoffs nflverse's posteam is the receiving team.
+        credit(r.kickoff_returner_player_id, r.kickoff_returner_player_name, ours, "returns");
+      }
+    } else if (r.defteam === team) {
+      if (bool01(r.sack)) {
+        if (r.sack_player_id && r.sack_player_id !== "NA") {
+          credit(r.sack_player_id, r.sack_player_name, ours, "defense");
+        } else {
+          credit(r.half_sack_1_player_id, r.half_sack_1_player_name, ours / 2, "defense");
+          credit(r.half_sack_2_player_id, r.half_sack_2_player_name, ours / 2, "defense");
+        }
+      }
+      if (bool01(r.interception)) credit(r.interception_player_id, r.interception_player_name, ours, "defense");
+      if (r.forced_fumble_player_1_team === team) {
+        credit(r.forced_fumble_player_1_player_id, r.forced_fumble_player_1_player_name, ours, "defense");
+      }
+      // On punts the punting team has the ball; our returner is on defteam.
+      if (r.play_type === "punt") credit(r.punt_returner_player_id, r.punt_returner_player_name, ours, "returns");
     }
   }
-  let best: { playerId: string; playerName: string; wpa: number } | null = null;
-  for (const [playerId, { name, wpa }] of wpaByPlayer) {
-    if (!best || wpa > best.wpa) best = { playerId, playerName: name, wpa };
+
+  let best: { playerId: string; playerName: string; wpa: number; role: StarRole } | null = null;
+  for (const [playerId, { name, wpa, byRole }] of totals) {
+    if (!best || wpa > best.wpa) {
+      const role = [...byRole.entries()].sort((a, b) => b[1] - a[1])[0][0];
+      best = { playerId, playerName: name, wpa, role };
+    }
   }
   return best;
 }

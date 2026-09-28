@@ -13,5 +13,6 @@
 // prompt-leak checks and a larger response budget; 5 spells out each
 // red-zone and third-down rate against the league norm; 6 has the AI
 // write only the Take (Good/Bad/Ugly now comes from the stats) and
-// gives it the kickoff time, with a time-of-day check.
-export const AI_VERSION = 6;
+// gives it the kickoff time, with a time-of-day check; 7 follows the
+// new player of the game (receivers, defenders, kickers, returners).
+export const AI_VERSION = 7;

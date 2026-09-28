@@ -21,6 +21,7 @@ import {
   penaltyStats,
   mostPenalizedPlayer,
   loadRegularSeasonPbp,
+  type StarRole,
 } from "./lib/pbp";
 import {
   computeLeagueEpaTable,
@@ -49,6 +50,16 @@ import type {
 import { signed } from "../lib/util/format";
 
 const TEAM = "NE";
+
+// How a player of the game earned it, for the card's one-line reason.
+const ROLE_PHRASE: Record<StarRole, string> = {
+  passing: "mostly as a passer",
+  rushing: "mostly on the ground",
+  receiving: "mostly as a receiver",
+  defense: "mostly on defense",
+  kicking: "mostly as the kicker",
+  returns: "mostly on returns",
+};
 const SEASON = 2026;
 const GENERATED_DIR = path.join(process.cwd(), "data", "generated");
 
@@ -491,8 +502,8 @@ async function main() {
             headshotUrl: starHeadshot || undefined,
             reason:
               star.wpa > 0
-                ? `Led the team with ${signed(star.wpa * 100, 0)}% win probability added.`
-                : `Had the team's best (though still net-negative) win probability contribution at ${signed(star.wpa * 100, 0)}% in a tough game offensively.`,
+                ? `Led New England with ${signed(star.wpa * 100, 0)}% win probability added, ${ROLE_PHRASE[star.role]}.`
+                : `Had New England's best (though still net-negative) win probability added, ${signed(star.wpa * 100, 0)}%, ${ROLE_PHRASE[star.role]}.`,
           }
         : { playerId: "", playerName: "N/A", wpa: 0, reason: "No standout WPA leader computed." },
       scoring: { us: scoringSummary(gameRows, TEAM), them: scoringSummary(gameRows, opponent) },

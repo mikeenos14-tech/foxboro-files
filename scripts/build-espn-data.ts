@@ -561,7 +561,9 @@ async function applyPatriotsPracticeReport(
     byName.delete(normalizeName(e.playerName));
     return {
       ...e,
-      practiceStatus: match.practiceStatus,
+      // A player listed with no practice code (e.g. "Did not travel")
+      // keeps whatever status the base source had.
+      practiceStatus: match.practiceStatus ?? e.practiceStatus,
       gameStatus: match.gameStatus ?? e.gameStatus,
       lastUpdated: report.asOf,
     };
