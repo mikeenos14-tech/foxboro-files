@@ -1,15 +1,8 @@
 {
   "recap 2026_01_NE_SEA": {
-    "status": "rejected",
-    "problems": [
-      [
-        "It uses an abbreviated name (\"J. Brown\") — use the full name given."
-      ],
-      [
-        "It uses an abbreviated name (\"J. Brown\") — use the full name given."
-      ]
-    ],
-    "at": "2026-09-28T21:42:31.110Z"
+    "status": "written",
+    "problems": [],
+    "at": "2026-09-28T21:44:37.870Z"
   },
   "recap 2026_02_PIT_NE": {
     "status": "written",
@@ -23,7 +16,11 @@
   },
   "preview 2026_04_NE_BUF": {
     "status": "written",
-    "problems": [],
-    "at": "2026-09-28T21:42:42.438Z"
+    "problems": [
+      [
+        "It makes a franchise-history claim that isn't in the facts given."
+      ]
+    ],
+    "at": "2026-09-28T21:44:44.807Z"
   }
 }
