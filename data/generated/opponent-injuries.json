@@ -1,5 +1,14 @@
 [
   {
+    "playerId": "3918298",
+    "playerName": "Josh Allen",
+    "position": "QB",
+    "week": 4,
+    "injury": "Knee",
+    "gameStatus": "Questionable",
+    "lastUpdated": "2026-09-28T21:04Z"
+  },
+  {
     "playerId": "4606712",
     "playerName": "Ar'maj Reed-Adams",
     "position": "G",
