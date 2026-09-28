@@ -7,6 +7,7 @@
 //   - "Remy Stevenson" — handed "R.Stevenson", it invented a first name.
 //   - "the second-year quarterback" — Drake Maye was in his third season.
 //   - "600 wins deep in franchise history" — no such fact was given.
+//   - "Buffalo's run defense is historically bad" — off three games.
 //
 // Each check is narrow and mechanical on purpose. A general "is every
 // claim in the facts?" scanner would flag the legitimate context the
@@ -24,7 +25,7 @@ export interface GroundingContext {
 
 const HOME_PLACES = /\b(Foxboro|Foxborough|Gillette)\b/i;
 const TENURE = /\b(rookie|first|second|third|fourth|fifth|sixth|seventh|eighth|ninth|tenth|\d+(?:st|nd|rd|th))-year\b/gi;
-const FRANCHISE_HISTORY = /\b(franchise history|team history|all-time|in franchise)\b/i;
+const FRANCHISE_HISTORY = /\b(franchise history|team history|all-time|in franchise|historic|historically|record-setting)\b/i;
 const YEAR = /\b(?:19|20)\d{2}\b/g;
 // Play-by-play's own name format ("R.Stevenson", "D. Maye").
 const ABBREVIATED_NAME = /\b[A-Z]\.\s?[A-Z][a-z]+/;

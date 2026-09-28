@@ -53,3 +53,7 @@ test("clean text passes", () => {
     []
   );
 });
+
+test("catches 'historically' claims off a season-to-date sample", () => {
+  assert.equal(checkGrounding("Buffalo's run defense is historically bad.", { facts: "" }).length, 1);
+});

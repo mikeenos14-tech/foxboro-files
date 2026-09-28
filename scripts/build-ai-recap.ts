@@ -28,12 +28,36 @@ const TEAM = "NE";
 // change, so recaps written under the old prompt get rewritten. Version 2
 // added the game's location, full player names, the scoring breakdown and
 // league benchmarks — each missing fact had produced a wrong sentence.
-const AI_VERSION = 2;
+// Version 3 states each unit's owner, puts ranks and EPA into words
+// before the model sees them, and scopes player of the game to New
+// England — version 2 turned Buffalo's 87/100 pass offense into its
+// "secondary", called a 24th-ranked defense "middle-of-the-pack", read a
+// -0.36 defensive EPA as "above the neutral mark", and claimed a Patriot
+// was the best player "on either side".
+const AI_VERSION = 3;
 
 // Rough league-wide norms, so "8 of 12 third downs allowed" can't be
 // read as a good day for the defense.
 const LEAGUE_NORMS =
   "League norms for context: teams convert about 40% of third downs and score touchdowns on about 55% of red-zone trips; an EPA/play of 0.00 is exactly average (positive is good for an offense, negative is good for a defense).";
+
+// Ranks and EPA in words, so the model doesn't have to interpret the sign
+// or the scale itself — that's where version 2 went wrong.
+function rankWords(rank: number): string {
+  if (rank <= 5) return "among the NFL's best";
+  if (rank <= 12) return "above average";
+  if (rank <= 20) return "around average";
+  if (rank <= 27) return "below average";
+  return "among the NFL's worst";
+}
+
+function epaWords(epa: number, side: "offense" | "defense"): string {
+  const good = side === "offense" ? epa > 0 : epa < 0;
+  const size = Math.abs(epa);
+  const degree = size < 0.05 ? "about average" : size < 0.15 ? "better than average" : "much better than average";
+  if (degree === "about average") return "about average";
+  return good ? degree : degree.replace("better", "worse");
+}
 
 function scoringLine(team: string, s: { td: number; fg: number; safety: number }): string {
   const parts = [`${s.td} TD`, `${s.fg} FG`];
@@ -97,9 +121,9 @@ async function buildRecapContent() {
     const user = `Final score: New England ${usScore}, ${opponent} ${themScore} (${usScore > themScore ? "Patriots win" : usScore === themScore ? "tie" : "Patriots loss"}).
 Location: ${isHome ? `a home game for New England, at ${row.venue || "Gillette Stadium"} in Foxborough` : `a road game — New England played at ${opponent}${row.venue ? `, ${row.venue}` : ""}. It was NOT in Foxborough`}.
 How the points were scored — ${recap.scoring ? `${scoringLine("New England", recap.scoring.us)}; ${scoringLine(opponent, recap.scoring.them)}` : "not available, so don't describe it"}.
-Real computed stats: offensive EPA/play ${recap.epaPerPlay.offense.toFixed(2)}, defensive EPA/play allowed ${recap.epaPerPlay.defense.toFixed(2)}, turnover margin ${recap.turnoverMargin}, red zone offense ${recap.redZone.offense.td} TDs on ${recap.redZone.offense.att} trips, red zone defense allowed ${recap.redZone.defense.td} TDs on ${recap.redZone.defense.att} trips, third down offense ${recap.thirdDown.offense.conv}/${recap.thirdDown.offense.att}, third downs allowed ${recap.thirdDown.defense.conv}/${recap.thirdDown.defense.att}.
+Real computed stats: offensive EPA/play ${recap.epaPerPlay.offense.toFixed(2)} (${epaWords(recap.epaPerPlay.offense, "offense")}), defensive EPA/play allowed ${recap.epaPerPlay.defense.toFixed(2)} (${epaWords(recap.epaPerPlay.defense, "defense")} — for a defense, negative is good), turnover margin ${recap.turnoverMargin}, red zone offense ${recap.redZone.offense.td} TDs on ${recap.redZone.offense.att} trips, red zone defense allowed ${recap.redZone.defense.td} TDs on ${recap.redZone.defense.att} trips, third down offense ${recap.thirdDown.offense.conv}/${recap.thirdDown.offense.att}, third downs allowed ${recap.thirdDown.defense.conv}/${recap.thirdDown.defense.att}.
 ${LEAGUE_NORMS}
-Player of the game (by win probability added): ${star.playerName}, ${(star.wpa * 100).toFixed(0)}% WPA. Refer to players by the full names given here or in the articles, never a guessed first name.
+New England's player of the game (by win probability added, among New England players only — no opponent players were measured, so don't compare him to them): ${star.playerName}, ${(star.wpa * 100).toFixed(0)}% WPA. Refer to players by the full names given here or in the articles, never a guessed first name.
 
 Real articles about this game:
 ${formatArticles(articles)}
@@ -151,9 +175,9 @@ async function buildPreviewContent() {
   const formGames = (side: { gamesPlayed: number }) => Math.min(3, side.gamesPlayed);
 
   const user = `Upcoming game: New England ${isHome ? `hosts ${matchup.opponent} at ${nextGame.venue || "Gillette Stadium"} in Foxborough` : `plays at ${matchup.opponent}, ${nextGame.venue || "on the road"} — a road game, NOT in Foxborough`}, Week ${nextGame.week}, ${nextGame.date}.
-Opponent league ranks by EPA/play (1 = best of 32): offense ${matchup.opponentEpaRank.offense} of 32, defense ${matchup.opponentEpaRank.defense} of 32.
+${matchup.opponent}'s league ranks by EPA/play (1 = best of 32): offense ${matchup.opponentEpaRank.offense} of 32 (${rankWords(matchup.opponentEpaRank.offense)}), defense ${matchup.opponentEpaRank.defense} of 32 (${rankWords(matchup.opponentEpaRank.defense)}).
 Unit grades — IMPORTANT: these are 0-100 scores where 100 is the best in the NFL and 0 the worst. They are NOT ranks; a grade of 6 means near the bottom of the league.
-${matchup.positionGroupMatchups.map((m) => `- ${m.group}: New England ${formatGrade(m.ourGrade)} (${gradeWords(m.ourGrade)}), ${matchup.opponent} ${formatGrade(m.theirGrade)} (${gradeWords(m.theirGrade)})`).join("\n")}
+${matchup.positionGroupMatchups.map((m) => { const [ours, theirs] = m.group.toLowerCase().split(" vs. "); return `- New England's ${ours} ${formatGrade(m.ourGrade)} (${gradeWords(m.ourGrade)}) vs. ${matchup.opponent}'s ${theirs} ${formatGrade(m.theirGrade)} (${gradeWords(m.theirGrade)})`; }).join("\n")}
 Matchup of the week: ${matchup.matchupOfTheWeek.title} — ${matchup.matchupOfTheWeek.description}
 Recent form (net EPA/play, positive is good): New England ${matchup.recentForm.us.last3EpaPerPlay.toFixed(2)} over its last ${formGames(matchup.recentForm.us)} games, ${matchup.opponent} ${matchup.recentForm.them.last3EpaPerPlay.toFixed(2)} over its last ${formGames(matchup.recentForm.them)}.
 Head-to-head, last ${matchup.headToHead.length} meetings (New England ${h2hWins}-${h2hLosses} in them): ${matchup.headToHead.map((h) => `${h.season}: ${h.result} ${h.score}`).join(", ") || "none on record"}
