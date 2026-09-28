@@ -6,7 +6,8 @@ A page-by-page rundown of what's actually live on the site (foxboro-files.vercel
 
 - Team identity header: record, division rank, playoff odds (with a probability bar), last/next game mini-cards.
 - One-sentence season-snapshot banner (record, streak, point differential).
-- Team Strength vs. League: point differential, offensive/defensive EPA/play — all ranked and opponent-adjusted.
+- Team Strength vs. League: point differential, offensive/defensive EPA/play — all ranked and opponent-adjusted, with a Last Game / 2025 Season filter.
+- Unit grade chips — each opens that unit's ranking across all 32 teams.
 - AFC East division standings table.
 - Latest headlines feed.
 
@@ -18,26 +19,28 @@ A page-by-page rundown of what's actually live on the site (foxboro-files.vercel
   - AI-written "The Take" — grounded fan-voice recap.
   - Win-probability chart across the full game.
   - Advanced Stats: EPA/play, turnover margin, explosive-play rate, red zone and 3rd-down splits (offense and defense).
-  - Player of the Game (by win probability added).
-  - Good/Bad/Ugly breakdown.
+  - Player of the Game — New England's leader in win probability added, crediting passers, receivers, runners, defenders, kickers and returners.
+  - Good/Bad/Ugly breakdown, built from the stats against league norms.
+  - AI-written "Take" (checked in code before it's published), with a "Flag it" link.
+  - Tap turnovers, explosive plays, red zone, third downs or Player of the Game to see the plays behind the number.
 
 ## Next Game
 
 - Matchup hero: live countdown, weather, spread.
-- "Make the Call" score predictor.
 - Tabbed:
   - **Preview** — AI-written preview take, opponent offensive/defensive EPA rank, Matchup of the Week callout.
   - **Matchups** — 5 position-group grades (pass/rush offense vs. defense, pass protection vs. rush), opponent-adjusted and blended with real 2025 prior-season data; recent form; head-to-head history.
-  - **Injuries** — both teams side by side: the official report once it's out (with patriots.com's same-day practice status), otherwise only designations made since each team's last game — never last week's list or healthy scratches.
+  - **Injuries** — both teams side by side: the official report once it's out (with patriots.com's same-day practice status, parsed in code), otherwise only designations made since each team's last game — never last week's list or healthy scratches.
+- "Make the Call" score predictor, below the tabs.
 
 ## Schedule
 
 - Full season table with a remaining-schedule snapshot banner.
-- Opponent record, opponent EPA rank, opponent's own strength of schedule, result/win probability per game.
+- Opponent record, opponent EPA rank, result/win chance per game; fits a phone without sideways scrolling.
 
 ## News
 
-- AI-written beat-writer digest.
+- AI-written beat-writer digest, with a "Flag it" link.
 - Injury report.
 - Merged news feed (ESPN + the Patriots' own RSS feed).
 
@@ -45,8 +48,9 @@ A page-by-page rundown of what's actually live on the site (foxboro-files.vercel
 
 Tabbed:
 - **QB** — official box score (matches nflverse and Next Gen Stats exactly), CPOE, turnover-worthy rate, EPA when hit or sacked vs. not, accuracy by depth, ranked against the other 31 starting QBs, plus Next Gen Stats time to throw and tight-window throws; head-to-head comparison tool against any other starter.
-- **Grades** — 8 units graded out of 100 vs. the league with a visual bar and trend arrow, each showing its real box-score stat line and flagging thin samples.
-- **Splits & Special Teams** — situational splits, kicking/return stats.
+- **Leaders** — receiving, rushing and defensive leaders, with Next Gen Stats separation and rush yards over expected; tap a player to see every play behind his line.
+- **Grades** — 8 units graded out of 100 vs. the league with a visual bar and trend arrow, each showing its real box-score stat line and flagging thin samples; each links to all 32 teams' ranking.
+- **Splits** — situational splits, kicking/return stats and penalties; red zone, third downs, the two-minute drill, field goals and penalties each open the season's plays.
 - **Depth Chart** — the team's own, via ESPN, by offense, defense and special teams.
 
 ## Around the League

@@ -16,9 +16,10 @@ and public endpoints.
 ## What it does
 
 Eight pages covering team strength, per-game recaps, the upcoming matchup, schedule,
-roster and position grades, a quarterback deep dive, league-wide standings, and news.
-Everything is graded as a **percentile against the other 31 teams**, because "−0.15
-EPA/play" means nothing to most people and "26th in the league" means everything.
+roster and position grades, a quarterback deep dive, league-wide standings and every
+team's unit grades, and news. Units are **graded out of 100 against the other 31 teams**
+and ranks read "26th of 32", because "−0.15 EPA/play" means nothing to most people and
+"26th in the league" means everything. Tap a stat and it lists the plays behind it.
 
 Three things drive most of the value:
 
@@ -77,10 +78,23 @@ reception was attributed to nobody; fumbles *lost* were counted instead of fumbl
 every QB scramble in the league was silently dropped, because nflverse leaves
 `rusher_id` empty on those rows and only populates `rusher_player_id`.
 
-`scripts/verify-data.ts` now diffs the site's rushing, receiving, passing and defensive
-numbers against **nflverse's own independent aggregation of the same games**, alongside cross-file assertions (team EPA
-must match the league rankings file to 1e-9; no fabricated position card may exist). CI
-gates on it. It caught a fourth discrepancy within a minute of being written.
+`scripts/verify-data.ts` now diffs the site's rushing, receiving, passing, defensive and
+kicking numbers against **nflverse's own independent aggregation of the same games** (QB
+lines also against Next Gen Stats), alongside cross-file assertions (team EPA must match
+the league rankings file to 1e-9; no fabricated position card may exist) and a check that
+every "see the plays" list matches the number it opens from. CI gates on it. It caught a
+fourth discrepancy within a minute of being written, and later a fifth: every QB's box
+score counted sacks as pass attempts.
+
+### AI text is checked, not trusted
+
+The AI writes three things — a recap's short Take, the game preview, and the news digest —
+from facts handed to it. Every draft passes narrow checks in code
+(`scripts/lib/aiChecks.ts`), each added because that exact error shipped (a road game
+placed in Foxborough, an invented first name, a wrong month). A draft that fails twice
+isn't published, every attempt is logged to `data/generated/ai-diagnostics*.json`, and
+each AI block has a "Flag it" link. Everything else, including recap bullets and the
+injury report, is computed in code.
 
 ---
 
