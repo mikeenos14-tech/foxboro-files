@@ -9,6 +9,15 @@
     "sourceName": "ESPN"
   },
   {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/sunday-night-football-broncos-complete-comeback-defeat-rams-30-26",
+    "publishedAt": "2026-09-28T04:13:31.000Z",
+    "type": "Analysis",
+    "headline": "Sunday Night Football: Broncos complete comeback, defeat Rams 30-26",
+    "summary": "Los Angeles was in it until the last play, but Denver was able to hang on for the team's second victory of the season.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/sunday-night-football-broncos-complete-comeback-defeat-rams-30-26",
+    "sourceName": "Pro Football Talk"
+  },
+  {
     "id": "50049488",
     "publishedAt": "2026-09-28T03:12:16Z",
     "type": "Analysis",
@@ -18,12 +27,12 @@
     "sourceName": "ESPN"
   },
   {
-    "id": "50049442",
-    "publishedAt": "2026-09-28T04:50:14Z",
+    "id": "50048293",
+    "publishedAt": "2026-09-28T01:38:35Z",
     "type": "Analysis",
-    "headline": "Raiders' Brock Bowers shines in return from knee procedure",
-    "summary": "Brock Bowers showed no rust in his regular-season debut Sunday after undergoing a meniscus procedure, finishing with 10 catches for 116 yards and a TD.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50049442/raiders-brock-bowers-shines-return-knee-procedure",
+    "headline": "Kirk Cousins passes for 3 TDs and the unbeaten Raiders come back to top the Saints 35-27",
+    "summary": "— It took the Las Vegas Raiders an entire season to accumulate three victories in 2025.",
+    "sourceUrl": "http://www.espn.com/nfl/recap?gameId=401872961",
     "sourceName": "ESPN"
   },
   {
@@ -43,14 +52,5 @@
     "summary": "After today’s loss to the Vikings, Buccaneers head coach Todd Bowles told the media that quarterback Baker Mayfield suffered a dislocated thumb on his throwing hand, per Greg Auman of FOX Sports. Mayfield will have an MRI scan performed tomorrow, but the veteran passer is expected to miss time as a result of the injury. […]",
     "sourceUrl": "https://www.profootballrumors.com/2026/09/buccaneers-qb-baker-mayfield-suffers-dislocated-thumb",
     "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "50048293",
-    "publishedAt": "2026-09-28T01:38:35Z",
-    "type": "Analysis",
-    "headline": "Kirk Cousins passes for 3 TDs and the unbeaten Raiders come back to top the Saints 35-27",
-    "summary": "— It took the Las Vegas Raiders an entire season to accumulate three victories in 2025.",
-    "sourceUrl": "http://www.espn.com/nfl/recap?gameId=401872961",
-    "sourceName": "ESPN"
   }
 ]
