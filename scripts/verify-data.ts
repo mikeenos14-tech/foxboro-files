@@ -16,7 +16,7 @@
 import { readFile } from "node:fs/promises";
 import path from "node:path";
 import { loadCsv } from "./lib/csv";
-import type { GamePlays, GameRecap, LeaderPlays, TeamLeaderboards } from "../lib/data/types";
+import type { GamePlays, GameRecap, LeaderPlays, SplitPlays, TeamLeaderboards } from "../lib/data/types";
 
 const GENERATED_DIR = path.join(process.cwd(), "data", "generated");
 const GENERATED = GENERATED_DIR;
@@ -116,6 +116,55 @@ export async function verifyData(): Promise<string[]> {
   return failures;
 }
 
+// The Splits tab's lists against its numbers (season to date).
+async function checkSplitPlays(): Promise<string[]> {
+  const failures: string[] = [];
+  const sp = await readGenerated<SplitPlays>("split-plays.json").catch(() => null);
+  if (!sp) return ["split-plays.json is missing"];
+  const t = await readGenerated<{
+    redZonePct: { offense: { value: number }; defense: { value: number } };
+    thirdDownPct: { offense: { value: number }; defense: { value: number } };
+    twoMinuteDrillEpa: { offense: { value: number }; defense: { value: number } };
+    specialTeams: { fieldGoalPct: { value: number } };
+    discipline: { penaltiesCommitted: { value: number }; penaltyYardsCommitted: { value: number } };
+  }>("team-stats.json");
+  const near = (a: number, b: number) => Math.abs(a - b) < 1e-9;
+  const L = sp.lists;
+  for (const [side, prefix, value] of [
+    ["offense", "New England", t.redZonePct.offense.value],
+    ["defense", "Opponent", t.redZonePct.defense.value],
+  ] as const) {
+    const trips = L.redZone.filter((g) => g.heading.startsWith(prefix));
+    const rate = trips.length === 0 ? 0 : trips.filter((g) => g.heading.endsWith("· Touchdown")).length / trips.length;
+    if (!near(rate, value)) failures.push(`split plays: ${side} red zone lists ${(rate * 100).toFixed(1)}%, Splits says ${(value * 100).toFixed(1)}%`);
+  }
+  L.thirdDown.forEach((g, i) => {
+    const value = i === 0 ? t.thirdDownPct.offense.value : t.thirdDownPct.defense.value;
+    const rate = g.entries.length === 0 ? 0 : g.entries.filter((e) => e.badge === "Converted").length / g.entries.length;
+    if (!near(rate, value)) failures.push(`split plays: third downs (${i === 0 ? "offense" : "defense"}) list ${(rate * 100).toFixed(1)}%, Splits says ${(value * 100).toFixed(1)}%`);
+  });
+  L.twoMinute.forEach((g, i) => {
+    // The Splits number is each side's EPA from the offense's view;
+    // records carry New England's view, so the defensive side flips.
+    const sign = i === 0 ? 1 : -1;
+    const value = i === 0 ? t.twoMinuteDrillEpa.offense.value : t.twoMinuteDrillEpa.defense.value;
+    const mean = g.entries.length === 0 ? 0 : g.entries.reduce((s, e) => s + sign * (sp.plays[e.key]?.neEpa ?? 0), 0) / g.entries.length;
+    if (!near(mean, value)) failures.push(`split plays: two-minute ${i === 0 ? "offense" : "defense"} lists ${mean.toFixed(3)} EPA, Splits says ${value.toFixed(3)}`);
+  });
+  const fg = L.fieldGoals[0]?.entries ?? [];
+  const fgRate = fg.length === 0 ? 0 : fg.filter((e) => e.tone === "good").length / fg.length;
+  if (!near(fgRate, t.specialTeams.fieldGoalPct.value)) failures.push(`split plays: field goals list ${(fgRate * 100).toFixed(1)}%, Splits says ${(t.specialTeams.fieldGoalPct.value * 100).toFixed(1)}%`);
+  const pen = L.penalties[0]?.entries ?? [];
+  const penYards = pen.reduce((s, e) => s + Number((e.badge ?? "0").split(" ")[0]), 0);
+  if (pen.length !== t.discipline.penaltiesCommitted.value || penYards !== t.discipline.penaltyYardsCommitted.value) {
+    failures.push(`split plays: penalties list ${pen.length} for ${penYards} yds, Splits says ${t.discipline.penaltiesCommitted.value} for ${t.discipline.penaltyYardsCommitted.value}`);
+  }
+  for (const groups of Object.values(L)) for (const g of groups) for (const e of g.entries) {
+    if (!sp.plays[e.key]) failures.push(`split plays: ${e.key} has no play record`);
+  }
+  return failures;
+}
+
 // "See the plays": every list must match the number on the card it opens
 // from — the whole promise of the feature. They're built from the same
 // selectors, so this should never fire; it's here so a future change to
@@ -175,6 +224,8 @@ async function checkPlayLists(): Promise<string[]> {
       }
     }
   }
+
+  failures.push(...(await checkSplitPlays()));
 
   const lp = await readGenerated<LeaderPlays>("leader-plays.json").catch(() => null);
   const boards = await readGenerated<TeamLeaderboards>("leaderboards.json");

@@ -22,6 +22,9 @@ import {
   mostPenalizedPlayer,
   loadRegularSeasonPbp,
   thirdDownPlays,
+  twoMinutePlays,
+  fieldGoalAttempts,
+  penaltyPlays,
   redZoneTrips,
   turnoverPlays,
   explosivePlays,
@@ -53,6 +56,7 @@ import type {
   GameRecap,
   GamePlays,
   PlayGroup,
+  SplitPlays,
   ScheduleRow,
   TeamStatSnapshot,
 } from "../lib/data/types";
@@ -152,6 +156,77 @@ function buildGamePlays(
     scrimmagePlays: {
       offense: offenseStats(gameRows, TEAM).plays,
       defense: defenseStats(gameRows, TEAM).plays,
+    },
+  };
+}
+
+// The Splits tab's season plays — same selectors as its numbers, checked
+// by verify-data.ts.
+function buildSplitPlays(pbp: PbpRow[]): SplitPlays {
+  const collect = new PlayCollector(TEAM);
+  const entry = (r: PbpRow, badge?: string, tone?: "good" | "bad") => ({ key: collect.add(r), badge, tone });
+  const opponentOf = (r: PbpRow) => (r.home_team === TEAM ? r.away_team : r.home_team);
+
+  const trips = (side: "posteam" | "defteam"): PlayGroup[] => {
+    const us = side === "posteam";
+    const all = redZoneTrips(pbp, TEAM, side);
+    return all.map((t) => {
+      const first = t.plays[0];
+      return {
+        heading: `${us ? "New England" : "Opponent"} · Wk ${first ? num(first.week) : "?"} vs ${first ? opponentOf(first) : "?"} · ${DRIVE_RESULT[t.result] ?? t.result}`,
+        entries: t.plays.map((r) =>
+          bool01(r.touchdown) && r.td_team === r.posteam ? entry(r, "Touchdown", us ? "good" : "bad") : entry(r)
+        ),
+      };
+    });
+  };
+
+  const third = (side: "posteam" | "defteam"): PlayGroup => {
+    const plays = thirdDownPlays(pbp, TEAM, side);
+    const us = side === "posteam";
+    const conv = plays.filter((r) => bool01(r.third_down_converted)).length;
+    return {
+      heading: `${us ? "New England" : "Opponents"} on third down — ${conv} of ${plays.length} converted`,
+      entries: plays.map((r) =>
+        bool01(r.third_down_converted) ? entry(r, "Converted", us ? "good" : "bad") : entry(r, "Stopped", us ? "bad" : "good")
+      ),
+    };
+  };
+
+  const twoMin = (side: "posteam" | "defteam"): PlayGroup => {
+    const plays = twoMinutePlays(pbp, TEAM, side);
+    return {
+      heading: `${side === "posteam" ? "New England offense" : "New England defense"} in the last two minutes of a half (${plays.length} plays)`,
+      entries: plays.map((r) => entry(r)),
+    };
+  };
+
+  const kicks = fieldGoalAttempts(pbp, TEAM);
+  const made = kicks.filter((r) => r.field_goal_result === "made").length;
+  const penalties = penaltyPlays(pbp, TEAM);
+
+  return {
+    plays: collect.plays,
+    lists: {
+      redZone: [...trips("posteam"), ...trips("defteam")],
+      thirdDown: [third("posteam"), third("defteam")],
+      twoMinute: [twoMin("posteam"), twoMin("defteam")],
+      fieldGoals: [
+        {
+          heading: `Field goal attempts — ${made} of ${kicks.length} made`,
+          entries: kicks.map((r) =>
+            r.field_goal_result === "made"
+              ? entry(r, `Good from ${num(r.kick_distance)}`, "good")
+              : entry(r, `${r.field_goal_result === "blocked" ? "Blocked" : "No good"} from ${num(r.kick_distance)}`, "bad")
+          ),
+        },
+      ],
+      penalties: [
+        {
+          heading: `Penalties on New England (${penalties.length})`,
+          entries: penalties.map((r) => entry(r, `${num(r.penalty_yards)} yds`, "bad")),
+        },
+      ],
     },
   };
 }
@@ -444,14 +519,12 @@ async function main() {
     return td.att === 0 ? 0 : td.conv / td.att;
   };
   const twoMinEpa = (t: string, side: "posteam" | "defteam") => {
-    const rows = pbp.filter(
-      (r) => r[side] === t && (r.play_type === "pass" || r.play_type === "run") && num(r.half_seconds_remaining, 999) <= 120
-    );
+    const rows = twoMinutePlays(pbp, t, side);
     if (rows.length === 0) return 0;
     return rows.reduce((sum, r) => sum + num(r.epa), 0) / rows.length;
   };
   const fgPct = (t: string) => {
-    const attempts = pbp.filter((r) => r.posteam === t && r.play_type === "field_goal");
+    const attempts = fieldGoalAttempts(pbp, t);
     if (attempts.length === 0) return 0;
     return attempts.filter((r) => r.field_goal_result === "made").length / attempts.length;
   };
@@ -563,6 +636,7 @@ async function main() {
     path.join(GENERATED_DIR, "team-stats.json"),
     JSON.stringify(teamStats, null, 2)
   );
+  await writeFile(path.join(GENERATED_DIR, "split-plays.json"), JSON.stringify(buildSplitPlays(pbp), null, 2));
 
   // ---------- Recap for every completed game ----------
   // Rebuilt for all of them, not just the latest: it's cheap and

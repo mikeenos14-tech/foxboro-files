@@ -16,6 +16,7 @@ import type {
   GameRecap,
   GamePlays,
   LeaderPlays,
+  SplitPlays,
   InjuryReportEntry,
   LeagueDivisionGroup,
   LeagueEpaRanking,
@@ -123,6 +124,10 @@ export async function getGamePlays(gameId: string): Promise<GamePlays | null> {
 
 export async function getLeaderPlays(): Promise<LeaderPlays | null> {
   return readGenerated<LeaderPlays>("leader-plays.json");
+}
+
+export async function getSplitPlays(): Promise<SplitPlays | null> {
+  return readGenerated<SplitPlays>("split-plays.json");
 }
 
 export async function getTeamStats(): Promise<TeamStatSnapshot> {

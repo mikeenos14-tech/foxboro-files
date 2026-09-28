@@ -7,6 +7,8 @@ export interface StatListRow {
   format: (value: number) => string;
   /** Optional trailing context, e.g. the most-penalized player. */
   note?: string;
+  /** Optional "see the plays" link under the label. */
+  plays?: React.ReactNode;
 }
 
 const tierText: Record<ReturnType<typeof rankTier>, string> = {
@@ -32,6 +34,7 @@ export function StatListTable({ rows }: { rows: StatListRow[] }) {
                 <th scope="row" className="px-3 py-3 text-left font-normal text-muted sm:px-4">
                   {row.label}
                   {row.note && <span className="ml-2 text-xs text-muted/80">{" "}{row.note}</span>}
+                  {row.plays}
                 </th>
                 <td className="px-3 py-3 text-right sm:px-4">
                   <span className="font-display text-lg font-semibold tabular-nums text-foreground">

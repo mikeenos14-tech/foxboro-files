@@ -528,3 +528,14 @@ export interface LeaderPlays {
   /** Keyed "receiving:<playerId>", "rushing:<playerId>", "defense:<playerId>". */
   byPlayer: Record<string, PlayGroup>;
 }
+
+export interface SplitPlays {
+  plays: Record<string, PlayRecord>;
+  lists: {
+    redZone: PlayGroup[];
+    thirdDown: PlayGroup[];
+    twoMinute: PlayGroup[];
+    fieldGoals: PlayGroup[];
+    penalties: PlayGroup[];
+  };
+}

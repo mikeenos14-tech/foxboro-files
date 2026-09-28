@@ -1,5 +1,6 @@
 import type { TeamStatSnapshot } from "@/lib/data/types";
 import { formatPercent } from "@/lib/util/format";
+import { SplitPlaysLink } from "@/components/plays/SplitPlaysLink";
 
 export function SituationalSplitsTable({
   stats,
@@ -9,16 +10,19 @@ export function SituationalSplitsTable({
   const rows = [
     {
       label: "Red Zone TD%",
+      plays: <SplitPlaysLink list="redZone" title="Red-zone trips this season" />,
       offense: formatPercent(stats.redZonePct.offense.value),
       defense: formatPercent(stats.redZonePct.defense.value),
     },
     {
       label: "3rd Down Conv%",
+      plays: <SplitPlaysLink list="thirdDown" title="Third downs this season" />,
       offense: formatPercent(stats.thirdDownPct.offense.value),
       defense: formatPercent(stats.thirdDownPct.defense.value),
     },
     {
       label: "2-Min Drill EPA",
+      plays: <SplitPlaysLink list="twoMinute" title="Last two minutes of each half" />,
       offense: stats.twoMinuteDrillEpa.offense.value.toFixed(2),
       defense: stats.twoMinuteDrillEpa.defense.value.toFixed(2),
     },
@@ -37,7 +41,10 @@ export function SituationalSplitsTable({
         <tbody>
           {rows.map((r) => (
             <tr key={r.label} className="border-b border-border last:border-0">
-              <td className="px-3 py-2 font-medium">{r.label}</td>
+              <td className="px-3 py-2 font-medium">
+                {r.label}
+                {r.plays}
+              </td>
               <td className="px-3 py-2">{r.offense}</td>
               <td className="px-3 py-2">{r.defense}</td>
             </tr>

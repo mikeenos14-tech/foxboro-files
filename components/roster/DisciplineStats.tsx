@@ -1,5 +1,6 @@
 import type { TeamStatSnapshot } from "@/lib/data/types";
 import { StatListTable } from "@/components/shared/StatListTable";
+import { SplitPlaysLink } from "@/components/plays/SplitPlaysLink";
 
 // Fewer penalties is better, which StatListTable's rank colouring already
 // reflects — leagueRank is computed with that direction baked in, so rank
@@ -15,6 +16,7 @@ export function DisciplineStats({ discipline }: { discipline: TeamStatSnapshot["
           note: discipline.mostPenalized
             ? `most: ${discipline.mostPenalized.playerName} (${discipline.mostPenalized.count})`
             : undefined,
+          plays: <SplitPlaysLink list="penalties" title="Penalties on New England" />,
         },
         {
           label: "Penalty yards",

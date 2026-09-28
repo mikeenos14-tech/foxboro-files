@@ -366,8 +366,23 @@ export function starOfGame(
 // disciplined is this team" as its own real number doesn't). penalty_team
 // is the team that committed the penalty, whichever side of the ball they
 // were on — confirmed against real data.
+export function penaltyPlays(rows: PbpRow[], team: string): PbpRow[] {
+  return rows.filter((r) => bool01(r.penalty) && r.penalty_team === team);
+}
+
+// Scrimmage plays inside the last two minutes of either half.
+export function twoMinutePlays(rows: PbpRow[], team: string, side: "posteam" | "defteam"): PbpRow[] {
+  return rows.filter(
+    (r) => r[side] === team && (r.play_type === "pass" || r.play_type === "run") && num(r.half_seconds_remaining, 999) <= 120
+  );
+}
+
+export function fieldGoalAttempts(rows: PbpRow[], team: string): PbpRow[] {
+  return rows.filter((r) => r.posteam === team && r.play_type === "field_goal");
+}
+
 export function penaltyStats(rows: PbpRow[], team: string): { count: number; yards: number } {
-  const penalties = rows.filter((r) => bool01(r.penalty) && r.penalty_team === team);
+  const penalties = penaltyPlays(rows, team);
   return {
     count: penalties.length,
     yards: penalties.reduce((sum, r) => sum + num(r.penalty_yards), 0),
