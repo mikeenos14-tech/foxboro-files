@@ -19,7 +19,8 @@
     "ourScore": 10,
     "theirScore": 13,
     "date": "2026-09-09",
-    "venue": "Lumen Field"
+    "venue": "Lumen Field",
+    "kickoffTimeEt": "20:20"
   },
   {
     "gameId": "2026_02_PIT_NE",
@@ -41,7 +42,8 @@
     "ourScore": 20,
     "theirScore": 3,
     "date": "2026-09-20",
-    "venue": "Gillette Stadium"
+    "venue": "Gillette Stadium",
+    "kickoffTimeEt": "13:00"
   },
   {
     "gameId": "2026_03_NE_JAX",
@@ -63,7 +65,8 @@
     "ourScore": 6,
     "theirScore": 35,
     "date": "2026-09-27",
-    "venue": "EverBank Stadium"
+    "venue": "EverBank Stadium",
+    "kickoffTimeEt": "13:00"
   },
   {
     "gameId": "2026_04_NE_BUF",
@@ -83,7 +86,8 @@
     "isConference": true,
     "winProbabilityEstimate": 0.31228661480955594,
     "date": "2026-10-04",
-    "venue": "Highmark Stadium"
+    "venue": "Highmark Stadium",
+    "kickoffTimeEt": "13:00"
   },
   {
     "gameId": "2026_05_LV_NE",
@@ -103,7 +107,8 @@
     "isConference": true,
     "winProbabilityEstimate": 0.4793544879628843,
     "date": "2026-10-11",
-    "venue": "Gillette Stadium"
+    "venue": "Gillette Stadium",
+    "kickoffTimeEt": "13:00"
   },
   {
     "gameId": "2026_06_NYJ_NE",
@@ -123,7 +128,8 @@
     "isConference": true,
     "winProbabilityEstimate": 0.5571214106276672,
     "date": "2026-10-18",
-    "venue": "Gillette Stadium"
+    "venue": "Gillette Stadium",
+    "kickoffTimeEt": "13:00"
   },
   {
     "gameId": "2026_07_NE_CHI",
@@ -143,7 +149,8 @@
     "isConference": false,
     "winProbabilityEstimate": 0.3562550789843832,
     "date": "2026-10-22",
-    "venue": "Soldier Field"
+    "venue": "Soldier Field",
+    "kickoffTimeEt": "20:15"
   },
   {
     "gameId": "2026_08_NE_MIA",
@@ -163,7 +170,8 @@
     "isConference": true,
     "winProbabilityEstimate": 0.7009910640332145,
     "date": "2026-11-01",
-    "venue": "Hard Rock Stadium"
+    "venue": "Hard Rock Stadium",
+    "kickoffTimeEt": "16:25"
   },
   {
     "gameId": "2026_09_GB_NE",
@@ -183,7 +191,8 @@
     "isConference": false,
     "winProbabilityEstimate": 0.6774759552690358,
     "date": "2026-11-08",
-    "venue": "Gillette Stadium"
+    "venue": "Gillette Stadium",
+    "kickoffTimeEt": "16:25"
   },
   {
     "gameId": "2026_10_NE_DET",
@@ -203,7 +212,8 @@
     "isConference": false,
     "winProbabilityEstimate": 0.43981919271253905,
     "date": "2026-11-15",
-    "venue": "FC Bayern Munich Stadium"
+    "venue": "FC Bayern Munich Stadium",
+    "kickoffTimeEt": "09:30"
   },
   {
     "gameId": "2026_12_NE_LAC",
@@ -223,7 +233,8 @@
     "isConference": true,
     "winProbabilityEstimate": 0.6285081805867659,
     "date": "2026-11-29",
-    "venue": "SoFi Stadium"
+    "venue": "SoFi Stadium",
+    "kickoffTimeEt": "20:20"
   },
   {
     "gameId": "2026_13_BUF_NE",
@@ -243,7 +254,8 @@
     "isConference": true,
     "winProbabilityEstimate": 0.36781163224931024,
     "date": "2026-12-06",
-    "venue": "Gillette Stadium"
+    "venue": "Gillette Stadium",
+    "kickoffTimeEt": "16:25"
   },
   {
     "gameId": "2026_14_MIN_NE",
@@ -263,7 +275,8 @@
     "isConference": false,
     "winProbabilityEstimate": 0.4838096372637648,
     "date": "2026-12-10",
-    "venue": "Gillette Stadium"
+    "venue": "Gillette Stadium",
+    "kickoffTimeEt": "20:15"
   },
   {
     "gameId": "2026_15_NE_KC",
@@ -283,7 +296,8 @@
     "isConference": true,
     "winProbabilityEstimate": 0.25196014329425986,
     "date": "2026-12-21",
-    "venue": "GEHA Field at Arrowhead Stadium"
+    "venue": "GEHA Field at Arrowhead Stadium",
+    "kickoffTimeEt": "20:15"
   },
   {
     "gameId": "2026_16_NE_NYJ",
@@ -303,7 +317,8 @@
     "isConference": true,
     "winProbabilityEstimate": 0.5071214106276671,
     "date": "2026-12-27",
-    "venue": "MetLife Stadium"
+    "venue": "MetLife Stadium",
+    "kickoffTimeEt": "13:00"
   },
   {
     "gameId": "2026_17_DEN_NE",
@@ -323,7 +338,8 @@
     "isConference": true,
     "winProbabilityEstimate": 0.5095640928741012,
     "date": "2027-01-03",
-    "venue": "Gillette Stadium"
+    "venue": "Gillette Stadium",
+    "kickoffTimeEt": "13:00"
   },
   {
     "gameId": "2026_18_MIA_NE",
@@ -343,6 +359,7 @@
     "isConference": true,
     "winProbabilityEstimate": 0.7509910640332146,
     "date": "2027-01-10",
-    "venue": "Gillette Stadium"
+    "venue": "Gillette Stadium",
+    "kickoffTimeEt": "13:00"
   }
 ]

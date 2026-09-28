@@ -184,15 +184,14 @@
   ],
   "goodBadUgly": {
     "good": [
-      "Rhamondre Stevenson was the bright spot for New England, generating 7% win probability added as the game's most impactful Patriot.",
-      "Marcus Jones recorded his first interception of the season, a small defensive win in an otherwise punishing afternoon."
+      "Rhamondre Stevenson led New England with +7% win probability added."
     ],
     "bad": [
-      "Drake Maye's three turnovers (two interceptions and a lost fumble) reflected an offense operating at -0.25 EPA/play, well below the baseline of competence.",
-      "New England's red-zone efficiency collapsed: 0 touchdowns on 4 trips (0%) versus Jacksonville's flawless 5 of 5 (100%), and the defense surrendered third downs at a 67% conversion rate compared to our 33%."
+      "The offense averaged -0.25 EPA per play — worse than an average offense.",
+      "Allowed JAX touchdowns on 5 of 5 red-zone trips (100%), well above the 55% league norm."
     ],
     "ugly": [
-      "A turnover margin of -2 in a 29-point loss speaks to the complete breakdown in both execution and field position management."
+      "Lost the turnover battle by 2 — too many extra possessions to hand an opponent."
     ]
   },
   "playerOfTheGame": {
@@ -214,6 +213,6 @@
       "safety": 0
     }
   },
-  "fanTake": "Well, that was humbling in the way only a 35-6 road loss can be. The Patriots mustered exactly two field goals while Jacksonville's offense—led by a Trevor Lawrence who looked genuinely comfortable—found the end zone five times. Drake Maye's three turnovers and the offense's -0.25 EPA/play tells you everything: we couldn't move the ball, and when we did manage to reach Jacksonville's red zone four times, we scored zero touchdowns. The defense allowed 0.23 EPA/play and got gashed on third down (Jacksonville converted 8 of 12 to our 4 of 12), so there wasn't much covering for an offense that looked thoroughly unacceptable.",
-  "aiVersion": 5
+  "fanTake": "Sunday at EverBank Stadium was the kind of afternoon that makes you question everything. The Patriots mustered exactly two field goals while Jacksonville's offense was a clinic in efficiency, converting every single red-zone trip into a touchdown—5 for 5, a perfect nightmare—while we managed 0 of 4. Our third-down defense was a revolving door (Jacksonville hit 8 of 12), our offense couldn't find traction (4 of 12), and Drake Maye's three turnovers became the punctuation on a performance he himself called unacceptable. At -0.25 EPA per play on offense and allowing 0.23 on defense, this wasn't close to competitive; it was a 29-point rout that left us staring at some hard truths about how we're building this team.",
+  "aiVersion": 6
 }

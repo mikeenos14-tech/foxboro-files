@@ -184,12 +184,12 @@
   ],
   "goodBadUgly": {
     "good": [
-      "The defense was genuinely excellent, posting an EPA/play allowed of -0.36 — well above the league standard and the main reason we held Pittsburgh to a field goal.",
-      "Rhamondre Stevenson led all Patriots players in win probability added at 3%, anchoring a ground game that clearly worked when our passing attack wasn't particularly efficient."
+      "The defense allowed -0.36 EPA per play — better than an average defense.",
+      "Held PIT to 2 of 12 on third down (17%), well below the 40% league norm."
     ],
     "bad": [
-      "Our offense registered -0.07 EPA/play, below average, and we converted only 33% of our third downs — well short of the league norm of 40%.",
-      "We got into the red zone three times and came away with just one touchdown, converting at 33% when teams typically hit around 55%; that's leaving points on the field at home."
+      "Scored touchdowns on 1 of 3 red-zone trips (33%), well below the 55% league norm.",
+      "The offense averaged -0.07 EPA per play — worse than an average offense."
     ],
     "ugly": []
   },
@@ -212,6 +212,6 @@
       "safety": 0
     }
   },
-  "fanTake": "Twenty to three. At home. Against Pittsburgh. Look, I'm not going to pretend this was vintage Patriots football — our offense was actually below average by EPA, and we converted just a third of our third downs — but sometimes a win is a win, especially when your defense is playing the kind of suffocating football that holds an opponent to a field goal. Rhamondre Stevenson was our best player by win probability added, which tells you we leaned on the run game and didn't need to do much fancy. The Steelers managed zero touchdowns on their one red-zone trip, and converted just 17% of their third downs. We're not lighting the world on fire, but we're getting wins at home, and right now that'll do.",
-  "aiVersion": 5
+  "fanTake": "The Patriots ground out a 20-3 win at home against Pittsburgh on Sunday, and while the scoreboard is absolutely delightful, the underlying performance tells a more complicated story. Our offense managed just -0.07 EPA per play—worse than average—and converted only 33% of our third downs and 33% of our red-zone trips, both well below league norms; the good news is that our defense absolutely smothered the Steelers, allowing -0.36 EPA per play and holding them to just one field goal across 12 third-down attempts and a single red-zone trip. Rhamondre Stevenson was our most impactful player by win probability added, contributing 3%, which feels about right for a day where we won convincingly without sparkling offensively. It's the kind of victory that feels good in the standings but leaves you wanting more from the offense—we're still finding our rhythm, even if our defense is doing enough to mask the issues for now.",
+  "aiVersion": 6
 }
