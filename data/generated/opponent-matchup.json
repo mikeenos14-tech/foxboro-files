@@ -11,7 +11,7 @@
       "ourGrade": 65,
       "theirGrade": 6,
       "edge": "us",
-      "note": "65th percentile vs. 6th percentile (advantage us).",
+      "note": "65/100 vs. 6/100 (advantage us).",
       "ourStatLine": "331 yds, 4.0 YPC, 1 TD, 0 FUM, 8% explosive",
       "theirStatLine": "321 yds allowed, 4.0 YPC allowed, 2 TD allowed, 11% explosive allowed"
     },
@@ -20,7 +20,7 @@
       "ourGrade": 23,
       "theirGrade": 35,
       "edge": "them",
-      "note": "23rd percentile vs. 35th percentile (advantage them).",
+      "note": "23/100 vs. 35/100 (advantage them).",
       "ourStatLine": "55/86 (64%), 631 yds, 1 TD, 6 INT",
       "theirStatLine": "72/110 (65%) allowed, 827 yds allowed, 7 TD allowed, 1 INT gained"
     },
@@ -29,7 +29,7 @@
       "ourGrade": 16,
       "theirGrade": 100,
       "edge": "them",
-      "note": "16th percentile vs. 100th percentile (advantage them).",
+      "note": "16/100 vs. 100/100 (advantage them).",
       "ourStatLine": "326 yds allowed, 4.4 YPC allowed, 2 TD allowed, 9% explosive allowed",
       "theirStatLine": "470 yds, 5.5 YPC, 8 TD, 1 FUM, 19% explosive"
     },
@@ -38,7 +38,7 @@
       "ourGrade": 87,
       "theirGrade": 87,
       "edge": "even",
-      "note": "87th percentile vs. 87th percentile (close matchup).",
+      "note": "87/100 vs. 87/100 (close matchup).",
       "ourStatLine": "59/93 (63%) allowed, 569 yds allowed, 4 TD allowed, 2 INT gained",
       "theirStatLine": "56/86 (65%), 786 yds, 5 TD, 2 INT"
     },
@@ -47,24 +47,26 @@
       "ourGrade": 16,
       "theirGrade": 61,
       "edge": "them",
-      "note": "16th percentile vs. 61st percentile (advantage them).",
+      "note": "16/100 vs. 61/100 (advantage them).",
       "ourStatLine": "9 sacks allowed, 9% sack rate",
       "theirStatLine": "9 sacks, 27 QB hits, 8% sack rate"
     }
   ],
   "matchupOfTheWeek": {
     "title": "Rush Offense vs. Run Defense",
-    "description": "Our rush offense grades in the 65th percentile against a unit that grades 6th — the widest real statistical edge on the board this week."
+    "description": "Our rush offense grades 65/100 (above average) against BUF's run defense at 6/100 (among the NFL's worst) — the widest statistical edge on the board this week."
   },
   "opponentInjuries": [],
   "recentForm": {
     "us": {
+      "lastGameEpaPerPlay": -0.4859171753997679,
       "last3EpaPerPlay": -0.1059948337533625,
       "last5EpaPerPlay": -0.1059948337533625,
       "seasonEpaPerPlay": -0.1059948337533625,
       "gamesPlayed": 3
     },
     "them": {
+      "lastGameEpaPerPlay": 0.05047089752778647,
       "last3EpaPerPlay": 0.1436646335528123,
       "last5EpaPerPlay": 0.1436646335528123,
       "seasonEpaPerPlay": 0.1436646335528123,

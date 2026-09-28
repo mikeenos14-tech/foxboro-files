@@ -169,10 +169,10 @@ without anyone touching anything.
 
 This is the section to remember.
 
-### Tests: 108 small "does this still work?" checks
+### Tests: 120-odd small "does this still work?" checks
 
 A test is a question with a known answer. "If a receiver catches 2 of 3 catchable
-balls, is the rate 67%?" Run all 108 in under a second. If a change breaks something
+balls, is the rate 67%?" Run them all in under a second. If a change breaks something
 elsewhere, they say so immediately.
 
 They earned their keep today. When we renamed four stats, tests failed instantly and
@@ -283,7 +283,7 @@ is sometimes yes, and an AI will rarely volunteer it.
 | **Data storage** | Plain files, no database — because the source gives us everything |
 | **Automation** | GitHub Actions — a robot on a schedule |
 | **Hosting** | Vercel — rebuilds automatically when data changes |
-| **Safety net** | 108 tests + a verifier that checks against an outside source |
+| **Safety net** | 120-odd tests + a verifier that checks against an outside source |
 | **Size** | ~14,000 lines, 131 files, 7 runtime dependencies |
 
 And the five habits worth carrying to the next project:

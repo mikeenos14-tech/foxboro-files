@@ -13,7 +13,7 @@
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { loadCsv, num } from "./lib/csv";
-import { type PbpRow } from "./lib/pbp";
+import { type PbpRow, loadRegularSeasonPbp } from "./lib/pbp";
 import { computeLeagueEpaTable, offenseEpaRankOnly, defenseEpaRankOnly } from "./lib/leagueRanks";
 import { computeAdjustedPair, epaValue, sackIndicator, isPassAttempt } from "./lib/adjustedRate";
 import { priorWeightFor } from "./lib/priorBlend";
@@ -36,7 +36,7 @@ import {
 import { rankGeneric } from "./lib/rank";
 import { ALL_TEAMS } from "./lib/teams";
 import { VENUES } from "./lib/venues";
-import { ordinal } from "../lib/calc/ranks";
+import { formatGrade, gradeWords } from "../lib/calc/ranks";
 import type {
   Game,
   OpponentMatchupData,
@@ -60,7 +60,7 @@ async function main() {
   await mkdir(GENERATED_DIR, { recursive: true });
 
   const games = await loadCsv<GameRow>("games.csv");
-  const pbp = await loadCsv<PbpRow>("play_by_play_2026.csv");
+  const pbp = await loadRegularSeasonPbp("play_by_play_2026.csv");
 
   let nextGame: Game;
   try {
@@ -115,7 +115,7 @@ async function main() {
         : edge === "them"
           ? "advantage them"
           : "close matchup";
-    return `${ordinal(ourGrade)} percentile vs. ${ordinal(theirGrade)} percentile (${verdict}).`;
+    return `${formatGrade(ourGrade)} vs. ${formatGrade(theirGrade)} (${verdict}).`;
   }
 
   const categories: Array<{
@@ -175,6 +175,10 @@ async function main() {
     };
   });
 
+  // "Rush Offense vs. Run Defense" → "rush offense" / "run defense".
+  const ourUnit = (label: string) => label.split(" vs. ")[0].toLowerCase();
+  const theirUnit = (label: string) => label.split(" vs. ")[1].toLowerCase();
+
   const biggest = [...categories]
     .map((c) => ({ ...c, gap: c.ours - c.theirs }))
     .sort((a, b) => b.gap - a.gap)[0];
@@ -182,8 +186,8 @@ async function main() {
     title: biggest.label,
     description:
       biggest.gap > 0
-        ? `Our ${biggest.label.split(" vs. ")[0].toLowerCase()} grades in the ${ordinal(biggest.ours)} percentile against a unit that grades ${ordinal(biggest.theirs)} — the widest real statistical edge on the board this week.`
-        : `Their unit actually grades better here (${ordinal(biggest.theirs)} percentile vs. our ${ordinal(biggest.ours)}) — the closest thing to a swing spot working against us this week.`,
+        ? `Our ${ourUnit(biggest.label)} grades ${formatGrade(biggest.ours)} (${gradeWords(biggest.ours)}) against ${opponent}'s ${theirUnit(biggest.label)} at ${formatGrade(biggest.theirs)} (${gradeWords(biggest.theirs)}) — the widest statistical edge on the board this week.`
+        : `No unit has an edge this week — the closest is our ${ourUnit(biggest.label)} at ${formatGrade(biggest.ours)} against ${opponent}'s ${theirUnit(biggest.label)} at ${formatGrade(biggest.theirs)}.`,
   };
 
   // ---------- Opponent EPA rank ----------
@@ -230,6 +234,7 @@ async function main() {
     const played = gamesFor(team);
     const ids = (n: number) => played.slice(0, n).map((g) => g.game_id);
     return {
+      lastGameEpaPerPlay: netEpaOverGames(ids(1), team),
       last3EpaPerPlay: netEpaOverGames(ids(3), team),
       last5EpaPerPlay: netEpaOverGames(ids(5), team),
       seasonEpaPerPlay: netEpaOverGames(played.map((g) => g.game_id), team),

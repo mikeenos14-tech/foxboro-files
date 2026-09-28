@@ -4,7 +4,7 @@ import { useMemo, useState } from "react";
 import type { PositionGroupLeagueTeamEntry } from "@/lib/data/types";
 import { TeamLogo } from "@/components/shared/TeamLogo";
 import { Legend } from "@/components/shared/Legend";
-import { ordinal } from "@/lib/calc/ranks";
+import { formatGrade } from "@/lib/calc/ranks";
 import { formatPercent, signed } from "@/lib/util/format";
 
 interface Props {
@@ -22,7 +22,8 @@ interface Props {
 // check silently fell through to the percent formatter the moment the
 // label gained an "Adj." prefix, rendering -0.152 EPA/play as "-15.2%".
 function formatRaw(rawLabel: string, rawValue: number): string {
-  return rawLabel.includes("EPA") ? signed(rawValue, 2) : formatPercent(rawValue, 1);
+  const value = rawLabel.includes("EPA") ? signed(rawValue, 2) : formatPercent(rawValue, 1);
+  return `${value} ${rawLabel}`;
 }
 
 export function PositionGroupHeadToHead({ myTeam, league, defaultOpponentTeam }: Props) {
@@ -90,13 +91,13 @@ export function PositionGroupHeadToHead({ myTeam, league, defaultOpponentTeam }:
                   <td className="py-2 pr-2 text-xs text-muted">{myGroup.group}</td>
                   <td className="py-2 text-right tabular-nums">
                     <div className={mineWins ? "font-bold text-rank-good" : "text-foreground"}>
-                      {ordinal(myGroup.grade)}
+                      {formatGrade(myGroup.grade)}
                     </div>
                     <div className="text-xs text-muted">{formatRaw(myGroup.rawLabel, myGroup.rawValue)}</div>
                   </td>
                   <td className="py-2 pl-4 text-right tabular-nums">
                     <div className={oppWins ? "font-bold text-rank-good" : "text-foreground"}>
-                      {ordinal(oppGroup.grade)}
+                      {formatGrade(oppGroup.grade)}
                     </div>
                     <div className="text-xs text-muted">{formatRaw(oppGroup.rawLabel, oppGroup.rawValue)}</div>
                   </td>
@@ -108,7 +109,10 @@ export function PositionGroupHeadToHead({ myTeam, league, defaultOpponentTeam }:
       </div>
       <Legend
         className="-mx-4 -mb-4 mt-4 rounded-b-lg border-t border-border bg-background/50"
-        items={[{ term: "Percentile", definition: "league rank at that group vs. all 32 teams — 100th = best" }]}
+        items={[
+          { term: "Grade", definition: "0-100 vs. all 32 teams, adjusted for opponents — 100 = best in the NFL" },
+          { term: "Below it", definition: "the team's actual rate this season, unadjusted" },
+        ]}
       />
     </div>
   );

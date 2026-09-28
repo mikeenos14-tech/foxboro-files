@@ -85,14 +85,19 @@ function label(n: number, plural: string): string {
 export function defensiveGroupStatLine(
   playerStats: Map<string, DefensivePlayerLine>,
   rosterByGsis: Map<string, RosterRow>,
-  depthChartPositions: string[],
+  // null = the whole defense. The Pass Rush, Run Defense and Pass Defense
+  // cards are team-wide grades, and their stat lines once counted only one
+  // position group — "4 sacks" beside a team that had 7.
+  depthChartPositions: string[] | null,
   primaryMetric: CountField,
   primaryLabel: string,
   secondaryMetric: CountField,
   secondaryLabel: string
 ): string {
-  const groupLines = [...playerStats.values()].filter((l) =>
-    depthChartPositions.includes(rosterByGsis.get(l.playerId)?.depth_chart_position ?? "")
+  const groupLines = [...playerStats.values()].filter(
+    (l) =>
+      depthChartPositions === null ||
+      depthChartPositions.includes(rosterByGsis.get(l.playerId)?.depth_chart_position ?? "")
   );
   if (groupLines.length === 0) return "";
   const totalPrimary = groupLines.reduce((sum, l) => sum + l[primaryMetric], 0);

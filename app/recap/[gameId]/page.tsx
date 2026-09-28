@@ -6,7 +6,7 @@ import { GoodBadUglySidebar } from "@/components/recap/GoodBadUglySidebar";
 import { PlayerOfTheGameCard } from "@/components/recap/PlayerOfTheGameCard";
 import { WinProbabilityChart } from "@/components/shared/WinProbabilityChart";
 import { StatCard } from "@/components/shared/StatCard";
-import { formatPercent, signed } from "@/lib/util/format";
+import { formatPercent, opponentLabel, signed } from "@/lib/util/format";
 
 export async function generateMetadata({
   params,
@@ -14,14 +14,14 @@ export async function generateMetadata({
   params: Promise<{ gameId: string }>;
 }): Promise<Metadata> {
   const { gameId } = await params;
-  const lastGame = await store.getLastGame();
-  if (lastGame.id !== gameId) return { title: "Recap" };
-  const isHome = lastGame.homeTeam === "NE";
-  const opponent = isHome ? lastGame.awayTeam : lastGame.homeTeam;
-  const usScore = isHome ? lastGame.homeScore : lastGame.awayScore;
-  const themScore = isHome ? lastGame.awayScore : lastGame.homeScore;
+  const game = await store.getPlayedGame(gameId);
+  if (!game) return { title: "Recap" };
+  const isHome = game.homeTeam === "NE";
+  const opponent = isHome ? game.awayTeam : game.homeTeam;
+  const usScore = isHome ? game.homeScore : game.awayScore;
+  const themScore = isHome ? game.awayScore : game.homeScore;
   return {
-    title: `Week ${lastGame.week}: NE ${usScore}-${themScore} vs. ${opponent}`,
+    title: `Week ${game.week}: NE ${usScore}-${themScore} ${opponentLabel(opponent, isHome)}`,
   };
 }
 
@@ -32,15 +32,15 @@ export default async function RecapDetailPage({
 }) {
   const { gameId } = await params;
   const recap = await store.getRecapByGameId(gameId);
-  const lastGame = await store.getLastGame();
+  const game = await store.getPlayedGame(gameId);
 
-  if (!recap || lastGame.id !== gameId) {
+  if (!recap || !game) {
     notFound();
   }
 
   return (
     <div className="space-y-6">
-      <BoxScoreSummary game={lastGame} />
+      <BoxScoreSummary game={game} />
 
       {recap.fanTake && (
         <div className="rounded-lg border border-red/30 bg-red/5 p-4">

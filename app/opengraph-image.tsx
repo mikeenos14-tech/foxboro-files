@@ -140,7 +140,7 @@ export default async function Image() {
           </div>
           <div style={cardStyle}>
             <div style={cardLabel}>Next Game</div>
-            <div style={cardValue}>vs. {opponent}</div>
+            <div style={cardValue}>{isHome ? "vs." : "at"} {opponent}</div>
             <div style={cardSub}>{formatDate(nextGame.date)}</div>
           </div>
         </div>

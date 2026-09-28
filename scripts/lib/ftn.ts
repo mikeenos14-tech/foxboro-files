@@ -16,24 +16,10 @@ interface FtnRow {
   is_qb_out_of_pocket: string;
 }
 
-// Set of "gameId|playId" keys for sacks FTN's human charters flagged as
-// the QB's own fault (held the ball too long, scrambled into pressure,
-// bad protection call) rather than a real blocking breakdown. Used to
-// exclude these from the OL pass-protection grade, which otherwise
-// (via raw sack rate allowed) blames the line for every sack regardless
-// of cause. Keyed the same way play_by_play.csv is (game_id + play_id) —
-// FTN's own file calls the matching columns nflverse_game_id/
-// nflverse_play_id.
-export async function loadQbFaultSackKeys(): Promise<Set<string>> {
-  const rows = await loadCsv<FtnRow>("ftn_charting_2026.csv");
-  const keys = new Set<string>();
-  for (const r of rows) {
-    if (bool01(r.is_qb_fault_sack)) {
-      keys.add(`${r.nflverse_game_id}|${r.nflverse_play_id}`);
-    }
-  }
-  return keys;
-}
+// Keys below are "gameId|playId", the way play_by_play.csv identifies a
+// play — FTN's own file calls the matching columns nflverse_game_id/
+// nflverse_play_id. (A QB-fault-sack loader used to live here, described
+// in the docs as feeding the pass-protection grade; nothing called it.)
 
 // Real charted turnover-worthy plays. The site previously showed raw
 // interception rate under the label "turnover-worthy rate", which
@@ -68,8 +54,18 @@ export async function loadPlayContext(): Promise<Map<string, FtnPlayContext>> {
   return map;
 }
 
-export async function loadInterceptionWorthyKeys(): Promise<Set<string>> {
-  const rows = await loadCsv<FtnRow>("ftn_charting_2026.csv");
+// Games FTN has charted so far. Charting lands a game or more behind the
+// play-by-play, so any rate built from FTN flags has to use only these
+// games for its denominator too — otherwise the flags cover Weeks 1-2,
+// the plays cover Weeks 1-3, and the rate quietly comes out low while
+// labelled "Full Season".
+export async function loadChartedGameIds(season = 2026): Promise<Set<string>> {
+  const rows = await loadCsv<FtnRow>(`ftn_charting_${season}.csv`);
+  return new Set(rows.map((r) => r.nflverse_game_id));
+}
+
+export async function loadInterceptionWorthyKeys(season = 2026): Promise<Set<string>> {
+  const rows = await loadCsv<FtnRow>(`ftn_charting_${season}.csv`);
   const keys = new Set<string>();
   for (const r of rows) {
     if (bool01(r.is_interception_worthy)) {

@@ -70,7 +70,7 @@ export default async function Image() {
             <img src={teamLogoUrl("NE")} width={150} height={150} alt="NE" />
             <div style={{ fontSize: 90, fontWeight: 700, color: "white", display: "flex" }}>
               NE
-              <span style={{ color: "#a5acaf", margin: "0 20px", fontSize: 50 }}>vs</span>
+              <span style={{ color: "#a5acaf", margin: "0 20px", fontSize: 50 }}>{isHome ? "vs" : "@"}</span>
               {matchup.opponent}
             </div>
             <img src={teamLogoUrl(matchup.opponent)} width={150} height={150} alt={matchup.opponent} />

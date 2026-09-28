@@ -27,16 +27,16 @@ function resultFor(g: GameRow, t: string): "W" | "L" | "T" {
 // Real per-team record, streak, division record, and point differential
 // for one division — shared by the Home page's own-division card and the
 // Around the League page's all-8-divisions view, so both stay identical
-// in methodology. Sort is win% then point differential — a reasonable
-// simplified ordering, not the NFL's full official tiebreaker chain
-// (head-to-head, common games, conference record, etc.), which is out of
-// scope here.
+// in methodology. Sort is win%, then ESPN's official order to break ties
+// (see espnStandings.ts). Point differential is only the last resort when
+// ESPN's order isn't available — it isn't an NFL tiebreaker.
 export function computeDivisionStandings(
   games: GameRow[],
   season: number,
   divisionTeams: string[],
   standings: Map<string, TeamRecord>,
-  highlightTeam?: string
+  highlightTeam?: string,
+  officialOrder?: Map<string, number> | null
 ): DivisionStanding[] {
   return divisionTeams
     .map((t) => {
@@ -85,6 +85,9 @@ export function computeDivisionStandings(
       const aPct = aGames === 0 ? 0 : (a.wins + a.ties * 0.5) / aGames;
       const bPct = bGames === 0 ? 0 : (b.wins + b.ties * 0.5) / bGames;
       if (bPct !== aPct) return bPct - aPct;
+      const aOfficial = officialOrder?.get(a.team);
+      const bOfficial = officialOrder?.get(b.team);
+      if (aOfficial !== undefined && bOfficial !== undefined) return aOfficial - bOfficial;
       return b.pointDifferential - a.pointDifferential;
     });
 }

@@ -8,12 +8,21 @@ import { useState } from "react";
 // tabs, not one long page). Kept deliberately simple: uncontrolled,
 // activeIndex in local state, no URL sync — this is about page feel, not
 // deep-linkable sub-routes.
+//
+// `initialTab` (a label, case-insensitive) lets a link land on the tab it
+// means — Home's "Full breakdown →" opened Roster on the QB tab rather
+// than the grades it was pointing at.
 export function Tabs({
   tabs,
+  initialTab,
 }: {
   tabs: Array<{ label: string; content: React.ReactNode }>;
+  initialTab?: string;
 }) {
-  const [active, setActive] = useState(0);
+  const [active, setActive] = useState(() => {
+    const i = initialTab ? tabs.findIndex((t) => t.label.toLowerCase() === initialTab.toLowerCase()) : -1;
+    return i >= 0 ? i : 0;
+  });
 
   return (
     <div>
@@ -27,7 +36,7 @@ export function Tabs({
             role="tab"
             aria-selected={active === i}
             onClick={() => setActive(i)}
-            className={`shrink-0 whitespace-nowrap border-b-2 px-3 py-2.5 text-sm font-semibold transition-colors ${
+            className={`shrink-0 whitespace-nowrap border-b-2 px-2 py-2.5 text-sm font-semibold transition-colors sm:px-3 ${
               active === i
                 ? "border-red text-foreground"
                 : "border-transparent text-muted hover:text-foreground"

@@ -1,57 +1,12 @@
 [
   {
-    "playerId": "4683153",
-    "playerName": "Skyler Bell",
-    "position": "WR",
-    "week": 4,
-    "injury": "Coach's Decision",
-    "gameStatus": "Out",
-    "lastUpdated": "2026-09-27T15:58Z"
-  },
-  {
-    "playerId": "4869533",
-    "playerName": "Jude Bowry",
-    "position": "OT",
-    "week": 4,
-    "injury": "Coach's Decision",
-    "gameStatus": "Out",
-    "lastUpdated": "2026-09-27T15:46Z"
-  },
-  {
     "playerId": "4606712",
     "playerName": "Ar'maj Reed-Adams",
     "position": "G",
     "week": 4,
     "injury": "Elbow",
     "gameStatus": "Out",
-    "lastUpdated": "2026-09-27T16:40Z"
-  },
-  {
-    "playerId": "4379778",
-    "playerName": "Christian Benford",
-    "position": "CB",
-    "week": 4,
-    "injury": "Toe",
-    "gameStatus": "Questionable",
-    "lastUpdated": "2026-09-27T19:51Z"
-  },
-  {
-    "playerId": "3915487",
-    "playerName": "Mike Danna",
-    "position": "DE",
-    "week": 4,
-    "injury": "Coach's Decision",
-    "gameStatus": "Out",
-    "lastUpdated": "2026-09-27T15:46Z"
-  },
-  {
-    "playerId": "5076951",
-    "playerName": "Jalon Kilgore",
-    "position": "S",
-    "week": 4,
-    "injury": "Coach's Decision",
-    "gameStatus": "Out",
-    "lastUpdated": "2026-09-27T15:46Z"
+    "lastUpdated": "2026-09-28T18:16Z"
   },
   {
     "playerId": "4684527",
@@ -60,24 +15,6 @@
     "week": 4,
     "injury": "Not specified",
     "gameStatus": "Out",
-    "lastUpdated": "2026-09-27T15:46Z"
-  },
-  {
-    "playerId": "4241476",
-    "playerName": "Tyrell Shavers",
-    "position": "WR",
-    "week": 4,
-    "injury": "Knee - ACL",
-    "gameStatus": "Out",
-    "lastUpdated": "2026-09-08T20:42Z"
-  },
-  {
-    "playerId": "4568703",
-    "playerName": "Dorian Strong",
-    "position": "CB",
-    "week": 4,
-    "injury": "Neck",
-    "gameStatus": "Out",
-    "lastUpdated": "2026-09-08T20:42Z"
+    "lastUpdated": "2026-09-28T18:16Z"
   }
 ]

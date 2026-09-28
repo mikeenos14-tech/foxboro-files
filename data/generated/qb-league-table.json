@@ -17,7 +17,7 @@
     },
     "pressureEpa": -0.36091347352382447,
     "cleanPocketEpa": 0.3890259914948159,
-    "turnoverWorthyPlayRate": 0.010526315789473684
+    "turnoverWorthyPlayRate": 0.015384615384615385
   },
   {
     "playerId": "00-0038128",
@@ -37,7 +37,7 @@
     },
     "pressureEpa": -0.9321551767776508,
     "cleanPocketEpa": 0.06449200421847068,
-    "turnoverWorthyPlayRate": 0.010526315789473684
+    "turnoverWorthyPlayRate": 0.01694915254237288
   },
   {
     "playerId": "00-0039851",
@@ -57,7 +57,7 @@
     },
     "pressureEpa": -1.3884099393758096,
     "cleanPocketEpa": -0.025424781417441596,
-    "turnoverWorthyPlayRate": 0.0449438202247191
+    "turnoverWorthyPlayRate": 0.06557377049180328
   },
   {
     "playerId": "00-0030565",
@@ -77,7 +77,7 @@
     },
     "pressureEpa": -1.1267485831043638,
     "cleanPocketEpa": 0.42673025020166094,
-    "turnoverWorthyPlayRate": 0.008849557522123894
+    "turnoverWorthyPlayRate": 0.014492753623188406
   },
   {
     "playerId": "00-0034796",
@@ -97,7 +97,7 @@
     },
     "pressureEpa": -1.4765686049723856,
     "cleanPocketEpa": 0.5399745255934923,
-    "turnoverWorthyPlayRate": 0.024691358024691357
+    "turnoverWorthyPlayRate": 0.03278688524590164
   },
   {
     "playerId": "00-0036442",
@@ -117,7 +117,7 @@
     },
     "pressureEpa": -0.6746741671484179,
     "cleanPocketEpa": 0.288153336074421,
-    "turnoverWorthyPlayRate": 0.00909090909090909
+    "turnoverWorthyPlayRate": 0.013888888888888888
   },
   {
     "playerId": "00-0033537",
@@ -137,7 +137,7 @@
     },
     "pressureEpa": -1.3575141358489504,
     "cleanPocketEpa": 0.3955331154932033,
-    "turnoverWorthyPlayRate": 0.021739130434782608
+    "turnoverWorthyPlayRate": 0.03389830508474576
   },
   {
     "playerId": "00-0023459",
@@ -177,7 +177,7 @@
     },
     "pressureEpa": -1.4224889483492251,
     "cleanPocketEpa": 0.21611340561786302,
-    "turnoverWorthyPlayRate": 0.007692307692307693
+    "turnoverWorthyPlayRate": 0.01
   },
   {
     "playerId": "00-0035710",
@@ -197,7 +197,7 @@
     },
     "pressureEpa": -1.3116595424248858,
     "cleanPocketEpa": 0.11922592806294856,
-    "turnoverWorthyPlayRate": 0.019230769230769232
+    "turnoverWorthyPlayRate": 0.03125
   },
   {
     "playerId": "00-0036971",
@@ -217,7 +217,7 @@
     },
     "pressureEpa": -0.41496394654580626,
     "cleanPocketEpa": 0.4098366927352463,
-    "turnoverWorthyPlayRate": 0.023529411764705882
+    "turnoverWorthyPlayRate": 0.03636363636363636
   },
   {
     "playerId": "00-0040676",
@@ -257,7 +257,7 @@
     },
     "pressureEpa": -1.3640763158727434,
     "cleanPocketEpa": 0.12309988023975268,
-    "turnoverWorthyPlayRate": 0.03
+    "turnoverWorthyPlayRate": 0.047619047619047616
   },
   {
     "playerId": "00-0033873",
@@ -277,7 +277,7 @@
     },
     "pressureEpa": -0.0420331601338278,
     "cleanPocketEpa": 0.2799437279204839,
-    "turnoverWorthyPlayRate": 0.0196078431372549
+    "turnoverWorthyPlayRate": 0.02564102564102564
   },
   {
     "playerId": "00-0029604",
@@ -297,7 +297,7 @@
     },
     "pressureEpa": -0.15620418508691725,
     "cleanPocketEpa": 0.2195461471856207,
-    "turnoverWorthyPlayRate": 0.030303030303030304
+    "turnoverWorthyPlayRate": 0.04918032786885246
   },
   {
     "playerId": "00-0036355",
@@ -317,7 +317,7 @@
     },
     "pressureEpa": -0.8534742842168958,
     "cleanPocketEpa": 0.0717673382982492,
-    "turnoverWorthyPlayRate": 0.020833333333333332
+    "turnoverWorthyPlayRate": 0.03333333333333333
   },
   {
     "playerId": "00-0033077",
@@ -337,7 +337,7 @@
     },
     "pressureEpa": -0.5884848207876842,
     "cleanPocketEpa": 0.4657435681394845,
-    "turnoverWorthyPlayRate": 0.009174311926605505
+    "turnoverWorthyPlayRate": 0.014925373134328358
   },
   {
     "playerId": "00-0031503",
@@ -357,7 +357,7 @@
     },
     "pressureEpa": -0.7433335265233527,
     "cleanPocketEpa": -0.3258374003727595,
-    "turnoverWorthyPlayRate": 0.018518518518518517
+    "turnoverWorthyPlayRate": 0.034482758620689655
   },
   {
     "playerId": "00-0036389",
@@ -437,7 +437,7 @@
     },
     "pressureEpa": -0.3966184444927977,
     "cleanPocketEpa": 0.43625573317151717,
-    "turnoverWorthyPlayRate": 0.017241379310344827
+    "turnoverWorthyPlayRate": 0.024390243902439025
   },
   {
     "playerId": "00-0036264",
@@ -517,7 +517,7 @@
     },
     "pressureEpa": -0.9408148004549645,
     "cleanPocketEpa": 0.30692671710734126,
-    "turnoverWorthyPlayRate": 0.0078125
+    "turnoverWorthyPlayRate": 0.012987012987012988
   },
   {
     "playerId": "00-0040743",
@@ -537,7 +537,7 @@
     },
     "pressureEpa": -1.3322916554004351,
     "cleanPocketEpa": 0.2524687690089796,
-    "turnoverWorthyPlayRate": 0.013986013986013986
+    "turnoverWorthyPlayRate": 0.020202020202020204
   },
   {
     "playerId": "00-0034855",
@@ -557,7 +557,7 @@
     },
     "pressureEpa": -1.769840080027645,
     "cleanPocketEpa": 0.054727487647220026,
-    "turnoverWorthyPlayRate": 0.009174311926605505
+    "turnoverWorthyPlayRate": 0.014492753623188406
   },
   {
     "playerId": "00-0033119",
@@ -577,7 +577,7 @@
     },
     "pressureEpa": -0.7113477780974273,
     "cleanPocketEpa": 0.21995642505967197,
-    "turnoverWorthyPlayRate": 0.01639344262295082
+    "turnoverWorthyPlayRate": 0.029411764705882353
   },
   {
     "playerId": "00-0026498",
@@ -597,7 +597,7 @@
     },
     "pressureEpa": -0.6715381857474663,
     "cleanPocketEpa": 0.23837260789982873,
-    "turnoverWorthyPlayRate": 0.034482758620689655
+    "turnoverWorthyPlayRate": 0.07017543859649122
   },
   {
     "playerId": "00-0037834",
@@ -617,7 +617,7 @@
     },
     "pressureEpa": 0.693687635468489,
     "cleanPocketEpa": 0.6082963253217148,
-    "turnoverWorthyPlayRate": 0.024096385542168676
+    "turnoverWorthyPlayRate": 0.03571428571428571
   },
   {
     "playerId": "00-0035704",

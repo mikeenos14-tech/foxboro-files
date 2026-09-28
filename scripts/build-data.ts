@@ -17,9 +17,10 @@ import {
   turnoverMargin,
   winProbabilityTimeline,
   starOfGame,
+  scoringSummary,
   penaltyStats,
   mostPenalizedPlayer,
-  type PbpRow,
+  loadRegularSeasonPbp,
 } from "./lib/pbp";
 import {
   computeLeagueEpaTable,
@@ -31,6 +32,7 @@ import {
 } from "./lib/leagueRanks";
 import { computeStandings, recordString, pointDiff, type TeamRecord } from "./lib/standings";
 import { computeDivisionStandings } from "./lib/divisionStandings";
+import { loadEspnDivisionOrder } from "./lib/espnStandings";
 import { TEAM_CONFERENCE, TEAM_DIVISION, ALL_TEAMS } from "./lib/teams";
 import { rankGeneric } from "./lib/rank";
 import { buildLastNWeekWindows, filterRowsToWindow } from "./lib/statWindows";
@@ -71,7 +73,7 @@ async function main() {
   await mkdir(GENERATED_DIR, { recursive: true });
 
   const games = await loadCsv<GameRow>("games.csv");
-  const pbp = await loadCsv<PbpRow>("play_by_play_2026.csv");
+  const pbp = await loadRegularSeasonPbp("play_by_play_2026.csv");
   const rosterByGsis = await buildLeagueRosterByGsis();
 
   const standings = computeStandings(games, SEASON);
@@ -125,7 +127,14 @@ async function main() {
   // ---------- Division standings ----------
   const ourDivision = TEAM_DIVISION[TEAM];
   const divisionTeams = ALL_TEAMS.filter((t) => TEAM_DIVISION[t] === ourDivision);
-  const divisionStandings = computeDivisionStandings(games, SEASON, divisionTeams, standings, TEAM);
+  const divisionStandings = computeDivisionStandings(
+    games,
+    SEASON,
+    divisionTeams,
+    standings,
+    TEAM,
+    await loadEspnDivisionOrder()
+  );
 
   await writeFile(
     path.join(GENERATED_DIR, "division-standings.json"),
@@ -224,6 +233,9 @@ async function main() {
             marketSpreadByGameId.get(g.game_id)
           ),
       date: g.gameday,
+      // Lets any archived recap render its own header, not just the
+      // most recent game's.
+      venue: g.stadium || undefined,
     };
   });
 
@@ -242,12 +254,15 @@ async function main() {
   const expectedAdditionalWins = schedule
     .filter((r) => !r.result)
     .reduce((sum, r) => sum + (r.winProbabilityEstimate ?? 0.5), 0);
-  const projectedWins = Math.round(currentWins + currentTies * 0.5 + expectedAdditionalWins);
+  const expectedWins = currentWins + currentTies * 0.5 + expectedAdditionalWins;
+  const projectedWins = Math.round(expectedWins);
   const projectedLosses = schedule.length - projectedWins;
   // Simplified playoff-odds curve centered on a typical wildcard cutoff
   // (~9.5 wins in a 17-game season) — not a real playoff simulation across
   // the whole conference, just a smooth function of projected win total.
-  const playoffOdds = 1 / (1 + Math.exp(-(projectedWins - 9.5) / 1.5));
+  // Fed the unrounded total: rounding first made 8.02 and 8.49 projected
+  // wins read as the same 27%, and the odds jumped in steps.
+  const playoffOdds = 1 / (1 + Math.exp(-(expectedWins - 9.5) / 1.5));
 
   await writeFile(
     path.join(GENERATED_DIR, "season-projection.json"),
@@ -418,9 +433,15 @@ async function main() {
     JSON.stringify(teamStats, null, 2)
   );
 
-  // ---------- Recap for the most recent completed game ----------
-  if (lastRow) {
+  // ---------- Recap for every completed game ----------
+  // Rebuilt for all of them, not just the latest: it's cheap and
+  // deterministic, and it means a fix to how recaps are computed (full
+  // player names, the scoring breakdown) reaches the whole archive
+  // instead of only whichever game happens to be most recent.
+  for (const lastRow of played) {
     const gameRows = pbp.filter((r) => r.game_id === lastRow.game_id);
+    // A game can be final in games.csv before its play-by-play lands.
+    if (gameRows.length === 0) continue;
     const off = offenseStats(gameRows, TEAM);
     const def = defenseStats(gameRows, TEAM);
     const opponent = lastRow.home_team === TEAM ? lastRow.away_team : lastRow.home_team;
@@ -432,7 +453,8 @@ async function main() {
 
     const star = starOfGame(gameRows, TEAM);
     const margin = turnoverMargin(gameRows, TEAM);
-    const starHeadshot = star ? rosterByGsis.get(star.playerId)?.headshot_url : undefined;
+    const starRoster = star ? rosterByGsis.get(star.playerId) : undefined;
+    const starHeadshot = starRoster?.headshot_url;
 
     const recap: GameRecap = {
       gameId: lastRow.game_id,
@@ -470,7 +492,9 @@ async function main() {
       playerOfTheGame: star
         ? {
             playerId: star.playerId,
-            playerName: star.playerName,
+            // The roster's full name, not play-by-play's "R.Stevenson" —
+            // handed the abbreviation, the AI writer filled in "Remy".
+            playerName: starRoster?.full_name || star.playerName,
             wpa: star.wpa,
             headshotUrl: starHeadshot || undefined,
             reason:
@@ -479,6 +503,7 @@ async function main() {
                 : `Had the team's best (though still net-negative) win probability contribution at ${signed(star.wpa * 100, 0)}% in a tough game offensively.`,
           }
         : { playerId: "", playerName: "N/A", wpa: 0, reason: "No standout WPA leader computed." },
+      scoring: { us: scoringSummary(gameRows, TEAM), them: scoringSummary(gameRows, opponent) },
     };
 
     // Preserve any AI-authored fields already on disk. This file is
@@ -494,30 +519,35 @@ async function main() {
     try {
       const existing = JSON.parse(await readFile(recapPath, "utf-8")) as Partial<GameRecap>;
       if (existing.fanTake) {
-        merged = { ...recap, fanTake: existing.fanTake, goodBadUgly: existing.goodBadUgly ?? recap.goodBadUgly };
+        merged = {
+          ...recap,
+          fanTake: existing.fanTake,
+          goodBadUgly: existing.goodBadUgly ?? recap.goodBadUgly,
+          aiVersion: existing.aiVersion,
+        };
       }
     } catch {
       // No existing recap (first run for this game) — write the fresh one.
     }
 
     await writeFile(recapPath, JSON.stringify(merged, null, 2));
-
-    // Derived directly from whichever recap-<gameId>.json files actually
-    // exist on disk, rather than trusting/appending to a separately
-    // tracked index — self-healing (a previous run had overwritten this
-    // index with only the single most-recent game every time, silently
-    // hiding every earlier recap even though its file was still right
-    // there) and can't drift out of sync with the real files again.
-    const files = await readdir(GENERATED_DIR);
-    const fullIndex = files
-      .filter((f) => f.startsWith("recap-") && f.endsWith(".json") && f !== "recap-index.json")
-      .map((f) => f.slice("recap-".length, -".json".length))
-      .sort();
-    await writeFile(
-      path.join(GENERATED_DIR, "recap-index.json"),
-      JSON.stringify(fullIndex, null, 2)
-    );
   }
+
+  // Derived directly from whichever recap-<gameId>.json files actually
+  // exist on disk, rather than trusting/appending to a separately
+  // tracked index — self-healing (a previous run had overwritten this
+  // index with only the single most-recent game every time, silently
+  // hiding every earlier recap even though its file was still right
+  // there) and can't drift out of sync with the real files again.
+  const files = await readdir(GENERATED_DIR);
+  const fullIndex = files
+    .filter((f) => f.startsWith("recap-") && f.endsWith(".json") && f !== "recap-index.json")
+    .map((f) => f.slice("recap-".length, -".json".length))
+    .sort();
+  await writeFile(
+    path.join(GENERATED_DIR, "recap-index.json"),
+    JSON.stringify(fullIndex, null, 2)
+  );
 
   console.log("Data build complete →", GENERATED_DIR);
 }

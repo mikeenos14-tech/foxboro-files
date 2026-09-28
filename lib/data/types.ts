@@ -118,6 +118,15 @@ export interface GameRecap {
     reason: string;
     headshotUrl?: string;
   };
+  // How each side's points were scored — handed to the AI writer so it
+  // can't guess ("a field goal" for a 6-point, two-field-goal game).
+  scoring?: {
+    us: { td: number; fg: number; safety: number };
+    them: { td: number; fg: number; safety: number };
+  };
+  // Which revision of the AI prompt wrote fanTake/goodBadUgly. Older
+  // content is regenerated when the prompt's facts or checks change.
+  aiVersion?: number;
 }
 
 export interface TeamStatSnapshot {
@@ -324,6 +333,9 @@ export interface QBDeepDive extends QBWindowStats {
   // Full-season only — these come from FTN's charting and aren't worth
   // slicing further at this sample size.
   situational?: QbSituationalSplit[];
+  // Set while FTN's charting trails the games played, so the FTN-based
+  // numbers say what they cover instead of passing as "Full Season".
+  chartingNote?: string;
 }
 
 export interface ScheduleRow {
@@ -344,6 +356,7 @@ export interface ScheduleRow {
   ourScore?: number;
   theirScore?: number;
   date: string;
+  venue?: string;
 }
 
 export interface SeasonProjection {
@@ -384,6 +397,8 @@ export interface InjuryReportEntry {
 }
 
 export interface RecentFormSide {
+  // Optional so data written before it existed still renders.
+  lastGameEpaPerPlay?: number;
   last3EpaPerPlay: number;
   last5EpaPerPlay: number;
   seasonEpaPerPlay: number;
@@ -442,6 +457,7 @@ export interface BeatDigest {
 }
 
 export interface DepthChartEntry {
+  unit?: "Offense" | "Defense" | "Special Teams";
   position: string;
   players: Array<{
     playerId: string;

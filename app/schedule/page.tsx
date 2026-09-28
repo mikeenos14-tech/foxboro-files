@@ -4,13 +4,15 @@ import { ScheduleTable } from "@/components/schedule/ScheduleTable";
 import { PlayoffScenarioTracker } from "@/components/schedule/PlayoffScenarioTracker";
 import { HeroAnswerCard } from "@/components/shared/HeroAnswerCard";
 import { ordinal } from "@/lib/calc/ranks";
+import { PriorBlendNote } from "@/components/next-game/PriorBlendNote";
 
 export const metadata: Metadata = { title: "Schedule" };
 
 export default async function SchedulePage() {
-  const [rows, projection] = await Promise.all([
+  const [rows, projection, matchup] = await Promise.all([
     store.getSchedule(),
     store.getSeasonProjection(),
+    store.getOpponentMatchup(),
   ]);
 
   const currentWeek =
@@ -45,6 +47,7 @@ export default async function SchedulePage() {
       )}
 
       <ScheduleTable rows={rows} />
+      <PriorBlendNote weight={matchup.priorBlendWeight} subject="Win chances and opponent ranks" />
 
       <PlayoffScenarioTracker currentWeek={currentWeek} projection={projection} />
     </div>

@@ -1,6 +1,6 @@
 import { Fragment } from "react";
 import type { ScheduleRow } from "@/lib/data/types";
-import { formatDate, formatPercent, signed } from "@/lib/util/format";
+import { formatDate, formatPercent } from "@/lib/util/format";
 import { ordinal } from "@/lib/calc/ranks";
 import { TeamLogo } from "@/components/shared/TeamLogo";
 import { Legend } from "@/components/shared/Legend";
@@ -11,20 +11,24 @@ const resultClasses: Record<string, string> = {
   T: "text-rank-mid font-bold",
 };
 
+// Fits a 375px phone without sideways scrolling. It used to be a fixed
+// 720px table, so on a phone the result/win-chance column — the one
+// people open a schedule for — sat off-screen. Date, record and rank
+// fold away below tablet width; the date moves under the opponent.
+// The "Opp's SOS (net pts)" column is gone: a number like −18.3 needed a
+// paragraph to explain and still didn't tell a fan anything.
 export function ScheduleTable({ rows }: { rows: ScheduleRow[] }) {
   return (
-    <div className="overflow-x-auto rounded-lg border border-border bg-surface">
-      <table className="w-full min-w-[720px] text-left text-sm">
+    <div className="overflow-hidden rounded-lg border border-border bg-surface">
+      <table className="w-full text-left text-sm">
         <thead className="border-b border-border text-xs uppercase text-muted">
           <tr>
             <th className="px-3 py-2">Wk</th>
-            <th className="px-3 py-2">Date</th>
-            <th className="px-3 py-2">Opp</th>
-            <th className="px-3 py-2">Site</th>
-            <th className="px-3 py-2">Opp Record</th>
-            <th className="px-3 py-2">Opp EPA Rank</th>
-            <th className="px-3 py-2">Opp&apos;s SOS (net pts)</th>
-            <th className="px-3 py-2">Result / Win Prob</th>
+            <th className="hidden px-3 py-2 sm:table-cell">Date</th>
+            <th className="px-3 py-2">Opponent</th>
+            <th className="hidden px-3 py-2 sm:table-cell">Their record</th>
+            <th className="hidden px-3 py-2 sm:table-cell">Their rank</th>
+            <th className="px-3 py-2 text-right sm:text-left">Result / win chance</th>
           </tr>
         </thead>
         <tbody>
@@ -41,10 +45,7 @@ export function ScheduleTable({ rows }: { rows: ScheduleRow[] }) {
                 {byeWeek !== null && (
                   <tr className="border-b border-border bg-navy/5">
                     <td className="px-3 py-2 text-muted">{byeWeek}</td>
-                    <td
-                      className="px-3 py-2 text-xs uppercase tracking-wide text-muted"
-                      colSpan={7}
-                    >
+                    <td className="px-3 py-2 text-xs uppercase tracking-wide text-muted" colSpan={5}>
                       Bye week
                     </td>
                   </tr>
@@ -54,24 +55,27 @@ export function ScheduleTable({ rows }: { rows: ScheduleRow[] }) {
                     r.isDivisional ? "bg-navy/5" : ""
                   }`}
                 >
-                  <td className="px-3 py-2">{r.week}</td>
-                  <td className="px-3 py-2 text-muted">{formatDate(r.date)}</td>
+                  <td className="px-3 py-2 align-top">{r.week}</td>
+                  <td className="hidden px-3 py-2 text-muted sm:table-cell">{formatDate(r.date)}</td>
                   <td className="px-3 py-2 font-medium">
                     <div className="flex items-center gap-2">
+                      <span className="w-5 text-xs font-normal text-muted">
+                        {r.homeAway === "home" ? "vs" : "@"}
+                      </span>
                       <TeamLogo team={r.opponent} size={22} />
                       {r.opponent}
                       {r.isDivisional && <span className="text-xs text-red">DIV</span>}
                     </div>
+                    <div className="ml-7 text-xs font-normal text-muted sm:hidden">
+                      <span className="whitespace-nowrap">{formatDate(r.date)}</span> ·{" "}
+                      <span className="whitespace-nowrap">{r.opponentRecord}</span>
+                    </div>
                   </td>
-                  <td className="px-3 py-2 text-muted">
-                    {r.homeAway === "home" ? "Home" : "Away"}
+                  <td className="hidden px-3 py-2 text-muted sm:table-cell">{r.opponentRecord}</td>
+                  <td className="hidden px-3 py-2 text-muted sm:table-cell">
+                    {ordinal(r.opponentEpaRank)}
                   </td>
-                  <td className="px-3 py-2 text-muted">{r.opponentRecord}</td>
-                  <td className="px-3 py-2 text-muted">{ordinal(r.opponentEpaRank)}</td>
-                  <td className="px-3 py-2 text-muted">
-                    {signed(r.strengthOfSchedule.opponentSos, 1)}
-                  </td>
-                  <td className="px-3 py-2">
+                  <td className="px-3 py-2 text-right sm:text-left">
                     {r.result ? (
                       <span className={resultClasses[r.result]}>
                         {r.result}
@@ -82,9 +86,7 @@ export function ScheduleTable({ rows }: { rows: ScheduleRow[] }) {
                         )}
                       </span>
                     ) : r.winProbabilityEstimate !== undefined ? (
-                      <span className="text-muted">
-                        {formatPercent(r.winProbabilityEstimate, 0)} win prob.
-                      </span>
+                      <span className="text-muted">{formatPercent(r.winProbabilityEstimate, 0)}</span>
                     ) : (
                       <span className="text-muted">—</span>
                     )}
@@ -96,14 +98,11 @@ export function ScheduleTable({ rows }: { rows: ScheduleRow[] }) {
         </tbody>
       </table>
       <Legend
-        className="min-w-[720px] border-t border-border bg-background/50"
+        className="border-t border-border bg-background/50"
         items={[
           { term: "DIV", definition: "divisional matchup" },
-          {
-            term: "Opp's SOS",
-            definition:
-              "average point differential of that opponent's own opponents so far — a higher number means they've faced tougher teams",
-          },
+          { term: "Their rank", definition: "overall rank by EPA/play, offense minus defense — 1st is best" },
+          { term: "Win chance", definition: "a rough model estimate, not a betting line" },
         ]}
       />
     </div>

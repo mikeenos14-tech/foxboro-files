@@ -1,16 +1,16 @@
 [
   {
-    "id": "50053593",
-    "publishedAt": "2026-09-28T18:02:20Z",
-    "type": "Injury",
-    "headline": "Cowboys' Jalen Thompson to be sidelined with hamstring injury",
-    "summary": "Cowboys safety Jalen Thompson could be sidelined four-plus weeks because of a hamstring injury he suffered in Sunday's loss to the Ravens, executive vice president Stephen Jones said Monday.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50053593/cowboys-jalen-thompson-sidelined-hamstring-injury",
-    "sourceName": "ESPN"
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/sec-admits-officiating-error-let-tennessee-use-illegal-onside-kick-vs-texas",
+    "publishedAt": "2026-09-28T18:53:56.000Z",
+    "type": "Analysis",
+    "headline": "SEC admits officiating error let Tennessee use illegal onside kick vs. Texas",
+    "summary": "Saturday's biggest college football game featured a near-comeback by Tennessee that was aided by an officiating error.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/sec-admits-officiating-error-let-tennessee-use-illegal-onside-kick-vs-texas",
+    "sourceName": "Pro Football Talk"
   },
   {
     "id": "50052903",
-    "publishedAt": "2026-09-28T17:59:15Z",
+    "publishedAt": "2026-09-28T18:50:45Z",
     "type": "Transaction",
     "headline": "McCarthy exits Vikings as one of franchise's biggest draft busts",
     "summary": "J.J. McCarthy was the No. 10 pick in 2024 but played only 10 games before being traded to the Giants on Monday.",
@@ -18,12 +18,84 @@
     "sourceName": "ESPN"
   },
   {
+    "id": "50053610",
+    "publishedAt": "2026-09-28T18:48:35Z",
+    "type": "Analysis",
+    "headline": "Saints' offense collapses late against Raiders",
+    "summary": "Katherine Terrell breaks down the Saints' fourth-quarter struggles ahead of Monday's rivalry matchup against the Falcons.",
+    "sourceUrl": "https://www.espn.com/video/clip/_/id/50053610/saints-offense-collapses-late-raiders",
+    "sourceName": "ESPN"
+  },
+  {
     "id": "50043542",
-    "publishedAt": "2026-09-28T17:54:58Z",
+    "publishedAt": "2026-09-28T18:48:16Z",
     "type": "Transaction",
     "headline": "NFL trade deadline grades: J.J. McCarthy to the Giants",
     "summary": "Can J.J. McCarthy improve the Giants' QB situation? Did the Vikings get enough back? We're grading NFL trades ahead of November's deadline.",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/50043542/2026-trade-deadline-grades-latest-best-worst-deals",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50053653",
+    "publishedAt": "2026-09-28T18:37:00Z",
+    "type": "Analysis",
+    "headline": "NFL asks DHS to take down Brian Dawkins social media video",
+    "summary": "The NFL asked DHS to remove a social media post likening former Eagles star Brian Dawkins' greatest hits to immigration agents' treatment of migrants.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50053653/nfl-asks-dhs-take-brian-dawkins-social-media-video",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50052996",
+    "publishedAt": "2026-09-28T18:31:18Z",
+    "type": "Analysis",
+    "headline": "Buccaneers' Mayfield (thumb) out at least three weeks, Bowles says",
+    "summary": "Buccaneers quarterback Baker Mayfield is expected to miss at least three weeks with the dislocated thumb on his throwing hand he suffered Sunday, coach Todd Bowles announced Monday.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50052996/buccaneers-mayfield-thumb-least-three-weeks-bowles-says",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50052864",
+    "publishedAt": "2026-09-28T18:22:44Z",
+    "type": "Transaction",
+    "headline": "Giants acquire QB J.J. McCarthy in trade with Vikings",
+    "summary": "The Giants are trading for Vikings quarterback J.J. McCarthy, sending a 2027 fifth-round draft pick to Minnesota for the 2024 first-round pick.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50052864/sources-giants-acquire-qb-jj-mccarthy-trade-vikings",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50053686",
+    "publishedAt": "2026-09-28T18:22:44Z",
+    "type": "Injury",
+    "headline": "Bucs injury updates on Baker Mayfield and Jalen McMillan",
+    "summary": "Jenna Laine reports on the injuries the Tampa Bay Buccaneers sustained during their 23-16 loss to the Minnesota Vikings.",
+    "sourceUrl": "https://www.espn.com/video/clip/_/id/50053686/bucs-injury-updates-baker-mayfield-jalen-mcmillan",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50053593",
+    "publishedAt": "2026-09-28T18:21:04Z",
+    "type": "Injury",
+    "headline": "Cowboys' Jalen Thompson to be sidelined with hamstring injury",
+    "summary": "Cowboys safety Jalen Thompson could be sidelined four-plus weeks because of a hamstring injury he suffered in Sunday's loss to the Ravens, executive vice president Stephen Jones said Monday.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50053593/cowboys-jalen-thompson-sidelined-hamstring-injury",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=421186",
+    "publishedAt": "2026-09-28T18:18:05.000Z",
+    "type": "Injury",
+    "headline": "Vikings TE Josh Oliver Suffers Torn Biceps",
+    "summary": "Josh Oliver was injured yesterday, and he may not return in 2026. The veteran tight end was feared to have suffered a biceps tear in the aftermath of yesterday’s win, as noted by NFL Network’s Ian Rapoport. An MRI took place on Monday. It confirmed the team’s initial fears, per ESPN’s Jeremy Fowler. Oliver will undergo […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/09/vikings-te-josh-oliver-suffers-torn-biceps",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "50052555",
+    "publishedAt": "2026-09-28T18:17:27Z",
+    "type": "Transaction",
+    "headline": "Matthew Stafford makes cameo in Taylor Swift's 'Patient Zero' music video",
+    "summary": "Why, yes, that was Matthew Stafford. Here's why all signs pointed to the reigning NFL MVP's music video cameo.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50052555/matthew-stafford-taylor-swift-rams-aries-patient-zero-music-video-cameo",
     "sourceName": "ESPN"
   },
   {
@@ -72,15 +144,6 @@
     "sourceName": "Pro Football Rumors"
   },
   {
-    "id": "50052864",
-    "publishedAt": "2026-09-28T17:31:02Z",
-    "type": "Transaction",
-    "headline": "Giants acquire QB J.J. McCarthy in trade with Vikings",
-    "summary": "The Giants are trading for Vikings quarterback J.J. McCarthy, sending a 2027 fifth-round draft pick to Minnesota for the 2024 first-round pick.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50052864/sources-giants-acquire-qb-jj-mccarthy-trade-vikings",
-    "sourceName": "ESPN"
-  },
-  {
     "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/the-vikings-swung-and-missed-in-effort-to-find-a-franchise-quarterback",
     "publishedAt": "2026-09-28T17:26:08.000Z",
     "type": "Analysis",
@@ -97,15 +160,6 @@
     "summary": "With the Giants trading for J.J.",
     "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/giants-to-waive-qb-jake-haener-intend-to-re-sign-him-to-practice-squad",
     "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "50052996",
-    "publishedAt": "2026-09-28T17:19:55Z",
-    "type": "Injury",
-    "headline": "Buccaneers' Mayfield (thumb) out at least three weeks, Bowles says",
-    "summary": "Buccaneers quarterback Baker Mayfield is expected to miss at least three weeks with the dislocated thumb on his throwing hand he suffered Sunday, coach Todd Bowles announced Monday.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50052996/buccaneers-mayfield-thumb-least-three-weeks-bowles-says",
-    "sourceName": "ESPN"
   },
   {
     "id": "50052520",
@@ -155,7 +209,7 @@
   {
     "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/todd-bowles-baker-mayfield-out-a-minimum-of-three-weeks-with-thumb-dislocation",
     "publishedAt": "2026-09-28T16:51:53.000Z",
-    "type": "Injury",
+    "type": "Analysis",
     "headline": "Todd Bowles: Baker Mayfield out a minimum of three weeks with thumb dislocation",
     "summary": "There is more clarity on Buccaneers quarterback Baker Mayfield after he suffered a dislocated thumb late in Sunday’s loss to the Vikings.",
     "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/todd-bowles-baker-mayfield-out-a-minimum-of-three-weeks-with-thumb-dislocation",
@@ -173,7 +227,7 @@
   {
     "id": "profootballrumors-https://www.profootballrumors.com/?p=421164",
     "publishedAt": "2026-09-28T16:40:15.000Z",
-    "type": "Injury",
+    "type": "Analysis",
     "headline": "Buccaneers QB Baker Mayfield To Miss At Least Three Games",
     "summary": "Monday brought about further news with respect to Baker Mayfield and the Buccaneers. Testing has yielded positive results, although missed time is still in store. Mayfield dislocated his thumb late in Sunday’s loss. An MRI revealed no fractures or ligament damage, per ESPN’s Jeremy Fowler. He adds a second opinion is being sought out in this case. […]",
     "sourceUrl": "https://www.profootballrumors.com/2026/09/buccaneers-qb-baker-mayfield-to-miss-at-least-three-games",
@@ -182,7 +236,7 @@
   {
     "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/davante-adams-1-2-start-is-nothing-to-freak-out-about",
     "publishedAt": "2026-09-28T16:38:59.000Z",
-    "type": "Injury",
+    "type": "Analysis",
     "headline": "Davante Adams: 1-2 start is \"nothing to freak out about\"",
     "summary": "When Davante Adams was a rookie on the Packers — way back in 2014 — the team got off to a 1-2 start.",
     "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/davante-adams-1-2-start-is-nothing-to-freak-out-about",
@@ -236,7 +290,7 @@
   {
     "id": "profootballrumors-https://www.profootballrumors.com/?p=421154",
     "publishedAt": "2026-09-28T16:10:12.000Z",
-    "type": "Injury",
+    "type": "Transaction",
     "headline": "Packers To Sign OL Mekhi Becton",
     "summary": "The Packers have lined up another offensive line addition. Mekhi Becton is set to join Green Bay, ESPN’s Jeremy Fowler reports. This deal comes after Becton worked out with the Packers earlier this morning. Matt Schneidman of The Athletic notes this is a practice squad arrangement. Becton represents the latest arrival for a Green Bay offensive line […]",
     "sourceUrl": "https://www.profootballrumors.com/2026/09/packers-to-sign-ol-mekhi-becton",
@@ -245,7 +299,7 @@
   {
     "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-vrabel-drake-maye-needs-to-relax",
     "publishedAt": "2026-09-28T16:05:32.000Z",
-    "type": "Injury",
+    "type": "Analysis",
     "headline": "Mike Vrabel: Drake Maye needs to \"relax\"",
     "summary": "A year after finishing second in the NFL MVP voting, Patriots quarterback Drake Maye won't have to worry about nearly missing out on the award in 2026.",
     "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-vrabel-drake-maye-needs-to-relax",
@@ -263,7 +317,7 @@
   {
     "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dexter-lawrence-our-goal-wasnt-to-go-undefeated-well-own-this-one",
     "publishedAt": "2026-09-28T15:52:19.000Z",
-    "type": "Transaction",
+    "type": "Analysis",
     "headline": "Dexter Lawrence: Our goal wasn't to go undefeated, we'll own this one",
     "summary": "Through two games, the Bengals’ defense looked like it had undergone a significant transformation in the offseason — partially due to the addition of Dexter Lawrence.",
     "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dexter-lawrence-our-goal-wasnt-to-go-undefeated-well-own-this-one",
@@ -272,7 +326,7 @@
   {
     "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/mekhi-becton-worked-out-for-the-packers",
     "publishedAt": "2026-09-28T15:38:27.000Z",
-    "type": "Injury",
+    "type": "Transaction",
     "headline": "Mekhi Becton worked out for the Packers, will sign with the team",
     "summary": "The Packers signed guard Laken Tomlinson after last Thursday's loss to the Falcons and they may not be done adding to their offensive line options.",
     "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/mekhi-becton-worked-out-for-the-packers",
@@ -461,7 +515,7 @@
   {
     "id": "profootballrumors-https://www.profootballrumors.com/?p=421118",
     "publishedAt": "2026-09-28T13:11:23.000Z",
-    "type": "Injury",
+    "type": "Analysis",
     "headline": "Commanders To Sign RB Austin Ekeler",
     "summary": "Austin Ekeler will continue his career in 2026. The veteran running back has lined up a deal with the Commanders, Ian Rapoport and Mike Garafolo of NFL Network report. Ekeler worked out with the Panthers last week, with no agreement being finalized. Nevertheless, he has quickly managed to arrange a pact with a familiar team. Ekeler […]",
     "sourceUrl": "https://www.profootballrumors.com/2026/09/commanders-to-sign-rb-austin-ekeler-2",
@@ -659,7 +713,7 @@
   {
     "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/sean-payton-we-have-to-find-a-way-to-play-better-earlier",
     "publishedAt": "2026-09-28T10:29:23.000Z",
-    "type": "Injury",
+    "type": "Analysis",
     "headline": "Sean Payton: We have to find a way to play better earlier",
     "summary": "The Broncos were down 16-0 against the Rams at halftime on Sunday night, but they put up 30 points in the final 30 minutes to close out the game with their second straight win.",
     "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/sean-payton-we-have-to-find-a-way-to-play-better-earlier",

@@ -62,7 +62,7 @@ export function NextGameHero({
       <div className="mt-3 flex items-center justify-center gap-4 font-display text-5xl font-bold text-white sm:text-6xl">
         <TeamLogo team="NE" size={56} onDark />
         <span>NE</span>
-        <span className="text-2xl text-silver">vs</span>
+        <span className="text-2xl text-silver">{isHome ? "vs" : "@"}</span>
         <span>{opponent}</span>
         <TeamLogo team={opponent} size={56} onDark />
       </div>

@@ -1,7 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import * as store from "@/lib/data/store";
-import { formatDate } from "@/lib/util/format";
+import { formatDate, opponentLabel } from "@/lib/util/format";
 import { TeamLogo } from "@/components/shared/TeamLogo";
 
 export const metadata: Metadata = { title: "Game Recaps" };
@@ -41,7 +41,7 @@ export default async function RecapIndexPage() {
                   <span className="text-xl font-bold text-foreground">
                     {usScore}-{themScore}
                   </span>
-                  <span className="text-muted">vs. {opponent}</span>
+                  <span className="text-muted">{opponentLabel(opponent, isHome)}</span>
                 </div>
                 <span className="text-sm text-muted">
                   Week {game.week} · {formatDate(game.date)}

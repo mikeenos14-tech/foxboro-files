@@ -197,10 +197,22 @@
   },
   "playerOfTheGame": {
     "playerId": "00-0036875",
-    "playerName": "R.Stevenson",
+    "playerName": "Rhamondre Stevenson",
     "wpa": -0.03452450037002586,
     "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/zmpuirvuw4r04inxth5i",
     "reason": "Had the team's best (though still net-negative) win probability contribution at -3% in a tough game offensively."
+  },
+  "scoring": {
+    "us": {
+      "td": 1,
+      "fg": 1,
+      "safety": 0
+    },
+    "them": {
+      "td": 1,
+      "fg": 2,
+      "safety": 0
+    }
   },
   "fanTake": "Well, that was a three-point lesson in how football games slip away when nothing—and I mean nothing—goes right. The Patriots offense generated negative EPA per play while the defense allowed positive EPA per play, and somehow we managed to gift Seattle three turnovers on top of it all. This was the kind of loss that doesn't sting because it was close; it stings because we beat ourselves so thoroughly that the final margin almost feels generous. R.Stevenson taking the hit in win probability added tells you everything you need to know: this was a team self-destructing rather than getting outplayed."
 }

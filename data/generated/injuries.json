@@ -1,48 +1,12 @@
 [
   {
-    "playerId": "4431526",
-    "playerName": "Dametrious Crownover",
-    "position": "OT",
-    "week": 4,
-    "injury": "Coach's Decision",
-    "gameStatus": "Out",
-    "lastUpdated": "2026-09-27T15:33Z"
-  },
-  {
-    "playerId": "4431465",
-    "playerName": "Behren Morton",
-    "position": "QB",
-    "week": 4,
-    "injury": "Coach's Decision",
-    "gameStatus": "Out",
-    "lastUpdated": "2026-09-27T16:35Z"
-  },
-  {
     "playerId": "4831959",
     "playerName": "Eli Raridon",
     "position": "TE",
     "week": 4,
     "injury": "Thigh",
     "gameStatus": "Out",
-    "lastUpdated": "2026-09-27T15:40Z"
-  },
-  {
-    "playerId": "15718",
-    "playerName": "Greg Van Roten",
-    "position": "G",
-    "week": 4,
-    "injury": "Thigh",
-    "gameStatus": "Questionable",
-    "lastUpdated": "2026-09-27T18:11Z"
-  },
-  {
-    "playerId": "4372030",
-    "playerName": "Christian Barmore",
-    "position": "DT",
-    "week": 4,
-    "injury": "Shoulder",
-    "gameStatus": "Questionable",
-    "lastUpdated": "2026-09-27T18:02Z"
+    "lastUpdated": "2026-09-28T18:53Z"
   },
   {
     "playerId": "3915525",
@@ -51,16 +15,7 @@
     "week": 4,
     "injury": "Shoulder",
     "gameStatus": "Out",
-    "lastUpdated": "2026-09-27T15:33Z"
-  },
-  {
-    "playerId": "4431598",
-    "playerName": "Leonard Taylor III",
-    "position": "DT",
-    "week": 4,
-    "injury": "Coach's Decision",
-    "gameStatus": "Out",
-    "lastUpdated": "2026-09-27T15:33Z"
+    "lastUpdated": "2026-09-28T18:53Z"
   },
   {
     "playerId": "4428930",
@@ -69,24 +24,6 @@
     "week": 4,
     "injury": "Shoulder",
     "gameStatus": "Out",
-    "lastUpdated": "2026-09-27T15:42Z"
-  },
-  {
-    "playerId": "3122793",
-    "playerName": "Harold Landry III",
-    "position": "LB",
-    "week": 4,
-    "injury": "Undisclosed",
-    "gameStatus": "Out",
-    "lastUpdated": "2026-08-31T18:30Z"
-  },
-  {
-    "playerId": "4047941",
-    "playerName": "Brenden Schooler",
-    "position": "S",
-    "week": 4,
-    "injury": "Back",
-    "gameStatus": "Out",
-    "lastUpdated": "2026-09-24T01:02Z"
+    "lastUpdated": "2026-09-28T18:53Z"
   }
 ]

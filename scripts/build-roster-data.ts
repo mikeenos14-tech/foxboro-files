@@ -3,11 +3,11 @@
 // roster file + play-by-play. Run with: npx tsx scripts/build-roster-data.ts
 // (after: npx tsx scripts/fetch-nflverse.ts)
 
-import { mkdir, writeFile } from "node:fs/promises";
+import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
-import { loadCsv, num, bool01 } from "./lib/csv";
-import type { PbpRow } from "./lib/pbp";
-import { loadInterceptionWorthyKeys, loadPlayContext, type FtnPlayContext } from "./lib/ftn";
+import { num, bool01 } from "./lib/csv";
+import { loadRegularSeasonPbp, type PbpRow } from "./lib/pbp";
+import { loadChartedGameIds, loadInterceptionWorthyKeys, loadPlayContext, type FtnPlayContext } from "./lib/ftn";
 import { computeDefensivePlayerStats, defensiveGroupStatLine } from "./lib/defensiveStats";
 import { receivingLeaders, rushingLeaders, defensiveLeaders } from "./lib/leaderboards";
 import {
@@ -46,27 +46,58 @@ import type {
 const TEAM = "NE";
 const GENERATED_DIR = path.join(process.cwd(), "data", "generated");
 
+interface EspnDepthChart {
+  depthchart?: Array<{
+    name: string;
+    positions: Record<
+      string,
+      { position: { abbreviation: string }; athletes: Array<{ id: string; displayName: string }> }
+    >;
+  }>;
+}
+
+// ESPN's real depth chart, one formation per unit. It used to be
+// nflverse's roster-file order — which nflverse doesn't claim is a depth
+// order — numbered 1, 2, 3 on the page, so Tommy DeVito read as QB1,
+// Will Campbell as the fifth tackle, and Christian Gonzalez as CB4. If the
+// file is missing the tab shows nothing rather than a guess.
 async function buildDepthChart(): Promise<DepthChartEntry[]> {
-  const roster = await loadTeamRoster(TEAM);
-  const byPosition = new Map<string, RosterRow[]>();
-  for (const r of roster) {
-    const pos = r.depth_chart_position || r.position || "N/A";
-    if (!byPosition.has(pos)) byPosition.set(pos, []);
-    byPosition.get(pos)!.push(r);
+  let raw: EspnDepthChart;
+  try {
+    raw = JSON.parse(await readFile(path.join(process.cwd(), "data", "raw", "espn-depth-chart.json"), "utf-8"));
+  } catch {
+    console.warn("espn-depth-chart.json missing — writing an empty depth chart rather than a guessed one.");
+    return [];
   }
 
-  // File order approximates depth order but isn't an authoritative starter
-  // ranking — nflverse doesn't publish one. Good enough for "who's on this
-  // roster at this position," not a claim about the actual 1/2/3 order.
-  return [...byPosition.entries()].map(([position, players]) => ({
-    position,
-    players: players.map((p, i) => ({
-      playerId: p.gsis_id,
-      playerName: p.full_name,
-      headshotUrl: p.headshot_url || undefined,
-      rank: i + 1,
-    })),
-  }));
+  const headshotByEspnId = new Map(
+    (await loadTeamRoster(TEAM)).filter((r) => r.espn_id).map((r) => [r.espn_id, r.headshot_url])
+  );
+  const unitOf = (formation: string): NonNullable<DepthChartEntry["unit"]> =>
+    /special/i.test(formation) ? "Special Teams" : /\b(D|defense)\b|nickel|dime/i.test(formation) ? "Defense" : "Offense";
+  const unitOrder = { Offense: 0, Defense: 1, "Special Teams": 2 } as const;
+
+  return (raw.depthchart ?? [])
+    .map((formation) => ({ unit: unitOf(formation.name), formation }))
+    .sort((a, b) => unitOrder[a.unit] - unitOrder[b.unit])
+    .flatMap(({ unit, formation }) => {
+      const slots = Object.entries(formation.positions);
+      const abbrevCount = new Map<string, number>();
+      for (const [, v] of slots) {
+        abbrevCount.set(v.position.abbreviation, (abbrevCount.get(v.position.abbreviation) ?? 0) + 1);
+      }
+      return slots.map(([key, v]) => ({
+        unit,
+        // Three "WR" slots in a 3-WR set read as WR1/WR2/WR3.
+        position: (abbrevCount.get(v.position.abbreviation) ?? 0) > 1 ? key.toUpperCase() : v.position.abbreviation,
+        players: v.athletes.map((a, i) => ({
+          playerId: a.id,
+          playerName: a.displayName,
+          headshotUrl: headshotByEspnId.get(a.id) || undefined,
+          rank: i + 1,
+        })),
+      }));
+    });
 }
 
 // ---------- Position-group report cards ----------
@@ -231,14 +262,14 @@ async function buildPositionGroupCards(
       case "TE":
         return receivingStatLine(pbp, rosterByGsis, TEAM, group);
       case "Pass Rush":
-        return defensiveGroupStatLine(defPlayerStats, rosterByGsis, ["OLB"], "sacks", "sacks", "qbHits", "QB hits");
+        return defensiveGroupStatLine(defPlayerStats, rosterByGsis, null, "sacks", "sacks", "qbHits", "QB hits");
       case "Run Defense":
-        return defensiveGroupStatLine(defPlayerStats, rosterByGsis, ["DT", "NT", "DE"], "tfl", "TFL", "sacks", "sacks");
+        return defensiveGroupStatLine(defPlayerStats, rosterByGsis, null, "tfl", "TFL", "forcedFumbles", "forced fumbles");
       case "Pass Defense":
         return defensiveGroupStatLine(
           defPlayerStats,
           rosterByGsis,
-          ["CB", "FS", "SS", "S"],
+          null,
           "interceptions",
           "INT",
           "passesDefended",
@@ -277,7 +308,7 @@ async function buildPositionGroupCards(
     return {
       group: metric.label,
       grade: grade.grade,
-      trend: trendFor(windows),
+      trend: trendFor(grade.grade, windows),
       soWhat: soWhatFor(metric.label, grade.sampleSize),
       windows,
       statLine: statLineFor(metric.label),
@@ -306,15 +337,15 @@ function buildPositionGroupLeagueTable(
       case "RB":
       case "WR":
       case "TE":
-        return "Adj. EPA/play";
+        return "EPA/play";
       case "Pass Protection":
-        return "Adj. pressure rate allowed";
+        return "sack + hit rate allowed";
       case "Pass Rush":
-        return "Adj. sack rate generated";
+        return "sack rate";
       case "Run Defense":
-        return "Adj. rush EPA allowed";
+        return "rush EPA allowed";
       default:
-        return "Adj. pass EPA allowed";
+        return "pass EPA allowed";
     }
   };
 
@@ -325,7 +356,10 @@ function buildPositionGroupLeagueTable(
       return {
         group: metric.label,
         grade: g.grade,
-        rawValue: g.adjustedValue,
+        // The team's actual rate. The grade already carries the
+        // opponent adjustment; printing the adjusted value here showed a
+        // difference-from-expected as if it were the rate itself.
+        rawValue: g.rawValue,
         rawLabel: rawLabelFor(metric.label),
       };
     }),
@@ -339,7 +373,14 @@ function buildPositionGroupLeagueTable(
 // pass-attempt rows — shared by the full-season computation below and by
 // the per-window ("last N games") computation, which just feeds this a
 // smaller row set.
-function qbStatsFromRows(rows: PbpRow[], twpKeys?: Set<string>): QBWindowStats {
+// FTN's turnover-worthy flags plus which games FTN has charted — the two
+// have to travel together so the rate's denominator is charted plays only.
+interface FtnTwp {
+  keys: Set<string>;
+  chartedGames: Set<string>;
+}
+
+function qbStatsFromRows(rows: PbpRow[], twp?: FtnTwp): QBWindowStats {
   const withAirYards = rows.filter((r) => r.air_yards !== "" && r.air_yards !== "NA");
 
   const depthBucket = (rowsInBucket: PbpRow[]) => {
@@ -386,12 +427,15 @@ function qbStatsFromRows(rows: PbpRow[], twpKeys?: Set<string>): QBWindowStats {
     // a charter flags and excludes picks that weren't the QB's fault.
     // Falls back to raw interception rate only if the charting file is
     // missing, which is a narrower but still real measure.
-    turnoverWorthyPlayRate:
-      rows.length === 0
-        ? 0
-        : twpKeys
-          ? rows.filter((r) => twpKeys.has(`${r.game_id}|${r.play_id}`)).length / rows.length
-          : ints / rows.length,
+    // Numerator and denominator both from charted games only: FTN lands a
+    // game or more behind, and dividing charted flags by every dropback
+    // understated the rate and ranked it against teams charted further.
+    turnoverWorthyPlayRate: (() => {
+      if (!twp) return rows.length === 0 ? 0 : ints / rows.length;
+      const charted = rows.filter((r) => twp.chartedGames.has(r.game_id));
+      if (charted.length === 0) return 0;
+      return charted.filter((r) => twp.keys.has(`${r.game_id}|${r.play_id}`)).length / charted.length;
+    })(),
   };
 }
 
@@ -403,7 +447,7 @@ function computeQbStats(
   pbp: PbpRow[],
   team: string,
   rosterByGsis: Map<string, RosterRow>,
-  twpKeys?: Set<string>
+  twp?: FtnTwp
 ): QBDeepDive | null {
   const teamPasses = pbp.filter(
     (r) => r.posteam === team && bool01(r.pass_attempt) && passerId(r)
@@ -423,7 +467,7 @@ function computeQbStats(
     playerName: starterRoster?.full_name ?? rows[0]?.passer ?? "Unknown",
     headshotUrl: starterRoster?.headshot_url || undefined,
     team,
-    ...qbStatsFromRows(rows, twpKeys),
+    ...qbStatsFromRows(rows, twp),
   };
 }
 
@@ -435,7 +479,7 @@ function computeQbWindows(
   pbp: PbpRow[],
   team: string,
   starterId: string,
-  twpKeys?: Set<string>
+  twp?: FtnTwp
 ): Array<{ key: string; label: string; stats: QBWindowStats }> {
   const teamPasses = pbp.filter(
     (r) => r.posteam === team && bool01(r.pass_attempt) && passerId(r) === starterId
@@ -443,7 +487,7 @@ function computeQbWindows(
   return buildLastNGameWindows(pbp, team).map((window) => ({
     key: window.key,
     label: window.label,
-    stats: qbStatsFromRows(filterRowsToWindow(teamPasses, window), twpKeys),
+    stats: qbStatsFromRows(filterRowsToWindow(teamPasses, window), twp),
   }));
 }
 
@@ -455,7 +499,9 @@ function computeQbSituational(
   rows: PbpRow[],
   ctx: Map<string, FtnPlayContext>
 ): QbSituationalSplit[] {
-  const total = rows.length;
+  // Shares are of charted dropbacks — splits over every dropback summed
+  // to 69%, because the latest game wasn't charted yet.
+  const total = rows.filter((r) => ctx.has(`${r.game_id}|${r.play_id}`)).length;
   if (total === 0) return [];
 
   const split = (label: string, pred: (c: FtnPlayContext) => boolean): QbSituationalSplit | null => {
@@ -512,7 +558,7 @@ function attachQbRanks(leagueTable: QBDeepDive[], team: string): QBDeepDive | nu
 
 async function main() {
   await mkdir(GENERATED_DIR, { recursive: true });
-  const pbp = await loadCsv<PbpRow>("play_by_play_2026.csv");
+  const pbp = await loadRegularSeasonPbp("play_by_play_2026.csv");
 
   const depthChart = await buildDepthChart();
   await writeFile(
@@ -581,10 +627,13 @@ async function main() {
   console.log(`Wrote position-group-league-table.json (${positionGroupLeagueTable.length} teams)`);
 
   const rosterByGsis = await buildLeagueRosterByGsis();
-  const twpKeys = await loadInterceptionWorthyKeys();
+  const twp: FtnTwp = {
+    keys: await loadInterceptionWorthyKeys(),
+    chartedGames: await loadChartedGameIds(),
+  };
   const playContext = await loadPlayContext();
   const leagueQbTable = ALL_TEAMS
-    .map((team) => computeQbStats(pbp, team, rosterByGsis, twpKeys))
+    .map((team) => computeQbStats(pbp, team, rosterByGsis, twp))
     .filter((q): q is QBDeepDive => q !== null);
   await writeFile(
     path.join(GENERATED_DIR, "qb-league-table.json"),
@@ -594,13 +643,19 @@ async function main() {
 
   const qb = attachQbRanks(leagueQbTable, TEAM);
   if (qb) {
+    const qbDropbacks = pbp.filter(
+      (r) => r.posteam === TEAM && bool01(r.pass_attempt) && passerId(r) === qb.playerId
+    );
+    const gamesPlayed = new Set(qbDropbacks.map((r) => r.game_id));
+    const gamesCharted = [...gamesPlayed].filter((g) => twp.chartedGames.has(g)).length;
     const qbWithWindows: QBDeepDive = {
       ...qb,
-      windows: computeQbWindows(pbp, TEAM, qb.playerId, twpKeys),
-      situational: computeQbSituational(
-        pbp.filter((r) => r.posteam === TEAM && bool01(r.pass_attempt) && passerId(r) === qb.playerId),
-        playContext
-      ),
+      windows: computeQbWindows(pbp, TEAM, qb.playerId, twp),
+      situational: computeQbSituational(qbDropbacks, playContext),
+      chartingNote:
+        gamesCharted < gamesPlayed.size
+          ? `FTN's charting covers ${gamesCharted} of his ${gamesPlayed.size} games so far — turnover-worthy rate and the splits below use those ${gamesCharted}.`
+          : undefined,
     };
     await writeFile(
       path.join(GENERATED_DIR, "qb-deep-dive.json"),

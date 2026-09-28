@@ -40,35 +40,30 @@ describe("rankGeneric", () => {
 describe("trendFor", () => {
   const w = (key: string, grade: number) => ({ key, label: key, grade });
 
-  test("no direction without at least two windows", () => {
-    assert.equal(trendFor([]), "flat");
-    assert.equal(trendFor([w("last-1", 90)]), "flat");
+  test("no direction until there's a last-game window", () => {
+    assert.equal(trendFor(50, []), "flat");
   });
 
-  test("a big jump in the most recent game reads as up", () => {
-    // windows[0] is the most recent single game; the last entry is the
-    // widest (full-season) window.
-    assert.equal(trendFor([w("last-1", 80), w("last-2", 50)]), "up");
+  test("compares the last game against the season grade passed in", () => {
+    // Real shape: windows never include the season itself. The old
+    // version read the season off the last window and so was always flat.
+    assert.equal(trendFor(19, [w("last-1", 3)]), "down");
+    assert.equal(trendFor(35, [w("last-1", 68)]), "up");
   });
 
-  test("a big drop reads as down", () => {
-    assert.equal(trendFor([w("last-1", 20), w("last-2", 60)]), "down");
+  test("ignores longer windows — it's the last game vs. the season", () => {
+    assert.equal(trendFor(50, [w("last-1", 80), w("last-3", 50)]), "up");
   });
 
   test("small moves stay flat rather than implying signal", () => {
-    assert.equal(trendFor([w("last-1", 55), w("last-2", 50)]), "flat");
-    assert.equal(trendFor([w("last-1", 45), w("last-2", 50)]), "flat");
+    assert.equal(trendFor(50, [w("last-1", 55)]), "flat");
+    assert.equal(trendFor(50, [w("last-1", 45)]), "flat");
   });
 
   test("the threshold is exactly 10 percentile points", () => {
-    assert.equal(trendFor([w("last-1", 60), w("last-2", 50)]), "up");
-    assert.equal(trendFor([w("last-1", 59), w("last-2", 50)]), "flat");
-    assert.equal(trendFor([w("last-1", 40), w("last-2", 50)]), "down");
-    assert.equal(trendFor([w("last-1", 41), w("last-2", 50)]), "flat");
-  });
-
-  test("compares against the widest window, not the second one", () => {
-    const windows = [w("last-1", 80), w("last-2", 79), w("last-3", 50)];
-    assert.equal(trendFor(windows), "up");
+    assert.equal(trendFor(50, [w("last-1", 60)]), "up");
+    assert.equal(trendFor(50, [w("last-1", 59)]), "flat");
+    assert.equal(trendFor(50, [w("last-1", 40)]), "down");
+    assert.equal(trendFor(50, [w("last-1", 41)]), "flat");
   });
 });

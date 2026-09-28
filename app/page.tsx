@@ -1,3 +1,4 @@
+import { PriorBlendNote } from "@/components/next-game/PriorBlendNote";
 import { TeamLogo } from "@/components/shared/TeamLogo";
 import { PercentBar } from "@/components/shared/PercentBar";
 import { HeroAnswerCard } from "@/components/shared/HeroAnswerCard";
@@ -16,7 +17,7 @@ export default async function HomePage({
   searchParams: Promise<{ teamWindow?: string }>;
 }) {
   const { teamWindow } = await searchParams;
-  const [teamStats, schedule, projection, nextGame, lastGame, news, standings, priorSeason, reportCards] =
+  const [teamStats, schedule, projection, nextGame, lastGame, news, standings, priorSeason, reportCards, matchup] =
     await Promise.all([
       store.getTeamStats(),
       store.getSchedule(),
@@ -27,6 +28,7 @@ export default async function HomePage({
       store.getDivisionStandings(),
       store.getPriorSeason(),
       store.getPositionGroupReportCards(),
+      store.getOpponentMatchup(),
     ]);
 
   const played = schedule.filter((g) => g.result);
@@ -42,9 +44,16 @@ export default async function HomePage({
   // cards pointing different directions.
   const verdict = buildVerdict(teamStats, wins, losses, ties);
 
-  const streakText = us?.streak
-    ? `on a ${us.streak.count}-game ${us.streak.result === "W" ? "winning" : us.streak.result === "L" ? "losing" : ""} streak`
-    : "yet to establish a streak";
+  // "On a 1-game losing streak" is just a loss.
+  const streakText = !us?.streak
+    ? "yet to establish a streak"
+    : us.streak.count === 1
+      ? us.streak.result === "W"
+        ? "coming off a win"
+        : us.streak.result === "L"
+          ? "coming off a loss"
+          : "coming off a tie"
+      : `on a ${us.streak.count}-game ${us.streak.result === "W" ? "winning" : us.streak.result === "L" ? "losing" : "unbeaten"} streak`;
   const diffText =
     teamStats.pointDifferential.value === 0
       ? "an even"
@@ -101,6 +110,14 @@ export default async function HomePage({
             <MiniGameCard label="Next" game={nextGame} />
           </div>
         </div>
+        {projection.playoffOdds !== undefined && (
+          <PriorBlendNote
+            weight={matchup.priorBlendWeight}
+            subject="Playoff odds"
+            onDark
+            className="mt-4 max-w-2xl"
+          />
+        )}
       </div>
 
       <div className="px-4 sm:px-0">

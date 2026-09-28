@@ -31,7 +31,7 @@ export function StatListTable({ rows }: { rows: StatListRow[] }) {
               <tr key={row.label} className="border-b border-border/60 last:border-0">
                 <th scope="row" className="px-3 py-3 text-left font-normal text-muted sm:px-4">
                   {row.label}
-                  {row.note && <span className="ml-2 text-xs text-muted/80">{row.note}</span>}
+                  {row.note && <span className="ml-2 text-xs text-muted/80">{" "}{row.note}</span>}
                 </th>
                 <td className="px-3 py-3 text-right sm:px-4">
                   <span className="font-display text-lg font-semibold tabular-nums text-foreground">

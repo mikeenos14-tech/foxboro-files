@@ -27,7 +27,7 @@ export default async function AroundTheLeaguePage() {
       </div>
 
       <div>
-        <h2 className="mb-3 text-lg font-semibold">NFL Power Rankings</h2>
+        <h2 className="mb-3 text-lg font-semibold">Offense &amp; Defense Rankings</h2>
         <LeagueEpaRankings rankings={epaRankings} />
       </div>
 

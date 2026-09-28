@@ -13,21 +13,30 @@
 // computed (see scripts/lib/priorBlend.ts), so this renders nothing at
 // all once the blend is over — which happens at 4 games, after which
 // the pages agree on their own and there's nothing left to explain.
+//
+// Also shown on Home (playoff odds) and Schedule (win chances), which are
+// blended the same way and used to say nothing about it.
 export function PriorBlendNote({
   weight,
+  subject = "These numbers",
+  onDark = false,
   className = "",
 }: {
   weight: number;
+  subject?: string;
+  onDark?: boolean;
   className?: string;
 }) {
   if (weight <= 0) return null;
   const pct = Math.round(weight * 100);
   return (
-    <p className={`text-xs text-muted ${className}`}>
-      <span className="font-medium text-foreground">{pct}% last season.</span>{" "}
-      These are forward-looking, so they lean on 2025 while this year&apos;s sample is
-      thin, fading to zero at four games. The League and Roster pages count this season
-      only, so their numbers will differ until then.
+    <p className={`text-xs ${onDark ? "text-white/60" : "text-muted"} ${className}`}>
+      <span className={`font-medium ${onDark ? "text-white/80" : "text-foreground"}`}>
+        {subject} still lean {pct}% on last season.
+      </span>{" "}
+      This year&apos;s sample is small, so forward-looking numbers blend in 2025 and fade it out
+      after four games. The League and Roster pages use this season only, so they&apos;ll differ
+      until then.
     </p>
   );
 }

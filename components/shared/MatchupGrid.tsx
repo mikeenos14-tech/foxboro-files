@@ -42,7 +42,7 @@ export function MatchupGrid({ matchups }: { matchups: PositionMatchup[] }) {
               </span>
               <span className="ml-1 text-xs text-muted">them</span>
             </div>
-            <span className="text-[11px] text-muted">percentile vs. league</span>
+            <span className="text-[11px] text-muted">grade out of 100</span>
           </div>
           {(m.ourStatLine || m.theirStatLine) && (
             <div className="mt-2 space-y-0.5 text-xs tabular-nums text-muted">

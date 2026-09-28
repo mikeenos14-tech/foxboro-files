@@ -1,14 +1,5 @@
 [
   {
-    "id": "839f6552-5e20-47fd-aff6-257082aa5a81",
-    "publishedAt": "2026-09-28T17:11:37.000Z",
-    "type": "Analysis",
-    "headline": "Transcript: Head Coach Mike Vrabel Press Conference 9/28",
-    "summary": "Read the full transcript from Head Coach Mike Vrabel's press conference on Monday, September 28, 2026.",
-    "sourceUrl": "https://www.patriots.com/news/transcript-head-coach-mike-vrabel-press-conference-9-28",
-    "sourceName": "Patriots.com"
-  },
-  {
     "id": "50048114",
     "publishedAt": "2026-09-28T14:47:55Z",
     "type": "Analysis",
@@ -25,6 +16,15 @@
     "summary": "Are the Patriots using Drake Maye the wrong way? ",
     "sourceUrl": "https://www.espn.com/video/clip/_/id/50051609/are-patriots-using-drake-maye-wrong-way",
     "sourceName": "ESPN"
+  },
+  {
+    "id": "839f6552-5e20-47fd-aff6-257082aa5a81",
+    "publishedAt": "2026-09-28T11:00:00.000Z",
+    "type": "Beat Report",
+    "headline": "Transcript: Head Coach Mike Vrabel Press Conference 9/28",
+    "summary": "Read the full transcript from Head Coach Mike Vrabel's press conference on Monday, September 28, 2026.",
+    "sourceUrl": "https://www.patriots.com/news/transcript-head-coach-mike-vrabel-press-conference-9-28",
+    "sourceName": "Patriots.com"
   },
   {
     "id": "50046497",
@@ -47,7 +47,7 @@
   {
     "id": "20a5015c-9c9a-4568-a550-ae2584c6d5e6",
     "publishedAt": "2026-09-27T21:25:49.000Z",
-    "type": "Analysis",
+    "type": "Beat Report",
     "headline": "Game Observations: 8 takeaways from the Patriots loss to the Jaguars in Week 3",
     "summary": "The Patriots trip to Jacksonville ended in a disappointing 35-6 loss to the Jaguars on Sunday.",
     "sourceUrl": "https://www.patriots.com/news/game-observations-8-takeaways-from-the-patriots-loss-to-the-jaguars-in-week-3",
@@ -56,7 +56,7 @@
   {
     "id": "dea1bdd8-2c9d-48b6-b080-9f84e60dff04",
     "publishedAt": "2026-09-27T21:20:15.000Z",
-    "type": "Analysis",
+    "type": "Beat Report",
     "headline": "Game Notes: Marcus Jones Snags His First Pick of the Season",
     "summary": "Game notes and stats from the Patriots Week 3 game against the Jacksonville Jaguars on Sunday, September 27, 2026.",
     "sourceUrl": "https://www.patriots.com/news/game-notes-marcus-jones-snags-his-first-pick-of-the-season",
@@ -65,7 +65,7 @@
   {
     "id": "50045541",
     "publishedAt": "2026-09-27T20:42:05Z",
-    "type": "Analysis",
+    "type": "Beat Report",
     "headline": "New England Patriots vs. Jacksonville Jaguars: Game Highlights",
     "summary": "New England Patriots vs. Jacksonville Jaguars: Game Highlights",
     "sourceUrl": "https://www.espn.com/video/clip/_/id/50045541/game-highlights",
@@ -74,7 +74,7 @@
   {
     "id": "9fc40daf-017d-4bb3-a8cd-f105a0dc29be",
     "publishedAt": "2026-09-27T20:12:39.000Z",
-    "type": "Analysis",
+    "type": "Beat Report",
     "headline": "Gamebook: Patriots at Jaguars Week 3",
     "summary": "Download the NFL Gamebook with all of the statistics from the Patriots Week 3 game against the Jacksonville Jaguars on Sunday, September 27, 2026.",
     "sourceUrl": "https://www.patriots.com/news/gamebook-patriots-at-jaguars-week-3",
@@ -83,7 +83,7 @@
   {
     "id": "b9db2df5-3ff2-453a-a65e-99dddeff008a",
     "publishedAt": "2026-09-27T20:00:00.000Z",
-    "type": "Analysis",
+    "type": "Beat Report",
     "headline": "New England Patriots Postgame Quotes 9/27",
     "summary": "New England Patriots Head Coach Mike Vrabel and select players comment on their Week 3 game against the Jacksonville Jaguars on Sunday, September 27, 2026.",
     "sourceUrl": "https://www.patriots.com/news/new-england-patriots-postgame-quotes-9-27-x4295",
@@ -110,7 +110,7 @@
   {
     "id": "50016408",
     "publishedAt": "2026-09-24T10:41:46Z",
-    "type": "Injury",
+    "type": "Analysis",
     "headline": "Why Patriots must be better at managing the clock before halftime",
     "summary": "After two straight games with questionable decisions before halftime, the Patriots admit they need to improve on possessions late in the second quarter.",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/50016408/new-england-patriots-clock-management-mike-vrabel",
@@ -119,7 +119,7 @@
   {
     "id": "50016860",
     "publishedAt": "2026-09-24T02:08:33Z",
-    "type": "Transaction",
+    "type": "Analysis",
     "headline": "Patriots get positive sign from rookie TE Eli Raridon",
     "summary": "Mike Reiss breaks down Eli Raridon's return to practice as the Patriots monitor his status ahead of Sunday's matchup with Jacksonville.",
     "sourceUrl": "https://www.espn.com/video/clip/_/id/50016860/patriots-get-positive-sign-rookie-te-eli-raridon",

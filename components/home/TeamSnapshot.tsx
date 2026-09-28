@@ -49,7 +49,6 @@ export function TeamSnapshot({
   const [selected, setSelected] = useWindowParam("teamWindow", initialWindow, "season");
   const isPrior = priorKey !== null && selected === priorKey;
   const window = teamStats.epaPerPlayWindows.find((w) => w.key === selected);
-  const windowLabel = isPrior ? `${priorSeason?.season} season` : (window?.label ?? null);
 
   // Three possible sources, normalised to one shape. The live windows
   // carry EPA as top-level offense/defense; the prior-season snapshot
@@ -112,7 +111,7 @@ export function TeamSnapshot({
       <div>
         <div className="mb-2 flex items-baseline justify-between gap-2">
           <h3 className="text-xs font-bold uppercase tracking-wide text-muted">Unit Grades</h3>
-          <a href="/roster" className="text-xs text-muted underline hover:text-foreground">
+          <a href="/roster?tab=grades" className="text-xs text-muted underline hover:text-foreground">
             Full breakdown →
           </a>
         </div>
@@ -133,12 +132,6 @@ export function TeamSnapshot({
           <span className="font-medium text-foreground">
             {ordinal(pointDifferential.leagueRank)} in the NFL
           </span>
-          {!windowLabel && (
-            <>
-              {" · "}
-              Pythagorean win% suggests a {formatPercent(teamStats.pythagoreanWinPct)} true-talent team.
-            </>
-          )}
         </div>
       </div>
 

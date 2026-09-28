@@ -28,7 +28,7 @@ A page-by-page rundown of what's actually live on the site (foxboro-files.vercel
 - Tabbed:
   - **Preview** — AI-written preview take, opponent offensive/defensive EPA rank, Matchup of the Week callout.
   - **Matchups** — 5 position-group grades (pass/rush offense vs. defense, pass protection vs. rush), opponent-adjusted and blended with real 2025 prior-season data; recent form; head-to-head history.
-  - **Injuries** — both teams side by side, real Wed/Thu/Fri practice-participation status sourced directly from patriots.com.
+  - **Injuries** — both teams side by side: the official report once it's out (with patriots.com's same-day practice status), otherwise only designations made since each team's last game — never last week's list or healthy scratches.
 
 ## Schedule
 
@@ -44,14 +44,14 @@ A page-by-page rundown of what's actually live on the site (foxboro-files.vercel
 ## Roster & Stats
 
 Tabbed:
-- **QB** — CPOE, turnover-worthy rate, pressure/clean-pocket EPA, accuracy by depth, all ranked against the other 31 starting QBs; head-to-head comparison tool against any other starter.
-- **Position Grades** — 8 position groups, percentile-graded vs. the league with a visual bar, each showing its real box-score stat line and flagging thin samples.
+- **QB** — official box score (matches nflverse exactly), CPOE, turnover-worthy rate, EPA when hit or sacked vs. not, accuracy by depth, ranked against the other 31 starting QBs; head-to-head comparison tool against any other starter.
+- **Grades** — 8 units graded out of 100 vs. the league with a visual bar and trend arrow, each showing its real box-score stat line and flagging thin samples.
 - **Splits & Special Teams** — situational splits, kicking/return stats.
-- **Depth Chart**.
+- **Depth Chart** — the team's own, via ESPN, by offense, defense and special teams.
 
 ## Around the League
 
-- League-wide power rankings — current-season-only, opponent-adjusted EPA (offense and defense).
+- League-wide offense and defense rankings — current-season-only, opponent-adjusted EPA.
 - Last week's final scores across the whole league.
 - All 8 division standings.
 - AI-curated top league headlines — real trades/injuries/storylines from ESPN + Pro Football Rumors + Pro Football Talk, fantasy content filtered out.
@@ -59,5 +59,5 @@ Tabbed:
 ## Methodology (what makes these "stats," not just numbers)
 
 - Team-level vs.-league numbers are **opponent-adjusted** — a defense gets more credit for shutting down a good offense than a bad one. Position-group and QB numbers are not opponent-adjusted, but are **regressed to the league mean by sample size**.
-- Win-probability and matchup numbers **blend in real 2025 prior-season data**, phased out linearly by 4 games played. Team Strength and the league power rankings are pure current-season.
+- Win-probability and matchup numbers **blend in real 2025 prior-season data**, phased out linearly by 4 games played. Team Strength and the league rankings are pure current-season.
 - Every AI-written passage is **grounded** — written only from real computed stats and real fetched articles, never free-generated.

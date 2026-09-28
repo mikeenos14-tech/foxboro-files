@@ -182,6 +182,11 @@ export function receivingDetailLine(split: ReceivingSplit): string {
   if (split.contestedTargets > 0) {
     parts.push(`${split.contestedCatches}/${split.contestedTargets} contested`);
   }
+  // FTN charting trails the games. Without this, "20 of 21 catchable"
+  // sat under "32/53" with nothing saying the two cover different games.
+  if (split.chartedTargets < split.targets) {
+    parts.push(`charted so far: ${split.chartedTargets} of ${split.targets} targets`);
+  }
   return parts.join(" · ");
 }
 

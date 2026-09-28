@@ -50,7 +50,7 @@ function buildSections(maye: QBDeepDive, opp: QBDeepDive): Section[] {
           oppRaw: opp.attempts > 0 ? opp.completions / opp.attempts : 0,
           higherIsBetter: true,
         },
-        { label: "Yards", mayeDisplay: `${maye.yards}`, oppDisplay: `${opp.yards}`, mayeRaw: 0, oppRaw: 0 },
+        { label: "Yards", mayeDisplay: maye.yards.toLocaleString("en-US"), oppDisplay: opp.yards.toLocaleString("en-US"), mayeRaw: 0, oppRaw: 0 },
         {
           label: "TD",
           mayeDisplay: `${maye.tds}`,
@@ -89,7 +89,7 @@ function buildSections(maye: QBDeepDive, opp: QBDeepDive): Section[] {
           higherIsBetter: false,
         },
         {
-          label: "Clean pocket EPA",
+          label: "EPA when not hit",
           mayeDisplay: signed(maye.cleanPocketEpa),
           oppDisplay: signed(opp.cleanPocketEpa),
           mayeRaw: maye.cleanPocketEpa,
@@ -97,7 +97,7 @@ function buildSections(maye: QBDeepDive, opp: QBDeepDive): Section[] {
           higherIsBetter: true,
         },
         {
-          label: "Under pressure EPA",
+          label: "EPA when hit or sacked",
           mayeDisplay: signed(maye.pressureEpa),
           oppDisplay: signed(opp.pressureEpa),
           mayeRaw: maye.pressureEpa,

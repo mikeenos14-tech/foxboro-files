@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Game } from "@/lib/data/types";
-import { formatDate } from "@/lib/util/format";
+import { formatDate, opponentLabel } from "@/lib/util/format";
 import { TeamLogo } from "@/components/shared/TeamLogo";
 
 // Sofascore's compact Previous/Next-game pattern: a small inline card
@@ -37,7 +37,7 @@ function CardBody({ label, game }: { label: string; game: Game }) {
           </>
         ) : (
           <span className="truncate font-display text-lg font-bold text-white">
-            vs. {opponent}
+            {opponentLabel(opponent, isHome)}
           </span>
         )}
       </div>

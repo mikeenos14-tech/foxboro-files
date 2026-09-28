@@ -6,7 +6,7 @@ Repo: `mikeenos14-tech/foxboro-files` · 91 commits as of this writing.
 
 ## What it is
 
-A fan site pitched as analytically serious (EPA-based stats, opponent-adjusted rankings, win probability, playoff odds) but still fun and readable — not a spreadsheet. Original wordmark and navy/red/silver color palette, deliberately no official NFL/Patriots logos or shield graphics (trademark exposure). Seven sections: Home, Recap, Next Game, Schedule, News, Roster & Stats, Around the League (league-wide standings/power rankings/headlines).
+A fan site pitched as analytically serious (EPA-based stats, opponent-adjusted rankings, win probability, playoff odds) but still fun and readable — not a spreadsheet. Original wordmark and navy/red/silver color palette, deliberately no official NFL/Patriots logos or shield graphics (trademark exposure). Seven sections: Home, Recap, Next Game, Schedule, News, Roster & Stats, Around the League (league-wide standings/offense and defense rankings/headlines).
 
 ## Tech stack
 
@@ -48,7 +48,7 @@ Two workflows, split by how often the underlying reality actually changes:
 ## Notable methodology / analytical decisions
 
 - **Opponent-adjusted EPA** via a leave-one-out baseline: a team's game is adjusted against its opponent's average performance in their *other* games only, to avoid the two-teams-who-only-played-each-other collapsing each other's value to zero.
-- **Predictive vs. descriptive framing, deliberately kept separate**: Team Strength cards, Next Game ranks, and win probability blend in real 2025 prior-season data (linearly taken to zero by 4 games played — originally 8 to match EPA-stabilization research, revised down because that research is about within-season sample stability, not how much a different season's roster should still count) because those are meant to be predictive. The Around the League power rankings are explicitly *not* blended — pure current-season EPA only, because that section is framed as "who's been best this year," not a forecast.
+- **Predictive vs. descriptive framing, deliberately kept separate**: playoff odds, win probability, Next Game ranks and grades blend in real 2025 prior-season data (linearly taken to zero by 4 games played — originally 8 to match EPA-stabilization research, revised down because that research is about within-season sample stability, not how much a different season's roster should still count) because those are meant to be predictive. Home's Team Strength cards, the Roster grades and the Around the League rankings are explicitly *not* blended — pure current-season only, because they describe "who's been best this year," not a forecast.
 - **Small-sample-size honesty**: when several unrelated stats coincidentally landed on the exact same league rank early in the season, the answer was to actually compute and verify the real numbers (no shared raw values, no tie-breaking bug) rather than assume a bug — it's a real, explainable small-n artifact, and that's what got reported back.
 
 ## Design conventions

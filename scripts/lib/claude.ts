@@ -50,6 +50,30 @@ export async function generateText(
   }
 }
 
+// Generates, runs the deterministic checks in aiChecks.ts, and retries
+// once with the specific problems spelled out. Returns null if the second
+// draft still fails — callers then keep whatever was there before rather
+// than publish text that's known to be wrong.
+export async function generateChecked<T>(
+  generate: (user: string) => Promise<T | null>,
+  user: string,
+  toText: (result: T) => string,
+  check: (text: string) => string[],
+  label: string
+): Promise<T | null> {
+  let prompt = user;
+  for (let attempt = 1; attempt <= 2; attempt++) {
+    const result = await generate(prompt);
+    if (!result) return null;
+    const problems = check(toText(result));
+    if (problems.length === 0) return result;
+    console.warn(`${label}: draft ${attempt} rejected — ${problems.join(" ")}`);
+    prompt = `${user}\n\nYour previous draft was rejected for these reasons. Fix every one and use only the facts above:\n${problems.map((p) => `- ${p}`).join("\n")}`;
+  }
+  console.warn(`${label}: still failing checks after a retry — keeping previous content.`);
+  return null;
+}
+
 // For prompts that ask the model to respond with only JSON matching a
 // known shape. Strips a markdown code fence if the model wraps its
 // answer in one despite instructions not to, and returns null (never

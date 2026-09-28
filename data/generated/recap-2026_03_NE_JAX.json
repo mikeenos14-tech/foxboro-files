@@ -197,10 +197,22 @@
   },
   "playerOfTheGame": {
     "playerId": "00-0036875",
-    "playerName": "R.Stevenson",
+    "playerName": "Rhamondre Stevenson",
     "wpa": 0.06984391808509827,
     "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/zmpuirvuw4r04inxth5i",
     "reason": "Led the team with +7% win probability added."
+  },
+  "scoring": {
+    "us": {
+      "td": 0,
+      "fg": 2,
+      "safety": 0
+    },
+    "them": {
+      "td": 5,
+      "fg": 0,
+      "safety": 0
+    }
   },
   "fanTake": "Well, that was thorough. The Jaguars came to Foxboro and conducted what can only be described as a masterclass in how to dismantle a football team, winning 35-6 in a performance that felt less like a game and more like a carefully orchestrated dismantling. Trevor Lawrence threw three touchdown passes—including a ridiculous fingertip catch from Parker Washington that probably played on highlight reels for a week—while our offense managed to score a field goal and not much else. We went 0-for-4 in the red zone while Jacksonville converted 5-for-5 in theirs, which is basically the mathematical equivalent of saying \"they executed and we didn't.\" With Eli Raridon and Craig Woodson inactive, we were already dealing with roster constraints, but that doesn't fully explain an offensive EPA per play of -0.25 or a third-down conversion rate of 4-for-12. Remy Stevenson salvaged something with a 7% win probability added, but when your running back is your player of the game in a 35-6 loss, that tells you everything you need to know about the afternoon."
 }

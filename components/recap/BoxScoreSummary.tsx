@@ -1,5 +1,5 @@
 import type { Game } from "@/lib/data/types";
-import { formatDate } from "@/lib/util/format";
+import { formatDate, opponentLabel } from "@/lib/util/format";
 import { TeamLogo } from "@/components/shared/TeamLogo";
 import { CountUp } from "@/components/shared/CountUp";
 import { WinConfetti } from "./WinConfetti";
@@ -15,7 +15,8 @@ export function BoxScoreSummary({ game }: { game: Game }) {
     <div className="-mx-4 hero-texture bg-gradient-to-br from-navy via-navy to-navy-deep px-4 py-8 text-center sm:mx-0 sm:rounded-xl sm:px-6">
       <WinConfetti won={won} />
       <p className="text-sm text-white/70">
-        {formatDate(game.date)} · {game.venue}
+        {formatDate(game.date)}
+        {game.venue ? ` · ${game.venue}` : ""}
         {game.network ? ` · ${game.network}` : ""}
       </p>
       <div className="mt-3 flex items-center justify-center gap-4">
@@ -36,7 +37,7 @@ export function BoxScoreSummary({ game }: { game: Game }) {
         </span>
         <TeamLogo team={opponent} size={64} onDark />
       </div>
-      <p className="mt-2 text-lg text-white/70">vs. {opponent}</p>
+      <p className="mt-2 text-lg text-white/70">{opponentLabel(opponent, isHome)}</p>
     </div>
   );
 }

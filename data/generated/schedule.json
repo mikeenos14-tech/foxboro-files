@@ -18,7 +18,8 @@
     "result": "L",
     "ourScore": 10,
     "theirScore": 13,
-    "date": "2026-09-09"
+    "date": "2026-09-09",
+    "venue": "Lumen Field"
   },
   {
     "gameId": "2026_02_PIT_NE",
@@ -39,7 +40,8 @@
     "result": "W",
     "ourScore": 20,
     "theirScore": 3,
-    "date": "2026-09-20"
+    "date": "2026-09-20",
+    "venue": "Gillette Stadium"
   },
   {
     "gameId": "2026_03_NE_JAX",
@@ -60,7 +62,8 @@
     "result": "L",
     "ourScore": 6,
     "theirScore": 35,
-    "date": "2026-09-27"
+    "date": "2026-09-27",
+    "venue": "EverBank Stadium"
   },
   {
     "gameId": "2026_04_NE_BUF",
@@ -79,7 +82,8 @@
     "isDivisional": true,
     "isConference": true,
     "winProbabilityEstimate": 0.31228661480955594,
-    "date": "2026-10-04"
+    "date": "2026-10-04",
+    "venue": "Highmark Stadium"
   },
   {
     "gameId": "2026_05_LV_NE",
@@ -98,7 +102,8 @@
     "isDivisional": false,
     "isConference": true,
     "winProbabilityEstimate": 0.4793544879628843,
-    "date": "2026-10-11"
+    "date": "2026-10-11",
+    "venue": "Gillette Stadium"
   },
   {
     "gameId": "2026_06_NYJ_NE",
@@ -117,7 +122,8 @@
     "isDivisional": true,
     "isConference": true,
     "winProbabilityEstimate": 0.5571214106276672,
-    "date": "2026-10-18"
+    "date": "2026-10-18",
+    "venue": "Gillette Stadium"
   },
   {
     "gameId": "2026_07_NE_CHI",
@@ -136,7 +142,8 @@
     "isDivisional": false,
     "isConference": false,
     "winProbabilityEstimate": 0.3562550789843832,
-    "date": "2026-10-22"
+    "date": "2026-10-22",
+    "venue": "Soldier Field"
   },
   {
     "gameId": "2026_08_NE_MIA",
@@ -155,7 +162,8 @@
     "isDivisional": true,
     "isConference": true,
     "winProbabilityEstimate": 0.7009910640332145,
-    "date": "2026-11-01"
+    "date": "2026-11-01",
+    "venue": "Hard Rock Stadium"
   },
   {
     "gameId": "2026_09_GB_NE",
@@ -174,7 +182,8 @@
     "isDivisional": false,
     "isConference": false,
     "winProbabilityEstimate": 0.6774759552690358,
-    "date": "2026-11-08"
+    "date": "2026-11-08",
+    "venue": "Gillette Stadium"
   },
   {
     "gameId": "2026_10_NE_DET",
@@ -193,7 +202,8 @@
     "isDivisional": false,
     "isConference": false,
     "winProbabilityEstimate": 0.43981919271253905,
-    "date": "2026-11-15"
+    "date": "2026-11-15",
+    "venue": "FC Bayern Munich Stadium"
   },
   {
     "gameId": "2026_12_NE_LAC",
@@ -212,7 +222,8 @@
     "isDivisional": false,
     "isConference": true,
     "winProbabilityEstimate": 0.6285081805867659,
-    "date": "2026-11-29"
+    "date": "2026-11-29",
+    "venue": "SoFi Stadium"
   },
   {
     "gameId": "2026_13_BUF_NE",
@@ -231,7 +242,8 @@
     "isDivisional": true,
     "isConference": true,
     "winProbabilityEstimate": 0.36781163224931024,
-    "date": "2026-12-06"
+    "date": "2026-12-06",
+    "venue": "Gillette Stadium"
   },
   {
     "gameId": "2026_14_MIN_NE",
@@ -250,7 +262,8 @@
     "isDivisional": false,
     "isConference": false,
     "winProbabilityEstimate": 0.4838096372637648,
-    "date": "2026-12-10"
+    "date": "2026-12-10",
+    "venue": "Gillette Stadium"
   },
   {
     "gameId": "2026_15_NE_KC",
@@ -269,7 +282,8 @@
     "isDivisional": false,
     "isConference": true,
     "winProbabilityEstimate": 0.25196014329425986,
-    "date": "2026-12-21"
+    "date": "2026-12-21",
+    "venue": "GEHA Field at Arrowhead Stadium"
   },
   {
     "gameId": "2026_16_NE_NYJ",
@@ -288,7 +302,8 @@
     "isDivisional": true,
     "isConference": true,
     "winProbabilityEstimate": 0.5071214106276671,
-    "date": "2026-12-27"
+    "date": "2026-12-27",
+    "venue": "MetLife Stadium"
   },
   {
     "gameId": "2026_17_DEN_NE",
@@ -307,7 +322,8 @@
     "isDivisional": false,
     "isConference": true,
     "winProbabilityEstimate": 0.5095640928741012,
-    "date": "2027-01-03"
+    "date": "2027-01-03",
+    "venue": "Gillette Stadium"
   },
   {
     "gameId": "2026_18_MIA_NE",
@@ -326,6 +342,7 @@
     "isDivisional": true,
     "isConference": true,
     "winProbabilityEstimate": 0.7509910640332146,
-    "date": "2027-01-10"
+    "date": "2027-01-10",
+    "venue": "Gillette Stadium"
   }
 ]

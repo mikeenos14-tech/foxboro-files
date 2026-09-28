@@ -10,15 +10,15 @@ import { MatchupOfTheWeekCallout } from "@/components/next-game/MatchupOfTheWeek
 import { RecentFormTrend } from "@/components/next-game/RecentFormTrend";
 import { NextGameHero } from "@/components/next-game/NextGameHero";
 import { ScorePredictor } from "@/components/next-game/ScorePredictor";
-import { formatDate } from "@/lib/util/format";
-import { ordinal } from "@/lib/calc/ranks";
+import { formatDate, opponentLabel } from "@/lib/util/format";
+import { formatRank } from "@/lib/calc/ranks";
 
 export async function generateMetadata(): Promise<Metadata> {
   const [game, matchup] = await Promise.all([
     store.getNextGame(),
     store.getOpponentMatchup(),
   ]);
-  return { title: `Week ${game.week} vs. ${matchup.opponent}` };
+  return { title: `Week ${game.week} ${opponentLabel(matchup.opponent, game.homeTeam === "NE")}` };
 }
 
 export default async function NextGamePage() {
@@ -39,8 +39,6 @@ export default async function NextGamePage() {
         bettingContext={matchup.bettingContext}
       />
 
-      <ScorePredictor opponent={matchup.opponent} neWinProb={neWinProb} />
-
       <Tabs
         tabs={[
           {
@@ -57,18 +55,18 @@ export default async function NextGamePage() {
                 )}
 
                 <div className="grid gap-3 sm:grid-cols-2">
+                  {/* No rank badge: its green-is-good coloring reads
+                      backwards for an opponent, and it repeated the number. */}
                   <StatCard
-                    label="Opponent Offensive EPA Rank"
-                    value={ordinal(matchup.opponentEpaRank.offense)}
-                    leagueRank={matchup.opponentEpaRank.offense}
+                    label={`${matchup.opponent} offense, by EPA/play`}
+                    value={formatRank(matchup.opponentEpaRank.offense)}
                   />
                   <StatCard
-                    label="Opponent Defensive EPA Rank"
-                    value={ordinal(matchup.opponentEpaRank.defense)}
-                    leagueRank={matchup.opponentEpaRank.defense}
+                    label={`${matchup.opponent} defense, by EPA/play`}
+                    value={formatRank(matchup.opponentEpaRank.defense)}
                   />
                 </div>
-                <PriorBlendNote weight={matchup.priorBlendWeight} className="-mt-2" />
+                <PriorBlendNote weight={matchup.priorBlendWeight} subject="These ranks" className="-mt-2" />
 
                 <MatchupOfTheWeekCallout
                   title={matchup.matchupOfTheWeek.title}
@@ -103,7 +101,7 @@ export default async function NextGamePage() {
                     scrambles, where the Roster page&apos;s &ldquo;RB&rdquo; is carries by running
                     backs.
                   </p>
-                  <PriorBlendNote weight={matchup.priorBlendWeight} className="mb-3 mt-1" />
+                  <PriorBlendNote weight={matchup.priorBlendWeight} subject="These grades" className="mb-3 mt-1" />
                   <MatchupGrid matchups={matchup.positionGroupMatchups} />
                 </div>
 
@@ -112,6 +110,14 @@ export default async function NextGamePage() {
 
                   <div className="lift rounded-lg border border-border bg-surface p-4">
                     <h3 className="font-semibold">Head-to-Head</h3>
+                    {matchup.headToHead.length > 0 && (
+                      <p className="mt-0.5 text-xs text-muted">
+                        New England is{" "}
+                        {matchup.headToHead.filter((h) => h.result === "W").length}-
+                        {matchup.headToHead.filter((h) => h.result === "L").length} in the last{" "}
+                        {matchup.headToHead.length} meetings
+                      </p>
+                    )}
                     <ul className="mt-2 space-y-1 text-sm text-muted">
                       {matchup.headToHead.map((h, i) => (
                         <li key={i}>
@@ -155,6 +161,10 @@ export default async function NextGamePage() {
           },
         ]}
       />
+
+      {/* A for-fun guess box that saves nothing — below the real content,
+          not above it, where on a phone it pushed the preview off-screen. */}
+      <ScorePredictor opponent={matchup.opponent} neWinProb={neWinProb} />
     </div>
   );
 }

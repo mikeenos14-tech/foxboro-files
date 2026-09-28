@@ -49,8 +49,8 @@ export function QBDeepDive({
           </h3>
           <p className="text-sm text-muted">
             {stats.completions}/{stats.attempts}
-            {stats.attempts > 0 && ` (${formatPercent(stats.completions / stats.attempts, 1)})`}, {stats.yards}{" "}
-            yds, {stats.tds} TD, {stats.ints} INT
+            {stats.attempts > 0 && ` (${formatPercent(stats.completions / stats.attempts, 1)})`},{" "}
+            {stats.yards.toLocaleString("en-US")} yds, {stats.tds} TD, {stats.ints} INT
           </p>
         </div>
       </div>
@@ -73,12 +73,12 @@ export function QBDeepDive({
           rank={isFullSeason ? qb.ranks?.turnoverWorthyPlayRate.leagueRank : undefined}
         />
         <StatTile
-          label="Clean pocket EPA"
+          label="EPA when not hit"
           value={signed(stats.cleanPocketEpa)}
           rank={isFullSeason ? qb.ranks?.cleanPocketEpa.leagueRank : undefined}
         />
         <StatTile
-          label="Under pressure EPA"
+          label="EPA when hit or sacked"
           value={signed(stats.pressureEpa)}
           rank={isFullSeason ? qb.ranks?.pressureEpa.leagueRank : undefined}
         />
@@ -136,6 +136,9 @@ export function QBDeepDive({
             ))}
           </ul>
         </div>
+      )}
+      {isFullSeason && qb.chartingNote && (
+        <p className="mt-3 text-xs text-muted">{qb.chartingNote}</p>
       )}
     </div>
   );

@@ -16,11 +16,30 @@
 
 import { readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
-import { generateJson } from "./lib/claude";
-import type { Game, GameRecap, NewsItem, OpponentMatchupData } from "../lib/data/types";
+import { generateChecked, generateJson } from "./lib/claude";
+import { checkGrounding } from "./lib/aiChecks";
+import { formatGrade, gradeWords } from "../lib/calc/ranks";
+import type { Game, GameRecap, NewsItem, OpponentMatchupData, ScheduleRow } from "../lib/data/types";
 
 const GENERATED_DIR = path.join(process.cwd(), "data", "generated");
 const TEAM = "NE";
+
+// Bump when the facts handed to the model or the checks on its output
+// change, so recaps written under the old prompt get rewritten. Version 2
+// added the game's location, full player names, the scoring breakdown and
+// league benchmarks — each missing fact had produced a wrong sentence.
+const AI_VERSION = 2;
+
+// Rough league-wide norms, so "8 of 12 third downs allowed" can't be
+// read as a good day for the defense.
+const LEAGUE_NORMS =
+  "League norms for context: teams convert about 40% of third downs and score touchdowns on about 55% of red-zone trips; an EPA/play of 0.00 is exactly average (positive is good for an offense, negative is good for a defense).";
+
+function scoringLine(team: string, s: { td: number; fg: number; safety: number }): string {
+  const parts = [`${s.td} TD`, `${s.fg} FG`];
+  if (s.safety > 0) parts.push(`${s.safety} safety`);
+  return `${team}: ${parts.join(", ")}`;
+}
 
 const FAN_VOICE_SYSTEM = `You write for The Foxboro Beacon, an independent New England Patriots fan site. Write in the voice of an extremely smart, funny, and highly articulate die-hard Patriots fan — someone who clearly knows the sport deeply, writes with real wit and a distinct voice, and can turn a sharp line, but is never mean-spirited, never vulgar, never disrespectful of players. Accuracy comes first: use ONLY the facts given to you below — never invent stats, plays, injuries, quotes, or events that aren't explicitly provided, and never exaggerate a fact beyond what's given. Be specific whenever the facts allow it: name the actual players, teams, and numbers involved rather than describing things generically. If you're not given enough to say something specific, stay general rather than making something up.
 
@@ -55,32 +74,32 @@ function formatArticles(items: NewsItem[]): string {
 }
 
 async function buildRecapContent() {
-  const lastGame = await readJson<Game>("last-game.json");
-  if (!lastGame || lastGame.status !== "final") {
-    console.log("No completed game found — skipping recap AI content.");
-    return;
-  }
-
-  const recap = await readJson<GameRecap>(`recap-${lastGame.id}.json`);
-  if (!recap) {
-    console.log(`recap-${lastGame.id}.json not found — skipping recap AI content.`);
-    return;
-  }
-  if (recap.fanTake) {
-    console.log(`fanTake already set for ${lastGame.id} — skipping (generated once per game).`);
-    return;
-  }
-
+  // Every archived game whose AI content is missing or was written under
+  // an older prompt — not only the most recent one, or a wrong recap from
+  // an earlier week would stay wrong forever.
+  const index = (await readJson<string[]>("recap-index.json")) ?? [];
+  const schedule = (await readJson<ScheduleRow[]>("schedule.json")) ?? [];
   const news = (await readJson<NewsItem[]>("news.json")) ?? [];
-  const isHome = lastGame.homeTeam === TEAM;
-  const opponent = isHome ? lastGame.awayTeam : lastGame.homeTeam;
-  const usScore = isHome ? lastGame.homeScore : lastGame.awayScore;
-  const themScore = isHome ? lastGame.awayScore : lastGame.homeScore;
-  const articles = relevantNews(news, lastGame.date, 1, 5);
 
-  const user = `Final score: New England ${usScore}, ${opponent} ${themScore} (${usScore! > themScore! ? "Patriots win" : usScore === themScore ? "tie" : "Patriots loss"}).
-Real computed stats: offensive EPA/play ${recap.epaPerPlay.offense.toFixed(2)}, defensive EPA/play ${recap.epaPerPlay.defense.toFixed(2)}, turnover margin ${recap.turnoverMargin}, red zone offense ${recap.redZone.offense.td}/${recap.redZone.offense.att}, red zone defense allowed ${recap.redZone.defense.td}/${recap.redZone.defense.att}, third down offense ${recap.thirdDown.offense.conv}/${recap.thirdDown.offense.att}, third down defense allowed ${recap.thirdDown.defense.conv}/${recap.thirdDown.defense.att}.
-Player of the game (by win probability added): ${recap.playerOfTheGame.playerName}, ${(recap.playerOfTheGame.wpa * 100).toFixed(0)}% WPA.
+  for (const gameId of index) {
+    const recap = await readJson<GameRecap>(`recap-${gameId}.json`);
+    const row = schedule.find((r) => r.gameId === gameId);
+    if (!recap || !row || row.ourScore === undefined || row.theirScore === undefined) continue;
+    if (recap.fanTake && (recap.aiVersion ?? 1) >= AI_VERSION) continue;
+
+    const isHome = row.homeAway === "home";
+    const opponent = row.opponent;
+    const usScore = row.ourScore;
+    const themScore = row.theirScore;
+    const articles = relevantNews(news, row.date, 1, 5);
+    const star = recap.playerOfTheGame;
+
+    const user = `Final score: New England ${usScore}, ${opponent} ${themScore} (${usScore > themScore ? "Patriots win" : usScore === themScore ? "tie" : "Patriots loss"}).
+Location: ${isHome ? `a home game for New England, at ${row.venue || "Gillette Stadium"} in Foxborough` : `a road game — New England played at ${opponent}${row.venue ? `, ${row.venue}` : ""}. It was NOT in Foxborough`}.
+How the points were scored — ${recap.scoring ? `${scoringLine("New England", recap.scoring.us)}; ${scoringLine(opponent, recap.scoring.them)}` : "not available, so don't describe it"}.
+Real computed stats: offensive EPA/play ${recap.epaPerPlay.offense.toFixed(2)}, defensive EPA/play allowed ${recap.epaPerPlay.defense.toFixed(2)}, turnover margin ${recap.turnoverMargin}, red zone offense ${recap.redZone.offense.td} TDs on ${recap.redZone.offense.att} trips, red zone defense allowed ${recap.redZone.defense.td} TDs on ${recap.redZone.defense.att} trips, third down offense ${recap.thirdDown.offense.conv}/${recap.thirdDown.offense.att}, third downs allowed ${recap.thirdDown.defense.conv}/${recap.thirdDown.defense.att}.
+${LEAGUE_NORMS}
+Player of the game (by win probability added): ${star.playerName}, ${(star.wpa * 100).toFixed(0)}% WPA. Refer to players by the full names given here or in the articles, never a guessed first name.
 
 Real articles about this game:
 ${formatArticles(articles)}
@@ -88,28 +107,29 @@ ${formatArticles(articles)}
 Respond with ONLY this JSON shape:
 {"fanTake": "3-5 sentences in the fan voice describing what happened and how it feels", "good": ["1-2 short bullet points, each one sentence"], "bad": ["1-2 short bullet points"], "ugly": ["0-2 short bullet points, omit if nothing rises to 'ugly'"]}`;
 
-  const result = await generateJson<{
-    fanTake: string;
-    good: string[];
-    bad: string[];
-    ugly: string[];
-  }>(FAN_VOICE_SYSTEM, user);
+    type RecapAi = { fanTake: string; good: string[]; bad: string[]; ugly: string[] };
+    const result = await generateChecked<RecapAi>(
+      (prompt) => generateJson<RecapAi>(FAN_VOICE_SYSTEM, prompt),
+      user,
+      (r) => [r.fanTake, ...(r.good ?? []), ...(r.bad ?? []), ...(r.ugly ?? [])].join(" "),
+      (text) => checkGrounding(text, { facts: user, isHome, playerNames: [star.playerName] }),
+      `Recap ${gameId}`
+    );
 
-  if (!result?.fanTake) {
-    console.log("Recap AI content generation failed — keeping existing narrative/goodBadUgly.");
-    return;
+    if (!result?.fanTake) {
+      console.log(`Recap AI content for ${gameId} not written — keeping existing content.`);
+      continue;
+    }
+
+    recap.fanTake = result.fanTake;
+    if (result.good?.length) recap.goodBadUgly.good = result.good;
+    if (result.bad?.length) recap.goodBadUgly.bad = result.bad;
+    recap.goodBadUgly.ugly = result.ugly ?? [];
+    recap.aiVersion = AI_VERSION;
+
+    await writeFile(path.join(GENERATED_DIR, `recap-${gameId}.json`), JSON.stringify(recap, null, 2));
+    console.log(`Wrote AI-generated fanTake + goodBadUgly for ${gameId}`);
   }
-
-  recap.fanTake = result.fanTake;
-  if (result.good?.length) recap.goodBadUgly.good = result.good;
-  if (result.bad?.length) recap.goodBadUgly.bad = result.bad;
-  recap.goodBadUgly.ugly = result.ugly ?? [];
-
-  await writeFile(
-    path.join(GENERATED_DIR, `recap-${lastGame.id}.json`),
-    JSON.stringify(recap, null, 2)
-  );
-  console.log(`Wrote AI-generated fanTake + goodBadUgly for ${lastGame.id}`);
 }
 
 async function buildPreviewContent() {
@@ -124,13 +144,21 @@ async function buildPreviewContent() {
   const isHome = nextGame.homeTeam === TEAM;
   const articles = relevantNews(news, nextGame.date, 6, 0);
 
-  const user = `Upcoming game: New England ${isHome ? "hosts" : "at"} ${matchup.opponent}, Week ${nextGame.week}, ${nextGame.date}.
-Opponent EPA ranks: offense #${matchup.opponentEpaRank.offense} in NFL, defense #${matchup.opponentEpaRank.defense} in NFL.
+  // Counted here rather than left to the model, which read five meetings
+  // (2-3) as "2-3 over the last two years".
+  const h2hWins = matchup.headToHead.filter((h) => h.result === "W").length;
+  const h2hLosses = matchup.headToHead.filter((h) => h.result === "L").length;
+  const formGames = (side: { gamesPlayed: number }) => Math.min(3, side.gamesPlayed);
+
+  const user = `Upcoming game: New England ${isHome ? `hosts ${matchup.opponent} at ${nextGame.venue || "Gillette Stadium"} in Foxborough` : `plays at ${matchup.opponent}, ${nextGame.venue || "on the road"} — a road game, NOT in Foxborough`}, Week ${nextGame.week}, ${nextGame.date}.
+Opponent league ranks by EPA/play (1 = best of 32): offense ${matchup.opponentEpaRank.offense} of 32, defense ${matchup.opponentEpaRank.defense} of 32.
+Unit grades — IMPORTANT: these are 0-100 scores where 100 is the best in the NFL and 0 the worst. They are NOT ranks; a grade of 6 means near the bottom of the league.
+${matchup.positionGroupMatchups.map((m) => `- ${m.group}: New England ${formatGrade(m.ourGrade)} (${gradeWords(m.ourGrade)}), ${matchup.opponent} ${formatGrade(m.theirGrade)} (${gradeWords(m.theirGrade)})`).join("\n")}
 Matchup of the week: ${matchup.matchupOfTheWeek.title} — ${matchup.matchupOfTheWeek.description}
-Recent form (net EPA/play, last 3 games): New England ${matchup.recentForm.us.last3EpaPerPlay.toFixed(2)}, ${matchup.opponent} ${matchup.recentForm.them.last3EpaPerPlay.toFixed(2)}
-Head-to-head, most recent meetings: ${matchup.headToHead.map((h) => `${h.season}: ${h.result} ${h.score}`).join(", ") || "none on record"}
+Recent form (net EPA/play, positive is good): New England ${matchup.recentForm.us.last3EpaPerPlay.toFixed(2)} over its last ${formGames(matchup.recentForm.us)} games, ${matchup.opponent} ${matchup.recentForm.them.last3EpaPerPlay.toFixed(2)} over its last ${formGames(matchup.recentForm.them)}.
+Head-to-head, last ${matchup.headToHead.length} meetings (New England ${h2hWins}-${h2hLosses} in them): ${matchup.headToHead.map((h) => `${h.season}: ${h.result} ${h.score}`).join(", ") || "none on record"}
 ${matchup.bettingContext ? `Betting line: New England ${matchup.bettingContext.spread > 0 ? "+" : ""}${matchup.bettingContext.spread}, O/U ${matchup.bettingContext.overUnder}` : ""}
-Opponent injuries: ${matchup.opponentInjuries.map((i) => `${i.playerName} (${i.position}) — ${i.injury}, ${i.gameStatus ?? "status unclear"}`).join("; ") || "none reported"}
+Opponent injuries: ${matchup.opponentInjuries.map((i) => `${i.playerName} (${i.position}) — ${i.injury}, ${i.gameStatus ?? "status unclear"}`).join("; ") || "none reported yet this week"}
 
 Real articles about this upcoming game:
 ${formatArticles(articles)}
@@ -138,9 +166,15 @@ ${formatArticles(articles)}
 Respond with ONLY this JSON shape:
 {"previewTake": "3-5 sentences in the fan voice previewing this matchup — what you're excited or nervous about, grounded only in the facts above"}`;
 
-  const result = await generateJson<{ previewTake: string }>(FAN_VOICE_SYSTEM, user);
+  const result = await generateChecked<{ previewTake: string }>(
+    (prompt) => generateJson<{ previewTake: string }>(FAN_VOICE_SYSTEM, prompt),
+    user,
+    (r) => r.previewTake ?? "",
+    (text) => checkGrounding(text, { facts: user, isHome }),
+    "Preview"
+  );
   if (!result?.previewTake) {
-    console.log("Preview AI content generation failed — leaving previewTake unset.");
+    console.log("Preview AI content not written — leaving previous previewTake in place.");
     return;
   }
 

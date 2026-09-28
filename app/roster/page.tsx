@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import * as store from "@/lib/data/store";
 import { DepthChartTable } from "@/components/roster/DepthChartTable";
 import { PositionGroupCardsGrid } from "@/components/roster/PositionGroupCardsGrid";
-import { PositionGroupSummaryStrip } from "@/components/roster/PositionGroupSummaryStrip";
 import { PositionGroupHeadToHead } from "@/components/roster/PositionGroupHeadToHead";
 import { Leaderboards } from "@/components/roster/Leaderboards";
 import { SpecialTeamsStats } from "@/components/roster/SpecialTeamsStats";
@@ -17,9 +16,9 @@ export const metadata: Metadata = { title: "Roster & Stats" };
 export default async function RosterPage({
   searchParams,
 }: {
-  searchParams: Promise<{ qbWindow?: string; gradeWindow?: string }>;
+  searchParams: Promise<{ qbWindow?: string; gradeWindow?: string; tab?: string }>;
 }) {
-  const { qbWindow, gradeWindow } = await searchParams;
+  const { qbWindow, gradeWindow, tab } = await searchParams;
   const [chart, reportCards, positionGroupLeagueTable, teamStats, qb, qbLeagueTable, nextGame, priorSeason, leaders] =
     await Promise.all([
       store.getDepthChart(),
@@ -39,14 +38,12 @@ export default async function RosterPage({
       <div>
         <h1 className="font-display text-3xl font-bold uppercase tracking-wide text-foreground">Roster & Stats</h1>
         <p className="text-sm text-muted">
-          Depth chart, position-group grades vs. league, and situational
-          splits.
+          The quarterback, every unit graded against the league, team leaders and the depth chart.
         </p>
       </div>
 
-      <PositionGroupSummaryStrip cards={reportCards} />
-
       <Tabs
+        initialTab={tab}
         tabs={[
           {
             label: "QB",
@@ -73,7 +70,7 @@ export default async function RosterPage({
             ),
           },
           {
-            label: "Position Grades",
+            label: "Grades",
             content: (
               <div className="space-y-6">
                 <PositionGroupCardsGrid
@@ -93,7 +90,7 @@ export default async function RosterPage({
             ),
           },
           {
-            label: "Splits & Special Teams",
+            label: "Splits",
             content: (
               <div className="space-y-6">
                 <div>

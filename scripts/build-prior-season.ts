@@ -29,6 +29,7 @@ import { confidenceLabel } from "./lib/shrink";
 import { GROUP_METRICS, gradeGroupAllTeams } from "./lib/positionGrades";
 import type { RosterRow } from "./lib/roster";
 import { passingLine } from "./lib/boxScore";
+import { loadChartedGameIds, loadInterceptionWorthyKeys } from "./lib/ftn";
 import type { PriorSeasonSnapshot } from "../lib/data/types";
 import { passerId } from "./lib/playerIds";
 
@@ -61,6 +62,10 @@ async function main() {
   await ensureFile(
     `play_by_play_${season}.csv`,
     `https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_${season}.csv`
+  );
+  await ensureFile(
+    `ftn_charting_${season}.csv`,
+    `https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_${season}.csv`
   );
   await ensureFile(
     `roster_${season}.csv`,
@@ -135,6 +140,8 @@ async function main() {
   }
   const starterId = [...attemptsByPasser.entries()].sort((a, b) => b[1] - a[1])[0]?.[0];
   const rows = teamPasses.filter((r) => passerId(r) === starterId);
+  const twpKeys = await loadInterceptionWorthyKeys(Number(season));
+  const chartedGames = await loadChartedGameIds(Number(season));
   const withAirYards = rows.filter((r) => r.air_yards !== "" && r.air_yards !== "NA");
   const depthBucket = (bucket: PbpRow[]) =>
     bucket.length === 0 ? 0 : bucket.filter((r) => bool01(r.complete_pass)).length / bucket.length;
@@ -157,7 +164,14 @@ async function main() {
     },
     pressureEpa: avgEpa(rows.filter((r) => bool01(r.qb_hit) || bool01(r.sack))),
     cleanPocketEpa: avgEpa(rows.filter((r) => !bool01(r.qb_hit) && !bool01(r.sack))),
-    turnoverWorthyPlayRate: rows.length === 0 ? 0 : ints / rows.length,
+    // FTN-charted, the same stat the 2026 view shows. This used to be
+    // plain interception rate under the same label, so switching the
+    // selector to "2025 Season" silently changed what was measured.
+    turnoverWorthyPlayRate: (() => {
+      const charted = rows.filter((r) => chartedGames.has(r.game_id));
+      if (charted.length === 0) return rows.length === 0 ? 0 : ints / rows.length;
+      return charted.filter((r) => twpKeys.has(`${r.game_id}|${r.play_id}`)).length / charted.length;
+    })(),
   };
 
   const snapshot: PriorSeasonSnapshot = {

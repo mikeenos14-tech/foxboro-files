@@ -2,10 +2,19 @@
 // pbp already ships computed epa/wp/wpa/success columns — no win-probability
 // or EPA model needs to be built from scratch here, only aggregated.
 
-import { num, bool01 } from "./csv";
+import { num, bool01, loadCsv } from "./csv";
 import { passerId, rusherId } from "./playerIds";
 
 export type PbpRow = Record<string, string>;
+
+// Regular-season plays only. nflverse's season file gains the playoffs in
+// January, and every season total and league rank here would quietly start
+// counting extra games for the eight or so teams still playing — exactly
+// what happened to the frozen 2025 snapshot, which showed Maye at 5,222
+// yards for a 4,394-yard regular season.
+export async function loadRegularSeasonPbp(filename: string): Promise<PbpRow[]> {
+  return (await loadCsv<PbpRow>(filename)).filter((r) => r.season_type === "REG");
+}
 
 const SCRIMMAGE_TYPES = new Set(["pass", "run"]);
 
@@ -212,6 +221,20 @@ export function winProbabilityTimeline(
     });
   });
   return out;
+}
+
+// Touchdowns, made field goals and safeties per side, straight from the
+// scoring plays. td_team is whoever scored (defensive and return TDs
+// included); a safety is scored by the defense.
+export function scoringSummary(
+  rows: PbpRow[],
+  team: string
+): { td: number; fg: number; safety: number } {
+  return {
+    td: rows.filter((r) => bool01(r.touchdown) && r.td_team === team).length,
+    fg: rows.filter((r) => r.field_goal_result === "made" && r.posteam === team).length,
+    safety: rows.filter((r) => bool01(r.safety) && r.defteam === team).length,
+  };
 }
 
 export function starOfGame(

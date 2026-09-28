@@ -47,11 +47,28 @@ interface EspnNewsResponse {
   articles?: EspnArticle[];
 }
 
+// Word-bounded on purpose. The old patterns matched fragments: "\bout\b"
+// tagged a story about clock management before halftime as Injury, and
+// "sign" tagged "a positive sign from rookie TE Eli Raridon" as a
+// Transaction. Game-day coverage (gamebooks, quotes, press conferences,
+// highlights) was all falling through to Analysis.
+const INJURY = /\b(injur\w*|ruled out|out for the season|placed on ir|injured reserve|concussion|torn|acl|mcl|sprain\w*|hamstring|surgery)\b/;
+// Only trusted in a headline: descriptions use them loosely ("questionable
+// decisions before halftime" once tagged a clock-management story Injury).
+const INJURY_STATUS = /\b(questionable|doubtful)\b/;
+const TRANSACTION = /\b(signs|signed|signing|re-signs?|trades?|traded|waives?|waived|releases?|released|activates?|activated|claims?|claimed|practice squad|placed on|elevates?|elevated)\b/;
+const BEAT_REPORT = /\b(practice|camp notes|notebook|press conference|transcript|postgame|quotes|gamebook|game notes|observations|takeaways|highlights|injury report)\b/;
+
 function classify(headline: string, description: string): NewsType {
-  const text = `${headline} ${description}`.toLowerCase();
-  if (/injur|questionable|doubtful|\bout\b|\bir\b/.test(text)) return "Injury";
-  if (/sign|trade|waive|release|activate|practice squad|cut\b/.test(text)) return "Transaction";
-  if (/practice|camp notes|beat writer|notebook/.test(text)) return "Beat Report";
+  const title = headline.toLowerCase();
+  const text = `${title} ${description.toLowerCase()}`;
+  // The headline decides when it can; descriptions mention injuries and
+  // signings in passing far more often than they're about them.
+  if (INJURY.test(title) || INJURY_STATUS.test(title)) return "Injury";
+  if (TRANSACTION.test(title)) return "Transaction";
+  if (BEAT_REPORT.test(title)) return "Beat Report";
+  if (INJURY.test(text)) return "Injury";
+  if (TRANSACTION.test(text)) return "Transaction";
   return "Analysis";
 }
 
@@ -347,22 +364,57 @@ async function nextGameOpponent(): Promise<string | null> {
   return game.homeTeam === TEAM ? game.awayTeam : game.homeTeam;
 }
 
+// When a team's designations for the coming game can start. ESPN's
+// roster status keeps whatever was last set — including the game-day
+// inactive list from the game just played — so between Sunday and the
+// Wednesday report the fallback was showing last week's inactives as
+// this week's injuries, healthy scratches and all. Anything set before
+// ~6am ET the morning after a team's last game belongs to that game.
+async function designationCutoff(team: string): Promise<number> {
+  try {
+    const games = await loadCsv<Record<string, string>>("games.csv");
+    const lastPlayed = games
+      .filter(
+        (g) =>
+          g.season === "2026" &&
+          (g.home_team === team || g.away_team === team) &&
+          g.home_score !== "" &&
+          g.home_score !== "NA"
+      )
+      .map((g) => g.gameday)
+      .sort()
+      .pop();
+    if (!lastPlayed) return 0;
+    return new Date(`${lastPlayed}T10:00:00Z`).getTime() + 86400000;
+  } catch {
+    return 0;
+  }
+}
+
+// Healthy scratches carry a game status on ESPN ("Out") but aren't
+// injuries and don't appear on the league's report.
+const NOT_AN_INJURY = /coach'?s decision|not injury related|\bpersonal\b|\brest\b/i;
+
 async function buildInjuriesFromEspn(
   rosterFile: string,
-  week: number
+  week: number,
+  team: string
 ): Promise<InjuryReportEntry[] | null> {
   const raw = await readRawJson<EspnRosterResponse>(rosterFile);
   if (!raw?.athletes) return null;
+  const cutoff = await designationCutoff(team);
 
   const withInjuries = raw.athletes
     .flatMap((group) => group.items ?? [])
     .filter((p) => (p.injuries?.length ?? 0) > 0)
     .map((p) => ({ player: p, injury: p.injuries![0] }))
-    .filter(({ injury }) => CURRENT_WEEK_STATUSES.has(injury.status ?? ""));
+    .filter(({ injury }) => CURRENT_WEEK_STATUSES.has(injury.status ?? ""))
+    .filter(({ injury }) => injury.date !== undefined && new Date(injury.date).getTime() >= cutoff);
 
   const entries: InjuryReportEntry[] = [];
   for (const { player, injury } of withInjuries) {
     const bodyPart = await fetchBodyPart(player.id);
+    if (NOT_AN_INJURY.test(bodyPart)) continue;
     entries.push({
       playerId: player.id,
       playerName: player.fullName,
@@ -583,7 +635,7 @@ async function main() {
   const week = await currentWeek();
 
   const nflverseInjuries = await buildInjuriesFromNflverse(TEAM, week);
-  const baseInjuries = nflverseInjuries ?? (await buildInjuriesFromEspn("espn-roster.json", week));
+  const baseInjuries = nflverseInjuries ?? (await buildInjuriesFromEspn("espn-roster.json", week, TEAM));
   if (baseInjuries) {
     const injuries = await applyPatriotsPracticeReport(baseInjuries, TEAM, week);
     await writeFile(
@@ -601,7 +653,7 @@ async function main() {
   if (opponent) {
     const nflverseOppInjuries = await buildInjuriesFromNflverse(opponent, week);
     const baseOppInjuries =
-      nflverseOppInjuries ?? (await buildInjuriesFromEspn("espn-opponent-roster.json", week));
+      nflverseOppInjuries ?? (await buildInjuriesFromEspn("espn-opponent-roster.json", week, opponent));
     if (baseOppInjuries) {
       const oppInjuries = await applyPatriotsPracticeReport(baseOppInjuries, opponent, week);
       await writeFile(

@@ -22,7 +22,15 @@ export function RecentFormTrend({
   const { us, them } = recentForm;
   const bothPlayed = Math.min(us.gamesPlayed, them.gamesPlayed);
 
+  // Last Game / Last 3 / Last 5, the same windows as every other filter
+  // on the site — this table alone had been missing Last Game.
   const rows = [
+    {
+      label: "Last Game",
+      ours: us.lastGameEpaPerPlay ?? 0,
+      theirs: them.lastGameEpaPerPlay ?? 0,
+      show: bothPlayed > 1 && us.lastGameEpaPerPlay !== undefined && them.lastGameEpaPerPlay !== undefined,
+    },
     { label: "Last 3", ours: us.last3EpaPerPlay, theirs: them.last3EpaPerPlay, show: bothPlayed > 3 },
     { label: "Last 5", ours: us.last5EpaPerPlay, theirs: them.last5EpaPerPlay, show: bothPlayed > 5 },
     { label: "Season", ours: us.seasonEpaPerPlay, theirs: them.seasonEpaPerPlay, show: true },

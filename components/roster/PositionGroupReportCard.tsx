@@ -47,7 +47,7 @@ export function PositionGroupReportCard({ card }: { card: ReportCardData }) {
         <span className="font-display text-3xl font-semibold text-foreground">
           <CountUp value={card.grade} />
         </span>
-        <span className="text-xs text-muted">percentile</span>
+        <span className="text-xs text-muted">/ 100</span>
       </div>
       <PercentBar value={card.grade} sentiment={tier} className="mt-2" />
       {card.statLine && (
@@ -92,22 +92,20 @@ export function PositionGroupReportCard({ card }: { card: ReportCardData }) {
           these is noise even in January. The grade is still the best
           answer available, so it stays; it just shouldn't be read with
           the same confidence as the QB number beside it. */}
-      {card.noisyMetric && (
+      {/* One caveat line, not two stacked ones — the TE card was carrying
+          three separate warnings plus a "so what" that repeated the
+          sample size. */}
+      {(card.noisyMetric || (card.confidence === "low" && card.sampleSize > 0)) && (
         <div className="mt-2 flex items-center gap-1.5 text-[11px] text-muted">
           <span
             aria-hidden
             className="inline-block h-1.5 w-1.5 shrink-0 rounded-full bg-rank-mid"
           />
-          Noisy stat — teams separate slowly here, so read this as a rough tier.
-        </div>
-      )}
-      {card.confidence === "low" && card.sampleSize > 0 && (
-        <div className="mt-2 flex items-center gap-1.5 text-[11px] text-muted">
-          <span
-            aria-hidden
-            className="inline-block h-1.5 w-1.5 shrink-0 rounded-full bg-rank-mid"
-          />
-          Thin sample — {card.sampleSize} plays. Regressed toward league average.
+          {card.confidence === "low" && card.sampleSize > 0
+            ? card.noisyMetric
+              ? `Only ${card.sampleSize} plays, on a stat that's noisy even over a full season — read as a rough tier.`
+              : `Only ${card.sampleSize} plays so far — read as a rough tier.`
+            : "Noisy stat — teams separate slowly here, so read this as a rough tier."}
         </div>
       )}
       <SoWhatNote sentiment={tier}>{card.soWhat}</SoWhatNote>

@@ -21,6 +21,12 @@ export function formatDate(iso: string): string {
   });
 }
 
+// "vs. BUF" at home, "at BUF" on the road — the site used "vs." for both,
+// and an AI recap duly placed a game in Jacksonville at Foxboro.
+export function opponentLabel(opponent: string, isHome: boolean): string {
+  return `${isHome ? "vs." : "at"} ${opponent}`;
+}
+
 export function formatPercent(value: number, digits = 0): string {
   // toPrecision strips float noise first: 51/80 * 100 is 63.74999…, which
   // toFixed alone rounds to 63.7 where every box score prints 63.8.

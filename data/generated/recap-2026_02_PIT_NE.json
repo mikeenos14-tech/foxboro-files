@@ -197,10 +197,22 @@
   },
   "playerOfTheGame": {
     "playerId": "00-0036875",
-    "playerName": "R.Stevenson",
+    "playerName": "Rhamondre Stevenson",
     "wpa": 0.03091961145400997,
     "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/zmpuirvuw4r04inxth5i",
     "reason": "Led the team with +3% win probability added."
+  },
+  "scoring": {
+    "us": {
+      "td": 2,
+      "fg": 2,
+      "safety": 0
+    },
+    "them": {
+      "td": 0,
+      "fg": 1,
+      "safety": 0
+    }
   },
   "fanTake": "Well, that's more like it. The Patriots defense absolutely suffocated the Steelers in man coverage, holding Pittsburgh to just 3 points in what amounted to a near-total home dominance at Gillette, and TreVeyon Henderson punched in a touchdown to lead a 20-3 victory that felt considerably more convincing than the offensive EPA numbers (-0.07) might suggest. Drake Maye's film showed the kinds of decisions we'll be dissecting all season—the young quarterback is learning on the job against elite defenses—but here's the thing: when your defense is that stout and your complementary football is clicking, you don't need to be brilliant offensively. R.Stevenson earned player of the game honors with 3% win probability added, a reflection of the kind of steady, thankless work that wins football games. The Patriots are now 600 wins deep in franchise history, and while the offensive rhythm from last season's Super Bowl run remains elusive, this is the kind of grinding, defense-first win that could matter come January."
 }

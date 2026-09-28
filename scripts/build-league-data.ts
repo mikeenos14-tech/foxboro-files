@@ -12,10 +12,11 @@ import path from "node:path";
 import { loadCsv, num } from "./lib/csv";
 import { computeStandings, recordString } from "./lib/standings";
 import { computeDivisionStandings } from "./lib/divisionStandings";
+import { loadEspnDivisionOrder } from "./lib/espnStandings";
 import { computeAdjustedEpa } from "./lib/leagueRanks";
 import { rankGeneric } from "./lib/rank";
 import { ALL_TEAMS, TEAM_DIVISION } from "./lib/teams";
-import type { PbpRow } from "./lib/pbp";
+import { loadRegularSeasonPbp } from "./lib/pbp";
 import type { LeagueDivisionGroup, LeagueEpaRanking, LeagueScoreboardGame } from "../lib/data/types";
 
 const SEASON = 2026;
@@ -31,13 +32,17 @@ async function main() {
   await mkdir(GENERATED_DIR, { recursive: true });
 
   const games = await loadCsv<GameRow>("games.csv");
-  const pbp = await loadCsv<PbpRow>("play_by_play_2026.csv");
+  const pbp = await loadRegularSeasonPbp("play_by_play_2026.csv");
   const standings = computeStandings(games, SEASON);
 
+  const officialOrder = await loadEspnDivisionOrder();
   // ---------- All 8 division standings ----------
   const leagueStandings: LeagueDivisionGroup[] = DIVISIONS.map((division) => {
     const divisionTeams = ALL_TEAMS.filter((t) => TEAM_DIVISION[t] === division);
-    return { division, standings: computeDivisionStandings(games, SEASON, divisionTeams, standings) };
+    return {
+      division,
+      standings: computeDivisionStandings(games, SEASON, divisionTeams, standings, undefined, officialOrder),
+    };
   });
   await writeFile(
     path.join(GENERATED_DIR, "league-standings.json"),

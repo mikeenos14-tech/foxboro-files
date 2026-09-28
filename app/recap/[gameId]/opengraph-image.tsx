@@ -12,7 +12,8 @@ export default async function Image({
   params: Promise<{ gameId: string }>;
 }) {
   const { gameId } = await params;
-  const lastGame = await store.getLastGame();
+  // The game this recap is about — not always the most recent one.
+  const lastGame = (await store.getPlayedGame(gameId)) ?? (await store.getLastGame());
   const recap = await store.getRecapByGameId(gameId);
 
   const isHome = lastGame.homeTeam === "NE";
@@ -83,7 +84,7 @@ export default async function Image({
             <img src={teamLogoUrl(opponent)} width={140} height={140} alt={opponent} />
           </div>
           <div style={{ fontSize: 30, color: "#a5acaf", marginTop: 24, display: "flex" }}>
-            New England vs. {opponent}
+            New England {isHome ? "vs." : "at"} {opponent}
           </div>
           {recap && (
             <div

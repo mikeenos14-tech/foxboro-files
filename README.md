@@ -32,9 +32,10 @@ too noisy to make forward-looking claims from, so predictive numbers blend real 
 performance, tapering to zero by game four. Descriptive numbers never blend. Which is
 which is documented per-page and labelled in the UI.
 
-**Honesty about what the data can't do.** Free data cannot grade individual players
-across a line or a secondary — that needs every snap charted, which is PFF's business
-model. So the team-unit cards are named for what they measure (Pass Defense, Pass Rush,
+**Honesty about what the data can't do.** Free data still can't grade individual linemen
+or defensive backs — that needs every rep charted, which is PFF's business model.
+(nflverse's participation data shows who was on the field, not who won the rep, and isn't
+published until after a season.) So the team-unit cards are named for what they measure (Pass Defense, Pass Rush,
 Run Defense, Pass Protection) rather than for position groups they don't isolate.
 
 ---
@@ -57,7 +58,7 @@ Run Defense, Pass Protection) rather than for position groups they don't isolate
 npm run build:data          # fetch → build everything → verify
 npm run build:data:skip-ai  # same, without the AI narrative step
 npm run verify:data         # check committed data without rebuilding
-npm test                    # 108 unit tests
+npm test                    # unit tests
 npm run calibrate:shrink 2025   # re-measure statistical constants off a finished season
 ```
 
@@ -76,8 +77,8 @@ reception was attributed to nobody; fumbles *lost* were counted instead of fumbl
 every QB scramble in the league was silently dropped, because nflverse leaves
 `rusher_id` empty on those rows and only populates `rusher_player_id`.
 
-`scripts/verify-data.ts` now diffs the generated leaderboards against **nflverse's own
-independent aggregation of the same games**, alongside cross-file assertions (team EPA
+`scripts/verify-data.ts` now diffs the site's rushing, receiving, passing and defensive
+numbers against **nflverse's own independent aggregation of the same games**, alongside cross-file assertions (team EPA
 must match the league rankings file to 1e-9; no fabricated position card may exist). CI
 gates on it. It caught a fourth discrepancy within a minute of being written.
 

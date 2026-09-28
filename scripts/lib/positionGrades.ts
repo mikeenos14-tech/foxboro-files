@@ -149,6 +149,11 @@ export interface GroupGrade {
   grade: number;
   /** The team's own opponent-adjusted value, before ranking. */
   adjustedValue: number;
+  /** The same metric with no adjustment — the team's real rate, which is
+   *  what a reader expects beside the grade. The adjusted value is a
+   *  difference from expected, so "0.0%" pressure allowed was showing
+   *  where the real rate was 15.9%. */
+  rawValue: number;
   sampleSize: number;
 }
 
@@ -175,11 +180,23 @@ export function gradeGroupAllTeams(
     teams.map((t) => [t, shrink({ value: values.get(t) ?? 0, n: plays.get(t) ?? 0 }, mean, metric.shrinkK)])
   );
 
+  const sideKey = metric.side === "offense" ? "posteam" : "defteam";
+  const rawSums = new Map<string, { sum: number; n: number }>();
+  for (const r of rows) {
+    if (!metric.filter(r, roster)) continue;
+    const cur = rawSums.get(r[sideKey]) ?? { sum: 0, n: 0 };
+    cur.sum += metric.value(r);
+    cur.n += 1;
+    rawSums.set(r[sideKey], cur);
+  }
+
   const out = new Map<string, GroupGrade>();
   for (const team of teams) {
+    const raw = rawSums.get(team);
     out.set(team, {
       grade: rankGeneric(teams, team, (t) => shrunk.get(t) ?? 0, metric.higherIsBetter).leaguePercentile,
       adjustedValue: values.get(team) ?? 0,
+      rawValue: raw && raw.n > 0 ? raw.sum / raw.n : 0,
       sampleSize: plays.get(team) ?? 0,
     });
   }

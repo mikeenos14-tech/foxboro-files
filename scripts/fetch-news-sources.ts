@@ -118,6 +118,19 @@ async function main() {
       url: `https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/${ESPN_TEAM_ID[TEAM]}/roster`,
     },
     {
+      // The team's real depth chart, by formation. Replaces a "depth chart"
+      // that was just nflverse's roster-file order and listed Tommy DeVito
+      // as QB1 ahead of Drake Maye.
+      name: "espn-depth-chart.json",
+      url: `https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/${ESPN_TEAM_ID[TEAM]}/depthcharts`,
+    },
+    {
+      // Official standings order, with the NFL's real tiebreakers applied —
+      // used only to order teams with identical records (espnStandings.ts).
+      name: "espn-standings.json",
+      url: "https://site.api.espn.com/apis/v2/sports/football/nfl/standings?level=3",
+    },
+    {
       // Official team RSS — 100% team-specific, no ESPN-style noise
       // filtering needed, and it's the team's own public syndication feed
       // (unlike Google News RSS, whose terms restrict use to personal,

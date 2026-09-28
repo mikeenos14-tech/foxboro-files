@@ -1,0 +1,82 @@
+// Deterministic checks on AI-written prose, run before anything is saved.
+//
+// A prompt rule is not enforcement. Every check here exists because the
+// model broke the matching rule in text that shipped, despite being told
+// not to:
+//   - "The Jaguars came to Foxboro" — for a game played in Jacksonville.
+//   - "Remy Stevenson" — handed "R.Stevenson", it invented a first name.
+//   - "the second-year quarterback" — Drake Maye was in his third season.
+//   - "600 wins deep in franchise history" — no such fact was given.
+//
+// Each check is narrow and mechanical on purpose. A general "is every
+// claim in the facts?" scanner would flag the legitimate context the
+// writer is allowed to add and block more good text than bad; these only
+// catch specific, repeatable failure shapes.
+
+export interface GroundingContext {
+  /** Everything the model was given, verbatim — the prompt's user message. */
+  facts: string;
+  /** For game content: was New England at home? Omit when not about one game. */
+  isHome?: boolean;
+  /** Full player names the model was given, e.g. "Rhamondre Stevenson". */
+  playerNames?: string[];
+}
+
+const HOME_PLACES = /\b(Foxboro|Foxborough|Gillette)\b/i;
+const TENURE = /\b(rookie|first|second|third|fourth|fifth|sixth|seventh|eighth|ninth|tenth|\d+(?:st|nd|rd|th))-year\b/gi;
+const FRANCHISE_HISTORY = /\b(franchise history|team history|all-time|in franchise)\b/i;
+const YEAR = /\b(?:19|20)\d{2}\b/g;
+// Play-by-play's own name format ("R.Stevenson", "D. Maye").
+const ABBREVIATED_NAME = /\b[A-Z]\.\s?[A-Z][a-z]+/;
+// Capitalized words that can sit in front of a surname without being a
+// first name ("When Stevenson…", "RB Stevenson").
+const NOT_FIRST_NAMES = new Set([
+  "A", "An", "And", "As", "At", "But", "By", "For", "From", "If", "In", "It", "Of", "On",
+  "Once", "Or", "So", "That", "The", "Then", "This", "To", "When", "While", "With", "Without",
+  "Yet", "Patriots", "Pats", "New", "England",
+]);
+
+export function checkGrounding(text: string, ctx: GroundingContext): string[] {
+  const problems: string[] = [];
+  const factsLower = ctx.facts.toLowerCase();
+
+  if (ctx.isHome === false && HOME_PLACES.test(text) && !HOME_PLACES.test(ctx.facts)) {
+    problems.push("It places the game in Foxborough, but New England was the road team.");
+  }
+
+  for (const match of text.matchAll(TENURE)) {
+    if (!factsLower.includes(match[0].toLowerCase())) {
+      problems.push(`It says "${match[0]}", which isn't in the facts given.`);
+    }
+  }
+
+  if (FRANCHISE_HISTORY.test(text) && !FRANCHISE_HISTORY.test(ctx.facts)) {
+    problems.push("It makes a franchise-history claim that isn't in the facts given.");
+  }
+
+  for (const match of text.matchAll(YEAR)) {
+    if (!ctx.facts.includes(match[0])) {
+      problems.push(`It mentions the year ${match[0]}, which isn't in the facts given.`);
+    }
+  }
+
+  const abbreviated = text.match(ABBREVIATED_NAME);
+  if (abbreviated) {
+    problems.push(`It uses an abbreviated name ("${abbreviated[0]}") — use the full name given.`);
+  }
+
+  for (const full of ctx.playerNames ?? []) {
+    const parts = full.trim().split(/\s+/);
+    if (parts.length < 2) continue;
+    const first = parts[0];
+    const surname = parts.slice(1).join(" ");
+    const escaped = surname.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    for (const m of text.matchAll(new RegExp(`\\b([A-Z][a-z]+)\\s+${escaped}\\b`, "g"))) {
+      if (m[1] !== first && !NOT_FIRST_NAMES.has(m[1])) {
+        problems.push(`It calls ${full} "${m[1]} ${surname}".`);
+      }
+    }
+  }
+
+  return [...new Set(problems)];
+}

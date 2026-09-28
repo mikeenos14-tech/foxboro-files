@@ -76,19 +76,19 @@
     "division": "AFC North",
     "standings": [
       {
-        "team": "CIN",
+        "team": "PIT",
         "wins": 2,
         "losses": 1,
         "ties": 0,
-        "pointDifferential": 17,
+        "pointDifferential": -7,
         "isUs": false,
         "streak": {
-          "result": "L",
+          "result": "W",
           "count": 1
         },
         "divisionRecord": {
-          "wins": 0,
-          "losses": 1,
+          "wins": 1,
+          "losses": 0,
           "ties": 0
         }
       },
@@ -110,19 +110,19 @@
         }
       },
       {
-        "team": "PIT",
+        "team": "CIN",
         "wins": 2,
         "losses": 1,
         "ties": 0,
-        "pointDifferential": -7,
+        "pointDifferential": 17,
         "isUs": false,
         "streak": {
-          "result": "W",
+          "result": "L",
           "count": 1
         },
         "divisionRecord": {
-          "wins": 1,
-          "losses": 0,
+          "wins": 0,
+          "losses": 1,
           "ties": 0
         }
       },
@@ -458,23 +458,6 @@
         }
       },
       {
-        "team": "NO",
-        "wins": 1,
-        "losses": 2,
-        "ties": 0,
-        "pointDifferential": -2,
-        "isUs": false,
-        "streak": {
-          "result": "L",
-          "count": 1
-        },
-        "divisionRecord": {
-          "wins": 0,
-          "losses": 0,
-          "ties": 0
-        }
-      },
-      {
         "team": "ATL",
         "wins": 1,
         "losses": 2,
@@ -488,6 +471,23 @@
         "divisionRecord": {
           "wins": 0,
           "losses": 1,
+          "ties": 0
+        }
+      },
+      {
+        "team": "NO",
+        "wins": 1,
+        "losses": 2,
+        "ties": 0,
+        "pointDifferential": -2,
+        "isUs": false,
+        "streak": {
+          "result": "L",
+          "count": 1
+        },
+        "divisionRecord": {
+          "wins": 0,
+          "losses": 0,
           "ties": 0
         }
       },

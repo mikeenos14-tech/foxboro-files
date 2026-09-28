@@ -71,6 +71,31 @@ export async function getRecapByGameId(
   return fixtures.lastGameRecap.gameId === gameId ? fixtures.lastGameRecap : null;
 }
 
+// Any played game, not just the most recent. Every archived recap used to
+// 404 except the latest, and the recap list showed older games with no
+// score — which it then read as 0-0 and labelled a loss, including the
+// Week 2 win over Pittsburgh.
+export async function getPlayedGame(gameId: string): Promise<Game | null> {
+  const lastGame = await getLastGame();
+  if (lastGame.id === gameId) return lastGame;
+  const row = (await getSchedule()).find((r) => r.gameId === gameId);
+  if (!row || row.ourScore === undefined || row.theirScore === undefined) return null;
+  const isHome = row.homeAway === "home";
+  return {
+    id: gameId,
+    season: 2026,
+    week: row.week,
+    seasonType: "REG",
+    date: row.date,
+    homeTeam: isHome ? "NE" : row.opponent,
+    awayTeam: isHome ? row.opponent : "NE",
+    homeScore: isHome ? row.ourScore : row.theirScore,
+    awayScore: isHome ? row.theirScore : row.ourScore,
+    status: "final",
+    venue: row.venue ?? "",
+  };
+}
+
 export async function getAllRecaps(): Promise<
   Array<{ game: Game; recap: GameRecap }>
 > {
@@ -79,24 +104,8 @@ export async function getAllRecaps(): Promise<
     const rows = await Promise.all(
       index.map(async (gameId) => {
         const recap = await readGenerated<GameRecap>(`recap-${gameId}.json`);
-        const schedule = await getSchedule();
-        const scheduleRow = schedule.find((r) => r.gameId === gameId);
-        const lastGame = await getLastGame();
-        const game: Game =
-          lastGame.id === gameId
-            ? lastGame
-            : {
-                id: gameId,
-                season: 2026,
-                week: scheduleRow?.week ?? 0,
-                seasonType: "REG",
-                date: scheduleRow?.date ?? "",
-                homeTeam: scheduleRow?.homeAway === "home" ? "NE" : scheduleRow?.opponent ?? "",
-                awayTeam: scheduleRow?.homeAway === "away" ? "NE" : scheduleRow?.opponent ?? "",
-                status: "final",
-                venue: "",
-              };
-        return recap ? { game, recap } : null;
+        const game = await getPlayedGame(gameId);
+        return recap && game ? { game, recap } : null;
       })
     );
     const real = rows.filter((r): r is { game: Game; recap: GameRecap } => r !== null);
