@@ -184,15 +184,15 @@
   ],
   "goodBadUgly": {
     "good": [
-      "Red zone defense held up reasonably well, allowing just one score on three opportunities.",
-      "Third down defense wasn't a total disaster, forcing two stops on 11 Seattle chances."
+      "Red zone offense converted 1 of 2 trips into a touchdown, hitting the league average of 55% efficiency in the critical area.",
+      "Third down defense held Seattle to just 2 conversions on 11 attempts, well below the 40% league norm, showing some backbone in obvious passing situations."
     ],
     "bad": [
-      "The offense managed just 1 for 2 in the red zone and 5 for 16 on third down—basically couldn't execute when it mattered.",
-      "Turnover margin of minus-3 is a death sentence, and losing the ball battle that decisively against an opponent never ends well."
+      "Offensive EPA/play of -0.11 means we were slightly worse than average on every snap, and Rhamondre Stevenson's -3% win probability added suggests the running game couldn't get anything done when it mattered.",
+      "Third down offense: 5 for 16 is brutal at 31%, and that kind of inefficiency on early downs is how you end up punting and watching the other team's offense on the field."
     ],
     "ugly": [
-      "Offensive EPA of minus-0.11 per play says the entire attack was operating in negative space; when your offense is generating negative value on every snap, 10 points is honestly all you deserve."
+      "Minus-3 turnover margin on the road is a recipe for disaster, and in a low-scoring game like this, those extra possessions literally cost us the win."
     ]
   },
   "playerOfTheGame": {
@@ -214,5 +214,6 @@
       "safety": 0
     }
   },
-  "fanTake": "Well, that was a three-point lesson in how football games slip away when nothing—and I mean nothing—goes right. The Patriots offense generated negative EPA per play while the defense allowed positive EPA per play, and somehow we managed to gift Seattle three turnovers on top of it all. This was the kind of loss that doesn't sting because it was close; it stings because we beat ourselves so thoroughly that the final margin almost feels generous. R.Stevenson taking the hit in win probability added tells you everything you need to know: this was a team self-destructing rather than getting outplayed."
+  "fanTake": "Well, that was a thoroughly depressing afternoon in Seattle. The Patriots managed to score 10 points — a touchdown and a field goal — and somehow that still wasn't enough, because the Seahawks squeezed out 13. The turnover margin of minus-3 tells you everything you need to know: we beat ourselves more thoroughly than Seattle beat us. On the road, in a hostile environment, playing mistake-filled football — this is how you don't win division games, let alone games you need to stay competitive.",
+  "aiVersion": 2
 }

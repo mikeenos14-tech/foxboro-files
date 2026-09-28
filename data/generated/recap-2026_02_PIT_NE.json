@@ -184,16 +184,14 @@
   ],
   "goodBadUgly": {
     "good": [
-      "Patriots defense was dominant in man coverage against Pittsburgh's offense, forcing the Steelers into complete offensive futility.",
-      "R.Stevenson's complementary football and the team's red zone efficiency on defense (held Pittsburgh to 0/1) kept the game firmly in control."
+      "Our defense was exceptional, holding Pittsburgh to a field goal with an EPA/play allowed of -0.36, significantly above the neutral mark.",
+      "Rhamondre Stevenson's efficiency was game-deciding, leading the team in win probability added at a critical moment when every possession mattered."
     ],
     "bad": [
-      "Third down offense remains a problem at 4/12—the team converted at 33%, while Pittsburgh held to 16% conversion rate suggests New England's drive sustainability is still a work in progress.",
-      "Red zone offense sputtered at 1/3, meaning the Patriots left points on the field despite a dominant defensive performance."
+      "Offensively we managed -0.07 EPA/play and converted only four of twelve third downs (33%), well below the league norm of 40%.",
+      "Red zone execution was inconsistent: we scored a touchdown on just one of three trips (33%) when teams typically hit 55% in the end zone."
     ],
-    "ugly": [
-      "Mike Onwenu's broken right ankle is a significant loss on the offensive line heading forward."
-    ]
+    "ugly": []
   },
   "playerOfTheGame": {
     "playerId": "00-0036875",
@@ -214,5 +212,6 @@
       "safety": 0
     }
   },
-  "fanTake": "Well, that's more like it. The Patriots defense absolutely suffocated the Steelers in man coverage, holding Pittsburgh to just 3 points in what amounted to a near-total home dominance at Gillette, and TreVeyon Henderson punched in a touchdown to lead a 20-3 victory that felt considerably more convincing than the offensive EPA numbers (-0.07) might suggest. Drake Maye's film showed the kinds of decisions we'll be dissecting all season—the young quarterback is learning on the job against elite defenses—but here's the thing: when your defense is that stout and your complementary football is clicking, you don't need to be brilliant offensively. R.Stevenson earned player of the game honors with 3% win probability added, a reflection of the kind of steady, thankless work that wins football games. The Patriots are now 600 wins deep in franchise history, and while the offensive rhythm from last season's Super Bowl run remains elusive, this is the kind of grinding, defense-first win that could matter come January."
+  "fanTake": "Well, that was cathartic. Twenty to three at home against Pittsburgh is the kind of defensive clinic that reminds you why we've built our identity around that side of the ball, and frankly, we needed to see it after some of the chop-and-change the offense has been going through. Rhamondre Stevenson's three percent win probability added doesn't sound like much until you realize he was the most impactful player on the field—sometimes dominance in games like this is about doing the right thing at the right time rather than putting up gaudy numbers. We didn't turn the ball over, our defense held the Steelers to three points, and we got a win at Gillette that felt clean and uncomplicated. Still, there's plenty of work to do before we're satisfied with this team.",
+  "aiVersion": 2
 }
