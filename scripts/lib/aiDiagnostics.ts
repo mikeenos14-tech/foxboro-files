@@ -1,13 +1,18 @@
 // What happened on every AI generation attempt, written to a small
 // committed file. GitHub truncates the build step's log, so when a
-// rewrite was rejected there was no way to see why. This file is the
-// record: data/generated/ai-diagnostics.json, one entry per piece of
-// content, overwritten on each attempt.
+// rewrite was rejected there was no way to see why. One entry per piece
+// of content, overwritten on each attempt.
+//
+// One file per workflow, never shared: the stats job (recaps, preview)
+// writes ai-diagnostics.json and the headlines job (beat digest) writes
+// ai-diagnostics-news.json. A single shared file made the two jobs'
+// commits conflict whenever they ran close together, and the stats
+// refresh failed to push.
 
 import { readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 
-const FILE = path.join(process.cwd(), "data", "generated", "ai-diagnostics.json");
+const GENERATED_DIR = path.join(process.cwd(), "data", "generated");
 
 export interface AiOutcome {
   status: "written" | "rejected" | "no-response";
@@ -15,13 +20,18 @@ export interface AiOutcome {
   problems: string[][];
 }
 
-export async function recordAiOutcome(label: string, outcome: AiOutcome): Promise<void> {
+export async function recordAiOutcome(
+  label: string,
+  outcome: AiOutcome,
+  file: "ai-diagnostics.json" | "ai-diagnostics-news.json" = "ai-diagnostics.json"
+): Promise<void> {
+  const target = path.join(GENERATED_DIR, file);
   let all: Record<string, AiOutcome & { at: string }> = {};
   try {
-    all = JSON.parse(await readFile(FILE, "utf-8"));
+    all = JSON.parse(await readFile(target, "utf-8"));
   } catch {
     // First run — start fresh.
   }
   all[label] = { ...outcome, at: new Date().toISOString() };
-  await writeFile(FILE, JSON.stringify(all, null, 2));
+  await writeFile(target, JSON.stringify(all, null, 2));
 }

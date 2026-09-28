@@ -46,7 +46,8 @@ Write the digest paragraph now.`;
     (t) => checkGrounding(t, { facts: user }),
     "Beat digest"
   );
-  await recordAiOutcome("beat digest", outcome);
+  // Its own file: this runs in the headlines job (see aiDiagnostics.ts).
+  await recordAiOutcome("beat digest", outcome, "ai-diagnostics-news.json");
   if (!text) {
     console.log("Beat digest generation failed — leaving previous digest (if any) in place.");
     return;
