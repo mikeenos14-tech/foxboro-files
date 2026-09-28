@@ -184,15 +184,15 @@
   ],
   "goodBadUgly": {
     "good": [
-      "Red zone offense converted one of two trips into a touchdown, hitting better than the league's typically converts on its third attempt.",
-      "Defensive pass coverage held Seattle to just 2 for 11 on third-down conversions, a genuinely bright spot in an otherwise grim outing."
+      "Seattle's red-zone efficiency cratered at 33%, well below the league norm—our defense forced them into field goals when they needed touchdowns.",
+      "Third-down defense held the Seahawks to just 18% on third down, keeping them off-balance even when they moved the chains."
     ],
     "bad": [
-      "Turnover margin of minus-3 is a recipe for heartbreak, and that's exactly what we got on the road.",
-      "Offensive EPA of -0.11 per play shows we were consistently inefficient—not just in spots, but as a system."
+      "Our offensive EPA per play clocked in at -0.11, meaning we were working below average efficiency all afternoon.",
+      "Third-down conversion rate of 31% showed an offense that couldn't sustain drives when the chains moved forward—we need north of 40% to compete."
     ],
     "ugly": [
-      "Third-down offense at 5 for 16 is abysmal; we couldn't sustain a drive to save our lives, converting at less than 32% when teams should be hitting 40%."
+      "The turnover margin of -3 is a killer on the road; those miscues in a three-point game are the difference between flying home disappointed and heading to the airport with a W."
     ]
   },
   "playerOfTheGame": {
@@ -214,6 +214,6 @@
       "safety": 0
     }
   },
-  "fanTake": "Well, that was a thoroughly deflating way to start the season. The Patriots trudged into Seattle and left with a 13-10 loss that felt like leaving money on the table—we had our opportunities in the red zone but couldn't capitalize when it mattered most, managing just one touchdown on two trips while coughing up the ball three times overall. Our offense was sluggish (negative EPA), our defense got gashed enough to matter (allowing positive EPA), and third-down efficiency was a disaster (5 for 16 when league average sits around 40%). Rhamondre Stevenson, for all his effort, couldn't reverse the tide. Welcome to 2026, folks—hopefully this is rock bottom.",
-  "aiVersion": 4
+  "fanTake": "Well, that's not how we drew it up in Seattle. The Patriots fell 13-10 to the Seahawks in a game that felt winnable but slipped through our fingers like a wet football. We moved the ball into the red zone twice and came away with a touchdown and a field goal; Seattle did us one better by staying efficient enough to steal this one. The offense sputtered when it mattered most, the defense had moments but couldn't quite close the deal, and turnovers became our kryptonite. This is the kind of loss that stings because it was right there for the taking.",
+  "aiVersion": 5
 }
