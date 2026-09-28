@@ -120,9 +120,21 @@ async function main() {
     // last week" is a perfectly coherent stat and exactly what someone
     // filtering to last week is asking for.
     const windowStandings = computeStandings(games, SEASON, window.weeks);
+    // Named by what New England actually played in it, so the filter reads
+    // "Last Game" like every other one on the site — the window is still
+    // calendar weeks underneath (see above), and a bye inside it says so.
+    // Game ids name both teams: "2026_03_NE_JAX".
+    const ourGames = [...window.gameIds].filter((id) => id.split("_").slice(2).includes(TEAM)).length;
+    const weeks = window.weeks?.size ?? window.games;
+    const label =
+      ourGames === weeks
+        ? weeks === 1
+          ? "Last Game"
+          : `Last ${weeks} Games`
+        : `Last ${weeks} Weeks (${ourGames} game${ourGames === 1 ? "" : "s"})`;
     return {
       key: window.key,
-      label: window.label,
+      label,
       offense: rankGeneric(ALL_TEAMS, TEAM, (t) => windowedEpa.offense.get(t) ?? 0, true),
       defense: rankGeneric(ALL_TEAMS, TEAM, (t) => windowedEpa.defense.get(t) ?? 0, false),
       successRate: {

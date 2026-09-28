@@ -26,7 +26,13 @@ export function NewsFeedItem({ item }: { item: NewsItem }) {
         <span className="text-muted">· {item.sourceName}</span>
       </div>
       <h3 className="mt-2 font-semibold text-foreground">{item.headline}</h3>
-      <p className="mt-1 text-sm text-muted">{item.summary}</p>
+      {/* Some feeds repeat the headline as the summary ("Are the Patriots
+          using Drake Maye the wrong way?" twice); show it once. */}
+      {item.summary &&
+        item.summary.trim().replace(/\W+$/, "").toLowerCase() !==
+          item.headline.trim().replace(/\W+$/, "").toLowerCase() && (
+          <p className="mt-1 text-sm text-muted">{item.summary}</p>
+        )}
     </a>
   );
 }

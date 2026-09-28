@@ -1,7 +1,6 @@
 import type { Game } from "@/lib/data/types";
 import { formatDate, opponentLabel } from "@/lib/util/format";
 import { TeamLogo } from "@/components/shared/TeamLogo";
-import { CountUp } from "@/components/shared/CountUp";
 import { WinConfetti } from "./WinConfetti";
 
 export function BoxScoreSummary({ game }: { game: Game }) {
@@ -12,7 +11,7 @@ export function BoxScoreSummary({ game }: { game: Game }) {
   const won = (usScore ?? 0) > (themScore ?? 0);
 
   return (
-    <div className="-mx-4 hero-texture bg-gradient-to-br from-navy via-navy to-navy-deep px-4 py-8 text-center sm:mx-0 sm:rounded-xl sm:px-6">
+    <div className="-mx-4 -mt-6 hero-texture bg-gradient-to-br from-navy via-navy to-navy-deep px-4 py-8 text-center sm:mx-0 sm:mt-0 sm:rounded-xl sm:px-6">
       <WinConfetti won={won} />
       <p className="text-sm text-white/70">
         {formatDate(game.date)}
@@ -31,9 +30,12 @@ export function BoxScoreSummary({ game }: { game: Game }) {
       <div className="mt-1 flex items-center justify-center gap-4 font-display text-6xl font-bold text-white sm:text-8xl">
         <TeamLogo team="NE" size={64} onDark />
         <span>
-          <CountUp value={usScore ?? 0} duration={1000} />
+          {/* Plain numbers, not a count-up: the animation started at
+              0, so anything reading the page before it ran — a screen
+              reader, a slow phone — got "0–0" for the final score. */}
+          {usScore ?? 0}
           <span className="mx-2 text-silver">–</span>
-          <CountUp value={themScore ?? 0} duration={1000} />
+          {themScore ?? 0}
         </span>
         <TeamLogo team={opponent} size={64} onDark />
       </div>

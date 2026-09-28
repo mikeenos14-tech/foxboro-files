@@ -55,7 +55,7 @@ export function NextGameHero({
   }
 
   return (
-    <div className="-mx-4 hero-texture bg-gradient-to-br from-navy via-navy to-navy-deep px-4 py-8 text-center sm:mx-0 sm:rounded-xl sm:px-6">
+    <div className="-mx-4 -mt-6 hero-texture bg-gradient-to-br from-navy via-navy to-navy-deep px-4 py-8 text-center sm:mx-0 sm:mt-0 sm:rounded-xl sm:px-6">
       <p className="text-sm font-semibold uppercase tracking-widest text-red-light">
         Week {game.week} · {isHome ? "Home" : "Away"}
       </p>

@@ -63,7 +63,7 @@ export default async function HomePage({
 
   return (
     <div className="-mx-4 space-y-8 sm:mx-0">
-      <div className="hero-texture bg-gradient-to-br from-navy via-navy to-navy-deep px-4 py-6 sm:rounded-xl sm:px-6">
+      <div className="-mt-6 hero-texture bg-gradient-to-br from-navy via-navy to-navy-deep px-4 py-6 sm:mt-0 sm:rounded-xl sm:px-6">
         <div className="flex flex-wrap items-start justify-between gap-5">
           <div>
             <div className="flex items-center gap-3">

@@ -235,6 +235,19 @@ async function checkAgainstOfficialStats(): Promise<string[]> {
   }
 
   failures.push(...(await checkPassingLines(allOfficial)));
+
+  // Kicking: the Splits tab's field-goal percentage against nflverse's
+  // own made/attempted totals for our kickers.
+  const kickers = official.filter((r) => n(r.fg_att) > 0);
+  if (kickers.length > 0) {
+    const made = kickers.reduce((s, r) => s + n(r.fg_made), 0);
+    const att = kickers.reduce((s, r) => s + n(r.fg_att), 0);
+    const ours = (await readGenerated<{ specialTeams: { fieldGoalPct: { value: number } } }>("team-stats.json"))
+      .specialTeams.fieldGoalPct.value;
+    if (Math.abs(ours - made / att) > 1e-9) {
+      failures.push(`field goal %: site ${(ours * 100).toFixed(1)}%, nflverse ${made}/${att} (${((made / att) * 100).toFixed(1)}%)`);
+    }
+  }
   failures.push(...(await checkPriorSeasonQb()));
   failures.push(...(await checkAgainstNextGenStats()));
 
