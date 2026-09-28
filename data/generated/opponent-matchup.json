@@ -100,9 +100,9 @@
     }
   ],
   "weather": {
-    "tempF": 57,
-    "wind": "11 mph",
-    "precipitation": "33%",
+    "tempF": 61,
+    "wind": "12 mph",
+    "precipitation": "36%",
     "isDome": false
   },
   "bettingContext": {
@@ -110,5 +110,5 @@
     "overUnder": 48.5,
     "asOf": "2026-09-28"
   },
-  "previewTake": "Here's the delicious irony of this week's matchup: Buffalo boasts the NFL's second-ranked offense and we're getting seven points, yet the most interesting battle on the field might be what happens in the trenches, where our rush offense—operating in the 65th percentile—faces the Bills' sixth-ranked run defense in what could be the most lopsided advantage we see all Sunday. The recent head-to-head record is a nervous one, alternating wins and losses like a coin flip across the last six games, though we did win both meetings in 2024. Buffalo's been the stronger team these past three weeks (posting +0.14 EPA per play against our -0.11), but if we can impose our will on the ground and limit their explosive passing game, we've got a real path to an upset in a game that feels very much in play. The line respects that—seven points is hardly a coronation—and with no major injuries reported on either side, it's simply a matter of execution."
+  "previewTake": "Here's a matchup that should make Patriots fans genuinely intrigued: we're bringing a rushing attack that grades in the 65th percentile into Buffalo's 6th-ranked run defense, which is—let me be clear—the widest real statistical edge we have on the entire board this week. Problem is, we're limping in after a loss to Jacksonville with Drake Maye coughing up three turnovers and calling his own offensive performance unacceptable, while the Bills' offense (ranked 2nd in EPA) rolls in fresh off outscoring us in recent form. We're getting seven points, which feels generous on the surface until you remember we're 2-3 against Buffalo over the last two years with no margin for error against an offense that efficient. If we can lean into that ground game and keep Maye clean, this is absolutely winnable; if we beat ourselves again, the Bills' elite attack will punish us without hesitation."
 }
