@@ -1,11 +1,38 @@
 [
   {
-    "id": "50048119",
-    "publishedAt": "2026-09-28T00:04:41Z",
+    "id": "50049488",
+    "publishedAt": "2026-09-28T02:58:55Z",
     "type": "Analysis",
-    "headline": "Jackson's pass, alert timeout call lead to Loop's 56-yard field goal as Ravens beat Cowboys 34-31",
-    "summary": "— Lamar Jackson completed a 27-yard pass to Zay Flowers and alertly called a timeout with 1 second left, setting up Tyler Loop’s 56-yard field goal to cap a stunning 7-second drive that gave the Baltimore Ravens a 34-31 victory over the Dallas Cowboys...",
-    "sourceUrl": "http://www.espn.com/nfl/recap?gameId=401872960",
+    "headline": "Ravens stun Cowboys in final seconds as Loop gains redemption",
+    "summary": "Lamar Jackson, Tyler Loop and the Ravens delivered one of the most remarkable last-second victories in recent NFL history Sunday, thanks to a late fourth-quarter decision made by the Cowboys.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50049488/ravens-stun-cowboys-final-seconds-loop-gains-redemption",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50049442",
+    "publishedAt": "2026-09-28T03:06:47Z",
+    "type": "Analysis",
+    "headline": "Raiders' Brock Bowers shines in return from knee procedure",
+    "summary": "Brock Bowers showed no rust in his regular-season debut Sunday after undergoing a meniscus procedure, finishing with 10 catches for 116 yards and a TD.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50049442/raiders-brock-bowers-shines-return-knee-procedure",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50048293",
+    "publishedAt": "2026-09-28T01:38:35Z",
+    "type": "Analysis",
+    "headline": "Kirk Cousins passes for 3 TDs and the unbeaten Raiders come back to top the Saints 35-27",
+    "summary": "— It took the Las Vegas Raiders an entire season to accumulate three victories in 2025.",
+    "sourceUrl": "http://www.espn.com/nfl/recap?gameId=401872961",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50049529",
+    "publishedAt": "2026-09-28T03:06:10Z",
+    "type": "Analysis",
+    "headline": "Saints again on losing end of controversial fumble ruling",
+    "summary": "The Saints walked away from Sunday's loss to the Raiders just as confused about the application of the quarterback fumble rules as they were in Week 1.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50049529/saints-again-losing-end-controversial-fumble-ruling",
     "sourceName": "ESPN"
   },
   {
@@ -18,39 +45,12 @@
     "sourceName": "ESPN"
   },
   {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/kirk-cousins-throws-3-tds-raiders-move-to-3-0-with-35-27-victory-over-saints",
-    "publishedAt": "2026-09-28T00:01:10.000Z",
-    "type": "Analysis",
-    "headline": "Kirk Cousins throws 3 TDs, Raiders move to 3-0 with 35-27 victory over Saints",
-    "summary": "For just the second time since 2002, the Raiders are 3-0.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/kirk-cousins-throws-3-tds-raiders-move-to-3-0-with-35-27-victory-over-saints",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "50047843",
-    "publishedAt": "2026-09-27T23:34:33Z",
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=421108",
+    "publishedAt": "2026-09-28T03:04:01.000Z",
     "type": "Injury",
-    "headline": "Vikings beat Buccaneers 23-16 but lose Jefferson to an ankle injury. Bucs' Mayfield also hurt",
-    "summary": "— Myles Price returned a punt 86 yards for a score, Kyler Murray threw a 41-yard TD pass to Jordan Addison and the Minnesota Vikings beat the Tampa Bay Buccaneers 23-16 on Sunday.",
-    "sourceUrl": "http://www.espn.com/nfl/recap?gameId=401872959",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50045732",
-    "publishedAt": "2026-09-27T20:53:30Z",
-    "type": "Analysis",
-    "headline": "Commanders snap Seattle's 12-game winning streak, beat the Seahawks 33-31",
-    "summary": "— Marcus Mariota threw three touchdown passes, and Kain Medrano returned an interception 50 yards for a touchdown to help the Washington Commanders hand Seattle its first loss since November, 33-31 on Sunday.",
-    "sourceUrl": "http://www.espn.com/nfl/recap?gameId=401872955",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50047321",
-    "publishedAt": "2026-09-27T22:56:04Z",
-    "type": "Analysis",
-    "headline": "Steelers' Warren dominates Bengals with career-best 176 yards",
-    "summary": "Steelers RB Jaylen Warren exploded for a career-best 176 yards from scrimmage in a dominant display for Pittsburgh's run game in Sunday's win.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50047321/steelers-warren-dominates-bengals-career-best-176-yards",
-    "sourceName": "ESPN"
+    "headline": "NFL Injury Rumors: Collins, Simmons, Stevenson",
+    "summary": "Texans wide receiver Nico Collins was ruled out of today’s game for the second straight week due to a hamstring injury. According to ESPN’s Adam Schefter, though, Collins “has a decent chance” to make his return to the field in Week 4. Collins was diagnosed with a Grade 1 hamstring strain, per Aasron Wilson of […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/09/nfl-injury-rumors-collins-simmons-stevenson",
+    "sourceName": "Pro Football Rumors"
   }
 ]
