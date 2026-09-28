@@ -3,33 +3,33 @@
   "opponent": "BUF",
   "opponentEpaRank": {
     "offense": 2,
-    "defense": 25
+    "defense": 24
   },
   "positionGroupMatchups": [
     {
       "group": "Rush Offense vs. Run Defense",
       "ourGrade": 65,
-      "theirGrade": 10,
+      "theirGrade": 6,
       "edge": "us",
-      "note": "65th percentile vs. 10th percentile (advantage us).",
+      "note": "65th percentile vs. 6th percentile (advantage us).",
       "ourStatLine": "331 yds, 4.0 YPC, 1 TD, 0 FUM, 8% explosive",
       "theirStatLine": "321 yds allowed, 4.0 YPC allowed, 2 TD allowed, 11% explosive allowed"
     },
     {
       "group": "Pass Offense vs. Pass Defense",
-      "ourGrade": 19,
-      "theirGrade": 39,
+      "ourGrade": 23,
+      "theirGrade": 35,
       "edge": "them",
-      "note": "19th percentile vs. 39th percentile (advantage them).",
+      "note": "23rd percentile vs. 35th percentile (advantage them).",
       "ourStatLine": "55/95 (58%), 631 yds, 1 TD, 6 INT",
       "theirStatLine": "72/119 (61%) allowed, 827 yds allowed, 7 TD allowed, 1 INT gained"
     },
     {
       "group": "Run Defense vs. Rush Offense",
-      "ourGrade": 19,
+      "ourGrade": 16,
       "theirGrade": 100,
       "edge": "them",
-      "note": "19th percentile vs. 100th percentile (advantage them).",
+      "note": "16th percentile vs. 100th percentile (advantage them).",
       "ourStatLine": "326 yds allowed, 4.4 YPC allowed, 2 TD allowed, 9% explosive allowed",
       "theirStatLine": "470 yds, 5.5 YPC, 8 TD, 1 FUM, 19% explosive"
     },
@@ -44,17 +44,17 @@
     },
     {
       "group": "Pass Protection vs. Pass Rush",
-      "ourGrade": 23,
-      "theirGrade": 58,
+      "ourGrade": 16,
+      "theirGrade": 61,
       "edge": "them",
-      "note": "23rd percentile vs. 58th percentile (advantage them).",
+      "note": "16th percentile vs. 61st percentile (advantage them).",
       "ourStatLine": "9 sacks allowed, 9% sack rate",
       "theirStatLine": "9 sacks, 27 QB hits, 8% sack rate"
     }
   ],
   "matchupOfTheWeek": {
     "title": "Rush Offense vs. Run Defense",
-    "description": "Our rush offense grades in the 65th percentile against a unit that grades 10th — the widest real statistical edge on the board this week."
+    "description": "Our rush offense grades in the 65th percentile against a unit that grades 6th — the widest real statistical edge on the board this week."
   },
   "opponentInjuries": [],
   "recentForm": {
@@ -100,10 +100,15 @@
     }
   ],
   "weather": {
-    "tempF": 63,
-    "wind": "7 mph",
-    "precipitation": "23%",
+    "tempF": 64,
+    "wind": "10 mph",
+    "precipitation": "21%",
     "isDome": false
   },
-  "previewTake": "Buffalo's offense ranks second in EPA—they're elite, full stop—but here's where we get to play the hand we've been dealt: their defense is 25th, and we have the widest statistical edge on the board this week in the one area we can actually exploit it. Our rush offense grades in the 65th percentile against their run defense at 10th; that's a chasm, and it's precisely where we need to live for four quarters. The Bills have been the marginally better team in the recent ledger (they're +0.14 in net EPA over their last three versus our -0.11), but we've won in Buffalo twice in the last three meetings, and that's not nothing—especially when you're walking into a game where your path to victory is as clear as the rushing lanes we should be finding. This is a winnable game if we can keep their offense off the field and pound the rock. The bad news? Their second-ranked EPA tells you they're going to score. The good news? We know exactly where to attack."
+  "bettingContext": {
+    "spread": 7,
+    "overUnder": 48.5,
+    "asOf": "2026-09-28"
+  },
+  "previewTake": "Here's the thing about this matchup: we've got the widest statistical edge on the board this week, and it happens to be exactly where we need it. Our rush offense is grading in the 65th percentile against Buffalo's run defense, which sits at 6th — that's a chasm, and in a game where we're 7-point underdogs, controlling the line of scrimmage feels like the blueprint. The Bills' offense is genuinely elite (2nd in EPA efficiency), so we can't play a shoot-out, but their defense ranks 24th — there's real vulnerability there if we can sustain drives. The recent head-to-head splits are humbling (we're 2-3 in the last five), and Buffalo's been slightly sharper than us the last three weeks (0.14 EPA/play to our -0.11), but when you've got this kind of schematic advantage up front and a plus-7 line, you have to trust the film. This is a game we can win if we run the ball, stay patient, and let our one clear edge do the work."
 }

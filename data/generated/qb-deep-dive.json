@@ -20,13 +20,13 @@
   "ranks": {
     "cpoe": {
       "value": 2.7974268323496676,
-      "leagueRank": 16,
-      "leaguePercentile": 52
+      "leagueRank": 17,
+      "leaguePercentile": 48
     },
     "turnoverWorthyPlayRate": {
       "value": 0.0449438202247191,
-      "leagueRank": 28,
-      "leaguePercentile": 13
+      "leagueRank": 31,
+      "leaguePercentile": 3
     },
     "cleanPocketEpa": {
       "value": -0.025424781417441596,
@@ -35,8 +35,8 @@
     },
     "pressureEpa": {
       "value": -1.3884099393758096,
-      "leagueRank": 27,
-      "leaguePercentile": 16
+      "leagueRank": 28,
+      "leaguePercentile": 13
     }
   },
   "windows": [

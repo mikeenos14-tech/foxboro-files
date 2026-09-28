@@ -39,6 +39,32 @@
     "overtime": false
   },
   {
+    "gameId": "2026_03_BAL_DAL",
+    "week": 3,
+    "date": "2026-09-27",
+    "weekday": "Sunday",
+    "homeTeam": "DAL",
+    "awayTeam": "BAL",
+    "homeScore": 31,
+    "awayScore": 34,
+    "homeRecord": "1-2",
+    "awayRecord": "2-1",
+    "overtime": false
+  },
+  {
+    "gameId": "2026_03_LA_DEN",
+    "week": 3,
+    "date": "2026-09-27",
+    "weekday": "Sunday",
+    "homeTeam": "DEN",
+    "awayTeam": "LA",
+    "homeScore": 30,
+    "awayScore": 26,
+    "homeRecord": "2-1",
+    "awayRecord": "1-2",
+    "overtime": false
+  },
+  {
     "gameId": "2026_03_NYJ_DET",
     "week": 3,
     "date": "2026-09-27",
@@ -91,6 +117,19 @@
     "overtime": false
   },
   {
+    "gameId": "2026_03_LV_NO",
+    "week": 3,
+    "date": "2026-09-27",
+    "weekday": "Sunday",
+    "homeTeam": "NO",
+    "awayTeam": "LV",
+    "homeScore": 27,
+    "awayScore": 35,
+    "homeRecord": "1-2",
+    "awayRecord": "3-0",
+    "overtime": false
+  },
+  {
     "gameId": "2026_03_TEN_NYG",
     "week": 3,
     "date": "2026-09-27",
@@ -114,6 +153,32 @@
     "awayScore": 27,
     "homeRecord": "2-1",
     "awayRecord": "2-1",
+    "overtime": false
+  },
+  {
+    "gameId": "2026_03_ARI_SF",
+    "week": 3,
+    "date": "2026-09-27",
+    "weekday": "Sunday",
+    "homeTeam": "SF",
+    "awayTeam": "ARI",
+    "homeScore": 36,
+    "awayScore": 30,
+    "homeRecord": "3-0",
+    "awayRecord": "1-2",
+    "overtime": false
+  },
+  {
+    "gameId": "2026_03_MIN_TB",
+    "week": 3,
+    "date": "2026-09-27",
+    "weekday": "Sunday",
+    "homeTeam": "TB",
+    "awayTeam": "MIN",
+    "homeScore": 16,
+    "awayScore": 23,
+    "homeRecord": "0-3",
+    "awayRecord": "3-0",
     "overtime": false
   },
   {

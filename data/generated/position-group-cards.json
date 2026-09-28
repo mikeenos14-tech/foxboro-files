@@ -8,7 +8,7 @@
       {
         "key": "last-1",
         "label": "Last Game",
-        "grade": 3
+        "grade": 0
       }
     ],
     "statLine": "",
@@ -17,14 +17,14 @@
   },
   {
     "group": "RB",
-    "grade": 39,
+    "grade": 35,
     "trend": "flat",
     "soWhat": "Opponent-adjusted EPA/play at RB, regressed to the league mean on a 69-play sample.",
     "windows": [
       {
         "key": "last-1",
         "label": "Last Game",
-        "grade": 74
+        "grade": 68
       }
     ],
     "statLine": "244 yds, 3.5 YPC, 1 TD, 0 FUM, 6% explosive",
@@ -34,14 +34,14 @@
   },
   {
     "group": "WR",
-    "grade": 13,
+    "grade": 16,
     "trend": "flat",
     "soWhat": "Opponent-adjusted EPA/play at WR, regressed to the league mean on a 53-play sample.",
     "windows": [
       {
         "key": "last-1",
         "label": "Last Game",
-        "grade": 6
+        "grade": 0
       }
     ],
     "statLine": "32/53 (60%), 437 yds, 4.1 YAC/rec, 0 TD",
@@ -56,14 +56,14 @@
   },
   {
     "group": "TE",
-    "grade": 29,
+    "grade": 23,
     "trend": "flat",
     "soWhat": "Opponent-adjusted EPA/play at TE, regressed to the league mean on a 12-play sample.",
     "windows": [
       {
         "key": "last-1",
         "label": "Last Game",
-        "grade": 35
+        "grade": 39
       }
     ],
     "statLine": "9/12 (75%), 103 yds, 4.7 YAC/rec, 1 TD",
@@ -86,7 +86,7 @@
       {
         "key": "last-1",
         "label": "Last Game",
-        "grade": 58
+        "grade": 68
       }
     ],
     "statLine": "",
@@ -95,14 +95,14 @@
   },
   {
     "group": "Pass Rush",
-    "grade": 71,
+    "grade": 74,
     "trend": "flat",
     "soWhat": "Opponent-adjusted sack rate generated, team-wide — edge rushers, interior linemen and blitzers all included.",
     "windows": [
       {
         "key": "last-1",
         "label": "Last Game",
-        "grade": 26
+        "grade": 39
       }
     ],
     "statLine": "4 sacks, 12 QB hits — leader: Gabe Jacas (1.5 sacks)",
@@ -111,7 +111,7 @@
   },
   {
     "group": "Run Defense",
-    "grade": 23,
+    "grade": 19,
     "trend": "flat",
     "soWhat": "Opponent-adjusted rush EPA allowed, team-wide — the front seven and run-support safeties together.",
     "windows": [
@@ -127,14 +127,14 @@
   },
   {
     "group": "Pass Defense",
-    "grade": 90,
+    "grade": 84,
     "trend": "flat",
     "soWhat": "Opponent-adjusted pass EPA allowed, team-wide — coverage and pass rush together, since the two aren't separable in this data.",
     "windows": [
       {
         "key": "last-1",
         "label": "Last Game",
-        "grade": 29
+        "grade": 32
       }
     ],
     "statLine": "1 INT, 12 PBU — leader: Marcus Jones (1 INT)",
