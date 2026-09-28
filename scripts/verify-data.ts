@@ -131,21 +131,31 @@ export async function verifyData(): Promise<string[]> {
 // underlying games is the check that catches this whole class at once.
 async function checkAgainstOfficialStats(): Promise<string[]> {
   const failures: string[] = [];
-  let official: Array<Record<string, string>>;
-  try {
-    official = (await loadCsv<Record<string, string>>("stats_player_reg_2026.csv")).filter(
-      (r) => r.recent_team === TEAM
-    );
-  } catch {
-    // The raw cache is gitignored, so a fresh clone that hasn't fetched
-    // yet shouldn't fail the build over a missing file.
-    return failures;
-  }
-  if (official.length === 0) return failures;
-
   const boards = JSON.parse(
     await readFile(path.join(GENERATED, "leaderboards.json"), "utf8")
   ) as TeamLeaderboards;
+  const siteShowsStats = boards.rushing.length + boards.receiving.length + boards.defense.length > 0;
+
+  let allOfficial: Array<Record<string, string>>;
+  try {
+    allOfficial = await loadCsv<Record<string, string>>("stats_player_reg_2026.csv");
+  } catch {
+    // This used to return quietly, so a fresh clone printed "verified"
+    // having compared nothing against nflverse. Only pass when there's
+    // genuinely nothing on the site to check yet (before Week 1).
+    if (siteShowsStats) {
+      failures.push(
+        "data/raw/stats_player_reg_2026.csv is missing, so nothing was checked against nflverse — run `npx tsx scripts/fetch-nflverse.ts` first"
+      );
+    }
+    return failures;
+  }
+  const official = allOfficial.filter((r) => r.recent_team === TEAM);
+  if (official.length === 0) {
+    if (siteShowsStats) failures.push(`nflverse's player stats have no ${TEAM} rows, but the site shows ${TEAM} stats`);
+    return failures;
+  }
+
   const byId = new Map(official.map((r) => [r.player_id, r]));
   const n = (v: string | undefined) => (!v || v === "NA" ? 0 : Number(v));
   const statOf = (line: { stats: Array<{ label: string; value: string }> }, label: string) =>
@@ -203,6 +213,121 @@ async function checkAgainstOfficialStats(): Promise<string[]> {
     }
   }
 
+  // Defense board. Half-sacks are real, so the tolerance is tight.
+  const defenseColumns: Array<[string, string]> = [
+    ["Sacks", "def_sacks"],
+    ["QB Hits", "def_qb_hits"],
+    ["TFL", "def_tackles_for_loss"],
+    ["INT", "def_interceptions"],
+    ["PBU", "def_pass_defended"],
+    ["FF", "def_fumbles_forced"],
+  ];
+  for (const line of boards.defense) {
+    const o = byId.get(line.playerId);
+    if (!o) continue;
+    for (const [label, column] of defenseColumns) {
+      const ours = statOf(line, label);
+      const theirs = n(o[column]);
+      if (Number.isFinite(ours) && Math.abs(ours - theirs) > 0.01) {
+        failures.push(`${line.playerName} ${label}: site ${ours}, nflverse ${theirs}`);
+      }
+    }
+  }
+
+  failures.push(...(await checkPassingLines(allOfficial)));
+  failures.push(...(await checkPriorSeasonQb()));
+
+  return failures;
+}
+
+// The frozen "2025 Season" snapshot is built once and never rebuilt, so
+// nothing else would ever notice if it were wrong — and it was: it folded
+// in the playoffs, showing Maye at 5,222 yards for a 4,394-yard season.
+async function checkPriorSeasonQb(): Promise<string[]> {
+  interface PriorQb {
+    playerName: string;
+    completions: number;
+    attempts: number;
+    yards: number;
+    tds: number;
+    ints: number;
+  }
+  const snapshot = await readGenerated<{ season: number; team: string; qb: PriorQb }>(
+    "prior-season-2025.json"
+  ).catch(() => null);
+  if (!snapshot) return [];
+
+  let rows: Array<Record<string, string>>;
+  try {
+    rows = await loadCsv<Record<string, string>>(`stats_player_reg_${snapshot.season}.csv`);
+  } catch {
+    return [
+      `data/raw/stats_player_reg_${snapshot.season}.csv is missing, so the ${snapshot.season} snapshot wasn't checked — run \`npx tsx scripts/fetch-nflverse.ts\``,
+    ];
+  }
+  const qb = snapshot.qb;
+  const o = rows.find((r) => r.player_display_name === qb.playerName && r.recent_team === snapshot.team);
+  if (!o) return [`${snapshot.season} snapshot QB ${qb.playerName} not found in nflverse's ${snapshot.team} stats`];
+
+  const n = (v: string | undefined) => (!v || v === "NA" ? 0 : Number(v));
+  const failures: string[] = [];
+  const expect: Array<[string, number, number]> = [
+    ["completions", qb.completions, n(o.completions)],
+    ["pass attempts", qb.attempts, n(o.attempts)],
+    ["passing yards", qb.yards, n(o.passing_yards)],
+    ["passing TDs", qb.tds, n(o.passing_tds)],
+    ["interceptions", qb.ints, n(o.passing_interceptions)],
+  ];
+  for (const [what, ours, theirs] of expect) {
+    if (Math.abs(ours - theirs) > 0.5) {
+      failures.push(`${snapshot.season} ${qb.playerName} ${what}: site ${ours}, nflverse ${theirs}`);
+    }
+  }
+  return failures;
+}
+
+// Passing box scores — the gap that let a wrong QB line ship: nflverse
+// marks sacks as pass attempts, the site counted them, and Drake Maye
+// read 51/89 for 547 yds when the real line was 51/80 for 585. Checked
+// for our QB and for every team's starter in the league table, since the
+// head-to-head tool shows any of them.
+async function checkPassingLines(allOfficial: Array<Record<string, string>>): Promise<string[]> {
+  const failures: string[] = [];
+  const byId = new Map(allOfficial.map((r) => [r.player_id, r]));
+  const n = (v: string | undefined) => (!v || v === "NA" ? 0 : Number(v));
+
+  interface QbLine {
+    playerId: string;
+    playerName: string;
+    team: string;
+    completions: number;
+    attempts: number;
+    yards: number;
+    tds: number;
+    ints: number;
+  }
+  const featured = await readGenerated<QbLine>("qb-deep-dive.json");
+  const league = await readGenerated<QbLine[]>("qb-league-table.json");
+
+  const qbs = new Map([featured, ...league].map((qb) => [`${qb.team}|${qb.playerId}`, qb]));
+  for (const qb of qbs.values()) {
+    const o = byId.get(qb.playerId);
+    // nflverse's season row is the player's whole season; ours is his
+    // games for this team. A traded QB would differ legitimately.
+    if (!o || o.recent_team !== qb.team) continue;
+    const expect: Array<[string, number, number]> = [
+      ["completions", qb.completions, n(o.completions)],
+      ["pass attempts", qb.attempts, n(o.attempts)],
+      ["passing yards", qb.yards, n(o.passing_yards)],
+      ["passing TDs", qb.tds, n(o.passing_tds)],
+      ["interceptions", qb.ints, n(o.passing_interceptions)],
+    ];
+    for (const [what, ours, theirs] of expect) {
+      if (Math.abs(ours - theirs) > 0.5) {
+        failures.push(`${qb.playerName} (${qb.team}) ${what}: site ${ours}, nflverse ${theirs}`);
+      }
+    }
+  }
   return failures;
 }
 

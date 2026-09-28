@@ -22,7 +22,9 @@ export function formatDate(iso: string): string {
 }
 
 export function formatPercent(value: number, digits = 0): string {
-  return `${(value * 100).toFixed(digits)}%`;
+  // toPrecision strips float noise first: 51/80 * 100 is 63.74999…, which
+  // toFixed alone rounds to 63.7 where every box score prints 63.8.
+  return `${Number((value * 100).toPrecision(12)).toFixed(digits)}%`;
 }
 
 export function signed(value: number, digits = 2): string {

@@ -33,20 +33,25 @@ const SOURCES: Array<{ name: string; url: string }> = [
     url: "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_2026.csv",
   },
   {
-    // FTN's per-play charting data (real human-charted, not derived from
-    // play-by-play) — used specifically for is_qb_fault_sack, which lets
-    // the OL pass-protection grade exclude sacks caused by the QB holding
-    // the ball/scrambling into pressure rather than a real blocking
-    // failure. Joins to play_by_play_2026.csv via
-    // nflverse_game_id/nflverse_play_id == game_id/play_id.
-    name: "stats_player_reg_2026.csv",
     // nflverse's OWN season aggregation of per-player box-score stats.
     // Not used to render anything — it's the independent check that our
     // play-by-play aggregation agrees with the canonical numbers. See
     // verify-data.ts.
+    name: "stats_player_reg_2026.csv",
     url: "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2026.csv",
   },
   {
+    // Same check for the frozen "2025 Season" snapshot
+    // (prior-season-2025.json), which is otherwise never re-verified.
+    name: "stats_player_reg_2025.csv",
+    url: "https://github.com/nflverse/nflverse-data/releases/download/stats_player/stats_player_reg_2025.csv",
+  },
+  {
+    // FTN's per-play charting data (real human-charted, not derived from
+    // play-by-play): QB-fault sacks, turnover-worthy throws, play-action,
+    // blitz and pocket splits, and catchable/drop/contested flags for
+    // receivers. Joins to play_by_play_2026.csv via
+    // nflverse_game_id/nflverse_play_id == game_id/play_id.
     name: "ftn_charting_2026.csv",
     url: "https://github.com/nflverse/nflverse-data/releases/download/ftn_charting/ftn_charting_2026.csv",
   },

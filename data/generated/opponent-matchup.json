@@ -21,8 +21,8 @@
       "theirGrade": 35,
       "edge": "them",
       "note": "23rd percentile vs. 35th percentile (advantage them).",
-      "ourStatLine": "55/95 (58%), 631 yds, 1 TD, 6 INT",
-      "theirStatLine": "72/119 (61%) allowed, 827 yds allowed, 7 TD allowed, 1 INT gained"
+      "ourStatLine": "55/86 (64%), 631 yds, 1 TD, 6 INT",
+      "theirStatLine": "72/110 (65%) allowed, 827 yds allowed, 7 TD allowed, 1 INT gained"
     },
     {
       "group": "Run Defense vs. Rush Offense",
@@ -39,8 +39,8 @@
       "theirGrade": 87,
       "edge": "even",
       "note": "87th percentile vs. 87th percentile (close matchup).",
-      "ourStatLine": "59/100 (59%) allowed, 569 yds allowed, 4 TD allowed, 2 INT gained",
-      "theirStatLine": "56/95 (59%), 786 yds, 5 TD, 2 INT"
+      "ourStatLine": "59/93 (63%) allowed, 569 yds allowed, 4 TD allowed, 2 INT gained",
+      "theirStatLine": "56/86 (65%), 786 yds, 5 TD, 2 INT"
     },
     {
       "group": "Pass Protection vs. Pass Rush",
@@ -101,7 +101,7 @@
   ],
   "weather": {
     "tempF": 61,
-    "wind": "12 mph",
+    "wind": "3 mph",
     "precipitation": "36%",
     "isDome": false
   },
@@ -109,6 +109,5 @@
     "spread": 7,
     "overUnder": 48.5,
     "asOf": "2026-09-28"
-  },
-  "previewTake": "Here's a matchup that should make Patriots fans genuinely intrigued: we're bringing a rushing attack that grades in the 65th percentile into Buffalo's 6th-ranked run defense, which is—let me be clear—the widest real statistical edge we have on the entire board this week. Problem is, we're limping in after a loss to Jacksonville with Drake Maye coughing up three turnovers and calling his own offensive performance unacceptable, while the Bills' offense (ranked 2nd in EPA) rolls in fresh off outscoring us in recent form. We're getting seven points, which feels generous on the surface until you remember we're 2-3 against Buffalo over the last two years with no margin for error against an offense that efficient. If we can lean into that ground game and keep Maye clean, this is absolutely winnable; if we beat ourselves again, the Bills' elite attack will punish us without hesitation."
+  }
 }

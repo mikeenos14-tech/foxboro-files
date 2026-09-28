@@ -28,6 +28,7 @@ import { ALL_TEAMS } from "./lib/teams";
 import { confidenceLabel } from "./lib/shrink";
 import { GROUP_METRICS, gradeGroupAllTeams } from "./lib/positionGrades";
 import type { RosterRow } from "./lib/roster";
+import { passingLine } from "./lib/boxScore";
 import type { PriorSeasonSnapshot } from "../lib/data/types";
 import { passerId } from "./lib/playerIds";
 
@@ -66,7 +67,13 @@ async function main() {
     `https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_${season}.csv`
   );
 
-  const pbp = await loadCsv<PbpRow>(`play_by_play_${season}.csv`);
+  // Regular season only. The file includes the playoffs, and a "2025
+  // Season" line that folded in four extra playoff games showed Maye at
+  // 5,222 yards against a real regular season of 4,394 — and graded every
+  // unit partly on who a team met in January.
+  const pbp = (await loadCsv<PbpRow>(`play_by_play_${season}.csv`)).filter(
+    (r) => r.season_type === "REG"
+  );
   const rosterRows = await loadCsv<RosterRow>(`roster_${season}.csv`);
 
   // Latest-week snapshot per player, same approach as the current-season
@@ -128,7 +135,6 @@ async function main() {
   }
   const starterId = [...attemptsByPasser.entries()].sort((a, b) => b[1] - a[1])[0]?.[0];
   const rows = teamPasses.filter((r) => passerId(r) === starterId);
-  const completions = rows.filter((r) => bool01(r.complete_pass));
   const withAirYards = rows.filter((r) => r.air_yards !== "" && r.air_yards !== "NA");
   const depthBucket = (bucket: PbpRow[]) =>
     bucket.length === 0 ? 0 : bucket.filter((r) => bool01(r.complete_pass)).length / bucket.length;
@@ -138,11 +144,8 @@ async function main() {
 
   const qb = {
     playerName: rosterByGsis.get(starterId ?? "")?.full_name ?? rows[0]?.passer ?? "Unknown",
-    attempts: rows.length,
-    completions: completions.length,
-    yards: rows.reduce((s, r) => s + num(r.yards_gained), 0),
-    tds: rows.filter((r) => bool01(r.pass_touchdown)).length,
-    ints,
+    // Official box score from the throws only — rows are every dropback.
+    ...passingLine(rows),
     cpoe:
       cpoeRows.length === 0
         ? 0

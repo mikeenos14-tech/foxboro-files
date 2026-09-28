@@ -32,6 +32,7 @@ import { loadReceivingFlags } from "./lib/ftn";
 import { trendFor } from "./lib/trend";
 import { loadGates, gateStateFor, recordGate, saveGates } from "./lib/gateStore";
 import { passerId, receiverId, rusherId } from "./lib/playerIds";
+import { passingLine } from "./lib/boxScore";
 import type {
   DepthChartEntry,
   PositionGroupReportCard,
@@ -339,7 +340,6 @@ function buildPositionGroupLeagueTable(
 // the per-window ("last N games") computation, which just feeds this a
 // smaller row set.
 function qbStatsFromRows(rows: PbpRow[], twpKeys?: Set<string>): QBWindowStats {
-  const completions = rows.filter((r) => bool01(r.complete_pass));
   const withAirYards = rows.filter((r) => r.air_yards !== "" && r.air_yards !== "NA");
 
   const depthBucket = (rowsInBucket: PbpRow[]) => {
@@ -369,11 +369,10 @@ function qbStatsFromRows(rows: PbpRow[], twpKeys?: Set<string>): QBWindowStats {
   const ints = rows.filter((r) => bool01(r.interception)).length;
 
   return {
-    attempts: rows.length,
-    completions: completions.length,
-    yards: rows.reduce((sum, r) => sum + num(r.yards_gained), 0),
-    tds: rows.filter((r) => bool01(r.pass_touchdown)).length,
-    ints,
+    // Box score only: rows here are every dropback (sacks included, which
+    // the per-dropback EPA and turnover-worthy rates below need), so the
+    // official attempts/yards come from the throws alone.
+    ...passingLine(rows),
     cpoe,
     accuracyByDepth: {
       short: depthBucket(short),

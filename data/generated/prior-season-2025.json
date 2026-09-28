@@ -4,38 +4,38 @@
   "teamStrength": {
     "epaPerPlay": {
       "offense": {
-        "value": 0.08073978883417655,
-        "leagueRank": 6,
-        "leaguePercentile": 84
+        "value": 0.12209606917636798,
+        "leagueRank": 3,
+        "leaguePercentile": 94
       },
       "defense": {
-        "value": -0.06371844059297264,
-        "leagueRank": 10,
-        "leaguePercentile": 71
+        "value": -0.009295055323052817,
+        "leagueRank": 14,
+        "leaguePercentile": 58
       }
     },
     "successRate": {
       "offense": {
-        "value": 0.46214511041009465,
-        "leagueRank": 7,
-        "leaguePercentile": 81
+        "value": 0.48475909537856443,
+        "leagueRank": 3,
+        "leaguePercentile": 94
       },
       "defense": {
-        "value": 0.42414355628058725,
-        "leagueRank": 11,
-        "leaguePercentile": 68
+        "value": 0.44616977225672877,
+        "leagueRank": 18,
+        "leaguePercentile": 45
       }
     },
     "yardsPerPlay": {
       "offense": {
-        "value": 6.044164037854889,
-        "leagueRank": 4,
-        "leaguePercentile": 90
+        "value": 6.380530973451328,
+        "leagueRank": 2,
+        "leaguePercentile": 97
       },
       "defense": {
-        "value": 4.887438825448613,
-        "leagueRank": 6,
-        "leaguePercentile": 84
+        "value": 5.204968944099379,
+        "leagueRank": 12,
+        "leaguePercentile": 65
       }
     },
     "pointDifferential": {
@@ -47,68 +47,68 @@
   "positionGroups": [
     {
       "group": "QB",
-      "grade": 90,
-      "sampleSize": 692,
+      "grade": 100,
+      "sampleSize": 550,
       "confidence": "high"
     },
     {
       "group": "RB",
-      "grade": 26,
-      "sampleSize": 460,
+      "grade": 35,
+      "sampleSize": 372,
       "confidence": "high"
     },
     {
       "group": "WR",
       "grade": 100,
-      "sampleSize": 352,
+      "sampleSize": 283,
       "confidence": "high"
     },
     {
       "group": "TE",
       "grade": 87,
-      "sampleSize": 136,
+      "sampleSize": 113,
       "confidence": "high"
     },
     {
-      "group": "OL",
+      "group": "Pass Protection",
       "grade": 32,
-      "sampleSize": 694,
+      "sampleSize": 551,
       "confidence": "high"
     },
     {
-      "group": "Edge",
-      "grade": 29,
-      "sampleSize": 724,
+      "group": "Pass Rush",
+      "grade": 16,
+      "sampleSize": 564,
       "confidence": "high"
     },
     {
-      "group": "Interior DL",
-      "grade": 71,
-      "sampleSize": 504,
+      "group": "Run Defense",
+      "grade": 58,
+      "sampleSize": 404,
       "confidence": "high"
     },
     {
-      "group": "Secondary",
-      "grade": 68,
-      "sampleSize": 722,
+      "group": "Pass Defense",
+      "grade": 52,
+      "sampleSize": 562,
       "confidence": "high"
     }
   ],
   "qb": {
     "playerName": "Drake Maye",
-    "attempts": 682,
-    "completions": 424,
-    "yards": 4890,
-    "tds": 37,
-    "ints": 12,
-    "cpoe": 8.003999165490141,
+    "completions": 354,
+    "attempts": 492,
+    "yards": 4394,
+    "tds": 31,
+    "ints": 8,
+    "cpoe": 10.781274739084605,
     "accuracyByDepth": {
-      "short": 0.7428571428571429,
-      "medium": 0.6349206349206349,
-      "deep": 0.45263157894736844
+      "short": 0.7644787644787645,
+      "medium": 0.6759259259259259,
+      "deep": 0.5
     },
-    "pressureEpa": -0.9410680317347967,
-    "cleanPocketEpa": 0.4174654277227733,
-    "turnoverWorthyPlayRate": 0.017595307917888565
+    "pressureEpa": -0.6475705789528193,
+    "cleanPocketEpa": 0.49715138073935083,
+    "turnoverWorthyPlayRate": 0.014814814814814815
   }
 }

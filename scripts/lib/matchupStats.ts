@@ -8,6 +8,7 @@
 
 import { bool01, num } from "./csv";
 import type { PbpRow } from "./pbp";
+import { passingLine } from "./boxScore";
 
 function fmtPct(n: number): string {
   return `${(n * 100).toFixed(0)}%`;
@@ -34,24 +35,18 @@ export function rushDefenseStatLine(pbp: PbpRow[], team: string): string {
   return `${yards} yds allowed, ${ypc.toFixed(1)} YPC allowed, ${tds} TD allowed, ${fmtPct(explosiveRate)} explosive allowed`;
 }
 
+// Box-score lines, so sacks and two-point tries aren't attempts (see
+// boxScore.ts) — the sack-rate lines below keep every dropback.
 export function passOffenseStatLine(pbp: PbpRow[], team: string): string {
-  const rows = pbp.filter((r) => r.posteam === team && bool01(r.pass_attempt));
-  if (rows.length === 0) return "";
-  const completions = rows.filter((r) => bool01(r.complete_pass));
-  const yards = completions.reduce((sum, r) => sum + num(r.yards_gained), 0);
-  const tds = rows.filter((r) => bool01(r.pass_touchdown)).length;
-  const ints = rows.filter((r) => bool01(r.interception)).length;
-  return `${completions.length}/${rows.length} (${fmtPct(completions.length / rows.length)}), ${yards} yds, ${tds} TD, ${ints} INT`;
+  const line = passingLine(pbp.filter((r) => r.posteam === team));
+  if (line.attempts === 0) return "";
+  return `${line.completions}/${line.attempts} (${fmtPct(line.completions / line.attempts)}), ${line.yards} yds, ${line.tds} TD, ${line.ints} INT`;
 }
 
 export function passDefenseStatLine(pbp: PbpRow[], team: string): string {
-  const rows = pbp.filter((r) => r.defteam === team && bool01(r.pass_attempt));
-  if (rows.length === 0) return "";
-  const completions = rows.filter((r) => bool01(r.complete_pass));
-  const yards = completions.reduce((sum, r) => sum + num(r.yards_gained), 0);
-  const tds = rows.filter((r) => bool01(r.pass_touchdown)).length;
-  const ints = rows.filter((r) => bool01(r.interception)).length;
-  return `${completions.length}/${rows.length} (${fmtPct(completions.length / rows.length)}) allowed, ${yards} yds allowed, ${tds} TD allowed, ${ints} INT gained`;
+  const line = passingLine(pbp.filter((r) => r.defteam === team));
+  if (line.attempts === 0) return "";
+  return `${line.completions}/${line.attempts} (${fmtPct(line.completions / line.attempts)}) allowed, ${line.yards} yds allowed, ${line.tds} TD allowed, ${line.ints} INT gained`;
 }
 
 export function passProStatLine(pbp: PbpRow[], team: string): string {
