@@ -6,6 +6,7 @@ import { GoodBadUglySidebar } from "@/components/recap/GoodBadUglySidebar";
 import { PlayerOfTheGameCard } from "@/components/recap/PlayerOfTheGameCard";
 import { WinProbabilityChart } from "@/components/shared/WinProbabilityChart";
 import { StatCard } from "@/components/shared/StatCard";
+import { FlagLink } from "@/components/shared/FlagLink";
 import { formatPercent, opponentLabel, signed } from "@/lib/util/format";
 
 export async function generateMetadata({
@@ -48,6 +49,7 @@ export default async function RecapDetailPage({
             The Take
           </span>
           <p className="mt-2 text-sm leading-relaxed">{recap.fanTake}</p>
+          <FlagLink page={`/recap/${gameId}`} section="The Take" text={recap.fanTake} className="mt-2" />
         </div>
       )}
 

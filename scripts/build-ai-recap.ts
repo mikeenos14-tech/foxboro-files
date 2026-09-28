@@ -68,6 +68,16 @@ function rateVsNorm(made: number, att: number, normPct: number, side: "offense" 
   return `${made} of ${att} (${pct}%) — ${above ? "above" : "below"} the ${normPct}% league norm, ${verdict}`;
 }
 
+// "20:20" → "8:20 PM ET (a night game)". Without it the model guessed —
+// an 8:20pm kickoff became "all afternoon".
+function kickoffLine(kickoffEt: string | undefined): string {
+  if (!kickoffEt) return "Kickoff time: not given — don't describe the time of day.";
+  const [h, m] = kickoffEt.split(":").map(Number);
+  const period = h < 12 ? "a morning game" : h < 17 ? "an afternoon game" : "a night game";
+  const clock = `${((h + 11) % 12) + 1}:${String(m).padStart(2, "0")} ${h < 12 ? "AM" : "PM"}`;
+  return `Kickoff: ${clock} ET (${period}).`;
+}
+
 function scoringLine(team: string, s: { td: number; fg: number; safety: number }): string {
   const parts = [`${s.td} TD`, `${s.fg} FG`];
   if (s.safety > 0) parts.push(`${s.safety} safety`);
@@ -133,7 +143,7 @@ async function buildRecapContent() {
       day: "numeric",
       timeZone: "UTC",
     });
-    const user = `Date: ${weekday} (${row.date}). Don't describe the time of day — it isn't given.
+    const user = `Date: ${weekday} (${row.date}). ${kickoffLine(row.kickoffTimeEt)}
 Final score: New England ${usScore}, ${opponent} ${themScore} (${usScore > themScore ? "Patriots win" : usScore === themScore ? "tie" : "Patriots loss"}).
 Location: ${isHome ? `a home game for New England, at ${row.venue || "Gillette Stadium"} in Foxborough` : `a road game — New England played at ${opponent}${row.venue ? `, ${row.venue}` : ""}. It was NOT in Foxborough`}.
 How the points were scored — ${recap.scoring ? `${scoringLine("New England", recap.scoring.us)}; ${scoringLine(opponent, recap.scoring.them)}` : "not available, so don't describe it"}.
@@ -148,16 +158,19 @@ Real articles about this game:
 ${formatArticles(articles)}
 
 Respond with ONLY this JSON shape:
-{"fanTake": "3-5 sentences in the fan voice describing what happened and how it feels", "good": ["1-2 short bullet points, each one sentence"], "bad": ["1-2 short bullet points"], "ugly": ["0-2 short bullet points, omit if nothing rises to 'ugly'"]}`;
+{"fanTake": "3-5 sentences in the fan voice describing what happened and how it feels"}`;
 
-    type RecapAi = { fanTake: string; good: string[]; bad: string[]; ugly: string[] };
+    // The Take only. Good/Bad/Ugly is built from the stats in code
+    // (recapBullets.ts) — restating numbers is where the model slipped.
+    type RecapAi = { fanTake: string };
     // 1,000 tokens: a take plus up to six bullets for a lopsided game
     // can run past 500, and a reply cut off mid-JSON can't be parsed.
     const { result, outcome } = await generateChecked<RecapAi>(
       (prompt) => generateJson<RecapAi>(FAN_VOICE_SYSTEM, prompt, 1000),
       user,
-      (r) => [r.fanTake, ...(r.good ?? []), ...(r.bad ?? []), ...(r.ugly ?? [])].join(" "),
-      (text) => checkGrounding(text, { facts: user, isHome, playerNames: [star.playerName] }),
+      (r) => r.fanTake ?? "",
+      (text) =>
+        checkGrounding(text, { facts: user, isHome, playerNames: [star.playerName], kickoffEt: row.kickoffTimeEt }),
       `Recap ${gameId}`
     );
     await recordAiOutcome(`recap ${gameId}`, outcome);
@@ -168,13 +181,10 @@ Respond with ONLY this JSON shape:
     }
 
     recap.fanTake = result.fanTake;
-    if (result.good?.length) recap.goodBadUgly.good = result.good;
-    if (result.bad?.length) recap.goodBadUgly.bad = result.bad;
-    recap.goodBadUgly.ugly = result.ugly ?? [];
     recap.aiVersion = AI_VERSION;
 
     await writeFile(path.join(GENERATED_DIR, `recap-${gameId}.json`), JSON.stringify(recap, null, 2));
-    console.log(`Wrote AI-generated fanTake + goodBadUgly for ${gameId}`);
+    console.log(`Wrote AI-generated fanTake for ${gameId}`);
   }
 }
 
@@ -196,7 +206,7 @@ async function buildPreviewContent() {
   const h2hLosses = matchup.headToHead.filter((h) => h.result === "L").length;
   const formGames = (side: { gamesPlayed: number }) => Math.min(3, side.gamesPlayed);
 
-  const user = `Upcoming game: New England ${isHome ? `hosts ${matchup.opponent} at ${nextGame.venue || "Gillette Stadium"} in Foxborough` : `plays at ${matchup.opponent}, ${nextGame.venue || "on the road"} — a road game, NOT in Foxborough`}, Week ${nextGame.week}, ${nextGame.date}.
+  const user = `Upcoming game: New England ${isHome ? `hosts ${matchup.opponent} at ${nextGame.venue || "Gillette Stadium"} in Foxborough` : `plays at ${matchup.opponent}, ${nextGame.venue || "on the road"} — a road game, NOT in Foxborough`}, Week ${nextGame.week}, ${nextGame.date}. ${kickoffLine(nextGame.kickoffTimeEt)}
 ${matchup.opponent}'s league ranks by EPA/play (1 = best of 32): offense ${matchup.opponentEpaRank.offense} of 32 (${rankWords(matchup.opponentEpaRank.offense)}), defense ${matchup.opponentEpaRank.defense} of 32 (${rankWords(matchup.opponentEpaRank.defense)}).
 Unit grades — IMPORTANT: these are 0-100 scores where 100 is the best in the NFL and 0 the worst. They are NOT ranks; a grade of 6 means near the bottom of the league.
 ${matchup.positionGroupMatchups.map((m) => { const [ours, theirs] = m.group.toLowerCase().split(" vs. "); return `- New England's ${ours} ${formatGrade(m.ourGrade)} (${gradeWords(m.ourGrade)}) vs. ${matchup.opponent}'s ${theirs} ${formatGrade(m.theirGrade)} (${gradeWords(m.theirGrade)})`; }).join("\n")}
@@ -216,7 +226,7 @@ Respond with ONLY this JSON shape:
     (prompt) => generateJson<{ previewTake: string }>(FAN_VOICE_SYSTEM, prompt, 800),
     user,
     (r) => r.previewTake ?? "",
-    (text) => checkGrounding(text, { facts: user, isHome }),
+    (text) => checkGrounding(text, { facts: user, isHome, kickoffEt: nextGame.kickoffTimeEt }),
     "Preview"
   );
   await recordAiOutcome(`preview ${nextGame.id}`, outcome);

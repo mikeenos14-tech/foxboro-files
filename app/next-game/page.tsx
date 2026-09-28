@@ -4,6 +4,7 @@ import { StatCard } from "@/components/shared/StatCard";
 import { MatchupGrid } from "@/components/shared/MatchupGrid";
 import { PriorBlendNote } from "@/components/next-game/PriorBlendNote";
 import { InjuryTable } from "@/components/shared/InjuryTable";
+import { FlagLink } from "@/components/shared/FlagLink";
 import { TeamLogo } from "@/components/shared/TeamLogo";
 import { Tabs } from "@/components/shared/Tabs";
 import { MatchupOfTheWeekCallout } from "@/components/next-game/MatchupOfTheWeekCallout";
@@ -51,6 +52,7 @@ export default async function NextGamePage() {
                       The Preview
                     </span>
                     <p className="mt-2 text-sm leading-relaxed">{matchup.previewTake}</p>
+                    <FlagLink page="/next-game" section="The Preview" text={matchup.previewTake} className="mt-2" />
                   </div>
                 )}
 

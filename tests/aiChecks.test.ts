@@ -69,3 +69,16 @@ test("catches a month that doesn't match the game's date", () => {
 test("catches the prompt leaking into the prose", () => {
   assert.equal(checkGrounding("The articles mention two straight games of clock trouble.", { facts: "" }).length, 1);
 });
+
+test("time-of-day words must fit the kickoff", () => {
+  assert.equal(checkGrounding("a grim afternoon in Seattle", { facts: "", kickoffEt: "20:20" }).length, 1);
+  assert.deepEqual(checkGrounding("a grim night in Seattle", { facts: "", kickoffEt: "20:20" }), []);
+  assert.deepEqual(checkGrounding("a long afternoon in Jacksonville", { facts: "", kickoffEt: "13:00" }), []);
+  // No kickoff given: any time-of-day word is a guess.
+  assert.equal(checkGrounding("all afternoon", { facts: "" }).length, 1);
+  // The kickoff line itself doesn't license the word.
+  assert.equal(
+    checkGrounding("under the lights", { facts: "Kickoff: 1:00 PM ET (an afternoon game).", kickoffEt: "13:00" }).length,
+    1
+  );
+});

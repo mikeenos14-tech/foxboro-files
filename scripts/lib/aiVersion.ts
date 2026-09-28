@@ -11,5 +11,7 @@
 // History: 2 added location, full names, scoring and benchmarks; 3 named
 // each unit's owner and put ranks/EPA into words; 4 added month and
 // prompt-leak checks and a larger response budget; 5 spells out each
-// red-zone and third-down rate against the league norm.
-export const AI_VERSION = 5;
+// red-zone and third-down rate against the league norm; 6 has the AI
+// write only the Take (Good/Bad/Ugly now comes from the stats) and
+// gives it the kickoff time, with a time-of-day check.
+export const AI_VERSION = 6;

@@ -24,7 +24,17 @@ export interface GroundingContext {
   isHome?: boolean;
   /** Full player names the model was given, e.g. "Rhamondre Stevenson". */
   playerNames?: string[];
+  /** Kickoff, Eastern, "HH:MM" — time-of-day words must agree with it. */
+  kickoffEt?: string;
 }
+
+// Time-of-day words and the kickoff hours (Eastern) they fit. A Wednesday
+// 8:20pm opener was written up as a loss "all afternoon".
+const TIME_OF_DAY: Array<[RegExp, (hour: number) => boolean]> = [
+  [/\bmorning\b/i, (h) => h < 12],
+  [/\bafternoon\b/i, (h) => h >= 12 && h < 17],
+  [/\b(evening|tonight|night|prime[- ]?time|under the lights)\b/i, (h) => h >= 17],
+];
 
 const HOME_PLACES = /\b(Foxboro|Foxborough|Gillette)\b/i;
 const TENURE = /\b(rookie|first|second|third|fourth|fifth|sixth|seventh|eighth|ninth|tenth|\d+(?:st|nd|rd|th))-year\b/gi;
@@ -82,6 +92,15 @@ export function checkGrounding(text: string, ctx: GroundingContext): string[] {
 
   if (PROMPT_LEAK.test(text)) {
     problems.push("It refers to the articles or facts it was given — write about the game, not the source material.");
+  }
+
+  const kickoffHour = ctx.kickoffEt ? Number(ctx.kickoffEt.split(":")[0]) : null;
+  for (const [pattern, fits] of TIME_OF_DAY) {
+    const m = text.match(pattern);
+    if (!m || pattern.test(ctx.facts.replace(/Kickoff:[^\n]*/g, ""))) continue;
+    if (kickoffHour === null || !fits(kickoffHour)) {
+      problems.push(`It says "${m[0]}", which doesn't fit the kickoff time given.`);
+    }
   }
 
   const abbreviated = text.match(ABBREVIATED_NAME);

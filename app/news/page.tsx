@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import * as store from "@/lib/data/store";
 import { NewsFeed } from "@/components/news/NewsFeed";
 import { InjuryTable } from "@/components/shared/InjuryTable";
+import { FlagLink } from "@/components/shared/FlagLink";
 
 export const metadata: Metadata = { title: "News" };
 
@@ -27,6 +28,7 @@ export default async function NewsPage() {
             What Beat Writers Are Saying
           </span>
           <p className="mt-2 text-sm leading-relaxed">{digest.text}</p>
+          <FlagLink page="/news" section="What beat writers are saying" text={digest.text} className="mt-2" />
         </div>
       )}
 

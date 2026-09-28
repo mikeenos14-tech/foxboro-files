@@ -34,6 +34,7 @@ import { computeStandings, recordString, pointDiff, type TeamRecord } from "./li
 import { computeDivisionStandings } from "./lib/divisionStandings";
 import { loadEspnDivisionOrder } from "./lib/espnStandings";
 import { AI_VERSION } from "./lib/aiVersion";
+import { buildRecapBullets } from "./lib/recapBullets";
 import { TEAM_CONFERENCE, TEAM_DIVISION, ALL_TEAMS } from "./lib/teams";
 import { rankGeneric } from "./lib/rank";
 import { buildLastNWeekWindows, filterRowsToWindow } from "./lib/statWindows";
@@ -237,6 +238,7 @@ async function main() {
       // Lets any archived recap render its own header, not just the
       // most recent game's.
       venue: g.stadium || undefined,
+      kickoffTimeEt: g.gametime || undefined,
     };
   });
 
@@ -477,19 +479,8 @@ async function main() {
         defense: thirdDown(gameRows, TEAM, "defteam"),
       },
       winProbabilityTimeline: winProbabilityTimeline(gameRows),
-      goodBadUgly: {
-        good: [
-          off.epa > 0
-            ? `Offense generated positive EPA/play (${off.epa.toFixed(2)}).`
-            : `Defense held opponent to ${def.epa.toFixed(2)} EPA/play allowed.`,
-        ],
-        bad: [
-          off.epa <= 0
-            ? `Offense generated negative EPA/play (${off.epa.toFixed(2)}).`
-            : `Defense allowed ${def.epa.toFixed(2)} EPA/play.`,
-        ],
-        ugly: margin < 0 ? [`Turnover margin was ${margin}.`] : [],
-      },
+      // Filled in below from the finished stats (recapBullets.ts).
+      goodBadUgly: { good: [], bad: [], ugly: [] },
       playerOfTheGame: star
         ? {
             playerId: star.playerId,
@@ -506,6 +497,7 @@ async function main() {
         : { playerId: "", playerName: "N/A", wpa: 0, reason: "No standout WPA leader computed." },
       scoring: { us: scoringSummary(gameRows, TEAM), them: scoringSummary(gameRows, opponent) },
     };
+    recap.goodBadUgly = buildRecapBullets(recap, opponent);
 
     // Preserve any AI-authored fields already on disk. This file is
     // rebuilt from scratch on every run, but fanTake/goodBadUgly are
@@ -523,12 +515,9 @@ async function main() {
       // older text is dropped so the plain recap shows until a rewrite
       // passes the checks (see scripts/lib/aiVersion.ts).
       if (existing.fanTake && existing.aiVersion === AI_VERSION) {
-        merged = {
-          ...recap,
-          fanTake: existing.fanTake,
-          goodBadUgly: existing.goodBadUgly ?? recap.goodBadUgly,
-          aiVersion: existing.aiVersion,
-        };
+        // Only the Take is AI-written; Good/Bad/Ugly always comes fresh
+        // from the stats above.
+        merged = { ...recap, fanTake: existing.fanTake, aiVersion: existing.aiVersion };
       }
     } catch {
       // No existing recap (first run for this game) — write the fresh one.

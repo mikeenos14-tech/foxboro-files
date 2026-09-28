@@ -375,6 +375,7 @@ export interface ScheduleRow {
   theirScore?: number;
   date: string;
   venue?: string;
+  kickoffTimeEt?: string; // "20:20", Eastern
 }
 
 export interface SeasonProjection {
