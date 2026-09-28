@@ -184,14 +184,16 @@
   ],
   "goodBadUgly": {
     "good": [
-      "Our defense was exceptional, holding Pittsburgh to a field goal with an EPA/play allowed of -0.36, significantly above the neutral mark.",
-      "Rhamondre Stevenson's efficiency was game-deciding, leading the team in win probability added at a critical moment when every possession mattered."
+      "The defense was elite: allowed just 3 points and forced teams into abysmal third-down conversions (2-for-12), while our red zone defense was flawless at 0 TDs allowed on 1 trip.",
+      "Rhamondre Stevenson was the game's difference-maker by win probability added, anchoring our offensive identity when it mattered most."
     ],
     "bad": [
-      "Offensively we managed -0.07 EPA/play and converted only four of twelve third downs (33%), well below the league norm of 40%.",
-      "Red zone execution was inconsistent: we scored a touchdown on just one of three trips (33%) when teams typically hit 55% in the end zone."
+      "Our offensive EPA/play was negative, confirming we're still searching for consistent yardage efficiency on that side of the ball.",
+      "Red zone execution remains a concern: 1 touchdown on 3 trips (33%) is well below the league norm of 55%, and third-down conversion at 33% (4-for-12) shows we're still struggling with rhythm and consistency."
     ],
-    "ugly": []
+    "ugly": [
+      "The articles mention two straight games with questionable clock management decisions before halftime—a pattern the Patriots have publicly acknowledged needs to improve, and it's the kind of self-inflicted wound that can cost you closer games down the road."
+    ]
   },
   "playerOfTheGame": {
     "playerId": "00-0036875",
@@ -212,6 +214,6 @@
       "safety": 0
     }
   },
-  "fanTake": "Well, that was cathartic. Twenty to three at home against Pittsburgh is the kind of defensive clinic that reminds you why we've built our identity around that side of the ball, and frankly, we needed to see it after some of the chop-and-change the offense has been going through. Rhamondre Stevenson's three percent win probability added doesn't sound like much until you realize he was the most impactful player on the field—sometimes dominance in games like this is about doing the right thing at the right time rather than putting up gaudy numbers. We didn't turn the ball over, our defense held the Steelers to three points, and we got a win at Gillette that felt clean and uncomplicated. Still, there's plenty of work to do before we're satisfied with this team.",
-  "aiVersion": 2
+  "fanTake": "The Patriots absolutely throttled Pittsburgh at home, 20-3, in a game that felt less like a competitive affair and more like a necessary cleansing. Our defense was genuinely exceptional—holding the Steelers to a field goal while generating the kind of suffocating pressure that reminds you why this team has weathered so many storms. Offensively, we weren't exactly lighting it up (that negative EPA/play is a sobering reminder), but two touchdowns and two field goals proved sufficient when your defense is playing like it did. Rhamondre Stevenson was our MVP in win probability terms, which tells you we leaned on the ground game and played complementary football. It wasn't pretty, but in October, sometimes ugly wins are exactly what you need.",
+  "aiVersion": 3
 }
