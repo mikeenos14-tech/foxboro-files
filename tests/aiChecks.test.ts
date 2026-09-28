@@ -82,3 +82,10 @@ test("time-of-day words must fit the kickoff", () => {
     1
   );
 });
+
+test("real names with initials aren't abbreviations (A.J. Brown blocked a correct recap)", () => {
+  assert.deepEqual(checkGrounding("A.J. Brown led New England.", { facts: "", playerNames: ["A.J. Brown"] }), []);
+  assert.deepEqual(checkGrounding("A.J. Brown and T.J. Watt met.", { facts: "" }), []);
+  // The play-by-play format is still caught.
+  assert.equal(checkGrounding("R.Stevenson ran hard.", { facts: "" }).length, 1);
+});

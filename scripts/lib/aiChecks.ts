@@ -47,8 +47,10 @@ const MONTHS = [
 const MONTH_WORD = new RegExp(`\\b(${MONTHS.join("|")})\\b`, "g");
 // Talking about the prompt instead of the game ("The articles mention…").
 const PROMPT_LEAK = /\b(the articles|articles (mention|say|note)|the facts (given|above|provided)|facts provided)\b/i;
-// Play-by-play's own name format ("R.Stevenson", "D. Maye").
-const ABBREVIATED_NAME = /\b[A-Z]\.\s?[A-Z][a-z]+/;
+// Play-by-play's own name format ("R.Stevenson", "D. Maye"). Not
+// preceded by another initial, so "A.J. Brown" isn't read as "J. Brown" —
+// that false positive blocked a correct Week 1 recap twice.
+const ABBREVIATED_NAME = /(?<![A-Z]\.)\b[A-Z]\.\s?[A-Z][a-z]+/;
 // Capitalized words that can sit in front of a surname without being a
 // first name ("When Stevenson…", "RB Stevenson").
 const NOT_FIRST_NAMES = new Set([
@@ -103,7 +105,10 @@ export function checkGrounding(text: string, ctx: GroundingContext): string[] {
     }
   }
 
-  const abbreviated = text.match(ABBREVIATED_NAME);
+  // Names given in full are never abbreviations, whatever initials they use.
+  let unnamed = text;
+  for (const full of ctx.playerNames ?? []) unnamed = unnamed.split(full).join("");
+  const abbreviated = unnamed.match(ABBREVIATED_NAME);
   if (abbreviated) {
     problems.push(`It uses an abbreviated name ("${abbreviated[0]}") — use the full name given.`);
   }
