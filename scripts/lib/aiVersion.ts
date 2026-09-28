@@ -10,5 +10,6 @@
 //
 // History: 2 added location, full names, scoring and benchmarks; 3 named
 // each unit's owner and put ranks/EPA into words; 4 added month and
-// prompt-leak checks and a larger response budget.
-export const AI_VERSION = 4;
+// prompt-leak checks and a larger response budget; 5 spells out each
+// red-zone and third-down rate against the league norm.
+export const AI_VERSION = 5;

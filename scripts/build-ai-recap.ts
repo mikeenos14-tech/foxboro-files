@@ -51,6 +51,23 @@ function epaWords(epa: number, side: "offense" | "defense"): string {
   return good ? degree : degree.replace("better", "worse");
 }
 
+// A rate against the league norm, already compared. Left to compare 1 of
+// 2 (50%) against a 55% norm itself, the model wrote that it was "better
+// than the league". Within five points of the norm counts as "about".
+function rateVsNorm(made: number, att: number, normPct: number, side: "offense" | "defense"): string {
+  if (att === 0) return "none";
+  const pct = Math.round((made / att) * 100);
+  const diff = pct - normPct;
+  if (Math.abs(diff) <= 5) return `${made} of ${att} (${pct}%) — about the ${normPct}% league norm`;
+  const above = diff > 0;
+  const good = side === "offense" ? above : !above;
+  const verdict =
+    side === "offense"
+      ? `${good ? "better" : "worse"} than average`
+      : `${good ? "a good" : "a bad"} result for New England's defense`;
+  return `${made} of ${att} (${pct}%) — ${above ? "above" : "below"} the ${normPct}% league norm, ${verdict}`;
+}
+
 function scoringLine(team: string, s: { td: number; fg: number; safety: number }): string {
   const parts = [`${s.td} TD`, `${s.fg} FG`];
   if (s.safety > 0) parts.push(`${s.safety} safety`);
@@ -120,7 +137,10 @@ async function buildRecapContent() {
 Final score: New England ${usScore}, ${opponent} ${themScore} (${usScore > themScore ? "Patriots win" : usScore === themScore ? "tie" : "Patriots loss"}).
 Location: ${isHome ? `a home game for New England, at ${row.venue || "Gillette Stadium"} in Foxborough` : `a road game — New England played at ${opponent}${row.venue ? `, ${row.venue}` : ""}. It was NOT in Foxborough`}.
 How the points were scored — ${recap.scoring ? `${scoringLine("New England", recap.scoring.us)}; ${scoringLine(opponent, recap.scoring.them)}` : "not available, so don't describe it"}.
-Real computed stats: offensive EPA/play ${recap.epaPerPlay.offense.toFixed(2)} (${epaWords(recap.epaPerPlay.offense, "offense")}), defensive EPA/play allowed ${recap.epaPerPlay.defense.toFixed(2)} (${epaWords(recap.epaPerPlay.defense, "defense")} — for a defense, negative is good), turnover margin ${recap.turnoverMargin}, red zone offense ${recap.redZone.offense.td} TDs on ${recap.redZone.offense.att} trips, red zone defense allowed ${recap.redZone.defense.td} TDs on ${recap.redZone.defense.att} trips, third down offense ${recap.thirdDown.offense.conv}/${recap.thirdDown.offense.att}, third downs allowed ${recap.thirdDown.defense.conv}/${recap.thirdDown.defense.att}.
+Real computed stats: offensive EPA/play ${recap.epaPerPlay.offense.toFixed(2)} (${epaWords(recap.epaPerPlay.offense, "offense")}), defensive EPA/play allowed ${recap.epaPerPlay.defense.toFixed(2)} (${epaWords(recap.epaPerPlay.defense, "defense")} — for a defense, negative is good), turnover margin ${recap.turnoverMargin}.
+Red-zone trips (drives that reached the opponent's 20-yard line — not the end zone), touchdowns scored: New England ${rateVsNorm(recap.redZone.offense.td, recap.redZone.offense.att, 55, "offense")}; ${opponent} ${rateVsNorm(recap.redZone.defense.td, recap.redZone.defense.att, 55, "defense")} against New England's defense.
+Third downs converted: New England ${rateVsNorm(recap.thirdDown.offense.conv, recap.thirdDown.offense.att, 40, "offense")}; ${opponent} ${rateVsNorm(recap.thirdDown.defense.conv, recap.thirdDown.defense.att, 40, "defense")} against New England's defense.
+Use these comparisons as given — don't redo the math or restate them differently.
 ${LEAGUE_NORMS}
 New England's player of the game (by win probability added, among New England players only — no opponent players were measured, so don't compare him to them): ${star.playerName}, ${(star.wpa * 100).toFixed(0)}% WPA. Refer to players by the full names given here or in the articles, never a guessed first name.
 
