@@ -185,7 +185,7 @@
   "goodBadUgly": {
     "good": [
       "Held SEA to 2 of 11 on third down (18%), well below the 40% league norm.",
-      "Allowed SEA touchdowns on 1 of 3 red-zone trips (33%), well below the 55% league norm."
+      "A.J. Brown led New England with +6% win probability added."
     ],
     "bad": [
       "The offense averaged -0.11 EPA per play — worse than an average offense.",
@@ -196,11 +196,11 @@
     ]
   },
   "playerOfTheGame": {
-    "playerId": "00-0036875",
-    "playerName": "Rhamondre Stevenson",
-    "wpa": -0.03452450037002586,
-    "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/zmpuirvuw4r04inxth5i",
-    "reason": "Had the team's best (though still net-negative) win probability contribution at -3% in a tough game offensively."
+    "playerId": "00-0035676",
+    "playerName": "A.J. Brown",
+    "wpa": 0.057931125164031906,
+    "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/qfhvjyssf0lwsh0kienp",
+    "reason": "Led New England with +6% win probability added, mostly as a receiver."
   },
   "scoring": {
     "us": {
@@ -213,7 +213,5 @@
       "fg": 2,
       "safety": 0
     }
-  },
-  "fanTake": "Well, that's a painful way to start the season. Down in Seattle on a Wednesday night, we managed to score just 10 points — a touchdown and a field goal — and couldn't get out of our own way on third down, converting only 5 of 16 attempts. The offense was genuinely rough, posting a -0.11 EPA per play that tells the whole story: we were fighting uphill from snap one. Our defense at least held Seattle's red-zone efficiency to 33 percent across three trips (hey, we'll take a win there), and their third-down conversion rate of 18 percent was genuinely awful, but it didn't matter because we couldn't generate anything on the other side of the ball. A turnover margin of -3 will bury you every time. Rhamondre Stevenson's day was tough enough that he posted a negative WPA despite being our most impactful player — which really says something about how this whole effort went. On to the next one, but this one stings.",
-  "aiVersion": 6
+  }
 }

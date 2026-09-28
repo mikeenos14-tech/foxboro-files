@@ -1,22 +1,29 @@
 {
   "recap 2026_01_NE_SEA": {
-    "status": "written",
-    "problems": [],
-    "at": "2026-09-28T21:17:51.193Z"
+    "status": "rejected",
+    "problems": [
+      [
+        "It uses an abbreviated name (\"J. Brown\") — use the full name given."
+      ],
+      [
+        "It uses an abbreviated name (\"J. Brown\") — use the full name given."
+      ]
+    ],
+    "at": "2026-09-28T21:42:31.110Z"
   },
   "recap 2026_02_PIT_NE": {
     "status": "written",
     "problems": [],
-    "at": "2026-09-28T21:17:54.582Z"
+    "at": "2026-09-28T21:42:34.708Z"
   },
   "recap 2026_03_NE_JAX": {
     "status": "written",
     "problems": [],
-    "at": "2026-09-28T21:17:57.446Z"
+    "at": "2026-09-28T21:42:38.616Z"
   },
   "preview 2026_04_NE_BUF": {
     "status": "written",
     "problems": [],
-    "at": "2026-09-28T21:18:00.776Z"
+    "at": "2026-09-28T21:42:42.438Z"
   }
 }

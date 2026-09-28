@@ -184,7 +184,7 @@
   ],
   "goodBadUgly": {
     "good": [
-      "Rhamondre Stevenson led New England with +7% win probability added."
+      "Marcus Jones led New England with +10% win probability added."
     ],
     "bad": [
       "The offense averaged -0.25 EPA per play — worse than an average offense.",
@@ -195,11 +195,11 @@
     ]
   },
   "playerOfTheGame": {
-    "playerId": "00-0036875",
-    "playerName": "Rhamondre Stevenson",
-    "wpa": 0.06984391808509827,
-    "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/zmpuirvuw4r04inxth5i",
-    "reason": "Led the team with +7% win probability added."
+    "playerId": "00-0037253",
+    "playerName": "Marcus Jones",
+    "wpa": 0.10255214571952795,
+    "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/eteesniqc4caawrpbfuh",
+    "reason": "Led New England with +10% win probability added, mostly on defense."
   },
   "scoring": {
     "us": {
@@ -213,6 +213,6 @@
       "safety": 0
     }
   },
-  "fanTake": "Sunday at EverBank Stadium was the kind of afternoon that makes you question everything. The Patriots mustered exactly two field goals while Jacksonville's offense was a clinic in efficiency, converting every single red-zone trip into a touchdown—5 for 5, a perfect nightmare—while we managed 0 of 4. Our third-down defense was a revolving door (Jacksonville hit 8 of 12), our offense couldn't find traction (4 of 12), and Drake Maye's three turnovers became the punctuation on a performance he himself called unacceptable. At -0.25 EPA per play on offense and allowing 0.23 on defense, this wasn't close to competitive; it was a 29-point rout that left us staring at some hard truths about how we're building this team.",
-  "aiVersion": 6
+  "fanTake": "Well, that was an absolute catastrophe in Jacksonville. The Patriots got absolutely steamrolled 35-6—a 29-point beatdown that felt like watching someone try to play chess while their opponent was playing football. Drake Maye had the kind of day that makes you wonder about everything: three turnovers, an offense that generated -0.25 EPA per play (well below average), and a red-zone trip where New England managed to score zero touchdowns on four opportunities, the red-zone efficiency sitting at 0% against Jacksonville's horrifying 100%. Jacksonville's defense was relentless on third down too, forcing New England into a 4-of-12 (33%) conversion rate while their own offense cruised at 8-of-12. The silver lining—if you can call it that—was Marcus Jones, who led the Patriots with a +10% win probability added on defense and snagged his first interception of the season, but one player's decent afternoon doesn't fix a 29-point shellacking. This was the kind of loss that stings, the kind that forces real conversations about whether things are being done right.",
+  "aiVersion": 7
 }

@@ -185,7 +185,7 @@
   "goodBadUgly": {
     "good": [
       "The defense allowed -0.36 EPA per play — better than an average defense.",
-      "Held PIT to 2 of 12 on third down (17%), well below the 40% league norm."
+      "Romeo Doubs led New England with +14% win probability added."
     ],
     "bad": [
       "Scored touchdowns on 1 of 3 red-zone trips (33%), well below the 55% league norm.",
@@ -194,11 +194,11 @@
     "ugly": []
   },
   "playerOfTheGame": {
-    "playerId": "00-0036875",
-    "playerName": "Rhamondre Stevenson",
-    "wpa": 0.03091961145400997,
-    "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/zmpuirvuw4r04inxth5i",
-    "reason": "Led the team with +3% win probability added."
+    "playerId": "00-0037816",
+    "playerName": "Romeo Doubs",
+    "wpa": 0.13683998584747314,
+    "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/yxvzijmgwyyigljxfmyb",
+    "reason": "Led New England with +14% win probability added, mostly as a receiver."
   },
   "scoring": {
     "us": {
@@ -212,6 +212,6 @@
       "safety": 0
     }
   },
-  "fanTake": "The Patriots ground out a 20-3 win at home against Pittsburgh on Sunday, and while the scoreboard is absolutely delightful, the underlying performance tells a more complicated story. Our offense managed just -0.07 EPA per play—worse than average—and converted only 33% of our third downs and 33% of our red-zone trips, both well below league norms; the good news is that our defense absolutely smothered the Steelers, allowing -0.36 EPA per play and holding them to just one field goal across 12 third-down attempts and a single red-zone trip. Rhamondre Stevenson was our most impactful player by win probability added, contributing 3%, which feels about right for a day where we won convincingly without sparkling offensively. It's the kind of victory that feels good in the standings but leaves you wanting more from the offense—we're still finding our rhythm, even if our defense is doing enough to mask the issues for now.",
-  "aiVersion": 6
+  "fanTake": "Well, that's what a defensive showcase looks like, even if our offense couldn't quite get into rhythm. Twenty to three at home against Pittsburgh — we held them to a field goal and forced them into a third-down conversion rate of 17%, which is the kind of defensive suffocation that makes you forget about our own anemic 33% on third down and mediocre red-zone execution (1 of 3 touchdowns when we should be hitting closer to 55%). Romeo Doubs was absolutely magnificent, turning in a +14% win probability added performance and keeping us in business when everything else felt a bit clunky. Our offense posted a negative EPA per play, which stings on principle, but our defense's -0.36 EPA allowed was genuinely exceptional — that's the real story here. Sometimes you win ugly, and sometimes ugly looks pretty good when you're talking about Gillette Stadium on a September afternoon.",
+  "aiVersion": 7
 }
