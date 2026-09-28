@@ -1,0 +1,848 @@
+{
+  "gameId": "2026_02_PIT_NE",
+  "plays": {
+    "2026_02_PIT_NE|243": {
+      "key": "2026_02_PIT_NE|243",
+      "week": 2,
+      "opponent": "PIT",
+      "quarter": 1,
+      "clock": "11:32",
+      "situation": "1st & 10 at PIT 34",
+      "offense": "NE",
+      "description": "(11:32) 10-D.Maye pass short left to 38-R.Stevenson to PIT 31 for 3 yards (51-N.Herbig). FUMBLES (51-N.Herbig), RECOVERED by PIT-41-P.Wilson at PIT 31. PENALTY on PIT-5-J.Ramsey, Taunting, 15 yards, enforced at PIT 31.",
+      "yards": 3,
+      "neEpa": -4.15501275716815
+    },
+    "2026_02_PIT_NE|2271": {
+      "key": "2026_02_PIT_NE|2271",
+      "week": 2,
+      "opponent": "PIT",
+      "quarter": 3,
+      "clock": "12:59",
+      "situation": "1st & 10 at PIT 33",
+      "offense": "NE",
+      "description": "(12:59) 10-D.Maye pass deep left intended for 85-H.Henry INTERCEPTED by 6-P.Queen at PIT 10. 6-P.Queen to PIT 13 for 3 yards (85-H.Henry).",
+      "yards": 0,
+      "neEpa": -4.11903955065645
+    },
+    "2026_02_PIT_NE|3144": {
+      "key": "2026_02_PIT_NE|3144",
+      "week": 2,
+      "opponent": "PIT",
+      "quarter": 4,
+      "clock": "13:46",
+      "situation": "2nd & 21 at PIT 30",
+      "offense": "PIT",
+      "description": "(13:46) (Shotgun) 8-A.Rodgers sacked at PIT 21 for -9 yards (90-C.Barmore). FUMBLES (90-C.Barmore) [90-C.Barmore], RECOVERED by NE-91-E.Ponder at PIT 19. 91-E.Ponder for 19 yards, TOUCHDOWN.",
+      "yards": -11,
+      "neEpa": 7.38385299919173
+    },
+    "2026_02_PIT_NE|3736": {
+      "key": "2026_02_PIT_NE|3736",
+      "week": 2,
+      "opponent": "PIT",
+      "quarter": 4,
+      "clock": "5:16",
+      "situation": "2nd & Goal at NE 17",
+      "offense": "PIT",
+      "description": "(5:16) (Shotgun) 8-A.Rodgers pass short right intended for 17-G.Bernard INTERCEPTED by 50-G.Jacas (22-C.Woods) at NE 21. 50-G.Jacas to NE 32 for 11 yards (8-A.Rodgers).",
+      "yards": 0,
+      "neEpa": 4.75875813298626
+    },
+    "2026_02_PIT_NE|784": {
+      "key": "2026_02_PIT_NE|784",
+      "week": 2,
+      "opponent": "PIT",
+      "quarter": 1,
+      "clock": "3:35",
+      "situation": "2nd & 5 at PIT 48",
+      "offense": "NE",
+      "description": "(3:35) 10-D.Maye pass short left to 87-R.Doubs to PIT 44 for 4 yards (35-J.Dean). FUMBLES (35-J.Dean), ball out of bounds at PIT 43.",
+      "yards": 4,
+      "neEpa": 0.139351769117638
+    },
+    "2026_02_PIT_NE|2246": {
+      "key": "2026_02_PIT_NE|2246",
+      "week": 2,
+      "opponent": "PIT",
+      "quarter": 3,
+      "clock": "13:43",
+      "situation": "3rd & 5 at NE 38",
+      "offense": "NE",
+      "description": "(13:43) (Shotgun) 10-D.Maye pass deep right to 87-R.Doubs to PIT 33 for 29 yards (22-A.Samuel).",
+      "yards": 29,
+      "neEpa": 2.98661356815137
+    },
+    "2026_02_PIT_NE|2869": {
+      "key": "2026_02_PIT_NE|2869",
+      "week": 2,
+      "opponent": "PIT",
+      "quarter": 3,
+      "clock": "2:12",
+      "situation": "1st & 10 at NE 8",
+      "offense": "NE",
+      "description": "(2:12) (Shotgun) 10-D.Maye pass deep right to 87-R.Doubs pushed ob at PIT 29 for 63 yards (20-R.Jenkins).",
+      "yards": 63,
+      "neEpa": 4.00185310770758
+    },
+    "2026_02_PIT_NE|3430": {
+      "key": "2026_02_PIT_NE|3430",
+      "week": 2,
+      "opponent": "PIT",
+      "quarter": 4,
+      "clock": "10:04",
+      "situation": "3rd & 9 at PIT 48",
+      "offense": "NE",
+      "description": "(10:04) (Shotgun) 10-D.Maye pass incomplete short right to 87-R.Doubs.",
+      "yards": 0,
+      "neEpa": -1.57022443856113
+    },
+    "2026_02_PIT_NE|485": {
+      "key": "2026_02_PIT_NE|485",
+      "week": 2,
+      "opponent": "PIT",
+      "quarter": 1,
+      "clock": "9:11",
+      "situation": "3rd & 1 at PIT 40",
+      "offense": "NE",
+      "description": "(9:11) 32-T.Henderson up the middle to PIT 39 for 1 yard (90-T.Watt).",
+      "yards": 1,
+      "neEpa": 0.541335557820275
+    },
+    "2026_02_PIT_NE|818": {
+      "key": "2026_02_PIT_NE|818",
+      "week": 2,
+      "opponent": "PIT",
+      "quarter": 1,
+      "clock": "3:03",
+      "situation": "3rd & 1 at PIT 44",
+      "offense": "NE",
+      "description": "(3:03) 38-R.Stevenson left tackle to PIT 42 for 2 yards (3-J.Brisker; 97-C.Heyward). PIT-3-J.Brisker was injured during the play.",
+      "yards": 2,
+      "neEpa": 0.507297303760424
+    },
+    "2026_02_PIT_NE|1013": {
+      "key": "2026_02_PIT_NE|1013",
+      "week": 2,
+      "opponent": "PIT",
+      "quarter": 2,
+      "clock": "15:00",
+      "situation": "3rd & Goal at PIT 10",
+      "offense": "NE",
+      "description": "(15:00) (Shotgun) 10-D.Maye sacked at PIT 12 for -2 yards (56-A.Highsmith).",
+      "yards": -2,
+      "neEpa": -1.11844657657602
+    },
+    "2026_02_PIT_NE|1539": {
+      "key": "2026_02_PIT_NE|1539",
+      "week": 2,
+      "opponent": "PIT",
+      "quarter": 2,
+      "clock": "5:21",
+      "situation": "3rd & 6 at NE 35",
+      "offense": "NE",
+      "description": "(5:21) (Shotgun) 10-D.Maye pass incomplete short middle to 3-D.Douglas (56-A.Highsmith).",
+      "yards": 0,
+      "neEpa": -1.27588937152177
+    },
+    "2026_02_PIT_NE|1901": {
+      "key": "2026_02_PIT_NE|1901",
+      "week": 2,
+      "opponent": "PIT",
+      "quarter": 2,
+      "clock": "1:35",
+      "situation": "3rd & 20 at NE 10",
+      "offense": "NE",
+      "description": "(1:35) 32-T.Henderson right tackle to NE 20 for 10 yards (20-R.Jenkins; 35-J.Dean).",
+      "yards": 10,
+      "neEpa": 0.0880753676174209
+    },
+    "2026_02_PIT_NE|2630": {
+      "key": "2026_02_PIT_NE|2630",
+      "week": 2,
+      "opponent": "PIT",
+      "quarter": 3,
+      "clock": "7:19",
+      "situation": "3rd & 6 at NE 30",
+      "offense": "NE",
+      "description": "(7:19) (Shotgun) 10-D.Maye pass short middle to 18-K.Williams to NE 40 for 10 yards (20-R.Jenkins).",
+      "yards": 10,
+      "neEpa": 1.78262962307781
+    },
+    "2026_02_PIT_NE|2721": {
+      "key": "2026_02_PIT_NE|2721",
+      "week": 2,
+      "opponent": "PIT",
+      "quarter": 3,
+      "clock": "4:38",
+      "situation": "3rd & 1 at PIT 27",
+      "offense": "NE",
+      "description": "(4:38) 10-D.Maye pass short left to 86-E.Chism to PIT 29 for -2 yards (51-N.Herbig).",
+      "yards": -2,
+      "neEpa": -2.37572271311738
+    },
+    "2026_02_PIT_NE|2975": {
+      "key": "2026_02_PIT_NE|2975",
+      "week": 2,
+      "opponent": "PIT",
+      "quarter": 3,
+      "clock": "0:50",
+      "situation": "3rd & 8 at PIT 27",
+      "offense": "NE",
+      "description": "(:50) (Shotgun) 10-D.Maye pass incomplete short right.",
+      "yards": 0,
+      "neEpa": -1.35154805265489
+    },
+    "2026_02_PIT_NE|3826": {
+      "key": "2026_02_PIT_NE|3826",
+      "week": 2,
+      "opponent": "PIT",
+      "quarter": 4,
+      "clock": "3:39",
+      "situation": "3rd & 10 at NE 32",
+      "offense": "NE",
+      "description": "(3:39) 32-T.Henderson right tackle to NE 37 for 5 yards (5-J.Ramsey).",
+      "yards": 5,
+      "neEpa": -0.618581043090671
+    },
+    "2026_02_PIT_NE|4019": {
+      "key": "2026_02_PIT_NE|4019",
+      "week": 2,
+      "opponent": "PIT",
+      "quarter": 4,
+      "clock": "1:13",
+      "situation": "3rd & 10 at NE 20",
+      "offense": "NE",
+      "description": "(1:13) 9-C.Kiner left tackle to NE 22 for 2 yards (3-J.Brisker; 51-N.Herbig). PENALTY on PIT-41-P.Wilson, Face Mask, 15 yards, enforced at NE 22.",
+      "yards": 2,
+      "neEpa": -0.0999826649203897
+    },
+    "2026_02_PIT_NE|107": {
+      "key": "2026_02_PIT_NE|107",
+      "week": 2,
+      "opponent": "PIT",
+      "quarter": 1,
+      "clock": "13:34",
+      "situation": "3rd & 7 at PIT 33",
+      "offense": "PIT",
+      "description": "(13:34) (Shotgun) 8-A.Rodgers pass incomplete short left to 4-D.Metcalf.",
+      "yards": 0,
+      "neEpa": 1.4087063013576
+    },
+    "2026_02_PIT_NE|353": {
+      "key": "2026_02_PIT_NE|353",
+      "week": 2,
+      "opponent": "PIT",
+      "quarter": 1,
+      "clock": "10:35",
+      "situation": "3rd & 6 at PIT 20",
+      "offense": "PIT",
+      "description": "(10:35) (Shotgun) 8-A.Rodgers pass incomplete deep left to 88-P.Freiermuth.",
+      "yards": 0,
+      "neEpa": 1.3056471273303
+    },
+    "2026_02_PIT_NE|711": {
+      "key": "2026_02_PIT_NE|711",
+      "week": 2,
+      "opponent": "PIT",
+      "quarter": 1,
+      "clock": "4:18",
+      "situation": "3rd & 6 at NE 39",
+      "offense": "PIT",
+      "description": "(4:18) (Shotgun) 8-A.Rodgers pass incomplete short right to 30-J.Warren.",
+      "yards": 0,
+      "neEpa": 1.72732143513234
+    },
+    "2026_02_PIT_NE|1136": {
+      "key": "2026_02_PIT_NE|1136",
+      "week": 2,
+      "opponent": "PIT",
+      "quarter": 2,
+      "clock": "12:50",
+      "situation": "3rd & 4 at PIT 36",
+      "offense": "PIT",
+      "description": "(12:50) (Shotgun) 30-J.Warren left end to PIT 39 for 3 yards (94-C.Durden; 0-C.Gonzalez).",
+      "yards": 3,
+      "neEpa": 0.864314345642924
+    },
+    "2026_02_PIT_NE|1227": {
+      "key": "2026_02_PIT_NE|1227",
+      "week": 2,
+      "opponent": "PIT",
+      "quarter": 2,
+      "clock": "10:46",
+      "situation": "3rd & 8 at PIT 43",
+      "offense": "PIT",
+      "description": "(10:46) (Shotgun) 8-A.Rodgers pass short middle to 17-G.Bernard to NE 38 for 19 yards (53-C.Elliss).",
+      "yards": 19,
+      "neEpa": -2.35030260018539
+    },
+    "2026_02_PIT_NE|1357": {
+      "key": "2026_02_PIT_NE|1357",
+      "week": 2,
+      "opponent": "PIT",
+      "quarter": 2,
+      "clock": "8:05",
+      "situation": "3rd & 7 at NE 22",
+      "offense": "PIT",
+      "description": "(8:05) (Shotgun) 8-A.Rodgers sacked at NE 31 for -9 yards (53-C.Elliss). FUMBLES (53-C.Elliss) [53-C.Elliss], touched at NE 30, recovered by PIT-76-T.Fautanu at PIT 42.",
+      "yards": -8,
+      "neEpa": 2.9600217998377
+    },
+    "2026_02_PIT_NE|1792": {
+      "key": "2026_02_PIT_NE|1792",
+      "week": 2,
+      "opponent": "PIT",
+      "quarter": 2,
+      "clock": "2:00",
+      "situation": "3rd & 9 at NE 45",
+      "offense": "PIT",
+      "description": "(2:00) (Shotgun) 8-A.Rodgers pass incomplete short left to 14-R.Wilson.",
+      "yards": 0,
+      "neEpa": 1.36080773890717
+    },
+    "2026_02_PIT_NE|2005": {
+      "key": "2026_02_PIT_NE|2005",
+      "week": 2,
+      "opponent": "PIT",
+      "quarter": 2,
+      "clock": "0:18",
+      "situation": "3rd & 1 at PIT 44",
+      "offense": "PIT",
+      "description": "(:18) (No Huddle, Shotgun) 8-A.Rodgers pass short left to 88-P.Freiermuth to NE 47 for 9 yards (4-C.Woodson). NE-25-M.Jones was injured during the play.",
+      "yards": 9,
+      "neEpa": -0.30352937115822
+    },
+    "2026_02_PIT_NE|2485": {
+      "key": "2026_02_PIT_NE|2485",
+      "week": 2,
+      "opponent": "PIT",
+      "quarter": 3,
+      "clock": "9:16",
+      "situation": "3rd & 6 at PIT 42",
+      "offense": "PIT",
+      "description": "(9:16) (Shotgun) 8-A.Rodgers pass incomplete deep middle to 17-G.Bernard.",
+      "yards": 0,
+      "neEpa": 1.46014440897852
+    },
+    "2026_02_PIT_NE|2821": {
+      "key": "2026_02_PIT_NE|2821",
+      "week": 2,
+      "opponent": "PIT",
+      "quarter": 3,
+      "clock": "2:27",
+      "situation": "3rd & 3 at PIT 44",
+      "offense": "PIT",
+      "description": "(2:27) (Shotgun) 8-A.Rodgers pass incomplete short left to 4-D.Metcalf.",
+      "yards": 0,
+      "neEpa": 1.73221352673136
+    },
+    "2026_02_PIT_NE|3273": {
+      "key": "2026_02_PIT_NE|3273",
+      "week": 2,
+      "opponent": "PIT",
+      "quarter": 4,
+      "clock": "12:47",
+      "situation": "3rd & 5 at PIT 32",
+      "offense": "PIT",
+      "description": "(12:47) (Shotgun) 8-A.Rodgers sacked at PIT 21 for -11 yards (92-J.Farmer).",
+      "yards": -11,
+      "neEpa": 2.43072842853144
+    },
+    "2026_02_PIT_NE|3926": {
+      "key": "2026_02_PIT_NE|3926",
+      "week": 2,
+      "opponent": "PIT",
+      "quarter": 4,
+      "clock": "2:53",
+      "situation": "3rd & 5 at PIT 26",
+      "offense": "PIT",
+      "description": "(2:53) (No Huddle, Shotgun) 2-M.Rudolph scrambles right tackle to PIT 29 for 3 yards (45-Q.Hutchins; 92-J.Farmer).",
+      "yards": 3,
+      "neEpa": 0.696471540722996
+    },
+    "2026_02_PIT_NE|907": {
+      "key": "2026_02_PIT_NE|907",
+      "week": 2,
+      "opponent": "PIT",
+      "quarter": 1,
+      "clock": "1:24",
+      "situation": "1st & Goal at PIT 6",
+      "offense": "NE",
+      "description": "(1:24) PENALTY on NE-76-M.Moses, False Start, 5 yards, enforced at PIT 6 - No Play.",
+      "yards": 0,
+      "neEpa": -0.887498413736466
+    },
+    "2026_02_PIT_NE|931": {
+      "key": "2026_02_PIT_NE|931",
+      "week": 2,
+      "opponent": "PIT",
+      "quarter": 1,
+      "clock": "1:08",
+      "situation": "1st & Goal at PIT 11",
+      "offense": "NE",
+      "description": "(1:08) (Shotgun) 10-D.Maye sacked at PIT 14 for -3 yards (sack split by 99-D.Harmon and 90-T.Watt). NE-71-M.Onwenu was injured during the play.",
+      "yards": -3,
+      "neEpa": -0.700828665285371
+    },
+    "2026_02_PIT_NE|958": {
+      "key": "2026_02_PIT_NE|958",
+      "week": 2,
+      "opponent": "PIT",
+      "quarter": 1,
+      "clock": "0:42",
+      "situation": "2nd & Goal at PIT 14",
+      "offense": "NE",
+      "description": "(:42) 10-D.Maye pass short right to 85-H.Henry to PIT 10 for 4 yards (56-A.Highsmith; 99-D.Harmon).",
+      "yards": 4,
+      "neEpa": -0.23559629637748
+    },
+    "2026_02_PIT_NE|1038": {
+      "key": "2026_02_PIT_NE|1038",
+      "week": 2,
+      "opponent": "PIT",
+      "quarter": 2,
+      "clock": "14:18",
+      "situation": "4th & Goal at PIT 12",
+      "offense": "NE",
+      "description": "(14:18) 8-A.Borregales 30 yard field goal is GOOD, Center-47-J.Ashby, Holder-19-M.Wishnowsky.",
+      "yards": 0,
+      "neEpa": 0.171788253871992
+    },
+    "2026_02_PIT_NE|3698": {
+      "key": "2026_02_PIT_NE|3698",
+      "week": 2,
+      "opponent": "PIT",
+      "quarter": 4,
+      "clock": "5:46",
+      "situation": "1st & Goal at NE 4",
+      "offense": "PIT",
+      "description": "(5:46) (Shotgun) 8-A.Rodgers sacked at NE 17 for -13 yards (91-E.Ponder). Penalty on PIT-76-T.Fautanu, Offensive Holding, declined.",
+      "yards": -13,
+      "neEpa": 2.27065492421389
+    },
+    "2026_02_PIT_NE|208": {
+      "key": "2026_02_PIT_NE|208",
+      "week": 2,
+      "opponent": "PIT",
+      "quarter": 1,
+      "clock": "12:02",
+      "situation": "1st & 10 at NE 37",
+      "offense": "NE",
+      "description": "(12:02) (Shotgun) 10-D.Maye pass deep left to 85-H.Henry pushed ob at PIT 34 for 29 yards (5-J.Ramsey; 3-J.Brisker).",
+      "yards": 29,
+      "neEpa": 1.67017538275104
+    },
+    "2026_02_PIT_NE|507": {
+      "key": "2026_02_PIT_NE|507",
+      "week": 2,
+      "opponent": "PIT",
+      "quarter": 1,
+      "clock": "8:29",
+      "situation": "1st & 10 at PIT 39",
+      "offense": "NE",
+      "description": "(8:29) (Shotgun) 32-T.Henderson left guard for 39 yards, TOUCHDOWN.",
+      "yards": 39,
+      "neEpa": 3.31607595644891
+    },
+    "2026_02_PIT_NE|871": {
+      "key": "2026_02_PIT_NE|871",
+      "week": 2,
+      "opponent": "PIT",
+      "quarter": 1,
+      "clock": "1:51",
+      "situation": "2nd & 4 at PIT 36",
+      "offense": "NE",
+      "description": "(1:51) (Shotgun) 10-D.Maye pass deep left to 82-E.Raridon to PIT 6 for 30 yards (41-P.Wilson) [97-C.Heyward]. ** Injury Update: PIT-3-J.Brisker has returned to the game. Penalty on PIT-41-P.Wilson, Defensive Pass Interference, declined.",
+      "yards": 30,
+      "neEpa": 2.17241139156977
+    },
+    "2026_02_PIT_NE|2655": {
+      "key": "2026_02_PIT_NE|2655",
+      "week": 2,
+      "opponent": "PIT",
+      "quarter": 3,
+      "clock": "6:39",
+      "situation": "1st & 10 at NE 40",
+      "offense": "NE",
+      "description": "(6:39) 38-R.Stevenson up the middle to PIT 36 for 24 yards (22-A.Samuel).",
+      "yards": 24,
+      "neEpa": 1.49221103475429
+    },
+    "2026_02_PIT_NE|3363": {
+      "key": "2026_02_PIT_NE|3363",
+      "week": 2,
+      "opponent": "PIT",
+      "quarter": 4,
+      "clock": "11:24",
+      "situation": "2nd & 12 at NE 38",
+      "offense": "NE",
+      "description": "(11:24) (Shotgun) 10-D.Maye scrambles up the middle to PIT 49 for 13 yards (20-R.Jenkins).",
+      "yards": 13,
+      "neEpa": 1.51278284238651
+    },
+    "2026_02_PIT_NE|1623": {
+      "key": "2026_02_PIT_NE|1623",
+      "week": 2,
+      "opponent": "PIT",
+      "quarter": 2,
+      "clock": "4:59",
+      "situation": "2nd & 10 at PIT 28",
+      "offense": "PIT",
+      "description": "(4:59) (Shotgun) 21-T.Homer right tackle to PIT 42 for 14 yards (4-C.Woodson).",
+      "yards": 14,
+      "neEpa": -1.4637275384739
+    },
+    "2026_02_PIT_NE|3498": {
+      "key": "2026_02_PIT_NE|3498",
+      "week": 2,
+      "opponent": "PIT",
+      "quarter": 4,
+      "clock": "9:31",
+      "situation": "2nd & 1 at PIT 17",
+      "offense": "PIT",
+      "description": "(9:31) (No Huddle, Shotgun) 30-J.Warren right end to PIT 27 for 10 yards (14-R.Spillane; 31-K.Byard).",
+      "yards": 10,
+      "neEpa": -0.467279657255858
+    },
+    "2026_02_PIT_NE|3593": {
+      "key": "2026_02_PIT_NE|3593",
+      "week": 2,
+      "opponent": "PIT",
+      "quarter": 4,
+      "clock": "8:03",
+      "situation": "2nd & 10 at PIT 40",
+      "offense": "PIT",
+      "description": "(8:03) (Shotgun) 8-A.Rodgers pass short middle to 4-D.Metcalf to NE 44 for 16 yards (31-K.Byard).",
+      "yards": 16,
+      "neEpa": -1.43147675972432
+    },
+    "2026_02_PIT_NE|3673": {
+      "key": "2026_02_PIT_NE|3673",
+      "week": 2,
+      "opponent": "PIT",
+      "quarter": 4,
+      "clock": "6:24",
+      "situation": "1st & 10 at NE 30",
+      "offense": "PIT",
+      "description": "(6:24) (Shotgun) 8-A.Rodgers pass short middle to 30-J.Warren to NE 4 for 26 yards (22-C.Woods).",
+      "yards": 26,
+      "neEpa": -2.04209580860334
+    }
+  },
+  "lists": {
+    "turnovers": [
+      {
+        "heading": "New England turnovers (2)",
+        "entries": [
+          {
+            "key": "2026_02_PIT_NE|243",
+            "badge": "Fumble lost",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_02_PIT_NE|2271",
+            "badge": "Interception",
+            "tone": "bad"
+          }
+        ]
+      },
+      {
+        "heading": "Takeaways (2)",
+        "entries": [
+          {
+            "key": "2026_02_PIT_NE|3144",
+            "badge": "Fumble lost",
+            "tone": "good"
+          },
+          {
+            "key": "2026_02_PIT_NE|3736",
+            "badge": "Interception",
+            "tone": "good"
+          }
+        ]
+      }
+    ],
+    "thirdDown": [
+      {
+        "heading": "New England on third down — 4 of 12 converted",
+        "entries": [
+          {
+            "key": "2026_02_PIT_NE|485",
+            "badge": "Converted",
+            "tone": "good"
+          },
+          {
+            "key": "2026_02_PIT_NE|818",
+            "badge": "Converted",
+            "tone": "good"
+          },
+          {
+            "key": "2026_02_PIT_NE|1013",
+            "badge": "Stopped",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_02_PIT_NE|1539",
+            "badge": "Stopped",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_02_PIT_NE|1901",
+            "badge": "Stopped",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_02_PIT_NE|2246",
+            "badge": "Converted",
+            "tone": "good"
+          },
+          {
+            "key": "2026_02_PIT_NE|2630",
+            "badge": "Converted",
+            "tone": "good"
+          },
+          {
+            "key": "2026_02_PIT_NE|2721",
+            "badge": "Stopped",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_02_PIT_NE|2975",
+            "badge": "Stopped",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_02_PIT_NE|3430",
+            "badge": "Stopped",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_02_PIT_NE|3826",
+            "badge": "Stopped",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_02_PIT_NE|4019",
+            "badge": "Stopped",
+            "tone": "bad"
+          }
+        ]
+      },
+      {
+        "heading": "PIT on third down — 2 of 12 converted",
+        "entries": [
+          {
+            "key": "2026_02_PIT_NE|107",
+            "badge": "Stopped",
+            "tone": "good"
+          },
+          {
+            "key": "2026_02_PIT_NE|353",
+            "badge": "Stopped",
+            "tone": "good"
+          },
+          {
+            "key": "2026_02_PIT_NE|711",
+            "badge": "Stopped",
+            "tone": "good"
+          },
+          {
+            "key": "2026_02_PIT_NE|1136",
+            "badge": "Stopped",
+            "tone": "good"
+          },
+          {
+            "key": "2026_02_PIT_NE|1227",
+            "badge": "Converted",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_02_PIT_NE|1357",
+            "badge": "Stopped",
+            "tone": "good"
+          },
+          {
+            "key": "2026_02_PIT_NE|1792",
+            "badge": "Stopped",
+            "tone": "good"
+          },
+          {
+            "key": "2026_02_PIT_NE|2005",
+            "badge": "Converted",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_02_PIT_NE|2485",
+            "badge": "Stopped",
+            "tone": "good"
+          },
+          {
+            "key": "2026_02_PIT_NE|2821",
+            "badge": "Stopped",
+            "tone": "good"
+          },
+          {
+            "key": "2026_02_PIT_NE|3273",
+            "badge": "Stopped",
+            "tone": "good"
+          },
+          {
+            "key": "2026_02_PIT_NE|3926",
+            "badge": "Stopped",
+            "tone": "good"
+          }
+        ]
+      }
+    ],
+    "redZone": [
+      {
+        "heading": "New England red-zone trip 1 of 3 · Touchdown",
+        "entries": []
+      },
+      {
+        "heading": "New England red-zone trip 2 of 3 · Field goal",
+        "entries": [
+          {
+            "key": "2026_02_PIT_NE|907"
+          },
+          {
+            "key": "2026_02_PIT_NE|931"
+          },
+          {
+            "key": "2026_02_PIT_NE|958"
+          },
+          {
+            "key": "2026_02_PIT_NE|1013"
+          },
+          {
+            "key": "2026_02_PIT_NE|1038"
+          }
+        ]
+      },
+      {
+        "heading": "New England red-zone trip 3 of 3 · Defensive touchdown",
+        "entries": []
+      },
+      {
+        "heading": "PIT red-zone trip 1 of 1 · Turnover",
+        "entries": [
+          {
+            "key": "2026_02_PIT_NE|3698"
+          },
+          {
+            "key": "2026_02_PIT_NE|3736"
+          }
+        ]
+      }
+    ],
+    "explosive": [
+      {
+        "heading": "New England explosive plays (8) — runs of 10+ and passes of 15+ yards",
+        "entries": [
+          {
+            "key": "2026_02_PIT_NE|208",
+            "badge": "29 yds",
+            "tone": "good"
+          },
+          {
+            "key": "2026_02_PIT_NE|507",
+            "badge": "39 yds",
+            "tone": "good"
+          },
+          {
+            "key": "2026_02_PIT_NE|871",
+            "badge": "30 yds",
+            "tone": "good"
+          },
+          {
+            "key": "2026_02_PIT_NE|1901",
+            "badge": "10 yds",
+            "tone": "good"
+          },
+          {
+            "key": "2026_02_PIT_NE|2246",
+            "badge": "29 yds",
+            "tone": "good"
+          },
+          {
+            "key": "2026_02_PIT_NE|2655",
+            "badge": "24 yds",
+            "tone": "good"
+          },
+          {
+            "key": "2026_02_PIT_NE|2869",
+            "badge": "63 yds",
+            "tone": "good"
+          },
+          {
+            "key": "2026_02_PIT_NE|3363",
+            "badge": "13 yds",
+            "tone": "good"
+          }
+        ]
+      },
+      {
+        "heading": "PIT explosive plays (5) — runs of 10+ and passes of 15+ yards",
+        "entries": [
+          {
+            "key": "2026_02_PIT_NE|1227",
+            "badge": "19 yds",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_02_PIT_NE|1623",
+            "badge": "14 yds",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_02_PIT_NE|3498",
+            "badge": "10 yds",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_02_PIT_NE|3593",
+            "badge": "16 yds",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_02_PIT_NE|3673",
+            "badge": "26 yds",
+            "tone": "bad"
+          }
+        ]
+      }
+    ],
+    "star": [
+      {
+        "heading": "Every play credited to R.Doubs (win probability added)",
+        "entries": [
+          {
+            "key": "2026_02_PIT_NE|784",
+            "badge": "+0.3% win prob.",
+            "tone": "good"
+          },
+          {
+            "key": "2026_02_PIT_NE|2246",
+            "badge": "+5.8% win prob.",
+            "tone": "good"
+          },
+          {
+            "key": "2026_02_PIT_NE|2869",
+            "badge": "+7.9% win prob.",
+            "tone": "good"
+          },
+          {
+            "key": "2026_02_PIT_NE|3430",
+            "badge": "-0.3% win prob.",
+            "tone": "bad"
+          }
+        ]
+      }
+    ]
+  },
+  "scrimmagePlays": {
+    "offense": 51,
+    "defense": 67
+  }
+}

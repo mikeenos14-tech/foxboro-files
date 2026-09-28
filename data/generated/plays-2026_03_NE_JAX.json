@@ -1,0 +1,1115 @@
+{
+  "gameId": "2026_03_NE_JAX",
+  "plays": {
+    "2026_03_NE_JAX|687": {
+      "key": "2026_03_NE_JAX|687",
+      "week": 3,
+      "opponent": "JAX",
+      "quarter": 1,
+      "clock": "3:58",
+      "situation": "1st & 10 at JAX 35",
+      "offense": "NE",
+      "description": "(3:58) 10-D.Maye sacked at JAX 42 for -7 yards. FUMBLES, RECOVERED by JAX-52-D.Hamilton at JAX 38.",
+      "yards": -3,
+      "neEpa": -5.80206459097099
+    },
+    "2026_03_NE_JAX|1984": {
+      "key": "2026_03_NE_JAX|1984",
+      "week": 3,
+      "opponent": "JAX",
+      "quarter": 2,
+      "clock": "1:02",
+      "situation": "3rd & Goal at JAX 2",
+      "offense": "NE",
+      "description": "(1:02) 10-D.Maye pass short right intended for 86-E.Chism INTERCEPTED by 12-T.Hunter [23-F.Oluokun] at JAX -9. Touchback.",
+      "yards": 0,
+      "neEpa": -4.47298354899976
+    },
+    "2026_03_NE_JAX|3110": {
+      "key": "2026_03_NE_JAX|3110",
+      "week": 3,
+      "opponent": "JAX",
+      "quarter": 3,
+      "clock": "1:03",
+      "situation": "1st & 10 at NE 27",
+      "offense": "NE",
+      "description": "(1:03) (Shotgun) 10-D.Maye pass short left intended for 18-K.Williams INTERCEPTED by 4-J.Jones at NE 36. 4-J.Jones pushed ob at NE 5 for 31 yards (10-D.Maye).",
+      "yards": 0,
+      "neEpa": -7.13014860131079
+    },
+    "2026_03_NE_JAX|1134": {
+      "key": "2026_03_NE_JAX|1134",
+      "week": 3,
+      "opponent": "JAX",
+      "quarter": 2,
+      "clock": "11:13",
+      "situation": "1st & 10 at JAX 20",
+      "offense": "JAX",
+      "description": "(11:13) (Shotgun) 16-T.Lawrence pass short middle intended for 85-B.Strange INTERCEPTED by 25-M.Jones (23-J.Reed) at JAX 33. 25-M.Jones to JAX 21 for 12 yards (76-E.Cleveland; 3-J.Meyers).",
+      "yards": 0,
+      "neEpa": 5.40320504852571
+    },
+    "2026_03_NE_JAX|486": {
+      "key": "2026_03_NE_JAX|486",
+      "week": 3,
+      "opponent": "JAX",
+      "quarter": 1,
+      "clock": "7:52",
+      "situation": "4th & 2 at JAX 32",
+      "offense": "JAX",
+      "description": "(7:52) 9-L.Cooke punts 40 yards to NE 28, Center-46-R.Matiscik. 25-M.Jones pushed ob at NE 29 for 1 yard (27-C.Ransaw; 19-J.Cameron).",
+      "yards": 0,
+      "neEpa": 0.556241095531732
+    },
+    "2026_03_NE_JAX|246": {
+      "key": "2026_03_NE_JAX|246",
+      "week": 3,
+      "opponent": "JAX",
+      "quarter": 1,
+      "clock": "11:44",
+      "situation": "3rd & 5 at NE 33",
+      "offense": "NE",
+      "description": "(11:44) (Shotgun) 10-D.Maye pass short left to 13-M.Hollins pushed ob at JAX 46 for 21 yards (12-T.Hunter; 27-C.Ransaw).",
+      "yards": 21,
+      "neEpa": 2.69824264408089
+    },
+    "2026_03_NE_JAX|339": {
+      "key": "2026_03_NE_JAX|339",
+      "week": 3,
+      "opponent": "JAX",
+      "quarter": 1,
+      "clock": "10:25",
+      "situation": "3rd & 9 at JAX 45",
+      "offense": "NE",
+      "description": "(10:25) (Shotgun) 10-D.Maye pass incomplete short middle to 85-H.Henry.",
+      "yards": 0,
+      "neEpa": -1.75703338626772
+    },
+    "2026_03_NE_JAX|665": {
+      "key": "2026_03_NE_JAX|665",
+      "week": 3,
+      "opponent": "JAX",
+      "quarter": 1,
+      "clock": "4:43",
+      "situation": "3rd & 2 at JAX 37",
+      "offense": "NE",
+      "description": "(4:43) 38-R.Stevenson right tackle to JAX 35 for 2 yards (23-F.Oluokun; 44-T.Walker).",
+      "yards": 2,
+      "neEpa": 1.01925096765626
+    },
+    "2026_03_NE_JAX|1096": {
+      "key": "2026_03_NE_JAX|1096",
+      "week": 3,
+      "opponent": "JAX",
+      "quarter": 2,
+      "clock": "12:03",
+      "situation": "3rd & 3 at NE 27",
+      "offense": "NE",
+      "description": "(12:03) (Shotgun) 10-D.Maye sacked at NE 27 for 0 yards (99-R.Orhorhoro).",
+      "yards": 0,
+      "neEpa": -1.32180958939716
+    },
+    "2026_03_NE_JAX|1298": {
+      "key": "2026_03_NE_JAX|1298",
+      "week": 3,
+      "opponent": "JAX",
+      "quarter": 2,
+      "clock": "9:20",
+      "situation": "3rd & 6 at JAX 17",
+      "offense": "NE",
+      "description": "(9:20) (Shotgun) 10-D.Maye pass incomplete deep right to 13-M.Hollins. NE-70-G.Van Roten was injured during the play.",
+      "yards": 0,
+      "neEpa": -0.873136153293557
+    },
+    "2026_03_NE_JAX|2367": {
+      "key": "2026_03_NE_JAX|2367",
+      "week": 3,
+      "opponent": "JAX",
+      "quarter": 3,
+      "clock": "13:52",
+      "situation": "3rd & 1 at NE 47",
+      "offense": "NE",
+      "description": "(13:52) 10-D.Maye up the middle to NE 47 for no gain (41-J.Hines-Allen). (Virtual Measurement).",
+      "yards": 0,
+      "neEpa": -1.94135959120467
+    },
+    "2026_03_NE_JAX|2548": {
+      "key": "2026_03_NE_JAX|2548",
+      "week": 3,
+      "opponent": "JAX",
+      "quarter": 3,
+      "clock": "9:59",
+      "situation": "3rd & 6 at JAX 20",
+      "offense": "NE",
+      "description": "(9:59) (Shotgun) 10-D.Maye pass incomplete short right to 87-R.Doubs (1-M.Brown).",
+      "yards": 0,
+      "neEpa": -0.995544506253396
+    },
+    "2026_03_NE_JAX|3288": {
+      "key": "2026_03_NE_JAX|3288",
+      "week": 3,
+      "opponent": "JAX",
+      "quarter": 4,
+      "clock": "15:00",
+      "situation": "3rd & 8 at NE 11",
+      "offense": "NE",
+      "description": "(15:00) (Shotgun) 10-D.Maye pass deep right to 13-M.Hollins ran ob at NE 29 for 18 yards. Penalty on JAX-4-J.Jones, Defensive Holding, declined.",
+      "yards": 18,
+      "neEpa": 2.46527646481991
+    },
+    "2026_03_NE_JAX|3434": {
+      "key": "2026_03_NE_JAX|3434",
+      "week": 3,
+      "opponent": "JAX",
+      "quarter": 4,
+      "clock": "13:32",
+      "situation": "3rd & 10 at JAX 16",
+      "offense": "NE",
+      "description": "(13:32) (Shotgun) 10-D.Maye pass short right to 13-M.Hollins to JAX 7 for 9 yards (29-E.Murray). PENALTY on NE-13-M.Hollins, Taunting, 15 yards, enforced at JAX 7.",
+      "yards": 9,
+      "neEpa": -1.29947800146153
+    },
+    "2026_03_NE_JAX|3873": {
+      "key": "2026_03_NE_JAX|3873",
+      "week": 3,
+      "opponent": "JAX",
+      "quarter": 4,
+      "clock": "5:25",
+      "situation": "3rd & 8 at NE 41",
+      "offense": "NE",
+      "description": "(5:25) (Shotgun) 16-T.DeVito pass deep middle to 87-R.Doubs to JAX 39 for 20 yards (27-C.Ransaw).",
+      "yards": 20,
+      "neEpa": 2.4667822154006
+    },
+    "2026_03_NE_JAX|3997": {
+      "key": "2026_03_NE_JAX|3997",
+      "week": 3,
+      "opponent": "JAX",
+      "quarter": 4,
+      "clock": "2:43",
+      "situation": "3rd & 7 at JAX 25",
+      "offense": "NE",
+      "description": "(2:43) (Shotgun) 16-T.DeVito pass incomplete deep left to 18-K.Williams.",
+      "yards": 0,
+      "neEpa": -0.988005036779214
+    },
+    "2026_03_NE_JAX|158": {
+      "key": "2026_03_NE_JAX|158",
+      "week": 3,
+      "opponent": "JAX",
+      "quarter": 1,
+      "clock": "14:02",
+      "situation": "3rd & 8 at JAX 14",
+      "offense": "JAX",
+      "description": "(14:02) (Shotgun) 16-T.Lawrence scrambles left end to JAX 21 for 7 yards (97-M.Williams).",
+      "yards": 7,
+      "neEpa": 0.33780626161024
+    },
+    "2026_03_NE_JAX|461": {
+      "key": "2026_03_NE_JAX|461",
+      "week": 3,
+      "opponent": "JAX",
+      "quarter": 1,
+      "clock": "8:30",
+      "situation": "3rd & 4 at JAX 30",
+      "offense": "JAX",
+      "description": "(8:30) (Shotgun) 16-T.Lawrence pass short right to 5-L.Allen to JAX 32 for 2 yards (0-C.Gonzalez).",
+      "yards": 2,
+      "neEpa": 1.26849956391379
+    },
+    "2026_03_NE_JAX|784": {
+      "key": "2026_03_NE_JAX|784",
+      "week": 3,
+      "opponent": "JAX",
+      "quarter": 1,
+      "clock": "2:24",
+      "situation": "3rd & 5 at JAX 43",
+      "offense": "JAX",
+      "description": "(2:24) (Shotgun) 16-T.Lawrence pass short middle to 11-P.Washington to NE 39 for 18 yards (31-K.Byard).",
+      "yards": 18,
+      "neEpa": -2.02789960370865
+    },
+    "2026_03_NE_JAX|853": {
+      "key": "2026_03_NE_JAX|853",
+      "week": 3,
+      "opponent": "JAX",
+      "quarter": 1,
+      "clock": "0:13",
+      "situation": "3rd & 1 at NE 30",
+      "offense": "JAX",
+      "description": "(:13) 64-W.Milum reported in as eligible. 24-C.Rodriguez right end to NE 23 for 7 yards (23-J.Reed; 31-K.Byard).",
+      "yards": 7,
+      "neEpa": -0.962754729902372
+    },
+    "2026_03_NE_JAX|1519": {
+      "key": "2026_03_NE_JAX|1519",
+      "week": 3,
+      "opponent": "JAX",
+      "quarter": 2,
+      "clock": "5:15",
+      "situation": "3rd & 2 at NE 13",
+      "offense": "JAX",
+      "description": "(5:15) (Shotgun) 24-C.Rodriguez up the middle to NE 10 for 3 yards (97-M.Williams; 50-G.Jacas).",
+      "yards": 3,
+      "neEpa": -0.473895960778464
+    },
+    "2026_03_NE_JAX|2204": {
+      "key": "2026_03_NE_JAX|2204",
+      "week": 3,
+      "opponent": "JAX",
+      "quarter": 2,
+      "clock": "0:07",
+      "situation": "3rd & 3 at JAX 48",
+      "offense": "JAX",
+      "description": "(:07) (Shotgun) 16-T.Lawrence pass incomplete short right.",
+      "yards": 0,
+      "neEpa": -0.250292172719691
+    },
+    "2026_03_NE_JAX|2742": {
+      "key": "2026_03_NE_JAX|2742",
+      "week": 3,
+      "opponent": "JAX",
+      "quarter": 3,
+      "clock": "6:40",
+      "situation": "3rd & 1 at NE 34",
+      "offense": "JAX",
+      "description": "(6:40) 16-T.Lawrence up the middle to NE 32 for 2 yards (97-M.Williams).",
+      "yards": 2,
+      "neEpa": -0.648742392193526
+    },
+    "2026_03_NE_JAX|2811": {
+      "key": "2026_03_NE_JAX|2811",
+      "week": 3,
+      "opponent": "JAX",
+      "quarter": 3,
+      "clock": "4:28",
+      "situation": "3rd & 9 at NE 31",
+      "offense": "JAX",
+      "description": "(4:28) (Shotgun) 16-T.Lawrence pass short middle to 3-J.Meyers to NE 17 for 14 yards (0-C.Gonzalez) [53-C.Elliss].",
+      "yards": 14,
+      "neEpa": -2.11064205970615
+    },
+    "2026_03_NE_JAX|2878": {
+      "key": "2026_03_NE_JAX|2878",
+      "week": 3,
+      "opponent": "JAX",
+      "quarter": 3,
+      "clock": "2:16",
+      "situation": "3rd & 11 at NE 18",
+      "offense": "JAX",
+      "description": "(2:16) (Shotgun) 16-T.Lawrence pass short right to 3-J.Meyers to NE 5 for 13 yards (7-C.Davis). PENALTY on NE-7-C.Davis, Face Mask, 3 yards, enforced at NE 5.",
+      "yards": 13,
+      "neEpa": -2.93221854660078
+    },
+    "2026_03_NE_JAX|3028": {
+      "key": "2026_03_NE_JAX|3028",
+      "week": 3,
+      "opponent": "JAX",
+      "quarter": 3,
+      "clock": "1:13",
+      "situation": "3rd & Goal at NE 17",
+      "offense": "JAX",
+      "description": "(1:13) (Shotgun) 16-T.Lawrence pass deep left to 11-P.Washington for 17 yards, TOUCHDOWN. Penalty on NE-25-M.Jones, Defensive Pass Interference, declined.",
+      "yards": 17,
+      "neEpa": -3.89854952006135
+    },
+    "2026_03_NE_JAX|3688": {
+      "key": "2026_03_NE_JAX|3688",
+      "week": 3,
+      "opponent": "JAX",
+      "quarter": 4,
+      "clock": "8:56",
+      "situation": "3rd & 4 at NE 16",
+      "offense": "JAX",
+      "description": "(8:56) (Shotgun) 16-T.Lawrence left end to NE 1 for 15 yards.",
+      "yards": 15,
+      "neEpa": -2.42321566602914
+    },
+    "2026_03_NE_JAX|4094": {
+      "key": "2026_03_NE_JAX|4094",
+      "week": 3,
+      "opponent": "JAX",
+      "quarter": 4,
+      "clock": "1:18",
+      "situation": "3rd & 10 at JAX 25",
+      "offense": "JAX",
+      "description": "(1:18) 20-A.Abdullah right guard to JAX 27 for 2 yards (92-J.Farmer; 49-E.Hunter).",
+      "yards": 2,
+      "neEpa": 0.370333690196276
+    },
+    "2026_03_NE_JAX|1321": {
+      "key": "2026_03_NE_JAX|1321",
+      "week": 3,
+      "opponent": "JAX",
+      "quarter": 2,
+      "clock": "9:12",
+      "situation": "4th & 6 at JAX 17",
+      "offense": "NE",
+      "description": "(9:12) 8-A.Borregales 35 yard field goal is GOOD, Center-47-J.Ashby, Holder-19-M.Wishnowsky.",
+      "yards": 0,
+      "neEpa": 0.324492756708308
+    },
+    "2026_03_NE_JAX|1830": {
+      "key": "2026_03_NE_JAX|1830",
+      "week": 3,
+      "opponent": "JAX",
+      "quarter": 2,
+      "clock": "2:00",
+      "situation": "1st & 10 at JAX 18",
+      "offense": "NE",
+      "description": "(2:00) (Shotgun) 32-T.Henderson left guard to JAX 14 for 4 yards (91-A.Armstead; 23-F.Oluokun).",
+      "yards": 4,
+      "neEpa": -0.151055652182549
+    },
+    "2026_03_NE_JAX|1859": {
+      "key": "2026_03_NE_JAX|1859",
+      "week": 3,
+      "opponent": "JAX",
+      "quarter": 2,
+      "clock": "1:19",
+      "situation": "2nd & 6 at JAX 14",
+      "offense": "NE",
+      "description": "(1:19) (Shotgun) 10-D.Maye scrambles up the middle to JAX 6 for 8 yards (52-D.Hamilton). FUMBLES (52-D.Hamilton), and recovers at JAX 5. The Replay Official reviewed the loose ball recovery ruling, and the play was Upheld. The ruling on the field stands.",
+      "yards": 9,
+      "neEpa": 1.30235858925153
+    },
+    "2026_03_NE_JAX|1881": {
+      "key": "2026_03_NE_JAX|1881",
+      "week": 3,
+      "opponent": "JAX",
+      "quarter": 2,
+      "clock": "1:12",
+      "situation": "1st & Goal at JAX 5",
+      "offense": "NE",
+      "description": "(1:12) (Shotgun) 10-D.Maye left end to JAX 4 for 1 yard (41-J.Hines-Allen; 4-J.Jones).",
+      "yards": 1,
+      "neEpa": -0.549711222643964
+    },
+    "2026_03_NE_JAX|1953": {
+      "key": "2026_03_NE_JAX|1953",
+      "week": 3,
+      "opponent": "JAX",
+      "quarter": 2,
+      "clock": "1:07",
+      "situation": "2nd & Goal at JAX 4",
+      "offense": "NE",
+      "description": "(1:07) 74-C.Lomu reported in as eligible. 38-R.Stevenson up the middle to JAX 2 for 2 yards (52-D.Hamilton).",
+      "yards": 2,
+      "neEpa": -0.958305247477256
+    },
+    "2026_03_NE_JAX|2571": {
+      "key": "2026_03_NE_JAX|2571",
+      "week": 3,
+      "opponent": "JAX",
+      "quarter": 3,
+      "clock": "9:54",
+      "situation": "4th & 6 at JAX 20",
+      "offense": "NE",
+      "description": "(9:54) 8-A.Borregales 38 yard field goal is No Good, Wide Right, Center-47-J.Ashby, Holder-19-M.Wishnowsky.",
+      "yards": 0,
+      "neEpa": -4.0474109570913
+    },
+    "2026_03_NE_JAX|3385": {
+      "key": "2026_03_NE_JAX|3385",
+      "week": 3,
+      "opponent": "JAX",
+      "quarter": 4,
+      "clock": "13:42",
+      "situation": "1st & 10 at JAX 16",
+      "offense": "NE",
+      "description": "(13:42) (Shotgun) 10-D.Maye pass incomplete deep right to 13-M.Hollins. ** Injury Update: JAX-52-D.Hamilton has returned to the game.",
+      "yards": 0,
+      "neEpa": -0.466759669594467
+    },
+    "2026_03_NE_JAX|3408": {
+      "key": "2026_03_NE_JAX|3408",
+      "week": 3,
+      "opponent": "JAX",
+      "quarter": 4,
+      "clock": "13:37",
+      "situation": "2nd & 10 at JAX 16",
+      "offense": "NE",
+      "description": "(13:37) (Shotgun) 10-D.Maye pass incomplete deep left to 3-D.Douglas.",
+      "yards": 0,
+      "neEpa": -0.734051617211662
+    },
+    "2026_03_NE_JAX|922": {
+      "key": "2026_03_NE_JAX|922",
+      "week": 3,
+      "opponent": "JAX",
+      "quarter": 2,
+      "clock": "14:16",
+      "situation": "2nd & 2 at NE 15",
+      "offense": "JAX",
+      "description": "(14:16) 33-B.Tuten right guard to NE 12 for 3 yards (25-M.Jones).",
+      "yards": 3,
+      "neEpa": 0.00911658693803474
+    },
+    "2026_03_NE_JAX|944": {
+      "key": "2026_03_NE_JAX|944",
+      "week": 3,
+      "opponent": "JAX",
+      "quarter": 2,
+      "clock": "13:33",
+      "situation": "1st & 10 at NE 12",
+      "offense": "JAX",
+      "description": "(13:33) (Shotgun) 16-T.Lawrence pass incomplete short left to 20-A.Abdullah (7-C.Davis).",
+      "yards": 0,
+      "neEpa": 0.449568548414391
+    },
+    "2026_03_NE_JAX|967": {
+      "key": "2026_03_NE_JAX|967",
+      "week": 3,
+      "opponent": "JAX",
+      "quarter": 2,
+      "clock": "13:30",
+      "situation": "2nd & 10 at NE 12",
+      "offense": "JAX",
+      "description": "(13:30) (Shotgun) 16-T.Lawrence pass short middle to 19-J.Cameron for 12 yards, TOUCHDOWN.",
+      "yards": 12,
+      "neEpa": -2.36670755292289
+    },
+    "2026_03_NE_JAX|1497": {
+      "key": "2026_03_NE_JAX|1497",
+      "week": 3,
+      "opponent": "JAX",
+      "quarter": 2,
+      "clock": "5:55",
+      "situation": "2nd & 4 at NE 15",
+      "offense": "JAX",
+      "description": "(5:55) (Shotgun) 33-B.Tuten up the middle to NE 13 for 2 yards (14-R.Spillane).",
+      "yards": 2,
+      "neEpa": 0.255370457132813
+    },
+    "2026_03_NE_JAX|1541": {
+      "key": "2026_03_NE_JAX|1541",
+      "week": 3,
+      "opponent": "JAX",
+      "quarter": 2,
+      "clock": "4:34",
+      "situation": "1st & Goal at NE 10",
+      "offense": "JAX",
+      "description": "(4:34) 16-T.Lawrence pass incomplete short left to 87-N.Boerkircher (25-M.Jones). ** Injury Update: NE-90-C.Barmore has returned to the game.",
+      "yards": 0,
+      "neEpa": 0.440556480374653
+    },
+    "2026_03_NE_JAX|1569": {
+      "key": "2026_03_NE_JAX|1569",
+      "week": 3,
+      "opponent": "JAX",
+      "quarter": 2,
+      "clock": "4:28",
+      "situation": "2nd & Goal at NE 10",
+      "offense": "JAX",
+      "description": "(4:28) (Shotgun) 16-T.Lawrence pass short middle to 3-J.Meyers for 10 yards, TOUCHDOWN.",
+      "yards": 10,
+      "neEpa": -2.49069691693876
+    },
+    "2026_03_NE_JAX|2836": {
+      "key": "2026_03_NE_JAX|2836",
+      "week": 3,
+      "opponent": "JAX",
+      "quarter": 3,
+      "clock": "3:44",
+      "situation": "1st & 10 at NE 17",
+      "offense": "JAX",
+      "description": "(3:44) 24-C.Rodriguez left guard to NE 14 for 3 yards (91-E.Ponder).",
+      "yards": 3,
+      "neEpa": 0.2354686128092
+    },
+    "2026_03_NE_JAX|2858": {
+      "key": "2026_03_NE_JAX|2858",
+      "week": 3,
+      "opponent": "JAX",
+      "quarter": 3,
+      "clock": "3:02",
+      "situation": "2nd & 7 at NE 14",
+      "offense": "JAX",
+      "description": "(3:02) 16-T.Lawrence sacked at NE 18 for -4 yards (sack split by 91-E.Ponder and 50-G.Jacas).",
+      "yards": -4,
+      "neEpa": 1.39277330052573
+    },
+    "2026_03_NE_JAX|2921": {
+      "key": "2026_03_NE_JAX|2921",
+      "week": 3,
+      "opponent": "JAX",
+      "quarter": 3,
+      "clock": "1:47",
+      "situation": "1st & Goal at NE 2",
+      "offense": "JAX",
+      "description": "(1:47) (Shotgun) PENALTY on JAX-75-E.Pregnon, False Start, 5 yards, enforced at NE 2 - No Play.",
+      "yards": 0,
+      "neEpa": 0.771051017189166
+    },
+    "2026_03_NE_JAX|2945": {
+      "key": "2026_03_NE_JAX|2945",
+      "week": 3,
+      "opponent": "JAX",
+      "quarter": 3,
+      "clock": "1:29",
+      "situation": "1st & Goal at NE 7",
+      "offense": "JAX",
+      "description": "(1:29) 16-T.Lawrence pass incomplete short right to 11-P.Washington.",
+      "yards": 0,
+      "neEpa": 0.498321095423307
+    },
+    "2026_03_NE_JAX|2968": {
+      "key": "2026_03_NE_JAX|2968",
+      "week": 3,
+      "opponent": "JAX",
+      "quarter": 3,
+      "clock": "1:22",
+      "situation": "2nd & Goal at NE 7",
+      "offense": "JAX",
+      "description": "(1:22) (Shotgun) 16-T.Lawrence pass incomplete short left to 11-P.Washington.",
+      "yards": 0,
+      "neEpa": 0.870246684062295
+    },
+    "2026_03_NE_JAX|2991": {
+      "key": "2026_03_NE_JAX|2991",
+      "week": 3,
+      "opponent": "JAX",
+      "quarter": 3,
+      "clock": "1:19",
+      "situation": "3rd & Goal at NE 7",
+      "offense": "JAX",
+      "description": "(1:19) (Shotgun) 16-T.Lawrence pass short left to 11-P.Washington for 7 yards, TOUCHDOWN NULLIFIED by Penalty. PENALTY on JAX-70-C.Van Lanen, Illegal Use of Hands, 10 yards, enforced at NE 7 - No Play.",
+      "yards": 0,
+      "neEpa": 1.10442816431168
+    },
+    "2026_03_NE_JAX|3137": {
+      "key": "2026_03_NE_JAX|3137",
+      "week": 3,
+      "opponent": "JAX",
+      "quarter": 3,
+      "clock": "0:54",
+      "situation": "1st & Goal at NE 5",
+      "offense": "JAX",
+      "description": "(:54) 24-C.Rodriguez up the middle for 5 yards, TOUCHDOWN.",
+      "yards": 5,
+      "neEpa": -1.14614504523342
+    },
+    "2026_03_NE_JAX|3666": {
+      "key": "2026_03_NE_JAX|3666",
+      "week": 3,
+      "opponent": "JAX",
+      "quarter": 4,
+      "clock": "9:40",
+      "situation": "2nd & 7 at NE 19",
+      "offense": "JAX",
+      "description": "(9:40) 33-B.Tuten up the middle to NE 16 for 3 yards (31-K.Byard).",
+      "yards": 3,
+      "neEpa": 0.248184499330819
+    },
+    "2026_03_NE_JAX|3710": {
+      "key": "2026_03_NE_JAX|3710",
+      "week": 3,
+      "opponent": "JAX",
+      "quarter": 4,
+      "clock": "8:06",
+      "situation": "1st & Goal at NE 1",
+      "offense": "JAX",
+      "description": "(8:06) 33-B.Tuten up the middle for 1 yard, TOUCHDOWN.",
+      "yards": 1,
+      "neEpa": -0.654796935501508
+    },
+    "2026_03_NE_JAX|1243": {
+      "key": "2026_03_NE_JAX|1243",
+      "week": 3,
+      "opponent": "JAX",
+      "quarter": 2,
+      "clock": "10:34",
+      "situation": "1st & 30 at JAX 41",
+      "offense": "NE",
+      "description": "(10:34) (Shotgun) 86-E.Chism pass short right to 13-M.Hollins to JAX 25 for 16 yards (6-A.Johnson; 29-E.Murray) [23-F.Oluokun].",
+      "yards": 16,
+      "neEpa": 0.792526712291874
+    },
+    "2026_03_NE_JAX|1667": {
+      "key": "2026_03_NE_JAX|1667",
+      "week": 3,
+      "opponent": "JAX",
+      "quarter": 2,
+      "clock": "3:33",
+      "situation": "2nd & 9 at NE 29",
+      "offense": "NE",
+      "description": "(3:33) (Shotgun) 10-D.Maye pass deep left to 3-D.Douglas to JAX 33 for 38 yards (12-T.Hunter).",
+      "yards": 38,
+      "neEpa": 2.85196264350088
+    },
+    "2026_03_NE_JAX|3329": {
+      "key": "2026_03_NE_JAX|3329",
+      "week": 3,
+      "opponent": "JAX",
+      "quarter": 4,
+      "clock": "14:48",
+      "situation": "1st & 10 at NE 29",
+      "offense": "NE",
+      "description": "(14:48) (Shotgun) 10-D.Maye pass deep left to 87-R.Doubs to 50 for 21 yards (6-A.Johnson).",
+      "yards": 21,
+      "neEpa": 1.35243255621754
+    },
+    "2026_03_NE_JAX|3354": {
+      "key": "2026_03_NE_JAX|3354",
+      "week": 3,
+      "opponent": "JAX",
+      "quarter": 4,
+      "clock": "14:22",
+      "situation": "1st & 10 at MID 50",
+      "offense": "NE",
+      "description": "(14:22) (No Huddle, Shotgun) 10-D.Maye pass deep right to 18-K.Williams ran ob at JAX 16 for 34 yards (4-J.Jones).",
+      "yards": 34,
+      "neEpa": 2.08880686934572
+    },
+    "2026_03_NE_JAX|382": {
+      "key": "2026_03_NE_JAX|382",
+      "week": 3,
+      "opponent": "JAX",
+      "quarter": 1,
+      "clock": "10:10",
+      "situation": "1st & 10 at JAX 12",
+      "offense": "JAX",
+      "description": "(10:10) 33-B.Tuten left end to JAX 24 for 12 yards (7-C.Davis).",
+      "yards": 12,
+      "neEpa": -0.641305123455823
+    },
+    "2026_03_NE_JAX|1442": {
+      "key": "2026_03_NE_JAX|1442",
+      "week": 3,
+      "opponent": "JAX",
+      "quarter": 2,
+      "clock": "7:16",
+      "situation": "2nd & 1 at NE 44",
+      "offense": "JAX",
+      "description": "(7:16) 16-T.Lawrence pass short left to 85-B.Strange pushed ob at NE 21 for 23 yards (7-C.Davis). NE-7-C.Davis was injured during the play.",
+      "yards": 23,
+      "neEpa": -1.18778915778967
+    },
+    "2026_03_NE_JAX|2621": {
+      "key": "2026_03_NE_JAX|2621",
+      "week": 3,
+      "opponent": "JAX",
+      "quarter": 3,
+      "clock": "9:08",
+      "situation": "2nd & 6 at JAX 32",
+      "offense": "JAX",
+      "description": "(9:08) 16-T.Lawrence pass short left to 33-B.Tuten pushed ob at JAX 47 for 15 yards (14-R.Spillane; 53-C.Elliss) [50-G.Jacas].",
+      "yards": 15,
+      "neEpa": -1.34121228056028
+    }
+  },
+  "lists": {
+    "turnovers": [
+      {
+        "heading": "New England turnovers (3)",
+        "entries": [
+          {
+            "key": "2026_03_NE_JAX|687",
+            "badge": "Fumble lost",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_03_NE_JAX|1984",
+            "badge": "Interception",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_03_NE_JAX|3110",
+            "badge": "Interception",
+            "tone": "bad"
+          }
+        ]
+      },
+      {
+        "heading": "Takeaways (1)",
+        "entries": [
+          {
+            "key": "2026_03_NE_JAX|1134",
+            "badge": "Interception",
+            "tone": "good"
+          }
+        ]
+      }
+    ],
+    "thirdDown": [
+      {
+        "heading": "New England on third down — 4 of 12 converted",
+        "entries": [
+          {
+            "key": "2026_03_NE_JAX|246",
+            "badge": "Converted",
+            "tone": "good"
+          },
+          {
+            "key": "2026_03_NE_JAX|339",
+            "badge": "Stopped",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_03_NE_JAX|665",
+            "badge": "Converted",
+            "tone": "good"
+          },
+          {
+            "key": "2026_03_NE_JAX|1096",
+            "badge": "Stopped",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_03_NE_JAX|1298",
+            "badge": "Stopped",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_03_NE_JAX|1984",
+            "badge": "Stopped",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_03_NE_JAX|2367",
+            "badge": "Stopped",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_03_NE_JAX|2548",
+            "badge": "Stopped",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_03_NE_JAX|3288",
+            "badge": "Converted",
+            "tone": "good"
+          },
+          {
+            "key": "2026_03_NE_JAX|3434",
+            "badge": "Stopped",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_03_NE_JAX|3873",
+            "badge": "Converted",
+            "tone": "good"
+          },
+          {
+            "key": "2026_03_NE_JAX|3997",
+            "badge": "Stopped",
+            "tone": "bad"
+          }
+        ]
+      },
+      {
+        "heading": "JAX on third down — 8 of 12 converted",
+        "entries": [
+          {
+            "key": "2026_03_NE_JAX|158",
+            "badge": "Stopped",
+            "tone": "good"
+          },
+          {
+            "key": "2026_03_NE_JAX|461",
+            "badge": "Stopped",
+            "tone": "good"
+          },
+          {
+            "key": "2026_03_NE_JAX|784",
+            "badge": "Converted",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_03_NE_JAX|853",
+            "badge": "Converted",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_03_NE_JAX|1519",
+            "badge": "Converted",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_03_NE_JAX|2204",
+            "badge": "Stopped",
+            "tone": "good"
+          },
+          {
+            "key": "2026_03_NE_JAX|2742",
+            "badge": "Converted",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_03_NE_JAX|2811",
+            "badge": "Converted",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_03_NE_JAX|2878",
+            "badge": "Converted",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_03_NE_JAX|3028",
+            "badge": "Converted",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_03_NE_JAX|3688",
+            "badge": "Converted",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_03_NE_JAX|4094",
+            "badge": "Stopped",
+            "tone": "good"
+          }
+        ]
+      }
+    ],
+    "redZone": [
+      {
+        "heading": "New England red-zone trip 1 of 4 · Field goal",
+        "entries": [
+          {
+            "key": "2026_03_NE_JAX|1298"
+          },
+          {
+            "key": "2026_03_NE_JAX|1321"
+          }
+        ]
+      },
+      {
+        "heading": "New England red-zone trip 2 of 4 · Turnover",
+        "entries": [
+          {
+            "key": "2026_03_NE_JAX|1830"
+          },
+          {
+            "key": "2026_03_NE_JAX|1859"
+          },
+          {
+            "key": "2026_03_NE_JAX|1881"
+          },
+          {
+            "key": "2026_03_NE_JAX|1953"
+          },
+          {
+            "key": "2026_03_NE_JAX|1984"
+          }
+        ]
+      },
+      {
+        "heading": "New England red-zone trip 3 of 4 · Missed field goal",
+        "entries": [
+          {
+            "key": "2026_03_NE_JAX|2548"
+          },
+          {
+            "key": "2026_03_NE_JAX|2571"
+          }
+        ]
+      },
+      {
+        "heading": "New England red-zone trip 4 of 4 · Field goal",
+        "entries": [
+          {
+            "key": "2026_03_NE_JAX|3385"
+          },
+          {
+            "key": "2026_03_NE_JAX|3408"
+          },
+          {
+            "key": "2026_03_NE_JAX|3434"
+          }
+        ]
+      },
+      {
+        "heading": "JAX red-zone trip 1 of 5 · Touchdown",
+        "entries": [
+          {
+            "key": "2026_03_NE_JAX|922"
+          },
+          {
+            "key": "2026_03_NE_JAX|944"
+          },
+          {
+            "key": "2026_03_NE_JAX|967",
+            "badge": "Touchdown",
+            "tone": "bad"
+          }
+        ]
+      },
+      {
+        "heading": "JAX red-zone trip 2 of 5 · Touchdown",
+        "entries": [
+          {
+            "key": "2026_03_NE_JAX|1497"
+          },
+          {
+            "key": "2026_03_NE_JAX|1519"
+          },
+          {
+            "key": "2026_03_NE_JAX|1541"
+          },
+          {
+            "key": "2026_03_NE_JAX|1569",
+            "badge": "Touchdown",
+            "tone": "bad"
+          }
+        ]
+      },
+      {
+        "heading": "JAX red-zone trip 3 of 5 · Touchdown",
+        "entries": [
+          {
+            "key": "2026_03_NE_JAX|2836"
+          },
+          {
+            "key": "2026_03_NE_JAX|2858"
+          },
+          {
+            "key": "2026_03_NE_JAX|2878"
+          },
+          {
+            "key": "2026_03_NE_JAX|2921"
+          },
+          {
+            "key": "2026_03_NE_JAX|2945"
+          },
+          {
+            "key": "2026_03_NE_JAX|2968"
+          },
+          {
+            "key": "2026_03_NE_JAX|2991"
+          },
+          {
+            "key": "2026_03_NE_JAX|3028",
+            "badge": "Touchdown",
+            "tone": "bad"
+          }
+        ]
+      },
+      {
+        "heading": "JAX red-zone trip 4 of 5 · Touchdown",
+        "entries": [
+          {
+            "key": "2026_03_NE_JAX|3137",
+            "badge": "Touchdown",
+            "tone": "bad"
+          }
+        ]
+      },
+      {
+        "heading": "JAX red-zone trip 5 of 5 · Touchdown",
+        "entries": [
+          {
+            "key": "2026_03_NE_JAX|3666"
+          },
+          {
+            "key": "2026_03_NE_JAX|3688"
+          },
+          {
+            "key": "2026_03_NE_JAX|3710",
+            "badge": "Touchdown",
+            "tone": "bad"
+          }
+        ]
+      }
+    ],
+    "explosive": [
+      {
+        "heading": "New England explosive plays (7) — runs of 10+ and passes of 15+ yards",
+        "entries": [
+          {
+            "key": "2026_03_NE_JAX|246",
+            "badge": "21 yds",
+            "tone": "good"
+          },
+          {
+            "key": "2026_03_NE_JAX|1243",
+            "badge": "16 yds",
+            "tone": "good"
+          },
+          {
+            "key": "2026_03_NE_JAX|1667",
+            "badge": "38 yds",
+            "tone": "good"
+          },
+          {
+            "key": "2026_03_NE_JAX|3288",
+            "badge": "18 yds",
+            "tone": "good"
+          },
+          {
+            "key": "2026_03_NE_JAX|3329",
+            "badge": "21 yds",
+            "tone": "good"
+          },
+          {
+            "key": "2026_03_NE_JAX|3354",
+            "badge": "34 yds",
+            "tone": "good"
+          },
+          {
+            "key": "2026_03_NE_JAX|3873",
+            "badge": "20 yds",
+            "tone": "good"
+          }
+        ]
+      },
+      {
+        "heading": "JAX explosive plays (6) — runs of 10+ and passes of 15+ yards",
+        "entries": [
+          {
+            "key": "2026_03_NE_JAX|382",
+            "badge": "12 yds",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_03_NE_JAX|784",
+            "badge": "18 yds",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_03_NE_JAX|1442",
+            "badge": "23 yds",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_03_NE_JAX|2621",
+            "badge": "15 yds",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_03_NE_JAX|3028",
+            "badge": "17 yds",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_03_NE_JAX|3688",
+            "badge": "15 yds",
+            "tone": "bad"
+          }
+        ]
+      }
+    ],
+    "star": [
+      {
+        "heading": "Every play credited to M.Jones (win probability added)",
+        "entries": [
+          {
+            "key": "2026_03_NE_JAX|486",
+            "badge": "-0.4% win prob.",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_03_NE_JAX|1134",
+            "badge": "+10.7% win prob.",
+            "tone": "good"
+          }
+        ]
+      }
+    ]
+  },
+  "scrimmagePlays": {
+    "offense": 60,
+    "defense": 59
+  }
+}

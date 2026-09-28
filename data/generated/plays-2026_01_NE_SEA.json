@@ -1,0 +1,909 @@
+{
+  "gameId": "2026_01_NE_SEA",
+  "plays": {
+    "2026_01_NE_SEA|2945": {
+      "key": "2026_01_NE_SEA|2945",
+      "week": 1,
+      "opponent": "SEA",
+      "quarter": 4,
+      "clock": "14:27",
+      "situation": "2nd & 9 at SEA 45",
+      "offense": "NE",
+      "description": "(14:27) 10-D.Maye pass deep left intended for 87-R.Doubs INTERCEPTED by 28-N.Pritchett (24-R.Thomas) at SEA 3. 28-N.Pritchett to SEA 33 for 30 yards (55-J.Wilson).",
+      "yards": 0,
+      "neEpa": -3.89244564413093
+    },
+    "2026_01_NE_SEA|3241": {
+      "key": "2026_01_NE_SEA|3241",
+      "week": 1,
+      "opponent": "SEA",
+      "quarter": 4,
+      "clock": "9:25",
+      "situation": "3rd & 14 at NE 22",
+      "offense": "NE",
+      "description": "(9:25) (Shotgun) 10-D.Maye pass deep middle intended for 3-D.Douglas INTERCEPTED by 20-J.Love at NE 47. 20-J.Love to NE 47 for no gain (3-D.Douglas).",
+      "yards": 0,
+      "neEpa": -1.91700228874106
+    },
+    "2026_01_NE_SEA|4006": {
+      "key": "2026_01_NE_SEA|4006",
+      "week": 1,
+      "opponent": "SEA",
+      "quarter": 4,
+      "clock": "0:26",
+      "situation": "3rd & 5 at SEA 16",
+      "offense": "NE",
+      "description": "(:26) (Shotgun) 10-D.Maye pass deep right intended for 13-M.Hollins INTERCEPTED by 29-J.Jobe [0-D.Lawrence] at SEA -3. Touchback.",
+      "yards": 0,
+      "neEpa": -2.66681623412296
+    },
+    "2026_01_NE_SEA|660": {
+      "key": "2026_01_NE_SEA|660",
+      "week": 1,
+      "opponent": "SEA",
+      "quarter": 1,
+      "clock": "3:24",
+      "situation": "1st & 10 at NE 32",
+      "offense": "NE",
+      "description": "(3:24) (Shotgun) 10-D.Maye pass short left to 1-A.Brown pushed ob at NE 39 for 7 yards (28-N.Pritchett).",
+      "yards": 7,
+      "neEpa": 0.330379623221234
+    },
+    "2026_01_NE_SEA|1046": {
+      "key": "2026_01_NE_SEA|1046",
+      "week": 1,
+      "opponent": "SEA",
+      "quarter": 2,
+      "clock": "11:08",
+      "situation": "3rd & 4 at SEA 49",
+      "offense": "NE",
+      "description": "(11:08) (Shotgun) 10-D.Maye pass short right to 1-A.Brown to SEA 44 for 5 yards (29-J.Jobe).",
+      "yards": 5,
+      "neEpa": 1.21092817746103
+    },
+    "2026_01_NE_SEA|1504": {
+      "key": "2026_01_NE_SEA|1504",
+      "week": 1,
+      "opponent": "SEA",
+      "quarter": 2,
+      "clock": "3:18",
+      "situation": "3rd & 3 at NE 15",
+      "offense": "NE",
+      "description": "(3:18) (Shotgun) 10-D.Maye pass short left to 1-A.Brown to NE 29 for 14 yards (28-N.Pritchett).",
+      "yards": 14,
+      "neEpa": 1.57226175477263
+    },
+    "2026_01_NE_SEA|2009": {
+      "key": "2026_01_NE_SEA|2009",
+      "week": 1,
+      "opponent": "SEA",
+      "quarter": 3,
+      "clock": "13:30",
+      "situation": "3rd & 4 at NE 48",
+      "offense": "NE",
+      "description": "(13:30) (Shotgun) 10-D.Maye pass incomplete short left to 1-A.Brown (28-N.Pritchett). NE-1-A.Brown was injured during the play.",
+      "yards": 0,
+      "neEpa": -1.86249101976864
+    },
+    "2026_01_NE_SEA|320": {
+      "key": "2026_01_NE_SEA|320",
+      "week": 1,
+      "opponent": "SEA",
+      "quarter": 1,
+      "clock": "9:14",
+      "situation": "3rd & 5 at NE 26",
+      "offense": "NE",
+      "description": "(9:14) (Shotgun) 10-D.Maye scrambles right end pushed ob at NE 27 for 1 yard (91-B.Murphy). PENALTY on SEA-58-D.Hall, Unnecessary Roughness, 15 yards, enforced at NE 27.",
+      "yards": 1,
+      "neEpa": 2.1500509204343
+    },
+    "2026_01_NE_SEA|407": {
+      "key": "2026_01_NE_SEA|407",
+      "week": 1,
+      "opponent": "SEA",
+      "quarter": 1,
+      "clock": "7:41",
+      "situation": "3rd & 7 at NE 45",
+      "offense": "NE",
+      "description": "(7:41) (Shotgun) 10-D.Maye pass incomplete short right [21-D.Witherspoon].",
+      "yards": 0,
+      "neEpa": -1.54113255278207
+    },
+    "2026_01_NE_SEA|712": {
+      "key": "2026_01_NE_SEA|712",
+      "week": 1,
+      "opponent": "SEA",
+      "quarter": 1,
+      "clock": "2:12",
+      "situation": "3rd & 1 at NE 41",
+      "offense": "NE",
+      "description": "(2:12) 38-R.Stevenson right guard to NE 40 for -1 yards (20-J.Love).",
+      "yards": -1,
+      "neEpa": -2.11557504395023
+    },
+    "2026_01_NE_SEA|942": {
+      "key": "2026_01_NE_SEA|942",
+      "week": 1,
+      "opponent": "SEA",
+      "quarter": 2,
+      "clock": "13:28",
+      "situation": "3rd & 4 at NE 29",
+      "offense": "NE",
+      "description": "(13:28) (Shotgun) 10-D.Maye pass short left to 3-D.Douglas ran ob at NE 34 for 5 yards.",
+      "yards": 5,
+      "neEpa": 1.16022339463234
+    },
+    "2026_01_NE_SEA|1636": {
+      "key": "2026_01_NE_SEA|1636",
+      "week": 1,
+      "opponent": "SEA",
+      "quarter": 2,
+      "clock": "1:03",
+      "situation": "3rd & 5 at SEA 49",
+      "offense": "NE",
+      "description": "(1:03) (Shotgun) 38-R.Stevenson left guard to SEA 47 for 2 yards (13-E.Jones; 99-L.Williams).",
+      "yards": 2,
+      "neEpa": -1.06506459962111
+    },
+    "2026_01_NE_SEA|2120": {
+      "key": "2026_01_NE_SEA|2120",
+      "week": 1,
+      "opponent": "SEA",
+      "quarter": 3,
+      "clock": "12:38",
+      "situation": "3rd & 10 at SEA 37",
+      "offense": "NE",
+      "description": "(12:38) (Shotgun) 10-D.Maye pass short right to 38-R.Stevenson to SEA 32 for 5 yards (20-J.Love; 21-D.Witherspoon).",
+      "yards": 5,
+      "neEpa": -0.68645065406419
+    },
+    "2026_01_NE_SEA|2406": {
+      "key": "2026_01_NE_SEA|2406",
+      "week": 1,
+      "opponent": "SEA",
+      "quarter": 3,
+      "clock": "8:11",
+      "situation": "3rd & 11 at NE 5",
+      "offense": "NE",
+      "description": "(8:11) (Shotgun) 10-D.Maye pass short middle to 38-R.Stevenson to NE 11 for 6 yards (13-E.Jones).",
+      "yards": 6,
+      "neEpa": -0.495809633750469
+    },
+    "2026_01_NE_SEA|2863": {
+      "key": "2026_01_NE_SEA|2863",
+      "week": 1,
+      "opponent": "SEA",
+      "quarter": 3,
+      "clock": "0:43",
+      "situation": "3rd & 8 at NE 46",
+      "offense": "NE",
+      "description": "(:43) (Shotgun) 10-D.Maye pass short right to 3-D.Douglas to SEA 46 for 8 yards (24-R.Thomas).",
+      "yards": 8,
+      "neEpa": 1.82441800227389
+    },
+    "2026_01_NE_SEA|3634": {
+      "key": "2026_01_NE_SEA|3634",
+      "week": 1,
+      "opponent": "SEA",
+      "quarter": 4,
+      "clock": "3:55",
+      "situation": "3rd & 2 at NE 35",
+      "offense": "NE",
+      "description": "(3:55) (Shotgun) 10-D.Maye pass incomplete short left to 87-R.Doubs.",
+      "yards": 0,
+      "neEpa": -1.32093957613688
+    },
+    "2026_01_NE_SEA|3785": {
+      "key": "2026_01_NE_SEA|3785",
+      "week": 1,
+      "opponent": "SEA",
+      "quarter": 4,
+      "clock": "2:10",
+      "situation": "3rd & 19 at NE 43",
+      "offense": "NE",
+      "description": "(2:10) (Shotgun) 10-D.Maye pass short left to 85-H.Henry to SEA 47 for 10 yards (13-E.Jones).",
+      "yards": 10,
+      "neEpa": -0.603564326069318
+    },
+    "2026_01_NE_SEA|3908": {
+      "key": "2026_01_NE_SEA|3908",
+      "week": 1,
+      "opponent": "SEA",
+      "quarter": 4,
+      "clock": "0:44",
+      "situation": "3rd & 1 at SEA 27",
+      "offense": "NE",
+      "description": "(:44) 70-G.Van Roten reported in as eligible. 10-D.Maye scrambles left end ran ob at SEA 21 for 6 yards (29-J.Jobe).",
+      "yards": 6,
+      "neEpa": 0.987571089877747
+    },
+    "2026_01_NE_SEA|180": {
+      "key": "2026_01_NE_SEA|180",
+      "week": 1,
+      "opponent": "SEA",
+      "quarter": 1,
+      "clock": "12:27",
+      "situation": "3rd & 6 at NE 46",
+      "offense": "SEA",
+      "description": "(12:27) (Shotgun) 14-S.Darnold sacked at SEA 49 for -5 yards (5-D.Jones). SEA-14-S.Darnold was injured during the play.",
+      "yards": -5,
+      "neEpa": 2.05167769873515
+    },
+    "2026_01_NE_SEA|557": {
+      "key": "2026_01_NE_SEA|557",
+      "week": 1,
+      "opponent": "SEA",
+      "quarter": 1,
+      "clock": "5:19",
+      "situation": "3rd & 2 at SEA 29",
+      "offense": "SEA",
+      "description": "(5:19) (Shotgun) 36-G.Holani right guard to SEA 30 for 1 yard (14-R.Spillane).",
+      "yards": 1,
+      "neEpa": 1.36344748083502
+    },
+    "2026_01_NE_SEA|855": {
+      "key": "2026_01_NE_SEA|855",
+      "week": 1,
+      "opponent": "SEA",
+      "quarter": 2,
+      "clock": "15:00",
+      "situation": "3rd & 5 at SEA 31",
+      "offense": "SEA",
+      "description": "(15:00) (Shotgun) 2-D.Lock pass incomplete deep left to 10-C.Kupp (0-C.Gonzalez).",
+      "yards": 0,
+      "neEpa": 1.39599607512355
+    },
+    "2026_01_NE_SEA|1370": {
+      "key": "2026_01_NE_SEA|1370",
+      "week": 1,
+      "opponent": "SEA",
+      "quarter": 2,
+      "clock": "5:39",
+      "situation": "3rd & 22 at SEA 33",
+      "offense": "SEA",
+      "description": "(5:39) (Shotgun) 2-D.Lock pass deep middle to 11-J.Smith-Njigba to NE 46 for 21 yards (4-C.Woodson).",
+      "yards": 21,
+      "neEpa": -1.10187805688474
+    },
+    "2026_01_NE_SEA|1755": {
+      "key": "2026_01_NE_SEA|1755",
+      "week": 1,
+      "opponent": "SEA",
+      "quarter": 2,
+      "clock": "0:39",
+      "situation": "3rd & 5 at SEA 12",
+      "offense": "SEA",
+      "description": "(:39) (Shotgun) 2-D.Lock pass short right to 11-J.Smith-Njigba to SEA 18 for 6 yards (53-C.Elliss).",
+      "yards": 6,
+      "neEpa": -0.368728844914585
+    },
+    "2026_01_NE_SEA|1859": {
+      "key": "2026_01_NE_SEA|1859",
+      "week": 1,
+      "opponent": "SEA",
+      "quarter": 2,
+      "clock": "0:17",
+      "situation": "3rd & 6 at SEA 22",
+      "offense": "SEA",
+      "description": "(:17) (Shotgun) 36-G.Holani left guard to SEA 26 for 4 yards (90-C.Barmore).",
+      "yards": 4,
+      "neEpa": 0.0417848749202676
+    },
+    "2026_01_NE_SEA|2307": {
+      "key": "2026_01_NE_SEA|2307",
+      "week": 1,
+      "opponent": "SEA",
+      "quarter": 3,
+      "clock": "10:18",
+      "situation": "3rd & 8 at SEA 44",
+      "offense": "SEA",
+      "description": "(10:18) (Shotgun) 2-D.Lock pass short middle to 22-R.Shaheed to SEA 48 for 4 yards (14-R.Spillane) [5-D.Jones].",
+      "yards": 4,
+      "neEpa": 1.06091902474873
+    },
+    "2026_01_NE_SEA|2550": {
+      "key": "2026_01_NE_SEA|2550",
+      "week": 1,
+      "opponent": "SEA",
+      "quarter": 3,
+      "clock": "5:36",
+      "situation": "3rd & 4 at NE 37",
+      "offense": "SEA",
+      "description": "(5:36) (Shotgun) 2-D.Lock pass deep right to 10-C.Kupp to NE 13 for 24 yards (25-M.Jones) [90-C.Barmore].",
+      "yards": 24,
+      "neEpa": -2.55324692372233
+    },
+    "2026_01_NE_SEA|2656": {
+      "key": "2026_01_NE_SEA|2656",
+      "week": 1,
+      "opponent": "SEA",
+      "quarter": 3,
+      "clock": "3:21",
+      "situation": "3rd & 9 at NE 12",
+      "offense": "SEA",
+      "description": "(3:21) (Shotgun) 2-D.Lock pass incomplete short left to 11-J.Smith-Njigba [5-D.Jones].",
+      "yards": 0,
+      "neEpa": 1.07759076844072
+    },
+    "2026_01_NE_SEA|3046": {
+      "key": "2026_01_NE_SEA|3046",
+      "week": 1,
+      "opponent": "SEA",
+      "quarter": 4,
+      "clock": "12:20",
+      "situation": "3rd & 1 at NE 45",
+      "offense": "SEA",
+      "description": "(12:20) 74-J.Jones reported in as eligible. 23-E.Wilson right guard to NE 45 for no gain (97-M.Williams).",
+      "yards": 0,
+      "neEpa": 1.58832101826556
+    },
+    "2026_01_NE_SEA|3483": {
+      "key": "2026_01_NE_SEA|3483",
+      "week": 1,
+      "opponent": "SEA",
+      "quarter": 4,
+      "clock": "5:56",
+      "situation": "3rd & 6 at NE 8",
+      "offense": "SEA",
+      "description": "(5:56) (Shotgun) 2-D.Lock pass incomplete short left to 11-J.Smith-Njigba.",
+      "yards": 0,
+      "neEpa": 1.04626090595221
+    },
+    "2026_01_NE_SEA|1152": {
+      "key": "2026_01_NE_SEA|1152",
+      "week": 1,
+      "opponent": "SEA",
+      "quarter": 2,
+      "clock": "9:14",
+      "situation": "1st & Goal at SEA 2",
+      "offense": "NE",
+      "description": "(9:14) 70-G.Van Roten reported in as eligible. 10-D.Maye pass short left to 82-E.Raridon for 2 yards, TOUCHDOWN.",
+      "yards": 2,
+      "neEpa": 0.840626145160059
+    },
+    "2026_01_NE_SEA|2575": {
+      "key": "2026_01_NE_SEA|2575",
+      "week": 1,
+      "opponent": "SEA",
+      "quarter": 3,
+      "clock": "4:50",
+      "situation": "1st & 10 at NE 13",
+      "offense": "SEA",
+      "description": "(4:50) (Shotgun) 36-G.Holani up the middle to NE 11 for 2 yards (97-M.Williams).",
+      "yards": 2,
+      "neEpa": 0.451220426766668
+    },
+    "2026_01_NE_SEA|2597": {
+      "key": "2026_01_NE_SEA|2597",
+      "week": 1,
+      "opponent": "SEA",
+      "quarter": 3,
+      "clock": "4:12",
+      "situation": "2nd & 8 at NE 11",
+      "offense": "SEA",
+      "description": "(4:12) (Shotgun) 36-G.Holani right end to NE 7 for 4 yards (50-G.Jacas).",
+      "yards": 4,
+      "neEpa": 0.192708835646044
+    },
+    "2026_01_NE_SEA|2619": {
+      "key": "2026_01_NE_SEA|2619",
+      "week": 1,
+      "opponent": "SEA",
+      "quarter": 3,
+      "clock": "3:25",
+      "situation": "3rd & 4 at NE 7",
+      "offense": "SEA",
+      "description": "(3:25) (Shotgun) 2-D.Lock pass short left to 10-C.Kupp for 7 yards, TOUCHDOWN NULLIFIED by Penalty. PENALTY on SEA, Illegal Shift, 5 yards, enforced at NE 7 - No Play.",
+      "yards": 0,
+      "neEpa": 0.613212257332634
+    },
+    "2026_01_NE_SEA|2679": {
+      "key": "2026_01_NE_SEA|2679",
+      "week": 1,
+      "opponent": "SEA",
+      "quarter": 3,
+      "clock": "3:16",
+      "situation": "4th & 9 at NE 12",
+      "offense": "SEA",
+      "description": "(3:16) 5-J.Myers 30 yard field goal is GOOD, Center-41-C.Stoll, Holder-4-M.Dickson.",
+      "yards": 0,
+      "neEpa": -0.167515787220184
+    },
+    "2026_01_NE_SEA|3385": {
+      "key": "2026_01_NE_SEA|3385",
+      "week": 1,
+      "opponent": "SEA",
+      "quarter": 4,
+      "clock": "6:42",
+      "situation": "1st & 10 at NE 12",
+      "offense": "SEA",
+      "description": "(6:42) PENALTY on SEA-75-A.Bradford, False Start, 5 yards, enforced at NE 12 - No Play.",
+      "yards": 0,
+      "neEpa": 0.66676557273604
+    },
+    "2026_01_NE_SEA|3409": {
+      "key": "2026_01_NE_SEA|3409",
+      "week": 1,
+      "opponent": "SEA",
+      "quarter": 4,
+      "clock": "6:42",
+      "situation": "1st & 15 at NE 17",
+      "offense": "SEA",
+      "description": "(6:42) 2-D.Lock scrambles left tackle pushed ob at NE 3 for 14 yards (25-M.Jones).",
+      "yards": 14,
+      "neEpa": -1.73395041114418
+    },
+    "2026_01_NE_SEA|3436": {
+      "key": "2026_01_NE_SEA|3436",
+      "week": 1,
+      "opponent": "SEA",
+      "quarter": 4,
+      "clock": "5:59",
+      "situation": "2nd & 1 at NE 3",
+      "offense": "SEA",
+      "description": "(5:59) PENALTY on SEA, Delay of Game, 5 yards, enforced at NE 3 - No Play.",
+      "yards": 0,
+      "neEpa": 1.16015914489981
+    },
+    "2026_01_NE_SEA|3460": {
+      "key": "2026_01_NE_SEA|3460",
+      "week": 1,
+      "opponent": "SEA",
+      "quarter": 4,
+      "clock": "5:59",
+      "situation": "2nd & 6 at NE 8",
+      "offense": "SEA",
+      "description": "(5:59) (Shotgun) 2-D.Lock pass incomplete short right to 11-J.Smith-Njigba (0-C.Gonzalez).",
+      "yards": 0,
+      "neEpa": 0.796233873697929
+    },
+    "2026_01_NE_SEA|3506": {
+      "key": "2026_01_NE_SEA|3506",
+      "week": 1,
+      "opponent": "SEA",
+      "quarter": 4,
+      "clock": "5:53",
+      "situation": "4th & 6 at NE 8",
+      "offense": "SEA",
+      "description": "(5:53) 5-J.Myers 26 yard field goal is GOOD, Center-41-C.Stoll, Holder-4-M.Dickson.",
+      "yards": 0,
+      "neEpa": -0.0800046506100505
+    },
+    "2026_01_NE_SEA|249": {
+      "key": "2026_01_NE_SEA|249",
+      "week": 1,
+      "opponent": "SEA",
+      "quarter": 1,
+      "clock": "11:07",
+      "situation": "2nd & 7 at NE 11",
+      "offense": "NE",
+      "description": "(11:07) 10-D.Maye scrambles up the middle to NE 21 for 10 yards (13-E.Jones; 21-D.Witherspoon).",
+      "yards": 10,
+      "neEpa": 1.06336008245125
+    },
+    "2026_01_NE_SEA|1551": {
+      "key": "2026_01_NE_SEA|1551",
+      "week": 1,
+      "opponent": "SEA",
+      "quarter": 2,
+      "clock": "2:00",
+      "situation": "2nd & 9 at NE 30",
+      "offense": "NE",
+      "description": "(2:00) (Shotgun) 10-D.Maye scrambles left tackle ran ob at NE 46 for 16 yards (13-E.Jones).",
+      "yards": 16,
+      "neEpa": 1.20853252557572
+    },
+    "2026_01_NE_SEA|2753": {
+      "key": "2026_01_NE_SEA|2753",
+      "week": 1,
+      "opponent": "SEA",
+      "quarter": 3,
+      "clock": "3:06",
+      "situation": "1st & 15 at NE 27",
+      "offense": "NE",
+      "description": "(3:06) 10-D.Maye pass short left to 38-R.Stevenson pushed ob at NE 44 for 17 yards (13-E.Jones).",
+      "yards": 17,
+      "neEpa": 1.47770877624862
+    },
+    "2026_01_NE_SEA|3609": {
+      "key": "2026_01_NE_SEA|3609",
+      "week": 1,
+      "opponent": "SEA",
+      "quarter": 4,
+      "clock": "4:41",
+      "situation": "2nd & 21 at NE 16",
+      "offense": "NE",
+      "description": "(4:41) (Shotgun) 10-D.Maye pass deep middle to 13-M.Hollins to NE 35 for 19 yards (24-R.Thomas).",
+      "yards": 19,
+      "neEpa": 1.45118588826153
+    },
+    "2026_01_NE_SEA|3684": {
+      "key": "2026_01_NE_SEA|3684",
+      "week": 1,
+      "opponent": "SEA",
+      "quarter": 4,
+      "clock": "3:42",
+      "situation": "1st & 10 at NE 40",
+      "offense": "NE",
+      "description": "(3:42) 38-R.Stevenson right guard to SEA 48 for 12 yards (21-D.Witherspoon; 24-R.Thomas).",
+      "yards": 12,
+      "neEpa": 0.815812118991744
+    },
+    "2026_01_NE_SEA|64": {
+      "key": "2026_01_NE_SEA|64",
+      "week": 1,
+      "opponent": "SEA",
+      "quarter": 1,
+      "clock": "14:55",
+      "situation": "1st & 10 at SEA 24",
+      "offense": "SEA",
+      "description": "(14:55) 8-J.Price right tackle to SEA 37 for 13 yards (31-K.Byard; 91-E.Ponder).",
+      "yards": 13,
+      "neEpa": -1.11155571811832
+    },
+    "2026_01_NE_SEA|761": {
+      "key": "2026_01_NE_SEA|761",
+      "week": 1,
+      "opponent": "SEA",
+      "quarter": 1,
+      "clock": "1:22",
+      "situation": "1st & 10 at SEA 14",
+      "offense": "SEA",
+      "description": "(1:22) 8-J.Price right end pushed ob at SEA 26 for 12 yards (0-C.Gonzalez). ** Injury Update: NE-7-C.Davis has returned to the game.",
+      "yards": 12,
+      "neEpa": -0.822044737637043
+    },
+    "2026_01_NE_SEA|3070": {
+      "key": "2026_01_NE_SEA|3070",
+      "week": 1,
+      "opponent": "SEA",
+      "quarter": 4,
+      "clock": "11:38",
+      "situation": "4th & 1 at NE 45",
+      "offense": "SEA",
+      "description": "(11:38) 2-D.Lock pass short left to 11-J.Smith-Njigba for 45 yards, TOUCHDOWN.",
+      "yards": 45,
+      "neEpa": -6.13608333515003
+    }
+  },
+  "lists": {
+    "turnovers": [
+      {
+        "heading": "New England turnovers (3)",
+        "entries": [
+          {
+            "key": "2026_01_NE_SEA|2945",
+            "badge": "Interception",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_01_NE_SEA|3241",
+            "badge": "Interception",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_01_NE_SEA|4006",
+            "badge": "Interception",
+            "tone": "bad"
+          }
+        ]
+      },
+      {
+        "heading": "Takeaways (0)",
+        "entries": []
+      }
+    ],
+    "thirdDown": [
+      {
+        "heading": "New England on third down — 5 of 16 converted",
+        "entries": [
+          {
+            "key": "2026_01_NE_SEA|320",
+            "badge": "Stopped",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_01_NE_SEA|407",
+            "badge": "Stopped",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_01_NE_SEA|712",
+            "badge": "Stopped",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_01_NE_SEA|942",
+            "badge": "Converted",
+            "tone": "good"
+          },
+          {
+            "key": "2026_01_NE_SEA|1046",
+            "badge": "Converted",
+            "tone": "good"
+          },
+          {
+            "key": "2026_01_NE_SEA|1504",
+            "badge": "Converted",
+            "tone": "good"
+          },
+          {
+            "key": "2026_01_NE_SEA|1636",
+            "badge": "Stopped",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_01_NE_SEA|2009",
+            "badge": "Stopped",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_01_NE_SEA|2120",
+            "badge": "Stopped",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_01_NE_SEA|2406",
+            "badge": "Stopped",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_01_NE_SEA|2863",
+            "badge": "Converted",
+            "tone": "good"
+          },
+          {
+            "key": "2026_01_NE_SEA|3241",
+            "badge": "Stopped",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_01_NE_SEA|3634",
+            "badge": "Stopped",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_01_NE_SEA|3785",
+            "badge": "Stopped",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_01_NE_SEA|3908",
+            "badge": "Converted",
+            "tone": "good"
+          },
+          {
+            "key": "2026_01_NE_SEA|4006",
+            "badge": "Stopped",
+            "tone": "bad"
+          }
+        ]
+      },
+      {
+        "heading": "SEA on third down — 2 of 11 converted",
+        "entries": [
+          {
+            "key": "2026_01_NE_SEA|180",
+            "badge": "Stopped",
+            "tone": "good"
+          },
+          {
+            "key": "2026_01_NE_SEA|557",
+            "badge": "Stopped",
+            "tone": "good"
+          },
+          {
+            "key": "2026_01_NE_SEA|855",
+            "badge": "Stopped",
+            "tone": "good"
+          },
+          {
+            "key": "2026_01_NE_SEA|1370",
+            "badge": "Stopped",
+            "tone": "good"
+          },
+          {
+            "key": "2026_01_NE_SEA|1755",
+            "badge": "Converted",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_01_NE_SEA|1859",
+            "badge": "Stopped",
+            "tone": "good"
+          },
+          {
+            "key": "2026_01_NE_SEA|2307",
+            "badge": "Stopped",
+            "tone": "good"
+          },
+          {
+            "key": "2026_01_NE_SEA|2550",
+            "badge": "Converted",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_01_NE_SEA|2656",
+            "badge": "Stopped",
+            "tone": "good"
+          },
+          {
+            "key": "2026_01_NE_SEA|3046",
+            "badge": "Stopped",
+            "tone": "good"
+          },
+          {
+            "key": "2026_01_NE_SEA|3483",
+            "badge": "Stopped",
+            "tone": "good"
+          }
+        ]
+      }
+    ],
+    "redZone": [
+      {
+        "heading": "New England red-zone trip 1 of 2 · Touchdown",
+        "entries": [
+          {
+            "key": "2026_01_NE_SEA|1152",
+            "badge": "Touchdown",
+            "tone": "good"
+          }
+        ]
+      },
+      {
+        "heading": "New England red-zone trip 2 of 2 · Turnover",
+        "entries": [
+          {
+            "key": "2026_01_NE_SEA|4006"
+          }
+        ]
+      },
+      {
+        "heading": "SEA red-zone trip 1 of 3 · Field goal",
+        "entries": [
+          {
+            "key": "2026_01_NE_SEA|2575"
+          },
+          {
+            "key": "2026_01_NE_SEA|2597"
+          },
+          {
+            "key": "2026_01_NE_SEA|2619"
+          },
+          {
+            "key": "2026_01_NE_SEA|2656"
+          },
+          {
+            "key": "2026_01_NE_SEA|2679"
+          }
+        ]
+      },
+      {
+        "heading": "SEA red-zone trip 2 of 3 · Touchdown",
+        "entries": []
+      },
+      {
+        "heading": "SEA red-zone trip 3 of 3 · Field goal",
+        "entries": [
+          {
+            "key": "2026_01_NE_SEA|3385"
+          },
+          {
+            "key": "2026_01_NE_SEA|3409"
+          },
+          {
+            "key": "2026_01_NE_SEA|3436"
+          },
+          {
+            "key": "2026_01_NE_SEA|3460"
+          },
+          {
+            "key": "2026_01_NE_SEA|3483"
+          },
+          {
+            "key": "2026_01_NE_SEA|3506"
+          }
+        ]
+      }
+    ],
+    "explosive": [
+      {
+        "heading": "New England explosive plays (5) — runs of 10+ and passes of 15+ yards",
+        "entries": [
+          {
+            "key": "2026_01_NE_SEA|249",
+            "badge": "10 yds",
+            "tone": "good"
+          },
+          {
+            "key": "2026_01_NE_SEA|1551",
+            "badge": "16 yds",
+            "tone": "good"
+          },
+          {
+            "key": "2026_01_NE_SEA|2753",
+            "badge": "17 yds",
+            "tone": "good"
+          },
+          {
+            "key": "2026_01_NE_SEA|3609",
+            "badge": "19 yds",
+            "tone": "good"
+          },
+          {
+            "key": "2026_01_NE_SEA|3684",
+            "badge": "12 yds",
+            "tone": "good"
+          }
+        ]
+      },
+      {
+        "heading": "SEA explosive plays (6) — runs of 10+ and passes of 15+ yards",
+        "entries": [
+          {
+            "key": "2026_01_NE_SEA|64",
+            "badge": "13 yds",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_01_NE_SEA|761",
+            "badge": "12 yds",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_01_NE_SEA|1370",
+            "badge": "21 yds",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_01_NE_SEA|2550",
+            "badge": "24 yds",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_01_NE_SEA|3070",
+            "badge": "45 yds",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_01_NE_SEA|3409",
+            "badge": "14 yds",
+            "tone": "bad"
+          }
+        ]
+      }
+    ],
+    "star": [
+      {
+        "heading": "Every play credited to A.Brown (win probability added)",
+        "entries": [
+          {
+            "key": "2026_01_NE_SEA|660",
+            "badge": "+0.1% win prob.",
+            "tone": "good"
+          },
+          {
+            "key": "2026_01_NE_SEA|1046",
+            "badge": "+3.9% win prob.",
+            "tone": "good"
+          },
+          {
+            "key": "2026_01_NE_SEA|1504",
+            "badge": "+4.5% win prob.",
+            "tone": "good"
+          },
+          {
+            "key": "2026_01_NE_SEA|2009",
+            "badge": "-2.7% win prob.",
+            "tone": "bad"
+          }
+        ]
+      }
+    ]
+  },
+  "scrimmagePlays": {
+    "offense": 67,
+    "defense": 47
+  }
+}
