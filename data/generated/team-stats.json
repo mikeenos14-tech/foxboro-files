@@ -16,7 +16,7 @@
   "epaPerPlayWindows": [
     {
       "key": "last-1-weeks",
-      "label": "Last Week",
+      "label": "Last Game",
       "offense": {
         "value": -0.27148722978462303,
         "leagueRank": 31,
