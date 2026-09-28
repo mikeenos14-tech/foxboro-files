@@ -4,7 +4,7 @@
 // reports it where it'll be seen — a GitHub issue, which emails the repo
 // owner by default:
 //   - stale sources or finished games without a recap (check-freshness.ts)
-//   - any stats or headlines run that failed in the last day
+//   - a stats or headlines job whose most recent run failed
 //   - the live site serving older data than the repo has (a failed deploy)
 //
 // One open issue at a time: opened when problems appear, commented on
@@ -33,9 +33,11 @@ async function github(pathname: string, init: RequestInit = {}): Promise<Respons
   });
 }
 
+// Only each job's latest finished run: a failure followed by a success is
+// already resolved, and reporting it would raise an alarm about something
+// fixed. Anything that stays broken also shows up as stale data above.
 async function failedRuns(): Promise<string[]> {
   if (!repo || !token) return ["Couldn't check recent runs (no GitHub token in this environment)"];
-  const since = Date.now() - 26 * 3_600_000;
   const problems: string[] = [];
   for (const wf of WORKFLOWS) {
     const res = await github(`/actions/workflows/${wf}/runs?per_page=20`);
@@ -46,9 +48,9 @@ async function failedRuns(): Promise<string[]> {
     const { workflow_runs } = (await res.json()) as {
       workflow_runs: Array<{ run_number: number; conclusion: string | null; created_at: string; html_url: string }>;
     };
-    for (const run of workflow_runs) {
-      if (new Date(run.created_at).getTime() < since) continue;
-      if (run.conclusion === "failure") problems.push(`${wf} run #${run.run_number} failed: ${run.html_url}`);
+    const latest = workflow_runs.find((run) => run.conclusion !== null);
+    if (latest?.conclusion === "failure") {
+      problems.push(`${wf}'s latest run (#${latest.run_number}) failed: ${latest.html_url}`);
     }
   }
   return problems;
