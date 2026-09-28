@@ -371,6 +371,7 @@ async function nextGameOpponent(): Promise<string | null> {
 // this week's injuries, healthy scratches and all. Anything set before
 // ~6am ET the morning after a team's last game belongs to that game.
 async function designationCutoff(team: string): Promise<number> {
+  const dayAfter = (gameday: string) => new Date(`${gameday}T10:00:00Z`).getTime() + 86400000;
   try {
     const games = await loadCsv<Record<string, string>>("games.csv");
     const lastPlayed = games
@@ -385,9 +386,21 @@ async function designationCutoff(team: string): Promise<number> {
       .sort()
       .pop();
     if (!lastPlayed) return 0;
-    return new Date(`${lastPlayed}T10:00:00Z`).getTime() + 86400000;
+    return dayAfter(lastPlayed);
   } catch {
-    return 0;
+    // No games.csv (a job that didn't fetch it): New England's own last
+    // game is the next-best cutoff. Returning 0 here would silently turn
+    // the filter off and bring last week's inactives back.
+    try {
+      const schedule = JSON.parse(
+        await readFile(path.join(GENERATED_DIR, "schedule.json"), "utf-8")
+      ) as Array<{ result?: string; date: string }>;
+      const last = schedule.filter((r) => r.result).map((r) => r.date).sort().pop();
+      console.warn(`games.csv unavailable — using New England's last game (${last}) as the injury cutoff for ${team}.`);
+      return last ? dayAfter(last) : 0;
+    } catch {
+      return 0;
+    }
   }
 }
 

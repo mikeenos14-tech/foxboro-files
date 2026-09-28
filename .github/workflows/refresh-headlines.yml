@@ -48,8 +48,10 @@ jobs:
         run: npx tsx scripts/fetch-news-sources.ts
         continue-on-error: true
 
+      # games.csv tells build-espn-data.ts when each team last played, so
+      # the ESPN injury fallback can drop designations from that game.
       - name: Fetch nflverse injury report (practice status, official designations)
-        run: npx tsx scripts/fetch-nflverse.ts injuries_2026.csv
+        run: npx tsx scripts/fetch-nflverse.ts injuries_2026.csv games.csv
         continue-on-error: true
 
       - name: Parse patriots.com's own practice report (freshest practice-status source)
