@@ -100,9 +100,9 @@
     }
   ],
   "weather": {
-    "tempF": 64,
-    "wind": "10 mph",
-    "precipitation": "21%",
+    "tempF": 57,
+    "wind": "11 mph",
+    "precipitation": "33%",
     "isDome": false
   },
   "bettingContext": {
@@ -110,5 +110,5 @@
     "overUnder": 48.5,
     "asOf": "2026-09-28"
   },
-  "previewTake": "Here's the thing about this matchup: we've got the widest statistical edge on the board this week, and it happens to be exactly where we need it. Our rush offense is grading in the 65th percentile against Buffalo's run defense, which sits at 6th — that's a chasm, and in a game where we're 7-point underdogs, controlling the line of scrimmage feels like the blueprint. The Bills' offense is genuinely elite (2nd in EPA efficiency), so we can't play a shoot-out, but their defense ranks 24th — there's real vulnerability there if we can sustain drives. The recent head-to-head splits are humbling (we're 2-3 in the last five), and Buffalo's been slightly sharper than us the last three weeks (0.14 EPA/play to our -0.11), but when you've got this kind of schematic advantage up front and a plus-7 line, you have to trust the film. This is a game we can win if we run the ball, stay patient, and let our one clear edge do the work."
+  "previewTake": "Here's the delicious irony of this week's matchup: Buffalo boasts the NFL's second-ranked offense and we're getting seven points, yet the most interesting battle on the field might be what happens in the trenches, where our rush offense—operating in the 65th percentile—faces the Bills' sixth-ranked run defense in what could be the most lopsided advantage we see all Sunday. The recent head-to-head record is a nervous one, alternating wins and losses like a coin flip across the last six games, though we did win both meetings in 2024. Buffalo's been the stronger team these past three weeks (posting +0.14 EPA per play against our -0.11), but if we can impose our will on the ground and limit their explosive passing game, we've got a real path to an upset in a game that feels very much in play. The line respects that—seven points is hardly a coronation—and with no major injuries reported on either side, it's simply a matter of execution."
 }
