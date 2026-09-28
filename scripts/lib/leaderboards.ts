@@ -24,6 +24,17 @@ export interface PlayerStatLine {
   sortValue: number;
 }
 
+// What counts as a target and a carry — shared with the "see the plays"
+// lists (build-roster-data.ts) so a player's list is exactly the plays
+// his board line counts.
+export function isTargetFor(r: PbpRow, team: string): boolean {
+  return r.posteam === team && bool01(r.pass_attempt) && !!receiverId(r);
+}
+
+export function isCarryFor(r: PbpRow, team: string): boolean {
+  return r.posteam === team && (r.play_type === "run" || r.play_type === "qb_kneel") && !!rusherId(r);
+}
+
 function describe(
   playerId: string,
   rosterByGsis: Map<string, RosterRow>,
@@ -93,7 +104,7 @@ export function receivingLeaders(
     }
   >();
   for (const r of pbp) {
-    if (r.posteam !== team || !bool01(r.pass_attempt) || !receiverId(r)) continue;
+    if (!isTargetFor(r, team)) continue;
     const cur = byPlayer.get(receiverId(r)) ?? {
       name: r.receiver || r.receiver_player_name || "",
       targets: 0,
@@ -163,8 +174,7 @@ export function rushingLeaders(
     // elsewhere. The analytical grades deliberately exclude them (see
     // lib/positionGrades.ts) — a kneel is a chosen loss of yardage, not
     // a failed run. Two different jobs, two different filters.
-    const isRush = r.play_type === "run" || r.play_type === "qb_kneel";
-    if (r.posteam !== team || !isRush || !rusherId(r)) continue;
+    if (!isCarryFor(r, team)) continue;
     const cur = byPlayer.get(rusherId(r)) ?? {
       name: r.rusher || r.rusher_player_name || "",
       att: 0,

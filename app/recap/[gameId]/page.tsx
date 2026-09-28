@@ -7,6 +7,7 @@ import { PlayerOfTheGameCard } from "@/components/recap/PlayerOfTheGameCard";
 import { WinProbabilityChart } from "@/components/shared/WinProbabilityChart";
 import { StatCard } from "@/components/shared/StatCard";
 import { FlagLink } from "@/components/shared/FlagLink";
+import { SeePlays } from "@/components/plays/SeePlays";
 import { formatPercent, opponentLabel, signed } from "@/lib/util/format";
 
 export async function generateMetadata({
@@ -34,6 +35,17 @@ export default async function RecapDetailPage({
   const { gameId } = await params;
   const recap = await store.getRecapByGameId(gameId);
   const game = await store.getPlayedGame(gameId);
+  const gamePlays = await store.getGamePlays(gameId);
+  // Wrap a card so tapping it lists the plays behind it; plain card if
+  // this game has no plays file.
+  const withPlays = (title: string, list: keyof NonNullable<typeof gamePlays>["lists"], card: React.ReactNode) =>
+    gamePlays ? (
+      <SeePlays title={title} groups={gamePlays.lists[list]} plays={gamePlays.plays}>
+        {card}
+      </SeePlays>
+    ) : (
+      card
+    );
 
   if (!recap || !game) {
     notFound();
@@ -72,27 +84,47 @@ export default async function RecapDetailPage({
               label="Defensive EPA/play"
               value={recap.epaPerPlay.defense.toFixed(2)}
             />
-            <StatCard
-              label="Turnover Margin"
-              value={signed(recap.turnoverMargin, 0)}
-            />
-            <StatCard
-              label="Explosive Play Rate (for/against)"
-              value={`${formatPercent(recap.explosivePlayRate.for)} / ${formatPercent(recap.explosivePlayRate.against)}`}
-            />
-            <StatCard
-              label="Red Zone (off/def)"
-              value={`${recap.redZone.offense.td}/${recap.redZone.offense.att} · ${recap.redZone.defense.td}/${recap.redZone.defense.att}`}
-            />
-            <StatCard
-              label="3rd Down (off/def)"
-              value={`${recap.thirdDown.offense.conv}/${recap.thirdDown.offense.att} · ${recap.thirdDown.defense.conv}/${recap.thirdDown.defense.att}`}
-            />
+            {withPlays(
+              "Turnovers",
+              "turnovers",
+              <StatCard
+                label="Turnover Margin"
+                value={signed(recap.turnoverMargin, 0)}
+              />
+            )}
+            {withPlays(
+              "Explosive plays",
+              "explosive",
+              <StatCard
+                label="Explosive Play Rate (for/against)"
+                value={`${formatPercent(recap.explosivePlayRate.for)} / ${formatPercent(recap.explosivePlayRate.against)}`}
+              />
+            )}
+            {withPlays(
+              "Red-zone trips",
+              "redZone",
+              <StatCard
+                label="Red Zone (off/def)"
+                value={`${recap.redZone.offense.td}/${recap.redZone.offense.att} · ${recap.redZone.defense.td}/${recap.redZone.defense.att}`}
+              />
+            )}
+            {withPlays(
+              "Third downs",
+              "thirdDown",
+              <StatCard
+                label="3rd Down (off/def)"
+                value={`${recap.thirdDown.offense.conv}/${recap.thirdDown.offense.att} · ${recap.thirdDown.defense.conv}/${recap.thirdDown.defense.att}`}
+              />
+            )}
           </div>
         </div>
 
         <div className="space-y-4">
-          <PlayerOfTheGameCard playerOfTheGame={recap.playerOfTheGame} />
+          {withPlays(
+            `${recap.playerOfTheGame.playerName}'s plays`,
+            "star",
+            <PlayerOfTheGameCard playerOfTheGame={recap.playerOfTheGame} />
+          )}
           <GoodBadUglySidebar goodBadUgly={recap.goodBadUgly} />
         </div>
       </div>

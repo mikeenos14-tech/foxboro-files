@@ -20,22 +20,26 @@ export interface DefensivePlayerLine {
   forcedFumbles: number;
   interceptions: number;
   passesDefended: number;
+  /** Every play that added to the counts above, for "see the plays". */
+  playKeys: string[];
 }
 
-type CountField = Exclude<keyof DefensivePlayerLine, "playerId" | "playerName">;
+type CountField = Exclude<keyof DefensivePlayerLine, "playerId" | "playerName" | "playKeys">;
 
 function bump(
   byPlayer: Map<string, DefensivePlayerLine>,
   playerId: string,
   playerName: string,
   field: CountField,
-  amount: number
+  amount: number,
+  playKey: string
 ) {
   if (!playerId) return;
   const line =
     byPlayer.get(playerId) ??
-    ({ playerId, playerName, sacks: 0, qbHits: 0, tfl: 0, forcedFumbles: 0, interceptions: 0, passesDefended: 0 } satisfies DefensivePlayerLine);
+    ({ playerId, playerName, sacks: 0, qbHits: 0, tfl: 0, forcedFumbles: 0, interceptions: 0, passesDefended: 0, playKeys: [] } satisfies DefensivePlayerLine);
   line[field] += amount;
+  if (!line.playKeys.includes(playKey)) line.playKeys.push(playKey);
   byPlayer.set(playerId, line);
 }
 
@@ -43,25 +47,26 @@ export function computeDefensivePlayerStats(rows: PbpRow[], team: string): Map<s
   const byPlayer = new Map<string, DefensivePlayerLine>();
   for (const r of rows) {
     if (r.defteam !== team) continue;
-    if (r.sack_player_id) bump(byPlayer, r.sack_player_id, r.sack_player_name, "sacks", 1);
-    if (r.half_sack_1_player_id) bump(byPlayer, r.half_sack_1_player_id, r.half_sack_1_player_name, "sacks", 0.5);
-    if (r.half_sack_2_player_id) bump(byPlayer, r.half_sack_2_player_id, r.half_sack_2_player_name, "sacks", 0.5);
-    if (r.qb_hit_1_player_id) bump(byPlayer, r.qb_hit_1_player_id, r.qb_hit_1_player_name, "qbHits", 1);
-    if (r.qb_hit_2_player_id) bump(byPlayer, r.qb_hit_2_player_id, r.qb_hit_2_player_name, "qbHits", 1);
-    if (r.tackle_for_loss_1_player_id) bump(byPlayer, r.tackle_for_loss_1_player_id, r.tackle_for_loss_1_player_name, "tfl", 1);
-    if (r.tackle_for_loss_2_player_id) bump(byPlayer, r.tackle_for_loss_2_player_id, r.tackle_for_loss_2_player_name, "tfl", 1);
+    const key = `${r.game_id}|${r.play_id}`;
+    if (r.sack_player_id) bump(byPlayer, r.sack_player_id, r.sack_player_name, "sacks", 1, key);
+    if (r.half_sack_1_player_id) bump(byPlayer, r.half_sack_1_player_id, r.half_sack_1_player_name, "sacks", 0.5, key);
+    if (r.half_sack_2_player_id) bump(byPlayer, r.half_sack_2_player_id, r.half_sack_2_player_name, "sacks", 0.5, key);
+    if (r.qb_hit_1_player_id) bump(byPlayer, r.qb_hit_1_player_id, r.qb_hit_1_player_name, "qbHits", 1, key);
+    if (r.qb_hit_2_player_id) bump(byPlayer, r.qb_hit_2_player_id, r.qb_hit_2_player_name, "qbHits", 1, key);
+    if (r.tackle_for_loss_1_player_id) bump(byPlayer, r.tackle_for_loss_1_player_id, r.tackle_for_loss_1_player_name, "tfl", 1, key);
+    if (r.tackle_for_loss_2_player_id) bump(byPlayer, r.tackle_for_loss_2_player_id, r.tackle_for_loss_2_player_name, "tfl", 1, key);
     // forced_fumble_player_N_team is the forcer's own team — checked
     // real data to confirm (not the fumbler's team), so this filter is
     // correct, not redundant with the defteam check above.
     if (r.forced_fumble_player_1_team === team && r.forced_fumble_player_1_player_id) {
-      bump(byPlayer, r.forced_fumble_player_1_player_id, r.forced_fumble_player_1_player_name, "forcedFumbles", 1);
+      bump(byPlayer, r.forced_fumble_player_1_player_id, r.forced_fumble_player_1_player_name, "forcedFumbles", 1, key);
     }
     if (r.forced_fumble_player_2_team === team && r.forced_fumble_player_2_player_id) {
-      bump(byPlayer, r.forced_fumble_player_2_player_id, r.forced_fumble_player_2_player_name, "forcedFumbles", 1);
+      bump(byPlayer, r.forced_fumble_player_2_player_id, r.forced_fumble_player_2_player_name, "forcedFumbles", 1, key);
     }
-    if (r.interception_player_id) bump(byPlayer, r.interception_player_id, r.interception_player_name, "interceptions", 1);
-    if (r.pass_defense_1_player_id) bump(byPlayer, r.pass_defense_1_player_id, r.pass_defense_1_player_name, "passesDefended", 1);
-    if (r.pass_defense_2_player_id) bump(byPlayer, r.pass_defense_2_player_id, r.pass_defense_2_player_name, "passesDefended", 1);
+    if (r.interception_player_id) bump(byPlayer, r.interception_player_id, r.interception_player_name, "interceptions", 1, key);
+    if (r.pass_defense_1_player_id) bump(byPlayer, r.pass_defense_1_player_id, r.pass_defense_1_player_name, "passesDefended", 1, key);
+    if (r.pass_defense_2_player_id) bump(byPlayer, r.pass_defense_2_player_id, r.pass_defense_2_player_name, "passesDefended", 1, key);
   }
   return byPlayer;
 }

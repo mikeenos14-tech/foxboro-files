@@ -21,8 +21,15 @@ import {
   penaltyStats,
   mostPenalizedPlayer,
   loadRegularSeasonPbp,
+  thirdDownPlays,
+  redZoneTrips,
+  turnoverPlays,
+  explosivePlays,
+  playKey,
+  type PbpRow,
   type StarRole,
 } from "./lib/pbp";
+import { PlayCollector } from "./lib/playRecords";
 import {
   computeLeagueEpaTable,
   computeAdjustedEpa,
@@ -44,12 +51,110 @@ import { simpleWinProb, blendedWinProb } from "./lib/winProbability";
 import type {
   Game,
   GameRecap,
+  GamePlays,
+  PlayGroup,
   ScheduleRow,
   TeamStatSnapshot,
 } from "../lib/data/types";
 import { signed } from "../lib/util/format";
 
 const TEAM = "NE";
+
+// The plays behind each clickable recap stat, from the same selectors
+// that count them (pbp.ts). verify-data.ts checks every list against its
+// number.
+const TURNOVER_BADGE = (r: PbpRow) => (bool01(r.interception) ? "Interception" : "Fumble lost");
+const DRIVE_RESULT: Record<string, string> = {
+  Touchdown: "Touchdown",
+  "Field goal": "Field goal",
+  "Missed field goal": "Missed field goal",
+  Turnover: "Turnover",
+  "Turnover on downs": "Turnover on downs",
+  "End of half": "End of half",
+  "Opp touchdown": "Defensive touchdown",
+};
+
+function buildGamePlays(
+  gameRows: PbpRow[],
+  opponent: string,
+  star: ReturnType<typeof starOfGame>
+): GamePlays {
+  const collect = new PlayCollector(TEAM);
+  const entry = (r: PbpRow, badge?: string, tone?: "good" | "bad") => ({ key: collect.add(r), badge, tone });
+
+  const { giveaways, takeaways } = turnoverPlays(gameRows, TEAM);
+  const turnovers: PlayGroup[] = [
+    { heading: `New England turnovers (${giveaways.length})`, entries: giveaways.map((r) => entry(r, TURNOVER_BADGE(r), "bad")) },
+    { heading: `Takeaways (${takeaways.length})`, entries: takeaways.map((r) => entry(r, TURNOVER_BADGE(r), "good")) },
+  ];
+
+  const third = (side: "posteam" | "defteam"): PlayGroup => {
+    const plays = thirdDownPlays(gameRows, TEAM, side);
+    const conv = plays.filter((r) => bool01(r.third_down_converted)).length;
+    const us = side === "posteam";
+    return {
+      heading: `${us ? "New England" : opponent} on third down — ${conv} of ${plays.length} converted`,
+      entries: plays.map((r) =>
+        bool01(r.third_down_converted)
+          ? entry(r, "Converted", us ? "good" : "bad")
+          : entry(r, "Stopped", us ? "bad" : "good")
+      ),
+    };
+  };
+
+  const trips = (side: "posteam" | "defteam"): PlayGroup[] => {
+    const us = side === "posteam";
+    const all = redZoneTrips(gameRows, TEAM, side);
+    return all.map((t, i) => ({
+      heading: `${us ? "New England" : opponent} red-zone trip ${i + 1} of ${all.length} · ${DRIVE_RESULT[t.result] ?? t.result}`,
+      entries: t.plays.map((r) =>
+        bool01(r.touchdown) && r.td_team === r.posteam
+          ? entry(r, "Touchdown", us ? "good" : "bad")
+          : entry(r)
+      ),
+    }));
+  };
+
+  const explosive = (side: "posteam" | "defteam"): PlayGroup => {
+    const plays = explosivePlays(gameRows, TEAM, side);
+    const us = side === "posteam";
+    return {
+      heading: `${us ? "New England" : opponent} explosive plays (${plays.length}) — runs of 10+ and passes of 15+ yards`,
+      entries: plays.map((r) => entry(r, `${num(r.yards_gained)} yds`, us ? "good" : "bad")),
+    };
+  };
+
+  const byKey = new Map(gameRows.map((r) => [playKey(r), r]));
+  const starGroup: PlayGroup[] = star
+    ? [
+        {
+          heading: `Every play credited to ${star.playerName} (win probability added)`,
+          entries: star.plays
+            .filter((p) => byKey.has(p.key))
+            .map((p) => {
+              const pct = p.wpa * 100;
+              return entry(byKey.get(p.key)!, `${pct > 0 ? "+" : ""}${pct.toFixed(1)}% win prob.`, pct >= 0 ? "good" : "bad");
+            }),
+        },
+      ]
+    : [];
+
+  return {
+    gameId: gameRows[0]?.game_id ?? "",
+    plays: collect.plays,
+    lists: {
+      turnovers,
+      thirdDown: [third("posteam"), third("defteam")],
+      redZone: [...trips("posteam"), ...trips("defteam")],
+      explosive: [explosive("posteam"), explosive("defteam")],
+      star: starGroup,
+    },
+    scrimmagePlays: {
+      offense: offenseStats(gameRows, TEAM).plays,
+      defense: defenseStats(gameRows, TEAM).plays,
+    },
+  };
+}
 
 // How a player of the game earned it, for the card's one-line reason.
 const ROLE_PHRASE: Record<StarRole, string> = {
@@ -521,6 +626,10 @@ async function main() {
       scoring: { us: scoringSummary(gameRows, TEAM), them: scoringSummary(gameRows, opponent) },
     };
     recap.goodBadUgly = buildRecapBullets(recap, opponent);
+    await writeFile(
+      path.join(GENERATED_DIR, `plays-${lastRow.game_id}.json`),
+      JSON.stringify(buildGamePlays(gameRows, opponent, star), null, 2)
+    );
 
     // Preserve any AI-authored fields already on disk. This file is
     // rebuilt from scratch on every run, but fanTake/goodBadUgly are

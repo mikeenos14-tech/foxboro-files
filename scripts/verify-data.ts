@@ -16,7 +16,7 @@
 import { readFile } from "node:fs/promises";
 import path from "node:path";
 import { loadCsv } from "./lib/csv";
-import type { TeamLeaderboards } from "../lib/data/types";
+import type { GamePlays, GameRecap, LeaderPlays, TeamLeaderboards } from "../lib/data/types";
 
 const GENERATED_DIR = path.join(process.cwd(), "data", "generated");
 const GENERATED = GENERATED_DIR;
@@ -111,7 +111,107 @@ export async function verifyData(): Promise<string[]> {
   }
 
   failures.push(...(await checkAgainstOfficialStats()));
+  failures.push(...(await checkPlayLists()));
 
+  return failures;
+}
+
+// "See the plays": every list must match the number on the card it opens
+// from — the whole promise of the feature. They're built from the same
+// selectors, so this should never fire; it's here so a future change to
+// one side can't quietly break that.
+async function checkPlayLists(): Promise<string[]> {
+  const failures: string[] = [];
+  const index = (await readGenerated<string[]>("recap-index.json").catch(() => [])) as string[];
+  for (const gameId of index) {
+    const recap = await readGenerated<GameRecap>(`recap-${gameId}.json`);
+    const gp = await readGenerated<GamePlays>(`plays-${gameId}.json`).catch(() => null);
+    if (!gp) {
+      failures.push(`${gameId}: no plays file for its recap`);
+      continue;
+    }
+    const where = `${gameId} plays`;
+    for (const [name, groups] of Object.entries(gp.lists)) {
+      for (const g of groups) for (const e of g.entries) {
+        if (!gp.plays[e.key]) failures.push(`${where}: ${name} lists ${e.key}, which has no play record`);
+      }
+    }
+    const [off3, def3] = gp.lists.thirdDown;
+    const conv = (g: { entries: Array<{ badge?: string }> }) => g.entries.filter((e) => e.badge === "Converted").length;
+    if (off3.entries.length !== recap.thirdDown.offense.att || conv(off3) !== recap.thirdDown.offense.conv) {
+      failures.push(`${where}: third downs list ${conv(off3)}/${off3.entries.length}, card says ${recap.thirdDown.offense.conv}/${recap.thirdDown.offense.att}`);
+    }
+    if (def3.entries.length !== recap.thirdDown.defense.att || conv(def3) !== recap.thirdDown.defense.conv) {
+      failures.push(`${where}: opponent third downs list ${conv(def3)}/${def3.entries.length}, card says ${recap.thirdDown.defense.conv}/${recap.thirdDown.defense.att}`);
+    }
+    const trips = (who: "New England" | "other") =>
+      gp.lists.redZone.filter((g) => (who === "New England") === g.heading.startsWith("New England"));
+    for (const [who, card] of [["New England", recap.redZone.offense], ["other", recap.redZone.defense]] as const) {
+      const t = trips(who);
+      const tds = t.filter((g) => g.heading.endsWith("· Touchdown")).length;
+      if (t.length !== card.att || tds !== card.td) {
+        failures.push(`${where}: ${who} red-zone trips list ${tds}/${t.length}, card says ${card.td}/${card.att}`);
+      }
+    }
+    const [giveaways, takeaways] = gp.lists.turnovers;
+    if (takeaways.entries.length - giveaways.entries.length !== recap.turnoverMargin) {
+      failures.push(`${where}: turnovers list ${takeaways.entries.length} takeaways − ${giveaways.entries.length} giveaways, card says ${recap.turnoverMargin}`);
+    }
+    const [explFor, explAgainst] = gp.lists.explosive;
+    for (const [label, list, n, rate] of [
+      ["explosive for", explFor, gp.scrimmagePlays.offense, recap.explosivePlayRate.for],
+      ["explosive against", explAgainst, gp.scrimmagePlays.defense, recap.explosivePlayRate.against],
+    ] as const) {
+      if (n > 0 && Math.abs(list.entries.length / n - rate) > 1e-9) {
+        failures.push(`${where}: ${label} lists ${list.entries.length} of ${n} plays, card says ${(rate * 100).toFixed(1)}%`);
+      }
+    }
+    const star = gp.lists.star[0];
+    if (star) {
+      const sum = star.entries.reduce((s, e) => s + Number((e.badge ?? "0").replace(/[^-\d.]/g, "")), 0) / 100;
+      // Badges are rounded to 0.1%, so allow that much per play.
+      if (Math.abs(sum - recap.playerOfTheGame.wpa) > 0.0005 * star.entries.length + 1e-9) {
+        failures.push(`${where}: player of the game's plays add to ${(sum * 100).toFixed(1)}%, card says ${(recap.playerOfTheGame.wpa * 100).toFixed(1)}%`);
+      }
+    }
+  }
+
+  const lp = await readGenerated<LeaderPlays>("leader-plays.json").catch(() => null);
+  const boards = await readGenerated<TeamLeaderboards>("leaderboards.json");
+  if (!lp) return [...failures, "leader-plays.json is missing"];
+  const stat = (line: { stats: Array<{ label: string; value: string }> }, label: string) =>
+    line.stats.find((s) => s.label === label)?.value ?? "";
+  for (const line of boards.receiving) {
+    const g = lp.byPlayer[`receiving:${line.playerId}`];
+    const [rec, targets] = stat(line, "Rec").split("/").map(Number);
+    const catches = g?.entries.filter((e) => e.tone === "good").length ?? -1;
+    if (!g || g.entries.length !== targets || catches !== rec) {
+      failures.push(`leader plays: ${line.playerName} lists ${catches}/${g?.entries.length ?? 0}, board says ${rec}/${targets}`);
+    }
+  }
+  for (const line of boards.rushing) {
+    const g = lp.byPlayer[`rushing:${line.playerId}`];
+    if (!g || g.entries.length !== Number(stat(line, "Att"))) {
+      failures.push(`leader plays: ${line.playerName} lists ${g?.entries.length ?? 0} carries, board says ${stat(line, "Att")}`);
+    }
+  }
+  for (const line of boards.defense) {
+    const g = lp.byPlayer[`defense:${line.playerId}`];
+    const count = (tag: string) => g?.entries.filter((e) => (e.badge ?? "").split(" · ").includes(tag)).length ?? 0;
+    const listed: Record<string, number> = {
+      Sacks: count("Sack") + count("½ sack") / 2,
+      "QB Hits": count("QB hit"),
+      TFL: count("TFL"),
+      INT: count("INT"),
+      PBU: count("PBU"),
+      FF: count("FF"),
+    };
+    for (const [label, n] of Object.entries(listed)) {
+      if (Math.abs(n - Number(stat(line, label))) > 1e-9) {
+        failures.push(`leader plays: ${line.playerName} ${label} lists ${n}, board says ${stat(line, label)}`);
+      }
+    }
+  }
   return failures;
 }
 

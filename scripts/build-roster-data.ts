@@ -6,10 +6,11 @@
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { num, bool01 } from "./lib/csv";
-import { loadRegularSeasonPbp, type PbpRow } from "./lib/pbp";
+import { loadRegularSeasonPbp, playKey, type PbpRow } from "./lib/pbp";
 import { loadChartedGameIds, loadInterceptionWorthyKeys, loadPlayContext, type FtnPlayContext } from "./lib/ftn";
 import { computeDefensivePlayerStats, defensiveGroupStatLine } from "./lib/defensiveStats";
-import { receivingLeaders, rushingLeaders, defensiveLeaders } from "./lib/leaderboards";
+import { receivingLeaders, rushingLeaders, defensiveLeaders, isTargetFor, isCarryFor } from "./lib/leaderboards";
+import { PlayCollector } from "./lib/playRecords";
 import {
   loadTeamRoster,
   buildLeagueRosterByGsis,
@@ -44,6 +45,7 @@ import type {
   TeamLeaderboards,
   QBWindowStats,
   QbSituationalSplit,
+  LeaderPlays,
 } from "../lib/data/types";
 
 const TEAM = "NE";
@@ -370,6 +372,69 @@ function buildPositionGroupLeagueTable(
 }
 
 
+// ---------- "See the plays" for the Leaders tab ----------
+// Each board line's plays, selected with the same rules the line counts
+// with (isTargetFor / isCarryFor / the defensive counter's own play
+// list), so the list always matches the numbers beside it.
+function buildLeaderPlays(pbp: PbpRow[], boards: TeamLeaderboards): LeaderPlays {
+  const collect = new PlayCollector(TEAM);
+  const byPlayer: LeaderPlays["byPlayer"] = {};
+  const defense = computeDefensivePlayerStats(pbp, TEAM);
+  const byKey = new Map(pbp.map((r) => [playKey(r), r]));
+
+  for (const line of boards.receiving) {
+    const plays = pbp.filter((r) => isTargetFor(r, TEAM) && receiverId(r) === line.playerId);
+    byPlayer[`receiving:${line.playerId}`] = {
+      heading: `${line.playerName}: every target (${plays.length})`,
+      entries: plays.map((r) => {
+        const key = collect.add(r);
+        if (bool01(r.interception)) return { key, badge: "Intercepted", tone: "bad" as const };
+        if (!bool01(r.complete_pass)) return { key, badge: "Incomplete" };
+        return { key, badge: `${num(r.yards_gained)} yds${bool01(r.pass_touchdown) ? " · TD" : ""}`, tone: "good" as const };
+      }),
+    };
+  }
+  for (const line of boards.rushing) {
+    const plays = pbp.filter((r) => isCarryFor(r, TEAM) && rusherId(r) === line.playerId);
+    byPlayer[`rushing:${line.playerId}`] = {
+      heading: `${line.playerName}: every carry (${plays.length})`,
+      entries: plays.map((r) => {
+        const key = collect.add(r);
+        if (bool01(r.fumble_lost)) return { key, badge: "Fumble lost", tone: "bad" as const };
+        const yards = num(r.yards_gained);
+        return {
+          key,
+          badge: `${yards} yds${bool01(r.rush_touchdown) ? " · TD" : ""}`,
+          tone: yards > 0 ? ("good" as const) : yards < 0 ? ("bad" as const) : undefined,
+        };
+      }),
+    };
+  }
+  for (const line of boards.defense) {
+    const keys = defense.get(line.playerId)?.playKeys ?? [];
+    const id = line.playerId;
+    byPlayer[`defense:${id}`] = {
+      heading: `${line.playerName}: every play in these stats (${keys.length})`,
+      entries: keys
+        .filter((k) => byKey.has(k))
+        .map((k) => {
+          const r = byKey.get(k)!;
+          const did = [
+            r.sack_player_id === id && "Sack",
+            (r.half_sack_1_player_id === id || r.half_sack_2_player_id === id) && "½ sack",
+            (r.qb_hit_1_player_id === id || r.qb_hit_2_player_id === id) && "QB hit",
+            (r.tackle_for_loss_1_player_id === id || r.tackle_for_loss_2_player_id === id) && "TFL",
+            r.interception_player_id === id && "INT",
+            (r.pass_defense_1_player_id === id || r.pass_defense_2_player_id === id) && "PBU",
+            (r.forced_fumble_player_1_player_id === id || r.forced_fumble_player_2_player_id === id) && "FF",
+          ].filter(Boolean);
+          return { key: collect.add(r), badge: did.join(" · "), tone: "good" as const };
+        }),
+    };
+  }
+  return { plays: collect.plays, byPlayer };
+}
+
 // ---------- QB deep dive ----------
 
 // Pure stat computation given an already-filtered set of one passer's
@@ -646,6 +711,10 @@ async function main() {
   await writeFile(
     path.join(GENERATED_DIR, "leaderboards.json"),
     JSON.stringify(leaderboards, null, 2)
+  );
+  await writeFile(
+    path.join(GENERATED_DIR, "leader-plays.json"),
+    JSON.stringify(buildLeaderPlays(pbp, leaderboards), null, 2)
   );
   console.log(
     `Wrote leaderboards.json (${leaderboards.receiving.length} receivers, ${leaderboards.rushing.length} rushers, ${leaderboards.defense.length} defenders)`

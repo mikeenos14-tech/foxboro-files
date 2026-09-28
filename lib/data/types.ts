@@ -485,3 +485,46 @@ export interface DepthChartEntry {
     headshotUrl?: string;
   }>;
 }
+
+// ---------- "See the plays" ----------
+// Every clickable stat opens the exact plays behind it. Built in the data
+// step from the same selectors that count the stat, and checked by
+// verify-data.ts, so a list always matches its number.
+export interface PlayRecord {
+  key: string; // "2026_03_NE_JAX|1234"
+  week: number;
+  opponent: string;
+  quarter: number;
+  clock: string; // "4:17"
+  situation: string; // "3rd & 7 at PIT 34"; "" for kicks
+  offense: string;
+  description: string; // nflverse's own play text
+  yards: number;
+  /** EPA from New England's side — positive is good for New England. */
+  neEpa: number | null;
+}
+
+export interface PlayGroup {
+  heading: string;
+  entries: Array<{ key: string; badge?: string; tone?: "good" | "bad" }>;
+}
+
+export interface GamePlays {
+  gameId: string;
+  plays: Record<string, PlayRecord>;
+  lists: {
+    turnovers: PlayGroup[];
+    thirdDown: PlayGroup[];
+    redZone: PlayGroup[];
+    explosive: PlayGroup[];
+    star: PlayGroup[];
+  };
+  /** Scrimmage plays per side, the explosive-rate denominators. */
+  scrimmagePlays: { offense: number; defense: number };
+}
+
+export interface LeaderPlays {
+  plays: Record<string, PlayRecord>;
+  /** Keyed "receiving:<playerId>", "rushing:<playerId>", "defense:<playerId>". */
+  byPlayer: Record<string, PlayGroup>;
+}

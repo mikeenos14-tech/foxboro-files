@@ -14,6 +14,8 @@ import type {
   DivisionStanding,
   Game,
   GameRecap,
+  GamePlays,
+  LeaderPlays,
   InjuryReportEntry,
   LeagueDivisionGroup,
   LeagueEpaRanking,
@@ -112,6 +114,15 @@ export async function getAllRecaps(): Promise<
     if (real.length > 0) return real.reverse();
   }
   return [{ game: fixtures.lastGame, recap: fixtures.lastGameRecap }];
+}
+
+// "See the plays" data (see PlayRecord in types.ts).
+export async function getGamePlays(gameId: string): Promise<GamePlays | null> {
+  return readGenerated<GamePlays>(`plays-${gameId}.json`);
+}
+
+export async function getLeaderPlays(): Promise<LeaderPlays | null> {
+  return readGenerated<LeaderPlays>("leader-plays.json");
 }
 
 export async function getTeamStats(): Promise<TeamStatSnapshot> {

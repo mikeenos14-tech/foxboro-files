@@ -7,6 +7,11 @@ import { passerId, receiverId, rusherId } from "./playerIds";
 
 export type PbpRow = Record<string, string>;
 
+/** A play's id across the whole season: "2026_03_NE_JAX|1234". */
+export function playKey(r: PbpRow): string {
+  return `${r.game_id}|${r.play_id}`;
+}
+
 // Regular-season plays only. nflverse's season file gains the playoffs in
 // January, and every season total and league rank here would quietly start
 // counting extra games for the eight or so teams still playing — exactly
@@ -22,7 +27,7 @@ function isScrimmage(row: PbpRow): boolean {
   return SCRIMMAGE_TYPES.has(row.play_type);
 }
 
-function isExplosive(row: PbpRow): boolean {
+export function isExplosive(row: PbpRow): boolean {
   const yards = num(row.yards_gained);
   if (row.play_type === "run") return yards >= 10;
   if (row.play_type === "pass") return yards >= 15;
@@ -151,23 +156,36 @@ export function successByDown(
   return result;
 }
 
+// Each recap number is counted from a selector that returns its plays,
+// and the "see the plays" lists are built from the same selectors — so
+// a card reading "4/12" always opens a list of exactly those 12 plays.
+export function thirdDownPlays(rows: PbpRow[], team: string, side: "posteam" | "defteam"): PbpRow[] {
+  return rows.filter((r) => r[side] === team && num(r.down) === 3 && isScrimmage(r));
+}
+
 export function thirdDown(
   rows: PbpRow[],
   team: string,
   side: "posteam" | "defteam"
 ): { att: number; conv: number } {
-  const plays = rows.filter(
-    (r) => r[side] === team && num(r.down) === 3 && isScrimmage(r)
-  );
+  const plays = thirdDownPlays(rows, team, side);
   const conv = plays.filter((r) => bool01(r.third_down_converted)).length;
   return { att: plays.length, conv };
 }
 
-export function redZone(
-  rows: PbpRow[],
-  team: string,
-  side: "posteam" | "defteam"
-): { att: number; td: number } {
+export function explosivePlays(rows: PbpRow[], team: string, side: "posteam" | "defteam"): PbpRow[] {
+  return rows.filter((r) => r[side] === team && isScrimmage(r) && isExplosive(r));
+}
+
+export interface RedZoneTrip {
+  drive: string;
+  touchdown: boolean;
+  result: string;
+  /** The drive's plays from the 20 in. */
+  plays: PbpRow[];
+}
+
+export function redZoneTrips(rows: PbpRow[], team: string, side: "posteam" | "defteam"): RedZoneTrip[] {
   const byDrive = new Map<string, PbpRow[]>();
   for (const r of rows) {
     if (r[side] !== team) continue;
@@ -175,27 +193,41 @@ export function redZone(
     if (!byDrive.has(key)) byDrive.set(key, []);
     byDrive.get(key)!.push(r);
   }
-  let att = 0;
-  let td = 0;
-  for (const plays of byDrive.values()) {
-    const reachedRedZone = plays.some((r) => num(r.yardline_100, 100) <= 20);
-    if (!reachedRedZone) continue;
-    att++;
-    if (plays[0]?.fixed_drive_result === "Touchdown") td++;
+  const trips: RedZoneTrip[] = [];
+  for (const [key, plays] of byDrive) {
+    if (!plays.some((r) => num(r.yardline_100, 100) <= 20)) continue;
+    trips.push({
+      drive: key.split("|")[1],
+      touchdown: plays[0]?.fixed_drive_result === "Touchdown",
+      result: plays[0]?.fixed_drive_result || "",
+      plays: plays.filter(
+        (r) => num(r.yardline_100, 100) <= 20 && r.play_type !== "extra_point" && r.play_type !== "kickoff" && !!r.desc
+      ),
+    });
   }
-  return { att, td };
+  return trips;
+}
+
+export function redZone(
+  rows: PbpRow[],
+  team: string,
+  side: "posteam" | "defteam"
+): { att: number; td: number } {
+  const trips = redZoneTrips(rows, team, side);
+  return { att: trips.length, td: trips.filter((t) => t.touchdown).length };
+}
+
+export function turnoverPlays(rows: PbpRow[], team: string): { giveaways: PbpRow[]; takeaways: PbpRow[] } {
+  const turnovers = rows.filter((r) => bool01(r.interception) || bool01(r.fumble_lost));
+  return {
+    giveaways: turnovers.filter((r) => r.posteam === team),
+    takeaways: turnovers.filter((r) => r.defteam === team),
+  };
 }
 
 export function turnoverMargin(rows: PbpRow[], team: string): number {
-  let takeaways = 0;
-  let giveaways = 0;
-  for (const r of rows) {
-    const turnover = bool01(r.interception) || bool01(r.fumble_lost);
-    if (!turnover) continue;
-    if (r.defteam === team) takeaways++;
-    if (r.posteam === team) giveaways++;
-  }
-  return takeaways - giveaways;
+  const { giveaways, takeaways } = turnoverPlays(rows, team);
+  return takeaways.length - giveaways.length;
 }
 
 export function winProbabilityTimeline(
@@ -256,22 +288,35 @@ export type StarRole = "passing" | "rushing" | "receiving" | "defense" | "kickin
 export function starOfGame(
   rows: PbpRow[],
   team: string
-): { playerId: string; playerName: string; wpa: number; role: StarRole } | null {
-  const totals = new Map<string, { name: string; wpa: number; byRole: Map<StarRole, number> }>();
+): {
+  playerId: string;
+  playerName: string;
+  wpa: number;
+  role: StarRole;
+  /** Every play he was credited on and how much — they sum to wpa. */
+  plays: Array<{ key: string; wpa: number }>;
+} | null {
+  const totals = new Map<
+    string,
+    { name: string; wpa: number; byRole: Map<StarRole, number>; plays: Array<{ key: string; wpa: number }> }
+  >();
+  let currentKey = "";
   // At most once per player per play: a strip-sack names the same
   // defender as sacker and fumble-forcer, and was counted twice.
   let creditedThisPlay = new Set<string>();
   const credit = (id: string | undefined, name: string | undefined, wpa: number, role: StarRole) => {
     if (!id || id === "NA" || creditedThisPlay.has(id)) return;
     creditedThisPlay.add(id);
-    const cur = totals.get(id) ?? { name: name || "", wpa: 0, byRole: new Map() };
+    const cur = totals.get(id) ?? { name: name || "", wpa: 0, byRole: new Map<StarRole, number>(), plays: [] as Array<{ key: string; wpa: number }> };
     cur.wpa += wpa;
+    cur.plays.push({ key: currentKey, wpa });
     cur.byRole.set(role, (cur.byRole.get(role) ?? 0) + wpa);
     totals.set(id, cur);
   };
 
   for (const r of rows) {
     creditedThisPlay = new Set();
+    currentKey = playKey(r);
     if (r.wpa === "" || r.wpa === "NA") continue;
     const ours = r.posteam === team ? num(r.wpa) : r.defteam === team ? -num(r.wpa) : 0;
     if (ours === 0) continue;
@@ -306,11 +351,11 @@ export function starOfGame(
     }
   }
 
-  let best: { playerId: string; playerName: string; wpa: number; role: StarRole } | null = null;
-  for (const [playerId, { name, wpa, byRole }] of totals) {
+  let best: ReturnType<typeof starOfGame> = null;
+  for (const [playerId, { name, wpa, byRole, plays }] of totals) {
     if (!best || wpa > best.wpa) {
       const role = [...byRole.entries()].sort((a, b) => b[1] - a[1])[0][0];
-      best = { playerId, playerName: name, wpa, role };
+      best = { playerId, playerName: name, wpa, role, plays };
     }
   }
   return best;
