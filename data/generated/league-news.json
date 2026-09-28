@@ -1,7 +1,16 @@
 [
   {
+    "id": "50049787",
+    "publishedAt": "2026-09-28T05:40:31Z",
+    "type": "Analysis",
+    "headline": "Broncos erase 16-point deficit, take down Rams 30-26 in a thriller",
+    "summary": "Broncos erase 16-point deficit, take down Rams 30-26 in a thriller",
+    "sourceUrl": "https://www.espn.com/video/clip/_/id/50049787/broncos-erase-16-point-deficit-take-rams-30-26-thriller",
+    "sourceName": "ESPN"
+  },
+  {
     "id": "50049488",
-    "publishedAt": "2026-09-28T02:58:55Z",
+    "publishedAt": "2026-09-28T03:12:16Z",
     "type": "Analysis",
     "headline": "Ravens stun Cowboys in final seconds as Loop gains redemption",
     "summary": "Lamar Jackson, Tyler Loop and the Ravens delivered one of the most remarkable last-second victories in recent NFL history Sunday, thanks to a late fourth-quarter decision made by the Cowboys.",
@@ -10,12 +19,30 @@
   },
   {
     "id": "50049442",
-    "publishedAt": "2026-09-28T03:06:47Z",
+    "publishedAt": "2026-09-28T04:50:14Z",
     "type": "Analysis",
     "headline": "Raiders' Brock Bowers shines in return from knee procedure",
     "summary": "Brock Bowers showed no rust in his regular-season debut Sunday after undergoing a meniscus procedure, finishing with 10 catches for 116 yards and a TD.",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/50049442/raiders-brock-bowers-shines-return-knee-procedure",
     "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=421022",
+    "publishedAt": "2026-09-28T04:05:53.000Z",
+    "type": "Analysis",
+    "headline": "Cowboys, Lions Among Teams To Inquire On Steelers CB Joey Porter Jr.",
+    "summary": "Recently named as a team to watch as a possible landing spot for Steelers CB Joey Porter Jr., the Lions have inquired on his availability, per ESPN’s Adam Schefter. The Cowboys, who were speculatively connected to a possible Porter pursuit, are also among the clubs to make an inquiry. Possibly the most-discussed player in the […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/09/cowboys-lions-among-teams-to-inquire-on-steelers-cb-joey-porter-jr",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=421099",
+    "publishedAt": "2026-09-28T03:51:56.000Z",
+    "type": "Injury",
+    "headline": "Buccaneers QB Baker Mayfield Suffers Dislocated Thumb",
+    "summary": "After today’s loss to the Vikings, Buccaneers head coach Todd Bowles told the media that quarterback Baker Mayfield suffered a dislocated thumb on his throwing hand, per Greg Auman of FOX Sports. Mayfield will have an MRI scan performed tomorrow, but the veteran passer is expected to miss time as a result of the injury. […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/09/buccaneers-qb-baker-mayfield-suffers-dislocated-thumb",
+    "sourceName": "Pro Football Rumors"
   },
   {
     "id": "50048293",
@@ -25,32 +52,5 @@
     "summary": "— It took the Las Vegas Raiders an entire season to accumulate three victories in 2025.",
     "sourceUrl": "http://www.espn.com/nfl/recap?gameId=401872961",
     "sourceName": "ESPN"
-  },
-  {
-    "id": "50049529",
-    "publishedAt": "2026-09-28T03:06:10Z",
-    "type": "Analysis",
-    "headline": "Saints again on losing end of controversial fumble ruling",
-    "summary": "The Saints walked away from Sunday's loss to the Raiders just as confused about the application of the quarterback fumble rules as they were in Week 1.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50049529/saints-again-losing-end-controversial-fumble-ruling",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50047972",
-    "publishedAt": "2026-09-28T00:09:12Z",
-    "type": "Analysis",
-    "headline": "Bucs QB Baker Mayfield has dislocated thumb, will undergo MRI",
-    "summary": "Buccaneers quarterback Baker Mayfield suffered a dislocated right thumb in the fourth quarter of Sunday's 23-16 loss to the Vikings, coach Todd Bowles said.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50047972/bucs-qb-baker-mayfield-dislocated-thumb-undergo-mri",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=421108",
-    "publishedAt": "2026-09-28T03:04:01.000Z",
-    "type": "Injury",
-    "headline": "NFL Injury Rumors: Collins, Simmons, Stevenson",
-    "summary": "Texans wide receiver Nico Collins was ruled out of today’s game for the second straight week due to a hamstring injury. According to ESPN’s Adam Schefter, though, Collins “has a decent chance” to make his return to the field in Week 4. Collins was diagnosed with a Grade 1 hamstring strain, per Aasron Wilson of […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/09/nfl-injury-rumors-collins-simmons-stevenson",
-    "sourceName": "Pro Football Rumors"
   }
 ]
