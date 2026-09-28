@@ -1,102 +1,92 @@
 [
   {
-    "playerId": "00-0031054",
-    "playerName": "DaQuan Jones",
-    "position": "DT",
-    "week": 3,
-    "injury": "Not injury related - personal matter",
-    "practiceStatus": "Full",
-    "gameStatus": null,
-    "lastUpdated": "2026-09-27T21:06:46.931Z"
-  },
-  {
-    "playerId": "00-0031330",
-    "playerName": "Morgan Moses",
-    "position": "T",
-    "week": 3,
-    "injury": "Foot",
-    "practiceStatus": "Limited",
-    "gameStatus": null,
-    "lastUpdated": "2026-09-27T21:06:46.931Z"
-  },
-  {
-    "playerId": "00-0034778",
-    "playerName": "Carlton Davis III",
-    "position": "CB",
-    "week": 3,
-    "injury": "Neck",
-    "practiceStatus": "Full",
-    "gameStatus": null,
-    "lastUpdated": "2026-09-27T21:06:46.931Z"
-  },
-  {
-    "playerId": "00-0035678",
-    "playerName": "Dre'Mont Jones",
-    "position": "LB",
-    "week": 3,
-    "injury": "Shoulder",
-    "practiceStatus": "Did Not Participate",
-    "gameStatus": "Out",
-    "lastUpdated": "2026-09-25T20:05:33.307Z"
-  },
-  {
-    "playerId": "00-0036187",
-    "playerName": "Reggie Gilliam",
-    "position": "FB",
-    "week": 3,
-    "injury": "Knee",
-    "practiceStatus": "Limited",
-    "gameStatus": null,
-    "lastUpdated": "2026-09-27T21:06:46.931Z"
-  },
-  {
-    "playerId": "00-0037205",
-    "playerName": "Brenden Schooler",
-    "position": "S",
-    "week": 3,
-    "injury": "Back",
-    "practiceStatus": "Limited",
-    "gameStatus": "Out",
-    "lastUpdated": "2026-09-27T21:06:46.931Z"
-  },
-  {
-    "playerId": "00-0040716",
-    "playerName": "Craig Woodson",
-    "position": "S",
-    "week": 3,
-    "injury": "Shoulder",
-    "practiceStatus": "Limited",
-    "gameStatus": "Questionable",
-    "lastUpdated": "2026-09-25T20:05:33.307Z"
-  },
-  {
-    "playerId": "00-0041103",
+    "playerId": "4431526",
     "playerName": "Dametrious Crownover",
-    "position": "T",
-    "week": 3,
-    "injury": "Knee",
-    "practiceStatus": "Full",
-    "gameStatus": null,
-    "lastUpdated": "2026-09-27T21:06:46.931Z"
+    "position": "OT",
+    "week": 4,
+    "injury": "Coach's Decision",
+    "gameStatus": "Out",
+    "lastUpdated": "2026-09-27T15:33Z"
   },
   {
-    "playerId": "00-0041395",
+    "playerId": "4431465",
+    "playerName": "Behren Morton",
+    "position": "QB",
+    "week": 4,
+    "injury": "Coach's Decision",
+    "gameStatus": "Out",
+    "lastUpdated": "2026-09-27T16:35Z"
+  },
+  {
+    "playerId": "4831959",
     "playerName": "Eli Raridon",
     "position": "TE",
-    "week": 3,
+    "week": 4,
     "injury": "Thigh",
-    "practiceStatus": "Did Not Participate",
-    "gameStatus": "Questionable",
-    "lastUpdated": "2026-09-25T20:05:33.307Z"
+    "gameStatus": "Out",
+    "lastUpdated": "2026-09-27T15:40Z"
   },
   {
-    "playerId": "00-0041402",
-    "playerName": "Quintayvious Hutchins",
-    "position": "LB",
-    "week": 3,
-    "injury": "Knee",
-    "practiceStatus": "Did Not Participate",
+    "playerId": "15718",
+    "playerName": "Greg Van Roten",
+    "position": "G",
+    "week": 4,
+    "injury": "Thigh",
+    "gameStatus": "Questionable",
+    "lastUpdated": "2026-09-27T18:11Z"
+  },
+  {
+    "playerId": "4372030",
+    "playerName": "Christian Barmore",
+    "position": "DT",
+    "week": 4,
+    "injury": "Shoulder",
+    "gameStatus": "Questionable",
+    "lastUpdated": "2026-09-27T18:02Z"
+  },
+  {
+    "playerId": "3915525",
+    "playerName": "Dre'Mont Jones",
+    "position": "DE",
+    "week": 4,
+    "injury": "Shoulder",
     "gameStatus": "Out",
-    "lastUpdated": "2026-09-25T20:05:33.307Z"
+    "lastUpdated": "2026-09-27T15:33Z"
+  },
+  {
+    "playerId": "4431598",
+    "playerName": "Leonard Taylor III",
+    "position": "DT",
+    "week": 4,
+    "injury": "Coach's Decision",
+    "gameStatus": "Out",
+    "lastUpdated": "2026-09-27T15:33Z"
+  },
+  {
+    "playerId": "4428930",
+    "playerName": "Craig Woodson",
+    "position": "S",
+    "week": 4,
+    "injury": "Shoulder",
+    "gameStatus": "Out",
+    "lastUpdated": "2026-09-27T15:42Z"
+  },
+  {
+    "playerId": "3122793",
+    "playerName": "Harold Landry III",
+    "position": "LB",
+    "week": 4,
+    "injury": "Undisclosed",
+    "gameStatus": "Out",
+    "lastUpdated": "2026-08-31T18:30Z"
+  },
+  {
+    "playerId": "4047941",
+    "playerName": "Brenden Schooler",
+    "position": "S",
+    "week": 4,
+    "injury": "Back",
+    "gameStatus": "Out",
+    "lastUpdated": "2026-09-24T01:02Z"
   }
 ]
