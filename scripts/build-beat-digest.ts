@@ -9,6 +9,7 @@ import { readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { generateChecked, generateText } from "./lib/claude";
 import { checkGrounding } from "./lib/aiChecks";
+import { recordAiOutcome } from "./lib/aiDiagnostics";
 import type { BeatDigest, NewsItem } from "../lib/data/types";
 
 const GENERATED_DIR = path.join(process.cwd(), "data", "generated");
@@ -38,13 +39,14 @@ Write the digest paragraph now.`;
   // The digest once called Drake Maye "the second-year quarterback" (he
   // was in his third season) — facts from the model's memory, not the
   // headlines. Same checks as the recaps.
-  const text = await generateChecked<string>(
+  const { result: text, outcome } = await generateChecked<string>(
     (prompt) => generateText(SYSTEM, prompt, 300),
     user,
     (t) => t,
     (t) => checkGrounding(t, { facts: user }),
     "Beat digest"
   );
+  await recordAiOutcome("beat digest", outcome);
   if (!text) {
     console.log("Beat digest generation failed — leaving previous digest (if any) in place.");
     return;

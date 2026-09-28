@@ -18,23 +18,15 @@ import { readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { generateChecked, generateJson } from "./lib/claude";
 import { checkGrounding } from "./lib/aiChecks";
+import { AI_VERSION } from "./lib/aiVersion";
+import { recordAiOutcome } from "./lib/aiDiagnostics";
 import { formatGrade, gradeWords } from "../lib/calc/ranks";
 import type { Game, GameRecap, NewsItem, OpponentMatchupData, ScheduleRow } from "../lib/data/types";
 
 const GENERATED_DIR = path.join(process.cwd(), "data", "generated");
 const TEAM = "NE";
 
-// Bump when the facts handed to the model or the checks on its output
-// change, so recaps written under the old prompt get rewritten. Version 2
-// added the game's location, full player names, the scoring breakdown and
-// league benchmarks — each missing fact had produced a wrong sentence.
-// Version 3 states each unit's owner, puts ranks and EPA into words
-// before the model sees them, and scopes player of the game to New
-// England — version 2 turned Buffalo's 87/100 pass offense into its
-// "secondary", called a 24th-ranked defense "middle-of-the-pack", read a
-// -0.36 defensive EPA as "above the neutral mark", and claimed a Patriot
-// was the best player "on either side".
-const AI_VERSION = 3;
+// See scripts/lib/aiVersion.ts for what each version changed.
 
 // Rough league-wide norms, so "8 of 12 third downs allowed" can't be
 // read as a good day for the defense.
@@ -118,7 +110,14 @@ async function buildRecapContent() {
     const articles = relevantNews(news, row.date, 1, 5);
     const star = recap.playerOfTheGame;
 
-    const user = `Final score: New England ${usScore}, ${opponent} ${themScore} (${usScore > themScore ? "Patriots win" : usScore === themScore ? "tie" : "Patriots loss"}).
+    const weekday = new Date(`${row.date}T12:00:00Z`).toLocaleDateString("en-US", {
+      weekday: "long",
+      month: "long",
+      day: "numeric",
+      timeZone: "UTC",
+    });
+    const user = `Date: ${weekday} (${row.date}). Don't describe the time of day — it isn't given.
+Final score: New England ${usScore}, ${opponent} ${themScore} (${usScore > themScore ? "Patriots win" : usScore === themScore ? "tie" : "Patriots loss"}).
 Location: ${isHome ? `a home game for New England, at ${row.venue || "Gillette Stadium"} in Foxborough` : `a road game — New England played at ${opponent}${row.venue ? `, ${row.venue}` : ""}. It was NOT in Foxborough`}.
 How the points were scored — ${recap.scoring ? `${scoringLine("New England", recap.scoring.us)}; ${scoringLine(opponent, recap.scoring.them)}` : "not available, so don't describe it"}.
 Real computed stats: offensive EPA/play ${recap.epaPerPlay.offense.toFixed(2)} (${epaWords(recap.epaPerPlay.offense, "offense")}), defensive EPA/play allowed ${recap.epaPerPlay.defense.toFixed(2)} (${epaWords(recap.epaPerPlay.defense, "defense")} — for a defense, negative is good), turnover margin ${recap.turnoverMargin}, red zone offense ${recap.redZone.offense.td} TDs on ${recap.redZone.offense.att} trips, red zone defense allowed ${recap.redZone.defense.td} TDs on ${recap.redZone.defense.att} trips, third down offense ${recap.thirdDown.offense.conv}/${recap.thirdDown.offense.att}, third downs allowed ${recap.thirdDown.defense.conv}/${recap.thirdDown.defense.att}.
@@ -132,16 +131,19 @@ Respond with ONLY this JSON shape:
 {"fanTake": "3-5 sentences in the fan voice describing what happened and how it feels", "good": ["1-2 short bullet points, each one sentence"], "bad": ["1-2 short bullet points"], "ugly": ["0-2 short bullet points, omit if nothing rises to 'ugly'"]}`;
 
     type RecapAi = { fanTake: string; good: string[]; bad: string[]; ugly: string[] };
-    const result = await generateChecked<RecapAi>(
-      (prompt) => generateJson<RecapAi>(FAN_VOICE_SYSTEM, prompt),
+    // 1,000 tokens: a take plus up to six bullets for a lopsided game
+    // can run past 500, and a reply cut off mid-JSON can't be parsed.
+    const { result, outcome } = await generateChecked<RecapAi>(
+      (prompt) => generateJson<RecapAi>(FAN_VOICE_SYSTEM, prompt, 1000),
       user,
       (r) => [r.fanTake, ...(r.good ?? []), ...(r.bad ?? []), ...(r.ugly ?? [])].join(" "),
       (text) => checkGrounding(text, { facts: user, isHome, playerNames: [star.playerName] }),
       `Recap ${gameId}`
     );
+    await recordAiOutcome(`recap ${gameId}`, outcome);
 
     if (!result?.fanTake) {
-      console.log(`Recap AI content for ${gameId} not written — keeping existing content.`);
+      console.log(`Recap AI content for ${gameId} not written — the plain computed recap stays.`);
       continue;
     }
 
@@ -190,15 +192,16 @@ ${formatArticles(articles)}
 Respond with ONLY this JSON shape:
 {"previewTake": "3-5 sentences in the fan voice previewing this matchup — what you're excited or nervous about, grounded only in the facts above"}`;
 
-  const result = await generateChecked<{ previewTake: string }>(
-    (prompt) => generateJson<{ previewTake: string }>(FAN_VOICE_SYSTEM, prompt),
+  const { result, outcome } = await generateChecked<{ previewTake: string }>(
+    (prompt) => generateJson<{ previewTake: string }>(FAN_VOICE_SYSTEM, prompt, 800),
     user,
     (r) => r.previewTake ?? "",
     (text) => checkGrounding(text, { facts: user, isHome }),
     "Preview"
   );
+  await recordAiOutcome(`preview ${nextGame.id}`, outcome);
   if (!result?.previewTake) {
-    console.log("Preview AI content not written — leaving previous previewTake in place.");
+    console.log("Preview AI content not written — the page shows no preview this run.");
     return;
   }
 

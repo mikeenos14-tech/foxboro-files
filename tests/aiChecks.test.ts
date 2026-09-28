@@ -57,3 +57,15 @@ test("clean text passes", () => {
 test("catches 'historically' claims off a season-to-date sample", () => {
   assert.equal(checkGrounding("Buffalo's run defense is historically bad.", { facts: "" }).length, 1);
 });
+
+test("catches a month that doesn't match the game's date", () => {
+  const facts = "Date: Sunday, September 20 (2026-09-20).";
+  assert.equal(checkGrounding("ugly wins are what you need in October", { facts }).length, 1);
+  assert.deepEqual(checkGrounding("a September statement win", { facts }), []);
+  // An ISO date alone is enough to allow its month.
+  assert.deepEqual(checkGrounding("an early September win", { facts: "2026-09-20" }), []);
+});
+
+test("catches the prompt leaking into the prose", () => {
+  assert.equal(checkGrounding("The articles mention two straight games of clock trouble.", { facts: "" }).length, 1);
+});

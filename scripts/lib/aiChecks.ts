@@ -8,6 +8,9 @@
 //   - "the second-year quarterback" — Drake Maye was in his third season.
 //   - "600 wins deep in franchise history" — no such fact was given.
 //   - "Buffalo's run defense is historically bad" — off three games.
+//   - "sometimes ugly wins are exactly what you need in October" — for a
+//     September 20 game.
+//   - "The articles mention two straight games with…" — prompt leaking.
 //
 // Each check is narrow and mechanical on purpose. A general "is every
 // claim in the facts?" scanner would flag the legitimate context the
@@ -27,6 +30,13 @@ const HOME_PLACES = /\b(Foxboro|Foxborough|Gillette)\b/i;
 const TENURE = /\b(rookie|first|second|third|fourth|fifth|sixth|seventh|eighth|ninth|tenth|\d+(?:st|nd|rd|th))-year\b/gi;
 const FRANCHISE_HISTORY = /\b(franchise history|team history|all-time|in franchise|historic|historically|record-setting)\b/i;
 const YEAR = /\b(?:19|20)\d{2}\b/g;
+const MONTHS = [
+  "January", "February", "March", "April", "May", "June",
+  "July", "August", "September", "October", "November", "December",
+];
+const MONTH_WORD = new RegExp(`\\b(${MONTHS.join("|")})\\b`, "g");
+// Talking about the prompt instead of the game ("The articles mention…").
+const PROMPT_LEAK = /\b(the articles|articles (mention|say|note)|the facts (given|above|provided)|facts provided)\b/i;
 // Play-by-play's own name format ("R.Stevenson", "D. Maye").
 const ABBREVIATED_NAME = /\b[A-Z]\.\s?[A-Z][a-z]+/;
 // Capitalized words that can sit in front of a surname without being a
@@ -59,6 +69,19 @@ export function checkGrounding(text: string, ctx: GroundingContext): string[] {
     if (!ctx.facts.includes(match[0])) {
       problems.push(`It mentions the year ${match[0]}, which isn't in the facts given.`);
     }
+  }
+
+  // A month is fine if the facts name it or contain an ISO date in it —
+  // a Sept. 20 game was described as an "October" win.
+  const allowedMonths = new Set<string>();
+  for (const m of ctx.facts.matchAll(/\b\d{4}-(\d{2})-\d{2}\b/g)) allowedMonths.add(MONTHS[Number(m[1]) - 1]);
+  for (const m of ctx.facts.matchAll(MONTH_WORD)) allowedMonths.add(m[1]);
+  for (const m of text.matchAll(MONTH_WORD)) {
+    if (!allowedMonths.has(m[1])) problems.push(`It mentions ${m[1]}, which doesn't match any date given.`);
+  }
+
+  if (PROMPT_LEAK.test(text)) {
+    problems.push("It refers to the articles or facts it was given — write about the game, not the source material.");
   }
 
   const abbreviated = text.match(ABBREVIATED_NAME);

@@ -33,6 +33,7 @@ import {
 import { computeStandings, recordString, pointDiff, type TeamRecord } from "./lib/standings";
 import { computeDivisionStandings } from "./lib/divisionStandings";
 import { loadEspnDivisionOrder } from "./lib/espnStandings";
+import { AI_VERSION } from "./lib/aiVersion";
 import { TEAM_CONFERENCE, TEAM_DIVISION, ALL_TEAMS } from "./lib/teams";
 import { rankGeneric } from "./lib/rank";
 import { buildLastNWeekWindows, filterRowsToWindow } from "./lib/statWindows";
@@ -518,7 +519,10 @@ async function main() {
     let merged: GameRecap = recap;
     try {
       const existing = JSON.parse(await readFile(recapPath, "utf-8")) as Partial<GameRecap>;
-      if (existing.fanTake) {
+      // Only text written under the current prompt version carries over;
+      // older text is dropped so the plain recap shows until a rewrite
+      // passes the checks (see scripts/lib/aiVersion.ts).
+      if (existing.fanTake && existing.aiVersion === AI_VERSION) {
         merged = {
           ...recap,
           fanTake: existing.fanTake,
