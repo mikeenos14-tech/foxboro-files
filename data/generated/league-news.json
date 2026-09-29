@@ -9,15 +9,6 @@
     "sourceName": "ESPN"
   },
   {
-    "id": "50059809",
-    "publishedAt": "2026-09-29T19:26:23Z",
-    "type": "Transaction",
-    "headline": "Bengals cut WR Ke'Shawn Williams after costly muffed punt",
-    "summary": "The Cincinnati Bengals cut WR Ke'Shawn Williams after he muffed a punt that eventually led to the Pittsburgh Steelers' 30-27 win. On Tuesday, Cincinnati signed WR Mitch Tinsley.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50059809/source-bengals-cut-keshawn-williams-costly-muffed-punt",
-    "sourceName": "ESPN"
-  },
-  {
     "id": "profootballrumors-https://www.profootballrumors.com/?p=421313",
     "publishedAt": "2026-09-29T18:50:55.000Z",
     "type": "Transaction",
@@ -27,30 +18,39 @@
     "sourceName": "Pro Football Rumors"
   },
   {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=421305",
-    "publishedAt": "2026-09-29T15:47:52.000Z",
-    "type": "Transaction",
-    "headline": "Giants Among Suitors For Steelers CB Joey Porter Jr.?",
-    "summary": "On Sunday, the Lions and Cowboys were identified as teams which have made trade inquiries about Joey Porter Jr. The oft-discussed Steelers cornerback appears to be on the radar of at least one other NFC team. The Giants have been mentioned as a candidate for Porter. Art Stapleton of NJ.com notes the “whispers” connecting Porter to New York have “gotten louder” […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/09/giants-among-suitors-for-steelers-cb-joey-porter-jr",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "50058897",
-    "publishedAt": "2026-09-29T15:43:17Z",
+    "id": "50061293",
+    "publishedAt": "2026-09-29T21:02:48Z",
     "type": "Injury",
-    "headline": "Sources: Panthers OL Damien Lewis (UCL injury) to miss time",
-    "summary": "Panthers left guard Damien Lewis has a UCL injury in an elbow and will be out a few weeks, sources told NFL Network's Mike Garafolo and Ian Rapoport.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50058897/panthers-ol-damien-lewis-ucl-injury-sources-say",
+    "headline": "Patriots place offensive lineman Greg Van Roten (thigh) on IR",
+    "summary": "The Patriots placed guard Greg Van Roten on injured reserve Tuesday as the infrastructure around quarterback Drake Maye took another hit.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50061293/patriots-place-offensive-lineman-greg-van-roten-thigh-ir",
     "sourceName": "ESPN"
   },
   {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/commanders-announce-austin-ekeler-signing-placement-of-leo-chenal-on-ir",
+    "publishedAt": "2026-09-29T20:20:47.000Z",
+    "type": "Transaction",
+    "headline": "Commanders announce Austin Ekeler signing, placement of Leo Chenal on IR",
+    "summary": "The Commanders have made it official with Austin Ekeler.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/commanders-announce-austin-ekeler-signing-placement-of-leo-chenal-on-ir",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=421331",
+    "publishedAt": "2026-09-29T19:30:38.000Z",
+    "type": "Transaction",
+    "headline": "Vikings Sign QB Max Brosmer From Practice Squad",
+    "summary": "The quick ending to J.J. McCarthy’s Minnesota stay produced a Giants move to create roster space. The team waived Jake Haener; though, per The Ringer’s Tom Pelissero, the young backup is expected to stay with the team on the practice squad if/once he clears waivers today. On the other end of the trade, the Vikings’ […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/09/vikings-sign-qb-max-brosmer-from-practice-squad",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
     "id": "50059771",
-    "publishedAt": "2026-09-29T19:25:19Z",
+    "publishedAt": "2026-09-29T20:33:47Z",
     "type": "Injury",
     "headline": "Inside George Kittle's 243-day recovery from torn Achilles",
     "summary": "Despite tearing his Achilles in the playoffs, Kittle appears to be back to his normal self. Here's how he won the recovery process.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50059771/san-francisco-49ers-george-kittle-torn-achilles",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50059771/san-francisco-49ers-george-kittle-torn-achilles-recovery",
     "sourceName": "ESPN"
   }
 ]

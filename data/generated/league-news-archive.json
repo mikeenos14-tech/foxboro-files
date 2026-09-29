@@ -1,20 +1,146 @@
 [
   {
+    "id": "50061293",
+    "publishedAt": "2026-09-29T21:02:48Z",
+    "type": "Injury",
+    "headline": "Patriots place offensive lineman Greg Van Roten (thigh) on IR",
+    "summary": "The Patriots placed guard Greg Van Roten on injured reserve Tuesday as the infrastructure around quarterback Drake Maye took another hit.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50061293/patriots-place-offensive-lineman-greg-van-roten-thigh-ir",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/raiders-sign-wr-cody-white-place-wr-jack-bech-on-ir",
+    "publishedAt": "2026-09-29T20:50:32.000Z",
+    "type": "Analysis",
+    "headline": "Raiders sign WR Cody White, place WR Jack Bech on IR",
+    "summary": "Raiders receiver Cody White has three receptions this year.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/raiders-sign-wr-cody-white-place-wr-jack-bech-on-ir",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "50061204",
+    "publishedAt": "2026-09-29T20:47:30Z",
+    "type": "Analysis",
+    "headline": "Tristan H. Cockcroft: Stream the Packers' defense vs. the Bucs",
+    "summary": "Tristan H. Cockcroft: Stream the Packers' defense vs. the Bucs",
+    "sourceUrl": "https://www.espn.com/video/clip/_/id/50061204/stream-packers-defense-vs-bucs",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=421348",
+    "publishedAt": "2026-09-29T20:35:30.000Z",
+    "type": "Transaction",
+    "headline": "Eagles Sign CB Kenny Moore From Practice Squad",
+    "summary": "Kenny Moore’s ramp-up period will now involve a much higher salary. After spending Week 3 on Philadelphia’s practice squad, the veteran slot cornerback is moving to the active roster. Other teams had shown interest in poaching Moore off Philly’s P-squad, NFL.com’s Mike Garafolo notes. This represents a way to nix an early defection. Moore preferred […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/09/eagles-sign-cb-kenny-moore-from-practice-squad",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "50059771",
+    "publishedAt": "2026-09-29T20:33:47Z",
+    "type": "Injury",
+    "headline": "Inside George Kittle's 243-day recovery from torn Achilles",
+    "summary": "Despite tearing his Achilles in the playoffs, Kittle appears to be back to his normal self. Here's how he won the recovery process.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50059771/san-francisco-49ers-george-kittle-torn-achilles-recovery",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dolphins-sign-ilb-shaka-heyward-off-bengals-practice-squad",
+    "publishedAt": "2026-09-29T20:26:52.000Z",
+    "type": "Transaction",
+    "headline": "Dolphins sign ILB Shaka Heyward off Bengals' practice squad",
+    "summary": "The Dolphins signed inside linebacker Shaka Heyward off the Bengals' practice squad, the team announced Tuesday.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dolphins-sign-ilb-shaka-heyward-off-bengals-practice-squad",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=421345",
+    "publishedAt": "2026-09-29T20:25:20.000Z",
+    "type": "Transaction",
+    "headline": "Raiders Place WR Jack Bech On IR, Sign WR Cody White From Practice Squad",
+    "summary": "Jack Bech will see his second Raiders season stalled due to an arm injury. The Raiders are placing the 2025 second-round wide receiver draftee on IR. They are signing wideout Cody White to fill Bech’s roster spot. Bech joins fellow 2025 Raiders receiver draftee Dont’e Thornton on IR. Las Vegas also waived wide receiver Justin […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/09/raiders-place-wr-jack-bech-on-ir-sign-wr-cody-white-from-practice-squad",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/commanders-announce-austin-ekeler-signing-placement-of-leo-chenal-on-ir",
+    "publishedAt": "2026-09-29T20:20:47.000Z",
+    "type": "Transaction",
+    "headline": "Commanders announce Austin Ekeler signing, placement of Leo Chenal on IR",
+    "summary": "The Commanders have made it official with Austin Ekeler.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/commanders-announce-austin-ekeler-signing-placement-of-leo-chenal-on-ir",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/patriots-place-ol-greg-van-roten-on-injured-reserve",
+    "publishedAt": "2026-09-29T20:17:41.000Z",
+    "type": "Injury",
+    "headline": "Patriots place OL Greg Van Roten on injured reserve",
+    "summary": "The Patriots placed offensive lineman Greg Van Roten on injured reserve, the team announced Tuesday.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/patriots-place-ol-greg-van-roten-on-injured-reserve",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=421340",
+    "publishedAt": "2026-09-29T20:07:01.000Z",
+    "type": "Transaction",
+    "headline": "Jets Waive K Blake Grupe, Move K Jason Sanders To 53-Man Roster",
+    "summary": "The Jets began the season using three practice squad elevations on Jason Sanders despite Blake Grupe also residing on the team’s active roster. More clarity looks to be coming to Gang Green’s kicker situation. New York waived Grupe on Tuesday and signed Sanders to its 53-man roster. Grupe had been a waiver claim following cutdown […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/09/jets-waive-k-blake-grupe-move-k-jason-sanders-to-53-man-roster",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=421335",
+    "publishedAt": "2026-09-29T20:00:46.000Z",
+    "type": "Transaction",
+    "headline": "Bengals Place CB Jalen Davis On IR, Sign TE Tanner Hudson From Practice Squad",
+    "summary": "After spending most of his career as a special-teamer, Jalen Davis earned the Bengals’ slot cornerback job to begin his age-30 season. That route will involve a September detour, however. The Bengals are placing the veteran corner/ST presence on IR due to a hamstring injury. Davis went down with the injury against the Steelers on […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/09/bengals-place-cb-jalen-davis-on-ir-sign-te-tanner-hudson-from-practice-squad",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/rams-hopeful-s-kamren-kinchens-can-return-this-week",
+    "publishedAt": "2026-09-29T19:58:18.000Z",
+    "type": "Analysis",
+    "headline": "Rams hopeful S Kamren Kinchens can return this week",
+    "summary": "Safety Kamren Kinchens was among the Rams players who missed Sunday night's loss to the Broncos and head coach Sean McVay gave an update on his status on Monday.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/rams-hopeful-s-kamren-kinchens-can-return-this-week",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "50052708",
+    "publishedAt": "2026-09-29T19:55:19Z",
+    "type": "Analysis",
+    "headline": "Knockout league pickups: Josh Allen, Justin Jefferson among big names available in Week 4",
+    "summary": "Tristan H. Cockcroft lists the most common players on eliminated teams and finds how much FAB to spend this week.",
+    "sourceUrl": "https://www.espn.com/fantasy/football/story/_/id/50052708/espn-nfl-fantasy-football-knockout-league-picks-week-4-strategy-adds",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jim-harbaugh-gives-mike-mcdaniel-a-vote-of-confidence",
+    "publishedAt": "2026-09-29T19:38:03.000Z",
+    "type": "Analysis",
+    "headline": "Jim Harbaugh gives Mike McDaniel a vote of confidence",
+    "summary": "The Chargers offense ranks 20th, and quarterback Justin Herbert has three touchdowns and four interceptions and his passer rating of 73.4 ranks 26th.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jim-harbaugh-gives-mike-mcdaniel-a-vote-of-confidence",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=421331",
+    "publishedAt": "2026-09-29T19:30:38.000Z",
+    "type": "Transaction",
+    "headline": "Vikings Sign QB Max Brosmer From Practice Squad",
+    "summary": "The quick ending to J.J. McCarthy’s Minnesota stay produced a Giants move to create roster space. The team waived Jake Haener; though, per The Ringer’s Tom Pelissero, the young backup is expected to stay with the team on the practice squad if/once he clears waivers today. On the other end of the trade, the Vikings’ […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/09/vikings-sign-qb-max-brosmer-from-practice-squad",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
     "id": "50059809",
     "publishedAt": "2026-09-29T19:26:23Z",
     "type": "Transaction",
     "headline": "Bengals cut WR Ke'Shawn Williams after costly muffed punt",
     "summary": "The Cincinnati Bengals cut WR Ke'Shawn Williams after he muffed a punt that eventually led to the Pittsburgh Steelers' 30-27 win. On Tuesday, Cincinnati signed WR Mitch Tinsley.",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/50059809/source-bengals-cut-keshawn-williams-costly-muffed-punt",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50059771",
-    "publishedAt": "2026-09-29T19:25:19Z",
-    "type": "Injury",
-    "headline": "Inside George Kittle's 243-day recovery from torn Achilles",
-    "summary": "Despite tearing his Achilles in the playoffs, Kittle appears to be back to his normal self. Here's how he won the recovery process.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50059771/san-francisco-49ers-george-kittle-torn-achilles",
     "sourceName": "ESPN"
   },
   {
@@ -15045,15 +15171,6 @@
     "headline": "Ravens WR Ja’Kobi Lane Fractures Wrist",
     "summary": "SEPTEMBER 15: After receiving additional opinions on his injured wrist, Lane will undergo surgery. The procedure will take place this week, according to CBS Sports’ Matt Zenitz, who points to an absence of around a month. This will likely lead Lane to IR. The Ravens have used two of their eight injury activations already, giving […]",
     "sourceUrl": "https://www.profootballrumors.com/2026/09/ravens-rookie-wr-jakobi-lane-fractures-wrist",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=419944",
-    "publishedAt": "2026-09-15T20:02:57.000Z",
-    "type": "Transaction",
-    "headline": "Jets Sign WRs Tyler Johnson, Sterling Shepard To Practice Squad",
-    "summary": "After a short Texans stint did not lead to an active roster or practice squad opportunity, Sterling Shepard will have another chance to continue his career. This one comes in a familiar location. The 11th-year wide receiver is joining the Jets’ practice squad, NFL.com’s Mike Garafolo notes. Shepard joined JuJu Smith-Schuster and others at a […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/09/jets-sign-wrs-tyler-johnson-sterling-shepard-to-practice-squad",
     "sourceName": "Pro Football Rumors"
   }
 ]

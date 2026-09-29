@@ -1,5 +1,23 @@
 [
   {
+    "id": "50061293",
+    "publishedAt": "2026-09-29T20:57:02Z",
+    "type": "Injury",
+    "headline": "Patriots place offensive lineman Greg Van Roten (thigh) on IR",
+    "summary": "The Patriots placed guard Greg Van Roten on injured reserve Tuesday as the infrastructure around quarterback Drake Maye took another hit.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50061293/patriots-place-offensive-lineman-greg-van-roten-thigh-ir",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "c4da5545-8cd5-4997-b614-d88096c044fd",
+    "publishedAt": "2026-09-29T20:00:00.000Z",
+    "type": "Transaction",
+    "headline": "Patriots Place OL Greg Van Roten on Injured Reserve and Release LB Riley Wilson from the Practice Squad",
+    "summary": "The Patriots announced that they have placed OL Greg Van Roten on injured reserve and released LB Riley Wilson from the practice squad.",
+    "sourceUrl": "https://www.patriots.com/news/patriots-place-ol-greg-van-roten-on-injured-reserve-and-release-lb-riley-wilson-from-the-practice-squad",
+    "sourceName": "Patriots.com"
+  },
+  {
     "id": "f846f81a-c81e-4e10-b2ed-0a4e7be33127",
     "publishedAt": "2026-09-29T16:14:35.000Z",
     "type": "Analysis",
@@ -15,6 +33,15 @@
     "headline": "Game Preview: Patriots at Bills | NFL Week 4",
     "summary": "The New England Patriots will travel to Buffalo to face the Bills at Highmark Stadium on Sunday, October 4 at 1 PM ET.",
     "sourceUrl": "https://www.patriots.com/news/game-preview-patriots-at-bills-nfl-week-4",
+    "sourceName": "Patriots.com"
+  },
+  {
+    "id": "0117d55c-738a-462a-9115-4fd1a52724e9",
+    "publishedAt": "2026-09-29T14:00:21.000Z",
+    "type": "Analysis",
+    "headline": "Newton North High School's Nick Capodilupo Named the New England Patriots Coach of the Week",
+    "summary": "The Newton North Tigers rolled their way to a 14-12 victory against Weymouth behind the leadership of Head Coach Nick Capodilupo. Their hard-fought victory was Newton North’s first win over Weymouth in eight years, earning Coach Capodilupo the honor of the New England Patriots Coach of the Week Award.",
+    "sourceUrl": "https://www.patriots.com/news/newton-north-high-school-s-nick-capodilupo-named-the-new-england-patriots-coach-of-the-week",
     "sourceName": "Patriots.com"
   },
   {
@@ -54,15 +81,6 @@
     "sourceName": "ESPN"
   },
   {
-    "id": "839f6552-5e20-47fd-aff6-257082aa5a81",
-    "publishedAt": "2026-09-28T11:00:00.000Z",
-    "type": "Beat Report",
-    "headline": "Transcript: Head Coach Mike Vrabel Press Conference 9/28",
-    "summary": "Read the full transcript from Head Coach Mike Vrabel's press conference on Monday, September 28, 2026.",
-    "sourceUrl": "https://www.patriots.com/news/transcript-head-coach-mike-vrabel-press-conference-9-28",
-    "sourceName": "Patriots.com"
-  },
-  {
     "id": "50046497",
     "publishedAt": "2026-09-28T00:33:24Z",
     "type": "Analysis",
@@ -78,24 +96,6 @@
     "headline": "Lawrence throws 3 TD passes as Jaguars rout Patriots and raise more questions about Maye",
     "summary": "— Jacksonville Jaguars coach Liam Coen spent all week telling his players that what mattered most was how they responded.",
     "sourceUrl": "http://www.espn.com/nfl/recap?gameId=401872957",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "20a5015c-9c9a-4568-a550-ae2584c6d5e6",
-    "publishedAt": "2026-09-27T21:25:49.000Z",
-    "type": "Beat Report",
-    "headline": "Game Observations: 8 takeaways from the Patriots loss to the Jaguars in Week 3",
-    "summary": "The Patriots trip to Jacksonville ended in a disappointing 35-6 loss to the Jaguars on Sunday.",
-    "sourceUrl": "https://www.patriots.com/news/game-observations-8-takeaways-from-the-patriots-loss-to-the-jaguars-in-week-3",
-    "sourceName": "Patriots.com"
-  },
-  {
-    "id": "50045541",
-    "publishedAt": "2026-09-27T20:42:05Z",
-    "type": "Beat Report",
-    "headline": "New England Patriots vs. Jacksonville Jaguars: Game Highlights",
-    "summary": "New England Patriots vs. Jacksonville Jaguars: Game Highlights",
-    "sourceUrl": "https://www.espn.com/video/clip/_/id/50045541/game-highlights",
     "sourceName": "ESPN"
   },
   {
