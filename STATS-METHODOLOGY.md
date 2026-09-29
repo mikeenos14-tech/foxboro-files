@@ -17,6 +17,8 @@ Used where the site is describing "how good has this team actually been this yea
 **Tier 3 — Opponent-adjusted and regressed to the league mean, current-season only (position/player-level numbers).**
 Used for QB Deep Dive and Position Grades. These get the same leave-one-out opponent adjustment as Tier 2 (a unit that faced three top-five defenses shouldn't be graded as though it played nobody), then every per-play value is shrunk toward the plays-weighted league mean by sample size before ranking (see `scripts/lib/shrink.ts`), because they run on far thinner samples than team-level stats. A TE grade can come off 10 targets; without shrinkage that's noise rendered as precision. No prior-season blend — these describe this year. Cards built on thin samples say so explicitly in the UI.
 
+**Outside the tiers — success rate.** The share of plays that improved the offense's chances of scoring (positive EPA, nflverse's own `success` column). It's always raw: never opponent-adjusted, never blended, so a team's success rate is the same number on every page. Where: **Home's Team Strength cards, Around the League's rankings, Next Game's success-rate matchup, and every recap.** EPA says how much a team gains per play; success rate says how often it gains anything, so a team living on a few big plays shows up as high EPA with a low success rate.
+
 **What "opponent-adjusted" means, concretely:** a defense doesn't just get credit for "opponents scored X EPA against us" — it gets compared against what those same opponents do in their *other* games. Shutting down a normally-explosive offense counts for more than shutting down a team that's bad against everybody. (This was tightened up this session — see "Recent fixes" below.)
 
 ---
@@ -31,12 +33,13 @@ Used for QB Deep Dive and Position Grades. These get the same leave-one-out oppo
 | Playoff odds | Tier 1 | Logistic curve on projected win total (see "The honest models" below). Says how much still leans on 2025 until game 4 |
 | Team Strength — Point Differential | — | Real, unweighted box-score total |
 | Team Strength — Offensive/Defensive EPA/play | **Tier 2** | Opponent-adjusted, pure 2026, **has the "last N weeks" filter** |
+| Team Strength — Success rate, yards/play | Raw | Pure 2026, ranked of 32, same filter |
 | AFC East standings | — | Records from `games.csv`; ties ordered by ESPN's official standings (real NFL tiebreakers) |
 | Latest headlines | — | Real, from ESPN + Patriots' own RSS |
 
 ### Recap (index + per game)
 
-Every completed game, permanently archived, each with its own page (older recap pages used to 404, and the list showed older games with no score). Real box score, EPA/play, turnover margin, explosive-play rate, red zone/3rd down splits, win-probability chart across the game, and Player of the Game (see below). Tapping turnovers, explosive plays, red zone, third downs or Player of the Game lists the plays behind the number (see "See the plays").
+Every completed game, permanently archived, each with its own page (older recap pages used to 404, and the list showed older games with no score). Real box score, EPA/play, success rate for and against (with the league average this season), turnover margin, explosive-play rate, red zone/3rd down splits, win-probability chart across the game, and Player of the Game (see below). Tapping turnovers, explosive plays, red zone, third downs or Player of the Game lists the plays behind the number (see "See the plays").
 
 **Good/Bad/Ugly is built from the stats in code** (`scripts/lib/recapBullets.ts`): each number is compared with its league norm, the furthest from normal become the bullets, and a bad one that's extreme enough becomes the Ugly. These used to be AI-written, and restating numbers was exactly where the model slipped ("50% — better than the league's 55%", "four trips into the end zone"). The short **"Take" is the only AI-written part** of a recap — see "AI content" below.
 
@@ -44,7 +47,7 @@ Every completed game, permanently archived, each with its own page (older recap 
 
 ### Next Game
 
-- **Preview tab**: Opponent EPA rank as "Nth of 32" (**Tier 1**), AI preview take (grounded, same rules as recaps), Matchup of the Week callout.
+- **Preview tab**: Opponent EPA rank as "Nth of 32" (**Tier 1**); a success-rate matchup, each offense against the defense it faces, with ranks (raw, this season only — the box says so, since the EPA ranks above it still blend 2025 until game 4); AI preview take (grounded, same rules as recaps), Matchup of the Week callout.
 - **Matchups tab**: 5 unit grades out of 100 — rush offense vs. run defense, pass offense vs. pass defense, pass protection vs. pass rush, and both mirrored on defense. **Tier 1** (opponent-adjusted + blended). Also recent form (Last Game / Last 3 / Last 5 once they differ from the season) and the head-to-head record.
 - **Injuries tab**: the league's official report (nflverse) once it's out for the game, with patriots.com's same-day practice status merged in (parsed in code — see "Data sources"). Before that — usually Monday to Wednesday — it falls back to ESPN, keeping only designations made after each team's last game and never healthy scratches. If there are none yet, it says the report isn't out rather than showing last week's list.
 
@@ -68,7 +71,7 @@ AI beat-writer digest (grounded, same rules and checks), merged ESPN + Patriots 
 
 **Every Team, Every Unit** — pick any of the eight units and see all 32 teams ranked by grade, New England highlighted, with each team's actual (unadjusted) rate alongside. Same grades as the Roster page (**Tier 3**, 2026 only), so the two always agree. Home's grade chips and each Roster grade card link straight to the matching ranking. RB and TE carry the noisy-stat note here too.
 
-League-wide offense and defense rankings by EPA/play — **Tier 2**, deliberately "who's been best in 2026," no 2025 mixed in. All 8 divisions' standings, last week's scores, AI-curated top league headlines (real trades/injuries/storylines, fantasy content filtered out).
+League-wide offense and defense rankings by EPA/play — **Tier 2**, deliberately "who's been best in 2026," no 2025 mixed in — with each team's success rate and its own rank beside it (raw). All 8 divisions' standings, last week's scores, AI-curated top league headlines (real trades/injuries/storylines, fantasy content filtered out).
 
 ---
 
@@ -217,7 +220,7 @@ All three were found by a reader noticing a number looked wrong, which is the wo
 
 The passing check was added after a fourth self-consistent error shipped: nflverse marks sacks as pass attempts, the site counted them, and Maye read 51/89 for 547 yards when the real line was 51/80 for 585. Every QB in the league was off. The same pass found the 2025 snapshot had folded in the playoffs (5,222 yards for a 4,394-yard season). All play-by-play is now filtered to the regular season at load.
 
-It also asserts cross-file agreement: team EPA must match the league rankings file to 1e-9, position-group cards must match the league table, and no LB card may exist. If nflverse's stats file is missing it fails rather than passing having checked nothing. CI gates on it, and on the unit tests (`npm test`) covering the shrinkage, prior-blend taper, win probability, reliability gate, window construction, box-score rule, AI checks, stat-built recap bullets, Player of the Game crediting, the injury-report parser (on real reports) and the stat math.
+It also asserts cross-file agreement: team EPA and success rate (value and rank) must match the league rankings file to 1e-9, Next Game's success-rate matchup must match the League table for both teams, each recap's success rate must be a whole number of its plays, position-group cards must match the league table, and no LB card may exist. If nflverse's stats file is missing it fails rather than passing having checked nothing. CI gates on it, and on the unit tests (`npm test`) covering the shrinkage, prior-blend taper, win probability, reliability gate, window construction, box-score rule, AI checks, stat-built recap bullets, Player of the Game crediting, the injury-report parser (on real reports) and the stat math.
 
 ---
 

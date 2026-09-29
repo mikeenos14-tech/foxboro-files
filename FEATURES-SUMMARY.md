@@ -6,7 +6,7 @@ A page-by-page rundown of what's actually live on the site (foxboro-files.vercel
 
 - Team identity header: record, division rank, playoff odds (with a probability bar), last/next game mini-cards.
 - One-sentence season-snapshot banner (record, streak, point differential).
-- Team Strength vs. League: point differential, offensive/defensive EPA/play — all ranked and opponent-adjusted, with a Last Game / 2025 Season filter.
+- Team Strength vs. League: point differential, offensive/defensive EPA/play (opponent-adjusted), success rate and yards/play — all ranked, with a Last Game / 2025 Season filter.
 - Unit grade chips — each opens that unit's ranking across all 32 teams.
 - AFC East division standings table.
 - Latest headlines feed.
@@ -18,7 +18,7 @@ A page-by-page rundown of what's actually live on the site (foxboro-files.vercel
   - Real box score.
   - AI-written "The Take" — grounded fan-voice recap.
   - Win-probability chart across the full game.
-  - Advanced Stats: EPA/play, turnover margin, explosive-play rate, red zone and 3rd-down splits (offense and defense).
+  - Advanced Stats: EPA/play, success rate for/against vs. the league average, turnover margin, explosive-play rate, red zone and 3rd-down splits (offense and defense).
   - Player of the Game — New England's leader in win probability added, crediting passers, receivers, runners, defenders, kickers and returners.
   - Good/Bad/Ugly breakdown, built from the stats against league norms.
   - AI-written "Take" (checked in code before it's published), with a "Flag it" link.
@@ -28,7 +28,7 @@ A page-by-page rundown of what's actually live on the site (foxboro-files.vercel
 
 - Matchup hero: live countdown, weather, spread.
 - Tabbed:
-  - **Preview** — AI-written preview take, opponent offensive/defensive EPA rank, Matchup of the Week callout.
+  - **Preview** — AI-written preview take, opponent offensive/defensive EPA rank, success-rate matchup (each offense vs. the defense it faces, ranked), Matchup of the Week callout.
   - **Matchups** — 5 position-group grades (pass/rush offense vs. defense, pass protection vs. rush), opponent-adjusted and blended with real 2025 prior-season data; recent form; head-to-head history.
   - **Injuries** — both teams side by side: the official report once it's out (with patriots.com's same-day practice status, parsed in code), otherwise only designations made since each team's last game — never last week's list or healthy scratches.
 - "Make the Call" score predictor, below the tabs.
@@ -56,7 +56,7 @@ Tabbed:
 ## Around the League
 
 - **Every Team, Every Unit** — all 32 teams ranked on any unit grade, New England highlighted; one tap from Home's grade chips.
-- League-wide offense and defense rankings — current-season-only, opponent-adjusted EPA.
+- League-wide offense and defense rankings — current-season-only, opponent-adjusted EPA, with each team's success rate and rank.
 - Last week's final scores across the whole league.
 - All 8 division standings.
 - AI-curated top league headlines — real trades/injuries/storylines from ESPN + Pro Football Rumors + Pro Football Talk, fantasy content filtered out.
