@@ -38,30 +38,12 @@ export default async function HomePage({
   const losses = played.filter((g) => g.result === "L").length;
   const ties = played.filter((g) => g.result === "T").length;
   const divisionRank = standings.findIndex((s) => s.isUs) + 1;
-  const us = standings.find((s) => s.isUs);
 
   // The verdict this page exists to deliver. The hero used to restate the
   // record that's already displayed 100px above it, leaving the reader to
   // assemble "are we actually good?" out of seven equally-weighted stat
   // cards pointing different directions.
   const verdict = buildVerdict(teamStats, wins, losses, ties);
-
-  // "On a 1-game losing streak" is just a loss.
-  const streakText = !us?.streak
-    ? "yet to establish a streak"
-    : us.streak.count === 1
-      ? us.streak.result === "W"
-        ? "coming off a win"
-        : us.streak.result === "L"
-          ? "coming off a loss"
-          : "coming off a tie"
-      : `on a ${us.streak.count}-game ${us.streak.result === "W" ? "winning" : us.streak.result === "L" ? "losing" : "unbeaten"} streak`;
-  const diffText =
-    teamStats.pointDifferential.value === 0
-      ? "an even"
-      : teamStats.pointDifferential.value > 0
-        ? `a +${teamStats.pointDifferential.value}`
-        : `a ${teamStats.pointDifferential.value}`;
 
   return (
     <div className="-mx-4 space-y-8 sm:mx-0">
@@ -125,10 +107,6 @@ export default async function HomePage({
       <div className="px-4 sm:px-0">
         <HeroAnswerCard headline={verdict.headline} tone={verdict.tone}>
           <p className="text-sm text-muted">{verdict.detail}</p>
-          <p className="mt-1 text-sm text-muted">
-            {streakText.charAt(0).toUpperCase() + streakText.slice(1)}, with {diffText} point
-            differential.
-          </p>
         </HeroAnswerCard>
       </div>
 

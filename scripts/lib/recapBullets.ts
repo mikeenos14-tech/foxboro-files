@@ -46,7 +46,7 @@ function rateBullet(
 }
 
 export function buildRecapBullets(
-  recap: Pick<GameRecap, "epaPerPlay" | "turnoverMargin" | "redZone" | "thirdDown" | "playerOfTheGame">,
+  recap: Pick<GameRecap, "epaPerPlay" | "turnoverMargin" | "redZone" | "thirdDown">,
   opponent: string
 ): GameRecap["goodBadUgly"] {
   const candidates: Array<Bullet | null> = [];
@@ -117,14 +117,7 @@ export function buildRecapBullets(
     )
   );
 
-  const star = recap.playerOfTheGame;
-  if (star.playerId && star.wpa >= 0.05) {
-    candidates.push({
-      kind: "good",
-      severity: star.wpa * 8,
-      text: `${star.playerName} led New England with +${Math.round(star.wpa * 100)}% win probability added.`,
-    });
-  }
+  // No Player of the Game bullet: its card sits directly above these.
 
   const real = candidates.filter((b): b is Bullet => b !== null);
   const byWeight = (a: Bullet, b: Bullet) => b.severity - a.severity;

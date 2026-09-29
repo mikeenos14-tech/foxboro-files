@@ -447,6 +447,9 @@ export interface OpponentMatchupData {
   gameId: string;
   opponent: string;
   opponentEpaRank: { offense: number; defense: number };
+  // Ours on the same blended basis, so the Tale of the Tape compares like
+  // with like.
+  ourEpaRank: { offense: number; defense: number };
   // This season only, raw (like Home and League) — no prior-season blend.
   successRate: {
     us: { offense: RankedStat; defense: RankedStat };

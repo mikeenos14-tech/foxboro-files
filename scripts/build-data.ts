@@ -59,7 +59,6 @@ import type {
   ScheduleRow,
   TeamStatSnapshot,
 } from "../lib/data/types";
-import { signed } from "../lib/util/format";
 
 const TEAM = "NE";
 
@@ -692,8 +691,9 @@ async function main() {
             headshotUrl: starHeadshot || undefined,
             reason:
               star.wpa > 0
-                ? `Led New England with ${signed(star.wpa * 100, 0)}% win probability added, ${ROLE_PHRASE[star.role]}.`
-                : `Had New England's best (though still net-negative) win probability added, ${signed(star.wpa * 100, 0)}%, ${ROLE_PHRASE[star.role]}.`,
+                // The card already shows the number; this says how it was earned.
+                ? `${ROLE_PHRASE[star.role].charAt(0).toUpperCase()}${ROLE_PHRASE[star.role].slice(1)}.`
+                : `New England's best, though still net-negative — ${ROLE_PHRASE[star.role]}.`,
           }
         : { playerId: "", playerName: "N/A", wpa: 0, reason: "No standout WPA leader computed." },
       scoring: { us: scoringSummary(gameRows, TEAM), them: scoringSummary(gameRows, opponent) },

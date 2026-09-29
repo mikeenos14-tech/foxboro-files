@@ -5,6 +5,10 @@
     "offense": 2,
     "defense": 24
   },
+  "ourEpaRank": {
+    "offense": 22,
+    "defense": 9
+  },
   "successRate": {
     "us": {
       "offense": {
@@ -128,8 +132,8 @@
     }
   ],
   "weather": {
-    "tempF": 62,
-    "wind": "8 mph",
+    "tempF": 67,
+    "wind": "10 mph",
     "precipitation": "9%",
     "isDome": false
   },

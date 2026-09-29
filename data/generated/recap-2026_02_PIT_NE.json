@@ -176,7 +176,7 @@
   "goodBadUgly": {
     "good": [
       "The defense allowed -0.36 EPA per play — better than an average defense.",
-      "Romeo Doubs led New England with +14% win probability added."
+      "Held PIT to 2 of 12 on third down (17%), well below the 40% league norm."
     ],
     "bad": [
       "Scored touchdowns on 1 of 3 red-zone trips (33%), well below the 55% league norm.",
@@ -189,7 +189,7 @@
     "playerName": "Romeo Doubs",
     "wpa": 0.13683998584747314,
     "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/yxvzijmgwyyigljxfmyb",
-    "reason": "Led New England with +14% win probability added, mostly as a receiver."
+    "reason": "Mostly as a receiver."
   },
   "scoring": {
     "us": {

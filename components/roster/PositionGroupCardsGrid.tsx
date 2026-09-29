@@ -58,6 +58,10 @@ export function PositionGroupCardsGrid({
 
   return (
     <div>
+      <p className="mb-3 text-sm text-muted">
+        Every grade is out of 100 against all 32 teams, adjusted for the opponents faced, and
+        pulled toward the league average when the sample is small.
+      </p>
       {options.length > 1 && (
         <div className="mb-3 flex justify-end">
           <StatWindowSelector options={options} value={selected} onChange={setSelected} label="Show grades for" />

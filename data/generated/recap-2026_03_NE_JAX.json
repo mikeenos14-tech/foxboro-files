@@ -174,9 +174,7 @@
     }
   ],
   "goodBadUgly": {
-    "good": [
-      "Marcus Jones led New England with +10% win probability added."
-    ],
+    "good": [],
     "bad": [
       "The offense averaged -0.25 EPA per play — worse than an average offense.",
       "Allowed JAX touchdowns on 5 of 5 red-zone trips (100%), well above the 55% league norm."
@@ -190,7 +188,7 @@
     "playerName": "Marcus Jones",
     "wpa": 0.10255214571952795,
     "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/eteesniqc4caawrpbfuh",
-    "reason": "Led New England with +10% win probability added, mostly on defense."
+    "reason": "Mostly on defense."
   },
   "scoring": {
     "us": {

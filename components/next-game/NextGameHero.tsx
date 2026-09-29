@@ -51,7 +51,8 @@ export function NextGameHero({
     subtext.push(`Wind ${weather.wind}`, `${weather.precipitation} chance of precip`);
   }
   if (bettingContext) {
-    subtext.push(`NE ${bettingContext.spread > 0 ? "+" : ""}${bettingContext.spread}`);
+    // The only place the line appears (a Matchups-tab footer used to repeat it).
+    subtext.push(`NE ${bettingContext.spread > 0 ? "+" : ""}${bettingContext.spread}`, `O/U ${bettingContext.overUnder}`);
   }
 
   return (

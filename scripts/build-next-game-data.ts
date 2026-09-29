@@ -204,6 +204,10 @@ async function main() {
     offense: offenseEpaRankOnly(leagueEpaTable, opponent),
     defense: defenseEpaRankOnly(leagueEpaTable, opponent),
   };
+  const ourEpaRank = {
+    offense: offenseEpaRankOnly(leagueEpaTable, TEAM),
+    defense: defenseEpaRankOnly(leagueEpaTable, TEAM),
+  };
   // Success rate: raw and this season only, the same numbers Home and the
   // League table show — only the EPA ranks above blend in last season.
   const successRate = {
@@ -351,6 +355,7 @@ async function main() {
     gameId: nextGame.id,
     opponent,
     opponentEpaRank,
+    ourEpaRank,
     successRate,
     positionGroupMatchups,
     matchupOfTheWeek,

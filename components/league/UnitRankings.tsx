@@ -18,18 +18,34 @@ import { formatUnitRate } from "@/lib/util/format";
 // phone, and the question people actually ask is about one unit. The
 // choice lives in the URL (?unit=), so Home's grade chips link straight
 // to the right ranking.
+//
+// Whole-team offense and defense ride in the same picker (teamViews)
+// rather than as two more 32-row tables below it: one table, one way to
+// use it, and three fewer phone screens of scrolling.
+export interface TeamView {
+  key: string;
+  /** Column headings for the two numbers. */
+  columns: [string, string];
+  /** Already ranked, best first. */
+  rows: Array<{ team: string; main: string; side: string; bar?: number }>;
+  note: string;
+}
+
 export function UnitRankings({
   league,
   highlightTeam,
   noisyUnits,
   initialUnit,
+  teamViews = [],
 }: {
   league: PositionGroupLeagueTeamEntry[];
   highlightTeam: string;
   noisyUnits: string[];
   initialUnit?: string;
+  teamViews?: TeamView[];
 }) {
-  const units = league[0]?.groups.map((g) => g.group) ?? [];
+  const unitGroups = league[0]?.groups.map((g) => g.group) ?? [];
+  const units = [...teamViews.map((v) => v.key), ...unitGroups];
   const validInitial = units.includes(initialUnit ?? "") ? initialUnit : undefined;
   const [unit, setUnit] = useWindowParam("unit", validInitial, units[0] ?? "");
   // Arriving from a link (e.g. Home's "Pass Defense" chip), the chosen
@@ -43,16 +59,32 @@ export function UnitRankings({
     strip.scrollLeft = button.offsetLeft - (strip.clientWidth - button.clientWidth) / 2;
   }, [unit]);
 
-  const rows = useMemo(
-    () =>
-      league
-        .map((t) => ({ team: t.team, entry: t.groups.find((g) => g.group === unit) }))
-        .filter((r): r is { team: string; entry: NonNullable<typeof r.entry> } => r.entry !== undefined)
-        .sort((a, b) => b.entry.grade - a.entry.grade),
-    [league, unit]
-  );
-  if (rows.length === 0) return null;
-  const rateLabel = rows[0].entry.rawLabel;
+  const view: TeamView | null = useMemo(() => {
+    const teamView = teamViews.find((v) => v.key === unit);
+    if (teamView) return teamView;
+    const ranked = league
+      .map((t) => ({ team: t.team, entry: t.groups.find((g) => g.group === unit) }))
+      .filter((r): r is { team: string; entry: NonNullable<typeof r.entry> } => r.entry !== undefined)
+      .sort((a, b) => b.entry.grade - a.entry.grade);
+    if (ranked.length === 0) return null;
+    const rateLabel = ranked[0].entry.rawLabel;
+    return {
+      key: unit,
+      columns: ["Grade", rateLabel.charAt(0).toUpperCase() + rateLabel.slice(1)],
+      rows: ranked.map((r) => ({
+        team: r.team,
+        main: String(r.entry.grade),
+        side: formatUnitRate(r.entry.rawLabel, r.entry.rawValue),
+        bar: r.entry.grade,
+      })),
+      note:
+        "Grades are out of 100 (100 = best in the NFL), adjusted for each team's opponents, 2026 games only. The right-hand column is the team's actual rate, unadjusted." +
+        (noisyUnits.includes(unit)
+          ? ` ${unit} is a noisy stat — teams separate slowly even over a full season, so read nearby ranks as a tier, not an order.`
+          : ""),
+    };
+  }, [league, unit, teamViews, noisyUnits]);
+  if (!view) return null;
 
   return (
     <div className="lift overflow-hidden rounded-lg border border-border bg-surface">
@@ -79,13 +111,11 @@ export function UnitRankings({
       <div className="flex items-center gap-3 px-4 pb-1 pt-3 text-[11px] uppercase tracking-wide text-muted">
         <span className="w-8">Rank</span>
         <span className="flex-1">Team</span>
-        <span className="w-14 text-right">Grade</span>
-        <span className="w-24 text-right normal-case tracking-normal">
-          {rateLabel.charAt(0).toUpperCase() + rateLabel.slice(1)}
-        </span>
+        <span className="w-14 text-right normal-case tracking-normal">{view.columns[0]}</span>
+        <span className="w-24 text-right normal-case tracking-normal">{view.columns[1]}</span>
       </div>
       <ol>
-        {rows.map((r, i) => {
+        {view.rows.map((r, i) => {
           const isUs = r.team === highlightTeam;
           return (
             <li
@@ -100,23 +130,16 @@ export function UnitRankings({
               <span className="flex flex-1 items-center gap-2">
                 <TeamLogo team={r.team} size={20} />
                 <span className="w-10 text-foreground">{r.team}</span>
-                <PercentBar value={r.entry.grade} className="hidden max-w-40 sm:block" />
+                {r.bar !== undefined && <PercentBar value={r.bar} className="hidden max-w-40 sm:block" />}
               </span>
-              <span className="w-14 text-right tabular-nums text-foreground">{r.entry.grade}</span>
-              <span className="w-24 text-right text-xs tabular-nums text-muted">
-                {formatUnitRate(r.entry.rawLabel, r.entry.rawValue)}
-              </span>
+              <span className="w-14 text-right tabular-nums text-foreground">{r.main}</span>
+              <span className="w-24 text-right text-xs tabular-nums text-muted">{r.side}</span>
             </li>
           );
         })}
       </ol>
 
-      <p className="border-t border-border px-4 py-2 text-[11px] text-muted">
-        Grades are out of 100 (100 = best in the NFL), adjusted for each team&apos;s opponents,
-        2026 games only. The right-hand column is the team&apos;s actual rate, unadjusted.
-        {noisyUnits.includes(unit) &&
-          ` ${unit} is a noisy stat — teams separate slowly even over a full season, so read nearby ranks as a tier, not an order.`}
-      </p>
+      <p className="border-t border-border px-4 py-2 text-[11px] text-muted">{view.note}</p>
     </div>
   );
 }

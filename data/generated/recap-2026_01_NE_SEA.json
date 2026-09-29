@@ -176,7 +176,7 @@
   "goodBadUgly": {
     "good": [
       "Held SEA to 2 of 11 on third down (18%), well below the 40% league norm.",
-      "A.J. Brown led New England with +6% win probability added."
+      "Allowed SEA touchdowns on 1 of 3 red-zone trips (33%), well below the 55% league norm."
     ],
     "bad": [
       "The offense averaged -0.11 EPA per play — worse than an average offense.",
@@ -191,7 +191,7 @@
     "playerName": "A.J. Brown",
     "wpa": 0.057931125164031906,
     "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/qfhvjyssf0lwsh0kienp",
-    "reason": "Led New England with +6% win probability added, mostly as a receiver."
+    "reason": "Mostly as a receiver."
   },
   "scoring": {
     "us": {

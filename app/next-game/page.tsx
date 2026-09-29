@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import * as store from "@/lib/data/store";
-import { StatCard } from "@/components/shared/StatCard";
-import { SuccessRateMatchup } from "@/components/next-game/SuccessRateMatchup";
+import { TaleOfTheTape } from "@/components/next-game/TaleOfTheTape";
 import { MatchupGrid } from "@/components/shared/MatchupGrid";
 import { PriorBlendNote } from "@/components/next-game/PriorBlendNote";
 import { InjuryTable } from "@/components/shared/InjuryTable";
@@ -12,8 +11,7 @@ import { MatchupOfTheWeekCallout } from "@/components/next-game/MatchupOfTheWeek
 import { RecentFormTrend } from "@/components/next-game/RecentFormTrend";
 import { NextGameHero } from "@/components/next-game/NextGameHero";
 import { ScorePredictor } from "@/components/next-game/ScorePredictor";
-import { formatDate, opponentLabel } from "@/lib/util/format";
-import { formatRank } from "@/lib/calc/ranks";
+import { opponentLabel } from "@/lib/util/format";
 
 export async function generateMetadata(): Promise<Metadata> {
   const [game, matchup] = await Promise.all([
@@ -57,23 +55,7 @@ export default async function NextGamePage() {
                   </div>
                 )}
 
-                <div className="grid gap-3 sm:grid-cols-2">
-                  {/* No rank badge: its green-is-good coloring reads
-                      backwards for an opponent, and it repeated the number. */}
-                  <StatCard
-                    label={`${matchup.opponent} offense, by EPA/play`}
-                    value={formatRank(matchup.opponentEpaRank.offense)}
-                  />
-                  <StatCard
-                    label={`${matchup.opponent} defense, by EPA/play`}
-                    value={formatRank(matchup.opponentEpaRank.defense)}
-                  />
-                </div>
-                <PriorBlendNote weight={matchup.priorBlendWeight} subject="These ranks" className="-mt-2" />
-
-                {matchup.successRate && (
-                  <SuccessRateMatchup opponent={matchup.opponent} successRate={matchup.successRate} />
-                )}
+                {matchup.ourEpaRank && matchup.successRate && <TaleOfTheTape matchup={matchup} />}
 
                 <MatchupOfTheWeekCallout
                   title={matchup.matchupOfTheWeek.title}
@@ -132,14 +114,6 @@ export default async function NextGamePage() {
                         </li>
                       ))}
                     </ul>
-                    {matchup.bettingContext && (
-                      <p className="mt-3 border-t border-border pt-3 text-xs text-muted">
-                        Market (as of {formatDate(matchup.bettingContext.asOf)}):{" "}
-                        {matchup.bettingContext.spread > 0 ? "+" : ""}
-                        {matchup.bettingContext.spread} spread, {matchup.bettingContext.overUnder}{" "}
-                        O/U — public perception only, not a prediction.
-                      </p>
-                    )}
                   </div>
                 </div>
               </div>

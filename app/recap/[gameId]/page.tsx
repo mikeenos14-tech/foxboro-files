@@ -65,10 +65,6 @@ export default async function RecapDetailPage({
         </div>
       )}
 
-      <p className="rounded-lg border border-border bg-surface p-4 text-sm leading-relaxed">
-        {recap.narrative}
-      </p>
-
       <div className="grid gap-4 lg:grid-cols-3">
         <div className="space-y-4 lg:col-span-2">
           <h2 className="text-lg font-semibold">Win Probability</h2>

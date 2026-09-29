@@ -296,21 +296,24 @@ async function buildPositionGroupCards(
     }
   };
 
+  // What each grade measures. The shared method (opponent-adjusted, pulled
+  // toward the league average on thin samples) is said once above the
+  // cards rather than eight times.
   const soWhatFor = (group: string, sampleSize: number): string => {
     switch (group) {
       case "QB":
       case "RB":
       case "WR":
       case "TE":
-        return `Opponent-adjusted EPA/play at ${group}, regressed to the league mean on a ${sampleSize}-play sample.`;
+        return `EPA/play at ${group}, on ${sampleSize} plays.`;
       case "Pass Protection":
-        return `Opponent-adjusted pressure rate allowed — sacks or QB hits, so a beaten block still counts when a quick throw bails it out. Team-wide, and partly the QB's own time to throw.`;
+        return `Pressure rate allowed — sacks or QB hits, so a beaten block still counts when a quick throw bails it out. Team-wide, and partly the QB's own time to throw.`;
       case "Pass Rush":
-        return `Opponent-adjusted sack rate generated, team-wide — edge rushers, interior linemen and blitzers all included.`;
+        return `Sack rate generated, team-wide — edge rushers, interior linemen and blitzers all included.`;
       case "Run Defense":
-        return `Opponent-adjusted rush EPA allowed, team-wide — the front seven and run-support safeties together.`;
+        return `Rush EPA allowed, team-wide — the front seven and run-support safeties together.`;
       case "Pass Defense":
-        return `Opponent-adjusted pass EPA allowed, team-wide — coverage and pass rush together, since the two aren't separable in this data.`;
+        return `Pass EPA allowed, team-wide — coverage and pass rush together, since the two aren't separable in this data.`;
       default:
         return "";
     }

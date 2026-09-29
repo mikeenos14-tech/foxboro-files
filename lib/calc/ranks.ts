@@ -29,9 +29,6 @@ export function gradeWords(grade: number): string {
   return "among the NFL's worst";
 }
 
-export function formatRank(rank: number, of = 32): string {
-  return `${ordinal(rank)} of ${of}`;
-}
 
 export function ordinal(n: number): string {
   const s = ["th", "st", "nd", "rd"];

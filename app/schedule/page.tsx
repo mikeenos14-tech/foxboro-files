@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import * as store from "@/lib/data/store";
 import { ScheduleTable } from "@/components/schedule/ScheduleTable";
-import { PlayoffScenarioTracker } from "@/components/schedule/PlayoffScenarioTracker";
 import { HeroAnswerCard } from "@/components/shared/HeroAnswerCard";
 import { ordinal } from "@/lib/calc/ranks";
 import { PriorBlendNote } from "@/components/next-game/PriorBlendNote";
@@ -9,14 +8,7 @@ import { PriorBlendNote } from "@/components/next-game/PriorBlendNote";
 export const metadata: Metadata = { title: "Schedule" };
 
 export default async function SchedulePage() {
-  const [rows, projection, matchup] = await Promise.all([
-    store.getSchedule(),
-    store.getSeasonProjection(),
-    store.getOpponentMatchup(),
-  ]);
-
-  const currentWeek =
-    rows.filter((r) => r.result).sort((a, b) => b.week - a.week)[0]?.week ?? 1;
+  const [rows, matchup] = await Promise.all([store.getSchedule(), store.getOpponentMatchup()]);
 
   const remaining = rows.filter((r) => !r.result);
   const remainingDivisional = remaining.filter((r) => r.isDivisional).length;
@@ -30,7 +22,7 @@ export default async function SchedulePage() {
       <div>
         <h1 className="font-display text-3xl font-bold uppercase tracking-wide text-foreground">Schedule</h1>
         <p className="text-sm text-muted">
-          Full season, with opponent strength context beyond just record.
+          Every game: results so far, and how tough the rest look.
         </p>
       </div>
 
@@ -48,8 +40,6 @@ export default async function SchedulePage() {
 
       <ScheduleTable rows={rows} />
       <PriorBlendNote weight={matchup.priorBlendWeight} subject="Win chances and opponent ranks" />
-
-      <PlayoffScenarioTracker currentWeek={currentWeek} projection={projection} />
     </div>
   );
 }

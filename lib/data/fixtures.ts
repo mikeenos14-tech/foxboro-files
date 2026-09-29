@@ -337,6 +337,7 @@ export const opponentMatchup: OpponentMatchupData = {
   gameId: "2026_02_PIT_NE",
   opponent: "PIT",
   opponentEpaRank: { offense: 24, defense: 19 },
+  ourEpaRank: { offense: 8, defense: 12 },
   successRate: {
     us: { offense: { value: 0.47, leagueRank: 6, leaguePercentile: 84 }, defense: { value: 0.43, leagueRank: 10, leaguePercentile: 71 } },
     them: { offense: { value: 0.42, leagueRank: 22, leaguePercentile: 32 }, defense: { value: 0.46, leagueRank: 20, leaguePercentile: 39 } },
