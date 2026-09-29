@@ -10,7 +10,6 @@ import { Tabs } from "@/components/shared/Tabs";
 import { MatchupOfTheWeekCallout } from "@/components/next-game/MatchupOfTheWeekCallout";
 import { RecentFormTrend } from "@/components/next-game/RecentFormTrend";
 import { NextGameHero } from "@/components/next-game/NextGameHero";
-import { ScorePredictor } from "@/components/next-game/ScorePredictor";
 import { opponentLabel } from "@/lib/util/format";
 
 export async function generateMetadata(): Promise<Metadata> {
@@ -22,13 +21,11 @@ export async function generateMetadata(): Promise<Metadata> {
 }
 
 export default async function NextGamePage() {
-  const [game, matchup, schedule, injuries] = await Promise.all([
+  const [game, matchup, injuries] = await Promise.all([
     store.getNextGame(),
     store.getOpponentMatchup(),
-    store.getSchedule(),
     store.getInjuries(),
   ]);
-  const neWinProb = schedule.find((r) => r.gameId === game.id)?.winProbabilityEstimate;
 
   return (
     <div className="space-y-6">
@@ -145,7 +142,6 @@ export default async function NextGamePage() {
 
       {/* A for-fun guess box that saves nothing — below the real content,
           not above it, where on a phone it pushed the preview off-screen. */}
-      <ScorePredictor opponent={matchup.opponent} neWinProb={neWinProb} />
     </div>
   );
 }

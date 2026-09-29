@@ -52,7 +52,7 @@ export function NextGameHero({
   }
   if (bettingContext) {
     // The only place the line appears (a Matchups-tab footer used to repeat it).
-    subtext.push(`NE ${bettingContext.spread > 0 ? "+" : ""}${bettingContext.spread}`, `O/U ${bettingContext.overUnder}`);
+    subtext.push(`NE ${bettingContext.spread > 0 ? "+" : ""}${bettingContext.spread}`, `O/U ${bettingContext.overUnder} (betting market, not a prediction)`);
   }
 
   return (

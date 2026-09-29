@@ -32,7 +32,6 @@ A page-by-page rundown of what's actually live on the site (foxboro-files.vercel
   - **Preview** — AI-written preview take, Tale of the Tape (each offense vs. the defense it faces: EPA rank and success rate), Matchup of the Week callout.
   - **Matchups** — 5 position-group grades (pass/rush offense vs. defense, pass protection vs. rush), opponent-adjusted and blended with real 2025 prior-season data; recent form; head-to-head history.
   - **Injuries** — both teams side by side: the official report once it's out (with patriots.com's same-day practice status, parsed in code), otherwise only designations made since each team's last game — never last week's list or healthy scratches.
-- "Make the Call" score predictor, below the tabs.
 
 ## Schedule
 

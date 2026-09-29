@@ -19,7 +19,7 @@ Used for QB Deep Dive and Position Grades. These get the same leave-one-out oppo
 
 **Outside the tiers — success rate.** The share of plays that improved the offense's chances of scoring (positive EPA, nflverse's own `success` column). It's always raw: never opponent-adjusted, never blended, so a team's success rate is the same number on every page. Where: **Home's Team Strength cards, Around the League's rankings, Next Game's Tale of the Tape, and every recap.** EPA says how much a team gains per play; success rate says how often it gains anything, so a team living on a few big plays shows up as high EPA with a low success rate.
 
-**What "opponent-adjusted" means, concretely:** a defense doesn't just get credit for "opponents scored X EPA against us" — it gets compared against what those same opponents do in their *other* games. Shutting down a normally-explosive offense counts for more than shutting down a team that's bad against everybody. (This was tightened up this session — see "Recent fixes" below.)
+**What "opponent-adjusted" means, concretely:** a defense doesn't just get credit for "opponents scored X EPA against us" — it gets compared against what those same opponents do in their *other* games. Shutting down a normally-explosive offense counts for more than shutting down a team that's bad against everybody. Each opponent's baseline is itself shrunk toward the league average when it's built on few games — without that, one fluky Week 1 game was trusted at face value and briefly ranked New England the NFL's #1 pass offense despite a negative raw EPA/play.
 
 ---
 
@@ -222,14 +222,6 @@ All three were found by a reader noticing a number looked wrong, which is the wo
 The passing check was added after a fourth self-consistent error shipped: nflverse marks sacks as pass attempts, the site counted them, and Maye read 51/89 for 547 yards when the real line was 51/80 for 585. Every QB in the league was off. The same pass found the 2025 snapshot had folded in the playoffs (5,222 yards for a 4,394-yard season). All play-by-play is now filtered to the regular season at load.
 
 It also asserts cross-file agreement: team EPA and success rate (value and rank) must match the league rankings file to 1e-9, Next Game's success rates must match the League table for both teams, each recap's success rate must be a whole number of its plays, position-group cards must match the league table, and no LB card may exist. If nflverse's stats file is missing it fails rather than passing having checked nothing. CI gates on it, and on the unit tests (`npm test`) covering the shrinkage, prior-blend taper, win probability, reliability gate, window construction, box-score rule, AI checks, stat-built recap bullets, Player of the Game crediting, the injury-report parser (on real reports) and the stat math.
-
----
-
-## Recent fixes this session, if useful context
-
-- **EPA opponent-adjustment bug**: a defense's "adjustment baseline" (what its opponents do in their other games) had no protection against small samples — a single fluky opponent game, common in Week 1-2, could get trusted at full face value. This is what let NE briefly show as the #1 pass offense in the NFL despite a negative raw EPA/play. Fixed by shrinking thin-sample baselines toward the league average, same statistical idea as regression-to-the-mean.
-- **Recap archive**: used to silently overwrite itself down to just the most recent game. Now every completed game stays archived permanently.
-- **Pass Protection grade** (formerly "OL"): was pure sack rate. Now uses sacks + QB hits, so a lineman who gets beaten but is bailed out by a quick throw doesn't get a free pass.
 
 ---
 

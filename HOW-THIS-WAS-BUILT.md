@@ -169,7 +169,7 @@ without anyone touching anything.
 
 This is the section to remember.
 
-### Tests: 120-odd small "does this still work?" checks
+### Tests: about 160 small "does this still work?" checks
 
 A test is a question with a known answer. "If a receiver catches 2 of 3 catchable
 balls, is the rate 67%?" Run them all in under a second. If a change breaks something
@@ -203,6 +203,50 @@ It found a fourth problem within a minute of being written.
 > **The lesson, and it generalizes far beyond code:** "my numbers agree with each
 > other" is not evidence. "My numbers agree with someone else's, calculated
 > differently" is.
+
+It happened again later, and it was the biggest one yet. The data source marks a
+**sack as a pass attempt** (the quarterback dropped back to pass, after all), and the
+site counted them. Drake Maye's line read **51 of 89 for 547 yards**. The real box
+score was **51 of 80 for 585**. Every quarterback in the league was wrong, every page
+agreed with every other page, and nothing internal could see it. The same check found
+that last season's snapshot had quietly included the playoffs (5,222 yards for a
+4,394-yard season).
+
+Now the verifier checks every starting quarterback's line against the official
+numbers *and* against the NFL's player-tracking data (Next Gen Stats), which is a
+second, completely separate source. It also checks that every "see the plays" list
+has exactly as many plays as the number it sits under.
+
+### Checking the AI's writing
+
+The recaps, previews and news digest are written by an AI. Telling it the rules
+wasn't enough. It broke them in text that went live:
+
+- "The Jaguars came to **Foxboro**" (the game was in Jacksonville).
+- "**Remy** Stevenson." It was handed "R.Stevenson" and made up a first name.
+- "Ugly wins are what you need in **October**," about a September game.
+
+So every draft is now checked by plain code for those specific mistakes before it's
+allowed on the site: wrong city, made-up first names, dates and months that weren't
+given, time-of-day words that don't match kickoff. If a draft fails, the AI gets one
+more try. If that fails too, **nothing is published**. A blank spot beats a wrong one.
+Each piece of AI writing also has a "Flag it" link for anything the checks miss.
+
+The Good/Bad/Ugly lists used to be AI-written too. Restating numbers was exactly
+where it slipped, so those are now built straight from the stats by code.
+
+### Knowing when it's stale
+
+A refresh can "succeed" even when one of its downloads failed. There's no saved copy
+to fall back on, so a source could be broken for days without anyone noticing. Now:
+
+- Every download is recorded, and a refresh fails loudly if any source is older than
+  it should be, or if a game finished more than 30 hours ago without a recap.
+- A **daily health check** confirms the sources are fresh, the latest runs succeeded
+  and the live site matches the latest data. If not, it opens a GitHub issue, which
+  emails you.
+- The site's footer warns readers itself if the stats are more than a day and a half
+  old during the season.
 
 ---
 
@@ -262,6 +306,27 @@ AI is confident by default, including when it's wrong. "Can you verify that agai
 the real data?" is close to a superpower. So is "show me what that looks like in ten
 weeks."
 
+### Test it before it goes live
+
+Every change in this project went straight to the live site. Most were fine. A few
+weren't: one refresh failed because two robots tried to write the same file, and the
+AI checker's first version blocked a perfectly good recap because it misread
+"A.J. Brown" as an abbreviated name. Each was caught within minutes, but only
+because someone was watching.
+
+The fix is a habit, not code. Put a change on a separate branch, open the private
+preview link Vercel makes for it, look, *then* make it live.
+
+### Say it once
+
+A later cleanup pass found the site repeating itself: the point differential four
+times on the home page, the betting line twice on one page, a summary paragraph
+restating the stat cards right under it, the same method note on eight cards in a
+row. Nothing was wrong. It was just longer than it needed to be. The League page got
+about 38% shorter on a phone and lost nothing.
+
+**Worth asking of any page: "Where else does this number appear?"**
+
 ### Simple beats clever
 
 There was a point today where the statistics were getting more elaborate than the
@@ -283,13 +348,14 @@ is sometimes yes, and an AI will rarely volunteer it.
 | **Data storage** | Plain files, no database — because the source gives us everything |
 | **Automation** | GitHub Actions — a robot on a schedule |
 | **Hosting** | Vercel — rebuilds automatically when data changes |
-| **Safety net** | 120-odd tests + a verifier that checks against an outside source |
-| **Size** | ~14,000 lines, 131 files, 7 runtime dependencies |
+| **Safety net** | About 160 tests, a verifier that checks against outside sources, and a daily health check |
+| **Size** | ~17,500 lines, 159 code files, 7 runtime dependencies |
 
-And the five habits worth carrying to the next project:
+And the six habits worth carrying to the next project:
 
 1. **Trust your gut when a number looks wrong.** You were right both times today.
 2. **Consistent isn't correct.** Always ask what outside source agrees.
 3. **Ask what a number means**, not just whether it computed.
 4. **Ask what it looks like in three months.**
 5. **Ask if you're overbuilding.** Regularly.
+6. **Consistent isn't current either.** Know how you'd find out if the data stopped updating.
