@@ -16,7 +16,7 @@
       },
       {
         "group": "WR",
-        "grade": 71,
+        "grade": 77,
         "rawValue": 0.4963942579275475,
         "rawLabel": "EPA/play"
       },
@@ -34,7 +34,7 @@
       },
       {
         "group": "Pass Rush",
-        "grade": 68,
+        "grade": 71,
         "rawValue": 0.07563025210084033,
         "rawLabel": "sack rate"
       },
@@ -57,7 +57,7 @@
     "groups": [
       {
         "group": "QB",
-        "grade": 29,
+        "grade": 32,
         "rawValue": -0.09287334014933797,
         "rawLabel": "EPA/play"
       },
@@ -75,13 +75,13 @@
       },
       {
         "group": "TE",
-        "grade": 39,
+        "grade": 35,
         "rawValue": 0.09131597756225229,
         "rawLabel": "EPA/play"
       },
       {
         "group": "Pass Protection",
-        "grade": 68,
+        "grade": 65,
         "rawValue": 0.15789473684210525,
         "rawLabel": "sack + hit rate allowed"
       },
@@ -128,7 +128,7 @@
       },
       {
         "group": "TE",
-        "grade": 23,
+        "grade": 26,
         "rawValue": -0.09523772324367452,
         "rawLabel": "EPA/play"
       },
@@ -146,7 +146,7 @@
       },
       {
         "group": "Run Defense",
-        "grade": 19,
+        "grade": 16,
         "rawValue": 0.03818084232232256,
         "rawLabel": "rush EPA allowed"
       },
@@ -163,7 +163,7 @@
     "groups": [
       {
         "group": "QB",
-        "grade": 74,
+        "grade": 71,
         "rawValue": 0.2226633746057515,
         "rawLabel": "EPA/play"
       },
@@ -175,19 +175,19 @@
       },
       {
         "group": "WR",
-        "grade": 77,
+        "grade": 81,
         "rawValue": 0.5306727294451155,
         "rawLabel": "EPA/play"
       },
       {
         "group": "TE",
-        "grade": 68,
+        "grade": 71,
         "rawValue": 0.335342839709483,
         "rawLabel": "EPA/play"
       },
       {
         "group": "Pass Protection",
-        "grade": 84,
+        "grade": 87,
         "rawValue": 0.13274336283185842,
         "rawLabel": "sack + hit rate allowed"
       },
@@ -205,7 +205,7 @@
       },
       {
         "group": "Pass Defense",
-        "grade": 58,
+        "grade": 55,
         "rawValue": 0.016003857521705418,
         "rawLabel": "pass EPA allowed"
       }
@@ -246,19 +246,19 @@
       },
       {
         "group": "Pass Rush",
-        "grade": 29,
+        "grade": 32,
         "rawValue": 0.05357142857142857,
         "rawLabel": "sack rate"
       },
       {
         "group": "Run Defense",
-        "grade": 39,
+        "grade": 42,
         "rawValue": 0.0015618183350323235,
         "rawLabel": "rush EPA allowed"
       },
       {
         "group": "Pass Defense",
-        "grade": 55,
+        "grade": 52,
         "rawValue": 0.03669132173935829,
         "rawLabel": "pass EPA allowed"
       }
@@ -269,19 +269,19 @@
     "groups": [
       {
         "group": "QB",
-        "grade": 68,
+        "grade": 65,
         "rawValue": 0.10434081273187908,
         "rawLabel": "EPA/play"
       },
       {
         "group": "RB",
-        "grade": 61,
+        "grade": 58,
         "rawValue": -0.09855580056812323,
         "rawLabel": "EPA/play"
       },
       {
         "group": "WR",
-        "grade": 61,
+        "grade": 65,
         "rawValue": 0.32392059953874114,
         "rawLabel": "EPA/play"
       },
@@ -293,7 +293,7 @@
       },
       {
         "group": "Pass Protection",
-        "grade": 26,
+        "grade": 23,
         "rawValue": 0.19090909090909092,
         "rawLabel": "sack + hit rate allowed"
       },
@@ -311,7 +311,7 @@
       },
       {
         "group": "Pass Defense",
-        "grade": 65,
+        "grade": 61,
         "rawValue": -0.06769687127116447,
         "rawLabel": "pass EPA allowed"
       }
@@ -322,7 +322,7 @@
     "groups": [
       {
         "group": "QB",
-        "grade": 52,
+        "grade": 55,
         "rawValue": 0.028782005236719248,
         "rawLabel": "EPA/play"
       },
@@ -352,19 +352,19 @@
       },
       {
         "group": "Pass Rush",
-        "grade": 35,
+        "grade": 39,
         "rawValue": 0.0625,
         "rawLabel": "sack rate"
       },
       {
         "group": "Run Defense",
-        "grade": 42,
+        "grade": 45,
         "rawValue": -0.001763562703970542,
         "rawLabel": "rush EPA allowed"
       },
       {
         "group": "Pass Defense",
-        "grade": 61,
+        "grade": 58,
         "rawValue": -0.003437077068368843,
         "rawLabel": "pass EPA allowed"
       }
@@ -381,7 +381,7 @@
       },
       {
         "group": "RB",
-        "grade": 55,
+        "grade": 52,
         "rawValue": -0.10400416588067624,
         "rawLabel": "EPA/play"
       },
@@ -393,7 +393,7 @@
       },
       {
         "group": "TE",
-        "grade": 61,
+        "grade": 65,
         "rawValue": 0.3052322332134837,
         "rawLabel": "EPA/play"
       },
@@ -411,13 +411,13 @@
       },
       {
         "group": "Run Defense",
-        "grade": 35,
+        "grade": 39,
         "rawValue": 0.0035214146651654146,
         "rawLabel": "rush EPA allowed"
       },
       {
         "group": "Pass Defense",
-        "grade": 68,
+        "grade": 65,
         "rawValue": -0.07182750839498836,
         "rawLabel": "pass EPA allowed"
       }
@@ -428,7 +428,7 @@
     "groups": [
       {
         "group": "QB",
-        "grade": 26,
+        "grade": 29,
         "rawValue": -0.05780919801073134,
         "rawLabel": "EPA/play"
       },
@@ -446,13 +446,13 @@
       },
       {
         "group": "TE",
-        "grade": 45,
+        "grade": 42,
         "rawValue": 0.19738244574543182,
         "rawLabel": "EPA/play"
       },
       {
         "group": "Pass Protection",
-        "grade": 58,
+        "grade": 55,
         "rawValue": 0.16793893129770993,
         "rawLabel": "sack + hit rate allowed"
       },
@@ -470,7 +470,7 @@
       },
       {
         "group": "Pass Defense",
-        "grade": 39,
+        "grade": 35,
         "rawValue": 0.06588662715756168,
         "rawLabel": "pass EPA allowed"
       }
@@ -493,7 +493,7 @@
       },
       {
         "group": "WR",
-        "grade": 48,
+        "grade": 52,
         "rawValue": 0.22733539861602062,
         "rawLabel": "EPA/play"
       },
@@ -540,7 +540,7 @@
       },
       {
         "group": "RB",
-        "grade": 87,
+        "grade": 90,
         "rawValue": 0.0534929213911386,
         "rawLabel": "EPA/play"
       },
@@ -552,7 +552,7 @@
       },
       {
         "group": "TE",
-        "grade": 35,
+        "grade": 32,
         "rawValue": -0.0003575843820623005,
         "rawLabel": "EPA/play"
       },
@@ -570,7 +570,7 @@
       },
       {
         "group": "Run Defense",
-        "grade": 45,
+        "grade": 48,
         "rawValue": -0.02613070672575584,
         "rawLabel": "rush EPA allowed"
       },
@@ -593,7 +593,7 @@
       },
       {
         "group": "RB",
-        "grade": 58,
+        "grade": 55,
         "rawValue": -0.06653815463888153,
         "rawLabel": "EPA/play"
       },
@@ -611,7 +611,7 @@
       },
       {
         "group": "Pass Protection",
-        "grade": 87,
+        "grade": 81,
         "rawValue": 0.11827956989247312,
         "rawLabel": "sack + hit rate allowed"
       },
@@ -623,13 +623,13 @@
       },
       {
         "group": "Run Defense",
-        "grade": 48,
+        "grade": 55,
         "rawValue": -0.061190324613404984,
         "rawLabel": "rush EPA allowed"
       },
       {
         "group": "Pass Defense",
-        "grade": 32,
+        "grade": 23,
         "rawValue": 0.13940625957034553,
         "rawLabel": "pass EPA allowed"
       }
@@ -640,13 +640,13 @@
     "groups": [
       {
         "group": "QB",
-        "grade": 35,
+        "grade": 39,
         "rawValue": -0.07023302525487182,
         "rawLabel": "EPA/play"
       },
       {
         "group": "RB",
-        "grade": 42,
+        "grade": 39,
         "rawValue": -0.12091106105024815,
         "rawLabel": "EPA/play"
       },
@@ -658,13 +658,13 @@
       },
       {
         "group": "TE",
-        "grade": 71,
+        "grade": 74,
         "rawValue": 0.399043979483395,
         "rawLabel": "EPA/play"
       },
       {
         "group": "Pass Protection",
-        "grade": 81,
+        "grade": 84,
         "rawValue": 0.13,
         "rawLabel": "sack + hit rate allowed"
       },
@@ -693,13 +693,13 @@
     "groups": [
       {
         "group": "QB",
-        "grade": 77,
+        "grade": 74,
         "rawValue": 0.23575082171695094,
         "rawLabel": "EPA/play"
       },
       {
         "group": "RB",
-        "grade": 90,
+        "grade": 94,
         "rawValue": 0.07135340867690262,
         "rawLabel": "EPA/play"
       },
@@ -735,7 +735,7 @@
       },
       {
         "group": "Pass Defense",
-        "grade": 81,
+        "grade": 77,
         "rawValue": -0.12668725496570732,
         "rawLabel": "pass EPA allowed"
       }
@@ -746,7 +746,7 @@
     "groups": [
       {
         "group": "QB",
-        "grade": 55,
+        "grade": 58,
         "rawValue": 0.155023362855993,
         "rawLabel": "EPA/play"
       },
@@ -758,13 +758,13 @@
       },
       {
         "group": "WR",
-        "grade": 52,
+        "grade": 55,
         "rawValue": 0.28992726019621584,
         "rawLabel": "EPA/play"
       },
       {
         "group": "TE",
-        "grade": 74,
+        "grade": 77,
         "rawValue": 0.497955318582972,
         "rawLabel": "EPA/play"
       },
@@ -829,7 +829,7 @@
       },
       {
         "group": "Pass Rush",
-        "grade": 65,
+        "grade": 68,
         "rawValue": 0.0707070707070707,
         "rawLabel": "sack rate"
       },
@@ -841,7 +841,7 @@
       },
       {
         "group": "Pass Defense",
-        "grade": 42,
+        "grade": 39,
         "rawValue": 0.09707345369062303,
         "rawLabel": "pass EPA allowed"
       }
@@ -858,7 +858,7 @@
       },
       {
         "group": "RB",
-        "grade": 48,
+        "grade": 45,
         "rawValue": -0.09352877150377013,
         "rawLabel": "EPA/play"
       },
@@ -876,7 +876,7 @@
       },
       {
         "group": "Pass Protection",
-        "grade": 61,
+        "grade": 58,
         "rawValue": 0.14678899082568808,
         "rawLabel": "sack + hit rate allowed"
       },
@@ -888,7 +888,7 @@
       },
       {
         "group": "Run Defense",
-        "grade": 32,
+        "grade": 35,
         "rawValue": 0.012423251286796182,
         "rawLabel": "rush EPA allowed"
       },
@@ -905,7 +905,7 @@
     "groups": [
       {
         "group": "QB",
-        "grade": 32,
+        "grade": 35,
         "rawValue": -0.02009456008167867,
         "rawLabel": "EPA/play"
       },
@@ -923,7 +923,7 @@
       },
       {
         "group": "TE",
-        "grade": 65,
+        "grade": 68,
         "rawValue": 0.2493094742666083,
         "rawLabel": "EPA/play"
       },
@@ -958,50 +958,50 @@
     "groups": [
       {
         "group": "QB",
-        "grade": 58,
-        "rawValue": 0.14765278678073127,
+        "grade": 23,
+        "rawValue": -0.10492719460663845,
         "rawLabel": "EPA/play"
       },
       {
         "group": "RB",
-        "grade": 39,
-        "rawValue": -0.15465785292880843,
+        "grade": 65,
+        "rawValue": -0.0746066080387927,
         "rawLabel": "EPA/play"
       },
       {
         "group": "WR",
-        "grade": 74,
-        "rawValue": 0.5054930704315445,
+        "grade": 48,
+        "rawValue": 0.2205416669592658,
         "rawLabel": "EPA/play"
       },
       {
         "group": "TE",
-        "grade": 77,
-        "rawValue": 0.59180947627609,
+        "grade": 58,
+        "rawValue": 0.30170627099420577,
         "rawLabel": "EPA/play"
       },
       {
         "group": "Pass Protection",
-        "grade": 23,
-        "rawValue": 0.19117647058823528,
+        "grade": 26,
+        "rawValue": 0.17708333333333334,
         "rawLabel": "sack + hit rate allowed"
       },
       {
         "group": "Pass Rush",
-        "grade": 39,
-        "rawValue": 0.05172413793103448,
+        "grade": 19,
+        "rawValue": 0.03260869565217391,
         "rawLabel": "sack rate"
       },
       {
         "group": "Run Defense",
-        "grade": 13,
-        "rawValue": 0.06706696256457988,
+        "grade": 23,
+        "rawValue": 0.03259632155209414,
         "rawLabel": "rush EPA allowed"
       },
       {
         "group": "Pass Defense",
-        "grade": 35,
-        "rawValue": 0.06565725725658017,
+        "grade": 32,
+        "rawValue": 0.12022810668170657,
         "rawLabel": "pass EPA allowed"
       }
     ]
@@ -1017,7 +1017,7 @@
       },
       {
         "group": "RB",
-        "grade": 52,
+        "grade": 48,
         "rawValue": -0.11562754752320778,
         "rawLabel": "EPA/play"
       },
@@ -1029,25 +1029,25 @@
       },
       {
         "group": "TE",
-        "grade": 26,
+        "grade": 23,
         "rawValue": -0.06361248770553221,
         "rawLabel": "EPA/play"
       },
       {
         "group": "Pass Protection",
-        "grade": 52,
+        "grade": 42,
         "rawValue": 0.16346153846153846,
         "rawLabel": "sack + hit rate allowed"
       },
       {
         "group": "Pass Rush",
-        "grade": 23,
+        "grade": 26,
         "rawValue": 0.04672897196261682,
         "rawLabel": "sack rate"
       },
       {
         "group": "Run Defense",
-        "grade": 71,
+        "grade": 74,
         "rawValue": -0.1369821077096276,
         "rawLabel": "rush EPA allowed"
       },
@@ -1064,50 +1064,50 @@
     "groups": [
       {
         "group": "QB",
-        "grade": 71,
-        "rawValue": 0.1483352121188585,
+        "grade": 77,
+        "rawValue": 0.16978635466054942,
         "rawLabel": "EPA/play"
       },
       {
         "group": "RB",
-        "grade": 94,
-        "rawValue": 0.06957842072060184,
+        "grade": 87,
+        "rawValue": 0.023320578667196484,
         "rawLabel": "EPA/play"
       },
       {
         "group": "WR",
-        "grade": 84,
-        "rawValue": 0.4870475588396591,
+        "grade": 68,
+        "rawValue": 0.34675784501969437,
         "rawLabel": "EPA/play"
       },
       {
         "group": "TE",
-        "grade": 29,
-        "rawValue": -0.026613836756345165,
+        "grade": 45,
+        "rawValue": 0.19093709970507478,
         "rawLabel": "EPA/play"
       },
       {
         "group": "Pass Protection",
-        "grade": 42,
-        "rawValue": 0.18571428571428572,
+        "grade": 68,
+        "rawValue": 0.15384615384615385,
         "rawLabel": "sack + hit rate allowed"
       },
       {
         "group": "Pass Rush",
-        "grade": 71,
-        "rawValue": 0.07936507936507936,
+        "grade": 61,
+        "rawValue": 0.07692307692307693,
         "rawLabel": "sack rate"
       },
       {
         "group": "Run Defense",
-        "grade": 55,
-        "rawValue": -0.0654545226960912,
+        "grade": 19,
+        "rawValue": 0.03711991371381064,
         "rawLabel": "rush EPA allowed"
       },
       {
         "group": "Pass Defense",
-        "grade": 23,
-        "rawValue": 0.16754994467993375,
+        "grade": 81,
+        "rawValue": -0.10503026009330979,
         "rawLabel": "pass EPA allowed"
       }
     ]
@@ -1129,7 +1129,7 @@
       },
       {
         "group": "WR",
-        "grade": 65,
+        "grade": 71,
         "rawValue": 0.376037918397705,
         "rawLabel": "EPA/play"
       },
@@ -1170,7 +1170,7 @@
     "groups": [
       {
         "group": "QB",
-        "grade": 39,
+        "grade": 42,
         "rawValue": -0.017431377812885732,
         "rawLabel": "EPA/play"
       },
@@ -1182,7 +1182,7 @@
       },
       {
         "group": "WR",
-        "grade": 35,
+        "grade": 32,
         "rawValue": 0.13599783083507275,
         "rawLabel": "EPA/play"
       },
@@ -1200,13 +1200,13 @@
       },
       {
         "group": "Pass Rush",
-        "grade": 48,
+        "grade": 45,
         "rawValue": 0.0707070707070707,
         "rawLabel": "sack rate"
       },
       {
         "group": "Run Defense",
-        "grade": 29,
+        "grade": 32,
         "rawValue": -0.015124969167896355,
         "rawLabel": "rush EPA allowed"
       },
@@ -1223,7 +1223,7 @@
     "groups": [
       {
         "group": "QB",
-        "grade": 23,
+        "grade": 26,
         "rawValue": -0.13327501332047956,
         "rawLabel": "EPA/play"
       },
@@ -1235,19 +1235,19 @@
       },
       {
         "group": "WR",
-        "grade": 32,
+        "grade": 35,
         "rawValue": 0.09779346063250585,
         "rawLabel": "EPA/play"
       },
       {
         "group": "TE",
-        "grade": 58,
+        "grade": 61,
         "rawValue": 0.3789372222294568,
         "rawLabel": "EPA/play"
       },
       {
         "group": "Pass Protection",
-        "grade": 55,
+        "grade": 52,
         "rawValue": 0.1566265060240964,
         "rawLabel": "sack + hit rate allowed"
       },
@@ -1318,7 +1318,7 @@
       },
       {
         "group": "Pass Defense",
-        "grade": 52,
+        "grade": 48,
         "rawValue": 0.00527094738228959,
         "rawLabel": "pass EPA allowed"
       }
@@ -1329,7 +1329,7 @@
     "groups": [
       {
         "group": "QB",
-        "grade": 65,
+        "grade": 68,
         "rawValue": 0.11929669926672347,
         "rawLabel": "EPA/play"
       },
@@ -1341,7 +1341,7 @@
       },
       {
         "group": "WR",
-        "grade": 55,
+        "grade": 61,
         "rawValue": 0.29785946973900684,
         "rawLabel": "EPA/play"
       },
@@ -1359,13 +1359,13 @@
       },
       {
         "group": "Pass Rush",
-        "grade": 45,
+        "grade": 48,
         "rawValue": 0.07,
         "rawLabel": "sack rate"
       },
       {
         "group": "Run Defense",
-        "grade": 16,
+        "grade": 13,
         "rawValue": 0.046116660237340255,
         "rawLabel": "rush EPA allowed"
       },
@@ -1382,7 +1382,7 @@
     "groups": [
       {
         "group": "QB",
-        "grade": 42,
+        "grade": 45,
         "rawValue": 0.020059148778383613,
         "rawLabel": "EPA/play"
       },
@@ -1394,13 +1394,13 @@
       },
       {
         "group": "WR",
-        "grade": 81,
+        "grade": 84,
         "rawValue": 0.5000523598133063,
         "rawLabel": "EPA/play"
       },
       {
         "group": "TE",
-        "grade": 42,
+        "grade": 39,
         "rawValue": 0.20762152822680974,
         "rawLabel": "EPA/play"
       },
@@ -1418,13 +1418,13 @@
       },
       {
         "group": "Run Defense",
-        "grade": 23,
+        "grade": 26,
         "rawValue": -0.0006048385766917796,
         "rawLabel": "rush EPA allowed"
       },
       {
         "group": "Pass Defense",
-        "grade": 48,
+        "grade": 45,
         "rawValue": 0.11814015378107945,
         "rawLabel": "pass EPA allowed"
       }
@@ -1453,7 +1453,7 @@
       },
       {
         "group": "TE",
-        "grade": 32,
+        "grade": 29,
         "rawValue": 0.05801946988682695,
         "rawLabel": "EPA/play"
       },
@@ -1465,19 +1465,19 @@
       },
       {
         "group": "Pass Rush",
-        "grade": 19,
+        "grade": 23,
         "rawValue": 0.06,
         "rawLabel": "sack rate"
       },
       {
         "group": "Run Defense",
-        "grade": 74,
+        "grade": 71,
         "rawValue": -0.1393557318790763,
         "rawLabel": "rush EPA allowed"
       },
       {
         "group": "Pass Defense",
-        "grade": 71,
+        "grade": 68,
         "rawValue": -0.04347089400890012,
         "rawLabel": "pass EPA allowed"
       }
@@ -1494,7 +1494,7 @@
       },
       {
         "group": "RB",
-        "grade": 45,
+        "grade": 42,
         "rawValue": -0.12516376345544467,
         "rawLabel": "EPA/play"
       },
@@ -1518,7 +1518,7 @@
       },
       {
         "group": "Pass Rush",
-        "grade": 26,
+        "grade": 29,
         "rawValue": 0.047619047619047616,
         "rawLabel": "sack rate"
       },
@@ -1541,19 +1541,19 @@
     "groups": [
       {
         "group": "QB",
-        "grade": 45,
+        "grade": 52,
         "rawValue": 0.05433632523193635,
         "rawLabel": "EPA/play"
       },
       {
         "group": "RB",
-        "grade": 65,
+        "grade": 61,
         "rawValue": -0.040654843805921805,
         "rawLabel": "EPA/play"
       },
       {
         "group": "WR",
-        "grade": 68,
+        "grade": 74,
         "rawValue": 0.3675331125266816,
         "rawLabel": "EPA/play"
       },
@@ -1577,7 +1577,7 @@
       },
       {
         "group": "Run Defense",
-        "grade": 26,
+        "grade": 29,
         "rawValue": 0.016547219284261786,
         "rawLabel": "rush EPA allowed"
       },
@@ -1624,7 +1624,7 @@
       },
       {
         "group": "Pass Rush",
-        "grade": 32,
+        "grade": 35,
         "rawValue": 0.05504587155963303,
         "rawLabel": "sack rate"
       },
@@ -1636,7 +1636,7 @@
       },
       {
         "group": "Pass Defense",
-        "grade": 45,
+        "grade": 42,
         "rawValue": 0.042600733021284656,
         "rawLabel": "pass EPA allowed"
       }
@@ -1671,13 +1671,13 @@
       },
       {
         "group": "Pass Protection",
-        "grade": 65,
+        "grade": 61,
         "rawValue": 0.15151515151515152,
         "rawLabel": "sack + hit rate allowed"
       },
       {
         "group": "Pass Rush",
-        "grade": 61,
+        "grade": 65,
         "rawValue": 0.0707070707070707,
         "rawLabel": "sack rate"
       },
@@ -1689,7 +1689,7 @@
       },
       {
         "group": "Pass Defense",
-        "grade": 77,
+        "grade": 71,
         "rawValue": -0.08947860716049193,
         "rawLabel": "pass EPA allowed"
       }

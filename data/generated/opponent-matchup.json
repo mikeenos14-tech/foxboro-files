@@ -8,28 +8,28 @@
   "positionGroupMatchups": [
     {
       "group": "Rush Offense vs. Run Defense",
-      "ourGrade": 65,
+      "ourGrade": 61,
       "theirGrade": 6,
       "edge": "us",
-      "note": "65/100 vs. 6/100 (advantage us).",
+      "note": "61/100 vs. 6/100 (advantage us).",
       "ourStatLine": "331 yds, 4.0 YPC, 1 TD, 0 FUM, 8% explosive",
       "theirStatLine": "321 yds allowed, 4.0 YPC allowed, 2 TD allowed, 11% explosive allowed"
     },
     {
       "group": "Pass Offense vs. Pass Defense",
       "ourGrade": 23,
-      "theirGrade": 35,
-      "edge": "them",
-      "note": "23/100 vs. 35/100 (advantage them).",
+      "theirGrade": 32,
+      "edge": "even",
+      "note": "23/100 vs. 32/100 (close matchup).",
       "ourStatLine": "55/86 (64%), 631 yds, 1 TD, 6 INT",
       "theirStatLine": "72/110 (65%) allowed, 827 yds allowed, 7 TD allowed, 1 INT gained"
     },
     {
       "group": "Run Defense vs. Rush Offense",
-      "ourGrade": 16,
+      "ourGrade": 19,
       "theirGrade": 100,
       "edge": "them",
-      "note": "16/100 vs. 100/100 (advantage them).",
+      "note": "19/100 vs. 100/100 (advantage them).",
       "ourStatLine": "326 yds allowed, 4.4 YPC allowed, 2 TD allowed, 9% explosive allowed",
       "theirStatLine": "470 yds, 5.5 YPC, 8 TD, 1 FUM, 19% explosive"
     },
@@ -44,17 +44,17 @@
     },
     {
       "group": "Pass Protection vs. Pass Rush",
-      "ourGrade": 16,
-      "theirGrade": 61,
+      "ourGrade": 13,
+      "theirGrade": 68,
       "edge": "them",
-      "note": "16/100 vs. 61/100 (advantage them).",
+      "note": "13/100 vs. 68/100 (advantage them).",
       "ourStatLine": "9 sacks allowed, 9% sack rate",
       "theirStatLine": "9 sacks, 27 QB hits, 8% sack rate"
     }
   ],
   "matchupOfTheWeek": {
     "title": "Rush Offense vs. Run Defense",
-    "description": "Our rush offense grades 65/100 (above average) against BUF's run defense at 6/100 (among the NFL's worst) — the widest statistical edge on the board this week."
+    "description": "Our rush offense grades 61/100 (above average) against BUF's run defense at 6/100 (among the NFL's worst) — the widest statistical edge on the board this week."
   },
   "opponentInjuries": [],
   "recentForm": {
@@ -102,15 +102,15 @@
     }
   ],
   "weather": {
-    "tempF": 59,
-    "wind": "14 mph",
-    "precipitation": "29%",
+    "tempF": 65,
+    "wind": "8 mph",
+    "precipitation": "25%",
     "isDome": false
   },
   "bettingContext": {
     "spread": 7,
     "overUnder": 48.5,
-    "asOf": "2026-09-28"
+    "asOf": "2026-09-29"
   },
-  "previewTake": "The good news: we're staring down the most lopsided mismatch on the board this week, with our rush offense (65/100) going up against Buffalo's run defense (6/100) — a chasm so wide you could drive a truck through it. The bad news: we're bringing a pass protection unit (16/100) that's among the league's worst to face a Bills pass rush that grades 6/100 better, all while our own pass offense (23/100) is sputtering and Drake Maye is apparently being asked to operate under unacceptable circumstances. If we can lean heavy on the ground game and protect the QB long enough to let our elite pass defense (87/100) neutralize Josh Allen's elite arm (87/100), we have a fighting chance on the road — but after three turnovers and last week's loss, we need to show we can execute the gameplan Buffalo seems almost gift-wrapped for us to attack."
+  "previewTake": "Here's the thing about Sunday at Highmark: we've found the one matchup where we can actually win this game. Our rush offense grades at 61—solidly above average—and we're running into Buffalo's run defense at 6, which is genuinely among the worst in football. That's the widest statistical edge on the board this week, and it's ours. The problem is everything else tilts their way: their offense is elite (ranked 2nd in EPA/play), our pass game is struggling (23/100), and our pass protection is a disaster (13/100) facing their above-average pass rush. We're also coming in cold after dropping three straight with a -0.11 net EPA clip over that stretch, while Buffalo's sitting at +0.14. If Drake Maye and the offense can establish the run and actually execute—something they clearly haven't done lately—we've got a real shot. But given our recent form and the reality of facing Josh Allen and that elite Bills offense, this is a steep road game we're likely underdogs in for good reason, even if we're getting a touchdown."
 }

@@ -193,5 +193,18 @@
     "homeRecord": "1-2",
     "awayRecord": "2-1",
     "overtime": false
+  },
+  {
+    "gameId": "2026_03_PHI_CHI",
+    "week": 3,
+    "date": "2026-09-28",
+    "weekday": "Monday",
+    "homeTeam": "CHI",
+    "awayTeam": "PHI",
+    "homeScore": 27,
+    "awayScore": 7,
+    "homeRecord": "2-1",
+    "awayRecord": "2-1",
+    "overtime": false
   }
 ]

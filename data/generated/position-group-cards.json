@@ -8,7 +8,7 @@
       {
         "key": "last-1",
         "label": "Last Game",
-        "grade": 0
+        "grade": 3
       }
     ],
     "statLine": "",
@@ -24,7 +24,7 @@
       {
         "key": "last-1",
         "label": "Last Game",
-        "grade": 68
+        "grade": 65
       }
     ],
     "statLine": "244 yds, 3.5 YPC, 1 TD, 0 FUM, 6% explosive",
@@ -41,7 +41,7 @@
       {
         "key": "last-1",
         "label": "Last Game",
-        "grade": 0
+        "grade": 6
       }
     ],
     "statLine": "32/53 (60%), 437 yds, 4.1 YAC/rec, 0 TD",
@@ -50,20 +50,20 @@
     "secondaryGrade": {
       "label": "Hands & YAC (QB-independent)",
       "grade": null,
-      "detail": "20 of 21 catchable balls caught · 1 drop · 4.1 YAC/rec · 1/4 contested · charted so far: 30 of 53 targets",
+      "detail": "31 of 35 catchable balls caught · 1 drop · 4.1 YAC/rec · 1/5 contested",
       "note": "Not ranked yet — teams are still closer together than chance alone explains."
     }
   },
   {
     "group": "TE",
-    "grade": 23,
+    "grade": 26,
     "trend": "up",
     "soWhat": "Opponent-adjusted EPA/play at TE, regressed to the league mean on a 12-play sample.",
     "windows": [
       {
         "key": "last-1",
         "label": "Last Game",
-        "grade": 39
+        "grade": 45
       }
     ],
     "statLine": "9/12 (75%), 103 yds, 4.7 YAC/rec, 1 TD",
@@ -73,7 +73,7 @@
     "secondaryGrade": {
       "label": "Hands & YAC (QB-independent)",
       "grade": null,
-      "detail": "8 of 8 catchable balls caught · 0 drops · 4.7 YAC/rec · 2/2 contested · charted so far: 10 of 12 targets",
+      "detail": "9 of 9 catchable balls caught · 0 drops · 4.7 YAC/rec · 2/3 contested",
       "note": "Not ranked yet — teams are still closer together than chance alone explains."
     }
   },
@@ -86,10 +86,10 @@
       {
         "key": "last-1",
         "label": "Last Game",
-        "grade": 68
+        "grade": 61
       }
     ],
-    "statLine": "Drake Maye takes 3.04 sec to throw on average — 6th-longest of 37 qualified QBs (a longer hold gives the rush more time)",
+    "statLine": "Drake Maye takes 3.04 sec to throw on average — 6th-longest of 38 qualified QBs (a longer hold gives the rush more time)",
     "sampleSize": 95,
     "confidence": "high"
   },
@@ -102,7 +102,7 @@
       {
         "key": "last-1",
         "label": "Last Game",
-        "grade": 39
+        "grade": 42
       }
     ],
     "statLine": "7 sacks, 19 QB hits — leader: Gabe Jacas (1.5 sacks)",
@@ -111,14 +111,14 @@
   },
   {
     "group": "Run Defense",
-    "grade": 19,
+    "grade": 16,
     "trend": "down",
     "soWhat": "Opponent-adjusted rush EPA allowed, team-wide — the front seven and run-support safeties together.",
     "windows": [
       {
         "key": "last-1",
         "label": "Last Game",
-        "grade": 3
+        "grade": 6
       }
     ],
     "statLine": "11 TFL, 2 forced fumbles — leader: Elijah Ponder (3 TFL)",
