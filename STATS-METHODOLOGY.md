@@ -34,6 +34,7 @@ Used for QB Deep Dive and Position Grades. These get the same leave-one-out oppo
 | Team Strength — Point Differential | — | Real, unweighted box-score total |
 | Team Strength — Offensive/Defensive EPA/play | **Tier 2** | Opponent-adjusted, pure 2026, **has the "last N weeks" filter** |
 | Team Strength — Success rate, yards/play | Raw | Pure 2026, ranked of 32, same filter |
+| Week by Week chart | Raw | Each game's EPA/play gained and allowed — read straight from that game's recap, so the two always match. Not opponent-adjusted (one game is too thin). Appears from the second game |
 | AFC East standings | — | Records from `games.csv`; ties ordered by ESPN's official standings (real NFL tiebreakers) |
 | Latest headlines | — | Real, from ESPN + Patriots' own RSS |
 

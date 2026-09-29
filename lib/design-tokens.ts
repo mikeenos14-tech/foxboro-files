@@ -10,4 +10,6 @@ export const chartColors = {
   tertiary: "var(--color-silver)",
   grid: "var(--color-border)",
   axisText: "var(--color-muted)",
+  // Navy all but vanishes on the dark theme's card; this reads on both.
+  ink: "var(--color-foreground)",
 } as const;

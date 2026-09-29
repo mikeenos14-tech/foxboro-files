@@ -7,6 +7,7 @@ import { CountUp } from "@/components/shared/CountUp";
 import { HeadlinesList } from "@/components/home/HeadlinesList";
 import { DivisionStandings } from "@/components/home/DivisionStandings";
 import { TeamSnapshot } from "@/components/home/TeamSnapshot";
+import { WeeklyTrend } from "@/components/home/WeeklyTrend";
 import * as store from "@/lib/data/store";
 import { ordinal } from "@/lib/calc/ranks";
 import { buildVerdict } from "@/lib/calc/verdict";
@@ -17,7 +18,7 @@ export default async function HomePage({
   searchParams: Promise<{ teamWindow?: string }>;
 }) {
   const { teamWindow } = await searchParams;
-  const [teamStats, schedule, projection, nextGame, lastGame, news, standings, priorSeason, reportCards, matchup] =
+  const [teamStats, schedule, projection, nextGame, lastGame, news, standings, priorSeason, reportCards, matchup, recaps] =
     await Promise.all([
       store.getTeamStats(),
       store.getSchedule(),
@@ -29,6 +30,7 @@ export default async function HomePage({
       store.getPriorSeason(),
       store.getPositionGroupReportCards(),
       store.getOpponentMatchup(),
+      store.getAllRecaps(),
     ]);
 
   const played = schedule.filter((g) => g.result);
@@ -136,13 +138,14 @@ export default async function HomePage({
             this whole column to its content width (727px on a 375px phone)
             instead of scrolling, which pushed every table beside it off the
             screen. */}
-        <div className="min-w-0 lg:col-span-2">
+        <div className="min-w-0 space-y-6 lg:col-span-2">
           <TeamSnapshot
             teamStats={teamStats}
             cards={reportCards}
             priorSeason={priorSeason}
             initialWindow={teamWindow}
           />
+          <WeeklyTrend recaps={recaps} />
         </div>
         <div>
           <DivisionStandings standings={standings} />
