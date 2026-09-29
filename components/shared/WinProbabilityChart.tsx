@@ -29,8 +29,8 @@ export function WinProbabilityChart({
         <AreaChart data={data} margin={{ top: 8, right: 8, left: -16, bottom: 0 }}>
           <defs>
             <linearGradient id="wpFill" x1="0" y1="0" x2="0" y2="1">
-              <stop offset="0%" stopColor={chartColors.primary} stopOpacity={0.5} />
-              <stop offset="100%" stopColor={chartColors.primary} stopOpacity={0.03} />
+              <stop offset="0%" stopColor={chartColors.ink} stopOpacity={0.5} />
+              <stop offset="100%" stopColor={chartColors.ink} stopOpacity={0.03} />
             </linearGradient>
           </defs>
           <CartesianGrid stroke={chartColors.grid} vertical={false} />
@@ -63,7 +63,7 @@ export function WinProbabilityChart({
           <Area
             type="monotone"
             dataKey="homeWinProb"
-            stroke={chartColors.primary}
+            stroke={chartColors.ink}
             fill="url(#wpFill)"
             strokeWidth={2.5}
             dot={false}
