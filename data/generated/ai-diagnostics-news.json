@@ -3,10 +3,9 @@
     "status": "written",
     "problems": [
       [
-        "It says \"morning\", which doesn't fit the kickoff time given.",
-        "It says \"afternoon\", which doesn't fit the kickoff time given."
+        "It says \"second-year\", which isn't in the facts given."
       ]
     ],
-    "at": "2026-09-29T06:09:40.326Z"
+    "at": "2026-09-29T09:08:52.878Z"
   }
 }
