@@ -70,10 +70,7 @@ export const lastGameRecap: GameRecap = {
   fanTake:
     "This is the version of the Patriots we've been waiting for. Physical up front, no wasted possessions, and that pick-six was the dagger we needed after years of watching games like this slip away. Keep building on this.",
   epaPerPlay: { offense: 0.14, defense: -0.09 },
-  successRate: {
-    offenseByDown: { 1: 0.52, 2: 0.47, 3: 0.44, 4: 0.6 },
-    defenseByDown: { 1: 0.41, 2: 0.38, 3: 0.29, 4: 0.5 },
-  },
+  successRate: { offense: 0.47, defense: 0.41, leagueAverage: 0.45 },
   turnoverMargin: 2,
   pointsOffTurnovers: { for: 10, against: 0 },
   explosivePlayRate: { for: 0.12, against: 0.06 },
@@ -340,6 +337,10 @@ export const opponentMatchup: OpponentMatchupData = {
   gameId: "2026_02_PIT_NE",
   opponent: "PIT",
   opponentEpaRank: { offense: 24, defense: 19 },
+  successRate: {
+    us: { offense: { value: 0.47, leagueRank: 6, leaguePercentile: 84 }, defense: { value: 0.43, leagueRank: 10, leaguePercentile: 71 } },
+    them: { offense: { value: 0.42, leagueRank: 22, leaguePercentile: 32 }, defense: { value: 0.46, leagueRank: 20, leaguePercentile: 39 } },
+  },
   positionGroupMatchups: [
     { group: "WR vs CB", ourGrade: 62, theirGrade: 41, edge: "us", note: "Their CB2 is starting in place of an injured starter — target this side early.", ourStatLine: "20/30 (67%), 228 yds, 0 TD, 1 INT", theirStatLine: "24/33 (73%) allowed, 301 yds allowed, 2 TD allowed, 0 INT gained" },
     { group: "OL vs Edge", ourGrade: 74, theirGrade: 58, edge: "us", note: "Our pass protection should hold up against a middling pass rush.", ourStatLine: "3 sacks allowed, 8% sack rate", theirStatLine: "2 sacks, 6 QB hits, 5% sack rate" },
@@ -404,11 +405,11 @@ export const leagueStandings: LeagueDivisionGroup[] = [
 ];
 
 export const leagueEpaRankings: LeagueEpaRanking[] = [
-  { team: "BUF", offenseEpa: 0.15, offenseRank: 1, defenseEpa: -0.02, defenseRank: 9 },
-  { team: "NE", offenseEpa: 0.13, offenseRank: 2, defenseEpa: -0.03, defenseRank: 12 },
-  { team: "PHI", offenseEpa: 0.1, offenseRank: 3, defenseEpa: -0.09, defenseRank: 2 },
-  { team: "JAX", offenseEpa: -0.05, offenseRank: 24, defenseEpa: -0.12, defenseRank: 1 },
-  { team: "NYJ", offenseEpa: -0.09, offenseRank: 30, defenseEpa: 0.08, defenseRank: 28 },
+  { team: "BUF", offenseEpa: 0.15, offenseRank: 1, defenseEpa: -0.02, defenseRank: 9, offenseSuccess: 0.49, offenseSuccessRank: 1, defenseSuccess: 0.43, defenseSuccessRank: 8 },
+  { team: "NE", offenseEpa: 0.13, offenseRank: 2, defenseEpa: -0.03, defenseRank: 12, offenseSuccess: 0.48, offenseSuccessRank: 2, defenseSuccess: 0.44, defenseSuccessRank: 12 },
+  { team: "PHI", offenseEpa: 0.1, offenseRank: 3, defenseEpa: -0.09, defenseRank: 2, offenseSuccess: 0.46, offenseSuccessRank: 3, defenseSuccess: 0.4, defenseSuccessRank: 2 },
+  { team: "JAX", offenseEpa: -0.05, offenseRank: 24, defenseEpa: -0.12, defenseRank: 1, offenseSuccess: 0.42, offenseSuccessRank: 24, defenseSuccess: 0.39, defenseSuccessRank: 1 },
+  { team: "NYJ", offenseEpa: -0.09, offenseRank: 30, defenseEpa: 0.08, defenseRank: 28, offenseSuccess: 0.4, offenseSuccessRank: 30, defenseSuccess: 0.48, defenseSuccessRank: 28 },
 ];
 
 export const leagueScoreboard: LeagueScoreboardGame[] = [

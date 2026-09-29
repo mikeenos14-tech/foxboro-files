@@ -84,6 +84,13 @@ export default async function RecapDetailPage({
               label="Defensive EPA/play"
               value={recap.epaPerPlay.defense.toFixed(2)}
             />
+            {recap.successRate.leagueAverage !== undefined && (
+              <StatCard
+                label="Success Rate (off/def)"
+                value={`${formatPercent(recap.successRate.offense)} / ${formatPercent(recap.successRate.defense)}`}
+                soWhat={`Share of plays that improved the offense's chances of scoring. League average this season: ${formatPercent(recap.successRate.leagueAverage)}.`}
+              />
+            )}
             {withPlays(
               "Turnovers",
               "turnovers",

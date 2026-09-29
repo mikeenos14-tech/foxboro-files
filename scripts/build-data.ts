@@ -11,7 +11,6 @@ import { loadCsv, num, bool01 } from "./lib/csv";
 import {
   offenseStats,
   defenseStats,
-  successByDown,
   thirdDown,
   redZone,
   turnoverMargin,
@@ -643,6 +642,9 @@ async function main() {
   // deterministic, and it means a fix to how recaps are computed (full
   // player names, the scoring breakdown) reaches the whole archive
   // instead of only whichever game happens to be most recent.
+  // Season-to-date, every team: the "normal" a game's rate is read against.
+  const scrimmage = pbp.filter((r) => r.play_type === "run" || r.play_type === "pass");
+  const leagueSuccessRate = scrimmage.filter((r) => bool01(r.success)).length / Math.max(1, scrimmage.length);
   for (const lastRow of played) {
     const gameRows = pbp.filter((r) => r.game_id === lastRow.game_id);
     // A game can be final in games.csv before its play-by-play lands.
@@ -665,10 +667,7 @@ async function main() {
       gameId: lastRow.game_id,
       narrative: `New England ${won ? "beat" : "fell to"} ${opponent} ${usScore}-${themScore}. The offense posted ${off.epa.toFixed(2)} EPA/play (${(off.successRate * 100).toFixed(0)}% success rate) while the defense allowed ${def.epa.toFixed(2)} EPA/play. Turnover margin was ${margin > 0 ? "+" : ""}${margin}.`,
       epaPerPlay: { offense: off.epa, defense: def.epa },
-      successRate: {
-        offenseByDown: successByDown(gameRows, TEAM, "posteam"),
-        defenseByDown: successByDown(gameRows, TEAM, "defteam"),
-      },
+      successRate: { offense: off.successRate, defense: def.successRate, leagueAverage: leagueSuccessRate },
       turnoverMargin: turnoverMargin(gameRows, TEAM),
       pointsOffTurnovers: { for: 0, against: 0 },
       explosivePlayRate: { for: off.explosiveRate, against: oppOff.explosiveRate },

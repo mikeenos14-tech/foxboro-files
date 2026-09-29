@@ -14,7 +14,13 @@ import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { loadCsv, num } from "./lib/csv";
 import { type PbpRow, loadRegularSeasonPbp } from "./lib/pbp";
-import { computeLeagueEpaTable, offenseEpaRankOnly, defenseEpaRankOnly } from "./lib/leagueRanks";
+import {
+  computeLeagueEpaTable,
+  offenseEpaRankOnly,
+  defenseEpaRankOnly,
+  offenseSuccessRank,
+  defenseSuccessRank,
+} from "./lib/leagueRanks";
 import { computeAdjustedPair, epaValue, sackIndicator, isPassAttempt } from "./lib/adjustedRate";
 import { priorWeightFor } from "./lib/priorBlend";
 import {
@@ -198,6 +204,12 @@ async function main() {
     offense: offenseEpaRankOnly(leagueEpaTable, opponent),
     defense: defenseEpaRankOnly(leagueEpaTable, opponent),
   };
+  // Success rate: raw and this season only, the same numbers Home and the
+  // League table show — only the EPA ranks above blend in last season.
+  const successRate = {
+    us: { offense: offenseSuccessRank(leagueEpaTable, TEAM), defense: defenseSuccessRank(leagueEpaTable, TEAM) },
+    them: { offense: offenseSuccessRank(leagueEpaTable, opponent), defense: defenseSuccessRank(leagueEpaTable, opponent) },
+  };
 
   // ---------- Recent form (net EPA/play: offense generated minus defense allowed) ----------
   // Net EPA/play: what a team gains on offense minus what it gives up
@@ -339,6 +351,7 @@ async function main() {
     gameId: nextGame.id,
     opponent,
     opponentEpaRank,
+    successRate,
     positionGroupMatchups,
     matchupOfTheWeek,
     opponentInjuries: [], // filled in by build-espn-data.ts and merged in store.ts

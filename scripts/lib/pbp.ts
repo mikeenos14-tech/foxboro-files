@@ -138,24 +138,6 @@ export function pressureRateAllowed(rows: PbpRow[], team: string): number {
   return pressured.length / dropbacks.length;
 }
 
-export function successByDown(
-  rows: PbpRow[],
-  team: string,
-  side: "posteam" | "defteam"
-): Record<1 | 2 | 3 | 4, number> {
-  const result = {} as Record<1 | 2 | 3 | 4, number>;
-  for (const d of [1, 2, 3, 4] as const) {
-    const plays = rows.filter(
-      (r) => r[side] === team && isScrimmage(r) && num(r.down) === d
-    );
-    result[d] =
-      plays.length === 0
-        ? 0
-        : plays.filter((r) => bool01(r.success)).length / plays.length;
-  }
-  return result;
-}
-
 // Each recap number is counted from a selector that returns its plays,
 // and the "see the plays" lists are built from the same selectors — so
 // a card reading "4/12" always opens a list of exactly those 12 plays.

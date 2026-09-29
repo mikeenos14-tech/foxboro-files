@@ -5,6 +5,32 @@
     "offense": 2,
     "defense": 24
   },
+  "successRate": {
+    "us": {
+      "offense": {
+        "value": 0.398876404494382,
+        "leagueRank": 26,
+        "leaguePercentile": 19
+      },
+      "defense": {
+        "value": 0.4277456647398844,
+        "leagueRank": 13,
+        "leaguePercentile": 61
+      }
+    },
+    "them": {
+      "offense": {
+        "value": 0.5,
+        "leagueRank": 6,
+        "leaguePercentile": 84
+      },
+      "defense": {
+        "value": 0.4723618090452261,
+        "leagueRank": 24,
+        "leaguePercentile": 26
+      }
+    }
+  },
   "positionGroupMatchups": [
     {
       "group": "Rush Offense vs. Run Defense",
@@ -102,15 +128,14 @@
     }
   ],
   "weather": {
-    "tempF": 65,
+    "tempF": 62,
     "wind": "8 mph",
-    "precipitation": "25%",
+    "precipitation": "9%",
     "isDome": false
   },
   "bettingContext": {
     "spread": 7,
     "overUnder": 48.5,
     "asOf": "2026-09-29"
-  },
-  "previewTake": "Here's the thing about Sunday at Highmark: we've found the one matchup where we can actually win this game. Our rush offense grades at 61—solidly above average—and we're running into Buffalo's run defense at 6, which is genuinely among the worst in football. That's the widest statistical edge on the board this week, and it's ours. The problem is everything else tilts their way: their offense is elite (ranked 2nd in EPA/play), our pass game is struggling (23/100), and our pass protection is a disaster (13/100) facing their above-average pass rush. We're also coming in cold after dropping three straight with a -0.11 net EPA clip over that stretch, while Buffalo's sitting at +0.14. If Drake Maye and the offense can establish the run and actually execute—something they clearly haven't done lately—we've got a real shot. But given our recent form and the reality of facing Josh Allen and that elite Bills offense, this is a steep road game we're likely underdogs in for good reason, even if we're getting a touchdown."
+  }
 }

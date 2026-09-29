@@ -33,6 +33,12 @@ export interface LeagueEpaRanking {
   offenseRank: number;
   defenseEpa: number;
   defenseRank: number;
+  // Raw share of plays with positive EPA — never opponent-adjusted or
+  // blended, so it's the same number Home shows. Ranked on its own.
+  offenseSuccess: number;
+  offenseSuccessRank: number;
+  defenseSuccess: number;
+  defenseSuccessRank: number;
 }
 
 export interface LeagueScoreboardGame {
@@ -89,10 +95,9 @@ export interface GameRecap {
   narrative: string;
   fanTake?: string;
   epaPerPlay: { offense: number; defense: number };
-  successRate: {
-    offenseByDown: Record<1 | 2 | 3 | 4, number>;
-    defenseByDown: Record<1 | 2 | 3 | 4, number>;
-  };
+  // Whole-game rates. Split by down they were too thin to mean anything
+  // (a 4th down went in as "0%" off one play) and were never shown.
+  successRate: { offense: number; defense: number; leagueAverage: number };
   turnoverMargin: number;
   pointsOffTurnovers: { for: number; against: number };
   explosivePlayRate: { for: number; against: number };
@@ -442,6 +447,11 @@ export interface OpponentMatchupData {
   gameId: string;
   opponent: string;
   opponentEpaRank: { offense: number; defense: number };
+  // This season only, raw (like Home and League) — no prior-season blend.
+  successRate: {
+    us: { offense: RankedStat; defense: RankedStat };
+    them: { offense: RankedStat; defense: RankedStat };
+  };
   positionGroupMatchups: PositionMatchup[];
   matchupOfTheWeek: { title: string; description: string };
   opponentInjuries: InjuryReportEntry[];

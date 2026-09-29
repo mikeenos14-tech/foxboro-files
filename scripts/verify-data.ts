@@ -30,6 +30,10 @@ interface TeamStats {
     offense: { value: number; leagueRank: number };
     defense: { value: number; leagueRank: number };
   };
+  successRate: {
+    offense: { value: number; leagueRank: number };
+    defense: { value: number; leagueRank: number };
+  };
 }
 interface LeagueEpaRow {
   team: string;
@@ -37,6 +41,10 @@ interface LeagueEpaRow {
   offenseRank: number;
   defenseEpa: number;
   defenseRank: number;
+  offenseSuccess: number;
+  offenseSuccessRank: number;
+  defenseSuccess: number;
+  defenseSuccessRank: number;
 }
 interface PositionCard {
   group: string;
@@ -65,6 +73,8 @@ export async function verifyData(): Promise<string[]> {
     const valueChecks: Array<[string, number, number]> = [
       ["offense EPA", teamStats.epaPerPlay.offense.value, ne.offenseEpa],
       ["defense EPA", teamStats.epaPerPlay.defense.value, ne.defenseEpa],
+      ["offense success rate", teamStats.successRate.offense.value, ne.offenseSuccess],
+      ["defense success rate", teamStats.successRate.defense.value, ne.defenseSuccess],
     ];
     for (const [label, a, b] of valueChecks) {
       if (Math.abs(a - b) > 1e-9) {
@@ -76,10 +86,37 @@ export async function verifyData(): Promise<string[]> {
     const rankChecks: Array<[string, number, number]> = [
       ["offense rank", teamStats.epaPerPlay.offense.leagueRank, ne.offenseRank],
       ["defense rank", teamStats.epaPerPlay.defense.leagueRank, ne.defenseRank],
+      ["offense success rank", teamStats.successRate.offense.leagueRank, ne.offenseSuccessRank],
+      ["defense success rank", teamStats.successRate.defense.leagueRank, ne.defenseSuccessRank],
     ];
     for (const [label, a, b] of rankChecks) {
       if (a !== b) {
         failures.push(`${label}: team-stats.json says ${a}, league-epa-rankings.json says ${b} — one file is stale`);
+      }
+    }
+  }
+
+  // 1b. Next Game's success-rate matchup is the League table's numbers.
+  const matchup = await readGenerated<{
+    opponent: string;
+    successRate?: Record<"us" | "them", Record<"offense" | "defense", { value: number; leagueRank: number }>>;
+  }>("opponent-matchup.json");
+  if (!matchup.successRate) {
+    failures.push("opponent-matchup.json has no success rate");
+  } else {
+    for (const [side, team] of [["us", TEAM], ["them", matchup.opponent]] as const) {
+      const row = league.find((r) => r.team === team);
+      if (!row) continue;
+      for (const [unit, value, rank] of [
+        ["offense", row.offenseSuccess, row.offenseSuccessRank],
+        ["defense", row.defenseSuccess, row.defenseSuccessRank],
+      ] as const) {
+        const m = matchup.successRate[side][unit];
+        if (Math.abs(m.value - value) > 1e-9 || m.leagueRank !== rank) {
+          failures.push(
+            `${team} ${unit} success rate: Next Game says ${m.value.toFixed(4)} (${m.leagueRank}), League says ${value.toFixed(4)} (${rank}) — one file is stale`
+          );
+        }
       }
     }
   }
@@ -296,6 +333,20 @@ async function checkPlayLists(): Promise<string[]> {
       if (n > 0 && Math.abs(list.entries.length / n - rate) > 1e-9) {
         failures.push(`${where}: ${label} lists ${list.entries.length} of ${n} plays, card says ${(rate * 100).toFixed(1)}%`);
       }
+    }
+    // Success rate shares the explosive rate's play count, so it must be
+    // a whole number of those plays.
+    for (const [label, n, rate] of [
+      ["offense success rate", gp.scrimmagePlays.offense, recap.successRate.offense],
+      ["defense success rate", gp.scrimmagePlays.defense, recap.successRate.defense],
+    ] as const) {
+      const made = rate * n;
+      if (!(rate >= 0 && rate <= 1) || Math.abs(made - Math.round(made)) > 1e-6) {
+        failures.push(`${where}: ${label} ${(rate * 100).toFixed(1)}% isn't a whole number of its ${n} plays`);
+      }
+    }
+    if (!(recap.successRate.leagueAverage > 0.3 && recap.successRate.leagueAverage < 0.6)) {
+      failures.push(`${where}: league-average success rate is ${recap.successRate.leagueAverage}, outside any real season's range`);
     }
     const star = gp.lists.star[0];
     if (star) {

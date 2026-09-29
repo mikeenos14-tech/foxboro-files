@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import * as store from "@/lib/data/store";
 import { StatCard } from "@/components/shared/StatCard";
+import { SuccessRateMatchup } from "@/components/next-game/SuccessRateMatchup";
 import { MatchupGrid } from "@/components/shared/MatchupGrid";
 import { PriorBlendNote } from "@/components/next-game/PriorBlendNote";
 import { InjuryTable } from "@/components/shared/InjuryTable";
@@ -69,6 +70,10 @@ export default async function NextGamePage() {
                   />
                 </div>
                 <PriorBlendNote weight={matchup.priorBlendWeight} subject="These ranks" className="-mt-2" />
+
+                {matchup.successRate && (
+                  <SuccessRateMatchup opponent={matchup.opponent} successRate={matchup.successRate} />
+                )}
 
                 <MatchupOfTheWeekCallout
                   title={matchup.matchupOfTheWeek.title}

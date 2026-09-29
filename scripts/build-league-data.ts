@@ -16,7 +16,7 @@ import { loadEspnDivisionOrder } from "./lib/espnStandings";
 import { computeAdjustedEpa } from "./lib/leagueRanks";
 import { rankGeneric } from "./lib/rank";
 import { ALL_TEAMS, TEAM_DIVISION } from "./lib/teams";
-import { loadRegularSeasonPbp } from "./lib/pbp";
+import { defenseStats, loadRegularSeasonPbp, offenseStats } from "./lib/pbp";
 import type { LeagueDivisionGroup, LeagueEpaRanking, LeagueScoreboardGame } from "../lib/data/types";
 
 const SEASON = 2026;
@@ -60,15 +60,25 @@ async function main() {
   // are framed as "how good is this team, really," where leaning on real
   // prior-year data early in the season is the right call.
   const adjusted = computeAdjustedEpa(pbp, ALL_TEAMS);
+  const success = new Map(
+    ALL_TEAMS.map((t) => [t, { off: offenseStats(pbp, t).successRate, def: defenseStats(pbp, t).successRate }])
+  );
   const leagueEpaRankings: LeagueEpaRanking[] = ALL_TEAMS.map((team) => {
     const off = rankGeneric(ALL_TEAMS, team, (t) => adjusted.offense.get(t) ?? 0, true);
     const def = rankGeneric(ALL_TEAMS, team, (t) => adjusted.defense.get(t) ?? 0, false);
+    // Success rate is raw, as everywhere on the site, so NE's matches Home.
+    const offSuccess = rankGeneric(ALL_TEAMS, team, (t) => success.get(t)!.off, true);
+    const defSuccess = rankGeneric(ALL_TEAMS, team, (t) => success.get(t)!.def, false);
     return {
       team,
       offenseEpa: off.value,
       offenseRank: off.leagueRank,
       defenseEpa: def.value,
       defenseRank: def.leagueRank,
+      offenseSuccess: offSuccess.value,
+      offenseSuccessRank: offSuccess.leagueRank,
+      defenseSuccess: defSuccess.value,
+      defenseSuccessRank: defSuccess.leagueRank,
     };
   }).sort((a, b) => a.offenseRank - b.offenseRank);
   await writeFile(
