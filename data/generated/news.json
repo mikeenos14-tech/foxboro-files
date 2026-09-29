@@ -1,5 +1,23 @@
 [
   {
+    "id": "f846f81a-c81e-4e10-b2ed-0a4e7be33127",
+    "publishedAt": "2026-09-29T16:14:35.000Z",
+    "type": "Analysis",
+    "headline": "How to Watch and Stream Sunday's Patriots Game Against the Bills | NFL Week 4",
+    "summary": "Complete broadcast information for this week's game between the New England Patriots and the Buffalo Bills on Sunday, October 4, 2026 at 1 PM ET.",
+    "sourceUrl": "https://www.patriots.com/news/how-to-watch-and-stream-sunday-s-patriots-game-against-the-bills-nfl-week-4",
+    "sourceName": "Patriots.com"
+  },
+  {
+    "id": "cb22b719-7dcf-403e-964b-c77f96844d93",
+    "publishedAt": "2026-09-29T16:14:15.000Z",
+    "type": "Analysis",
+    "headline": "Game Preview: Patriots at Bills | NFL Week 4",
+    "summary": "The New England Patriots will travel to Buffalo to face the Bills at Highmark Stadium on Sunday, October 4 at 1 PM ET.",
+    "sourceUrl": "https://www.patriots.com/news/game-preview-patriots-at-bills-nfl-week-4",
+    "sourceName": "Patriots.com"
+  },
+  {
     "id": "50054960",
     "publishedAt": "2026-09-29T12:30:31Z",
     "type": "Analysis",
@@ -72,15 +90,6 @@
     "sourceName": "Patriots.com"
   },
   {
-    "id": "dea1bdd8-2c9d-48b6-b080-9f84e60dff04",
-    "publishedAt": "2026-09-27T21:20:15.000Z",
-    "type": "Beat Report",
-    "headline": "Game Notes: Marcus Jones Snags His First Pick of the Season",
-    "summary": "Game notes and stats from the Patriots Week 3 game against the Jacksonville Jaguars on Sunday, September 27, 2026.",
-    "sourceUrl": "https://www.patriots.com/news/game-notes-marcus-jones-snags-his-first-pick-of-the-season",
-    "sourceName": "Patriots.com"
-  },
-  {
     "id": "50045541",
     "publishedAt": "2026-09-27T20:42:05Z",
     "type": "Beat Report",
@@ -88,15 +97,6 @@
     "summary": "New England Patriots vs. Jacksonville Jaguars: Game Highlights",
     "sourceUrl": "https://www.espn.com/video/clip/_/id/50045541/game-highlights",
     "sourceName": "ESPN"
-  },
-  {
-    "id": "9fc40daf-017d-4bb3-a8cd-f105a0dc29be",
-    "publishedAt": "2026-09-27T20:12:39.000Z",
-    "type": "Beat Report",
-    "headline": "Gamebook: Patriots at Jaguars Week 3",
-    "summary": "Download the NFL Gamebook with all of the statistics from the Patriots Week 3 game against the Jacksonville Jaguars on Sunday, September 27, 2026.",
-    "sourceUrl": "https://www.patriots.com/news/gamebook-patriots-at-jaguars-week-3",
-    "sourceName": "Patriots.com"
   },
   {
     "id": "50028606",
