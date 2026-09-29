@@ -1,7 +1,7 @@
 [
   {
     "id": "50059755",
-    "publishedAt": "2026-09-29T18:05:48Z",
+    "publishedAt": "2026-09-29T19:14:25Z",
     "type": "Transaction",
     "headline": "Sources: Giants to release fan favorite Odell Beckham Jr.",
     "summary": "The Giants are releasing veteran wide receiver Odell Beckham Jr., sources told NFL Network.",
@@ -10,21 +10,21 @@
   },
   {
     "id": "50059809",
-    "publishedAt": "2026-09-29T17:31:21Z",
+    "publishedAt": "2026-09-29T19:26:23Z",
     "type": "Transaction",
-    "headline": "Source - Bengals cut Ke'Shawn Williams after costly muffed punt",
-    "summary": "The Cincinnati Bengals cut WR Ke'Shawn Williams after he muffed a punt that eventually led to the Pittsburgh Steelers' 30-27 win, a source told ESPN's Jeremy Fowler. Earlier Tuesday, Cincinnati signed WR Mitch Tinsley, per ESPN's Adam Schefter.",
+    "headline": "Bengals cut WR Ke'Shawn Williams after costly muffed punt",
+    "summary": "The Cincinnati Bengals cut WR Ke'Shawn Williams after he muffed a punt that eventually led to the Pittsburgh Steelers' 30-27 win. On Tuesday, Cincinnati signed WR Mitch Tinsley.",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/50059809/source-bengals-cut-keshawn-williams-costly-muffed-punt",
     "sourceName": "ESPN"
   },
   {
-    "id": "50058897",
-    "publishedAt": "2026-09-29T15:43:17Z",
-    "type": "Injury",
-    "headline": "Sources: Panthers OL Damien Lewis (UCL injury) to miss time",
-    "summary": "Panthers left guard Damien Lewis has a UCL injury in an elbow and will be out a few weeks, sources told NFL Network's Mike Garafolo and Ian Rapoport.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50058897/panthers-ol-damien-lewis-ucl-injury-sources-say",
-    "sourceName": "ESPN"
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=421313",
+    "publishedAt": "2026-09-29T18:50:55.000Z",
+    "type": "Transaction",
+    "headline": "Opinions Split On Trade Value Of Cardinals WR Marvin Harrison Jr.",
+    "summary": "A report from last week indicated executives around the NFL have begun to wonder about the Cardinals’ willingness to explore a Marvin Harrison Jr. trade. The 2024 fourth overall pick has not developed as hoped in Arizona, and a poor win-loss record leading up to this year’s deadline would no doubt result in calls being made. When […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/09/opinions-split-on-trade-value-of-cardinals-wr-marvin-harrison-jr",
+    "sourceName": "Pro Football Rumors"
   },
   {
     "id": "profootballrumors-https://www.profootballrumors.com/?p=421305",
@@ -36,21 +36,21 @@
     "sourceName": "Pro Football Rumors"
   },
   {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/buccaneers-wr-jalen-mcmillan-is-expected-to-miss-6-8-weeks-with-knee-injury",
-    "publishedAt": "2026-09-29T10:35:20.000Z",
+    "id": "50058897",
+    "publishedAt": "2026-09-29T15:43:17Z",
     "type": "Injury",
-    "headline": "Buccaneers WR Jalen McMillan is expected to miss 6-8 weeks with knee injury",
-    "summary": "Quarterback Baker Mayfield's dislocated thumb was the headline news for the Buccaneers on the injury front in Week 3, but he isn't the only offensive player set to miss time.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/buccaneers-wr-jalen-mcmillan-is-expected-to-miss-6-8-weeks-with-knee-injury",
-    "sourceName": "Pro Football Talk"
+    "headline": "Sources: Panthers OL Damien Lewis (UCL injury) to miss time",
+    "summary": "Panthers left guard Damien Lewis has a UCL injury in an elbow and will be out a few weeks, sources told NFL Network's Mike Garafolo and Ian Rapoport.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50058897/panthers-ol-damien-lewis-ucl-injury-sources-say",
+    "sourceName": "ESPN"
   },
   {
-    "id": "50059557",
-    "publishedAt": "2026-09-29T17:19:24Z",
-    "type": "Analysis",
-    "headline": "Jerry Jones: 'No explanation' for Cowboys coaches' mistakes",
-    "summary": "Jerry Jones says he believes errors in game management by his coaching staff cost the Cowboys a victory over the Ravens.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50059557/jerry-jones-no-explanation-cowboys-coaches-mistakes",
+    "id": "50059771",
+    "publishedAt": "2026-09-29T19:25:19Z",
+    "type": "Injury",
+    "headline": "Inside George Kittle's 243-day recovery from torn Achilles",
+    "summary": "Despite tearing his Achilles in the playoffs, Kittle appears to be back to his normal self. Here's how he won the recovery process.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50059771/san-francisco-49ers-george-kittle-torn-achilles",
     "sourceName": "ESPN"
   }
 ]
