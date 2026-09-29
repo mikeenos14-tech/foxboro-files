@@ -9,15 +9,6 @@
     "sourceName": "Pro Football Rumors"
   },
   {
-    "id": "50056918",
-    "publishedAt": "2026-09-29T07:16:07Z",
-    "type": "Analysis",
-    "headline": "Bears call on QB3 Case Keenum in rousing victory over Eagles",
-    "summary": "In his first NFL start in 1,009 days, Chicago third-string quarterback Case Keenum, 38, led the Bears to a dominant 27-7 victory over the perennial NFC heavyweight Philadelphia Eagles on Monday, a performance coach Ben Johnson labeled \"extraordinary.\"",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50056918/bears-call-qb3-case-keenum-rousing-victory-eagles",
-    "sourceName": "ESPN"
-  },
-  {
     "id": "profootballrumors-https://www.profootballrumors.com/?p=421139",
     "publishedAt": "2026-09-29T04:00:51.000Z",
     "type": "Injury",
@@ -36,6 +27,15 @@
     "sourceName": "Pro Football Rumors"
   },
   {
+    "id": "50056918",
+    "publishedAt": "2026-09-29T12:08:22Z",
+    "type": "Analysis",
+    "headline": "Bears call on QB3 Case Keenum in rousing victory over Eagles",
+    "summary": "In his first NFL start in 1,009 days, Chicago third-string quarterback Case Keenum, 38, led the Bears to a dominant 27-7 victory over the perennial NFC heavyweight Philadelphia Eagles on Monday, a performance coach Ben Johnson labeled \"extraordinary.\"",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50056918/bears-call-qb3-case-keenum-rousing-victory-eagles",
+    "sourceName": "ESPN"
+  },
+  {
     "id": "profootballrumors-https://www.profootballrumors.com/?p=421186",
     "publishedAt": "2026-09-28T22:35:05.000Z",
     "type": "Injury",
@@ -45,12 +45,12 @@
     "sourceName": "Pro Football Rumors"
   },
   {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=421164",
-    "publishedAt": "2026-09-29T04:10:15.000Z",
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jaguars-got-football-from-travis-hunters-first-interception-after-sideline-squabble",
+    "publishedAt": "2026-09-29T11:07:48.000Z",
     "type": "Analysis",
-    "headline": "Buccaneers QB Baker Mayfield To Miss At Least Three Games",
-    "summary": "Monday brought about further news with respect to Baker Mayfield and the Buccaneers. Testing has yielded positive results, although missed time is still in store. Mayfield dislocated his thumb late in Sunday’s loss. An MRI revealed no fractures or ligament damage, per ESPN’s Jeremy Fowler. He adds a second opinion is being sought out in this case. […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/09/buccaneers-qb-baker-mayfield-to-miss-at-least-three-games",
-    "sourceName": "Pro Football Rumors"
+    "headline": "Jaguars got football from Travis Hunter's first interception after sideline squabble",
+    "summary": "Jaguars cornerback Travis Hunter's first NFL interception helped Jacksonville beat the Patriots on Sunday, but it also touched off an odd scene on the sideline.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jaguars-got-football-from-travis-hunters-first-interception-after-sideline-squabble",
+    "sourceName": "Pro Football Talk"
   }
 ]
