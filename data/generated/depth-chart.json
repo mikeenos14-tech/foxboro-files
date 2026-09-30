@@ -111,23 +111,23 @@
     "position": "RG",
     "players": [
       {
-        "playerId": "15718",
-        "playerName": "Greg Van Roten",
-        "rank": 1
-      },
-      {
         "playerId": "4428394",
         "playerName": "Walter Rouse",
-        "rank": 2
+        "rank": 1
       },
       {
         "playerId": "4362890",
         "playerName": "Ben Brown",
-        "rank": 3
+        "rank": 2
       },
       {
         "playerId": "4046545",
         "playerName": "Mike Onwenu",
+        "rank": 3
+      },
+      {
+        "playerId": "15718",
+        "playerName": "Greg Van Roten",
         "rank": 4
       }
     ]
