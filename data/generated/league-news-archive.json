@@ -1,5 +1,77 @@
 [
   {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/greg-rousseau-is-first-player-since-1998-with-2-sacks-in-first-three-games-of-a-season",
+    "publishedAt": "2026-09-30T11:43:15.000Z",
+    "type": "Analysis",
+    "headline": "Greg Rousseau is first player since 1998 with 2+ sacks in first three games of a season",
+    "summary": "While Bills quarterback Josh Allen is the leading candidate to be league MVP, his teammate linebacker Greg Rousseau is making an early case for Defensive Player of the Year.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/greg-rousseau-is-first-player-since-1998-with-2-sacks-in-first-three-games-of-a-season",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/commanders-rule-out-g-sam-cosmi-s-nick-cross-for-week-4",
+    "publishedAt": "2026-09-30T11:09:43.000Z",
+    "type": "Analysis",
+    "headline": "Commanders rule out G Sam Cosmi, S Nick Cross for Week 4",
+    "summary": "The Commanders went to London on Tuesday night to prepare for Sunday's game against the Colts, but a couple of players did not make the trip.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/commanders-rule-out-g-sam-cosmi-s-nick-cross-for-week-4",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "50061765",
+    "publishedAt": "2026-09-30T10:49:25Z",
+    "type": "Analysis",
+    "headline": "Case Keenum or Tyson Bagent? Bears face a QB decision",
+    "summary": "Keenum stepped up in a big way against the Eagles, but Bagent is healthy and Ben Johnson won't reveal his QB1.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50061765/chicago-bears-case-keenum-tyson-bagent",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50061293",
+    "publishedAt": "2026-09-30T10:37:04Z",
+    "type": "Injury",
+    "headline": "Patriots place offensive lineman Greg Van Roten (thigh) on IR",
+    "summary": "The Patriots placed guard Greg Van Roten on injured reserve Tuesday as the infrastructure around quarterback Drake Maye took another hit.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50061293/patriots-place-offensive-lineman-greg-van-roten-thigh-ir",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50062628",
+    "publishedAt": "2026-09-30T10:21:27Z",
+    "type": "Analysis",
+    "headline": "Guard Sam Cosmi, safety Nick Cross out for London game vs. Colts",
+    "summary": "Commanders guard Sam Cosmi and safety Nick Cross did not travel with the team to London on Tuesday night for their Week 4 game against the Colts.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50062628/guard-sam-cosmi-safety-nick-cross-london-game-vs-colts",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50059548",
+    "publishedAt": "2026-09-30T10:00:11Z",
+    "type": "Analysis",
+    "headline": "Can the 0-3 Texans defy history again to make playoffs?",
+    "summary": "Houston became the first team in the common playoff format to make the postseason after starting 0-3 in 2025.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50059548/houston-texans-0-3-start-again-defy-history-playoffs",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50060329",
+    "publishedAt": "2026-09-30T10:00:11Z",
+    "type": "Analysis",
+    "headline": "Can the Broncos keep pulling off unlikely comeback victories?",
+    "summary": "Somehow, the Broncos keep finding ways to overcome their slow first-half starts, pulling off frenetic second-half comeback wins -- including in Week 3 against the Rams.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50060329/denver-broncos-comeback-victories-large-deficits-fourth-quarter-confidence",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50056056",
+    "publishedAt": "2026-09-30T10:00:01Z",
+    "type": "Analysis",
+    "headline": "Why Geno Smith's hot start has been a bright spot for the Jets",
+    "summary": "Despite being 1-2, the 35-year-old QB is completing over 75% of his passes.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50056056/new-york-jets-geno-smith-hot-start-bright-spot",
+    "sourceName": "ESPN"
+  },
+  {
     "id": "50065515",
     "publishedAt": "2026-09-30T09:04:00Z",
     "type": "Analysis",
@@ -144,15 +216,6 @@
     "sourceName": "Pro Football Talk"
   },
   {
-    "id": "50062628",
-    "publishedAt": "2026-09-30T00:48:05Z",
-    "type": "Analysis",
-    "headline": "Guard Sam Cosmi, safety Nick Cross out for London game vs. Colts",
-    "summary": "Commanders guard Sam Cosmi and safety Nick Cross did not travel with the team to London on Tuesday night for their Week 4 game against the Colts.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50062628/guard-sam-cosmi-safety-nick-cross-london-game-vs-colts",
-    "sourceName": "ESPN"
-  },
-  {
     "id": "50062115",
     "publishedAt": "2026-09-30T00:41:41Z",
     "type": "Analysis",
@@ -259,15 +322,6 @@
     "summary": "The Buccaneers have changed quarterbacks multiple times over the past decade, but in that span, they have enjoyed Eli Manning/Philip Rivers-level QB health. No Tampa Bay passer has missed a start due to injury since Jameis Winston in 2017. After the team saw Winston finish his tenure with a run of good health (with Ryan […]",
     "sourceUrl": "https://www.profootballrumors.com/2026/09/buccaneers-to-sign-qb-brett-rypien",
     "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "50061293",
-    "publishedAt": "2026-09-29T22:28:19Z",
-    "type": "Injury",
-    "headline": "Patriots place offensive lineman Greg Van Roten (thigh) on IR",
-    "summary": "The Patriots placed guard Greg Van Roten on injured reserve Tuesday as the infrastructure around quarterback Drake Maye took another hit.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50061293/patriots-place-offensive-lineman-greg-van-roten-thigh-ir",
-    "sourceName": "ESPN"
   },
   {
     "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/texans-sign-rb-dare-ogunbowale-off-raiders-practice-squad",
@@ -15415,14 +15469,5 @@
     "summary": "Colston Loveland's Week 2 preview",
     "sourceUrl": "https://www.espn.com/video/clip/_/id/49956313/colston-loveland-week-2-preview",
     "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/joe-brady-no-concerns-about-highmark-stadium-field-for-thursday-night",
-    "publishedAt": "2026-09-16T10:58:05.000Z",
-    "type": "Analysis",
-    "headline": "Joe Brady: No concerns about Highmark Stadium field for Thursday night",
-    "summary": "The condition of the playing field at the new Highmark Stadium became a talking point after the Bills played their first preseason game at the building this summer.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/joe-brady-no-concerns-about-highmark-stadium-field-for-thursday-night",
-    "sourceName": "Pro Football Talk"
   }
 ]
