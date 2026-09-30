@@ -1,38 +1,153 @@
 {
-  "week": 3,
-  "asOf": "2026-09-25T20:05:33.307Z",
+  "week": 4,
+  "asOf": "2026-09-30T21:02:23.706Z",
   "players": [
     {
       "team": "NE",
-      "playerName": "Dre'Mont Jones",
-      "position": "OLB",
-      "injury": "shoulder",
-      "practiceStatus": "Did Not Participate",
-      "gameStatus": "Out"
+      "playerName": "Christian Barmore",
+      "position": "DT",
+      "injury": "Shoulder",
+      "practiceStatus": "Did Not Participate"
     },
     {
       "team": "NE",
-      "playerName": "Quintayvious Hutchins",
-      "position": "OLB",
-      "injury": "knee",
-      "practiceStatus": "Did Not Participate",
-      "gameStatus": "Out"
+      "playerName": "Christian Gonzalez",
+      "position": "CB",
+      "injury": "Shoulder",
+      "practiceStatus": "Did Not Participate"
+    },
+    {
+      "team": "NE",
+      "playerName": "Morgan Moses",
+      "position": "T",
+      "injury": "Foot",
+      "practiceStatus": "Did Not Participate"
+    },
+    {
+      "team": "NE",
+      "playerName": "Christian Elliss",
+      "position": "LB",
+      "injury": "Chest",
+      "practiceStatus": "Limited"
+    },
+    {
+      "team": "NE",
+      "playerName": "Reggie Gilliam",
+      "position": "FB",
+      "injury": "Knee",
+      "practiceStatus": "Limited"
+    },
+    {
+      "team": "NE",
+      "playerName": "Dre’Mont Jones",
+      "position": "LB",
+      "injury": "Shoulder",
+      "practiceStatus": "Limited"
     },
     {
       "team": "NE",
       "playerName": "Eli Raridon",
       "position": "TE",
-      "injury": "thigh",
-      "practiceStatus": "Did Not Participate",
-      "gameStatus": "Questionable"
+      "injury": "Thigh",
+      "practiceStatus": "Limited"
+    },
+    {
+      "team": "NE",
+      "playerName": "Brenden Schooler",
+      "position": "S",
+      "injury": "Back*",
+      "practiceStatus": "Limited"
     },
     {
       "team": "NE",
       "playerName": "Craig Woodson",
       "position": "S",
-      "injury": "shoulder",
-      "practiceStatus": "Limited",
-      "gameStatus": "Questionable"
+      "injury": "Shoulder",
+      "practiceStatus": "Limited"
+    },
+    {
+      "team": "NE",
+      "playerName": "Drake Maye",
+      "position": "QB",
+      "injury": "Right Shoulder",
+      "practiceStatus": "Full"
+    },
+    {
+      "team": "BUF",
+      "playerName": "Joe Andreessen",
+      "position": "ILB",
+      "injury": "Knee",
+      "practiceStatus": "Did Not Participate"
+    },
+    {
+      "team": "BUF",
+      "playerName": "Christian Benford",
+      "position": "CB",
+      "injury": "Toe",
+      "practiceStatus": "Did Not Participate"
+    },
+    {
+      "team": "BUF",
+      "playerName": "Keon Coleman",
+      "position": "WR",
+      "injury": "Ankle",
+      "practiceStatus": "Did Not Participate"
+    },
+    {
+      "team": "BUF",
+      "playerName": "T.J. Sanders",
+      "position": "DL",
+      "injury": "Illness",
+      "practiceStatus": "Did Not Participate"
+    },
+    {
+      "team": "BUF",
+      "playerName": "Damar Hamlin",
+      "position": "S",
+      "injury": "Ribs",
+      "practiceStatus": "Limited"
+    },
+    {
+      "team": "BUF",
+      "playerName": "DJ Moore",
+      "position": "WR",
+      "injury": "Shoulder",
+      "practiceStatus": "Limited"
+    },
+    {
+      "team": "BUF",
+      "playerName": "Deone Walker",
+      "position": "DL",
+      "injury": "Quad",
+      "practiceStatus": "Limited"
+    },
+    {
+      "team": "BUF",
+      "playerName": "Terrel Bernard",
+      "position": "ILB",
+      "injury": "Knee",
+      "practiceStatus": "Full"
+    },
+    {
+      "team": "BUF",
+      "playerName": "Bradley Chubb",
+      "position": "OLB",
+      "injury": "Thumb",
+      "practiceStatus": "Full"
+    },
+    {
+      "team": "BUF",
+      "playerName": "Ar'maj Reed-Adams, Elbow",
+      "position": "G",
+      "injury": "Not specified",
+      "practiceStatus": "Full"
+    },
+    {
+      "team": "BUF",
+      "playerName": "Dorian Williams",
+      "position": "LB",
+      "injury": "Hip",
+      "practiceStatus": "Full"
     }
   ]
 }

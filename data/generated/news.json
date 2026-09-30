@@ -1,5 +1,23 @@
 [
   {
+    "id": "91134ac6-c201-4313-bebe-a23e566275a1",
+    "publishedAt": "2026-09-30T20:58:11.000Z",
+    "type": "Injury",
+    "headline": "Week 4 Injury Report: Patriots at Bills",
+    "summary": "The New England Patriots and the Buffalo Bills announce the following player injuries and practice participation ahead of their Week 4 game.",
+    "sourceUrl": "https://www.patriots.com/news/week-4-injury-report-patriots-at-bills2",
+    "sourceName": "Patriots.com"
+  },
+  {
+    "id": "5c28d1bc-1052-4b08-939b-50a0096b3f2d",
+    "publishedAt": "2026-09-30T20:00:00.000Z",
+    "type": "Transaction",
+    "headline": "Patriots Sign OL Da'Metrius Weatherspoon to the Practice Squad",
+    "summary": "The Patriots announced that they have signed rookie OL Da’Metrius Weatherspoon to the practice squad.",
+    "sourceUrl": "https://www.patriots.com/news/patriots-sign-ol-da-metrius-weatherspoon-to-the-practice-squad",
+    "sourceName": "Patriots.com"
+  },
+  {
     "id": "f846f81a-c81e-4e10-b2ed-0a4e7be33127",
     "publishedAt": "2026-09-30T15:01:00.000Z",
     "type": "Analysis",
@@ -18,12 +36,12 @@
     "sourceName": "Patriots.com"
   },
   {
-    "id": "052e9ba2-9708-4e65-851a-f29e52d7f300",
-    "publishedAt": "2026-09-30T11:38:00.000Z",
-    "type": "Analysis",
-    "headline": "Patriots Name September High School Football Officiating Crew of the Month",
-    "summary": "Crew to be recognized for dedication, integrity, and commitment to the game.",
-    "sourceUrl": "https://www.patriots.com/news/patriots-name-september-high-school-football-officiating-crew-of-the-month",
+    "id": "de92fe52-c6a7-4af6-9bb2-f28dbf31f2da",
+    "publishedAt": "2026-09-30T14:00:00.000Z",
+    "type": "Beat Report",
+    "headline": "Transcript: Head Coach Mile Vrabel Press Conference 9/30",
+    "summary": "Read the full transcript from Patriots head coach Mike Vrabel's press conference at Gillette Stadium on Sunday, October 30, 2026.",
+    "sourceUrl": "https://www.patriots.com/news/transcript-head-coach-mile-vrabel-press-conference-9-30",
     "sourceName": "Patriots.com"
   },
   {
@@ -34,24 +52,6 @@
     "summary": "The Patriots placed guard Greg Van Roten on injured reserve Tuesday as the infrastructure around quarterback Drake Maye took another hit.",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/50061293/patriots-place-offensive-lineman-greg-van-roten-thigh-ir",
     "sourceName": "ESPN"
-  },
-  {
-    "id": "c4da5545-8cd5-4997-b614-d88096c044fd",
-    "publishedAt": "2026-09-29T20:00:00.000Z",
-    "type": "Transaction",
-    "headline": "Patriots Place OL Greg Van Roten on Injured Reserve and Release LB Riley Wilson from the Practice Squad",
-    "summary": "The Patriots announced that they have placed OL Greg Van Roten on injured reserve and released LB Riley Wilson from the practice squad.",
-    "sourceUrl": "https://www.patriots.com/news/patriots-place-ol-greg-van-roten-on-injured-reserve-and-release-lb-riley-wilson-from-the-practice-squad",
-    "sourceName": "Patriots.com"
-  },
-  {
-    "id": "0117d55c-738a-462a-9115-4fd1a52724e9",
-    "publishedAt": "2026-09-29T14:00:21.000Z",
-    "type": "Analysis",
-    "headline": "Newton North High School's Nick Capodilupo Named the New England Patriots Coach of the Week",
-    "summary": "The Newton North Tigers rolled their way to a 14-12 victory against Weymouth behind the leadership of Head Coach Nick Capodilupo. Their hard-fought victory was Newton North’s first win over Weymouth in eight years, earning Coach Capodilupo the honor of the New England Patriots Coach of the Week Award.",
-    "sourceUrl": "https://www.patriots.com/news/newton-north-high-school-s-nick-capodilupo-named-the-new-england-patriots-coach-of-the-week",
-    "sourceName": "Patriots.com"
   },
   {
     "id": "50054960",
