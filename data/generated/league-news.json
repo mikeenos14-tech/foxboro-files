@@ -18,6 +18,15 @@
     "sourceName": "Pro Football Rumors"
   },
   {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/through-three-games-brock-purdy-still-hasnt-been-sacked",
+    "publishedAt": "2026-09-30T08:42:41.000Z",
+    "type": "Analysis",
+    "headline": "Through three games, Brock Purdy still hasn't been sacked",
+    "summary": "The 49ers are the fourth team since 1990 to allow zero sacks in their first three games.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/through-three-games-brock-purdy-still-hasnt-been-sacked",
+    "sourceName": "Pro Football Talk"
+  },
+  {
     "id": "profootballrumors-https://www.profootballrumors.com/?p=421313",
     "publishedAt": "2026-09-30T04:50:55.000Z",
     "type": "Transaction",
@@ -43,14 +52,5 @@
     "summary": "The Ravens' 34-31 victory over the Cowboys in Rio de Janeiro, Brazil, averaged 24.9 million viewers on CBS on Sunday, making it the most-watched NFL international game in history.",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/50062493/ravens-cowboys-brazil-averaged-record-299m-viewers",
     "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jalen-hurts-i-felt-fine-during-concussion-check-wish-they-could-have-expedited-things",
-    "publishedAt": "2026-09-29T21:15:19.000Z",
-    "type": "Injury",
-    "headline": "Jalen Hurts: I felt fine during concussion check, wish they could have expedited things",
-    "summary": "Eagles quarterback Jalen Hurts had to leave the game for a concussion evaluation after getting hit on the sideline during Monday night's loss to the Bears, and that proved costly for the Eagles: They were in the red zone at the time, but they came away with no points when backup quarterback Andy Dalton threw an interception.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jalen-hurts-i-felt-fine-during-concussion-check-wish-they-could-have-expedited-things",
-    "sourceName": "Pro Football Talk"
   }
 ]
