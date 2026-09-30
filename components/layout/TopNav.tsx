@@ -22,7 +22,7 @@ export function TopNav() {
     <header className="sticky top-0 z-10 border-b-4 border-red bg-navy text-white">
       <div className="mx-auto flex max-w-6xl items-center gap-6 px-4 py-3">
         <Link href="/" className="flex shrink-0 items-center gap-2.5">
-          <BeaconMark size={30} />
+          <BeaconMark height={34} />
           <span className="font-display text-2xl font-semibold uppercase tracking-wide">
             The Foxboro Beacon
           </span>
