@@ -63,15 +63,6 @@
     "sourceName": "Patriots.com"
   },
   {
-    "id": "50048114",
-    "publishedAt": "2026-09-28T14:47:55Z",
-    "type": "Analysis",
-    "headline": "Drake Maye calls Patriots' offensive performance \"unacceptable\"",
-    "summary": "Mike Reiss breaks down Maye's response after 3 turnovers in New England's loss to Jacksonville.",
-    "sourceUrl": "https://www.espn.com/video/clip/_/id/50048114/drake-maye-calls-patriots-offensive-performance-unacceptable",
-    "sourceName": "ESPN"
-  },
-  {
     "id": "50051609",
     "publishedAt": "2026-09-28T13:22:14Z",
     "type": "Analysis",
@@ -114,6 +105,15 @@
     "headline": "Jaguars expect a favorable response against the Patriots, who are still 'finding ourselves'",
     "summary": "— Trevor Lawrence and the Jacksonville Jaguars are counting on one thing following their worst offensive performance in 11 months: a...",
     "sourceUrl": "http://www.espn.com/nfl/preview?gameId=401872957",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50016408",
+    "publishedAt": "2026-09-24T10:41:46Z",
+    "type": "Analysis",
+    "headline": "Why Patriots must be better at managing the clock before halftime",
+    "summary": "After two straight games with questionable decisions before halftime, the Patriots admit they need to improve on possessions late in the second quarter.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50016408/new-england-patriots-clock-management-mike-vrabel",
     "sourceName": "ESPN"
   }
 ]

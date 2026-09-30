@@ -1,16 +1,70 @@
 [
   {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jalen-ramsey-says-he-has-a-broken-wrist",
-    "publishedAt": "2026-09-30T00:01:16.000Z",
-    "type": "Injury",
-    "headline": "Jalen Ramsey says he has a broken wrist",
-    "summary": "In advance of Thursday night's game at Cleveland, Steelers defensive back Jalen Ramsey was listed as limited in practice on Monday and Tuesday, with a wrist injury.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jalen-ramsey-says-he-has-a-broken-wrist",
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/in-the-offseason-giants-werent-interested-in-joe-flacco",
+    "publishedAt": "2026-09-30T02:37:56.000Z",
+    "type": "Analysis",
+    "headline": "In the offseason, Giants weren't interested in Joe Flacco",
+    "summary": "Quarterback Joe Flacco became a free agent in March.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/in-the-offseason-giants-werent-interested-in-joe-flacco",
     "sourceName": "Pro Football Talk"
   },
   {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=421397",
+    "publishedAt": "2026-09-30T01:52:41.000Z",
+    "type": "Transaction",
+    "headline": "NFL Practice Squad Updates: 9/29/26",
+    "summary": "Here are today’s practice squad moves from around the NFL: Baltimore Ravens Released: WR Shedrick Jackson Carolina Panthers Signed: LB Cam Gill, T Isaia Glass Released: G Chandler Zavala Cincinnati Bengals Signed: S Beau Brade Cleveland Browns Signed: TE John FitzPatrick Released: TE Messiah Swinson Dallas Cowboys Signed: CB Alex Austin Denver Broncos Signed: OLB […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/09/nfl-practice-squad-updates-9-29-26",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=421398",
+    "publishedAt": "2026-09-30T01:34:50.000Z",
+    "type": "Injury",
+    "headline": "Ravens Work Out Former Lions C Graham Glasgow",
+    "summary": "The Ravens’ center situation continues to be their 2026 kryptonite. Tyler Linderbaum’s departure in free agency left the team searching for a new starter at the position. Danny Pinter emerged as an early leader in the training camp battle, but he suffered a season-ending injury in joint practices in Minnesota. That gave Jovaughn Gwyn a […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/09/ravens-work-out-former-lions-c-graham-glasgow",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "50062493",
+    "publishedAt": "2026-09-30T01:33:08Z",
+    "type": "Analysis",
+    "headline": "Ravens-Cowboys in Brazil averaged record 24.9M viewers",
+    "summary": "The Ravens' 34-31 victory over the Cowboys in Rio de Janeiro, Brazil, averaged 24.9 million viewers on CBS on Sunday, making it the most-watched NFL international game in history.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50062493/ravens-cowboys-brazil-averaged-record-299m-viewers",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cowboys-agree-to-terms-with-dbs-juanyeh-thomas-alex-austin",
+    "publishedAt": "2026-09-30T01:00:03.000Z",
+    "type": "Injury",
+    "headline": "Cowboys agree to terms with DBs Juanyeh Thomas, Alex Austin",
+    "summary": "The Cowboys have been hit hard by injuries in their secondary, which is why they had four defensive backs in town to workout.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cowboys-agree-to-terms-with-dbs-juanyeh-thomas-alex-austin",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/joe-buck-hopes-troy-aikman-stays-at-espn",
+    "publishedAt": "2026-09-30T00:57:42.000Z",
+    "type": "Analysis",
+    "headline": "Joe Buck hopes Troy Aikman stays at ESPN",
+    "summary": "Joe Buck recently re-upped with ESPN.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/joe-buck-hopes-troy-aikman-stays-at-espn",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "50062628",
+    "publishedAt": "2026-09-30T00:48:05Z",
+    "type": "Analysis",
+    "headline": "Guard Sam Cosmi, safety Nick Cross out for London game vs. Colts",
+    "summary": "Commanders guard Sam Cosmi and safety Nick Cross did not travel with the team to London on Tuesday night for their Week 4 game against the Colts.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50062628/guard-sam-cosmi-safety-nick-cross-london-game-vs-colts",
+    "sourceName": "ESPN"
+  },
+  {
     "id": "50062115",
-    "publishedAt": "2026-09-29T23:59:58Z",
+    "publishedAt": "2026-09-30T00:41:41Z",
     "type": "Analysis",
     "headline": "Cowboys' Schottenheimer 'aligned' with Jones after Rio gaffes",
     "summary": "Cowboys coach Brian Schottenheimer said he would \"be better\" after meeting with Jerry Jones about questionable late-game coaching decisions in Sunday's loss to the Ravens.",
@@ -18,22 +72,40 @@
     "sourceName": "ESPN"
   },
   {
-    "id": "50062628",
-    "publishedAt": "2026-09-29T23:57:41Z",
-    "type": "Analysis",
-    "headline": "Guard Sam Cosmi, safety Nick Cross out for London game vs. Colts",
-    "summary": "Commanders guard Sam Cosmi and safety Nick Cross did not travel with the team to London Tuesday night for their Week 4 game against the Colts.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50062628/guard-sam-cosmi-safety-nick-cross-london-game-vs-colts",
-    "sourceName": "ESPN"
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=421396",
+    "publishedAt": "2026-09-30T00:37:38.000Z",
+    "type": "Injury",
+    "headline": "Minor NFL Transactions: 9/29/26",
+    "summary": "Here are Tuesday’s minor NFL transactions: Baltimore Ravens Waived: LB Carl Jones Jr. Buffalo Bills Released from reserve/suspended list: DT Phidarian Mathis Carolina Panthers Signed from practice squad: G Torricelli Simpkins III Waived: LB Maema Njongmeta Cleveland Browns Released (with injury settlement): G Kendrick Green Houston Texans Signed off Raiders’ practices squad: RB Dare Ogunbowale […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/09/minor-nfl-transactions-9-29-26",
+    "sourceName": "Pro Football Rumors"
   },
   {
-    "id": "50062493",
-    "publishedAt": "2026-09-29T23:47:39Z",
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/josh-allen-remains-the-mvp-favorite-but-brock-purdy-is-lurking",
+    "publishedAt": "2026-09-30T00:35:20.000Z",
     "type": "Analysis",
-    "headline": "Ravens-Cowboys in Brazil averaged record 29.9M viewers",
-    "summary": "The Ravens' 34-31 victory over the Cowboys in Rio de Janeiro, Brazil, averaged 29.9 million viewers on CBS on Sunday, making it the most-watched NFL international game in history.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50062493/ravens-cowboys-brazil-averaged-record-299m-viewers",
-    "sourceName": "ESPN"
+    "headline": "Josh Allen remains the MVP favorite, but Brock Purdy is lurking",
+    "summary": "Even with no touchdown passes and a pair of interceptions on Sunday against the Chargers, Bills quarterback Josh Allen remains the clear MVP favorite.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/josh-allen-remains-the-mvp-favorite-but-brock-purdy-is-lurking",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/case-keenums-monday-night-performance-shows-importance-of-having-three-quarterbacks",
+    "publishedAt": "2026-09-30T00:15:52.000Z",
+    "type": "Analysis",
+    "headline": "Case Keenum's Monday night performance shows importance of having three quarterbacks",
+    "summary": "Last night, Bears quarterback Case Keenum played in a regular-season game for the first time in 1,009 days.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/case-keenums-monday-night-performance-shows-importance-of-having-three-quarterbacks",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jalen-ramsey-says-he-has-a-broken-wrist",
+    "publishedAt": "2026-09-30T00:01:16.000Z",
+    "type": "Injury",
+    "headline": "Jalen Ramsey says he has a broken wrist",
+    "summary": "In advance of Thursday night's game at Cleveland, Steelers defensive back Jalen Ramsey was listed as limited in practice on Monday and Tuesday, with a wrist injury.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jalen-ramsey-says-he-has-a-broken-wrist",
+    "sourceName": "Pro Football Talk"
   },
   {
     "id": "profootballrumors-https://www.profootballrumors.com/?p=421389",
@@ -15324,42 +15396,6 @@
     "headline": "NFL Practice Squad Updates: 9/15/26",
     "summary": "Several NFL teams adjusted their practice squads on Tuesday, with several adding position-specific depth in response to injuries. Here are the latest updates: Arizona Cardinals Released: WR Ihmir Smith-Marsette Baltimore Ravens Signed; WR Gage Larvadain Released: K Jake Moody Cleveland Browns Signed: RB Eric Gray, OT Obinna Eze, P Wes Pahl, OT Xavier Truss Released: […]",
     "sourceUrl": "https://www.profootballrumors.com/2026/09/nfl-practice-squad-updates-9-15-26",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=419999",
-    "publishedAt": "2026-09-16T02:23:01.000Z",
-    "type": "Injury",
-    "headline": "Chargers To Sign WR Marquez Valdes-Scantling",
-    "summary": "The Chargers are signing wideout Marquez Valdes-Scantling to their practice squad, per ESPN’s Jeremy Fowler, adding some veteran depth following multiple injuries in their receiving corps. Star wide receiver Ladd McConkey (rib) and fifth-round rookie KeAndre Lambert-Smith (hamstring) both went down in Sunday’s loss to the Cardinals. The former is considered day-to-day, while the latter was […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/09/chargers-to-sign-wr-marquez-valdes-scantling",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/senate-advances-the-protect-college-sports-act",
-    "publishedAt": "2026-09-16T01:54:43.000Z",
-    "type": "Analysis",
-    "headline": "Senate advances the Protect College Sports Act",
-    "summary": "ESPN has gotten its apparent wish.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/senate-advances-the-protect-college-sports-act",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=419990",
-    "publishedAt": "2026-09-16T00:47:28.000Z",
-    "type": "Injury",
-    "headline": "Panthers Waive WR Jimmy Horn",
-    "summary": "The Panthers promoted linebacker Tyrel Dodson from their practice squad to their active roster on Monday. The move cost wide receiver Jimmy Horn his roster spot. Carolina waived Horn on Tuesday, the team announced. Horn is out after muffing a punt in the Panthers’ loss to the Bears in Week 1. He failed to secure a […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/09/panthers-waive-wr-jimmy-horn",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=419988",
-    "publishedAt": "2026-09-16T00:16:42.000Z",
-    "type": "Injury",
-    "headline": "Minor NFL Transactions: 9/15/26",
-    "summary": "Here are Tuesday’s minor transactions from around the NFL… Dallas Cowboys Waived: RB Israel Abanikanda Denver Broncos Signed: WR Lil’Jordan Humphrey Green Bay Packers Waived (via injury settlement): S Trey Dean Houston Texans Signed from practice squad: LB Jamal Hill Los Angeles Chargers Signed: WR Gary Jennings Placed on IR: WR KeAndre Lambert-Smith Philadelphia Eagles […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/09/minor-nfl-transactions-9-15-26",
     "sourceName": "Pro Football Rumors"
   }
 ]

@@ -1,11 +1,38 @@
 [
   {
+    "id": "50062493",
+    "publishedAt": "2026-09-30T01:33:08Z",
+    "type": "Analysis",
+    "headline": "Ravens-Cowboys in Brazil averaged record 24.9M viewers",
+    "summary": "The Ravens' 34-31 victory over the Cowboys in Rio de Janeiro, Brazil, averaged 24.9 million viewers on CBS on Sunday, making it the most-watched NFL international game in history.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50062493/ravens-cowboys-brazil-averaged-record-299m-viewers",
+    "sourceName": "ESPN"
+  },
+  {
     "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jalen-ramsey-says-he-has-a-broken-wrist",
     "publishedAt": "2026-09-30T00:01:16.000Z",
     "type": "Injury",
     "headline": "Jalen Ramsey says he has a broken wrist",
     "summary": "In advance of Thursday night's game at Cleveland, Steelers defensive back Jalen Ramsey was listed as limited in practice on Monday and Tuesday, with a wrist injury.",
     "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jalen-ramsey-says-he-has-a-broken-wrist",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "50062628",
+    "publishedAt": "2026-09-30T00:48:05Z",
+    "type": "Analysis",
+    "headline": "Guard Sam Cosmi, safety Nick Cross out for London game vs. Colts",
+    "summary": "Commanders guard Sam Cosmi and safety Nick Cross did not travel with the team to London on Tuesday night for their Week 4 game against the Colts.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50062628/guard-sam-cosmi-safety-nick-cross-london-game-vs-colts",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/brian-schottenheimer-i-hurt-the-team-in-loss-to-the-ravens",
+    "publishedAt": "2026-09-29T21:44:20.000Z",
+    "type": "Analysis",
+    "headline": "Brian Schottenheimer: I hurt the team in loss to the Ravens",
+    "summary": "Cowboys owner Jerry Jones said there was \"no explanation\" for how the team closed out the game.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/brian-schottenheimer-i-hurt-the-team-in-loss-to-the-ravens",
     "sourceName": "Pro Football Talk"
   },
   {
@@ -18,39 +45,12 @@
     "sourceName": "Pro Football Talk"
   },
   {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/titans-place-ols-fernando-carmona-jackson-slater-on-injured-reserve",
-    "publishedAt": "2026-09-29T19:20:45.000Z",
+    "id": "50059771",
+    "publishedAt": "2026-09-29T20:33:47Z",
     "type": "Injury",
-    "headline": "Titans place OLs Fernando Carmona, Jackson Slater on injured reserve",
-    "summary": "The Titans have made a few roster moves on Tuesday.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/titans-place-ols-fernando-carmona-jackson-slater-on-injured-reserve",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "50062493",
-    "publishedAt": "2026-09-29T23:47:39Z",
-    "type": "Analysis",
-    "headline": "Ravens-Cowboys in Brazil averaged record 29.9M viewers",
-    "summary": "The Ravens' 34-31 victory over the Cowboys in Rio de Janeiro, Brazil, averaged 29.9 million viewers on CBS on Sunday, making it the most-watched NFL international game in history.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50062493/ravens-cowboys-brazil-averaged-record-299m-viewers",
+    "headline": "Inside George Kittle's 243-day recovery from torn Achilles",
+    "summary": "Despite tearing his Achilles in the playoffs, Kittle appears to be back to his normal self. Here's how he won the recovery process.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50059771/san-francisco-49ers-george-kittle-torn-achilles-recovery",
     "sourceName": "ESPN"
-  },
-  {
-    "id": "50062115",
-    "publishedAt": "2026-09-29T23:59:58Z",
-    "type": "Analysis",
-    "headline": "Cowboys' Schottenheimer 'aligned' with Jones after Rio gaffes",
-    "summary": "Cowboys coach Brian Schottenheimer said he would \"be better\" after meeting with Jerry Jones about questionable late-game coaching decisions in Sunday's loss to the Ravens.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50062115/cowboys-schottenheimer-aligned-jones-rio-gaffes",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/brian-schottenheimer-i-hurt-the-team-in-loss-to-the-ravens",
-    "publishedAt": "2026-09-29T21:44:20.000Z",
-    "type": "Analysis",
-    "headline": "Brian Schottenheimer: I hurt the team in loss to the Ravens",
-    "summary": "Cowboys owner Jerry Jones said there was \"no explanation\" for how the team closed out the game.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/brian-schottenheimer-i-hurt-the-team-in-loss-to-the-ravens",
-    "sourceName": "Pro Football Talk"
   }
 ]
