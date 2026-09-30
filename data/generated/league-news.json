@@ -1,5 +1,41 @@
 [
   {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=421411",
+    "publishedAt": "2026-09-30T04:59:02.000Z",
+    "type": "Transaction",
+    "headline": "J.J. McCarthy Trade Fallout: Dart, Winston, Harbaugh, Giants, Vikings",
+    "summary": "Yesterday, the Giants made the first big in-season trade of the still young 2026 season, acquiring former Vikings 10th overall pick J.J. McCarthy in exchange for a fifth-round pick in the upcoming draft. Now that the dust has begun to settle, it’s starting to become clear just how much things have changed in the fallout […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/09/j-j-mccarthy-trade-fallout-dart-winston-harbaugh-giants-vikings",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=421314",
+    "publishedAt": "2026-09-30T04:58:02.000Z",
+    "type": "Transaction",
+    "headline": "Giants To Release WR Odell Beckham Jr.",
+    "summary": "Odell Beckham Jr. earned a roster spot upon returning to the Giants. His second chapter with the team has proven to be short-lived, however. Beckham is being released, as first reported by NFL insider Jordan Schultz. This was a mutual decision, he adds. Beckham’s workload had been sparse despite the fact he appeared in all three […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/09/giants-to-release-wr-odell-beckham-jr",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=421313",
+    "publishedAt": "2026-09-30T04:50:55.000Z",
+    "type": "Transaction",
+    "headline": "Opinions Split On Trade Value Of Cardinals WR Marvin Harrison Jr.",
+    "summary": "A report from last week indicated executives around the NFL have begun to wonder about the Cardinals’ willingness to explore a Marvin Harrison Jr. trade. The 2024 fourth overall pick has not developed as hoped in Arizona, and a poor win-loss record leading up to this year’s deadline would no doubt result in calls being made. When […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/09/opinions-split-on-trade-value-of-cardinals-wr-marvin-harrison-jr",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=421412",
+    "publishedAt": "2026-09-30T03:43:59.000Z",
+    "type": "Injury",
+    "headline": "Titans Place Guards Fernando Carmona, Jackson Slater On IR",
+    "summary": "The Titans lost two guards in Sunday’s loss to the Giants, and both are now headed for multi-game absences. Tennessee placed Fernando Carmona and Jackson Slater on injured reserve on Tuesday, per a team announcement. Guard Garrett Dellinger and running back Michael Carter were promoted from the practice squad to the active roster in corresponding […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/09/titans-place-guards-fernando-carmona-jackson-slater-on-ir",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
     "id": "50062493",
     "publishedAt": "2026-09-30T01:33:08Z",
     "type": "Analysis",
@@ -9,33 +45,6 @@
     "sourceName": "ESPN"
   },
   {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jalen-ramsey-says-he-has-a-broken-wrist",
-    "publishedAt": "2026-09-30T00:01:16.000Z",
-    "type": "Injury",
-    "headline": "Jalen Ramsey says he has a broken wrist",
-    "summary": "In advance of Thursday night's game at Cleveland, Steelers defensive back Jalen Ramsey was listed as limited in practice on Monday and Tuesday, with a wrist injury.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jalen-ramsey-says-he-has-a-broken-wrist",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "50062628",
-    "publishedAt": "2026-09-30T00:48:05Z",
-    "type": "Analysis",
-    "headline": "Guard Sam Cosmi, safety Nick Cross out for London game vs. Colts",
-    "summary": "Commanders guard Sam Cosmi and safety Nick Cross did not travel with the team to London on Tuesday night for their Week 4 game against the Colts.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50062628/guard-sam-cosmi-safety-nick-cross-london-game-vs-colts",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/brian-schottenheimer-i-hurt-the-team-in-loss-to-the-ravens",
-    "publishedAt": "2026-09-29T21:44:20.000Z",
-    "type": "Analysis",
-    "headline": "Brian Schottenheimer: I hurt the team in loss to the Ravens",
-    "summary": "Cowboys owner Jerry Jones said there was \"no explanation\" for how the team closed out the game.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/brian-schottenheimer-i-hurt-the-team-in-loss-to-the-ravens",
-    "sourceName": "Pro Football Talk"
-  },
-  {
     "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jalen-hurts-i-felt-fine-during-concussion-check-wish-they-could-have-expedited-things",
     "publishedAt": "2026-09-29T21:15:19.000Z",
     "type": "Injury",
@@ -43,14 +52,5 @@
     "summary": "Eagles quarterback Jalen Hurts had to leave the game for a concussion evaluation after getting hit on the sideline during Monday night's loss to the Bears, and that proved costly for the Eagles: They were in the red zone at the time, but they came away with no points when backup quarterback Andy Dalton threw an interception.",
     "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jalen-hurts-i-felt-fine-during-concussion-check-wish-they-could-have-expedited-things",
     "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "50059771",
-    "publishedAt": "2026-09-29T20:33:47Z",
-    "type": "Injury",
-    "headline": "Inside George Kittle's 243-day recovery from torn Achilles",
-    "summary": "Despite tearing his Achilles in the playoffs, Kittle appears to be back to his normal self. Here's how he won the recovery process.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50059771/san-francisco-49ers-george-kittle-torn-achilles-recovery",
-    "sourceName": "ESPN"
   }
 ]
