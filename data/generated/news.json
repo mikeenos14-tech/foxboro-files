@@ -1,5 +1,23 @@
 [
   {
+    "id": "f846f81a-c81e-4e10-b2ed-0a4e7be33127",
+    "publishedAt": "2026-09-30T15:01:00.000Z",
+    "type": "Analysis",
+    "headline": "How to Watch and Stream Sunday's Patriots Game Against the Bills | NFL Week 4",
+    "summary": "Complete broadcast information for this week's game between the New England Patriots and the Buffalo Bills on Sunday, October 4, 2026 at 1 PM ET.",
+    "sourceUrl": "https://www.patriots.com/news/how-to-watch-and-stream-sunday-s-patriots-game-against-the-bills-nfl-week-4",
+    "sourceName": "Patriots.com"
+  },
+  {
+    "id": "cb22b719-7dcf-403e-964b-c77f96844d93",
+    "publishedAt": "2026-09-30T14:50:00.000Z",
+    "type": "Analysis",
+    "headline": "Game Preview: Patriots at Bills | NFL Week 4",
+    "summary": "The New England Patriots will travel to Buffalo to face the Bills at Highmark Stadium on Sunday, October 4 at 1 PM ET.",
+    "sourceUrl": "https://www.patriots.com/news/game-preview-patriots-at-bills-nfl-week-4",
+    "sourceName": "Patriots.com"
+  },
+  {
     "id": "50061293",
     "publishedAt": "2026-09-30T10:37:04Z",
     "type": "Injury",
@@ -15,24 +33,6 @@
     "headline": "Patriots Place OL Greg Van Roten on Injured Reserve and Release LB Riley Wilson from the Practice Squad",
     "summary": "The Patriots announced that they have placed OL Greg Van Roten on injured reserve and released LB Riley Wilson from the practice squad.",
     "sourceUrl": "https://www.patriots.com/news/patriots-place-ol-greg-van-roten-on-injured-reserve-and-release-lb-riley-wilson-from-the-practice-squad",
-    "sourceName": "Patriots.com"
-  },
-  {
-    "id": "f846f81a-c81e-4e10-b2ed-0a4e7be33127",
-    "publishedAt": "2026-09-29T16:14:35.000Z",
-    "type": "Analysis",
-    "headline": "How to Watch and Stream Sunday's Patriots Game Against the Bills | NFL Week 4",
-    "summary": "Complete broadcast information for this week's game between the New England Patriots and the Buffalo Bills on Sunday, October 4, 2026 at 1 PM ET.",
-    "sourceUrl": "https://www.patriots.com/news/how-to-watch-and-stream-sunday-s-patriots-game-against-the-bills-nfl-week-4",
-    "sourceName": "Patriots.com"
-  },
-  {
-    "id": "cb22b719-7dcf-403e-964b-c77f96844d93",
-    "publishedAt": "2026-09-29T16:14:15.000Z",
-    "type": "Analysis",
-    "headline": "Game Preview: Patriots at Bills | NFL Week 4",
-    "summary": "The New England Patriots will travel to Buffalo to face the Bills at Highmark Stadium on Sunday, October 4 at 1 PM ET.",
-    "sourceUrl": "https://www.patriots.com/news/game-preview-patriots-at-bills-nfl-week-4",
     "sourceName": "Patriots.com"
   },
   {

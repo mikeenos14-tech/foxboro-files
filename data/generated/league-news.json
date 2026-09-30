@@ -9,48 +9,48 @@
     "sourceName": "Pro Football Rumors"
   },
   {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/greg-rousseau-is-first-player-since-1998-with-2-sacks-in-first-three-games-of-a-season",
-    "publishedAt": "2026-09-30T11:43:15.000Z",
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=421432",
+    "publishedAt": "2026-09-30T13:19:54.000Z",
+    "type": "Injury",
+    "headline": "Ravens C Jovaughn Gwyn Fractures Fibula, Could Miss 2-3 Months",
+    "summary": "The Ravens won a 34-31 thriller over the Cowboys in Week 3, but they did not escape Brazil unscathed. Starting center Jovaughn Gwyn fractured his fibula and is expected to miss two to three months, Jamison Hensley of ESPN reports. Gwyn, who left the field on a cart last Sunday, is likely to undergo surgery, […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/09/ravens-c-jovaughn-gwyn-fractures-fibula-could-miss-2-3-months",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/wink-martindale-offers-to-help-outclassed-cowboys-defensive-coordinator-christian-parker",
+    "publishedAt": "2026-09-30T15:02:38.000Z",
     "type": "Analysis",
-    "headline": "Greg Rousseau is first player since 1998 with 2+ sacks in first three games of a season",
-    "summary": "While Bills quarterback Josh Allen is the leading candidate to be league MVP, his teammate linebacker Greg Rousseau is making an early case for Defensive Player of the Year.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/greg-rousseau-is-first-player-since-1998-with-2-sacks-in-first-three-games-of-a-season",
+    "headline": "Wink Martindale offers to help \"outclassed\" Cowboys defensive coordinator Christian Parker",
+    "summary": "Coaching inexperience is holding the Cowboys back.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/wink-martindale-offers-to-help-outclassed-cowboys-defensive-coordinator-christian-parker",
     "sourceName": "Pro Football Talk"
   },
   {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/through-three-games-brock-purdy-still-hasnt-been-sacked",
-    "publishedAt": "2026-09-30T08:42:41.000Z",
-    "type": "Analysis",
-    "headline": "Through three games, Brock Purdy still hasn't been sacked",
-    "summary": "The 49ers are the fourth team since 1990 to allow zero sacks in their first three games.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/through-three-games-brock-purdy-still-hasnt-been-sacked",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "50062115",
-    "publishedAt": "2026-09-30T00:41:41Z",
-    "type": "Analysis",
-    "headline": "Cowboys' Schottenheimer 'aligned' with Jones after Rio gaffes",
-    "summary": "Cowboys coach Brian Schottenheimer said he would \"be better\" after meeting with Jerry Jones about questionable late-game coaching decisions in Sunday's loss to the Ravens.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50062115/cowboys-schottenheimer-aligned-jones-rio-gaffes",
+    "id": "50068199",
+    "publishedAt": "2026-09-30T15:09:17Z",
+    "type": "Transaction",
+    "headline": "Buccaneers put WR McMillan on IR, add QB Rypien to practice squad",
+    "summary": "The Buccaneers placed wide receiver Jalen McMillan on injured reserve Wednesday, sidelining him for at least the next four games.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50068199/buccaneers-put-wr-mcmillan-ir-add-qb-rypien-practice-squad",
     "sourceName": "ESPN"
   },
   {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=421314",
+    "publishedAt": "2026-09-30T04:58:02.000Z",
+    "type": "Transaction",
+    "headline": "Giants To Release WR Odell Beckham Jr.",
+    "summary": "Odell Beckham Jr. earned a roster spot upon returning to the Giants. His second chapter with the team has proven to be short-lived, however. Beckham is being released, as first reported by NFL insider Jordan Schultz. This was a mutual decision, he adds. Beckham’s workload had been sparse despite the fact he appeared in all three […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/09/giants-to-release-wr-odell-beckham-jr",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
     "id": "50059548",
-    "publishedAt": "2026-09-30T10:00:11Z",
+    "publishedAt": "2026-09-30T14:55:41Z",
     "type": "Analysis",
     "headline": "Can the 0-3 Texans defy history again to make playoffs?",
     "summary": "Houston became the first team in the common playoff format to make the postseason after starting 0-3 in 2025.",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/50059548/houston-texans-0-3-start-again-defy-history-playoffs",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50062493",
-    "publishedAt": "2026-09-30T01:33:08Z",
-    "type": "Analysis",
-    "headline": "Ravens-Cowboys in Brazil averaged record 24.9M viewers",
-    "summary": "The Ravens' 34-31 victory over the Cowboys in Rio de Janeiro, Brazil, averaged 24.9 million viewers on CBS on Sunday, making it the most-watched NFL international game in history.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50062493/ravens-cowboys-brazil-averaged-record-299m-viewers",
     "sourceName": "ESPN"
   }
 ]
