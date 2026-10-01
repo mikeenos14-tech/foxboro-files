@@ -1,7 +1,11 @@
 {
   "beat digest": {
     "status": "written",
-    "problems": [],
-    "at": "2026-10-01T09:09:28.429Z"
+    "problems": [
+      [
+        "It makes a franchise-history claim that isn't in the facts given."
+      ]
+    ],
+    "at": "2026-10-01T12:11:27.224Z"
   }
 }
