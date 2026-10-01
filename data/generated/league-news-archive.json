@@ -1,12 +1,120 @@
 [
   {
+    "id": "50073098",
+    "publishedAt": "2026-10-01T03:07:07Z",
+    "type": "Analysis",
+    "headline": "Former Steelers HC Mike Tomlin reveals massive Minecraft city",
+    "summary": "The former Steelers coach revealed an unexpected longtime hobby that shocked the sports and gaming worlds.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50073098/former-steelers-coach-mike-tomlin-minecraft-city-12-year-reveal",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=421503",
+    "publishedAt": "2026-10-01T02:58:12.000Z",
+    "type": "Transaction",
+    "headline": "Jaguars WR Brian Thomas Jr. Remains On Trade Radar",
+    "summary": "Brian Thomas Jr. was targeted nine times in the Jaguars’ Week 2 loss to the Broncos, but the slumping wide receiver has drawn just four combined looks from Trevor Lawrence in the team’s two other games this season. Thomas’ place in Jacksonville’s offense simply does not rival where it was during his impact rookie season. The […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/09/jaguars-wr-brian-thomas-jr-remains-on-trade-radar",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/3-0-vikings-are-a-game-away-from-a-dubious-record",
+    "publishedAt": "2026-10-01T02:53:52.000Z",
+    "type": "Analysis",
+    "headline": "3-0 Vikings are a game away from a dubious record",
+    "summary": "The Vikings have scratched and clawed their way to a 3-0 record.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/3-0-vikings-are-a-game-away-from-a-dubious-record",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "50073415",
+    "publishedAt": "2026-10-01T02:40:34Z",
+    "type": "Analysis",
+    "headline": "Brian Flores set for reunion with Dolphins",
+    "summary": "Kevin Seifert breaks down Brian Flores' upcoming matchup against Miami as the Vikings prepare to host his former team.",
+    "sourceUrl": "https://www.espn.com/video/clip/_/id/50073415/brian-flores-set-reunion-dolphins",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=421556",
+    "publishedAt": "2026-10-01T02:16:14.000Z",
+    "type": "Injury",
+    "headline": "Harbaugh: Jaxson Dart’s Surgery ‘Went Well,’ Playoff Return ‘A Bit Ambitious’",
+    "summary": "Giants quarterback Jaxson Dart’s knee surgery to repair his meniscus, MCL, and PCL last Friday “went well,” head coach John Harbaugh announced on Wednesday (via ESPN’s Jordan Raanan). Dart, 23, went down in New York’s Week 2 loss to the Rams. Harbaugh initially left the door open to his young quarterback coming back in the […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/09/harbaugh-jaxson-darts-surgery-went-well-playoff-return-a-bit-ambitious",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=421549",
+    "publishedAt": "2026-10-01T01:44:44.000Z",
+    "type": "Analysis",
+    "headline": "Ravens’ Vega Ioane Could Finish Season At Center",
+    "summary": "It’s probably safe to assume that the Ravens miss former center Tyler Linderbaum. In the aftermath of Linderbaum’s departure, they spent their top pick in the 2026 NFL Draft on another interior offensive lineman, and now, there’s a chance that their pick, Penn State’s Vega Ioane, could serve as Linderbaum’s replacement for the rest of […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/09/ravens-vega-ioane-could-finish-season-at-center",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/five-rams-missed-practice-on-wednesday",
+    "publishedAt": "2026-10-01T01:38:20.000Z",
+    "type": "Beat Report",
+    "headline": "Five Rams missed practice on Wednesday",
+    "summary": "The Rams are banged up in advance of Sunday's key game at the Eagles.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/five-rams-missed-practice-on-wednesday",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/kirk-cousins-has-seven-consecutive-victories-as-a-starter",
+    "publishedAt": "2026-10-01T01:21:46.000Z",
+    "type": "Analysis",
+    "headline": "Kirk Cousins has seven consecutive victories as a starter",
+    "summary": "Kirk Cousins is still a bridge quarterback for the Raiders, holding down the starting job until No. 1 overall pick Fernando Mendoza is ready.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/kirk-cousins-has-seven-consecutive-victories-as-a-starter",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jalen-carter-has-a-hairline-fracture-in-his-wrist",
+    "publishedAt": "2026-10-01T01:14:31.000Z",
+    "type": "Injury",
+    "headline": "Jalen Carter has a hairline fracture in his wrist",
+    "summary": "Officially, Eagles defensive tackle Jalen Carter fully participated in practice with a wrist injury.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jalen-carter-has-a-hairline-fracture-in-his-wrist",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=421546",
+    "publishedAt": "2026-10-01T00:53:36.000Z",
+    "type": "Analysis",
+    "headline": "Lions WR Jameson Williams Will Not Face Charges Over Assault Allegation",
+    "summary": "Lions wide receiver Jameson Williams was accused of assault in Oakland County, Michigan, but no chargers were filed after an investigation. The Oakland County Prosecutor’s office said in a statement (via Dave Birkett and John Wisely of the Detroit Free Press) that local police “thoroughly investigated the alleged Aug. 6 incident after it was first […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/09/lions-wr-jameson-williams-will-not-face-charges-over-assault-allegation",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "50071616",
+    "publishedAt": "2026-10-01T00:23:47Z",
+    "type": "Analysis",
+    "headline": "Sean McVay: NFL told Rams DPI shouldn't have been called",
+    "summary": "Rams head coach Sean McVay says the NFL told the team that defensive pass interference should not have been called against cornerback Josh Wallace in Sunday night's loss to the Broncos.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50071616/sean-mcvay-nfl-told-rams-dpi-called",
+    "sourceName": "ESPN"
+  },
+  {
     "id": "50071951",
-    "publishedAt": "2026-10-01T00:09:48Z",
+    "publishedAt": "2026-10-01T00:20:34Z",
     "type": "Transaction",
     "headline": "Falcons sign DT Gervon Dexter Sr. to four-year extension",
     "summary": "The Falcons signed Gervon Dexter Sr. to a four-year, $78 million contract extension, sources told ESPN.",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/50071951/falcons-sign-dt-gervon-dexter-sr-four-year-extension",
     "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/seahawks-s-julian-love-returns-to-limited-practice",
+    "publishedAt": "2026-10-01T00:16:08.000Z",
+    "type": "Beat Report",
+    "headline": "Seahawks S Julian Love returns to limited practice",
+    "summary": "Seahawks safety Julian Love returned to practice on Wednesday.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/seahawks-s-julian-love-returns-to-limited-practice",
+    "sourceName": "Pro Football Talk"
   },
   {
     "id": "profootballrumors-https://www.profootballrumors.com/?p=421541",
@@ -18,19 +126,10 @@
     "sourceName": "Pro Football Rumors"
   },
   {
-    "id": "50071616",
-    "publishedAt": "2026-09-30T23:59:41Z",
-    "type": "Analysis",
-    "headline": "Sean McVay: NFL told Rams DPI shouldn't have been called",
-    "summary": "Rams head coach Sean McVay says the NFL told the team that defensive pass interference should not have been called against cornerback Josh Wallace in Sunday night's loss to the Broncos.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50071616/sean-mcvay-nfl-told-rams-dpi-called",
-    "sourceName": "ESPN"
-  },
-  {
     "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/ted-cruz-claims-the-reaction-to-his-appearance-on-college-gameday-was-overwhelming-positive",
     "publishedAt": "2026-09-30T23:52:47.000Z",
     "type": "Transaction",
-    "headline": "Ted Cruz claims the reaction to his appearance on College GameDay was \"overwhelming positive\"",
+    "headline": "Ted Cruz claims the reaction to his appearance on College GameDay was \"overwhelmingly positive\"",
     "summary": "Earlier this month, ESPN gave Senator Ted Cruz (R-Texas) an extended platform on its marquee college football show, College GameDay.",
     "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/ted-cruz-claims-the-reaction-to-his-appearance-on-college-gameday-was-overwhelming-positive",
     "sourceName": "Pro Football Talk"
@@ -58,7 +157,7 @@
     "publishedAt": "2026-09-30T23:37:13.000Z",
     "type": "Injury",
     "headline": "Minor NFL Transactions: 9/30/26",
-    "summary": "Here are today’s midweek minor moves: Baltimore Ravens Signed: G Kyle Hergel Carolina Panthers Waived (with injury settlement): LB Claudin Cherelus Dallas Cowboys Signed from practice squad: DT Elijah Garcia Placed on IR: DT Jonathan Bullard Detroit Lions Signed from practice squad: LB Amen Ogbongbemiga New York Giants Released: DT Josh Tupou Amidst myriad injuries […]",
+    "summary": "Here are today’s midweek minor moves: Baltimore Ravens Signed: G Kyle Hergel Signed from practice squad: S K’Von Wallace Carolina Panthers Waived (with injury settlement): LB Claudin Cherelus Dallas Cowboys Signed from practice squad: DT Elijah Garcia Placed on IR: DT Jonathan Bullard Detroit Lions Signed from practice squad: LB Amen Ogbongbemiga Miami Dolphins Designated […]",
     "sourceUrl": "https://www.profootballrumors.com/2026/09/minor-nfl-transactions-9-30-26",
     "sourceName": "Pro Football Rumors"
   },
@@ -15415,131 +15514,5 @@
     "summary": "Colts wide receiver Keenan Allen was arrested on misdemeanor charges of DWI and DWI endangering a person on Aug. 30. Allen has now been formally charged with operating a vehicle with an alcohol concentration equivalent of 0.15 or more and operating a vehicle while intoxicated, Nathan Brown of the Indianapolis Star reports. Both charges are […]",
     "sourceUrl": "https://www.profootballrumors.com/2026/09/colts-wr-keenan-allen-formally-charged-with-two-misdemeanors",
     "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=420110",
-    "publishedAt": "2026-09-17T03:04:33.000Z",
-    "type": "Transaction",
-    "headline": "Saints LS Zach Wood To Miss Significant Time",
-    "summary": "The Saints got an unfortunate surprise today when it discovered that veteran long snapper Zach Wood would miss significant time after being diagnosed with a calf strain, per ESPN’s Katherine Terrell. As he recovers, the 33-year-old specialist is set to miss his first game in 10 years of NFL play. Wood initially came into the […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/09/saints-ls-zach-wood-to-miss-significant-time",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-keenan-allens-bac-was-measured-at-0-224-percent",
-    "publishedAt": "2026-09-17T02:43:56.000Z",
-    "type": "Analysis",
-    "headline": "Report: Keenan Allen's BAC was measured at 0.224 percent",
-    "summary": "Colts receiver Keenan Allen faces an enhanced misdemeanor charge for DUI, because his blood-alcohol concentration (alcohol concentration equivalent, in Indiana parlance) exceeded 0.15 percent after he was arrested last month.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-keenan-allens-bac-was-measured-at-0-224-percent",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "49961834",
-    "publishedAt": "2026-09-17T02:38:35Z",
-    "type": "Analysis",
-    "headline": "Kyrie offers to pay Al-Shaair's fine for tribute to Hind Rajab",
-    "summary": "Kyrie Irving offered to pay Texans LB Azeez Al-Shaair's $11,941 fine for having the name of a Palestinian girl killed in Gaza in 2024 written on his eye black during a game.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49961834/kyrie-offers-pay-al-shaair-fine-tribute-hind-rajab",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "49960907",
-    "publishedAt": "2026-09-17T02:33:17Z",
-    "type": "Analysis",
-    "headline": "Texans' C.J. Stroud dismisses Andre Johnson criticism",
-    "summary": "C.J. Stroud took the high road when asked Wednesday about comments Andre Johnson made questioning the quarterback's body language.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49960907/texans-cj-stroud-dismisses-andre-johnson-criticism",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/a-new-book-accessory-after-the-fact-is-coming",
-    "publishedAt": "2026-09-17T02:18:00.000Z",
-    "type": "Analysis",
-    "headline": "A new book, Accessory After The Fact, is coming",
-    "summary": "During the first year of the pandemic, after the draft ended and the NFL basically shut down, I had more free time than I'd had in years.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/a-new-book-accessory-after-the-fact-is-coming",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/nflpa-will-explore-all-options-regarding-leagues-position-on-daequan-wright-zxavien-harris",
-    "publishedAt": "2026-09-17T01:35:00.000Z",
-    "type": "Analysis",
-    "headline": "NFLPA will \"explore all options\" regarding league's position on Dae'Quan Wright, Zxavien Harris",
-    "summary": "After LSU slammed the door on former NFL tryout players Dae'Quan Wright and Zxavien Harris, the NFL re-slammed the door on their potential return to pro football during the 2026 season.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/nflpa-will-explore-all-options-regarding-leagues-position-on-daequan-wright-zxavien-harris",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "49960637",
-    "publishedAt": "2026-09-17T01:30:00Z",
-    "type": "Analysis",
-    "headline": "Buccaneers' Zampese says Browns messed up by trading Mayfield",
-    "summary": "Buccaneers assistant coach Ken Zampease, who was Baker Mayfield's QB coach with the Browns in 2018, says Cleveland messed up by trading the QB.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49960637/buccaneers-zampese-says-browns-messed-trading-mayfield",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/manningcast-slumps-to-705-000-viewers",
-    "publishedAt": "2026-09-17T01:16:06.000Z",
-    "type": "Analysis",
-    "headline": "ManningCast slumps to 705,000 viewers",
-    "summary": "Few TV shows have a more dramatic disconnect between industry and viewer response than the ManningCast.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/manningcast-slumps-to-705-000-viewers",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=420050",
-    "publishedAt": "2026-09-17T01:00:53.000Z",
-    "type": "Injury",
-    "headline": "49ers Place TE Jake Tonges On IR",
-    "summary": "8:00PM: ESPN’s Adam Schefter confirmed again today that Tonges’ knee injury “wasn’t good.” He reported that the undrafted Cal product is set to miss the rest of the season. Tonges’ injury was diagnosed as a torn MCL, and the 27-year-old will undergo surgery that will keep him on IR for all of 2026. 2:45PM: After […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/09/49ers-place-te-jake-tonges-on-ir",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "49961331",
-    "publishedAt": "2026-09-17T00:40:07Z",
-    "type": "Analysis",
-    "headline": "Source: Saints' Zach Wood to miss time with Grade 2 calf strain",
-    "summary": "Saints long-snapper Zach Wood has a Grade II calf strain that could sideline him about 4-6 weeks, a source told ESPN.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49961331/saints-long-snapper-zach-wood-miss-extended-grade-2-calf-strain",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "49960481",
-    "publishedAt": "2026-09-17T00:29:10Z",
-    "type": "Beat Report",
-    "headline": "Saints' Alvin Kamara practices in full, 'in a great place'",
-    "summary": "Saints coach Kellen Moore said he \"feels good\" about Alvin Kamara's chance of playing Sunday. The veteran RB was a full participant in Wednesday's practice.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49960481/saints-alvin-kamara-practices-full-great-place",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "49959964",
-    "publishedAt": "2026-09-17T00:22:47Z",
-    "type": "Analysis",
-    "headline": "Washington Commanders unveil first renderings inside new stadium",
-    "summary": "In the latest renderings of the new stadium, the Commanders point to RFK with the intent of re-creating a \"loud, intense and intimate atmosphere.\"",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49959964/washington-commanders-nfl-share-renderings-new-stadium-seating-bowl",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=420091",
-    "publishedAt": "2026-09-17T00:13:50.000Z",
-    "type": "Transaction",
-    "headline": "NFL Practice Squad Updates: 9/16/26",
-    "summary": "Wednesday’s practice squad moves: Arizona Cardinals Signed: CB Art Green, S Jerrick Reed II Baltimore Ravens Signed: CB Amani Oruwariye Green Bay Packers Signed: DT Eric Johnson II, WR Quincy Skinner Jr. Kansas City Chiefs Signed: DT Michael Heldman, CB Melvin Smith Released: S Tanner McCalister Los Angeles Chargers Released: CB Kaiir Elam Miami Dolphins […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/09/nfl-practice-squad-updates-9-16-26",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/ncaas-fbs-oversight-committee-finds-replay-error-marred-western-michigan-michigan-game",
-    "publishedAt": "2026-09-17T00:12:05.000Z",
-    "type": "Analysis",
-    "headline": "NCAA's FBS Oversight Committee finds replay error marred Western Michigan-Michigan game",
-    "summary": "Western Michigan got hosed during their season-opening game against Michigan, and everyone knows it.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/ncaas-fbs-oversight-committee-finds-replay-error-marred-western-michigan-michigan-game",
-    "sourceName": "Pro Football Talk"
   }
 ]
