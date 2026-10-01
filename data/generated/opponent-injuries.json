@@ -7,7 +7,7 @@
     "injury": "Shoulder",
     "practiceStatus": "Limited",
     "gameStatus": null,
-    "lastUpdated": "2026-10-01T17:23:54.378Z"
+    "lastUpdated": "2026-10-01T20:46:17.747Z"
   },
   {
     "playerId": "00-0034832",
@@ -17,7 +17,7 @@
     "injury": "Thumb",
     "practiceStatus": "Full",
     "gameStatus": null,
-    "lastUpdated": "2026-10-01T17:23:54.378Z"
+    "lastUpdated": "2026-10-01T20:46:17.747Z"
   },
   {
     "playerId": "00-0036888",
@@ -27,7 +27,7 @@
     "injury": "Ribs",
     "practiceStatus": "Limited",
     "gameStatus": null,
-    "lastUpdated": "2026-10-01T17:23:54.378Z"
+    "lastUpdated": "2026-10-01T20:46:17.747Z"
   },
   {
     "playerId": "00-0037254",
@@ -37,7 +37,7 @@
     "injury": "Knee",
     "practiceStatus": "Full",
     "gameStatus": null,
-    "lastUpdated": "2026-10-01T17:23:54.378Z"
+    "lastUpdated": "2026-10-01T20:46:17.747Z"
   },
   {
     "playerId": "00-0037288",
@@ -47,7 +47,7 @@
     "injury": "Toe",
     "practiceStatus": "Did Not Participate",
     "gameStatus": null,
-    "lastUpdated": "2026-10-01T17:23:54.378Z"
+    "lastUpdated": "2026-10-01T20:46:17.747Z"
   },
   {
     "playerId": "00-0038557",
@@ -57,7 +57,7 @@
     "injury": "Hip",
     "practiceStatus": "Full",
     "gameStatus": null,
-    "lastUpdated": "2026-10-01T17:23:54.378Z"
+    "lastUpdated": "2026-10-01T20:46:17.747Z"
   },
   {
     "playerId": "00-0039763",
@@ -65,9 +65,9 @@
     "position": "LB",
     "week": 4,
     "injury": "Knee",
-    "practiceStatus": "Did Not Participate",
+    "practiceStatus": "Limited",
     "gameStatus": null,
-    "lastUpdated": "2026-10-01T17:23:54.378Z"
+    "lastUpdated": "2026-10-01T20:46:17.747Z"
   },
   {
     "playerId": "00-0039901",
@@ -75,9 +75,9 @@
     "position": "WR",
     "week": 4,
     "injury": "Ankle",
-    "practiceStatus": "Did Not Participate",
+    "practiceStatus": "Limited",
     "gameStatus": null,
-    "lastUpdated": "2026-10-01T17:23:54.378Z"
+    "lastUpdated": "2026-10-01T20:46:17.747Z"
   },
   {
     "playerId": "00-0040710",
@@ -85,9 +85,9 @@
     "position": "DT",
     "week": 4,
     "injury": "Quadricep",
-    "practiceStatus": "Limited",
+    "practiceStatus": "Full",
     "gameStatus": null,
-    "lastUpdated": "2026-10-01T17:23:54.378Z"
+    "lastUpdated": "2026-10-01T20:46:17.747Z"
   },
   {
     "playerId": "00-0040724",
@@ -95,9 +95,9 @@
     "position": "DE",
     "week": 4,
     "injury": "Illness",
-    "practiceStatus": "Did Not Participate",
+    "practiceStatus": "Limited",
     "gameStatus": null,
-    "lastUpdated": "2026-10-01T17:23:54.378Z"
+    "lastUpdated": "2026-10-01T20:46:17.747Z"
   },
   {
     "playerId": "00-0041128",
@@ -107,7 +107,27 @@
     "injury": "Elbow",
     "practiceStatus": "Full",
     "gameStatus": null,
-    "lastUpdated": "2026-10-01T18:10:44.605Z"
+    "lastUpdated": "2026-10-01T21:06:55.079Z"
+  },
+  {
+    "playerId": "patriots-sam-franklin",
+    "playerName": "Sam Franklin",
+    "position": "DB",
+    "week": 4,
+    "injury": "Personal",
+    "practiceStatus": "Did Not Participate",
+    "gameStatus": null,
+    "lastUpdated": "2026-10-01T20:46:17.747Z"
+  },
+  {
+    "playerId": "patriots-ray-davis",
+    "playerName": "Ray Davis",
+    "position": "RB",
+    "week": 4,
+    "injury": "Hamstring",
+    "practiceStatus": "Full",
+    "gameStatus": null,
+    "lastUpdated": "2026-10-01T20:46:17.747Z"
   },
   {
     "playerId": "patriots-armaj-reedadams-elbow",
@@ -117,6 +137,6 @@
     "injury": "Not specified",
     "practiceStatus": "Full",
     "gameStatus": null,
-    "lastUpdated": "2026-10-01T17:23:54.378Z"
+    "lastUpdated": "2026-10-01T20:46:17.747Z"
   }
 ]

@@ -1,5 +1,32 @@
 [
   {
+    "id": "91134ac6-c201-4313-bebe-a23e566275a1",
+    "publishedAt": "2026-10-01T20:46:00.000Z",
+    "type": "Injury",
+    "headline": "Week 4 Injury Report: Patriots at Bills",
+    "summary": "The New England Patriots and the Buffalo Bills announce the following player injuries and practice participation ahead of their Week 4 game.",
+    "sourceUrl": "https://www.patriots.com/news/week-4-injury-report-patriots-at-bills2",
+    "sourceName": "Patriots.com"
+  },
+  {
+    "id": "014d5292-513b-47d2-ba9c-3d29896b88b6",
+    "publishedAt": "2026-10-01T20:00:00.000Z",
+    "type": "Transaction",
+    "headline": "Patriots Sign OL Matt Pryor from the Arizona Practice Squad",
+    "summary": "The Patriots announced that they have signed OL Matt Pryor to the 53-man roster from the Arizona Cardinals practice squad.",
+    "sourceUrl": "https://www.patriots.com/news/patriots-sign-ol-matt-pryor-from-the-arizona-practice-squad",
+    "sourceName": "Patriots.com"
+  },
+  {
+    "id": "50078211",
+    "publishedAt": "2026-10-01T18:37:30Z",
+    "type": "Analysis",
+    "headline": "Allen seeks to put sloppy play behind him as Bills host turnover-prone Maye and the Patriots",
+    "summary": "— Win or lose, Josh Allen has displayed a consistent knack for putting a sloppy performance behind him.",
+    "sourceUrl": "http://www.espn.com/nfl/preview?gameId=401872971",
+    "sourceName": "ESPN"
+  },
+  {
     "id": "27ee0b11-8302-4c1f-939d-8cc1415abe4a",
     "publishedAt": "2026-10-01T16:00:06.000Z",
     "type": "Analysis",
@@ -36,24 +63,6 @@
     "sourceName": "ESPN"
   },
   {
-    "id": "91134ac6-c201-4313-bebe-a23e566275a1",
-    "publishedAt": "2026-09-30T21:12:00.000Z",
-    "type": "Injury",
-    "headline": "Week 4 Injury Report: Patriots at Bills",
-    "summary": "The New England Patriots and the Buffalo Bills announce the following player injuries and practice participation ahead of their Week 4 game.",
-    "sourceUrl": "https://www.patriots.com/news/week-4-injury-report-patriots-at-bills2",
-    "sourceName": "Patriots.com"
-  },
-  {
-    "id": "5c28d1bc-1052-4b08-939b-50a0096b3f2d",
-    "publishedAt": "2026-09-30T20:00:00.000Z",
-    "type": "Transaction",
-    "headline": "Patriots Sign OL Da'Metrius Weatherspoon to the Practice Squad",
-    "summary": "The Patriots announced that they have signed rookie OL Da’Metrius Weatherspoon to the practice squad.",
-    "sourceUrl": "https://www.patriots.com/news/patriots-sign-ol-da-metrius-weatherspoon-to-the-practice-squad",
-    "sourceName": "Patriots.com"
-  },
-  {
     "id": "50061293",
     "publishedAt": "2026-09-30T10:37:04Z",
     "type": "Injury",
@@ -87,15 +96,6 @@
     "headline": "Drake Maye: Patriots offense, own play 'unacceptable'",
     "summary": "Drake Maye, whose early-season struggles continued with two interceptions and a lost fumble in Sunday's 35-6 blowout loss to the Jaguars, called the offense's performance \"unacceptable\" as he looks within himself for answers.",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/50046497/drake-maye-patriots-offense-own-play-unacceptable",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50045051",
-    "publishedAt": "2026-09-27T21:34:29Z",
-    "type": "Analysis",
-    "headline": "Lawrence throws 3 TD passes as Jaguars rout Patriots and raise more questions about Maye",
-    "summary": "— Jacksonville Jaguars coach Liam Coen spent all week telling his players that what mattered most was how they responded.",
-    "sourceUrl": "http://www.espn.com/nfl/recap?gameId=401872957",
     "sourceName": "ESPN"
   }
 ]

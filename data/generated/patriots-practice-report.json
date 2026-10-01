@@ -1,12 +1,19 @@
 {
   "week": 4,
-  "asOf": "2026-10-01T17:23:54.378Z",
+  "asOf": "2026-10-01T20:46:17.747Z",
   "players": [
     {
       "team": "NE",
       "playerName": "Christian Barmore",
       "position": "DT",
       "injury": "Shoulder",
+      "practiceStatus": "Did Not Participate"
+    },
+    {
+      "team": "NE",
+      "playerName": "Reggie Gilliam",
+      "position": "FB",
+      "injury": "Knee",
       "practiceStatus": "Did Not Participate"
     },
     {
@@ -25,16 +32,16 @@
     },
     {
       "team": "NE",
-      "playerName": "Christian Elliss",
-      "position": "LB",
-      "injury": "Chest",
+      "playerName": "Channing Canada",
+      "position": "CB",
+      "injury": "Hamstring",
       "practiceStatus": "Limited"
     },
     {
       "team": "NE",
-      "playerName": "Reggie Gilliam",
-      "position": "FB",
-      "injury": "Knee",
+      "playerName": "Christian Elliss",
+      "position": "LB",
+      "injury": "Chest",
       "practiceStatus": "Limited"
     },
     {
@@ -74,13 +81,6 @@
     },
     {
       "team": "BUF",
-      "playerName": "Joe Andreessen",
-      "position": "ILB",
-      "injury": "Knee",
-      "practiceStatus": "Did Not Participate"
-    },
-    {
-      "team": "BUF",
       "playerName": "Christian Benford",
       "position": "CB",
       "injury": "Toe",
@@ -88,17 +88,24 @@
     },
     {
       "team": "BUF",
-      "playerName": "Keon Coleman",
-      "position": "WR",
-      "injury": "Ankle",
+      "playerName": "Sam Franklin",
+      "position": "DB",
+      "injury": "Personal",
       "practiceStatus": "Did Not Participate"
     },
     {
       "team": "BUF",
-      "playerName": "T.J. Sanders",
-      "position": "DL",
-      "injury": "Illness",
-      "practiceStatus": "Did Not Participate"
+      "playerName": "Joe Andreessen",
+      "position": "ILB",
+      "injury": "Knee",
+      "practiceStatus": "Limited"
+    },
+    {
+      "team": "BUF",
+      "playerName": "Keon Coleman",
+      "position": "WR",
+      "injury": "Ankle",
+      "practiceStatus": "Limited"
     },
     {
       "team": "BUF",
@@ -116,9 +123,9 @@
     },
     {
       "team": "BUF",
-      "playerName": "Deone Walker",
+      "playerName": "T.J. Sanders",
       "position": "DL",
-      "injury": "Quad",
+      "injury": "Illness",
       "practiceStatus": "Limited"
     },
     {
@@ -137,9 +144,23 @@
     },
     {
       "team": "BUF",
+      "playerName": "Ray Davis",
+      "position": "RB",
+      "injury": "Hamstring",
+      "practiceStatus": "Full"
+    },
+    {
+      "team": "BUF",
       "playerName": "Ar'maj Reed-Adams, Elbow",
       "position": "G",
       "injury": "Not specified",
+      "practiceStatus": "Full"
+    },
+    {
+      "team": "BUF",
+      "playerName": "Deone Walker",
+      "position": "DL",
+      "injury": "Quad",
       "practiceStatus": "Full"
     },
     {
