@@ -1,21 +1,111 @@
 [
   {
-    "id": "50073098",
-    "publishedAt": "2026-10-01T03:07:07Z",
-    "type": "Analysis",
-    "headline": "Former Steelers HC Mike Tomlin reveals massive Minecraft city",
-    "summary": "The former Steelers coach revealed an unexpected longtime hobby that shocked the sports and gaming worlds.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50073098/former-steelers-coach-mike-tomlin-minecraft-city-12-year-reveal",
+    "id": "50074351",
+    "publishedAt": "2026-10-01T05:43:20Z",
+    "type": "Transaction",
+    "headline": "Sources: Steelers to trade Joey Porter Jr. to Cowboys",
+    "summary": "The Steelers agreed to trade cornerback Joey Porter Jr. to the Cowboys for a 2027 sixth-round pick and a 2028 second-rounder, sources confirmed to ESPN on Wednesday night.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50074351/sources-steelers-trade-joey-porter-jr-cowboys",
     "sourceName": "ESPN"
   },
   {
+    "id": "50043542",
+    "publishedAt": "2026-10-01T05:22:52Z",
+    "type": "Transaction",
+    "headline": "NFL trade deadline grades: Joey Porter Jr. to Cowboys, J.J. McCarthy to Giants",
+    "summary": "Can Joey Porter Jr. clean up the Cowboys' defense? Will J.J. McCarthy improve the Giants' QB situation? We're grading NFL trades ahead of November's deadline.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50043542/2026-trade-deadline-grades-latest-best-worst-deals",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50043471",
+    "publishedAt": "2026-10-01T04:57:54Z",
+    "type": "Transaction",
+    "headline": "2026 NFL trade deadline updates: Latest on Joey Porter Jr., J.J. McCarthy deals",
+    "summary": "The NFL trade deadline is Nov. 10, but deals have already started. We're tracking all moves, including the Steelers sending Joey Porter Jr. to the Cowboys.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50043471/2026-trade-deadline-updates-latest-news-deals-terms",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50071951",
+    "publishedAt": "2026-10-01T04:21:09Z",
+    "type": "Transaction",
+    "headline": "Falcons sign DT Gervon Dexter Sr. to four-year extension",
+    "summary": "The Falcons signed Gervon Dexter Sr. to a four-year, $78 million contract extension, sources told ESPN.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50071951/falcons-sign-dt-gervon-dexter-sr-four-year-extension",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=421576",
+    "publishedAt": "2026-10-01T04:08:09.000Z",
+    "type": "Transaction",
+    "headline": "Steelers To Trade CB Joey Porter Jr. To Cowboys",
+    "summary": "The Steelers’ standoff with Joey Porter Jr. has come to an end. The star cornerback is being shipped to the Cowboys, per The Ringer’s Tom Pelissero. Dallas is sending a second-round pick along with a conditional sixth-rounder to Pittsburgh in the swap, NFL insider Jordan Schultz adds. The second-round pick will come in 2028 while […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/09/steelers-to-trade-cb-joey-porter-to-cowboys",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=421435",
+    "publishedAt": "2026-10-01T04:05:39.000Z",
+    "type": "Transaction",
+    "headline": "Packers To Sign G Kevin Zeitler",
+    "summary": "11:05pm: Zeitler will collect a $4.05MM base salary, according to Ian Rapoport of NFL Network. The pact carries a maximum value of $5MM. 8:25am: Veteran guard Kevin Zeitler visited the Packers on Tuesday. A day later, the sides have a deal. Zeitler is signing a one-year contract with the Packers, Adam Schefter of ESPN reports. […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/09/packers-to-sign-g-kevin-zeitler",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=421479",
+    "publishedAt": "2026-10-01T04:05:34.000Z",
+    "type": "Transaction",
+    "headline": "James Cook To Push For Raise In 2027?",
+    "summary": "The Bills and running back James Cook engaged in a summer contract standoff in 2025, the last year of his rookie deal. The stalemate ended with a four-year, $46MM agreement, though it might not prevent Cook from pushing for another raise in the near future. Cook’s stock has continued to rise since he signed his […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/09/james-cook-to-push-for-raise-in-2027",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
     "id": "profootballrumors-https://www.profootballrumors.com/?p=421503",
-    "publishedAt": "2026-10-01T02:58:12.000Z",
+    "publishedAt": "2026-10-01T04:03:12.000Z",
     "type": "Transaction",
     "headline": "Jaguars WR Brian Thomas Jr. Remains On Trade Radar",
     "summary": "Brian Thomas Jr. was targeted nine times in the Jaguars’ Week 2 loss to the Broncos, but the slumping wide receiver has drawn just four combined looks from Trevor Lawrence in the team’s two other games this season. Thomas’ place in Jacksonville’s offense simply does not rival where it was during his impact rookie season. The […]",
     "sourceUrl": "https://www.profootballrumors.com/2026/09/jaguars-wr-brian-thomas-jr-remains-on-trade-radar",
     "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=421514",
+    "publishedAt": "2026-10-01T04:02:41.000Z",
+    "type": "Transaction",
+    "headline": "Falcons Extend DL Gervon Dexter",
+    "summary": "Not long after acquiring Gervon Dexter in a trade with the Bears, the Falcons are making sure he stays in Atlanta long term. The fourth-year defensive lineman agreed on an extension with the Falcons today, ESPN’s Adam Schefter reports. The Falcons have since announced the deal. It is a four-year, $78MM deal that includes $46.5MM […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/09/falcons-to-extend-dl-gervon-dexter",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=421568",
+    "publishedAt": "2026-10-01T04:00:26.000Z",
+    "type": "Injury",
+    "headline": "Saints Work Out 17 Players, Including OL Cornelius Lucas, Cody Ford",
+    "summary": "The Saints hosted a slew of players for workouts on Tuesday and Wednesday, per the NFL’s daily personnel notice. Tuesday’s group included multiple offensive tackles as New Orleans navigates the absence of starting left tackle Kelvin Banks, while Wednesday’s was headlined by defensive ends David Ojabo and Julian Okwara. Banks was placed on injured reserve […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/09/saints-work-out-17-players-including-ol-cornelius-lucas-cody-ford",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/steelers-trade-joey-porter-jr-to-the-cowboys",
+    "publishedAt": "2026-10-01T03:54:31.000Z",
+    "type": "Transaction",
+    "headline": "Steelers trade Joey Porter Jr. to the Cowboys",
+    "summary": "Contract impasse ends with Porter being sent to a new team.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/steelers-trade-joey-porter-jr-to-the-cowboys",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "50073098",
+    "publishedAt": "2026-10-01T03:15:33Z",
+    "type": "Analysis",
+    "headline": "Former Steelers HC Mike Tomlin reveals massive Minecraft city",
+    "summary": "The former Steelers coach revealed an unexpected longtime hobby that shocked the sports and gaming worlds.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50073098/former-steelers-coach-mike-tomlin-minecraft-city-12-year-reveal",
+    "sourceName": "ESPN"
   },
   {
     "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/3-0-vikings-are-a-game-away-from-a-dubious-record",
@@ -96,15 +186,6 @@
     "headline": "Sean McVay: NFL told Rams DPI shouldn't have been called",
     "summary": "Rams head coach Sean McVay says the NFL told the team that defensive pass interference should not have been called against cornerback Josh Wallace in Sunday night's loss to the Broncos.",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/50071616/sean-mcvay-nfl-told-rams-dpi-called",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50071951",
-    "publishedAt": "2026-10-01T00:20:34Z",
-    "type": "Transaction",
-    "headline": "Falcons sign DT Gervon Dexter Sr. to four-year extension",
-    "summary": "The Falcons signed Gervon Dexter Sr. to a four-year, $78 million contract extension, sources told ESPN.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50071951/falcons-sign-dt-gervon-dexter-sr-four-year-extension",
     "sourceName": "ESPN"
   },
   {
@@ -250,15 +331,6 @@
     "summary": "Defensive tackle Gervon Dexter has made a good impression on the Falcons in his first three games as a member of the team.",
     "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/falcons-dt-gervon-dexter-agrees-to-four-year-extension",
     "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=421514",
-    "publishedAt": "2026-09-30T22:03:41.000Z",
-    "type": "Transaction",
-    "headline": "Falcons Extend DL Gervon Dexter",
-    "summary": "Not long after acquiring Gervon Dexter in a trade with the Bears, the Falcons are making sure he stays in Atlanta long term. The fourth-year defensive lineman agreed on an extension with the Falcons today, ESPN’s Adam Schefter reports. The Falcons have since announced the deal. It is a four-year, $78MM deal that includes $46.5MM […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/09/falcons-to-extend-dl-gervon-dexter",
-    "sourceName": "Pro Football Rumors"
   },
   {
     "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/will-anderson-jadeveon-clowney-nico-collins-are-limited-practice-participants",
@@ -520,15 +592,6 @@
     "summary": "Cam Ward reacts to threats made against his family",
     "sourceUrl": "https://www.espn.com/video/clip/_/id/50070532/cam-ward-reacts-threats-made-family",
     "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=421479",
-    "publishedAt": "2026-09-30T19:42:34.000Z",
-    "type": "Transaction",
-    "headline": "James Cook To Push For Raise In 2027?",
-    "summary": "The Bills and running back James Cook engaged in a summer contract standoff in 2025, the last year of his rookie deal. The stalemate ended with a four-year, $46MM agreement, though it might not prevent Cook from pushing for another raise in the near future. Cook’s stock has continued to rise since he signed his […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/09/james-cook-to-push-for-raise-in-2027",
-    "sourceName": "Pro Football Rumors"
   },
   {
     "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/browns-rule-out-c-elgton-jenkins-for-thursday-vs-steelers",
@@ -979,15 +1042,6 @@
     "summary": "Houston became the first team in the common playoff format to make the postseason after starting 0-3 in 2025.",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/50059548/houston-texans-0-3-start-again-defy-history-playoffs",
     "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=421435",
-    "publishedAt": "2026-09-30T14:52:39.000Z",
-    "type": "Transaction",
-    "headline": "Packers To Sign G Kevin Zeitler",
-    "summary": "9:52am: Zeitler will collect a $4.05MM base salary, according to Ian Rapoport of NFL Network. The pact carries a maximum value of $5MM. 8:25am: Veteran guard Kevin Zeitler visited the Packers on Tuesday. A day later, the sides have a deal. Zeitler is signing a one-year contract with the Packers, Adam Schefter of ESPN reports. […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/09/packers-to-sign-g-kevin-zeitler",
-    "sourceName": "Pro Football Rumors"
   },
   {
     "id": "50067766",
@@ -2880,15 +2934,6 @@
     "sourceName": "ESPN"
   },
   {
-    "id": "50043542",
-    "publishedAt": "2026-09-28T18:48:16Z",
-    "type": "Transaction",
-    "headline": "NFL trade deadline grades: J.J. McCarthy to the Giants",
-    "summary": "Can J.J. McCarthy improve the Giants' QB situation? Did the Vikings get enough back? We're grading NFL trades ahead of November's deadline.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50043542/2026-trade-deadline-grades-latest-best-worst-deals",
-    "sourceName": "ESPN"
-  },
-  {
     "id": "50053653",
     "publishedAt": "2026-09-28T18:37:00Z",
     "type": "Analysis",
@@ -3021,15 +3066,6 @@
     "headline": "Tracking Jaguars CB/WR Travis Hunter through 2026 season",
     "summary": "Every week, we will look at how many snaps the two-way corner/receiver plays on offense and defense. Is there a trend in his usage?",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/50043976/jacksonville-jaguars-travis-hunter-stats-snaps-tracker",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50043471",
-    "publishedAt": "2026-09-28T16:53:38Z",
-    "type": "Transaction",
-    "headline": "2026 NFL trade deadline updates: Latest in-season deals, news",
-    "summary": "The NFL trade deadline is Nov. 10, but deals have already started. We're tracking all moves, including J.J. McCarthy to the Giants.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50043471/2026-trade-deadline-updates-latest-news-deals-terms",
     "sourceName": "ESPN"
   },
   {
@@ -15487,32 +15523,5 @@
     "summary": "The NFL has long had a significant African presence, but no country is represented quite like Nigeria.",
     "sourceUrl": "https://www.espn.com/espn/story/_/id/49955429/njoku-nwosu-emmanwori-more-10-nfl-players-nigerian-origin-watch-season",
     "sourceName": "ESPN"
-  },
-  {
-    "id": "49962326",
-    "publishedAt": "2026-09-17T04:43:29Z",
-    "type": "Analysis",
-    "headline": "Browns-Buccaneers matchup Sunday is more than just Baker Mayfield facing his old team",
-    "summary": "— Baker Mayfield has become the leader and face of the franchise the Cleveland Browns hoped for when they drafted him No. 1 overall in 2018.",
-    "sourceUrl": "http://www.espn.com/nfl/preview?gameId=401872935",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "49962145",
-    "publishedAt": "2026-09-17T03:34:16Z",
-    "type": "Analysis",
-    "headline": "Bryce Young previews divisional showdown with Falcons",
-    "summary": "Bryce Young previews divisional showdown with Falcons",
-    "sourceUrl": "https://www.espn.com/video/clip/_/id/49962145/bryce-young-previews-divisional-showdown-falcons",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=420014",
-    "publishedAt": "2026-09-17T03:31:10.000Z",
-    "type": "Analysis",
-    "headline": "Colts WR Keenan Allen Formally Charged With Two Misdemeanors",
-    "summary": "Colts wide receiver Keenan Allen was arrested on misdemeanor charges of DWI and DWI endangering a person on Aug. 30. Allen has now been formally charged with operating a vehicle with an alcohol concentration equivalent of 0.15 or more and operating a vehicle while intoxicated, Nathan Brown of the Indianapolis Star reports. Both charges are […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/09/colts-wr-keenan-allen-formally-charged-with-two-misdemeanors",
-    "sourceName": "Pro Football Rumors"
   }
 ]

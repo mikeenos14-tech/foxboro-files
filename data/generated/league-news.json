@@ -1,7 +1,16 @@
 [
   {
+    "id": "50074351",
+    "publishedAt": "2026-10-01T05:43:20Z",
+    "type": "Transaction",
+    "headline": "Sources: Steelers to trade Joey Porter Jr. to Cowboys",
+    "summary": "The Steelers agreed to trade cornerback Joey Porter Jr. to the Cowboys for a 2027 sixth-round pick and a 2028 second-rounder, sources confirmed to ESPN on Wednesday night.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50074351/sources-steelers-trade-joey-porter-jr-cowboys",
+    "sourceName": "ESPN"
+  },
+  {
     "id": "50071951",
-    "publishedAt": "2026-10-01T00:20:34Z",
+    "publishedAt": "2026-10-01T04:21:09Z",
     "type": "Transaction",
     "headline": "Falcons sign DT Gervon Dexter Sr. to four-year extension",
     "summary": "The Falcons signed Gervon Dexter Sr. to a four-year, $78 million contract extension, sources told ESPN.",
@@ -9,22 +18,22 @@
     "sourceName": "ESPN"
   },
   {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=421503",
-    "publishedAt": "2026-10-01T02:58:12.000Z",
-    "type": "Transaction",
-    "headline": "Jaguars WR Brian Thomas Jr. Remains On Trade Radar",
-    "summary": "Brian Thomas Jr. was targeted nine times in the Jaguars’ Week 2 loss to the Broncos, but the slumping wide receiver has drawn just four combined looks from Trevor Lawrence in the team’s two other games this season. Thomas’ place in Jacksonville’s offense simply does not rival where it was during his impact rookie season. The […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/09/jaguars-wr-brian-thomas-jr-remains-on-trade-radar",
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=421556",
+    "publishedAt": "2026-10-01T02:16:14.000Z",
+    "type": "Injury",
+    "headline": "Harbaugh: Jaxson Dart’s Surgery ‘Went Well,’ Playoff Return ‘A Bit Ambitious’",
+    "summary": "Giants quarterback Jaxson Dart’s knee surgery to repair his meniscus, MCL, and PCL last Friday “went well,” head coach John Harbaugh announced on Wednesday (via ESPN’s Jordan Raanan). Dart, 23, went down in New York’s Week 2 loss to the Rams. Harbaugh initially left the door open to his young quarterback coming back in the […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/09/harbaugh-jaxson-darts-surgery-went-well-playoff-return-a-bit-ambitious",
     "sourceName": "Pro Football Rumors"
   },
   {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/derrick-henry-facing-the-titans-will-be-a-crazy-moment",
-    "publishedAt": "2026-09-30T21:44:13.000Z",
+    "id": "50071616",
+    "publishedAt": "2026-10-01T00:23:47Z",
     "type": "Analysis",
-    "headline": "Derrick Henry: Facing the Titans will be \"a crazy moment\"",
-    "summary": "Ravens running back Derrick Henry will do something he's never done before this weekend.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/derrick-henry-facing-the-titans-will-be-a-crazy-moment",
-    "sourceName": "Pro Football Talk"
+    "headline": "Sean McVay: NFL told Rams DPI shouldn't have been called",
+    "summary": "Rams head coach Sean McVay says the NFL told the team that defensive pass interference should not have been called against cornerback Josh Wallace in Sunday night's loss to the Broncos.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50071616/sean-mcvay-nfl-told-rams-dpi-called",
+    "sourceName": "ESPN"
   },
   {
     "id": "50071302",
@@ -36,21 +45,12 @@
     "sourceName": "ESPN"
   },
   {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/3-0-vikings-are-a-game-away-from-a-dubious-record",
-    "publishedAt": "2026-10-01T02:53:52.000Z",
+    "id": "50071476",
+    "publishedAt": "2026-09-30T21:50:26Z",
     "type": "Analysis",
-    "headline": "3-0 Vikings are a game away from a dubious record",
-    "summary": "The Vikings have scratched and clawed their way to a 3-0 record.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/3-0-vikings-are-a-game-away-from-a-dubious-record",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=421556",
-    "publishedAt": "2026-10-01T02:16:14.000Z",
-    "type": "Injury",
-    "headline": "Harbaugh: Jaxson Dart’s Surgery ‘Went Well,’ Playoff Return ‘A Bit Ambitious’",
-    "summary": "Giants quarterback Jaxson Dart’s knee surgery to repair his meniscus, MCL, and PCL last Friday “went well,” head coach John Harbaugh announced on Wednesday (via ESPN’s Jordan Raanan). Dart, 23, went down in New York’s Week 2 loss to the Rams. Harbaugh initially left the door open to his young quarterback coming back in the […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/09/harbaugh-jaxson-darts-surgery-went-well-playoff-return-a-bit-ambitious",
-    "sourceName": "Pro Football Rumors"
+    "headline": "Bears' Ben Johnson: 'Direction already made' on Week 4 QB call",
+    "summary": "Bears coach Ben Johnson said he knows the \"direction\" the team will go at quarterback in Week 4 but won't publicly declare a starter.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50071476/bears-ben-johnson-direction-already-made-week-4-qb",
+    "sourceName": "ESPN"
   }
 ]

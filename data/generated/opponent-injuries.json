@@ -1,66 +1,46 @@
 [
   {
-    "playerId": "4635008",
-    "playerName": "Keon Coleman",
-    "position": "WR",
-    "week": 4,
-    "injury": "Ankle",
-    "gameStatus": "Questionable",
-    "lastUpdated": "2026-09-30T21:12:41.147Z",
-    "practiceStatus": "Did Not Participate"
-  },
-  {
-    "playerId": "3915416",
+    "playerId": "00-0034827",
     "playerName": "DJ Moore",
     "position": "WR",
     "week": 4,
     "injury": "Shoulder",
-    "gameStatus": "Questionable",
-    "lastUpdated": "2026-09-30T21:12:41.147Z",
-    "practiceStatus": "Limited"
+    "practiceStatus": "Limited",
+    "gameStatus": null,
+    "lastUpdated": "2026-09-30T21:12:41.147Z"
   },
   {
-    "playerId": "4366349",
-    "playerName": "Joe Andreessen",
+    "playerId": "00-0034832",
+    "playerName": "Bradley Chubb",
     "position": "LB",
     "week": 4,
-    "injury": "Knee",
-    "gameStatus": "Questionable",
-    "lastUpdated": "2026-09-30T21:12:41.147Z",
-    "practiceStatus": "Did Not Participate"
+    "injury": "Thumb",
+    "practiceStatus": "Full",
+    "gameStatus": null,
+    "lastUpdated": "2026-09-30T21:12:41.147Z"
   },
   {
-    "playerId": "4036060",
+    "playerId": "00-0036888",
     "playerName": "Damar Hamlin",
     "position": "S",
     "week": 4,
     "injury": "Ribs",
-    "gameStatus": "Questionable",
-    "lastUpdated": "2026-09-30T21:12:41.147Z",
-    "practiceStatus": "Limited"
+    "practiceStatus": "Limited",
+    "gameStatus": null,
+    "lastUpdated": "2026-09-30T21:12:41.147Z"
   },
   {
-    "playerId": "4684527",
-    "playerName": "T.J. Sanders",
-    "position": "DT",
+    "playerId": "00-0037254",
+    "playerName": "Terrel Bernard",
+    "position": "LB",
     "week": 4,
-    "injury": "Not specified",
-    "gameStatus": "Doubtful",
-    "lastUpdated": "2026-09-30T21:12:41.147Z",
-    "practiceStatus": "Did Not Participate"
+    "injury": "Knee",
+    "practiceStatus": "Full",
+    "gameStatus": null,
+    "lastUpdated": "2026-09-30T21:12:41.147Z"
   },
   {
-    "playerId": "4831989",
-    "playerName": "Deone Walker",
-    "position": "DT",
-    "week": 4,
-    "injury": "Quadriceps",
-    "gameStatus": "Questionable",
-    "lastUpdated": "2026-09-30T21:12:41.147Z",
-    "practiceStatus": "Limited"
-  },
-  {
-    "playerId": "patriots-christian-benford",
+    "playerId": "00-0037288",
     "playerName": "Christian Benford",
     "position": "CB",
     "week": 4,
@@ -70,24 +50,64 @@
     "lastUpdated": "2026-09-30T21:12:41.147Z"
   },
   {
-    "playerId": "patriots-terrel-bernard",
-    "playerName": "Terrel Bernard",
-    "position": "ILB",
+    "playerId": "00-0038557",
+    "playerName": "Dorian Williams",
+    "position": "LB",
     "week": 4,
-    "injury": "Knee",
+    "injury": "Hip",
     "practiceStatus": "Full",
     "gameStatus": null,
     "lastUpdated": "2026-09-30T21:12:41.147Z"
   },
   {
-    "playerId": "patriots-bradley-chubb",
-    "playerName": "Bradley Chubb",
-    "position": "OLB",
+    "playerId": "00-0039763",
+    "playerName": "Joe Andreessen",
+    "position": "LB",
     "week": 4,
-    "injury": "Thumb",
-    "practiceStatus": "Full",
+    "injury": "Knee",
+    "practiceStatus": "Did Not Participate",
     "gameStatus": null,
     "lastUpdated": "2026-09-30T21:12:41.147Z"
+  },
+  {
+    "playerId": "00-0039901",
+    "playerName": "Keon Coleman",
+    "position": "WR",
+    "week": 4,
+    "injury": "Ankle",
+    "practiceStatus": "Did Not Participate",
+    "gameStatus": null,
+    "lastUpdated": "2026-09-30T21:12:41.147Z"
+  },
+  {
+    "playerId": "00-0040710",
+    "playerName": "Deone Walker",
+    "position": "DT",
+    "week": 4,
+    "injury": "Quadricep",
+    "practiceStatus": "Limited",
+    "gameStatus": null,
+    "lastUpdated": "2026-09-30T21:12:41.147Z"
+  },
+  {
+    "playerId": "00-0040724",
+    "playerName": "T.J. Sanders",
+    "position": "DE",
+    "week": 4,
+    "injury": "Illness",
+    "practiceStatus": "Did Not Participate",
+    "gameStatus": null,
+    "lastUpdated": "2026-09-30T21:12:41.147Z"
+  },
+  {
+    "playerId": "00-0041128",
+    "playerName": "Ar'maj Reed-Adams",
+    "position": "G",
+    "week": 4,
+    "injury": "Elbow",
+    "practiceStatus": "Full",
+    "gameStatus": null,
+    "lastUpdated": "2026-10-01T06:11:20.521Z"
   },
   {
     "playerId": "patriots-armaj-reedadams-elbow",
@@ -95,16 +115,6 @@
     "position": "G",
     "week": 4,
     "injury": "Not specified",
-    "practiceStatus": "Full",
-    "gameStatus": null,
-    "lastUpdated": "2026-09-30T21:12:41.147Z"
-  },
-  {
-    "playerId": "patriots-dorian-williams",
-    "playerName": "Dorian Williams",
-    "position": "LB",
-    "week": 4,
-    "injury": "Hip",
     "practiceStatus": "Full",
     "gameStatus": null,
     "lastUpdated": "2026-09-30T21:12:41.147Z"
