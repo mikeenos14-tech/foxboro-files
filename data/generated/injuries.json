@@ -1,13 +1,63 @@
 [
   {
+    "playerId": "4039505",
+    "playerName": "Reggie Gilliam",
+    "position": "FB",
+    "week": 4,
+    "injury": "Knee",
+    "gameStatus": "Questionable",
+    "lastUpdated": "2026-09-30T21:12:41.147Z",
+    "practiceStatus": "Limited"
+  },
+  {
+    "playerId": "16771",
+    "playerName": "Morgan Moses",
+    "position": "OT",
+    "week": 4,
+    "injury": "Foot",
+    "gameStatus": "Questionable",
+    "lastUpdated": "2026-09-30T21:12:41.147Z",
+    "practiceStatus": "Did Not Participate"
+  },
+  {
     "playerId": "4831959",
     "playerName": "Eli Raridon",
     "position": "TE",
     "week": 4,
     "injury": "Thigh",
     "gameStatus": "Questionable",
-    "lastUpdated": "2026-09-30T21:02:23.706Z",
+    "lastUpdated": "2026-09-30T21:12:41.147Z",
     "practiceStatus": "Limited"
+  },
+  {
+    "playerId": "4372030",
+    "playerName": "Christian Barmore",
+    "position": "DT",
+    "week": 4,
+    "injury": "Shoulder",
+    "gameStatus": "Questionable",
+    "lastUpdated": "2026-09-30T21:12:41.147Z",
+    "practiceStatus": "Did Not Participate"
+  },
+  {
+    "playerId": "4245273",
+    "playerName": "Christian Elliss",
+    "position": "LB",
+    "week": 4,
+    "injury": "Chest",
+    "gameStatus": "Questionable",
+    "lastUpdated": "2026-09-30T21:12:41.147Z",
+    "practiceStatus": "Limited"
+  },
+  {
+    "playerId": "4686772",
+    "playerName": "Christian Gonzalez",
+    "position": "CB",
+    "week": 4,
+    "injury": "Shoulder",
+    "gameStatus": "Questionable",
+    "lastUpdated": "2026-09-30T21:12:41.147Z",
+    "practiceStatus": "Did Not Participate"
   },
   {
     "playerId": "3915525",
@@ -16,7 +66,7 @@
     "week": 4,
     "injury": "Shoulder",
     "gameStatus": "Questionable",
-    "lastUpdated": "2026-09-30T21:02:23.706Z",
+    "lastUpdated": "2026-09-30T21:12:41.147Z",
     "practiceStatus": "Limited"
   },
   {
@@ -26,58 +76,8 @@
     "week": 4,
     "injury": "Shoulder",
     "gameStatus": "Questionable",
-    "lastUpdated": "2026-09-30T21:02:23.706Z",
+    "lastUpdated": "2026-09-30T21:12:41.147Z",
     "practiceStatus": "Limited"
-  },
-  {
-    "playerId": "patriots-christian-barmore",
-    "playerName": "Christian Barmore",
-    "position": "DT",
-    "week": 4,
-    "injury": "Shoulder",
-    "practiceStatus": "Did Not Participate",
-    "gameStatus": null,
-    "lastUpdated": "2026-09-30T21:02:23.706Z"
-  },
-  {
-    "playerId": "patriots-christian-gonzalez",
-    "playerName": "Christian Gonzalez",
-    "position": "CB",
-    "week": 4,
-    "injury": "Shoulder",
-    "practiceStatus": "Did Not Participate",
-    "gameStatus": null,
-    "lastUpdated": "2026-09-30T21:02:23.706Z"
-  },
-  {
-    "playerId": "patriots-morgan-moses",
-    "playerName": "Morgan Moses",
-    "position": "T",
-    "week": 4,
-    "injury": "Foot",
-    "practiceStatus": "Did Not Participate",
-    "gameStatus": null,
-    "lastUpdated": "2026-09-30T21:02:23.706Z"
-  },
-  {
-    "playerId": "patriots-christian-elliss",
-    "playerName": "Christian Elliss",
-    "position": "LB",
-    "week": 4,
-    "injury": "Chest",
-    "practiceStatus": "Limited",
-    "gameStatus": null,
-    "lastUpdated": "2026-09-30T21:02:23.706Z"
-  },
-  {
-    "playerId": "patriots-reggie-gilliam",
-    "playerName": "Reggie Gilliam",
-    "position": "FB",
-    "week": 4,
-    "injury": "Knee",
-    "practiceStatus": "Limited",
-    "gameStatus": null,
-    "lastUpdated": "2026-09-30T21:02:23.706Z"
   },
   {
     "playerId": "patriots-brenden-schooler",
@@ -87,7 +87,7 @@
     "injury": "Back*",
     "practiceStatus": "Limited",
     "gameStatus": null,
-    "lastUpdated": "2026-09-30T21:02:23.706Z"
+    "lastUpdated": "2026-09-30T21:12:41.147Z"
   },
   {
     "playerId": "patriots-drake-maye",
@@ -97,6 +97,6 @@
     "injury": "Right Shoulder",
     "practiceStatus": "Full",
     "gameStatus": null,
-    "lastUpdated": "2026-09-30T21:02:23.706Z"
+    "lastUpdated": "2026-09-30T21:12:41.147Z"
   }
 ]

@@ -1,11 +1,38 @@
 [
   {
-    "id": "50068583",
-    "publishedAt": "2026-09-30T17:12:43Z",
-    "type": "Injury",
-    "headline": "Packers WR Jayden Reed to undergo season-ending neck surgery",
-    "summary": "Packers wide receiver Jayden Reed will undergo season-ending neck surgery and be placed on injured reserve, coach Matt LaFleur said Wednesday.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50068583/sources-packers-put-wr-jayden-reed-ir-due-neck-injury",
+    "id": "50071951",
+    "publishedAt": "2026-10-01T00:09:48Z",
+    "type": "Transaction",
+    "headline": "Falcons sign DT Gervon Dexter Sr. to four-year extension",
+    "summary": "The Falcons signed Gervon Dexter Sr. to a four-year, $78 million contract extension, sources told ESPN.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50071951/falcons-sign-dt-gervon-dexter-sr-four-year-extension",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50071616",
+    "publishedAt": "2026-09-30T23:59:41Z",
+    "type": "Analysis",
+    "headline": "Sean McVay: NFL told Rams DPI shouldn't have been called",
+    "summary": "Rams head coach Sean McVay says the NFL told the team that defensive pass interference should not have been called against cornerback Josh Wallace in Sunday night's loss to the Broncos.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50071616/sean-mcvay-nfl-told-rams-dpi-called",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50071476",
+    "publishedAt": "2026-09-30T21:50:26Z",
+    "type": "Analysis",
+    "headline": "Bears' Ben Johnson: 'Direction already made' on Week 4 QB call",
+    "summary": "Bears coach Ben Johnson said he knows the \"direction\" the team will go at quarterback in Week 4 but won't publicly declare a starter.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50071476/bears-ben-johnson-direction-already-made-week-4-qb",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50071302",
+    "publishedAt": "2026-09-30T21:48:29Z",
+    "type": "Analysis",
+    "headline": "Giants' Harbaugh explains reasoning for releasing Beckham",
+    "summary": "Giants coach John Harbaugh on Wednesday explained the team's decision for releasing wide receiver Odell Beckham Jr.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50071302/giants-harbaugh-explains-reasoning-releasing-beckham",
     "sourceName": "ESPN"
   },
   {
@@ -16,33 +43,6 @@
     "summary": "The Panthers have placed starting cornerbacks Jaycee Horn (quad) and Mike Jackson (groin) on injured reserve after both were injured in the Week 3 loss to the Browns.",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/50068364/panthers-cbs-jaycee-horn-mike-jackson-placed-ir",
     "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/lamar-jackson-was-limited-with-back-injury-in-wednesdays-practice",
-    "publishedAt": "2026-09-30T20:45:09.000Z",
-    "type": "Injury",
-    "headline": "Lamar Jackson was limited with back injury in Wednesday's practice",
-    "summary": "HC Jesse Minter told reporters earlier on Wednesday that Jackson is \"dealing with something small.\"",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/lamar-jackson-was-limited-with-back-injury-in-wednesdays-practice",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cowboys-place-s-jalen-thompson-dt-jonathan-bullard-on-ir",
-    "publishedAt": "2026-09-30T20:50:06.000Z",
-    "type": "Injury",
-    "headline": "Cowboys place S Jalen Thompson, DT Jonathan Bullard on IR",
-    "summary": "The Cowboys placed safety Jalen Thompson and defensive tackle Jonathan Bullard on injured reserve, the team announced Wednesday.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cowboys-place-s-jalen-thompson-dt-jonathan-bullard-on-ir",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=421468",
-    "publishedAt": "2026-09-30T17:55:42.000Z",
-    "type": "Injury",
-    "headline": "Texans DT Mario Edwards Jr. Placed On IR With Torn ACL",
-    "summary": "The Texans have placed defensive tackle Mario Edwards Jr. on injured reserve, the team announced. To take Edwards’ roster spot, the Texans signed defensive end Chris Braswell from their practice squad. Players on IR are required to sit out at least four games, but it does not appear Edwards will make it back at all […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/09/texans-dt-mario-edwards-jr-placed-on-ir-with-torn-acl",
-    "sourceName": "Pro Football Rumors"
   },
   {
     "id": "50070647",

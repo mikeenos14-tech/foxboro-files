@@ -1,12 +1,43 @@
 [
   {
-    "playerId": "4606712",
-    "playerName": "Ar'maj Reed-Adams",
-    "position": "G",
+    "playerId": "4635008",
+    "playerName": "Keon Coleman",
+    "position": "WR",
     "week": 4,
-    "injury": "Elbow",
+    "injury": "Ankle",
     "gameStatus": "Questionable",
-    "lastUpdated": "2026-09-29T16:45Z"
+    "lastUpdated": "2026-09-30T21:12:41.147Z",
+    "practiceStatus": "Did Not Participate"
+  },
+  {
+    "playerId": "3915416",
+    "playerName": "DJ Moore",
+    "position": "WR",
+    "week": 4,
+    "injury": "Shoulder",
+    "gameStatus": "Questionable",
+    "lastUpdated": "2026-09-30T21:12:41.147Z",
+    "practiceStatus": "Limited"
+  },
+  {
+    "playerId": "4366349",
+    "playerName": "Joe Andreessen",
+    "position": "LB",
+    "week": 4,
+    "injury": "Knee",
+    "gameStatus": "Questionable",
+    "lastUpdated": "2026-09-30T21:12:41.147Z",
+    "practiceStatus": "Did Not Participate"
+  },
+  {
+    "playerId": "4036060",
+    "playerName": "Damar Hamlin",
+    "position": "S",
+    "week": 4,
+    "injury": "Ribs",
+    "gameStatus": "Questionable",
+    "lastUpdated": "2026-09-30T21:12:41.147Z",
+    "practiceStatus": "Limited"
   },
   {
     "playerId": "4684527",
@@ -15,18 +46,18 @@
     "week": 4,
     "injury": "Not specified",
     "gameStatus": "Doubtful",
-    "lastUpdated": "2026-09-30T21:02:23.706Z",
+    "lastUpdated": "2026-09-30T21:12:41.147Z",
     "practiceStatus": "Did Not Participate"
   },
   {
-    "playerId": "patriots-joe-andreessen",
-    "playerName": "Joe Andreessen",
-    "position": "ILB",
+    "playerId": "4831989",
+    "playerName": "Deone Walker",
+    "position": "DT",
     "week": 4,
-    "injury": "Knee",
-    "practiceStatus": "Did Not Participate",
-    "gameStatus": null,
-    "lastUpdated": "2026-09-30T21:02:23.706Z"
+    "injury": "Quadriceps",
+    "gameStatus": "Questionable",
+    "lastUpdated": "2026-09-30T21:12:41.147Z",
+    "practiceStatus": "Limited"
   },
   {
     "playerId": "patriots-christian-benford",
@@ -36,47 +67,7 @@
     "injury": "Toe",
     "practiceStatus": "Did Not Participate",
     "gameStatus": null,
-    "lastUpdated": "2026-09-30T21:02:23.706Z"
-  },
-  {
-    "playerId": "patriots-keon-coleman",
-    "playerName": "Keon Coleman",
-    "position": "WR",
-    "week": 4,
-    "injury": "Ankle",
-    "practiceStatus": "Did Not Participate",
-    "gameStatus": null,
-    "lastUpdated": "2026-09-30T21:02:23.706Z"
-  },
-  {
-    "playerId": "patriots-damar-hamlin",
-    "playerName": "Damar Hamlin",
-    "position": "S",
-    "week": 4,
-    "injury": "Ribs",
-    "practiceStatus": "Limited",
-    "gameStatus": null,
-    "lastUpdated": "2026-09-30T21:02:23.706Z"
-  },
-  {
-    "playerId": "patriots-dj-moore",
-    "playerName": "DJ Moore",
-    "position": "WR",
-    "week": 4,
-    "injury": "Shoulder",
-    "practiceStatus": "Limited",
-    "gameStatus": null,
-    "lastUpdated": "2026-09-30T21:02:23.706Z"
-  },
-  {
-    "playerId": "patriots-deone-walker",
-    "playerName": "Deone Walker",
-    "position": "DL",
-    "week": 4,
-    "injury": "Quad",
-    "practiceStatus": "Limited",
-    "gameStatus": null,
-    "lastUpdated": "2026-09-30T21:02:23.706Z"
+    "lastUpdated": "2026-09-30T21:12:41.147Z"
   },
   {
     "playerId": "patriots-terrel-bernard",
@@ -86,7 +77,7 @@
     "injury": "Knee",
     "practiceStatus": "Full",
     "gameStatus": null,
-    "lastUpdated": "2026-09-30T21:02:23.706Z"
+    "lastUpdated": "2026-09-30T21:12:41.147Z"
   },
   {
     "playerId": "patriots-bradley-chubb",
@@ -96,7 +87,7 @@
     "injury": "Thumb",
     "practiceStatus": "Full",
     "gameStatus": null,
-    "lastUpdated": "2026-09-30T21:02:23.706Z"
+    "lastUpdated": "2026-09-30T21:12:41.147Z"
   },
   {
     "playerId": "patriots-armaj-reedadams-elbow",
@@ -106,7 +97,7 @@
     "injury": "Not specified",
     "practiceStatus": "Full",
     "gameStatus": null,
-    "lastUpdated": "2026-09-30T21:02:23.706Z"
+    "lastUpdated": "2026-09-30T21:12:41.147Z"
   },
   {
     "playerId": "patriots-dorian-williams",
@@ -116,6 +107,6 @@
     "injury": "Hip",
     "practiceStatus": "Full",
     "gameStatus": null,
-    "lastUpdated": "2026-09-30T21:02:23.706Z"
+    "lastUpdated": "2026-09-30T21:12:41.147Z"
   }
 ]
