@@ -1,11 +1,182 @@
 [
   {
-    "id": "50074351",
-    "publishedAt": "2026-10-01T12:01:50Z",
+    "id": "50076570",
+    "publishedAt": "2026-10-01T15:06:03Z",
     "type": "Transaction",
-    "headline": "Sources: Steelers to trade Joey Porter Jr. to Cowboys",
-    "summary": "The Steelers have agreed to trade cornerback Joey Porter Jr. to the Cowboys for a 2027 sixth-round pick and a 2028 second-rounder, sources confirmed to ESPN.",
+    "headline": "Why Steelers traded Joey Porter Jr. to Cowboys, what's next?",
+    "summary": "Our insiders dive into Porter's fit in Dallas, his potential for a contract extension and what's next for the Steelers.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50076570/pittsburgh-steelers-trade-joey-porter-jr-dallas-cowboys",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50077116",
+    "publishedAt": "2026-10-01T14:58:33Z",
+    "type": "Analysis",
+    "headline": "Why Deshaun Watson intrigues Stephen A. more than Aaron Rodgers",
+    "summary": "Why Deshaun Watson intrigues Stephen A. more than Aaron Rodgers",
+    "sourceUrl": "https://www.espn.com/video/clip/_/id/50077116/why-deshaun-watson-intrigues-stephen-more-aaron-rodgers",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/patrick-mahomes-mutual-respect-with-maxx-crosby-brings-out-the-best-in-both-of-us",
+    "publishedAt": "2026-10-01T14:53:10.000Z",
+    "type": "Analysis",
+    "headline": "Patrick Mahomes: Mutual respect with Maxx Crosby brings out the best in both of us",
+    "summary": "\"He's one of the best competitors in the league,\" Mahomes said of Crosby.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/patrick-mahomes-mutual-respect-with-maxx-crosby-brings-out-the-best-in-both-of-us",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=421412",
+    "publishedAt": "2026-10-01T14:48:59.000Z",
+    "type": "Injury",
+    "headline": "Titans Place Guards Fernando Carmona, Jackson Slater On IR",
+    "summary": "OCTOBER 1: Saleh confirmed (via Titans insider Terry McCormick) both Carmona and Slater will undergo surgery. He is hopeful a return before the season could take place in both cases. Still, Tennessee’s guard depth chart will be shorthanded for a notable stretch. SEPTEMBER 29: The Titans lost two guards in Sunday’s loss to the Giants, and both […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/titans-place-guards-fernando-carmona-jackson-slater-on-ir",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "50077000",
+    "publishedAt": "2026-10-01T14:36:20Z",
+    "type": "Analysis",
+    "headline": "How Stephen A. believes Joey Porter Jr. can help Cowboys' defense",
+    "summary": "How Stephen A. believes Joey Porter Jr. can help Cowboys' defense",
+    "sourceUrl": "https://www.espn.com/video/clip/_/id/50077000/how-stephen-believes-joey-porter-jr-help-cowboys-defense",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50074351",
+    "publishedAt": "2026-10-01T14:34:27Z",
+    "type": "Transaction",
+    "headline": "Steelers end standoff, trade Joey Porter Jr. to Cowboys",
+    "summary": "The Steelers traded cornerback Joey Porter Jr. to the Cowboys for a 2027 sixth-round pick and a 2028 second-rounder.",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/50074351/sources-steelers-trade-joey-porter-jr-cowboys",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/theres-a-chance-joey-porter-jr-will-play-for-the-cowboys-on-sunday",
+    "publishedAt": "2026-10-01T14:34:07.000Z",
+    "type": "Analysis",
+    "headline": "There's \"a chance\" Joey Porter Jr. will play for the Cowboys on Sunday",
+    "summary": "Although few were willing to call it what it was, it's obvious that former Steelers cornerback Joey Porter Jr. hadn't played in Week 1, Week 2, or Week 3 for the Steelers because he hadn't gotten a new contract.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/theres-a-chance-joey-porter-jr-will-play-for-the-cowboys-on-sunday",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dan-campbell-jared-goff-is-tough-durable-resilient-which-you-have-to-be-at-qb",
+    "publishedAt": "2026-10-01T14:17:01.000Z",
+    "type": "Injury",
+    "headline": "Dan Campbell: Jared Goff is tough, durable, resilient, which you have to be at QB",
+    "summary": "Through three weeks, there have been several injuries to starting quarterbacks around the NFL.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dan-campbell-jared-goff-is-tough-durable-resilient-which-you-have-to-be-at-qb",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jets-sign-ol-kohl-levao-to-their-active-roster",
+    "publishedAt": "2026-10-01T14:12:17.000Z",
+    "type": "Analysis",
+    "headline": "Jets sign OL Kohl Levao to their active roster",
+    "summary": "The Jets filled an open spot on their 53-man roster on Thursday morning.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jets-sign-ol-kohl-levao-to-their-active-roster",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=421614",
+    "publishedAt": "2026-10-01T14:00:23.000Z",
+    "type": "Injury",
+    "headline": "Eagles DT Jalen Carter Playing Through Hairline Wrist Fracture",
+    "summary": "Jalen Carter has yet to miss a game early in the 2026 season. The Pro Bowl defensive tackle is not operating at full strength, however. Carter is dealing with a hairline fracture in his right wrist, Jeff McLane of the Philadelphia Inquirer reports. The injury occurred in Week 1, and Carter has played with a soft […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/eagles-dt-jalen-carter-playing-through-hairline-wrist-fracture",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/patrick-mahomes-raiders-3-0-record-is-for-real-expecting-a-hostile-environment-sunday",
+    "publishedAt": "2026-10-01T13:56:13.000Z",
+    "type": "Analysis",
+    "headline": "Patrick Mahomes: Raiders' 3-0 record is for real, expecting a hostile environment Sunday",
+    "summary": "Allegiant Stadium in Las Vegas has been a friendly place for the Chiefs to play since it opened in 2020.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/patrick-mahomes-raiders-3-0-record-is-for-real-expecting-a-hostile-environment-sunday",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/matthew-stafford-close-to-becoming-the-first-qb-with-150-touchdowns-on-two-teams",
+    "publishedAt": "2026-10-01T13:53:28.000Z",
+    "type": "Analysis",
+    "headline": "Matthew Stafford close to becoming the first QB with 150 touchdowns on two teams",
+    "summary": "Rams quarterback Matthew Stafford is closing in on a unique achievement in NFL history.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/matthew-stafford-close-to-becoming-the-first-qb-with-150-touchdowns-on-two-teams",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "50071448",
+    "publishedAt": "2026-10-01T13:53:18Z",
+    "type": "Analysis",
+    "headline": "Lamar Jackson, Ravens looking for first home win since before Thanksgiving",
+    "summary": "Once among the most dominant teams at home, the Ravens have lost four straight games in Baltimore.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50071448/lamar-jackson-ravens-first-home-win-thanksgiving",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cowboys-could-face-a-franchise-tag-dilemma-between-george-pickens-joey-porter-jr",
+    "publishedAt": "2026-10-01T13:40:26.000Z",
+    "type": "Transaction",
+    "headline": "Cowboys could face a franchise-tag dilemma between George Pickens, Joey Porter Jr.",
+    "summary": "The Joey Porter Jr. trade could eventually work to the benefit of George Pickens.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cowboys-could-face-a-franchise-tag-dilemma-between-george-pickens-joey-porter-jr",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "50063176",
+    "publishedAt": "2026-10-01T13:39:33Z",
+    "type": "Analysis",
+    "headline": "NFL Week 4 uniforms: Browns wearing 'Alpha Dawg' look; Giants go 'Legacy'",
+    "summary": "Here's a look at what each NFL team is wearing in Week 4, led by an alternate look from the Cleveland Browns.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50063176/nfl-week-4-uniforms",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-no-new-contract-for-joey-porter-jr-in-dallas-at-least-for-now",
+    "publishedAt": "2026-10-01T13:22:31.000Z",
+    "type": "Analysis",
+    "headline": "Report: No new contract for Joey Porter Jr. in Dallas (at least for now)",
+    "summary": "Cornerback Joey Porter Jr. wanted a new contract.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-no-new-contract-for-joey-porter-jr-in-dallas-at-least-for-now",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-brian-burns-tore-his-meniscus-in-addition-to-his-acl",
+    "publishedAt": "2026-10-01T13:17:40.000Z",
+    "type": "Injury",
+    "headline": "Report: Brian Burns tore his meniscus in addition to his ACL",
+    "summary": "Giants linebacker Brian Burns is set to have knee surgery on Thursday and doctors will reportedly be repairing more than just his ACL.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-brian-burns-tore-his-meniscus-in-addition-to-his-acl",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bears-open-21-day-practice-window-for-kyler-gordon",
+    "publishedAt": "2026-10-01T13:16:03.000Z",
+    "type": "Beat Report",
+    "headline": "Bears open 21-day practice window for Kyler Gordon",
+    "summary": "Bears cornerback Kyler Gordon may finally be close to a return.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bears-open-21-day-practice-window-for-kyler-gordon",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "50076456",
+    "publishedAt": "2026-10-01T12:47:54Z",
+    "type": "Transaction",
+    "headline": "Gerald McCoy: Trade for Joey Porter Jr. doesn't solve Cowboys' defensive woes",
+    "summary": "Gerald McCoy: Trade for Joey Porter Jr. doesn't solve Cowboys' defensive woes",
+    "sourceUrl": "https://www.espn.com/video/clip/_/id/50076456/trade-joey-porter-jr-solve-cowboys-defensive-woes",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50052991",
+    "publishedAt": "2026-10-01T12:15:26Z",
+    "type": "Analysis",
+    "headline": "How to bet Steelers Browns on TNF: Analysis, tips and top prop plays",
+    "summary": "Odds, bets and analysis to help you bet Steelers-Browns on \"Thursday Night Football.\"",
+    "sourceUrl": "https://www.espn.com/espn/betting/story/_/id/50052991/nfl-week-4-odds-betting-tips-picks-pittsburgh-steelers-cleveland-browns",
     "sourceName": "ESPN"
   },
   {
@@ -36,30 +207,12 @@
     "sourceName": "Pro Football Talk"
   },
   {
-    "id": "50071448",
-    "publishedAt": "2026-10-01T10:39:10Z",
-    "type": "Analysis",
-    "headline": "Lamar Jackson, Ravens looking for first home win since before Thanksgiving",
-    "summary": "Once among the most dominant teams at home, the Ravens have lost four straight games in Baltimore.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50071448/lamar-jackson-ravens-first-home-win-thanksgiving",
-    "sourceName": "ESPN"
-  },
-  {
     "id": "50071476",
     "publishedAt": "2026-10-01T10:31:36Z",
     "type": "Analysis",
     "headline": "Bears' Ben Johnson: 'Direction already made' on Week 4 QB call",
     "summary": "Bears coach Ben Johnson said he knows the \"direction\" the team will go at quarterback in Week 4 but won't publicly declare a starter.",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/50071476/bears-ben-johnson-direction-already-made-week-4-qb",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50052991",
-    "publishedAt": "2026-10-01T10:30:22Z",
-    "type": "Analysis",
-    "headline": "How to bet Steelers Browns on TNF: Analysis, tips and top prop plays",
-    "summary": "Odds, bets and analysis to help you bet Steelers-Browns on \"Thursday Night Football.\"",
-    "sourceUrl": "https://www.espn.com/espn/betting/story/_/id/50052991/nfl-week-4-odds-betting-tips-picks-pittsburgh-steelers-cleveland-browns",
     "sourceName": "ESPN"
   },
   {
@@ -147,7 +300,7 @@
     "id": "profootballrumors-https://www.profootballrumors.com/?p=421576",
     "publishedAt": "2026-10-01T04:08:09.000Z",
     "type": "Transaction",
-    "headline": "Steelers To Trade CB Joey Porter Jr. To Cowboys",
+    "headline": "Steelers Trade Joey Porter Jr. To Cowboys",
     "summary": "The Steelers’ standoff with Joey Porter Jr. has come to an end. The star cornerback is being shipped to the Cowboys, per The Ringer’s Tom Pelissero. Dallas is sending a second-round pick along with a conditional sixth-rounder to Pittsburgh in the swap, NFL insider Jordan Schultz adds. The second-round pick will come in 2028 while […]",
     "sourceUrl": "https://www.profootballrumors.com/2026/09/steelers-to-trade-cb-joey-porter-to-cowboys",
     "sourceName": "Pro Football Rumors"
@@ -1429,15 +1582,6 @@
     "summary": "The full scope of the moves the Giants made on Tuesday made their point clear.",
     "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/giants-dont-plan-to-add-odell-beckham-jr-to-the-practice-squad-at-this-time",
     "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=421412",
-    "publishedAt": "2026-09-30T03:43:59.000Z",
-    "type": "Injury",
-    "headline": "Titans Place Guards Fernando Carmona, Jackson Slater On IR",
-    "summary": "The Titans lost two guards in Sunday’s loss to the Giants, and both are now headed for multi-game absences. Tennessee placed Fernando Carmona and Jackson Slater on injured reserve on Tuesday, per a team announcement. Guard Garrett Dellinger and running back Michael Carter were promoted from the practice squad to the active roster in corresponding […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/09/titans-place-guards-fernando-carmona-jackson-slater-on-ir",
-    "sourceName": "Pro Football Rumors"
   },
   {
     "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/in-the-offseason-giants-werent-interested-in-joe-flacco",
@@ -15352,185 +15496,5 @@
     "summary": "Why Pat Freiermuth is trending upward after Week 1",
     "sourceUrl": "https://www.espn.com/video/clip/_/id/49965362/why-pat-freiermuth-trending-upward-week-1",
     "sourceName": "ESPN"
-  },
-  {
-    "id": "49965060",
-    "publishedAt": "2026-09-17T15:06:44Z",
-    "type": "Analysis",
-    "headline": "Daniel Dopp not giving up on Drake London heading into Week 2",
-    "summary": "Daniel Dopp not giving up on Drake London heading into Week 2",
-    "sourceUrl": "https://www.espn.com/video/clip/_/id/49965060/daniel-dopp-not-giving-drake-london-heading-week-2",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "49965001",
-    "publishedAt": "2026-09-17T14:53:42Z",
-    "type": "Analysis",
-    "headline": "Yates and Clay both expect Jaylen Waddle to get 'back on track' in Week 2",
-    "summary": "Yates and Clay both expect Jaylen Waddle to get 'back on track' in Week 2",
-    "sourceUrl": "https://www.espn.com/video/clip/_/id/49965001/yates-clay-expect-jaylen-waddle-get-back-track-week-2",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=420119",
-    "publishedAt": "2026-09-17T14:52:09.000Z",
-    "type": "Analysis",
-    "headline": "Former LB Fredd Young Passes Away",
-    "summary": "Former Seahawks and Colts linebacker Fredd Young passed away at the age of 64 on Tuesday, the Seahawks confirmed. The cause of death was not disclosed. “A standout linebacker who impacted the game in multiple ways,” the Seahawks wrote in an X post. “We remember the life and legacy of Fredd Young.” After a stellar […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/09/former-lb-fredd-young-passes-away",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/brian-belichick-takes-over-steve-belichicks-role-calling-defense-for-bill-belichicks-team",
-    "publishedAt": "2026-09-17T14:45:16.000Z",
-    "type": "Transaction",
-    "headline": "Brian Belichick takes over Steve Belichick's role calling defense for Bill Belichick's team",
-    "summary": "With one of Bill Belichick's sons resigning as his defensive coordinator, Belichick's other son will take on the role.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/brian-belichick-takes-over-steve-belichicks-role-calling-defense-for-bill-belichicks-team",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "49962106",
-    "publishedAt": "2026-09-17T14:38:32Z",
-    "type": "Analysis",
-    "headline": "How family and fatherhood are fueling Lions QB Jared Goff",
-    "summary": "The arrival of Goff's daughter, Romy Isabelle, has helped sharpened the quarterback's focus heading into 2026.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49962106/jared-goff-lions-family-wife-christen-goff-fatherhood-daughter-super-bowl-2026-season",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "49960479",
-    "publishedAt": "2026-09-17T14:37:47Z",
-    "type": "Analysis",
-    "headline": "Bryce Young's 4-1 record vs. Falcons a harbinger for Week 2?",
-    "summary": "The Panthers QB's previous trips to Mercedes-Benz Stadium should keep Falcons fans and coaches up at night.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49960479/bryce-young-carolina-panthers-quarterback-record-atlanta-falcons-harbinger-week-2",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/caleb-williams-set-to-become-the-third-qb-ever-with-50-tds-fewer-than-15-interceptions",
-    "publishedAt": "2026-09-17T14:29:31.000Z",
-    "type": "Analysis",
-    "headline": "Caleb Williams set to become the third QB ever with 50 TDs, fewer than 15 interceptions",
-    "summary": "Bears quarterback Caleb Williams' next touchdown pass will be the 50th of his career.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/caleb-williams-set-to-become-the-third-qb-ever-with-50-tds-fewer-than-15-interceptions",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/north-carolina-issues-statement-on-concluded-investigation",
-    "publishedAt": "2026-09-17T14:28:11.000Z",
-    "type": "Analysis",
-    "headline": "North Carolina issues statement on concluded investigation",
-    "summary": "The University of North Carolina has completed its investigation of the football program.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/north-carolina-issues-statement-on-concluded-investigation",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/tyler-shough-i-was-trying-to-be-too-perfect-early-vs-lions",
-    "publishedAt": "2026-09-17T14:22:41.000Z",
-    "type": "Analysis",
-    "headline": "Tyler Shough: I was trying to be too perfect early vs. Lions",
-    "summary": "At halftime of the Week 1 matchup between the Lions and Saints, New Orleans was down 7-0.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/tyler-shough-i-was-trying-to-be-too-perfect-early-vs-lions",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=420121",
-    "publishedAt": "2026-09-17T13:38:24.000Z",
-    "type": "Transaction",
-    "headline": "Browns Sign WR Jimmy Horn To P-Squad",
-    "summary": "The Browns are signing free agent wide receiver Jimmy Horn, according to insider Jordan Schultz. Horn will join the Browns’ practice squad, Chris Easterling of the Akron Beacon Journal reports. The Panthers waived Horn on Tuesday after he committed a special teams error during their Week 1 loss to the Bears. Horn’s inability to secure […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/09/browns-sign-wr-jimmy-horn-to-p-squad",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/steve-belichick-resigns-as-north-carolina-defensive-coordinator",
-    "publishedAt": "2026-09-17T13:32:46.000Z",
-    "type": "Transaction",
-    "headline": "Steve Belichick resigns as North Carolina defensive coordinator",
-    "summary": "Bill Belichick's son steps down amid an ongoing investigation.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/steve-belichick-resigns-as-north-carolina-defensive-coordinator",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/browns-add-wr-jimmy-horn-jr-to-practice-squad",
-    "publishedAt": "2026-09-17T13:29:12.000Z",
-    "type": "Transaction",
-    "headline": "Browns add WR Jimmy Horn Jr. to practice squad",
-    "summary": "The Browns are adding a player who's plenty familiar with their (current) backup quarterback.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/browns-add-wr-jimmy-horn-jr-to-practice-squad",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/kyrie-irving-offers-to-pay-azeez-al-shaairs-fine",
-    "publishedAt": "2026-09-17T13:19:27.000Z",
-    "type": "Analysis",
-    "headline": "Kyrie Irving offers to pay Azeez Al-Shaair's fine",
-    "summary": "The NFL has fined Texans linebacker Azeez Al-Shaair $11,941 for having a personal message written on his black eye strips during the Week 1 game against the Bills.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/kyrie-irving-offers-to-pay-azeez-al-shaairs-fine",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "49964107",
-    "publishedAt": "2026-09-17T13:16:44Z",
-    "type": "Injury",
-    "headline": "Source: Texans' Nico Collins (hamstring) uncertain for Week 2",
-    "summary": "Texans star wide receiver Nico Collins suffered a hamstring injury during Wednesday's practice and is uncertain to play in Week 2 against the Bengals, a source told ESPN.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49964107/source-texans-nico-collins-hamstring-uncertain-week-2",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "49964218",
-    "publishedAt": "2026-09-17T13:15:41Z",
-    "type": "Analysis",
-    "headline": "Schefter: Nico Collins in jeopardy of missing Texans' Week 2 game",
-    "summary": "Schefter: Nico Collins in jeopardy of missing Texans' Week 2 game",
-    "sourceUrl": "https://www.espn.com/video/clip/_/id/49964218/nico-collins-jeopardy-missing-texans-week-2-game",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dave-canales-on-not-knowing-falcons-qb-have-to-study-history-of-kevin-stefanskis-offenses",
-    "publishedAt": "2026-09-17T13:04:48.000Z",
-    "type": "Analysis",
-    "headline": "Dave Canales on not knowing Falcons QB: Have to study history of Kevin Stefanski's offenses",
-    "summary": "The Falcons have not named a quarterback for Sunday's game against the Panthers and preparing the team's defense under those circumstances was a topic of conversation for Panthers head coach Dave Canales on Wednesday.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dave-canales-on-not-knowing-falcons-qb-have-to-study-history-of-kevin-stefanskis-offenses",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "49953191",
-    "publishedAt": "2026-09-17T13:02:32Z",
-    "type": "Analysis",
-    "headline": "Bills open Highmark Stadium, looking to be latest with notable arena debut",
-    "summary": "As Buffalo opens its new stadium, here's a look back at notable opening games at NFL teams' active stadiums.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49953191/nfl-new-stadiums-debut-notable-games",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "49963965",
-    "publishedAt": "2026-09-17T12:52:07Z",
-    "type": "Analysis",
-    "headline": "Compton on Burrow's back tightness: 'I would be afraid' as a Bengals fan",
-    "summary": "Compton on Burrow's back tightness: 'I would be afraid' as a Bengals fan",
-    "sourceUrl": "https://www.espn.com/video/clip/_/id/49963965/afraid-bengals-fan",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "49961884",
-    "publishedAt": "2026-09-17T12:47:08Z",
-    "type": "Analysis",
-    "headline": "NFL survivor power rankings: Why you should use 49ers, Eagles in Week 2",
-    "summary": "ESPN NFL survivor pool strategy, predictions and picks including the 49ers and other cautious picks.",
-    "sourceUrl": "https://www.espn.com/fantasy/football/story/_/id/49961884/espn-nfl-survivor-week-2-survivor-pool-strategy-advice-picks-predictions",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/brian-schottenheimer-i-dont-worry-about-george-pickenss-drops-hell-be-just-fine",
-    "publishedAt": "2026-09-17T12:12:43.000Z",
-    "type": "Analysis",
-    "headline": "Brian Schottenheimer: I don't worry about George Pickens's drops, he'll be just fine",
-    "summary": "Among the reasons why the Cowboys lost 28-20 to the Giants in Week 1 were a pair of dropped passes by wide receiver George Pickens.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/brian-schottenheimer-i-dont-worry-about-george-pickenss-drops-hell-be-just-fine",
-    "sourceName": "Pro Football Talk"
   }
 ]

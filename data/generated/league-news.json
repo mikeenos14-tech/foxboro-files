@@ -1,21 +1,39 @@
 [
   {
-    "id": "50074351",
-    "publishedAt": "2026-10-01T12:01:50Z",
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-brian-burns-tore-his-meniscus-in-addition-to-his-acl",
+    "publishedAt": "2026-10-01T13:17:40.000Z",
+    "type": "Injury",
+    "headline": "Report: Brian Burns tore his meniscus in addition to his ACL",
+    "summary": "Giants linebacker Brian Burns is set to have knee surgery on Thursday and doctors will reportedly be repairing more than just his ACL.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-brian-burns-tore-his-meniscus-in-addition-to-his-acl",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "50076570",
+    "publishedAt": "2026-10-01T15:06:03Z",
     "type": "Transaction",
-    "headline": "Sources: Steelers to trade Joey Porter Jr. to Cowboys",
-    "summary": "The Steelers have agreed to trade cornerback Joey Porter Jr. to the Cowboys for a 2027 sixth-round pick and a 2028 second-rounder, sources confirmed to ESPN.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50074351/sources-steelers-trade-joey-porter-jr-cowboys",
+    "headline": "Why Steelers traded Joey Porter Jr. to Cowboys, what's next?",
+    "summary": "Our insiders dive into Porter's fit in Dallas, his potential for a contract extension and what's next for the Steelers.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50076570/pittsburgh-steelers-trade-joey-porter-jr-dallas-cowboys",
     "sourceName": "ESPN"
   },
   {
-    "id": "50071448",
-    "publishedAt": "2026-10-01T10:39:10Z",
-    "type": "Analysis",
-    "headline": "Lamar Jackson, Ravens looking for first home win since before Thanksgiving",
-    "summary": "Once among the most dominant teams at home, the Ravens have lost four straight games in Baltimore.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50071448/lamar-jackson-ravens-first-home-win-thanksgiving",
+    "id": "50071951",
+    "publishedAt": "2026-10-01T04:21:09Z",
+    "type": "Transaction",
+    "headline": "Falcons sign DT Gervon Dexter Sr. to four-year extension",
+    "summary": "The Falcons signed Gervon Dexter Sr. to a four-year, $78 million contract extension, sources told ESPN.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50071951/falcons-sign-dt-gervon-dexter-sr-four-year-extension",
     "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=421412",
+    "publishedAt": "2026-10-01T14:48:59.000Z",
+    "type": "Injury",
+    "headline": "Titans Place Guards Fernando Carmona, Jackson Slater On IR",
+    "summary": "OCTOBER 1: Saleh confirmed (via Titans insider Terry McCormick) both Carmona and Slater will undergo surgery. He is hopeful a return before the season could take place in both cases. Still, Tennessee’s guard depth chart will be shorthanded for a notable stretch. SEPTEMBER 29: The Titans lost two guards in Sunday’s loss to the Giants, and both […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/titans-place-guards-fernando-carmona-jackson-slater-on-ir",
+    "sourceName": "Pro Football Rumors"
   },
   {
     "id": "50071255",
@@ -27,21 +45,12 @@
     "sourceName": "ESPN"
   },
   {
-    "id": "50065872",
-    "publishedAt": "2026-10-01T10:00:02Z",
+    "id": "50071476",
+    "publishedAt": "2026-10-01T10:31:36Z",
     "type": "Analysis",
-    "headline": "Browns' QB situation takes a turn as Deshaun Watson finds his footing",
-    "summary": "Cleveland's 2-1 start and the QB's late-game performances have helped to shift the conversation around the future of the position.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50065872/cleveland-browns-quarterback-situation-deshaun-watson-shedeur-sanders-tnf",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50071416",
-    "publishedAt": "2026-10-01T10:00:01Z",
-    "type": "Analysis",
-    "headline": "Why Darnell Washington has become the Steelers' X factor",
-    "summary": "At 6-foot-7 and nearly 300 pounds, the Pittsburgh tight end is more than a viral hurdle highlight reel.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50071416/pittsburgh-steelers-darnell-washington-viral-x-factor",
+    "headline": "Bears' Ben Johnson: 'Direction already made' on Week 4 QB call",
+    "summary": "Bears coach Ben Johnson said he knows the \"direction\" the team will go at quarterback in Week 4 but won't publicly declare a starter.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50071476/bears-ben-johnson-direction-already-made-week-4-qb",
     "sourceName": "ESPN"
   }
 ]
