@@ -1,7 +1,16 @@
 [
   {
+    "id": "50082906",
+    "publishedAt": "2026-10-02T07:57:32Z",
+    "type": "Analysis",
+    "headline": "Watson leads third straight winning drive, puts Browns atop North",
+    "summary": "Deshaun Watson has the Browns atop the division at 3-1 after directing a winning drive for the third straight game Thursday night in a 27-24 win over the Steelers.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50082906/watson-leads-third-straight-winning-drive-puts-browns-atop-north",
+    "sourceName": "ESPN"
+  },
+  {
     "id": "50079473",
-    "publishedAt": "2026-10-02T04:48:00Z",
+    "publishedAt": "2026-10-02T06:16:14Z",
     "type": "Analysis",
     "headline": "Browns best Steelers on TNF to take lead in AFC North",
     "summary": "The Browns move to 3-1 while adding to Pittsburgh's historic five-year futility in Cleveland.",
@@ -9,13 +18,31 @@
     "sourceName": "ESPN"
   },
   {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-final-straw-for-steelers-was-joey-porter-jr-s-wednesday-claim-of-back-pain",
-    "publishedAt": "2026-10-01T21:38:35.000Z",
+    "id": "50082783",
+    "publishedAt": "2026-10-02T07:49:46Z",
+    "type": "Analysis",
+    "headline": "Steelers' McCarthy regrets angry exchange with Rodgers in loss",
+    "summary": "Steelers coach Mike McCarthy said he regretted directing a profanity toward quarterback Aaron Rodgers during a heated exchange that was caught on the broadcast of Thursday's 27-24 loss to the Browns.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50082783/steelers-mccarthy-regrets-angry-exchange-rodgers-loss",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=421427",
+    "publishedAt": "2026-10-02T04:13:24.000Z",
     "type": "Transaction",
-    "headline": "Report: \"Final straw\" for Steelers was Joey Porter Jr.'s Wednesday claim of back pain",
-    "summary": "The Steelers thought the dance was over.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-final-straw-for-steelers-was-joey-porter-jr-s-wednesday-claim-of-back-pain",
-    "sourceName": "Pro Football Talk"
+    "headline": "Cowboys Trade Opens Door To Modern Contract Structure, But Hurdles Exist For Joey Porter Jr.",
+    "summary": "Although Joey Porter Jr. has not proven himself to be on Jalen Ramsey’s level — prime years, at least — a transaction eerily similar to the Jaguars-Rams’ 2019 trade unfolded late Wednesday night. The position, injury report listings and career junctures match up. Nearly seven years after Ramsey forced his way out of Jacksonville with a […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/421427",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=421651",
+    "publishedAt": "2026-10-02T04:07:41.000Z",
+    "type": "Injury",
+    "headline": "Saints Place RB Travis Etienne On IR",
+    "summary": "The Saints are placing running back Travis Etienne on IR with a hamstring injury, per Katherine Terrell of ESPN. He will miss at least four games. The Saints signed receiver Kevin Austin from their practice squad to take Etienne’s roster spot, according to Mike Tripplett of NewOrleans.Football. Although Etienne was a limited participant in multiple […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/saints-place-rb-travis-etienne-on-ir",
+    "sourceName": "Pro Football Rumors"
   },
   {
     "id": "50079926",
@@ -24,33 +51,6 @@
     "headline": "Brian Flores and his dominant Vikings defense take on the winless Dolphins, the team he once coached",
     "summary": "— Brian Flores has become one of the most impactful and prominent assistant coaches in the ",
     "sourceUrl": "http://www.espn.com/nfl/preview?gameId=401872974",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50079893",
-    "publishedAt": "2026-10-01T22:53:30Z",
-    "type": "Analysis",
-    "headline": "Burrow seeks to stay unbeaten vs Lawrence as Bengals host Jaguars in matchup of 2-1 teams",
-    "summary": "Joe Burrow has gotten the better of Trevor Lawrence whenever their teams have met.",
-    "sourceUrl": "http://www.espn.com/nfl/preview?gameId=401872969",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50079891",
-    "publishedAt": "2026-10-01T22:51:31Z",
-    "type": "Analysis",
-    "headline": "Henry is on Baltimore's side now as the Ravens host the Titans in a series where road teams flourish",
-    "summary": "— The last two times the Tennessee Titans played at Baltimore were in 2020. Derrick Henry was on their side then, and boy was he decisive.",
-    "sourceUrl": "http://www.espn.com/nfl/preview?gameId=401872973",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50079368",
-    "publishedAt": "2026-10-01T21:15:33Z",
-    "type": "Analysis",
-    "headline": "Jalen Hurts challenges underdog Eagles to find out who they are ahead of matchup with Rams",
-    "summary": "— Jalen Hurts isn't used to losing much with the Philadelphia Eagles — only 16 times since 2022 — and he certainly isn't used to getting embarrassed.",
-    "sourceUrl": "http://www.espn.com/nfl/preview?gameId=401872970",
     "sourceName": "ESPN"
   }
 ]
