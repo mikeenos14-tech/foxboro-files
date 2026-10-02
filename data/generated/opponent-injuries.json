@@ -20,6 +20,16 @@
     "lastUpdated": "2026-10-01T20:46:17.747Z"
   },
   {
+    "playerId": "00-0036037",
+    "playerName": "Sam Franklin Jr.",
+    "position": "S",
+    "week": 4,
+    "injury": "Not injury related - personal matter",
+    "practiceStatus": "Did Not Participate",
+    "gameStatus": null,
+    "lastUpdated": "2026-10-01T20:46:17.747Z"
+  },
+  {
     "playerId": "00-0036888",
     "playerName": "Damar Hamlin",
     "position": "S",
@@ -70,6 +80,16 @@
     "lastUpdated": "2026-10-01T20:46:17.747Z"
   },
   {
+    "playerId": "00-0039875",
+    "playerName": "Ray Davis",
+    "position": "RB",
+    "week": 4,
+    "injury": "Hamstring",
+    "practiceStatus": "Full",
+    "gameStatus": null,
+    "lastUpdated": "2026-10-01T20:46:17.747Z"
+  },
+  {
     "playerId": "00-0039901",
     "playerName": "Keon Coleman",
     "position": "WR",
@@ -107,27 +127,7 @@
     "injury": "Elbow",
     "practiceStatus": "Full",
     "gameStatus": null,
-    "lastUpdated": "2026-10-02T03:08:32.668Z"
-  },
-  {
-    "playerId": "patriots-sam-franklin",
-    "playerName": "Sam Franklin",
-    "position": "DB",
-    "week": 4,
-    "injury": "Personal",
-    "practiceStatus": "Did Not Participate",
-    "gameStatus": null,
-    "lastUpdated": "2026-10-01T20:46:17.747Z"
-  },
-  {
-    "playerId": "patriots-ray-davis",
-    "playerName": "Ray Davis",
-    "position": "RB",
-    "week": 4,
-    "injury": "Hamstring",
-    "practiceStatus": "Full",
-    "gameStatus": null,
-    "lastUpdated": "2026-10-01T20:46:17.747Z"
+    "lastUpdated": "2026-10-02T06:09:34.119Z"
   },
   {
     "playerId": "patriots-armaj-reedadams-elbow",
