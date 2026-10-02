@@ -1,12 +1,21 @@
 [
   {
-    "id": "50079185",
-    "publishedAt": "2026-10-01T20:44:12Z",
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=421644",
+    "publishedAt": "2026-10-01T22:23:20.000Z",
+    "type": "Transaction",
+    "headline": "Joey Porter Jr. Hopes To Finish Career With Cowboys",
+    "summary": "The Joey Porter Jr. saga came to an end when the Steelers traded the cornerback to the Cowboys for two draft picks late Wednesday. Pittsburgh received a 2028 second-round pick and a conditional 2027 sixth-round selection, the latter of which is a formality. The Steelers will secure the sixth-rounder if Porter is on the Cowboys’ […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/joey-porter-jr-hopes-to-finish-career-with-cowboys",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=421660",
+    "publishedAt": "2026-10-01T23:53:31.000Z",
     "type": "Injury",
-    "headline": "Saints putting RB Travis Etienne (hamstring) on IR",
-    "summary": "The Saints are placing running back Travis Etienne on injured reserve, which will sideline him for at least the next four games.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50079185/saints-putting-rb-travis-etienne-hamstring-ir",
-    "sourceName": "ESPN"
+    "headline": "Bears OT Braxton Jones Week-To-Week, Ozzy Trapilo Nearing Return",
+    "summary": "The Bears have been rotating starter Braxton Jones and backup Theo Benedet at left tackle to start the season, but the latter may have to take on the full-time role in Week 4. Head coach Ben Johnson said on Wednesday (via ESPN’s Courtney Cronin) that Jones was week-to-week with a knee injury that sidelined him […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/bears-ot-braxton-jones-week-to-week-ozzy-trapilo-nearing-return",
+    "sourceName": "Pro Football Rumors"
   },
   {
     "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/49ers-sign-wr-brandin-cooks-to-active-roster",
@@ -18,39 +27,30 @@
     "sourceName": "Pro Football Talk"
   },
   {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=421630",
-    "publishedAt": "2026-10-01T18:52:40.000Z",
-    "type": "Injury",
-    "headline": "Puka Nacua Expected To Play In Week 4",
-    "summary": "Rams wide receiver Puka Nacua hasn’t played since the team’s season-opening loss to the 49ers on Sept. 10, but he is nearing a return from hip and groin injuries. Head coach Sean McVay said he expects Nacua to be ready to face the Eagles in Philadelphia on Sunday, per Gary Klein of the Los Angeles […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/puka-nacua-expected-to-play-in-week-4",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "50078998",
-    "publishedAt": "2026-10-01T20:57:24Z",
+    "id": "50079926",
+    "publishedAt": "2026-10-01T23:01:30Z",
     "type": "Analysis",
-    "headline": "Chargers' Mike McDaniel takes blame for team's offensive struggles",
-    "summary": "Chargers offensive coordinator Mike McDaniel blamed himself Thursday for the team's offensive struggles.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50078998/chargers-mike-mcdaniel-takes-blame-team-offensive-struggles",
+    "headline": "Brian Flores and his dominant Vikings defense take on the winless Dolphins, the team he once coached",
+    "summary": "— Brian Flores has become one of the most impactful and prominent assistant coaches in the ",
+    "sourceUrl": "http://www.espn.com/nfl/preview?gameId=401872974",
     "sourceName": "ESPN"
   },
   {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/roger-goodell-met-with-gov-jb-pritzker-illinois-lawmakers-about-bears-stadium-on-thursday",
-    "publishedAt": "2026-10-01T20:17:03.000Z",
+    "id": "50079893",
+    "publishedAt": "2026-10-01T22:53:30Z",
     "type": "Analysis",
-    "headline": "Roger Goodell met with Gov. JB Pritzker, Illinois lawmakers about Bears stadium on Thursday",
-    "summary": "Publicly, the Bears have said their \"sole focus\" for the site of their new stadium site is Hammond, Ind.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/roger-goodell-met-with-gov-jb-pritzker-illinois-lawmakers-about-bears-stadium-on-thursday",
-    "sourceName": "Pro Football Talk"
+    "headline": "Burrow seeks to stay unbeaten vs Lawrence as Bengals host Jaguars in matchup of 2-1 teams",
+    "summary": "Joe Burrow has gotten the better of Trevor Lawrence whenever their teams have met.",
+    "sourceUrl": "http://www.espn.com/nfl/preview?gameId=401872969",
+    "sourceName": "ESPN"
   },
   {
-    "id": "50079317",
-    "publishedAt": "2026-10-01T21:04:43Z",
+    "id": "50079891",
+    "publishedAt": "2026-10-01T22:51:31Z",
     "type": "Analysis",
-    "headline": "Arrowhead West no more? Raiders’ fast start could mean Chiefs feel less at home at Allegiant",
-    "summary": "— Allegiant Stadium has been called Arrowhead West almost since it opened in 2020.",
-    "sourceUrl": "http://www.espn.com/nfl/preview?gameId=401872976",
+    "headline": "Henry is on Baltimore's side now as the Ravens host the Titans in a series where road teams flourish",
+    "summary": "— The last two times the Tennessee Titans played at Baltimore were in 2020. Derrick Henry was on their side then, and boy was he decisive.",
+    "sourceUrl": "http://www.espn.com/nfl/preview?gameId=401872973",
     "sourceName": "ESPN"
   }
 ]
