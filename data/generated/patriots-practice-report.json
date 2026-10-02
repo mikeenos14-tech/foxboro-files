@@ -1,76 +1,86 @@
 {
   "week": 4,
-  "asOf": "2026-10-01T20:46:17.747Z",
+  "asOf": "2026-10-02T19:09:41.406Z",
   "players": [
     {
       "team": "NE",
       "playerName": "Christian Barmore",
       "position": "DT",
       "injury": "Shoulder",
-      "practiceStatus": "Did Not Participate"
-    },
-    {
-      "team": "NE",
-      "playerName": "Reggie Gilliam",
-      "position": "FB",
-      "injury": "Knee",
-      "practiceStatus": "Did Not Participate"
+      "practiceStatus": "Did Not Participate",
+      "gameStatus": "Out"
     },
     {
       "team": "NE",
       "playerName": "Christian Gonzalez",
       "position": "CB",
       "injury": "Shoulder",
-      "practiceStatus": "Did Not Participate"
-    },
-    {
-      "team": "NE",
-      "playerName": "Morgan Moses",
-      "position": "T",
-      "injury": "Foot",
-      "practiceStatus": "Did Not Participate"
-    },
-    {
-      "team": "NE",
-      "playerName": "Channing Canada",
-      "position": "CB",
-      "injury": "Hamstring",
-      "practiceStatus": "Limited"
-    },
-    {
-      "team": "NE",
-      "playerName": "Christian Elliss",
-      "position": "LB",
-      "injury": "Chest",
-      "practiceStatus": "Limited"
-    },
-    {
-      "team": "NE",
-      "playerName": "Dre’Mont Jones",
-      "position": "LB",
-      "injury": "Shoulder",
-      "practiceStatus": "Limited"
-    },
-    {
-      "team": "NE",
-      "playerName": "Eli Raridon",
-      "position": "TE",
-      "injury": "Thigh",
-      "practiceStatus": "Limited"
+      "practiceStatus": "Did Not Participate",
+      "gameStatus": "Out"
     },
     {
       "team": "NE",
       "playerName": "Brenden Schooler",
       "position": "S",
       "injury": "Back*",
-      "practiceStatus": "Limited"
+      "practiceStatus": "Limited",
+      "gameStatus": "Out"
+    },
+    {
+      "team": "NE",
+      "playerName": "Channing Canada",
+      "position": "CB",
+      "injury": "Hamstring",
+      "practiceStatus": "Limited",
+      "gameStatus": "Questionable"
+    },
+    {
+      "team": "NE",
+      "playerName": "Christian Elliss",
+      "position": "LB",
+      "injury": "Chest",
+      "practiceStatus": "Limited",
+      "gameStatus": "Questionable"
+    },
+    {
+      "team": "NE",
+      "playerName": "Reggie Gilliam",
+      "position": "FB",
+      "injury": "Knee",
+      "practiceStatus": "Limited",
+      "gameStatus": "Questionable"
+    },
+    {
+      "team": "NE",
+      "playerName": "Dre’Mont Jones",
+      "position": "LB",
+      "injury": "Shoulder",
+      "practiceStatus": "Limited",
+      "gameStatus": "Questionable"
+    },
+    {
+      "team": "NE",
+      "playerName": "Morgan Moses",
+      "position": "T",
+      "injury": "Foot",
+      "practiceStatus": "Limited",
+      "gameStatus": "Questionable"
+    },
+    {
+      "team": "NE",
+      "playerName": "Eli Raridon",
+      "position": "TE",
+      "injury": "Thigh",
+      "practiceStatus": "Limited",
+      "gameStatus": "Questionable"
     },
     {
       "team": "NE",
       "playerName": "Craig Woodson",
       "position": "S",
       "injury": "Shoulder",
-      "practiceStatus": "Limited"
+      "practiceStatus": "Limited",
+      "gameStatus": "Questionable"
     },
     {
       "team": "NE",
@@ -81,24 +91,48 @@
     },
     {
       "team": "BUF",
-      "playerName": "Christian Benford",
-      "position": "CB",
-      "injury": "Toe",
-      "practiceStatus": "Did Not Participate"
+      "playerName": "T.J. Sanders",
+      "position": "DL",
+      "injury": "Illness",
+      "practiceStatus": "Limited",
+      "gameStatus": "Doubtful"
     },
     {
       "team": "BUF",
-      "playerName": "Sam Franklin",
-      "position": "DB",
-      "injury": "Personal",
-      "practiceStatus": "Did Not Participate"
+      "playerName": "Christian Benford",
+      "position": "CB",
+      "injury": "Toe",
+      "practiceStatus": "Did Not Participate",
+      "gameStatus": "Questionable"
+    },
+    {
+      "team": "BUF",
+      "playerName": "Ray Davis",
+      "position": "RB",
+      "injury": "Hamstring",
+      "practiceStatus": "Limited",
+      "gameStatus": "Questionable"
     },
     {
       "team": "BUF",
       "playerName": "Joe Andreessen",
       "position": "ILB",
       "injury": "Knee",
-      "practiceStatus": "Limited"
+      "practiceStatus": "Full"
+    },
+    {
+      "team": "BUF",
+      "playerName": "Terrel Bernard",
+      "position": "ILB",
+      "injury": "Knee",
+      "practiceStatus": "Did Not Participate"
+    },
+    {
+      "team": "BUF",
+      "playerName": "Bradley Chubb",
+      "position": "OLB",
+      "injury": "Thumb",
+      "practiceStatus": "Full"
     },
     {
       "team": "BUF",
@@ -106,6 +140,12 @@
       "position": "WR",
       "injury": "Ankle",
       "practiceStatus": "Limited"
+    },
+    {
+      "team": "BUF",
+      "playerName": "Sam Franklin",
+      "position": "DB",
+      "injury": "Personal"
     },
     {
       "team": "BUF",
@@ -120,34 +160,6 @@
       "position": "WR",
       "injury": "Shoulder",
       "practiceStatus": "Limited"
-    },
-    {
-      "team": "BUF",
-      "playerName": "T.J. Sanders",
-      "position": "DL",
-      "injury": "Illness",
-      "practiceStatus": "Limited"
-    },
-    {
-      "team": "BUF",
-      "playerName": "Terrel Bernard",
-      "position": "ILB",
-      "injury": "Knee",
-      "practiceStatus": "Full"
-    },
-    {
-      "team": "BUF",
-      "playerName": "Bradley Chubb",
-      "position": "OLB",
-      "injury": "Thumb",
-      "practiceStatus": "Full"
-    },
-    {
-      "team": "BUF",
-      "playerName": "Ray Davis",
-      "position": "RB",
-      "injury": "Hamstring",
-      "practiceStatus": "Full"
     },
     {
       "team": "BUF",

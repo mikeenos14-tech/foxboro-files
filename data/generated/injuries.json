@@ -5,9 +5,9 @@
     "position": "T",
     "week": 4,
     "injury": "Foot",
-    "practiceStatus": "Did Not Participate",
-    "gameStatus": null,
-    "lastUpdated": "2026-10-01T20:46:17.747Z"
+    "practiceStatus": "Limited",
+    "gameStatus": "Questionable",
+    "lastUpdated": "2026-10-02T19:09:41.406Z"
   },
   {
     "playerId": "00-0035678",
@@ -16,8 +16,8 @@
     "week": 4,
     "injury": "Shoulder",
     "practiceStatus": "Limited",
-    "gameStatus": null,
-    "lastUpdated": "2026-10-01T20:46:17.747Z"
+    "gameStatus": "Questionable",
+    "lastUpdated": "2026-10-02T19:09:41.406Z"
   },
   {
     "playerId": "00-0036187",
@@ -25,9 +25,9 @@
     "position": "FB",
     "week": 4,
     "injury": "Knee",
-    "practiceStatus": "Did Not Participate",
-    "gameStatus": null,
-    "lastUpdated": "2026-10-01T20:46:17.747Z"
+    "practiceStatus": "Limited",
+    "gameStatus": "Questionable",
+    "lastUpdated": "2026-10-02T19:09:41.406Z"
   },
   {
     "playerId": "00-0036813",
@@ -36,8 +36,8 @@
     "week": 4,
     "injury": "Chest",
     "practiceStatus": "Limited",
-    "gameStatus": null,
-    "lastUpdated": "2026-10-01T20:46:17.747Z"
+    "gameStatus": "Questionable",
+    "lastUpdated": "2026-10-02T19:09:41.406Z"
   },
   {
     "playerId": "00-0036981",
@@ -46,8 +46,8 @@
     "week": 4,
     "injury": "Shoulder",
     "practiceStatus": "Did Not Participate",
-    "gameStatus": null,
-    "lastUpdated": "2026-10-01T20:46:17.747Z"
+    "gameStatus": "Out",
+    "lastUpdated": "2026-10-02T19:09:41.406Z"
   },
   {
     "playerId": "00-0037205",
@@ -56,8 +56,8 @@
     "week": 4,
     "injury": "Back",
     "practiceStatus": "Limited",
-    "gameStatus": null,
-    "lastUpdated": "2026-10-01T20:46:17.747Z"
+    "gameStatus": "Out",
+    "lastUpdated": "2026-10-02T19:09:41.406Z"
   },
   {
     "playerId": "00-0039147",
@@ -66,8 +66,8 @@
     "week": 4,
     "injury": "Shoulder",
     "practiceStatus": "Did Not Participate",
-    "gameStatus": null,
-    "lastUpdated": "2026-10-01T20:46:17.747Z"
+    "gameStatus": "Out",
+    "lastUpdated": "2026-10-02T19:09:41.406Z"
   },
   {
     "playerId": "00-0039851",
@@ -77,7 +77,7 @@
     "injury": "Shoulder",
     "practiceStatus": "Full",
     "gameStatus": null,
-    "lastUpdated": "2026-10-01T20:46:17.747Z"
+    "lastUpdated": "2026-10-02T19:09:41.406Z"
   },
   {
     "playerId": "00-0040716",
@@ -86,8 +86,8 @@
     "week": 4,
     "injury": "Shoulder",
     "practiceStatus": "Limited",
-    "gameStatus": null,
-    "lastUpdated": "2026-10-01T20:46:17.747Z"
+    "gameStatus": "Questionable",
+    "lastUpdated": "2026-10-02T19:09:41.406Z"
   },
   {
     "playerId": "00-0041316",
@@ -96,8 +96,8 @@
     "week": 4,
     "injury": "Hamstring",
     "practiceStatus": "Limited",
-    "gameStatus": null,
-    "lastUpdated": "2026-10-01T20:46:17.747Z"
+    "gameStatus": "Questionable",
+    "lastUpdated": "2026-10-02T19:09:41.406Z"
   },
   {
     "playerId": "00-0041395",
@@ -106,7 +106,7 @@
     "week": 4,
     "injury": "Thigh",
     "practiceStatus": "Limited",
-    "gameStatus": null,
-    "lastUpdated": "2026-10-01T20:46:17.747Z"
+    "gameStatus": "Questionable",
+    "lastUpdated": "2026-10-02T19:09:41.406Z"
   }
 ]

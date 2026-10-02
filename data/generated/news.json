@@ -1,5 +1,23 @@
 [
   {
+    "id": "91134ac6-c201-4313-bebe-a23e566275a1",
+    "publishedAt": "2026-10-02T20:00:00.000Z",
+    "type": "Injury",
+    "headline": "Week 4 Injury Report: Patriots at Bills",
+    "summary": "The New England Patriots and the Buffalo Bills announce the following player injuries and practice participation ahead of their Week 4 game.",
+    "sourceUrl": "https://www.patriots.com/news/week-4-injury-report-patriots-at-bills2",
+    "sourceName": "Patriots.com"
+  },
+  {
+    "id": "84440ea5-413c-40c1-a539-e967de1c703e",
+    "publishedAt": "2026-10-02T19:06:49.000Z",
+    "type": "Injury",
+    "headline": "Injury Report Analysis: Patriots rule out Christian Gonzalez and Christian Barmore for Sunday's Week 4 matchup vs. Bills",
+    "summary": "Barmore and Gonzalez will miss Sunday's game in Buffalo due to shoulder injuries.",
+    "sourceUrl": "https://www.patriots.com/news/injury-report-analysis-patriots-rule-out-christian-gonzalez-and-christian-barmore-for-sunday-s-week-4-matchup-vs-bills",
+    "sourceName": "Patriots.com"
+  },
+  {
     "id": "ae6c5cfd-7658-4c47-bc66-32d24e7544fa",
     "publishedAt": "2026-10-02T15:14:00.000Z",
     "type": "Analysis",
@@ -27,15 +45,6 @@
     "sourceName": "Patriots.com"
   },
   {
-    "id": "f846f81a-c81e-4e10-b2ed-0a4e7be33127",
-    "publishedAt": "2026-10-02T10:00:00.000Z",
-    "type": "Analysis",
-    "headline": "How to Watch and Stream Sunday's Patriots Game Against the Bills | NFL Week 4",
-    "summary": "Complete broadcast information for this week's game between the New England Patriots and the Buffalo Bills on Sunday, October 4, 2026 at 1 PM ET.",
-    "sourceUrl": "https://www.patriots.com/news/how-to-watch-and-stream-sunday-s-patriots-game-against-the-bills-nfl-week-4",
-    "sourceName": "Patriots.com"
-  },
-  {
     "id": "50079980",
     "publishedAt": "2026-10-01T23:14:06Z",
     "type": "Analysis",
@@ -43,15 +52,6 @@
     "summary": "Mike Reiss details Mike Pryor's move to the Patriots offense.",
     "sourceUrl": "https://www.espn.com/video/clip/_/id/50079980/matt-pryor-gets-set-join-patriots",
     "sourceName": "ESPN"
-  },
-  {
-    "id": "91134ac6-c201-4313-bebe-a23e566275a1",
-    "publishedAt": "2026-10-01T20:46:00.000Z",
-    "type": "Injury",
-    "headline": "Week 4 Injury Report: Patriots at Bills",
-    "summary": "The New England Patriots and the Buffalo Bills announce the following player injuries and practice participation ahead of their Week 4 game.",
-    "sourceUrl": "https://www.patriots.com/news/week-4-injury-report-patriots-at-bills2",
-    "sourceName": "Patriots.com"
   },
   {
     "id": "50078211",
