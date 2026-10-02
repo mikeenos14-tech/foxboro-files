@@ -76,15 +76,15 @@
     "division": "AFC North",
     "standings": [
       {
-        "team": "PIT",
-        "wins": 2,
+        "team": "CLE",
+        "wins": 3,
         "losses": 1,
         "ties": 0,
-        "pointDifferential": -7,
+        "pointDifferential": -14,
         "isUs": false,
         "streak": {
           "result": "W",
-          "count": 1
+          "count": 3
         },
         "divisionRecord": {
           "wins": 1,
@@ -110,23 +110,6 @@
         }
       },
       {
-        "team": "CLE",
-        "wins": 2,
-        "losses": 1,
-        "ties": 0,
-        "pointDifferential": -17,
-        "isUs": false,
-        "streak": {
-          "result": "W",
-          "count": 2
-        },
-        "divisionRecord": {
-          "wins": 0,
-          "losses": 0,
-          "ties": 0
-        }
-      },
-      {
         "team": "CIN",
         "wins": 2,
         "losses": 1,
@@ -139,6 +122,23 @@
         },
         "divisionRecord": {
           "wins": 0,
+          "losses": 1,
+          "ties": 0
+        }
+      },
+      {
+        "team": "PIT",
+        "wins": 2,
+        "losses": 2,
+        "ties": 0,
+        "pointDifferential": -10,
+        "isUs": false,
+        "streak": {
+          "result": "L",
+          "count": 1
+        },
+        "divisionRecord": {
+          "wins": 1,
           "losses": 1,
           "ties": 0
         }

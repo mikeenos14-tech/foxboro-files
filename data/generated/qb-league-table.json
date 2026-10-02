@@ -154,7 +154,7 @@
       },
       "aggressiveness": {
         "value": 13.1578947368421,
-        "rank": 26,
+        "rank": 27,
         "of": 37
       }
     }
@@ -196,29 +196,29 @@
     "playerName": "Deshaun Watson",
     "headshotUrl": "https://static.www.nfl.com/image/private/f_auto,q_auto/league/otfs2docj6eahaebo5xn",
     "team": "CLE",
-    "completions": 56,
-    "attempts": 82,
-    "yards": 587,
-    "tds": 5,
-    "ints": 1,
-    "cpoe": 0.2917244110578357,
+    "completions": 80,
+    "attempts": 115,
+    "yards": 855,
+    "tds": 6,
+    "ints": 2,
+    "cpoe": 1.299023654377248,
     "accuracyByDepth": {
-      "short": 0.7441860465116279,
-      "medium": 0.5,
+      "short": 0.7796610169491526,
+      "medium": 0.4444444444444444,
       "deep": 0.4
     },
-    "pressureEpa": -1.3575141358489504,
-    "cleanPocketEpa": 0.3955331154932033,
+    "pressureEpa": -1.2397220882315494,
+    "cleanPocketEpa": 0.40793713235831974,
     "turnoverWorthyPlayRate": 0.03260869565217391,
     "ngs": {
       "timeToThrow": {
-        "value": 2.90931707317073,
-        "rank": 16,
+        "value": 2.79401739130435,
+        "rank": 24,
         "of": 37
       },
       "aggressiveness": {
-        "value": 12.1951219512195,
-        "rank": 30,
+        "value": 13.9130434782609,
+        "rank": 24,
         "of": 37
       }
     }
@@ -228,29 +228,29 @@
     "playerName": "Aaron Rodgers",
     "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/dypvakakxhccxs67tb0y",
     "team": "PIT",
-    "completions": 66,
-    "attempts": 113,
-    "yards": 700,
-    "tds": 4,
-    "ints": 2,
-    "cpoe": -2.435817669790534,
+    "completions": 88,
+    "attempts": 153,
+    "yards": 999,
+    "tds": 7,
+    "ints": 4,
+    "cpoe": -3.516434852059911,
     "accuracyByDepth": {
-      "short": 0.7450980392156863,
-      "medium": 0.47619047619047616,
-      "deep": 0.1
+      "short": 0.7014925373134329,
+      "medium": 0.42857142857142855,
+      "deep": 0.20689655172413793
     },
-    "pressureEpa": -0.99610261756819,
-    "cleanPocketEpa": -0.0499728182071218,
+    "pressureEpa": -0.924873335680385,
+    "cleanPocketEpa": 0.03795759076643523,
     "turnoverWorthyPlayRate": 0.008264462809917356,
     "ngs": {
       "timeToThrow": {
-        "value": 2.89160714285714,
-        "rank": 17,
+        "value": 2.87048684210526,
+        "rank": 16,
         "of": 37
       },
       "aggressiveness": {
-        "value": 14.1592920353982,
-        "rank": 21,
+        "value": 17.6470588235294,
+        "rank": 8,
         "of": 37
       }
     }
@@ -309,12 +309,12 @@
     "ngs": {
       "timeToThrow": {
         "value": 2.7965,
-        "rank": 24,
+        "rank": 23,
         "of": 37
       },
       "aggressiveness": {
         "value": 17.3469387755102,
-        "rank": 8,
+        "rank": 9,
         "of": 37
       }
     }
@@ -341,12 +341,12 @@
     "ngs": {
       "timeToThrow": {
         "value": 2.822075,
-        "rank": 21,
+        "rank": 20,
         "of": 37
       },
       "aggressiveness": {
         "value": 13.5802469135802,
-        "rank": 25,
+        "rank": 26,
         "of": 37
       }
     }
@@ -373,7 +373,7 @@
     "ngs": {
       "timeToThrow": {
         "value": 2.86515909090909,
-        "rank": 18,
+        "rank": 17,
         "of": 37
       },
       "aggressiveness": {
@@ -469,7 +469,7 @@
     "ngs": {
       "timeToThrow": {
         "value": 2.80875,
-        "rank": 22,
+        "rank": 21,
         "of": 37
       },
       "aggressiveness": {
@@ -501,12 +501,12 @@
     "ngs": {
       "timeToThrow": {
         "value": 2.84096590909091,
-        "rank": 19,
+        "rank": 18,
         "of": 37
       },
       "aggressiveness": {
         "value": 13.6363636363636,
-        "rank": 24,
+        "rank": 25,
         "of": 37
       }
     }
@@ -634,7 +634,7 @@
       },
       "aggressiveness": {
         "value": 15.6862745098039,
-        "rank": 12,
+        "rank": 13,
         "of": 37
       }
     }
@@ -666,7 +666,7 @@
       },
       "aggressiveness": {
         "value": 14.5454545454545,
-        "rank": 17,
+        "rank": 18,
         "of": 37
       }
     }
@@ -693,7 +693,7 @@
     "ngs": {
       "timeToThrow": {
         "value": 2.8246880733945,
-        "rank": 20,
+        "rank": 19,
         "of": 37
       },
       "aggressiveness": {
@@ -730,7 +730,7 @@
       },
       "aggressiveness": {
         "value": 15.3225806451613,
-        "rank": 13,
+        "rank": 14,
         "of": 37
       }
     }
@@ -762,7 +762,7 @@
       },
       "aggressiveness": {
         "value": 12.8205128205128,
-        "rank": 27,
+        "rank": 28,
         "of": 37
       }
     }
@@ -826,7 +826,7 @@
       },
       "aggressiveness": {
         "value": 12.396694214876,
-        "rank": 29,
+        "rank": 30,
         "of": 37
       }
     }
@@ -858,7 +858,7 @@
       },
       "aggressiveness": {
         "value": 14.3939393939394,
-        "rank": 20,
+        "rank": 21,
         "of": 37
       }
     }
@@ -890,7 +890,7 @@
       },
       "aggressiveness": {
         "value": 12.5,
-        "rank": 28,
+        "rank": 29,
         "of": 37
       }
     }
@@ -922,7 +922,7 @@
       },
       "aggressiveness": {
         "value": 14.5299145299145,
-        "rank": 18,
+        "rank": 19,
         "of": 37
       }
     }
@@ -954,7 +954,7 @@
       },
       "aggressiveness": {
         "value": 16.2162162162162,
-        "rank": 11,
+        "rank": 12,
         "of": 37
       }
     }
@@ -986,7 +986,7 @@
       },
       "aggressiveness": {
         "value": 14.4578313253012,
-        "rank": 19,
+        "rank": 20,
         "of": 37
       }
     }
@@ -1018,7 +1018,7 @@
       },
       "aggressiveness": {
         "value": 16.6666666666667,
-        "rank": 10,
+        "rank": 11,
         "of": 37
       }
     }
