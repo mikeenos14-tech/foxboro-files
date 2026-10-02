@@ -1,21 +1,21 @@
 [
   {
-    "id": "50082906",
-    "publishedAt": "2026-10-02T07:57:32Z",
-    "type": "Analysis",
-    "headline": "Watson leads third straight winning drive, puts Browns atop North",
-    "summary": "Deshaun Watson has the Browns atop the division at 3-1 after directing a winning drive for the third straight game Thursday night in a 27-24 win over the Steelers.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50082906/watson-leads-third-straight-winning-drive-puts-browns-atop-north",
-    "sourceName": "ESPN"
-  },
-  {
     "id": "50079473",
-    "publishedAt": "2026-10-02T06:16:14Z",
+    "publishedAt": "2026-10-02T11:49:24Z",
     "type": "Analysis",
     "headline": "Browns best Steelers on TNF to take lead in AFC North",
     "summary": "The Browns move to 3-1 while adding to Pittsburgh's historic five-year futility in Cleveland.",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/50079473/cleveland-browns-pittsburgh-steelers-week-4-tnf",
     "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/mason-graham-left-thursdays-game-on-crutches-and-wearing-a-knee-brace",
+    "publishedAt": "2026-10-02T11:59:27.000Z",
+    "type": "Injury",
+    "headline": "Mason Graham left Thursday's game on crutches and wearing a knee brace",
+    "summary": "One of the only negative developments for the Browns on Thursday night was the left knee injury that knocked defensive tackle Mason Graham out of the game.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/mason-graham-left-thursdays-game-on-crutches-and-wearing-a-knee-brace",
+    "sourceName": "Pro Football Talk"
   },
   {
     "id": "50082783",
@@ -27,30 +27,30 @@
     "sourceName": "ESPN"
   },
   {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=421427",
-    "publishedAt": "2026-10-02T04:13:24.000Z",
+    "id": "50077145",
+    "publishedAt": "2026-10-02T10:31:28Z",
     "type": "Transaction",
-    "headline": "Cowboys Trade Opens Door To Modern Contract Structure, But Hurdles Exist For Joey Porter Jr.",
-    "summary": "Although Joey Porter Jr. has not proven himself to be on Jalen Ramsey’s level — prime years, at least — a transaction eerily similar to the Jaguars-Rams’ 2019 trade unfolded late Wednesday night. The position, injury report listings and career junctures match up. Nearly seven years after Ramsey forced his way out of Jacksonville with a […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/421427",
-    "sourceName": "Pro Football Rumors"
+    "headline": "2026 NFL trade deadline early look: Candidates to move, key teams, predictions",
+    "summary": "Could the Cardinals listen on Marvin Harrison Jr. or Josh Sweat? Will the Bears or Raiders be active? Here's our way-too-early preview of the Nov. 10 trade deadline.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50077145/2026-trade-deadline-early-look-players-teams-predictions",
+    "sourceName": "ESPN"
   },
   {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=421651",
-    "publishedAt": "2026-10-02T04:07:41.000Z",
-    "type": "Injury",
-    "headline": "Saints Place RB Travis Etienne On IR",
-    "summary": "The Saints are placing running back Travis Etienne on IR with a hamstring injury, per Katherine Terrell of ESPN. He will miss at least four games. The Saints signed receiver Kevin Austin from their practice squad to take Etienne’s roster spot, according to Mike Tripplett of NewOrleans.Football. Although Etienne was a limited participant in multiple […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/saints-place-rb-travis-etienne-on-ir",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "50079926",
-    "publishedAt": "2026-10-01T23:01:30Z",
+    "id": "50077206",
+    "publishedAt": "2026-10-02T10:00:21Z",
     "type": "Analysis",
-    "headline": "Brian Flores and his dominant Vikings defense take on the winless Dolphins, the team he once coached",
-    "summary": "— Brian Flores has become one of the most impactful and prominent assistant coaches in the ",
-    "sourceUrl": "http://www.espn.com/nfl/preview?gameId=401872974",
+    "headline": "Greg Rousseau's sacks, Josh Allen's rushing TDs are on record paces",
+    "summary": "With multiple sacks and rushing TDs, Rousseau and Allen are on cusp of streaks no one else has done.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50077206/greg-rousseau-josh-allen-record-pace",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50081470",
+    "publishedAt": "2026-10-02T02:30:33Z",
+    "type": "Analysis",
+    "headline": "Falcons and Saints renew their longstanding rivalry as each seek early season momentum",
+    "summary": "— Long-time Saints defensive end Cameron Jordan can be counted on to echo the sentiments of many New Orleans fans whenever the rival Atlanta Falcons are next on the schedule.",
+    "sourceUrl": "http://www.espn.com/nfl/preview?gameId=401872979",
     "sourceName": "ESPN"
   }
 ]
