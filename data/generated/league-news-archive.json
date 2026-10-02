@@ -1,20 +1,335 @@
 [
   {
+    "id": "50085542",
+    "publishedAt": "2026-10-02T18:03:28Z",
+    "type": "Injury",
+    "headline": "Panthers in wait-and-see mode with leading receiver Coker (quad)",
+    "summary": "The Carolina Panthers are monitoring starting wide receiver Jalen Coker's quadriceps injury ahead of their Week 4 \"Sunday Night Football\" matchup with the Detroit Lions.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50085542/coker-questionable-quad-injury-panthers",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50085487",
+    "publishedAt": "2026-10-02T18:03:23Z",
+    "type": "Analysis",
+    "headline": "Bears coach Ben Johnson not ready to name QB starter",
+    "summary": "Bears coach Ben Johnson will not say whether Case Keenum or Tyson Bagent will start Sunday against the Jets.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50085487/bears-coach-ben-johnson-not-ready-name-qb-starter",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=421713",
+    "publishedAt": "2026-10-02T18:01:16.000Z",
+    "type": "Injury",
+    "headline": "Browns DT Mason Graham Facing Short-Term Absence",
+    "summary": "The Browns improved to 3-1 last night, but their defense was dealt a notable blow in the process. Mason Graham exited the game with a knee injury and did not return. The second-year defensive tackle was ruled out shortly after being injured. Following the game, Mary Kay Cabot of Cleveland.com noted Graham left the stadium on crutches […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/browns-dt-mason-graham-facing-short-term-absence",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "50085613",
+    "publishedAt": "2026-10-02T17:48:17Z",
+    "type": "Injury",
+    "headline": "Shoulder injuries sideline Gonzalez, Barmore as Pats ready for Bills",
+    "summary": "The New England Patriots will be without starting cornerback Christian Gonzalez and defensive tackle Christian Barmore due to a shoulder injury when they visit the Bills on Sunday.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50085613/patriots-defense-loses-gonzalez-barmore-high-octane-bills",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50084877",
+    "publishedAt": "2026-10-02T17:45:20Z",
+    "type": "Analysis",
+    "headline": "DraftKings DFS cheat sheet: Best values for Sunday's main slate",
+    "summary": "Build a winning DFS lineup with our DraftKings NFL Week 4 cheat sheet identifying the players you want to spend up for, the teams to stack, the value picks to grab and the players you need to avoid.",
+    "sourceUrl": "https://www.espn.com/fantasy/football/story/_/id/50084877/draftkings-nfl-dfs-values-week-4",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/trey-hendrickson-out-for-week-4-after-undergoing-procedure-for-broken-finger",
+    "publishedAt": "2026-10-02T17:44:53.000Z",
+    "type": "Analysis",
+    "headline": "Trey Hendrickson out for Week 4 after undergoing procedure for broken finger",
+    "summary": "The Ravens will be without Trey Hendrickson for this week's game against the Titans, but he should be back soon.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/trey-hendrickson-out-for-week-4-after-undergoing-procedure-for-broken-finger",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "50085321",
+    "publishedAt": "2026-10-02T17:38:32Z",
+    "type": "Analysis",
+    "headline": "Jaguars' Coen: Hunter cares only about winning, not 'other stuff'",
+    "summary": "How much Jaguars cornerback/receiver Travis Hunter is playing on defense and offense may be a subject of discussion among fans and analysts, but it definitely isn't inside the building.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50085321/jaguars-coen-hunter-only-cares-winning-not-other-stuff",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50085593",
+    "publishedAt": "2026-10-02T17:38:15Z",
+    "type": "Analysis",
+    "headline": "Liam Coen: Travis Hunter cares only about winning",
+    "summary": "Liam Coen: Travis Hunter cares only about winning",
+    "sourceUrl": "https://www.espn.com/video/clip/_/id/50085593/travis-hunter-cares-only-winning",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jalen-coker-is-questionable-for-the-panthers-xavier-legette-ruled-out",
+    "publishedAt": "2026-10-02T17:37:02.000Z",
+    "type": "Injury",
+    "headline": "Jalen Coker is questionable for the Panthers, Xavier Legette ruled out",
+    "summary": "Panthers wide receiver Jalen Coker was able to play in Week 3 after being listed as questionable and they'll be hoping for the same outcome on Sunday night.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jalen-coker-is-questionable-for-the-panthers-xavier-legette-ruled-out",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/ben-johnson-doesnt-announce-starting-qb-for-week-4-but-rules-out-caleb-williams",
+    "publishedAt": "2026-10-02T17:32:39.000Z",
+    "type": "Transaction",
+    "headline": "Ben Johnson doesn't announce starting QB for Week 4, but rules out Caleb Williams",
+    "summary": "While signs are pointing toward Tyson Bagent starting at quarterback for the Bears on Friday, head coach Ben Johnson did not confirm that would be the case during his Friday press conference.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/ben-johnson-doesnt-announce-starting-qb-for-week-4-but-rules-out-caleb-williams",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/christian-gonzalez-christian-barmore-ruled-out-for-patriots",
+    "publishedAt": "2026-10-02T17:25:51.000Z",
+    "type": "Injury",
+    "headline": "Christian Gonzalez, Christian Barmore ruled out for Patriots",
+    "summary": "The Patriots will be missing a couple of defensive starters in Buffalo on Sunday.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/christian-gonzalez-christian-barmore-ruled-out-for-patriots",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "50085386",
+    "publishedAt": "2026-10-02T17:24:03Z",
+    "type": "Injury",
+    "headline": "Browns DT Mason Graham set to miss a few weeks, sources say",
+    "summary": "Browns defensive tackle Mason Graham is expected to miss a few weeks after suffering an MCL sprain and ankle sprain against the Steelers, sources told NFL Network.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50085386/browns-dt-mason-graham-set-miss-weeks-sources-say",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50085069",
+    "publishedAt": "2026-10-02T17:21:39Z",
+    "type": "Injury",
+    "headline": "Jets rule out RB Hall, WR Mitchell, TE Taylor, LG Parham vs. Bears",
+    "summary": "Running back Breece Hall, wide receiver Adonai Mitchell, tight end Mason Taylor and left guard Dylan Parham were ruled out Friday for the Jets' road game against the Bears.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50085069/jets-rule-rb-hall-wr-mitchell-te-taylor-lg-parham-vs-bears",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/terry-mclaurin-added-to-injury-report-listed-as-questionable-for-sunday",
+    "publishedAt": "2026-10-02T17:10:52.000Z",
+    "type": "Injury",
+    "headline": "Terry McLaurin added to injury report, listed as questionable for Sunday",
+    "summary": "The Commanders made a late addition to their injury report for Sunday's game against the Colts in London.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/terry-mclaurin-added-to-injury-report-listed-as-questionable-for-sunday",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "50085245",
+    "publishedAt": "2026-10-02T16:57:47Z",
+    "type": "Analysis",
+    "headline": "Tony Romo, CBS Sports agree to part after ex-QB's OWI arrest",
+    "summary": "Tony Romo will not return as an NFL game analyst for CBS Sports, the network announced, after he was arrested in July on charges of operating a vehicle while intoxicated.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50085245/tony-romo-cbs-sports-agree-part-ex-qb-owi-arrest",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-mason-graham-to-miss-a-few-weeks-with-mcl-sprain-ankle-sprain",
+    "publishedAt": "2026-10-02T16:42:04.000Z",
+    "type": "Injury",
+    "headline": "Report: Mason Graham to miss \"a few weeks\" with MCL sprain, ankle sprain",
+    "summary": "There is some relatively positive news on Browns defensive tackle Mason Graham.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-mason-graham-to-miss-a-few-weeks-with-mcl-sprain-ankle-sprain",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=421708",
+    "publishedAt": "2026-10-02T16:40:04.000Z",
+    "type": "Transaction",
+    "headline": "Titans RB Tony Pollard Could Again Become Trade Candidate",
+    "summary": "Leading up to last year’s trade deadline, Tony Pollard was among the members of the Titans who drew interest. The veteran running back is once again seen as a candidate for an in-season move. Pollard is a potential trade candidate for 2026, ESPN’s Dan Graziano writes. That will of course especially be the case if Tennessee is […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/titans-rb-tony-pollard-could-again-become-trade-candidate",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "50085359",
+    "publishedAt": "2026-10-02T16:35:26Z",
+    "type": "Analysis",
+    "headline": "Daniel Dopp's Week 4 DraftKings tournament lineup",
+    "summary": "Daniel Dopp's Week 4 DraftKings tournament lineup",
+    "sourceUrl": "https://www.espn.com/video/clip/_/id/50085359/daniel-dopp-week-4-draftkings-tournament-lineup",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/tony-romo-cbs-part-ways",
+    "publishedAt": "2026-10-02T16:24:04.000Z",
+    "type": "Transaction",
+    "headline": "Tony Romo, CBS part ways",
+    "summary": "Signs point to a negotiated settlement of his contract.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/tony-romo-cbs-part-ways",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/rams-waive-returner-xavier-smith",
+    "publishedAt": "2026-10-02T16:22:10.000Z",
+    "type": "Transaction",
+    "headline": "Rams waive returner Xavier Smith",
+    "summary": "Earlier this week, Rams special teams coordinator Bubba Ventrone told reporters that the team was not considering making a change at punt returner.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/rams-waive-returner-xavier-smith",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/christian-parker-expresses-regret-at-play-call-at-end-of-loss-to-ravens",
+    "publishedAt": "2026-10-02T16:10:21.000Z",
+    "type": "Analysis",
+    "headline": "Christian Parker expresses regret at play call at end of loss to Ravens",
+    "summary": "Christian Parker is a first-time defensive coordinator who was charged with fixing a unit that allowed the most points in the NFL last season.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/christian-parker-expresses-regret-at-play-call-at-end-of-loss-to-ravens",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dan-campbell-we-were-very-much-in-on-joey-porter-jr",
+    "publishedAt": "2026-10-02T16:08:07.000Z",
+    "type": "Transaction",
+    "headline": "Dan Campbell: We were \"very much in on\" Joey Porter Jr.",
+    "summary": "Prior to Wednesday's trade sending cornerback Joey Porter Jr. from the Steelers to the Cowboys, there were reports of interest in Porter from other teams as well.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dan-campbell-we-were-very-much-in-on-joey-porter-jr",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-dt-warren-brinson-to-miss-significant-time-with-groin-injury",
+    "publishedAt": "2026-10-02T15:58:29.000Z",
+    "type": "Injury",
+    "headline": "Packers DT Warren Brinson to miss \"significant time\" with groin injury",
+    "summary": "Packers defensive tackle Warren Brinson missed the first three games of the season with a calf injury and he's set to miss a lot more action with a new ailment.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-dt-warren-brinson-to-miss-significant-time-with-groin-injury",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/travis-kelce-set-to-surpass-tim-brown-move-into-no-7-on-nfls-all-time-receptions-list",
+    "publishedAt": "2026-10-02T15:43:43.000Z",
+    "type": "Analysis",
+    "headline": "Travis Kelce set to surpass Tim Brown, move into No. 7 on NFL's all-time receptions list",
+    "summary": "Chiefs tight end Travis Kelce's next catch will be a significant one for his place in NFL history.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/travis-kelce-set-to-surpass-tim-brown-move-into-no-7-on-nfls-all-time-receptions-list",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=421503",
+    "publishedAt": "2026-10-02T15:40:12.000Z",
+    "type": "Transaction",
+    "headline": "Jaguars WR Brian Thomas Jr. Remains On Trade Radar",
+    "summary": "OCTOBER 2: The Jaguars have continued to express confidence in Thomas remaining an important figure on offense. Nevertheless, Graziano’s trade deadline preview includes a prediction that efforts to work out a swap in this case will be made. Several WR-needy teams can already be found around the league, and further injuries could lead to a strong […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/jaguars-wr-brian-thomas-jr-remains-on-trade-radar",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "50084902",
+    "publishedAt": "2026-10-02T15:39:21Z",
+    "type": "Analysis",
+    "headline": "Mike Clay: David Montgomery is 'touchdown or bust'",
+    "summary": "Mike Clay: David Montgomery is 'touchdown or bust'",
+    "sourceUrl": "https://www.espn.com/video/clip/_/id/50084902/david-montgomery-touchdown-bust",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50084923",
+    "publishedAt": "2026-10-02T15:31:00Z",
+    "type": "Analysis",
+    "headline": "Dopp: Saquon Barkley has turned into a mid to low-end running back",
+    "summary": "Dopp: Saquon Barkley has turned into a mid to low-end running back",
+    "sourceUrl": "https://www.espn.com/video/clip/_/id/50084923/saquon-barkley-turned-mid-low-end-running-back",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/todd-monken-on-mason-graham-hopefully-we-get-good-news",
+    "publishedAt": "2026-10-02T15:28:33.000Z",
+    "type": "Injury",
+    "headline": "Todd Monken on Mason Graham: Hopefully we get good news",
+    "summary": "Browns defensive tackle Mason Graham had to exit Thursday’s victory over the Steelers with a knee injury.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/todd-monken-on-mason-graham-hopefully-we-get-good-news",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/nflpa-names-mack-hollins-their-community-mvp-for-week-4",
+    "publishedAt": "2026-10-02T15:27:35.000Z",
+    "type": "Analysis",
+    "headline": "NFLPA names Mack Hollins their Community MVP for Week 4",
+    "summary": "The NFL Players Association announced on Friday that Patriots wide receiver Mack Hollins has been named their Community MVP for Week 4 of the 2026 season.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/nflpa-names-mack-hollins-their-community-mvp-for-week-4",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/browns-and-steelers-mismanaged-the-final-seconds-of-the-game",
+    "publishedAt": "2026-10-02T15:24:23.000Z",
+    "type": "Analysis",
+    "headline": "Browns and Steelers mismanaged the final seconds of the game",
+    "summary": "On Sunday, the Ravens and the Cowboys provided stark examples on how to handle, and how not to handle, the final seconds of a close game in light of the current kickoff rules.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/browns-and-steelers-mismanaged-the-final-seconds-of-the-game",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "50084977",
+    "publishedAt": "2026-10-02T15:22:19Z",
+    "type": "Analysis",
+    "headline": "Mike Clay lays out the red flags with Omarion Hampton",
+    "summary": "Mike Clay lays out the red flags with Omarion Hampton",
+    "sourceUrl": "https://www.espn.com/video/clip/_/id/50084977/mike-clay-lays-red-flags-omarion-hampton",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50084937",
+    "publishedAt": "2026-10-02T15:20:28Z",
+    "type": "Analysis",
+    "headline": "Stephen A. adamant Eagles' offense a bigger problem than their defense",
+    "summary": "Stephen A. adamant Eagles' offense a bigger problem than their defense",
+    "sourceUrl": "https://www.espn.com/video/clip/_/id/50084937/stephen-adamant-eagles-offense-bigger-problem-their-defense",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50085057",
+    "publishedAt": "2026-10-02T15:19:56Z",
+    "type": "Analysis",
+    "headline": "Have Cowboys proven they are better off without Micah Parsons? Stephen A. weighs in",
+    "summary": "Have Cowboys proven they are better off without Micah Parsons? Stephen A. weighs in",
+    "sourceUrl": "https://www.espn.com/video/clip/_/id/50085057/have-cowboys-proven-better-micah-parsons-stephen-weighs-in",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50085025",
+    "publishedAt": "2026-10-02T15:14:57Z",
+    "type": "Analysis",
+    "headline": "Former Falcons C, 6-time Pro Bowler Jeff Van Note dies at 80",
+    "summary": "Jeff Van Note, a six-time Pro Bowl center who spent all 18 seasons of his NFL career with the Falcons and was inducted into the team's Ring of Honor in 2006, has died. He was 80.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50085025/former-falcons-c-6-pro-bowler-jeff-van-note-dies-80",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/t-j-watt-steelers-made-it-too-easy-for-browns-to-go-downfield-at-the-end-of-the-game",
+    "publishedAt": "2026-10-02T15:09:21.000Z",
+    "type": "Analysis",
+    "headline": "T.J. Watt: Steelers made it too easy for Browns to go downfield at the end of the game",
+    "summary": "Steelers linebacker T.J.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/t-j-watt-steelers-made-it-too-easy-for-browns-to-go-downfield-at-the-end-of-the-game",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/breece-hall-adonai-mitchell-among-jets-ruled-out-for-week-4-vs-bears",
+    "publishedAt": "2026-10-02T15:09:21.000Z",
+    "type": "Injury",
+    "headline": "Breece Hall, Adonai Mitchell among Jets ruled out for Week 4 vs. Bears",
+    "summary": "The Jets will be shorthanded when they play the Bears on Sunday.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/breece-hall-adonai-mitchell-among-jets-ruled-out-for-week-4-vs-bears",
+    "sourceName": "Pro Football Talk"
+  },
+  {
     "id": "50053878",
     "publishedAt": "2026-10-02T15:00:27Z",
     "type": "Analysis",
     "headline": "NFL Week 4 betting guide: Analysis and top plays for Sunday's games",
     "summary": "Our experts dive into the odds and player props for Week 4 and offer their betting tips and favorite plays.",
     "sourceUrl": "https://www.espn.com/espn/betting/story/_/id/50053878/week-4-nfl-odds-spreads-lines-props-best-bets-sunday-football-games",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50084937",
-    "publishedAt": "2026-10-02T14:57:56Z",
-    "type": "Analysis",
-    "headline": "Stephen A. adamant Eagles' offense a bigger problem than their defense",
-    "summary": "Stephen A. adamant Eagles' offense a bigger problem than their defense",
-    "sourceUrl": "https://www.espn.com/video/clip/_/id/50084937/stephen-adamant-eagles-offense-bigger-problem-their-defense",
     "sourceName": "ESPN"
   },
   {
@@ -33,15 +348,6 @@
     "headline": "Commanders QB Jayden Daniels (elbow) ruled out vs. Colts",
     "summary": "Commanders QB Jayden Daniels was ruled out of Sunday's game vs. the Colts, causing him to miss a second consecutive game because of a dislocated left elbow.",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/50084552/commanders-qb-jayden-daniels-elbow-ruled-vs-colts",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50084877",
-    "publishedAt": "2026-10-02T14:40:40Z",
-    "type": "Analysis",
-    "headline": "DraftKings DFS cheat sheet: Best values for Sunday's main slate",
-    "summary": "Build a winning DFS lineup with our DraftKings NFL Week 4 cheat sheet identifying the players you want to spend up for, the teams to stack, the value picks to grab and the players you need to avoid.",
-    "sourceUrl": "https://www.espn.com/fantasy/football/story/_/id/50084877/draftkings-nfl-dfs-values-week-4",
     "sourceName": "ESPN"
   },
   {
@@ -1599,15 +1905,6 @@
     "headline": "James Cook To Push For Raise In 2027?",
     "summary": "The Bills and running back James Cook engaged in a summer contract standoff in 2025, the last year of his rookie deal. The stalemate ended with a four-year, $46MM agreement, though it might not prevent Cook from pushing for another raise in the near future. Cook’s stock has continued to rise since he signed his […]",
     "sourceUrl": "https://www.profootballrumors.com/2026/09/james-cook-to-push-for-raise-in-2027",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=421503",
-    "publishedAt": "2026-10-01T04:03:12.000Z",
-    "type": "Transaction",
-    "headline": "Jaguars WR Brian Thomas Jr. Remains On Trade Radar",
-    "summary": "Brian Thomas Jr. was targeted nine times in the Jaguars’ Week 2 loss to the Broncos, but the slumping wide receiver has drawn just four combined looks from Trevor Lawrence in the team’s two other games this season. Thomas’ place in Jacksonville’s offense simply does not rival where it was during his impact rookie season. The […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/09/jaguars-wr-brian-thomas-jr-remains-on-trade-radar",
     "sourceName": "Pro Football Rumors"
   },
   {
@@ -15324,222 +15621,6 @@
     "headline": "Chris Olave, Chase Young questionable to face Ravens",
     "summary": "Wide receiver Chris Olave and defensive end Chase Young practiced for the Saints on Friday, but the team isn't ready to guarantee they'll be in the lineup against the Ravens on Sunday.",
     "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/chris-olave-chase-young-questionable-to-face-ravens",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "49974012",
-    "publishedAt": "2026-09-18T17:57:49Z",
-    "type": "Analysis",
-    "headline": "With Penix not ready, Rush getting second start for Falcons",
-    "summary": "The Falcons will start quarterback Cooper Rush for the second straight week, coach Kevin Stefanski said Friday.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49974012/qb-cooper-rush-getting-second-start-falcons-sources-say",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "49974205",
-    "publishedAt": "2026-09-18T17:52:28Z",
-    "type": "Analysis",
-    "headline": "Stefanski confirms Cooper Rush to start vs. Panthers",
-    "summary": "Stefanski confirms Cooper Rush to start vs. Panthers",
-    "sourceUrl": "https://www.espn.com/video/clip/_/id/49974205/stefanski-confirms-cooper-rush-start-vs-panthers",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/michael-penix-jr-officially-out-tua-tagovailoa-doubtful-for-week-2",
-    "publishedAt": "2026-09-18T17:43:17.000Z",
-    "type": "Injury",
-    "headline": "Michael Penix Jr. officially out, Tua Tagovailoa doubtful for Week 2",
-    "summary": "Cooper Rush is officially set to start Sunday's game against the Panthers, with Jack Strand as his backup.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/michael-penix-jr-officially-out-tua-tagovailoa-doubtful-for-week-2",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/browns-list-cb-tyson-campbell-as-questionable-for-sunday",
-    "publishedAt": "2026-09-18T17:40:37.000Z",
-    "type": "Injury",
-    "headline": "Browns list CB Tyson Campbell as questionable for Sunday",
-    "summary": "The Browns have released their final injury report for Sunday's game against the Buccaneers.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/browns-list-cb-tyson-campbell-as-questionable-for-sunday",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/deejay-dallas-hopes-to-send-a-message-with-his-headshot",
-    "publishedAt": "2026-09-18T17:36:38.000Z",
-    "type": "Injury",
-    "headline": "DeeJay Dallas hopes to send a message with his headshot",
-    "summary": "Vikings running back DeeJay Dallas, who has earned a roster spot following the placement of Jordan Mason on IR with a thumb injury, has provided a headshot for the ages, with eyes bulging wide.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/deejay-dallas-hopes-to-send-a-message-with-his-headshot",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "49974048",
-    "publishedAt": "2026-09-18T17:30:56Z",
-    "type": "Injury",
-    "headline": "Commanders rule out Frankie Luvu, Chig Okonkwo vs. Cowboys",
-    "summary": "The Commanders have ruled out linebacker Frankie Luvu, and tight end Chig Okonkwo for Sunday's road game against Dallas, coach Dan Quinn said.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49974048/commanders-rule-frankie-luvu-chig-okonkwo-vs-cowboys",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/brock-bowers-is-at-raiders-practice-friday",
-    "publishedAt": "2026-09-18T17:23:41.000Z",
-    "type": "Beat Report",
-    "headline": "Brock Bowers is at Raiders practice Friday",
-    "summary": "The Raiders welcomed a key player back to their practice field on Friday.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/brock-bowers-is-at-raiders-practice-friday",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bills-decision-to-play-canadian-anthem-is-all-about-the-business",
-    "publishedAt": "2026-09-18T17:11:32.000Z",
-    "type": "Analysis",
-    "headline": "Bills' decision to play Canadian anthem is \"all about the business\"",
-    "summary": "The Bills christened their new stadium with both the American and Canadian national anthems, with the quartet known as Barenaked Ladies singing O Canada before kickoff.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bills-decision-to-play-canadian-anthem-is-all-about-the-business",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/anthony-richardson-set-to-be-qb2-on-sunday-ashton-dulin-ruled-out",
-    "publishedAt": "2026-09-18T17:09:08.000Z",
-    "type": "Injury",
-    "headline": "Anthony Richardson set to be QB2 on Sunday, Ashton Dulin ruled out",
-    "summary": "The Colts have ruled out one player for Sunday night's matchup with the Chiefs, but their backup quarterback will be OK to play.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/anthony-richardson-set-to-be-qb2-on-sunday-ashton-dulin-ruled-out",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "49973894",
-    "publishedAt": "2026-09-18T16:49:39Z",
-    "type": "Analysis",
-    "headline": "Sean McVay hopes Rams don't get another Australia game",
-    "summary": "Sean McVay hopes Rams don't get another Australia game",
-    "sourceUrl": "https://www.espn.com/video/clip/_/id/49973894/sean-mcvay-hopes-rams-get-another-australia-game",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=420038",
-    "publishedAt": "2026-09-18T16:45:04.000Z",
-    "type": "Beat Report",
-    "headline": "Falcons To Start Cooper Rush In Week 2",
-    "summary": "SEPTEMBER 18: With Penix “not quite ready,” per NFL Network’s Ian Rapoport, Rush took first-team reps during Friday’s practice and is expected to start in Week 2. Rapoport also noted that Penix would likely need at least one practice – and preferably a full week – with Atlanta’s first-team offense before making his 2026 debut. […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/09/falcons-undecided-on-week-2-qb",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cooper-rush-is-expected-to-start-for-falcons-vs-panthers",
-    "publishedAt": "2026-09-18T16:41:58.000Z",
-    "type": "Analysis",
-    "headline": "Cooper Rush is expected to start for Falcons vs. Panthers",
-    "summary": "Michael Penix Jr. still isn't ready to go.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cooper-rush-is-expected-to-start-for-falcons-vs-panthers",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jalen-coker-has-no-injury-designation-for-sunday",
-    "publishedAt": "2026-09-18T16:39:41.000Z",
-    "type": "Injury",
-    "headline": "Jalen Coker has no injury designation for Sunday",
-    "summary": "Wide receiver Jalen Coker is good to go for the Panthers on Sunday.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jalen-coker-has-no-injury-designation-for-sunday",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/zac-taylor-joe-burrow-was-a-full-participant-on-friday-feels-good",
-    "publishedAt": "2026-09-18T16:37:48.000Z",
-    "type": "Analysis",
-    "headline": "Zac Taylor: Joe Burrow was a full participant on Friday, feels good",
-    "summary": "Burrow appears set to start against Houston on Sunday despite dealing with a back issue this week.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/zac-taylor-joe-burrow-was-a-full-participant-on-friday-feels-good",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "49973798",
-    "publishedAt": "2026-09-18T16:32:20Z",
-    "type": "Injury",
-    "headline": "Mired in historic interception drought, Jets rule out Fitzpatrick",
-    "summary": "The Jets, mired in the longest interception drought in NFL history, will be without their most accomplished interceptor Sunday against the Packers as former All-Pro safety Minkah Fitzpatrick was ruled out with a groin injury.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49973798/mired-historic-interception-drought-jets-rule-fitzpatrick",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/there-will-be-no-written-report-of-the-unc-investigation",
-    "publishedAt": "2026-09-18T16:20:29.000Z",
-    "type": "Analysis",
-    "headline": "There will be no written report of the UNC investigation",
-    "summary": "The investigation into the North Carolina football program has concluded.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/there-will-be-no-written-report-of-the-unc-investigation",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/nico-collins-out-of-practice-on-friday",
-    "publishedAt": "2026-09-18T16:20:07.000Z",
-    "type": "Injury",
-    "headline": "Nico Collins out of practice on Friday",
-    "summary": "It looks like Nico Collins is trending toward not playing in Sunday's matchup against the Bengals.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/nico-collins-out-of-practice-on-friday",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/zay-flowers-trey-hendrickson-ronnie-stanley-on-the-field-for-fridays-practice",
-    "publishedAt": "2026-09-18T16:16:57.000Z",
-    "type": "Beat Report",
-    "headline": "Zay Flowers, Trey Hendrickson, Ronnie Stanley on the field for Friday's practice",
-    "summary": "The Ravens welcomed several players back to practice on Friday.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/zay-flowers-trey-hendrickson-ronnie-stanley-on-the-field-for-fridays-practice",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/nflpa-names-travon-walker-their-community-mvp-for-week-2",
-    "publishedAt": "2026-09-18T16:08:33.000Z",
-    "type": "Analysis",
-    "headline": "NFLPA names Travon Walker their Community MVP for Week 2",
-    "summary": "The NFL Player Association announced on Friday that they have named Jaguars defensive end Travon Walker their Community MVP for Week 2 of the 2026 season.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/nflpa-names-travon-walker-their-community-mvp-for-week-2",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "49973812",
-    "publishedAt": "2026-09-18T16:03:48Z",
-    "type": "Analysis",
-    "headline": "Why Antonio Williams should be on managers' radars in deeper leagues",
-    "summary": "Why Antonio Williams should be on managers' radars in deeper leagues",
-    "sourceUrl": "https://www.espn.com/video/clip/_/id/49973812/why-antonio-williams-managers-radars-deeper-leagues",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/lamar-jackson-takes-25-3-record-vs-nfc-into-game-against-saints",
-    "publishedAt": "2026-09-18T15:47:47.000Z",
-    "type": "Analysis",
-    "headline": "Lamar Jackson takes 25-3 record vs. NFC into game against Saints",
-    "summary": "Ravens quarterback Lamar Jackson has a record of 77-31 as a starter.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/lamar-jackson-takes-25-3-record-vs-nfc-into-game-against-saints",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "49973793",
-    "publishedAt": "2026-09-18T15:46:22Z",
-    "type": "Analysis",
-    "headline": "Daniel Dopp builds his Week 2 DraftKings tournament lineup",
-    "summary": "Daniel Dopp builds his Week 2 DraftKings tournament lineup",
-    "sourceUrl": "https://www.espn.com/video/clip/_/id/49973793/daniel-dopp-builds-week-2-draftkings-tournament-lineup",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=420205",
-    "publishedAt": "2026-09-18T15:45:40.000Z",
-    "type": "Injury",
-    "headline": "Bills WR D.J. Moore Day-To-Day With AC Joint Sprain",
-    "summary": "Bills wide receiver D.J. Moore left Thursday night’s win over the Lions before halftime and did not return with the team announcing a shoulder injury as the cause. Moore is suspected to have suffered an AC joint sprain, according to NFL Network’s Ian Rapoport. ESPN’s Adam Schefter adds that the veteran wideout “has a chance” […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/09/bills-wr-d-j-moore-day-to-day-with-ac-joint-sprain",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jeremiyah-love-cardinals-defense-has-been-asking-me-what-jadarian-prices-weaknesses-are",
-    "publishedAt": "2026-09-18T15:20:28.000Z",
-    "type": "Analysis",
-    "headline": "Jeremiyah Love: Cardinals' defense has been asking me what Jadarian Price's weaknesses are",
-    "summary": "Love and Price were teammates at Notre Dame for three years before they were first-round draft picks for division rivals this year.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jeremiyah-love-cardinals-defense-has-been-asking-me-what-jadarian-prices-weaknesses-are",
     "sourceName": "Pro Football Talk"
   }
 ]
