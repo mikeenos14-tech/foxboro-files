@@ -1,5 +1,14 @@
 [
   {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jerry-jones-on-joey-porter-jr-trade-its-important-to-think-big",
+    "publishedAt": "2026-10-03T13:02:22.000Z",
+    "type": "Transaction",
+    "headline": "Jerry Jones on Joey Porter Jr. trade: \"It's important to think big\"",
+    "summary": "The Steelers decided to move on from cornerback Joey Porter Jr.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jerry-jones-on-joey-porter-jr-trade-its-important-to-think-big",
+    "sourceName": "Pro Football Talk"
+  },
+  {
     "id": "profootballrumors-https://www.profootballrumors.com/?p=421718",
     "publishedAt": "2026-10-03T04:19:25.000Z",
     "type": "Analysis",
@@ -18,13 +27,13 @@
     "sourceName": "Pro Football Rumors"
   },
   {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=421780",
-    "publishedAt": "2026-10-03T00:41:01.000Z",
+    "id": "50086264",
+    "publishedAt": "2026-10-03T11:05:37Z",
     "type": "Injury",
-    "headline": "Ravens OLB Trey Hendrickson Undergoes Finger Surgery, Will Miss Week 4",
-    "summary": "The Ravens will go without star pass rusher Trey Hendrickson against the Titans on Sunday. Head coach Jesse Minter announced Hendrickson underwent finger surgery, adding that the outside linebacker’s absence should be “very, very short term” (via Jamison Hensley of ESPN). Hendrickson broke his finger in the Ravens’ 41-23 win in Indianapolis in Week 1. […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/ravens-olb-trey-hendrickson-undergoes-finger-surgery-will-miss-week-4",
-    "sourceName": "Pro Football Rumors"
+    "headline": "Texans get WR Nico Collins (hamstring) back vs. Cowboys",
+    "summary": "The winless Texans got good news Friday as star wide receiver Nico Collins is set to return Sunday from a hamstring injury that forced him to miss Houston's last two games.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50086264/texans-get-wr-nico-collins-hamstring-back-vs-cowboys",
+    "sourceName": "ESPN"
   },
   {
     "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/five-teams-face-an-0-4-start-and-only-one-0-4-team-has-ever-made-the-playoffs",
@@ -36,21 +45,12 @@
     "sourceName": "Pro Football Talk"
   },
   {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=421771",
-    "publishedAt": "2026-10-03T04:18:38.000Z",
+    "id": "50080507",
+    "publishedAt": "2026-10-03T10:00:02Z",
     "type": "Analysis",
-    "headline": "Bears QB Tyson Bagent Likely To Start In Week 4",
-    "summary": "Bears third-string quarterback Case Keenum performed brilliantly in a 27-7 win over the Eagles on Monday, but it appears he will return to the bench in Week 4. Tyson Bagent has taken the majority of first-team reps in practice this week and is expected to start against the Jets on Sunday, Ian Rapoport of NFL […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/bears-qb-tyson-bagent-likely-to-start-in-week-4",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=421788",
-    "publishedAt": "2026-10-03T01:43:20.000Z",
-    "type": "Transaction",
-    "headline": "Dan Campbell Confirms Lions Pursued Trade For Joey Porter Jr.",
-    "summary": "The Cowboys acquired Joey Porter Jr. from the Steelers on Wednesday, reportedly beating out the Giants and Lions to land the cornerback. The notion that the Giants were in talks with the Steelers has been shot down since then, but the Lions were indeed involved. Head coach Dan Campbell confirmed general manager Brad Holmes pursued […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/dan-campbell-confirms-lions-pursued-trade-for-joey-porter-jr",
-    "sourceName": "Pro Football Rumors"
+    "headline": "Evaluating the 3-0 Raiders' strong offensive start",
+    "summary": "Yes, it has been a small sample size. But the head coach has made the Raiders' offense almost unrecognizable.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50080507/las-vegas-raiders-offense-kirk-cousins-klint-kubiak",
+    "sourceName": "ESPN"
   }
 ]
