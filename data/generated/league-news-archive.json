@@ -1,5 +1,131 @@
 [
   {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/vinod-khosla-takes-issues-with-reporters-accurately-quoting-him-again",
+    "publishedAt": "2026-10-03T18:39:28.000Z",
+    "type": "Analysis",
+    "headline": "Vinod Khosla takes issues with reporters accurately quoting him, again",
+    "summary": "New Seahawks owner missed the layup in his Axios interview. Then, he took to Twitter and missed it again.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/vinod-khosla-takes-issues-with-reporters-accurately-quoting-him-again",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/vikings-close-in-on-record-for-consecutive-four-sack-games",
+    "publishedAt": "2026-10-03T18:20:44.000Z",
+    "type": "Analysis",
+    "headline": "Vikings close in on record for consecutive four-sack games",
+    "summary": "The Vikings have won eight games in a row (3-0 this season) thanks to a defense that has at times been dominant.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/vikings-close-in-on-record-for-consecutive-four-sack-games",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/derrick-henry-josh-allen-chase-a-record-rushing-td-start",
+    "publishedAt": "2026-10-03T17:58:45.000Z",
+    "type": "Analysis",
+    "headline": "Derrick Henry, Josh Allen chase a record rushing TD start",
+    "summary": "Both Ravens running back Derrick Henry and Bills quarterback Josh Allen have scored six rushing touchdowns through three games.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/derrick-henry-josh-allen-chase-a-record-rushing-td-start",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dolphins-sign-rb-carlos-washington-elevate-dl-mazi-smith",
+    "publishedAt": "2026-10-03T17:48:58.000Z",
+    "type": "Transaction",
+    "headline": "Dolphins sign RB Carlos Washington, elevate DL Mazi Smith",
+    "summary": "The Dolphins have added a running back to their active roster.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dolphins-sign-rb-carlos-washington-elevate-dl-mazi-smith",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=421805",
+    "publishedAt": "2026-10-03T17:45:17.000Z",
+    "type": "Injury",
+    "headline": "Eagles WR Devonta Smith To Miss Multiple Games",
+    "summary": "Eagles wide receiver DeVonta Smith is expected to be sidelined for multiple games with a “lingering right hamstring injury that initially caused him to miss time during camp,” per Olivia Reiner of The Philadelphia Inquirer. Smith, 27, should not be out for more than three games with no injured reserve placement expected at the time. […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/eagles-wr-devonta-smith-to-miss-multiple-games",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bills-sign-lb-joe-andreessen-to-two-year-extension",
+    "publishedAt": "2026-10-03T17:35:57.000Z",
+    "type": "Analysis",
+    "headline": "Bills sign LB Joe Andreessen to two-year extension",
+    "summary": "Bills linebacker Joe Andreessen grew up outside of Buffalo and finished his college time in the city, so it's fitting that he's set to spend even more of his career there.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bills-sign-lb-joe-andreessen-to-two-year-extension",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=421817",
+    "publishedAt": "2026-10-03T17:34:54.000Z",
+    "type": "Injury",
+    "headline": "Packers OLB Micah Parsons Might Not Play Until November",
+    "summary": "Currently on the reserve/PUP list, Packers outside linebacker Micah Parsons will be eligible to play in Week 5. Parsons has not returned to practice yet, though, and it is unlikely that will change next week, Tom Pelissero of The Ringer reports. Parsons, who is recovering from the ACL and meniscus tears he suffered last December, […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/packers-olb-micah-parsons-might-not-play-until-november",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "50090624",
+    "publishedAt": "2026-10-03T16:55:57Z",
+    "type": "Injury",
+    "headline": "Colts WR Keenan Allen (groin) out vs. Commanders in London",
+    "summary": "Colts wide receiver Keenan Allen has a groin injury that will force him to sit out Sunday's game in London against the Commanders.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50090624/colts-wr-keenan-allen-groin-vs-commanders-london",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50090746",
+    "publishedAt": "2026-10-03T16:51:12Z",
+    "type": "Analysis",
+    "headline": "Source: Bears expected to start QB Tyson Bagent vs. Jets",
+    "summary": "The Bears are expected to start Tyson Bagent at quarterback against the Jets, according to NFL Network's Ian Rapoport.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50090746/source-bears-expected-start-qb-tyson-bagent-vs-jets",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=421164",
+    "publishedAt": "2026-10-03T16:45:15.000Z",
+    "type": "Analysis",
+    "headline": "Buccaneers QB Baker Mayfield To Miss At Least Three Games",
+    "summary": "OCTOBER 3: In typical fashion, Mayfield wants speed up his return process and is even “pushing to come back” as early as Week 5, per Bleacher Report James Palmer. Tampa Bay’s short week before a Thursday night matchup with the Cowboys will make that difficult, but the veteran quarterback has been willing to play through the […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/buccaneers-qb-baker-mayfield-to-miss-at-least-three-games",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=421808",
+    "publishedAt": "2026-10-03T16:06:47.000Z",
+    "type": "Analysis",
+    "headline": "Bills To Extend LB Joe Andreessen",
+    "summary": "The Bills and linebacker Joe Andreessen have agreed to a contract extension, Tom Pelissero of The Ringer reports. It’s a two-year, $5MM deal with $3MM in guaranteed money. Andreessen, a native of nearby Depew, N.Y., joined the Bills as an undrafted free agent from the University at Buffalo in 2024. The 6-foot, 240-pounder beat the […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/bills-to-extend-lb-joe-andreessen",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=421771",
+    "publishedAt": "2026-10-03T16:00:38.000Z",
+    "type": "Analysis",
+    "headline": "Bears QB Tyson Bagent To Start In Week 4",
+    "summary": "OCTOBER 3: Bagent will start on Sunday, multiple sources told Wiederer. OCTOBER 2: Bears third-string quarterback Case Keenum performed brilliantly in a 27-7 win over the Eagles on Monday, but it appears he will return to the bench in Week 4. Tyson Bagent has taken the majority of first-team reps in practice this week and […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/bears-qb-tyson-bagent-likely-to-start-in-week-4",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/colts-rule-out-keenan-allen",
+    "publishedAt": "2026-10-03T15:03:32.000Z",
+    "type": "Analysis",
+    "headline": "Colts rule out Keenan Allen",
+    "summary": "The Colts won't have wide receiver Keenan Allen for Sunday's game against the Commanders.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/colts-rule-out-keenan-allen",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/micah-parsons-may-not-be-ready-to-play-until-november",
+    "publishedAt": "2026-10-03T14:56:07.000Z",
+    "type": "Analysis",
+    "headline": "Micah Parsons may not be ready to play until November",
+    "summary": "The Packers aren't expecting linebacker Micah Parsons back on the field any time soon.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/micah-parsons-may-not-be-ready-to-play-until-november",
+    "sourceName": "Pro Football Talk"
+  },
+  {
     "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/deshaun-watson-seeks-redemption-without-genuine-remorse",
     "publishedAt": "2026-10-03T14:42:39.000Z",
     "type": "Analysis",
@@ -168,15 +294,6 @@
     "headline": "49ers Owner Jed York Handed Six-Game Suspension",
     "summary": "Jed York’s Ohio arrest as part of a prostitution sting this summer has brought NFL consequences. The league handed the 49ers owner a six-game suspension Friday, ESPN’s Adam Schefter reports. The league also fined York $500K. York having been away from the 49ers during their first three games — while an NFL investigation proceeded — […]",
     "sourceUrl": "https://www.profootballrumors.com/2026/10/49ers-owner-jed-york-handed-six-game-suspension",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=421771",
-    "publishedAt": "2026-10-03T04:18:38.000Z",
-    "type": "Analysis",
-    "headline": "Bears QB Tyson Bagent Likely To Start In Week 4",
-    "summary": "Bears third-string quarterback Case Keenum performed brilliantly in a 27-7 win over the Eagles on Monday, but it appears he will return to the bench in Week 4. Tyson Bagent has taken the majority of first-team reps in practice this week and is expected to start against the Jets on Sunday, Ian Rapoport of NFL […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/bears-qb-tyson-bagent-likely-to-start-in-week-4",
     "sourceName": "Pro Football Rumors"
   },
   {
@@ -4713,15 +4830,6 @@
     "headline": "Vikings Trade QB J.J. McCarthy To Giants",
     "summary": "J.J. McCarthy’s tenure in Minnesota is coming to an end. The third-year quarterback will receive a fresh start in New York via an in-season trade. McCarthy is being dealt from the Vikings to the Giants, as first reported by The Ringer’s Tom Pelissero. Minnesota will receive a 2027 fifth-round pick in return. This deal (which is now official) […]",
     "sourceUrl": "https://www.profootballrumors.com/2026/09/vikings-to-trade-qb-j-j-mccarthy-to-giants",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=421164",
-    "publishedAt": "2026-09-29T04:10:15.000Z",
-    "type": "Analysis",
-    "headline": "Buccaneers QB Baker Mayfield To Miss At Least Three Games",
-    "summary": "Monday brought about further news with respect to Baker Mayfield and the Buccaneers. Testing has yielded positive results, although missed time is still in store. Mayfield dislocated his thumb late in Sunday’s loss. An MRI revealed no fractures or ligament damage, per ESPN’s Jeremy Fowler. He adds a second opinion is being sought out in this case. […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/09/buccaneers-qb-baker-mayfield-to-miss-at-least-three-games",
     "sourceName": "Pro Football Rumors"
   },
   {
@@ -15612,96 +15720,6 @@
     "headline": "Mike McCarthy looks to become fourth Steelers coach to start 2-0",
     "summary": "Last Sunday, coach Mike McCarthy won in his Pittsburgh debut.",
     "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-mccarthy-looks-to-become-fourth-steelers-coach-to-start-2-0",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-downgrade-dt-javon-hargrave-to-out-remove-de-lukas-van-ness-from-injury-report",
-    "publishedAt": "2026-09-19T18:40:19.000Z",
-    "type": "Injury",
-    "headline": "Packers downgrade DT Javon Hargrave to out, remove DE Lukas Van Ness from injury report",
-    "summary": "When the Packers face the Jets on Sunday, they won't have defensive tackle Javon Hargrave.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-downgrade-dt-javon-hargrave-to-out-remove-de-lukas-van-ness-from-injury-report",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "49980918",
-    "publishedAt": "2026-09-19T18:23:36Z",
-    "type": "Injury",
-    "headline": "Steelers rule out WR Pittman Jr. vs. Patriots with foot injury",
-    "summary": "The Steelers will be without another starter for their Week 2 game against the Patriots after downgrading wide receiver Michael Pittman Jr. to out with a foot injury.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49980918/steelers-rule-wr-pittman-jr-vs-patriots-foot-injury",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/concerns-arise-regarding-brazil-field-where-ravens-cowboys-will-be-played",
-    "publishedAt": "2026-09-19T18:19:44.000Z",
-    "type": "Analysis",
-    "headline": "Concerns arise regarding Brazil field where Ravens-Cowboys will be played",
-    "summary": "In 2018, the NFL moved a game from Mexico to the U.S. Could it happen again?",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/concerns-arise-regarding-brazil-field-where-ravens-cowboys-will-be-played",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=420185",
-    "publishedAt": "2026-09-19T18:00:39.000Z",
-    "type": "Injury",
-    "headline": "TE Dae’Quan Wright, DT Zxavian Harris Ineligible To Join NFL Teams In 2026",
-    "summary": "SEPTEMBER 19: The Packers worked out Harris prior to the NFL’s memo but will not face any discipline, per Pelissero. That may not be the end of this saga, either. The NFLPA is investigating the matter and “the possibility of a grievance is still on the table,” Pelissero adds. SEPTEMBER 17: Both tight end Dae’Quan Wright and defensive […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/09/te-daequan-wright-dt-zxavian-harris-ineligible-to-join-nfl-teams-in-2026",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/peter-king-expresses-concern-about-changes-to-hall-of-fame-voting-panel",
-    "publishedAt": "2026-09-19T17:44:54.000Z",
-    "type": "Analysis",
-    "headline": "Peter King expresses concern about changes to Hall of Fame voting panel",
-    "summary": "Our good friend and former colleague, Peter King, spent 32 years on the Pro Football Hall of Fame's selection committee.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/peter-king-expresses-concern-about-changes-to-hall-of-fame-voting-panel",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/steelers-downgrade-wr-michael-pittman-jr-to-out-with-a-foot-injury",
-    "publishedAt": "2026-09-19T17:28:19.000Z",
-    "type": "Injury",
-    "headline": "Steelers downgrade WR Michael Pittman Jr. to out, with a foot injury",
-    "summary": "Pittman caught three passes for 58 yards in his Week 1 Pittsburgh debut.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/steelers-downgrade-wr-michael-pittman-jr-to-out-with-a-foot-injury",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/browns-add-cb-noah-igbinoghene-to-injury-report-list-him-as-questionable",
-    "publishedAt": "2026-09-19T17:20:25.000Z",
-    "type": "Injury",
-    "headline": "Browns add CB Noah Igbinoghene to injury report, list him as questionable",
-    "summary": "The Browns added another player to their injury report on Saturday.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/browns-add-cb-noah-igbinoghene-to-injury-report-list-him-as-questionable",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jets-to-put-rookie-wr-omar-cooper-on-ir",
-    "publishedAt": "2026-09-19T17:08:17.000Z",
-    "type": "Injury",
-    "headline": "Jets to put rookie WR Omar Cooper on IR",
-    "summary": "Jets first-round pick Omar Cooper is set to miss several games with an ankle injury.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jets-to-put-rookie-wr-omar-cooper-on-ir",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/at-least-one-team-has-called-steelers-about-joey-porter-jr",
-    "publishedAt": "2026-09-19T17:07:39.000Z",
-    "type": "Transaction",
-    "headline": "At least one team has called Steelers about Joey Porter Jr.",
-    "summary": "Friday's deep dive from ESPN into the far-simpler-than-it-seems contract issue between the Steelers and cornerback Joey Porter Jr. included a contention that the team has not received any \"serious inquiries\" regarding a trade.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/at-least-one-team-has-called-steelers-about-joey-porter-jr",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bengals-de-shemar-stewart-will-make-season-debut-on-sunday",
-    "publishedAt": "2026-09-19T16:01:34.000Z",
-    "type": "Analysis",
-    "headline": "Bengals DE Shemar Stewart will make season debut on Sunday",
-    "summary": "Bengals defensive end Shemar Stewart will make his season debut on Sunday.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bengals-de-shemar-stewart-will-make-season-debut-on-sunday",
     "sourceName": "Pro Football Talk"
   }
 ]

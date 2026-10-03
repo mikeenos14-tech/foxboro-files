@@ -1,14 +1,5 @@
 [
   {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jerry-jones-on-joey-porter-jr-trade-its-important-to-think-big",
-    "publishedAt": "2026-10-03T13:02:22.000Z",
-    "type": "Transaction",
-    "headline": "Jerry Jones on Joey Porter Jr. trade: \"It's important to think big\"",
-    "summary": "The Steelers decided to move on from cornerback Joey Porter Jr.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jerry-jones-on-joey-porter-jr-trade-its-important-to-think-big",
-    "sourceName": "Pro Football Talk"
-  },
-  {
     "id": "profootballrumors-https://www.profootballrumors.com/?p=421718",
     "publishedAt": "2026-10-03T04:19:25.000Z",
     "type": "Analysis",
@@ -27,13 +18,31 @@
     "sourceName": "Pro Football Rumors"
   },
   {
-    "id": "50086264",
-    "publishedAt": "2026-10-03T11:05:37Z",
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/deshaun-watson-seeks-redemption-without-genuine-remorse",
+    "publishedAt": "2026-10-03T14:42:39.000Z",
+    "type": "Analysis",
+    "headline": "Deshaun Watson seeks redemption without genuine remorse",
+    "summary": "Thursday night's broadcast of Steelers-Browns on Prime Video featured plenty of tiptoeing around the elephant that Deshaun Watson dragged into the room with his own actions.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/deshaun-watson-seeks-redemption-without-genuine-remorse",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=421817",
+    "publishedAt": "2026-10-03T17:34:54.000Z",
     "type": "Injury",
-    "headline": "Texans get WR Nico Collins (hamstring) back vs. Cowboys",
-    "summary": "The winless Texans got good news Friday as star wide receiver Nico Collins is set to return Sunday from a hamstring injury that forced him to miss Houston's last two games.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50086264/texans-get-wr-nico-collins-hamstring-back-vs-cowboys",
-    "sourceName": "ESPN"
+    "headline": "Packers OLB Micah Parsons Might Not Play Until November",
+    "summary": "Currently on the reserve/PUP list, Packers outside linebacker Micah Parsons will be eligible to play in Week 5. Parsons has not returned to practice yet, though, and it is unlikely that will change next week, Tom Pelissero of The Ringer reports. Parsons, who is recovering from the ACL and meniscus tears he suffered last December, […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/packers-olb-micah-parsons-might-not-play-until-november",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=421164",
+    "publishedAt": "2026-10-03T16:45:15.000Z",
+    "type": "Analysis",
+    "headline": "Buccaneers QB Baker Mayfield To Miss At Least Three Games",
+    "summary": "OCTOBER 3: In typical fashion, Mayfield wants speed up his return process and is even “pushing to come back” as early as Week 5, per Bleacher Report James Palmer. Tampa Bay’s short week before a Thursday night matchup with the Cowboys will make that difficult, but the veteran quarterback has been willing to play through the […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/buccaneers-qb-baker-mayfield-to-miss-at-least-three-games",
+    "sourceName": "Pro Football Rumors"
   },
   {
     "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/five-teams-face-an-0-4-start-and-only-one-0-4-team-has-ever-made-the-playoffs",
@@ -43,14 +52,5 @@
     "summary": "Week 4 is here, and five teams are still looking for their first victory of 2026.",
     "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/five-teams-face-an-0-4-start-and-only-one-0-4-team-has-ever-made-the-playoffs",
     "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "50080507",
-    "publishedAt": "2026-10-03T10:00:02Z",
-    "type": "Analysis",
-    "headline": "Evaluating the 3-0 Raiders' strong offensive start",
-    "summary": "Yes, it has been a small sample size. But the head coach has made the Raiders' offense almost unrecognizable.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50080507/las-vegas-raiders-offense-kirk-cousins-klint-kubiak",
-    "sourceName": "ESPN"
   }
 ]
