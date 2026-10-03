@@ -1,5 +1,14 @@
 [
   {
+    "id": "50085994",
+    "publishedAt": "2026-10-03T00:08:18Z",
+    "type": "Injury",
+    "headline": "Aaron Donald out, Puka Nacua to play in Rams' game vs. Eagles",
+    "summary": "Rams defensive tackle Aaron Donald will not play against the Eagles as he deals with back soreness, while wide receiver Puka Nacua will return from a hip injury after missing the past two games.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50085994/aaron-donald-puka-nacua-play-rams-game-vs-eagles",
+    "sourceName": "ESPN"
+  },
+  {
     "id": "50085721",
     "publishedAt": "2026-10-02T19:13:13Z",
     "type": "Analysis",
@@ -18,8 +27,17 @@
     "sourceName": "ESPN"
   },
   {
+    "id": "50086264",
+    "publishedAt": "2026-10-02T20:51:25Z",
+    "type": "Injury",
+    "headline": "Texans get WR Nico Collins (hamstring) back vs. Cowboys",
+    "summary": "The winless Texans got good news Friday as star wide receiver Nico Collins is set to return Sunday from a hamstring injury that forced him to miss Houston's last two games.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50086264/texans-get-wr-nico-collins-hamstring-back-vs-cowboys",
+    "sourceName": "ESPN"
+  },
+  {
     "id": "50086081",
-    "publishedAt": "2026-10-02T19:55:41Z",
+    "publishedAt": "2026-10-02T21:05:11Z",
     "type": "Injury",
     "headline": "Vikings' Justin Jefferson out vs. Dolphins with ankle injury",
     "summary": "Vikings WR Justin Jefferson won't play against the Dolphins because of a sprained left ankle, but coach Kevin O'Connell is hopeful he can return in Week 5 vs. the Saints.",
@@ -27,21 +45,12 @@
     "sourceName": "ESPN"
   },
   {
-    "id": "50085245",
-    "publishedAt": "2026-10-02T16:57:47Z",
-    "type": "Analysis",
-    "headline": "Tony Romo, CBS Sports agree to part after ex-QB's OWI arrest",
-    "summary": "Tony Romo will not return as an NFL game analyst for CBS Sports, the network announced, after he was arrested in July on charges of operating a vehicle while intoxicated.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50085245/tony-romo-cbs-sports-agree-part-ex-qb-owi-arrest",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50085994",
-    "publishedAt": "2026-10-02T21:02:31Z",
-    "type": "Injury",
-    "headline": "Aaron Donald out, Puka Nacua to play in Rams' game vs. Eagles",
-    "summary": "Rams defensive tackle Aaron Donald will not play against the Eagles as he deals with back soreness, while wide receiver Puka Nacua will return from a hip injury after missing the past two games.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50085994/aaron-donald-puka-nacua-play-rams-game-vs-eagles",
-    "sourceName": "ESPN"
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=421762",
+    "publishedAt": "2026-10-02T22:51:35.000Z",
+    "type": "Transaction",
+    "headline": "Lions Targeting Post-Bye Cade Mays Return; Brian Branch Close To Practicing",
+    "summary": "The Lions doled out a decent guarantee to upgrade at center this offseason, signing Cade Mays after he closed his rookie contract as the Panthers’ starter. Mays will not face his former team Sunday night, but a return appears near. Dan Campbell said (via the Detroit Free Press’ Dave Birkett) the hope is Mays returns […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/lions-targeting-post-bye-cade-mays-return-brian-branch-close-to-practicing",
+    "sourceName": "Pro Football Rumors"
   }
 ]
