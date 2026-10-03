@@ -132,15 +132,15 @@
     }
   ],
   "weather": {
-    "tempF": 68,
-    "wind": "10 mph",
-    "precipitation": "1%",
+    "tempF": 65,
+    "wind": "7 mph",
+    "precipitation": "3%",
     "isDome": false
   },
   "bettingContext": {
     "spread": 7,
-    "overUnder": 48.5,
-    "asOf": "2026-10-02"
+    "overUnder": 49.5,
+    "asOf": "2026-10-03"
   },
-  "previewTake": "The Patriots head to Buffalo as 7-point underdogs in what looks like a classic David-versus-Goliath matchup on paper — except we've got the slingshot and they've got a glaring weakness we can actually exploit. New England's rush offense (61/100) faces Buffalo's run defense (6/100), the widest statistical edge anywhere on the field this week, which feels like less of a coincidence and more like an instruction manual. The problem, of course, is that our pass offense is struggling at 23/100 while their pass defense is elite at 32/100, and with Greg Van Roten now on injured reserve, Drake Maye's already-fragile pocket (our pass protection grades at a horrifying 10/100) just got worse against Buffalo's 71/100 pass rush. We're 1-2 coming off three games where we've been slightly negative in EPA per play; Buffalo is 3-0 and slightly positive over their last three. This one feels like it all comes down to whether we can lean on the ground game, protect Maye enough to let it work, and whether our elite pass defense (87/100) can rattle Josh Allen before he picks us apart."
+  "previewTake": "Here's the thing about Sunday in Buffalo: we're walking into Highmark with a statistical sledgehammer in one specific dimension, and we'd better swing it early and often. New England's rush offense grades 61/100 against a Bills run defense that's literally among the worst in football at 6/100—that's the widest edge on the board, and it might be our only clean path to controlling this game. The problem is everything else looks like we're trying to defuse a bomb with oven mitts: our pass protection is catastrophically bad (10/100), our pass offense is struggling (23/100), and we're missing Gonzalez and Barmore on defense while Allen and that elite Bills passing attack (87/100) line up across from our pass defense. We're 2-3 in the last five meetings and 1-2 to start this season; Drake Maye needs to cut the turnover issue and make better decisions, but he'll be doing it under pressure in a hostile environment. This feels like a game where we either pound the rock and keep it close, or get into a shootout we're not built to win right now."
 }
