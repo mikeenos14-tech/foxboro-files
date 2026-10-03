@@ -1,5 +1,77 @@
 [
   {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=421769",
+    "publishedAt": "2026-10-03T02:52:09.000Z",
+    "type": "Transaction",
+    "headline": "NFL Practice Squad Updates: 10/2/26",
+    "summary": "Two teams made practice squad adjustments on Friday. Here’s a look… Arizona Cardinals Signed: C Kingsley Eguakun New York Giants Signed: OL Kendrick Green Released: OL Darian Kinnard Green has picked up experience at all three interior offensive line positions since he joined the Steelers as a third-round pick in 2021. He started at center […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/nfl-practice-squad-updates-10-2-26",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/sean-mcvay-is-0-4-against-nick-sirianni",
+    "publishedAt": "2026-10-03T02:12:36.000Z",
+    "type": "Analysis",
+    "headline": "Sean McVay is 0-4 against Nick Sirianni",
+    "summary": "Rams coach Sean McVay has had tremendous success since becoming a head coach in 2017.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/sean-mcvay-is-0-4-against-nick-sirianni",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=421788",
+    "publishedAt": "2026-10-03T01:43:20.000Z",
+    "type": "Transaction",
+    "headline": "Dan Campbell Confirms Lions Pursued Trade For Joey Porter Jr.",
+    "summary": "The Cowboys acquired Joey Porter Jr. from the Steelers on Wednesday, reportedly beating out the Giants and Lions to land the cornerback. The notion that the Giants were in talks with the Steelers has been shot down since then, but the Lions were indeed involved. Head coach Dan Campbell confirmed general manager Brad Holmes pursued […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/dan-campbell-confirms-lions-pursued-trade-for-joey-porter-jr",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/five-teams-face-an-0-4-start-and-only-one-0-4-team-has-ever-made-the-playoffs",
+    "publishedAt": "2026-10-03T01:27:49.000Z",
+    "type": "Analysis",
+    "headline": "Five teams face an 0-4 start — and only one 0-4 team has ever made the playoffs",
+    "summary": "Week 4 is here, and five teams are still looking for their first victory of 2026.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/five-teams-face-an-0-4-start-and-only-one-0-4-team-has-ever-made-the-playoffs",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/new-bears-stadium-in-illinois-could-be-publicly-owned",
+    "publishedAt": "2026-10-03T01:09:57.000Z",
+    "type": "Transaction",
+    "headline": "New Bears stadium in Illinois could be publicly owned",
+    "summary": "The Bears claim to be focused on building a new stadium in Indiana.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/new-bears-stadium-in-illinois-could-be-publicly-owned",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "50086883",
+    "publishedAt": "2026-10-03T00:52:17Z",
+    "type": "Injury",
+    "headline": "49ers WR Mike Evans a game-time decision with rib injury",
+    "summary": "Niners wide receiver Mike Evans is questionable for Sunday, but he said he will give \"my best\" to play against the Broncos as he deals with a rib injury.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50086883/49ers-wr-mike-evans-game-decision-rib-injury",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/vinod-khosla-on-a-potential-seahawks-move-never-say-never",
+    "publishedAt": "2026-10-03T00:44:58.000Z",
+    "type": "Analysis",
+    "headline": "Vinod Khosla on a potential Seahawks move: \"Never say never\"",
+    "summary": "New owner keeps saying things that won't make the fan base happy.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/vinod-khosla-on-a-potential-seahawks-move-never-say-never",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=421780",
+    "publishedAt": "2026-10-03T00:41:01.000Z",
+    "type": "Injury",
+    "headline": "Ravens OLB Trey Hendrickson Undergoes Finger Surgery, Will Miss Week 4",
+    "summary": "The Ravens will go without star pass rusher Trey Hendrickson against the Titans on Sunday. Head coach Jesse Minter announced Hendrickson underwent finger surgery, adding that the outside linebacker’s absence should be “very, very short term” (via Jamison Hensley of ESPN). Hendrickson broke his finger in the Ravens’ 41-23 win in Indianapolis in Week 1. […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/ravens-olb-trey-hendrickson-undergoes-finger-surgery-will-miss-week-4",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
     "id": "50085994",
     "publishedAt": "2026-10-03T00:08:18Z",
     "type": "Injury",
@@ -52,15 +124,6 @@
     "summary": "Chiefs defensive back Chamarri Conner is set to make his 2026 debut on Sunday.",
     "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/chiefs-db-chamarri-conner-set-to-make-his-season-debut",
     "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "50086883",
-    "publishedAt": "2026-10-02T22:29:42Z",
-    "type": "Injury",
-    "headline": "49ers WR Mike Evans a game-time decision with rib injury",
-    "summary": "Niners wide receiver Mike Evans is questionable for Sunday, but said he's going to give \"my best\" to play against the Broncos as he deals with a rib injury.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50086883/49ers-wr-mike-evans-game-decision-rib-injury",
-    "sourceName": "ESPN"
   },
   {
     "id": "profootballrumors-https://www.profootballrumors.com/?p=421758",
@@ -15631,59 +15694,5 @@
     "summary": "This week’s edition of the PFR mailbag touches on Pittsburgh’s top lingering storyline from the offseason. Questions from the NFC North, the race to the top selection in the 2027 draft and the ongoing debate over resting players in the preseason are also addressed. Nick asks: Have you found it weird the Steelers basically paid […]",
     "sourceUrl": "https://www.profootballrumors.com/2026/09/nfl-mailbag-porter-packers-bears-no-1-pick-rest",
     "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=420239",
-    "publishedAt": "2026-09-19T03:04:07.000Z",
-    "type": "Injury",
-    "headline": "Texans Rule Out Three Key Players For Week 2",
-    "summary": "The Texans were given a pair of tough tasks to open the season as they prepare to host the Bengals a week after just getting edged out by the Bills in Week 1. For Houston’s second tough game, though, the team will be short three starters. According to Aaron Wilson of KPRC 2, the Texans […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/09/texans-rule-out-three-key-players-for-week-2",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "49975015",
-    "publishedAt": "2026-09-19T02:51:33Z",
-    "type": "Analysis",
-    "headline": "FBI case against fake 49ers player adds more alleged victims",
-    "summary": "The FBI has identified 35 additional women who say they were defrauded by Daejon Love and Taylor Chan, bringing the total number of alleged victims in a case that included Love impersonating as a 49ers player to more than 60.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49975015/fbi-case-fake-49ers-player-adds-more-alleged-victims",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/potential-victims-of-49ers-imposter-darjean-love-now-exceed-60",
-    "publishedAt": "2026-09-19T02:39:46.000Z",
-    "type": "Analysis",
-    "headline": "Potential victims of 49ers imposter Daejon Love now exceed 60",
-    "summary": "Daejon Love's scam worked incredibly well.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/potential-victims-of-49ers-imposter-darjean-love-now-exceed-60",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dolphins-de-chop-robinson-in-concussion-protocol-out-for-sunday",
-    "publishedAt": "2026-09-19T02:02:14.000Z",
-    "type": "Injury",
-    "headline": "Dolphins DE Chop Robinson in concussion protocol, out for Sunday",
-    "summary": "Dolphins defensive end Chop Robinson will not play Sunday against the 49ers.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dolphins-de-chop-robinson-in-concussion-protocol-out-for-sunday",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/kirb-herbstreit-offers-flimsy-defense-for-espns-decision-to-interview-ted-cruz-on-college-gameday",
-    "publishedAt": "2026-09-19T01:45:39.000Z",
-    "type": "Analysis",
-    "headline": "Kirk Herbstreit offers flimsy defense for ESPN's decision to interview Ted Cruz on College GameDay",
-    "summary": "ESPN committed a bizarre broadcasting faux pas last Saturday, by giving Senator Ted Cruz (R-Texas) an extended platform on College GameDay to push for the passage of the so-called Protect College Sports Act (which also could be called the Screw College Players Act or, as Simms suggested, Protect the ESPN and SEC Contract Act).",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/kirb-herbstreit-offers-flimsy-defense-for-espns-decision-to-interview-ted-cruz-on-college-gameday",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/azeez-al-shaair-on-publicizing-hind-rajabs-story-most-of-you-might-know-even-know-who-she-was",
-    "publishedAt": "2026-09-19T01:12:38.000Z",
-    "type": "Analysis",
-    "headline": "Azeez Al-Shaair on publicizing Hind Rajab's story: Most of you might not even know who she was",
-    "summary": "The NFL fined Texans linebacker Azeez Al-Shaair $11,941 for writing the name \"Hind Rajab\" on his eye-black strips during a Week 1 game against the Bills.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/azeez-al-shaair-on-publicizing-hind-rajabs-story-most-of-you-might-know-even-know-who-she-was",
-    "sourceName": "Pro Football Talk"
   }
 ]
