@@ -78,6 +78,19 @@
     "overtime": false
   },
   {
+    "gameId": "2026_04_MIA_MIN",
+    "week": 4,
+    "date": "2026-10-04",
+    "weekday": "Sunday",
+    "homeTeam": "MIN",
+    "awayTeam": "MIA",
+    "homeScore": 15,
+    "awayScore": 10,
+    "homeRecord": "4-0",
+    "awayRecord": "0-4",
+    "overtime": false
+  },
+  {
     "gameId": "2026_04_ARI_NYG",
     "week": 4,
     "date": "2026-10-04",

@@ -8,5 +8,6 @@
   "homeTeam": "NE",
   "awayTeam": "LV",
   "status": "scheduled",
-  "venue": "Gillette Stadium"
+  "venue": "Gillette Stadium",
+  "network": "CBS"
 }

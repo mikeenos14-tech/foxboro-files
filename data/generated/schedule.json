@@ -101,13 +101,13 @@
     "opponentEpaRank": 12,
     "strengthOfSchedule": {
       "season": 21.5,
-      "opponentSos": -28
+      "opponentSos": -29.666666666666668
     },
     "restDays": 7,
     "opponentRestDays": 7,
     "isDivisional": false,
     "isConference": true,
-    "winProbabilityEstimate": 0.4806155798383498,
+    "winProbabilityEstimate": 0.5401490435368184,
     "date": "2026-10-11",
     "venue": "Gillette Stadium",
     "kickoffTimeEt": "13:00"
@@ -143,7 +143,7 @@
     "opponentEpaRank": 6,
     "strengthOfSchedule": {
       "season": 21.5,
-      "opponentSos": 2.5
+      "opponentSos": 3.75
     },
     "restDays": 4,
     "opponentRestDays": 4,
@@ -159,12 +159,12 @@
     "week": 8,
     "opponent": "MIA",
     "homeAway": "away",
-    "opponentRecord": "0-3",
-    "opponentPointDiff": -50,
+    "opponentRecord": "0-4",
+    "opponentPointDiff": -55,
     "opponentEpaRank": 32,
     "strengthOfSchedule": {
       "season": 21.5,
-      "opponentSos": 40
+      "opponentSos": 38.75
     },
     "restDays": 10,
     "opponentRestDays": 7,
@@ -185,7 +185,7 @@
     "opponentEpaRank": 29,
     "strengthOfSchedule": {
       "season": 21.5,
-      "opponentSos": -3.75
+      "opponentSos": -2.5
     },
     "restDays": 7,
     "opponentRestDays": 10,
@@ -264,12 +264,12 @@
     "week": 14,
     "opponent": "MIN",
     "homeAway": "home",
-    "opponentRecord": "3-0",
-    "opponentPointDiff": 30,
+    "opponentRecord": "4-0",
+    "opponentPointDiff": 35,
     "opponentEpaRank": 11,
     "strengthOfSchedule": {
       "season": 21.5,
-      "opponentSos": -1.6666666666666667
+      "opponentSos": -15
     },
     "restDays": 4,
     "opponentRestDays": 4,
@@ -290,7 +290,7 @@
     "opponentEpaRank": 3,
     "strengthOfSchedule": {
       "season": 21.5,
-      "opponentSos": -20.666666666666668
+      "opponentSos": -22.333333333333332
     },
     "restDays": 11,
     "opponentRestDays": 8,
@@ -348,12 +348,12 @@
     "week": 18,
     "opponent": "MIA",
     "homeAway": "home",
-    "opponentRecord": "0-3",
-    "opponentPointDiff": -50,
+    "opponentRecord": "0-4",
+    "opponentPointDiff": -55,
     "opponentEpaRank": 32,
     "strengthOfSchedule": {
       "season": 21.5,
-      "opponentSos": 40
+      "opponentSos": 38.75
     },
     "restDays": 7,
     "opponentRestDays": 7,

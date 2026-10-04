@@ -131,5 +131,11 @@
     "wind": "13 mph",
     "precipitation": "1%",
     "isDome": false
-  }
+  },
+  "bettingContext": {
+    "spread": -3.5,
+    "overUnder": 45.5,
+    "asOf": "2026-10-04"
+  },
+  "previewTake": "Here's the good news: our pass defense is genuinely elite, grading 87/100, and we're facing a Las Vegas pass offense that's merely pedestrian at 52/100—the widest statistical advantage on the board this week. Here's the bad news: almost everything else is a nightmare matchup for us. Their pass rush grades 97/100, our pass protection 42/100, and their run defense is suffocating at 90/100 while our rush offense, despite grading a solid 77/100, is going to have a very long afternoon. Throw in that we're 1-3 against these guys over the last four years and our offense has been utterly flat lately (dead even at -0.00 EPA/play over three games), and you've got a recipe where we're going to have to get creative and efficient in ways we haven't been. The good news is that if our defense can actually execute its game plan, we might just have a chance to keep this thing tight at home."
 }
