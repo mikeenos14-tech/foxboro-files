@@ -16,7 +16,11 @@
   },
   "preview 2026_04_NE_BUF": {
     "status": "written",
-    "problems": [],
-    "at": "2026-10-03T09:05:23.971Z"
+    "problems": [
+      [
+        "It makes a franchise-history claim that isn't in the facts given."
+      ]
+    ],
+    "at": "2026-10-04T15:50:21.024Z"
   }
 }

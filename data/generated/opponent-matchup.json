@@ -133,13 +133,14 @@
   ],
   "weather": {
     "tempF": 67,
-    "wind": "13 mph",
-    "precipitation": "2%",
+    "wind": "11 mph",
+    "precipitation": "7%",
     "isDome": false
   },
   "bettingContext": {
     "spread": 7,
-    "overUnder": 50.5,
+    "overUnder": 49.5,
     "asOf": "2026-10-04"
-  }
+  },
+  "previewTake": "Here's the thing about Sunday at Highmark: we've got a legitimate sledgehammer of a matchup sitting right in front of us. New England's rush offense grades at 61/100 against Buffalo's run defense at 6/100—that's the widest statistical edge on the board this week, and frankly, it's the kind of advantage you have to exploit. The problem is everything else tilts the other way. Our pass offense is struggling at 23/100 against a Bills secondary graded at 32/100, our pass protection is near-league-worst at 10/100 against their 71/100 pass rush, and we'll be doing all this without Christian Gonzalez and Christian Barmore due to shoulder injuries. Meanwhile, Buffalo's offense is elite (ranked 2nd in EPA/play), and while their defense is below average overall, they're vulnerable only where we can actually hurt them. If we establish the run early and keep the chains moving, we've got a real chance. If Drake Maye and this pass protection get exposed again, it could get ugly in Buffalo."
 }
