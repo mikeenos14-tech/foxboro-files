@@ -131,5 +131,11 @@
     "wind": "13 mph",
     "precipitation": "1%",
     "isDome": false
-  }
+  },
+  "bettingContext": {
+    "spread": -3.5,
+    "overUnder": 45.5,
+    "asOf": "2026-10-04"
+  },
+  "previewTake": "Here's the thing about this matchup: we've got a genuine edge where it matters most. Our pass defense grades at 87/100 against Las Vegas's 52/100 pass offense—the widest statistical advantage on the board this week—and that's a real comfort given how much their pass rush (97/100) will be in our business all afternoon. The problem is everything else: their run defense is elite at 90/100 against our 77/100 rush game, their overall defense ranks 4th in EPA/play, and we've lost three of the last four to these guys. We're favored by 3.5 at home, but our pass protection grades only 42/100, which against that Raiders pass rush is a recipe for a very long afternoon if things go sideways. This is a game we absolutely can win—but it hinges on whether we can actually protect our quarterback long enough to attack their weak secondary."
 }
