@@ -15,4 +15,6 @@
 // write only the Take (Good/Bad/Ugly now comes from the stats) and
 // gives it the kickoff time, with a time-of-day check; 7 follows the
 // new player of the game (receivers, defenders, kickers, returners).
-export const AI_VERSION = 7;
+// 8: the recap prompt now carries the game's verified "What Stood Out"
+//    facts (scripts/lib/standouts.ts), or says nothing was rare.
+export const AI_VERSION = 8;

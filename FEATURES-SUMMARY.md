@@ -18,6 +18,7 @@ A page-by-page rundown of what's actually live on the site (foxboro-files.vercel
 - Detail page:
   - Real box score.
   - AI-written "The Take" — grounded fan-voice recap.
+  - "What Stood Out" — up to three genuinely rare things from the game (a top-10% team or QB game league-wide this season, a 100-yard game ranked against every player-game, a comeback by win probability, "most points since…", "first win over X since…", a streak), each computed in code with its comparison population shown; absent after an ordinary game.
   - Win-probability chart across the full game.
   - Advanced Stats: EPA/play, success rate for/against vs. the league average, turnover margin, explosive-play rate, red zone and 3rd-down splits (offense and defense).
   - Player of the Game — New England's leader in win probability added, crediting passers, receivers, runners, defenders, kickers and returners.

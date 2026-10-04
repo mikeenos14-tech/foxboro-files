@@ -8,6 +8,7 @@
 import { mkdir, readdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { loadCsv, num, bool01 } from "./lib/csv";
+import { buildStandouts, type ScheduleGame } from "./lib/standouts";
 import {
   offenseStats,
   defenseStats,
@@ -700,6 +701,13 @@ async function main() {
         defense: thirdDown(gameRows, TEAM, "defteam"),
       },
       winProbabilityTimeline: winProbabilityTimeline(gameRows),
+      standouts: buildStandouts({
+        gameId: lastRow.game_id,
+        team: TEAM,
+        seasonPbp: pbp,
+        games: games as unknown as ScheduleGame[],
+        nameOf: (id) => rosterByGsis.get(id)?.full_name ?? id,
+      }),
       // Filled in below from the finished stats (recapBullets.ts).
       goodBadUgly: { good: [], bad: [], ugly: [] },
       playerOfTheGame: star

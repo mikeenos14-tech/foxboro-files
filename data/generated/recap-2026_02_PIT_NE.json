@@ -173,6 +173,29 @@
       "homeWinProb": 1
     }
   ],
+  "standouts": [
+    {
+      "group": "defense",
+      "text": "The 3rd-best defensive game by any team this season: -0.36 EPA per play allowed.",
+      "population": "all 116 team-games this season",
+      "score": 0.9826086956521739,
+      "tone": "good"
+    },
+    {
+      "group": "h2h",
+      "text": "The first win over PIT since 2023.",
+      "population": "every Patriots game against PIT since 1999 (16 games)",
+      "score": 0.93,
+      "tone": "good"
+    },
+    {
+      "group": "allowed",
+      "text": "3 points allowed, the fewest since Week 10, 2024.",
+      "population": "every Patriots regular-season game since 1999 (441 games)",
+      "score": 0.9225,
+      "tone": "good"
+    }
+  ],
   "goodBadUgly": {
     "good": [
       "The defense allowed -0.36 EPA per play — better than an average defense.",

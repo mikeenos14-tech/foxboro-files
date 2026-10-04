@@ -152,6 +152,11 @@ Red-zone trips (drives that reached the opponent's 20-yard line — not the end 
 Third downs converted: New England ${rateVsNorm(recap.thirdDown.offense.conv, recap.thirdDown.offense.att, 40, "offense")}; ${opponent} ${rateVsNorm(recap.thirdDown.defense.conv, recap.thirdDown.defense.att, 40, "defense")} against New England's defense.
 Use these comparisons as given — don't redo the math or restate them differently.
 ${LEAGUE_NORMS}
+${
+  recap.standouts && recap.standouts.length > 0
+    ? `Verified notable facts about this game (each was checked by code; you may mention them, using these exact numbers and years and nothing beyond them):\n${recap.standouts.map((s) => `- ${s.text} (compared against ${s.population})`).join("\n")}`
+    : "Nothing about this game was statistically rare — don't claim anything was a first, a best, or historic."
+}
 New England's player of the game (by win probability added, among New England players only — no opponent players were measured, so don't compare him to them): ${star.playerName}, ${(star.wpa * 100).toFixed(0)}% WPA. ${star.reason} Refer to players by the full names given here or in the articles, never a guessed first name.
 
 Real articles about this game:

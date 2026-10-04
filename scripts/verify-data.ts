@@ -349,6 +349,16 @@ async function checkPlayLists(): Promise<string[]> {
     if (!(recap.successRate.leagueAverage > 0.3 && recap.successRate.leagueAverage < 0.6)) {
       failures.push(`${where}: league-average success rate is ${recap.successRate.leagueAverage}, outside any real season's range`);
     }
+    // "What Stood Out" is a fixed set of code checks; the only thing to
+    // guard is the shape: at most three, each with its text and the
+    // population it was compared against.
+    const standouts = recap.standouts ?? [];
+    if (standouts.length > 3) failures.push(`${gameId}: ${standouts.length} standouts, max is 3`);
+    for (const s of standouts) {
+      if (!s.text || !s.population || !(s.score >= 0.9 && s.score <= 1)) {
+        failures.push(`${gameId}: standout "${s.text}" is missing text/population or has score ${s.score}`);
+      }
+    }
     const star = gp.lists.star[0];
     if (star) {
       const sum = star.entries.reduce((s, e) => s + Number((e.badge ?? "0").replace(/[^-\d.]/g, "")), 0) / 100;

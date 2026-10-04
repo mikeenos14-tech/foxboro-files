@@ -56,13 +56,13 @@
       {
         "team": "MIA",
         "wins": 0,
-        "losses": 4,
+        "losses": 3,
         "ties": 0,
-        "pointDifferential": -55,
+        "pointDifferential": -50,
         "isUs": false,
         "streak": {
           "result": "L",
-          "count": 4
+          "count": 3
         },
         "divisionRecord": {
           "wins": 0,
@@ -369,14 +369,14 @@
     "standings": [
       {
         "team": "MIN",
-        "wins": 4,
+        "wins": 3,
         "losses": 0,
         "ties": 0,
-        "pointDifferential": 35,
+        "pointDifferential": 30,
         "isUs": false,
         "streak": {
           "result": "W",
-          "count": 4
+          "count": 3
         },
         "divisionRecord": {
           "wins": 2,

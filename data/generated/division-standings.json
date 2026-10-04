@@ -53,13 +53,13 @@
   {
     "team": "MIA",
     "wins": 0,
-    "losses": 4,
+    "losses": 3,
     "ties": 0,
-    "pointDifferential": -55,
+    "pointDifferential": -50,
     "isUs": false,
     "streak": {
       "result": "L",
-      "count": 4
+      "count": 3
     },
     "divisionRecord": {
       "wins": 0,

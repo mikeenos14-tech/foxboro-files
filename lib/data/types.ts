@@ -90,10 +90,22 @@ export interface RankedStat {
   leaguePercentile: number; // 0-100
 }
 
+export interface Standout {
+  group: string;
+  text: string;
+  population: string;
+  score: number;
+  tone: "good" | "bad";
+}
+
 export interface GameRecap {
   gameId: string;
   narrative: string;
   fanTake?: string;
+  // "What Stood Out": up to three genuinely rare things from this game,
+  // each a fixed check computed in code with its comparison population
+  // spelled out (scripts/lib/standouts.ts). Empty after an ordinary game.
+  standouts?: Standout[];
   epaPerPlay: { offense: number; defense: number };
   // Whole-game rates. Split by down they were too thin to mean anything
   // (a 4th down went in as "0%" off one play) and were never shown.

@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import * as store from "@/lib/data/store";
 import { BoxScoreSummary } from "@/components/recap/BoxScoreSummary";
 import { GoodBadUglySidebar } from "@/components/recap/GoodBadUglySidebar";
+import { StandoutsCard } from "@/components/recap/StandoutsCard";
 import { PlayerOfTheGameCard } from "@/components/recap/PlayerOfTheGameCard";
 import { WinProbabilityChart } from "@/components/shared/WinProbabilityChart";
 import { StatCard } from "@/components/shared/StatCard";
@@ -64,6 +65,8 @@ export default async function RecapDetailPage({
           <FlagLink page={`/recap/${gameId}`} section="The Take" text={recap.fanTake} className="mt-2" />
         </div>
       )}
+
+      {recap.standouts && recap.standouts.length > 0 && <StandoutsCard standouts={recap.standouts} />}
 
       <div className="grid gap-4 lg:grid-cols-3">
         <div className="space-y-4 lg:col-span-2">

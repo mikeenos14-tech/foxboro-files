@@ -173,6 +173,29 @@
       "homeWinProb": 1
     }
   ],
+  "standouts": [
+    {
+      "group": "qb",
+      "text": "Drake Maye's -0.51 EPA per dropback is the 6th-worst quarterback game in the NFL this season.",
+      "population": "all 118 quarterback games this season with 15+ dropbacks",
+      "score": 0.9572649572649573,
+      "tone": "bad"
+    },
+    {
+      "group": "margin",
+      "text": "A 29-point loss, the worst since Week 17, 2024.",
+      "population": "every Patriots regular-season game since 1999 (441 games)",
+      "score": 0.91,
+      "tone": "bad"
+    },
+    {
+      "group": "defense",
+      "text": "The 12th-worst defensive game by any team this season: +0.23 EPA per play allowed.",
+      "population": "all 116 team-games this season",
+      "score": 0.9043478260869565,
+      "tone": "bad"
+    }
+  ],
   "goodBadUgly": {
     "good": [],
     "bad": [
