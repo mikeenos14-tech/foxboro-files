@@ -479,6 +479,26 @@ async function main() {
   const lastRow = played[played.length - 1];
   const nextRow = upcoming[0];
 
+  // TV network, from ESPN's scoreboard. It covers only the current week,
+  // so for a game it doesn't list the field is left out rather than
+  // carrying last week's network forward.
+  const networkByGameKey = new Map<string, string>();
+  try {
+    const raw = JSON.parse(
+      await readFile(path.join(process.cwd(), "data", "raw", "espn-scoreboard.json"), "utf-8")
+    );
+    for (const event of raw.events ?? []) {
+      const comp = event.competitions?.[0];
+      const competitors: Array<{ homeAway: string; team: { abbreviation: string } }> = comp?.competitors ?? [];
+      const home = competitors.find((c) => c.homeAway === "home")?.team?.abbreviation;
+      const away = competitors.find((c) => c.homeAway === "away")?.team?.abbreviation;
+      const network: string | undefined = comp?.broadcasts?.[0]?.names?.[0] ?? comp?.geoBroadcasts?.[0]?.media?.shortName;
+      if (home && away && network) networkByGameKey.set(`${away}@${home}`, network);
+    }
+  } catch {
+    // No scoreboard: no network shown.
+  }
+
   const toGame = (g: GameRow): Game => ({
     id: g.game_id,
     season: SEASON,
@@ -492,6 +512,7 @@ async function main() {
     awayScore: g.away_score !== "" ? num(g.away_score) : undefined,
     status: g.home_score !== "" && g.home_score !== undefined ? "final" : "scheduled",
     venue: g.stadium || "",
+    network: networkByGameKey.get(`${g.away_team}@${g.home_team}`),
   });
 
   if (lastRow) {

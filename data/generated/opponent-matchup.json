@@ -132,15 +132,14 @@
     }
   ],
   "weather": {
-    "tempF": 65,
-    "wind": "7 mph",
-    "precipitation": "3%",
+    "tempF": 67,
+    "wind": "13 mph",
+    "precipitation": "2%",
     "isDome": false
   },
   "bettingContext": {
     "spread": 7,
-    "overUnder": 49.5,
-    "asOf": "2026-10-03"
-  },
-  "previewTake": "Here's the thing about Sunday in Buffalo: we're walking into Highmark with a statistical sledgehammer in one specific dimension, and we'd better swing it early and often. New England's rush offense grades 61/100 against a Bills run defense that's literally among the worst in football at 6/100—that's the widest edge on the board, and it might be our only clean path to controlling this game. The problem is everything else looks like we're trying to defuse a bomb with oven mitts: our pass protection is catastrophically bad (10/100), our pass offense is struggling (23/100), and we're missing Gonzalez and Barmore on defense while Allen and that elite Bills passing attack (87/100) line up across from our pass defense. We're 2-3 in the last five meetings and 1-2 to start this season; Drake Maye needs to cut the turnover issue and make better decisions, but he'll be doing it under pressure in a hostile environment. This feels like a game where we either pound the rock and keep it close, or get into a shootout we're not built to win right now."
+    "overUnder": 50.5,
+    "asOf": "2026-10-04"
+  }
 }

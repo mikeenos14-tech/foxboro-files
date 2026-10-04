@@ -8,5 +8,6 @@
   "homeTeam": "BUF",
   "awayTeam": "NE",
   "status": "scheduled",
-  "venue": "Highmark Stadium"
+  "venue": "Highmark Stadium",
+  "network": "CBS"
 }

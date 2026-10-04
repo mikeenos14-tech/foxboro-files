@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import type { Game, OpponentMatchupData } from "@/lib/data/types";
-import { formatDate, kickoffIso, weatherEmoji } from "@/lib/util/format";
+import { formatDate, formatKickoff, kickoffIso, weatherEmoji } from "@/lib/util/format";
 import { TeamLogo } from "@/components/shared/TeamLogo";
 
 function useCountdown(targetIso: string) {
@@ -67,10 +67,10 @@ export function NextGameHero({
         <span>{opponent}</span>
         <TeamLogo team={opponent} size={56} onDark />
       </div>
-      <p className="mt-3 text-white/70">
-        {formatDate(game.date)} · {game.venue}
-        {game.network ? ` · ${game.network}` : ""}
+      <p className="mt-3 text-white">
+        {[formatDate(game.date), formatKickoff(game.kickoffTimeEt), game.network].filter(Boolean).join(" · ")}
       </p>
+      <p className="mt-0.5 text-sm text-white/60">{game.venue}</p>
       <div className="mt-4 flex flex-wrap items-center justify-center gap-2">
         {countdown && (
           <span className="inline-block rounded-full bg-red px-4 py-1.5 text-sm font-semibold text-white">

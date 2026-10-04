@@ -30,6 +30,7 @@ Used for QB Deep Dive and Position Grades. These get the same leave-one-out oppo
 | What you see | Tier | Real source |
 |---|---|---|
 | Record, division rank, streak | — | Real game results (`games.csv`) |
+| Next Up strip: kickoff time, TV network | — | Kickoff from nflverse's schedule; network from ESPN's scoreboard, which covers the current week only, so it's left out rather than carried forward when unknown |
 | Playoff odds | Tier 1 | Logistic curve on projected win total (see "The honest models" below). Says how much still leans on 2025 until game 4 |
 | Team Strength — Point Differential | — | Real, unweighted box-score total |
 | Team Strength — Offensive/Defensive EPA/play | **Tier 2** | Opponent-adjusted, pure 2026, **has the "last N weeks" filter** |

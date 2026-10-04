@@ -21,6 +21,15 @@ export function formatDate(iso: string): string {
   });
 }
 
+// "1:00 PM ET" from the schedule's "13:00". The time was in the data for
+// every game and shown nowhere a fan looks first.
+export function formatKickoff(kickoffTimeEt?: string): string | null {
+  if (!kickoffTimeEt) return null;
+  const [h, m] = kickoffTimeEt.split(":").map(Number);
+  const hour12 = h % 12 === 0 ? 12 : h % 12;
+  return `${hour12}:${String(m).padStart(2, "0")} ${h < 12 ? "AM" : "PM"} ET`;
+}
+
 // "vs. BUF" at home, "at BUF" on the road — the site used "vs." for both,
 // and an AI recap duly placed a game in Jacksonville at Foxboro.
 export function opponentLabel(opponent: string, isHome: boolean): string {

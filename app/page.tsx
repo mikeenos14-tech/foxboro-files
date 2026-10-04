@@ -2,7 +2,8 @@ import { PriorBlendNote } from "@/components/next-game/PriorBlendNote";
 import { TeamLogo } from "@/components/shared/TeamLogo";
 import { PercentBar } from "@/components/shared/PercentBar";
 import { HeroAnswerCard } from "@/components/shared/HeroAnswerCard";
-import { MiniGameCard } from "@/components/home/MiniGameCard";
+import { NextUpStrip } from "@/components/home/NextUpStrip";
+import { LastGameStrip } from "@/components/home/LastGameStrip";
 import { CountUp } from "@/components/shared/CountUp";
 import { HeadlinesList } from "@/components/home/HeadlinesList";
 import { DivisionStandings } from "@/components/home/DivisionStandings";
@@ -89,10 +90,10 @@ export default async function HomePage({
               )}
             </div>
           </div>
-          <div className="flex gap-3">
-            <MiniGameCard label="Last" game={lastGame} linkToRecap />
-            <MiniGameCard label="Next" game={nextGame} />
-          </div>
+        </div>
+        <div className="mt-5 grid gap-2 sm:grid-cols-2">
+          <NextUpStrip game={nextGame} spread={matchup.bettingContext?.spread} />
+          <LastGameStrip game={lastGame} />
         </div>
         {projection.playoffOdds !== undefined && (
           <PriorBlendNote

@@ -4,7 +4,7 @@ A page-by-page rundown of what's actually live on the site (foxboro-files.vercel
 
 ## Home
 
-- Team identity header: record, division rank, playoff odds (with a probability bar), last/next game mini-cards.
+- Team identity header: record, division rank, playoff odds (with a probability bar), then two full-width strips: Next Up (opponent, day, kickoff time, TV network, countdown, line) and the last result with a link to its recap.
 - One-sentence season-snapshot banner (record, streak, point differential).
 - Team Strength vs. League: point differential, offensive/defensive EPA/play (opponent-adjusted), success rate and yards/play — all ranked, with a Last Game / 2025 Season filter.
 - Week by Week chart: offense EPA/play gained and defense allowed in every game, with a game-by-game table underneath — "are we getting better?"
