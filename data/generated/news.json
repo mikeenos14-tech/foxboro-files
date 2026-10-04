@@ -1,11 +1,47 @@
 [
   {
+    "id": "a03a589e-3132-4293-a5ef-ec9b5cbba544",
+    "publishedAt": "2026-10-04T15:32:12.000Z",
+    "type": "Analysis",
+    "headline": "Week 4 Inactives: Patriots at Bills",
+    "summary": "The New England Patriots and Buffalo Bills announce the following inactive players ahead of their NFL Week 4 game on October 4, 2026.",
+    "sourceUrl": "https://www.patriots.com/news/week-4-inactives-patriots-at-bills",
+    "sourceName": "Patriots.com"
+  },
+  {
+    "id": "e83d955c-d9df-4514-bc59-9c2ccebfc039",
+    "publishedAt": "2026-10-04T15:32:10.000Z",
+    "type": "Analysis",
+    "headline": "Inactives Analysis: Dre'Mont Jones, Craig Woodson and Eli Raridon return for Sunday's AFC East matchup vs. the Bills",
+    "summary": "All six of the Patriots questionable players are officially active for Sunday's divisional matchup vs. the Bills in Buffalo.",
+    "sourceUrl": "https://www.patriots.com/news/inactives-analysis-dre-mont-jones-craig-woodson-and-eli-raridon-return-for-sunday-s-afc-east-matchup-vs-the-bills",
+    "sourceName": "Patriots.com"
+  },
+  {
+    "id": "91134ac6-c201-4313-bebe-a23e566275a1",
+    "publishedAt": "2026-10-04T13:09:00.000Z",
+    "type": "Injury",
+    "headline": "Week 4 Injury Report: Patriots at Bills",
+    "summary": "The New England Patriots and the Buffalo Bills announce the following player injuries and practice participation ahead of their Week 4 game.",
+    "sourceUrl": "https://www.patriots.com/news/week-4-injury-report-patriots-at-bills2",
+    "sourceName": "Patriots.com"
+  },
+  {
     "id": "f846f81a-c81e-4e10-b2ed-0a4e7be33127",
-    "publishedAt": "2026-10-04T00:13:00.000Z",
+    "publishedAt": "2026-10-04T13:04:00.000Z",
     "type": "Analysis",
     "headline": "How to Watch and Stream Sunday's Patriots Game Against the Bills | NFL Week 4",
     "summary": "Complete broadcast information for this week's game between the New England Patriots and the Buffalo Bills on Sunday, October 4, 2026 at 1 PM ET.",
     "sourceUrl": "https://www.patriots.com/news/how-to-watch-and-stream-sunday-s-patriots-game-against-the-bills-nfl-week-4",
+    "sourceName": "Patriots.com"
+  },
+  {
+    "id": "a6b58344-821f-4cff-9657-f02d66581e76",
+    "publishedAt": "2026-10-04T12:00:00.000Z",
+    "type": "Analysis",
+    "headline": "Patriots Gameplan: what is the best approach for New England to beat the Bills in Week 4?",
+    "summary": "The Patriots will head to the new Highmark Stadium to face the Bills on Sunday.",
+    "sourceUrl": "https://www.patriots.com/news/patriots-gameplan-what-is-the-best-approach-for-new-england-to-beat-the-bills-in-week-4",
     "sourceName": "Patriots.com"
   },
   {
@@ -18,24 +54,6 @@
     "sourceName": "ESPN"
   },
   {
-    "id": "17d57701-8342-41d6-8c64-1780c301e376",
-    "publishedAt": "2026-10-03T20:00:00.000Z",
-    "type": "Transaction",
-    "headline": "Patriots Elevate S Mike Brown and CB Kindle Vildor from the Practice Squad to the Active Roster",
-    "summary": "The Patriots announced today that they have elevated S Mike Brown and CB Kindle Vildor from the practice squad to the active roster",
-    "sourceUrl": "https://www.patriots.com/news/patriots-elevate-s-mike-brown-and-cb-kindle-vildor-from-the-practice-squad-to-the-active-roster",
-    "sourceName": "Patriots.com"
-  },
-  {
-    "id": "cb62724b-dd41-4e6e-beac-22dde531d80e",
-    "publishedAt": "2026-10-03T20:00:00.000Z",
-    "type": "Injury",
-    "headline": "Roster Analysis: Seven Questionable Patriots Make the Trip to Buffalo, Two Elevated from the Practice Squad for Week 4 vs. Bills",
-    "summary": "S Mike Brown and CB Kindle Vildor were elevated from the practice squad for Sunday's game vs. the Bills.",
-    "sourceUrl": "https://www.patriots.com/news/roster-analysis-seven-questionable-patriots-make-the-trip-to-buffalo-two-elevated-from-the-practice-squad-for-week-4-vs-bills",
-    "sourceName": "Patriots.com"
-  },
-  {
     "id": "50087420",
     "publishedAt": "2026-10-03T00:55:09Z",
     "type": "Analysis",
@@ -43,24 +61,6 @@
     "summary": "Mike Reiss breaks down how New England plans to replace Christian Gonzalez and Christian Barmore ahead of its matchup with Josh Allen and Buffalo.",
     "sourceUrl": "https://www.espn.com/video/clip/_/id/50087420/patriots-christian-gonzalez-christian-barmore-vs-bills",
     "sourceName": "ESPN"
-  },
-  {
-    "id": "91134ac6-c201-4313-bebe-a23e566275a1",
-    "publishedAt": "2026-10-02T20:00:00.000Z",
-    "type": "Injury",
-    "headline": "Week 4 Injury Report: Patriots at Bills",
-    "summary": "The New England Patriots and the Buffalo Bills announce the following player injuries and practice participation ahead of their Week 4 game.",
-    "sourceUrl": "https://www.patriots.com/news/week-4-injury-report-patriots-at-bills2",
-    "sourceName": "Patriots.com"
-  },
-  {
-    "id": "84440ea5-413c-40c1-a539-e967de1c703e",
-    "publishedAt": "2026-10-02T19:06:49.000Z",
-    "type": "Injury",
-    "headline": "Injury Report Analysis: Patriots rule out Christian Gonzalez and Christian Barmore for Sunday's Week 4 matchup vs. Bills",
-    "summary": "Barmore and Gonzalez will miss Sunday's game in Buffalo due to shoulder injuries.",
-    "sourceUrl": "https://www.patriots.com/news/injury-report-analysis-patriots-rule-out-christian-gonzalez-and-christian-barmore-for-sunday-s-week-4-matchup-vs-bills",
-    "sourceName": "Patriots.com"
   },
   {
     "id": "50079980",

@@ -1,56 +1,56 @@
 [
   {
-    "id": "50095248",
-    "publishedAt": "2026-10-04T11:05:43Z",
-    "type": "Transaction",
-    "headline": "Sources: Steelers' contract philosophy led to Joey Porter Jr. trade",
-    "summary": "The Steelers' philosophy of avoiding second-year contract guarantees was a factor in their inability to reach a deal with Joey Porter Jr., sourced told NFL Network.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50095248/sources-steelers-contract-philosophy-led-joey-porter-jr-trade",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=421746",
-    "publishedAt": "2026-10-04T02:48:15.000Z",
-    "type": "Analysis",
-    "headline": "Cowboys Interested In Joey Porter Jr. Extension; CB To Play In Week 4",
-    "summary": "OCTOBER 3: Porter will indeed make his Cowboys debut tomorrow, NFL insider Jordan Schultz reports. It will be interesting to see how his workload is handled days after arriving in Dallas. OCTOBER 2: In a situation similar to their George Pickens acquisition, the Cowboys are now rostering a former Day 2 Steelers draftee in a contract year. […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/cowboys-interested-in-joey-porter-jr-extension-cb-not-on-dallas-week-4-injury-report",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=421841",
-    "publishedAt": "2026-10-03T21:43:06.000Z",
-    "type": "Analysis",
-    "headline": "Commanders QB Jayden Daniels Working To Return In Week 5; WR Terry McLaurin Could Miss Week 4",
-    "summary": "With Commanders quarterback Jayden Daniels still recovering from the dislocated left elbow he suffered in Week 2, backup Marcus Mariota will make his second straight start on Sunday. Mariota, who helped the Commanders to a 33-31 upset over the Seahawks in Week 3, will try to get his team to .500 in a London-based meeting […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/commanders-qb-jayden-daniels-working-to-return-in-week-5-wr-terry-mclaurin-could-miss-week-4",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "50093238",
-    "publishedAt": "2026-10-03T21:33:12Z",
+    "id": "50099890",
+    "publishedAt": "2026-10-04T17:30:51Z",
     "type": "Injury",
-    "headline": "Panthers place WR Xavier Legette on IR with knee injury",
-    "summary": "The Carolina Panthers have placed 2024 first-round pick Xavier Legette on injured reserve ahead of Sunday's prime-time matchup against the Detroit Lions.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50093238/panthers-place-wr-xavier-legette-ir-knee-injury",
+    "headline": "Marcus Mariota out as Commanders turn to rookie Athan Kaliakmanis",
+    "summary": "Marcus Mariota left Sunday's game against the Colts with a knee injury, forcing the Commanders to turn to seventh-round rookie Athan Kaliakmanis at quarterback.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50099890/marcus-mariota-injured-commanders-turn-rookie-qb-athan-kaliakmanis",
     "sourceName": "ESPN"
   },
   {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=421762",
-    "publishedAt": "2026-10-03T23:40:35.000Z",
-    "type": "Transaction",
-    "headline": "Lions Targeting Post-Bye Cade Mays Return; Brian Branch Close To Practicing",
-    "summary": "OCTOBER 3: The Ringer’s Tom Pelissero reports there is a “really good chance” Branch will have his practice window opened next week. That would align well with plans for a post-bye return to game action. OCTOBER 2: The Lions doled out a decent guarantee to upgrade at center this offseason, signing Cade Mays after he closed his […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/lions-targeting-post-bye-cade-mays-return-brian-branch-close-to-practicing",
-    "sourceName": "Pro Football Rumors"
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jamarr-chase-leaves-for-a-concussion-evaluation",
+    "publishedAt": "2026-10-04T17:53:14.000Z",
+    "type": "Injury",
+    "headline": "Ja'Marr Chase leaves for a concussion evaluation",
+    "summary": "Chase was injured after having his facemask grabbed on a tackle.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jamarr-chase-leaves-for-a-concussion-evaluation",
+    "sourceName": "Pro Football Talk"
   },
   {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/tyson-bagent-is-expected-to-start-for-the-bears-on-sunday-vs-jets",
-    "publishedAt": "2026-10-04T00:12:05.000Z",
-    "type": "Analysis",
-    "headline": "Tyson Bagent is expected to start for the Bears on Sunday vs. Jets",
-    "summary": "Case Keenum will take a seat on the bench, after beating the Eagles on Monday night.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/tyson-bagent-is-expected-to-start-for-the-bears-on-sunday-vs-jets",
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/saquon-barkley-questionable-to-return-with-hamstring-injury",
+    "publishedAt": "2026-10-04T17:21:13.000Z",
+    "type": "Injury",
+    "headline": "Saquon Barkley questionable to return with hamstring injury",
+    "summary": "Already playing shorthanded, the Eagles now have another injury concern to a star player.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/saquon-barkley-questionable-to-return-with-hamstring-injury",
     "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/lane-johnson-questionable-for-sundays-game-for-personal-reasons",
+    "publishedAt": "2026-10-04T15:19:04.000Z",
+    "type": "Injury",
+    "headline": "Lane Johnson questionable for Sunday's game for personal reasons",
+    "summary": "The Eagles could be without right tackle Lane Johnson for Sunday's game against the Rams.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/lane-johnson-questionable-for-sundays-game-for-personal-reasons",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "50099497",
+    "publishedAt": "2026-10-04T14:56:58Z",
+    "type": "Injury",
+    "headline": "Source: Steelers' Derrick Harmon expected to miss multiple weeks",
+    "summary": "Steelers defensive tackle Derrick Harmon, who was carted off the field Thursday night with a foot injury, is expected to miss a few weeks, a source told NFL Network.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50099497/source-steelers-derrick-harmon-expected-miss-multiple-weeks",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50099334",
+    "publishedAt": "2026-10-04T14:39:19Z",
+    "type": "Injury",
+    "headline": "Commanders WR Terry McLaurin inactive after Friday injury",
+    "summary": "Commanders wide receiver Terry McLaurin will not play against the Colts because of a hamstring injury suffered in practice Friday.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50099334/commanders-wr-terry-mclaurin-inactive-friday-injury",
+    "sourceName": "ESPN"
   }
 ]
