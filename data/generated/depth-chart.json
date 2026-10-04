@@ -116,13 +116,13 @@
     "position": "RG",
     "players": [
       {
-        "playerId": "4428394",
-        "playerName": "Walter Rouse",
+        "playerId": "4362890",
+        "playerName": "Ben Brown",
         "rank": 1
       },
       {
-        "playerId": "4362890",
-        "playerName": "Ben Brown",
+        "playerId": "4428394",
+        "playerName": "Walter Rouse",
         "rank": 2
       },
       {
@@ -271,10 +271,16 @@
         "rank": 1
       },
       {
+        "playerId": "4611993",
+        "playerName": "Joshua Farmer",
+        "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/euamsvbjrgz3i0difj1b",
+        "rank": 2
+      },
+      {
         "playerId": "4431598",
         "playerName": "Leonard Taylor III",
         "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/id0gc6aoq3qfokpcu9os",
-        "rank": 2
+        "rank": 3
       }
     ]
   },
@@ -305,12 +311,6 @@
         "playerName": "DaQuan Jones",
         "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/w7qkicdj6v0figbmfp0u",
         "rank": 2
-      },
-      {
-        "playerId": "4611993",
-        "playerName": "Joshua Farmer",
-        "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/euamsvbjrgz3i0difj1b",
-        "rank": 3
       }
     ]
   },
@@ -421,22 +421,16 @@
         "rank": 1
       },
       {
-        "playerId": "4368113",
-        "playerName": "Charles Woods",
-        "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/wwypndzfrfidulshfdog",
-        "rank": 2
-      },
-      {
         "playerId": "4688779",
         "playerName": "Channing Canada",
         "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/aaidtccosmwngboptnkf",
-        "rank": 3
+        "rank": 2
       },
       {
         "playerId": "4036651",
         "playerName": "Kindle Vildor",
         "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ep3iocz1qboqkcj16aoc",
-        "rank": 4
+        "rank": 3
       }
     ]
   },
@@ -499,10 +493,16 @@
         "rank": 1
       },
       {
+        "playerId": "4368113",
+        "playerName": "Charles Woods",
+        "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/wwypndzfrfidulshfdog",
+        "rank": 2
+      },
+      {
         "playerId": "4606666",
         "playerName": "Karon Prunty",
         "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ys7zvtbqlaobsxgtigxu",
-        "rank": 2
+        "rank": 3
       }
     ]
   },

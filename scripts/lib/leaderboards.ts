@@ -27,12 +27,20 @@ export interface PlayerStatLine {
 // What counts as a target and a carry — shared with the "see the plays"
 // lists (build-roster-data.ts) so a player's list is exactly the plays
 // his board line counts.
+// Two-point tries aren't targets or carries in the official box score
+// (the same rule as pass attempts in boxScore.ts). The first NE two-point
+// pass of 2026 put Stevenson one target over nflverse's count.
 export function isTargetFor(r: PbpRow, team: string): boolean {
-  return r.posteam === team && bool01(r.pass_attempt) && !!receiverId(r);
+  return r.posteam === team && bool01(r.pass_attempt) && !bool01(r.two_point_attempt) && !!receiverId(r);
 }
 
 export function isCarryFor(r: PbpRow, team: string): boolean {
-  return r.posteam === team && (r.play_type === "run" || r.play_type === "qb_kneel") && !!rusherId(r);
+  return (
+    r.posteam === team &&
+    (r.play_type === "run" || r.play_type === "qb_kneel") &&
+    !bool01(r.two_point_attempt) &&
+    !!rusherId(r)
+  );
 }
 
 function describe(

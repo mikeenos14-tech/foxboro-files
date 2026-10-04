@@ -6,10 +6,10 @@
     "homeAway": "away",
     "opponentRecord": "2-1",
     "opponentPointDiff": 25,
-    "opponentEpaRank": 4,
+    "opponentEpaRank": 5,
     "strengthOfSchedule": {
-      "season": 20.333333333333332,
-      "opponentSos": -16.666666666666668
+      "season": 21.5,
+      "opponentSos": -25.333333333333332
     },
     "restDays": 7,
     "opponentRestDays": 7,
@@ -29,10 +29,10 @@
     "homeAway": "home",
     "opponentRecord": "2-2",
     "opponentPointDiff": -10,
-    "opponentEpaRank": 26,
+    "opponentEpaRank": 27,
     "strengthOfSchedule": {
-      "season": 20.333333333333332,
-      "opponentSos": -7.25
+      "season": 21.5,
+      "opponentSos": -7.75
     },
     "restDays": 11,
     "opponentRestDays": 7,
@@ -50,12 +50,12 @@
     "week": 3,
     "opponent": "JAX",
     "homeAway": "away",
-    "opponentRecord": "2-1",
-    "opponentPointDiff": 46,
+    "opponentRecord": "3-1",
+    "opponentPointDiff": 51,
     "opponentEpaRank": 2,
     "strengthOfSchedule": {
-      "season": 20.333333333333332,
-      "opponentSos": -13
+      "season": 21.5,
+      "opponentSos": -6
     },
     "restDays": 7,
     "opponentRestDays": 7,
@@ -73,18 +73,20 @@
     "week": 4,
     "opponent": "BUF",
     "homeAway": "away",
-    "opponentRecord": "3-0",
-    "opponentPointDiff": 23,
-    "opponentEpaRank": 7,
+    "opponentRecord": "3-1",
+    "opponentPointDiff": 20,
+    "opponentEpaRank": 9,
     "strengthOfSchedule": {
-      "season": 20.333333333333332,
-      "opponentSos": -18.333333333333332
+      "season": 21.5,
+      "opponentSos": -17.75
     },
     "restDays": 7,
     "opponentRestDays": 7,
     "isDivisional": true,
     "isConference": true,
-    "winProbabilityEstimate": 0.3123324914724541,
+    "result": "W",
+    "ourScore": 29,
+    "theirScore": 26,
     "date": "2026-10-04",
     "venue": "Highmark Stadium",
     "kickoffTimeEt": "13:00"
@@ -98,14 +100,14 @@
     "opponentPointDiff": 34,
     "opponentEpaRank": 12,
     "strengthOfSchedule": {
-      "season": 20.333333333333332,
+      "season": 21.5,
       "opponentSos": -28
     },
     "restDays": 7,
     "opponentRestDays": 7,
     "isDivisional": false,
     "isConference": true,
-    "winProbabilityEstimate": 0.4794554509238274,
+    "winProbabilityEstimate": 0.4806155798383498,
     "date": "2026-10-11",
     "venue": "Gillette Stadium",
     "kickoffTimeEt": "13:00"
@@ -115,18 +117,18 @@
     "week": 6,
     "opponent": "NYJ",
     "homeAway": "home",
-    "opponentRecord": "1-2",
-    "opponentPointDiff": 3,
-    "opponentEpaRank": 18,
+    "opponentRecord": "1-3",
+    "opponentPointDiff": -8,
+    "opponentEpaRank": 15,
     "strengthOfSchedule": {
-      "season": 20.333333333333332,
-      "opponentSos": -19.666666666666668
+      "season": 21.5,
+      "opponentSos": -3.75
     },
     "restDays": 7,
     "opponentRestDays": 7,
     "isDivisional": true,
     "isConference": true,
-    "winProbabilityEstimate": 0.5572227986893868,
+    "winProbabilityEstimate": 0.5094955841291223,
     "date": "2026-10-18",
     "venue": "Gillette Stadium",
     "kickoffTimeEt": "13:00"
@@ -136,18 +138,18 @@
     "week": 7,
     "opponent": "CHI",
     "homeAway": "away",
-    "opponentRecord": "2-1",
-    "opponentPointDiff": 36,
-    "opponentEpaRank": 5,
+    "opponentRecord": "3-1",
+    "opponentPointDiff": 47,
+    "opponentEpaRank": 6,
     "strengthOfSchedule": {
-      "season": 20.333333333333332,
-      "opponentSos": 7.333333333333333
+      "season": 21.5,
+      "opponentSos": 2.5
     },
     "restDays": 4,
     "opponentRestDays": 4,
     "isDivisional": false,
     "isConference": false,
-    "winProbabilityEstimate": 0.27583145504875717,
+    "winProbabilityEstimate": 0.2594094380439621,
     "date": "2026-10-22",
     "venue": "Soldier Field",
     "kickoffTimeEt": "20:15"
@@ -161,14 +163,14 @@
     "opponentPointDiff": -50,
     "opponentEpaRank": 32,
     "strengthOfSchedule": {
-      "season": 20.333333333333332,
+      "season": 21.5,
       "opponentSos": 40
     },
     "restDays": 10,
     "opponentRestDays": 7,
     "isDivisional": true,
     "isConference": true,
-    "winProbabilityEstimate": 0.701072067690978,
+    "winProbabilityEstimate": 0.7020015671262106,
     "date": "2026-11-01",
     "venue": "Hard Rock Stadium",
     "kickoffTimeEt": "16:25"
@@ -178,18 +180,18 @@
     "week": 9,
     "opponent": "GB",
     "homeAway": "home",
-    "opponentRecord": "1-2",
-    "opponentPointDiff": -35,
-    "opponentEpaRank": 27,
+    "opponentRecord": "2-2",
+    "opponentPointDiff": -32,
+    "opponentEpaRank": 29,
     "strengthOfSchedule": {
-      "season": 20.333333333333332,
-      "opponentSos": 5.333333333333333
+      "season": 21.5,
+      "opponentSos": -3.75
     },
     "restDays": 7,
     "opponentRestDays": 10,
     "isDivisional": false,
     "isConference": false,
-    "winProbabilityEstimate": 0.6775682912568868,
+    "winProbabilityEstimate": 0.7053902646355245,
     "date": "2026-11-08",
     "venue": "Gillette Stadium",
     "kickoffTimeEt": "16:25"
@@ -201,16 +203,16 @@
     "homeAway": "away",
     "opponentRecord": "2-1",
     "opponentPointDiff": -2,
-    "opponentEpaRank": 13,
+    "opponentEpaRank": 14,
     "strengthOfSchedule": {
-      "season": 20.333333333333332,
-      "opponentSos": 8
+      "season": 21.5,
+      "opponentSos": 3.3333333333333335
     },
     "restDays": 7,
     "opponentRestDays": 7,
     "isDivisional": false,
     "isConference": false,
-    "winProbabilityEstimate": 0.43992049969988045,
+    "winProbabilityEstimate": 0.45271401558463864,
     "date": "2026-11-15",
     "venue": "FC Bayern Munich Stadium",
     "kickoffTimeEt": "09:30"
@@ -224,14 +226,14 @@
     "opponentPointDiff": -32,
     "opponentEpaRank": 28,
     "strengthOfSchedule": {
-      "season": 20.333333333333332,
-      "opponentSos": 13
+      "season": 21.5,
+      "opponentSos": 8
     },
     "restDays": 14,
     "opponentRestDays": 7,
     "isDivisional": false,
     "isConference": true,
-    "winProbabilityEstimate": 0.6286003879198444,
+    "winProbabilityEstimate": 0.6397151893576903,
     "date": "2026-11-29",
     "venue": "SoFi Stadium",
     "kickoffTimeEt": "20:20"
@@ -241,18 +243,18 @@
     "week": 13,
     "opponent": "BUF",
     "homeAway": "home",
-    "opponentRecord": "3-0",
-    "opponentPointDiff": 23,
-    "opponentEpaRank": 7,
+    "opponentRecord": "3-1",
+    "opponentPointDiff": 20,
+    "opponentEpaRank": 9,
     "strengthOfSchedule": {
-      "season": 20.333333333333332,
-      "opponentSos": -18.333333333333332
+      "season": 21.5,
+      "opponentSos": -17.75
     },
     "restDays": 7,
     "opponentRestDays": 10,
     "isDivisional": true,
     "isConference": true,
-    "winProbabilityEstimate": 0.3679033855751066,
+    "winProbabilityEstimate": 0.4517266533905002,
     "date": "2026-12-06",
     "venue": "Gillette Stadium",
     "kickoffTimeEt": "16:25"
@@ -266,14 +268,14 @@
     "opponentPointDiff": 30,
     "opponentEpaRank": 11,
     "strengthOfSchedule": {
-      "season": 20.333333333333332,
-      "opponentSos": -5.333333333333333
+      "season": 21.5,
+      "opponentSos": -1.6666666666666667
     },
     "restDays": 4,
     "opponentRestDays": 4,
     "isDivisional": false,
     "isConference": false,
-    "winProbabilityEstimate": 0.4714381114036654,
+    "winProbabilityEstimate": 0.46803521537145765,
     "date": "2026-12-10",
     "venue": "Gillette Stadium",
     "kickoffTimeEt": "20:15"
@@ -287,14 +289,14 @@
     "opponentPointDiff": 38,
     "opponentEpaRank": 3,
     "strengthOfSchedule": {
-      "season": 20.333333333333332,
-      "opponentSos": -26.333333333333332
+      "season": 21.5,
+      "opponentSos": -20.666666666666668
     },
     "restDays": 11,
     "opponentRestDays": 8,
     "isDivisional": false,
     "isConference": true,
-    "winProbabilityEstimate": 0.25204170148031646,
+    "winProbabilityEstimate": 0.24530666290316752,
     "date": "2026-12-21",
     "venue": "GEHA Field at Arrowhead Stadium",
     "kickoffTimeEt": "20:15"
@@ -304,18 +306,18 @@
     "week": 16,
     "opponent": "NYJ",
     "homeAway": "away",
-    "opponentRecord": "1-2",
-    "opponentPointDiff": 3,
-    "opponentEpaRank": 18,
+    "opponentRecord": "1-3",
+    "opponentPointDiff": -8,
+    "opponentEpaRank": 15,
     "strengthOfSchedule": {
-      "season": 20.333333333333332,
-      "opponentSos": -19.666666666666668
+      "season": 21.5,
+      "opponentSos": -3.75
     },
     "restDays": 6,
     "opponentRestDays": 7,
     "isDivisional": true,
     "isConference": true,
-    "winProbabilityEstimate": 0.5072227986893868,
+    "winProbabilityEstimate": 0.4594955841291223,
     "date": "2026-12-27",
     "venue": "MetLife Stadium",
     "kickoffTimeEt": "13:00"
@@ -327,16 +329,16 @@
     "homeAway": "home",
     "opponentRecord": "2-1",
     "opponentPointDiff": -10,
-    "opponentEpaRank": 14,
+    "opponentEpaRank": 13,
     "strengthOfSchedule": {
-      "season": 20.333333333333332,
-      "opponentSos": 27.333333333333332
+      "season": 21.5,
+      "opponentSos": 30.333333333333332
     },
     "restDays": 7,
     "opponentRestDays": 9,
     "isDivisional": false,
     "isConference": true,
-    "winProbabilityEstimate": 0.5096658060522852,
+    "winProbabilityEstimate": 0.49253502430966856,
     "date": "2027-01-03",
     "venue": "Gillette Stadium",
     "kickoffTimeEt": "13:00"
@@ -350,14 +352,14 @@
     "opponentPointDiff": -50,
     "opponentEpaRank": 32,
     "strengthOfSchedule": {
-      "season": 20.333333333333332,
+      "season": 21.5,
       "opponentSos": 40
     },
     "restDays": 7,
     "opponentRestDays": 7,
     "isDivisional": true,
     "isConference": true,
-    "winProbabilityEstimate": 0.751072067690978,
+    "winProbabilityEstimate": 0.7520015671262107,
     "date": "2027-01-10",
     "venue": "Gillette Stadium",
     "kickoffTimeEt": "13:00"

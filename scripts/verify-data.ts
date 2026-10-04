@@ -16,6 +16,7 @@
 import { readFile } from "node:fs/promises";
 import path from "node:path";
 import { loadCsv } from "./lib/csv";
+import { loadRegularSeasonPbp } from "./lib/pbp";
 import type { GamePlays, GameRecap, LeaderPlays, SplitPlays, TeamLeaderboards } from "../lib/data/types";
 
 const GENERATED_DIR = path.join(process.cwd(), "data", "generated");
@@ -413,6 +414,39 @@ async function checkPlayLists(): Promise<string[]> {
 //
 // Comparing against an independently-produced aggregation of the same
 // underlying games is the check that catches this whole class at once.
+// nflverse publishes play-by-play within hours of a game but its season
+// aggregates and Next Gen Stats a day or more later. On a Sunday the site
+// is four games deep while those files are three, and comparing the two
+// is a guaranteed failure that blocked the whole post-game refresh (run
+// #46). So each outside source is compared only when it covers every
+// week the play-by-play does; otherwise it's skipped with a notice, and
+// the next day's run checks it.
+let pbpWeeksCache: Map<string, number> | null = null;
+/** The latest week each team has play-by-play for (teams play on different days). */
+async function pbpWeekByTeam(): Promise<Map<string, number>> {
+  if (pbpWeeksCache) return pbpWeeksCache;
+  const m = new Map<string, number>();
+  try {
+    for (const r of await loadRegularSeasonPbp("play_by_play_2026.csv")) {
+      const w = Number(r.week) || 0;
+      for (const t of [r.posteam, r.defteam]) if (t) m.set(t, Math.max(m.get(t) ?? 0, w));
+    }
+  } catch {
+    // No play-by-play: nothing to compare coverage against.
+  }
+  pbpWeeksCache = m;
+  return m;
+}
+async function latestPbpWeek(): Promise<number> {
+  return Math.max(0, ...(await pbpWeekByTeam()).values());
+}
+function lagNotice(source: string, covered: number, pbpWeek: number): string | null {
+  if (covered >= pbpWeek) return null;
+  const msg = `   ↷ ${source} covers through Week ${covered}; play-by-play has Week ${pbpWeek}. Skipped until it catches up.`;
+  console.log(msg);
+  return msg;
+}
+
 async function checkAgainstOfficialStats(): Promise<string[]> {
   const failures: string[] = [];
   const boards = JSON.parse(
@@ -434,6 +468,11 @@ async function checkAgainstOfficialStats(): Promise<string[]> {
     }
     return failures;
   }
+  // The aggregate has no week column; a player who's played every game
+  // has `games` equal to the weeks it covers.
+  const coveredWeeks = allOfficial.reduce((m, r) => Math.max(m, Number(r.games) || 0), 0);
+  if (lagNotice("nflverse's player stats", coveredWeeks, await latestPbpWeek())) return failures;
+
   const official = allOfficial.filter((r) => r.recent_team === TEAM);
   if (official.length === 0) {
     if (siteShowsStats) failures.push(`nflverse's player stats have no ${TEAM} rows, but the site shows ${TEAM} stats`);
@@ -542,12 +581,20 @@ async function checkAgainstOfficialStats(): Promise<string[]> {
 // Gen Stats' season rows carry completions, attempts, yards, TDs and INTs
 // for every qualified QB. Two outside sources agreeing with the site is a
 // much stronger check than one.
+let ngsWeekByQb = new Map<string, number>();
 async function checkAgainstNextGenStats(): Promise<string[]> {
   let rows: Array<Record<string, string>>;
   try {
-    rows = (await loadCsv<Record<string, string>>("ngs_passing.csv")).filter(
-      (r) => r.season === "2026" && r.season_type === "REG" && r.week === "0"
+    const season = (await loadCsv<Record<string, string>>("ngs_passing.csv")).filter(
+      (r) => r.season === "2026" && r.season_type === "REG"
     );
+    // NGS lands a game at a time, so coverage is judged per QB below.
+    ngsWeekByQb = new Map();
+    for (const r of season) {
+      if (r.week === "0") continue;
+      ngsWeekByQb.set(r.player_gsis_id, Math.max(ngsWeekByQb.get(r.player_gsis_id) ?? 0, Number(r.week) || 0));
+    }
+    rows = season.filter((r) => r.week === "0");
   } catch {
     return ["data/raw/ngs_passing.csv is missing, so passing wasn't cross-checked against Next Gen Stats — run `npx tsx scripts/fetch-nflverse.ts`"];
   }
@@ -555,10 +602,16 @@ async function checkAgainstNextGenStats(): Promise<string[]> {
     Array<{ playerId: string; playerName: string; team: string; completions: number; attempts: number; yards: number; tds: number; ints: number }>
   >("qb-league-table.json");
   const byId = new Map(rows.map((r) => [r.player_gsis_id, r]));
+  const teamWeek = await pbpWeekByTeam();
   const failures: string[] = [];
+  const skipped: string[] = [];
   for (const qb of league) {
     const o = byId.get(qb.playerId);
     if (!o || o.team_abbr !== qb.team) continue;
+    if ((ngsWeekByQb.get(qb.playerId) ?? 0) < (teamWeek.get(qb.team) ?? 0)) {
+      skipped.push(qb.team);
+      continue;
+    }
     const expect: Array<[string, number, number]> = [
       ["completions", qb.completions, Number(o.completions)],
       ["pass attempts", qb.attempts, Number(o.attempts)],
@@ -571,6 +624,9 @@ async function checkAgainstNextGenStats(): Promise<string[]> {
         failures.push(`${qb.playerName} (${qb.team}) ${what}: site ${ours}, Next Gen Stats ${theirs}`);
       }
     }
+  }
+  if (skipped.length > 0) {
+    console.log(`   ↷ Next Gen Stats doesn't have this week's game yet for ${skipped.join(", ")}; those QBs are checked tomorrow.`);
   }
   return failures;
 }

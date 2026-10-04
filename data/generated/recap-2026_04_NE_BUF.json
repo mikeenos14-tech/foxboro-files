@@ -1,0 +1,211 @@
+{
+  "gameId": "2026_04_NE_BUF",
+  "narrative": "New England beat BUF 29-26. The offense posted 0.19 EPA/play (51% success rate) while the defense allowed 0.10 EPA/play. Turnover margin was 0.",
+  "epaPerPlay": {
+    "offense": 0.19110966435690463,
+    "defense": 0.09946420827850588
+  },
+  "successRate": {
+    "offense": 0.5138888888888888,
+    "defense": 0.4,
+    "leagueAverage": 0.43862381424323943
+  },
+  "turnoverMargin": 0,
+  "pointsOffTurnovers": {
+    "for": 0,
+    "against": 0
+  },
+  "explosivePlayRate": {
+    "for": 0.1527777777777778,
+    "against": 0.14545454545454545
+  },
+  "redZone": {
+    "offense": {
+      "att": 4,
+      "td": 4
+    },
+    "defense": {
+      "att": 5,
+      "td": 3
+    }
+  },
+  "thirdDown": {
+    "offense": {
+      "att": 11,
+      "conv": 5
+    },
+    "defense": {
+      "att": 12,
+      "conv": 6
+    }
+  },
+  "winProbabilityTimeline": [
+    {
+      "playIndex": 0,
+      "quarter": 1,
+      "clock": "15:00",
+      "homeWinProb": 0.546261787414551
+    },
+    {
+      "playIndex": 8,
+      "quarter": 1,
+      "clock": "12:16",
+      "homeWinProb": 0.517709732055664
+    },
+    {
+      "playIndex": 16,
+      "quarter": 1,
+      "clock": "07:40",
+      "homeWinProb": 0.455632209777832
+    },
+    {
+      "playIndex": 24,
+      "quarter": 1,
+      "clock": "04:31",
+      "homeWinProb": 0.337225496768951
+    },
+    {
+      "playIndex": 32,
+      "quarter": 1,
+      "clock": "00:35",
+      "homeWinProb": 0.389845818281174
+    },
+    {
+      "playIndex": 40,
+      "quarter": 2,
+      "clock": "13:31",
+      "homeWinProb": 0.457502841949463
+    },
+    {
+      "playIndex": 48,
+      "quarter": 2,
+      "clock": "08:43",
+      "homeWinProb": 0.544454097747803
+    },
+    {
+      "playIndex": 56,
+      "quarter": 2,
+      "clock": "05:38",
+      "homeWinProb": 0.30297758755399
+    },
+    {
+      "playIndex": 64,
+      "quarter": 2,
+      "clock": "01:51",
+      "homeWinProb": 0.368255764245987
+    },
+    {
+      "playIndex": 72,
+      "quarter": 2,
+      "clock": "00:53",
+      "homeWinProb": 0.498109519481659
+    },
+    {
+      "playIndex": 80,
+      "quarter": 2,
+      "clock": "00:02",
+      "homeWinProb": 0.602455079555512
+    },
+    {
+      "playIndex": 88,
+      "quarter": 3,
+      "clock": "11:49",
+      "homeWinProb": 0.557454645633698
+    },
+    {
+      "playIndex": 96,
+      "quarter": 3,
+      "clock": "08:54",
+      "homeWinProb": 0.41628110408783
+    },
+    {
+      "playIndex": 104,
+      "quarter": 3,
+      "clock": "06:32",
+      "homeWinProb": 0.322939425706863
+    },
+    {
+      "playIndex": 112,
+      "quarter": 3,
+      "clock": "03:33",
+      "homeWinProb": 0.38020658493042
+    },
+    {
+      "playIndex": 120,
+      "quarter": 3,
+      "clock": "00:56",
+      "homeWinProb": 0.35920250415802
+    },
+    {
+      "playIndex": 128,
+      "quarter": 4,
+      "clock": "13:00",
+      "homeWinProb": 0.550486922264099
+    },
+    {
+      "playIndex": 136,
+      "quarter": 4,
+      "clock": "09:09",
+      "homeWinProb": 0.407558381557465
+    },
+    {
+      "playIndex": 144,
+      "quarter": 4,
+      "clock": "05:06",
+      "homeWinProb": 0.513931155204773
+    },
+    {
+      "playIndex": 152,
+      "quarter": 4,
+      "clock": "03:00",
+      "homeWinProb": 0.743167251348496
+    },
+    {
+      "playIndex": 160,
+      "quarter": 4,
+      "clock": "01:21",
+      "homeWinProb": 0.362268298864365
+    },
+    {
+      "playIndex": 168,
+      "quarter": 4,
+      "clock": "00:42",
+      "homeWinProb": 0.0571349859237671
+    },
+    {
+      "playIndex": 171,
+      "quarter": 4,
+      "clock": "00:00",
+      "homeWinProb": 0
+    }
+  ],
+  "goodBadUgly": {
+    "good": [
+      "Scored touchdowns on 4 of 4 red-zone trips (100%), well above the 55% league norm.",
+      "The offense averaged +0.19 EPA per play — better than an average offense."
+    ],
+    "bad": [
+      "The defense allowed +0.10 EPA per play — worse than an average defense."
+    ],
+    "ugly": []
+  },
+  "playerOfTheGame": {
+    "playerId": "00-0039851",
+    "playerName": "Drake Maye",
+    "wpa": 0.5578894238623422,
+    "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/s1nmoon2xnrc3bnyulv4",
+    "reason": "Mostly as a passer."
+  },
+  "scoring": {
+    "us": {
+      "td": 4,
+      "fg": 0,
+      "safety": 0
+    },
+    "them": {
+      "td": 3,
+      "fg": 2,
+      "safety": 0
+    }
+  }
+}
