@@ -1,5 +1,41 @@
 [
   {
+    "id": "f846f81a-c81e-4e10-b2ed-0a4e7be33127",
+    "publishedAt": "2026-10-04T00:13:00.000Z",
+    "type": "Analysis",
+    "headline": "How to Watch and Stream Sunday's Patriots Game Against the Bills | NFL Week 4",
+    "summary": "Complete broadcast information for this week's game between the New England Patriots and the Buffalo Bills on Sunday, October 4, 2026 at 1 PM ET.",
+    "sourceUrl": "https://www.patriots.com/news/how-to-watch-and-stream-sunday-s-patriots-game-against-the-bills-nfl-week-4",
+    "sourceName": "Patriots.com"
+  },
+  {
+    "id": "50087681",
+    "publishedAt": "2026-10-03T22:00:02Z",
+    "type": "Transaction",
+    "headline": "Patriots preach patience when it comes to receiver WR Romeo Doubs' modest start",
+    "summary": "After the Patriots signed him to a four-year deal in March, Doubs is searching for his footing in the offense entering Week 4.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50087681/patriots-romeo-doubs-bills-game",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "17d57701-8342-41d6-8c64-1780c301e376",
+    "publishedAt": "2026-10-03T20:00:00.000Z",
+    "type": "Transaction",
+    "headline": "Patriots Elevate S Mike Brown and CB Kindle Vildor from the Practice Squad to the Active Roster",
+    "summary": "The Patriots announced today that they have elevated S Mike Brown and CB Kindle Vildor from the practice squad to the active roster",
+    "sourceUrl": "https://www.patriots.com/news/patriots-elevate-s-mike-brown-and-cb-kindle-vildor-from-the-practice-squad-to-the-active-roster",
+    "sourceName": "Patriots.com"
+  },
+  {
+    "id": "cb62724b-dd41-4e6e-beac-22dde531d80e",
+    "publishedAt": "2026-10-03T20:00:00.000Z",
+    "type": "Injury",
+    "headline": "Roster Analysis: Seven Questionable Patriots Make the Trip to Buffalo, Two Elevated from the Practice Squad for Week 4 vs. Bills",
+    "summary": "S Mike Brown and CB Kindle Vildor were elevated from the practice squad for Sunday's game vs. the Bills.",
+    "sourceUrl": "https://www.patriots.com/news/roster-analysis-seven-questionable-patriots-make-the-trip-to-buffalo-two-elevated-from-the-practice-squad-for-week-4-vs-bills",
+    "sourceName": "Patriots.com"
+  },
+  {
     "id": "50087420",
     "publishedAt": "2026-10-03T00:55:09Z",
     "type": "Analysis",
@@ -24,33 +60,6 @@
     "headline": "Injury Report Analysis: Patriots rule out Christian Gonzalez and Christian Barmore for Sunday's Week 4 matchup vs. Bills",
     "summary": "Barmore and Gonzalez will miss Sunday's game in Buffalo due to shoulder injuries.",
     "sourceUrl": "https://www.patriots.com/news/injury-report-analysis-patriots-rule-out-christian-gonzalez-and-christian-barmore-for-sunday-s-week-4-matchup-vs-bills",
-    "sourceName": "Patriots.com"
-  },
-  {
-    "id": "ae6c5cfd-7658-4c47-bc66-32d24e7544fa",
-    "publishedAt": "2026-10-02T15:14:00.000Z",
-    "type": "Analysis",
-    "headline": "Expert Predictions: Week 4 Picks for Patriots at Bills",
-    "summary": "Experts share their picks for the Patriots Week 4 matchup against the Buffalo Bills.",
-    "sourceUrl": "https://www.patriots.com/news/expert-predictions-week-4-picks-for-patriots-at-bills",
-    "sourceName": "Patriots.com"
-  },
-  {
-    "id": "41c422b2-542c-4354-b43d-66a3fe7c303e",
-    "publishedAt": "2026-10-02T15:01:57.000Z",
-    "type": "Analysis",
-    "headline": "New England's Mack Hollins Named Week 4 NFLPA Community MVP",
-    "summary": "Mack Hollins has been selected as the Week 4 NFLPA Community\nMVP after hosting the Special Olympics Family Field Day for 125 athletes and their families.",
-    "sourceUrl": "https://www.patriots.com/news/new-england-s-mack-hollins-named-week-4-nflpa-community-mvp",
-    "sourceName": "Patriots.com"
-  },
-  {
-    "id": "e6c91dde-5ede-4912-8597-81e0c544be56",
-    "publishedAt": "2026-10-02T15:00:43.000Z",
-    "type": "Analysis",
-    "headline": "Mack Hollins named Week 4 NFLPA Community MVP after hosting Special Olympics Field Day",
-    "summary": "New England Patriots wide receiver Mack Hollins was named the Week 4 NFLPA Community MVP on Friday after recently hosting a Special Olympics Field Day for over 100 athletes and their families.",
-    "sourceUrl": "https://www.patriots.com/news/mack-hollins-named-week-4-nflpa-community-mvp-after-hosting-special-olympics-field-day",
     "sourceName": "Patriots.com"
   },
   {
