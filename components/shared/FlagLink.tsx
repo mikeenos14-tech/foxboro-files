@@ -29,7 +29,7 @@ export function FlagLink({
       href={`${FLAG_URL}?${params.toString()}`}
       target="_blank"
       rel="noopener noreferrer"
-      className={`inline-block text-[11px] text-muted underline hover:text-foreground ${className}`}
+      className={`inline-block py-1 text-[11px] text-muted underline hover:text-foreground ${className}`}
     >
       Something look off? Flag it
     </a>

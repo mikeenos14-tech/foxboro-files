@@ -13,6 +13,7 @@ export function WeeklyTrend({ recaps }: { recaps: Array<{ game: Game; recap: Gam
       const them = isHome ? game.awayScore : game.homeScore;
       const result = us === undefined || them === undefined ? "" : ` · ${us > them ? "W" : us < them ? "L" : "T"} ${us}-${them}`;
       return {
+        gameId: game.id,
         week: game.week,
         game: `${opponentLabel(isHome ? game.awayTeam : game.homeTeam, isHome)}${result}`,
         offense: recap.epaPerPlay.offense,
@@ -27,7 +28,7 @@ export function WeeklyTrend({ recaps }: { recaps: Array<{ game: Game; recap: Gam
       <p className="mt-1 text-sm text-muted">
         EPA per play in each game. Offense wants to be above the line, defense below it. Single
         games are noisy (and not adjusted for the opponent), so look for the direction, not one
-        point.
+        point. Tap a point to open that game&apos;s recap.
       </p>
       <div className="mt-3">
         <WeeklyTrendChart points={points} />

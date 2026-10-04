@@ -1,5 +1,6 @@
 "use client";
 
+import { tabKeyTarget } from "@/lib/util/tabKeys";
 import { useState } from "react";
 import type { LeaderPlays, PlayerStatLine, TeamLeaderboards } from "@/lib/data/types";
 import { PlayerHeadshot } from "@/components/shared/PlayerHeadshot";
@@ -47,12 +48,20 @@ export function Leaderboards({ leaders }: { leaders: TeamLeaderboards }) {
 
   return (
     <div className="lift overflow-hidden rounded-lg border border-border bg-surface">
-      <div className="flex gap-1 border-b border-border p-2" role="tablist">
+      <div
+        className="flex gap-1 border-b border-border p-2"
+        role="tablist"
+        onKeyDown={(e) => {
+          const next = tabKeyTarget(e, BOARDS.findIndex((b) => b.key === board), BOARDS.length);
+          if (next !== null) setBoard(BOARDS[next].key);
+        }}
+      >
         {BOARDS.map((b) => (
           <button
             key={b.key}
             role="tab"
             aria-selected={board === b.key}
+            tabIndex={board === b.key ? 0 : -1}
             onClick={() => setBoard(b.key)}
             className={`rounded-md px-3 py-1.5 text-sm font-medium transition-colors ${
               board === b.key
@@ -115,7 +124,7 @@ function LeaderRow({ player, rank, onOpen }: { player: PlayerStatLine; rank: num
           {player.stats.map((s) => (
             <span key={s.label} className="block min-w-0 sm:min-w-[2.5rem]">
               <span className="block text-sm font-semibold tabular-nums text-foreground">{s.value}</span>
-              <span className="block text-[10px] uppercase tracking-wide text-muted">{s.label}</span>
+              <span className="block text-[11px] uppercase tracking-wide text-muted">{s.label}</span>
             </span>
           ))}
         </span>

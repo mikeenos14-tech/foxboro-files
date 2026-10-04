@@ -7,6 +7,7 @@ import { PercentBar } from "@/components/shared/PercentBar";
 import { useWindowParam } from "@/lib/hooks/useWindowParam";
 import { ordinal } from "@/lib/calc/ranks";
 import { formatUnitRate } from "@/lib/util/format";
+import { tabKeyTarget } from "@/lib/util/tabKeys";
 
 // Every team's grade for one unit, ranked — "how does our pass defense
 // compare to the rest of the league" answered directly, instead of one
@@ -89,13 +90,21 @@ export function UnitRankings({
   return (
     <div className="lift overflow-hidden rounded-lg border border-border bg-surface">
       <div className="relative border-b border-border">
-        <div role="tablist" className="relative flex gap-1 overflow-x-auto p-2 sm:flex-wrap">
+        <div
+          role="tablist"
+          className="relative flex gap-1 overflow-x-auto p-2 sm:flex-wrap"
+          onKeyDown={(e) => {
+            const next = tabKeyTarget(e, units.indexOf(unit), units.length);
+            if (next !== null) setUnit(units[next]);
+          }}
+        >
           {units.map((u) => (
             <button
               key={u}
               ref={unit === u ? selectedRef : undefined}
               role="tab"
               aria-selected={unit === u}
+              tabIndex={unit === u ? 0 : -1}
               onClick={() => setUnit(u)}
               className={`shrink-0 whitespace-nowrap rounded-md px-3 py-1.5 text-sm font-medium transition-colors ${
                 unit === u ? "bg-red text-white" : "text-muted hover:bg-navy/10 hover:text-foreground"

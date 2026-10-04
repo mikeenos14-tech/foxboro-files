@@ -7,7 +7,7 @@ A page-by-page rundown of what's actually live on the site (foxboro-files.vercel
 - Team identity header: record, division rank, playoff odds (with a probability bar), then two full-width strips: Next Up (opponent, day, kickoff time, TV network, countdown, line) and the last result with a link to its recap.
 - One-sentence season-snapshot banner (record, streak, point differential).
 - Team Strength vs. League: point differential, offensive/defensive EPA/play (opponent-adjusted), success rate and yards/play — all ranked, with a Last Game / 2025 Season filter.
-- Week by Week chart: offense EPA/play gained and defense allowed in every game, with a game-by-game table underneath — "are we getting better?"
+- Week by Week chart: offense EPA/play gained and defense allowed in every game, with a game-by-game table underneath — "are we getting better?" Tap a point to open that game's recap.
 - Unit grade chips — each opens that unit's ranking across all 32 teams.
 - AFC East division standings table.
 - Latest headlines feed.
@@ -42,11 +42,11 @@ A page-by-page rundown of what's actually live on the site (foxboro-files.vercel
 
 - AI-written beat-writer digest, with a "Flag it" link.
 - Injury report.
-- Merged news feed (ESPN + the Patriots' own RSS feed).
+- Merged news feed (ESPN + the Patriots' own RSS feed). Cards are title first, then tag · date · source; Home shows the same cards without summaries.
 
-## Roster & Stats
+## Stats (the Roster page, `/roster`)
 
-Tabbed:
+Tabbed, with the open tab kept in the URL so links and the back button land on it. Tab bars across the site take left/right arrow keys:
 - **QB** — official box score (matches nflverse and Next Gen Stats exactly), CPOE, turnover-worthy rate, EPA when hit or sacked vs. not, accuracy by depth, ranked against the other 31 starting QBs, plus Next Gen Stats time to throw and tight-window throws; head-to-head comparison tool against any other starter.
 - **Leaders** — receiving, rushing and defensive leaders, with Next Gen Stats separation and rush yards over expected; tap a player to see every play behind his line.
 - **Grades** — 8 units graded out of 100 vs. the league with a visual bar and trend arrow, each showing its real box-score stat line and flagging thin samples; each links to all 32 teams' ranking.
@@ -65,3 +65,9 @@ Tabbed:
 - Team-level vs.-league numbers are **opponent-adjusted** — a defense gets more credit for shutting down a good offense than a bad one. Position-group and QB numbers are not opponent-adjusted, but are **regressed to the league mean by sample size**.
 - Win-probability and matchup numbers **blend in real 2025 prior-season data**, phased out linearly by 4 games played. Team Strength and the league rankings are pure current-season.
 - Every AI-written passage is **grounded** — written only from real computed stats and real fetched articles, never free-generated.
+
+## Installed as an app
+
+- A web-app manifest and iOS home-screen settings, so the site opens full-screen from a phone's home screen.
+- A resumed app (or a tab left open) reloads itself when it comes back into view after more than 15 minutes away, so the numbers are current.
+- A "Skip to content" link for keyboard users; text colors meet contrast guidelines in both themes.

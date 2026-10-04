@@ -20,7 +20,8 @@ export async function generateMetadata(): Promise<Metadata> {
   return { title: `Week ${game.week} ${opponentLabel(matchup.opponent, game.homeTeam === "NE")}` };
 }
 
-export default async function NextGamePage() {
+export default async function NextGamePage({ searchParams }: { searchParams: Promise<{ tab?: string }> }) {
+  const { tab } = await searchParams;
   const [game, matchup, injuries] = await Promise.all([
     store.getNextGame(),
     store.getOpponentMatchup(),
@@ -37,6 +38,8 @@ export default async function NextGamePage() {
       />
 
       <Tabs
+        initialTab={tab}
+        paramKey="tab"
         tabs={[
           {
             label: "Preview",

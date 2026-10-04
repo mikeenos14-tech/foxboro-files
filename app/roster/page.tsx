@@ -11,7 +11,7 @@ import { QBDeepDive } from "@/components/roster/QBDeepDive";
 import { QbHeadToHead } from "@/components/roster/QbHeadToHead";
 import { Tabs } from "@/components/shared/Tabs";
 
-export const metadata: Metadata = { title: "Roster & Stats" };
+export const metadata: Metadata = { title: "Stats" };
 
 export default async function RosterPage({
   searchParams,
@@ -36,7 +36,7 @@ export default async function RosterPage({
   return (
     <div className="space-y-6">
       <div>
-        <h1 className="font-display text-3xl font-bold uppercase tracking-wide text-foreground">Roster & Stats</h1>
+        <h1 className="font-display text-3xl font-bold uppercase tracking-wide text-foreground">Stats</h1>
         <p className="text-sm text-muted">
           The quarterback, every unit graded against the league, team leaders and the depth chart.
         </p>
@@ -44,6 +44,7 @@ export default async function RosterPage({
 
       <Tabs
         initialTab={tab}
+        paramKey="tab"
         tabs={[
           {
             label: "QB",

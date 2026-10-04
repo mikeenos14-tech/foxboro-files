@@ -8,7 +8,9 @@ const typeClasses: Record<NewsItem["type"], string> = {
   "Beat Report": "bg-silver/20 text-muted",
 };
 
-export function NewsFeedItem({ item }: { item: NewsItem }) {
+// Title, then one meta line (tag · date · source). The summary is shown
+// only on the News page; on Home the cards had five text styles each.
+export function NewsFeedItem({ item, showSummary = true }: { item: NewsItem; showSummary?: boolean }) {
   return (
     <a
       href={item.sourceUrl}
@@ -16,7 +18,8 @@ export function NewsFeedItem({ item }: { item: NewsItem }) {
       rel="noopener noreferrer"
       className="lift block rounded-lg border border-border bg-surface p-4 hover:border-navy/30"
     >
-      <div className="flex items-center gap-2 text-xs">
+      <h3 className="font-semibold leading-snug text-foreground">{item.headline}</h3>
+      <div className="mt-1.5 flex items-center gap-2 text-xs">
         <span
           className={`rounded-full px-2 py-0.5 font-semibold ${typeClasses[item.type]}`}
         >
@@ -25,10 +28,10 @@ export function NewsFeedItem({ item }: { item: NewsItem }) {
         <span className="text-muted">{formatDate(item.publishedAt)}</span>
         <span className="text-muted">· {item.sourceName}</span>
       </div>
-      <h3 className="mt-2 font-semibold text-foreground">{item.headline}</h3>
       {/* Some feeds repeat the headline as the summary ("Are the Patriots
           using Drake Maye the wrong way?" twice); show it once. */}
-      {item.summary &&
+      {showSummary &&
+        item.summary &&
         item.summary.trim().replace(/\W+$/, "").toLowerCase() !==
           item.headline.trim().replace(/\W+$/, "").toLowerCase() && (
           <p className="mt-1 text-sm text-muted">{item.summary}</p>

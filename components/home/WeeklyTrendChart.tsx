@@ -12,9 +12,11 @@ import {
   YAxis,
 } from "recharts";
 import { chartColors } from "@/lib/design-tokens";
+import { useRouter } from "next/navigation";
 import { signed } from "@/lib/util/format";
 
 export interface WeeklyTrendPoint {
+  gameId: string;
   week: number;
   /** "at JAX · L 6-35" */
   game: string;
@@ -30,11 +32,19 @@ const DEFENSE = "Defense allowed";
 // One point per game, raw EPA/play — the same numbers as each recap's
 // cards, so the chart and the recap can't disagree.
 export function WeeklyTrendChart({ points }: { points: WeeklyTrendPoint[] }) {
+  const router = useRouter();
   const data = points.map((p) => ({ ...p, [OFFENSE]: p.offense, [DEFENSE]: p.defense }));
   return (
-    <div className="h-64 w-full">
+    <div className="h-64 w-full cursor-pointer">
       <ResponsiveContainer width="100%" height="100%">
-        <LineChart data={data} margin={{ top: 8, right: 8, left: -16, bottom: 0 }}>
+        <LineChart
+          data={data}
+          margin={{ top: 8, right: 8, left: -16, bottom: 0 }}
+          onClick={(state) => {
+            const i = Number(state?.activeTooltipIndex);
+            if (Number.isInteger(i) && points[i]) router.push(`/recap/${points[i].gameId}`);
+          }}
+        >
           <CartesianGrid stroke={chartColors.grid} vertical={false} />
           <XAxis
             dataKey="week"

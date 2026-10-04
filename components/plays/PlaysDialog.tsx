@@ -42,7 +42,7 @@ export function PlaysDialog({
     >
       <div className="sticky top-0 z-10 flex items-start justify-between gap-4 border-b border-border bg-surface px-4 py-3">
         <div>
-          <h2 className="font-semibold">{title}</h2>
+          {open && <h2 className="font-semibold">{title}</h2>}
           <p className="text-[11px] text-muted">
             EPA is from New England&apos;s side: positive helped New England. Play text is the NFL&apos;s own.
           </p>

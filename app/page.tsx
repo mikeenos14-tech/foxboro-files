@@ -76,12 +76,12 @@ export default async function HomePage({
                 {divisionRank > 0 ? `${ordinal(divisionRank)} in AFC East` : "AFC East"}
               </span>
               {projection.playoffOdds !== undefined && (
-                <div className="w-28">
+                <div className="w-full sm:ml-auto sm:w-48">
                   <div className="flex items-baseline justify-between">
                     <span className="text-[11px] uppercase tracking-wide text-white/60">
                       Playoff odds
                     </span>
-                    <span className="text-sm font-bold text-white">
+                    <span className="font-display text-2xl font-bold text-white">
                       <CountUp value={projection.playoffOdds * 100} decimals={0} suffix="%" duration={900} />
                     </span>
                   </div>

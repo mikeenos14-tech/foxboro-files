@@ -48,7 +48,7 @@ const links = [
   },
   {
     href: "/roster",
-    label: "Roster",
+    label: "Stats",
     icon: (
       <>
         <circle cx="9" cy="8" r="3" />

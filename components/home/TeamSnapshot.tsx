@@ -111,7 +111,7 @@ export function TeamSnapshot({
       <div>
         <div className="mb-2 flex items-baseline justify-between gap-2">
           <h3 className="text-xs font-bold uppercase tracking-wide text-muted">Unit Grades</h3>
-          <a href="/roster?tab=grades" className="text-xs text-muted underline hover:text-foreground">
+          <a href="/roster?tab=grades" className="inline-block py-1 text-xs text-muted underline hover:text-foreground">
             Full breakdown →
           </a>
         </div>

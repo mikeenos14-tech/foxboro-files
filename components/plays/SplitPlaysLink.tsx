@@ -26,7 +26,7 @@ export function SplitPlaysLink({ list, title }: { list: keyof SplitPlays["lists"
       <button
         onClick={show}
         aria-label={`See the plays: ${title}`}
-        className="block text-[11px] text-muted underline decoration-dotted hover:text-foreground"
+        className="block py-1 text-[11px] text-muted underline decoration-dotted hover:text-foreground"
       >
         See the plays →
       </button>

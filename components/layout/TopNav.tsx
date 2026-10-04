@@ -11,7 +11,7 @@ const links = [
   { href: "/next-game", label: "Next Game" },
   { href: "/schedule", label: "Schedule" },
   { href: "/news", label: "News" },
-  { href: "/roster", label: "Roster & Stats" },
+  { href: "/roster", label: "Stats" },
   { href: "/around-the-league", label: "League" },
 ];
 

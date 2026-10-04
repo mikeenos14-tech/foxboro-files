@@ -112,7 +112,7 @@ export function PositionGroupReportCard({ card }: { card: ReportCardData }) {
       <SoWhatNote sentiment={tier}>{card.soWhat}</SoWhatNote>
       <Link
         href={`/around-the-league?unit=${encodeURIComponent(card.group)}#units`}
-        className="mt-2 inline-block text-xs text-muted underline hover:text-foreground"
+        className="mt-1 inline-block py-1 text-xs text-muted underline hover:text-foreground"
       >
         Where all 32 teams rank →
       </Link>

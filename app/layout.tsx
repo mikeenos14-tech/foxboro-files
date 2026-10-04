@@ -4,6 +4,7 @@ import "./globals.css";
 import { TopNav } from "@/components/layout/TopNav";
 import { Footer } from "@/components/layout/Footer";
 import { BottomNav } from "@/components/layout/BottomNav";
+import { RefreshOnResume } from "@/components/layout/RefreshOnResume";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -61,6 +62,13 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
   },
+  // Added to the iPhone home screen, open full-screen with the status bar
+  // over the navy header. RefreshOnResume reloads a resumed app.
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: "black-translucent",
+    title: "Beacon",
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
@@ -84,8 +92,15 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
             __html: `(function(){try{var t=localStorage.getItem("foxboro-beacon-theme");document.documentElement.setAttribute("data-theme",t==="light"?"light":"dark");}catch(e){document.documentElement.setAttribute("data-theme","dark");}})();`,
           }}
         />
+        <a
+          href="#main"
+          className="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:rounded-md focus:bg-red focus:px-3 focus:py-2 focus:text-white"
+        >
+          Skip to content
+        </a>
+        <RefreshOnResume />
         <TopNav />
-        <main className="mx-auto w-full max-w-6xl flex-1 px-4 py-6 pb-[calc(5rem+env(safe-area-inset-bottom))] sm:pb-6">
+        <main id="main" className="mx-auto w-full max-w-6xl flex-1 px-4 py-6 pb-[calc(5rem+env(safe-area-inset-bottom))] sm:pb-6">
           {children}
         </main>
         <Footer />
