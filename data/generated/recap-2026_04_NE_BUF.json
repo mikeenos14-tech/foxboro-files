@@ -183,10 +183,10 @@
   "goodBadUgly": {
     "good": [
       "Scored touchdowns on 4 of 4 red-zone trips (100%), well above the 55% league norm.",
-      "The offense averaged +0.19 EPA per play — better than an average offense."
+      "The offense averaged +0.19 EPA per play \u2014 better than an average offense."
     ],
     "bad": [
-      "The defense allowed +0.10 EPA per play — worse than an average defense."
+      "The defense allowed +0.10 EPA per play \u2014 worse than an average defense."
     ],
     "ugly": []
   },
@@ -208,7 +208,5 @@
       "fg": 2,
       "safety": 0
     }
-  },
-  "fanTake": "Drake Maye just authored a signature road win against Buffalo, and frankly, it's the kind of performance that sticks with you. Yes, he coughed it up twice, but three touchdown passes—including that absurd one-handed grab by Efton Chism with 1:50 left—told the real story: a rookie quarterback who found ways to execute when it mattered most. The offense clicked at 0.19 EPA per play, well above the waterline, and we converted all four red-zone trips into touchdowns, which is the kind of clinical efficiency that wins divisional games on the road. Buffalo's defense had its moments (50% on third downs will sting), but our pass rush and secondary held them to three scores, and sometimes that's all you need when your QB plays like he did. This is what October football looks like when everything's working.",
-  "aiVersion": 8
+  }
 }

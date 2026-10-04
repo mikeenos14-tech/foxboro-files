@@ -33,6 +33,8 @@ test("catches play-by-play's abbreviated names", () => {
 
 test("catches a tenure claim that wasn't given, allows one that was", () => {
   assert.equal(checkGrounding("the second-year quarterback", { facts: "" }).length, 1);
+  assert.equal(checkGrounding("a rookie quarterback who delivered", { facts: "" }).length, 1);
+  assert.deepEqual(checkGrounding("the rookie linebacker", { facts: "rookie LB Gabe Jacas" }), []);
   assert.deepEqual(
     checkGrounding("the second-year quarterback", { facts: "Maye, a second-year QB, said…" }),
     []

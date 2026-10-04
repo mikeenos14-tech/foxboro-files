@@ -6,6 +6,7 @@
 //   - "The Jaguars came to Foxboro" — for a game played in Jacksonville.
 //   - "Remy Stevenson" — handed "R.Stevenson", it invented a first name.
 //   - "the second-year quarterback" — Drake Maye was in his third season.
+//   - "a rookie quarterback" — same player, same season, different words.
 //   - "600 wins deep in franchise history" — no such fact was given.
 //   - "Buffalo's run defense is historically bad" — off three games.
 //   - "sometimes ugly wins are exactly what you need in October" — for a
@@ -71,6 +72,10 @@ export function checkGrounding(text: string, ctx: GroundingContext): string[] {
     if (!factsLower.includes(match[0].toLowerCase())) {
       problems.push(`It says "${match[0]}", which isn't in the facts given.`);
     }
+  }
+  // "a rookie quarterback" — Drake Maye, in his third season, Week 4 2026.
+  if (/\brookies?\b/i.test(text) && !/\brookies?\b/i.test(ctx.facts)) {
+    problems.push('It calls someone a "rookie", which isn\'t in the facts given.');
   }
 
   if (FRANCHISE_HISTORY.test(text) && !FRANCHISE_HISTORY.test(ctx.facts)) {
