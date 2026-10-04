@@ -183,10 +183,10 @@
   "goodBadUgly": {
     "good": [
       "Scored touchdowns on 4 of 4 red-zone trips (100%), well above the 55% league norm.",
-      "The offense averaged +0.19 EPA per play \u2014 better than an average offense."
+      "The offense averaged +0.19 EPA per play — better than an average offense."
     ],
     "bad": [
-      "The defense allowed +0.10 EPA per play \u2014 worse than an average defense."
+      "The defense allowed +0.10 EPA per play — worse than an average defense."
     ],
     "ugly": []
   },
@@ -208,5 +208,7 @@
       "fg": 2,
       "safety": 0
     }
-  }
+  },
+  "fanTake": "Drake Maye turned in a masterclass in clutch execution on the road in Buffalo, engineering a 29-26 victory that had absolutely no business being as clean as it was—four red-zone trips, four touchdowns, a perfect conversion rate that blew past the league norm, and that unforgettable Efton Chism one-handed catch with 1:50 left to ice it. Yes, Maye coughed it up twice, but he overcame those miscues with three touchdown passes that said everything about his poise under pressure in a hostile environment. The defense bent more than we'd like—Buffalo converting third downs at 50% and scoring on 60% of their own red-zone chances—but when it mattered most, this offense was simply clinical. Sometimes a win on the road in an AFC East game doesn't need to be pretty; it just needs to be yours, and this one belonged to the Patriots.",
+  "aiVersion": 8
 }
