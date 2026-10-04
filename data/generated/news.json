@@ -1,5 +1,32 @@
 [
   {
+    "id": "50103645",
+    "publishedAt": "2026-10-04T20:59:30Z",
+    "type": "Analysis",
+    "headline": "Maye overcomes his two turnovers with 3 TD passes in Patriots' 29-26 win over Bills",
+    "summary": "— Drake Maye threw three touchdown passes, including Efton Chism’s one-handed catch with 1:50 remaining, and the New England Patriots defeated the Buffalo Bills 29-26 on Sunday.",
+    "sourceUrl": "http://www.espn.com/nfl/recap?gameId=401872971",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50103486",
+    "publishedAt": "2026-10-04T20:56:49Z",
+    "type": "Beat Report",
+    "headline": "New England Patriots vs. Buffalo Bills Game Highlights",
+    "summary": "New England Patriots vs. Buffalo Bills Game Highlights",
+    "sourceUrl": "https://www.espn.com/video/clip/_/id/50103486/new-england-patriots-vs-buffalo-bills-game-highlights",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "7ae30975-8f38-430a-ac42-8b65b01e3858",
+    "publishedAt": "2026-10-04T20:31:04.000Z",
+    "type": "Beat Report",
+    "headline": "Gamebook: Patriots at Bills Week 4",
+    "summary": "Download the NFL Gamebook with all of the statistics from the Patriots Week 4 game against the Buffalo Bills on Sunday, October 4, 2026.",
+    "sourceUrl": "https://www.patriots.com/news/gamebook-patriots-at-bills-week-4",
+    "sourceName": "Patriots.com"
+  },
+  {
     "id": "a03a589e-3132-4293-a5ef-ec9b5cbba544",
     "publishedAt": "2026-10-04T15:32:12.000Z",
     "type": "Analysis",
@@ -33,15 +60,6 @@
     "headline": "How to Watch and Stream Sunday's Patriots Game Against the Bills | NFL Week 4",
     "summary": "Complete broadcast information for this week's game between the New England Patriots and the Buffalo Bills on Sunday, October 4, 2026 at 1 PM ET.",
     "sourceUrl": "https://www.patriots.com/news/how-to-watch-and-stream-sunday-s-patriots-game-against-the-bills-nfl-week-4",
-    "sourceName": "Patriots.com"
-  },
-  {
-    "id": "a6b58344-821f-4cff-9657-f02d66581e76",
-    "publishedAt": "2026-10-04T12:00:00.000Z",
-    "type": "Analysis",
-    "headline": "Patriots Gameplan: what is the best approach for New England to beat the Bills in Week 4?",
-    "summary": "The Patriots will head to the new Highmark Stadium to face the Bills on Sunday.",
-    "sourceUrl": "https://www.patriots.com/news/patriots-gameplan-what-is-the-best-approach-for-new-england-to-beat-the-bills-in-week-4",
     "sourceName": "Patriots.com"
   },
   {
@@ -87,15 +105,6 @@
     "headline": "Patriots' Drake Maye: Shoulder fine, all OK with Mike Vrabel",
     "summary": "Drake Maye said Wednesday the physical condition of his right shoulder hasn't affected his throwing ability, instead highlighting the need to make better decisions to reverse his early-season struggles in the Patriots' 1-2 start.",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/50072249/patriots-drake-maye-shoulder-fine-all-ok-mike-vrabel",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50061293",
-    "publishedAt": "2026-09-30T10:37:04Z",
-    "type": "Injury",
-    "headline": "Patriots place offensive lineman Greg Van Roten (thigh) on IR",
-    "summary": "The Patriots placed guard Greg Van Roten on injured reserve Tuesday as the infrastructure around quarterback Drake Maye took another hit.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50061293/patriots-place-offensive-lineman-greg-van-roten-thigh-ir",
     "sourceName": "ESPN"
   }
 ]
