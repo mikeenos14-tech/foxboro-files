@@ -1,14 +1,5 @@
 [
   {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=421880",
-    "publishedAt": "2026-10-04T02:06:42.000Z",
-    "type": "Injury",
-    "headline": "Patriots CB Christian Gonzalez, DT Christian Barmore Out For Week 4",
-    "summary": "If the Patriots are to win tomorrow’s divisional clash with the Bills, they will do so with a shorthanded defense. Cornerback Christian Gonzalez and defensive tackle Christian Barmore will be sidelined for Week 4. Both players are dealing with shoulder injuries. Neither took part in practice over the past three days, making it no surprise when they were […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/patriots-cb-christian-gonzalez-dt-christian-barmore-out-for-week-4",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
     "id": "profootballrumors-https://www.profootballrumors.com/?p=421805",
     "publishedAt": "2026-10-03T17:45:17.000Z",
     "type": "Injury",
@@ -27,21 +18,21 @@
     "sourceName": "Pro Football Rumors"
   },
   {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=421164",
+    "publishedAt": "2026-10-03T16:45:15.000Z",
+    "type": "Analysis",
+    "headline": "Buccaneers QB Baker Mayfield To Miss At Least Three Games",
+    "summary": "OCTOBER 3: In typical fashion, Mayfield wants speed up his return process and is even “pushing to come back” as early as Week 5, per Bleacher Report James Palmer. Tampa Bay’s short week before a Thursday night matchup with the Cowboys will make that difficult, but the veteran quarterback has been willing to play through the […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/buccaneers-qb-baker-mayfield-to-miss-at-least-three-games",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
     "id": "profootballrumors-https://www.profootballrumors.com/?p=421841",
     "publishedAt": "2026-10-03T21:43:06.000Z",
     "type": "Analysis",
     "headline": "Commanders QB Jayden Daniels Working To Return In Week 5; WR Terry McLaurin Could Miss Week 4",
     "summary": "With Commanders quarterback Jayden Daniels still recovering from the dislocated left elbow he suffered in Week 2, backup Marcus Mariota will make his second straight start on Sunday. Mariota, who helped the Commanders to a 33-31 upset over the Seahawks in Week 3, will try to get his team to .500 in a London-based meeting […]",
     "sourceUrl": "https://www.profootballrumors.com/2026/10/commanders-qb-jayden-daniels-working-to-return-in-week-5-wr-terry-mclaurin-could-miss-week-4",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=421875",
-    "publishedAt": "2026-10-04T00:35:57.000Z",
-    "type": "Transaction",
-    "headline": "Cowboys Open To Further Trades",
-    "summary": "With plenty of time to spare before the trade deadline, the Cowboys have already swung a notable deal. More swaps could be forthcoming. Dallas parted with a 2027 sixth-round pick as well as a second-rounder in 2028 to acquire cornerback Joey Porter Jr. from the Steelers. That acquisition (among others) has left the Cowboys short on […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/cowboys-open-to-further-trades",
     "sourceName": "Pro Football Rumors"
   },
   {
@@ -52,5 +43,14 @@
     "summary": "The Carolina Panthers have placed 2024 first-round pick Xavier Legette on injured reserve ahead of Sunday's prime-time matchup against the Detroit Lions.",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/50093238/panthers-place-wr-xavier-legette-ir-knee-injury",
     "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=421879",
+    "publishedAt": "2026-10-04T01:19:19.000Z",
+    "type": "Transaction",
+    "headline": "NFL Practice Squad Updates: 10/03/26",
+    "summary": "Saturday’s lone taxi squad move: Denver Broncos: Signed: WR Lil’Jordan Humphrey Yesterday, Denver cut Humphrey to create a roster spot for fullback Adam Prentice. As expected, Humphrey has immediately inked a practice squad deal with Denver. He is not subject to waivers – prior to the trade deadline, that is – so a repeat of these […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/nfl-practice-squad-updates-10-03-26",
+    "sourceName": "Pro Football Rumors"
   }
 ]
