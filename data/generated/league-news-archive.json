@@ -1,5 +1,248 @@
 [
   {
+    "id": "50109680",
+    "publishedAt": "2026-10-05T15:10:01Z",
+    "type": "Analysis",
+    "headline": "Tyreek Hill expected to sign with team soon, agent says",
+    "summary": "Free agent wide receiver Tyreek Hill will sign with a new \"over the next few days,\" his agent Drew Rosenhaus told ESPN's Adam Schefter. Hill's former team, the Chiefs, are believed to be one of the team's interested.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50109680/tyreek-hill-expected-sign-team-soon-agent-says",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50109020",
+    "publishedAt": "2026-10-05T15:07:43Z",
+    "type": "Analysis",
+    "headline": "Did Drake Maye prove doubters wrong with win over Bills?",
+    "summary": "Did Drake Maye prove doubters wrong with win over Bills?",
+    "sourceUrl": "https://www.espn.com/video/clip/_/id/50109020/did-drake-maye-prove-doubters-wrong-win-bills",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50103536",
+    "publishedAt": "2026-10-05T15:00:59Z",
+    "type": "Analysis",
+    "headline": "How Steve Gleason's punt block unified New Orleans, Falcons-Saints rivalry",
+    "summary": "Ahead of Monday's Falcons-Saints game, players and coaches reflect on the storm, the game and a play from 20 years ago.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50103536/new-orleans-saints-falcons-gleason-20-years-mnf-rivalry",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/drew-rosenhaus-tyreek-hill-could-sign-with-a-team-this-week",
+    "publishedAt": "2026-10-05T14:57:27.000Z",
+    "type": "Analysis",
+    "headline": "Drew Rosenhaus: Tyreek Hill could sign with a team this week",
+    "summary": "A return to the Chiefs could be in the cards for the wide receiver.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/drew-rosenhaus-tyreek-hill-could-sign-with-a-team-this-week",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "50109563",
+    "publishedAt": "2026-10-05T14:56:37Z",
+    "type": "Analysis",
+    "headline": "Stephen A. disappointed by C.J. Gardner-Johnson's 'classless' response to Bills' loss",
+    "summary": "Stephen A. disappointed by C.J. Gardner-Johnson's 'classless' response to Bills' loss ",
+    "sourceUrl": "https://www.espn.com/video/clip/_/id/50109563/stephen-disappointed-cj-gardner-johnson-classless-response-bills-loss",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=421974",
+    "publishedAt": "2026-10-05T14:53:05.000Z",
+    "type": "Analysis",
+    "headline": "WR Tyreek Hill To Begin Negotiations For 2026 Deal",
+    "summary": "Tyreek Hill has been unsigned for the first four weeks of the 2026 season. His next contract could be in place shortly, however. Per Hill’s agent Drew Rosenhaus (h/t ESPN’s Adam Schefter), talks on a new deal are set to begin today. He anticipates an agreement being reached in short order. Rosenhaus confirms the Chiefs are […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/wr-tyreek-hill-to-begin-negotiations-for-2026-deal",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "50085464",
+    "publishedAt": "2026-10-05T14:51:54Z",
+    "type": "Analysis",
+    "headline": "NFL Week 5 betting: Odds, lines and totals for every game",
+    "summary": "A look at the odds, spreads, totals and FPI predictions for every NFL game in Week 5.",
+    "sourceUrl": "https://www.espn.com/espn/betting/story/_/id/50085464/2026-nfl-week-5-schedule-odds-betting-point-spreads-totals",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50100800",
+    "publishedAt": "2026-10-05T14:43:57Z",
+    "type": "Analysis",
+    "headline": "How the Rams, Cowboys, Patriots pulled Week 4 comebacks to save their seasons",
+    "summary": "The Rams, Cowboys and Pats were all looking at 1-3 ... then everything changed. How did a trio of stunning rallies play out -- and are these teams all back on track at 2-2?",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50100800/week-4-rams-cowboys-patriots-comeback-wins-save-season",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/eagles-offense-sputters-with-68-net-passing-yards-0-12-on-third-down-vs-rams",
+    "publishedAt": "2026-10-05T14:43:46.000Z",
+    "type": "Analysis",
+    "headline": "Eagles' offense sputters with 68 net passing yards, 0-12 on third down vs. Rams",
+    "summary": "The boo birds flew early and often in Philly on Sunday, thanks to an offense that couldn't get off the ground.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/eagles-offense-sputters-with-68-net-passing-yards-0-12-on-third-down-vs-rams",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/joey-porter-jr-i-feel-like-i-showed-why-cowboys-brought-me-here",
+    "publishedAt": "2026-10-05T14:38:40.000Z",
+    "type": "Analysis",
+    "headline": "Joey Porter Jr.: I feel like I showed why Cowboys brought me here",
+    "summary": "Cornerback Joey Porter Jr. wasn't on the field a lot during Sunday's game against the Texans, but his Cowboys debut was a happy one.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/joey-porter-jr-i-feel-like-i-showed-why-cowboys-brought-me-here",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "50109444",
+    "publishedAt": "2026-10-05T14:37:20Z",
+    "type": "Analysis",
+    "headline": "Stephen A. not buying into Cowboys after win over Texans",
+    "summary": "Stephen A. not buying into Cowboys after win over Texans",
+    "sourceUrl": "https://www.espn.com/video/clip/_/id/50109444/stephen-not-buying-cowboys-win-texans",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "49545945",
+    "publishedAt": "2026-10-05T14:35:00Z",
+    "type": "Analysis",
+    "headline": "How active NFL players continue to redefine all-time sack list",
+    "summary": "Myles Garrett's torrid pace up the all-time sack list paces active players making their moves among the greats.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49545945/all-sack-list-tracker-myles-garrett-von-miller-aaron-donald",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50108900",
+    "publishedAt": "2026-10-05T14:17:44Z",
+    "type": "Analysis",
+    "headline": "Rex Ryan: Eagles O-line is 'hot garbage'",
+    "summary": "Rex Ryan: Eagles O-line is 'hot garbage'",
+    "sourceUrl": "https://www.espn.com/video/clip/_/id/50108900/eagles-o-line-hot-garbage",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50109192",
+    "publishedAt": "2026-10-05T14:11:16Z",
+    "type": "Analysis",
+    "headline": "Tedy Bruschi: NFL officials need to show more self-control",
+    "summary": "Tedy Bruschi: NFL officials need to show more self-control",
+    "sourceUrl": "https://www.espn.com/video/clip/_/id/50109192/nfl-officials-need-show-more-self-control",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50108953",
+    "publishedAt": "2026-10-05T14:09:38Z",
+    "type": "Analysis",
+    "headline": "Vikings make history at 4-0 -- without a scoring offense",
+    "summary": "Minnesota sits atop the NFC North despite its special teams outscoring its offense the past three weeks.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50108953/minnesota-vikings-kyler-murray-4-0-justin-jefferson",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=421971",
+    "publishedAt": "2026-10-05T14:02:48.000Z",
+    "type": "Injury",
+    "headline": "Saints WR Jordyn Tyson Unlikely To Play Before Week 7",
+    "summary": "The Saints have opened the season without their top draft pick in the fold. Wideout Jordyn Tyson remains on injured reserve, having been moved their during roster cuts. New Orleans’ decision to take the IR-designated for return route ensured Tyson would be sidelined for at least four games. The No. 8 pick in April’s draft is not […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/saints-wr-jordyn-tyson-unlikely-to-play-before-week-7",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/the-afc-road-to-l-a-may-go-through-duval",
+    "publishedAt": "2026-10-05T14:01:24.000Z",
+    "type": "Analysis",
+    "headline": "The AFC road to L.A. may go through Duval",
+    "summary": "As the stadium in Jacksonville undergoes renovations, the Jaguars will play only six games there in 2026.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/the-afc-road-to-l-a-may-go-through-duval",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dre-greenlaw-says-sean-paytons-disrespect-motivated-him-on-sunday",
+    "publishedAt": "2026-10-05T13:51:52.000Z",
+    "type": "Analysis",
+    "headline": "Dre Greenlaw says Sean Payton's \"disrespect\" motivated him on Sunday",
+    "summary": "After 49ers linebacker Dre Greenlaw made a tackle on the Denver sideline in the first quarter of Sunday's win over the Broncos, he could be seen gesturing toward Broncos head coach Sean Payton while making his way back to the field.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dre-greenlaw-says-sean-paytons-disrespect-motivated-him-on-sunday",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "50109126",
+    "publishedAt": "2026-10-05T13:50:45Z",
+    "type": "Transaction",
+    "headline": "C.J. Gardner-Johnson: Efton Chism III is a 'practice squad player' who 'made a hell of a catch'",
+    "summary": "C.J. Gardner-Johnson dismissed Efton Chism III as a \"practice squad player\" and said the Patriots WR's one-handed TD catch \"probably\" will never happen again.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50109126/cj-gardner-johnson-efton-chism-iii-practice-squad-player-made-helluva-catch",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50085582",
+    "publishedAt": "2026-10-05T13:47:16Z",
+    "type": "Analysis",
+    "headline": "Early bets for NFL Week 5: Three games we're jumping on before potential odds changes",
+    "summary": "Which Week 5 lines offered immediate value once odds came out? Here are four early bets we like.",
+    "sourceUrl": "https://www.espn.com/espn/betting/story/_/id/50085582/nfl-week-5-betting-odds-props-early-picks-predictions-first-bet",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/puka-nacua-has-a-pre-hernia",
+    "publishedAt": "2026-10-05T13:34:56.000Z",
+    "type": "Analysis",
+    "headline": "Puka Nacua has a \"pre-hernia\"",
+    "summary": "With Rams receiver Puka Nacua having \"core muscle\" issues during training camp and then a hip/groin problem that caused him to miss two games, it began to seem as if Nacua might have a hernia.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/puka-nacua-has-a-pre-hernia",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-saints-rookie-wr-jordyn-tyson-still-weeks-away-from-return-from-hamstring-injury",
+    "publishedAt": "2026-10-05T13:18:10.000Z",
+    "type": "Injury",
+    "headline": "Report: Saints rookie WR Jordyn Tyson still weeks away from return from hamstring injury",
+    "summary": "The Saints will face the Falcons without first-round pick Jordyn Tyson on Monday night and it will reportedly be a little while longer before the wideout makes his NFL debut.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-saints-rookie-wr-jordyn-tyson-still-weeks-away-from-return-from-hamstring-injury",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "50108871",
+    "publishedAt": "2026-10-05T13:16:39Z",
+    "type": "Injury",
+    "headline": "Sources: Saints rookie Jordyn Tyson weeks away from return",
+    "summary": "Saints rookie Jordyn Tyson, who has been on IR after suffering another hamstring injury, is making progress and feeling good but is still considered to be weeks away from returning to action, sources told ESPN.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50108871/sources-saints-rookie-jordyn-tyson-weeks-away-return",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-macdonald-seven-personal-fouls-unacceptable-on-any-level",
+    "publishedAt": "2026-10-05T13:10:34.000Z",
+    "type": "Analysis",
+    "headline": "Mike Macdonald: Seven personal fouls \"unacceptable on any level\"",
+    "summary": "The Seahawks had a 21-point lead over the Chargers in the third quarter on Sunday, but the Chargers had the ball with a chance to tie or win the game with less than two minutes to play.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-macdonald-seven-personal-fouls-unacceptable-on-any-level",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "50108951",
+    "publishedAt": "2026-10-05T13:05:41Z",
+    "type": "Analysis",
+    "headline": "Rex Ryan: Cowboys can win NFC East with just average D",
+    "summary": "Rex Ryan: Cowboys can win NFC East with just average D",
+    "sourceUrl": "https://www.espn.com/video/clip/_/id/50108951/cowboys-win-nfc-east-just-average-d",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50068590",
+    "publishedAt": "2026-10-05T13:02:49Z",
+    "type": "Analysis",
+    "headline": "How to bet Falcons-Saints on MNF: Analysis, tips and top prop plays",
+    "summary": "Odds and analysis to help you bet Falcons-Saints on \"Monday Night Football.\"",
+    "sourceUrl": "https://www.espn.com/espn/betting/story/_/id/50068590/nfl-week-4-odds-betting-tips-picks-atlanta-falcons-new-orleans-saints",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/c-j-gardner-johnson-on-efton-chism-practice-squad-player-made-a-helluva-play",
+    "publishedAt": "2026-10-05T13:00:25.000Z",
+    "type": "Transaction",
+    "headline": "C.J. Gardner-Johnson on Efton Chism: Practice squad player made a helluva play",
+    "summary": "The Patriots beat the Bills on Sunday, but Bills safety C.J.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/c-j-gardner-johnson-on-efton-chism-practice-squad-player-made-a-helluva-play",
+    "sourceName": "Pro Football Talk"
+  },
+  {
     "id": "50101403",
     "publishedAt": "2026-10-05T11:48:59Z",
     "type": "Analysis",
@@ -96,15 +339,6 @@
     "headline": "Cowboys flip script after Rio loss with key win over Texans",
     "summary": "A week after everything went wrong late against the Ravens, Dallas rebounded with a winning drive Sunday.",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/50105860/dallas-cowboys-ceedee-lamb-dak-texans",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50103536",
-    "publishedAt": "2026-10-05T10:00:11Z",
-    "type": "Analysis",
-    "headline": "How Steve Gleason's punt block unified New Orleans, Falcons-Saints rivalry",
-    "summary": "Ahead of Monday's Falcons-Saints game, players and coaches reflect on the storm, the game and a play from 20 years ago.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50103536/new-orleans-saints-falcons-gleason-20-years-mnf-rivalry",
     "sourceName": "ESPN"
   },
   {
@@ -3301,15 +3535,6 @@
     "summary": "The Falcons announced on Friday that franchise icon Jeff Van Note has died. He was 80 years old. An 11th-round pick in 1969, Van Note entered the NFL as a linebacker. He transitioned to the offensive line at the behest of head coach Norm Van Brocklin, though, and became Atlanta’s starting center beginning in 1970. That position change […]",
     "sourceUrl": "https://www.profootballrumors.com/2026/10/former-falcons-c-jeff-van-note-dies-at-80",
     "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "49545945",
-    "publishedAt": "2026-10-02T13:54:32Z",
-    "type": "Analysis",
-    "headline": "How active NFL players continue to redefine all-time sack list",
-    "summary": "Myles Garrett's torrid pace up the all-time sack list paces active players making their moves among the greats.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49545945/all-sack-list-tracker-myles-garrett-von-miller-aaron-donald",
-    "sourceName": "ESPN"
   },
   {
     "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/signs-point-to-tyson-bagent-for-the-bears-on-sunday",
@@ -15504,204 +15729,6 @@
     "headline": "Why Mike Clay considers Bhayshul Tuten more of a flex option",
     "summary": "Why Mike Clay considers Bhayshul Tuten more of a flex option",
     "sourceUrl": "https://www.espn.com/video/clip/_/id/49998610/why-mike-clay-considers-bhayshul-tuten-more-flex-option",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/troy-aikman-thought-hed-have-a-new-deal-with-espn-by-now",
-    "publishedAt": "2026-09-21T15:09:10.000Z",
-    "type": "Analysis",
-    "headline": "Troy Aikman thought he'd have a new deal with ESPN by now",
-    "summary": "On Monday night, Joe Buck and Troy Aikman will call the Giants-Rams game.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/troy-aikman-thought-hed-have-a-new-deal-with-espn-by-now",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/shane-steichen-on-9-straight-losses-were-right-there-have-to-find-a-way-to-win-at-the-end",
-    "publishedAt": "2026-09-21T15:08:18.000Z",
-    "type": "Analysis",
-    "headline": "Shane Steichen on 9 straight losses: We're right there, have to find a way to win at the end",
-    "summary": "After the conclusion of the 2025 season in January, Colts owner Carlie Irsay-Gordon made it clear that General Manager Chris Ballard and head coach Shane Steichen had to put a better product on the field in 2026.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/shane-steichen-on-9-straight-losses-were-right-there-have-to-find-a-way-to-win-at-the-end",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-saints-lt-kelvin-banks-believed-to-have-a-high-ankle-sprain",
-    "publishedAt": "2026-09-21T14:55:44.000Z",
-    "type": "Analysis",
-    "headline": "Report: Saints LT Kelvin Banks believed to have a high-ankle sprain",
-    "summary": "The Saints came back to beat the Ravens in Baltimore on Sunday, but it looks like their attempt to build on that win will come without their starting left tackle.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-saints-lt-kelvin-banks-believed-to-have-a-high-ankle-sprain",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "49998205",
-    "publishedAt": "2026-09-21T14:42:54Z",
-    "type": "Analysis",
-    "headline": "'Something's wrong with the Texans' Kyle Brandt after Houston loses 20-6 vs. the Bengals",
-    "summary": "On Good Morning Football, Jamie Erdahl, Manti Te’o, Kyle Brandt and Sam Acho recap NFL Week 2 action.",
-    "sourceUrl": "https://www.espn.com/video/clip/_/id/49998205/wrong-texans-kyle-brandt-houston-loses-20-6-vs-bengals",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/aaron-rodgers-mike-mccarthy-see-the-issues-with-the-pittsburgh-offense",
-    "publishedAt": "2026-09-21T14:37:24.000Z",
-    "type": "Analysis",
-    "headline": "Aaron Rodgers, Mike McCarthy see the issues with the Pittsburgh offense",
-    "summary": "When he's complaining about Anthony Fauci, ESPN, and/or Shailene Woodley, Aaron Rodgers is not subtle.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/aaron-rodgers-mike-mccarthy-see-the-issues-with-the-pittsburgh-offense",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "49998030",
-    "publishedAt": "2026-09-21T14:30:19Z",
-    "type": "Analysis",
-    "headline": "'This is the old school, OG Chiefs!' Manti Te’o on KC's OT win vs. the Colts in Week 2",
-    "summary": "On Good Morning Football, Jamie Erdahl, Manti Te’o, Kyle Brandt and Sam Acho discuss the Kansas City Chiefs' overtime win against the Indianapolis Colts and the Philadelphia Eagles defeating the Tennessee Titans during Week 2 of the NFL season.",
-    "sourceUrl": "https://www.espn.com/video/clip/_/id/49998030/this-old-school-og-chiefs-manti-teo-kc-ot-win-vs-colts-week-2",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "49998364",
-    "publishedAt": "2026-09-21T14:25:33Z",
-    "type": "Analysis",
-    "headline": "Stephen A.: Bears' season is over if they don't have Caleb Williams",
-    "summary": "Stephen A.: Bears' season is over if they don't have Caleb Williams",
-    "sourceUrl": "https://www.espn.com/video/clip/_/id/49998364/bears-season-they-caleb-williams",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "49998224",
-    "publishedAt": "2026-09-21T14:20:46Z",
-    "type": "Analysis",
-    "headline": "Rex Ryan addresses concerns about the Eagles' run game 'It's atrocious!'",
-    "summary": "On Get Up, Alex Smith, Rex Ryan, Domonique Foxworth and Adam Schefter weigh in on the Philadelphia Eagles' Week 2 win, the Pittsburgh Steelers' offense, Deshaun Watson and the Cleveland Browns and more. ",
-    "sourceUrl": "https://www.espn.com/video/clip/_/id/49998224/rex-ryan-addresses-concerns-eagles-run-game-atrocious",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/aaron-glenn-no-regrets-about-how-we-handled-end-of-regulation-against-packers",
-    "publishedAt": "2026-09-21T14:15:34.000Z",
-    "type": "Analysis",
-    "headline": "Aaron Glenn: No regrets about how we handled end of regulation against Packers",
-    "summary": "Jets head coach Aaron Glenn's late-game decision-making came under fire in Sunday's overtime loss to the Packers, but he doesn't feel any differently about his choices after a night to sleep on it.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/aaron-glenn-no-regrets-about-how-we-handled-end-of-regulation-against-packers",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=420391",
-    "publishedAt": "2026-09-21T14:01:13.000Z",
-    "type": "Analysis",
-    "headline": "Lions Host S Mike Edwards",
-    "summary": "In need of stronger play in the secondary, the Lions recently hosted several free agent defensive backs for a workout. It was already known that Jalen Mills and Jordan Fuller took part, but the list of participants has now expanded. Safety Mike Edwards also met with Detroit, ESPN’s Jeremy Fowler reports. He represents another veteran who […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/09/lions-host-s-mike-edwards",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "49993378",
-    "publishedAt": "2026-09-21T13:47:14Z",
-    "type": "Transaction",
-    "headline": "Van Ness' breakout game saves Packers in OT win vs. Jets",
-    "summary": "Packers hope it's a sign of things to come as Micah Parsons nears his return from a torn ACL.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49993378/nfl-green-bay-packers-lukas-van-ness-micah-parsons-jets",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/key-overtime-ruling-in-colts-chiefs-ignored-the-clear-and-obvious-standard",
-    "publishedAt": "2026-09-21T13:42:45.000Z",
-    "type": "Analysis",
-    "headline": "Key overtime ruling in Colts-Chiefs ignored the \"clear and obvious\" standard",
-    "summary": "Chiefs should have won the game after LaQuon Treadwell's fumble.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/key-overtime-ruling-in-colts-chiefs-ignored-the-clear-and-obvious-standard",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dak-prescott-super-honored-to-set-cowboys-td-record-want-to-double-it",
-    "publishedAt": "2026-09-21T13:41:17.000Z",
-    "type": "Analysis",
-    "headline": "Dak Prescott: \"Super honored\" to set Cowboys TD record, want to double it",
-    "summary": "Dak Prescott owned most of the career quarterbacking records for the Cowboys before Sunday's game against the Commanders kicked off and he broke one of the other ones late in the fourth quarter.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dak-prescott-super-honored-to-set-cowboys-td-record-want-to-double-it",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/broncos-think-jaylen-waddles-big-day-only-the-tip-of-the-iceberg",
-    "publishedAt": "2026-09-21T13:26:44.000Z",
-    "type": "Transaction",
-    "headline": "Broncos think Jaylen Waddle's big day \"only the tip of the iceberg\"",
-    "summary": "The Broncos traded for wide receiver Jaylen Waddle this offseason in order to add more explosiveness to their offense, but Waddle wasn't able to make a difference in their Week 1 loss to the Chiefs.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/broncos-think-jaylen-waddles-big-day-only-the-tip-of-the-iceberg",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "49998101",
-    "publishedAt": "2026-09-21T13:18:05Z",
-    "type": "Analysis",
-    "headline": "Do the Buccaneers lack an identity on offense?",
-    "summary": "Do the Buccaneers lack an identity on offense?",
-    "sourceUrl": "https://www.espn.com/video/clip/_/id/49998101/do-buccaneers-lack-identity-offense",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "49997983",
-    "publishedAt": "2026-09-21T13:08:51Z",
-    "type": "Injury",
-    "headline": "Adam Schefter sheds light on Caleb Williams' injury vs. the Vikings",
-    "summary": "On Get Up, Alex Smith, Rex Ryan, Domonique Foxworth and Adam Schefter react to Chiefs vs. Colts and Vikings vs. Bears in Week 2 of the 2026 NFL season. ",
-    "sourceUrl": "https://www.espn.com/video/clip/_/id/49997983/adam-schefter-sheds-light-caleb-williams-injury-vs-vikings",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/demeco-ryans-history-doesnt-matter-the-2026-texans-have-to-play-good-football",
-    "publishedAt": "2026-09-21T13:02:29.000Z",
-    "type": "Analysis",
-    "headline": "DeMeco Ryans: History doesn't matter, the 2026 Texans have to play good football",
-    "summary": "No team wants to start a season 0-2, but the Texans would seem to be the likeliest team in the league to shrug off a sluggish start to the year.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/demeco-ryans-history-doesnt-matter-the-2026-texans-have-to-play-good-football",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "49997986",
-    "publishedAt": "2026-09-21T12:56:20Z",
-    "type": "Injury",
-    "headline": "How should the Commanders handle another Jayden Daniels injury?",
-    "summary": "How should the Commanders handle another Jayden Daniels injury?",
-    "sourceUrl": "https://www.espn.com/video/clip/_/id/49997986/how-commanders-handle-another-jayden-daniels-injury",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "49997979",
-    "publishedAt": "2026-09-21T12:45:11Z",
-    "type": "Analysis",
-    "headline": "Do the Chiefs have a 'Big 3' with Kenneth Walker III?",
-    "summary": "Do the Chiefs have a 'Big 3' with Kenneth Walker III?",
-    "sourceUrl": "https://www.espn.com/video/clip/_/id/49997979/do-chiefs-big-3-kenneth-walker-iii",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/ravens-players-want-this-fourth-quarter-collapse-to-be-a-hiccup-not-a-way-of-life",
-    "publishedAt": "2026-09-21T12:36:02.000Z",
-    "type": "Analysis",
-    "headline": "Ravens players want this fourth quarter collapse to be a \"hiccup,\" not a way of life",
-    "summary": "The Ravens held an 11-point lead over the Saints in the first half on Sunday and they were up by eight points heading into the fourth quarter, but two Saints touchdowns made New Orleans 24-17 winners in Baltimore when the final whistle sounded.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/ravens-players-want-this-fourth-quarter-collapse-to-be-a-hiccup-not-a-way-of-life",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/derwin-james-we-have-to-tell-the-truth-we-look-like-trash",
-    "publishedAt": "2026-09-21T12:23:38.000Z",
-    "type": "Analysis",
-    "headline": "Derwin James: We have to tell the truth, we look like trash",
-    "summary": "The Chargers are 0-2 after losses to the Cardinals and Raiders.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/derwin-james-we-have-to-tell-the-truth-we-look-like-trash",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "49990341",
-    "publishedAt": "2026-09-21T12:13:46Z",
-    "type": "Injury",
-    "headline": "Week 2 impact on the NFC: Caleb Williams, Jayden Daniels hurt",
-    "summary": "Caleb Williams and Jayden Daniels both got injured. The Packers nearly lost to the Jets. The Saints upset the Ravens. And three teams have a claim as the NFC's best.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49990341/week-2-nfc-barnwell-williams-daniels-injury-saints-packers-49ers",
     "sourceName": "ESPN"
   }
 ]
