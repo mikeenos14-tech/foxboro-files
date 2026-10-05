@@ -1,56 +1,56 @@
 [
   {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/lamar-jackson-left-stadium-in-a-boot-believed-to-be-day-to-day-with-ankle-injury",
-    "publishedAt": "2026-10-04T21:17:33.000Z",
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=421955",
+    "publishedAt": "2026-10-05T03:07:56.000Z",
     "type": "Injury",
-    "headline": "Lamar Jackson left stadium in a boot, believed to be day-to-day with ankle injury",
-    "summary": "Ravens quarterback Lamar Jackson's day came to an early end due to an ankle injury, but signs continue to show that Jackson avoided any serious damage.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/lamar-jackson-left-stadium-in-a-boot-believed-to-be-day-to-day-with-ankle-injury",
+    "headline": "Ravens QB Lamar Jackson Suffers Ankle Injury",
+    "summary": "Ravens quarterback Lamar Jackson exited Sunday’s win over the Titans just before halftime with an ankle injury, raising uncertainty about his availability for next Monday’s matchup with the Falcons. Jackson was one of several Ravens to go down in the victory. Cornerback Marlon Humphrey (calf), tight end Durham Smythe (Achilles), and right guard Andrew Vorhees […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/ravens-qb-lamar-jackson-suffers-ankle-injury",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "50106743",
+    "publishedAt": "2026-10-05T02:31:13Z",
+    "type": "Analysis",
+    "headline": "NFL looking into exchange between Vikings' Wilson, ref Hill",
+    "summary": "The NFL is looking into an unusual exchange between referee Adrian Hill and Vikings linebacker Eric Wilson that took place in Minnesota's 15-10 victory over the Dolphins, ESPN's Adam Schefter reported Sunday night.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50106743/nfl-looking-exchange-vikings-wilson-ref-hill",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50105514",
+    "publishedAt": "2026-10-05T02:16:57Z",
+    "type": "Analysis",
+    "headline": "NFL looking into official apparently cursing at Cardinals' McBride",
+    "summary": "The NFL says it is reviewing an official's apparent use of profanity directed at Cardinals tight end Trey McBride in Sunday's game against the Giants.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50105514/nfl-looking-official-apparently-cursing-cardinals-mcbride",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50106575",
+    "publishedAt": "2026-10-05T02:14:22Z",
+    "type": "Injury",
+    "headline": "Kyle Juszczyk (knee), two more 49ers injured in win over Broncos",
+    "summary": "For the fourth straight week, the 49ers clawed out a victory but were unable to come out of the game against the Broncos without injury concerns.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50106575/kyle-juszczyk-knee-two-more-49ers-injured-win-broncos",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jim-harbaugh-mike-mcdaniels-job-is-not-in-jeopardy",
+    "publishedAt": "2026-10-05T02:49:23.000Z",
+    "type": "Analysis",
+    "headline": "Jim Harbaugh: Mike McDaniel's job \"is not in jeopardy\"",
+    "summary": "After the Chargers lost their third game of the season in three weeks, coach Jim Harbaugh gave offensive coordinator Mike McDaniel a vote of confidence.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jim-harbaugh-mike-mcdaniels-job-is-not-in-jeopardy",
     "sourceName": "Pro Football Talk"
   },
   {
-    "id": "50105352",
-    "publishedAt": "2026-10-04T23:47:29Z",
-    "type": "Analysis",
-    "headline": "Brock Purdy throws 2 TD passes to lead the undefeated 49ers past the Broncos 24-14",
-    "summary": "— Brock Purdy threw two touchdown passes and Christian McCaffrey ran for a score to lead the undefeated San Francisco 49ers to a 24-14 victory over the ",
-    "sourceUrl": "http://www.espn.com/nfl/recap?gameId=401872975",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50105328",
-    "publishedAt": "2026-10-04T23:44:30Z",
-    "type": "Analysis",
-    "headline": "Unbeaten Vikings keep Dolphins winless with dominant defense, Reichard's kicks, Hockenson's catches",
-    "summary": "— The Minnesota Vikings stayed undefeated with more dominance by their defense and five field goals from Will Reichard, sidestepping their early passing game problems to secure a 15-10 victory...",
-    "sourceUrl": "http://www.espn.com/nfl/recap?gameId=401872974",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50103645",
-    "publishedAt": "2026-10-04T20:59:30Z",
-    "type": "Analysis",
-    "headline": "Maye overcomes his two turnovers with 3 TD passes in Patriots' 29-26 win over Bills",
-    "summary": "— Drake Maye threw three touchdown passes, including Efton Chism’s one-handed catch with 1:50 remaining, and the New England Patriots defeated the Buffalo Bills 29-26 on Sunday.",
-    "sourceUrl": "http://www.espn.com/nfl/recap?gameId=401872971",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50104876",
-    "publishedAt": "2026-10-04T23:57:11Z",
-    "type": "Analysis",
-    "headline": "CeeDee Lamb's 17 catches, go-ahead score power Cowboys",
-    "summary": "CeeDee Lamb returned to Houston and caught 17 passes for 189 yards, including the game-winning, 12-yard touchdown with 40 seconds to go, as a large number of family members watched from the stands.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50104876/ceedee-lamb-17-catches-go-ahead-score-power-cowboys",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50105539",
-    "publishedAt": "2026-10-05T00:04:30Z",
-    "type": "Analysis",
-    "headline": "Chiefs beat the Raiders 30-27 to move to 4-0 behind Patrick Mahomes and Kenneth Walker III",
-    "summary": "— Patrick Mahomes remained undefeated at Allegiant Stadium, passing for 225 yards and two touchdowns, and Kenneth Walker III rushed for 177 yards and two TDs to lead the Chiefs to a 30-27 victory over the Las Vegas Raiders on Sunday.",
-    "sourceUrl": "http://www.espn.com/nfl/recap?gameId=401872976",
-    "sourceName": "ESPN"
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=421953",
+    "publishedAt": "2026-10-05T01:01:20.000Z",
+    "type": "Transaction",
+    "headline": "Bears Could Pursue Trade Additions",
+    "summary": "The Bears beat the Jets on Sunday, winning their second straight game without Caleb Williams at quarterback. That puts Chicago at 3-1 on the year. Having found success with Case Keenum and then Tyson Bagent under center, the Bears have managed to put themselves in strong early contention for a playoff spot. A buyer’s stance during the build-up to the trade […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/bears-could-pursue-trade-additions",
+    "sourceName": "Pro Football Rumors"
   }
 ]
