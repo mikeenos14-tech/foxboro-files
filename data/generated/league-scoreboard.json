@@ -39,6 +39,19 @@
     "overtime": false
   },
   {
+    "gameId": "2026_04_DET_CAR",
+    "week": 4,
+    "date": "2026-10-04",
+    "weekday": "Sunday",
+    "homeTeam": "CAR",
+    "awayTeam": "DET",
+    "homeScore": 32,
+    "awayScore": 26,
+    "homeRecord": "2-2",
+    "awayRecord": "2-2",
+    "overtime": false
+  },
+  {
     "gameId": "2026_04_NYJ_CHI",
     "week": 4,
     "date": "2026-10-04",
@@ -78,6 +91,19 @@
     "overtime": false
   },
   {
+    "gameId": "2026_04_KC_LV",
+    "week": 4,
+    "date": "2026-10-04",
+    "weekday": "Sunday",
+    "homeTeam": "LV",
+    "awayTeam": "KC",
+    "homeScore": 27,
+    "awayScore": 30,
+    "homeRecord": "3-1",
+    "awayRecord": "4-0",
+    "overtime": false
+  },
+  {
     "gameId": "2026_04_MIA_MIN",
     "week": 4,
     "date": "2026-10-04",
@@ -113,6 +139,32 @@
     "homeScore": 20,
     "awayScore": 24,
     "homeRecord": "2-2",
+    "awayRecord": "2-2",
+    "overtime": false
+  },
+  {
+    "gameId": "2026_04_LAC_SEA",
+    "week": 4,
+    "date": "2026-10-04",
+    "weekday": "Sunday",
+    "homeTeam": "SEA",
+    "awayTeam": "LAC",
+    "homeScore": 30,
+    "awayScore": 23,
+    "homeRecord": "3-1",
+    "awayRecord": "0-4",
+    "overtime": false
+  },
+  {
+    "gameId": "2026_04_DEN_SF",
+    "week": 4,
+    "date": "2026-10-04",
+    "weekday": "Sunday",
+    "homeTeam": "SF",
+    "awayTeam": "DEN",
+    "homeScore": 24,
+    "awayScore": 14,
+    "homeRecord": "4-0",
     "awayRecord": "2-2",
     "overtime": false
   },

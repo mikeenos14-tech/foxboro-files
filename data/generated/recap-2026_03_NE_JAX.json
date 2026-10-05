@@ -8,7 +8,7 @@
   "successRate": {
     "offense": 0.36666666666666664,
     "defense": 0.5084745762711864,
-    "leagueAverage": 0.43862381424323943
+    "leagueAverage": 0.43837753510140404
   },
   "turnoverMargin": -2,
   "pointsOffTurnovers": {
@@ -176,9 +176,9 @@
   "standouts": [
     {
       "group": "qb",
-      "text": "Drake Maye's -0.51 EPA per dropback is the 6th-worst quarterback game in the NFL this season.",
-      "population": "all 118 quarterback games this season with 15+ dropbacks",
-      "score": 0.9572649572649573,
+      "text": "Drake Maye's -0.51 EPA per dropback is the 7th-worst quarterback game in the NFL this season.",
+      "population": "all 128 quarterback games this season with 15+ dropbacks",
+      "score": 0.952755905511811,
       "tone": "bad"
     },
     {
@@ -189,10 +189,10 @@
       "tone": "bad"
     },
     {
-      "group": "defense",
-      "text": "The 12th-worst defensive game by any team this season: +0.23 EPA per play allowed.",
-      "population": "all 116 team-games this season",
-      "score": 0.9043478260869565,
+      "group": "offense",
+      "text": "The 13th-worst offensive game by any team this season: -0.25 EPA per play.",
+      "population": "all 126 team-games this season",
+      "score": 0.904,
       "tone": "bad"
     }
   ],

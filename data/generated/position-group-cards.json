@@ -1,19 +1,19 @@
 [
   {
     "group": "QB",
-    "grade": 26,
+    "grade": 29,
     "trend": "up",
     "soWhat": "EPA/play at QB, on 133 plays.",
     "windows": [
       {
         "key": "last-1",
         "label": "Last Game",
-        "grade": 81
+        "grade": 84
       },
       {
         "key": "last-3",
         "label": "Last 3 Games",
-        "grade": 26
+        "grade": 32
       }
     ],
     "statLine": "",
@@ -22,19 +22,19 @@
   },
   {
     "group": "RB",
-    "grade": 45,
-    "trend": "up",
+    "grade": 32,
+    "trend": "flat",
     "soWhat": "EPA/play at RB, on 96 plays.",
     "windows": [
       {
         "key": "last-1",
         "label": "Last Game",
-        "grade": 55
+        "grade": 39
       },
       {
         "key": "last-3",
         "label": "Last 3 Games",
-        "grade": 45
+        "grade": 74
       }
     ],
     "statLine": "333 yds, 3.5 YPC, 2 TD, 0 FUM, 6% explosive",
@@ -44,7 +44,7 @@
   },
   {
     "group": "WR",
-    "grade": 39,
+    "grade": 42,
     "trend": "up",
     "soWhat": "EPA/play at WR, on 75 plays.",
     "windows": [
@@ -56,7 +56,7 @@
       {
         "key": "last-3",
         "label": "Last 3 Games",
-        "grade": 35
+        "grade": 42
       }
     ],
     "statLine": "45/75 (60%), 605 yds, 3.0 YAC/rec, 3 TD",
@@ -78,7 +78,7 @@
       {
         "key": "last-1",
         "label": "Last Game",
-        "grade": 84
+        "grade": 77
       },
       {
         "key": "last-3",
@@ -99,19 +99,19 @@
   },
   {
     "group": "Pass Protection",
-    "grade": 58,
-    "trend": "up",
+    "grade": 68,
+    "trend": "flat",
     "soWhat": "Pressure rate allowed — sacks or QB hits, so a beaten block still counts when a quick throw bails it out. Team-wide, and partly the QB's own time to throw.",
     "windows": [
       {
         "key": "last-1",
         "label": "Last Game",
-        "grade": 68
+        "grade": 65
       },
       {
         "key": "last-3",
         "label": "Last 3 Games",
-        "grade": 52
+        "grade": 48
       }
     ],
     "statLine": "Drake Maye takes 3.04 sec to throw on average — 6th-longest of 37 qualified QBs (a longer hold gives the rush more time)",
@@ -120,19 +120,19 @@
   },
   {
     "group": "Pass Rush",
-    "grade": 32,
+    "grade": 39,
     "trend": "down",
     "soWhat": "Sack rate generated, team-wide — edge rushers, interior linemen and blitzers all included.",
     "windows": [
       {
         "key": "last-1",
         "label": "Last Game",
-        "grade": 16
+        "grade": 29
       },
       {
         "key": "last-3",
         "label": "Last 3 Games",
-        "grade": 39
+        "grade": 32
       }
     ],
     "statLine": "8 sacks, 23 QB hits — leader: Elijah Ponder (2.5 sacks)",
@@ -153,7 +153,7 @@
       {
         "key": "last-3",
         "label": "Last 3 Games",
-        "grade": 16
+        "grade": 10
       }
     ],
     "statLine": "14 TFL, 3 forced fumbles — leader: Elijah Ponder (4 TFL)",
@@ -169,12 +169,12 @@
       {
         "key": "last-1",
         "label": "Last Game",
-        "grade": 45
+        "grade": 55
       },
       {
         "key": "last-3",
         "label": "Last 3 Games",
-        "grade": 74
+        "grade": 84
       }
     ],
     "statLine": "3 INT, 16 PBU — leader: Gabe Jacas (1 INT)",
