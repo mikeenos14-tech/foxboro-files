@@ -1,12 +1,300 @@
 [
   {
-    "id": "50109680",
-    "publishedAt": "2026-10-05T15:10:01Z",
+    "id": "50110871",
+    "publishedAt": "2026-10-05T18:08:35Z",
+    "type": "Injury",
+    "headline": "Broncos get good news on Pat Surtain II's ankle, sources say",
+    "summary": "Broncos star cornerback Pat Surtain II avoided a worst-case scenario on his ankle injury, sources told NFL Network's Ian Rapoport.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50110871/broncos-get-good-news-pat-surtain-ii-ankle-sources-say",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50110486",
+    "publishedAt": "2026-10-05T18:03:00Z",
     "type": "Analysis",
-    "headline": "Tyreek Hill expected to sign with team soon, agent says",
-    "summary": "Free agent wide receiver Tyreek Hill will sign with a new \"over the next few days,\" his agent Drew Rosenhaus told ESPN's Adam Schefter. Hill's former team, the Chiefs, are believed to be one of the team's interested.",
+    "headline": "Ben Johnson: Tyson Bagent will start at QB for Bears vs. Packers",
+    "summary": "Tyson Bagent will be the Bears' starting quarterback for Sunday's game at the Packers, coach Ben Johnson announced Monday.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50110486/ben-johnson-tyson-bagent-start-qb-bears-vs-packers",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/another-defendant-in-terrion-arnold-case-pleads-guilty-agrees-to-testify",
+    "publishedAt": "2026-10-05T17:57:41.000Z",
+    "type": "Analysis",
+    "headline": "Another defendant in Terrion Arnold case pleads guilty, agrees to testify",
+    "summary": "Seahawks cornerback Terrion Arnold remains on paid leave, as he faces eight felony counts arising from an alleged armed robbery and kidnapping.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/another-defendant-in-terrion-arnold-case-pleads-guilty-agrees-to-testify",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "50110820",
+    "publishedAt": "2026-10-05T17:47:57Z",
+    "type": "Analysis",
+    "headline": "Head coach Kyle Shanahan makes franchise history",
+    "summary": "The 49ers' win against the Broncos marks Kyle Shanahan's 167th franchise win, surpassing Bill Walsh for the all-time franchise record.",
+    "sourceUrl": "https://www.espn.com/video/clip/_/id/50110820/head-coach-kyle-shanahan-makes-franchise-history",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50110782",
+    "publishedAt": "2026-10-05T17:46:26Z",
+    "type": "Transaction",
+    "headline": "Adam Schefter's players to watch at the trade deadline",
+    "summary": "Adam Schefter's players to watch at the trade deadline ",
+    "sourceUrl": "https://www.espn.com/video/clip/_/id/50110782/adam-schefter-players-watch-trade-deadline",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-braxton-berrios-will-be-placed-on-ir-with-foot-injury",
+    "publishedAt": "2026-10-05T17:44:48.000Z",
+    "type": "Injury",
+    "headline": "Report: Braxton Berrios will be placed on IR with foot injury",
+    "summary": "The Giants will not have one of their key special teams players for at least the next four weeks.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-braxton-berrios-will-be-placed-on-ir-with-foot-injury",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "50110763",
+    "publishedAt": "2026-10-05T17:44:02Z",
+    "type": "Injury",
+    "headline": "Sources: Packers LB Edgerrin Cooper has torn Achilles",
+    "summary": "Packers linebacker Edgerrin Cooper suffered a season-ending Achilles tear during Sunday's 17-14 victory over the Buccaneers, sources told ESPN's Adam Schefter and NFL Network's Ian Rapoport.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50110763/sources-packers-lb-edgerrin-cooper-torn-achilles",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50110790",
+    "publishedAt": "2026-10-05T17:42:20Z",
+    "type": "Analysis",
+    "headline": "Breaking down the Broncos' offensive struggles",
+    "summary": "Jeffrey Legwold details Head Coach Sean Payton's thoughts on the Broncos' loss against the 49ers.",
+    "sourceUrl": "https://www.espn.com/video/clip/_/id/50110790/breaking-broncos-offensive-struggles",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/tests-confirm-packers-lb-edgerrin-cooper-tore-his-achilles",
+    "publishedAt": "2026-10-05T17:25:19.000Z",
+    "type": "Analysis",
+    "headline": "Tests confirm Packers LB Edgerrin Cooper tore his Achilles",
+    "summary": "Packers linebacker Edgerrin Cooper's season is over.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/tests-confirm-packers-lb-edgerrin-cooper-tore-his-achilles",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cbs-reporter-aditi-kinkhabwala-heard-no-profanity-from-trey-mcbride",
+    "publishedAt": "2026-10-05T17:23:56.000Z",
+    "type": "Analysis",
+    "headline": "CBS reporter Aditi Kinkhabwala heard no profanity from Trey McBride",
+    "summary": "On any given Sunday of NFL games, expect the unexpected.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cbs-reporter-aditi-kinkhabwala-heard-no-profanity-from-trey-mcbride",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=421937",
+    "publishedAt": "2026-10-05T17:23:25.000Z",
+    "type": "Injury",
+    "headline": "Packers LB Edgerrin Cooper Suffers Torn Achilles",
+    "summary": "OCTOBER 5: Cooper underwent an MRI on Monday. As NFL Network’s Ian Rapoport notes, it confirmed an Achilles tear took place yesterday. Cooper will miss the remainder of the season as a result. OCTOBER 4: The Packers’ defense appears to have been dealt a major blow. Linebacker Edgerrin Cooper was carted off the field, and he has since […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/packers-lb-edgerrin-cooper-carted-off-with-achilles-injury",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/marcus-mariota-suffered-mcl-sprain-on-sunday",
+    "publishedAt": "2026-10-05T17:17:45.000Z",
+    "type": "Injury",
+    "headline": "Marcus Mariota suffered MCL sprain on Sunday",
+    "summary": "If Jayden Daniels is not ready to play in Week 5, rookie Athan Kaliakmanis may get more playing time.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/marcus-mariota-suffered-mcl-sprain-on-sunday",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=421989",
+    "publishedAt": "2026-10-05T17:00:07.000Z",
+    "type": "Transaction",
+    "headline": "Steelers To Sign CB Sean Murphy-Bunting Off Buccaneers’ Practice Squad",
+    "summary": "In need of healthy cornerback options, the Steelers are in line to add a veteran to the mix. Sean Murphy-Bunting is being signed off the Buccaneers’ practice squad, The Ringer’s Tom Pelissero reports. Pittsburgh’s Joey Porter Jr. saga came to an end last week when he was traded to the Cowboys. That move did not come as a surprise […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/steelers-to-sign-cb-sean-murphy-bunting-off-buccaneers-practice-squad",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-rashawn-slater-believed-to-have-a-high-ankle-sprain",
+    "publishedAt": "2026-10-05T16:55:02.000Z",
+    "type": "Injury",
+    "headline": "Report: Rashawn Slater believed to have a high-ankle sprain",
+    "summary": "The Chargers saw left tackle Rashawn Slater get hurt in Sunday's loss to the Seahawks and the 0-4 team is reportedly set to be without him for a while.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-rashawn-slater-believed-to-have-a-high-ankle-sprain",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/tyson-bagent-is-expected-to-start-week-5-vs-packers",
+    "publishedAt": "2026-10-05T16:49:27.000Z",
+    "type": "Analysis",
+    "headline": "Tyson Bagent is expected to start Week 5 vs. Packers",
+    "summary": "Ben Johnson isn't going to play the, \"Who's going to start?\"",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/tyson-bagent-is-expected-to-start-week-5-vs-packers",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/broncos-wr-pat-bryant-is-expected-to-miss-time-with-sprained-ankle",
+    "publishedAt": "2026-10-05T16:48:25.000Z",
+    "type": "Injury",
+    "headline": "Broncos WR Pat Bryant is expected to miss time with sprained ankle",
+    "summary": "The Broncos had a pair of players leave Sunday's loss to the 49ers with ankle injuries, but early word on both is that they avoided serious injuries.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/broncos-wr-pat-bryant-is-expected-to-miss-time-with-sprained-ankle",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/steelers-sign-cb-sean-murphy-bunting-off-bucs-practice-squad",
+    "publishedAt": "2026-10-05T16:33:55.000Z",
+    "type": "Transaction",
+    "headline": "Steelers sign CB Sean Murphy-Bunting off Bucs practice squad",
+    "summary": "After the Steelers traded Joey Porter Jr. to the Cowboys, help is on the way for Pittsburgh’s secondary.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/steelers-sign-cb-sean-murphy-bunting-off-bucs-practice-squad",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-kyle-juszczyk-could-miss-a-couple-of-weeks-with-knee-injury",
+    "publishedAt": "2026-10-05T16:31:58.000Z",
+    "type": "Injury",
+    "headline": "Report: Kyle Juszczyk could miss a couple of weeks with knee injury",
+    "summary": "49ers fullback Kyle Juszczyk had to leave Sunday's win over the Broncos with a knee injury, but early indications are that he will avoid a long absence from the lineup.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-kyle-juszczyk-could-miss-a-couple-of-weeks-with-knee-injury",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "47809892",
+    "publishedAt": "2026-10-05T16:16:21Z",
+    "type": "Analysis",
+    "headline": "Super Bowl LXI odds: All 32 teams' odds to win the championship",
+    "summary": "Every NFL team's win total, as well as odds to win the division, the conference and Super Bowl LXI.",
+    "sourceUrl": "https://www.espn.com/espn/betting/story/_/id/47809892/2026-super-bowl-lxi-odds-nfl-sports-betting-season-win-totals-playoffs",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "34636537",
+    "publishedAt": "2026-10-05T16:16:08Z",
+    "type": "Analysis",
+    "headline": "ManningCast 2026 schedule: How to watch MNF games and guests",
+    "summary": "Monday Night Football with Eli and Peyton Manning is back. Here's the 2026 game lineup, special guests and more.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/34636537/maningcast-schedule-monday-night-football-guests-mnf",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=421985",
+    "publishedAt": "2026-10-05T16:04:35.000Z",
+    "type": "Injury",
+    "headline": "Commanders WR Jaylin Lane Likely Out For Season",
+    "summary": "Jaylin Lane suffered an ankle injury during the Commanders’ Week 4 loss. The second-year receiver/returner may not return in 2026. Testing revealed a fracture and dislocation of Lane’s ankle, Ian Rapoport of NFL Network reports. As a result, he is likely out for the remainder of the season. Lane is still in London (the location of […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/commanders-wr-jaylin-lane-likely-out-for-season",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "50109541",
+    "publishedAt": "2026-10-05T16:00:01Z",
+    "type": "Analysis",
+    "headline": "'Unacceptable': Ravens steaming after most penalty yards in 6 years",
+    "summary": "The Ravens were flagged 13 times Sunday for 131 yards, which was their most in a game in six years.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50109541/baltimore-ravens-steaming-most-penalty-yards-week-4",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/klint-kubiak-on-taking-made-fg-off-the-board-i-dont-regret-it-i-regret-not-getting-a-first-down",
+    "publishedAt": "2026-10-05T15:57:44.000Z",
+    "type": "Analysis",
+    "headline": "Klint Kubiak on taking made FG off the board: I don't regret it, I regret not getting a first down",
+    "summary": "In the third quarter of Las Vegas’ matchup against Kansas City on Sunday, Raiders head coach Klint Kubiak made a choice.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/klint-kubiak-on-taking-made-fg-off-the-board-i-dont-regret-it-i-regret-not-getting-a-first-down",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "50109680",
+    "publishedAt": "2026-10-05T15:53:55Z",
+    "type": "Analysis",
+    "headline": "Tyreek Hill could sign with new team soon, agent says",
+    "summary": "Free agent wide receiver Tyreek Hill could sign with a new team \"over the next few days,\" his agent, Drew Rosenhaus, told ESPN's Adam Schefter. Hill's former team, the Chiefs, are believed to be one of those interested.",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/50109680/tyreek-hill-expected-sign-team-soon-agent-says",
     "sourceName": "ESPN"
+  },
+  {
+    "id": "48476156",
+    "publishedAt": "2026-10-05T15:51:05Z",
+    "type": "Analysis",
+    "headline": "2026 NFL awards tracker: Odds for MVP, Rookie of the Year and more",
+    "summary": "Who are the favorites to win seasonlong honors? Here are the odds for MVP, Rookie of the Year and more.",
+    "sourceUrl": "https://www.espn.com/espn/betting/story/_/id/48476156/2026-nfl-awards-betting-odds-mvp-rookie-year-offensive-defensive-player-coach",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50109897",
+    "publishedAt": "2026-10-05T15:46:33Z",
+    "type": "Analysis",
+    "headline": "Stephen A.: Nobody is beating the Chiefs if they sign Tyreek Hill",
+    "summary": "Stephen A.: Nobody is beating the Chiefs if they sign Tyreek Hill ",
+    "sourceUrl": "https://www.espn.com/video/clip/_/id/50109897/beating-chiefs-sign-tyreek-hill",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/tyreek-hill-still-has-an-active-personal-conduct-policy-investigation",
+    "publishedAt": "2026-10-05T15:45:51.000Z",
+    "type": "Analysis",
+    "headline": "Tyreek Hill still has an active Personal Conduct Policy investigation",
+    "summary": "Hill's looming return could move the case back to the front burner.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/tyreek-hill-still-has-an-active-personal-conduct-policy-investigation",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/win-over-eagles-was-matthew-staffords-40th-career-fourth-quarter-comeback",
+    "publishedAt": "2026-10-05T15:44:51.000Z",
+    "type": "Analysis",
+    "headline": "Win over Eagles was Matthew Stafford's 40th career fourth-quarter comeback",
+    "summary": "The Rams were losing 20-10 to the Eagles in the fourth quarter on Sunday, but anyone who thought the game was over hasn't been watching Matthew Stafford over the years.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/win-over-eagles-was-matthew-staffords-40th-career-fourth-quarter-comeback",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-commanders-wr-jaylin-lane-fractured-dislocated-ankle-on-sunday",
+    "publishedAt": "2026-10-05T15:31:19.000Z",
+    "type": "Injury",
+    "headline": "Report: Commanders WR Jaylin Lane fractured, dislocated ankle on Sunday",
+    "summary": "The ankle injury that knocked Commanders wide receiver Jaylin Lane out of Sunday's loss to the Colts in Europe is reportedly just as severe as it appeared to be on the field.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-commanders-wr-jaylin-lane-fractured-dislocated-ankle-on-sunday",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/buccaneers-coach-todd-bowles-could-be-running-out-of-time-to-turn-things-around",
+    "publishedAt": "2026-10-05T15:30:11.000Z",
+    "type": "Analysis",
+    "headline": "Buccaneers coach Todd Bowles could be running out of time to turn things around",
+    "summary": "The Buccaneers started the 2025 season at 6-2.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/buccaneers-coach-todd-bowles-could-be-running-out-of-time-to-turn-things-around",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/aaron-glenn-jets-history-will-get-brought-up-we-cant-think-about-it-in-locker-room",
+    "publishedAt": "2026-10-05T15:09:51.000Z",
+    "type": "Analysis",
+    "headline": "Aaron Glenn: Jets history will get brought up, we can't think about it in locker room",
+    "summary": "The Jets opened the season with an easy win over the Titans, but the last three weeks have not been as pleasant for Aaron Glenn's club.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/aaron-glenn-jets-history-will-get-brought-up-we-cant-think-about-it-in-locker-room",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/kenneth-walker-becomes-third-player-ever-to-rush-for-at-least-170-twice-in-first-four-games",
+    "publishedAt": "2026-10-05T15:09:51.000Z",
+    "type": "Transaction",
+    "headline": "Kenneth Walker becomes third player ever to rush for at least 170 twice in first four games",
+    "summary": "Kenneth Walker has obviously been a major piece of Kansas City's offense since signing with the team as a free agent this offseason.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/kenneth-walker-becomes-third-player-ever-to-rush-for-at-least-170-twice-in-first-four-games",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/brock-purdy-has-thrown-113-passes-and-still-hasnt-been-sacked",
+    "publishedAt": "2026-10-05T15:09:21.000Z",
+    "type": "Analysis",
+    "headline": "Brock Purdy has thrown 113 passes, and still hasn't been sacked",
+    "summary": "49ers quarterback Brock Purdy has put up some impressive numbers this season, including leading the NFL with a 126.2 passer rating and 11 touchdown passes.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/brock-purdy-has-thrown-113-passes-and-still-hasnt-been-sacked",
+    "sourceName": "Pro Football Talk"
   },
   {
     "id": "50109020",
@@ -454,7 +742,7 @@
     "publishedAt": "2026-10-05T04:20:24.000Z",
     "type": "Analysis",
     "headline": "Lions, Sam LaPorta Break Off Negotiations",
-    "summary": "Multiple reports have suggested the Lions want to hammer out an extension with tight end Sam LaPorta, who is in the final year of his rookie contract. A new contract is now in doubt, as ESPN’s Ian Rapoport says the two sides have broken off negotiations for now. Detroit is a club that is willing […]",
+    "summary": "Multiple reports have suggested the Lions want to hammer out an extension with tight end Sam LaPorta, who is in the final year of his rookie contract. A new contract is now in doubt, as ESPN’s Ian Rapoport says the two sides have broken off negotiations for the time being. Detroit is a club that […]",
     "sourceUrl": "https://www.profootballrumors.com/2026/10/lions-te-sam-laporta-break-off-negotiations",
     "sourceName": "Pro Football Rumors"
   },
@@ -1402,15 +1690,6 @@
     "summary": "The Bears won without Caleb Williams for the second straight week.",
     "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/kyle-monangai-tyson-bagent-lead-bears-to-23-12-win-over-jets",
     "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=421937",
-    "publishedAt": "2026-10-04T19:50:25.000Z",
-    "type": "Injury",
-    "headline": "Packers LB Edgerrin Cooper Carted Off With Achilles Injury",
-    "summary": "The Packers’ defense appears to have been dealt a major blow. Linebacker Edgerrin Cooper was carted off the field, and he has since been ruled out with an Achilles injury. The non-contact play on which Cooper was injured and the quick timeline along which he has been ruled have naturally led to fears of an Achilles tear. […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/packers-lb-edgerrin-cooper-carted-off-with-achilles-injury",
-    "sourceName": "Pro Football Rumors"
   },
   {
     "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/kyle-shanahan-passes-bill-walsh-today-for-most-games-as-49ers-coach",
@@ -5157,15 +5436,6 @@
     "sourceName": "ESPN"
   },
   {
-    "id": "48476156",
-    "publishedAt": "2026-09-30T23:31:35Z",
-    "type": "Analysis",
-    "headline": "2026 NFL awards tracker: Odds for MVP, Rookie of the Year and more",
-    "summary": "Who are the favorites to win seasonlong honors? Here are the odds for MVP, Rookie of the Year and more.",
-    "sourceUrl": "https://www.espn.com/espn/betting/story/_/id/48476156/2026-nfl-awards-betting-odds-mvp-rookie-year-offensive-defensive-player-coach",
-    "sourceName": "ESPN"
-  },
-  {
     "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jim-harbaugh-to-no-surprise-spoke-to-john-harbaugh-before-j-j-mccarthy-trade",
     "publishedAt": "2026-09-30T23:14:59.000Z",
     "type": "Transaction",
@@ -6649,15 +6919,6 @@
     "summary": "Johnson was mum on his plans for QB this week in a radio interview on Tuesday.",
     "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/ben-johnson-on-week-4-qb-well-see-how-it-plays-out",
     "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "47809892",
-    "publishedAt": "2026-09-29T19:00:36Z",
-    "type": "Analysis",
-    "headline": "Super Bowl LXI odds: All 32 teams' odds to win the championship",
-    "summary": "Every NFL team's win total, as well as odds to win the division, the conference and Super Bowl LXI.",
-    "sourceUrl": "https://www.espn.com/espn/betting/story/_/id/47809892/2026-super-bowl-lxi-odds-nfl-sports-betting-season-win-totals-playoffs",
-    "sourceName": "ESPN"
   },
   {
     "id": "50060106",
@@ -15478,257 +15739,5 @@
     "summary": "Seahawks rookie running back Jadarian Price left Sunday's win over the Cardinals with an injury, but it doesn't look like he is facing an extended absence from the lineup.",
     "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/seahawks-dont-think-jadarian-prices-shoulder-injury-is-serious",
     "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "49999619",
-    "publishedAt": "2026-09-21T18:07:47Z",
-    "type": "Injury",
-    "headline": "Dan Campbell: Lions DB Avonte Maddox out for season",
-    "summary": "Dan Campbell: Lions DB Avonte Maddox out for season",
-    "sourceUrl": "https://www.espn.com/video/clip/_/id/49999619/lions-db-avonte-maddox-season",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "49999315",
-    "publishedAt": "2026-09-21T18:06:42Z",
-    "type": "Analysis",
-    "headline": "Sauce Gardner's journey with Colts is stuck in a 9-game rut",
-    "summary": "The Colts are off to an 0-2 start, which doesn't bode well for the front office and doesn't sit well with the players.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49999315/sauce-gardner-journey-colts-stuck-9-game-rut",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-kelvin-banks-is-expected-to-have-ankle-surgery",
-    "publishedAt": "2026-09-21T18:01:38.000Z",
-    "type": "Analysis",
-    "headline": "Report: Kelvin Banks is expected to have ankle surgery",
-    "summary": "Word on Monday morning was that the Saints believed left tackle Kelvin Banks suffered a high-ankle sprain during Sunday's win over the Ravens and an update on Monday afternoon paints a bleaker picture for Banks.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-kelvin-banks-is-expected-to-have-ankle-surgery",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/andy-reid-josh-simmons-working-his-tail-off-to-return",
-    "publishedAt": "2026-09-21T17:53:31.000Z",
-    "type": "Injury",
-    "headline": "Andy Reid: Josh Simmons \"working his tail off\" to return",
-    "summary": "On Sunday, PFT reported that Chiefs left tackle Josh Simmons is considered week-to-week with his back injury.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/andy-reid-josh-simmons-working-his-tail-off-to-return",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/stephen-jones-no-concerns-about-field-in-brazil",
-    "publishedAt": "2026-09-21T17:51:02.000Z",
-    "type": "Analysis",
-    "headline": "Stephen Jones: No concerns about field in Brazil",
-    "summary": "The Cowboys will head to Rio in Week 3 for a game against the Ravens and the condition of the field that the two teams will play on in Brazil has been a topic of conversation in recent days.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/stephen-jones-no-concerns-about-field-in-brazil",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/for-the-chargers-the-first-two-games-were-a-disaster",
-    "publishedAt": "2026-09-21T17:41:35.000Z",
-    "type": "Analysis",
-    "headline": "For the Chargers, the first two games were a disaster",
-    "summary": "Jim Harbaugh's not in Ann Arbor anymore.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/for-the-chargers-the-first-two-games-were-a-disaster",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/todd-bowles-says-buccaneers-are-angrily-optimistic-after-0-2-start",
-    "publishedAt": "2026-09-21T17:30:04.000Z",
-    "type": "Analysis",
-    "headline": "Todd Bowles says Buccaneers are \"angrily optimistic\" after 0-2 start",
-    "summary": "The Buccaneers fell to 0-2 with Sunday's loss to the Browns and the team is now 2-9 since opening last season with a 6-2 record.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/todd-bowles-says-buccaneers-are-angrily-optimistic-after-0-2-start",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/ben-johnson-caleb-williams-week-to-week-likely-will-miss-time",
-    "publishedAt": "2026-09-21T17:27:12.000Z",
-    "type": "Injury",
-    "headline": "Ben Johnson: Caleb Williams week-to-week, likely will miss time",
-    "summary": "While Williams appears to have avoided a major hamstring injury, he is likely to be sidelined.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/ben-johnson-caleb-williams-week-to-week-likely-will-miss-time",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/lions-bills-averages-18-6-million-on-prime-video",
-    "publishedAt": "2026-09-21T17:22:42.000Z",
-    "type": "Analysis",
-    "headline": "Lions-Bills averages 18.6 million on Prime Video",
-    "summary": "The christening of the new Bills' stadium had plenty of witnesses.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/lions-bills-averages-18-6-million-on-prime-video",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "49999240",
-    "publishedAt": "2026-09-21T17:07:31Z",
-    "type": "Analysis",
-    "headline": "Pat McAfee isn't giving up on the 0-2 Chargers yet",
-    "summary": "Pat McAfee isn't giving up on the 0-2 Chargers yet",
-    "sourceUrl": "https://www.espn.com/video/clip/_/id/49999240/pat-mcafee-giving-0-2-chargers-yet",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=420398",
-    "publishedAt": "2026-09-21T16:54:23.000Z",
-    "type": "Injury",
-    "headline": "Lions’ Avonte Maddox To Undergo Season-Ending Foot Surgery",
-    "summary": "Avonte Maddox exited Detroit’s Week 2 loss with a foot injury. He will not return in 2026. The veteran defensive back will require season-ending surgery, head coach Dan Campbell said on Monday (h/t ESPN’s Eric Woodyard). That will deal a blow to a Lions secondary which has endured plenty of struggles through two games this season. Maddox is […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/09/lions-avonte-maddox-to-undergo-season-ending-foot-surgery",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/kevin-stefanski-has-a-decent-idea-of-week-3-starter-but-will-address-with-team-first",
-    "publishedAt": "2026-09-21T16:54:09.000Z",
-    "type": "Analysis",
-    "headline": "Kevin Stefanski has a \"decent idea\" of Week 3 starter, but will address with team first",
-    "summary": "Michael Penix Jr.?",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/kevin-stefanski-has-a-decent-idea-of-week-3-starter-but-will-address-with-team-first",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "49942984",
-    "publishedAt": "2026-09-21T16:21:16Z",
-    "type": "Injury",
-    "headline": "Early bets for NFL Week 3: Games that drew our attention once odds came out",
-    "summary": "Which Week 3 lines offered immediate value once odds came out? Here are three early bets to track.",
-    "sourceUrl": "https://www.espn.com/espn/betting/story/_/id/49942984/nfl-week-3-betting-odds-props-early-picks-predictions-first-bet",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/klint-kubiak-brock-bowers-was-very-close-to-playing-on-sunday",
-    "publishedAt": "2026-09-21T16:18:54.000Z",
-    "type": "Analysis",
-    "headline": "Klint Kubiak: Brock Bowers was \"very close\" to playing on Sunday",
-    "summary": "The Raiders are 2-0 and may be getting a boost to their offense next week.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/klint-kubiak-brock-bowers-was-very-close-to-playing-on-sunday",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "49999012",
-    "publishedAt": "2026-09-21T16:16:55Z",
-    "type": "Analysis",
-    "headline": "What went wrong for the Colts at Arrowhead?",
-    "summary": "Stephen Holder breaks down the Colts’ tough overtime loss to the Kansas City Chiefs at Arrowhead Stadium.",
-    "sourceUrl": "https://www.espn.com/video/clip/_/id/49999012/what-went-wrong-colts-arrowhead",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "49998478",
-    "publishedAt": "2026-09-21T16:10:57Z",
-    "type": "Analysis",
-    "headline": "Jackson, Ravens face questions after frustrating loss to Saints",
-    "summary": "Here are the major questions facing the Ravens' offense from Sunday's loss.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/49998478/lamar-jackson-baltimore-ravens-face-questions-frustrating-loss-new-orleans-saints-week-2",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/lions-s-avonte-maddox-out-for-season-with-foot-injury",
-    "publishedAt": "2026-09-21T16:09:39.000Z",
-    "type": "Injury",
-    "headline": "Lions S Avonte Maddox out for season with foot injury",
-    "summary": "Lions safety Avonte Maddox was forced out of last Sunday's loss to the Bills with a foot injury and he won't be back on the field anytime soon.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/lions-s-avonte-maddox-out-for-season-with-foot-injury",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "49999016",
-    "publishedAt": "2026-09-21T16:06:29Z",
-    "type": "Transaction",
-    "headline": "Cody White making a name for himself as Raiders start 2-0",
-    "summary": "Daniel Oyefusi breaks down how practice squad wide receiver Cody White made an impact with two touchdowns as the Raiders moved to 2-0.",
-    "sourceUrl": "https://www.espn.com/video/clip/_/id/49999016/cody-white-making-name-raiders-start-2-0",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "49998960",
-    "publishedAt": "2026-09-21T16:05:50Z",
-    "type": "Analysis",
-    "headline": "Bucs loss to Browns a 'tough pill to swallow'",
-    "summary": "Jenna Laine breaks down the final two minutes of the Bucs loss to the Cleveland Browns.",
-    "sourceUrl": "https://www.espn.com/video/clip/_/id/49998960/bucs-loss-browns-tough-pill-swallow",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-caleb-williams-did-not-suffer-major-hamstring-injury-not-ruled-out-for-week-3",
-    "publishedAt": "2026-09-21T16:01:32.000Z",
-    "type": "Injury",
-    "headline": "Report: Caleb Williams did not suffer major hamstring injury, not ruled out for Week 3",
-    "summary": "Though Williams' injury initially looked bad, he may not miss the Week 3 contest against the Eagles on Monday night.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-caleb-williams-did-not-suffer-major-hamstring-injury-not-ruled-out-for-week-3",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=420396",
-    "publishedAt": "2026-09-21T16:01:21.000Z",
-    "type": "Analysis",
-    "headline": "NFL To Stage Flag Football Showcase Prior To Super Bowl",
-    "summary": "Last month, the NFL announced there will be no Pro Bowl event this season. Monday brought about clarity on what will take its place in the time leading up to Super Bowl LXI. The league and TMRW Sports – the group tasked with organizing professional flag football leagues – issued a statement on Monday indicating […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/09/nfl-to-stage-flag-football-showcase-prior-to-super-bowl",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/lions-bring-in-veteran-defensive-backs-for-workouts-monday",
-    "publishedAt": "2026-09-21T15:54:55.000Z",
-    "type": "Analysis",
-    "headline": "Lions bring in veteran defensive backs for workouts Monday",
-    "summary": "Only the Colts have given up more points and yards than the Lions so far this season, so it's not surprising to hear that Detroit is looking for some outside defensive help.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/lions-bring-in-veteran-defensive-backs-for-workouts-monday",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-vrabel-didnt-want-his-sunday-ruined-by-questions-about-drake-mayes-struggles",
-    "publishedAt": "2026-09-21T15:43:07.000Z",
-    "type": "Analysis",
-    "headline": "Mike Vrabel didn't want his Sunday ruined by questions about Drake Maye's struggles",
-    "summary": "Patriots quarterback Drake Maye finished second in the MVP voting in 2025.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-vrabel-didnt-want-his-sunday-ruined-by-questions-about-drake-mayes-struggles",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/vikings-are-now-the-betting-favorites-to-win-the-nfc-north",
-    "publishedAt": "2026-09-21T15:42:25.000Z",
-    "type": "Analysis",
-    "headline": "Vikings are now the betting favorites to win the NFC North",
-    "summary": "Heading into the season, the Vikings were a distant fourth in the betting odds to win the NFC North.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/vikings-are-now-the-betting-favorites-to-win-the-nfc-north",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "49965801",
-    "publishedAt": "2026-09-21T15:27:15Z",
-    "type": "Analysis",
-    "headline": "How to bet Giants-Rams on MNF: Analysis, tips and favorite plays",
-    "summary": "Odds, bets and analysis to help you bet Giants-Rams on \"Monday Night Football.\"",
-    "sourceUrl": "https://www.espn.com/espn/betting/story/_/id/49965801/nfl-week-2-odds-betting-tips-picks-new-york-giants-los-angeles-rams",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/fox-audio-issues-had-viewers-watching-one-game-hearing-bears-vikings",
-    "publishedAt": "2026-09-21T15:22:06.000Z",
-    "type": "Analysis",
-    "headline": "Fox audio issues had some viewers watching one game, hearing Vikings-Bears",
-    "summary": "The second Sunday of the 2026 regular season gave new meaning to the second-game experience.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/fox-audio-issues-had-viewers-watching-one-game-hearing-bears-vikings",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "49998606",
-    "publishedAt": "2026-09-21T15:21:38Z",
-    "type": "Analysis",
-    "headline": "What has Stephen A. so gleeful about the Cowboys after their win over the Commanders?",
-    "summary": "What has Stephen A. so gleeful about the Cowboys after their win over the Commanders?",
-    "sourceUrl": "https://www.espn.com/video/clip/_/id/49998606/what-stephen-gleeful-cowboys-their-win-commanders",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "49998610",
-    "publishedAt": "2026-09-21T15:19:07Z",
-    "type": "Analysis",
-    "headline": "Why Mike Clay considers Bhayshul Tuten more of a flex option",
-    "summary": "Why Mike Clay considers Bhayshul Tuten more of a flex option",
-    "sourceUrl": "https://www.espn.com/video/clip/_/id/49998610/why-mike-clay-considers-bhayshul-tuten-more-flex-option",
-    "sourceName": "ESPN"
   }
 ]
