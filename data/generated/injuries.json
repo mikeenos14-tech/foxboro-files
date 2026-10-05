@@ -7,5 +7,32 @@
     "injury": "Calf",
     "gameStatus": "Questionable",
     "lastUpdated": "2026-10-05T15:49Z"
+  },
+  {
+    "playerId": "4372030",
+    "playerName": "Christian Barmore",
+    "position": "DT",
+    "week": 5,
+    "injury": "Shoulder",
+    "gameStatus": "Out",
+    "lastUpdated": "2026-10-05T18:54Z"
+  },
+  {
+    "playerId": "4688779",
+    "playerName": "Channing Canada",
+    "position": "CB",
+    "week": 5,
+    "injury": "Hamstring",
+    "gameStatus": "Out",
+    "lastUpdated": "2026-10-05T18:54Z"
+  },
+  {
+    "playerId": "4686772",
+    "playerName": "Christian Gonzalez",
+    "position": "CB",
+    "week": 5,
+    "injury": "Shoulder",
+    "gameStatus": "Out",
+    "lastUpdated": "2026-10-05T18:54Z"
   }
 ]
