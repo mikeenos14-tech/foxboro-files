@@ -31,6 +31,10 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    # A normal run takes about a minute. GitHub's default limit is six
+    # hours, and with cancel-in-progress off, a hung job would hold up
+    # every queued refresh behind it for that long.
+    timeout-minutes: 15
     # Which source-status file the fetch steps record into (see
     # scripts/lib/sourceStatus.ts) — one per job so the two never conflict.
     env:

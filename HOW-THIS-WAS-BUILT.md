@@ -237,6 +237,13 @@ where it slipped, so those are now built straight from the stats by code.
 
 ### Knowing when it's stale
 
+One more lesson about checks, learned on a Sunday. The verifier compares the site against
+outside sources, and after the Week 4 win the play-by-play had the game but the outside
+sources didn't yet; they post a day later. Four games against three failed every
+comparison, the check blocked the update, and the win stayed off the site for six hours.
+**A check has to know the difference between "wrong" and "not there yet."** It now skips a
+source that hasn't caught up, says so, and checks it the next day.
+
 A refresh can "succeed" even when one of its downloads failed. There's no saved copy
 to fall back on, so a source could be broken for days without anyone noticing. Now:
 
@@ -348,8 +355,8 @@ is sometimes yes, and an AI will rarely volunteer it.
 | **Data storage** | Plain files, no database — because the source gives us everything |
 | **Automation** | GitHub Actions — a robot on a schedule |
 | **Hosting** | Vercel — rebuilds automatically when data changes |
-| **Safety net** | About 160 tests, a verifier that checks against outside sources, and a daily health check |
-| **Size** | ~17,500 lines, 159 code files, 7 runtime dependencies |
+| **Safety net** | About 165 tests, a verifier that checks against outside sources, and a daily health check |
+| **Size** | ~18,500 lines, 168 code files, 7 runtime dependencies |
 
 And the six habits worth carrying to the next project:
 

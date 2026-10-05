@@ -19,7 +19,10 @@ Eight pages covering team strength, per-game recaps, the upcoming matchup, sched
 roster and position grades, a quarterback deep dive, league-wide standings and every
 team's unit grades, and news. Units are **graded out of 100 against the other 31 teams**
 and ranks read "26th of 32", because "−0.15 EPA/play" means nothing to most people and
-"26th in the league" means everything. Tap a stat and it lists the plays behind it.
+"26th in the league" means everything. Tap a stat and it lists the plays behind it. After
+each game, **What Stood Out** lists up to three genuinely rare things — "the 3rd-best
+defensive game by any team this season", "the first win over PIT since 2023" — each a
+fixed check in code with its comparison shown, and nothing at all after an ordinary game.
 
 Three things drive most of the value:
 
@@ -84,7 +87,9 @@ lines also against Next Gen Stats), alongside cross-file assertions (team EPA mu
 the league rankings file to 1e-9; no fabricated position card may exist) and a check that
 every "see the plays" list matches the number it opens from. CI gates on it. It caught a
 fourth discrepancy within a minute of being written, and later a fifth: every QB's box
-score counted sacks as pass attempts.
+score counted sacks as pass attempts. Because nflverse's totals and Next Gen Stats land a
+day after the play-by-play, a source that hasn't caught up is skipped with a notice rather
+than failing the post-game refresh.
 
 ### AI text is checked, not trusted
 

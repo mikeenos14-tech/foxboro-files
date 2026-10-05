@@ -6,7 +6,7 @@ Repo: `mikeenos14-tech/foxboro-files` · 91 commits as of this writing.
 
 ## What it is
 
-A fan site pitched as analytically serious (EPA-based stats, opponent-adjusted rankings, win probability, playoff odds) but still fun and readable — not a spreadsheet. Original wordmark and navy/red/silver color palette, deliberately no official NFL/Patriots logos or shield graphics (trademark exposure). Seven sections: Home, Recap, Next Game, Schedule, News, Roster & Stats, Around the League (league-wide standings/offense and defense rankings/headlines).
+A fan site pitched as analytically serious (EPA-based stats, opponent-adjusted rankings, win probability, playoff odds) but still fun and readable — not a spreadsheet. Original wordmark and navy/red/silver color palette, deliberately no official NFL/Patriots logos or shield graphics (trademark exposure). Seven sections: Home, Recap, Next Game, Schedule, News, Stats, Around the League (league-wide standings/offense and defense rankings/headlines). Installable to a phone's home screen, where it reloads itself when reopened after 15+ minutes.
 
 ## Tech stack
 
@@ -32,18 +32,19 @@ Explicitly **not** used: Google News RSS (ToS restricts it to personal non-comme
 
 Model: `claude-haiku-4-5-20251001`, called through a thin wrapper (`scripts/lib/claude.ts`) with a `generateJson<T>` helper for structured output. Every AI call in the pipeline follows one hard rule: **selection/extraction from real, already-fetched facts only — never free generation.** Concretely:
 
-- **Recap "The Take" / next-game "The Preview" / good-bad-ugly bullets / beat-writer digest** — written from real computed stats passed into the prompt, explicitly instructed never to invent a stat, play, or event.
+- **Recap "The Take" / next-game "The Preview" / beat-writer digest** — written from real computed stats passed into the prompt, explicitly instructed never to invent a stat, play, or event. Every draft is checked in code (`scripts/lib/aiChecks.ts`) and retried once; a draft that fails twice isn't published. The recap prompt carries the game's verified "What Stood Out" facts, or says nothing was rare.
+- **Computed in code, not AI** — Good/Bad/Ugly bullets (`recapBullets.ts`), What Stood Out (`standouts.ts`) and the practice report (`injuryArticle.ts`). All three used to be, or could have been, AI jobs; restating and extracting numbers is exactly where the model slipped.
 - **Around the League headlines curation** — the model only selects which of a list of real, already-fetched headlines to keep (never rewrites them), instructed to act as a "world-class NFL editor," with fantasy-football content excluded as an absolute, non-negotiable rule that can't be traded off against hitting a target count.
-- **Practice report extraction** — given the real article text, the model extracts real per-player facts (name, status) it's told never to invent; every returned player name is independently verified to appear verbatim in the source text before being trusted (defense against hallucination, not just a prompt instruction).
 - Every AI step runs with `continue-on-error: true` in CI and fails soft — a missing API key or a bad response leaves the previous good output in place rather than breaking the build.
 
 ## Automation (GitHub Actions)
 
-Two workflows, split by how often the underlying reality actually changes:
+Three workflows: two refreshes split by how often the underlying reality actually changes, and a daily health check:
 
 - **`refresh-stats.yml`** — runs once daily (~5am ET) plus two extra passes around the Sunday/Monday NFL slate, since real game stats only change when games are actually played. Pulls the full nflverse dataset (play-by-play, rosters, schedule), rebuilds team stats, league-wide EPA/standings, roster grades, opponent matchup data, and the AI recap/preview.
-- **`refresh-headlines.yml`** — runs every 3 hours, all week, since news/injury reports/odds change continuously. Pulls ESPN + RSS sources, the patriots.com practice report, and runs the two curation-style AI steps.
-- Both workflows: `continue-on-error: true` on every data step, then `git pull --rebase` before push to handle two automated workflows committing concurrently.
+- **`refresh-headlines.yml`** — runs every 3 hours, all week, since news/injury reports/odds change continuously. Pulls ESPN + RSS sources, the patriots.com practice report, and runs the curation-style AI steps; the practice report is parsed in code.
+- **`health-check.yml`** — daily: sources fresh, each workflow's latest run green, live site current. Opens (or closes) a GitHub issue, which emails the owner.
+- Both refreshes: `continue-on-error: true` on every data step, `git pull --rebase` before push, a "data is current" check at the end, and a 15-minute timeout so a hung run can't hold up the queue.
 
 ## Notable methodology / analytical decisions
 

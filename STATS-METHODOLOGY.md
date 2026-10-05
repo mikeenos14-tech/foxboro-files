@@ -63,7 +63,7 @@ Full season table, laid out to fit a phone. Opponent record and overall EPA rank
 
 AI beat-writer digest (grounded, same rules and checks), merged ESPN + Patriots RSS feed tagged Injury / Transaction / Beat Report / Analysis, injury report widget.
 
-### Roster & Stats
+### Stats (`/roster`)
 
 - **QB tab** — Drake Maye's official box score (attempts exclude sacks and two-point tries, yards are gross — matching nflverse exactly), plus per-play stats: CPOE, turnover-worthy rate, EPA when hit or sacked vs. when not hit, accuracy by depth of target. **Tier 3**, plus the **Last Game / Last 3 / Last 5 / 2025 Season filter** and a **head-to-head compare tool** against any other starting QB in the league.
 - **Grades tab** — 8 real groups, each graded out of 100 against the league (a percentile, written "65/100" so it can't be mistaken for a rank). **Tier 3.** Also has the recent-form filter, a trend arrow (last game vs. season, 10-point threshold), and a **compare tool** putting any group against any other team's, with each team's actual unadjusted rate shown under the grade (EPA/play for QB/RB/WR/TE, the relevant rate for the rest).
@@ -156,7 +156,7 @@ A prompt rule isn't enforcement, so every draft goes through narrow checks in co
 | Road game placed in Foxborough | "The Jaguars came to Foxboro" — the game was in Jacksonville |
 | First name that doesn't match the player given | "Remy Stevenson" |
 | Play-by-play abbreviations | "R.Stevenson" (initials like "A.J." are allowed) |
-| Tenure claims not in the facts | "the second-year quarterback" — Maye's third season |
+| Tenure claims not in the facts | "the second-year quarterback" and, in Week 4, "a rookie quarterback" — Maye's third season |
 | Franchise-history / "historic" claims | "600 wins deep in franchise history", "historically bad" off three games |
 | Years not in the facts | invented "since 2001"-style history |
 | A month that doesn't match the game date | "in October" for a Sept. 20 game |
@@ -224,7 +224,7 @@ All three were found by a reader noticing a number looked wrong, which is the wo
 
 The passing check was added after a fourth self-consistent error shipped: nflverse marks sacks as pass attempts, the site counted them, and Maye read 51/89 for 547 yards when the real line was 51/80 for 585. Every QB in the league was off. The same pass found the 2025 snapshot had folded in the playoffs (5,222 yards for a 4,394-yard season). All play-by-play is now filtered to the regular season at load.
 
-It also asserts cross-file agreement: team EPA and success rate (value and rank) must match the league rankings file to 1e-9, Next Game's success rates must match the League table for both teams, each recap's success rate must be a whole number of its plays, position-group cards must match the league table, and no LB card may exist. If nflverse's stats file is missing it fails rather than passing having checked nothing. CI gates on it, and on the unit tests (`npm test`) covering the shrinkage, prior-blend taper, win probability, reliability gate, window construction, box-score rule, AI checks, stat-built recap bullets, Player of the Game crediting, the injury-report parser (on real reports) and the stat math.
+It also asserts cross-file agreement: team EPA and success rate (value and rank) must match the league rankings file to 1e-9, Next Game's success rates must match the League table for both teams, each recap's success rate must be a whole number of its plays, position-group cards must match the league table, and no LB card may exist. If nflverse's stats file is missing it fails rather than passing having checked nothing. If a source is present but hasn't caught up — nflverse posts play-by-play within hours of a game, its season totals and Next Gen Stats a day or more later — that comparison is skipped with a printed notice instead of failing on four games against three (Next Gen Stats is judged per quarterback, since it lands a game at a time). That exact gap failed the Sunday post-game refresh in Week 4 and kept the win off the site for six hours; the same run found that two-point tries were being counted as targets and carries, which official totals exclude. CI gates on it, and on the unit tests (`npm test`) covering the shrinkage, prior-blend taper, win probability, reliability gate, window construction, box-score rule, AI checks, stat-built recap bullets, Player of the Game crediting, the injury-report parser (on real reports) and the stat math.
 
 ---
 
