@@ -1,5 +1,14 @@
 [
   {
+    "id": "d8699b43-5fb7-45bd-9efc-462412a439ec",
+    "publishedAt": "2026-10-05T22:15:19.000Z",
+    "type": "Analysis",
+    "headline": "After Further Review: Drake Maye film breakdown, defense outlasts Josh Allen and quick-hit film notes from Week 4 win vs. Bills",
+    "summary": "How did the Patriots offense break out in their 29-26 victory over the Bills on Sunday?",
+    "sourceUrl": "https://www.patriots.com/news/after-further-review-drake-maye-film-breakdown-defense-outlasts-josh-allen-and-quick-hit-film-notes-from-week-4-win-vs-bills",
+    "sourceName": "Patriots.com"
+  },
+  {
     "id": "a188837f-3086-4256-85cd-ba38ab08fd3b",
     "publishedAt": "2026-10-05T17:22:15.000Z",
     "type": "Beat Report",
@@ -88,23 +97,5 @@
     "summary": "Download the NFL Gamebook with all of the statistics from the Patriots Week 4 game against the Buffalo Bills on Sunday, October 4, 2026.",
     "sourceUrl": "https://www.patriots.com/news/gamebook-patriots-at-bills-week-4",
     "sourceName": "Patriots.com"
-  },
-  {
-    "id": "a03a589e-3132-4293-a5ef-ec9b5cbba544",
-    "publishedAt": "2026-10-04T15:32:12.000Z",
-    "type": "Analysis",
-    "headline": "Week 4 Inactives: Patriots at Bills",
-    "summary": "The New England Patriots and Buffalo Bills announce the following inactive players ahead of their NFL Week 4 game on October 4, 2026.",
-    "sourceUrl": "https://www.patriots.com/news/week-4-inactives-patriots-at-bills",
-    "sourceName": "Patriots.com"
-  },
-  {
-    "id": "50087681",
-    "publishedAt": "2026-10-03T22:00:02Z",
-    "type": "Transaction",
-    "headline": "Patriots preach patience when it comes to receiver WR Romeo Doubs' modest start",
-    "summary": "After the Patriots signed him to a four-year deal in March, Doubs is searching for his footing in the offense entering Week 4.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50087681/patriots-romeo-doubs-bills-game",
-    "sourceName": "ESPN"
   }
 ]

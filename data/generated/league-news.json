@@ -1,21 +1,12 @@
 [
   {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=422027",
-    "publishedAt": "2026-10-05T21:56:11.000Z",
+    "id": "50112533",
+    "publishedAt": "2026-10-05T22:28:06Z",
     "type": "Injury",
-    "headline": "Cardinals LT Paris Johnson Jr. Out For Season",
-    "summary": "The Cardinals’ latest rebuilding season will include 13 missed games from their left tackle. Mike LaFleur said Monday that Paris Johnson Jr. suffered a biceps tear and will miss the rest of the season. Although Johnson did not leave the field upon suffering the injury, he left a few plays later. The Cardinals have not extended […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/cardinals-paris-johnson-jr-out-for-season",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=422020",
-    "publishedAt": "2026-10-05T21:37:44.000Z",
-    "type": "Injury",
-    "headline": "Chargers LT Rashawn Slater Suffers High Ankle Sprain",
-    "summary": "Four games into his comeback season, Rashawn Slater will be shut down once again. Tests confirmed Monday the Pro Bowl Chargers left tackle suffered a high ankle sprain, according to NFL.com’s Ian Rapoport. After Slater left Seattle on crutches, per ESPN.com’s Kris Rhim, the prospect of another IR move involving the sixth-year blocker looms. Slater […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/chargers-lt-rashawn-slater-suffers-high-ankle-sprain",
-    "sourceName": "Pro Football Rumors"
+    "headline": "Cardinals LT Paris Johnson out for season after tearing biceps",
+    "summary": "Cardinals starting left tackle Paris Johnson Jr. is out for the season after tearing his left biceps in a 36-24 loss to the New York Giants on Sunday.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50112533/cardinals-lt-paris-johnson-season-tearing-biceps",
+    "sourceName": "ESPN"
   },
   {
     "id": "50111468",
@@ -27,12 +18,12 @@
     "sourceName": "ESPN"
   },
   {
-    "id": "50111347",
-    "publishedAt": "2026-10-05T20:26:25Z",
-    "type": "Analysis",
-    "headline": "Ravens unsure if Lamar Jackson (ankle) will play vs. Falcons",
-    "summary": "The Ravens are uncertain whether quarterback Lamar Jackson will play Sunday night against the Falcons.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50111347/ravens-unsure-lamar-jackson-ankle-play-vs-falcons",
+    "id": "50111928",
+    "publishedAt": "2026-10-05T22:47:02Z",
+    "type": "Injury",
+    "headline": "Sources: Eagles RB Tank Bigsby to have surgery, headed to IR",
+    "summary": "Eagles running back Tank Bigsby sustained a core muscle injury Sunday that requires surgery, sources told NFL Network's Ian Rapoport.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50111928/sources-eagles-rb-tank-bigsby-surgery-headed-ir",
     "sourceName": "ESPN"
   },
   {
@@ -45,12 +36,21 @@
     "sourceName": "ESPN"
   },
   {
-    "id": "50110486",
-    "publishedAt": "2026-10-05T21:30:49Z",
-    "type": "Analysis",
-    "headline": "Ben Johnson: Tyson Bagent will start at QB for Bears vs. Packers",
-    "summary": "Tyson Bagent will be the Bears' starting quarterback for Sunday's game at the Packers, coach Ben Johnson announced Monday.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50110486/ben-johnson-tyson-bagent-start-qb-bears-vs-packers",
+    "id": "50112842",
+    "publishedAt": "2026-10-06T00:09:07Z",
+    "type": "Injury",
+    "headline": "MCL sprain sidelines Mariota while Daniels preps to practice",
+    "summary": "In his team's loss to the Indianapolis Colts on Sunday, Washington Commanders quarterback Marcus Mariota suffered a sprained MCL of his right knee, and the timetable for his return remains uncertain coach Dan Quinn said on Monday.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50112842/mcl-sprain-sidelines-mariota-daniels-preps-practice",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50112395",
+    "publishedAt": "2026-10-06T00:03:31Z",
+    "type": "Injury",
+    "headline": "Chargers OT Rashawn Slater dealing with high ankle sprain",
+    "summary": "Chargers offensive tackle Rashawn Slater suffered a high right ankle sprain in Sunday's loss to the Seahawks in Seattle, coach Jim Harbaugh said Monday.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50112395/sources-chargers-ot-rashawn-slater-high-ankle-sprain",
     "sourceName": "ESPN"
   }
 ]
