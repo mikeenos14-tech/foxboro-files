@@ -1,20 +1,20 @@
 [
   {
-    "id": "50114987",
-    "publishedAt": "2026-10-06T06:26:40Z",
-    "type": "Analysis",
-    "headline": "Resurgent Falcons score 80 points in two-game winning streak",
-    "summary": "The 2-2 Falcons had a combined 16 points, the lowest total in the NFL, through two weeks, but after a 45-24 victory over the rival New Orleans Saints on \"Monday Night Football,\" Atlanta now has a league-high 80 combined points in a two-game winning surge.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50114987/resurgent-falcons-score-80-points-two-game-winning-streak",
-    "sourceName": "ESPN"
-  },
-  {
     "id": "50114656",
     "publishedAt": "2026-10-06T05:18:30Z",
     "type": "Analysis",
     "headline": "Bijan Robinson powers Falcons past Saints 45-24 on the 20th anniversary of the Superdome's reopening",
     "summary": "— Bijan Robinson ensured there would be no punt to block this time — and the Atlanta Falcons were off and running.",
     "sourceUrl": "http://www.espn.com/nfl/recap?gameId=401872979",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50114987",
+    "publishedAt": "2026-10-06T06:26:40Z",
+    "type": "Analysis",
+    "headline": "Resurgent Falcons score 80 points in two-game winning streak",
+    "summary": "The 2-2 Falcons had a combined 16 points, the lowest total in the NFL, through two weeks, but after a 45-24 victory over the rival New Orleans Saints on \"Monday Night Football,\" Atlanta now has a league-high 80 combined points in a two-game winning surge.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50114987/resurgent-falcons-score-80-points-two-game-winning-streak",
     "sourceName": "ESPN"
   },
   {
@@ -27,30 +27,30 @@
     "sourceName": "Pro Football Rumors"
   },
   {
-    "id": "50112533",
-    "publishedAt": "2026-10-06T00:56:13Z",
-    "type": "Injury",
-    "headline": "Cardinals LT Paris Johnson out for season after tearing biceps",
-    "summary": "Cardinals starting left tackle Paris Johnson Jr. is out for the season after tearing his left biceps in a 36-24 loss to the New York Giants on Sunday.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50112533/cardinals-lt-paris-johnson-season-tearing-biceps",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/marcus-davenport-will-retire-from-football",
-    "publishedAt": "2026-10-06T02:23:32.000Z",
-    "type": "Transaction",
-    "headline": "Marcus Davenport will retire from football",
-    "summary": "Veteran pass rusher Marcus Davenport didn't request his release from the Bears' practice squad so that he could sign with another team's practice squad.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/marcus-davenport-will-retire-from-football",
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jim-harbaugh-not-happy-with-reporter-for-more-insult-than-question-about-justin-herbert",
+    "publishedAt": "2026-10-06T09:29:36.000Z",
+    "type": "Analysis",
+    "headline": "Jim Harbaugh not happy with reporter for \"more insult than question\" about Justin Herbert",
+    "summary": "Chargers head coach Jim Harbaugh was not happy with a reporter's line of questioning about quarterback Justin Herbert and the Chargers' inability to build a successful offense around him amid the team's 0-4 start.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jim-harbaugh-not-happy-with-reporter-for-more-insult-than-question-about-justin-herbert",
     "sourceName": "Pro Football Talk"
   },
   {
-    "id": "50111928",
-    "publishedAt": "2026-10-06T01:10:04Z",
-    "type": "Injury",
-    "headline": "Sources: Eagles RB Bigsby headed to IR, Barkley week-to-week",
-    "summary": "Eagles running back Tank Bigsby sustained a core muscle injury Sunday that requires surgery, sources told NFL Network's Ian Rapoport.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50111928/sources-eagles-rb-tank-bigsby-surgery-headed-ir",
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/falcons-average-nfl-high-40-0-points-with-michael-penix-after-nfl-low-8-0-without-him",
+    "publishedAt": "2026-10-06T11:15:05.000Z",
+    "type": "Analysis",
+    "headline": "Falcons average NFL-high 40.0 points with Michael Penix, after NFL-low 8.0 without him",
+    "summary": "Falcons safety Jessie Bates wasn't exaggerating when he said they're a different team with Michael Penix.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/falcons-average-nfl-high-40-0-points-with-michael-penix-after-nfl-low-8-0-without-him",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "50110488",
+    "publishedAt": "2026-10-06T11:50:45Z",
+    "type": "Analysis",
+    "headline": "Seven things Solak thinks entering NFL Week 5: Jaguars are the AFC's best, more",
+    "summary": "Has Jacksonville climbed to the top of its conference? Get ready for Week 5 with takes on the Jaguars, Bengals, Rams, Bears, Texans, Eagles and Lions.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50110488/week-5-seven-things-solak-thinks-afc-nfc",
     "sourceName": "ESPN"
   }
 ]
