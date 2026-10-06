@@ -2,12 +2,12 @@
   "gameId": "2026_05_LV_NE",
   "opponent": "LV",
   "opponentEpaRank": {
-    "offense": 14,
+    "offense": 15,
     "defense": 4
   },
   "ourEpaRank": {
     "offense": 19,
-    "defense": 8
+    "defense": 9
   },
   "successRate": {
     "us": {
@@ -38,19 +38,19 @@
   "positionGroupMatchups": [
     {
       "group": "Rush Offense vs. Run Defense",
-      "ourGrade": 77,
+      "ourGrade": 74,
       "theirGrade": 74,
       "edge": "even",
-      "note": "77/100 vs. 74/100 (close matchup).",
+      "note": "74/100 vs. 74/100 (close matchup).",
       "ourStatLine": "476 yds, 4.1 YPC, 2 TD, 0 FUM, 10% explosive",
       "theirStatLine": "539 yds allowed, 5.2 YPC allowed, 4 TD allowed, 13% explosive allowed"
     },
     {
       "group": "Pass Offense vs. Pass Defense",
       "ourGrade": 29,
-      "theirGrade": 90,
+      "theirGrade": 87,
       "edge": "them",
-      "note": "29/100 vs. 90/100 (advantage them).",
+      "note": "29/100 vs. 87/100 (advantage them).",
       "ourStatLine": "77/123 (63%), 900 yds, 4 TD, 7 INT",
       "theirStatLine": "74/126 (59%) allowed, 892 yds allowed, 7 TD allowed, 4 INT gained"
     },
@@ -65,26 +65,26 @@
     },
     {
       "group": "Pass Defense vs. Pass Offense",
-      "ourGrade": 87,
-      "theirGrade": 71,
+      "ourGrade": 90,
+      "theirGrade": 68,
       "edge": "us",
-      "note": "87/100 vs. 71/100 (advantage us).",
+      "note": "90/100 vs. 68/100 (advantage us).",
       "ourStatLine": "82/126 (65%) allowed, 822 yds allowed, 5 TD allowed, 3 INT gained",
       "theirStatLine": "93/144 (65%), 1026 yds, 11 TD, 4 INT"
     },
     {
       "group": "Pass Protection vs. Pass Rush",
-      "ourGrade": 39,
-      "theirGrade": 84,
+      "ourGrade": 35,
+      "theirGrade": 90,
       "edge": "them",
-      "note": "39/100 vs. 84/100 (advantage them).",
+      "note": "35/100 vs. 90/100 (advantage them).",
       "ourStatLine": "10 sacks allowed, 7% sack rate",
       "theirStatLine": "12 sacks, 32 QB hits, 9% sack rate"
     }
   ],
   "matchupOfTheWeek": {
-    "title": "Run Defense vs. Rush Offense",
-    "description": "Our run defense grades 23/100 (below average) against LV's rush offense at 3/100 (among the NFL's worst) — the widest statistical edge on the board this week."
+    "title": "Pass Defense vs. Pass Offense",
+    "description": "Our pass defense grades 90/100 (among the NFL's best) against LV's pass offense at 68/100 (above average) — the widest statistical edge on the board this week."
   },
   "opponentInjuries": [],
   "recentForm": {
@@ -127,14 +127,15 @@
     }
   ],
   "weather": {
-    "tempF": 68,
-    "wind": "11 mph",
-    "precipitation": "1%",
+    "tempF": 72,
+    "wind": "14 mph",
+    "precipitation": "0%",
     "isDome": false
   },
   "bettingContext": {
     "spread": -3.5,
     "overUnder": 45.5,
-    "asOf": "2026-10-05"
-  }
+    "asOf": "2026-10-06"
+  },
+  "previewTake": "Here's the thing about Sunday: we're staring at the widest statistical advantage on the board, and it happens to be ours. Our pass defense is playing at an elite 90/100 while Las Vegas's pass offense sits at a comparatively pedestrian 68/100—that's the kind of mismatch you circle on the schedule. The trouble is that our pass protection grades at a concerning 35/100 against their elite 90/100 pass rush, which means we'll need our receivers to win faster and our quarterback to operate in rhythm, or we're going to have a very long afternoon. On the ground, it's a push: both run games and defenses grade out at 74/100, so the real battle will be decided in the air. We've rattled off two straight wins to get to 2-2 after that nightmare start, while Las Vegas has been marginally better in recent form, so this is exactly the kind of divisional slugfest where our defensive dominance could make the difference—if our offense can just keep the chains moving."
 }

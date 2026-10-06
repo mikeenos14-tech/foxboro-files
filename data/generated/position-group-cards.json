@@ -13,7 +13,7 @@
       {
         "key": "last-3",
         "label": "Last 3 Games",
-        "grade": 32
+        "grade": 26
       }
     ],
     "statLine": "",
@@ -23,18 +23,18 @@
   {
     "group": "RB",
     "grade": 32,
-    "trend": "flat",
+    "trend": "up",
     "soWhat": "EPA/play at RB, on 96 plays.",
     "windows": [
       {
         "key": "last-1",
         "label": "Last Game",
-        "grade": 39
+        "grade": 42
       },
       {
         "key": "last-3",
         "label": "Last 3 Games",
-        "grade": 74
+        "grade": 71
       }
     ],
     "statLine": "333 yds, 3.5 YPC, 2 TD, 0 FUM, 6% explosive",
@@ -51,12 +51,12 @@
       {
         "key": "last-1",
         "label": "Last Game",
-        "grade": 87
+        "grade": 84
       },
       {
         "key": "last-3",
         "label": "Last 3 Games",
-        "grade": 42
+        "grade": 39
       }
     ],
     "statLine": "45/75 (60%), 605 yds, 3.0 YAC/rec, 3 TD",
@@ -106,15 +106,15 @@
       {
         "key": "last-1",
         "label": "Last Game",
-        "grade": 65
+        "grade": 61
       },
       {
         "key": "last-3",
         "label": "Last 3 Games",
-        "grade": 48
+        "grade": 45
       }
     ],
-    "statLine": "Drake Maye takes 3.04 sec to throw on average — 6th-longest of 40 qualified QBs (a longer hold gives the rush more time)",
+    "statLine": "Drake Maye takes 3.04 sec to throw on average — 6th-longest of 41 qualified QBs (a longer hold gives the rush more time)",
     "sampleSize": 134,
     "confidence": "high"
   },
@@ -127,12 +127,12 @@
       {
         "key": "last-1",
         "label": "Last Game",
-        "grade": 29
+        "grade": 26
       },
       {
         "key": "last-3",
         "label": "Last 3 Games",
-        "grade": 32
+        "grade": 26
       }
     ],
     "statLine": "8 sacks, 23 QB hits — leader: Elijah Ponder (2.5 sacks)",
@@ -153,7 +153,7 @@
       {
         "key": "last-3",
         "label": "Last 3 Games",
-        "grade": 10
+        "grade": 13
       }
     ],
     "statLine": "14 TFL, 3 forced fumbles — leader: Elijah Ponder (4 TFL)",
@@ -169,7 +169,7 @@
       {
         "key": "last-1",
         "label": "Last Game",
-        "grade": 55
+        "grade": 52
       },
       {
         "key": "last-3",

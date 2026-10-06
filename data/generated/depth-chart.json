@@ -425,12 +425,6 @@
         "playerName": "Channing Canada",
         "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/aaidtccosmwngboptnkf",
         "rank": 2
-      },
-      {
-        "playerId": "4036651",
-        "playerName": "Kindle Vildor",
-        "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ep3iocz1qboqkcj16aoc",
-        "rank": 3
       }
     ]
   },
@@ -469,16 +463,10 @@
         "rank": 1
       },
       {
-        "playerId": "4244310",
-        "playerName": "Mike Brown",
-        "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/vufbgfg96s4jt3tlxdiw",
-        "rank": 2
-      },
-      {
         "playerId": "4047941",
         "playerName": "Brenden Schooler",
         "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ntothfpaj3iifvsqelzg",
-        "rank": 3
+        "rank": 2
       }
     ]
   },

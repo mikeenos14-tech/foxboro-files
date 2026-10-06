@@ -21,34 +21,34 @@
     "timeToThrow": {
       "value": 3.04431623931624,
       "rank": 6,
-      "of": 40
+      "of": 41
     },
     "aggressiveness": {
       "value": 12.8205128205128,
       "rank": 29,
-      "of": 40
+      "of": 41
     }
   },
   "ranks": {
     "cpoe": {
       "value": 2.2511524015239206,
-      "leagueRank": 15,
-      "leaguePercentile": 55
+      "leagueRank": 16,
+      "leaguePercentile": 52
     },
     "turnoverWorthyPlayRate": {
       "value": 0.0898876404494382,
-      "leagueRank": 31,
-      "leaguePercentile": 3
+      "leagueRank": 32,
+      "leaguePercentile": 0
     },
     "cleanPocketEpa": {
       "value": 0.13625364767959264,
-      "leagueRank": 20,
-      "leaguePercentile": 39
+      "leagueRank": 21,
+      "leaguePercentile": 35
     },
     "pressureEpa": {
       "value": -1.2494023479332586,
-      "leagueRank": 25,
-      "leaguePercentile": 23
+      "leagueRank": 26,
+      "leaguePercentile": 19
     }
   },
   "windows": [
