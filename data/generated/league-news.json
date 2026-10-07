@@ -36,15 +36,6 @@
     "sourceName": "Pro Football Talk"
   },
   {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cardinals-signing-jedrick-wills-place-paris-johnson-on-ir",
-    "publishedAt": "2026-10-06T20:42:50.000Z",
-    "type": "Transaction",
-    "headline": "Cardinals signing Jedrick Wills, place Paris Johnson on IR",
-    "summary": "With Paris Johnson Jr. out for the season with a torn biceps, the Cardinals have added a former first-round pick to their offensive line.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cardinals-signing-jedrick-wills-place-paris-johnson-on-ir",
-    "sourceName": "Pro Football Talk"
-  },
-  {
     "id": "50121196",
     "publishedAt": "2026-10-07T01:35:04Z",
     "type": "Injury",
@@ -52,5 +43,14 @@
     "summary": "Giants receiver Braxton Berrios will undergo season-ending surgery on his foot, he announced Tuesday on Instagram.",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/50121196/giants-berrios-says-undergo-season-ending-foot-surgery",
     "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cardinals-signing-jedrick-wills-place-paris-johnson-on-ir",
+    "publishedAt": "2026-10-06T20:42:50.000Z",
+    "type": "Transaction",
+    "headline": "Cardinals signing Jedrick Wills, place Paris Johnson on IR",
+    "summary": "With Paris Johnson Jr. out for the season with a torn biceps, the Cardinals have added a former first-round pick to their offensive line.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cardinals-signing-jedrick-wills-place-paris-johnson-on-ir",
+    "sourceName": "Pro Football Talk"
   }
 ]
