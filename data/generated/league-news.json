@@ -1,7 +1,7 @@
 [
   {
     "id": "50126306",
-    "publishedAt": "2026-10-07T17:49:25Z",
+    "publishedAt": "2026-10-07T19:40:21Z",
     "type": "Transaction",
     "headline": "Ravens acquire center Cam Jurgens in trade with Eagles",
     "summary": "The Ravens have acquired two-time Pro Bowl center Cam Jurgens in a trade with the Eagles.",
@@ -9,48 +9,48 @@
     "sourceName": "ESPN"
   },
   {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/lamar-jackson-out-of-wednesdays-week-5-practice",
-    "publishedAt": "2026-10-07T17:25:18.000Z",
-    "type": "Beat Report",
-    "headline": "Lamar Jackson out of Wednesday's Week 5 practice",
-    "summary": "The Ravens have brought in a new center, but they don't currently have a healthy quarterback.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/lamar-jackson-out-of-wednesdays-week-5-practice",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=422241",
-    "publishedAt": "2026-10-07T15:57:54.000Z",
-    "type": "Injury",
-    "headline": "Jayden Daniels On Track To Return In Week 5; Marcus Mariota Sprains MCL",
-    "summary": "After missing back-to-back games with a dislocated left elbow, Commanders quarterback Jayden Daniels is trending toward returning in Week 5. As the Commanders prepare to face the NFC East rival Giants on Sunday, head coach Dan Quinn said Daniels will be a full participant in practice this week (via Tashan Reed of the Washington Post). […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/jayden-daniels-on-track-to-return-in-week-5-marcus-mariota-sprains-mcl",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "50125332",
-    "publishedAt": "2026-10-07T15:41:12Z",
-    "type": "Transaction",
-    "headline": "Odell Beckham Jr. signs with Vikings on practice squad",
-    "summary": "The Vikings are signing wide receiver Odell Beckham Jr. to their practice squad, a source told NFL Network's Ian Rapoport.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50125332/odell-beckham-jr-signs-vikings-practice-squad",
+    "id": "50127159",
+    "publishedAt": "2026-10-07T20:47:50Z",
+    "type": "Analysis",
+    "headline": "Texans' DeMeco Ryans taking over defensive playcalling duties",
+    "summary": "Texans coach DeMeco Ryans said Wednesday that he will be taking over the defensive playcalling duties amid his team's 0-4 start.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50127159/texans-demeco-ryans-taking-defensive-playcalling-duties",
     "sourceName": "ESPN"
   },
   {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=422234",
-    "publishedAt": "2026-10-07T14:18:59.000Z",
-    "type": "Injury",
-    "headline": "Giants WR Braxton Berrios To Undergo Season-Ending Surgery",
-    "summary": "After suffering a foot/ankle injury in Week 4, Giants receiver/returner Braxton Berrios appeared likely to end up on IR. Not only did that end up being the case, but Berrios announced he will undergo season-ending surgery. “Two of my last three seasons ended this way and I’d be lying if I said I wasn’t miserable […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/giants-wr-braxton-berrios-to-undergo-season-ending-surgery",
-    "sourceName": "Pro Football Rumors"
+    "id": "50127513",
+    "publishedAt": "2026-10-07T21:03:58Z",
+    "type": "Analysis",
+    "headline": "Steelers QB Rodgers downplays heated exchange with McCarthy",
+    "summary": "The Steelers downplayed the several confrontations between players and coaches during Thursday night's loss, with Aaron Rodgers calling the display of emotion and passion a \"positive.\"",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50127513/steelers-qb-rodgers-downplays-heated-exchange-mccarthy",
+    "sourceName": "ESPN"
   },
   {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/kevin-byard-mike-vrabel-used-allen-iverson-video-to-get-patriots-stepping-over-people",
-    "publishedAt": "2026-10-07T16:49:58.000Z",
+    "id": "50127635",
+    "publishedAt": "2026-10-07T21:05:47Z",
     "type": "Analysis",
-    "headline": "Kevin Byard: Mike Vrabel used Allen Iverson video to get Patriots \"stepping over people\"",
-    "summary": "One week after the Patriots were bullied by the Jaguars, New England roared into Buffalo's next stadium and gave the Bills their first loss there.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/kevin-byard-mike-vrabel-used-allen-iverson-video-to-get-patriots-stepping-over-people",
+    "headline": "NFL, union clarify celebration rules, OK drinking gestures",
+    "summary": "The NFL and NFLPA said recent player celebrations imitating drinking a beverage will no longer be violations or result in discipline. The sides also clarified what celebrations remain prohibited.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50127635/nfl-union-clarify-celebration-rules-ok-drinking-gestures",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/seahawks-dt-jarran-reed-players-hit-penalty-issues-head-on-in-meeting-this-week",
+    "publishedAt": "2026-10-07T20:53:50.000Z",
+    "type": "Analysis",
+    "headline": "Seahawks DT Jarran Reed: Players hit penalty issues \"head on\" in meeting this week",
+    "summary": "Seahawks head coach Mike Macdonald called the team's seven personal fouls in last Sunday's win over the Chargers \"unacceptable at any level\" and his players didn't wait to go to work on cleaning things up this week.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/seahawks-dt-jarran-reed-players-hit-penalty-issues-head-on-in-meeting-this-week",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jesse-minter-on-lamar-jackson-a-lot-of-time-between-now-and-sunday",
+    "publishedAt": "2026-10-07T19:15:57.000Z",
+    "type": "Injury",
+    "headline": "Jesse Minter on Lamar Jackson: A lot of time between now and Sunday",
+    "summary": "Ravens quarterback Lamar Jackson didn't practice on Wednesday because of the hamstring injury that has left doubt about whether he'll play against the Falcons this Sunday, but head coach Jesse Minter isn't ruling him out at this point.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jesse-minter-on-lamar-jackson-a-lot-of-time-between-now-and-sunday",
     "sourceName": "Pro Football Talk"
   }
 ]

@@ -1,5 +1,14 @@
 [
   {
+    "id": "f5a12db7-7c1c-41c9-8a69-7026fb0eda9e",
+    "publishedAt": "2026-10-07T19:33:07.000Z",
+    "type": "Beat Report",
+    "headline": "Transcript: Head Coach Mike Vrabel Press Conference 10/7",
+    "summary": "Read the full transcript from Head Coach Mike Vrabel's press conference on Wednesday, October 7, 2026.",
+    "sourceUrl": "https://www.patriots.com/news/transcript-head-coach-mike-vrabel-press-conference-10-7",
+    "sourceName": "Patriots.com"
+  },
+  {
     "id": "88d858cb-1a5a-4861-8dd8-861b9a8f1c76",
     "publishedAt": "2026-10-07T16:00:00.000Z",
     "type": "Analysis",
@@ -33,15 +42,6 @@
     "headline": "Patriots Release LB Jose Ramirez; Sign CB Al'Zillion Hamilton to the Practice Squad; Release OL Da'Metrius Weatherspoon from the Practice Squad",
     "summary": "The Patriots announced that they have released LB Jose Ramirez. In addition, the Patriots signed rookie CB Al’Zillion Hamilton to the practice squad and released rookie OL Da’Metrius Weatherspoon from the practice squad.",
     "sourceUrl": "https://www.patriots.com/news/patriots-release-lb-jose-ramirez-sign-cb-al-zillion-hamilton-to-the-practice-squad-release-ol-da-metrius-weatherspoon-from-the-practice-squad",
-    "sourceName": "Patriots.com"
-  },
-  {
-    "id": "e68e15c4-1b9d-4940-a355-6ae76a39afc4",
-    "publishedAt": "2026-10-06T19:52:00.000Z",
-    "type": "Analysis",
-    "headline": "Patriots to Honor Adam Vinatieri During Halftime Ceremony on Sunday, October 11 Against Raiders",
-    "summary": "The New England Patriots will celebrate Adam Vinatieri's induction into the Pro Football Hall of Fame during a halftime ceremony on Sunday, October 11 against the Las Vegas Raiders.",
-    "sourceUrl": "https://www.patriots.com/news/patriots-to-honor-adam-vinatieri-during-halftime-ceremony-on-sunday-october-11-against-raiders",
     "sourceName": "Patriots.com"
   },
   {
@@ -87,15 +87,6 @@
     "headline": "Drake Maye rebounds as Patriots hand Bills first defeat",
     "summary": "Drake Maye snapped out of his early-season slide with a clutch performance as the New England Patriots upset the Buffalo Bills 29-26 at Highmark Stadium in a result that coach Mike Vrabel highlighted as critical for the defending AFC champions.",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/50104577/drake-maye-rebounds-patriots-hand-bills-first-defeat",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50103645",
-    "publishedAt": "2026-10-04T22:57:29Z",
-    "type": "Analysis",
-    "headline": "Maye overcomes his two turnovers with 3 TD passes in Patriots' 29-26 win over Bills",
-    "summary": "— Drake Maye didn’t have to be perfect after his rough start to the season.",
-    "sourceUrl": "http://www.espn.com/nfl/recap?gameId=401872971",
     "sourceName": "ESPN"
   }
 ]
