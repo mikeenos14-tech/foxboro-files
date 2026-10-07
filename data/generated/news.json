@@ -1,5 +1,23 @@
 [
   {
+    "id": "5534b301-2ceb-4737-a2da-3f719055abcd",
+    "publishedAt": "2026-10-07T13:37:36.000Z",
+    "type": "Analysis",
+    "headline": "Game Preview: Patriots vs. Raiders | NFL Week 5",
+    "summary": "The New England Patriots will host the Las Vegas Raiders at Gillette Stadium on Sunday, October 11 at 1 PM ET.",
+    "sourceUrl": "https://www.patriots.com/news/game-preview-patriots-vs-raiders-nfl-week-5",
+    "sourceName": "Patriots.com"
+  },
+  {
+    "id": "83cd97c5-860d-490f-a1cc-d5b08d675c5b",
+    "publishedAt": "2026-10-07T13:37:35.000Z",
+    "type": "Analysis",
+    "headline": "How to Watch and Stream Sunday's Patriots Game Against the Raiders | NFL Week 5",
+    "summary": "Complete broadcast information for this week's game between the New England Patriots and the Las Vegas Raiders on Sunday, October 11, 2026 at 1 PM ET.",
+    "sourceUrl": "https://www.patriots.com/news/how-to-watch-and-stream-sunday-s-patriots-game-against-the-raiders-nfl-week-5",
+    "sourceName": "Patriots.com"
+  },
+  {
     "id": "78d719ec-dfc0-4f85-a2cd-57637e103b7a",
     "publishedAt": "2026-10-06T20:00:00.000Z",
     "type": "Transaction",
@@ -34,24 +52,6 @@
     "summary": "The Patriots neutralized a red-hot Kincaid in Week 4 but know they have their work cut out for them against the Raiders' 1-2 tight end punch in Week 5.",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/50112803/new-england-patriots-defense-tight-ends-shut-dalton-kincaid",
     "sourceName": "ESPN"
-  },
-  {
-    "id": "d8699b43-5fb7-45bd-9efc-462412a439ec",
-    "publishedAt": "2026-10-05T22:15:19.000Z",
-    "type": "Analysis",
-    "headline": "After Further Review: Drake Maye film breakdown, defense outlasts Josh Allen and quick-hit film notes from Week 4 win vs. Bills",
-    "summary": "How did the Patriots offense break out in their 29-26 victory over the Bills on Sunday?",
-    "sourceUrl": "https://www.patriots.com/news/after-further-review-drake-maye-film-breakdown-defense-outlasts-josh-allen-and-quick-hit-film-notes-from-week-4-win-vs-bills",
-    "sourceName": "Patriots.com"
-  },
-  {
-    "id": "a188837f-3086-4256-85cd-ba38ab08fd3b",
-    "publishedAt": "2026-10-05T17:22:15.000Z",
-    "type": "Beat Report",
-    "headline": "Transcript: Head Coach Mike Vrabel Press Conference 10/5",
-    "summary": "Read the full transcript from Head Coach Mike Vrabel's press conference on Monday, October 5, 2026.",
-    "sourceUrl": "https://www.patriots.com/news/transcript-head-coach-mike-vrabel-press-conference-10-5",
-    "sourceName": "Patriots.com"
   },
   {
     "id": "50100800",
