@@ -1,18 +1,9 @@
 [
   {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=421955",
-    "publishedAt": "2026-10-06T14:00:56.000Z",
-    "type": "Injury",
-    "headline": "Ravens QB Lamar Jackson Suffers Ankle Injury",
-    "summary": "OCTOBER 6: Jackson’s ankle sprain leaves him with an “outside chance” to play in Week 5, per Rapoport. He adds multiple missed games could be in store based on the progress of Jackson’s recovery efforts over the coming days. Huntley will be in line for first-team reps in practice this week as a result. OCTOBER 4: Ravens […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/ravens-qb-lamar-jackson-suffers-ankle-injury",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
     "id": "50119122",
-    "publishedAt": "2026-10-06T21:01:45Z",
+    "publishedAt": "2026-10-06T21:28:10Z",
     "type": "Analysis",
-    "headline": "Eagles All-Pro RT Lane Johnson retires, ending 14-season NFL career",
+    "headline": "Eagles All-Pro Lane Johnson retires, ending 14-season NFL career",
     "summary": "Eagles two-time All-Pro right tackle Lane Johnson announced his retirement Tuesday, ending a 14-year career spent entirely in Philadelphia.",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/50119122/eagles-all-pro-rt-lane-johnson-reties-ending-14-season-nfl-career",
     "sourceName": "ESPN"
@@ -27,30 +18,39 @@
     "sourceName": "Pro Football Talk"
   },
   {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cardinals-signing-jedrick-wills-place-paris-johnson-on-ir",
-    "publishedAt": "2026-10-06T20:42:50.000Z",
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=422156",
+    "publishedAt": "2026-10-06T22:41:39.000Z",
     "type": "Transaction",
-    "headline": "Cardinals signing Jedrick Wills, place Paris Johnson on IR",
-    "summary": "With Paris Johnson Jr. out for the season with a torn biceps, the Cardinals have added a former first-round pick to their offensive line.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cardinals-signing-jedrick-wills-place-paris-johnson-on-ir",
+    "headline": "Steelers Offered Joey Porter Jr. $28MM Per Year; Cowboys Made Only Serious Trade Proposal For CB",
+    "summary": "Joey Porter Jr. made his Cowboys debut in Week 4, playing 25 defensive snaps. The three-year Steelers starter went from taking himself off the Pittsburgh practice field last Wednesday to starting for the Cowboys four days later. Agreeing to play on his rookie deal in Dallas (but not with Pittsburgh), Porter had turned down an […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/steelers-offered-joey-porter-jr-28mm-per-year-cowboys-made-only-serious-trade-proposal-for-cb",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/steelers-browns-racks-up-16-59-million-viewers-on-prime-video",
+    "publishedAt": "2026-10-06T23:34:15.000Z",
+    "type": "Analysis",
+    "headline": "Steelers-Browns racks up 16.59 million viewers on Prime Video",
+    "summary": "More than a few people saw Thursday night's F-bomb interaction between Steelers quarterback Aaron Rodgers and coach Mike McCarthy.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/steelers-browns-racks-up-16-59-million-viewers-on-prime-video",
     "sourceName": "Pro Football Talk"
   },
   {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=421514",
-    "publishedAt": "2026-10-06T15:45:41.000Z",
-    "type": "Injury",
-    "headline": "Falcons Extend DL Gervon Dexter",
-    "summary": "OCTOBER 6: Dexter landed $21.59MM fully guaranteed, as detailed by Spotrac. That includes a $10MM signing bonus and all of his compensation for 2027. $20MM in pay for 2028 is guaranteed for injury at signing, but it will fully vest on the third day of the 2027 league year. Similarly, $5MM of Dexter’s 2029 salary will […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/falcons-to-extend-dl-gervon-dexter",
-    "sourceName": "Pro Football Rumors"
+    "id": "50119780",
+    "publishedAt": "2026-10-06T22:49:31Z",
+    "type": "Analysis",
+    "headline": "MVP?! 3 keys to watch if Panthers QB Bryce Young is on that path",
+    "summary": "The 2023 first-round pick's start -- he leads the NFL with 1,268 passing yards -- puts him in the MVP conversation.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50119780/carolina-panthers-qb-bryce-young-3-keys-mvp-path",
+    "sourceName": "ESPN"
   },
   {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=422107",
-    "publishedAt": "2026-10-06T14:52:11.000Z",
-    "type": "Injury",
-    "headline": "Colts DE Arden Key To Miss Time",
-    "summary": "Arden Key has been a full-time starter during his first Colts season. The veteran defensive end is now in line to miss time, however. Key suffered a hamstring injury on Sunday, and head coach Shane Steichen said a spell on the sidelines would wind up being necessary after the game. ESPN’s Jeremy Fowler reports Key is expected to […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/colts-de-arden-key-to-miss-time",
-    "sourceName": "Pro Football Rumors"
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/eagles-dc-vic-fangio-number-of-snaps-impacted-defense-against-rams-but-have-to-finish",
+    "publishedAt": "2026-10-06T21:40:37.000Z",
+    "type": "Analysis",
+    "headline": "Eagles DC Vic Fangio: Number of snaps impacted defense against Rams, but have to finish",
+    "summary": "The Eagles had a 20-10 lead over the Rams deep into the fourth quarter of last Sunday's game against the Rams, but they wound up losing when the Rams scored back-to-back touchdowns in the final four minutes of the game.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/eagles-dc-vic-fangio-number-of-snaps-impacted-defense-against-rams-but-have-to-finish",
+    "sourceName": "Pro Football Talk"
   }
 ]
