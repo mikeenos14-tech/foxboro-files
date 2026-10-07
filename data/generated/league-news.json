@@ -1,30 +1,30 @@
 [
   {
-    "id": "50119122",
-    "publishedAt": "2026-10-06T21:28:10Z",
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=422165",
+    "publishedAt": "2026-10-07T04:00:46.000Z",
     "type": "Analysis",
-    "headline": "Eagles All-Pro Lane Johnson retires, ending 14-season NFL career",
-    "summary": "Eagles two-time All-Pro right tackle Lane Johnson announced his retirement Tuesday, ending a 14-year career spent entirely in Philadelphia.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50119122/eagles-all-pro-rt-lane-johnson-reties-ending-14-season-nfl-career",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50121315",
-    "publishedAt": "2026-10-07T03:06:45Z",
-    "type": "Analysis",
-    "headline": "Tyreek Hill's wife recounts assault, verbal abuse at trial",
-    "summary": "Tyreek Hill's wife recounted details of assault and verbal abuse during testimony Tuesday on the first day of a civil assault-and-battery trial in Florida, proceedings that began a day after ESPN reported Hill would potentially sign an NFL contract soon.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50121315/tyreek-hill-wife-recounts-assault-verbal-abuse-trial",
-    "sourceName": "ESPN"
+    "headline": "Eagles RT Lane Johnson To Retire",
+    "summary": "Lane Johnson missed the Eagles’ Week 4 game for personal reasons. The organization has since announced a bombshell; the 14th-year right tackle is retiring in-season. Johnson, 36, had indicated this offseason the 2026 season would probably be his last. He explained in a retirement post why his plan changed from a retirement after the season […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/eagles-rt-lane-johnson-to-retire",
+    "sourceName": "Pro Football Rumors"
   },
   {
     "id": "profootballrumors-https://www.profootballrumors.com/?p=422156",
-    "publishedAt": "2026-10-06T22:41:39.000Z",
+    "publishedAt": "2026-10-07T03:41:39.000Z",
     "type": "Transaction",
     "headline": "Steelers Offered Joey Porter Jr. $28MM Per Year; Cowboys Made Only Serious Trade Proposal For CB",
     "summary": "Joey Porter Jr. made his Cowboys debut in Week 4, playing 25 defensive snaps. The three-year Steelers starter went from taking himself off the Pittsburgh practice field last Wednesday to starting for the Cowboys four days later. Agreeing to play on his rookie deal in Dallas (but not with Pittsburgh), Porter had turned down an […]",
     "sourceUrl": "https://www.profootballrumors.com/2026/10/steelers-offered-joey-porter-jr-28mm-per-year-cowboys-made-only-serious-trade-proposal-for-cb",
     "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "50121315",
+    "publishedAt": "2026-10-07T04:34:53Z",
+    "type": "Analysis",
+    "headline": "Tyreek Hill's wife recounts assault, verbal abuse at trial",
+    "summary": "Tyreek Hill's wife recounted details of assault and verbal abuse during testimony Tuesday on the first day of a civil assault and battery trial in Florida, proceedings that began a day after ESPN reported Hill would potentially sign an NFL contract soon.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50121315/tyreek-hill-wife-recounts-assault-verbal-abuse-trial",
+    "sourceName": "ESPN"
   },
   {
     "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/ravens-te-durham-smythe-out-for-season-with-torn-achilles",
@@ -36,15 +36,6 @@
     "sourceName": "Pro Football Talk"
   },
   {
-    "id": "50119780",
-    "publishedAt": "2026-10-06T22:49:31Z",
-    "type": "Analysis",
-    "headline": "MVP?! 3 keys to watch if Panthers QB Bryce Young is on that path",
-    "summary": "The 2023 first-round pick's start -- he leads the NFL with 1,268 passing yards -- puts him in the MVP conversation.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50119780/carolina-panthers-qb-bryce-young-3-keys-mvp-path",
-    "sourceName": "ESPN"
-  },
-  {
     "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cardinals-signing-jedrick-wills-place-paris-johnson-on-ir",
     "publishedAt": "2026-10-06T20:42:50.000Z",
     "type": "Transaction",
@@ -52,5 +43,14 @@
     "summary": "With Paris Johnson Jr. out for the season with a torn biceps, the Cardinals have added a former first-round pick to their offensive line.",
     "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cardinals-signing-jedrick-wills-place-paris-johnson-on-ir",
     "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "50121196",
+    "publishedAt": "2026-10-07T01:35:04Z",
+    "type": "Injury",
+    "headline": "Giants' Berrios says he'll undergo season-ending foot surgery",
+    "summary": "Giants receiver Braxton Berrios will undergo season-ending surgery on his foot, he announced Tuesday on Instagram.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50121196/giants-berrios-says-undergo-season-ending-foot-surgery",
+    "sourceName": "ESPN"
   }
 ]
