@@ -7,7 +7,7 @@ name: Daily health check
 # a check passes. See scripts/health-check.ts.
 on:
   schedule:
-    - cron: "0 15 * * *" # ~11am ET daily — after the Monday-midday nflverse finalization run
+    - cron: "30 17 * * *" # ~1:30pm ET daily — after the noon stats retry and the Monday 1pm finalization run, so it reports what's actually still broken
   workflow_dispatch: {}
 
 permissions:

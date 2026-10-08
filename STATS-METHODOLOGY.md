@@ -181,7 +181,9 @@ Recap lists (~25-35 KB per game, `plays-<gameId>.json`) are rendered with the pa
 
 ## Refresh schedule
 
-Four scheduled runs: ~5am ET daily (catches Thursday/Monday night games), ~5pm ET Sunday (after early games), ~1am ET Monday (after the full Sunday slate including Sunday Night), and ~1pm ET Monday (added this session — nflverse's play-by-play file isn't actually finalized until roughly midday Monday, which is why the League tab used to look "half-updated" right after Sunday).
+Four scheduled runs: ~5am ET daily (catches Thursday/Monday night games), ~5pm ET Sunday (after early games), ~1am ET Monday (after the full Sunday slate including Sunday Night), and ~1pm ET Monday (nflverse's play-by-play file isn't finalized until roughly midday Monday, which is why the League tab used to look "half-updated" right after Sunday).
+
+Plus a **noon ET retry** that only runs when the stats haven't updated in the last 10 hours, i.e. the morning run failed. In Week 5 nflverse's schedule file returned "404 Not Found" for most of a day and the site sat on day-old stats until the next morning. A small gate job decides first, so on a normal day the retry does nothing (running it anyway would rewrite the AI preview daily for no reason).
 
 ## Keeping it current, and knowing when it isn't
 
@@ -190,7 +192,7 @@ Four scheduled runs: ~5am ET daily (catches Thursday/Monday night games), ~5pm E
 - **Every download is recorded.** Each fetch of each source (nflverse files, ESPN endpoints, RSS feeds) writes its last attempt and last success to `data/generated/source-status-<job>.json` — one file per job, since the stats and headlines jobs overlap and a shared file would make their commits conflict. In the automated jobs raw files aren't kept between runs, so "keep the last good copy" really means "missing": without this, a source could fail for days while every run reported success.
 - **Freshness check** (`scripts/check-freshness.ts`), the last step of both jobs: in season, fails the run if a source it fetches hasn't succeeded within the job's limit (12 hours for headlines, 36 for stats), if a New England game that finished 30+ hours ago has no result, recap or plays, or if the "next game" has already been played. The data is still committed; the run shows red.
 - **Sanity ranges** (in `verify:data`): rates between 0 and 100%, EPA in a real season's range, ranks 1-32, grades 0-100, league-wide wins equal losses and point differentials sum to zero, a 17-game schedule and a projected record that adds up to 17.
-- **Daily health check** (`.github/workflows/health-check.yml`, ~11am ET): runs the freshness checks across both jobs, looks for any failed refresh in the last day, and compares the live site's `/api/build-meta` with the repo to catch a failed deploy. Problems open a GitHub issue ("Site health: problems found"), which emails the repo owner; it's commented on while problems persist and closes itself once a check passes.
+- **Daily health check** (`.github/workflows/health-check.yml`, ~1:30pm ET, after the noon retry so it reports only what's still broken): runs the freshness checks across both jobs, looks for any failed refresh in the last day, and compares the live site's `/api/build-meta` with the repo to catch a failed deploy. Problems open a GitHub issue ("Site health: problems found"), which emails the repo owner; it's commented on while problems persist and closes itself once a check passes.
 - **Visitors are told.** The footer's "Stats last updated" uses when play-by-play was last actually downloaded (not when the build ran), and in season turns into a warning after 36 hours. It's worked out in the visitor's browser, since most pages are built once at deploy time.
 - If ESPN's depth chart can't be fetched, the last published one stays rather than the tab going blank.
 

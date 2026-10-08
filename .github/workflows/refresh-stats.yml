@@ -31,6 +31,7 @@ on:
     - cron: "0 21 * * 0" # ~5pm ET Sunday — after the early Sunday games, before late/SNF
     - cron: "0 5 * * 1" # ~1am ET Monday — after the Sunday slate (including SNF) wraps (scores/standings; EPA may still be pending nflverse finalization)
     - cron: "0 17 * * 1" # ~1pm ET Monday — catches nflverse's play-by-play finalization lag, so EPA stats catch up to the scores from the ~1am run
+    - cron: "0 16 * * *" # ~noon ET daily — retry, runs only if the morning run didn't land (see the gate job below)
   workflow_dispatch: {} # manual "Run workflow" button, for on-demand refreshes
 
 permissions:
@@ -41,7 +42,44 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  # The noon run is a retry, not a second daily refresh: it goes ahead
+  # only when the stats haven't updated in the last 10 hours, i.e. the
+  # ~5am run failed. In October 2026 nflverse's schedule file was down
+  # for most of a day and the site sat on day-old stats until the next
+  # morning. Running unconditionally would rewrite the AI preview every
+  # day for nothing. Every other trigger always runs.
+  gate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    outputs:
+      run: ${{ steps.decide.outputs.run }}
+    steps:
+      - name: Check out repo
+        if: github.event.schedule == '0 16 * * *'
+        uses: actions/checkout@v7
+        with:
+          sparse-checkout: data/generated/build-meta.json
+          sparse-checkout-cone-mode: false
+      - name: Decide whether to run
+        id: decide
+        run: |
+          if [ "${{ github.event.schedule }}" != "0 16 * * *" ]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"; exit 0
+          fi
+          as_of=$(node -e "const m=require('./data/generated/build-meta.json'); console.log(m.statsAsOf || m.generatedAt || '')")
+          age_h=$(node -e "console.log(Math.floor((Date.now() - new Date('$as_of').getTime()) / 3600000))")
+          echo "Stats last updated $as_of ($age_h hours ago)"
+          if [ -n "$as_of" ] && [ "$age_h" -lt 10 ]; then
+            echo "The morning run landed; nothing to retry."
+            echo "run=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "The morning run didn't land; retrying."
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          fi
+
   refresh:
+    needs: gate
+    if: needs.gate.outputs.run == 'true'
     runs-on: ubuntu-latest
     # A normal run takes about a minute. GitHub's default limit is six
     # hours, and with cancel-in-progress off, a hung job would hold up

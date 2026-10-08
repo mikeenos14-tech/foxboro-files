@@ -41,7 +41,7 @@ Model: `claude-haiku-4-5-20251001`, called through a thin wrapper (`scripts/lib/
 
 Three workflows: two refreshes split by how often the underlying reality actually changes, and a daily health check:
 
-- **`refresh-stats.yml`** — runs once daily (~5am ET) plus two extra passes around the Sunday/Monday NFL slate, since real game stats only change when games are actually played. Pulls the full nflverse dataset (play-by-play, rosters, schedule), rebuilds team stats, league-wide EPA/standings, roster grades, opponent matchup data, and the AI recap/preview.
+- **`refresh-stats.yml`** — runs once daily (~5am ET) plus extra passes around the Sunday/Monday NFL slate and a noon retry that runs only if the morning pass failed, since real game stats only change when games are actually played. Pulls the full nflverse dataset (play-by-play, rosters, schedule), rebuilds team stats, league-wide EPA/standings, roster grades, opponent matchup data, and the AI recap/preview.
 - **`refresh-headlines.yml`** — runs every 3 hours, all week, since news/injury reports/odds change continuously. Pulls ESPN + RSS sources, the patriots.com practice report, and runs the curation-style AI steps; the practice report is parsed in code.
 - **`health-check.yml`** — daily: sources fresh, each workflow's latest run green, live site current. Opens (or closes) a GitHub issue, which emails the owner.
 - Both refreshes: `continue-on-error: true` on every data step, `git pull --rebase` before push, a "data is current" check at the end, and a 15-minute timeout so a hung run can't hold up the queue.
