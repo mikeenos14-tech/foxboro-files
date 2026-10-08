@@ -72,21 +72,21 @@
     "sourceName": "ESPN"
   },
   {
-    "id": "50106939",
-    "publishedAt": "2026-10-05T02:54:28Z",
-    "type": "Analysis",
-    "headline": "Patriots top Bills in a close battle",
-    "summary": "Mike Reiss on the Patriots' 29-26 Week 4 win over the Bills.",
-    "sourceUrl": "https://www.espn.com/video/clip/_/id/50106939/patriots-top-bills-close-battle",
-    "sourceName": "ESPN"
-  },
-  {
     "id": "50100701",
     "publishedAt": "2026-10-05T00:59:29Z",
     "type": "Analysis",
     "headline": "Judging overreactions to NFL Week 4: Patriots, Rams are back? Eagles in trouble?",
     "summary": "Are the Patriots on track for another AFC East title? Are the Chiefs back to being the class of the NFL? We're judging Week 4 overreactions.",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/50100701/week-4-overreactions-2026-graziano-patriots-rams-eagles",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50104577",
+    "publishedAt": "2026-10-04T23:24:22Z",
+    "type": "Analysis",
+    "headline": "Drake Maye rebounds as Patriots hand Bills first defeat",
+    "summary": "Drake Maye snapped out of his early-season slide with a clutch performance as the New England Patriots upset the Buffalo Bills 29-26 at Highmark Stadium in a result that coach Mike Vrabel highlighted as critical for the defending AFC champions.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50104577/drake-maye-rebounds-patriots-hand-bills-first-defeat",
     "sourceName": "ESPN"
   }
 ]
