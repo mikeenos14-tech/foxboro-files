@@ -1,10 +1,55 @@
 [
   {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=422266",
+    "publishedAt": "2026-10-08T04:20:09.000Z",
+    "type": "Transaction",
+    "headline": "Eagles Trade Cam Jurgens To Ravens",
+    "summary": "The Eagles shockingly lost future Hall of Fame right tackle Lane Johnson to retirement on Tuesday. A day later, another of the Eagles’ offensive line stalwarts is exiting. The Eagles are trading center Cam Jurgens and a 2027 seventh-round pick to the Ravens for a 2028 second-round selection and a 2027 fifth-rounder, Adam Schefter of […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/eagles-trade-cam-jurgens-to-ravens",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=422243",
+    "publishedAt": "2026-10-08T04:15:33.000Z",
+    "type": "Transaction",
+    "headline": "Vikings Sign WR Odell Beckham Jr.",
+    "summary": "The Giants released wide receiver Odell Beckham Jr. last week, but he is quickly catching on elsewhere. Beckham is signing with the Vikings, Jordan Schultz reports. He will join their practice squad, per Adam Schefter of ESPN. The team has announced the move. Beckham caught just nine passes in as many games in 2024 with the […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/vikings-to-sign-wr-odell-beckham-jr",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=422293",
+    "publishedAt": "2026-10-08T04:02:23.000Z",
+    "type": "Analysis",
+    "headline": "Texans HC DeMeco Ryans Reclaims Defensive Play-Calling Duties",
+    "summary": "Sitting at 0-4, the Texans are not making a coaching change. A shift in responsibilities will be taking place along the sidelines, however. Head coach DeMeco Ryans announced on Wednesday that he is taking over defensive play-calling responsibilities. A streamlining of communication among players on that side of the ball was cited as the primary reason for […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/texans-hc-demeco-ryans-reclaims-defensive-play-calling-duties",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=422241",
+    "publishedAt": "2026-10-08T04:00:54.000Z",
+    "type": "Injury",
+    "headline": "Jayden Daniels On Track To Return In Week 5; Marcus Mariota Sprains MCL",
+    "summary": "After missing back-to-back games with a dislocated left elbow, Commanders quarterback Jayden Daniels is trending toward returning in Week 5. As the Commanders prepare to face the NFC East rival Giants on Sunday, head coach Dan Quinn said Daniels will be a full participant in practice this week (via Tashan Reed of the Washington Post). […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/jayden-daniels-on-track-to-return-in-week-5-marcus-mariota-sprains-mcl",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=422322",
+    "publishedAt": "2026-10-08T03:59:57.000Z",
+    "type": "Injury",
+    "headline": "Buccaneers S Antoine Winfield To Miss Time",
+    "summary": "Buccaneers safety Antoine Winfield is expected to miss two to four weeks with a rib fracture, head coach Todd Bowles said on Monday (via senior team writer Scott Smith). The injury is yet another blow to an 0-4 Tampa Bay squad that will be without quarterback Baker Mayfield, linebacker SirVocea Dennis, and cornerback Benjamin Morrison […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/buccaneers-s-antoine-winfield-to-miss-time",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
     "id": "profootballrumors-https://www.profootballrumors.com/?p=422314",
     "publishedAt": "2026-10-08T03:06:52.000Z",
     "type": "Analysis",
-    "headline": "Patriots Work Out RB Jamaal Williams, OT Cody Ford",
-    "summary": "The Patriots hosted five players for tryouts on Tuesday, per ESPN’s Mike Reiss, including running back Jamaal Williams and offensive tackle Cody Ford. Williams, 31, is seeking a return to the NFL after going unsigned for the 2025 season. At 220 pounds, the lowest weight of his eight-year career, he is “in the best shape […]",
+    "headline": "Patriots Work Out RB Jamaal Williams, OL Cody Ford",
+    "summary": "The Patriots hosted five players for tryouts on Tuesday, per ESPN’s Mike Reiss, including running back Jamaal Williams and offensive lineman Cody Ford. Williams, 31, is seeking a return to the NFL after going unsigned for the 2025 season. At 220 pounds, the lowest weight of his eight-year career, he is “in the best shape […]",
     "sourceUrl": "https://www.profootballrumors.com/2026/10/patriots-work-out-rb-jamaal-williams-ot-cody-ford",
     "sourceName": "Pro Football Rumors"
   },
@@ -58,7 +103,7 @@
     "publishedAt": "2026-10-08T00:55:54.000Z",
     "type": "Transaction",
     "headline": "NFL Practice Squad Updates: 10/7/26",
-    "summary": "Today’s practice squad moves: Atlanta Falcons Signed: RB Jam Miller Released: RB Cash Jones Baltimore Ravens Signed: FB Lucas Scott Cleveland Browns Signed: RB Jaret Patterson, WR James Proche, DT Chris Williams Houston Texans Signed: CB Jaden Davis, LB Chad Muma, RB Deuce Vaughn Indianapolis Colts Released: TE Kenny Fletcher Jr. Miami Dolphins Signed: RB […]",
+    "summary": "Today’s practice squad moves: Baltimore Ravens Signed: FB Lucas Scott Cleveland Browns Signed: RB Jaret Patterson, WR James Proche, DT Chris Williams Indianapolis Colts Released: TE Kenny Fletcher Jr. Miami Dolphins Signed: RB Carlos Washington Jr. Minnesota Vikings Signed: WR Jeshaun Jones New England Patriots Signed: LB Jose Ramirez Philadelphia Eagles Signed: WR Erik Ezukanma […]",
     "sourceUrl": "https://www.profootballrumors.com/2026/10/nfl-practice-squad-updates-10-7-26",
     "sourceName": "Pro Football Rumors"
   },
@@ -76,7 +121,7 @@
     "publishedAt": "2026-10-08T00:33:49.000Z",
     "type": "Transaction",
     "headline": "Minor NFL Transactions: 10/7/26",
-    "summary": "Today’s minor moves: Baltimore Ravens Signed to active roster: TE Nick Vannett Green Bay Packers Practice window opened: WR Savion Williams Indianapolis Colts Practice window opened: TE Will Mallory Minnesota Vikings Designated for return: TE Ben Yurosek Practice window opened: C Michael Jurgens New York Giants Signed to active roster: QB Jake Haener New York […]",
+    "summary": "Today’s minor moves: Baltimore Ravens Signed from practice squad: TE Nick Vannett Green Bay Packers Practice window opened: WR Savion Williams Indianapolis Colts Practice window opened: TE Will Mallory Minnesota Vikings Designated for return from IR: TE Ben Yurosek Practice window opened: C Michael Jurgens New York Giants Signed from practice squad: QB Jake Haener […]",
     "sourceUrl": "https://www.profootballrumors.com/2026/10/minor-nfl-transactions-10-7-26",
     "sourceName": "Pro Football Rumors"
   },
@@ -250,15 +295,6 @@
     "summary": "Reports from the open portion of Ravens practice were that wide receiver Zay Flowers was not on the field, but he wound up getting on the field later in the day.",
     "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/zay-flowers-limited-trey-hendrickson-out-at-ravens-practice",
     "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=422293",
-    "publishedAt": "2026-10-07T22:02:23.000Z",
-    "type": "Analysis",
-    "headline": "Texans HC DeMeco Ryans Reclaims Defensive Play-Calling Duties",
-    "summary": "Sitting at 0-4, the Texans are not making a coaching change. A shift in responsibilities will be taking place along the sidelines, however. Head coach DeMeco Ryans announced on Wednesday that he is taking over defensive play-calling responsibilities. A streamlining of communication among players on that side of the ball was cited as the primary reason for […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/texans-hc-demeco-ryans-reclaims-defensive-play-calling-duties",
-    "sourceName": "Pro Football Rumors"
   },
   {
     "id": "50127736",
@@ -711,15 +747,6 @@
     "sourceName": "Pro Football Talk"
   },
   {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=422266",
-    "publishedAt": "2026-10-07T17:01:09.000Z",
-    "type": "Transaction",
-    "headline": "Eagles Trade Cam Jurgens To Ravens",
-    "summary": "The Eagles shockingly lost future Hall of Fame right tackle Lane Johnson to retirement on Tuesday. A day later, another of the Eagles’ offensive line stalwarts is exiting. The Eagles are trading center Cam Jurgens and a 2027 seventh-round pick to the Ravens for a 2028 second-round selection and a 2027 fifth-rounder, Adam Schefter of […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/eagles-trade-cam-jurgens-to-ravens",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
     "id": "50126120",
     "publishedAt": "2026-10-07T17:00:56Z",
     "type": "Analysis",
@@ -837,15 +864,6 @@
     "sourceName": "Pro Football Talk"
   },
   {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=422241",
-    "publishedAt": "2026-10-07T15:57:54.000Z",
-    "type": "Injury",
-    "headline": "Jayden Daniels On Track To Return In Week 5; Marcus Mariota Sprains MCL",
-    "summary": "After missing back-to-back games with a dislocated left elbow, Commanders quarterback Jayden Daniels is trending toward returning in Week 5. As the Commanders prepare to face the NFC East rival Giants on Sunday, head coach Dan Quinn said Daniels will be a full participant in practice this week (via Tashan Reed of the Washington Post). […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/jayden-daniels-on-track-to-return-in-week-5-marcus-mariota-sprains-mcl",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
     "id": "50125164",
     "publishedAt": "2026-10-07T15:52:58Z",
     "type": "Analysis",
@@ -934,15 +952,6 @@
     "summary": "Beckham is reuniting with HC Kevin O'Connell, who was his OC with the Rams in 2021.",
     "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/odell-beckham-jr-to-sign-with-vikings-practice-squad",
     "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=422243",
-    "publishedAt": "2026-10-07T14:54:33.000Z",
-    "type": "Transaction",
-    "headline": "Vikings Sign WR Odell Beckham Jr.",
-    "summary": "The Giants released wide receiver Odell Beckham Jr. last week, but he is quickly catching on elsewhere. Beckham is signing with the Vikings, Jordan Schultz reports. He will join their practice squad, per Adam Schefter of ESPN. The team has announced the move. Beckham caught just nine passes in as many games in 2024 with the […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/vikings-to-sign-wr-odell-beckham-jr",
-    "sourceName": "Pro Football Rumors"
   },
   {
     "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/nfl-rescinds-kyle-juszczyks-beer-chugging-celebration-fine",
@@ -15523,32 +15532,5 @@
     "summary": "Warner injured his left elbow in 2007 and returned the next week wearing a large brace.",
     "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/kurt-warner-i-played-through-a-dislocated-left-elbow-jayden-daniels-can-if-he-wants-to",
     "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=420378",
-    "publishedAt": "2026-09-24T03:30:21.000Z",
-    "type": "Analysis",
-    "headline": "Bengals’ Creative Defensive Overhaul Produces Promising Early Returns",
-    "summary": "Through two games, the Bengals have a defense ranked eighth in points allowed and fifth in EPA per play. A franchise that threw just about all its offseason resources into an overdue repair — as no notable staff changes occurred — has seen the effort produce encouraging results. A Joe Burrow-fronted team may finally have, […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/09/420378",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=420748",
-    "publishedAt": "2026-09-24T03:21:27.000Z",
-    "type": "Injury",
-    "headline": "Potential Trade Interest In Cardinals’ Marvin Harrison Jr.",
-    "summary": "After a solid rookie campaign Cardinals wide receiver Marvin Harrison Jr. saw injuries derail Year 2. So far, through two games, improved health hasn’t quite led to improved results in his third season, and according to ESPN’s Dan Graziano, some in the league are starting to wonder if Harrison might become a candidate to be traded. […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/09/potential-trade-interest-in-cardinals-marvin-harrison-jr",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=420758",
-    "publishedAt": "2026-09-24T03:16:57.000Z",
-    "type": "Injury",
-    "headline": "Patriots Injury Rumors: Lomu, Schooler, Hollins",
-    "summary": "With news that Patriots starting right guard Michael Onwenu is set for an extended absence after breaking his right ankle, New England could get creative in order to fill the hole. Examining the different options available to him, head coach Mike Vrabel considered the option of shifting rookie first-round tackle Caleb Lomu in to cover […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/09/patriots-injury-rumors-lomu-schooler-hollins",
-    "sourceName": "Pro Football Rumors"
   }
 ]

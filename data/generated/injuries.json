@@ -1,126 +1,106 @@
 [
   {
-    "playerId": "4039505",
-    "playerName": "Reggie Gilliam",
-    "position": "FB",
+    "playerId": "00-0031330",
+    "playerName": "Morgan Moses",
+    "position": "T",
     "week": 5,
-    "injury": "Ankle",
-    "gameStatus": "Questionable",
-    "lastUpdated": "2026-10-07T21:38:26.249Z",
-    "practiceStatus": "Limited"
+    "injury": "Foot",
+    "practiceStatus": "Limited",
+    "gameStatus": null,
+    "lastUpdated": "2026-10-07T21:38:26.249Z"
   },
   {
-    "playerId": "2991662",
+    "playerId": "00-0033555",
     "playerName": "Mack Hollins",
     "position": "WR",
     "week": 5,
     "injury": "Calf",
-    "gameStatus": "Questionable",
-    "lastUpdated": "2026-10-07T21:38:26.249Z",
-    "practiceStatus": "Did Not Participate"
+    "practiceStatus": "Did Not Participate",
+    "gameStatus": null,
+    "lastUpdated": "2026-10-07T21:38:26.249Z"
   },
   {
-    "playerId": "16771",
-    "playerName": "Morgan Moses",
-    "position": "OT",
-    "week": 5,
-    "injury": "Foot",
-    "gameStatus": "Questionable",
-    "lastUpdated": "2026-10-07T21:38:26.249Z",
-    "practiceStatus": "Limited"
-  },
-  {
-    "playerId": "4569173",
-    "playerName": "Rhamondre Stevenson",
-    "position": "RB",
-    "week": 5,
-    "injury": "Knee",
-    "gameStatus": "Questionable",
-    "lastUpdated": "2026-10-07T21:38:26.249Z",
-    "practiceStatus": "Limited"
-  },
-  {
-    "playerId": "4372030",
-    "playerName": "Christian Barmore",
-    "position": "DT",
-    "week": 5,
-    "injury": "Shoulder",
-    "gameStatus": "Questionable",
-    "lastUpdated": "2026-10-07T21:38:26.249Z",
-    "practiceStatus": "Limited"
-  },
-  {
-    "playerId": "4688779",
-    "playerName": "Channing Canada",
-    "position": "CB",
-    "week": 5,
-    "injury": "Hamstring",
-    "gameStatus": "Questionable",
-    "lastUpdated": "2026-10-07T21:38:26.249Z",
-    "practiceStatus": "Limited"
-  },
-  {
-    "playerId": "3916923",
+    "playerId": "00-0034778",
     "playerName": "Carlton Davis III",
     "position": "CB",
     "week": 5,
     "injury": "Neck",
-    "gameStatus": "Questionable",
-    "lastUpdated": "2026-10-07T21:38:26.249Z",
-    "practiceStatus": "Did Not Participate"
+    "practiceStatus": "Did Not Participate",
+    "gameStatus": null,
+    "lastUpdated": "2026-10-07T21:38:26.249Z"
   },
   {
-    "playerId": "4245273",
+    "playerId": "00-0035678",
+    "playerName": "Dre'Mont Jones",
+    "position": "LB",
+    "week": 5,
+    "injury": "Shoulder",
+    "practiceStatus": "Limited",
+    "gameStatus": null,
+    "lastUpdated": "2026-10-07T21:38:26.249Z"
+  },
+  {
+    "playerId": "00-0036187",
+    "playerName": "Reggie Gilliam",
+    "position": "FB",
+    "week": 5,
+    "injury": "Ankle",
+    "practiceStatus": "Limited",
+    "gameStatus": null,
+    "lastUpdated": "2026-10-07T21:38:26.249Z"
+  },
+  {
+    "playerId": "00-0036813",
     "playerName": "Christian Elliss",
     "position": "LB",
     "week": 5,
     "injury": "Chest",
-    "gameStatus": "Questionable",
-    "lastUpdated": "2026-10-07T21:38:26.249Z",
-    "practiceStatus": "Limited"
+    "practiceStatus": "Limited",
+    "gameStatus": null,
+    "lastUpdated": "2026-10-07T21:38:26.249Z"
   },
   {
-    "playerId": "4686772",
+    "playerId": "00-0036875",
+    "playerName": "Rhamondre Stevenson",
+    "position": "RB",
+    "week": 5,
+    "injury": "Knee",
+    "practiceStatus": "Limited",
+    "gameStatus": null,
+    "lastUpdated": "2026-10-07T21:38:26.249Z"
+  },
+  {
+    "playerId": "00-0036981",
+    "playerName": "Christian Barmore",
+    "position": "DT",
+    "week": 5,
+    "injury": "Shoulder",
+    "practiceStatus": "Limited",
+    "gameStatus": null,
+    "lastUpdated": "2026-10-07T21:38:26.249Z"
+  },
+  {
+    "playerId": "00-0037205",
+    "playerName": "Brenden Schooler",
+    "position": "S",
+    "week": 5,
+    "injury": "Back",
+    "practiceStatus": "Full",
+    "gameStatus": null,
+    "lastUpdated": "2026-10-07T21:38:26.249Z"
+  },
+  {
+    "playerId": "00-0039147",
     "playerName": "Christian Gonzalez",
     "position": "CB",
     "week": 5,
     "injury": "Shoulder",
-    "gameStatus": "Questionable",
-    "lastUpdated": "2026-10-07T21:38:26.249Z",
-    "practiceStatus": "Did Not Participate"
+    "practiceStatus": "Did Not Participate",
+    "gameStatus": null,
+    "lastUpdated": "2026-10-07T21:38:26.249Z"
   },
   {
-    "playerId": "3915525",
-    "playerName": "Dre'Mont Jones",
-    "position": "DE",
-    "week": 5,
-    "injury": "Shoulder",
-    "gameStatus": "Questionable",
-    "lastUpdated": "2026-10-07T21:38:26.249Z",
-    "practiceStatus": "Limited"
-  },
-  {
-    "playerId": "4606666",
-    "playerName": "Karon Prunty",
-    "position": "CB",
-    "week": 5,
-    "injury": "Hamstring",
-    "gameStatus": "Questionable",
-    "lastUpdated": "2026-10-07T21:38:26.249Z",
-    "practiceStatus": "Did Not Participate"
-  },
-  {
-    "playerId": "4428930",
-    "playerName": "Craig Woodson",
-    "position": "S",
-    "week": 5,
-    "injury": "Shoulder",
-    "gameStatus": "Questionable",
-    "lastUpdated": "2026-10-07T21:38:26.249Z",
-    "practiceStatus": "Limited"
-  },
-  {
-    "playerId": "patriots-charles-woods",
+    "playerId": "00-0039770",
     "playerName": "Charles Woods",
     "position": "CB",
     "week": 5,
@@ -130,22 +110,42 @@
     "lastUpdated": "2026-10-07T21:38:26.249Z"
   },
   {
-    "playerId": "patriots-drake-maye",
+    "playerId": "00-0039851",
     "playerName": "Drake Maye",
     "position": "QB",
     "week": 5,
-    "injury": "Right Shoulder",
+    "injury": "Shoulder",
     "practiceStatus": "Full",
     "gameStatus": null,
     "lastUpdated": "2026-10-07T21:38:26.249Z"
   },
   {
-    "playerId": "patriots-brenden-schooler",
-    "playerName": "Brenden Schooler",
+    "playerId": "00-0040716",
+    "playerName": "Craig Woodson",
     "position": "S",
     "week": 5,
-    "injury": "Back*",
-    "practiceStatus": "Full",
+    "injury": "Shoulder",
+    "practiceStatus": "Limited",
+    "gameStatus": null,
+    "lastUpdated": "2026-10-07T21:38:26.249Z"
+  },
+  {
+    "playerId": "00-0041088",
+    "playerName": "Karon Prunty",
+    "position": "CB",
+    "week": 5,
+    "injury": "Hamstring",
+    "practiceStatus": "Did Not Participate",
+    "gameStatus": null,
+    "lastUpdated": "2026-10-07T21:38:26.249Z"
+  },
+  {
+    "playerId": "00-0041316",
+    "playerName": "Channing Canada",
+    "position": "CB",
+    "week": 5,
+    "injury": "Hamstring",
+    "practiceStatus": "Limited",
     "gameStatus": null,
     "lastUpdated": "2026-10-07T21:38:26.249Z"
   }
