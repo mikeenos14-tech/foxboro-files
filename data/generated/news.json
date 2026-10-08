@@ -1,12 +1,21 @@
 [
   {
     "id": "50120618",
-    "publishedAt": "2026-10-08T13:07:04Z",
+    "publishedAt": "2026-10-08T16:09:05Z",
     "type": "Analysis",
     "headline": "NFL Week 5 uniforms: Packers debut Rivalries look, Patriots wearing throwbacks",
     "summary": "Here's a look at what each NFL team is wearing in Week 5, led by the Green Bay Packers debuting their Rivalries look.",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/50120618/nfl-week-5-uniforms",
     "sourceName": "ESPN"
+  },
+  {
+    "id": "5cb9ff37-d6e6-467a-a84e-be5dc4843f96",
+    "publishedAt": "2026-10-08T16:06:40.000Z",
+    "type": "Analysis",
+    "headline": "3 to Watch: Patriots Looking for Throwback Win vs. Raiders",
+    "summary": "The 2-2 Patriots return home to Gillette Stadium for an AFC battle against the 3-1 Las Vegas Raiders.",
+    "sourceUrl": "https://www.patriots.com/news/3-to-watch-patriots-looking-for-throwback-win-vs-raiders",
+    "sourceName": "Patriots.com"
   },
   {
     "id": "7ab07d86-0cdb-498a-ba1e-80b6a41761e2",
@@ -51,15 +60,6 @@
     "headline": "Drake Maye Named AFC Offensive Player of the Week",
     "summary": "The Patriots announced that QB Drake Maye has been named AFC Offensive Player of the Week for his 3-touchdown performance in the Patriots 29-26 victory over the Buffalo Bills last Sunday.",
     "sourceUrl": "https://www.patriots.com/news/drake-maye-named-afc-offensive-player-of-the-week-x6477",
-    "sourceName": "Patriots.com"
-  },
-  {
-    "id": "dd1ae492-4592-417d-ac5c-bf67ad3bbf22",
-    "publishedAt": "2026-10-07T15:52:00.000Z",
-    "type": "Beat Report",
-    "headline": "Transcript: Drake Maye Press Conference 10/7",
-    "summary": "Read the full transcript from Drake Maye's press conference on Wednesday, October 7, 2026.",
-    "sourceUrl": "https://www.patriots.com/news/transcript-drake-maye-press-conference-10-7",
     "sourceName": "Patriots.com"
   },
   {
