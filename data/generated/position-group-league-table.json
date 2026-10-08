@@ -717,7 +717,7 @@
       },
       {
         "group": "Pass Protection",
-        "grade": 81,
+        "grade": 84,
         "rawValue": 0.15555555555555556,
         "rawLabel": "sack + hit rate allowed"
       },
@@ -1512,8 +1512,8 @@
       },
       {
         "group": "Pass Protection",
-        "grade": 84,
-        "rawValue": 0.14465408805031446,
+        "grade": 81,
+        "rawValue": 0.1509433962264151,
         "rawLabel": "sack + hit rate allowed"
       },
       {
