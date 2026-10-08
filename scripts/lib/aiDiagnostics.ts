@@ -18,6 +18,8 @@ export interface AiOutcome {
   status: "written" | "rejected" | "no-response";
   /** Check failures per draft, when rejected. */
   problems: string[][];
+  /** Why no response came back ("API key rejected (HTTP 401)"), when known. */
+  error?: string;
 }
 
 export async function recordAiOutcome(

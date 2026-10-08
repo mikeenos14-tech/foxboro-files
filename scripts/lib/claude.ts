@@ -12,6 +12,22 @@
 import type { AiOutcome } from "./aiDiagnostics";
 
 const API_URL = "https://api.anthropic.com/v1/messages";
+
+// Why the most recent call returned nothing, in words the health check
+// can put in an email. An expired key looks exactly like any other
+// failure to the callers (they publish nothing and carry on), so without
+// this the only symptom was recaps quietly missing their Take.
+let lastFailure: string | undefined;
+export function lastAiFailure(): string | undefined {
+  return lastFailure;
+}
+function describeFailure(status: number): string {
+  if (status === 401) return "API key rejected (HTTP 401) — it may have expired or been deleted";
+  if (status === 403) return "API key not allowed to use this model (HTTP 403)";
+  if (status === 429) return "rate-limited or out of credit (HTTP 429)";
+  if (status === 529 || status >= 500) return `Anthropic's API was down or overloaded (HTTP ${status})`;
+  return `API error (HTTP ${status})`;
+}
 const MODEL = "claude-haiku-4-5-20251001";
 
 export async function generateText(
@@ -20,8 +36,10 @@ export async function generateText(
   maxTokens = 400
 ): Promise<string | null> {
   const apiKey = process.env.ANTHROPIC_API_KEY;
+  lastFailure = undefined;
   if (!apiKey) {
     console.warn("ANTHROPIC_API_KEY not set — skipping AI content generation.");
+    lastFailure = "no ANTHROPIC_API_KEY is set";
     return null;
   }
   try {
@@ -41,6 +59,7 @@ export async function generateText(
     });
     if (!res.ok) {
       console.error(`Claude API error ${res.status}: ${await res.text()}`);
+      lastFailure = describeFailure(res.status);
       return null;
     }
     const data = await res.json();
@@ -48,6 +67,7 @@ export async function generateText(
     return typeof text === "string" ? text.trim() : null;
   } catch (err) {
     console.error("Claude API call failed:", err);
+    lastFailure = `couldn't reach Anthropic's API (${String(err).slice(0, 80)})`;
     return null;
   }
 }
@@ -69,7 +89,9 @@ export async function generateChecked<T>(
   const problems: string[][] = [];
   for (let attempt = 1; attempt <= 2; attempt++) {
     const result = await generate(prompt);
-    if (!result) return { result: null, outcome: { status: "no-response", problems } };
+    if (!result) {
+      return { result: null, outcome: { status: "no-response", problems, error: lastFailure ?? "the reply couldn't be read (cut off or not JSON)" } };
+    }
     const found = check(toText(result));
     if (found.length === 0) return { result, outcome: { status: "written", problems } };
     problems.push(found);

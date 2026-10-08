@@ -22,7 +22,8 @@
 
 import { readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
-import { generateJson } from "./lib/claude";
+import { generateJson, lastAiFailure } from "./lib/claude";
+import { recordAiOutcome } from "./lib/aiDiagnostics";
 import { TEAM_NICKNAMES } from "./lib/teams";
 import type { NewsItem } from "../lib/data/types";
 
@@ -135,6 +136,13 @@ ${candidates.map((n) => `- id "${n.id}": [${n.type}] ${n.headline}: ${n.summary}
 Rank and select the top ${KEEP_COUNT} now.`;
 
   const result = await generateJson<{ selectedIds: string[] }>(SYSTEM, user, 300);
+  await recordAiOutcome(
+    "league headlines",
+    result?.selectedIds?.length
+      ? { status: "written", problems: [] }
+      : { status: "no-response", problems: [], error: lastAiFailure() ?? "no usable selection came back" },
+    "ai-diagnostics-news.json"
+  );
 
   if (!result?.selectedIds?.length) {
     console.log("Curation failed or returned nothing — falling back to the most recent deduped headlines.");

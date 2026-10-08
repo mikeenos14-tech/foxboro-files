@@ -98,7 +98,7 @@ from facts handed to it. Every draft passes narrow checks in code
 (`scripts/lib/aiChecks.ts`), each added because that exact error shipped (a road game
 placed in Foxborough, an invented first name, a wrong month). A draft that fails twice
 isn't published, every attempt is logged to `data/generated/ai-diagnostics*.json`, and
-each AI block has a "Flag it" link. Everything else, including recap bullets and the
+each AI block has a "Flag it" link. The daily health check reads that log, so an expired API key — which otherwise just leaves recaps without a Take — emails the owner like any other failure. Everything else, including recap bullets and the
 injury report, is computed in code.
 
 ---

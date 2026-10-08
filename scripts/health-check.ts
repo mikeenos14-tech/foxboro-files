@@ -6,6 +6,8 @@
 //   - stale sources or finished games without a recap (check-freshness.ts)
 //   - a stats or headlines job whose most recent run failed
 //   - the live site serving older data than the repo has (a failed deploy)
+//   - AI writing failing — an expired API key, or drafts rejected twice
+//     (aiHealth.ts); these fail softly, so nothing else would catch them
 //
 // One open issue at a time: opened when problems appear, commented on
 // while they persist, closed with a note once everything passes.
@@ -13,6 +15,7 @@
 import { readFile } from "node:fs/promises";
 import path from "node:path";
 import { checkFreshness } from "./check-freshness";
+import { aiProblems } from "./lib/aiHealth";
 
 const SITE = "https://foxboro-files.vercel.app";
 const ISSUE_TITLE = "Site health: problems found";
@@ -109,15 +112,32 @@ async function report(problems: string[]): Promise<void> {
   }
 }
 
+async function aiWriting(): Promise<string[]> {
+  const files = [];
+  for (const f of ["ai-diagnostics.json", "ai-diagnostics-news.json"]) {
+    try {
+      files.push(JSON.parse(await readFile(path.join(process.cwd(), "data", "generated", f), "utf-8")));
+    } catch {
+      // Not written yet: nothing to report.
+    }
+  }
+  return aiProblems(files);
+}
+
 async function main() {
-  const problems = [...(await checkFreshness(["stats", "headlines"])), ...(await failedRuns()), ...(await liveSiteBehind())];
+  const problems = [
+    ...(await checkFreshness(["stats", "headlines"])),
+    ...(await failedRuns()),
+    ...(await liveSiteBehind()),
+    ...(await aiWriting()),
+  ];
   await report(problems);
   if (problems.length > 0) {
     console.error("✖ Health check found problems:");
     for (const p of problems) console.error(`   - ${p}`);
     process.exit(1);
   }
-  console.log("✓ Site is healthy: sources fresh, recent runs green, live site current.");
+  console.log("✓ Site is healthy: sources fresh, recent runs green, live site current, AI writing working.");
 }
 
 main().catch((err) => {
