@@ -1,7 +1,34 @@
 [
   {
+    "id": "50134846",
+    "publishedAt": "2026-10-08T20:10:45Z",
+    "type": "Analysis",
+    "headline": "Why Stephen A. trusts the Patriots more than the Raiders",
+    "summary": "Why Stephen A. trusts the Patriots more than the Raiders",
+    "sourceUrl": "https://www.espn.com/video/clip/_/id/50134846/why-stephen-trusts-patriots-more-raiders",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "ca4cb992-fbcf-4118-a59e-4817f713c643",
+    "publishedAt": "2026-10-08T20:00:00.000Z",
+    "type": "Analysis",
+    "headline": "Kraft Sports + Entertainment Unveils New JetBlue Loft at Gillette Stadium",
+    "summary": "15,000 square feet of premium hospitality space will become the new home of the Patriots Tailgate Party presented by Bud Light and a year-round private event destination.",
+    "sourceUrl": "https://www.patriots.com/news/kraft-sports-entertainment-unveils-new-jetblue-loft-at-gillette-stadium",
+    "sourceName": "Patriots.com"
+  },
+  {
+    "id": "f1918e09-cbcc-4f66-871a-07192bb31a5b",
+    "publishedAt": "2026-10-08T20:00:00.000Z",
+    "type": "Transaction",
+    "headline": "Patriots Sign S Mike Brown to the 53-Man Roster; Sign LB Jose Ramirez to the Practice Squad",
+    "summary": "The Patriots announced that they have signed S Mike Brown to the 53-man roster from the practice squad and LB Jose Ramirez to the practice squad.",
+    "sourceUrl": "https://www.patriots.com/news/patriots-sign-s-mike-brown-to-the-53-man-roster-sign-lb-jose-brown-to-the-practice-squad",
+    "sourceName": "Patriots.com"
+  },
+  {
     "id": "50120618",
-    "publishedAt": "2026-10-08T16:09:05Z",
+    "publishedAt": "2026-10-08T19:33:15Z",
     "type": "Analysis",
     "headline": "NFL Week 5 uniforms: Packers debut Rivalries look, Patriots wearing throwbacks",
     "summary": "Here's a look at what each NFL team is wearing in Week 5, led by the Green Bay Packers debuting their Rivalries look.",
@@ -42,24 +69,6 @@
     "headline": "Week 5 Injury Report: Patriots vs. Raiders",
     "summary": "The New England Patriots and the Las Vegas Raiders announce the following player injuries and practice participation ahead of their Week 5 game.",
     "sourceUrl": "https://www.patriots.com/news/week-5-injury-report-patriots-vs-raiders",
-    "sourceName": "Patriots.com"
-  },
-  {
-    "id": "f5a12db7-7c1c-41c9-8a69-7026fb0eda9e",
-    "publishedAt": "2026-10-07T19:33:07.000Z",
-    "type": "Beat Report",
-    "headline": "Transcript: Head Coach Mike Vrabel Press Conference 10/7",
-    "summary": "Read the full transcript from Head Coach Mike Vrabel's press conference on Wednesday, October 7, 2026.",
-    "sourceUrl": "https://www.patriots.com/news/transcript-head-coach-mike-vrabel-press-conference-10-7",
-    "sourceName": "Patriots.com"
-  },
-  {
-    "id": "88d858cb-1a5a-4861-8dd8-861b9a8f1c76",
-    "publishedAt": "2026-10-07T16:00:00.000Z",
-    "type": "Analysis",
-    "headline": "Drake Maye Named AFC Offensive Player of the Week",
-    "summary": "The Patriots announced that QB Drake Maye has been named AFC Offensive Player of the Week for his 3-touchdown performance in the Patriots 29-26 victory over the Buffalo Bills last Sunday.",
-    "sourceUrl": "https://www.patriots.com/news/drake-maye-named-afc-offensive-player-of-the-week-x6477",
     "sourceName": "Patriots.com"
   },
   {

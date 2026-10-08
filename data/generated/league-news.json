@@ -1,5 +1,23 @@
 [
   {
+    "id": "50135033",
+    "publishedAt": "2026-10-08T20:58:52Z",
+    "type": "Analysis",
+    "headline": "Sean Payton says he's taking over playcalling for Broncos' offense",
+    "summary": "Broncos coach Sean Payton said he is taking over the offensive playcalling beginning Sunday against the Chargers as the team looks to kick-start a sputtering offense.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50135033/sean-payton-says-taking-playcalling-broncos-offense",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=422361",
+    "publishedAt": "2026-10-08T20:29:42.000Z",
+    "type": "Injury",
+    "headline": "49ers FB Kyle Juszczyk To Miss Time",
+    "summary": "49ers fullback Kyle Juszczyk is expected to miss multiple weeks with a knee injury suffered in San Francisco’s Week 4 win over the Broncos, according to ESPN’s Adam Schefter. An MRI revealed that Juszczyk suffered a bone bruise and a sprain that will sidelined him for two to three games. The 49ers have a Week […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/49ers-fb-kyle-juszczyk-to-miss-time",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
     "id": "50133939",
     "publishedAt": "2026-10-08T17:17:35Z",
     "type": "Injury",
@@ -9,48 +27,30 @@
     "sourceName": "ESPN"
   },
   {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=422353",
-    "publishedAt": "2026-10-08T18:00:41.000Z",
+    "id": "50134576",
+    "publishedAt": "2026-10-08T19:11:28Z",
     "type": "Analysis",
-    "headline": "Broncos HC Sean Payton To Increase Role In Offensive Play-Calling",
-    "summary": "Sean Payton ceded play-calling duties to offensive coordinator Davis Webb this offseason. After an early show of faith in the latter, a change in the approach on that side of the ball will now be taking place. Mike Florio of Pro Football Talk reported earlier today that Payton will reclaim his role as offensive play-calling moving forward. Since […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/broncos-hc-sean-payton-to-increase-role-in-offensive-play-calling",
-    "sourceName": "Pro Football Rumors"
+    "headline": "With confident Penix at QB, Falcons will look to continue turnaround against Ravens",
+    "summary": "— The Atlanta Falcons will be looking to build upon their dramatic turnaround since Michael Penix Jr. took over at quarterback when they play the Baltimore Ravens on Sunday night.",
+    "sourceUrl": "http://www.espn.com/nfl/preview?gameId=401872993",
+    "sourceName": "ESPN"
   },
   {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=422343",
-    "publishedAt": "2026-10-08T14:57:43.000Z",
-    "type": "Transaction",
-    "headline": "Cowboys To Activate Tyler Smith From IR",
-    "summary": "Tyler Smith returned to practice earlier this week. The Cowboys’ best offensive lineman will now be eligible to play as early as tonight. Smith is being activated from injured reserve, NFL Network’s Ian Rapoport reports. He had his practice window opened on Monday, giving the Cowboys 21 days to bring him back onto the active roster. […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/cowboys-to-activate-tyler-smith-from-ir",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/lamar-jackson-remains-out-of-ravens-practice-thursday",
-    "publishedAt": "2026-10-08T17:22:15.000Z",
-    "type": "Beat Report",
-    "headline": "Lamar Jackson remains out of Ravens practice Thursday",
-    "summary": "Ravens head coach Jesse Minter said on Wednesday that \"there's a lot of time between now and Sunday\" when asked about quarterback Lamar Jackson's chances of playing against the Falcons on Sunday night.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/lamar-jackson-remains-out-of-ravens-practice-thursday",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/eagles-decision-to-trade-cam-jurgens-raises-questions-about-their-2026-plans",
-    "publishedAt": "2026-10-08T14:21:21.000Z",
-    "type": "Transaction",
-    "headline": "Eagles' decision to trade Cam Jurgens raises questions about their 2026 plans",
-    "summary": "On Tuesday, Eagles right tackle Lane Johnson retired.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/eagles-decision-to-trade-cam-jurgens-raises-questions-about-their-2026-plans",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "50118698",
-    "publishedAt": "2026-10-08T14:37:36Z",
+    "id": "50134466",
+    "publishedAt": "2026-10-08T18:54:29Z",
     "type": "Analysis",
-    "headline": "2026 NFL quarter-season awards: MVP picks, top rookies, OPOY, DPOY, best coaches",
-    "summary": "Brock Purdy for MVP? Klint Kubiak taking Coach of the Year? Will Anderson Jr. getting DPOY honors? We ranked the top candidates to win eight NFL awards through Week 4.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50118698/2026-early-awards-ranking-mvp-rookies-coaches-barnwell",
+    "headline": "Deshaun Watson and surprising Browns are on a 3-game winning streak and set to face struggling Jets",
+    "summary": "— Deshaun Watson is making plays in the clutch, the Cleveland Browns are winning and they're doing it...",
+    "sourceUrl": "http://www.espn.com/nfl/preview?gameId=401872983",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50134465",
+    "publishedAt": "2026-10-08T18:54:28Z",
+    "type": "Analysis",
+    "headline": "Undermanned Eagles head overseas to face the Jaguars, winners of 11 of 12 in the regular season",
+    "summary": "— The Philadelphia Eagles look as if they will be undermanned overseas.",
+    "sourceUrl": "http://www.espn.com/nfl/preview?gameId=401872981",
     "sourceName": "ESPN"
   }
 ]
