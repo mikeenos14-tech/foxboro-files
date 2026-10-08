@@ -1,5 +1,23 @@
 [
   {
+    "id": "50120618",
+    "publishedAt": "2026-10-08T13:07:04Z",
+    "type": "Analysis",
+    "headline": "NFL Week 5 uniforms: Packers debut Rivalries look, Patriots wearing throwbacks",
+    "summary": "Here's a look at what each NFL team is wearing in Week 5, led by the Green Bay Packers debuting their Rivalries look.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50120618/nfl-week-5-uniforms",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "7ab07d86-0cdb-498a-ba1e-80b6a41761e2",
+    "publishedAt": "2026-10-08T12:54:00.000Z",
+    "type": "Analysis",
+    "headline": "Patriots Gameplan: How can the Patriots build on the momentum in Week 5 matchup vs. the Raiders?",
+    "summary": "Previewing the Patriots matchup against the Raiders at Gillette Stadium on",
+    "sourceUrl": "https://www.patriots.com/news/patriots-gameplan-how-can-the-patriots-build-on-the-momentum-in-week-5-matchup-vs-the-raiders",
+    "sourceName": "Patriots.com"
+  },
+  {
     "id": "50127922",
     "publishedAt": "2026-10-07T21:57:40Z",
     "type": "Injury",
@@ -45,15 +63,6 @@
     "sourceName": "Patriots.com"
   },
   {
-    "id": "7ab07d86-0cdb-498a-ba1e-80b6a41761e2",
-    "publishedAt": "2026-10-07T14:42:26.000Z",
-    "type": "Analysis",
-    "headline": "Patriots Gameplan: How can the Patriots build on the momentum in Week 5 matchup vs. the Raiders?",
-    "summary": "Previewing the Patriots matchup against the Raiders at Gillette Stadium on",
-    "sourceUrl": "https://www.patriots.com/news/patriots-gameplan-how-can-the-patriots-build-on-the-momentum-in-week-5-matchup-vs-the-raiders",
-    "sourceName": "Patriots.com"
-  },
-  {
     "id": "50112803",
     "publishedAt": "2026-10-06T10:00:04Z",
     "type": "Analysis",
@@ -78,15 +87,6 @@
     "headline": "Judging overreactions to NFL Week 4: Patriots, Rams are back? Eagles in trouble?",
     "summary": "Are the Patriots on track for another AFC East title? Are the Chiefs back to being the class of the NFL? We're judging Week 4 overreactions.",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/50100701/week-4-overreactions-2026-graziano-patriots-rams-eagles",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50104577",
-    "publishedAt": "2026-10-04T23:24:22Z",
-    "type": "Analysis",
-    "headline": "Drake Maye rebounds as Patriots hand Bills first defeat",
-    "summary": "Drake Maye snapped out of his early-season slide with a clutch performance as the New England Patriots upset the Buffalo Bills 29-26 at Highmark Stadium in a result that coach Mike Vrabel highlighted as critical for the defending AFC champions.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50104577/drake-maye-rebounds-patriots-hand-bills-first-defeat",
     "sourceName": "ESPN"
   }
 ]
