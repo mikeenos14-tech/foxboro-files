@@ -1,20 +1,20 @@
 [
   {
-    "id": "50136406",
-    "publishedAt": "2026-10-09T05:23:16Z",
+    "id": "50138218",
+    "publishedAt": "2026-10-09T06:55:56Z",
     "type": "Analysis",
-    "headline": "Buccaneers explode in third quarter against Cowboys to get first win",
-    "summary": "Undrafted rookie Jalon Daniels and Tampa Bay held off Dallas on \"Thursday Night Football.\"",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50136406/buccaneers-explode-first-win-cowboys-tnf",
+    "headline": "Undrafted rookie QB Daniels savors Thursday night win vs. Cowboys",
+    "summary": "Jalon Daniels became the first undrafted rookie starting QB in the common draft era to win a game for a team that entered winless, leading the Bucs to a 24-16 win over the Cowboys.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50138218/undrafted-rookie-qb-daniels-savors-thursday-night-win-vs-cowboys",
     "sourceName": "ESPN"
   },
   {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=422393",
-    "publishedAt": "2026-10-09T03:44:24.000Z",
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=422353",
+    "publishedAt": "2026-10-09T04:00:41.000Z",
     "type": "Analysis",
-    "headline": "Colts Interested In Marvin Harrison Jr.?",
-    "summary": "One of the greatest players in Colts history, Marvin Harrison submitted a dominant career en route to All-Decade honors for the 2000s and the Hall of Fame. The longtime Peyton Manning target played all 13 seasons of his career in Indianapolis. The all-time great’s son debuted in the NFL 28 years later but has not […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/colts-interested-in-marvin-harrison-jr",
+    "headline": "Broncos HC Sean Payton Taking Over Play-Calling Duties",
+    "summary": "11:00pm: Initial reports on Thursday afternoon from NFL Network’s Ian Rapoport, Bleacher Report’s James Palmer, and ESPN’s Jeff Legwold all indicated that Webb would retain play-calling duties with Payton more involved in the process. However, the 62-year-old head coach confirmed that he would be taking the reins moving forward. “We’ll make a change offensively,” Payton […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/broncos-hc-sean-payton-to-increase-role-in-offensive-play-calling",
     "sourceName": "Pro Football Rumors"
   },
   {
@@ -27,13 +27,22 @@
     "sourceName": "Pro Football Talk"
   },
   {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=422353",
-    "publishedAt": "2026-10-09T04:00:41.000Z",
-    "type": "Analysis",
-    "headline": "Broncos HC Sean Payton Taking Over Play-Calling Duties",
-    "summary": "11:00pm: Initial reports on Thursday afternoon from NFL Network’s Ian Rapoport, Bleacher Report’s James Palmer, and ESPN’s Jeff Legwold all indicated that Webb would retain play-calling duties with Payton more involved in the process. However, the 62-year-old head coach confirmed that he would be taking the reins moving forward. “We’ll make a change offensively,” Payton […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/broncos-hc-sean-payton-to-increase-role-in-offensive-play-calling",
-    "sourceName": "Pro Football Rumors"
+    "id": "50135957",
+    "publishedAt": "2026-10-09T05:54:52Z",
+    "type": "Injury",
+    "headline": "Sick Joey Porter Jr. sits out Cowboys' 'TNF' loss to Bucs",
+    "summary": "Joey Porter Jr. was ruled out of Thursday night's game against the Tampa Bay Buccaneers because of an illness.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50135957/cowboys-say-sick-joey-porter-jr-face-bucs-tnf",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50136092",
+    "publishedAt": "2026-10-08T23:42:28Z",
+    "type": "Injury",
+    "headline": "Bengals look to end 2-game skid against Dolphins with Ja'Marr Chase and Tee Higgins status unclear",
+    "summary": "— Joe Burrow has thrown a lot of passes to Ja'Marr Chase and Tee Higgins, but the Cincinnati quarterback may need to find another top option when the Bengals visit the Dolphins on Sunday with both of his top receivers dealing with injuries.",
+    "sourceUrl": "http://www.espn.com/nfl/preview?gameId=401872982",
+    "sourceName": "ESPN"
   },
   {
     "id": "50135974",
@@ -42,15 +51,6 @@
     "headline": "Bears have opportunity to show again they've gained the upper hand in their rivalry with Packers",
     "summary": "— After beating the Green Bay Packers for the NFC North title and knocking them out of the playoffs last season, the Chicago Bears have one more opportunity to show definitively that a new chapter has started in the NFL’s most-played rivalry.",
     "sourceUrl": "http://www.espn.com/nfl/preview?gameId=401872990",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50135932",
-    "publishedAt": "2026-10-08T22:57:28Z",
-    "type": "Analysis",
-    "headline": "Broncos seek first AFC West win as Chargers try to avoid an 0-5 start",
-    "summary": "— Something's got to give when the Denver Broncos and Los Angeles Chargers...",
-    "sourceUrl": "http://www.espn.com/nfl/preview?gameId=401872989",
     "sourceName": "ESPN"
   }
 ]
