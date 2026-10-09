@@ -1,66 +1,6 @@
 [
   {
-    "playerId": "4362999",
-    "playerName": "Spencer Burford",
-    "position": "G",
-    "week": 5,
-    "injury": "Knee",
-    "gameStatus": "Questionable",
-    "lastUpdated": "2026-10-08T21:15:03.149Z",
-    "practiceStatus": "Limited"
-  },
-  {
-    "playerId": "4890973",
-    "playerName": "Ashton Jeanty",
-    "position": "RB",
-    "week": 5,
-    "injury": "Ankle",
-    "gameStatus": "Questionable",
-    "lastUpdated": "2026-10-08T21:15:03.149Z",
-    "practiceStatus": "Limited"
-  },
-  {
-    "playerId": "4382466",
-    "playerName": "Jalen Nailor",
-    "position": "WR",
-    "week": 5,
-    "injury": "Concussion",
-    "gameStatus": "Questionable",
-    "lastUpdated": "2026-10-08T21:15:03.149Z",
-    "practiceStatus": "Did Not Participate"
-  },
-  {
-    "playerId": "4241983",
-    "playerName": "Cody White",
-    "position": "WR",
-    "week": 5,
-    "injury": "Ankle",
-    "gameStatus": "Questionable",
-    "lastUpdated": "2026-10-08T21:15:03.149Z",
-    "practiceStatus": "Limited"
-  },
-  {
-    "playerId": "patriots-trey-zuhn",
-    "playerName": "Trey Zuhn",
-    "position": "G",
-    "week": 5,
-    "injury": "Knee",
-    "practiceStatus": "Limited",
-    "gameStatus": null,
-    "lastUpdated": "2026-10-08T21:15:03.149Z"
-  },
-  {
-    "playerId": "patriots-brock-bowers",
-    "playerName": "Brock Bowers",
-    "position": "TE",
-    "week": 5,
-    "injury": "Knee",
-    "practiceStatus": "Full",
-    "gameStatus": null,
-    "lastUpdated": "2026-10-08T21:15:03.149Z"
-  },
-  {
-    "playerId": "patriots-foley-fatukasi",
+    "playerId": "00-0034275",
     "playerName": "Foley Fatukasi",
     "position": "DT",
     "week": 5,
@@ -70,7 +10,37 @@
     "lastUpdated": "2026-10-08T21:15:03.149Z"
   },
   {
-    "playerId": "patriots-segun-olubi",
+    "playerId": "00-0035891",
+    "playerName": "Cody White",
+    "position": "WR",
+    "week": 5,
+    "injury": "Ankle",
+    "practiceStatus": "Limited",
+    "gameStatus": null,
+    "lastUpdated": "2026-10-08T21:15:03.149Z"
+  },
+  {
+    "playerId": "00-0037093",
+    "playerName": "Dareke Young",
+    "position": "WR",
+    "week": 5,
+    "injury": "Shoulder",
+    "practiceStatus": "Full",
+    "gameStatus": null,
+    "lastUpdated": "2026-10-08T21:15:03.149Z"
+  },
+  {
+    "playerId": "00-0037291",
+    "playerName": "Jalen Nailor",
+    "position": "WR",
+    "week": 5,
+    "injury": "Concussion",
+    "practiceStatus": "Did Not Participate",
+    "gameStatus": null,
+    "lastUpdated": "2026-10-08T21:15:03.149Z"
+  },
+  {
+    "playerId": "00-0037527",
     "playerName": "Segun Olubi",
     "position": "LB",
     "week": 5,
@@ -80,8 +50,48 @@
     "lastUpdated": "2026-10-08T21:15:03.149Z"
   },
   {
-    "playerId": "patriots-donte-thornton",
-    "playerName": "Dont'e Thornton*",
+    "playerId": "00-0037829",
+    "playerName": "Spencer Burford",
+    "position": "G",
+    "week": 5,
+    "injury": "Knee",
+    "practiceStatus": "Limited",
+    "gameStatus": null,
+    "lastUpdated": "2026-10-08T21:15:03.149Z"
+  },
+  {
+    "playerId": "00-0039338",
+    "playerName": "Brock Bowers",
+    "position": "TE",
+    "week": 5,
+    "injury": "Knee",
+    "practiceStatus": "Full",
+    "gameStatus": null,
+    "lastUpdated": "2026-10-08T21:15:03.149Z"
+  },
+  {
+    "playerId": "00-0039735",
+    "playerName": "Jackson Powers-Johnson",
+    "position": "G",
+    "week": 5,
+    "injury": "Groin",
+    "practiceStatus": "Full",
+    "gameStatus": null,
+    "lastUpdated": "2026-10-09T06:11:13.779Z"
+  },
+  {
+    "playerId": "00-0040122",
+    "playerName": "Ashton Jeanty",
+    "position": "RB",
+    "week": 5,
+    "injury": "Ankle",
+    "practiceStatus": "Limited",
+    "gameStatus": null,
+    "lastUpdated": "2026-10-08T21:15:03.149Z"
+  },
+  {
+    "playerId": "00-0040581",
+    "playerName": "Dont'e Thornton Jr.",
     "position": "WR",
     "week": 5,
     "injury": "Hamstring",
@@ -90,12 +100,12 @@
     "lastUpdated": "2026-10-08T21:15:03.149Z"
   },
   {
-    "playerId": "patriots-dareke-young",
-    "playerName": "Dareke Young",
-    "position": "WR",
+    "playerId": "00-0040871",
+    "playerName": "Trey Zuhn III",
+    "position": "C",
     "week": 5,
-    "injury": "Shoulder",
-    "practiceStatus": "Full",
+    "injury": "Knee",
+    "practiceStatus": "Limited",
     "gameStatus": null,
     "lastUpdated": "2026-10-08T21:15:03.149Z"
   }
