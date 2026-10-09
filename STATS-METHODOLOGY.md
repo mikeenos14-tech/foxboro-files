@@ -30,8 +30,7 @@ Used for QB Deep Dive and Position Grades. These get the same leave-one-out oppo
 | What you see | Tier | Real source |
 |---|---|---|
 | Record, division rank, streak | — | Real game results (`games.csv`) |
-| Top card (next game / result): kickoff time, TV network, matchup to watch | — | Which card shows is decided in the browser by the time (`lib/calc/gamePhase.ts`): result for 36 hours after kickoff, game day by the Eastern calendar day. The matchup to watch is the Next Game page's widest unit edge, omitted when it's even. |
-| (cont.) kickoff and network | — | Kickoff from nflverse's schedule; network from ESPN's scoreboard, which covers the current week only, so it's left out rather than carried forward when unknown |
+| Top card (next game / result): kickoff time, TV network, matchup to watch | — | Which card shows is decided in the browser by the time (`lib/calc/gamePhase.ts`): result for 36 hours after kickoff, game day by the Eastern calendar day. The matchup to watch is the Next Game page's widest unit edge, omitted when it's even. Kickoff from nflverse's schedule; network from ESPN's scoreboard, which covers the current week only, so it's left out rather than carried forward when unknown. |
 | Playoff odds | Tier 1 | Logistic curve on projected win total (see "The honest models" below). Says how much still leans on 2025 until game 4 |
 | Team Strength — Point Differential | — | Real, unweighted box-score total |
 | Team Strength — Offensive/Defensive EPA/play | **Tier 2** | Opponent-adjusted, pure 2026, **has the "last N weeks" filter** |
