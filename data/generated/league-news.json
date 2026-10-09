@@ -1,11 +1,29 @@
 [
   {
     "id": "50135033",
-    "publishedAt": "2026-10-08T20:58:52Z",
+    "publishedAt": "2026-10-08T23:08:17Z",
     "type": "Analysis",
     "headline": "Sean Payton says he's taking over playcalling for Broncos' offense",
     "summary": "Broncos coach Sean Payton said he is taking over the offensive playcalling beginning Sunday against the Chargers as the team looks to kick-start a sputtering offense.",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/50135033/sean-payton-says-taking-playcalling-broncos-offense",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50135957",
+    "publishedAt": "2026-10-09T00:08:21Z",
+    "type": "Injury",
+    "headline": "Cowboys say sick Joey Porter Jr. won't face Bucs on 'TNF'",
+    "summary": "Joey Porter Jr. was ruled out of Thursday night's game against the Tampa Bay Buccaneers because of an illness.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50135957/cowboys-say-sick-joey-porter-jr-face-bucs-tnf",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50136092",
+    "publishedAt": "2026-10-08T23:42:28Z",
+    "type": "Injury",
+    "headline": "Bengals look to end 2-game skid against Dolphins with Ja'Marr Chase and Tee Higgins status unclear",
+    "summary": "— Joe Burrow has thrown a lot of passes to Ja'Marr Chase and Tee Higgins, but the Cincinnati quarterback may need to find another top option when the Bengals visit the Dolphins on Sunday with both of his top receivers dealing with injuries.",
+    "sourceUrl": "http://www.espn.com/nfl/preview?gameId=401872982",
     "sourceName": "ESPN"
   },
   {
@@ -18,39 +36,21 @@
     "sourceName": "Pro Football Rumors"
   },
   {
-    "id": "50133939",
-    "publishedAt": "2026-10-08T17:17:35Z",
+    "id": "50135536",
+    "publishedAt": "2026-10-08T22:00:28Z",
     "type": "Injury",
-    "headline": "Steelers receiver Michael Pittman aggravates foot, out weeks",
-    "summary": "Steelers receiver Michael Pittman Jr. aggravated a foot injury and is out multiple weeks.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50133939/steelers-receiver-michael-pittman-aggravates-foot-weeks",
+    "headline": "Jayden Daniels is set to return but Commanders have other key injuries ahead of matchup with Giants",
+    "summary": "— As Commanders quarterback Jayden Daniels prepares for his return to the lineup, Washington could be without a handful of other key players for...",
+    "sourceUrl": "http://www.espn.com/nfl/preview?gameId=401872988",
     "sourceName": "ESPN"
   },
   {
-    "id": "50134576",
-    "publishedAt": "2026-10-08T19:11:28Z",
+    "id": "50135974",
+    "publishedAt": "2026-10-08T23:03:45Z",
     "type": "Analysis",
-    "headline": "With confident Penix at QB, Falcons will look to continue turnaround against Ravens",
-    "summary": "— The Atlanta Falcons will be looking to build upon their dramatic turnaround since Michael Penix Jr. took over at quarterback when they play the Baltimore Ravens on Sunday night.",
-    "sourceUrl": "http://www.espn.com/nfl/preview?gameId=401872993",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50134466",
-    "publishedAt": "2026-10-08T18:54:29Z",
-    "type": "Analysis",
-    "headline": "Deshaun Watson and surprising Browns are on a 3-game winning streak and set to face struggling Jets",
-    "summary": "— Deshaun Watson is making plays in the clutch, the Cleveland Browns are winning and they're doing it...",
-    "sourceUrl": "http://www.espn.com/nfl/preview?gameId=401872983",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50134465",
-    "publishedAt": "2026-10-08T18:54:28Z",
-    "type": "Analysis",
-    "headline": "Undermanned Eagles head overseas to face the Jaguars, winners of 11 of 12 in the regular season",
-    "summary": "— The Philadelphia Eagles look as if they will be undermanned overseas.",
-    "sourceUrl": "http://www.espn.com/nfl/preview?gameId=401872981",
+    "headline": "Bears have opportunity to show again they've gained the upper hand in their rivalry with Packers",
+    "summary": "— After beating the Green Bay Packers for the NFC North title and knocking them out of the playoffs last season, the Chicago Bears have one more opportunity to show definitively that a new chapter has started in the NFL’s most-played rivalry.",
+    "sourceUrl": "http://www.espn.com/nfl/preview?gameId=401872990",
     "sourceName": "ESPN"
   }
 ]

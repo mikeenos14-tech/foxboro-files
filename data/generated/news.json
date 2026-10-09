@@ -1,5 +1,41 @@
 [
   {
+    "id": "50135848",
+    "publishedAt": "2026-10-08T22:30:28Z",
+    "type": "Injury",
+    "headline": "Kirk Cousins and Raiders look to build on fast start against Patriots defense dealing with injuries",
+    "summary": "— Kirk Cousins' torrid start to the season has been one of the NFL's biggest surprises.",
+    "sourceUrl": "http://www.espn.com/nfl/preview?gameId=401872986",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50135803",
+    "publishedAt": "2026-10-08T22:27:01Z",
+    "type": "Injury",
+    "headline": "Patriots get mixed injury news",
+    "summary": "Mike Reiss reports Rhamondre Stevenson returned to practice while Christian Gonzalez and Carlton Davis remain out.",
+    "sourceUrl": "https://www.espn.com/video/clip/_/id/50135803/patriots-get-mixed-injury-news",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50120618",
+    "publishedAt": "2026-10-08T21:40:55Z",
+    "type": "Analysis",
+    "headline": "NFL Week 5 uniforms: Packers debut Rivalries look, Patriots wearing throwbacks",
+    "summary": "Here's a look at what each NFL team is wearing in Week 5, led by the Green Bay Packers debuting their Rivalries look.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50120618/nfl-week-5-uniforms",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "88f4b34c-ba44-42b4-9307-197f08af7723",
+    "publishedAt": "2026-10-08T21:15:00.000Z",
+    "type": "Injury",
+    "headline": "Week 5 Injury Report: Patriots vs. Raiders",
+    "summary": "The New England Patriots and the Las Vegas Raiders announce the following player injuries and practice participation ahead of their Week 5 game.",
+    "sourceUrl": "https://www.patriots.com/news/week-5-injury-report-patriots-vs-raiders",
+    "sourceName": "Patriots.com"
+  },
+  {
     "id": "50134846",
     "publishedAt": "2026-10-08T20:10:45Z",
     "type": "Analysis",
@@ -25,15 +61,6 @@
     "summary": "The Patriots announced that they have signed S Mike Brown to the 53-man roster from the practice squad and LB Jose Ramirez to the practice squad.",
     "sourceUrl": "https://www.patriots.com/news/patriots-sign-s-mike-brown-to-the-53-man-roster-sign-lb-jose-brown-to-the-practice-squad",
     "sourceName": "Patriots.com"
-  },
-  {
-    "id": "50120618",
-    "publishedAt": "2026-10-08T19:33:15Z",
-    "type": "Analysis",
-    "headline": "NFL Week 5 uniforms: Packers debut Rivalries look, Patriots wearing throwbacks",
-    "summary": "Here's a look at what each NFL team is wearing in Week 5, led by the Green Bay Packers debuting their Rivalries look.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50120618/nfl-week-5-uniforms",
-    "sourceName": "ESPN"
   },
   {
     "id": "5cb9ff37-d6e6-467a-a84e-be5dc4843f96",
@@ -63,15 +90,6 @@
     "sourceName": "ESPN"
   },
   {
-    "id": "88f4b34c-ba44-42b4-9307-197f08af7723",
-    "publishedAt": "2026-10-07T21:38:26.000Z",
-    "type": "Injury",
-    "headline": "Week 5 Injury Report: Patriots vs. Raiders",
-    "summary": "The New England Patriots and the Las Vegas Raiders announce the following player injuries and practice participation ahead of their Week 5 game.",
-    "sourceUrl": "https://www.patriots.com/news/week-5-injury-report-patriots-vs-raiders",
-    "sourceName": "Patriots.com"
-  },
-  {
     "id": "50112803",
     "publishedAt": "2026-10-06T10:00:04Z",
     "type": "Analysis",
@@ -87,15 +105,6 @@
     "headline": "How the Rams, Cowboys, Patriots pulled Week 4 comebacks to save their seasons",
     "summary": "The Rams, Cowboys and Pats were all looking at 1-3 ... then everything changed. How did a trio of stunning rallies play out -- and are these teams all back on track at 2-2?",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/50100800/week-4-rams-cowboys-patriots-comeback-wins-save-season",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50100701",
-    "publishedAt": "2026-10-05T00:59:29Z",
-    "type": "Analysis",
-    "headline": "Judging overreactions to NFL Week 4: Patriots, Rams are back? Eagles in trouble?",
-    "summary": "Are the Patriots on track for another AFC East title? Are the Chiefs back to being the class of the NFL? We're judging Week 4 overreactions.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50100701/week-4-overreactions-2026-graziano-patriots-rams-eagles",
     "sourceName": "ESPN"
   }
 ]

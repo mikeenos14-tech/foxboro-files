@@ -1,12 +1,19 @@
 {
   "week": 5,
-  "asOf": "2026-10-07T21:38:26.249Z",
+  "asOf": "2026-10-08T21:15:03.149Z",
   "players": [
     {
       "team": "NE",
       "playerName": "Carlton Davis III",
       "position": "CB",
       "injury": "Neck",
+      "practiceStatus": "Did Not Participate"
+    },
+    {
+      "team": "NE",
+      "playerName": "Reggie Gilliam",
+      "position": "FB",
+      "injury": "Ankle/Knee",
       "practiceStatus": "Did Not Participate"
     },
     {
@@ -49,13 +56,6 @@
       "playerName": "Christian Elliss",
       "position": "LB",
       "injury": "Chest",
-      "practiceStatus": "Limited"
-    },
-    {
-      "team": "NE",
-      "playerName": "Reggie Gilliam",
-      "position": "FB",
-      "injury": "Ankle/Knee",
       "practiceStatus": "Limited"
     },
     {
@@ -116,13 +116,6 @@
     },
     {
       "team": "LV",
-      "playerName": "Brock Bowers",
-      "position": "TE",
-      "injury": "Knee",
-      "practiceStatus": "Limited"
-    },
-    {
-      "team": "LV",
       "playerName": "Spencer Burford",
       "position": "G",
       "injury": "Knee",
@@ -130,9 +123,9 @@
     },
     {
       "team": "LV",
-      "playerName": "Foley Fatukasi",
-      "position": "DT",
-      "injury": "Shoulder",
+      "playerName": "Ashton Jeanty",
+      "position": "RB",
+      "injury": "Ankle",
       "practiceStatus": "Limited"
     },
     {
@@ -151,9 +144,16 @@
     },
     {
       "team": "LV",
-      "playerName": "Ashton Jeanty",
-      "position": "RB",
-      "injury": "Ankle",
+      "playerName": "Brock Bowers",
+      "position": "TE",
+      "injury": "Knee",
+      "practiceStatus": "Full"
+    },
+    {
+      "team": "LV",
+      "playerName": "Foley Fatukasi",
+      "position": "DT",
+      "injury": "Shoulder",
       "practiceStatus": "Full"
     },
     {
@@ -168,6 +168,13 @@
       "playerName": "Dont'e Thornton*",
       "position": "WR",
       "injury": "Hamstring",
+      "practiceStatus": "Full"
+    },
+    {
+      "team": "LV",
+      "playerName": "Dareke Young",
+      "position": "WR",
+      "injury": "Shoulder",
       "practiceStatus": "Full"
     }
   ]

@@ -1,22 +1,22 @@
 [
   {
-    "playerId": "4432665",
-    "playerName": "Brock Bowers",
-    "position": "TE",
-    "week": 5,
-    "injury": "Knee",
-    "gameStatus": "Questionable",
-    "lastUpdated": "2026-10-07T21:38:26.249Z",
-    "practiceStatus": "Limited"
-  },
-  {
     "playerId": "4362999",
     "playerName": "Spencer Burford",
     "position": "G",
     "week": 5,
     "injury": "Knee",
     "gameStatus": "Questionable",
-    "lastUpdated": "2026-10-07T21:38:26.249Z",
+    "lastUpdated": "2026-10-08T21:15:03.149Z",
+    "practiceStatus": "Limited"
+  },
+  {
+    "playerId": "4890973",
+    "playerName": "Ashton Jeanty",
+    "position": "RB",
+    "week": 5,
+    "injury": "Ankle",
+    "gameStatus": "Questionable",
+    "lastUpdated": "2026-10-08T21:15:03.149Z",
     "practiceStatus": "Limited"
   },
   {
@@ -26,17 +26,8 @@
     "week": 5,
     "injury": "Concussion",
     "gameStatus": "Questionable",
-    "lastUpdated": "2026-10-07T21:38:26.249Z",
+    "lastUpdated": "2026-10-08T21:15:03.149Z",
     "practiceStatus": "Did Not Participate"
-  },
-  {
-    "playerId": "4875295",
-    "playerName": "Jackson Powers-Johnson",
-    "position": "G",
-    "week": 5,
-    "injury": "Groin",
-    "gameStatus": "Questionable",
-    "lastUpdated": "2026-10-06T18:21Z"
   },
   {
     "playerId": "4241983",
@@ -45,27 +36,8 @@
     "week": 5,
     "injury": "Ankle",
     "gameStatus": "Questionable",
-    "lastUpdated": "2026-10-07T21:38:26.249Z",
+    "lastUpdated": "2026-10-08T21:15:03.149Z",
     "practiceStatus": "Limited"
-  },
-  {
-    "playerId": "3045172",
-    "playerName": "Folorunso Fatukasi",
-    "position": "DT",
-    "week": 5,
-    "injury": "Shoulder",
-    "gameStatus": "Questionable",
-    "lastUpdated": "2026-10-07T22:15Z"
-  },
-  {
-    "playerId": "patriots-foley-fatukasi",
-    "playerName": "Foley Fatukasi",
-    "position": "DT",
-    "week": 5,
-    "injury": "Shoulder",
-    "practiceStatus": "Limited",
-    "gameStatus": null,
-    "lastUpdated": "2026-10-07T21:38:26.249Z"
   },
   {
     "playerId": "patriots-trey-zuhn",
@@ -75,17 +47,27 @@
     "injury": "Knee",
     "practiceStatus": "Limited",
     "gameStatus": null,
-    "lastUpdated": "2026-10-07T21:38:26.249Z"
+    "lastUpdated": "2026-10-08T21:15:03.149Z"
   },
   {
-    "playerId": "patriots-ashton-jeanty",
-    "playerName": "Ashton Jeanty",
-    "position": "RB",
+    "playerId": "patriots-brock-bowers",
+    "playerName": "Brock Bowers",
+    "position": "TE",
     "week": 5,
-    "injury": "Ankle",
+    "injury": "Knee",
     "practiceStatus": "Full",
     "gameStatus": null,
-    "lastUpdated": "2026-10-07T21:38:26.249Z"
+    "lastUpdated": "2026-10-08T21:15:03.149Z"
+  },
+  {
+    "playerId": "patriots-foley-fatukasi",
+    "playerName": "Foley Fatukasi",
+    "position": "DT",
+    "week": 5,
+    "injury": "Shoulder",
+    "practiceStatus": "Full",
+    "gameStatus": null,
+    "lastUpdated": "2026-10-08T21:15:03.149Z"
   },
   {
     "playerId": "patriots-segun-olubi",
@@ -95,7 +77,7 @@
     "injury": "Wrist",
     "practiceStatus": "Full",
     "gameStatus": null,
-    "lastUpdated": "2026-10-07T21:38:26.249Z"
+    "lastUpdated": "2026-10-08T21:15:03.149Z"
   },
   {
     "playerId": "patriots-donte-thornton",
@@ -105,6 +87,16 @@
     "injury": "Hamstring",
     "practiceStatus": "Full",
     "gameStatus": null,
-    "lastUpdated": "2026-10-07T21:38:26.249Z"
+    "lastUpdated": "2026-10-08T21:15:03.149Z"
+  },
+  {
+    "playerId": "patriots-dareke-young",
+    "playerName": "Dareke Young",
+    "position": "WR",
+    "week": 5,
+    "injury": "Shoulder",
+    "practiceStatus": "Full",
+    "gameStatus": null,
+    "lastUpdated": "2026-10-08T21:15:03.149Z"
   }
 ]
