@@ -1,12 +1,30 @@
 [
   {
+    "id": "2305ec62-785e-4a40-b190-d586800eeddb",
+    "publishedAt": "2026-10-09T18:40:51.000Z",
+    "type": "Injury",
+    "headline": "Injury Report Analysis: Patriots rule out six players for Sunday's Week 5 matchup vs. the Raiders",
+    "summary": "The Patriots will be down six players vs. the Raiders on Sunday, including starting corners Christian Gonzalez (shoulder) and Carlton Davis III (neck).",
+    "sourceUrl": "https://www.patriots.com/news/injury-report-analysis-patriots-rule-out-six-players-for-sunday-s-week-5-matchup-vs-the-raiders",
+    "sourceName": "Patriots.com"
+  },
+  {
     "id": "50141584",
-    "publishedAt": "2026-10-09T17:44:46Z",
+    "publishedAt": "2026-10-09T18:39:41Z",
     "type": "Analysis",
     "headline": "Patriots won't have starting CBs Christian Gonzalez, Carlton Davis",
     "summary": "The Patriots will be without starting cornerbacks Christian Gonzalez and Carlton Davis this week.",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/50141584/patriots-starting-cbs-christian-gonzalez-carlton-davis",
     "sourceName": "ESPN"
+  },
+  {
+    "id": "88f4b34c-ba44-42b4-9307-197f08af7723",
+    "publishedAt": "2026-10-09T18:37:00.000Z",
+    "type": "Injury",
+    "headline": "Week 5 Injury Report: Patriots vs. Raiders",
+    "summary": "The New England Patriots and the Las Vegas Raiders announce the following player injuries and practice participation ahead of their Week 5 game.",
+    "sourceUrl": "https://www.patriots.com/news/week-5-injury-report-patriots-vs-raiders",
+    "sourceName": "Patriots.com"
   },
   {
     "id": "e68e15c4-1b9d-4940-a355-6ae76a39afc4",
@@ -36,15 +54,6 @@
     "sourceName": "Patriots.com"
   },
   {
-    "id": "7ab07d86-0cdb-498a-ba1e-80b6a41761e2",
-    "publishedAt": "2026-10-09T10:00:00.000Z",
-    "type": "Analysis",
-    "headline": "Patriots Gameplan: How can the Patriots build on the momentum in Week 5 matchup vs. the Raiders?",
-    "summary": "Previewing the Patriots matchup against the Raiders at Gillette Stadium on",
-    "sourceUrl": "https://www.patriots.com/news/patriots-gameplan-how-can-the-patriots-build-on-the-momentum-in-week-5-matchup-vs-the-raiders",
-    "sourceName": "Patriots.com"
-  },
-  {
     "id": "50120618",
     "publishedAt": "2026-10-09T01:36:14Z",
     "type": "Analysis",
@@ -70,15 +79,6 @@
     "summary": "Mike Reiss reports Rhamondre Stevenson returned to practice while Christian Gonzalez and Carlton Davis remain out.",
     "sourceUrl": "https://www.espn.com/video/clip/_/id/50135803/patriots-get-mixed-injury-news",
     "sourceName": "ESPN"
-  },
-  {
-    "id": "88f4b34c-ba44-42b4-9307-197f08af7723",
-    "publishedAt": "2026-10-08T21:15:00.000Z",
-    "type": "Injury",
-    "headline": "Week 5 Injury Report: Patriots vs. Raiders",
-    "summary": "The New England Patriots and the Las Vegas Raiders announce the following player injuries and practice participation ahead of their Week 5 game.",
-    "sourceUrl": "https://www.patriots.com/news/week-5-injury-report-patriots-vs-raiders",
-    "sourceName": "Patriots.com"
   },
   {
     "id": "50134846",
