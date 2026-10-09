@@ -34,7 +34,7 @@
       {
         "key": "last-3",
         "label": "Last 3 Games",
-        "grade": 71
+        "grade": 68
       }
     ],
     "statLine": "333 yds, 3.5 YPC, 2 TD, 0 FUM, 6% explosive",
@@ -51,7 +51,7 @@
       {
         "key": "last-1",
         "label": "Last Game",
-        "grade": 84
+        "grade": 87
       },
       {
         "key": "last-3",
@@ -71,19 +71,19 @@
   },
   {
     "group": "TE",
-    "grade": 45,
+    "grade": 42,
     "trend": "up",
     "soWhat": "EPA/play at TE, on 19 plays.",
     "windows": [
       {
         "key": "last-1",
         "label": "Last Game",
-        "grade": 77
+        "grade": 81
       },
       {
         "key": "last-3",
         "label": "Last 3 Games",
-        "grade": 35
+        "grade": 39
       }
     ],
     "statLine": "15/19 (79%), 177 yds, 4.6 YAC/rec, 1 TD",
@@ -114,7 +114,7 @@
         "grade": 45
       }
     ],
-    "statLine": "Drake Maye takes 3.04 sec to throw on average — 6th-longest of 37 qualified QBs (a longer hold gives the rush more time)",
+    "statLine": "Drake Maye takes 3.04 sec to throw on average — 6th-longest of 38 qualified QBs (a longer hold gives the rush more time)",
     "sampleSize": 134,
     "confidence": "high"
   },
@@ -132,7 +132,7 @@
       {
         "key": "last-3",
         "label": "Last 3 Games",
-        "grade": 26
+        "grade": 29
       }
     ],
     "statLine": "8 sacks, 23 QB hits — leader: Elijah Ponder (2.5 sacks)",
@@ -169,7 +169,7 @@
       {
         "key": "last-1",
         "label": "Last Game",
-        "grade": 52
+        "grade": 48
       },
       {
         "key": "last-3",

@@ -21,19 +21,19 @@
     "timeToThrow": {
       "value": 3.04431623931624,
       "rank": 6,
-      "of": 37
+      "of": 38
     },
     "aggressiveness": {
       "value": 12.8205128205128,
       "rank": 25,
-      "of": 37
+      "of": 38
     }
   },
   "ranks": {
     "cpoe": {
       "value": 2.2511524015239206,
-      "leagueRank": 17,
-      "leaguePercentile": 48
+      "leagueRank": 16,
+      "leaguePercentile": 52
     },
     "turnoverWorthyPlayRate": {
       "value": 0.0625,

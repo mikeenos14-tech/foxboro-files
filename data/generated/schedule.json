@@ -29,7 +29,7 @@
     "homeAway": "home",
     "opponentRecord": "2-2",
     "opponentPointDiff": -10,
-    "opponentEpaRank": 26,
+    "opponentEpaRank": 25,
     "strengthOfSchedule": {
       "season": 23.25,
       "opponentSos": -2.5
@@ -149,7 +149,7 @@
     "opponentRestDays": 4,
     "isDivisional": false,
     "isConference": false,
-    "winProbabilityEstimate": 0.24868966885267665,
+    "winProbabilityEstimate": 0.24868966885267677,
     "date": "2026-10-22",
     "venue": "Soldier Field",
     "kickoffTimeEt": "20:15"
@@ -182,16 +182,16 @@
     "homeAway": "home",
     "opponentRecord": "2-2",
     "opponentPointDiff": -32,
-    "opponentEpaRank": 28,
+    "opponentEpaRank": 27,
     "strengthOfSchedule": {
       "season": 23.25,
-      "opponentSos": 2.75
+      "opponentSos": 4.75
     },
     "restDays": 7,
     "opponentRestDays": 10,
     "isDivisional": false,
     "isConference": false,
-    "winProbabilityEstimate": 0.6838857085988288,
+    "winProbabilityEstimate": 0.6763890133885629,
     "date": "2026-11-08",
     "venue": "Gillette Stadium",
     "kickoffTimeEt": "16:25"
@@ -224,7 +224,7 @@
     "homeAway": "away",
     "opponentRecord": "0-4",
     "opponentPointDiff": -39,
-    "opponentEpaRank": 27,
+    "opponentEpaRank": 28,
     "strengthOfSchedule": {
       "season": 23.25,
       "opponentSos": 13.25
@@ -233,7 +233,7 @@
     "opponentRestDays": 7,
     "isDivisional": false,
     "isConference": true,
-    "winProbabilityEstimate": 0.6335196092780093,
+    "winProbabilityEstimate": 0.6335196092780094,
     "date": "2026-11-29",
     "venue": "SoFi Stadium",
     "kickoffTimeEt": "20:20"
@@ -269,13 +269,13 @@
     "opponentEpaRank": 11,
     "strengthOfSchedule": {
       "season": 23.25,
-      "opponentSos": -15
+      "opponentSos": -13
     },
     "restDays": 4,
     "opponentRestDays": 4,
     "isDivisional": false,
     "isConference": false,
-    "winProbabilityEstimate": 0.4450549569392817,
+    "winProbabilityEstimate": 0.43610014335329045,
     "date": "2026-12-10",
     "venue": "Gillette Stadium",
     "kickoffTimeEt": "20:15"

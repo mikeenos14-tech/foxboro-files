@@ -30,7 +30,11 @@
   },
   "preview 2026_05_LV_NE": {
     "status": "written",
-    "problems": [],
-    "at": "2026-10-08T09:05:29.459Z"
+    "problems": [
+      [
+        "It makes a franchise-history claim that isn't in the facts given."
+      ]
+    ],
+    "at": "2026-10-09T09:05:41.293Z"
   }
 }

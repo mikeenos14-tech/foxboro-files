@@ -183,23 +183,6 @@
         }
       },
       {
-        "team": "HOU",
-        "wins": 0,
-        "losses": 4,
-        "ties": 0,
-        "pointDifferential": -25,
-        "isUs": false,
-        "streak": {
-          "result": "L",
-          "count": 4
-        },
-        "divisionRecord": {
-          "wins": 0,
-          "losses": 1,
-          "ties": 0
-        }
-      },
-      {
         "team": "TEN",
         "wins": 0,
         "losses": 4,
@@ -213,6 +196,23 @@
         "divisionRecord": {
           "wins": 0,
           "losses": 0,
+          "ties": 0
+        }
+      },
+      {
+        "team": "HOU",
+        "wins": 0,
+        "losses": 4,
+        "ties": 0,
+        "pointDifferential": -25,
+        "isUs": false,
+        "streak": {
+          "result": "L",
+          "count": 4
+        },
+        "divisionRecord": {
+          "wins": 0,
+          "losses": 1,
           "ties": 0
         }
       }
@@ -331,12 +331,12 @@
       {
         "team": "DAL",
         "wins": 2,
-        "losses": 2,
+        "losses": 3,
         "ties": 0,
-        "pointDifferential": 10,
+        "pointDifferential": 2,
         "isUs": false,
         "streak": {
-          "result": "W",
+          "result": "L",
           "count": 1
         },
         "divisionRecord": {
@@ -493,14 +493,14 @@
       },
       {
         "team": "TB",
-        "wins": 0,
+        "wins": 1,
         "losses": 4,
         "ties": 0,
-        "pointDifferential": -20,
+        "pointDifferential": -12,
         "isUs": false,
         "streak": {
-          "result": "L",
-          "count": 4
+          "result": "W",
+          "count": 1
         },
         "divisionRecord": {
           "wins": 0,
