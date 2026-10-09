@@ -19,7 +19,11 @@ export function TopNav() {
   const pathname = usePathname();
 
   return (
-    <header className="sticky top-0 z-10 border-b-4 border-red bg-navy text-white">
+    // Installed to the iPhone home screen, the app draws under the status
+    // bar (appleWebApp statusBarStyle "black-translucent" in layout.tsx),
+    // so the header pads itself by the status bar's height or the logo
+    // and name sit under the clock. In a browser tab the inset is 0.
+    <header className="sticky top-0 z-10 border-b-4 border-red bg-navy pt-[env(safe-area-inset-top)] pl-[env(safe-area-inset-left)] pr-[env(safe-area-inset-right)] text-white">
       <div className="mx-auto flex max-w-6xl items-center gap-6 px-4 py-3">
         <Link href="/" className="flex shrink-0 items-center gap-2.5">
           <BeaconMark height={34} />
