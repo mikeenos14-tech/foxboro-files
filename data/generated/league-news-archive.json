@@ -1,5 +1,86 @@
 [
   {
+    "id": "50134206",
+    "publishedAt": "2026-10-09T11:36:23Z",
+    "type": "Analysis",
+    "headline": "Do the Broncos have a reliable No. 1 running back? Sorting Denver's backfield",
+    "summary": "The Broncos' running game has been stuck in neutral, as J.K. Dobbins, RJ Harvey and Tyler Badie have struggled in the early going.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50134206/broncos-rbs-struggling-jk-dobbins-harvey-coleman-badie",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dandre-swift-on-fumbles-thats-not-me",
+    "publishedAt": "2026-10-09T10:59:58.000Z",
+    "type": "Analysis",
+    "headline": "D'Andre Swift on fumbles: That's not me",
+    "summary": "Bears running back D'Andre Swift fumbled four times in his first 33 games with the team, but he's been a little less adept at holding onto the ball in the early stages of this season.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dandre-swift-on-fumbles-thats-not-me",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "50117790",
+    "publishedAt": "2026-10-09T10:53:58Z",
+    "type": "Analysis",
+    "headline": "2027 NFL draft QB rankings: Arch Manning, Dante Moore, Drew Mestemaker in top 15",
+    "summary": "Who are the best quarterbacks in the 2027 draft class? We sized up the top 15, including Arch Manning, Dante Moore, Trinidad Chambliss and Darian Mensah.",
+    "sourceUrl": "https://www.espn.com/nfl/draft2027/story/_/id/50117790/2027-nfl-draft-quarterbacks-ranking-strengths-weaknesses",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jalon-daniels-fast-start-gave-us-confidence-we-could-win-the-game",
+    "publishedAt": "2026-10-09T10:49:29.000Z",
+    "type": "Analysis",
+    "headline": "Jalon Daniels: Fast start gave us confidence we could win the game",
+    "summary": "Quarterback Jalon Daniels and the Buccaneers came into Dallas as big underdogs on Thursday night and the first Cowboys possession of the night did little to suggest oddsmakers had it wrong.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jalon-daniels-fast-start-gave-us-confidence-we-could-win-the-game",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dak-prescott-did-not-appreciate-stadium-worker-calling-cowboys-loss-embarrassing",
+    "publishedAt": "2026-10-09T10:34:32.000Z",
+    "type": "Analysis",
+    "headline": "Dak Prescott did not appreciate stadium worker calling Cowboys' loss \"embarrassing\"",
+    "summary": "\"Feel free to speak your mind. Just speak it. Don't coward away from the reaction that you're going to get,\" Prescott said of his exchange with the worker in the tunnel after the game.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dak-prescott-did-not-appreciate-stadium-worker-calling-cowboys-loss-embarrassing",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "50134415",
+    "publishedAt": "2026-10-09T10:31:17Z",
+    "type": "Transaction",
+    "headline": "Don't be surprised if: Unsung heroes rack up the stats, and one QB to trade away",
+    "summary": "Don't be surprised if the trade market for a QB1 drops off after Week 5, and unsung heroes start to shine.",
+    "sourceUrl": "https://www.espn.com/fantasy/football/story/_/id/50134415/fantasy-football-start-sit-sleepers-breakouts-week-5",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50129469",
+    "publishedAt": "2026-10-09T10:00:20Z",
+    "type": "Analysis",
+    "headline": "Why the Raiders' running game has struggled, and what's next for Ashton Jeanty",
+    "summary": "The Raiders have made offensive strides ... except for the running game. What's next for Las Vegas and Ashton Jeanty?",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50129469/las-vegas-raiders-struggling-running-game-ashton-jeanty",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50126700",
+    "publishedAt": "2026-10-09T10:00:13Z",
+    "type": "Analysis",
+    "headline": "How Saints can regroup, fix slow starts ahead of matchup with unbeaten Vikings",
+    "summary": "New Orleans had a tough Week 4 loss to Atlanta, which also highlighted key deficiencies the Saints need to correct.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50126700/new-orleans-saints-sour-taste-week-5-minnesota-vikings",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/after-jalon-daniels-leads-bucs-over-cowboys-nfl-teams-are-8-4-when-starting-a-backup-qb",
+    "publishedAt": "2026-10-09T09:27:45.000Z",
+    "type": "Injury",
+    "headline": "After Jalon Daniels leads Bucs over Cowboys, NFL teams are 8-4 when starting a backup QB",
+    "summary": "Injuries to starting quarterbacks have not derailed teams this season.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/after-jalon-daniels-leads-bucs-over-cowboys-nfl-teams-are-8-4-when-starting-a-backup-qb",
+    "sourceName": "Pro Football Talk"
+  },
+  {
     "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bengals-jordan-battle-malik-willis-taps-the-ball-before-he-throws-we-can-key-on-that",
     "publishedAt": "2026-10-09T08:28:24.000Z",
     "type": "Analysis",
@@ -15532,86 +15613,5 @@
     "summary": "Kyler Murray will be back at quarterback for the Vikings when they take on the Buccaneers this Sunday and he won't be playing with fears of a repeat of what happened in Week 1.",
     "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/kyler-murray-ive-never-had-an-issue-protecting-myself-concussion-was-an-awkward-play",
     "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "50020808",
-    "publishedAt": "2026-09-25T11:03:18Z",
-    "type": "Analysis",
-    "headline": "What to know before setting your lineup for Week 3: One last chance for Loveland, Herbert",
-    "summary": "Adam Rank catches you up on the vital information and insight needed to make tough lineup decisions in Week 3.",
-    "sourceUrl": "https://www.espn.com/fantasy/football/story/_/id/50020808/fantasy-football-start-sit-week-3-need-know",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/chiefs-rb-coach-demarco-murray-its-hard-to-take-kenneth-walker-out",
-    "publishedAt": "2026-09-25T10:58:00.000Z",
-    "type": "Injury",
-    "headline": "Chiefs RB coach DeMarco Murray: It's hard to take Kenneth Walker out",
-    "summary": "Chiefs running back Kenneth Walker is off to an impressive start to the season and the team has been giving him plenty of chances to show off his game.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/chiefs-rb-coach-demarco-murray-its-hard-to-take-kenneth-walker-out",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "49997133",
-    "publishedAt": "2026-09-25T10:40:10Z",
-    "type": "Analysis",
-    "headline": "NFL Week 3 betting guide: Analysis and top plays for Sunday's games",
-    "summary": "Our experts dive into the odds and player props for Week 3 and offer their betting tips and favorite plays.",
-    "sourceUrl": "https://www.espn.com/espn/betting/story/_/id/49997133/week-3-nfl-odds-spreads-lines-props-best-bets-sunday-football-games",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/drake-london-michael-penix-is-the-definition-of-resiliency",
-    "publishedAt": "2026-09-25T10:34:30.000Z",
-    "type": "Injury",
-    "headline": "Drake London: Michael Penix is the definition of resiliency",
-    "summary": "Michael Penix's return to the Falcons starting lineup didn't get off to a great start, but that just turned out to be one more chance for him to show his ability to bounce back from an adverse situation.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/drake-london-michael-penix-is-the-definition-of-resiliency",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "50022961",
-    "publishedAt": "2026-09-25T10:21:23Z",
-    "type": "Analysis",
-    "headline": "Mike LaFleur's coaching roots fast track to NFL",
-    "summary": "The Shanahan-LaFleur dynamic spreads to Arizona, where new head coach Mike has taken the reins in the desert.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50022961/arizona-cardinals-mike-lafleur-coaching-roots",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50024690",
-    "publishedAt": "2026-09-25T10:00:14Z",
-    "type": "Analysis",
-    "headline": "Seahawks encouraged by Jadarian Price leading RB room",
-    "summary": "Seattle's running back committee has no touchdowns through two weeks, but there's another opportunity this week at Commanders.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50024690/seattle-seahawks-running-backs-jadarian-price-rookie",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50020891",
-    "publishedAt": "2026-09-25T10:00:12Z",
-    "type": "Analysis",
-    "headline": "The Rams are better when both RBs get the ball",
-    "summary": "Through two weeks, Williams and Corum have nearly split the carries exactly.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50020891/los-angeles-rams-blake-corum-kyren-williams-rb-split-carries",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50024081",
-    "publishedAt": "2026-09-25T10:00:11Z",
-    "type": "Transaction",
-    "headline": "Why are the Jaguars using CB/WR Travis Hunter sparingly?",
-    "summary": "The highly anticipated two-way player is playing half of defensive snaps and has barely been seen on offense. But coach Liam Coen said it's by design.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50024081/jacksonville-jaguars-week-3-travis-hunter-usage",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50021792",
-    "publishedAt": "2026-09-25T10:00:08Z",
-    "type": "Analysis",
-    "headline": "Texans face troubling trend when they play without Nico Collins",
-    "summary": "Houston has seen a dip in scoring, and quarterback C.J. Stroud has seen his QBR decrease when targeting others.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50021792/houston-texans-troubling-wr-nico-collins",
-    "sourceName": "ESPN"
   }
 ]

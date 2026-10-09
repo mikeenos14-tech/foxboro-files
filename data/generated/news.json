@@ -1,5 +1,14 @@
 [
   {
+    "id": "ad00b325-b587-4086-953c-0551c65556e6",
+    "publishedAt": "2026-10-09T10:00:07.000Z",
+    "type": "Analysis",
+    "headline": "Patriots edge rusher trio exceeding expectations in the first four games of the season",
+    "summary": "Dre'Mont Jones, Elijah Ponder and rookie Gabe Jacas are off to a strong start this season.",
+    "sourceUrl": "https://www.patriots.com/news/patriots-edge-rusher-trio-exceeding-expectations-in-the-first-four-games-of-the-season",
+    "sourceName": "Patriots.com"
+  },
+  {
     "id": "50120618",
     "publishedAt": "2026-10-09T01:36:14Z",
     "type": "Analysis",
@@ -72,15 +81,6 @@
     "sourceName": "Patriots.com"
   },
   {
-    "id": "7ab07d86-0cdb-498a-ba1e-80b6a41761e2",
-    "publishedAt": "2026-10-08T12:54:00.000Z",
-    "type": "Analysis",
-    "headline": "Patriots Gameplan: How can the Patriots build on the momentum in Week 5 matchup vs. the Raiders?",
-    "summary": "Previewing the Patriots matchup against the Raiders at Gillette Stadium on",
-    "sourceUrl": "https://www.patriots.com/news/patriots-gameplan-how-can-the-patriots-build-on-the-momentum-in-week-5-matchup-vs-the-raiders",
-    "sourceName": "Patriots.com"
-  },
-  {
     "id": "50127922",
     "publishedAt": "2026-10-07T21:57:40Z",
     "type": "Injury",
@@ -96,15 +96,6 @@
     "headline": "Patriots shut down Dalton Kincaid but have Brock Bowers, Michael Mayer looming",
     "summary": "The Patriots neutralized a red-hot Kincaid in Week 4 but know they have their work cut out for them against the Raiders' 1-2 tight end punch in Week 5.",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/50112803/new-england-patriots-defense-tight-ends-shut-dalton-kincaid",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50100800",
-    "publishedAt": "2026-10-05T15:43:56Z",
-    "type": "Analysis",
-    "headline": "How the Rams, Cowboys, Patriots pulled Week 4 comebacks to save their seasons",
-    "summary": "The Rams, Cowboys and Pats were all looking at 1-3 ... then everything changed. How did a trio of stunning rallies play out -- and are these teams all back on track at 2-2?",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50100800/week-4-rams-cowboys-patriots-comeback-wins-save-season",
     "sourceName": "ESPN"
   }
 ]
