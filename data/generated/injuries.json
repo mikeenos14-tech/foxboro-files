@@ -6,7 +6,7 @@
     "week": 5,
     "injury": "Foot",
     "practiceStatus": "Limited",
-    "gameStatus": null,
+    "gameStatus": "Questionable",
     "lastUpdated": "2026-10-09T16:47:21.22Z"
   },
   {
@@ -16,7 +16,7 @@
     "week": 5,
     "injury": "Calf",
     "practiceStatus": "Did Not Participate",
-    "gameStatus": null,
+    "gameStatus": "Out",
     "lastUpdated": "2026-10-09T16:47:21.22Z"
   },
   {
@@ -26,7 +26,7 @@
     "week": 5,
     "injury": "Neck",
     "practiceStatus": "Did Not Participate",
-    "gameStatus": null,
+    "gameStatus": "Out",
     "lastUpdated": "2026-10-09T16:47:21.22Z"
   },
   {
@@ -36,7 +36,7 @@
     "week": 5,
     "injury": "Shoulder",
     "practiceStatus": "Limited",
-    "gameStatus": null,
+    "gameStatus": "Questionable",
     "lastUpdated": "2026-10-09T16:47:21.22Z"
   },
   {
@@ -46,7 +46,7 @@
     "week": 5,
     "injury": "Ankle",
     "practiceStatus": "Did Not Participate",
-    "gameStatus": null,
+    "gameStatus": "Out",
     "lastUpdated": "2026-10-09T16:47:21.22Z"
   },
   {
@@ -56,7 +56,7 @@
     "week": 5,
     "injury": "Chest",
     "practiceStatus": "Limited",
-    "gameStatus": null,
+    "gameStatus": "Questionable",
     "lastUpdated": "2026-10-09T16:47:21.22Z"
   },
   {
@@ -66,7 +66,7 @@
     "week": 5,
     "injury": "Knee",
     "practiceStatus": "Limited",
-    "gameStatus": null,
+    "gameStatus": "Questionable",
     "lastUpdated": "2026-10-09T16:47:21.22Z"
   },
   {
@@ -76,7 +76,7 @@
     "week": 5,
     "injury": "Shoulder",
     "practiceStatus": "Limited",
-    "gameStatus": null,
+    "gameStatus": "Questionable",
     "lastUpdated": "2026-10-09T16:47:21.22Z"
   },
   {
@@ -96,7 +96,7 @@
     "week": 5,
     "injury": "Shoulder",
     "practiceStatus": "Did Not Participate",
-    "gameStatus": null,
+    "gameStatus": "Out",
     "lastUpdated": "2026-10-09T16:47:21.22Z"
   },
   {
@@ -106,7 +106,7 @@
     "week": 5,
     "injury": "Shoulder",
     "practiceStatus": "Limited",
-    "gameStatus": null,
+    "gameStatus": "Questionable",
     "lastUpdated": "2026-10-09T16:47:21.22Z"
   },
   {
@@ -126,7 +126,7 @@
     "week": 5,
     "injury": "Shoulder",
     "practiceStatus": "Limited",
-    "gameStatus": null,
+    "gameStatus": "Questionable",
     "lastUpdated": "2026-10-09T16:47:21.22Z"
   },
   {
@@ -136,7 +136,7 @@
     "week": 5,
     "injury": "Hamstring",
     "practiceStatus": "Did Not Participate",
-    "gameStatus": null,
+    "gameStatus": "Out",
     "lastUpdated": "2026-10-09T16:47:21.22Z"
   },
   {
@@ -146,7 +146,7 @@
     "week": 5,
     "injury": "Hamstring",
     "practiceStatus": "Limited",
-    "gameStatus": null,
+    "gameStatus": "Out",
     "lastUpdated": "2026-10-09T16:47:21.22Z"
   }
 ]

@@ -1,16 +1,12 @@
 {
   "beat digest": {
     "status": "written",
-    "problems": [
-      [
-        "It uses an abbreviated name (\"A. Smith\") — use the full name given."
-      ]
-    ],
-    "at": "2026-10-10T03:07:58.377Z"
+    "problems": [],
+    "at": "2026-10-10T06:09:14.996Z"
   },
   "league headlines": {
     "status": "written",
     "problems": [],
-    "at": "2026-10-10T03:08:01.008Z"
+    "at": "2026-10-10T06:09:17.482Z"
   }
 }

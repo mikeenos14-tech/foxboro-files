@@ -36,7 +36,7 @@
     "week": 5,
     "injury": "Concussion",
     "practiceStatus": "Did Not Participate",
-    "gameStatus": null,
+    "gameStatus": "Out",
     "lastUpdated": "2026-10-09T16:47:21.22Z"
   },
   {
@@ -77,7 +77,7 @@
     "injury": "Groin",
     "practiceStatus": "Full",
     "gameStatus": null,
-    "lastUpdated": "2026-10-10T03:07:52.016Z"
+    "lastUpdated": "2026-10-10T06:09:11.435Z"
   },
   {
     "playerId": "00-0040122",
@@ -86,7 +86,7 @@
     "week": 5,
     "injury": "Ankle",
     "practiceStatus": "Limited",
-    "gameStatus": null,
+    "gameStatus": "Questionable",
     "lastUpdated": "2026-10-09T16:47:21.22Z"
   },
   {
@@ -96,7 +96,7 @@
     "week": 5,
     "injury": "Hamstring",
     "practiceStatus": "Full",
-    "gameStatus": null,
+    "gameStatus": "Out",
     "lastUpdated": "2026-10-09T16:47:21.22Z"
   },
   {
@@ -106,7 +106,7 @@
     "week": 5,
     "injury": "Knee",
     "practiceStatus": "Limited",
-    "gameStatus": null,
+    "gameStatus": "Out",
     "lastUpdated": "2026-10-09T16:47:21.22Z"
   }
 ]
