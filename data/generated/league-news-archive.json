@@ -1,5 +1,77 @@
 [
   {
+    "id": "50147669",
+    "publishedAt": "2026-10-10T15:03:34Z",
+    "type": "Transaction",
+    "headline": "Sources: Ravens held Cam Jurgens physical before trade with Eagles",
+    "summary": "As the Ravens and Eagles were preparing to agree to a trade that would send Cam Jurgens to Baltimore, the two sides made immediate plans for the center to undergo a physical in Philadelphia before any deal was finalized, league sources told ESPN.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50147669/sources-ravens-held-cam-jurgens-physical-trade-eagles",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50147794",
+    "publishedAt": "2026-10-10T14:46:25Z",
+    "type": "Analysis",
+    "headline": "DraftKings DFS cheat sheet: Best values for Sunday's main slate",
+    "summary": "Build a winning DFS lineup with our DraftKings NFL Week 5 cheat sheet identifying the players you want to spend up for, the teams to stack, the value picks to grab and the players you need to avoid.",
+    "sourceUrl": "https://www.espn.com/fantasy/football/story/_/id/50147794/draftkings-nfl-dfs-values-week-5",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/as-bears-intend-to-build-a-dome-mike-ditka-would-not-approve",
+    "publishedAt": "2026-10-10T14:38:53.000Z",
+    "type": "Analysis",
+    "headline": "As Bears intend to build a dome, Mike Ditka would not approve",
+    "summary": "The passing of larger-than-life NFL legend Mike Ditka has sparked a flood of great stories and clips from Ditka's time in football.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/as-bears-intend-to-build-a-dome-mike-ditka-would-not-approve",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/brock-purdy-catches-josh-allen-at-3-1-to-win-nfl-mvp",
+    "publishedAt": "2026-10-10T14:05:34.000Z",
+    "type": "Analysis",
+    "headline": "Brock Purdy catches Josh Allen at 3-1 to win NFL MVP",
+    "summary": "Purdy's first four games have yielded a passer rating of 126.3.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/brock-purdy-catches-josh-allen-at-3-1-to-win-nfl-mvp",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/khalil-mack-could-return-to-the-bears",
+    "publishedAt": "2026-10-10T13:45:58.000Z",
+    "type": "Transaction",
+    "headline": "Khalil Mack could return to the Bears",
+    "summary": "Eight years after the Bears traded for pass rusher Khalil Mack, the Bears could be doing it all over again.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/khalil-mack-could-return-to-the-bears",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/ravens-are-much-different-with-and-without-lamar-jackson",
+    "publishedAt": "2026-10-10T13:20:21.000Z",
+    "type": "Injury",
+    "headline": "Ravens are much different with and without Lamar Jackson",
+    "summary": "As expected, given that he's week-to-week with an ankle injury, Ravens quarterback Lamar Jackson will miss Sunday night's game against the Falcons.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/ravens-are-much-different-with-and-without-lamar-jackson",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/aaron-donald-no-setbacks-i-plan-on-playing-monday",
+    "publishedAt": "2026-10-10T12:53:36.000Z",
+    "type": "Analysis",
+    "headline": "Aaron Donald: No setbacks, I plan on playing Monday",
+    "summary": "Rams head coach Sean McVay said early in the week that defensive tackle Aaron Donald was trending toward a return to the lineup against the Bills on Monday night and things remain on track in Los Angeles.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/aaron-donald-no-setbacks-i-plan-on-playing-monday",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "50144125",
+    "publishedAt": "2026-10-10T12:27:21Z",
+    "type": "Analysis",
+    "headline": "Can the Seahawks' defense again silence the 49ers' hot offense Sunday?",
+    "summary": "Seattle's defense stole the show the past two times these teams met. But the 49ers and Brock Purdy are on a roll heading into Week 5.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50144125/seattle-seahawks-defense-49ers-offense-nfc-west-week-5",
+    "sourceName": "ESPN"
+  },
+  {
     "id": "profootballrumors-https://www.profootballrumors.com/?p=422483",
     "publishedAt": "2026-10-10T12:00:04.000Z",
     "type": "Transaction",
@@ -24,15 +96,6 @@
     "headline": "Can Burrow, Bengals establish identity vs. Dolphins?",
     "summary": "The Bengals put Burrow under center but ultimately went back to what the QB knows best. What's next?",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/50139238/bengals-joe-burrow-dolphins-offensive-identity",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50144125",
-    "publishedAt": "2026-10-10T10:00:01Z",
-    "type": "Analysis",
-    "headline": "Can the Seahawks' defense again silence the 49ers' hot offense Sunday?",
-    "summary": "Seattle's defense stole the show the past two times these teams met. But the 49ers and Brock Purdy are on a roll heading into Week 5.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50144125/seattle-seahawks-defense-49ers-offense-nfc-west-week-5",
     "sourceName": "ESPN"
   },
   {
@@ -15532,68 +15595,5 @@
     "summary": "NFL field director Nick Pappas said Saturday that the league has made additional improvements to the Rio field and that \"things check out\" ahead of Sunday's game between the Ravens and Cowboys.",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/50033509/rio-field-gets-final-touches-no-need-worry-nfl-says",
     "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/nfl-says-field-in-brazil-is-good-to-go-for-ravens-cowboys-on-sunday",
-    "publishedAt": "2026-09-26T15:00:16.000Z",
-    "type": "Analysis",
-    "headline": "NFL says field in Brazil is good to go for Ravens-Cowboys on Sunday",
-    "summary": "Amid talk that the field at Maracanã Stadium in Rio de Janeiro, Brazil, is not going to hold up to the rigors of an NFL game, the league is insisting all is fine.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/nfl-says-field-in-brazil-is-good-to-go-for-ravens-cowboys-on-sunday",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jets-suddenly-stout-defense-gets-a-big-test-at-lions",
-    "publishedAt": "2026-09-26T14:44:57.000Z",
-    "type": "Analysis",
-    "headline": "Jets' suddenly stout defense gets a big test at Lions",
-    "summary": "Although the Jets have extended the record for games without an interception to 19, their defense has quietly become stout.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jets-suddenly-stout-defense-gets-a-big-test-at-lions",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=420563",
-    "publishedAt": "2026-09-26T14:40:33.000Z",
-    "type": "Injury",
-    "headline": "Vikings To Sign P Johnny Hekker",
-    "summary": "SEPTEMBER 26: Hekker will indeed get an opportunity to play right away in Minnesota. The Vikings ruled Thorson out for Week 3 with head coach Kevin O’Connell saying this week (via ESPN’s Kevin Seifert) that injured reserve could be a possibility. Hekker will be elevated from the practice squad to punt; if Thorson does land on […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/09/vikings-to-sign-p-johnny-hekker-2",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jim-harbaugh-hopes-to-rebound-from-first-0-2-start-as-a-head-coach",
-    "publishedAt": "2026-09-26T14:12:03.000Z",
-    "type": "Analysis",
-    "headline": "Jim Harbaugh hopes to rebound from first 0-2 start as a head coach",
-    "summary": "It was a bad weekend for the Brothers Harbaugh at SoFi Stadium.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jim-harbaugh-hopes-to-rebound-from-first-0-2-start-as-a-head-coach",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/unc-chancellor-on-bill-belichick-support-comes-with-expectations",
-    "publishedAt": "2026-09-26T13:35:14.000Z",
-    "type": "Analysis",
-    "headline": "UNC chancellor on Bill Belichick: \"Support comes with expectations\"",
-    "summary": "Internal turmoil at the North Carolina football program brought down G.M.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/unc-chancellor-on-bill-belichick-support-comes-with-expectations",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/deion-sanders-on-travis-hunters-usage-i-have-no-idea-whats-going-on",
-    "publishedAt": "2026-09-26T13:04:06.000Z",
-    "type": "Analysis",
-    "headline": "Deion Sanders on Travis Hunter's usage: \"I have no idea what's going on\"",
-    "summary": "Back in May, Colorado coach Deion Sanders expressed disappointment that he hadn't heard from the Jaguars regarding how to coach, and how to deploy, cornerback/receiver Travis Hunter.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/deion-sanders-on-travis-hunters-usage-i-have-no-idea-whats-going-on",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/titans-giants-tickets-are-available-for-as-little-as-17",
-    "publishedAt": "2026-09-26T12:22:18.000Z",
-    "type": "Analysis",
-    "headline": "Titans-Giants tickets are available for as little as $17",
-    "summary": "Two months ago, the price point for a ticket for a specific event at MetLife Stadium landed as high as $39,704.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/titans-giants-tickets-are-available-for-as-little-as-17",
-    "sourceName": "Pro Football Talk"
   }
 ]
