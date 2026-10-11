@@ -1,5 +1,50 @@
 [
   {
+    "id": "31dc89bc-9bb8-4493-b194-06abe5d3870d",
+    "publishedAt": "2026-10-11T20:59:12.000Z",
+    "type": "Beat Report",
+    "headline": "Gamebook: Raiders at Patriots Week 5",
+    "summary": "Download the NFL Gamebook with all of the statistics from the Patriots Week 5 game against the Las Vegas Raiders on Sunday, October 11, 2026.",
+    "sourceUrl": "https://www.patriots.com/news/gamebook-raiders-at-patriots-week-5",
+    "sourceName": "Patriots.com"
+  },
+  {
+    "id": "50160498",
+    "publishedAt": "2026-10-11T20:52:15Z",
+    "type": "Beat Report",
+    "headline": "Las Vegas Raiders vs. New England Patriots: Game Highlights",
+    "summary": "Las Vegas Raiders vs. New England Patriots: Game Highlights",
+    "sourceUrl": "https://www.espn.com/video/clip/_/id/50160498/game-highlights",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50159892",
+    "publishedAt": "2026-10-11T20:32:43Z",
+    "type": "Injury",
+    "headline": "Patriots lose TreVeyon Henderson, Will Campbell in big win",
+    "summary": "Patriots RB TreVeyon Henderson (ankle) and LT Will Campbell (knee) left Sunday's win vs. the Raiders with injuries and did not return.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50159892/patriots-rule-treveyon-henderson-campbell",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50160588",
+    "publishedAt": "2026-10-11T20:30:28Z",
+    "type": "Analysis",
+    "headline": "Drake Maye accounts for 5 TDs as Patriots roll past Raiders 45-17",
+    "summary": "— Drake Maye threw for four touchdown passes and ran for another score, and the New England Patriots rolled past...",
+    "sourceUrl": "http://www.espn.com/nfl/recap?gameId=401872986",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50120618",
+    "publishedAt": "2026-10-11T18:34:40Z",
+    "type": "Analysis",
+    "headline": "NFL Week 5 uniforms: Packers debut Rivalries look, Patriots wearing throwbacks",
+    "summary": "Here's a look at what each NFL team is wearing in Week 5, led by the Green Bay Packers debuting their Rivalries look.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50120618/nfl-week-5-uniforms",
+    "sourceName": "ESPN"
+  },
+  {
     "id": "e5dd06e4-e010-4235-922a-6b467968075b",
     "publishedAt": "2026-10-11T15:34:41.000Z",
     "type": "Analysis",
@@ -54,30 +99,12 @@
     "sourceName": "ESPN"
   },
   {
-    "id": "ad047d0e-cc33-4812-b01d-6356c2a2aa2e",
-    "publishedAt": "2026-10-10T20:00:13.000Z",
-    "type": "Injury",
-    "headline": "Roster Analysis: Patriots place Mack Hollins and Reggie Gilliam on injured reserve in a flurry of roster moves ahead of Sunday's game vs. the Raiders",
-    "summary": "Special-teams ace Brenden Schooler and CB Kindle Vildor were added to the 53-man roster.",
-    "sourceUrl": "https://www.patriots.com/news/roster-analysis-patriots-place-mack-hollins-and-reggie-gilliam-on-injured-reserve-in-a-flurry-of-roster-moves-ahead-of-sunday-s-game-vs-the-raiders",
-    "sourceName": "Patriots.com"
-  },
-  {
     "id": "50141584",
     "publishedAt": "2026-10-09T18:39:41Z",
     "type": "Analysis",
     "headline": "Patriots won't have starting CBs Christian Gonzalez, Carlton Davis",
     "summary": "The Patriots will be without starting cornerbacks Christian Gonzalez and Carlton Davis this week.",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/50141584/patriots-starting-cbs-christian-gonzalez-carlton-davis",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50120618",
-    "publishedAt": "2026-10-09T01:36:14Z",
-    "type": "Analysis",
-    "headline": "NFL Week 5 uniforms: Packers debut Rivalries look, Patriots wearing throwbacks",
-    "summary": "Here's a look at what each NFL team is wearing in Week 5, led by the Green Bay Packers debuting their Rivalries look.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50120618/nfl-week-5-uniforms",
     "sourceName": "ESPN"
   },
   {
