@@ -1,5 +1,68 @@
 [
   {
+    "id": "50152303",
+    "publishedAt": "2026-10-11T11:44:49Z",
+    "type": "Injury",
+    "headline": "Doctors fear risk of further Jayden Daniels elbow injury",
+    "summary": "Doctors around the NFL believe it's a matter of when, not if, Commanders QB Jayden Daniels hurts his left elbow again, sources told ESPN.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50152303/doctors-fear-risk-further-jayden-daniels-elbow-injury",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50149803",
+    "publishedAt": "2026-10-11T11:29:36Z",
+    "type": "Transaction",
+    "headline": "Source: Odell Beckham Jr. joins Vikings roster, status unclear",
+    "summary": "While the Vikings elevated receiver Odell Beckham Jr. from the practice squad for Sunday's game, a source said, it's not yet decided if he'll play.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50149803/source-odell-beckham-jr-joins-vikings-roster-status-unclear",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50150455",
+    "publishedAt": "2026-10-11T11:14:08Z",
+    "type": "Injury",
+    "headline": "Patriots place veteran WR Mack Hollins on IR with calf injury",
+    "summary": "The Patriots placed veteran wide receiver Mack Hollins on injured reserve Saturday with a calf injury.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50150455/patriots-place-veteran-wr-mack-hollins-ir-calf-injury",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50085010",
+    "publishedAt": "2026-10-11T10:31:04Z",
+    "type": "Analysis",
+    "headline": "How to bet Ravens-Falcons on SNF: Analysis, tips and top prop plays",
+    "summary": "Odds, bets and analysis to help you bet Ravens-Falcons on \"Sunday Night Football.\"",
+    "sourceUrl": "https://www.espn.com/espn/betting/story/_/id/50085010/nfl-week-5-odds-betting-tips-ravens-falcons",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50151867",
+    "publishedAt": "2026-10-11T10:05:54Z",
+    "type": "Analysis",
+    "headline": "Sources: Eagles mull Lane Johnson roster status amid O-line changes",
+    "summary": "Lane Johnson is expected to remain on the Eagles' 53-man roster until after June 1 for salary cap purposes as Philadelphia continues to navigate multiple changes to the offensice line.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50151867/sources-eagles-mull-lane-johnson-roster-status-amid-o-line-changes",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50136210",
+    "publishedAt": "2026-10-11T10:00:04Z",
+    "type": "Analysis",
+    "headline": "HOFer Ronnie Lott offers words of encouragement to Aaron Glenn as losses pile up",
+    "summary": "Glenn is 4-17 in New York and hasn't beaten a team with a winning record with the 3-1 Browns up next.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50136210/ronnie-lott-encourages-jets-coach-aaron-glenn",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50142515",
+    "publishedAt": "2026-10-11T10:00:02Z",
+    "type": "Analysis",
+    "headline": "Patriots to honor the 2001 Super Bowl team: Can the 2026 squad learn from them?",
+    "summary": "Robert Kraft talked about the similarities between the two teams as he prepares to honor the 25th anniversary of the Patriots' first championship.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50142515/new-england-patriots-2001-adam-vinatieri-raiders",
+    "sourceName": "ESPN"
+  },
+  {
     "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jeremiah-smith-is-the-betting-favorite-to-be-the-first-overall-pick-in-the-2027-nfl-draft",
     "publishedAt": "2026-10-11T08:47:20.000Z",
     "type": "Analysis",
@@ -162,15 +225,6 @@
     "sourceName": "Pro Football Talk"
   },
   {
-    "id": "50149803",
-    "publishedAt": "2026-10-11T00:13:20Z",
-    "type": "Transaction",
-    "headline": "Source: Odell Beckham Jr. joins Vikings roster, status unclear",
-    "summary": "While the Vikings elevated receiver Odell Beckham Jr. from the practice squad for Sunday's game, a source said, it's not yet decided if he'll play.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50149803/source-odell-beckham-jr-joins-vikings-roster-status-unclear",
-    "sourceName": "ESPN"
-  },
-  {
     "id": "profootballrumors-https://www.profootballrumors.com/?p=422165",
     "publishedAt": "2026-10-10T23:50:46.000Z",
     "type": "Analysis",
@@ -268,15 +322,6 @@
     "summary": "The Patriots could get A.J.",
     "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/patriots-put-wr-mack-hollins-on-injured-reserve",
     "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "50150455",
-    "publishedAt": "2026-10-10T20:57:46Z",
-    "type": "Injury",
-    "headline": "Patriots place veteran WR Mack Hollins on IR with calf injury",
-    "summary": "The Patriots placed veteran wide receiver Mack Hollins on injured reserve Saturday with a calf injury.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50150455/patriots-place-veteran-wr-mack-hollins-ir-calf-injury",
-    "sourceName": "ESPN"
   },
   {
     "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dolphins-activate-kenneth-grant-from-injured-reserve",
@@ -15504,51 +15549,6 @@
     "headline": "Steelers WR Michael Pittman Jr. (foot) is expected to play",
     "summary": "The Steelers need a lift on offense.",
     "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/steelers-wr-michael-pittman-jr-foot-is-expected-to-play",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=421019",
-    "publishedAt": "2026-09-27T11:35:01.000Z",
-    "type": "Injury",
-    "headline": "Rams DE Myles Garrett May Not Return Until Week 9",
-    "summary": "The Rams placed DE Myles Garrett on injured reserve after their season opening loss to the 49ers. That transaction guaranteed Garrett will miss at least four games, though subsequent reporting did not provide a definitive return date. Per ESPN’s Ian Rapoport, Garrett has now received a six-week timeline. He has already missed Los Angeles’ Week […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/09/rams-de-myles-garrett-may-not-return-until-week-9",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-myles-garrett-will-need-about-six-weeks-to-recover-from-knee-surgery",
-    "publishedAt": "2026-09-27T11:21:23.000Z",
-    "type": "Analysis",
-    "headline": "Report: Myles Garrett will need about six weeks to recover from knee surgery",
-    "summary": "Garrett might not be back until Week 9 against the Commanders.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-myles-garrett-will-need-about-six-weeks-to-recover-from-knee-surgery",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "49997098",
-    "publishedAt": "2026-09-27T10:40:09Z",
-    "type": "Analysis",
-    "headline": "How to bet Rams-Broncos on 'SNF': Analysis, tips and favorite plays",
-    "summary": "Odds, bets and analysis to help you bet Rams-Broncos on \"Sunday Night Football.\"",
-    "sourceUrl": "https://www.espn.com/espn/betting/story/_/id/49997098/nfl-week-3-odds-betting-tips-picks-los-angeles-rams-denver-broncos",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50028245",
-    "publishedAt": "2026-09-27T10:00:01Z",
-    "type": "Analysis",
-    "headline": "Aaron Glenn not buying criticism of Jets' clock management",
-    "summary": "Aaron Glenn says the clock management is fine and that it's discussed every Thursday and Saturday;",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50028245/new-jork-jets-clock-management-aaron-glenn",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/oregon-coach-dan-lanning-blasts-disgusting-play-by-usc-that-injured-dante-moore",
-    "publishedAt": "2026-09-27T09:43:50.000Z",
-    "type": "Injury",
-    "headline": "Oregon coach Dan Lanning blasts \"disgusting play\" by USC that injured Dante Moore",
-    "summary": "Oregon coach Dan Lanning was furious after Saturday's win over USC at the illegal play that knocked Ducks quarterback Dante Moore out of the game and sent him to the hospital.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/oregon-coach-dan-lanning-blasts-disgusting-play-by-usc-that-injured-dante-moore",
     "sourceName": "Pro Football Talk"
   }
 ]
