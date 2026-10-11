@@ -1,5 +1,23 @@
 [
   {
+    "id": "e68e15c4-1b9d-4940-a355-6ae76a39afc4",
+    "publishedAt": "2026-10-11T12:13:00.000Z",
+    "type": "Analysis",
+    "headline": "Patriots to Honor Adam Vinatieri During Halftime Ceremony on Sunday, October 11 Against Raiders",
+    "summary": "The New England Patriots will celebrate Adam Vinatieri's induction into the Pro Football Hall of Fame during a halftime ceremony on Sunday, October 11 against the Las Vegas Raiders.  Ceremony will be streamed live on Patriots.com.",
+    "sourceUrl": "https://www.patriots.com/news/patriots-to-honor-adam-vinatieri-during-halftime-ceremony-on-sunday-october-11-against-raiders",
+    "sourceName": "Patriots.com"
+  },
+  {
+    "id": "83cd97c5-860d-490f-a1cc-d5b08d675c5b",
+    "publishedAt": "2026-10-11T12:12:00.000Z",
+    "type": "Analysis",
+    "headline": "How to Watch and Stream Sunday's Patriots Game Against the Raiders | NFL Week 5",
+    "summary": "Complete broadcast information for this week's game between the New England Patriots and the Las Vegas Raiders on Sunday, October 11, 2026 at 1 PM ET.",
+    "sourceUrl": "https://www.patriots.com/news/how-to-watch-and-stream-sunday-s-patriots-game-against-the-raiders-nfl-week-5",
+    "sourceName": "Patriots.com"
+  },
+  {
     "id": "50150455",
     "publishedAt": "2026-10-11T11:14:08Z",
     "type": "Injury",
@@ -36,12 +54,12 @@
     "sourceName": "Patriots.com"
   },
   {
-    "id": "2305ec62-785e-4a40-b190-d586800eeddb",
-    "publishedAt": "2026-10-09T18:40:51.000Z",
-    "type": "Injury",
-    "headline": "Injury Report Analysis: Patriots rule out six players for Sunday's Week 5 matchup vs. the Raiders",
-    "summary": "The Patriots will be down six players vs. the Raiders on Sunday, including starting corners Christian Gonzalez (shoulder) and Carlton Davis III (neck).",
-    "sourceUrl": "https://www.patriots.com/news/injury-report-analysis-patriots-rule-out-six-players-for-sunday-s-week-5-matchup-vs-the-raiders",
+    "id": "5534b301-2ceb-4737-a2da-3f719055abcd",
+    "publishedAt": "2026-10-10T18:00:00.000Z",
+    "type": "Analysis",
+    "headline": "Game Preview: Patriots vs. Raiders | NFL Week 5",
+    "summary": "The New England Patriots will host the Las Vegas Raiders at Gillette Stadium on Sunday, October 11 at 1 PM ET.",
+    "sourceUrl": "https://www.patriots.com/news/game-preview-patriots-vs-raiders-nfl-week-5",
     "sourceName": "Patriots.com"
   },
   {
@@ -52,24 +70,6 @@
     "summary": "The Patriots will be without starting cornerbacks Christian Gonzalez and Carlton Davis this week.",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/50141584/patriots-starting-cbs-christian-gonzalez-carlton-davis",
     "sourceName": "ESPN"
-  },
-  {
-    "id": "88f4b34c-ba44-42b4-9307-197f08af7723",
-    "publishedAt": "2026-10-09T18:37:00.000Z",
-    "type": "Injury",
-    "headline": "Week 5 Injury Report: Patriots vs. Raiders",
-    "summary": "The New England Patriots and the Las Vegas Raiders announce the following player injuries and practice participation ahead of their Week 5 game.",
-    "sourceUrl": "https://www.patriots.com/news/week-5-injury-report-patriots-vs-raiders",
-    "sourceName": "Patriots.com"
-  },
-  {
-    "id": "e68e15c4-1b9d-4940-a355-6ae76a39afc4",
-    "publishedAt": "2026-10-09T16:27:00.000Z",
-    "type": "Analysis",
-    "headline": "Patriots to Honor Adam Vinatieri During Halftime Ceremony on Sunday, October 11 Against Raiders",
-    "summary": "The New England Patriots will celebrate Adam Vinatieri's induction into the Pro Football Hall of Fame during a halftime ceremony on Sunday, October 11 against the Las Vegas Raiders.  Ceremony will be streamed live on Patriots.com.",
-    "sourceUrl": "https://www.patriots.com/news/patriots-to-honor-adam-vinatieri-during-halftime-ceremony-on-sunday-october-11-against-raiders",
-    "sourceName": "Patriots.com"
   },
   {
     "id": "50120618",

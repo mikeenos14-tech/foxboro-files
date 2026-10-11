@@ -1,48 +1,39 @@
 [
   {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=422632",
+    "publishedAt": "2026-10-11T15:00:50.000Z",
+    "type": "Transaction",
+    "headline": "Caleb Williams ‘Pushing’ To Return In Week 6; Bears Unlikely To Trade Tyson Bagent",
+    "summary": "The Bears will go a third straight game without starting quarterback Caleb Williams on Sunday, but he is progressing toward returning from a hamstring injury. The third-year signal-caller is “pushing” to get back in the lineup in Week 6, Mike Garafolo of NFL Network says. Williams was carted off with what looked like a major […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/caleb-williams-pushing-to-return-in-week-6-bears-unlikely-to-trade-tyson-bagent",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=422608",
+    "publishedAt": "2026-10-11T13:51:21.000Z",
+    "type": "Transaction",
+    "headline": "Texans Expected To Acquire Cardinals WR Marvin Harrison Jr.",
+    "summary": "OCTOBER 11: A Harrison trade will become official either later Sunday or on Monday, according to Mark Kaboly of the Pat McAfee Show. Harrison will not be a Steeler, Kaboly adds. OCTOBER 10: Saturday produced news that Marvin Harrison Jr. is set to have his Cardinals tenure come to an end in the immediate future. The third-year wideout’s destination […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/texans-expected-to-acquire-cardinals-wr-marvin-harrison-jr",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
     "id": "50152303",
-    "publishedAt": "2026-10-11T11:44:49Z",
+    "publishedAt": "2026-10-11T12:54:43Z",
     "type": "Injury",
     "headline": "Doctors fear risk of further Jayden Daniels elbow injury",
-    "summary": "Doctors around the NFL believe it's a matter of when, not if, Commanders QB Jayden Daniels hurts his left elbow again, sources told ESPN.",
+    "summary": "Doctors around the NFL believe it's a matter of when, not if, Commanders quarterback Jayden Daniels hurts his left elbow again, sources told ESPN.",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/50152303/doctors-fear-risk-further-jayden-daniels-elbow-injury",
     "sourceName": "ESPN"
   },
   {
-    "id": "50149803",
-    "publishedAt": "2026-10-11T11:29:36Z",
-    "type": "Transaction",
-    "headline": "Source: Odell Beckham Jr. joins Vikings roster, status unclear",
-    "summary": "While the Vikings elevated receiver Odell Beckham Jr. from the practice squad for Sunday's game, a source said, it's not yet decided if he'll play.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50149803/source-odell-beckham-jr-joins-vikings-roster-status-unclear",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=422514",
-    "publishedAt": "2026-10-11T03:00:30.000Z",
-    "type": "Transaction",
-    "headline": "Ravens Completed Cam Jurgens’ Physical In Philly Before Finalizing Trade",
-    "summary": "The Ravens paid a hefty price to acquire center Cam Jurgens from the Eagles this week, a move that came with significant risk given his 2025 back surgery that could still have lingering effects. Past moves loomed large over the Jurgens trade. The Ravens backed out of their deal for Raiders edge rusher Maxx Crosby […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/ravens-completed-cam-jurgens-physical-in-philly-before-finalizing-trade",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/sundays-games-could-become-a-significant-factor-in-the-marvin-harrison-jr-trade",
-    "publishedAt": "2026-10-11T00:58:23.000Z",
-    "type": "Transaction",
-    "headline": "Sunday's games could become a significant factor in the Marvin Harrison Jr. trade",
-    "summary": "One injury could alter everything, as to Harrison's eventual destination.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/sundays-games-could-become-a-significant-factor-in-the-marvin-harrison-jr-trade",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "50151867",
-    "publishedAt": "2026-10-11T10:05:54Z",
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/vikings-touchdown-drought-isnt-keeping-them-from-winning",
+    "publishedAt": "2026-10-11T14:21:32.000Z",
     "type": "Analysis",
-    "headline": "Sources: Eagles mull Lane Johnson roster status amid O-line changes",
-    "summary": "Lane Johnson is expected to remain on the Eagles' 53-man roster until after June 1 for salary cap purposes as Philadelphia continues to navigate multiple changes to the offensice line.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50151867/sources-eagles-mull-lane-johnson-roster-status-amid-o-line-changes",
-    "sourceName": "ESPN"
+    "headline": "Vikings' touchdown drought isn't keeping them from winning",
+    "summary": "The 4-0 Vikings have turned the page back to the days of the Purple People Eaters.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/vikings-touchdown-drought-isnt-keeping-them-from-winning",
+    "sourceName": "Pro Football Talk"
   },
   {
     "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/kirk-cousins-is-having-a-rare-debut-run-with-the-raiders",
@@ -51,6 +42,15 @@
     "headline": "Kirk Cousins is having a rare debut run with the Raiders",
     "summary": "Now with his fourth NFL team, quarterback Kirk Cousins has made a significant initial impact in Las Vegas.",
     "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/kirk-cousins-is-having-a-rare-debut-run-with-the-raiders",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/trevor-lawrence-continues-to-perform-among-the-nfls-elite-quarterbacks",
+    "publishedAt": "2026-10-11T04:34:09.000Z",
+    "type": "Analysis",
+    "headline": "Trevor Lawrence continues to perform among the NFL's elite quarterbacks",
+    "summary": "The hiring of Liam Coen as head coach of the Jaguars has been very good for quarterback Trevor Lawrence.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/trevor-lawrence-continues-to-perform-among-the-nfls-elite-quarterbacks",
     "sourceName": "Pro Football Talk"
   }
 ]
