@@ -10,9 +10,9 @@
         "rank": 1
       },
       {
-        "playerId": "4695193",
-        "playerName": "Efton Chism III",
-        "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/zbnf3ujmwprzgjnwdtlo",
+        "playerId": "4613202",
+        "playerName": "Kyle Williams",
+        "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/d31ahhl7yt97gu8iei8v",
         "rank": 2
       },
       {
@@ -33,9 +33,9 @@
         "rank": 1
       },
       {
-        "playerId": "4613202",
-        "playerName": "Kyle Williams",
-        "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/d31ahhl7yt97gu8iei8v",
+        "playerId": "4047646",
+        "playerName": "A.J. Brown",
+        "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/qfhvjyssf0lwsh0kienp",
         "rank": 2
       }
     ]
@@ -45,15 +45,15 @@
     "position": "WR3",
     "players": [
       {
-        "playerId": "2991662",
-        "playerName": "Mack Hollins",
-        "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/qbz7whjzsittudcecezw",
+        "playerId": "4695193",
+        "playerName": "Efton Chism III",
+        "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/zbnf3ujmwprzgjnwdtlo",
         "rank": 1
       },
       {
-        "playerId": "4047646",
-        "playerName": "A.J. Brown",
-        "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/qfhvjyssf0lwsh0kienp",
+        "playerId": "2991662",
+        "playerName": "Mack Hollins",
+        "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/qbz7whjzsittudcecezw",
         "rank": 2
       }
     ]
@@ -373,10 +373,16 @@
         "rank": 2
       },
       {
+        "playerId": "4242521",
+        "playerName": "K.J. Britt",
+        "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/q3jwsdcnxx1sqbuetd26",
+        "rank": 3
+      },
+      {
         "playerId": "4912116",
         "playerName": "Khalil Jacobs",
         "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/nldimve5kubrwmcwyke8",
-        "rank": 3
+        "rank": 4
       }
     ]
   },
@@ -419,6 +425,12 @@
         "playerName": "Channing Canada",
         "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/wtv3wfobhufuj8mbpfmj",
         "rank": 2
+      },
+      {
+        "playerId": "4036651",
+        "playerName": "Kindle Vildor",
+        "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/bfvlflg3zop9wvavzuzc",
+        "rank": 3
       }
     ]
   },
@@ -439,10 +451,15 @@
         "rank": 2
       },
       {
+        "playerId": "4688366",
+        "playerName": "Elliott Davison",
+        "rank": 3
+      },
+      {
         "playerId": "4428232",
         "playerName": "Dell Pettus",
         "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tnupiluc7tjysge6pi4y",
-        "rank": 3
+        "rank": 4
       }
     ]
   },

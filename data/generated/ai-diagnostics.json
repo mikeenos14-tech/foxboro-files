@@ -30,7 +30,11 @@
   },
   "preview 2026_05_LV_NE": {
     "status": "written",
-    "problems": [],
-    "at": "2026-10-10T09:03:19.687Z"
+    "problems": [
+      [
+        "It says \"night\", which doesn't fit the kickoff time given."
+      ]
+    ],
+    "at": "2026-10-11T16:13:37.319Z"
   }
 }

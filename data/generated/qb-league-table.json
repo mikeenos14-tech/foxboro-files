@@ -529,7 +529,7 @@
     },
     "pressureEpa": -0.6945869318301342,
     "cleanPocketEpa": 0.36046458208311116,
-    "turnoverWorthyPlayRate": 0.025477707006369428,
+    "turnoverWorthyPlayRate": 0.02,
     "ngs": {
       "timeToThrow": {
         "value": 2.70047916666667,
@@ -738,7 +738,7 @@
   {
     "playerId": "00-0035228",
     "playerName": "Kyler Murray",
-    "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/btfruyf33adgnjzpcuen",
+    "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/qzoa3bglbgxpxcvjqzo1",
     "team": "MIN",
     "completions": 45,
     "attempts": 71,
@@ -834,7 +834,7 @@
   {
     "playerId": "00-0040743",
     "playerName": "Tyler Shough",
-    "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/toiafc7qighw86geo7jf",
+    "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/vu51ogqu4i3abbwpj2fl",
     "team": "NO",
     "completions": 121,
     "attempts": 180,
