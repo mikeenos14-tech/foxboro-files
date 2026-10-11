@@ -1,20 +1,38 @@
 [
   {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=422632",
-    "publishedAt": "2026-10-11T15:00:50.000Z",
-    "type": "Transaction",
-    "headline": "Caleb Williams ‘Pushing’ To Return In Week 6; Bears Unlikely To Trade Tyson Bagent",
-    "summary": "The Bears will go a third straight game without starting quarterback Caleb Williams on Sunday, but he is progressing toward returning from a hamstring injury. The third-year signal-caller is “pushing” to get back in the lineup in Week 6, Mike Garafolo of NFL Network says. Williams was carted off with what looked like a major […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/caleb-williams-pushing-to-return-in-week-6-bears-unlikely-to-trade-tyson-bagent",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
     "id": "profootballrumors-https://www.profootballrumors.com/?p=422608",
     "publishedAt": "2026-10-11T13:51:21.000Z",
     "type": "Transaction",
     "headline": "Texans Expected To Acquire Cardinals WR Marvin Harrison Jr.",
     "summary": "OCTOBER 11: A Harrison trade will become official either later Sunday or on Monday, according to Mark Kaboly of the Pat McAfee Show. Harrison will not be a Steeler, Kaboly adds. OCTOBER 10: Saturday produced news that Marvin Harrison Jr. is set to have his Cardinals tenure come to an end in the immediate future. The third-year wideout’s destination […]",
     "sourceUrl": "https://www.profootballrumors.com/2026/10/texans-expected-to-acquire-cardinals-wr-marvin-harrison-jr",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "50158965",
+    "publishedAt": "2026-10-11T17:43:40Z",
+    "type": "Injury",
+    "headline": "Vikings TE T.J. Hockenson suffers concussion against Saints",
+    "summary": "The Vikings' injury-ravaged offense absorbed another blow Sunday when tight end T.J. Hockenson suffered a concussion on the second play of their game against the Saints.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50158965/vikings-te-tj-hockenson-suffers-concussion-saints",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/marvin-harrison-jr-trade-is-past-the-point-of-no-return",
+    "publishedAt": "2026-10-11T17:48:24.000Z",
+    "type": "Transaction",
+    "headline": "Marvin Harrison Jr. trade is past the point of no return",
+    "summary": "All that's left to decide is when, and where?",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/marvin-harrison-jr-trade-is-past-the-point-of-no-return",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=422632",
+    "publishedAt": "2026-10-11T15:00:50.000Z",
+    "type": "Transaction",
+    "headline": "Caleb Williams ‘Pushing’ To Return In Week 6; Bears Unlikely To Trade Tyson Bagent",
+    "summary": "The Bears will go a third straight game without starting quarterback Caleb Williams on Sunday, but he is progressing toward returning from a hamstring injury. The third-year signal-caller is “pushing” to get back in the lineup in Week 6, Mike Garafolo of NFL Network says. Williams was carted off with what looked like a major […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/caleb-williams-pushing-to-return-in-week-6-bears-unlikely-to-trade-tyson-bagent",
     "sourceName": "Pro Football Rumors"
   },
   {
@@ -27,30 +45,12 @@
     "sourceName": "ESPN"
   },
   {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/vikings-touchdown-drought-isnt-keeping-them-from-winning",
-    "publishedAt": "2026-10-11T14:21:32.000Z",
-    "type": "Analysis",
-    "headline": "Vikings' touchdown drought isn't keeping them from winning",
-    "summary": "The 4-0 Vikings have turned the page back to the days of the Purple People Eaters.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/vikings-touchdown-drought-isnt-keeping-them-from-winning",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/kirk-cousins-is-having-a-rare-debut-run-with-the-raiders",
-    "publishedAt": "2026-10-11T05:02:51.000Z",
-    "type": "Analysis",
-    "headline": "Kirk Cousins is having a rare debut run with the Raiders",
-    "summary": "Now with his fourth NFL team, quarterback Kirk Cousins has made a significant initial impact in Las Vegas.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/kirk-cousins-is-having-a-rare-debut-run-with-the-raiders",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/trevor-lawrence-continues-to-perform-among-the-nfls-elite-quarterbacks",
-    "publishedAt": "2026-10-11T04:34:09.000Z",
-    "type": "Analysis",
-    "headline": "Trevor Lawrence continues to perform among the NFL's elite quarterbacks",
-    "summary": "The hiring of Liam Coen as head coach of the Jaguars has been very good for quarterback Trevor Lawrence.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/trevor-lawrence-continues-to-perform-among-the-nfls-elite-quarterbacks",
-    "sourceName": "Pro Football Talk"
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=422641",
+    "publishedAt": "2026-10-11T16:12:17.000Z",
+    "type": "Transaction",
+    "headline": "Chargers Could Shop Quentin Johnston",
+    "summary": "The Chargers gave wide receiver Quentin Johnston a vote of confidence and a lot of money when they exercised his fifth-year option during the offseason. However, with the Bolts off to a disastrous 0-4 start as the Nov. 10 trade deadline approaches, multiple sources told Ralph Vacchiano of Fox Sports that the team could put […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/chargers-could-shop-quentin-johnston",
+    "sourceName": "Pro Football Rumors"
   }
 ]

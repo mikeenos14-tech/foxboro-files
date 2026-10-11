@@ -1,5 +1,23 @@
 [
   {
+    "id": "e5dd06e4-e010-4235-922a-6b467968075b",
+    "publishedAt": "2026-10-11T15:34:41.000Z",
+    "type": "Analysis",
+    "headline": "Week 5 Inactives: Raiders at Patriots",
+    "summary": "The New England Patriots and Las Vegas Raiders announce the following inactive players ahead of their NFL Week 5 game on October 11, 2026.",
+    "sourceUrl": "https://www.patriots.com/news/week-5-inactives-raiders-at-patriots",
+    "sourceName": "Patriots.com"
+  },
+  {
+    "id": "d5bf3157-1b12-4378-a526-a12a100b3ed5",
+    "publishedAt": "2026-10-11T15:32:04.000Z",
+    "type": "Analysis",
+    "headline": "Inactives Analysis: Patriots RB Rhamondre Stevenson, DT Christian Barmore active for Sunday's game vs. Raiders",
+    "summary": "Barmore (shoulder) returns after a one-game absence in Sunday's Week 5 matchup at Gillette Stadium.",
+    "sourceUrl": "https://www.patriots.com/news/inactives-analysis-patriots-rb-rhamondre-stevenson-dt-christian-barmore-active-for-sunday-s-game-vs-raiders",
+    "sourceName": "Patriots.com"
+  },
+  {
     "id": "e68e15c4-1b9d-4940-a355-6ae76a39afc4",
     "publishedAt": "2026-10-11T12:13:00.000Z",
     "type": "Analysis",
@@ -45,24 +63,6 @@
     "sourceName": "Patriots.com"
   },
   {
-    "id": "e2948bf4-caaf-4c0a-ae32-eb1c5cb7e766",
-    "publishedAt": "2026-10-10T20:00:13.000Z",
-    "type": "Transaction",
-    "headline": "Patriots Activate S Brenden Schooler to the 53-Man Roster; Place FB Reggie Gilliam and WR Mack Hollins on Injured Reserve; Make Additional Roster Moves",
-    "summary": "The Patriots announced today that S Brenden Schooler has been activated to the 53-man roster. In addition, the Patriots placed FB Reggie Gilliam and WR Mack Hollins on injured reserve and signed CB Kindle Vildor to the 53-man roster from the practice squad.",
-    "sourceUrl": "https://www.patriots.com/news/patriots-activate-s-brenden-schooler-to-the-53-man-roster-place-fb-reggie-gilliam-and-wr-mack-hollins-on-injured-reserve-make-additional-roster-moves",
-    "sourceName": "Patriots.com"
-  },
-  {
-    "id": "5534b301-2ceb-4737-a2da-3f719055abcd",
-    "publishedAt": "2026-10-10T18:00:00.000Z",
-    "type": "Analysis",
-    "headline": "Game Preview: Patriots vs. Raiders | NFL Week 5",
-    "summary": "The New England Patriots will host the Las Vegas Raiders at Gillette Stadium on Sunday, October 11 at 1 PM ET.",
-    "sourceUrl": "https://www.patriots.com/news/game-preview-patriots-vs-raiders-nfl-week-5",
-    "sourceName": "Patriots.com"
-  },
-  {
     "id": "50141584",
     "publishedAt": "2026-10-09T18:39:41Z",
     "type": "Analysis",
@@ -96,15 +96,6 @@
     "headline": "Patriots get mixed injury news",
     "summary": "Mike Reiss reports Rhamondre Stevenson returned to practice while Christian Gonzalez and Carlton Davis remain out.",
     "sourceUrl": "https://www.espn.com/video/clip/_/id/50135803/patriots-get-mixed-injury-news",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50134846",
-    "publishedAt": "2026-10-08T20:10:45Z",
-    "type": "Analysis",
-    "headline": "Why Stephen A. trusts the Patriots more than the Raiders",
-    "summary": "Why Stephen A. trusts the Patriots more than the Raiders",
-    "sourceUrl": "https://www.espn.com/video/clip/_/id/50134846/why-stephen-trusts-patriots-more-raiders",
     "sourceName": "ESPN"
   },
   {
