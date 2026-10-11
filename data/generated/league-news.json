@@ -18,13 +18,22 @@
     "sourceName": "Pro Football Rumors"
   },
   {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/ravens-are-much-different-with-and-without-lamar-jackson",
-    "publishedAt": "2026-10-10T13:20:21.000Z",
-    "type": "Injury",
-    "headline": "Ravens are much different with and without Lamar Jackson",
-    "summary": "As expected, given that he's week-to-week with an ankle injury, Ravens quarterback Lamar Jackson will miss Sunday night's game against the Falcons.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/ravens-are-much-different-with-and-without-lamar-jackson",
-    "sourceName": "Pro Football Talk"
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=422561",
+    "publishedAt": "2026-10-10T20:28:09.000Z",
+    "type": "Transaction",
+    "headline": "Chargers Place QB Trey Lance, T Trevor Penning On IR; Activate Two From IR",
+    "summary": "Attrition continues to provide hardship for the still winless Chargers. Los Angeles announced today that, while they were able to activate fullback/defensive tackle Scott Matlock and offensive lineman Branson Taylor from injured reserve, they will be taking the roster spots of quarterback Trey Lance and offensive tackle Trevor Penning, who are being placed on IR. […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/chargers-place-qb-trey-lance-t-trevor-penning-on-ir-activate-two-from-ir",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=422165",
+    "publishedAt": "2026-10-10T23:50:46.000Z",
+    "type": "Analysis",
+    "headline": "Eagles RT Lane Johnson To Retire",
+    "summary": "OCTOBER 10: Johnson’s retirement has not yet been officially processed, as noted by The Athletic’s Jonathan Jones. Part of an option bonus payment worth $21.7MM was due to be paid in December, while the Eagles could look to get back some of the 2026 money already paid. Philadelphia’s approach (which could include a procedural move to […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/eagles-rt-lane-johnson-to-retire",
+    "sourceName": "Pro Football Rumors"
   },
   {
     "id": "profootballrumors-https://www.profootballrumors.com/?p=422386",
@@ -36,21 +45,12 @@
     "sourceName": "Pro Football Rumors"
   },
   {
-    "id": "50149803",
-    "publishedAt": "2026-10-10T20:46:04Z",
-    "type": "Transaction",
-    "headline": "Source: Odell Beckham Jr. joins Vikings roster, status unclear",
-    "summary": "While the Vikings elevated receiver Odell Beckham Jr. from the practice squad for Sunday's game, a source said, it's not yet decided if he'll play.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50149803/source-odell-beckham-jr-joins-vikings-roster-status-unclear",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=422561",
-    "publishedAt": "2026-10-10T20:28:09.000Z",
-    "type": "Transaction",
-    "headline": "Chargers Place QB Trey Lance, T Trevor Penning On IR; Activate Two From IR",
-    "summary": "Attrition continues to provide hardship for the still winless Chargers. Los Angeles announced today that, while they were able to activate fullback/defensive tackle Scott Matlock and offensive lineman Branson Taylor from injured reserve, they will be taking the roster spots of quarterback Trey Lance and offensive tackle Trevor Penning, who are being placed on IR. […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/chargers-place-qb-trey-lance-t-trevor-penning-on-ir-activate-two-from-ir",
-    "sourceName": "Pro Football Rumors"
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/seahawks-sign-cb-trevon-diggs-to-their-active-roster",
+    "publishedAt": "2026-10-10T20:32:38.000Z",
+    "type": "Analysis",
+    "headline": "Seahawks sign CB Trevon Diggs to their active roster",
+    "summary": "Cornerback Trevon Diggs made his Seahawks debut last Sunday and he moved up to the active roster on a lasting basis Saturday.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/seahawks-sign-cb-trevon-diggs-to-their-active-roster",
+    "sourceName": "Pro Football Talk"
   }
 ]

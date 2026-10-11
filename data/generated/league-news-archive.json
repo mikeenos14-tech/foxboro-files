@@ -1,12 +1,102 @@
 [
   {
+    "id": "50149803",
+    "publishedAt": "2026-10-11T00:00:26Z",
+    "type": "Transaction",
+    "headline": "Source: Odell Beckham Jr. joins Vikings roster, status unclear",
+    "summary": "While the Vikings elevated receiver Odell Beckham Jr. from the practice squad for Sunday's game, a source said, it's not yet decided if he'll play.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50149803/source-odell-beckham-jr-joins-vikings-roster-status-unclear",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=422165",
+    "publishedAt": "2026-10-10T23:50:46.000Z",
+    "type": "Analysis",
+    "headline": "Eagles RT Lane Johnson To Retire",
+    "summary": "OCTOBER 10: Johnson’s retirement has not yet been officially processed, as noted by The Athletic’s Jonathan Jones. Part of an option bonus payment worth $21.7MM was due to be paid in December, while the Eagles could look to get back some of the 2026 money already paid. Philadelphia’s approach (which could include a procedural move to […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/eagles-rt-lane-johnson-to-retire",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/arch-mannings-two-fourth-quarter-interceptions-doom-texas-in-loss-to-oklahoma",
+    "publishedAt": "2026-10-10T23:38:09.000Z",
+    "type": "Analysis",
+    "headline": "Arch Manning's two fourth-quarter interceptions doom Texas in loss to Oklahoma",
+    "summary": "Texas is No. 1 no more, after a two-interception fourth quarter from quarterback Arch Manning handed Oklahoma a come-from-behind victory in the Red River Rivalry.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/arch-mannings-two-fourth-quarter-interceptions-doom-texas-in-loss-to-oklahoma",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "50151392",
+    "publishedAt": "2026-10-10T23:02:08Z",
+    "type": "Analysis",
+    "headline": "Christian McCaffrey, Olivia Culpo announce birth of second child",
+    "summary": "McCaffrey and his wife, Olivia Culpo, announced the news of the birth of their second child in a joint post on Instagram on Saturday.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50151392/christian-mccaffrey-olivia-culpo-second-child",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=422517",
+    "publishedAt": "2026-10-10T22:33:25.000Z",
+    "type": "Injury",
+    "headline": "Minor NFL Transactions: 10/10/26",
+    "summary": "Here are Week 5’s minor moves and standard gameday practice squad elevations: Arizona Cardinals Signed from practice squad: CB Art Green Atlanta Falcons Signed from practice squad: S Jammie Robinson Elevated: DE Drake Jackson, DE Bralen Trice Placed on IR: LB Yasir Abdullah Baltimore Ravens Elevated: T Chuma Edoga, G Kyle Hergel Cincinnati Bengals Elevated: […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/minor-nfl-transactions-10-10-26",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/nfl-issues-season-high-10-fines-for-player-safety-fouls-in-week-4",
+    "publishedAt": "2026-10-10T21:57:13.000Z",
+    "type": "Analysis",
+    "headline": "NFL issues season-high 10 fines for player safety fouls in Week 4",
+    "summary": "The NFL's announced Week 4 fines featured a season-high 10 infractions for player safety fouls that qualify toward a possible suspension.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/nfl-issues-season-high-10-fines-for-player-safety-fouls-in-week-4",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=422518",
+    "publishedAt": "2026-10-10T21:45:42.000Z",
+    "type": "Transaction",
+    "headline": "NFL Practice Squad Updates: 10/10/26",
+    "summary": "Saturday’s practice squad moves: San Francisco 49ers Signed: DT Ogbonnia Okoronkwo Released: DE Matt Judon As expected, Okoronkwo is announced right back with the 49ers’ practice squad after getting released yesterday. The veteran’s relationship with defensive coordinator Raheem Morris will keep him in San Francisco, and his willingness to move back and forth between the […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/nfl-practice-squad-updates-10-10-26",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/49ers-cut-matthew-judon-from-practice-squad",
+    "publishedAt": "2026-10-10T21:39:50.000Z",
+    "type": "Transaction",
+    "headline": "49ers cut Matthew Judon from practice squad",
+    "summary": "The 49ers released defensive end Matthew Judon from the practice squad on Saturday.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/49ers-cut-matthew-judon-from-practice-squad",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/nfl-fines-three-browns-players-including-deshaun-watson-for-smoking-celebration",
+    "publishedAt": "2026-10-10T21:16:59.000Z",
+    "type": "Analysis",
+    "headline": "NFL fines three Browns players, including Deshaun Watson, for smoking celebration",
+    "summary": "The joint statement from the NFL and NFL Players Association regarding impermissible celebrations makes it clear that players will still be fined for, well, joints.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/nfl-fines-three-browns-players-including-deshaun-watson-for-smoking-celebration",
+    "sourceName": "Pro Football Talk"
+  },
+  {
     "id": "50150638",
-    "publishedAt": "2026-10-10T21:04:08Z",
+    "publishedAt": "2026-10-10T21:13:08Z",
     "type": "Injury",
     "headline": "Rams: Myles Garrett making 'good progress,' but no return timeline",
     "summary": "Los Angeles Rams defensive end Myles Garrett is \"making good progress\" in his recovery from knee surgery, coach Sean McVay said, but the team is unlikely to open his 21-day practice window next week.",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/50150638/rams-say-myles-garrett-making-good-progress-no-return-line",
     "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=421903",
+    "publishedAt": "2026-10-10T21:11:37.000Z",
+    "type": "Transaction",
+    "headline": "49ers Activate DE Mykel Williams To Play In Week 5; Latest On WRs Mike Evans, Christian Kirk",
+    "summary": "OCTOBER 10: As expected, the 49ers officially announced this afternoon that they have activated Williams from the reserve/physically unable to perform list. OCTOBER 4: The 49ers have received a rare piece of good news on the injury front. Per CBS Sports’ Matt Zenitz, DE Mykel Williams is expected to play in San Francisco’s key Week […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/49ers-activate-de-mykel-williams-to-play-in-week-5-latest-on-wrs-mike-evans-christian-kirk",
+    "sourceName": "Pro Football Rumors"
   },
   {
     "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/patriots-put-wr-mack-hollins-on-injured-reserve",
@@ -34,15 +124,6 @@
     "summary": "Dolphins defensive lineman Kenneth Grant is set to make his 2026 debut.",
     "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dolphins-activate-kenneth-grant-from-injured-reserve",
     "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "50149803",
-    "publishedAt": "2026-10-10T20:46:04Z",
-    "type": "Transaction",
-    "headline": "Source: Odell Beckham Jr. joins Vikings roster, status unclear",
-    "summary": "While the Vikings elevated receiver Odell Beckham Jr. from the practice squad for Sunday's game, a source said, it's not yet decided if he'll play.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50149803/source-odell-beckham-jr-joins-vikings-roster-status-unclear",
-    "sourceName": "ESPN"
   },
   {
     "id": "profootballrumors-https://www.profootballrumors.com/?p=422289",
@@ -3825,15 +3906,6 @@
     "sourceName": "Pro Football Talk"
   },
   {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=422165",
-    "publishedAt": "2026-10-07T04:00:46.000Z",
-    "type": "Analysis",
-    "headline": "Eagles RT Lane Johnson To Retire",
-    "summary": "Lane Johnson missed the Eagles’ Week 4 game for personal reasons. The organization has since announced a bombshell; the 14th-year right tackle is retiring in-season. Johnson, 36, had indicated this offseason the 2026 season would probably be his last. He explained in a retirement post why his plan changed from a retirement after the season […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/eagles-rt-lane-johnson-to-retire",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
     "id": "profootballrumors-https://www.profootballrumors.com/?p=422156",
     "publishedAt": "2026-10-07T03:41:39.000Z",
     "type": "Transaction",
@@ -7522,15 +7594,6 @@
     "summary": "On the surface, Sunday's game between the Cardinals and the Giants brings little if any sizzle to the NFL menu.",
     "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cardinals-giants-carries-unexpected-historical-significance",
     "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=421903",
-    "publishedAt": "2026-10-04T14:21:37.000Z",
-    "type": "Injury",
-    "headline": "49ers Expect DE Mykel Williams To Play In Week 5; Latest On WRs Mike Evans, Christian Kirk",
-    "summary": "The 49ers have received a rare piece of good news on the injury front. Per CBS Sports’ Matt Zenitz, DE Mykel Williams is expected to play in San Francisco’s key Week 5 matchup with the Seahawks.  Williams, a 2025 first-rounder, sustained an ACL tear midway through his rookie season. He landed on injured reserve as […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/49ers-expect-de-mykel-williams-to-play-in-week-5-latest-on-wrs-mike-evans-christian-kirk",
-    "sourceName": "Pro Football Rumors"
   },
   {
     "id": "profootballrumors-https://www.profootballrumors.com/?p=421549",
@@ -15477,159 +15540,6 @@
     "headline": "Dante Moore knocked out with brutal hit to the head while sliding",
     "summary": "Moore, a potential first overall pick in the 2027 NFL draft, was put on a stretcher and carted to an ambulance.",
     "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dante-moore-knocked-out-with-brutal-hit-to-the-head-while-sliding",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=421006",
-    "publishedAt": "2026-09-27T00:01:22.000Z",
-    "type": "Injury",
-    "headline": "Chargers Place OL Trey Pipkins On IR",
-    "summary": "The Chargers’ offensive line has been dealt another blow. Trey Pipkins has been placed on injured reserve, per a team announcement. Pipkins is dealing with a knee injury, and today’s move ensures he will be absent for at least the next four games. The eighth-year veteran represents the latest injury along the interior of Los Angeles’ […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/09/chargers-place-ol-trey-pipkins-on-ir",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=420998",
-    "publishedAt": "2026-09-26T23:07:56.000Z",
-    "type": "Injury",
-    "headline": "Thomas Harper Becomes Latest Lions S On Injured Lists",
-    "summary": "As the Lions await the eventual return of starting safeties Kerby Joseph and Brian Branch, they continue to see attrition in the secondary. Ahead of Detroit’s Week 3 matchup with the Jets, the team placed safety Thomas Harper on injured reserve. To help fill out the depth of the position, veteran Jalen Mills will be […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/09/thomas-harper-becomes-latest-lions-s-on-injured-lists",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "50036843",
-    "publishedAt": "2026-09-26T22:43:52Z",
-    "type": "Injury",
-    "headline": "Broncos place RB Jonah Coleman (ankle) on IR",
-    "summary": "Denver Broncos rookie running back Jonah Coleman was placed on injured reserve Saturday with an ankle injury he suffered in the team's Week 2 win over the Jacksonville Jaguars.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50036843/broncos-place-rb-jonah-coleman-ankle-ir",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/rules-permit-12th-player-to-hold-ball-on-kickoffs-without-tee-regardless-of-weather",
-    "publishedAt": "2026-09-26T22:38:22.000Z",
-    "type": "Analysis",
-    "headline": "Rules permit 12th player to hold ball on kickoffs without tee, regardless of weather",
-    "summary": "If teams want to use a 12th man to hold the ball for kickoffs, they can.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/rules-permit-12th-player-to-hold-ball-on-kickoffs-without-tee-regardless-of-weather",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/close-up-images-of-field-at-maracana-stadium-a-day-before-ravens-cowboys",
-    "publishedAt": "2026-09-26T22:17:01.000Z",
-    "type": "Analysis",
-    "headline": "Close-up images of field at Maracanã Stadium, a day before Ravens-Cowboys",
-    "summary": "Ready or not, the Ravens and Cowboys will play on Sunday, at Maracanä Stadium in Rio de Janeiro, Brazil.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/close-up-images-of-field-at-maracana-stadium-a-day-before-ravens-cowboys",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "50028606",
-    "publishedAt": "2026-09-26T22:00:06Z",
-    "type": "Analysis",
-    "headline": "Patriots need rookie LB Gabe Jacas to fill big shoes on defense",
-    "summary": "The second-round pick has made impact plays over the first two weeks and will start vs. the Jaguars. Here's the latest on Jacas and other notes on the Patriots.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50028606/new-england-patriots-week-3-defense-gabe-jacas-rookie",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/deion-sanders-says-colorado-is-better-than-the-score-shows-after-another-loss",
-    "publishedAt": "2026-09-26T21:58:36.000Z",
-    "type": "Injury",
-    "headline": "Deion Sanders says Colorado is better than the score shows after another loss",
-    "summary": "Colorado lost its second consecutive game today, and afterward head coach Deion Sanders said he's struggling to figure out why his team's results aren't what they should be.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/deion-sanders-says-colorado-is-better-than-the-score-shows-after-another-loss",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/broncos-put-rookie-rb-jonah-coleman-on-ir",
-    "publishedAt": "2026-09-26T21:55:21.000Z",
-    "type": "Injury",
-    "headline": "Broncos put rookie RB Jonah Coleman on IR",
-    "summary": "Broncos rookie running back Jonah Coleman scored his first NFL touchdown in Week 2, but he won't have a chance to add to that total for a while.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/broncos-put-rookie-rb-jonah-coleman-on-ir",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/giants-sign-qb-jake-haener-to-53-man-roster",
-    "publishedAt": "2026-09-26T21:47:33.000Z",
-    "type": "Transaction",
-    "headline": "Giants sign QB Jake Haener to 53-man roster",
-    "summary": "The Giants are planning to add a quarterback from outside the organization in the near future, but it won't happen before Sunday's game against the Titans.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/giants-sign-qb-jake-haener-to-53-man-roster",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/steelers-place-gennings-dunker-on-injured-reserve",
-    "publishedAt": "2026-09-26T21:36:01.000Z",
-    "type": "Injury",
-    "headline": "Steelers place Gennings Dunker on injured reserve",
-    "summary": "The Steelers' Saturday roster moves included the placement of one of their top rookies on injured reserve.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/steelers-place-gennings-dunker-on-injured-reserve",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "50029379",
-    "publishedAt": "2026-09-26T21:33:09Z",
-    "type": "Injury",
-    "headline": "QB Sam Darnold back Sunday, but Seahawks down two safeties",
-    "summary": "Seahawks quarterback Sam Darnold will start Sunday, but the defending Super Bowl champions will be without both starting safeties as Julian Love and Ty Okada have been ruled out.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50029379/qb-sam-darnold-back-sunday-seahawks-two-safeties",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/chargers-place-ol-trey-pipkins-iii-on-ir-sign-qb-dj-uiagalelei-to-active-roster",
-    "publishedAt": "2026-09-26T21:32:48.000Z",
-    "type": "Injury",
-    "headline": "Chargers place OL Trey Pipkins III on IR, sign QB DJ Uiagalelei to active roster",
-    "summary": "The Chargers placed offensive lineman Trey Pipkins III on injured reserve, the team announced Saturday.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/chargers-place-ol-trey-pipkins-iii-on-ir-sign-qb-dj-uiagalelei-to-active-roster",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/matt-judon-three-others-work-out-for-49ers-with-nick-bosa-injured",
-    "publishedAt": "2026-09-26T21:30:14.000Z",
-    "type": "Injury",
-    "headline": "Matt Judon, three others work out for 49ers with Nick Bosa injured",
-    "summary": "49ers defensive end Nick Bosa is out for Sunday's game with a calf injury and he is expected to miss more time, so the team looked at a few options to bolster the position on Saturday.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/matt-judon-three-others-work-out-for-49ers-with-nick-bosa-injured",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=420972",
-    "publishedAt": "2026-09-26T21:27:29.000Z",
-    "type": "Injury",
-    "headline": "Minor NFL Transactions: 9/26/26",
-    "summary": "Today’s minor moves heading into the third weekend of the NFL season: Baltimore Ravens Elevated: S K’Von Wallace Buffalo Bills Elevated: CB Te’Cory Couch Carolina Panthers Signed from practice squad: LB Maema Njongmeta Elevated: WR David Moore, RB Anthony Tyus III Placed on IR: LB Claudin Cherelus Cincinnati Bengals Signed from practice squad: LB Joe […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/09/minor-nfl-transactions-9-26-26",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/week-2-saw-one-fine-for-a-hip-drop-tackle-two-fines-for-hits-on-defenseless-players",
-    "publishedAt": "2026-09-26T21:21:30.000Z",
-    "type": "Analysis",
-    "headline": "Week 2 saw one fine for a hip-drop tackle, two fines for hits on defenseless players",
-    "summary": "The NFL adopted a new policy regarding five player safety rules this offseason and the announcement of fines for Week 2 showed that there were three fouls in those categories.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/week-2-saw-one-fine-for-a-hip-drop-tackle-two-fines-for-hits-on-defenseless-players",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/nfl-fined-49ers-fb-kyle-juszczyk-twice-for-imitating-chugging-a-beer",
-    "publishedAt": "2026-09-26T21:17:59.000Z",
-    "type": "Analysis",
-    "headline": "NFL fined 49ers FB Kyle Juszczyk twice for imitating chugging a beer",
-    "summary": "49ers fullback Kyle Juszczyk took offense at a $14,926 fine he received this week for \"engaging in offensive demonstrations.\"",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/nfl-fined-49ers-fb-kyle-juszczyk-twice-for-imitating-chugging-a-beer",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/tee-higgins-amon-ra-st-brown-each-fined-four-times-for-obscene-gestures-illegal-celebrations",
-    "publishedAt": "2026-09-26T21:09:04.000Z",
-    "type": "Injury",
-    "headline": "Tee Higgins, Amon-Ra St. Brown each fined four times for obscene gestures, illegal celebrations",
-    "summary": "We learned during the week that Bengals wide receivers Ja'Marr Chase and Tee Higgins were fined for gestures deemed to be obscene by the league office, but it turns out that both players were fined multiple times.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/tee-higgins-amon-ra-st-brown-each-fined-four-times-for-obscene-gestures-illegal-celebrations",
     "sourceName": "Pro Football Talk"
   }
 ]
