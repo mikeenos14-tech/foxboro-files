@@ -1,56 +1,56 @@
 [
   {
-    "id": "50160631",
-    "publishedAt": "2026-10-11T20:50:47Z",
+    "id": "50162505",
+    "publishedAt": "2026-10-12T00:10:15Z",
+    "type": "Analysis",
+    "headline": "49ers move to 5-0 after thrilling win over the Seahawks",
+    "summary": "49ers move to 5-0 after thrilling win over the Seahawks",
+    "sourceUrl": "https://www.espn.com/video/clip/_/id/50162505/49ers-move-5-0-thrilling-win-seahawks",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50162240",
+    "publishedAt": "2026-10-11T23:35:28Z",
+    "type": "Analysis",
+    "headline": "Jared Goff, Jahmyr Gibbs lead the Lions' offensive romp in a 45-21 win over the Cardinals",
+    "summary": "— Jared Goff threw three touchdown passes, Jahmyr Gibbs added 151 yards rushing and two more scores and the Detroit Lions shook off a slow start by scoring 31 straight points to roll past the Arizona Cardinals 45-21 on Sunday.",
+    "sourceUrl": "http://www.espn.com/nfl/recap?gameId=401872991",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50162150",
+    "publishedAt": "2026-10-12T00:03:36Z",
+    "type": "Analysis",
+    "headline": "David Bailey delivers breakthrough performance in Jets' win",
+    "summary": "Desperate to get back in the win column on Sunday, the New York Jets were lifted 23-year-old rookie David Bailey, who delivered his breakthrough performance, recording three sacks and eight quarterback pressures, in a 17-12 win over the Cleveland Browns.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50162150/david-bailey-delivers-breakthrough-performance-jets-win",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50162296",
+    "publishedAt": "2026-10-11T23:45:28Z",
+    "type": "Analysis",
+    "headline": "Wil Lutz's field goals help Broncos surge past winless Chargers in 4th for 23-17 victory",
+    "summary": "— Wil Lutz kicked a go-ahead 19-yard field goal with 5:07 remaining, lifting the Denver Broncos over the winless and mistake-prone Los Angeles Chargers 23-17 on Sunday.",
+    "sourceUrl": "http://www.espn.com/nfl/recap?gameId=401872989",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dan-quinn-committed-a-fireable-offense-and-ownership-knows-it",
+    "publishedAt": "2026-10-11T21:34:16.000Z",
+    "type": "Analysis",
+    "headline": "Dan Quinn committed a fireable offense, and ownership knows it",
+    "summary": "Quinn is ultimately responsible for one of the worst examples of clock management, ever.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dan-quinn-committed-a-fireable-offense-and-ownership-knows-it",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "50043471",
+    "publishedAt": "2026-10-11T20:56:40Z",
     "type": "Transaction",
-    "headline": "Texans complete trade with Cardinals for WR Marvin Harrison Jr.",
-    "summary": "The Texans have completed a trade for Cardinals wide receiver Marvin Harrison Jr., coach DeMeco Ryans told reporters.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50160631/texans-complete-trade-cardinals-wr-marvin-harrison-jr",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50160832",
-    "publishedAt": "2026-10-11T21:02:27Z",
-    "type": "Analysis",
-    "headline": "Jayden Daniels and Commanders settle for 27-27 tie with Giants after botching final play of OT",
-    "summary": "— Jayden Daniels took off on an ill-advised scramble in the closing seconds of overtime with the Commanders in field goal range and Washington was unable to stop the clock before time...",
-    "sourceUrl": "http://www.espn.com/nfl/recap?gameId=401872988",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50160523",
-    "publishedAt": "2026-10-11T20:23:28Z",
-    "type": "Analysis",
-    "headline": "Jefferson, Jones and Murray all produce to help the unbeaten Vikings top the slumping Saints 23-13",
-    "summary": "— Justin Jefferson highlighted his return to Minnesota's lineup with a leaping touchdown catch, Aaron Jones made up for an early fumble with a pivotal, fourth-quarter touchdown and the Vikings remained unbeaten with a 23-13 victory over the slumping...",
-    "sourceUrl": "http://www.espn.com/nfl/recap?gameId=401872987",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50160520",
-    "publishedAt": "2026-10-11T20:22:28Z",
-    "type": "Analysis",
-    "headline": "Love-Watson connection helps Packers take some revenge on Bears with a 31-7 rout",
-    "summary": "— Christian Watson caught two long touchdown passes from Jordan Love, MarShawn Lloyd also scored twice and the Green Bay Packers exacted a measure of revenge against the Chicago Bears by trouncing them 31-7 on Sunday.",
-    "sourceUrl": "http://www.espn.com/nfl/recap?gameId=401872990",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50160547",
-    "publishedAt": "2026-10-11T20:57:21Z",
-    "type": "Analysis",
-    "headline": "Jaguars' emergency long snapper plays unlikely hero in win over Eagles",
-    "summary": "Jaguars nose tackle DaVon Hamilton delivered the crucial snap on Cam Little's game-winning 57-yard field goal.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50160547/davon-hamilton-snap-cam-little-game-winning-kick",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50160667",
-    "publishedAt": "2026-10-11T20:58:27Z",
-    "type": "Analysis",
-    "headline": "Allen has late 22-yard TD run and Jets' defense, special teams come up big in 17-12 win over Browns",
-    "summary": "— Braelon Allen ran 22 yards for the go-ahead touchdown late in the fourth quarter after New York recovered a fumbled punt snap and the Jets ended a three-game skid with a 17-12 victory over the Cleveland Browns on a rain-soaked Sunday.",
-    "sourceUrl": "http://www.espn.com/nfl/recap?gameId=401872983",
+    "headline": "2026 NFL trade deadline updates: Marvin Harrison Jr., Cam Jurgens on the move",
+    "summary": "The NFL trade deadline is Nov. 10, but deals have already started. We're tracking all moves, including the Cards sending Marvin Harrison Jr. to the Texans.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50043471/2026-trade-deadline-updates-latest-news-deals-terms",
     "sourceName": "ESPN"
   }
 ]

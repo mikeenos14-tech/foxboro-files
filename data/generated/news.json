@@ -1,5 +1,50 @@
 [
   {
+    "id": "8a4bd40c-da2b-4f07-8631-35faad1681a0",
+    "publishedAt": "2026-10-11T22:48:00.000Z",
+    "type": "Beat Report",
+    "headline": "Game Observations: 8 takeaways from the Patriots dominant win over the Raiders in Week 5",
+    "summary": "Despite being down multiple starters, the Patriots cruised to a 45-17 victory over the Raiders at Gillette Stadium on Sunday.",
+    "sourceUrl": "https://www.patriots.com/news/game-observations-8-takeaways-from-the-patriots-dominant-win-over-the-raiders-in-week-5",
+    "sourceName": "Patriots.com"
+  },
+  {
+    "id": "c44f2c8f-c26e-461f-adff-82a1c3d5d46d",
+    "publishedAt": "2026-10-11T22:43:00.000Z",
+    "type": "Beat Report",
+    "headline": "Game Notes: Drake Maye Records Five Total Touchdowns Against the Raiders",
+    "summary": "Game notes and stats from the Patriots Week 5 game against the Las Vegas Raiders on Sunday, October 11, 2026.",
+    "sourceUrl": "https://www.patriots.com/news/game-notes-drake-maye-records-five-total-touchdowns-against-the-raiders",
+    "sourceName": "Patriots.com"
+  },
+  {
+    "id": "50159892",
+    "publishedAt": "2026-10-11T22:23:26Z",
+    "type": "Injury",
+    "headline": "Patriots lose TreVeyon Henderson, Will Campbell in big win",
+    "summary": "Patriots RB TreVeyon Henderson (ankle) and LT Will Campbell (knee) left Sunday's win vs. the Raiders with injuries and did not return.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50159892/patriots-rule-treveyon-henderson-campbell",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50160588",
+    "publishedAt": "2026-10-11T21:47:27Z",
+    "type": "Analysis",
+    "headline": "Drake Maye accounts for 5 TDs as Patriots roll past Raiders 45-17",
+    "summary": "— Drake Maye didn't have his top receiver, and the New England Patriots were missing both of their starting cornerbacks.",
+    "sourceUrl": "http://www.espn.com/nfl/recap?gameId=401872986",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "b0c81fc5-82b0-43a0-bcbf-80a54ddcdc74",
+    "publishedAt": "2026-10-11T21:30:00.000Z",
+    "type": "Beat Report",
+    "headline": "New England Patriots Postgame Quotes 10/11",
+    "summary": "New England Patriots Head Coach Mike Vrabel and select players comment on their Week 5 game against the Las Vegas Raiders on Sunday, October 11, 2026.",
+    "sourceUrl": "https://www.patriots.com/news/new-england-patriots-postgame-quotes-10-11",
+    "sourceName": "Patriots.com"
+  },
+  {
     "id": "31dc89bc-9bb8-4493-b194-06abe5d3870d",
     "publishedAt": "2026-10-11T20:59:12.000Z",
     "type": "Beat Report",
@@ -18,22 +63,13 @@
     "sourceName": "ESPN"
   },
   {
-    "id": "50159892",
-    "publishedAt": "2026-10-11T20:32:43Z",
-    "type": "Injury",
-    "headline": "Patriots lose TreVeyon Henderson, Will Campbell in big win",
-    "summary": "Patriots RB TreVeyon Henderson (ankle) and LT Will Campbell (knee) left Sunday's win vs. the Raiders with injuries and did not return.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50159892/patriots-rule-treveyon-henderson-campbell",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50160588",
-    "publishedAt": "2026-10-11T20:30:28Z",
-    "type": "Analysis",
-    "headline": "Drake Maye accounts for 5 TDs as Patriots roll past Raiders 45-17",
-    "summary": "— Drake Maye threw for four touchdown passes and ran for another score, and the New England Patriots rolled past...",
-    "sourceUrl": "http://www.espn.com/nfl/recap?gameId=401872986",
-    "sourceName": "ESPN"
+    "id": "d3de1ab3-6187-49ff-8098-499d82cff67a",
+    "publishedAt": "2026-10-11T20:00:00.000Z",
+    "type": "Beat Report",
+    "headline": "Las Vegas Raiders Postgame Quotes 10/11",
+    "summary": "Las Vegas Raiders Head Coach Klint Kubiak and select players comment on their Week 5 game against the New England Patriots on Sunday, October 11, 2026.",
+    "sourceUrl": "https://www.patriots.com/news/las-vegas-raiders-postgame-quotes-10-11",
+    "sourceName": "Patriots.com"
   },
   {
     "id": "50120618",
@@ -43,42 +79,6 @@
     "summary": "Here's a look at what each NFL team is wearing in Week 5, led by the Green Bay Packers debuting their Rivalries look.",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/50120618/nfl-week-5-uniforms",
     "sourceName": "ESPN"
-  },
-  {
-    "id": "e5dd06e4-e010-4235-922a-6b467968075b",
-    "publishedAt": "2026-10-11T15:34:41.000Z",
-    "type": "Analysis",
-    "headline": "Week 5 Inactives: Raiders at Patriots",
-    "summary": "The New England Patriots and Las Vegas Raiders announce the following inactive players ahead of their NFL Week 5 game on October 11, 2026.",
-    "sourceUrl": "https://www.patriots.com/news/week-5-inactives-raiders-at-patriots",
-    "sourceName": "Patriots.com"
-  },
-  {
-    "id": "d5bf3157-1b12-4378-a526-a12a100b3ed5",
-    "publishedAt": "2026-10-11T15:32:04.000Z",
-    "type": "Analysis",
-    "headline": "Inactives Analysis: Patriots RB Rhamondre Stevenson, DT Christian Barmore active for Sunday's game vs. Raiders",
-    "summary": "Barmore (shoulder) returns after a one-game absence in Sunday's Week 5 matchup at Gillette Stadium.",
-    "sourceUrl": "https://www.patriots.com/news/inactives-analysis-patriots-rb-rhamondre-stevenson-dt-christian-barmore-active-for-sunday-s-game-vs-raiders",
-    "sourceName": "Patriots.com"
-  },
-  {
-    "id": "e68e15c4-1b9d-4940-a355-6ae76a39afc4",
-    "publishedAt": "2026-10-11T12:13:00.000Z",
-    "type": "Analysis",
-    "headline": "Patriots to Honor Adam Vinatieri During Halftime Ceremony on Sunday, October 11 Against Raiders",
-    "summary": "The New England Patriots will celebrate Adam Vinatieri's induction into the Pro Football Hall of Fame during a halftime ceremony on Sunday, October 11 against the Las Vegas Raiders.  Ceremony will be streamed live on Patriots.com.",
-    "sourceUrl": "https://www.patriots.com/news/patriots-to-honor-adam-vinatieri-during-halftime-ceremony-on-sunday-october-11-against-raiders",
-    "sourceName": "Patriots.com"
-  },
-  {
-    "id": "83cd97c5-860d-490f-a1cc-d5b08d675c5b",
-    "publishedAt": "2026-10-11T12:12:00.000Z",
-    "type": "Analysis",
-    "headline": "How to Watch and Stream Sunday's Patriots Game Against the Raiders | NFL Week 5",
-    "summary": "Complete broadcast information for this week's game between the New England Patriots and the Las Vegas Raiders on Sunday, October 11, 2026 at 1 PM ET.",
-    "sourceUrl": "https://www.patriots.com/news/how-to-watch-and-stream-sunday-s-patriots-game-against-the-raiders-nfl-week-5",
-    "sourceName": "Patriots.com"
   },
   {
     "id": "50150455",
@@ -114,15 +114,6 @@
     "headline": "Kirk Cousins and Raiders look to build on fast start against Patriots defense dealing with injuries",
     "summary": "— Kirk Cousins' torrid start to the season has been one of the NFL's biggest surprises.",
     "sourceUrl": "http://www.espn.com/nfl/preview?gameId=401872986",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50135803",
-    "publishedAt": "2026-10-08T22:27:01Z",
-    "type": "Injury",
-    "headline": "Patriots get mixed injury news",
-    "summary": "Mike Reiss reports Rhamondre Stevenson returned to practice while Christian Gonzalez and Carlton Davis remain out.",
-    "sourceUrl": "https://www.espn.com/video/clip/_/id/50135803/patriots-get-mixed-injury-news",
     "sourceName": "ESPN"
   },
   {
