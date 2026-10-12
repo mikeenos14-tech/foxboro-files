@@ -1,112 +1,38 @@
 [
   {
-    "playerId": "00-0034275",
-    "playerName": "Foley Fatukasi",
-    "position": "DT",
-    "week": 5,
-    "injury": "Shoulder",
-    "practiceStatus": "Full",
-    "gameStatus": null,
-    "lastUpdated": "2026-10-09T16:47:21.22Z"
-  },
-  {
-    "playerId": "00-0035891",
-    "playerName": "Cody White",
-    "position": "WR",
-    "week": 5,
-    "injury": "Ankle",
-    "practiceStatus": "Limited",
-    "gameStatus": null,
-    "lastUpdated": "2026-10-09T16:47:21.22Z"
-  },
-  {
-    "playerId": "00-0037093",
-    "playerName": "Dareke Young",
-    "position": "WR",
-    "week": 5,
-    "injury": "Shoulder",
-    "practiceStatus": "Full",
-    "gameStatus": null,
-    "lastUpdated": "2026-10-09T16:47:21.22Z"
-  },
-  {
-    "playerId": "00-0037291",
-    "playerName": "Jalen Nailor",
-    "position": "WR",
-    "week": 5,
-    "injury": "Concussion",
-    "practiceStatus": "Did Not Participate",
-    "gameStatus": "Out",
-    "lastUpdated": "2026-10-09T16:47:21.22Z"
-  },
-  {
-    "playerId": "00-0037527",
-    "playerName": "Segun Olubi",
-    "position": "LB",
-    "week": 5,
-    "injury": "Wrist",
-    "practiceStatus": "Full",
-    "gameStatus": null,
-    "lastUpdated": "2026-10-09T16:47:21.22Z"
-  },
-  {
-    "playerId": "00-0037829",
-    "playerName": "Spencer Burford",
-    "position": "G",
-    "week": 5,
-    "injury": "Knee",
-    "practiceStatus": "Limited",
-    "gameStatus": null,
-    "lastUpdated": "2026-10-09T16:47:21.22Z"
-  },
-  {
-    "playerId": "00-0039338",
-    "playerName": "Brock Bowers",
-    "position": "TE",
-    "week": 5,
-    "injury": "Knee",
-    "practiceStatus": "Full",
-    "gameStatus": null,
-    "lastUpdated": "2026-10-09T16:47:21.22Z"
-  },
-  {
-    "playerId": "00-0039735",
-    "playerName": "Jackson Powers-Johnson",
-    "position": "G",
-    "week": 5,
-    "injury": "Groin",
-    "practiceStatus": "Full",
-    "gameStatus": null,
-    "lastUpdated": "2026-10-12T18:08:55.144Z"
-  },
-  {
-    "playerId": "00-0040122",
-    "playerName": "Ashton Jeanty",
+    "playerId": "4427366",
+    "playerName": "Breece Hall",
     "position": "RB",
-    "week": 5,
-    "injury": "Ankle",
-    "practiceStatus": "Limited",
-    "gameStatus": "Questionable",
-    "lastUpdated": "2026-10-09T16:47:21.22Z"
+    "week": 6,
+    "injury": "Quadriceps",
+    "gameStatus": "Out",
+    "lastUpdated": "2026-10-12T19:32Z"
   },
   {
-    "playerId": "00-0040581",
-    "playerName": "Dont'e Thornton Jr.",
+    "playerId": "4597500",
+    "playerName": "Adonai Mitchell",
     "position": "WR",
-    "week": 5,
-    "injury": "Hamstring",
-    "practiceStatus": "Full",
+    "week": 6,
+    "injury": "Finger",
     "gameStatus": "Out",
-    "lastUpdated": "2026-10-09T16:47:21.22Z"
+    "lastUpdated": "2026-10-12T19:32Z"
   },
   {
-    "playerId": "00-0040871",
-    "playerName": "Trey Zuhn III",
-    "position": "C",
-    "week": 5,
+    "playerId": "4243375",
+    "playerName": "Dylan Parham",
+    "position": "G",
+    "week": 6,
     "injury": "Knee",
-    "practiceStatus": "Limited",
     "gameStatus": "Out",
-    "lastUpdated": "2026-10-09T16:47:21.22Z"
+    "lastUpdated": "2026-10-12T19:32Z"
+  },
+  {
+    "playerId": "4700136",
+    "playerName": "Kiko Mauigoa",
+    "position": "LB",
+    "week": 6,
+    "injury": "Quadriceps",
+    "gameStatus": "Out",
+    "lastUpdated": "2026-10-12T19:32Z"
   }
 ]

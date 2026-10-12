@@ -1,21 +1,12 @@
 [
   {
     "id": "50167021",
-    "publishedAt": "2026-10-12T17:57:16Z",
+    "publishedAt": "2026-10-12T18:09:11Z",
     "type": "Injury",
     "headline": "Source: Packers lose DT Javon Hargrave for season to torn Achilles",
     "summary": "Tests confirmed Monday that Packers defensive tackle Javon Hargrave suffered a season-ending torn Achilles in Sunday's victory over the Bears, a source told ESPN's Adam Schefter.",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/50167021/source-packers-lose-hargrave-season-ending-torn-achilles",
     "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=422750",
-    "publishedAt": "2026-10-12T18:08:28.000Z",
-    "type": "Analysis",
-    "headline": "49ers LB Dre Greenlaw Receives One-Game Suspension",
-    "summary": "After a sideline dustup led to an ejection on Sunday, 49ers linebacker Dre Greenlaw will sit out Week 6. The NFL has suspended Greenlaw one game without pay for headbutting helmetless Seahawks linebacker Ernest Jones IV. Greenlaw may appeal the punishment. More to come…",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/49ers-lb-dre-greenlaw-receives-one-game-suspension",
-    "sourceName": "Pro Football Rumors"
   },
   {
     "id": "profootballrumors-https://www.profootballrumors.com/?p=422739",
@@ -27,30 +18,39 @@
     "sourceName": "Pro Football Rumors"
   },
   {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=422632",
-    "publishedAt": "2026-10-12T14:48:50.000Z",
-    "type": "Transaction",
-    "headline": "Caleb Williams ‘Pushing’ To Return In Week 6; Bears Unlikely To Trade Tyson Bagent",
-    "summary": "OCTOBER 12: During his latest appearance on Good Morning Football, Garafolo’s colleague Ian Rapoport confirmed (video link) all signs currently point to Williams returning in Week 6. Provided no setbacks are encountered over the coming days, Chicago’s starting quarterback should be back in the fold against Atlanta. OCTOBER 11: The Bears will go a third straight game without […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/caleb-williams-pushing-to-return-in-week-6-bears-unlikely-to-trade-tyson-bagent",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "50164378",
-    "publishedAt": "2026-10-12T12:16:10Z",
-    "type": "Analysis",
-    "headline": "QB Tyler Huntley leads Ravens to comeback OT win vs. Falcons",
-    "summary": "With Lamar Jackson still out, Tyler Huntley backed up the Ravens' faith in him by leading them to a 30-23 overtime win against the Falcons, during which Huntley was 11-for-11 passing for 80 yards on the final two drives.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50164378/backup-qb-tyler-huntley-leads-ravens-comeback-ot-win-vs-falcons",
+    "id": "50168446",
+    "publishedAt": "2026-10-12T20:42:41Z",
+    "type": "Injury",
+    "headline": "Shanahan says 49ers WR Deebo Samuel to miss time with hamstring injury",
+    "summary": "49ers WR Deebo Samuel is expected to miss \"at least a couple of weeks\" with the hamstring injury he suffered Sunday in Seattle, coach Kyle Shanahan said Monday.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50168446/shanahan-49ers-wr-samuel-miss-hamstring-injury",
     "sourceName": "ESPN"
   },
   {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-vrabel-theres-a-chance-a-j-brown-returns-this-week",
-    "publishedAt": "2026-10-12T16:11:43.000Z",
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=422675",
+    "publishedAt": "2026-10-12T20:22:36.000Z",
+    "type": "Transaction",
+    "headline": "Cardinals, Texans Complete Marvin Harrison Jr. Trade",
+    "summary": "OCTOBER 12, 3:22pm: In a statement announcing the trade, Cardinals general manager Monti Ossenfort said (via Josh Weinfuss of ESPN): “Decisions like this are never easy. Ultimately, we have to do what is best for our football team and that will always be the driving factor. We are extremely grateful to Marvin for what he […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/cardinals-texans-complete-marvin-harrison-jr-trade",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "50167779",
+    "publishedAt": "2026-10-12T18:49:58Z",
     "type": "Analysis",
-    "headline": "Mike Vrabel: There's a chance A.J. Brown returns this week",
-    "summary": "Sunday's win over the Raiders was the fourth game that Patriots wide receiver A.J.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-vrabel-theres-a-chance-a-j-brown-returns-this-week",
+    "headline": "Sources: Packers not anticipating Micah Parsons' return for game vs. Cowboys",
+    "summary": "The Packers are not anticipating that star pass rusher Micah Parsons will return to practice this week as Green Bay prepares for Sunday night's game against the Dallas Cowboys, sources told ESPN's Adam Schefter.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50167779/source-packers-not-anticipating-parsons-return-snf",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/caleb-williams-is-progressing-but-bears-havent-determined-who-will-start-if-he-cant",
+    "publishedAt": "2026-10-12T20:52:44.000Z",
+    "type": "Analysis",
+    "headline": "Caleb Williams is \"progressing\" but Bears haven't determined who will start if he can't",
+    "summary": "The Bears hope to have Caleb Williams back for Sunday's game against the Falcons.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/caleb-williams-is-progressing-but-bears-havent-determined-who-will-start-if-he-cant",
     "sourceName": "Pro Football Talk"
   }
 ]

@@ -1,5 +1,23 @@
 [
   {
+    "id": "de4d84fc-447e-4d1e-a504-5e07b014e873",
+    "publishedAt": "2026-10-12T19:22:00.000Z",
+    "type": "Analysis",
+    "headline": "After Further Review: Drake Maye film breakdown, defense review, and quick-hit film notes from Week 5 win over Raiders",
+    "summary": "Film review of Patriots QB Drake Maye's best performance of the season vs. the Raiders on Sunday",
+    "sourceUrl": "https://www.patriots.com/news/after-further-review-drake-maye-film-breakdown-defense-review-and-quick-hit-film-notes-from-week-5-win-over-raiders",
+    "sourceName": "Patriots.com"
+  },
+  {
+    "id": "fcf82313-6bf6-4458-8877-b2f38d0218ae",
+    "publishedAt": "2026-10-12T18:09:12.000Z",
+    "type": "Beat Report",
+    "headline": "Transcript: Head Coach Mike Vrabel Press Conference 10/12",
+    "summary": "Read the full transcript from Head Coach Mike Vrabel's press conference on Monday, October 12, 2026.",
+    "sourceUrl": "https://www.patriots.com/news/transcript-head-coach-mike-vrabel-press-conference-10-12",
+    "sourceName": "Patriots.com"
+  },
+  {
     "id": "50163881",
     "publishedAt": "2026-10-12T11:54:14Z",
     "type": "Injury",
@@ -54,15 +72,6 @@
     "sourceName": "Patriots.com"
   },
   {
-    "id": "31dc89bc-9bb8-4493-b194-06abe5d3870d",
-    "publishedAt": "2026-10-11T20:59:12.000Z",
-    "type": "Beat Report",
-    "headline": "Gamebook: Raiders at Patriots Week 5",
-    "summary": "Download the NFL Gamebook with all of the statistics from the Patriots Week 5 game against the Las Vegas Raiders on Sunday, October 11, 2026.",
-    "sourceUrl": "https://www.patriots.com/news/gamebook-raiders-at-patriots-week-5",
-    "sourceName": "Patriots.com"
-  },
-  {
     "id": "50160498",
     "publishedAt": "2026-10-11T20:52:15Z",
     "type": "Beat Report",
@@ -70,15 +79,6 @@
     "summary": "Las Vegas Raiders vs. New England Patriots: Game Highlights",
     "sourceUrl": "https://www.espn.com/video/clip/_/id/50160498/game-highlights",
     "sourceName": "ESPN"
-  },
-  {
-    "id": "d3de1ab3-6187-49ff-8098-499d82cff67a",
-    "publishedAt": "2026-10-11T20:00:00.000Z",
-    "type": "Beat Report",
-    "headline": "Las Vegas Raiders Postgame Quotes 10/11",
-    "summary": "Las Vegas Raiders Head Coach Klint Kubiak and select players comment on their Week 5 game against the New England Patriots on Sunday, October 11, 2026.",
-    "sourceUrl": "https://www.patriots.com/news/las-vegas-raiders-postgame-quotes-10-11",
-    "sourceName": "Patriots.com"
   },
   {
     "id": "50120618",
