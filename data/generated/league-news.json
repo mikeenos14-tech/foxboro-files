@@ -9,6 +9,15 @@
     "sourceName": "Pro Football Rumors"
   },
   {
+    "id": "50165164",
+    "publishedAt": "2026-10-12T12:09:06Z",
+    "type": "Injury",
+    "headline": "Source: Steelers' Roman Wilson expected to miss multiple weeks",
+    "summary": "Roman Wilson will miss multiple weeks because of a finger injury, a source told ESPN, joining the growing list of injured Steelers receivers.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50165164/source-steelers-roman-wilson-expected-miss-multiple-weeks",
+    "sourceName": "ESPN"
+  },
+  {
     "id": "50164378",
     "publishedAt": "2026-10-12T06:35:30Z",
     "type": "Analysis",
@@ -16,6 +25,15 @@
     "summary": "With Lamar Jackson still out, Tyler Huntley backed up the Ravens' faith in him by leading them to a 30-23 overtime win against the Falcons, during which Huntley was 11-for-11 passing for 80 yards on the final two drives.",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/50164378/backup-qb-tyler-huntley-leads-ravens-comeback-ot-win-vs-falcons",
     "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/javon-hargrave-is-believed-to-have-suffered-a-torn-achilles-tendon",
+    "publishedAt": "2026-10-12T01:21:48.000Z",
+    "type": "Injury",
+    "headline": "Javon Hargrave is believed to have suffered a torn Achilles tendon",
+    "summary": "Another week, another possible torn Achilles tendon for a member of the Green Bay defense.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/javon-hargrave-is-believed-to-have-suffered-a-torn-achilles-tendon",
+    "sourceName": "Pro Football Talk"
   },
   {
     "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/kevin-stefanski-on-michael-penixs-rib-injury-well-know-more-as-we-get-imaging",
@@ -33,24 +51,6 @@
     "headline": "Mike Evans stars in 49ers' win: 'Exactly why he's here'",
     "summary": "Mike Evans had seven catches, 113 yards and a touchdown to push the unbeaten Niners (5-0, 3-0 NFC West) to a rousing 32-29 victory over the Seahawks.",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/50163672/mike-evans-stars-49ers-win-exactly-why-here",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/javon-hargrave-is-believed-to-have-suffered-a-torn-achilles-tendon",
-    "publishedAt": "2026-10-12T01:21:48.000Z",
-    "type": "Injury",
-    "headline": "Javon Hargrave is believed to have suffered a torn Achilles tendon",
-    "summary": "Another week, another possible torn Achilles tendon for a member of the Green Bay defense.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/javon-hargrave-is-believed-to-have-suffered-a-torn-achilles-tendon",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "50162240",
-    "publishedAt": "2026-10-11T23:35:28Z",
-    "type": "Analysis",
-    "headline": "Jared Goff, Jahmyr Gibbs lead the Lions' offensive romp in a 45-21 win over the Cardinals",
-    "summary": "— Jared Goff threw three touchdown passes, Jahmyr Gibbs added 151 yards rushing and two more scores and the Detroit Lions shook off a slow start by scoring 31 straight points to roll past the Arizona Cardinals 45-21 on Sunday.",
-    "sourceUrl": "http://www.espn.com/nfl/recap?gameId=401872991",
     "sourceName": "ESPN"
   }
 ]
