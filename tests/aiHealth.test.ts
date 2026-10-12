@@ -41,3 +41,10 @@ test("other failures and twice-rejected drafts are reported individually", () =>
 test("old entries for content no longer retried are ignored", () => {
   assert.deepEqual(aiProblems([{ "preview old": { status: "rejected", problems: [["x"]], at: at(80) } }], now), []);
 });
+
+test("a one-off miss on content with a fallback isn't reported; a key problem still is", () => {
+  const miss = { status: "no-response" as const, problems: [], error: "no usable selection came back", at: at(2) };
+  assert.deepEqual(aiProblems([{ "league headlines": miss }], now), []);
+  const keyed = { ...miss, error: "API key rejected (HTTP 401) — it may have expired or been deleted" };
+  assert.equal(aiProblems([{ "league headlines": keyed }], now).length, 1);
+});

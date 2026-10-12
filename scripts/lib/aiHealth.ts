@@ -12,6 +12,11 @@ type Diagnostics = Record<string, AiOutcome & { at: string }>;
 // no longer retried, like last week's preview.
 const RECENT_HOURS = 36;
 
+// Content with a non-AI fallback: when the AI misses, the site shows the
+// fallback (the latest headlines, unranked), so a one-off miss isn't worth
+// an email. A key problem still is — it affects everything.
+const HAS_FALLBACK = new Set(["league headlines"]);
+
 export function aiProblems(files: Diagnostics[], now = new Date()): string[] {
   const recent = files
     .flatMap((f) => Object.entries(f))
@@ -25,7 +30,7 @@ export function aiProblems(files: Diagnostics[], now = new Date()): string[] {
       `AI writing is failing: ${keyIssue[1].error}. Replace ANTHROPIC_API_KEY under the repo's Settings → Secrets and variables → Actions. Affected: ${failed.map(([k]) => k).join(", ")}.`
     );
   } else {
-    for (const [label, o] of failed) {
+    for (const [label, o] of failed.filter(([label]) => !HAS_FALLBACK.has(label))) {
       problems.push(`AI writing failed for ${label}: ${o.error ?? "no response"}.`);
     }
   }
