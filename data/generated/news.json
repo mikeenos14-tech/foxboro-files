@@ -1,5 +1,14 @@
 [
   {
+    "id": "50159892",
+    "publishedAt": "2026-10-12T00:59:57Z",
+    "type": "Injury",
+    "headline": "Patriots lose TreVeyon Henderson, Will Campbell in big win",
+    "summary": "Patriots RB TreVeyon Henderson (ankle) and LT Will Campbell (knee) left Sunday's win vs. the Raiders. Sources told NFL Network that Campbell is believed to have suffered a knee sprain.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50159892/patriots-rule-treveyon-henderson-campbell",
+    "sourceName": "ESPN"
+  },
+  {
     "id": "8a4bd40c-da2b-4f07-8631-35faad1681a0",
     "publishedAt": "2026-10-11T22:48:00.000Z",
     "type": "Beat Report",
@@ -16,15 +25,6 @@
     "summary": "Game notes and stats from the Patriots Week 5 game against the Las Vegas Raiders on Sunday, October 11, 2026.",
     "sourceUrl": "https://www.patriots.com/news/game-notes-drake-maye-records-five-total-touchdowns-against-the-raiders",
     "sourceName": "Patriots.com"
-  },
-  {
-    "id": "50159892",
-    "publishedAt": "2026-10-11T22:23:26Z",
-    "type": "Injury",
-    "headline": "Patriots lose TreVeyon Henderson, Will Campbell in big win",
-    "summary": "Patriots RB TreVeyon Henderson (ankle) and LT Will Campbell (knee) left Sunday's win vs. the Raiders with injuries and did not return.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50159892/patriots-rule-treveyon-henderson-campbell",
-    "sourceName": "ESPN"
   },
   {
     "id": "50160588",

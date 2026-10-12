@@ -1,16 +1,70 @@
 [
   {
-    "id": "50162505",
-    "publishedAt": "2026-10-12T00:10:15Z",
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=422708",
+    "publishedAt": "2026-10-12T03:00:54.000Z",
+    "type": "Injury",
+    "headline": "Patriots LT Will Campbell Could Miss Time With Possible Knee Sprain",
+    "summary": "When the Patriots drafted Utah’s Caleb Lomu near the end of the first round this year, it seemed clear that the plan was for him to eventually take over for 35-year-old veteran right tackle Morgan Moses. Well, it appears the Utes former left tackle will be asked to cover his old position for a portion […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/patriots-lt-will-campbell-could-miss-time-with-possible-knee-sprain",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "50163399",
+    "publishedAt": "2026-10-12T02:53:25Z",
     "type": "Analysis",
-    "headline": "49ers move to 5-0 after thrilling win over the Seahawks",
-    "summary": "49ers move to 5-0 after thrilling win over the Seahawks",
-    "sourceUrl": "https://www.espn.com/video/clip/_/id/50162505/49ers-move-5-0-thrilling-win-seahawks",
+    "headline": "Lions RB Gibbs passes Sanders for most NFL TDs before age 25",
+    "summary": "Jahmyr Gibbs, 24, passed the Detroit legend with his 58th career touchdown as he helped the Lions beat the Cardinals on Sunday.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50163399/lions-rb-gibbs-passes-sanders-most-nfl-tds-age-25",
     "sourceName": "ESPN"
   },
   {
+    "id": "50163352",
+    "publishedAt": "2026-10-12T02:51:19Z",
+    "type": "Analysis",
+    "headline": "Chargers' Harbaugh laments momentum-swinging 4th-down call",
+    "summary": "Jim Harbaugh blamed himself for the team's 23-17 loss to the Broncos, saying his decision on a fourth-down call left him \"more mad\" than he has ever been.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50163352/chargers-harbaugh-laments-momentum-swinging-4th-call",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50163287",
+    "publishedAt": "2026-10-12T02:36:12Z",
+    "type": "Analysis",
+    "headline": "Broncos beat Chargers in Sean Payton's return to playcalling",
+    "summary": "The numbers weren't pretty and there were times the Broncos' offense was mired in neutral, but coach Sean Payton's return to playcalling duties ended with a 23-17 win Sunday over the Chargers.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50163287/broncos-beat-chargers-sean-payton-return-playcalling",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/league-office-directed-the-ejection-of-dre-greenlaw",
+    "publishedAt": "2026-10-12T02:25:50.000Z",
+    "type": "Analysis",
+    "headline": "League office directed the ejection of Dre Greenlaw",
+    "summary": "Sunday's ejection of 49ers linebacker Dre Greenlaw came not at the behest of the officials on the field, but at the direction of the league office.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/league-office-directed-the-ejection-of-dre-greenlaw",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/derrick-henry-18-yard-td-pulls-ravens-closer-falcons-lead-17-15",
+    "publishedAt": "2026-10-12T02:24:00.000Z",
+    "type": "Analysis",
+    "headline": "Derrick Henry 18-yard TD pulls Ravens closer, Falcons lead 17-15",
+    "summary": "Derrick Henry has found the end zone.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/derrick-henry-18-yard-td-pulls-ravens-closer-falcons-lead-17-15",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/kyler-murray-is-looking-like-kyler-murray-again",
+    "publishedAt": "2026-10-12T02:13:05.000Z",
+    "type": "Analysis",
+    "headline": "Kyler Murray is looking like Kyler Murray again",
+    "summary": "Through a brief appearance in Week 1 and a pair of starts in Week 3 and Week 4, Vikings quarterback Kyler Murray didn't seem much like Kyler Murray.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/kyler-murray-is-looking-like-kyler-murray-again",
+    "sourceName": "Pro Football Talk"
+  },
+  {
     "id": "50158281",
-    "publishedAt": "2026-10-12T00:05:56Z",
+    "publishedAt": "2026-10-12T02:04:57Z",
     "type": "Analysis",
     "headline": "Judging overreactions to NFL Week 5: Time for Titans to look for another QB?",
     "summary": "Is Cam Ward already on the hot seat? Is the NFC East doomed to mediocrity (or worse)? We're judging Week 5 overreactions.",
@@ -18,12 +72,201 @@
     "sourceName": "ESPN"
   },
   {
+    "id": "49466506",
+    "publishedAt": "2026-10-12T01:56:15Z",
+    "type": "Analysis",
+    "headline": "Betting buzz: Who wants to win the NFC East?",
+    "summary": "Week 5 was one to forget for the NFC East, and all four teams shared in the misery.",
+    "sourceUrl": "https://www.espn.com/espn/betting/story/_/id/49466506/nfl-betting-buzz-odds-updates-line-moves-spreads",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/sunday-night-football-falcons-up-14-9-over-ravens-at-halftime",
+    "publishedAt": "2026-10-12T01:52:22.000Z",
+    "type": "Analysis",
+    "headline": "Sunday Night Football: Falcons up 14-9 over Ravens at halftime",
+    "summary": "Kyle Pitts caught his first touchdown of the season in the second quarter.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/sunday-night-football-falcons-up-14-9-over-ravens-at-halftime",
+    "sourceName": "Pro Football Talk"
+  },
+  {
     "id": "50162377",
-    "publishedAt": "2026-10-12T00:05:27Z",
+    "publishedAt": "2026-10-12T01:46:27Z",
     "type": "Analysis",
     "headline": "Brock Purdy leads 2 late scoring drives to deliver a 32-29 win for the 49ers over the Seahawks",
-    "summary": "— Brock Purdy engineered two scoring drives in the fourth quarter and the San Francisco 49ers rallied to beat the Seattle Seahawks 32-29 Sunday on a 43-yard field goal by Eddy Pineiro with 1:56 to play.",
+    "summary": "— When the game was on the line and San Francisco's struggling offense needed to move the ball, Mike Evans stepped up and showed why the 49ers went after him so hard this offseason.",
     "sourceUrl": "http://www.espn.com/nfl/recap?gameId=401872992",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50162242",
+    "publishedAt": "2026-10-12T01:22:41Z",
+    "type": "Analysis",
+    "headline": "Commanders' Daniels takes blame for botched final play in OT",
+    "summary": "Commanders quarterback Jayden Daniels said of the chaotic final seconds that prevented his team from attempting a winning field goal, \"Ultimately, it's on me.\"",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50162242/commanders-daniels-takes-blame-botched-final-play-ot",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/javon-hargrave-is-believed-to-have-suffered-a-torn-achilles-tendon",
+    "publishedAt": "2026-10-12T01:21:48.000Z",
+    "type": "Injury",
+    "headline": "Javon Hargrave is believed to have suffered a torn Achilles tendon",
+    "summary": "Another week, another possible torn Achilles tendon for a member of the Green Bay defense.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/javon-hargrave-is-believed-to-have-suffered-a-torn-achilles-tendon",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-will-campbell-believed-to-have-knee-sprain-is-expected-to-miss-time",
+    "publishedAt": "2026-10-12T01:10:11.000Z",
+    "type": "Injury",
+    "headline": "Report: Will Campbell believed to have knee sprain, is expected to miss time",
+    "summary": "Patriots left tackle Will Campbell is dealing with another knee injury.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-will-campbell-believed-to-have-knee-sprain-is-expected-to-miss-time",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-evans-had-one-question-for-trevon-diggs-who-are-you",
+    "publishedAt": "2026-10-12T01:07:30.000Z",
+    "type": "Analysis",
+    "headline": "Mike Evans had one question for Trevon Diggs: Who are you?",
+    "summary": "49ers wide receiver Mike Evans terrorized the Seahawks with seven catches for 113 yards and a touchdown.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-evans-had-one-question-for-trevon-diggs-who-are-you",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "50162296",
+    "publishedAt": "2026-10-12T01:05:27Z",
+    "type": "Analysis",
+    "headline": "Broncos keep Chargers winless with key stop that fuels 4th-quarter rally in 23-17 win",
+    "summary": "— Jim Harbaugh is blaming the winless Los Angeles Chargers’ latest loss on himself.",
+    "sourceUrl": "http://www.espn.com/nfl/recap?gameId=401872989",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dre-greenlaw-could-be-facing-another-suspension",
+    "publishedAt": "2026-10-12T01:00:49.000Z",
+    "type": "Analysis",
+    "headline": "Dre Greenlaw could be facing another suspension",
+    "summary": "NFL will review Sunday's conduct that resulted in an ejection for further discipline.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dre-greenlaw-could-be-facing-another-suspension",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-lafleur-marvin-harrison-jr-situation-wasnt-a-distraction-not-why-we-didnt-play-well",
+    "publishedAt": "2026-10-12T00:58:01.000Z",
+    "type": "Transaction",
+    "headline": "Mike LaFleur: Marvin Harrison Jr. situation wasn't a distraction, not why we didn't play well",
+    "summary": "Word that the Cardinals were planning to trade wide receiver Marvin Harrison Jr. broke on Saturday morning and word that they had agreed to a deal with the Texans came just as the Cardinals were starting Sunday's game against the Lions.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-lafleur-marvin-harrison-jr-situation-wasnt-a-distraction-not-why-we-didnt-play-well",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "50156554",
+    "publishedAt": "2026-10-12T00:54:11Z",
+    "type": "Beat Report",
+    "headline": "Week 5 NFL highlights: Best plays, moments, touchdowns, more",
+    "summary": "Check out the top plays from Week 5 from around the NFL.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50156554/week-5-highlights-best-plays-touchdowns-2026",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jessie-bates-scoop-and-score-gives-falcons-7-3-lead-over-ravens",
+    "publishedAt": "2026-10-12T00:47:58.000Z",
+    "type": "Analysis",
+    "headline": "Jessie Bates scoop-and-score gives Falcons 7-3 lead over Ravens",
+    "summary": "The Ravens looked like they were going to extend their early lead over the Falcons with their second drive of the first quarter.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jessie-bates-scoop-and-score-gives-falcons-7-3-lead-over-ravens",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-lb-zaire-franklin-luther-burden-said-hed-make-us-quit-but-he-quit-sunday",
+    "publishedAt": "2026-10-12T00:40:55.000Z",
+    "type": "Analysis",
+    "headline": "Packers LB Zaire Franklin: Luther Burden said he'd make us quit, but he quit Sunday",
+    "summary": "The Packers blew leads late in losses to the Bears in both the regular season and playoffs last season, which would have provided Green Bay with plenty of motivation for Sunday's game at Lambeau Field all by itself.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-lb-zaire-franklin-luther-burden-said-hed-make-us-quit-but-he-quit-sunday",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/caleb-williams-moves-closer-to-a-return-and-the-bears-need-him",
+    "publishedAt": "2026-10-12T00:37:49.000Z",
+    "type": "Injury",
+    "headline": "Caleb Williams moves closer to a return — and the Bears need him",
+    "summary": "The Bears had won two games in a row without quarterback Caleb Williams, who suffered a hamstring injury in a Week 2 loss to the Vikings.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/caleb-williams-moves-closer-to-a-return-and-the-bears-need-him",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=422695",
+    "publishedAt": "2026-10-12T00:34:35.000Z",
+    "type": "Injury",
+    "headline": "Packers Believe DT Javon Hargrave Tore Achilles",
+    "summary": "It looks like the Packers may be down a body on their defensive front as Ian Rapoport of NFL Network reports that defensive tackle Javon Hargrave “is believed to have torn his Achilles” tendon. Head coach Matt LaFleur was the one who informed the media after the game in which Hargrave was carted off the […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/packers-believe-dt-javon-hargrave-tore-achilles",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "50162466",
+    "publishedAt": "2026-10-12T00:33:51Z",
+    "type": "Analysis",
+    "headline": "Texans' win over Titans might have broken Terrible Towel curse",
+    "summary": "After ripping a Terrible Towel following January's playoff win over Pittsburgh, Texans mascot Toro attempted to reverse the team's fortunes.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50162466/texans-break-steelers-terrible-towel-curse",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50160964",
+    "publishedAt": "2026-10-12T00:30:32Z",
+    "type": "Analysis",
+    "headline": "Week 5 winners and losers: Maye, Warren, Gibbs dominate; Taylor, Brown struggle",
+    "summary": "Drake Maye, Jaylen Warren and Jahmyr Gibbs came up big in Week 5, while Jonathan Taylor and Chase Brown had disappointing days.",
+    "sourceUrl": "https://www.espn.com/fantasy/football/story/_/page/FFSundayHighLows-50160964/nfl-week-5-fantasy-football-winners-losers-injuries-rankings-more",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50162384",
+    "publishedAt": "2026-10-12T00:29:52Z",
+    "type": "Beat Report",
+    "headline": "Detroit Lions vs. Arizona Cardinals: Game Highlights",
+    "summary": "Detroit Lions vs. Arizona Cardinals: Game Highlights",
+    "sourceUrl": "https://www.espn.com/video/clip/_/id/50162384/game-highlights",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=422522",
+    "publishedAt": "2026-10-12T00:28:19.000Z",
+    "type": "Analysis",
+    "headline": "Titans Can’t Ignore QB Options In 2027 Draft?",
+    "summary": "The Titans haven’t seen the postseason in four years. Since moving on from former head coach Mike Vrabel and future Hall of Fame running back Derrick Henry, Tennessee hasn’t won more than three games in a season, and after starting 0-4 in 2026, the team is currently well-positioned to land a top four draft pick […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/titans-cant-ignore-qb-options-in-2027-draft",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/john-harbaugh-we-wanted-as-many-yards-as-we-could-get-before-field-goal",
+    "publishedAt": "2026-10-12T00:22:27.000Z",
+    "type": "Analysis",
+    "headline": "John Harbaugh: We wanted as many yards as we could get before field goal",
+    "summary": "The Commanders' mismanagement of the clock at the end of overtime in Sunday's 27-27 tie with the Giants obscured another coaching decision that backfired earlier in the period.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/john-harbaugh-we-wanted-as-many-yards-as-we-could-get-before-field-goal",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/ben-johnson-tyson-bagent-could-never-get-in-a-rhythm-today",
+    "publishedAt": "2026-10-12T00:17:17.000Z",
+    "type": "Analysis",
+    "headline": "Ben Johnson: Tyson Bagent could never get in a rhythm today",
+    "summary": "Bears head coach Ben Johnson benched quarterback Tyson Bagent during today's loss to the Packers, and he said afterward that Bagent was off throughout the game.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/ben-johnson-tyson-bagent-could-never-get-in-a-rhythm-today",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "50162505",
+    "publishedAt": "2026-10-12T00:10:15Z",
+    "type": "Analysis",
+    "headline": "49ers move to 5-0 after thrilling win over the Seahawks",
+    "summary": "49ers move to 5-0 after thrilling win over the Seahawks",
+    "sourceUrl": "https://www.espn.com/video/clip/_/id/50162505/49ers-move-5-0-thrilling-win-seahawks",
     "sourceName": "ESPN"
   },
   {
@@ -54,39 +297,12 @@
     "sourceName": "Pro Football Talk"
   },
   {
-    "id": "50160964",
-    "publishedAt": "2026-10-11T23:55:55Z",
-    "type": "Analysis",
-    "headline": "Week 5 winners and losers: Drake Maye, Jaylen Warren dominate; Jonathan Taylor struggles",
-    "summary": "Drake Maye and Jaylen Warren came up big in Week 5, while Jonathan Taylor and Chase Brown had disappointing days.",
-    "sourceUrl": "https://www.espn.com/fantasy/football/story/_/page/FFSundayHighLows-50160964/nfl-week-5-fantasy-football-winners-losers-injuries-rankings-more",
-    "sourceName": "ESPN"
-  },
-  {
     "id": "50161673",
     "publishedAt": "2026-10-11T23:51:50Z",
     "type": "Analysis",
     "headline": "NFL Week 5 trolls: Jets social media jab at Browns leads the way",
     "summary": "Teams celebrated their wins by trolling their opponents on social media -- who had the best troll of Week 5?",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/50161673/nfl-week-5-trolls",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50156554",
-    "publishedAt": "2026-10-11T23:49:01Z",
-    "type": "Beat Report",
-    "headline": "Week 5 NFL highlights: Best plays, moments, touchdowns, more",
-    "summary": "Check out the top plays from Week 5 from around the NFL.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50156554/week-5-highlights-best-plays-touchdowns-2026",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50162296",
-    "publishedAt": "2026-10-11T23:45:28Z",
-    "type": "Analysis",
-    "headline": "Wil Lutz's field goals help Broncos surge past winless Chargers in 4th for 23-17 victory",
-    "summary": "— Wil Lutz kicked a go-ahead 19-yard field goal with 5:07 remaining, lifting the Denver Broncos over the winless and mistake-prone Los Angeles Chargers 23-17 on Sunday.",
-    "sourceUrl": "http://www.espn.com/nfl/recap?gameId=401872989",
     "sourceName": "ESPN"
   },
   {
@@ -97,15 +313,6 @@
     "summary": "After the opening kickoff on Sunday morning's Eagles-Jaguars game in London (a play that was wiped out by offsetting penalties), Eagles linebacker Jeremiah Trotter Jr. and Jaguars defensive end Bryan Thomas Jr. were ejected.",
     "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jeremiah-trotter-jr-bryan-thomas-jr-were-ejected-for-continuous-non-football-actions",
     "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "50162242",
-    "publishedAt": "2026-10-11T23:36:50Z",
-    "type": "Analysis",
-    "headline": "Commanders' Daniels takes blame for botched final play in OT",
-    "summary": "Commanders quarterback Jayden Daniels said of the chaotic final seconds that prevented his team from attempting a game-winning field goal, \"ultimately, it's on me.\"",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50162242/commanders-daniels-takes-blame-botched-final-play-ot",
-    "sourceName": "ESPN"
   },
   {
     "id": "50162240",
@@ -868,7 +1075,7 @@
     "publishedAt": "2026-10-11T17:38:40.000Z",
     "type": "Transaction",
     "headline": "Bears A Team To Watch For Khalil Mack?",
-    "summary": "Wide receiver Quentin Johnston might not be the Chargers’ only trade candidate leading up to the Nov. 10 deadline. Outside linebacker Khalil Mack could also be a name to watch in the few weeks, according to Jonathan Jones of The Athletic. Mack has been a Charger since they acquired him from the Bears in 2022. […]",
+    "summary": "Wide receiver Quentin Johnston might not be the Chargers’ only trade candidate leading up to the Nov. 10 deadline. Outside linebacker Khalil Mack could also be a name to watch in the next few weeks, according to Jonathan Jones of The Athletic. Mack has been a Charger since they acquired him from the Bears in […]",
     "sourceUrl": "https://www.profootballrumors.com/2026/10/bears-a-team-to-watch-for-khalil-mack",
     "sourceName": "Pro Football Rumors"
   },
@@ -15379,185 +15586,5 @@
     "summary": "Lamar Jackson, Tyler Loop and the Ravens delivered one of the most remarkable last-second victories in recent NFL history Sunday, thanks to a late fourth-quarter decision made by the Cowboys.",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/50049488/ravens-stun-cowboys-final-seconds-loop-gains-redemption",
     "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=421108",
-    "publishedAt": "2026-09-28T03:04:01.000Z",
-    "type": "Injury",
-    "headline": "NFL Injury Rumors: Collins, Simmons, Stevenson",
-    "summary": "Texans wide receiver Nico Collins was ruled out of today’s game for the second straight week due to a hamstring injury. According to ESPN’s Adam Schefter, though, Collins “has a decent chance” to make his return to the field in Week 4. Collins was diagnosed with a Grade 1 hamstring strain, per Aaron Wilson of […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/09/nfl-injury-rumors-collins-simmons-stevenson",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bo-nix-throws-two-td-passes-two-point-conversions-broncos-rams-tied-at-16-16",
-    "publishedAt": "2026-09-28T02:49:21.000Z",
-    "type": "Analysis",
-    "headline": "Bo Nix throws two TD passes, two-point conversions, Broncos-Rams tied at 16-16",
-    "summary": "The Broncos were down 16-0 to the Rams at halftime.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bo-nix-throws-two-td-passes-two-point-conversions-broncos-rams-tied-at-16-16",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=421098",
-    "publishedAt": "2026-09-28T02:25:00.000Z",
-    "type": "Analysis",
-    "headline": "NFL Restructures: Lake, Rodgers, Smith",
-    "summary": "Before the start of the season, the Rams needed some work to get down below the salary cap. In order to reduce the team’s cap hit for the year, Los Angeles restructured the contract of starting safety Quentin Lake, according to Jason Fitzgerald of OvertheCap.com. It was a simple restructure of Lake’s three-year, $38.25MM extension. […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/09/nfl-restructures-lake-rodgers-smith",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "50046887",
-    "publishedAt": "2026-09-28T02:00:37Z",
-    "type": "Analysis",
-    "headline": "How Josh Allen, Bills overcame five turnovers to go to 3-0",
-    "summary": "Buffalo turned the ball over three times on its first four possessions in the 24-16 win over Chargers.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50046887/buffalo-bills-overcame-five-turnovers-beat-chargers-josh-allen",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/sunday-night-football-rams-lead-broncos-16-0-at-halftime",
-    "publishedAt": "2026-09-28T01:59:46.000Z",
-    "type": "Analysis",
-    "headline": "Sunday Night Football: Rams lead Broncos 16-0 at halftime",
-    "summary": "Los Angeles scored on its last four possessions of the first half for a dominant first 30 minutes.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/sunday-night-football-rams-lead-broncos-16-0-at-halftime",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/deshaun-watson-i-just-wanted-to-finish-the-game-for-the-fans",
-    "publishedAt": "2026-09-28T01:57:06.000Z",
-    "type": "Analysis",
-    "headline": "Deshaun Watson: I just wanted to finish the game for the fans",
-    "summary": "Browns fans booed Deshaun Watson in the second half of a preseason game against the Bills.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/deshaun-watson-i-just-wanted-to-finish-the-game-for-the-fans",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "50048293",
-    "publishedAt": "2026-09-28T01:38:35Z",
-    "type": "Analysis",
-    "headline": "Kirk Cousins passes for 3 TDs and the unbeaten Raiders come back to top the Saints 35-27",
-    "summary": "— It took the Las Vegas Raiders an entire season to accumulate three victories in 2025.",
-    "sourceUrl": "http://www.espn.com/nfl/recap?gameId=401872961",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/matthew-stafford-becomes-first-to-throw-for-20-000-yards-with-two-nfl-teams",
-    "publishedAt": "2026-09-28T01:36:34.000Z",
-    "type": "Analysis",
-    "headline": "Matthew Stafford becomes first to throw for 20,000 yards with two NFL teams",
-    "summary": "Matthew Stafford has reached another milestone in his storied career.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/matthew-stafford-becomes-first-to-throw-for-20-000-yards-with-two-nfl-teams",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "50048232",
-    "publishedAt": "2026-09-28T01:36:08Z",
-    "type": "Injury",
-    "headline": "Sam Darnold laments 'bad decision' in return for Seahawks",
-    "summary": "Sam Darnold's return from the glute injury that sidelined him for most of the Seahawks' first two games was shaping up to be memorable until a \"bad decision\" late proved costly against the Commanders.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50048232/sam-darnold-laments-bad-decision-return-seahawks",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50048977",
-    "publishedAt": "2026-09-28T01:24:03Z",
-    "type": "Analysis",
-    "headline": "Why Jeremiyah Love's favorable schedule can help solidify his RB1 status",
-    "summary": "Why Jeremiyah Love's favorable schedule can help solidify his RB1 status",
-    "sourceUrl": "https://www.espn.com/video/clip/_/id/50048977/why-jeremiyah-love-favorable-schedule-help-solidify-rb1-status",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/drake-maye-attributes-fumble-to-blood-on-the-ball",
-    "publishedAt": "2026-09-28T01:06:12.000Z",
-    "type": "Analysis",
-    "headline": "Drake Maye attributes fumble to blood on the ball",
-    "summary": "Patriots quarterback Drake Maye had an unusual moment on Sunday, when he cocked his arm to throw and his hand came forward without the ball in it.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/drake-maye-attributes-fumble-to-blood-on-the-ball",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "50048750",
-    "publishedAt": "2026-09-28T01:04:41Z",
-    "type": "Analysis",
-    "headline": "Raiders move to 3-0 after road win over the Saints",
-    "summary": "Raiders move to 3-0 after road win over the Saints",
-    "sourceUrl": "https://www.espn.com/video/clip/_/id/50048750/raiders-move-3-0-road-win-saints",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50046373",
-    "publishedAt": "2026-09-28T01:02:10Z",
-    "type": "Analysis",
-    "headline": "Ravens' jab at Cowboys after win in Rio leads Week 3 trolls",
-    "summary": "The Baltimore Ravens followed up their last-second victory over the Dallas Cowboys with a petty post.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50046373/nfl-week-3-trolls-2026",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50048576",
-    "publishedAt": "2026-09-28T00:56:46Z",
-    "type": "Injury",
-    "headline": "Kevin O'Connell provides update on Justin Jefferson's ankle injury",
-    "summary": "Kevin O'Connell provides update on Justin Jefferson's ankle injury",
-    "sourceUrl": "https://www.espn.com/video/clip/_/id/50048576/kevin-oconnell-provides-update-justin-jefferson-ankle-injury",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/john-harbaugh-expects-jameis-winston-to-remain-qb1-no-matter-who-giants-add-at-the-position",
-    "publishedAt": "2026-09-28T00:56:12.000Z",
-    "type": "Analysis",
-    "headline": "John Harbaugh expects Jameis Winston to remain QB1 no matter who Giants add at the position",
-    "summary": "It wasn't pretty — and it was only the winless Titans — but Jameis Winston won his first game as a starter since Dec. 15, 2024, when he was with the Browns.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/john-harbaugh-expects-jameis-winston-to-remain-qb1-no-matter-who-giants-add-at-the-position",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/matthew-stafford-td-pass-gives-rams-early-7-0-lead-over-broncos",
-    "publishedAt": "2026-09-28T00:53:45.000Z",
-    "type": "Injury",
-    "headline": "Matthew Stafford TD pass gives Rams early 7-0 lead over Broncos",
-    "summary": "The Rams have taken an early 7-0 lead over the Broncos, but they are dealing with more injury issues.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/matthew-stafford-td-pass-gives-rams-early-7-0-lead-over-broncos",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/deebo-samuel-makes-nfl-history-with-0-catches-for-80-receiving-yards-and-1-td",
-    "publishedAt": "2026-09-28T00:48:35.000Z",
-    "type": "Analysis",
-    "headline": "Deebo Samuel makes NFL history with 0 catches for 80 receiving yards and 1 TD",
-    "summary": "San Francisco wide receiver Deebo Samuel had a stat line never before seen in NFL history today: Zero catches, 80 receiving yards and a receiving touchdown.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/deebo-samuel-makes-nfl-history-with-0-catches-for-80-receiving-yards-and-1-td",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/oregon-says-dante-moores-ct-scan-and-mri-were-clean",
-    "publishedAt": "2026-09-28T00:48:19.000Z",
-    "type": "Transaction",
-    "headline": "Oregon says Dante Moore's CT scan and MRI were \"clean\"",
-    "summary": "Oregon quarterback Dante Moore, one of the top prospects in the 2027 draft, suffered a significant concussion on Saturday night, when he was knocked unconscious after sliding by USC linebacker Desman Stephens II.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/oregon-says-dante-moores-ct-scan-and-mri-were-clean",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/kyle-shanahan-we-dont-know-nature-of-mike-evans-injury-will-find-out-more-monday",
-    "publishedAt": "2026-09-28T00:30:54.000Z",
-    "type": "Injury",
-    "headline": "Kyle Shanahan: We don't know nature of Mike Evans injury, will find out more Monday",
-    "summary": "The 49ers improved to 3-0 against the Cardinals on Sunday, but their list of injured players got a little longer.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/kyle-shanahan-we-dont-know-nature-of-mike-evans-injury-will-find-out-more-monday",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/kevin-oconnell-justin-jefferson-got-close-to-returning-ankle-to-be-evaluated-monday",
-    "publishedAt": "2026-09-28T00:21:07.000Z",
-    "type": "Injury",
-    "headline": "Kevin O'Connell: Justin Jefferson \"got close\" to returning, ankle to be evaluated Monday",
-    "summary": "Vikings wide receiver Justin Jefferson left Sunday's game in the first quarter with an ankle injury and did not return before the end of Minnesota's 23-16 win over the Buccaneers.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/kevin-oconnell-justin-jefferson-got-close-to-returning-ankle-to-be-evaluated-monday",
-    "sourceName": "Pro Football Talk"
   }
 ]
