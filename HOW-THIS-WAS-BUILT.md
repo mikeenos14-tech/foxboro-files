@@ -358,8 +358,8 @@ is sometimes yes, and an AI will rarely volunteer it.
 | **Data storage** | Plain files, no database — because the source gives us everything |
 | **Automation** | GitHub Actions — a robot on a schedule |
 | **Hosting** | Vercel — rebuilds automatically when data changes |
-| **Safety net** | About 165 tests, a verifier that checks against outside sources, and a daily health check |
-| **Size** | ~18,500 lines, 168 code files, 7 runtime dependencies |
+| **Safety net** | About 175 tests, a verifier that checks against outside sources (for every team, not just the Patriots), and a daily health check |
+| **Size** | ~19,000 lines, 174 code files, 7 runtime dependencies |
 
 And the six habits worth carrying to the next project:
 
