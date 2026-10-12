@@ -1,14 +1,15 @@
 {
-  "id": "2026_04_NE_BUF",
+  "id": "2026_05_LV_NE",
   "season": 2026,
-  "week": 4,
+  "week": 5,
   "seasonType": "REG",
-  "date": "2026-10-04",
+  "date": "2026-10-11",
   "kickoffTimeEt": "13:00",
-  "homeTeam": "BUF",
-  "awayTeam": "NE",
-  "homeScore": 26,
-  "awayScore": 29,
+  "homeTeam": "NE",
+  "awayTeam": "LV",
+  "homeScore": 45,
+  "awayScore": 17,
   "status": "final",
-  "venue": "Highmark Stadium"
+  "venue": "Gillette Stadium",
+  "network": "CBS"
 }

@@ -3,37 +3,37 @@
   "playerName": "Drake Maye",
   "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/mkauzrg7vo8lfziigsbg",
   "team": "NE",
-  "completions": 73,
-  "attempts": 117,
-  "yards": 854,
-  "tds": 4,
+  "completions": 99,
+  "attempts": 151,
+  "yards": 1228,
+  "tds": 8,
   "ints": 7,
-  "cpoe": 2.2511524015239206,
+  "cpoe": 6.65328765248918,
   "accuracyByDepth": {
     "short": 0.75,
-    "medium": 0.53125,
-    "deep": 0.4117647058823529
+    "medium": 0.5675675675675675,
+    "deep": 0.4782608695652174
   },
-  "pressureEpa": -1.2494023479332586,
-  "cleanPocketEpa": 0.13625364767959264,
+  "pressureEpa": -1.0026112348054008,
+  "cleanPocketEpa": 0.3198147573029603,
   "turnoverWorthyPlayRate": 0.0625,
   "ngs": {
     "timeToThrow": {
-      "value": 3.04431623931624,
-      "rank": 6,
-      "of": 38
+      "value": 3.05695364238411,
+      "rank": 5,
+      "of": 40
     },
     "aggressiveness": {
-      "value": 12.8205128205128,
-      "rank": 25,
-      "of": 38
+      "value": 14.5695364238411,
+      "rank": 21,
+      "of": 40
     }
   },
   "ranks": {
     "cpoe": {
-      "value": 2.2511524015239206,
-      "leagueRank": 16,
-      "leaguePercentile": 52
+      "value": 6.65328765248918,
+      "leagueRank": 2,
+      "leaguePercentile": 97
     },
     "turnoverWorthyPlayRate": {
       "value": 0.0625,
@@ -41,14 +41,14 @@
       "leaguePercentile": 3
     },
     "cleanPocketEpa": {
-      "value": 0.13625364767959264,
-      "leagueRank": 21,
-      "leaguePercentile": 35
+      "value": 0.3198147573029603,
+      "leagueRank": 10,
+      "leaguePercentile": 71
     },
     "pressureEpa": {
-      "value": -1.2494023479332586,
-      "leagueRank": 26,
-      "leaguePercentile": 19
+      "value": -1.0026112348054008,
+      "leagueRank": 19,
+      "leaguePercentile": 42
     }
   },
   "windows": [
@@ -56,19 +56,19 @@
       "key": "last-1",
       "label": "Last Game",
       "stats": {
-        "completions": 22,
-        "attempts": 37,
-        "yards": 269,
-        "tds": 3,
-        "ints": 1,
-        "cpoe": 1.097906380891788,
+        "completions": 26,
+        "attempts": 34,
+        "yards": 374,
+        "tds": 4,
+        "ints": 0,
+        "cpoe": 22.557776301137867,
         "accuracyByDepth": {
-          "short": 0.7272727272727273,
-          "medium": 0.6923076923076923,
-          "deep": 0.4
+          "short": 0.75,
+          "medium": 0.8,
+          "deep": 0.6666666666666666
         },
-        "pressureEpa": -0.8787154374197893,
-        "cleanPocketEpa": 0.4939059302275775,
+        "pressureEpa": 0.08326966295717303,
+        "cleanPocketEpa": 0.968397344638859,
         "turnoverWorthyPlayRate": 0
       }
     },
@@ -76,20 +76,20 @@
       "key": "last-3",
       "label": "Last 3 Games",
       "stats": {
-        "completions": 50,
-        "attempts": 84,
-        "yards": 676,
-        "tds": 3,
-        "ints": 4,
-        "cpoe": 0.8277172659650154,
+        "completions": 62,
+        "attempts": 96,
+        "yards": 842,
+        "tds": 7,
+        "ints": 3,
+        "cpoe": 8.224577235651534,
         "accuracyByDepth": {
-          "short": 0.6896551724137931,
-          "medium": 0.5384615384615384,
-          "deep": 0.5384615384615384
+          "short": 0.7222222222222222,
+          "medium": 0.6071428571428571,
+          "deep": 0.5333333333333333
         },
-        "pressureEpa": -1.304047760142088,
-        "cleanPocketEpa": 0.1637125436416382,
-        "turnoverWorthyPlayRate": 0.05434782608695652
+        "pressureEpa": -1.2199842637094351,
+        "cleanPocketEpa": 0.5129389727856527,
+        "turnoverWorthyPlayRate": 0.05970149253731343
       }
     }
   ],
@@ -130,5 +130,6 @@
       "plays": 12,
       "shareOfDropbacks": 0.09375
     }
-  ]
+  ],
+  "chartingNote": "FTN's charting covers 4 of his 5 games so far — turnover-worthy rate and the splits below use those 4."
 }

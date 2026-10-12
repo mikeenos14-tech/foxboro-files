@@ -1,245 +1,5 @@
 {
   "plays": {
-    "2026_01_NE_SEA|613": {
-      "key": "2026_01_NE_SEA|613",
-      "week": 1,
-      "opponent": "SEA",
-      "quarter": 1,
-      "clock": "4:35",
-      "situation": "1st & 10 at NE 20",
-      "offense": "NE",
-      "description": "(4:35) (Shotgun) 10-D.Maye pass short right to 13-M.Hollins to NE 29 for 9 yards (13-E.Jones).",
-      "yards": 9,
-      "neEpa": 0.948128363117576
-    },
-    "2026_01_NE_SEA|3609": {
-      "key": "2026_01_NE_SEA|3609",
-      "week": 1,
-      "opponent": "SEA",
-      "quarter": 4,
-      "clock": "4:41",
-      "situation": "2nd & 21 at NE 16",
-      "offense": "NE",
-      "description": "(4:41) (Shotgun) 10-D.Maye pass deep middle to 13-M.Hollins to NE 35 for 19 yards (24-R.Thomas).",
-      "yards": 19,
-      "neEpa": 1.45118588826153
-    },
-    "2026_01_NE_SEA|3810": {
-      "key": "2026_01_NE_SEA|3810",
-      "week": 1,
-      "opponent": "SEA",
-      "quarter": 4,
-      "clock": "2:00",
-      "situation": "4th & 9 at SEA 47",
-      "offense": "NE",
-      "description": "(2:00) (Shotgun) 10-D.Maye pass short right to 13-M.Hollins to SEA 36 for 11 yards (13-E.Jones).",
-      "yards": 11,
-      "neEpa": 2.42490030504996
-    },
-    "2026_01_NE_SEA|3964": {
-      "key": "2026_01_NE_SEA|3964",
-      "week": 1,
-      "opponent": "SEA",
-      "quarter": 4,
-      "clock": "0:32",
-      "situation": "2nd & 17 at SEA 28",
-      "offense": "NE",
-      "description": "(:32) (Shotgun) 10-D.Maye pass short right to 13-M.Hollins pushed ob at SEA 16 for 12 yards (29-J.Jobe).",
-      "yards": 12,
-      "neEpa": 0.630582676327322
-    },
-    "2026_01_NE_SEA|4006": {
-      "key": "2026_01_NE_SEA|4006",
-      "week": 1,
-      "opponent": "SEA",
-      "quarter": 4,
-      "clock": "0:26",
-      "situation": "3rd & 5 at SEA 16",
-      "offense": "NE",
-      "description": "(:26) (Shotgun) 10-D.Maye pass deep right intended for 13-M.Hollins INTERCEPTED by 29-J.Jobe [0-D.Lawrence] at SEA -3. Touchback.",
-      "yards": 0,
-      "neEpa": -2.66681623412296
-    },
-    "2026_02_PIT_NE|1470": {
-      "key": "2026_02_PIT_NE|1470",
-      "week": 2,
-      "opponent": "PIT",
-      "quarter": 2,
-      "clock": "7:21",
-      "situation": "1st & 10 at NE 21",
-      "offense": "NE",
-      "description": "(7:21) (Shotgun) 10-D.Maye pass short left to 13-M.Hollins to NE 31 for 10 yards (22-A.Samuel).",
-      "yards": 10,
-      "neEpa": 0.551593387965113
-    },
-    "2026_02_PIT_NE|2528": {
-      "key": "2026_02_PIT_NE|2528",
-      "week": 2,
-      "opponent": "PIT",
-      "quarter": 3,
-      "clock": "9:05",
-      "situation": "1st & 10 at NE 15",
-      "offense": "NE",
-      "description": "(9:05) 10-D.Maye pass short left to 13-M.Hollins to NE 23 for 8 yards (35-J.Dean).",
-      "yards": 8,
-      "neEpa": 0.517634638119489
-    },
-    "2026_03_NE_JAX|246": {
-      "key": "2026_03_NE_JAX|246",
-      "week": 3,
-      "opponent": "JAX",
-      "quarter": 1,
-      "clock": "11:44",
-      "situation": "3rd & 5 at NE 33",
-      "offense": "NE",
-      "description": "(11:44) (Shotgun) 10-D.Maye pass short left to 13-M.Hollins pushed ob at JAX 46 for 21 yards (12-T.Hunter; 27-C.Ransaw).",
-      "yards": 21,
-      "neEpa": 2.69824264408089
-    },
-    "2026_03_NE_JAX|563": {
-      "key": "2026_03_NE_JAX|563",
-      "week": 3,
-      "opponent": "JAX",
-      "quarter": 1,
-      "clock": "6:36",
-      "situation": "1st & 10 at NE 42",
-      "offense": "NE",
-      "description": "(6:36) 10-D.Maye pass incomplete deep right to 13-M.Hollins.",
-      "yards": 0,
-      "neEpa": -0.53092824597843
-    },
-    "2026_03_NE_JAX|586": {
-      "key": "2026_03_NE_JAX|586",
-      "week": 3,
-      "opponent": "JAX",
-      "quarter": 1,
-      "clock": "6:30",
-      "situation": "2nd & 10 at NE 42",
-      "offense": "NE",
-      "description": "(6:30) 10-D.Maye pass short right to 13-M.Hollins pushed ob at JAX 45 for 13 yards (4-J.Jones).",
-      "yards": 13,
-      "neEpa": 1.56320220301859
-    },
-    "2026_03_NE_JAX|1243": {
-      "key": "2026_03_NE_JAX|1243",
-      "week": 3,
-      "opponent": "JAX",
-      "quarter": 2,
-      "clock": "10:34",
-      "situation": "1st & 30 at JAX 41",
-      "offense": "NE",
-      "description": "(10:34) (Shotgun) 86-E.Chism pass short right to 13-M.Hollins to JAX 25 for 16 yards (6-A.Johnson; 29-E.Murray) [23-F.Oluokun].",
-      "yards": 16,
-      "neEpa": 0.792526712291874
-    },
-    "2026_03_NE_JAX|1298": {
-      "key": "2026_03_NE_JAX|1298",
-      "week": 3,
-      "opponent": "JAX",
-      "quarter": 2,
-      "clock": "9:20",
-      "situation": "3rd & 6 at JAX 17",
-      "offense": "NE",
-      "description": "(9:20) (Shotgun) 10-D.Maye pass incomplete deep right to 13-M.Hollins. NE-70-G.Van Roten was injured during the play.",
-      "yards": 0,
-      "neEpa": -0.873136153293557
-    },
-    "2026_03_NE_JAX|3235": {
-      "key": "2026_03_NE_JAX|3235",
-      "week": 3,
-      "opponent": "JAX",
-      "quarter": 3,
-      "clock": "0:29",
-      "situation": "2nd & 18 at NE 1",
-      "offense": "NE",
-      "description": "(:29) (Shotgun) 10-D.Maye pass short right to 13-M.Hollins pushed ob at NE 11 for 10 yards (1-M.Brown).",
-      "yards": 10,
-      "neEpa": 0.655180060071871
-    },
-    "2026_03_NE_JAX|3288": {
-      "key": "2026_03_NE_JAX|3288",
-      "week": 3,
-      "opponent": "JAX",
-      "quarter": 4,
-      "clock": "15:00",
-      "situation": "3rd & 8 at NE 11",
-      "offense": "NE",
-      "description": "(15:00) (Shotgun) 10-D.Maye pass deep right to 13-M.Hollins ran ob at NE 29 for 18 yards. Penalty on JAX-4-J.Jones, Defensive Holding, declined.",
-      "yards": 18,
-      "neEpa": 2.46527646481991
-    },
-    "2026_03_NE_JAX|3385": {
-      "key": "2026_03_NE_JAX|3385",
-      "week": 3,
-      "opponent": "JAX",
-      "quarter": 4,
-      "clock": "13:42",
-      "situation": "1st & 10 at JAX 16",
-      "offense": "NE",
-      "description": "(13:42) (Shotgun) 10-D.Maye pass incomplete deep right to 13-M.Hollins. ** Injury Update: JAX-52-D.Hamilton has returned to the game.",
-      "yards": 0,
-      "neEpa": -0.466759669594467
-    },
-    "2026_03_NE_JAX|3434": {
-      "key": "2026_03_NE_JAX|3434",
-      "week": 3,
-      "opponent": "JAX",
-      "quarter": 4,
-      "clock": "13:32",
-      "situation": "3rd & 10 at JAX 16",
-      "offense": "NE",
-      "description": "(13:32) (Shotgun) 10-D.Maye pass short right to 13-M.Hollins to JAX 7 for 9 yards (29-E.Murray). PENALTY on NE-13-M.Hollins, Taunting, 15 yards, enforced at JAX 7.",
-      "yards": 9,
-      "neEpa": -1.29947800146153
-    },
-    "2026_04_NE_BUF|414": {
-      "key": "2026_04_NE_BUF|414",
-      "week": 4,
-      "opponent": "BUF",
-      "quarter": 1,
-      "clock": "8:19",
-      "situation": "3rd & 11 at BUF 37",
-      "offense": "NE",
-      "description": "(8:19) (Shotgun) 10-D.Maye pass short left to 13-M.Hollins to BUF 29 for 8 yards (21-D.Igbinosun; 55-M.Hoecht).",
-      "yards": 8,
-      "neEpa": 0.19389360549394
-    },
-    "2026_04_NE_BUF|1453": {
-      "key": "2026_04_NE_BUF|1453",
-      "week": 4,
-      "opponent": "BUF",
-      "quarter": 2,
-      "clock": "8:17",
-      "situation": "2nd & 10 at NE 37",
-      "offense": "NE",
-      "description": "(8:17) (Shotgun) 10-D.Maye pass deep right to 13-M.Hollins to BUF 37 for 26 yards (21-D.Igbinosun).",
-      "yards": 26,
-      "neEpa": 2.20810815063305
-    },
-    "2026_04_NE_BUF|2056": {
-      "key": "2026_04_NE_BUF|2056",
-      "week": 4,
-      "opponent": "BUF",
-      "quarter": 2,
-      "clock": "0:53",
-      "situation": "2nd & 10 at NE 35",
-      "offense": "NE",
-      "description": "(:53) (Shotgun) 10-D.Maye pass incomplete deep right to 13-M.Hollins.",
-      "yards": 0,
-      "neEpa": -0.288435441965703
-    },
-    "2026_04_NE_BUF|2500": {
-      "key": "2026_04_NE_BUF|2500",
-      "week": 4,
-      "opponent": "BUF",
-      "quarter": 3,
-      "clock": "11:49",
-      "situation": "2nd & 9 at BUF 44",
-      "offense": "NE",
-      "description": "(11:49) 10-D.Maye pass deep left to 13-M.Hollins to BUF 25 for 19 yards (21-D.Igbinosun). Penalty on BUF-21-D.Igbinosun, Defensive Pass Interference, declined.",
-      "yards": 19,
-      "neEpa": 1.91001546324696
-    },
     "2026_01_NE_SEA|2945": {
       "key": "2026_01_NE_SEA|2945",
       "week": 1,
@@ -480,6 +240,282 @@
       "yards": 0,
       "neEpa": -0.440272678039037
     },
+    "2026_05_LV_NE|246": {
+      "key": "2026_05_LV_NE|246",
+      "week": 5,
+      "opponent": "LV",
+      "quarter": 1,
+      "clock": "12:43",
+      "situation": "2nd & 10 at NE 49",
+      "offense": "NE",
+      "description": "(12:43) (Shotgun) 10-D.Maye pass deep middle to 87-R.Doubs to LV 35 for 16 yards (35-H.Masses) [98-M.Crosby].",
+      "yards": 16,
+      "neEpa": 1.41989693359938
+    },
+    "2026_05_LV_NE|1412": {
+      "key": "2026_05_LV_NE|1412",
+      "week": 5,
+      "opponent": "LV",
+      "quarter": 2,
+      "clock": "11:34",
+      "situation": "1st & 10 at LV 34",
+      "offense": "NE",
+      "description": "(11:34) (Shotgun) 10-D.Maye pass incomplete deep left to 87-R.Doubs (26-D.Porter).",
+      "yards": 0,
+      "neEpa": -0.479596860241145
+    },
+    "2026_05_LV_NE|3675": {
+      "key": "2026_05_LV_NE|3675",
+      "week": 5,
+      "opponent": "LV",
+      "quarter": 4,
+      "clock": "14:19",
+      "situation": "3rd & Goal at LV 9",
+      "offense": "NE",
+      "description": "(14:19) (Shotgun) 10-D.Maye pass incomplete short left to 87-R.Doubs (26-D.Porter).",
+      "yards": 0,
+      "neEpa": -1.02728102065992
+    },
+    "2026_01_NE_SEA|613": {
+      "key": "2026_01_NE_SEA|613",
+      "week": 1,
+      "opponent": "SEA",
+      "quarter": 1,
+      "clock": "4:35",
+      "situation": "1st & 10 at NE 20",
+      "offense": "NE",
+      "description": "(4:35) (Shotgun) 10-D.Maye pass short right to 13-M.Hollins to NE 29 for 9 yards (13-E.Jones).",
+      "yards": 9,
+      "neEpa": 0.948128363117576
+    },
+    "2026_01_NE_SEA|3609": {
+      "key": "2026_01_NE_SEA|3609",
+      "week": 1,
+      "opponent": "SEA",
+      "quarter": 4,
+      "clock": "4:41",
+      "situation": "2nd & 21 at NE 16",
+      "offense": "NE",
+      "description": "(4:41) (Shotgun) 10-D.Maye pass deep middle to 13-M.Hollins to NE 35 for 19 yards (24-R.Thomas).",
+      "yards": 19,
+      "neEpa": 1.45118588826153
+    },
+    "2026_01_NE_SEA|3810": {
+      "key": "2026_01_NE_SEA|3810",
+      "week": 1,
+      "opponent": "SEA",
+      "quarter": 4,
+      "clock": "2:00",
+      "situation": "4th & 9 at SEA 47",
+      "offense": "NE",
+      "description": "(2:00) (Shotgun) 10-D.Maye pass short right to 13-M.Hollins to SEA 36 for 11 yards (13-E.Jones).",
+      "yards": 11,
+      "neEpa": 2.42490030504996
+    },
+    "2026_01_NE_SEA|3964": {
+      "key": "2026_01_NE_SEA|3964",
+      "week": 1,
+      "opponent": "SEA",
+      "quarter": 4,
+      "clock": "0:32",
+      "situation": "2nd & 17 at SEA 28",
+      "offense": "NE",
+      "description": "(:32) (Shotgun) 10-D.Maye pass short right to 13-M.Hollins pushed ob at SEA 16 for 12 yards (29-J.Jobe).",
+      "yards": 12,
+      "neEpa": 0.630582676327322
+    },
+    "2026_01_NE_SEA|4006": {
+      "key": "2026_01_NE_SEA|4006",
+      "week": 1,
+      "opponent": "SEA",
+      "quarter": 4,
+      "clock": "0:26",
+      "situation": "3rd & 5 at SEA 16",
+      "offense": "NE",
+      "description": "(:26) (Shotgun) 10-D.Maye pass deep right intended for 13-M.Hollins INTERCEPTED by 29-J.Jobe [0-D.Lawrence] at SEA -3. Touchback.",
+      "yards": 0,
+      "neEpa": -2.66681623412296
+    },
+    "2026_02_PIT_NE|1470": {
+      "key": "2026_02_PIT_NE|1470",
+      "week": 2,
+      "opponent": "PIT",
+      "quarter": 2,
+      "clock": "7:21",
+      "situation": "1st & 10 at NE 21",
+      "offense": "NE",
+      "description": "(7:21) (Shotgun) 10-D.Maye pass short left to 13-M.Hollins to NE 31 for 10 yards (22-A.Samuel).",
+      "yards": 10,
+      "neEpa": 0.551593387965113
+    },
+    "2026_02_PIT_NE|2528": {
+      "key": "2026_02_PIT_NE|2528",
+      "week": 2,
+      "opponent": "PIT",
+      "quarter": 3,
+      "clock": "9:05",
+      "situation": "1st & 10 at NE 15",
+      "offense": "NE",
+      "description": "(9:05) 10-D.Maye pass short left to 13-M.Hollins to NE 23 for 8 yards (35-J.Dean).",
+      "yards": 8,
+      "neEpa": 0.517634638119489
+    },
+    "2026_03_NE_JAX|246": {
+      "key": "2026_03_NE_JAX|246",
+      "week": 3,
+      "opponent": "JAX",
+      "quarter": 1,
+      "clock": "11:44",
+      "situation": "3rd & 5 at NE 33",
+      "offense": "NE",
+      "description": "(11:44) (Shotgun) 10-D.Maye pass short left to 13-M.Hollins pushed ob at JAX 46 for 21 yards (12-T.Hunter; 27-C.Ransaw).",
+      "yards": 21,
+      "neEpa": 2.69824264408089
+    },
+    "2026_03_NE_JAX|563": {
+      "key": "2026_03_NE_JAX|563",
+      "week": 3,
+      "opponent": "JAX",
+      "quarter": 1,
+      "clock": "6:36",
+      "situation": "1st & 10 at NE 42",
+      "offense": "NE",
+      "description": "(6:36) 10-D.Maye pass incomplete deep right to 13-M.Hollins.",
+      "yards": 0,
+      "neEpa": -0.53092824597843
+    },
+    "2026_03_NE_JAX|586": {
+      "key": "2026_03_NE_JAX|586",
+      "week": 3,
+      "opponent": "JAX",
+      "quarter": 1,
+      "clock": "6:30",
+      "situation": "2nd & 10 at NE 42",
+      "offense": "NE",
+      "description": "(6:30) 10-D.Maye pass short right to 13-M.Hollins pushed ob at JAX 45 for 13 yards (4-J.Jones).",
+      "yards": 13,
+      "neEpa": 1.56320220301859
+    },
+    "2026_03_NE_JAX|1243": {
+      "key": "2026_03_NE_JAX|1243",
+      "week": 3,
+      "opponent": "JAX",
+      "quarter": 2,
+      "clock": "10:34",
+      "situation": "1st & 30 at JAX 41",
+      "offense": "NE",
+      "description": "(10:34) (Shotgun) 86-E.Chism pass short right to 13-M.Hollins to JAX 25 for 16 yards (6-A.Johnson; 29-E.Murray) [23-F.Oluokun].",
+      "yards": 16,
+      "neEpa": 0.792526712291874
+    },
+    "2026_03_NE_JAX|1298": {
+      "key": "2026_03_NE_JAX|1298",
+      "week": 3,
+      "opponent": "JAX",
+      "quarter": 2,
+      "clock": "9:20",
+      "situation": "3rd & 6 at JAX 17",
+      "offense": "NE",
+      "description": "(9:20) (Shotgun) 10-D.Maye pass incomplete deep right to 13-M.Hollins. NE-70-G.Van Roten was injured during the play.",
+      "yards": 0,
+      "neEpa": -0.873136153293557
+    },
+    "2026_03_NE_JAX|3235": {
+      "key": "2026_03_NE_JAX|3235",
+      "week": 3,
+      "opponent": "JAX",
+      "quarter": 3,
+      "clock": "0:29",
+      "situation": "2nd & 18 at NE 1",
+      "offense": "NE",
+      "description": "(:29) (Shotgun) 10-D.Maye pass short right to 13-M.Hollins pushed ob at NE 11 for 10 yards (1-M.Brown).",
+      "yards": 10,
+      "neEpa": 0.655180060071871
+    },
+    "2026_03_NE_JAX|3288": {
+      "key": "2026_03_NE_JAX|3288",
+      "week": 3,
+      "opponent": "JAX",
+      "quarter": 4,
+      "clock": "15:00",
+      "situation": "3rd & 8 at NE 11",
+      "offense": "NE",
+      "description": "(15:00) (Shotgun) 10-D.Maye pass deep right to 13-M.Hollins ran ob at NE 29 for 18 yards. Penalty on JAX-4-J.Jones, Defensive Holding, declined.",
+      "yards": 18,
+      "neEpa": 2.46527646481991
+    },
+    "2026_03_NE_JAX|3385": {
+      "key": "2026_03_NE_JAX|3385",
+      "week": 3,
+      "opponent": "JAX",
+      "quarter": 4,
+      "clock": "13:42",
+      "situation": "1st & 10 at JAX 16",
+      "offense": "NE",
+      "description": "(13:42) (Shotgun) 10-D.Maye pass incomplete deep right to 13-M.Hollins. ** Injury Update: JAX-52-D.Hamilton has returned to the game.",
+      "yards": 0,
+      "neEpa": -0.466759669594467
+    },
+    "2026_03_NE_JAX|3434": {
+      "key": "2026_03_NE_JAX|3434",
+      "week": 3,
+      "opponent": "JAX",
+      "quarter": 4,
+      "clock": "13:32",
+      "situation": "3rd & 10 at JAX 16",
+      "offense": "NE",
+      "description": "(13:32) (Shotgun) 10-D.Maye pass short right to 13-M.Hollins to JAX 7 for 9 yards (29-E.Murray). PENALTY on NE-13-M.Hollins, Taunting, 15 yards, enforced at JAX 7.",
+      "yards": 9,
+      "neEpa": -1.29947800146153
+    },
+    "2026_04_NE_BUF|414": {
+      "key": "2026_04_NE_BUF|414",
+      "week": 4,
+      "opponent": "BUF",
+      "quarter": 1,
+      "clock": "8:19",
+      "situation": "3rd & 11 at BUF 37",
+      "offense": "NE",
+      "description": "(8:19) (Shotgun) 10-D.Maye pass short left to 13-M.Hollins to BUF 29 for 8 yards (21-D.Igbinosun; 55-M.Hoecht).",
+      "yards": 8,
+      "neEpa": 0.19389360549394
+    },
+    "2026_04_NE_BUF|1453": {
+      "key": "2026_04_NE_BUF|1453",
+      "week": 4,
+      "opponent": "BUF",
+      "quarter": 2,
+      "clock": "8:17",
+      "situation": "2nd & 10 at NE 37",
+      "offense": "NE",
+      "description": "(8:17) (Shotgun) 10-D.Maye pass deep right to 13-M.Hollins to BUF 37 for 26 yards (21-D.Igbinosun).",
+      "yards": 26,
+      "neEpa": 2.20810815063305
+    },
+    "2026_04_NE_BUF|2056": {
+      "key": "2026_04_NE_BUF|2056",
+      "week": 4,
+      "opponent": "BUF",
+      "quarter": 2,
+      "clock": "0:53",
+      "situation": "2nd & 10 at NE 35",
+      "offense": "NE",
+      "description": "(:53) (Shotgun) 10-D.Maye pass incomplete deep right to 13-M.Hollins.",
+      "yards": 0,
+      "neEpa": -0.288435441965703
+    },
+    "2026_04_NE_BUF|2500": {
+      "key": "2026_04_NE_BUF|2500",
+      "week": 4,
+      "opponent": "BUF",
+      "quarter": 3,
+      "clock": "11:49",
+      "situation": "2nd & 9 at BUF 44",
+      "offense": "NE",
+      "description": "(11:49) 10-D.Maye pass deep left to 13-M.Hollins to BUF 25 for 19 yards (21-D.Igbinosun). Penalty on BUF-21-D.Igbinosun, Defensive Pass Interference, declined.",
+      "yards": 19,
+      "neEpa": 1.91001546324696
+    },
     "2026_01_NE_SEA|1479": {
       "key": "2026_01_NE_SEA|1479",
       "week": 1,
@@ -660,197 +696,53 @@
       "yards": 12,
       "neEpa": 0.525291869591456
     },
-    "2026_01_NE_SEA|1611": {
-      "key": "2026_01_NE_SEA|1611",
-      "week": 1,
-      "opponent": "SEA",
-      "quarter": 2,
-      "clock": "1:46",
-      "situation": "2nd & 10 at NE 46",
+    "2026_05_LV_NE|884": {
+      "key": "2026_05_LV_NE|884",
+      "week": 5,
+      "opponent": "LV",
+      "quarter": 1,
+      "clock": "2:39",
+      "situation": "3rd & 3 at LV 8",
       "offense": "NE",
-      "description": "(1:46) (Shotgun) 10-D.Maye pass short left to 38-R.Stevenson to SEA 49 for 5 yards (32-D.Thomas; 29-J.Jobe).",
-      "yards": 5,
-      "neEpa": 0.148507287842222
-    },
-    "2026_01_NE_SEA|2095": {
-      "key": "2026_01_NE_SEA|2095",
-      "week": 1,
-      "opponent": "SEA",
-      "quarter": 3,
-      "clock": "12:41",
-      "situation": "2nd & 10 at SEA 37",
-      "offense": "NE",
-      "description": "(12:41) (Shotgun) 10-D.Maye pass incomplete short left to 38-R.Stevenson (7-U.Nwosu). The incomplete pass was assisted by replay.",
+      "description": "(2:39) (Shotgun) 10-D.Maye pass incomplete short left to 85-H.Henry (11-J.Chinn).",
       "yards": 0,
-      "neEpa": -0.845830118283629
+      "neEpa": -1.67450033471687
     },
-    "2026_01_NE_SEA|2120": {
-      "key": "2026_01_NE_SEA|2120",
-      "week": 1,
-      "opponent": "SEA",
-      "quarter": 3,
-      "clock": "12:38",
-      "situation": "3rd & 10 at SEA 37",
+    "2026_05_LV_NE|907": {
+      "key": "2026_05_LV_NE|907",
+      "week": 5,
+      "opponent": "LV",
+      "quarter": 1,
+      "clock": "2:34",
+      "situation": "4th & 3 at LV 8",
       "offense": "NE",
-      "description": "(12:38) (Shotgun) 10-D.Maye pass short right to 38-R.Stevenson to SEA 32 for 5 yards (20-J.Love; 21-D.Witherspoon).",
-      "yards": 5,
-      "neEpa": -0.68645065406419
+      "description": "(2:34) (Shotgun) 10-D.Maye pass short middle to 85-H.Henry to LV 1 for 7 yards (31-T.Stukes).",
+      "yards": 7,
+      "neEpa": 3.47915124159772
     },
-    "2026_01_NE_SEA|2406": {
-      "key": "2026_01_NE_SEA|2406",
-      "week": 1,
-      "opponent": "SEA",
-      "quarter": 3,
-      "clock": "8:11",
-      "situation": "3rd & 11 at NE 5",
+    "2026_05_LV_NE|2157": {
+      "key": "2026_05_LV_NE|2157",
+      "week": 5,
+      "opponent": "LV",
+      "quarter": 2,
+      "clock": "0:38",
+      "situation": "2nd & 13 at LV 37",
       "offense": "NE",
-      "description": "(8:11) (Shotgun) 10-D.Maye pass short middle to 38-R.Stevenson to NE 11 for 6 yards (13-E.Jones).",
-      "yards": 6,
-      "neEpa": -0.495809633750469
+      "description": "(:38) (Shotgun) 10-D.Maye pass short right to 85-H.Henry to LV 11 for 26 yards (7-Q.Walker; 26-D.Porter).",
+      "yards": 26,
+      "neEpa": 2.21669896086678
     },
-    "2026_01_NE_SEA|2753": {
-      "key": "2026_01_NE_SEA|2753",
-      "week": 1,
-      "opponent": "SEA",
-      "quarter": 3,
-      "clock": "3:06",
-      "situation": "1st & 15 at NE 27",
+    "2026_05_LV_NE|2189": {
+      "key": "2026_05_LV_NE|2189",
+      "week": 5,
+      "opponent": "LV",
+      "quarter": 2,
+      "clock": "0:28",
+      "situation": "1st & 10 at LV 11",
       "offense": "NE",
-      "description": "(3:06) 10-D.Maye pass short left to 38-R.Stevenson pushed ob at NE 44 for 17 yards (13-E.Jones).",
-      "yards": 17,
-      "neEpa": 1.47770877624862
-    },
-    "2026_01_NE_SEA|2838": {
-      "key": "2026_01_NE_SEA|2838",
-      "week": 1,
-      "opponent": "SEA",
-      "quarter": 3,
-      "clock": "1:26",
-      "situation": "2nd & 19 at NE 35",
-      "offense": "NE",
-      "description": "(1:26) 10-D.Maye pass short left to 38-R.Stevenson to NE 46 for 11 yards (32-D.Thomas; 13-E.Jones).",
+      "description": "(:28) (Shotgun) 10-D.Maye pass short middle to 85-H.Henry for 11 yards, TOUCHDOWN [98-M.Crosby]. Penalty on LV-17-N.Dean, Defensive Holding, declined.",
       "yards": 11,
-      "neEpa": 0.300744827836752
-    },
-    "2026_02_PIT_NE|243": {
-      "key": "2026_02_PIT_NE|243",
-      "week": 2,
-      "opponent": "PIT",
-      "quarter": 1,
-      "clock": "11:32",
-      "situation": "1st & 10 at PIT 34",
-      "offense": "NE",
-      "description": "(11:32) 10-D.Maye pass short left to 38-R.Stevenson to PIT 31 for 3 yards (51-N.Herbig). FUMBLES (51-N.Herbig), RECOVERED by PIT-41-P.Wilson at PIT 31. PENALTY on PIT-5-J.Ramsey, Taunting, 15 yards, enforced at PIT 31.",
-      "yards": 3,
-      "neEpa": -4.15501275716815
-    },
-    "2026_02_PIT_NE|2607": {
-      "key": "2026_02_PIT_NE|2607",
-      "week": 2,
-      "opponent": "PIT",
-      "quarter": 3,
-      "clock": "7:25",
-      "situation": "2nd & 6 at NE 30",
-      "offense": "NE",
-      "description": "(7:25) 10-D.Maye pass incomplete short left to 38-R.Stevenson [56-A.Highsmith].",
-      "yards": 0,
-      "neEpa": -0.792858132626861
-    },
-    "2026_03_NE_JAX|199": {
-      "key": "2026_03_NE_JAX|199",
-      "week": 3,
-      "opponent": "JAX",
-      "quarter": 1,
-      "clock": "13:06",
-      "situation": "1st & 10 at NE 28",
-      "offense": "NE",
-      "description": "(13:06) (Shotgun) 10-D.Maye pass short right to 38-R.Stevenson to NE 30 for 2 yards (51-V.Miller).",
-      "yards": 2,
-      "neEpa": -0.396020134910941
-    },
-    "2026_03_NE_JAX|2447": {
-      "key": "2026_03_NE_JAX|2447",
-      "week": 3,
-      "opponent": "JAX",
-      "quarter": 3,
-      "clock": "12:42",
-      "situation": "1st & 15 at JAX 40",
-      "offense": "NE",
-      "description": "(12:42) (Shotgun) 10-D.Maye pass short left to 38-R.Stevenson pushed ob at JAX 28 for 12 yards (51-V.Miller).",
-      "yards": 12,
-      "neEpa": 1.13061872019898
-    },
-    "2026_03_NE_JAX|2523": {
-      "key": "2026_03_NE_JAX|2523",
-      "week": 3,
-      "opponent": "JAX",
-      "quarter": 3,
-      "clock": "10:42",
-      "situation": "2nd & 8 at JAX 22",
-      "offense": "NE",
-      "description": "(10:42) 10-D.Maye pass short right to 38-R.Stevenson to JAX 20 for 2 yards (99-R.Orhorhoro; 41-J.Hines-Allen).",
-      "yards": 2,
-      "neEpa": -0.462504940282088
-    },
-    "2026_04_NE_BUF|391": {
-      "key": "2026_04_NE_BUF|391",
-      "week": 4,
-      "opponent": "BUF",
-      "quarter": 1,
-      "clock": "8:24",
-      "situation": "2nd & 11 at BUF 37",
-      "offense": "NE",
-      "description": "(8:24) (Shotgun) 10-D.Maye pass incomplete short right to 38-R.Stevenson (21-D.Igbinosun).",
-      "yards": 0,
-      "neEpa": -0.922673485707492
-    },
-    "2026_04_NE_BUF|2084": {
-      "key": "2026_04_NE_BUF|2084",
-      "week": 4,
-      "opponent": "BUF",
-      "quarter": 2,
-      "clock": "0:45",
-      "situation": "3rd & 10 at NE 35",
-      "offense": "NE",
-      "description": "(:45) (Shotgun) 10-D.Maye pass incomplete short left to 38-R.Stevenson [9-B.Chubb].",
-      "yards": 0,
-      "neEpa": -0.552452456089668
-    },
-    "2026_04_NE_BUF|2563": {
-      "key": "2026_04_NE_BUF|2563",
-      "week": 4,
-      "opponent": "BUF",
-      "quarter": 3,
-      "clock": "10:47",
-      "situation": "2nd & 8 at BUF 23",
-      "offense": "NE",
-      "description": "(10:47) (Shotgun) 10-D.Maye pass short right to 38-R.Stevenson ran ob at BUF 17 for 6 yards (8-T.Bernard).",
-      "yards": 6,
-      "neEpa": 0.258765286125708
-    },
-    "2026_04_NE_BUF|3125": {
-      "key": "2026_04_NE_BUF|3125",
-      "week": 4,
-      "opponent": "BUF",
-      "quarter": 3,
-      "clock": "4:19",
-      "situation": "1st & 15 at NE 36",
-      "offense": "NE",
-      "description": "(4:19) (Shotgun) 10-D.Maye pass short left to 38-R.Stevenson to NE 44 for 8 yards (42-D.Williams; 99-T.Parker).",
-      "yards": 8,
-      "neEpa": 0.338848577113822
-    },
-    "2026_04_NE_BUF|3892": {
-      "key": "2026_04_NE_BUF|3892",
-      "week": 4,
-      "opponent": "BUF",
-      "quarter": 4,
-      "clock": "7:30",
-      "situation": "3rd & 17 at NE 29",
-      "offense": "NE",
-      "description": "(7:30) (Shotgun) 10-D.Maye pass short left to 38-R.Stevenson to NE 42 for 13 yards (15-G.Rousseau).",
-      "yards": 13,
-      "neEpa": -0.175920430570841
+      "neEpa": 2.52938589756377
     },
     "2026_01_NE_SEA|942": {
       "key": "2026_01_NE_SEA|942",
@@ -1056,53 +948,65 @@
       "yards": 10,
       "neEpa": 1.74538741982542
     },
-    "2026_01_NE_SEA|1152": {
-      "key": "2026_01_NE_SEA|1152",
-      "week": 1,
-      "opponent": "SEA",
-      "quarter": 2,
-      "clock": "9:14",
-      "situation": "1st & Goal at SEA 2",
-      "offense": "NE",
-      "description": "(9:14) 70-G.Van Roten reported in as eligible. 10-D.Maye pass short left to 82-E.Raridon for 2 yards, TOUCHDOWN.",
-      "yards": 2,
-      "neEpa": 0.840626145160059
-    },
-    "2026_02_PIT_NE|871": {
-      "key": "2026_02_PIT_NE|871",
-      "week": 2,
-      "opponent": "PIT",
+    "2026_05_LV_NE|293": {
+      "key": "2026_05_LV_NE|293",
+      "week": 5,
+      "opponent": "LV",
       "quarter": 1,
-      "clock": "1:51",
-      "situation": "2nd & 4 at PIT 36",
+      "clock": "11:30",
+      "situation": "2nd & 10 at LV 35",
       "offense": "NE",
-      "description": "(1:51) (Shotgun) 10-D.Maye pass deep left to 82-E.Raridon to PIT 6 for 30 yards (41-P.Wilson) [97-C.Heyward]. ** Injury Update: PIT-3-J.Brisker has returned to the game. Penalty on PIT-41-P.Wilson, Defensive Pass Interference, declined.",
-      "yards": 30,
-      "neEpa": 2.17241139156977
+      "description": "(11:30) (Shotgun) 10-D.Maye pass deep right to 3-D.Douglas for 35 yards, TOUCHDOWN.",
+      "yards": 35,
+      "neEpa": 3.58403301867656
     },
-    "2026_04_NE_BUF|258": {
-      "key": "2026_04_NE_BUF|258",
-      "week": 4,
-      "opponent": "BUF",
+    "2026_05_LV_NE|768": {
+      "key": "2026_05_LV_NE|768",
+      "week": 5,
+      "opponent": "LV",
       "quarter": 1,
-      "clock": "11:35",
-      "situation": "2nd & 9 at NE 21",
+      "clock": "4:35",
+      "situation": "4th & 2 at LV 48",
       "offense": "NE",
-      "description": "(11:35) (Shotgun) 10-D.Maye pass short middle to 82-E.Raridon to NE 33 for 12 yards (24-C.Bishop).",
-      "yards": 12,
-      "neEpa": 1.50743847107515
+      "description": "(4:35) (Shotgun) 10-D.Maye pass short right to 3-D.Douglas pushed ob at LV 42 for 6 yards (3-T.Johnson).",
+      "yards": 6,
+      "neEpa": 2.87793788989075
     },
-    "2026_04_NE_BUF|2684": {
-      "key": "2026_04_NE_BUF|2684",
-      "week": 4,
-      "opponent": "BUF",
+    "2026_05_LV_NE|2745": {
+      "key": "2026_05_LV_NE|2745",
+      "week": 5,
+      "opponent": "LV",
       "quarter": 3,
-      "clock": "9:11",
-      "situation": "2nd & Goal at BUF 2",
+      "clock": "11:07",
+      "situation": "2nd & 16 at NE 7",
       "offense": "NE",
-      "description": "(9:11) 74-C.Lomu reported in as eligible. 10-D.Maye pass incomplete short right to 82-E.Raridon.",
+      "description": "(11:07) (Shotgun) 10-D.Maye pass incomplete deep left to 3-D.Douglas. The incomplete pass was assisted by replay.",
       "yards": 0,
-      "neEpa": -0.855917646083981
+      "neEpa": -0.741040047258139
+    },
+    "2026_05_LV_NE|3087": {
+      "key": "2026_05_LV_NE|3087",
+      "week": 5,
+      "opponent": "LV",
+      "quarter": 3,
+      "clock": "7:22",
+      "situation": "3rd & 5 at NE 34",
+      "offense": "NE",
+      "description": "(7:22) (Shotgun) 10-D.Maye pass short right to 3-D.Douglas to 50 for 16 yards (5-E.Stokes).",
+      "yards": 16,
+      "neEpa": 2.18676372384653
+    },
+    "2026_05_LV_NE|4190": {
+      "key": "2026_05_LV_NE|4190",
+      "week": 5,
+      "opponent": "LV",
+      "quarter": 4,
+      "clock": "6:11",
+      "situation": "3rd & 3 at LV 8",
+      "offense": "NE",
+      "description": "(6:11) (Shotgun) 10-D.Maye pass short right to 3-D.Douglas for 8 yards, TOUCHDOWN.",
+      "yards": 8,
+      "neEpa": 2.63426776509732
     },
     "2026_02_PIT_NE|2630": {
       "key": "2026_02_PIT_NE|2630",
@@ -1188,6 +1092,378 @@
       "yards": 0,
       "neEpa": -0.461797019583173
     },
+    "2026_05_LV_NE|2507": {
+      "key": "2026_05_LV_NE|2507",
+      "week": 5,
+      "opponent": "LV",
+      "quarter": 3,
+      "clock": "13:04",
+      "situation": "2nd & 19 at LV 34",
+      "offense": "NE",
+      "description": "(13:04) (Shotgun) 10-D.Maye pass deep left to 18-K.Williams for 34 yards, TOUCHDOWN.",
+      "yards": 34,
+      "neEpa": 4.06246423604898
+    },
+    "2026_05_LV_NE|2775": {
+      "key": "2026_05_LV_NE|2775",
+      "week": 5,
+      "opponent": "LV",
+      "quarter": 3,
+      "clock": "10:50",
+      "situation": "3rd & 16 at NE 7",
+      "offense": "NE",
+      "description": "(10:50) (Shotgun) 10-D.Maye pass short middle to 18-K.Williams to NE 15 for 8 yards (7-Q.Walker).",
+      "yards": 8,
+      "neEpa": -0.28267436940223
+    },
+    "2026_05_LV_NE|3585": {
+      "key": "2026_05_LV_NE|3585",
+      "week": 5,
+      "opponent": "LV",
+      "quarter": 3,
+      "clock": "0:36",
+      "situation": "3rd & 2 at NE 42",
+      "offense": "NE",
+      "description": "(:36) (Shotgun) 10-D.Maye pass deep right to 18-K.Williams to LV 9 for 49 yards (26-D.Porter).",
+      "yards": 49,
+      "neEpa": 3.60538494732464
+    },
+    "2026_01_NE_SEA|1611": {
+      "key": "2026_01_NE_SEA|1611",
+      "week": 1,
+      "opponent": "SEA",
+      "quarter": 2,
+      "clock": "1:46",
+      "situation": "2nd & 10 at NE 46",
+      "offense": "NE",
+      "description": "(1:46) (Shotgun) 10-D.Maye pass short left to 38-R.Stevenson to SEA 49 for 5 yards (32-D.Thomas; 29-J.Jobe).",
+      "yards": 5,
+      "neEpa": 0.148507287842222
+    },
+    "2026_01_NE_SEA|2095": {
+      "key": "2026_01_NE_SEA|2095",
+      "week": 1,
+      "opponent": "SEA",
+      "quarter": 3,
+      "clock": "12:41",
+      "situation": "2nd & 10 at SEA 37",
+      "offense": "NE",
+      "description": "(12:41) (Shotgun) 10-D.Maye pass incomplete short left to 38-R.Stevenson (7-U.Nwosu). The incomplete pass was assisted by replay.",
+      "yards": 0,
+      "neEpa": -0.845830118283629
+    },
+    "2026_01_NE_SEA|2120": {
+      "key": "2026_01_NE_SEA|2120",
+      "week": 1,
+      "opponent": "SEA",
+      "quarter": 3,
+      "clock": "12:38",
+      "situation": "3rd & 10 at SEA 37",
+      "offense": "NE",
+      "description": "(12:38) (Shotgun) 10-D.Maye pass short right to 38-R.Stevenson to SEA 32 for 5 yards (20-J.Love; 21-D.Witherspoon).",
+      "yards": 5,
+      "neEpa": -0.68645065406419
+    },
+    "2026_01_NE_SEA|2406": {
+      "key": "2026_01_NE_SEA|2406",
+      "week": 1,
+      "opponent": "SEA",
+      "quarter": 3,
+      "clock": "8:11",
+      "situation": "3rd & 11 at NE 5",
+      "offense": "NE",
+      "description": "(8:11) (Shotgun) 10-D.Maye pass short middle to 38-R.Stevenson to NE 11 for 6 yards (13-E.Jones).",
+      "yards": 6,
+      "neEpa": -0.495809633750469
+    },
+    "2026_01_NE_SEA|2753": {
+      "key": "2026_01_NE_SEA|2753",
+      "week": 1,
+      "opponent": "SEA",
+      "quarter": 3,
+      "clock": "3:06",
+      "situation": "1st & 15 at NE 27",
+      "offense": "NE",
+      "description": "(3:06) 10-D.Maye pass short left to 38-R.Stevenson pushed ob at NE 44 for 17 yards (13-E.Jones).",
+      "yards": 17,
+      "neEpa": 1.47770877624862
+    },
+    "2026_01_NE_SEA|2838": {
+      "key": "2026_01_NE_SEA|2838",
+      "week": 1,
+      "opponent": "SEA",
+      "quarter": 3,
+      "clock": "1:26",
+      "situation": "2nd & 19 at NE 35",
+      "offense": "NE",
+      "description": "(1:26) 10-D.Maye pass short left to 38-R.Stevenson to NE 46 for 11 yards (32-D.Thomas; 13-E.Jones).",
+      "yards": 11,
+      "neEpa": 0.300744827836752
+    },
+    "2026_02_PIT_NE|243": {
+      "key": "2026_02_PIT_NE|243",
+      "week": 2,
+      "opponent": "PIT",
+      "quarter": 1,
+      "clock": "11:32",
+      "situation": "1st & 10 at PIT 34",
+      "offense": "NE",
+      "description": "(11:32) 10-D.Maye pass short left to 38-R.Stevenson to PIT 31 for 3 yards (51-N.Herbig). FUMBLES (51-N.Herbig), RECOVERED by PIT-41-P.Wilson at PIT 31. PENALTY on PIT-5-J.Ramsey, Taunting, 15 yards, enforced at PIT 31.",
+      "yards": 3,
+      "neEpa": -4.15501275716815
+    },
+    "2026_02_PIT_NE|2607": {
+      "key": "2026_02_PIT_NE|2607",
+      "week": 2,
+      "opponent": "PIT",
+      "quarter": 3,
+      "clock": "7:25",
+      "situation": "2nd & 6 at NE 30",
+      "offense": "NE",
+      "description": "(7:25) 10-D.Maye pass incomplete short left to 38-R.Stevenson [56-A.Highsmith].",
+      "yards": 0,
+      "neEpa": -0.792858132626861
+    },
+    "2026_03_NE_JAX|199": {
+      "key": "2026_03_NE_JAX|199",
+      "week": 3,
+      "opponent": "JAX",
+      "quarter": 1,
+      "clock": "13:06",
+      "situation": "1st & 10 at NE 28",
+      "offense": "NE",
+      "description": "(13:06) (Shotgun) 10-D.Maye pass short right to 38-R.Stevenson to NE 30 for 2 yards (51-V.Miller).",
+      "yards": 2,
+      "neEpa": -0.396020134910941
+    },
+    "2026_03_NE_JAX|2447": {
+      "key": "2026_03_NE_JAX|2447",
+      "week": 3,
+      "opponent": "JAX",
+      "quarter": 3,
+      "clock": "12:42",
+      "situation": "1st & 15 at JAX 40",
+      "offense": "NE",
+      "description": "(12:42) (Shotgun) 10-D.Maye pass short left to 38-R.Stevenson pushed ob at JAX 28 for 12 yards (51-V.Miller).",
+      "yards": 12,
+      "neEpa": 1.13061872019898
+    },
+    "2026_03_NE_JAX|2523": {
+      "key": "2026_03_NE_JAX|2523",
+      "week": 3,
+      "opponent": "JAX",
+      "quarter": 3,
+      "clock": "10:42",
+      "situation": "2nd & 8 at JAX 22",
+      "offense": "NE",
+      "description": "(10:42) 10-D.Maye pass short right to 38-R.Stevenson to JAX 20 for 2 yards (99-R.Orhorhoro; 41-J.Hines-Allen).",
+      "yards": 2,
+      "neEpa": -0.462504940282088
+    },
+    "2026_04_NE_BUF|391": {
+      "key": "2026_04_NE_BUF|391",
+      "week": 4,
+      "opponent": "BUF",
+      "quarter": 1,
+      "clock": "8:24",
+      "situation": "2nd & 11 at BUF 37",
+      "offense": "NE",
+      "description": "(8:24) (Shotgun) 10-D.Maye pass incomplete short right to 38-R.Stevenson (21-D.Igbinosun).",
+      "yards": 0,
+      "neEpa": -0.922673485707492
+    },
+    "2026_04_NE_BUF|2084": {
+      "key": "2026_04_NE_BUF|2084",
+      "week": 4,
+      "opponent": "BUF",
+      "quarter": 2,
+      "clock": "0:45",
+      "situation": "3rd & 10 at NE 35",
+      "offense": "NE",
+      "description": "(:45) (Shotgun) 10-D.Maye pass incomplete short left to 38-R.Stevenson [9-B.Chubb].",
+      "yards": 0,
+      "neEpa": -0.552452456089668
+    },
+    "2026_04_NE_BUF|2563": {
+      "key": "2026_04_NE_BUF|2563",
+      "week": 4,
+      "opponent": "BUF",
+      "quarter": 3,
+      "clock": "10:47",
+      "situation": "2nd & 8 at BUF 23",
+      "offense": "NE",
+      "description": "(10:47) (Shotgun) 10-D.Maye pass short right to 38-R.Stevenson ran ob at BUF 17 for 6 yards (8-T.Bernard).",
+      "yards": 6,
+      "neEpa": 0.258765286125708
+    },
+    "2026_04_NE_BUF|3125": {
+      "key": "2026_04_NE_BUF|3125",
+      "week": 4,
+      "opponent": "BUF",
+      "quarter": 3,
+      "clock": "4:19",
+      "situation": "1st & 15 at NE 36",
+      "offense": "NE",
+      "description": "(4:19) (Shotgun) 10-D.Maye pass short left to 38-R.Stevenson to NE 44 for 8 yards (42-D.Williams; 99-T.Parker).",
+      "yards": 8,
+      "neEpa": 0.338848577113822
+    },
+    "2026_04_NE_BUF|3892": {
+      "key": "2026_04_NE_BUF|3892",
+      "week": 4,
+      "opponent": "BUF",
+      "quarter": 4,
+      "clock": "7:30",
+      "situation": "3rd & 17 at NE 29",
+      "offense": "NE",
+      "description": "(7:30) (Shotgun) 10-D.Maye pass short left to 38-R.Stevenson to NE 42 for 13 yards (15-G.Rousseau).",
+      "yards": 13,
+      "neEpa": -0.175920430570841
+    },
+    "2026_05_LV_NE|1253": {
+      "key": "2026_05_LV_NE|1253",
+      "week": 5,
+      "opponent": "LV",
+      "quarter": 2,
+      "clock": "13:58",
+      "situation": "1st & 10 at NE 40",
+      "offense": "NE",
+      "description": "(13:58) (Shotgun) 10-D.Maye pass short left to 38-R.Stevenson to NE 47 for 7 yards (17-N.Dean; 31-T.Stukes).",
+      "yards": 7,
+      "neEpa": 0.389076026389375
+    },
+    "2026_05_LV_NE|3035": {
+      "key": "2026_05_LV_NE|3035",
+      "week": 5,
+      "opponent": "LV",
+      "quarter": 3,
+      "clock": "8:25",
+      "situation": "1st & 10 at NE 29",
+      "offense": "NE",
+      "description": "(8:25) (Shotgun) 10-D.Maye pass short left to 38-R.Stevenson pushed ob at NE 29 for no gain (3-T.Johnson).",
+      "yards": 0,
+      "neEpa": -0.55165939219296
+    },
+    "2026_05_LV_NE|3307": {
+      "key": "2026_05_LV_NE|3307",
+      "week": 5,
+      "opponent": "LV",
+      "quarter": 3,
+      "clock": "3:51",
+      "situation": "2nd & 15 at LV 17",
+      "offense": "NE",
+      "description": "(3:51) (Shotgun) 10-D.Maye pass short left to 38-R.Stevenson pushed ob at LV 3 for 14 yards (17-N.Dean).",
+      "yards": 14,
+      "neEpa": 1.62112148222514
+    },
+    "2026_01_NE_SEA|1152": {
+      "key": "2026_01_NE_SEA|1152",
+      "week": 1,
+      "opponent": "SEA",
+      "quarter": 2,
+      "clock": "9:14",
+      "situation": "1st & Goal at SEA 2",
+      "offense": "NE",
+      "description": "(9:14) 70-G.Van Roten reported in as eligible. 10-D.Maye pass short left to 82-E.Raridon for 2 yards, TOUCHDOWN.",
+      "yards": 2,
+      "neEpa": 0.840626145160059
+    },
+    "2026_02_PIT_NE|871": {
+      "key": "2026_02_PIT_NE|871",
+      "week": 2,
+      "opponent": "PIT",
+      "quarter": 1,
+      "clock": "1:51",
+      "situation": "2nd & 4 at PIT 36",
+      "offense": "NE",
+      "description": "(1:51) (Shotgun) 10-D.Maye pass deep left to 82-E.Raridon to PIT 6 for 30 yards (41-P.Wilson) [97-C.Heyward]. ** Injury Update: PIT-3-J.Brisker has returned to the game. Penalty on PIT-41-P.Wilson, Defensive Pass Interference, declined.",
+      "yards": 30,
+      "neEpa": 2.17241139156977
+    },
+    "2026_04_NE_BUF|258": {
+      "key": "2026_04_NE_BUF|258",
+      "week": 4,
+      "opponent": "BUF",
+      "quarter": 1,
+      "clock": "11:35",
+      "situation": "2nd & 9 at NE 21",
+      "offense": "NE",
+      "description": "(11:35) (Shotgun) 10-D.Maye pass short middle to 82-E.Raridon to NE 33 for 12 yards (24-C.Bishop).",
+      "yards": 12,
+      "neEpa": 1.50743847107515
+    },
+    "2026_04_NE_BUF|2684": {
+      "key": "2026_04_NE_BUF|2684",
+      "week": 4,
+      "opponent": "BUF",
+      "quarter": 3,
+      "clock": "9:11",
+      "situation": "2nd & Goal at BUF 2",
+      "offense": "NE",
+      "description": "(9:11) 74-C.Lomu reported in as eligible. 10-D.Maye pass incomplete short right to 82-E.Raridon.",
+      "yards": 0,
+      "neEpa": -0.855917646083981
+    },
+    "2026_05_LV_NE|2344": {
+      "key": "2026_05_LV_NE|2344",
+      "week": 5,
+      "opponent": "LV",
+      "quarter": 3,
+      "clock": "14:55",
+      "situation": "1st & 10 at NE 32",
+      "offense": "NE",
+      "description": "(14:55) 10-D.Maye pass short left to 82-E.Raridon pushed ob at NE 45 for 13 yards (3-T.Johnson).",
+      "yards": 13,
+      "neEpa": 0.76704022125341
+    },
+    "2026_05_LV_NE|3112": {
+      "key": "2026_05_LV_NE|3112",
+      "week": 5,
+      "opponent": "LV",
+      "quarter": 3,
+      "clock": "6:43",
+      "situation": "1st & 10 at MID 50",
+      "offense": "NE",
+      "description": "(6:43) (Shotgun) 10-D.Maye pass deep left to 82-E.Raridon pushed ob at LV 19 for 31 yards (26-D.Porter).",
+      "yards": 31,
+      "neEpa": 1.87708731822204
+    },
+    "2026_05_LV_NE|3282": {
+      "key": "2026_05_LV_NE|3282",
+      "week": 5,
+      "opponent": "LV",
+      "quarter": 3,
+      "clock": "4:31",
+      "situation": "1st & 15 at LV 17",
+      "offense": "NE",
+      "description": "(4:31) 10-D.Maye pass short left to 82-E.Raridon to LV 17 for no gain (11-J.Chinn).",
+      "yards": 0,
+      "neEpa": -0.533592532621697
+    },
+    "2026_05_LV_NE|3560": {
+      "key": "2026_05_LV_NE|3560",
+      "week": 5,
+      "opponent": "LV",
+      "quarter": 3,
+      "clock": "1:15",
+      "situation": "2nd & 8 at NE 36",
+      "offense": "NE",
+      "description": "(1:15) (Shotgun) 10-D.Maye pass short left to 82-E.Raridon to NE 42 for 6 yards (11-J.Chinn) [95-K.Paye].",
+      "yards": 6,
+      "neEpa": 0.108260442968458
+    },
+    "2026_05_LV_NE|4044": {
+      "key": "2026_05_LV_NE|4044",
+      "week": 5,
+      "opponent": "LV",
+      "quarter": 4,
+      "clock": "10:11",
+      "situation": "2nd & 9 at LV 43",
+      "offense": "NE",
+      "description": "(10:11) 10-D.Maye pass short left to 82-E.Raridon pushed ob at LV 36 for 7 yards (26-D.Porter).",
+      "yards": 7,
+      "neEpa": 0.442211105721071
+    },
     "2026_02_PIT_NE|2721": {
       "key": "2026_02_PIT_NE|2721",
       "week": 2,
@@ -1272,6 +1548,78 @@
       "yards": 0,
       "neEpa": -0.196334734268021
     },
+    "2026_05_LV_NE|633": {
+      "key": "2026_05_LV_NE|633",
+      "week": 5,
+      "opponent": "LV",
+      "quarter": 1,
+      "clock": "7:34",
+      "situation": "1st & 10 at NE 27",
+      "offense": "NE",
+      "description": "(7:34) (Shotgun) 10-D.Maye pass deep right to 86-E.Chism to NE 44 for 17 yards (31-T.Stukes).",
+      "yards": 17,
+      "neEpa": 1.10350731154904
+    },
+    "2026_05_LV_NE|1201": {
+      "key": "2026_05_LV_NE|1201",
+      "week": 5,
+      "opponent": "LV",
+      "quarter": 2,
+      "clock": "14:43",
+      "situation": "1st & 10 at NE 28",
+      "offense": "NE",
+      "description": "(14:43) (Shotgun) 10-D.Maye pass incomplete deep left to 86-E.Chism.",
+      "yards": 0,
+      "neEpa": -0.541635277215391
+    },
+    "2026_05_LV_NE|1345": {
+      "key": "2026_05_LV_NE|1345",
+      "week": 5,
+      "opponent": "LV",
+      "quarter": 2,
+      "clock": "12:34",
+      "situation": "3rd & 11 at NE 39",
+      "offense": "NE",
+      "description": "(12:34) (Shotgun) 10-D.Maye pass short middle to 86-E.Chism to NE 43 for 4 yards. Lateral to 32-T.Henderson pushed ob at LV 45 for 12 yards (17-N.Dean).",
+      "yards": 16,
+      "neEpa": 2.45787827577442
+    },
+    "2026_05_LV_NE|1846": {
+      "key": "2026_05_LV_NE|1846",
+      "week": 5,
+      "opponent": "LV",
+      "quarter": 2,
+      "clock": "5:12",
+      "situation": "1st & 10 at NE 20",
+      "offense": "NE",
+      "description": "(5:12) 10-D.Maye pass short right to 86-E.Chism to NE 35 for 15 yards (3-T.Johnson; 17-N.Dean).",
+      "yards": 15,
+      "neEpa": 0.858892299584113
+    },
+    "2026_05_LV_NE|2374": {
+      "key": "2026_05_LV_NE|2374",
+      "week": 5,
+      "opponent": "LV",
+      "quarter": 3,
+      "clock": "14:31",
+      "situation": "1st & 10 at NE 45",
+      "offense": "NE",
+      "description": "(14:31) (Shotgun) 10-D.Maye pass short left to 86-E.Chism to LV 42 for 13 yards (5-E.Stokes). Penalty on LV-35-H.Masses, Illegal Contact, declined.",
+      "yards": 13,
+      "neEpa": 0.707016641041264
+    },
+    "2026_05_LV_NE|4074": {
+      "key": "2026_05_LV_NE|4074",
+      "week": 5,
+      "opponent": "LV",
+      "quarter": 4,
+      "clock": "9:39",
+      "situation": "3rd & 2 at LV 36",
+      "offense": "NE",
+      "description": "(9:39) (Shotgun) 10-D.Maye pass short middle to 86-E.Chism to LV 28 for 8 yards (28-J.McCoy).",
+      "yards": 8,
+      "neEpa": 1.17676504014526
+    },
     "2026_01_NE_SEA|660": {
       "key": "2026_01_NE_SEA|660",
       "week": 1,
@@ -1320,42 +1668,6 @@
       "yards": 0,
       "neEpa": -1.86249101976864
     },
-    "2026_01_NE_SEA|972": {
-      "key": "2026_01_NE_SEA|972",
-      "week": 1,
-      "opponent": "SEA",
-      "quarter": 2,
-      "clock": "13:00",
-      "situation": "1st & 10 at NE 34",
-      "offense": "NE",
-      "description": "(13:00) 10-D.Maye pass short left to 34-L.Larison to NE 45 for 11 yards (29-J.Jobe).",
-      "yards": 11,
-      "neEpa": 0.7008348449599
-    },
-    "2026_01_NE_SEA|3740": {
-      "key": "2026_01_NE_SEA|3740",
-      "week": 1,
-      "opponent": "SEA",
-      "quarter": 4,
-      "clock": "2:59",
-      "situation": "1st & 15 at NE 47",
-      "offense": "NE",
-      "description": "(2:59) (Shotgun) 10-D.Maye pass short right to 34-L.Larison to NE 45 for -2 yards (29-J.Jobe).",
-      "yards": -2,
-      "neEpa": -0.624519902630709
-    },
-    "2026_03_NE_JAX|3920": {
-      "key": "2026_03_NE_JAX|3920",
-      "week": 3,
-      "opponent": "JAX",
-      "quarter": 4,
-      "clock": "4:03",
-      "situation": "2nd & 8 at JAX 37",
-      "offense": "NE",
-      "description": "(4:03) (Shotgun) 16-T.DeVito pass short left to 9-C.Kiner to JAX 28 for 9 yards (99-R.Orhorhoro; 25-R.Lane).",
-      "yards": 9,
-      "neEpa": 1.03788033261662
-    },
     "2026_03_NE_JAX|1049": {
       "key": "2026_03_NE_JAX|1049",
       "week": 3,
@@ -1391,6 +1703,66 @@
       "description": "(3:47) 10-D.Maye pass incomplete short right to 32-T.Henderson.",
       "yards": 0,
       "neEpa": -0.553309550043196
+    },
+    "2026_05_LV_NE|854": {
+      "key": "2026_05_LV_NE|854",
+      "week": 5,
+      "opponent": "LV",
+      "quarter": 1,
+      "clock": "3:20",
+      "situation": "2nd & 7 at LV 12",
+      "offense": "NE",
+      "description": "(3:20) (Shotgun) 10-D.Maye pass short left to 32-T.Henderson to LV 8 for 4 yards (31-T.Stukes).",
+      "yards": 4,
+      "neEpa": -0.177252955676522
+    },
+    "2026_03_NE_JAX|3920": {
+      "key": "2026_03_NE_JAX|3920",
+      "week": 3,
+      "opponent": "JAX",
+      "quarter": 4,
+      "clock": "4:03",
+      "situation": "2nd & 8 at JAX 37",
+      "offense": "NE",
+      "description": "(4:03) (Shotgun) 16-T.DeVito pass short left to 9-C.Kiner to JAX 28 for 9 yards (99-R.Orhorhoro; 25-R.Lane).",
+      "yards": 9,
+      "neEpa": 1.03788033261662
+    },
+    "2026_05_LV_NE|4143": {
+      "key": "2026_05_LV_NE|4143",
+      "week": 5,
+      "opponent": "LV",
+      "quarter": 4,
+      "clock": "7:31",
+      "situation": "1st & 10 at LV 15",
+      "offense": "NE",
+      "description": "(7:31) (Shotgun) 10-D.Maye pass short left to 9-C.Kiner to LV 8 for 7 yards (17-N.Dean).",
+      "yards": 7,
+      "neEpa": 0.393126116716303
+    },
+    "2026_01_NE_SEA|972": {
+      "key": "2026_01_NE_SEA|972",
+      "week": 1,
+      "opponent": "SEA",
+      "quarter": 2,
+      "clock": "13:00",
+      "situation": "1st & 10 at NE 34",
+      "offense": "NE",
+      "description": "(13:00) 10-D.Maye pass short left to 34-L.Larison to NE 45 for 11 yards (29-J.Jobe).",
+      "yards": 11,
+      "neEpa": 0.7008348449599
+    },
+    "2026_01_NE_SEA|3740": {
+      "key": "2026_01_NE_SEA|3740",
+      "week": 1,
+      "opponent": "SEA",
+      "quarter": 4,
+      "clock": "2:59",
+      "situation": "1st & 15 at NE 47",
+      "offense": "NE",
+      "description": "(2:59) (Shotgun) 10-D.Maye pass short right to 34-L.Larison to NE 45 for -2 yards (29-J.Jobe).",
+      "yards": -2,
+      "neEpa": -0.624519902630709
     },
     "2026_02_PIT_NE|402": {
       "key": "2026_02_PIT_NE|402",
@@ -1944,6 +2316,162 @@
       "yards": 0,
       "neEpa": -0.0997219355776906
     },
+    "2026_05_LV_NE|155": {
+      "key": "2026_05_LV_NE|155",
+      "week": 5,
+      "opponent": "LV",
+      "quarter": 1,
+      "clock": "13:56",
+      "situation": "1st & 10 at NE 21",
+      "offense": "NE",
+      "description": "(13:56) (Shotgun) 38-R.Stevenson left guard to NE 25 for 4 yards (17-N.Dean; 97-T.Hemingway).",
+      "yards": 4,
+      "neEpa": 0.0563136502169073
+    },
+    "2026_05_LV_NE|224": {
+      "key": "2026_05_LV_NE|224",
+      "week": 5,
+      "opponent": "LV",
+      "quarter": 1,
+      "clock": "13:16",
+      "situation": "1st & 10 at NE 49",
+      "offense": "NE",
+      "description": "(13:16) 38-R.Stevenson up the middle to NE 49 for no gain (3-T.Johnson).",
+      "yards": 0,
+      "neEpa": -0.521172157255933
+    },
+    "2026_05_LV_NE|832": {
+      "key": "2026_05_LV_NE|832",
+      "week": 5,
+      "opponent": "LV",
+      "quarter": 1,
+      "clock": "3:54",
+      "situation": "1st & 10 at LV 15",
+      "offense": "NE",
+      "description": "(3:54) (Shotgun) 38-R.Stevenson up the middle to LV 12 for 3 yards (94-F.Fatukasi; 95-K.Paye).",
+      "yards": 3,
+      "neEpa": -0.275146669941023
+    },
+    "2026_05_LV_NE|958": {
+      "key": "2026_05_LV_NE|958",
+      "week": 5,
+      "opponent": "LV",
+      "quarter": 1,
+      "clock": "1:37",
+      "situation": "1st & Goal at LV 5",
+      "offense": "NE",
+      "description": "(1:37) 38-R.Stevenson left guard for 5 yards, TOUCHDOWN.",
+      "yards": 5,
+      "neEpa": 1.07935761305271
+    },
+    "2026_05_LV_NE|1231": {
+      "key": "2026_05_LV_NE|1231",
+      "week": 5,
+      "opponent": "LV",
+      "quarter": 2,
+      "clock": "14:37",
+      "situation": "2nd & 10 at NE 28",
+      "offense": "NE",
+      "description": "(14:37) 38-R.Stevenson up the middle to NE 40 for 12 yards (5-E.Stokes).",
+      "yards": 12,
+      "neEpa": 1.32945034164004
+    },
+    "2026_05_LV_NE|1278": {
+      "key": "2026_05_LV_NE|1278",
+      "week": 5,
+      "opponent": "LV",
+      "quarter": 2,
+      "clock": "13:23",
+      "situation": "2nd & 3 at NE 47",
+      "offense": "NE",
+      "description": "(13:23) (Shotgun) 38-R.Stevenson left guard to NE 49 for 2 yards (69-A.Butler).",
+      "yards": 2,
+      "neEpa": -0.180066933389753
+    },
+    "2026_05_LV_NE|1435": {
+      "key": "2026_05_LV_NE|1435",
+      "week": 5,
+      "opponent": "LV",
+      "quarter": 2,
+      "clock": "11:28",
+      "situation": "2nd & 10 at LV 34",
+      "offense": "NE",
+      "description": "(11:28) 38-R.Stevenson left end to LV 30 for 4 yards (44-T.Eichenberg; 26-D.Porter). NE-66-W.Campbell was injured during the play.",
+      "yards": 4,
+      "neEpa": -0.307233295869082
+    },
+    "2026_05_LV_NE|2086": {
+      "key": "2026_05_LV_NE|2086",
+      "week": 5,
+      "opponent": "LV",
+      "quarter": 2,
+      "clock": "1:52",
+      "situation": "1st & 10 at NE 39",
+      "offense": "NE",
+      "description": "(1:52) (Shotgun) 38-R.Stevenson up the middle to NE 46 for 7 yards (17-N.Dean).",
+      "yards": 7,
+      "neEpa": 0.30034741142299
+    },
+    "2026_05_LV_NE|2115": {
+      "key": "2026_05_LV_NE|2115",
+      "week": 5,
+      "opponent": "LV",
+      "quarter": 2,
+      "clock": "1:23",
+      "situation": "2nd & 3 at NE 46",
+      "offense": "NE",
+      "description": "(1:23) (Shotgun) 38-R.Stevenson left end to LV 34 for 20 yards (26-D.Porter).",
+      "yards": 20,
+      "neEpa": 1.1449280261877
+    },
+    "2026_05_LV_NE|2485": {
+      "key": "2026_05_LV_NE|2485",
+      "week": 5,
+      "opponent": "LV",
+      "quarter": 3,
+      "clock": "13:39",
+      "situation": "1st & 20 at LV 35",
+      "offense": "NE",
+      "description": "(13:39) (Shotgun) 38-R.Stevenson right tackle to LV 34 for 1 yard (7-Q.Walker; 17-N.Dean).",
+      "yards": 1,
+      "neEpa": -0.654853366781026
+    },
+    "2026_05_LV_NE|3065": {
+      "key": "2026_05_LV_NE|3065",
+      "week": 5,
+      "opponent": "LV",
+      "quarter": 3,
+      "clock": "8:00",
+      "situation": "2nd & 10 at NE 29",
+      "offense": "NE",
+      "description": "(8:00) (Shotgun) 38-R.Stevenson left guard to NE 34 for 5 yards (17-N.Dean; 94-F.Fatukasi).",
+      "yards": 5,
+      "neEpa": -0.362203732132912
+    },
+    "2026_05_LV_NE|3630": {
+      "key": "2026_05_LV_NE|3630",
+      "week": 5,
+      "opponent": "LV",
+      "quarter": 4,
+      "clock": "15:00",
+      "situation": "1st & Goal at LV 9",
+      "offense": "NE",
+      "description": "(15:00) 38-R.Stevenson left end to LV 9 for no gain (26-D.Porter).",
+      "yards": 0,
+      "neEpa": -0.588138898543548
+    },
+    "2026_05_LV_NE|4022": {
+      "key": "2026_05_LV_NE|4022",
+      "week": 5,
+      "opponent": "LV",
+      "quarter": 4,
+      "clock": "10:48",
+      "situation": "1st & 10 at LV 44",
+      "offense": "NE",
+      "description": "(10:48) 38-R.Stevenson up the middle to LV 43 for 1 yard (31-T.Stukes).",
+      "yards": 1,
+      "neEpa": -0.560113564715721
+    },
     "2026_02_PIT_NE|432": {
       "key": "2026_02_PIT_NE|432",
       "week": 2,
@@ -2400,6 +2928,54 @@
       "yards": 2,
       "neEpa": -0.691696002497338
     },
+    "2026_05_LV_NE|271": {
+      "key": "2026_05_LV_NE|271",
+      "week": 5,
+      "opponent": "LV",
+      "quarter": 1,
+      "clock": "12:02",
+      "situation": "1st & 10 at LV 35",
+      "offense": "NE",
+      "description": "(12:02) 32-T.Henderson right tackle to LV 35 for no gain (69-A.Butler; 44-T.Eichenberg).",
+      "yards": 0,
+      "neEpa": -0.543020321638323
+    },
+    "2026_05_LV_NE|611": {
+      "key": "2026_05_LV_NE|611",
+      "week": 5,
+      "opponent": "LV",
+      "quarter": 1,
+      "clock": "8:14",
+      "situation": "1st & 10 at NE 16",
+      "offense": "NE",
+      "description": "(8:14) (Shotgun) 32-T.Henderson right guard to NE 27 for 11 yards (17-N.Dean; 11-J.Chinn).",
+      "yards": 11,
+      "neEpa": 0.778895574621856
+    },
+    "2026_05_LV_NE|658": {
+      "key": "2026_05_LV_NE|658",
+      "week": 5,
+      "opponent": "LV",
+      "quarter": 1,
+      "clock": "6:57",
+      "situation": "1st & 10 at NE 44",
+      "offense": "NE",
+      "description": "(6:57) 74-C.Lomu reported in as eligible. 32-T.Henderson left tackle to NE 44 for no gain (44-T.Eichenberg).",
+      "yards": 0,
+      "neEpa": -0.483203508891165
+    },
+    "2026_05_LV_NE|1385": {
+      "key": "2026_05_LV_NE|1385",
+      "week": 5,
+      "opponent": "LV",
+      "quarter": 2,
+      "clock": "12:01",
+      "situation": "1st & 10 at LV 45",
+      "offense": "NE",
+      "description": "(12:01) 32-T.Henderson left end pushed ob at LV 34 for 11 yards (11-J.Chinn).",
+      "yards": 11,
+      "neEpa": 0.661564421025105
+    },
     "2026_01_NE_SEA|249": {
       "key": "2026_01_NE_SEA|249",
       "week": 1,
@@ -2676,6 +3252,90 @@
       "yards": -1,
       "neEpa": 0
     },
+    "2026_05_LV_NE|683": {
+      "key": "2026_05_LV_NE|683",
+      "week": 5,
+      "opponent": "LV",
+      "quarter": 1,
+      "clock": "6:23",
+      "situation": "2nd & 10 at NE 44",
+      "offense": "NE",
+      "description": "(6:23) (Shotgun) 10-D.Maye scrambles left guard to LV 48 for 8 yards (11-J.Chinn).",
+      "yards": 8,
+      "neEpa": 0.221533030737191
+    },
+    "2026_05_LV_NE|746": {
+      "key": "2026_05_LV_NE|746",
+      "week": 5,
+      "opponent": "LV",
+      "quarter": 1,
+      "clock": "5:23",
+      "situation": "3rd & 12 at NE 42",
+      "offense": "NE",
+      "description": "(5:23) (Shotgun) 10-D.Maye scrambles up the middle to LV 48 for 10 yards (7-Q.Walker; 98-M.Crosby).",
+      "yards": 10,
+      "neEpa": -0.241760920966044
+    },
+    "2026_05_LV_NE|3197": {
+      "key": "2026_05_LV_NE|3197",
+      "week": 5,
+      "opponent": "LV",
+      "quarter": 3,
+      "clock": "5:10",
+      "situation": "2nd & 15 at LV 24",
+      "offense": "NE",
+      "description": "(5:10) (Shotgun) 10-D.Maye scrambles left end ran ob at LV 16 for 8 yards (11-J.Chinn).",
+      "yards": 8,
+      "neEpa": 0.108915277756751
+    },
+    "2026_05_LV_NE|3337": {
+      "key": "2026_05_LV_NE|3337",
+      "week": 5,
+      "opponent": "LV",
+      "quarter": 3,
+      "clock": "3:14",
+      "situation": "3rd & 1 at LV 3",
+      "offense": "NE",
+      "description": "(3:14) (Shotgun) 10-D.Maye left end for 3 yards, TOUCHDOWN.",
+      "yards": 3,
+      "neEpa": 1.30992477166001
+    },
+    "2026_05_LV_NE|4539": {
+      "key": "2026_05_LV_NE|4539",
+      "week": 5,
+      "opponent": "LV",
+      "quarter": 4,
+      "clock": "2:00",
+      "situation": "1st & 10 at NE 43",
+      "offense": "NE",
+      "description": "(2:00) 10-D.Maye kneels to NE 42 for -1 yards.",
+      "yards": -1,
+      "neEpa": 0
+    },
+    "2026_05_LV_NE|4568": {
+      "key": "2026_05_LV_NE|4568",
+      "week": 5,
+      "opponent": "LV",
+      "quarter": 4,
+      "clock": "1:20",
+      "situation": "2nd & 11 at NE 42",
+      "offense": "NE",
+      "description": "(1:20) 10-D.Maye kneels to NE 40 for -2 yards.",
+      "yards": -2,
+      "neEpa": 0
+    },
+    "2026_05_LV_NE|4590": {
+      "key": "2026_05_LV_NE|4590",
+      "week": 5,
+      "opponent": "LV",
+      "quarter": 4,
+      "clock": "0:41",
+      "situation": "3rd & 13 at NE 40",
+      "offense": "NE",
+      "description": "(:41) 10-D.Maye kneels to NE 39 for -1 yards.",
+      "yards": -1,
+      "neEpa": 0
+    },
     "2026_01_NE_SEA|898": {
       "key": "2026_01_NE_SEA|898",
       "week": 1,
@@ -2844,6 +3504,78 @@
       "yards": 2,
       "neEpa": -0.686908546253108
     },
+    "2026_05_LV_NE|1883": {
+      "key": "2026_05_LV_NE|1883",
+      "week": 5,
+      "opponent": "LV",
+      "quarter": 2,
+      "clock": "4:33",
+      "situation": "1st & 10 at NE 35",
+      "offense": "NE",
+      "description": "(4:33) (Shotgun) 9-C.Kiner up the middle to NE 37 for 2 yards (69-A.Butler). FUMBLES (69-A.Butler), touched at NE 39, RECOVERED by LV-26-D.Porter at NE 38. Penalty on NE, Illegal Shift, declined.",
+      "yards": 2,
+      "neEpa": -4.62861047149636
+    },
+    "2026_05_LV_NE|3142": {
+      "key": "2026_05_LV_NE|3142",
+      "week": 5,
+      "opponent": "LV",
+      "quarter": 3,
+      "clock": "6:13",
+      "situation": "1st & 10 at LV 19",
+      "offense": "NE",
+      "description": "(6:13) (Shotgun) 9-C.Kiner left guard to LV 14 for 5 yards (99-T.Booker; 96-J.Laulu).",
+      "yards": 5,
+      "neEpa": 0.121656904171687
+    },
+    "2026_05_LV_NE|4099": {
+      "key": "2026_05_LV_NE|4099",
+      "week": 5,
+      "opponent": "LV",
+      "quarter": 4,
+      "clock": "8:54",
+      "situation": "1st & 10 at LV 28",
+      "offense": "NE",
+      "description": "(8:54) (Shotgun) 9-C.Kiner up the middle to LV 25 for 3 yards (99-T.Booker).",
+      "yards": 3,
+      "neEpa": -0.210142794065177
+    },
+    "2026_05_LV_NE|4121": {
+      "key": "2026_05_LV_NE|4121",
+      "week": 5,
+      "opponent": "LV",
+      "quarter": 4,
+      "clock": "8:11",
+      "situation": "2nd & 7 at LV 25",
+      "offense": "NE",
+      "description": "(8:11) 9-C.Kiner right tackle to LV 15 for 10 yards (17-N.Dean).",
+      "yards": 10,
+      "neEpa": 1.05884602066362
+    },
+    "2026_05_LV_NE|4168": {
+      "key": "2026_05_LV_NE|4168",
+      "week": 5,
+      "opponent": "LV",
+      "quarter": 4,
+      "clock": "6:50",
+      "situation": "2nd & 3 at LV 8",
+      "offense": "NE",
+      "description": "(6:50) 9-C.Kiner left guard to LV 8 for no gain (3-T.Johnson).",
+      "yards": 0,
+      "neEpa": -0.796050802280661
+    },
+    "2026_05_LV_NE|4517": {
+      "key": "2026_05_LV_NE|4517",
+      "week": 5,
+      "opponent": "LV",
+      "quarter": 4,
+      "clock": "2:34",
+      "situation": "1st & 10 at NE 11",
+      "offense": "NE",
+      "description": "(2:34) 9-C.Kiner right tackle to NE 43 for 32 yards (11-J.Chinn).",
+      "yards": 32,
+      "neEpa": -0.271335238590837
+    },
     "2026_03_NE_JAX|3829": {
       "key": "2026_03_NE_JAX|3829",
       "week": 3,
@@ -2855,6 +3587,18 @@
       "description": "(6:38) (Shotgun) 16-T.DeVito scrambles right end to NE 41 for 2 yards (29-E.Murray).",
       "yards": 2,
       "neEpa": -0.409445349825546
+    },
+    "2026_05_LV_NE|3538": {
+      "key": "2026_05_LV_NE|3538",
+      "week": 5,
+      "opponent": "LV",
+      "quarter": 3,
+      "clock": "1:55",
+      "situation": "1st & 10 at NE 34",
+      "offense": "NE",
+      "description": "(1:55) 86-E.Chism left end to NE 36 for 2 yards (17-N.Dean; 51-M.Koonce).",
+      "yards": 2,
+      "neEpa": -0.35274737351574
     },
     "2026_02_PIT_NE|1111": {
       "key": "2026_02_PIT_NE|1111",
@@ -2952,6 +3696,42 @@
       "yards": 0,
       "neEpa": 0.679674633545801
     },
+    "2026_05_LV_NE|1136": {
+      "key": "2026_05_LV_NE|1136",
+      "week": 5,
+      "opponent": "LV",
+      "quarter": 2,
+      "clock": "15:00",
+      "situation": "3rd & 5 at LV 32",
+      "offense": "LV",
+      "description": "(15:00) (Shotgun) 8-K.Cousins pass incomplete short right to 82-C.White (22-C.Woods) [91-E.Ponder].",
+      "yards": 0,
+      "neEpa": 1.33158091316
+    },
+    "2026_05_LV_NE|1808": {
+      "key": "2026_05_LV_NE|1808",
+      "week": 5,
+      "opponent": "LV",
+      "quarter": 2,
+      "clock": "6:03",
+      "situation": "3rd & 11 at NE 36",
+      "offense": "LV",
+      "description": "(6:03) (Shotgun) 8-K.Cousins sacked at NE 40 for -4 yards (91-E.Ponder).",
+      "yards": -4,
+      "neEpa": 1.51736594550312
+    },
+    "2026_05_LV_NE|2271": {
+      "key": "2026_05_LV_NE|2271",
+      "week": 5,
+      "opponent": "LV",
+      "quarter": 2,
+      "clock": "0:18",
+      "situation": "1st & 10 at LV 31",
+      "offense": "LV",
+      "description": "(:18) (Shotgun) 8-K.Cousins sacked at LV 22 for -9 yards (91-E.Ponder). FUMBLES (91-E.Ponder) [91-E.Ponder], touched at LV 20, recovered by LV-87-M.Mayer at LV 20.",
+      "yards": -11,
+      "neEpa": 0.237839600566076
+    },
     "2026_01_NE_SEA|1277": {
       "key": "2026_01_NE_SEA|1277",
       "week": 1,
@@ -3012,41 +3792,29 @@
       "yards": 15,
       "neEpa": -1.34121228056028
     },
-    "2026_01_NE_SEA|2550": {
-      "key": "2026_01_NE_SEA|2550",
-      "week": 1,
-      "opponent": "SEA",
-      "quarter": 3,
-      "clock": "5:36",
-      "situation": "3rd & 4 at NE 37",
-      "offense": "SEA",
-      "description": "(5:36) (Shotgun) 2-D.Lock pass deep right to 10-C.Kupp to NE 13 for 24 yards (25-M.Jones) [90-C.Barmore].",
-      "yards": 24,
-      "neEpa": -2.55324692372233
-    },
-    "2026_02_PIT_NE|3144": {
-      "key": "2026_02_PIT_NE|3144",
-      "week": 2,
-      "opponent": "PIT",
-      "quarter": 4,
-      "clock": "13:46",
-      "situation": "2nd & 21 at PIT 30",
-      "offense": "PIT",
-      "description": "(13:46) (Shotgun) 8-A.Rodgers sacked at PIT 21 for -9 yards (90-C.Barmore). FUMBLES (90-C.Barmore) [90-C.Barmore], RECOVERED by NE-91-E.Ponder at PIT 19. 91-E.Ponder for 19 yards, TOUCHDOWN.",
-      "yards": -11,
-      "neEpa": 7.38385299919173
-    },
-    "2026_03_NE_JAX|2122": {
-      "key": "2026_03_NE_JAX|2122",
-      "week": 3,
-      "opponent": "JAX",
+    "2026_05_LV_NE|1786": {
+      "key": "2026_05_LV_NE|1786",
+      "week": 5,
+      "opponent": "LV",
       "quarter": 2,
-      "clock": "0:46",
-      "situation": "2nd & 10 at JAX 31",
-      "offense": "JAX",
-      "description": "(:46) (Shotgun) 16-T.Lawrence pass short left to 3-J.Meyers to JAX 41 for 10 yards (25-M.Jones) [90-C.Barmore].",
-      "yards": 10,
-      "neEpa": -0.256488924904261
+      "clock": "6:42",
+      "situation": "2nd & 10 at NE 35",
+      "offense": "LV",
+      "description": "(6:42) 23-D.Laube right end to NE 36 for -1 yards (50-G.Jacas).",
+      "yards": -1,
+      "neEpa": 1.10889340972062
+    },
+    "2026_05_LV_NE|3474": {
+      "key": "2026_05_LV_NE|3474",
+      "week": 5,
+      "opponent": "LV",
+      "quarter": 3,
+      "clock": "2:11",
+      "situation": "3rd & 3 at LV 49",
+      "offense": "LV",
+      "description": "(2:11) (Shotgun) 8-K.Cousins pass incomplete short right to 89-B.Bowers [50-G.Jacas].",
+      "yards": 0,
+      "neEpa": 1.79241192550398
     },
     "2026_01_NE_SEA|180": {
       "key": "2026_01_NE_SEA|180",
@@ -3096,6 +3864,54 @@
       "yards": 13,
       "neEpa": -0.918906453298405
     },
+    "2026_05_LV_NE|1979": {
+      "key": "2026_05_LV_NE|1979",
+      "week": 5,
+      "opponent": "LV",
+      "quarter": 2,
+      "clock": "3:19",
+      "situation": "1st & 10 at NE 27",
+      "offense": "LV",
+      "description": "(3:19) 1-T.Tucker right tackle to NE 38 for -11 yards (5-Dr.Jones).",
+      "yards": -11,
+      "neEpa": 1.63357596594142
+    },
+    "2026_01_NE_SEA|2550": {
+      "key": "2026_01_NE_SEA|2550",
+      "week": 1,
+      "opponent": "SEA",
+      "quarter": 3,
+      "clock": "5:36",
+      "situation": "3rd & 4 at NE 37",
+      "offense": "SEA",
+      "description": "(5:36) (Shotgun) 2-D.Lock pass deep right to 10-C.Kupp to NE 13 for 24 yards (25-M.Jones) [90-C.Barmore].",
+      "yards": 24,
+      "neEpa": -2.55324692372233
+    },
+    "2026_02_PIT_NE|3144": {
+      "key": "2026_02_PIT_NE|3144",
+      "week": 2,
+      "opponent": "PIT",
+      "quarter": 4,
+      "clock": "13:46",
+      "situation": "2nd & 21 at PIT 30",
+      "offense": "PIT",
+      "description": "(13:46) (Shotgun) 8-A.Rodgers sacked at PIT 21 for -9 yards (90-C.Barmore). FUMBLES (90-C.Barmore) [90-C.Barmore], RECOVERED by NE-91-E.Ponder at PIT 19. 91-E.Ponder for 19 yards, TOUCHDOWN.",
+      "yards": -11,
+      "neEpa": 7.38385299919173
+    },
+    "2026_03_NE_JAX|2122": {
+      "key": "2026_03_NE_JAX|2122",
+      "week": 3,
+      "opponent": "JAX",
+      "quarter": 2,
+      "clock": "0:46",
+      "situation": "2nd & 10 at JAX 31",
+      "offense": "JAX",
+      "description": "(:46) (Shotgun) 16-T.Lawrence pass short left to 3-J.Meyers to JAX 41 for 10 yards (25-M.Jones) [90-C.Barmore].",
+      "yards": 10,
+      "neEpa": -0.256488924904261
+    },
     "2026_02_PIT_NE|1357": {
       "key": "2026_02_PIT_NE|1357",
       "week": 2,
@@ -3119,6 +3935,18 @@
       "description": "(4:28) (Shotgun) 16-T.Lawrence pass short middle to 3-J.Meyers to NE 17 for 14 yards (0-C.Gonzalez) [53-C.Elliss].",
       "yards": 14,
       "neEpa": -2.11064205970615
+    },
+    "2026_05_LV_NE|90": {
+      "key": "2026_05_LV_NE|90",
+      "week": 5,
+      "opponent": "LV",
+      "quarter": 1,
+      "clock": "14:09",
+      "situation": "2nd & 6 at LV 39",
+      "offense": "LV",
+      "description": "(14:09) (Shotgun) 8-K.Cousins pass incomplete short left to 2-A.Jeanty (22-C.Woods) [53-C.Elliss].",
+      "yards": 0,
+      "neEpa": 0.913990451721475
     },
     "2026_03_NE_JAX|1134": {
       "key": "2026_03_NE_JAX|1134",
@@ -3264,6 +4092,66 @@
       "yards": -11,
       "neEpa": 2.43072842853144
     },
+    "2026_05_LV_NE|2901": {
+      "key": "2026_05_LV_NE|2901",
+      "week": 5,
+      "opponent": "LV",
+      "quarter": 3,
+      "clock": "9:17",
+      "situation": "1st & 10 at NE 24",
+      "offense": "LV",
+      "description": "(9:17) (Shotgun) 8-K.Cousins pass short left to 89-B.Bowers to NE 27 for -3 yards (22-C.Woods). NE-22-C.Woods was injured during the play.",
+      "yards": -3,
+      "neEpa": 1.05158018984366
+    },
+    "2026_04_NE_BUF|3623": {
+      "key": "2026_04_NE_BUF|3623",
+      "week": 4,
+      "opponent": "BUF",
+      "quarter": 4,
+      "clock": "12:21",
+      "situation": "2nd & 7 at NE 17",
+      "offense": "BUF",
+      "description": "(12:21) (Shotgun) 17-J.Allen left end to NE 20 for -3 yards (28-K.Vildor).",
+      "yards": -3,
+      "neEpa": 0.971346471866127
+    },
+    "2026_05_LV_NE|2622": {
+      "key": "2026_05_LV_NE|2622",
+      "week": 5,
+      "opponent": "LV",
+      "quarter": 3,
+      "clock": "11:45",
+      "situation": "3rd & 5 at LV 37",
+      "offense": "LV",
+      "description": "(11:45) (Shotgun) 8-K.Cousins pass incomplete short right to 89-B.Bowers (28-K.Vildor).",
+      "yards": 0,
+      "neEpa": 1.4373283511959
+    },
+    "2026_05_LV_NE|3497": {
+      "key": "2026_05_LV_NE|3497",
+      "week": 5,
+      "opponent": "LV",
+      "quarter": 3,
+      "clock": "2:04",
+      "situation": "4th & 3 at LV 49",
+      "offense": "LV",
+      "description": "(2:04) (Shotgun) 8-K.Cousins pass short right to 89-B.Bowers to NE 36 for 15 yards (28-K.Vildor; 31-K.Byard). FUMBLES (28-K.Vildor), RECOVERED by NE-4-C.Woodson at NE 34.",
+      "yards": 15,
+      "neEpa": 1.6864642763976
+    },
+    "2026_05_LV_NE|3773": {
+      "key": "2026_05_LV_NE|3773",
+      "week": 5,
+      "opponent": "LV",
+      "quarter": 4,
+      "clock": "13:42",
+      "situation": "1st & 10 at LV 37",
+      "offense": "LV",
+      "description": "(13:42) (No Huddle, Shotgun) 8-K.Cousins sacked at LV 29 for -8 yards (93-L.Taylor).",
+      "yards": -8,
+      "neEpa": 1.30769480927847
+    },
     "2026_02_PIT_NE|2796": {
       "key": "2026_02_PIT_NE|2796",
       "week": 2,
@@ -3312,18 +4200,6 @@
       "yards": -1,
       "neEpa": 0.739530347869732
     },
-    "2026_03_NE_JAX|4065": {
-      "key": "2026_03_NE_JAX|4065",
-      "week": 3,
-      "opponent": "JAX",
-      "quarter": 4,
-      "clock": "2:00",
-      "situation": "2nd & 7 at JAX 28",
-      "offense": "JAX",
-      "description": "(2:00) 20-A.Abdullah right end to JAX 25 for -3 yards (49-E.Hunter).",
-      "yards": -3,
-      "neEpa": 0.335798722342588
-    },
     "2026_04_NE_BUF|120": {
       "key": "2026_04_NE_BUF|120",
       "week": 4,
@@ -3335,6 +4211,30 @@
       "description": "(13:48) (Shotgun) 17-J.Allen pass incomplete deep left to 86-D.Kincaid (31-K.Byard).",
       "yards": 0,
       "neEpa": 1.56038617528975
+    },
+    "2026_05_LV_NE|2026": {
+      "key": "2026_05_LV_NE|2026",
+      "week": 5,
+      "opponent": "LV",
+      "quarter": 2,
+      "clock": "2:00",
+      "situation": "3rd & 14 at NE 31",
+      "offense": "LV",
+      "description": "(2:00) (Shotgun) 8-K.Cousins pass incomplete deep left to 1-T.Tucker [31-K.Byard].",
+      "yards": 0,
+      "neEpa": 0.532634115635435
+    },
+    "2026_03_NE_JAX|4065": {
+      "key": "2026_03_NE_JAX|4065",
+      "week": 3,
+      "opponent": "JAX",
+      "quarter": 4,
+      "clock": "2:00",
+      "situation": "2nd & 7 at JAX 28",
+      "offense": "JAX",
+      "description": "(2:00) 20-A.Abdullah right end to JAX 25 for -3 yards (49-E.Hunter).",
+      "yards": -3,
+      "neEpa": 0.335798722342588
     },
     "2026_04_NE_BUF|855": {
       "key": "2026_04_NE_BUF|855",
@@ -3372,20 +4272,132 @@
       "yards": 0,
       "neEpa": 0.554402348119766
     },
-    "2026_04_NE_BUF|3623": {
-      "key": "2026_04_NE_BUF|3623",
-      "week": 4,
-      "opponent": "BUF",
+    "2026_05_LV_NE|4467": {
+      "key": "2026_05_LV_NE|4467",
+      "week": 5,
+      "opponent": "LV",
       "quarter": 4,
-      "clock": "12:21",
-      "situation": "2nd & 7 at NE 17",
-      "offense": "BUF",
-      "description": "(12:21) (Shotgun) 17-J.Allen left end to NE 20 for -3 yards (28-K.Vildor).",
-      "yards": -3,
-      "neEpa": 0.971346471866127
+      "clock": "2:45",
+      "situation": "3rd & 4 at NE 14",
+      "offense": "LV",
+      "description": "(2:45) (No Huddle, Shotgun) 15-F.Mendoza pass incomplete short left to 19-M.Benson (27-E.Davison) [99-Da.Jones].",
+      "yards": 0,
+      "neEpa": 1.32930661714636
     }
   },
   "byPlayer": {
+    "receiving:00-0037816": {
+      "heading": "Romeo Doubs: every target (23)",
+      "entries": [
+        {
+          "key": "2026_01_NE_SEA|2945",
+          "badge": "Intercepted",
+          "tone": "bad"
+        },
+        {
+          "key": "2026_01_NE_SEA|3218",
+          "badge": "Incomplete"
+        },
+        {
+          "key": "2026_01_NE_SEA|3634",
+          "badge": "Incomplete"
+        },
+        {
+          "key": "2026_02_PIT_NE|784",
+          "badge": "4 yds",
+          "tone": "good"
+        },
+        {
+          "key": "2026_02_PIT_NE|2246",
+          "badge": "29 yds",
+          "tone": "good"
+        },
+        {
+          "key": "2026_02_PIT_NE|2869",
+          "badge": "63 yds",
+          "tone": "good"
+        },
+        {
+          "key": "2026_02_PIT_NE|3430",
+          "badge": "Incomplete"
+        },
+        {
+          "key": "2026_03_NE_JAX|1268",
+          "badge": "8 yds",
+          "tone": "good"
+        },
+        {
+          "key": "2026_03_NE_JAX|2548",
+          "badge": "Incomplete"
+        },
+        {
+          "key": "2026_03_NE_JAX|3329",
+          "badge": "21 yds",
+          "tone": "good"
+        },
+        {
+          "key": "2026_03_NE_JAX|3873",
+          "badge": "20 yds",
+          "tone": "good"
+        },
+        {
+          "key": "2026_04_NE_BUF|454",
+          "badge": "15 yds",
+          "tone": "good"
+        },
+        {
+          "key": "2026_04_NE_BUF|484",
+          "badge": "14 yds · TD",
+          "tone": "good"
+        },
+        {
+          "key": "2026_04_NE_BUF|2220",
+          "badge": "Intercepted",
+          "tone": "bad"
+        },
+        {
+          "key": "2026_04_NE_BUF|2388",
+          "badge": "6 yds",
+          "tone": "good"
+        },
+        {
+          "key": "2026_04_NE_BUF|2613",
+          "badge": "9 yds",
+          "tone": "good"
+        },
+        {
+          "key": "2026_04_NE_BUF|2781",
+          "badge": "2 yds · TD",
+          "tone": "good"
+        },
+        {
+          "key": "2026_04_NE_BUF|3173",
+          "badge": "Incomplete"
+        },
+        {
+          "key": "2026_04_NE_BUF|4148",
+          "badge": "12 yds",
+          "tone": "good"
+        },
+        {
+          "key": "2026_04_NE_BUF|4173",
+          "badge": "Incomplete"
+        },
+        {
+          "key": "2026_05_LV_NE|246",
+          "badge": "16 yds",
+          "tone": "good"
+        },
+        {
+          "key": "2026_05_LV_NE|1412",
+          "badge": "Incomplete"
+        },
+        {
+          "key": "2026_05_LV_NE|3675",
+          "badge": "Incomplete"
+        }
+      ]
+    },
     "receiving:00-0033555": {
       "heading": "Mack Hollins: every target (20)",
       "entries": [
@@ -3487,107 +4499,8 @@
         }
       ]
     },
-    "receiving:00-0037816": {
-      "heading": "Romeo Doubs: every target (20)",
-      "entries": [
-        {
-          "key": "2026_01_NE_SEA|2945",
-          "badge": "Intercepted",
-          "tone": "bad"
-        },
-        {
-          "key": "2026_01_NE_SEA|3218",
-          "badge": "Incomplete"
-        },
-        {
-          "key": "2026_01_NE_SEA|3634",
-          "badge": "Incomplete"
-        },
-        {
-          "key": "2026_02_PIT_NE|784",
-          "badge": "4 yds",
-          "tone": "good"
-        },
-        {
-          "key": "2026_02_PIT_NE|2246",
-          "badge": "29 yds",
-          "tone": "good"
-        },
-        {
-          "key": "2026_02_PIT_NE|2869",
-          "badge": "63 yds",
-          "tone": "good"
-        },
-        {
-          "key": "2026_02_PIT_NE|3430",
-          "badge": "Incomplete"
-        },
-        {
-          "key": "2026_03_NE_JAX|1268",
-          "badge": "8 yds",
-          "tone": "good"
-        },
-        {
-          "key": "2026_03_NE_JAX|2548",
-          "badge": "Incomplete"
-        },
-        {
-          "key": "2026_03_NE_JAX|3329",
-          "badge": "21 yds",
-          "tone": "good"
-        },
-        {
-          "key": "2026_03_NE_JAX|3873",
-          "badge": "20 yds",
-          "tone": "good"
-        },
-        {
-          "key": "2026_04_NE_BUF|454",
-          "badge": "15 yds",
-          "tone": "good"
-        },
-        {
-          "key": "2026_04_NE_BUF|484",
-          "badge": "14 yds · TD",
-          "tone": "good"
-        },
-        {
-          "key": "2026_04_NE_BUF|2220",
-          "badge": "Intercepted",
-          "tone": "bad"
-        },
-        {
-          "key": "2026_04_NE_BUF|2388",
-          "badge": "6 yds",
-          "tone": "good"
-        },
-        {
-          "key": "2026_04_NE_BUF|2613",
-          "badge": "9 yds",
-          "tone": "good"
-        },
-        {
-          "key": "2026_04_NE_BUF|2781",
-          "badge": "2 yds · TD",
-          "tone": "good"
-        },
-        {
-          "key": "2026_04_NE_BUF|3173",
-          "badge": "Incomplete"
-        },
-        {
-          "key": "2026_04_NE_BUF|4148",
-          "badge": "12 yds",
-          "tone": "good"
-        },
-        {
-          "key": "2026_04_NE_BUF|4173",
-          "badge": "Incomplete"
-        }
-      ]
-    },
     "receiving:00-0033090": {
-      "heading": "Hunter Henry: every target (15)",
+      "heading": "Hunter Henry: every target (19)",
       "entries": [
         {
           "key": "2026_01_NE_SEA|1479",
@@ -3661,92 +4574,30 @@
           "key": "2026_04_NE_BUF|4512",
           "badge": "12 yds",
           "tone": "good"
-        }
-      ]
-    },
-    "receiving:00-0036875": {
-      "heading": "Rhamondre Stevenson: every target (16)",
-      "entries": [
-        {
-          "key": "2026_01_NE_SEA|1611",
-          "badge": "5 yds",
-          "tone": "good"
         },
         {
-          "key": "2026_01_NE_SEA|2095",
+          "key": "2026_05_LV_NE|884",
           "badge": "Incomplete"
         },
         {
-          "key": "2026_01_NE_SEA|2120",
-          "badge": "5 yds",
+          "key": "2026_05_LV_NE|907",
+          "badge": "7 yds",
           "tone": "good"
         },
         {
-          "key": "2026_01_NE_SEA|2406",
-          "badge": "6 yds",
+          "key": "2026_05_LV_NE|2157",
+          "badge": "26 yds",
           "tone": "good"
         },
         {
-          "key": "2026_01_NE_SEA|2753",
-          "badge": "17 yds",
-          "tone": "good"
-        },
-        {
-          "key": "2026_01_NE_SEA|2838",
-          "badge": "11 yds",
-          "tone": "good"
-        },
-        {
-          "key": "2026_02_PIT_NE|243",
-          "badge": "3 yds",
-          "tone": "good"
-        },
-        {
-          "key": "2026_02_PIT_NE|2607",
-          "badge": "Incomplete"
-        },
-        {
-          "key": "2026_03_NE_JAX|199",
-          "badge": "2 yds",
-          "tone": "good"
-        },
-        {
-          "key": "2026_03_NE_JAX|2447",
-          "badge": "12 yds",
-          "tone": "good"
-        },
-        {
-          "key": "2026_03_NE_JAX|2523",
-          "badge": "2 yds",
-          "tone": "good"
-        },
-        {
-          "key": "2026_04_NE_BUF|391",
-          "badge": "Incomplete"
-        },
-        {
-          "key": "2026_04_NE_BUF|2084",
-          "badge": "Incomplete"
-        },
-        {
-          "key": "2026_04_NE_BUF|2563",
-          "badge": "6 yds",
-          "tone": "good"
-        },
-        {
-          "key": "2026_04_NE_BUF|3125",
-          "badge": "8 yds",
-          "tone": "good"
-        },
-        {
-          "key": "2026_04_NE_BUF|3892",
-          "badge": "13 yds",
+          "key": "2026_05_LV_NE|2189",
+          "badge": "11 yds · TD",
           "tone": "good"
         }
       ]
     },
     "receiving:00-0038621": {
-      "heading": "DeMario Douglas: every target (17)",
+      "heading": "DeMario Douglas: every target (22)",
       "entries": [
         {
           "key": "2026_01_NE_SEA|942",
@@ -3825,35 +4676,35 @@
           "key": "2026_04_NE_BUF|3071",
           "badge": "10 yds",
           "tone": "good"
-        }
-      ]
-    },
-    "receiving:00-0041395": {
-      "heading": "Eli Raridon: every target (4)",
-      "entries": [
+        },
         {
-          "key": "2026_01_NE_SEA|1152",
-          "badge": "2 yds · TD",
+          "key": "2026_05_LV_NE|293",
+          "badge": "35 yds · TD",
           "tone": "good"
         },
         {
-          "key": "2026_02_PIT_NE|871",
-          "badge": "30 yds",
+          "key": "2026_05_LV_NE|768",
+          "badge": "6 yds",
           "tone": "good"
         },
         {
-          "key": "2026_04_NE_BUF|258",
-          "badge": "12 yds",
-          "tone": "good"
-        },
-        {
-          "key": "2026_04_NE_BUF|2684",
+          "key": "2026_05_LV_NE|2745",
           "badge": "Incomplete"
+        },
+        {
+          "key": "2026_05_LV_NE|3087",
+          "badge": "16 yds",
+          "tone": "good"
+        },
+        {
+          "key": "2026_05_LV_NE|4190",
+          "badge": "8 yds · TD",
+          "tone": "good"
         }
       ]
     },
     "receiving:00-0040131": {
-      "heading": "Kyle Williams: every target (7)",
+      "heading": "Kyle Williams: every target (10)",
       "entries": [
         {
           "key": "2026_02_PIT_NE|2630",
@@ -3885,11 +4736,171 @@
         {
           "key": "2026_04_NE_BUF|4243",
           "badge": "Incomplete"
+        },
+        {
+          "key": "2026_05_LV_NE|2507",
+          "badge": "34 yds · TD",
+          "tone": "good"
+        },
+        {
+          "key": "2026_05_LV_NE|2775",
+          "badge": "8 yds",
+          "tone": "good"
+        },
+        {
+          "key": "2026_05_LV_NE|3585",
+          "badge": "49 yds",
+          "tone": "good"
+        }
+      ]
+    },
+    "receiving:00-0036875": {
+      "heading": "Rhamondre Stevenson: every target (19)",
+      "entries": [
+        {
+          "key": "2026_01_NE_SEA|1611",
+          "badge": "5 yds",
+          "tone": "good"
+        },
+        {
+          "key": "2026_01_NE_SEA|2095",
+          "badge": "Incomplete"
+        },
+        {
+          "key": "2026_01_NE_SEA|2120",
+          "badge": "5 yds",
+          "tone": "good"
+        },
+        {
+          "key": "2026_01_NE_SEA|2406",
+          "badge": "6 yds",
+          "tone": "good"
+        },
+        {
+          "key": "2026_01_NE_SEA|2753",
+          "badge": "17 yds",
+          "tone": "good"
+        },
+        {
+          "key": "2026_01_NE_SEA|2838",
+          "badge": "11 yds",
+          "tone": "good"
+        },
+        {
+          "key": "2026_02_PIT_NE|243",
+          "badge": "3 yds",
+          "tone": "good"
+        },
+        {
+          "key": "2026_02_PIT_NE|2607",
+          "badge": "Incomplete"
+        },
+        {
+          "key": "2026_03_NE_JAX|199",
+          "badge": "2 yds",
+          "tone": "good"
+        },
+        {
+          "key": "2026_03_NE_JAX|2447",
+          "badge": "12 yds",
+          "tone": "good"
+        },
+        {
+          "key": "2026_03_NE_JAX|2523",
+          "badge": "2 yds",
+          "tone": "good"
+        },
+        {
+          "key": "2026_04_NE_BUF|391",
+          "badge": "Incomplete"
+        },
+        {
+          "key": "2026_04_NE_BUF|2084",
+          "badge": "Incomplete"
+        },
+        {
+          "key": "2026_04_NE_BUF|2563",
+          "badge": "6 yds",
+          "tone": "good"
+        },
+        {
+          "key": "2026_04_NE_BUF|3125",
+          "badge": "8 yds",
+          "tone": "good"
+        },
+        {
+          "key": "2026_04_NE_BUF|3892",
+          "badge": "13 yds",
+          "tone": "good"
+        },
+        {
+          "key": "2026_05_LV_NE|1253",
+          "badge": "7 yds",
+          "tone": "good"
+        },
+        {
+          "key": "2026_05_LV_NE|3035",
+          "badge": "0 yds",
+          "tone": "good"
+        },
+        {
+          "key": "2026_05_LV_NE|3307",
+          "badge": "14 yds",
+          "tone": "good"
+        }
+      ]
+    },
+    "receiving:00-0041395": {
+      "heading": "Eli Raridon: every target (9)",
+      "entries": [
+        {
+          "key": "2026_01_NE_SEA|1152",
+          "badge": "2 yds · TD",
+          "tone": "good"
+        },
+        {
+          "key": "2026_02_PIT_NE|871",
+          "badge": "30 yds",
+          "tone": "good"
+        },
+        {
+          "key": "2026_04_NE_BUF|258",
+          "badge": "12 yds",
+          "tone": "good"
+        },
+        {
+          "key": "2026_04_NE_BUF|2684",
+          "badge": "Incomplete"
+        },
+        {
+          "key": "2026_05_LV_NE|2344",
+          "badge": "13 yds",
+          "tone": "good"
+        },
+        {
+          "key": "2026_05_LV_NE|3112",
+          "badge": "31 yds",
+          "tone": "good"
+        },
+        {
+          "key": "2026_05_LV_NE|3282",
+          "badge": "0 yds",
+          "tone": "good"
+        },
+        {
+          "key": "2026_05_LV_NE|3560",
+          "badge": "6 yds",
+          "tone": "good"
+        },
+        {
+          "key": "2026_05_LV_NE|4044",
+          "badge": "7 yds",
+          "tone": "good"
         }
       ]
     },
     "receiving:00-0040563": {
-      "heading": "Efton Chism III: every target (7)",
+      "heading": "Efton Chism III: every target (13)",
       "entries": [
         {
           "key": "2026_02_PIT_NE|2721",
@@ -3923,6 +4934,35 @@
         {
           "key": "2026_04_NE_BUF|4480",
           "badge": "Incomplete"
+        },
+        {
+          "key": "2026_05_LV_NE|633",
+          "badge": "17 yds",
+          "tone": "good"
+        },
+        {
+          "key": "2026_05_LV_NE|1201",
+          "badge": "Incomplete"
+        },
+        {
+          "key": "2026_05_LV_NE|1345",
+          "badge": "16 yds",
+          "tone": "good"
+        },
+        {
+          "key": "2026_05_LV_NE|1846",
+          "badge": "15 yds",
+          "tone": "good"
+        },
+        {
+          "key": "2026_05_LV_NE|2374",
+          "badge": "13 yds",
+          "tone": "good"
+        },
+        {
+          "key": "2026_05_LV_NE|4074",
+          "badge": "8 yds",
+          "tone": "good"
         }
       ]
     },
@@ -3950,33 +4990,8 @@
         }
       ]
     },
-    "receiving:00-0040568": {
-      "heading": "Lan Larison: every target (2)",
-      "entries": [
-        {
-          "key": "2026_01_NE_SEA|972",
-          "badge": "11 yds",
-          "tone": "good"
-        },
-        {
-          "key": "2026_01_NE_SEA|3740",
-          "badge": "-2 yds",
-          "tone": "good"
-        }
-      ]
-    },
-    "receiving:00-0040556": {
-      "heading": "Corey Kiner: every target (1)",
-      "entries": [
-        {
-          "key": "2026_03_NE_JAX|3920",
-          "badge": "9 yds",
-          "tone": "good"
-        }
-      ]
-    },
     "receiving:00-0040734": {
-      "heading": "TreVeyon Henderson: every target (3)",
+      "heading": "TreVeyon Henderson: every target (4)",
       "entries": [
         {
           "key": "2026_03_NE_JAX|1049",
@@ -3990,6 +5005,41 @@
         {
           "key": "2026_04_NE_BUF|4125",
           "badge": "Incomplete"
+        },
+        {
+          "key": "2026_05_LV_NE|854",
+          "badge": "4 yds",
+          "tone": "good"
+        }
+      ]
+    },
+    "receiving:00-0040556": {
+      "heading": "Corey Kiner: every target (2)",
+      "entries": [
+        {
+          "key": "2026_03_NE_JAX|3920",
+          "badge": "9 yds",
+          "tone": "good"
+        },
+        {
+          "key": "2026_05_LV_NE|4143",
+          "badge": "7 yds",
+          "tone": "good"
+        }
+      ]
+    },
+    "receiving:00-0040568": {
+      "heading": "Lan Larison: every target (2)",
+      "entries": [
+        {
+          "key": "2026_01_NE_SEA|972",
+          "badge": "11 yds",
+          "tone": "good"
+        },
+        {
+          "key": "2026_01_NE_SEA|3740",
+          "badge": "-2 yds",
+          "tone": "good"
         }
       ]
     },
@@ -4008,7 +5058,7 @@
       ]
     },
     "rushing:00-0036875": {
-      "heading": "Rhamondre Stevenson: every carry (44)",
+      "heading": "Rhamondre Stevenson: every carry (57)",
       "entries": [
         {
           "key": "2026_01_NE_SEA|227",
@@ -4227,11 +5277,74 @@
         {
           "key": "2026_04_NE_BUF|4456",
           "badge": "0 yds"
+        },
+        {
+          "key": "2026_05_LV_NE|155",
+          "badge": "4 yds",
+          "tone": "good"
+        },
+        {
+          "key": "2026_05_LV_NE|224",
+          "badge": "0 yds"
+        },
+        {
+          "key": "2026_05_LV_NE|832",
+          "badge": "3 yds",
+          "tone": "good"
+        },
+        {
+          "key": "2026_05_LV_NE|958",
+          "badge": "5 yds · TD",
+          "tone": "good"
+        },
+        {
+          "key": "2026_05_LV_NE|1231",
+          "badge": "12 yds",
+          "tone": "good"
+        },
+        {
+          "key": "2026_05_LV_NE|1278",
+          "badge": "2 yds",
+          "tone": "good"
+        },
+        {
+          "key": "2026_05_LV_NE|1435",
+          "badge": "4 yds",
+          "tone": "good"
+        },
+        {
+          "key": "2026_05_LV_NE|2086",
+          "badge": "7 yds",
+          "tone": "good"
+        },
+        {
+          "key": "2026_05_LV_NE|2115",
+          "badge": "20 yds",
+          "tone": "good"
+        },
+        {
+          "key": "2026_05_LV_NE|2485",
+          "badge": "1 yds",
+          "tone": "good"
+        },
+        {
+          "key": "2026_05_LV_NE|3065",
+          "badge": "5 yds",
+          "tone": "good"
+        },
+        {
+          "key": "2026_05_LV_NE|3630",
+          "badge": "0 yds"
+        },
+        {
+          "key": "2026_05_LV_NE|4022",
+          "badge": "1 yds",
+          "tone": "good"
         }
       ]
     },
     "rushing:00-0040734": {
-      "heading": "TreVeyon Henderson: every carry (38)",
+      "heading": "TreVeyon Henderson: every carry (42)",
       "entries": [
         {
           "key": "2026_02_PIT_NE|432",
@@ -4419,11 +5532,29 @@
           "key": "2026_04_NE_BUF|4542",
           "badge": "2 yds",
           "tone": "good"
+        },
+        {
+          "key": "2026_05_LV_NE|271",
+          "badge": "0 yds"
+        },
+        {
+          "key": "2026_05_LV_NE|611",
+          "badge": "11 yds",
+          "tone": "good"
+        },
+        {
+          "key": "2026_05_LV_NE|658",
+          "badge": "0 yds"
+        },
+        {
+          "key": "2026_05_LV_NE|1385",
+          "badge": "11 yds",
+          "tone": "good"
         }
       ]
     },
     "rushing:00-0039851": {
-      "heading": "Drake Maye: every carry (23)",
+      "heading": "Drake Maye: every carry (30)",
       "entries": [
         {
           "key": "2026_01_NE_SEA|249",
@@ -4537,11 +5668,46 @@
           "key": "2026_04_NE_BUF|4600",
           "badge": "-1 yds",
           "tone": "bad"
+        },
+        {
+          "key": "2026_05_LV_NE|683",
+          "badge": "8 yds",
+          "tone": "good"
+        },
+        {
+          "key": "2026_05_LV_NE|746",
+          "badge": "10 yds",
+          "tone": "good"
+        },
+        {
+          "key": "2026_05_LV_NE|3197",
+          "badge": "8 yds",
+          "tone": "good"
+        },
+        {
+          "key": "2026_05_LV_NE|3337",
+          "badge": "3 yds · TD",
+          "tone": "good"
+        },
+        {
+          "key": "2026_05_LV_NE|4539",
+          "badge": "-1 yds",
+          "tone": "bad"
+        },
+        {
+          "key": "2026_05_LV_NE|4568",
+          "badge": "-2 yds",
+          "tone": "bad"
+        },
+        {
+          "key": "2026_05_LV_NE|4590",
+          "badge": "-1 yds",
+          "tone": "bad"
         }
       ]
     },
     "rushing:00-0040556": {
-      "heading": "Corey Kiner: every carry (14)",
+      "heading": "Corey Kiner: every carry (20)",
       "entries": [
         {
           "key": "2026_01_NE_SEA|898",
@@ -4610,6 +5776,35 @@
           "key": "2026_03_NE_JAX|4154",
           "badge": "2 yds",
           "tone": "good"
+        },
+        {
+          "key": "2026_05_LV_NE|1883",
+          "badge": "Fumble lost",
+          "tone": "bad"
+        },
+        {
+          "key": "2026_05_LV_NE|3142",
+          "badge": "5 yds",
+          "tone": "good"
+        },
+        {
+          "key": "2026_05_LV_NE|4099",
+          "badge": "3 yds",
+          "tone": "good"
+        },
+        {
+          "key": "2026_05_LV_NE|4121",
+          "badge": "10 yds",
+          "tone": "good"
+        },
+        {
+          "key": "2026_05_LV_NE|4168",
+          "badge": "0 yds"
+        },
+        {
+          "key": "2026_05_LV_NE|4517",
+          "badge": "32 yds",
+          "tone": "good"
         }
       ]
     },
@@ -4623,8 +5818,18 @@
         }
       ]
     },
+    "rushing:00-0040563": {
+      "heading": "Efton Chism III: every carry (1)",
+      "entries": [
+        {
+          "key": "2026_05_LV_NE|3538",
+          "badge": "2 yds",
+          "tone": "good"
+        }
+      ]
+    },
     "defense:00-0040574": {
-      "heading": "Elijah Ponder: every play in these stats (8)",
+      "heading": "Elijah Ponder: every play in these stats (11)",
       "entries": [
         {
           "key": "2026_02_PIT_NE|1111",
@@ -4665,11 +5870,26 @@
           "key": "2026_04_NE_BUF|3979",
           "badge": "QB hit",
           "tone": "good"
+        },
+        {
+          "key": "2026_05_LV_NE|1136",
+          "badge": "QB hit",
+          "tone": "good"
+        },
+        {
+          "key": "2026_05_LV_NE|1808",
+          "badge": "Sack · QB hit · TFL",
+          "tone": "good"
+        },
+        {
+          "key": "2026_05_LV_NE|2271",
+          "badge": "Sack · QB hit · TFL · FF",
+          "tone": "good"
         }
       ]
     },
     "defense:00-0041569": {
-      "heading": "Gabe Jacas: every play in these stats (6)",
+      "heading": "Gabe Jacas: every play in these stats (8)",
       "entries": [
         {
           "key": "2026_01_NE_SEA|1277",
@@ -4700,6 +5920,46 @@
           "key": "2026_03_NE_JAX|2858",
           "badge": "½ sack · QB hit",
           "tone": "good"
+        },
+        {
+          "key": "2026_05_LV_NE|1786",
+          "badge": "TFL",
+          "tone": "good"
+        },
+        {
+          "key": "2026_05_LV_NE|3474",
+          "badge": "QB hit",
+          "tone": "good"
+        }
+      ]
+    },
+    "defense:00-0035678": {
+      "heading": "Dre'Mont Jones: every play in these stats (5)",
+      "entries": [
+        {
+          "key": "2026_01_NE_SEA|180",
+          "badge": "Sack · QB hit · TFL",
+          "tone": "good"
+        },
+        {
+          "key": "2026_01_NE_SEA|2307",
+          "badge": "QB hit",
+          "tone": "good"
+        },
+        {
+          "key": "2026_01_NE_SEA|2656",
+          "badge": "QB hit",
+          "tone": "good"
+        },
+        {
+          "key": "2026_01_NE_SEA|2972",
+          "badge": "QB hit",
+          "tone": "good"
+        },
+        {
+          "key": "2026_05_LV_NE|1979",
+          "badge": "TFL",
+          "tone": "good"
         }
       ]
     },
@@ -4723,33 +5983,8 @@
         }
       ]
     },
-    "defense:00-0035678": {
-      "heading": "Dre'Mont Jones: every play in these stats (4)",
-      "entries": [
-        {
-          "key": "2026_01_NE_SEA|180",
-          "badge": "Sack · QB hit · TFL",
-          "tone": "good"
-        },
-        {
-          "key": "2026_01_NE_SEA|2307",
-          "badge": "QB hit",
-          "tone": "good"
-        },
-        {
-          "key": "2026_01_NE_SEA|2656",
-          "badge": "QB hit",
-          "tone": "good"
-        },
-        {
-          "key": "2026_01_NE_SEA|2972",
-          "badge": "QB hit",
-          "tone": "good"
-        }
-      ]
-    },
     "defense:00-0036813": {
-      "heading": "Christian Elliss: every play in these stats (2)",
+      "heading": "Christian Elliss: every play in these stats (3)",
       "entries": [
         {
           "key": "2026_02_PIT_NE|1357",
@@ -4758,6 +5993,11 @@
         },
         {
           "key": "2026_03_NE_JAX|2811",
+          "badge": "QB hit",
+          "tone": "good"
+        },
+        {
+          "key": "2026_05_LV_NE|90",
           "badge": "QB hit",
           "tone": "good"
         }
@@ -4843,6 +6083,61 @@
         }
       ]
     },
+    "defense:00-0039770": {
+      "heading": "Charles Woods: every play in these stats (4)",
+      "entries": [
+        {
+          "key": "2026_02_PIT_NE|3736",
+          "badge": "PBU",
+          "tone": "good"
+        },
+        {
+          "key": "2026_05_LV_NE|90",
+          "badge": "PBU",
+          "tone": "good"
+        },
+        {
+          "key": "2026_05_LV_NE|1136",
+          "badge": "PBU",
+          "tone": "good"
+        },
+        {
+          "key": "2026_05_LV_NE|2901",
+          "badge": "TFL",
+          "tone": "good"
+        }
+      ]
+    },
+    "defense:00-0036307": {
+      "heading": "Kindle Vildor: every play in these stats (3)",
+      "entries": [
+        {
+          "key": "2026_04_NE_BUF|3623",
+          "badge": "TFL",
+          "tone": "good"
+        },
+        {
+          "key": "2026_05_LV_NE|2622",
+          "badge": "PBU",
+          "tone": "good"
+        },
+        {
+          "key": "2026_05_LV_NE|3497",
+          "badge": "FF",
+          "tone": "good"
+        }
+      ]
+    },
+    "defense:00-0039289": {
+      "heading": "Leonard Taylor III: every play in these stats (1)",
+      "entries": [
+        {
+          "key": "2026_05_LV_NE|3773",
+          "badge": "Sack · QB hit · TFL",
+          "tone": "good"
+        }
+      ]
+    },
     "defense:00-0034720": {
       "heading": "Robert Spillane: every play in these stats (2)",
       "entries": [
@@ -4873,12 +6168,17 @@
         }
       ]
     },
-    "defense:00-0039770": {
-      "heading": "Charles Woods: every play in these stats (1)",
+    "defense:00-0033132": {
+      "heading": "Kevin Byard: every play in these stats (2)",
       "entries": [
         {
-          "key": "2026_02_PIT_NE|3736",
+          "key": "2026_04_NE_BUF|120",
           "badge": "PBU",
+          "tone": "good"
+        },
+        {
+          "key": "2026_05_LV_NE|2026",
+          "badge": "QB hit",
           "tone": "good"
         }
       ]
@@ -4899,16 +6199,6 @@
         {
           "key": "2026_03_NE_JAX|4065",
           "badge": "TFL",
-          "tone": "good"
-        }
-      ]
-    },
-    "defense:00-0033132": {
-      "heading": "Kevin Byard: every play in these stats (1)",
-      "entries": [
-        {
-          "key": "2026_04_NE_BUF|120",
-          "badge": "PBU",
           "tone": "good"
         }
       ]
@@ -4943,12 +6233,22 @@
         }
       ]
     },
-    "defense:00-0036307": {
-      "heading": "Kindle Vildor: every play in these stats (1)",
+    "defense:00-0031054": {
+      "heading": "DaQuan Jones: every play in these stats (1)",
       "entries": [
         {
-          "key": "2026_04_NE_BUF|3623",
-          "badge": "TFL",
+          "key": "2026_05_LV_NE|4467",
+          "badge": "QB hit",
+          "tone": "good"
+        }
+      ]
+    },
+    "defense:00-0040537": {
+      "heading": "Elliott Davison: every play in these stats (1)",
+      "entries": [
+        {
+          "key": "2026_05_LV_NE|4467",
+          "badge": "PBU",
           "tone": "good"
         }
       ]

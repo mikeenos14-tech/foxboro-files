@@ -1,0 +1,236 @@
+{
+  "gameId": "2026_05_LV_NE",
+  "narrative": "New England beat LV 45-17. The offense posted 0.42 EPA/play (54% success rate) while the defense allowed -0.02 EPA/play. Turnover margin was 0.",
+  "epaPerPlay": {
+    "offense": 0.42324129598468097,
+    "defense": -0.01763605242667375
+  },
+  "successRate": {
+    "offense": 0.5396825396825397,
+    "defense": 0.42105263157894735,
+    "leagueAverage": 0.4349100041858518
+  },
+  "turnoverMargin": 0,
+  "pointsOffTurnovers": {
+    "for": 0,
+    "against": 0
+  },
+  "explosivePlayRate": {
+    "for": 0.2698412698412698,
+    "against": 0.14035087719298245
+  },
+  "redZone": {
+    "offense": {
+      "att": 7,
+      "td": 6
+    },
+    "defense": {
+      "att": 3,
+      "td": 2
+    }
+  },
+  "thirdDown": {
+    "offense": {
+      "att": 11,
+      "conv": 6
+    },
+    "defense": {
+      "att": 13,
+      "conv": 5
+    }
+  },
+  "winProbabilityTimeline": [
+    {
+      "playIndex": 0,
+      "quarter": 1,
+      "clock": "15:00",
+      "homeWinProb": 0.566792041063309
+    },
+    {
+      "playIndex": 8,
+      "quarter": 1,
+      "clock": "13:16",
+      "homeWinProb": 0.651580452919006
+    },
+    {
+      "playIndex": 16,
+      "quarter": 1,
+      "clock": "10:11",
+      "homeWinProb": 0.765764772891998
+    },
+    {
+      "playIndex": 24,
+      "quarter": 1,
+      "clock": "07:34",
+      "homeWinProb": 0.612697124481201
+    },
+    {
+      "playIndex": 32,
+      "quarter": 1,
+      "clock": "03:20",
+      "homeWinProb": 0.714014410972595
+    },
+    {
+      "playIndex": 40,
+      "quarter": 1,
+      "clock": "00:47",
+      "homeWinProb": 0.763397425413132
+    },
+    {
+      "playIndex": 48,
+      "quarter": 2,
+      "clock": "13:23",
+      "homeWinProb": 0.832127034664154
+    },
+    {
+      "playIndex": 56,
+      "quarter": 2,
+      "clock": "10:51",
+      "homeWinProb": 0.770296454429627
+    },
+    {
+      "playIndex": 64,
+      "quarter": 2,
+      "clock": "07:25",
+      "homeWinProb": 0.741755276918411
+    },
+    {
+      "playIndex": 72,
+      "quarter": 2,
+      "clock": "03:58",
+      "homeWinProb": 0.692899316549301
+    },
+    {
+      "playIndex": 80,
+      "quarter": 2,
+      "clock": "00:38",
+      "homeWinProb": 0.842318117618561
+    },
+    {
+      "playIndex": 88,
+      "quarter": 3,
+      "clock": "15:00",
+      "homeWinProb": 0.916697680950165
+    },
+    {
+      "playIndex": 96,
+      "quarter": 3,
+      "clock": "12:58",
+      "homeWinProb": 0.945796590298414
+    },
+    {
+      "playIndex": 104,
+      "quarter": 3,
+      "clock": "10:50",
+      "homeWinProb": 0.96752667427063
+    },
+    {
+      "playIndex": 112,
+      "quarter": 3,
+      "clock": "08:25",
+      "homeWinProb": 0.964860618114471
+    },
+    {
+      "playIndex": 120,
+      "quarter": 3,
+      "clock": "04:31",
+      "homeWinProb": 0.983855068683624
+    },
+    {
+      "playIndex": 128,
+      "quarter": 3,
+      "clock": "02:11",
+      "homeWinProb": 0.99603932723403
+    },
+    {
+      "playIndex": 136,
+      "quarter": 4,
+      "clock": "14:19",
+      "homeWinProb": 0.999607503414154
+    },
+    {
+      "playIndex": 144,
+      "quarter": 4,
+      "clock": "11:49",
+      "homeWinProb": 0.999728863476776
+    },
+    {
+      "playIndex": 152,
+      "quarter": 4,
+      "clock": "09:39",
+      "homeWinProb": 0.999049484729767
+    },
+    {
+      "playIndex": 160,
+      "quarter": 4,
+      "clock": "06:06",
+      "homeWinProb": 0.999922322313068
+    },
+    {
+      "playIndex": 168,
+      "quarter": 4,
+      "clock": "02:45",
+      "homeWinProb": 0.999855097281397
+    },
+    {
+      "playIndex": 174,
+      "quarter": 4,
+      "clock": "00:00",
+      "homeWinProb": 1
+    }
+  ],
+  "standouts": [
+    {
+      "group": "points",
+      "text": "45 points, the most the Patriots have scored since Week 17, 2021.",
+      "population": "every Patriots regular-season game since 1999 (442 games)",
+      "score": 0.99,
+      "tone": "good"
+    },
+    {
+      "group": "qb",
+      "text": "Drake Maye's +0.84 EPA per dropback is the 3rd-best quarterback game in the NFL this season.",
+      "population": "all 159 quarterback games this season with 15+ dropbacks",
+      "score": 0.9873417721518988,
+      "tone": "good"
+    },
+    {
+      "group": "offense",
+      "text": "The 4th-best offensive game by any team this season: +0.42 EPA per play.",
+      "population": "all 156 team-games this season",
+      "score": 0.9806451612903225,
+      "tone": "good"
+    }
+  ],
+  "goodBadUgly": {
+    "good": [
+      "The offense averaged +0.42 EPA per play — better than an average offense.",
+      "Scored touchdowns on 6 of 7 red-zone trips (86%), well above the 55% league norm."
+    ],
+    "bad": [
+      "Allowed LV touchdowns on 2 of 3 red-zone trips (67%), well above the 55% league norm."
+    ],
+    "ugly": []
+  },
+  "playerOfTheGame": {
+    "playerId": "00-0039851",
+    "playerName": "Drake Maye",
+    "wpa": 0.3781134860223693,
+    "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/mkauzrg7vo8lfziigsbg",
+    "reason": "Mostly as a passer."
+  },
+  "scoring": {
+    "us": {
+      "td": 6,
+      "fg": 1,
+      "safety": 0
+    },
+    "them": {
+      "td": 2,
+      "fg": 1,
+      "safety": 0
+    }
+  },
+  "fanTake": "Drake Maye just put on a masterclass at Gillette Stadium, accounting for five total touchdowns in a 45-17 demolition of Las Vegas—and this wasn't even the Patriots at full strength. Missing starting cornerbacks and top receivers, dealing with injuries to TreVeyon Henderson and Will Campbell during the game itself, and still this offense hummed like a well-oiled machine: 0.42 EPA per play, which ranks 4th-best in the entire league this season. Maye's personal line of +0.84 EPA per dropback slots him 3rd among all quarterback performances this year, and you can feel the click happening in real time—the confidence, the arm talent, the poise in the pocket. This 45 points is the most we've scored since Week 17, 2021, and it came against a team that converted 67% of their red-zone trips (well above the league norm), meaning our defense wasn't letting them sleepwalk through either. When everything clicks like this—even short-handed—you remember why the future looks so bright.",
+  "aiVersion": 8
+}

@@ -68,9 +68,14 @@
         "rank": 1
       },
       {
+        "playerId": "4921438",
+        "playerName": "Caleb Lomu",
+        "rank": 2
+      },
+      {
         "playerId": "4431526",
         "playerName": "Dametrious Crownover",
-        "rank": 2
+        "rank": 3
       }
     ]
   },
@@ -427,9 +432,8 @@
         "rank": 2
       },
       {
-        "playerId": "4036651",
-        "playerName": "Kindle Vildor",
-        "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/bfvlflg3zop9wvavzuzc",
+        "playerId": "4688366",
+        "playerName": "Elliott Davison",
         "rank": 3
       }
     ]
@@ -451,15 +455,10 @@
         "rank": 2
       },
       {
-        "playerId": "4688366",
-        "playerName": "Elliott Davison",
-        "rank": 3
-      },
-      {
         "playerId": "4428232",
         "playerName": "Dell Pettus",
         "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tnupiluc7tjysge6pi4y",
-        "rank": 4
+        "rank": 3
       }
     ]
   },
@@ -520,6 +519,12 @@
         "playerName": "Marcus Jones",
         "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/detzacjtmwsbfwkujduj",
         "rank": 1
+      },
+      {
+        "playerId": "4036651",
+        "playerName": "Kindle Vildor",
+        "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/bfvlflg3zop9wvavzuzc",
+        "rank": 2
       }
     ]
   },
