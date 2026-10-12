@@ -1,12 +1,30 @@
 [
   {
-    "id": "50158326",
-    "publishedAt": "2026-10-12T14:59:19Z",
-    "type": "Transaction",
-    "headline": "Making sense of the Giants-Commanders tie, the Texans' Marvin Harrison Jr. trade",
-    "summary": "What were the Commanders doing in the final minute of OT? Why did the 1-4 Texans make an aggressive trade for Marvin Harrison Jr.? Let's try to find the logic.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50158326/week-5-commanders-tie-texans-marvin-harrison-jr-trade",
+    "id": "50167021",
+    "publishedAt": "2026-10-12T17:57:16Z",
+    "type": "Injury",
+    "headline": "Source: Packers lose DT Javon Hargrave for season to torn Achilles",
+    "summary": "Tests confirmed Monday that Packers defensive tackle Javon Hargrave suffered a season-ending torn Achilles in Sunday's victory over the Bears, a source told ESPN's Adam Schefter.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50167021/source-packers-lose-hargrave-season-ending-torn-achilles",
     "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=422750",
+    "publishedAt": "2026-10-12T18:08:28.000Z",
+    "type": "Analysis",
+    "headline": "49ers LB Dre Greenlaw Receives One-Game Suspension",
+    "summary": "After a sideline dustup led to an ejection on Sunday, 49ers linebacker Dre Greenlaw will sit out Week 6. The NFL has suspended Greenlaw one game without pay for headbutting helmetless Seahawks linebacker Ernest Jones IV. Greenlaw may appeal the punishment. More to come…",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/49ers-lb-dre-greenlaw-receives-one-game-suspension",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=422739",
+    "publishedAt": "2026-10-12T17:53:14.000Z",
+    "type": "Injury",
+    "headline": "Lions’ Tom Kennedy Likely To Undergo Season-Ending Knee Surgery; Devin White Suffers Broken Forearm",
+    "summary": "The Lions improved to 3-2 with a 45-21 thrashing of the Cardinals on Sunday, but they did not escape Arizona unscathed. Wide receiver/returner Tom Kennedy and linebacker Devin White each went down with significant injuries in the first half. Kennedy suffered a season-ending MCL injury on a punt return and is expected to require surgery, […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/lions-tom-kennedy-likely-to-undergo-season-ending-knee-surgery-devin-white-suffers-broken-forearm",
+    "sourceName": "Pro Football Rumors"
   },
   {
     "id": "profootballrumors-https://www.profootballrumors.com/?p=422632",
@@ -18,24 +36,6 @@
     "sourceName": "Pro Football Rumors"
   },
   {
-    "id": "50165164",
-    "publishedAt": "2026-10-12T12:09:06Z",
-    "type": "Injury",
-    "headline": "Source: Steelers' Roman Wilson expected to miss multiple weeks",
-    "summary": "Roman Wilson will miss multiple weeks because of a finger injury, a source told ESPN, joining the growing list of injured Steelers receivers.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50165164/source-steelers-roman-wilson-expected-miss-multiple-weeks",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50165651",
-    "publishedAt": "2026-10-12T13:24:41Z",
-    "type": "Analysis",
-    "headline": "Are the 49ers the best team in the NFL?",
-    "summary": "Are the 49ers the best team in the NFL?",
-    "sourceUrl": "https://www.espn.com/video/clip/_/id/50165651/are-49ers-best-team-nfl",
-    "sourceName": "ESPN"
-  },
-  {
     "id": "50164378",
     "publishedAt": "2026-10-12T12:16:10Z",
     "type": "Analysis",
@@ -45,12 +45,12 @@
     "sourceName": "ESPN"
   },
   {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/lions-tom-kennedy-devin-white-will-both-miss-time-with-injuries-suffered-sunday",
-    "publishedAt": "2026-10-12T14:40:19.000Z",
-    "type": "Injury",
-    "headline": "Lions' Tom Kennedy, Devin White will both miss time with injuries suffered Sunday",
-    "summary": "The Lions lost linebacker Devin White and receiver/returner Tom Kennedy to injuries on Sunday in Arizona, and both appear likely to miss some time, but not the entire season.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/lions-tom-kennedy-devin-white-will-both-miss-time-with-injuries-suffered-sunday",
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-vrabel-theres-a-chance-a-j-brown-returns-this-week",
+    "publishedAt": "2026-10-12T16:11:43.000Z",
+    "type": "Analysis",
+    "headline": "Mike Vrabel: There's a chance A.J. Brown returns this week",
+    "summary": "Sunday's win over the Raiders was the fourth game that Patriots wide receiver A.J.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-vrabel-theres-a-chance-a-j-brown-returns-this-week",
     "sourceName": "Pro Football Talk"
   }
 ]
