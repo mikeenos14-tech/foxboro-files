@@ -13,6 +13,7 @@ import path from "node:path";
 import { XMLParser } from "fast-xml-parser";
 import { ESPN_TEAM_ID } from "./lib/espnTeams";
 import type { Game } from "../lib/data/types";
+import { fetchWithRetry } from "./lib/fetchRetry";
 
 const RAW_DIR = path.join(process.cwd(), "data", "raw");
 const GENERATED_DIR = path.join(process.cwd(), "data", "generated");
@@ -28,10 +29,9 @@ async function readNextGame(): Promise<Game | null> {
 }
 
 async function fetchOne(name: string, url: string) {
-  const res = await fetch(url, { redirect: "follow" });
-  if (!res.ok) {
-    throw new Error(`Failed to fetch ${name}: ${res.status} ${res.statusText}`);
-  }
+  const res = await fetchWithRetry(url).catch((err) => {
+    throw new Error(`Failed to fetch ${name}: ${err instanceof Error ? err.message : err}`);
+  });
   const text = await res.text();
   await writeFile(path.join(RAW_DIR, name), text);
   console.log(`Saved ${name} (${(text.length / 1024).toFixed(0)} KB)`);

@@ -7,6 +7,7 @@ import { mkdir, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { gunzipSync } from "node:zlib";
 import { recordSource } from "./lib/sourceStatus";
+import { fetchWithRetry } from "./lib/fetchRetry";
 
 const RAW_DIR = path.join(process.cwd(), "data", "raw");
 
@@ -80,10 +81,9 @@ const SOURCES: Array<{ name: string; url: string; gzip?: boolean }> = [
 ];
 
 async function fetchOne(name: string, url: string, gzip = false) {
-  const res = await fetch(url, { redirect: "follow" });
-  if (!res.ok) {
-    throw new Error(`Failed to fetch ${name}: ${res.status} ${res.statusText}`);
-  }
+  const res = await fetchWithRetry(url).catch((err) => {
+    throw new Error(`Failed to fetch ${name}: ${err instanceof Error ? err.message : err}`);
+  });
   const raw = Buffer.from(await res.arrayBuffer());
   const buf = gzip ? gunzipSync(raw) : raw;
   await writeFile(path.join(RAW_DIR, name), buf);

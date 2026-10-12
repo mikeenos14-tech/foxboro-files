@@ -249,7 +249,8 @@ to fall back on, so a source could be broken for days without anyone noticing. N
 
 - Every download is recorded, and a refresh fails loudly if any source is older than
   it should be, or if a game finished more than 30 hours ago without a recap.
-- If the morning stats update fails, it **tries again at noon** on its own.
+- If the morning stats update fails, it **tries again at noon** on its own, and every download is retried three times first.
+- Every refresh checks **every team's** player numbers against the official totals, not just the Patriots'. In Week 5 an unusual play (a lateral) in a Patriots game froze the site for a day; the league-wide check found two more kinds of unusual play that had already happened to other teams and would have done the same. Now those get flagged, without blocking anything, the week they first happen anywhere.
 - If the AI writing stops working, most likely an expired API key, the health check says so in plain words and tells you which setting to replace.
 - A **daily health check** confirms the sources are fresh, the latest runs succeeded
   and the live site matches the latest data. If not, it opens a GitHub issue, which

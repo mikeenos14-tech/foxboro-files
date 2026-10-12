@@ -28,3 +28,47 @@ test("a two-point run isn't a carry", () => {
   assert.equal(isCarryFor(run, "NE"), true);
   assert.equal(isCarryFor({ ...run, two_point_attempt: "1" }, "NE"), false);
 });
+
+test("a lateral splits the yards the way the official totals do", async () => {
+  const { receivingLeaders } = await import("../scripts/lib/leaderboards");
+  const chism = "00-0040001";
+  const henderson = "00-0040734";
+  const pbp = [
+    // Henderson's own catch, so he's on the board.
+    play({ receiver_player_id: henderson, complete_pass: "1", receiving_yards: "6", yards_gained: "6" }),
+    // Chism catches for 4, laterals to Henderson for 12 more.
+    play({
+      receiver_player_id: chism, complete_pass: "1", receiving_yards: "4", yards_gained: "16",
+      lateral_reception: "1", lateral_receiver_player_id: henderson, lateral_receiving_yards: "12",
+    }),
+  ];
+  const board = receivingLeaders(pbp, new Map(), "NE");
+  const yds = (id: string) => board.find((l) => l.playerId === id)?.stats.find((s) => s.label === "Yds")?.value;
+  assert.equal(yds(chism), "4");
+  assert.equal(yds(henderson), "18");
+});
+
+test("a lateral touchdown goes to the player who scored", async () => {
+  const { receivingLeaders } = await import("../scripts/lib/leaderboards");
+  const evans = "00-0031408";
+  const samuel = "00-0035719";
+  const pbp = [
+    play({ receiver_player_id: samuel, complete_pass: "1", receiving_yards: "5", yards_gained: "5" }),
+    play({
+      receiver_player_id: evans, complete_pass: "1", receiving_yards: "2", yards_gained: "82", pass_touchdown: "1",
+      td_player_id: samuel, lateral_reception: "1", lateral_receiver_player_id: samuel, lateral_receiving_yards: "80",
+    }),
+  ];
+  const board = receivingLeaders(pbp, new Map(), "NE");
+  const td = (id: string) => board.find((l) => l.playerId === id)?.stats.find((s) => s.label === "TD")?.value;
+  assert.equal(td(evans), "0");
+  assert.equal(td(samuel), "1");
+});
+
+test("an aborted snap is the carry of whoever picked it up", async () => {
+  const { rusherId } = await import("../scripts/lib/playerIds");
+  // Center fumbles the snap; the QB recovers and runs.
+  assert.equal(rusherId(play({ rusher_id: "00-center", rusher_player_id: "00-qb" })), "00-qb");
+  // A scramble leaves the short column empty.
+  assert.equal(rusherId(play({ rusher_id: "", rusher_player_id: "00-qb" })), "00-qb");
+});

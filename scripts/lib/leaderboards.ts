@@ -30,6 +30,15 @@ export interface PlayerStatLine {
 // Two-point tries aren't targets or carries in the official box score
 // (the same rule as pass attempts in boxScore.ts). The first NE two-point
 // pass of 2026 put Stevenson one target over nflverse's count.
+// The player's own yards on the play, not the play's total: on a lateral
+// the two differ (Week 5, 2026: Chism caught it for 4, pitched to
+// Henderson for 12, and the site gave Chism all 16). Falls back to the
+// play total when nflverse leaves the column empty.
+function playerYards(r: PbpRow, column: "receiving_yards" | "rushing_yards"): number {
+  const v = r[column];
+  return v === "" || v === "NA" || v === undefined ? num(r.yards_gained) : num(v);
+}
+
 export function isTargetFor(r: PbpRow, team: string): boolean {
   return r.posteam === team && bool01(r.pass_attempt) && !bool01(r.two_point_attempt) && !!receiverId(r);
 }
@@ -128,13 +137,15 @@ export function receivingLeaders(
     cur.targets += 1;
     if (bool01(r.complete_pass)) {
       cur.rec += 1;
-      cur.yards += num(r.yards_gained);
+      cur.yards += playerYards(r, "receiving_yards");
       if (r.yards_after_catch !== "" && r.yards_after_catch !== "NA") {
         cur.yac += num(r.yards_after_catch);
         cur.yacN += 1;
       }
     }
-    if (bool01(r.pass_touchdown)) cur.tds += 1;
+    // The touchdown belongs to whoever scored: on a lateral that's not
+    // the player who caught the pass (td_player_id says who).
+    if (bool01(r.pass_touchdown) && (!r.td_player_id || r.td_player_id === "NA" || r.td_player_id === receiverId(r))) cur.tds += 1;
     const flags = receivingFlags?.get(ftnKey(r));
     if (flags) {
       if (flags.drop) cur.drops += 1;
@@ -144,6 +155,15 @@ export function receivingLeaders(
       }
     }
     byPlayer.set(receiverId(r), cur);
+  }
+  // Yards after a lateral belong to whoever took the pitch (no target or
+  // catch for him), the way official totals credit them.
+  for (const r of pbp) {
+    if (r.posteam !== team || !bool01(r.lateral_reception) || bool01(r.two_point_attempt)) continue;
+    const cur = byPlayer.get(r.lateral_receiver_player_id);
+    if (!cur) continue;
+    cur.yards += num(r.lateral_receiving_yards);
+    if (bool01(r.pass_touchdown) && r.td_player_id === r.lateral_receiver_player_id) cur.tds += 1;
   }
 
   return [...byPlayer.entries()]
@@ -190,9 +210,16 @@ export function rushingLeaders(
       tds: 0,
     };
     cur.att += 1;
-    cur.yards += num(r.yards_gained);
-    if (bool01(r.rush_touchdown)) cur.tds += 1;
+    cur.yards += playerYards(r, "rushing_yards");
+    if (bool01(r.rush_touchdown) && (!r.td_player_id || r.td_player_id === "NA" || r.td_player_id === rusherId(r))) cur.tds += 1;
     byPlayer.set(rusherId(r), cur);
+  }
+  for (const r of pbp) {
+    if (r.posteam !== team || !bool01(r.lateral_rush) || bool01(r.two_point_attempt)) continue;
+    const cur = byPlayer.get(r.lateral_rusher_player_id);
+    if (!cur) continue;
+    cur.yards += num(r.lateral_rushing_yards);
+    if (bool01(r.rush_touchdown) && r.td_player_id === r.lateral_rusher_player_id) cur.tds += 1;
   }
 
   return [...byPlayer.entries()]

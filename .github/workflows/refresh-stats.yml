@@ -135,6 +135,13 @@ jobs:
       - name: Verify data consistency before commit
         run: npm run verify:data
 
+      # Early warning, never blocking: the same official-totals comparison
+      # for every team in the league, so a new kind of unusual play is
+      # caught before it happens in a Patriots game (scripts/league-audit.ts).
+      - name: League-wide audit (early warning)
+        run: npx tsx scripts/league-audit.ts
+        continue-on-error: true
+
       - name: Commit and push if data changed
         run: |
           git config user.name "github-actions[bot]"

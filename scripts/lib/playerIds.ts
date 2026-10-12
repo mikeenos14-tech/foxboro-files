@@ -22,8 +22,11 @@ function firstId(...values: Array<string | undefined>): string {
   return "";
 }
 
+// rusher_player_id first: on an aborted snap the short column names the
+// player who fumbled the snap (a center, twice in 2026) while the long one
+// names whoever picked it up and ran — the official carry.
 export function rusherId(r: PbpRow): string {
-  return firstId(r.rusher_id, r.rusher_player_id);
+  return firstId(r.rusher_player_id, r.rusher_id);
 }
 
 export function receiverId(r: PbpRow): string {

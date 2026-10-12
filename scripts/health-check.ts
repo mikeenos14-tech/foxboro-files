@@ -6,6 +6,8 @@
 //   - stale sources or finished games without a recap (check-freshness.ts)
 //   - a stats or headlines job whose most recent run failed
 //   - the live site serving older data than the repo has (a failed deploy)
+//   - the league-wide audit finding a mismatch on any team (league-audit.ts):
+//     a new kind of unusual play, caught before it reaches a Patriots game
 //   - AI writing failing — an expired API key, or drafts rejected twice
 //     (aiHealth.ts); these fail softly, so nothing else would catch them
 //
@@ -124,8 +126,24 @@ async function aiWriting(): Promise<string[]> {
   return aiProblems(files);
 }
 
+async function leagueAudit(): Promise<string[]> {
+  try {
+    const audit = JSON.parse(
+      await readFile(path.join(process.cwd(), "data", "generated", "league-audit.json"), "utf-8")
+    ) as { at: string; mismatches: string[] };
+    if (audit.mismatches.length === 0) return [];
+    const shown = audit.mismatches.slice(0, 8).map((m) => `  - ${m}`).join("\n");
+    return [
+      `The league-wide audit found ${audit.mismatches.length} player line(s) that don't match nflverse's official totals — not shown on the site yet, but the same bug would block the refresh the first time it happens in a Patriots game:\n${shown}`,
+    ];
+  } catch {
+    return []; // Not written yet.
+  }
+}
+
 async function main() {
   const problems = [
+    ...(await leagueAudit()),
     ...(await checkFreshness(["stats", "headlines"])),
     ...(await failedRuns()),
     ...(await liveSiteBehind()),
