@@ -1,11 +1,20 @@
 [
   {
     "id": "50164378",
-    "publishedAt": "2026-10-12T06:07:32Z",
+    "publishedAt": "2026-10-12T06:35:30Z",
     "type": "Analysis",
     "headline": "QB Tyler Huntley leads Ravens to comeback OT win vs. Falcons",
-    "summary": "With Lamar Jackson still out, Tyler Huntley backed up the Ravens' faith in him by leading them to a 30-23 overtime win against the Falcons, during which Huntley was a perfect 11-for-11 passing for 80 yards on the final two drives.",
+    "summary": "With Lamar Jackson still out, Tyler Huntley backed up the Ravens' faith in him by leading them to a 30-23 overtime win against the Falcons, during which Huntley was 11-for-11 passing for 80 yards on the final two drives.",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/50164378/backup-qb-tyler-huntley-leads-ravens-comeback-ot-win-vs-falcons",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50163856",
+    "publishedAt": "2026-10-12T06:15:27Z",
+    "type": "Analysis",
+    "headline": "Huntley leads late TD drive to force OT and then scores on 1-yard run as Ravens beat Falcons 30-23",
+    "summary": "— With Tyler Huntley filling in at quarterback, the Baltimore Ravens were on Snoop patrol.",
+    "sourceUrl": "http://www.espn.com/nfl/recap?gameId=401872993",
     "sourceName": "ESPN"
   },
   {
@@ -15,15 +24,6 @@
     "headline": "Falcons' Michael Penix Jr. injures rib late in loss to Ravens",
     "summary": "Falcons quarterback Michael Penix Jr. left Sunday night's overtime loss to the Ravens late because of a rib injury, but does not believe it will be a long-term issue.",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/50164195/falcons-michael-penix-jr-injures-rib-late-loss-ravens",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50163856",
-    "publishedAt": "2026-10-12T04:55:27Z",
-    "type": "Analysis",
-    "headline": "Huntley leads late TD drive to force OT and then scores on 1-yard run as Ravens beat Falcons 30-23",
-    "summary": "— With Tyler Huntley filling in at quarterback, the Baltimore Ravens were on Snoop patrol.",
-    "sourceUrl": "http://www.espn.com/nfl/recap?gameId=401872993",
     "sourceName": "ESPN"
   },
   {
@@ -15550,23 +15550,5 @@
     "summary": "Betting against the Buccaneers is good business.",
     "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/buccaneers-have-lost-an-unprecedented-12-consecutive-games-against-the-spread",
     "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/matthew-stafford-says-ive-got-to-be-better-after-nfl-record-33rd-career-pick-six",
-    "publishedAt": "2026-09-28T08:30:50.000Z",
-    "type": "Analysis",
-    "headline": "Matthew Stafford says \"I've got to be better\" after NFL-record 33rd career pick six",
-    "summary": "Talanoa Hufanga intercepted Stafford twice in the Broncos' 30-26 win over the Patriots.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/matthew-stafford-says-ive-got-to-be-better-after-nfl-record-33rd-career-pick-six",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "50050286",
-    "publishedAt": "2026-09-28T07:38:10Z",
-    "type": "Analysis",
-    "headline": "Rams' McVay on DPI call: Looked like 'good, competitive play'",
-    "summary": "Los Angeles coach Sean McVay said he would need to take another look at the defensive pass interference called at the end of Sunday night's loss in Denver.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50050286/rams-mcvay-dpi-call-looked-good-competitive-play",
-    "sourceName": "ESPN"
   }
 ]
