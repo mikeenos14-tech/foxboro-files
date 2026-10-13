@@ -1,7 +1,16 @@
 [
   {
+    "id": "64df6faa-de00-46ad-b0c2-a557f2e0dcbf",
+    "publishedAt": "2026-10-13T20:00:00.000Z",
+    "type": "Transaction",
+    "headline": "Patriots Sign RB Hassan Haskins and CB D'Shawn Jamison to the Practice Squad; Release LB Jose Ramirez from the Practice Squad",
+    "summary": "The Patriots announced today that they have signed RB Hassan Haskins and CB D’Shawn Jamison to the practice squad and released LB Jose Ramirez from the practice squad.",
+    "sourceUrl": "https://www.patriots.com/news/patriots-sign-rb-hassan-haskins-and-cb-d-shawn-jamison-to-the-practice-squad-release-lb-jose-ramirez-from-the-practice-squad",
+    "sourceName": "Patriots.com"
+  },
+  {
     "id": "50175463",
-    "publishedAt": "2026-10-13T18:06:14Z",
+    "publishedAt": "2026-10-13T18:14:53Z",
     "type": "Injury",
     "headline": "Source: Patriots lineman Will Campbell out with MCL sprain",
     "summary": "Patriots left tackle Will Campbell has been diagnosed with an MCL sprain in his right knee and is expected to miss some game action, a source told ESPN.",
@@ -25,6 +34,15 @@
     "summary": "Patriots running back TreVeyon Henderson is expected to miss multiple weeks because of a high ankle sprain, sources told ESPN.",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/50173985/sources-patriots-treveyon-henderson-high-ankle-sprain",
     "sourceName": "ESPN"
+  },
+  {
+    "id": "b5a89c00-1107-4df6-86fb-491ccb152ff2",
+    "publishedAt": "2026-10-13T14:00:00.000Z",
+    "type": "Analysis",
+    "headline": "Millbury High School's Coach Ray Richards Jr. Named the New England Patriots Coach of the Week",
+    "summary": "The Millbury Woolies held off the West Boylston/Tahanto Lions, 33-21, behind the leadership of Head Coach Ray Richards Jr., who has the team off to a 4-1 start. It was Millbury’s first win over West Boylston/Tahanto since 2019 and it came a year after a 39-20 loss to the Lions, earning Coach Ray Richards Jr. the honor of the New England Patriots Coach of the Week Award.",
+    "sourceUrl": "https://www.patriots.com/news/millbury-high-school-s-coach-ray-richards-jr-named-the-new-england-patriots-coach-of-the-week",
+    "sourceName": "Patriots.com"
   },
   {
     "id": "de4d84fc-447e-4d1e-a504-5e07b014e873",
@@ -63,39 +81,12 @@
     "sourceName": "ESPN"
   },
   {
-    "id": "8a4bd40c-da2b-4f07-8631-35faad1681a0",
-    "publishedAt": "2026-10-11T22:48:00.000Z",
-    "type": "Beat Report",
-    "headline": "Game Observations: 8 takeaways from the Patriots dominant win over the Raiders in Week 5",
-    "summary": "Despite being down multiple starters, the Patriots cruised to a 45-17 victory over the Raiders at Gillette Stadium on Sunday.",
-    "sourceUrl": "https://www.patriots.com/news/game-observations-8-takeaways-from-the-patriots-dominant-win-over-the-raiders-in-week-5",
-    "sourceName": "Patriots.com"
-  },
-  {
-    "id": "c44f2c8f-c26e-461f-adff-82a1c3d5d46d",
-    "publishedAt": "2026-10-11T22:43:00.000Z",
-    "type": "Beat Report",
-    "headline": "Game Notes: Drake Maye Records Five Total Touchdowns Against the Raiders",
-    "summary": "Game notes and stats from the Patriots Week 5 game against the Las Vegas Raiders on Sunday, October 11, 2026.",
-    "sourceUrl": "https://www.patriots.com/news/game-notes-drake-maye-records-five-total-touchdowns-against-the-raiders",
-    "sourceName": "Patriots.com"
-  },
-  {
     "id": "50160588",
     "publishedAt": "2026-10-11T21:47:27Z",
     "type": "Analysis",
     "headline": "Drake Maye accounts for 5 TDs as Patriots roll past Raiders 45-17",
     "summary": "— Drake Maye didn't have his top receiver, and the New England Patriots were missing both of their starting cornerbacks.",
     "sourceUrl": "http://www.espn.com/nfl/recap?gameId=401872986",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50160498",
-    "publishedAt": "2026-10-11T20:52:15Z",
-    "type": "Beat Report",
-    "headline": "Las Vegas Raiders vs. New England Patriots: Game Highlights",
-    "summary": "Las Vegas Raiders vs. New England Patriots: Game Highlights",
-    "sourceUrl": "https://www.espn.com/video/clip/_/id/50160498/game-highlights",
     "sourceName": "ESPN"
   },
   {
@@ -132,6 +123,15 @@
     "headline": "Patriots won't have starting CBs Christian Gonzalez, Carlton Davis",
     "summary": "The Patriots will be without starting cornerbacks Christian Gonzalez and Carlton Davis this week.",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/50141584/patriots-starting-cbs-christian-gonzalez-carlton-davis",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50135848",
+    "publishedAt": "2026-10-08T22:30:28Z",
+    "type": "Injury",
+    "headline": "Kirk Cousins and Raiders look to build on fast start against Patriots defense dealing with injuries",
+    "summary": "— Kirk Cousins' torrid start to the season has been one of the NFL's biggest surprises.",
+    "sourceUrl": "http://www.espn.com/nfl/preview?gameId=401872986",
     "sourceName": "ESPN"
   }
 ]
