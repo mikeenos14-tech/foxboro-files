@@ -4,13 +4,13 @@
     "standings": [
       {
         "team": "BUF",
-        "wins": 3,
+        "wins": 4,
         "losses": 1,
         "ties": 0,
-        "pointDifferential": 20,
+        "pointDifferential": 23,
         "isUs": false,
         "streak": {
-          "result": "L",
+          "result": "W",
           "count": 1
         },
         "divisionRecord": {
@@ -402,23 +402,6 @@
         }
       },
       {
-        "team": "CHI",
-        "wins": 3,
-        "losses": 2,
-        "ties": 0,
-        "pointDifferential": 23,
-        "isUs": false,
-        "streak": {
-          "result": "L",
-          "count": 1
-        },
-        "divisionRecord": {
-          "wins": 0,
-          "losses": 2,
-          "ties": 0
-        }
-      },
-      {
         "team": "DET",
         "wins": 3,
         "losses": 2,
@@ -432,6 +415,23 @@
         "divisionRecord": {
           "wins": 0,
           "losses": 0,
+          "ties": 0
+        }
+      },
+      {
+        "team": "CHI",
+        "wins": 3,
+        "losses": 2,
+        "ties": 0,
+        "pointDifferential": 23,
+        "isUs": false,
+        "streak": {
+          "result": "L",
+          "count": 1
+        },
+        "divisionRecord": {
+          "wins": 0,
+          "losses": 2,
           "ties": 0
         }
       }
@@ -550,12 +550,12 @@
       {
         "team": "LA",
         "wins": 2,
-        "losses": 2,
+        "losses": 3,
         "ties": 0,
-        "pointDifferential": 2,
+        "pointDifferential": -1,
         "isUs": false,
         "streak": {
-          "result": "W",
+          "result": "L",
           "count": 1
         },
         "divisionRecord": {

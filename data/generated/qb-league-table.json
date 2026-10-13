@@ -4,28 +4,28 @@
     "playerName": "Josh Allen",
     "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ynrhq9iv30ysjpwmrfdv",
     "team": "BUF",
-    "completions": 79,
-    "attempts": 119,
-    "yards": 1039,
-    "tds": 6,
-    "ints": 3,
-    "cpoe": 6.02065882246409,
+    "completions": 91,
+    "attempts": 138,
+    "yards": 1249,
+    "tds": 7,
+    "ints": 4,
+    "cpoe": 4.995463387324258,
     "accuracyByDepth": {
-      "short": 0.6666666666666666,
-      "medium": 0.7777777777777778,
-      "deep": 0.42857142857142855
+      "short": 0.6610169491525424,
+      "medium": 0.7586206896551724,
+      "deep": 0.375
     },
-    "pressureEpa": -0.4433288339946772,
-    "cleanPocketEpa": 0.33249264418928776,
-    "turnoverWorthyPlayRate": 0.038461538461538464,
+    "pressureEpa": -0.5086185151578551,
+    "cleanPocketEpa": 0.36045388823210245,
+    "turnoverWorthyPlayRate": 0.033112582781456956,
     "ngs": {
       "timeToThrow": {
-        "value": 2.93835294117647,
+        "value": 2.93570289855072,
         "rank": 16,
         "of": 40
       },
       "aggressiveness": {
-        "value": 10.9243697478992,
+        "value": 10.8695652173913,
         "rank": 33,
         "of": 40
       }
@@ -49,7 +49,7 @@
     },
     "pressureEpa": -1.3052343752313433,
     "cleanPocketEpa": -0.010813476642462638,
-    "turnoverWorthyPlayRate": 0.02631578947368421,
+    "turnoverWorthyPlayRate": 0.020689655172413793,
     "ngs": {
       "timeToThrow": {
         "value": 3.16210852713178,
@@ -81,7 +81,7 @@
     },
     "pressureEpa": -1.0026112348054008,
     "cleanPocketEpa": 0.3198147573029603,
-    "turnoverWorthyPlayRate": 0.0625,
+    "turnoverWorthyPlayRate": 0.049079754601226995,
     "ngs": {
       "timeToThrow": {
         "value": 3.05695364238411,
@@ -113,7 +113,7 @@
     },
     "pressureEpa": -1.1557011892960027,
     "cleanPocketEpa": 0.3129955747572672,
-    "turnoverWorthyPlayRate": 0.015267175572519083,
+    "turnoverWorthyPlayRate": 0.012121212121212121,
     "ngs": {
       "timeToThrow": {
         "value": 2.93172602739726,
@@ -177,7 +177,7 @@
     },
     "pressureEpa": -0.5280131144102549,
     "cleanPocketEpa": 0.28728650891250274,
-    "turnoverWorthyPlayRate": 0.018072289156626505,
+    "turnoverWorthyPlayRate": 0.015151515151515152,
     "ngs": {
       "timeToThrow": {
         "value": 2.56951322751323,
@@ -209,7 +209,7 @@
     },
     "pressureEpa": -1.1178798253185467,
     "cleanPocketEpa": 0.31418782087429886,
-    "turnoverWorthyPlayRate": 0.031496062992125984,
+    "turnoverWorthyPlayRate": 0.023809523809523808,
     "ngs": {
       "timeToThrow": {
         "value": 2.89425675675676,
@@ -241,7 +241,7 @@
     },
     "pressureEpa": -0.7520343143383106,
     "cleanPocketEpa": 0.03458539960188803,
-    "turnoverWorthyPlayRate": 0.017964071856287425,
+    "turnoverWorthyPlayRate": 0.01507537688442211,
     "ngs": {
       "timeToThrow": {
         "value": 2.82180327868852,
@@ -250,7 +250,7 @@
       },
       "aggressiveness": {
         "value": 17.3913043478261,
-        "rank": 10,
+        "rank": 9,
         "of": 40
       }
     }
@@ -273,7 +273,7 @@
     },
     "pressureEpa": -1.4553518721328806,
     "cleanPocketEpa": 0.3527113797425371,
-    "turnoverWorthyPlayRate": 0.006134969325153374,
+    "turnoverWorthyPlayRate": 0.005025125628140704,
     "ngs": {
       "timeToThrow": {
         "value": 2.95914917127072,
@@ -305,11 +305,11 @@
     },
     "pressureEpa": -1.29307064475361,
     "cleanPocketEpa": 0.04131589424971356,
-    "turnoverWorthyPlayRate": 0.04285714285714286,
+    "turnoverWorthyPlayRate": 0.032432432432432434,
     "ngs": {
       "timeToThrow": {
         "value": 2.77348295454545,
-        "rank": 26,
+        "rank": 25,
         "of": 40
       },
       "aggressiveness": {
@@ -337,7 +337,7 @@
     },
     "pressureEpa": -0.6083435527161127,
     "cleanPocketEpa": 0.4764398359201969,
-    "turnoverWorthyPlayRate": 0.02654867256637168,
+    "turnoverWorthyPlayRate": 0.01948051948051948,
     "ngs": {
       "timeToThrow": {
         "value": 2.71906338028169,
@@ -369,7 +369,7 @@
     },
     "pressureEpa": -1.3280974272493042,
     "cleanPocketEpa": -0.01303949953357389,
-    "turnoverWorthyPlayRate": 0.023809523809523808,
+    "turnoverWorthyPlayRate": 0.018072289156626505,
     "ngs": {
       "timeToThrow": {
         "value": 2.95887096774194,
@@ -401,7 +401,7 @@
     },
     "pressureEpa": -1.2680806530203161,
     "cleanPocketEpa": 0.0921331864339885,
-    "turnoverWorthyPlayRate": 0.04929577464788732,
+    "turnoverWorthyPlayRate": 0.041176470588235294,
     "ngs": {
       "timeToThrow": {
         "value": 2.94755555555556,
@@ -465,7 +465,7 @@
     },
     "pressureEpa": -0.5019345644865292,
     "cleanPocketEpa": 0.3089464115548603,
-    "turnoverWorthyPlayRate": 0.03289473684210526,
+    "turnoverWorthyPlayRate": 0.0273224043715847,
     "ngs": {
       "timeToThrow": {
         "value": 2.93130769230769,
@@ -497,7 +497,7 @@
     },
     "pressureEpa": -1.136213923022269,
     "cleanPocketEpa": 0.034255436665128015,
-    "turnoverWorthyPlayRate": 0.06870229007633588,
+    "turnoverWorthyPlayRate": 0.05625,
     "ngs": {
       "timeToThrow": {
         "value": 2.81192253521127,
@@ -561,7 +561,7 @@
     },
     "pressureEpa": -0.6978865096635102,
     "cleanPocketEpa": 0.09128238056298293,
-    "turnoverWorthyPlayRate": 0.045454545454545456,
+    "turnoverWorthyPlayRate": 0.027777777777777776,
     "ngs": {
       "timeToThrow": {
         "value": 2.7057196969697,
@@ -593,7 +593,7 @@
     },
     "pressureEpa": -0.8194516084912388,
     "cleanPocketEpa": 0.06953473767378261,
-    "turnoverWorthyPlayRate": 0.031746031746031744,
+    "turnoverWorthyPlayRate": 0.023952095808383235,
     "ngs": {
       "timeToThrow": {
         "value": 3.03627922077922,
@@ -657,7 +657,7 @@
     },
     "pressureEpa": -0.7629052636318766,
     "cleanPocketEpa": 0.014698623510849319,
-    "turnoverWorthyPlayRate": 0.044444444444444446,
+    "turnoverWorthyPlayRate": 0.029411764705882353,
     "ngs": {
       "timeToThrow": {
         "value": 2.88469841269841,
@@ -689,7 +689,7 @@
     },
     "pressureEpa": -0.4591738033284915,
     "cleanPocketEpa": 0.4348993153336163,
-    "turnoverWorthyPlayRate": 0.011834319526627219,
+    "turnoverWorthyPlayRate": 0.009900990099009901,
     "ngs": {
       "timeToThrow": {
         "value": 2.83829842931937,
@@ -721,7 +721,7 @@
     },
     "pressureEpa": -0.44238894473780543,
     "cleanPocketEpa": 0.24245796249062476,
-    "turnoverWorthyPlayRate": 0.037037037037037035,
+    "turnoverWorthyPlayRate": 0.030612244897959183,
     "ngs": {
       "timeToThrow": {
         "value": 2.51123783783784,
@@ -753,7 +753,7 @@
     },
     "pressureEpa": -1.0089662277730402,
     "cleanPocketEpa": -0.021353963662582156,
-    "turnoverWorthyPlayRate": 0.01282051282051282,
+    "turnoverWorthyPlayRate": 0.00909090909090909,
     "ngs": {
       "timeToThrow": {
         "value": 2.96651,
@@ -785,7 +785,7 @@
     },
     "pressureEpa": -1.4953601386660025,
     "cleanPocketEpa": 0.5374753592594838,
-    "turnoverWorthyPlayRate": 0.02127659574468085,
+    "turnoverWorthyPlayRate": 0.012195121951219513,
     "ngs": {
       "timeToThrow": {
         "value": 2.54785714285714,
@@ -849,7 +849,7 @@
     },
     "pressureEpa": -0.8676270125821853,
     "cleanPocketEpa": 0.12457829703569735,
-    "turnoverWorthyPlayRate": 0.02072538860103627,
+    "turnoverWorthyPlayRate": 0.0182648401826484,
     "ngs": {
       "timeToThrow": {
         "value": 2.75080882352941,
@@ -913,7 +913,7 @@
     },
     "pressureEpa": -0.8749143519341711,
     "cleanPocketEpa": 0.1446137848280464,
-    "turnoverWorthyPlayRate": 0.025157232704402517,
+    "turnoverWorthyPlayRate": 0.018957345971563982,
     "ngs": {
       "timeToThrow": {
         "value": 2.62407106598985,
@@ -932,29 +932,29 @@
     "playerName": "Matthew Stafford",
     "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/jwpkjfrkzufdyh8u1mg7",
     "team": "LA",
-    "completions": 99,
-    "attempts": 162,
-    "yards": 1189,
-    "tds": 6,
+    "completions": 139,
+    "attempts": 216,
+    "yards": 1572,
+    "tds": 9,
     "ints": 6,
-    "cpoe": -0.08439731364157324,
+    "cpoe": 0.26902996975442073,
     "accuracyByDepth": {
-      "short": 0.7126436781609196,
-      "medium": 0.5897435897435898,
-      "deep": 0.2857142857142857
+      "short": 0.7478260869565218,
+      "medium": 0.5576923076923077,
+      "deep": 0.2916666666666667
     },
-    "pressureEpa": -0.6148129355933184,
-    "cleanPocketEpa": 0.17881872701309826,
-    "turnoverWorthyPlayRate": 0.05952380952380952,
+    "pressureEpa": -0.5553000366025634,
+    "cleanPocketEpa": 0.22959563358219323,
+    "turnoverWorthyPlayRate": 0.044642857142857144,
     "ngs": {
       "timeToThrow": {
-        "value": 2.78924528301887,
-        "rank": 25,
+        "value": 2.75861502347418,
+        "rank": 27,
         "of": 40
       },
       "aggressiveness": {
-        "value": 18.5185185185185,
-        "rank": 8,
+        "value": 17.1296296296296,
+        "rank": 10,
         "of": 40
       }
     }
@@ -977,7 +977,7 @@
     },
     "pressureEpa": 0.07618876916917845,
     "cleanPocketEpa": 0.44480480246460313,
-    "turnoverWorthyPlayRate": 0.02654867256637168,
+    "turnoverWorthyPlayRate": 0.02054794520547945,
     "ngs": {
       "timeToThrow": {
         "value": 3.05190780141844,
@@ -1009,7 +1009,7 @@
     },
     "pressureEpa": -0.9022839571531258,
     "cleanPocketEpa": 0.05457490458626167,
-    "turnoverWorthyPlayRate": 0.0273972602739726,
+    "turnoverWorthyPlayRate": 0.018691588785046728,
     "ngs": {
       "timeToThrow": {
         "value": 3.22619387755102,
@@ -1018,7 +1018,7 @@
       },
       "aggressiveness": {
         "value": 18.3673469387755,
-        "rank": 9,
+        "rank": 8,
         "of": 40
       }
     }

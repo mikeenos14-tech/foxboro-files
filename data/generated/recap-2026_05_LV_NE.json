@@ -8,7 +8,7 @@
   "successRate": {
     "offense": 0.5396825396825397,
     "defense": 0.42105263157894735,
-    "leagueAverage": 0.4349100041858518
+    "leagueAverage": 0.4359847312493552
   },
   "turnoverMargin": 0,
   "pointsOffTurnovers": {
@@ -190,15 +190,15 @@
     {
       "group": "qb",
       "text": "Drake Maye's +0.84 EPA per dropback is the 3rd-best quarterback game in the NFL this season.",
-      "population": "all 159 quarterback games this season with 15+ dropbacks",
-      "score": 0.9873417721518988,
+      "population": "all 161 quarterback games this season with 15+ dropbacks",
+      "score": 0.9875,
       "tone": "good"
     },
     {
       "group": "offense",
       "text": "The 4th-best offensive game by any team this season: +0.42 EPA per play.",
-      "population": "all 156 team-games this season",
-      "score": 0.9806451612903225,
+      "population": "all 158 team-games this season",
+      "score": 0.9808917197452229,
       "tone": "good"
     }
   ],

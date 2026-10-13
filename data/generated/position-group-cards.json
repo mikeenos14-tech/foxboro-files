@@ -1,7 +1,7 @@
 [
   {
     "group": "QB",
-    "grade": 65,
+    "grade": 61,
     "trend": "up",
     "soWhat": "EPA/play at QB, on 168 plays.",
     "windows": [
@@ -29,12 +29,12 @@
       {
         "key": "last-1",
         "label": "Last Game",
-        "grade": 48
+        "grade": 35
       },
       {
         "key": "last-3",
         "label": "Last 3 Games",
-        "grade": 45
+        "grade": 42
       }
     ],
     "statLine": "471 yds, 4.0 YPC, 3 TD, 1 FUM, 10% explosive",
@@ -56,7 +56,7 @@
       {
         "key": "last-3",
         "label": "Last 3 Games",
-        "grade": 87
+        "grade": 90
       }
     ],
     "statLine": "58/92 (63%), 846 yds, 3.0 YAC/rec, 6 TD",
@@ -65,20 +65,20 @@
     "secondaryGrade": {
       "label": "Hands & YAC (QB-independent)",
       "grade": null,
-      "detail": "44 of 48 catchable balls caught · 1 drop · 3.0 YAC/rec · 6/11 contested · charted so far: 75 of 92 targets",
+      "detail": "44 of 48 catchable balls caught · 1 drop · 3.0 YAC/rec · 6/11 contested",
       "note": "Not ranked yet — teams are still closer together than chance alone explains."
     }
   },
   {
     "group": "TE",
     "grade": 81,
-    "trend": "up",
+    "trend": "flat",
     "soWhat": "EPA/play at TE, on 28 plays.",
     "windows": [
       {
         "key": "last-1",
         "label": "Last Game",
-        "grade": 97
+        "grade": 90
       },
       {
         "key": "last-3",
@@ -93,13 +93,13 @@
     "secondaryGrade": {
       "label": "Hands & YAC (QB-independent)",
       "grade": null,
-      "detail": "15 of 15 catchable balls caught · 0 drops · 5.6 YAC/rec · 2/3 contested · charted so far: 19 of 28 targets",
+      "detail": "15 of 15 catchable balls caught · 0 drops · 5.6 YAC/rec · 2/3 contested",
       "note": "Not ranked yet — teams are still closer together than chance alone explains."
     }
   },
   {
     "group": "Pass Protection",
-    "grade": 84,
+    "grade": 71,
     "trend": "down",
     "soWhat": "Pressure rate allowed — sacks or QB hits, so a beaten block still counts when a quick throw bails it out. Team-wide, and partly the QB's own time to throw.",
     "windows": [
@@ -111,7 +111,7 @@
       {
         "key": "last-3",
         "label": "Last 3 Games",
-        "grade": 77
+        "grade": 61
       }
     ],
     "statLine": "Drake Maye takes 3.06 sec to throw on average — 5th-longest of 40 qualified QBs (a longer hold gives the rush more time)",
@@ -121,18 +121,18 @@
   {
     "group": "Pass Rush",
     "grade": 58,
-    "trend": "down",
+    "trend": "flat",
     "soWhat": "Sack rate generated, team-wide — edge rushers, interior linemen and blitzers all included.",
     "windows": [
       {
         "key": "last-1",
         "label": "Last Game",
-        "grade": 45
+        "grade": 61
       },
       {
         "key": "last-3",
         "label": "Last 3 Games",
-        "grade": 26
+        "grade": 29
       }
     ],
     "statLine": "11 sacks, 31 QB hits — leader: Elijah Ponder (4.5 sacks)",
@@ -141,14 +141,14 @@
   },
   {
     "group": "Run Defense",
-    "grade": 32,
+    "grade": 45,
     "trend": "up",
     "soWhat": "Rush EPA allowed, team-wide — the front seven and run-support safeties together.",
     "windows": [
       {
         "key": "last-1",
         "label": "Last Game",
-        "grade": 52
+        "grade": 81
       },
       {
         "key": "last-3",
@@ -169,7 +169,7 @@
       {
         "key": "last-1",
         "label": "Last Game",
-        "grade": 45
+        "grade": 48
       },
       {
         "key": "last-3",

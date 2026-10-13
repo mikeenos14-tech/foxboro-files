@@ -16,7 +16,7 @@
   },
   "pressureEpa": -1.0026112348054008,
   "cleanPocketEpa": 0.3198147573029603,
-  "turnoverWorthyPlayRate": 0.0625,
+  "turnoverWorthyPlayRate": 0.049079754601226995,
   "ngs": {
     "timeToThrow": {
       "value": 3.05695364238411,
@@ -36,7 +36,7 @@
       "leaguePercentile": 97
     },
     "turnoverWorthyPlayRate": {
-      "value": 0.0625,
+      "value": 0.049079754601226995,
       "leagueRank": 31,
       "leaguePercentile": 3
     },
@@ -89,7 +89,7 @@
         },
         "pressureEpa": -1.2199842637094351,
         "cleanPocketEpa": 0.5129389727856527,
-        "turnoverWorthyPlayRate": 0.05970149253731343
+        "turnoverWorthyPlayRate": 0.0392156862745098
       }
     }
   ],
@@ -98,38 +98,37 @@
       "label": "Play action",
       "epa": -0.3414565441961366,
       "plays": 29,
-      "shareOfDropbacks": 0.2265625
+      "shareOfDropbacks": 0.17791411042944785
     },
     {
       "label": "No play action",
-      "epa": -0.03173459816976677,
-      "plays": 99,
-      "shareOfDropbacks": 0.7734375
+      "epa": 0.19646674205331882,
+      "plays": 134,
+      "shareOfDropbacks": 0.8220858895705522
     },
     {
       "label": "Blitzed (5+ rushers)",
       "epa": -0.1483812480250249,
       "plays": 42,
-      "shareOfDropbacks": 0.328125
+      "shareOfDropbacks": 0.25766871165644173
     },
     {
       "label": "Not blitzed",
-      "epa": -0.07920875097027694,
-      "plays": 86,
-      "shareOfDropbacks": 0.671875
+      "epa": 0.1872422815744448,
+      "plays": 121,
+      "shareOfDropbacks": 0.7423312883435583
     },
     {
       "label": "Outside the pocket",
       "epa": 0.09379228295747241,
       "plays": 23,
-      "shareOfDropbacks": 0.1796875
+      "shareOfDropbacks": 0.1411042944785276
     },
     {
       "label": "Screens",
       "epa": -0.22535893791504646,
       "plays": 12,
-      "shareOfDropbacks": 0.09375
+      "shareOfDropbacks": 0.0736196319018405
     }
-  ],
-  "chartingNote": "FTN's charting covers 4 of his 5 games so far — turnover-worthy rate and the splits below use those 4."
+  ]
 }

@@ -2,12 +2,12 @@
   "gameId": "2026_06_NYJ_NE",
   "opponent": "NYJ",
   "opponentEpaRank": {
-    "offense": 19,
-    "defense": 5
+    "offense": 18,
+    "defense": 8
   },
   "ourEpaRank": {
-    "offense": 10,
-    "defense": 13
+    "offense": 11,
+    "defense": 12
   },
   "successRate": {
     "us": {
@@ -18,8 +18,8 @@
       },
       "defense": {
         "value": 0.42105263157894735,
-        "leagueRank": 12,
-        "leaguePercentile": 65
+        "leagueRank": 11,
+        "leaguePercentile": 68
       }
     },
     "them": {
@@ -47,19 +47,19 @@
     },
     {
       "group": "Pass Offense vs. Pass Defense",
-      "ourGrade": 65,
+      "ourGrade": 61,
       "theirGrade": 61,
       "edge": "even",
-      "note": "65/100 vs. 61/100 (close matchup).",
+      "note": "61/100 vs. 61/100 (close matchup).",
       "ourStatLine": "103/157 (66%), 1274 yds, 8 TD, 7 INT",
       "theirStatLine": "100/160 (63%) allowed, 977 yds allowed, 6 TD allowed, 1 INT gained"
     },
     {
       "group": "Run Defense vs. Rush Offense",
-      "ourGrade": 32,
+      "ourGrade": 42,
       "theirGrade": 29,
-      "edge": "even",
-      "note": "32/100 vs. 29/100 (close matchup).",
+      "edge": "us",
+      "note": "42/100 vs. 29/100 (advantage us).",
       "ourStatLine": "455 yds allowed, 4.1 YPC allowed, 5 TD allowed, 9% explosive allowed",
       "theirStatLine": "475 yds, 3.8 YPC, 4 TD, 0 FUM, 10% explosive"
     },
@@ -74,10 +74,10 @@
     },
     {
       "group": "Pass Protection vs. Pass Rush",
-      "ourGrade": 52,
+      "ourGrade": 48,
       "theirGrade": 94,
       "edge": "them",
-      "note": "52/100 vs. 94/100 (advantage them).",
+      "note": "48/100 vs. 94/100 (advantage them).",
       "ourStatLine": "11 sacks allowed, 7% sack rate",
       "theirStatLine": "17 sacks, 27 QB hits, 10% sack rate"
     }
@@ -132,10 +132,15 @@
     }
   ],
   "weather": {
-    "tempF": 49,
-    "wind": "9 mph",
-    "precipitation": "5%",
+    "tempF": 52,
+    "wind": "11 mph",
+    "precipitation": "0%",
     "isDome": false
   },
-  "previewTake": "The Jets bring a top-five defense to Gillette, but here's the thing: their pass offense is just about average, and our pass defense is genuinely elite—that's the widest edge we've got on the board this week, and it's a big one. The real test is their pass rush, which grades at 94/100 and will test our 52/100 pass protection relentlessly; if we can keep Aaron Rodgers clean enough, we should be able to operate through the air. On the ground, it's a nasty matchup—their run defense is elite at 81/100 while ours sits at 32/100, so don't expect us to move the ball with our legs. The good news? We've beaten the Jets in three of the last five head-to-head meetings, including two convincing wins last season, and we're coming in hotter on recent form. This is a winnable game if our pass defense shows up the way it has been, but we can't afford to beat ourselves with protection breakdowns."
+  "bettingContext": {
+    "spread": -7.5,
+    "overUnder": 43.5,
+    "asOf": "2026-10-13"
+  },
+  "previewTake": "This is a vintage Patriots-Jets matchup where the script flips depending on which side of the ball you're watching. Our pass defense is genuinely elite—84/100, and it faces a Jets passing game that's struggling at 52/100, creating what might be the most lopsided matchup advantage on either side this week. The real problem lives on the other line: New York's pass rush grades at 94/100, absolutely among the league's best, and they're about to meet our pass protection at 48/100—a recipe for pressure on Drake Maye that could define how clean he can operate. The good news is recent form favors us (0.02 EPA/play over three games vs. their -0.05), we're 3-2 against these guys in the last five meetings, and we're favored by 7.5, but that pass rush is the kind of thing that makes Sunday a genuine chess match rather than a coronation. Expect our defense to eat—it's the offense's job to eat first."
 }

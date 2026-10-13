@@ -8,5 +8,6 @@
   "homeTeam": "NE",
   "awayTeam": "NYJ",
   "status": "scheduled",
-  "venue": "Gillette Stadium"
+  "venue": "Gillette Stadium",
+  "network": "CBS"
 }
