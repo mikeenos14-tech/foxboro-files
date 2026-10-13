@@ -1,5 +1,14 @@
 [
   {
+    "playerId": "4685298",
+    "playerName": "Will Campbell",
+    "position": "OT",
+    "week": 6,
+    "injury": "Knee - MCL",
+    "gameStatus": "Doubtful",
+    "lastUpdated": "2026-10-13T16:15Z"
+  },
+  {
     "playerId": "4432710",
     "playerName": "TreVeyon Henderson",
     "position": "RB",
@@ -14,8 +23,8 @@
     "position": "CB",
     "week": 6,
     "injury": "Hamstring",
-    "gameStatus": "Out",
-    "lastUpdated": "2026-10-12T19:27Z"
+    "gameStatus": "Questionable",
+    "lastUpdated": "2026-10-13T17:10Z"
   },
   {
     "playerId": "3916923",
@@ -23,8 +32,8 @@
     "position": "CB",
     "week": 6,
     "injury": "Neck",
-    "gameStatus": "Out",
-    "lastUpdated": "2026-10-12T19:27Z"
+    "gameStatus": "Questionable",
+    "lastUpdated": "2026-10-13T17:10Z"
   },
   {
     "playerId": "4686772",
@@ -32,8 +41,8 @@
     "position": "CB",
     "week": 6,
     "injury": "Shoulder",
-    "gameStatus": "Out",
-    "lastUpdated": "2026-10-12T19:27Z"
+    "gameStatus": "Questionable",
+    "lastUpdated": "2026-10-13T17:10Z"
   },
   {
     "playerId": "4606666",
@@ -41,7 +50,7 @@
     "position": "CB",
     "week": 6,
     "injury": "Hamstring",
-    "gameStatus": "Out",
-    "lastUpdated": "2026-10-12T19:27Z"
+    "gameStatus": "Questionable",
+    "lastUpdated": "2026-10-13T17:10Z"
   }
 ]

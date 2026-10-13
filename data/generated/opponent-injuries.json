@@ -5,8 +5,8 @@
     "position": "RB",
     "week": 6,
     "injury": "Quadriceps",
-    "gameStatus": "Out",
-    "lastUpdated": "2026-10-12T19:32Z"
+    "gameStatus": "Questionable",
+    "lastUpdated": "2026-10-13T17:10Z"
   },
   {
     "playerId": "4597500",
@@ -14,8 +14,8 @@
     "position": "WR",
     "week": 6,
     "injury": "Finger",
-    "gameStatus": "Out",
-    "lastUpdated": "2026-10-12T19:32Z"
+    "gameStatus": "Questionable",
+    "lastUpdated": "2026-10-13T17:10Z"
   },
   {
     "playerId": "4243375",
@@ -23,8 +23,8 @@
     "position": "G",
     "week": 6,
     "injury": "Knee",
-    "gameStatus": "Out",
-    "lastUpdated": "2026-10-12T19:32Z"
+    "gameStatus": "Questionable",
+    "lastUpdated": "2026-10-13T17:10Z"
   },
   {
     "playerId": "4700136",
@@ -32,7 +32,7 @@
     "position": "LB",
     "week": 6,
     "injury": "Quadriceps",
-    "gameStatus": "Out",
-    "lastUpdated": "2026-10-12T19:32Z"
+    "gameStatus": "Questionable",
+    "lastUpdated": "2026-10-13T17:10Z"
   }
 ]

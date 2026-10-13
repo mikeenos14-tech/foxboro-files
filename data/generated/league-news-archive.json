@@ -1,5 +1,248 @@
 [
   {
+    "id": "50175463",
+    "publishedAt": "2026-10-13T18:11:04Z",
+    "type": "Injury",
+    "headline": "Source: Patriots lineman Will Campbell out with MCL sprain",
+    "summary": "Patriots left tackle Will Campbell has been diagnosed with an MCL sprain in his right knee and is expected to miss some game action, a source told ESPN.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50175463/source-patriots-lineman-campbell-mcl-sprain",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50175234",
+    "publishedAt": "2026-10-13T18:05:51Z",
+    "type": "Transaction",
+    "headline": "Sources: Rams release kicker Mevis after miscues in loss, sign Grupe from Jets",
+    "summary": "The Rams are releasing kicker Harrison Mevis and signing Blake Grupe off the Jets' practice squad, sources told NFL Network's Ian Rapoport and Mike Garafolo on Tuesday.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50175234/rams-release-kicker-mevis-miscues-ot-loss",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cowboys-defense-had-heart-to-heart-players-meeting-on-monday-morning",
+    "publishedAt": "2026-10-13T17:59:32.000Z",
+    "type": "Analysis",
+    "headline": "Cowboys defense had \"heart to heart\" players meeting on Monday morning",
+    "summary": "The Cowboys are taking steps on multiple fronts as they try to improve on a defense that has underperformed through the first five games of the season.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cowboys-defense-had-heart-to-heart-players-meeting-on-monday-morning",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "50174944",
+    "publishedAt": "2026-10-13T17:47:06Z",
+    "type": "Analysis",
+    "headline": "Zxavian Harris eligible to sign with NFL teams despite bid to play for LSU",
+    "summary": "The NFL has reversed course and now says that former Ole Miss DL Zxavian Harris is free to sign with teams this season after a failed attempt to return to college football at LSU.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50174944/zxavian-harris-eligible-sign-nfl-teams-lsu-bid",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "49869194",
+    "publishedAt": "2026-10-13T17:42:52Z",
+    "type": "Analysis",
+    "headline": "NFL expected touchdown (xTD) leaderboard for 2026",
+    "summary": "Opportunity-adjusted TD leaders tell you not only who's scoring but who's getting the opportunities to score.",
+    "sourceUrl": "https://www.espn.com/fantasy/football/story/_/id/49869194/2026-fantasy-football-rankings-nfl-expected-td-opportunity-xtd",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jameson-williams-wins-appeal-of-smoking-celebration-fines",
+    "publishedAt": "2026-10-13T17:42:07.000Z",
+    "type": "Analysis",
+    "headline": "Jameson Williams wins appeal of smoking celebration fines",
+    "summary": "Lions wide receiver Jameson Williams joined Bengals wideout Ja'Marr Chase in making successful appeals to the league after being fined in Week 2.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jameson-williams-wins-appeal-of-smoking-celebration-fines",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/rams-move-on-from-k-harrison-mevis-sign-k-blake-grupe",
+    "publishedAt": "2026-10-13T17:33:39.000Z",
+    "type": "Analysis",
+    "headline": "Rams move on from K Harrison Mevis, sign K Blake Grupe",
+    "summary": "The Rams have completed at least one part of their evaluation of special teams.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/rams-move-on-from-k-harrison-mevis-sign-k-blake-grupe",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=422847",
+    "publishedAt": "2026-10-13T17:27:43.000Z",
+    "type": "Transaction",
+    "headline": "Rams Release K Harrison Mevis, Sign Blake Grupe",
+    "summary": "In the wake of a special teams meltdown in Week 5, the Rams are making a change at kicker. They are releasing Harrison Mevis and signing Blake Grupe off the Jets’ practice squad, according to Mike Garafolo and Ian Rapoport of NFL Network. Mevis’ failure to convert either of his two goal field goal attempts […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/rams-release-k-harrison-mevis-sign-blake-grupe",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "50174803",
+    "publishedAt": "2026-10-13T17:27:18Z",
+    "type": "Analysis",
+    "headline": "Knockout league pickups: Walker III, Lamb, McMillan among big names available",
+    "summary": "Tristan H. Cockcroft lists the most common players on eliminated teams and finds how much FAB to spend this week.",
+    "sourceUrl": "https://www.espn.com/fantasy/football/story/_/id/50174803/fantasy-football-knockout-waiver-wire-free-agent-pickups-nfl-week-6",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jamarr-chase-wins-appeal-of-fines-for-making-an-obscene-gesture",
+    "publishedAt": "2026-10-13T17:24:59.000Z",
+    "type": "Analysis",
+    "headline": "Ja'Marr Chase wins appeal of fines for making an obscene gesture",
+    "summary": "Bengals wide receiver Ja'Marr Chase was fined twice for making an obscene gesture during the team's Week 2 win over the Texans, but he won't be forking over any money to the league.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jamarr-chase-wins-appeal-of-fines-for-making-an-obscene-gesture",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=422708",
+    "publishedAt": "2026-10-13T17:20:54.000Z",
+    "type": "Injury",
+    "headline": "Patriots LT Will Campbell Suffers Right MCL Sprain",
+    "summary": "OCTOBER 13: Campbell is indeed dealing with a sprained right MCL, Cameron Wolfe of NFL Network reports. The belief is that it isn’t as serious as the sprain that shelved Campbell last year, though he is still expected to miss time, according to Wolfe. OCTOBER 11: When the Patriots drafted Utah’s Caleb Lomu near the […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/patriots-lt-will-campbell-could-miss-time-with-possible-knee-sprain",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "50174946",
+    "publishedAt": "2026-10-13T17:13:39Z",
+    "type": "Analysis",
+    "headline": "Recruiting firm's Brian Flores memo contains racial stereotypes, lawyers say",
+    "summary": "A recruiting report on Brian Flores has examples of what his lawyers say are racial stereotypes that NFL teams use when evaluating Black coaching candidates.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50174946/brian-flores-memo-rife-racial-stereotypes-lawyers-say",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=422839",
+    "publishedAt": "2026-10-13T17:03:34.000Z",
+    "type": "Injury",
+    "headline": "Bengals TE Tanner Hudson Suffers Pectoral Tear",
+    "summary": "Tanner Hudson’s 2026 season has likely come to an end. The veteran tight end has suffered a pectoral tear, per his agent (as first noted by Charlie Clifford of WLWT). ESPN’s Ben Baby confirms Hudson is expected to miss the remainder of the year as a result of the injury. His absence will deal a […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/bengals-te-tanner-hudson-suffers-pectoral-tear",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "50134142",
+    "publishedAt": "2026-10-13T17:00:51Z",
+    "type": "Analysis",
+    "headline": "How Bills QB Josh Allen has become a star on and off the field",
+    "summary": "The Buffalo QB is racking up the endorsements and leaning on his Hollywood wife for advice.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50134142/bills-qb-josh-allen-hollywood-star-endorsements",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "49949224",
+    "publishedAt": "2026-10-13T16:47:34Z",
+    "type": "Analysis",
+    "headline": "Rest-of-season rankings: Packers WRs rise, Jalen Hurts sinks further",
+    "summary": "Need a quick free agent pickup -- or roster overhaul -- after Week 5? These rankings are designed to help.",
+    "sourceUrl": "https://www.espn.com/fantasy/football/story/_/id/49949224/fantasy-football-2026-updated-rest-season-rankings",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/will-campbell-is-week-to-week-after-tests-show-he-avoided-a-major-knee-injury",
+    "publishedAt": "2026-10-13T16:46:34.000Z",
+    "type": "Injury",
+    "headline": "Will Campbell is week-to-week after tests show he avoided a major knee injury",
+    "summary": "Patriots left tackle Will Campbell has another knee injury, but this one is not overly serious.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/will-campbell-is-week-to-week-after-tests-show-he-avoided-a-major-knee-injury",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "50174705",
+    "publishedAt": "2026-10-13T16:43:38Z",
+    "type": "Injury",
+    "headline": "Bengals tight end Tanner Hudson out for season with torn pec",
+    "summary": "Bengals TE Tanner Hudson suffered a torn pectoral in last Sunday's win over the Dolphins that will sideline him for the season, his agent told ESPN.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50174705/bengals-tight-end-tanner-hudson-season-torn-pec",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dan-campbell-lions-fans-took-over-the-stadium-in-arizona",
+    "publishedAt": "2026-10-13T16:18:57.000Z",
+    "type": "Analysis",
+    "headline": "Dan Campbell: Lions fans took over the stadium in Arizona",
+    "summary": "Lions head coach Dan Campbell credited the crowd for helping his team in Sunday's win over the Cardinals, even though the Lions were on the road.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dan-campbell-lions-fans-took-over-the-stadium-in-arizona",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/key-korn-ferry-document-in-brian-flores-case-becomes-public",
+    "publishedAt": "2026-10-13T16:13:24.000Z",
+    "type": "Transaction",
+    "headline": "Key Korn Ferry document in Brian Flores case becomes public",
+    "summary": "Flores adds to his claims against the Dolphins based on statements the team allegedly made about him.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/key-korn-ferry-document-in-brian-flores-case-becomes-public",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "50167782",
+    "publishedAt": "2026-10-13T16:00:15Z",
+    "type": "Transaction",
+    "headline": "Marvin Harrison Jr. latest in Texans' quest to solve their WR2 conundrum",
+    "summary": "Houston has traded and drafted receivers, hoping to complement No. 1 wideout Nico Collins and QB C.J. Stroud.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50167782/texans-wr2-issues-marvin-harrison-jr",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50170630",
+    "publishedAt": "2026-10-13T16:00:01Z",
+    "type": "Analysis",
+    "headline": "Why the Browns' run game is at the root of their offensive struggles",
+    "summary": "Cleveland's O-line hasn't been able to open running lanes consistently enough for Quinshon Judkins and others.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50170630/cleveland-browns-run-game-root-struggles-offense-week-5",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/andy-reid-has-not-really-been-surprised-by-kenneth-walkers-performances",
+    "publishedAt": "2026-10-13T15:54:30.000Z",
+    "type": "Analysis",
+    "headline": "Andy Reid has \"not really\" been surprised by Kenneth Walker's performances",
+    "summary": "After a Week 5 bye, the Chiefs will be back in action when they play the Chargers on Sunday.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/andy-reid-has-not-really-been-surprised-by-kenneth-walkers-performances",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=422835",
+    "publishedAt": "2026-10-13T15:53:25.000Z",
+    "type": "Injury",
+    "headline": "Falcons Hope To Have QB Michael Penix Jr. Available For Week 6",
+    "summary": "Michael Penix Jr. suffered a rib injury late in the Falcons’ Week 5 loss. The third-year quarterback is hopeful his latest ailment does not prove to be a long-term one, and the team appears to share that belief. Atlanta is optimistic Penix will be available for Week 6, Josh Kendall and Jonathan Jones of The Athletic […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/falcons-hope-to-have-qb-michael-penix-jr-available-for-week-6",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/vic-fangio-says-it-would-be-miraculous-if-jalyx-hunt-plays-this-week",
+    "publishedAt": "2026-10-13T15:52:42.000Z",
+    "type": "Injury",
+    "headline": "Vic Fangio says it would be \"miraculous\" if Jalyx Hunt plays this week",
+    "summary": "The Eagles won't issue their injury designations for Week 6 until Friday, but defensive coordinator Vic Fangio all but ruled one member of the defense out on Tuesday.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/vic-fangio-says-it-would-be-miraculous-if-jalyx-hunt-plays-this-week",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/panthers-designate-rb-trevor-etienne-for-return-put-dt-cam-jackson-on-ir",
+    "publishedAt": "2026-10-13T15:39:45.000Z",
+    "type": "Analysis",
+    "headline": "Panthers designate RB Trevor Etienne for return, put DT Cam Jackson on IR",
+    "summary": "Running back Trevor Etienne is on his way back to the Panthers lineup.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/panthers-designate-rb-trevor-etienne-for-return-put-dt-cam-jackson-on-ir",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/did-jayden-daniels-think-overtime-would-continue-after-the-first-period-ended",
+    "publishedAt": "2026-10-13T15:16:20.000Z",
+    "type": "Analysis",
+    "headline": "Did Jayden Daniels think overtime would continue after the first period ended?",
+    "summary": "The problem with everyone taking the blame for a colossal clock-management blunder is that, if everyone is Spartacus, it's impossible to know who's truly at fault.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/did-jayden-daniels-think-overtime-would-continue-after-the-first-period-ended",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jaguars-signing-s-kaevon-merriweather-to-53-man-roster",
+    "publishedAt": "2026-10-13T15:11:44.000Z",
+    "type": "Transaction",
+    "headline": "Jaguars signing S Kaevon Merriweather to 53-man roster",
+    "summary": "Stationed in England this week, the Jaguars are adding a defensive back to their 53-man roster.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jaguars-signing-s-kaevon-merriweather-to-53-man-roster",
+    "sourceName": "Pro Football Talk"
+  },
+  {
     "id": "50173985",
     "publishedAt": "2026-10-13T15:10:23Z",
     "type": "Injury",
@@ -1485,15 +1728,6 @@
     "sourceName": "Pro Football Talk"
   },
   {
-    "id": "50134142",
-    "publishedAt": "2026-10-12T10:19:33Z",
-    "type": "Analysis",
-    "headline": "How Bills QB Josh Allen has become a star on and off the field",
-    "summary": "The Buffalo QB is racking up the endorsements and leaning on his Hollywood wife for advice.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50134142/bills-qb-josh-allen-hollywood-star-endorsements",
-    "sourceName": "ESPN"
-  },
-  {
     "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/michael-penix-if-we-got-ball-first-in-ot-i-could-have-stayed-in",
     "publishedAt": "2026-10-12T10:12:54.000Z",
     "type": "Injury",
@@ -1636,15 +1870,6 @@
     "summary": "The aftermath of Sunday's overtime disaster from the Commanders will resonate for the remainder of the 2026 season, and perhaps beyond.",
     "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/commanders-ot-meltdown-puts-plenty-of-players-in-an-awkward-spot",
     "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=422708",
-    "publishedAt": "2026-10-12T03:00:54.000Z",
-    "type": "Injury",
-    "headline": "Patriots LT Will Campbell Could Miss Time With Possible Knee Sprain",
-    "summary": "When the Patriots drafted Utah’s Caleb Lomu near the end of the first round this year, it seemed clear that the plan was for him to eventually take over for 35-year-old veteran right tackle Morgan Moses. Well, it appears the Utes former left tackle will be asked to cover his old position for a portion […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/patriots-lt-will-campbell-could-miss-time-with-possible-knee-sprain",
-    "sourceName": "Pro Football Rumors"
   },
   {
     "id": "50163399",
@@ -7344,15 +7569,6 @@
     "sourceName": "ESPN"
   },
   {
-    "id": "49949224",
-    "publishedAt": "2026-10-06T18:17:19Z",
-    "type": "Analysis",
-    "headline": "Rest-of-season rankings: Tetairoa McMillan, George Kittle rise while Jalen Hurts slips",
-    "summary": "Need a quick free agent pickup -- or roster overhaul -- after Week 4? These rankings are designed to help.",
-    "sourceUrl": "https://www.espn.com/fantasy/football/story/_/id/49949224/fantasy-football-2026-updated-rest-season-rankings",
-    "sourceName": "ESPN"
-  },
-  {
     "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-seahawks-opt-not-to-sign-joe-mixon-to-practice-squad-after-a-physical",
     "publishedAt": "2026-10-06T17:58:11.000Z",
     "type": "Transaction",
@@ -7566,15 +7782,6 @@
     "headline": "Stephen A. praises 'formidable' Falcons, Bijan after thumping Saints",
     "summary": "Stephen A. praises 'formidable' Falcons, Bijan after thumping Saints",
     "sourceUrl": "https://www.espn.com/video/clip/_/id/50116802/stephen-praises-formidable-falcons-bijan-thumping-saints",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "49869194",
-    "publishedAt": "2026-10-06T14:21:12Z",
-    "type": "Analysis",
-    "headline": "NFL expected touchdown (xTD) leaderboard for 2026",
-    "summary": "Opportunity-adjusted TD leaders tell you not only who's scoring but who's getting the opportunities to score.",
-    "sourceUrl": "https://www.espn.com/fantasy/football/story/_/id/49869194/2026-fantasy-football-rankings-nfl-expected-td-opportunity-xtd",
     "sourceName": "ESPN"
   },
   {
@@ -15343,140 +15550,5 @@
     "summary": "The Rams are moving on from one of their defensive backs.",
     "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/rams-waive-s-tanner-ingle",
     "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/giants-signing-wr-braxton-berrios-to-53-man-roster",
-    "publishedAt": "2026-09-29T17:56:13.000Z",
-    "type": "Transaction",
-    "headline": "Giants signing WR Braxton Berrios to 53-man roster",
-    "summary": "With Odell Beckham Jr. on his way out, another Giants receiver is on his way up.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/giants-signing-wr-braxton-berrios-to-53-man-roster",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/raiders-chiefs-gets-top-cbs-billing-over-broncos-49ers",
-    "publishedAt": "2026-09-29T17:51:19.000Z",
-    "type": "Analysis",
-    "headline": "Raiders-Chiefs gets top CBS billing over Broncos-49ers",
-    "summary": "Sunday's slate of games includes a couple of big late-afternoon game.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/raiders-chiefs-gets-top-cbs-billing-over-broncos-49ers",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/nfl-cuts-colts-commanders-ticket-prices-in-london-due-to-slow-sales",
-    "publishedAt": "2026-09-29T17:26:07.000Z",
-    "type": "Analysis",
-    "headline": "NFL cuts Colts-Commanders ticket prices in London due to slow sales",
-    "summary": "The NFL returns to London on Sunday.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/nfl-cuts-colts-commanders-ticket-prices-in-london-due-to-slow-sales",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "50059557",
-    "publishedAt": "2026-09-29T17:19:24Z",
-    "type": "Analysis",
-    "headline": "Jerry Jones: 'No explanation' for Cowboys coaches' mistakes",
-    "summary": "Jerry Jones says he believes errors in game management by his coaching staff cost the Cowboys a victory over the Ravens.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50059557/jerry-jones-no-explanation-cowboys-coaches-mistakes",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bears-packers-game-in-week-5-moved-to-1-p-m-et-kickoff",
-    "publishedAt": "2026-09-29T17:14:54.000Z",
-    "type": "Analysis",
-    "headline": "Bears-Packers game in Week 5 moved to 1 p.m. ET kickoff",
-    "summary": "The NFL announced a change to the league's schedule for Week 5.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bears-packers-game-in-week-5-moved-to-1-p-m-et-kickoff",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/vikings-sign-qb-max-brosmer-to-53-man-roster",
-    "publishedAt": "2026-09-29T17:11:44.000Z",
-    "type": "Analysis",
-    "headline": "Vikings sign QB Max Brosmer to 53-man roster",
-    "summary": "After the departure of J.J.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/vikings-sign-qb-max-brosmer-to-53-man-roster",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/giants-will-release-odell-beckham-jr",
-    "publishedAt": "2026-09-29T17:05:51.000Z",
-    "type": "Transaction",
-    "headline": "Giants will release Odell Beckham Jr.",
-    "summary": "Beckham had 20 snaps, one target, no catches in three total games.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/giants-will-release-odell-beckham-jr",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/buccaneers-sign-s-ifeatu-melifonwu-to-53-man-roster",
-    "publishedAt": "2026-09-29T16:48:08.000Z",
-    "type": "Analysis",
-    "headline": "Buccaneers sign S Ifeatu Melifonwu to 53-man roster",
-    "summary": "The Buccaneers have brought one of their key special teams players to the active roster.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/buccaneers-sign-s-ifeatu-melifonwu-to-53-man-roster",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/key-pass-interference-decision-in-rams-broncos-looked-like-the-right-call",
-    "publishedAt": "2026-09-29T16:39:54.000Z",
-    "type": "Analysis",
-    "headline": "Key pass interference decision in Rams-Broncos looked like the right call",
-    "summary": "Sunday night's instant classic between the Rams and Broncos had a back-to-the-future moment, when teams coached by Sean McVay and Sean Payton were involved in a potential pass interference situation with the game on the line.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/key-pass-interference-decision-in-rams-broncos-looked-like-the-right-call",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bengals-waive-wr-keshawn-williams",
-    "publishedAt": "2026-09-29T16:35:57.000Z",
-    "type": "Transaction",
-    "headline": "Bengals waive WR Ke'Shawn Williams",
-    "summary": "With the Bengals bringing back one receiver, they’re letting go of another.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bengals-waive-wr-keshawn-williams",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/travis-hunter-got-a-lot-more-work-on-the-defensive-side-of-the-ball-in-week-3",
-    "publishedAt": "2026-09-29T15:47:51.000Z",
-    "type": "Analysis",
-    "headline": "Travis Hunter got a lot more work on the defensive side of the ball in Week 3",
-    "summary": "In Week 2, Jaguars cornerback/receiver Travis Hunter had only 31 defensive snaps.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/travis-hunter-got-a-lot-more-work-on-the-defensive-side-of-the-ball-in-week-3",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "50058897",
-    "publishedAt": "2026-09-29T15:43:17Z",
-    "type": "Injury",
-    "headline": "Sources: Panthers OL Damien Lewis (UCL injury) to miss time",
-    "summary": "Panthers left guard Damien Lewis has a UCL injury in an elbow and will be out a few weeks, sources told NFL Network's Mike Garafolo and Ian Rapoport.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50058897/panthers-ol-damien-lewis-ucl-injury-sources-say",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/chop-robinson-not-sure-why-i-got-called-for-roughing-patrick-mahomes-but-i-had-to-play-on",
-    "publishedAt": "2026-09-29T15:39:16.000Z",
-    "type": "Analysis",
-    "headline": "Chop Robinson: Not sure why I got called for roughing Patrick Mahomes, but I had to play on",
-    "summary": "Dolphins linebacker Chop Robinson is not complaining about the controversial penalty he got for roughing Patrick Mahomes on Sunday, but he is wondering what he could have done differently.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/chop-robinson-not-sure-why-i-got-called-for-roughing-patrick-mahomes-but-i-had-to-play-on",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "50058935",
-    "publishedAt": "2026-09-29T15:33:59Z",
-    "type": "Analysis",
-    "headline": "Why Daniel Dopp would buy low on Jameson Williams",
-    "summary": "Why Daniel Dopp would buy low on Jameson Williams",
-    "sourceUrl": "https://www.espn.com/video/clip/_/id/50058935/why-daniel-dopp-buy-low-jameson-williams",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50059219",
-    "publishedAt": "2026-09-29T15:33:29Z",
-    "type": "Analysis",
-    "headline": "Why Stephen A. is starting to feel sorry for Jerry Jones",
-    "summary": "Why Stephen A. is starting to feel sorry for Jerry Jones",
-    "sourceUrl": "https://www.espn.com/video/clip/_/id/50059219/why-stephen-starting-feel-sorry-jerry-jones",
-    "sourceName": "ESPN"
   }
 ]

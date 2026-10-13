@@ -1,5 +1,32 @@
 [
   {
+    "id": "50175463",
+    "publishedAt": "2026-10-13T18:06:14Z",
+    "type": "Injury",
+    "headline": "Source: Patriots lineman Will Campbell out with MCL sprain",
+    "summary": "Patriots left tackle Will Campbell has been diagnosed with an MCL sprain in his right knee and is expected to miss some game action, a source told ESPN.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50175463/source-patriots-lineman-campbell-mcl-sprain",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "f717f53a-c9e8-42fd-976a-a1ad4997ee69",
+    "publishedAt": "2026-10-13T18:01:10.000Z",
+    "type": "Analysis",
+    "headline": "Andre Tippett, Julian Edelman Set for Induction into International Jewish Sports Hall of Fame",
+    "summary": "Two Patriots Hall of Famers will add another honor to their distinguished careers as Andre Tippett and Julian Edelman join the International Jewish Sports Hall of Fame's Class of 2026.",
+    "sourceUrl": "https://www.patriots.com/news/andre-tippett-julian-edelman-set-for-induction-into-international-jewish-sports-hall-of-fame",
+    "sourceName": "Patriots.com"
+  },
+  {
+    "id": "50173985",
+    "publishedAt": "2026-10-13T15:10:23Z",
+    "type": "Injury",
+    "headline": "Sources: Patriots' TreVeyon Henderson out multiple weeks with high ankle sprain",
+    "summary": "Patriots running back TreVeyon Henderson is expected to miss multiple weeks because of a high ankle sprain, sources told ESPN.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50173985/sources-patriots-treveyon-henderson-high-ankle-sprain",
+    "sourceName": "ESPN"
+  },
+  {
     "id": "de4d84fc-447e-4d1e-a504-5e07b014e873",
     "publishedAt": "2026-10-12T19:22:00.000Z",
     "type": "Analysis",
@@ -63,15 +90,6 @@
     "sourceName": "ESPN"
   },
   {
-    "id": "b0c81fc5-82b0-43a0-bcbf-80a54ddcdc74",
-    "publishedAt": "2026-10-11T21:30:00.000Z",
-    "type": "Beat Report",
-    "headline": "New England Patriots Postgame Quotes 10/11",
-    "summary": "New England Patriots Head Coach Mike Vrabel and select players comment on their Week 5 game against the Las Vegas Raiders on Sunday, October 11, 2026.",
-    "sourceUrl": "https://www.patriots.com/news/new-england-patriots-postgame-quotes-10-11",
-    "sourceName": "Patriots.com"
-  },
-  {
     "id": "50160498",
     "publishedAt": "2026-10-11T20:52:15Z",
     "type": "Beat Report",
@@ -114,15 +132,6 @@
     "headline": "Patriots won't have starting CBs Christian Gonzalez, Carlton Davis",
     "summary": "The Patriots will be without starting cornerbacks Christian Gonzalez and Carlton Davis this week.",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/50141584/patriots-starting-cbs-christian-gonzalez-carlton-davis",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50135848",
-    "publishedAt": "2026-10-08T22:30:28Z",
-    "type": "Injury",
-    "headline": "Kirk Cousins and Raiders look to build on fast start against Patriots defense dealing with injuries",
-    "summary": "— Kirk Cousins' torrid start to the season has been one of the NFL's biggest surprises.",
-    "sourceUrl": "http://www.espn.com/nfl/preview?gameId=401872986",
     "sourceName": "ESPN"
   }
 ]
