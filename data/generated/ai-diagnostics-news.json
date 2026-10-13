@@ -2,11 +2,12 @@
   "beat digest": {
     "status": "written",
     "problems": [],
-    "at": "2026-10-13T03:09:41.718Z"
+    "at": "2026-10-13T06:12:28.798Z"
   },
   "league headlines": {
-    "status": "written",
+    "status": "no-response",
     "problems": [],
-    "at": "2026-10-13T03:09:44.041Z"
+    "error": "no usable selection came back",
+    "at": "2026-10-13T06:12:32.406Z"
   }
 }
