@@ -9,22 +9,13 @@
     "sourceName": "Pro Football Rumors"
   },
   {
-    "id": "50167021",
-    "publishedAt": "2026-10-12T18:09:11Z",
-    "type": "Injury",
-    "headline": "Source: Packers lose DT Javon Hargrave for season to torn Achilles",
-    "summary": "Tests confirmed Monday that Packers defensive tackle Javon Hargrave suffered a season-ending torn Achilles in Sunday's victory over the Bears, a source told ESPN's Adam Schefter.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50167021/source-packers-lose-hargrave-season-ending-torn-achilles",
+    "id": "50167745",
+    "publishedAt": "2026-10-13T00:25:40Z",
+    "type": "Analysis",
+    "headline": "49ers' Dre Greenlaw suspended one game for head-butting helmetless Seahawks LB",
+    "summary": "49ers linebacker Dre Greenlaw has been suspended for one game without pay for unsportsmanlike conduct during Sunday's game against the Seahawks.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50167745/49ers-greenlaw-suspended-head-butting-helmetless-jones",
     "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=422739",
-    "publishedAt": "2026-10-12T17:53:14.000Z",
-    "type": "Injury",
-    "headline": "Lions’ Tom Kennedy Likely To Undergo Season-Ending Knee Surgery; Devin White Suffers Broken Forearm",
-    "summary": "The Lions improved to 3-2 with a 45-21 thrashing of the Cardinals on Sunday, but they did not escape Arizona unscathed. Wide receiver/returner Tom Kennedy and linebacker Devin White each went down with significant injuries in the first half. Kennedy suffered a season-ending MCL injury on a punt return and is expected to require surgery, […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/lions-tom-kennedy-likely-to-undergo-season-ending-knee-surgery-devin-white-suffers-broken-forearm",
-    "sourceName": "Pro Football Rumors"
   },
   {
     "id": "50168837",
@@ -36,21 +27,30 @@
     "sourceName": "ESPN"
   },
   {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=422769",
-    "publishedAt": "2026-10-12T20:48:45.000Z",
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/deebo-samuel-to-miss-time-with-hamstring-injury-nick-bosa-could-return-this-week",
+    "publishedAt": "2026-10-12T22:14:09.000Z",
     "type": "Injury",
-    "headline": "Eagles RB Will Shipley To Miss Time; Latest On Saquon Barkley, DeVonta Smith",
-    "summary": "Thanks to injuries to Saquon Barkley and Tank Bigsby, the Eagles were down to the unproven Will Shipley as their starting running back in Week 5. Facing the Jaguars’ NFL-leading run defense, Shipley and the Eagles’ ground game didn’t generate much in a crushing 19-17 loss in London. Worsening matters, Shipley suffered a partial tear […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/eagles-rb-will-shipley-to-miss-time-latest-on-saquon-barkley-devonta-smith",
-    "sourceName": "Pro Football Rumors"
+    "headline": "Deebo Samuel to miss time with hamstring injury, Nick Bosa could return this week",
+    "summary": "The 49ers are going to be down another wide receiver in the coming weeks.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/deebo-samuel-to-miss-time-with-hamstring-injury-nick-bosa-could-return-this-week",
+    "sourceName": "Pro Football Talk"
   },
   {
-    "id": "50169700",
-    "publishedAt": "2026-10-12T23:42:11Z",
+    "id": "50168959",
+    "publishedAt": "2026-10-12T23:34:30Z",
     "type": "Analysis",
-    "headline": "LaFleur: 1-4 Cardinals not planning to change playcallers",
-    "summary": "Mike LaFleur says he does not plan on making changes to any of Arizona's coaching duties after a 1-4 start.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50169700/lafleur-cardinals-not-planning-change-playcallers",
+    "headline": "Dolphins' Jeff Hafley says he's not mulling QB change entering bye",
+    "summary": "Dolphins coach Jeff Hafley is not considering a quarterback change heading into their Week 6 bye, but he did say the passing offense must improve.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50168959/dolphins-hafley-says-not-mulling-qb-change-entering-bye",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50168989",
+    "publishedAt": "2026-10-12T22:58:39Z",
+    "type": "Analysis",
+    "headline": "Commanders' Quinn says 'no one is pleased' after botched play fuels fan angst",
+    "summary": "Commanders coach Dann Quinn explained the breakdown that caused a botched final play in Sunday's overtime tie, saying it's ultimately his responsibility.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50168989/quinn-commanders-botched-final-play-starts-me",
     "sourceName": "ESPN"
   }
 ]
