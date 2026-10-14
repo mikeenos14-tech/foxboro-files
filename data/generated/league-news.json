@@ -1,7 +1,16 @@
 [
   {
+    "id": "50173615",
+    "publishedAt": "2026-10-13T23:47:17Z",
+    "type": "Analysis",
+    "headline": "NFL suspends Rams' Alaric Jackson for two games after punch",
+    "summary": "The NFL on Tuesday suspended Rams left tackle Alaric Jackson for two games without pay after he punched Bills outside linebacker Bradley Chubb following Monday night's game in Los Angeles.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50173615/nfl-suspends-rams-lt-jackson-punching-bills-chubb",
+    "sourceName": "ESPN"
+  },
+  {
     "id": "50176333",
-    "publishedAt": "2026-10-13T21:03:17Z",
+    "publishedAt": "2026-10-13T22:02:40Z",
     "type": "Analysis",
     "headline": "Bears DE Montez Sweat suspended two games for violating NFL's PED policy",
     "summary": "The NFL has issued a two-game suspension to Bears defensive end Montez Sweat for violating the league's policy on performance-enhancing substances.",
@@ -9,21 +18,12 @@
     "sourceName": "ESPN"
   },
   {
-    "id": "50173615",
-    "publishedAt": "2026-10-13T21:08:34Z",
-    "type": "Analysis",
-    "headline": "Sources: NFL expected to suspend Rams' Alaric Jackson for two games for punch",
-    "summary": "The NFL is expected to suspend Rams left tackle Alaric Jackson for two games without pay, sources told ESPN's Adam Schefter.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50173615/nfl-suspends-rams-lt-jackson-punching-bills-chubb",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/micah-parsons-jayden-daniels-probably-cost-dan-quinn-his-job",
-    "publishedAt": "2026-10-13T20:05:09.000Z",
-    "type": "Analysis",
-    "headline": "Micah Parsons: \"Jayden Daniels probably cost Dan Quinn his job\"",
-    "summary": "Packers LB minces no words about QB's role in clock disaster.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/micah-parsons-jayden-daniels-probably-cost-dan-quinn-his-job",
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jaguars-put-anton-harrison-on-injured-reserve",
+    "publishedAt": "2026-10-13T20:26:37.000Z",
+    "type": "Injury",
+    "headline": "Jaguars put Anton Harrison on injured reserve",
+    "summary": "A report on Tuesday morning said Jaguars left tackle Anton Harrison is headed for arthroscopic knee surgery and that his timeline for return won't be known until the operation takes place.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jaguars-put-anton-harrison-on-injured-reserve",
     "sourceName": "Pro Football Talk"
   },
   {
@@ -36,21 +36,21 @@
     "sourceName": "Pro Football Talk"
   },
   {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/saints-owner-gayle-benson-i-wont-accept-this-level-of-play-as-our-standard",
-    "publishedAt": "2026-10-13T21:06:48.000Z",
+    "id": "50177269",
+    "publishedAt": "2026-10-13T23:35:05Z",
     "type": "Analysis",
-    "headline": "Saints owner Gayle Benson: I won't accept this level of play as our standard",
-    "summary": "Seats are starting to heat up in New Orleans.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/saints-owner-gayle-benson-i-wont-accept-this-level-of-play-as-our-standard",
-    "sourceName": "Pro Football Talk"
+    "headline": "Saints owner Gayle Benson rips 1-4 start, says fans 'deserve better'",
+    "summary": "Saints owner Gayle Benson called out several members of the organization amid the team's 1-4 start and said that fans are \"right to expect more than we have delivered.\"",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50177269/saints-owner-benson-rips-1-4-start-says-fans-deserve-better",
+    "sourceName": "ESPN"
   },
   {
-    "id": "50170630",
-    "publishedAt": "2026-10-13T16:00:01Z",
+    "id": "50177238",
+    "publishedAt": "2026-10-13T23:36:26Z",
     "type": "Analysis",
-    "headline": "Why the Browns' run game is at the root of their offensive struggles",
-    "summary": "Cleveland's O-line hasn't been able to open running lanes consistently enough for Quinshon Judkins and others.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50170630/cleveland-browns-run-game-root-struggles-offense-week-5",
+    "headline": "Micah Parsons: 'Jayden Daniels probably cost my man Dan Quinn his job'",
+    "summary": "Micah Parsons said on his podcast that Jayden Daniels' mistake at the end of overtime Sunday will probably end up getting Commanders coach Dan Quinn fired.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50177238/parsons-qb-daniels-probably-cost-my-man-dan-quinn-job",
     "sourceName": "ESPN"
   }
 ]
