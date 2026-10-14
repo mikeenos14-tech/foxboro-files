@@ -5,8 +5,8 @@
     "position": "RB",
     "week": 6,
     "injury": "Quadriceps",
-    "gameStatus": "Questionable",
-    "lastUpdated": "2026-10-13T17:10Z"
+    "gameStatus": "Doubtful",
+    "lastUpdated": "2026-10-14T16:49Z"
   },
   {
     "playerId": "4597500",
@@ -14,8 +14,8 @@
     "position": "WR",
     "week": 6,
     "injury": "Finger",
-    "gameStatus": "Questionable",
-    "lastUpdated": "2026-10-13T17:10Z"
+    "gameStatus": "Doubtful",
+    "lastUpdated": "2026-10-14T16:40Z"
   },
   {
     "playerId": "4243375",
@@ -23,8 +23,17 @@
     "position": "G",
     "week": 6,
     "injury": "Knee",
+    "gameStatus": "Doubtful",
+    "lastUpdated": "2026-10-14T17:19Z"
+  },
+  {
+    "playerId": "5083315",
+    "playerName": "Kenyon Sadiq",
+    "position": "TE",
+    "week": 6,
+    "injury": "Concussion",
     "gameStatus": "Questionable",
-    "lastUpdated": "2026-10-13T17:10Z"
+    "lastUpdated": "2026-10-14T17:12Z"
   },
   {
     "playerId": "4700136",
@@ -34,5 +43,14 @@
     "injury": "Quadriceps",
     "gameStatus": "Questionable",
     "lastUpdated": "2026-10-13T17:10Z"
+  },
+  {
+    "playerId": "4362094",
+    "playerName": "Joseph Ossai",
+    "position": "DE",
+    "week": 6,
+    "injury": "Ankle",
+    "gameStatus": "Doubtful",
+    "lastUpdated": "2026-10-14T17:18Z"
   }
 ]
