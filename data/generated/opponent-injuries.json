@@ -6,7 +6,8 @@
     "week": 6,
     "injury": "Quadriceps",
     "gameStatus": "Doubtful",
-    "lastUpdated": "2026-10-14T16:49Z"
+    "lastUpdated": "2026-10-14T20:30:31.89Z",
+    "practiceStatus": "Did Not Participate"
   },
   {
     "playerId": "4597500",
@@ -15,7 +16,8 @@
     "week": 6,
     "injury": "Finger",
     "gameStatus": "Doubtful",
-    "lastUpdated": "2026-10-14T16:40Z"
+    "lastUpdated": "2026-10-14T20:30:31.89Z",
+    "practiceStatus": "Did Not Participate"
   },
   {
     "playerId": "4243375",
@@ -24,7 +26,8 @@
     "week": 6,
     "injury": "Knee",
     "gameStatus": "Doubtful",
-    "lastUpdated": "2026-10-14T17:19Z"
+    "lastUpdated": "2026-10-14T20:30:31.89Z",
+    "practiceStatus": "Did Not Participate"
   },
   {
     "playerId": "5083315",
@@ -33,16 +36,18 @@
     "week": 6,
     "injury": "Concussion",
     "gameStatus": "Questionable",
-    "lastUpdated": "2026-10-14T17:12Z"
+    "lastUpdated": "2026-10-14T20:30:31.89Z",
+    "practiceStatus": "Limited"
   },
   {
-    "playerId": "4700136",
-    "playerName": "Kiko Mauigoa",
-    "position": "LB",
+    "playerId": "4426686",
+    "playerName": "Dane Belton",
+    "position": "S",
     "week": 6,
-    "injury": "Quadriceps",
+    "injury": "Knee",
     "gameStatus": "Questionable",
-    "lastUpdated": "2026-10-13T17:10Z"
+    "lastUpdated": "2026-10-14T20:30:31.89Z",
+    "practiceStatus": "Limited"
   },
   {
     "playerId": "4362094",
@@ -51,6 +56,27 @@
     "week": 6,
     "injury": "Ankle",
     "gameStatus": "Doubtful",
-    "lastUpdated": "2026-10-14T17:18Z"
+    "lastUpdated": "2026-10-14T20:30:31.89Z",
+    "practiceStatus": "Did Not Participate"
+  },
+  {
+    "playerId": "patriots-omar-cooper",
+    "playerName": "Omar Cooper Jr.",
+    "position": "WR",
+    "week": 6,
+    "injury": "Ankle",
+    "practiceStatus": "Limited",
+    "gameStatus": null,
+    "lastUpdated": "2026-10-14T20:30:31.89Z"
+  },
+  {
+    "playerId": "patriots-kiko-mauigoa",
+    "playerName": "Kiko Mauigoa",
+    "position": "LB",
+    "week": 6,
+    "injury": "Quad",
+    "practiceStatus": "Full",
+    "gameStatus": null,
+    "lastUpdated": "2026-10-14T20:30:31.89Z"
   }
 ]
