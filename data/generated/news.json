@@ -1,5 +1,23 @@
 [
   {
+    "id": "def62a70-5d7b-4cda-a9e6-9477694555ac",
+    "publishedAt": "2026-10-14T10:00:00.000Z",
+    "type": "Analysis",
+    "headline": "Game Preview: Patriots vs. Jets | NFL Week 6",
+    "summary": "The New England Patriots will host the New York Jets at Gillette Stadium on Sunday, October 18 at 1 PM ET.",
+    "sourceUrl": "https://www.patriots.com/news/game-preview-patriots-vs-jets-nfl-week-6",
+    "sourceName": "Patriots.com"
+  },
+  {
+    "id": "85673bb4-315f-49bc-8fe3-d20e4272864f",
+    "publishedAt": "2026-10-14T10:00:00.000Z",
+    "type": "Analysis",
+    "headline": "How to Watch and Stream Sunday's Patriots Game Against the Jets | NFL Week 6",
+    "summary": "Complete broadcast information for this week's game between the New England Patriots and the New York Jets on Sunday, October 18, 2026 at 1 PM ET.",
+    "sourceUrl": "https://www.patriots.com/news/how-to-watch-and-stream-sunday-s-patriots-game-against-the-jets-nfl-week-6",
+    "sourceName": "Patriots.com"
+  },
+  {
     "id": "64df6faa-de00-46ad-b0c2-a557f2e0dcbf",
     "publishedAt": "2026-10-13T20:00:00.000Z",
     "type": "Transaction",
@@ -45,24 +63,6 @@
     "sourceName": "Patriots.com"
   },
   {
-    "id": "de4d84fc-447e-4d1e-a504-5e07b014e873",
-    "publishedAt": "2026-10-12T19:22:00.000Z",
-    "type": "Analysis",
-    "headline": "After Further Review: Drake Maye film breakdown, defense review, and quick-hit film notes from Week 5 win over Raiders",
-    "summary": "Film review of Patriots QB Drake Maye's best performance of the season vs. the Raiders on Sunday",
-    "sourceUrl": "https://www.patriots.com/news/after-further-review-drake-maye-film-breakdown-defense-review-and-quick-hit-film-notes-from-week-5-win-over-raiders",
-    "sourceName": "Patriots.com"
-  },
-  {
-    "id": "fcf82313-6bf6-4458-8877-b2f38d0218ae",
-    "publishedAt": "2026-10-12T18:09:12.000Z",
-    "type": "Beat Report",
-    "headline": "Transcript: Head Coach Mike Vrabel Press Conference 10/12",
-    "summary": "Read the full transcript from Head Coach Mike Vrabel's press conference on Monday, October 12, 2026.",
-    "sourceUrl": "https://www.patriots.com/news/transcript-head-coach-mike-vrabel-press-conference-10-12",
-    "sourceName": "Patriots.com"
-  },
-  {
     "id": "50163881",
     "publishedAt": "2026-10-12T11:54:14Z",
     "type": "Injury",
@@ -90,15 +90,6 @@
     "sourceName": "ESPN"
   },
   {
-    "id": "50120618",
-    "publishedAt": "2026-10-11T18:34:40Z",
-    "type": "Analysis",
-    "headline": "NFL Week 5 uniforms: Packers debut Rivalries look, Patriots wearing throwbacks",
-    "summary": "Here's a look at what each NFL team is wearing in Week 5, led by the Green Bay Packers debuting their Rivalries look.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50120618/nfl-week-5-uniforms",
-    "sourceName": "ESPN"
-  },
-  {
     "id": "50150455",
     "publishedAt": "2026-10-11T11:14:08Z",
     "type": "Injury",
@@ -123,15 +114,6 @@
     "headline": "Patriots won't have starting CBs Christian Gonzalez, Carlton Davis",
     "summary": "The Patriots will be without starting cornerbacks Christian Gonzalez and Carlton Davis this week.",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/50141584/patriots-starting-cbs-christian-gonzalez-carlton-davis",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50135848",
-    "publishedAt": "2026-10-08T22:30:28Z",
-    "type": "Injury",
-    "headline": "Kirk Cousins and Raiders look to build on fast start against Patriots defense dealing with injuries",
-    "summary": "— Kirk Cousins' torrid start to the season has been one of the NFL's biggest surprises.",
-    "sourceUrl": "http://www.espn.com/nfl/preview?gameId=401872986",
     "sourceName": "ESPN"
   }
 ]
