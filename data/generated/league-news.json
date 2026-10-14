@@ -1,11 +1,38 @@
 [
   {
+    "id": "50178212",
+    "publishedAt": "2026-10-14T03:16:56Z",
+    "type": "Transaction",
+    "headline": "Tyreek Hill found liable for 2 of 10 counts in battery trial; wife awarded $500K",
+    "summary": "A Miami jury returned a mixed verdict in the assault and battery civil trial against Tyreek Hill, finding the former NFL receiver liable for two counts of battery but not liable for the eight other claims made by his estranged wife, Lakeeta Vaccaro.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50178212/tyreek-hill-found-liable-2-counts-battery-civil-trial-not-liable-remaining-claims",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50178480",
+    "publishedAt": "2026-10-14T02:37:47Z",
+    "type": "Analysis",
+    "headline": "Niners LB Dre Greenlaw's appeal of suspension rejected, will sit vs. Commanders",
+    "summary": "Niners linebacker Dre Greenlaw will serve his one-game suspension in Monday night's game against the Commanders after the NFL denied his appeal Tuesday.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50178480/niners-lb-dre-greenlaw-appeal-1-game-suspension-rejected",
+    "sourceName": "ESPN"
+  },
+  {
     "id": "50173615",
-    "publishedAt": "2026-10-13T23:47:17Z",
+    "publishedAt": "2026-10-14T02:01:58Z",
     "type": "Analysis",
     "headline": "NFL suspends Rams' Alaric Jackson for two games after punch",
     "summary": "The NFL on Tuesday suspended Rams left tackle Alaric Jackson for two games without pay after he punched Bills outside linebacker Bradley Chubb following Monday night's game in Los Angeles.",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/50173615/nfl-suspends-rams-lt-jackson-punching-bills-chubb",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50177269",
+    "publishedAt": "2026-10-14T01:15:11Z",
+    "type": "Analysis",
+    "headline": "Saints owner Gayle Benson rips 1-4 start, says fans 'deserve better'",
+    "summary": "Saints owner Gayle Benson called out several members of the organization amid the team's 1-4 start and said that fans are \"right to expect more than we have delivered.\"",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50177269/saints-owner-benson-rips-1-4-start-says-fans-deserve-better",
     "sourceName": "ESPN"
   },
   {
@@ -15,33 +42,6 @@
     "headline": "Bears DE Montez Sweat suspended two games for violating NFL's PED policy",
     "summary": "The NFL has issued a two-game suspension to Bears defensive end Montez Sweat for violating the league's policy on performance-enhancing substances.",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/50176333/bears-de-sweat-suspended-two-games-violating-ped-policy",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jaguars-put-anton-harrison-on-injured-reserve",
-    "publishedAt": "2026-10-13T20:26:37.000Z",
-    "type": "Injury",
-    "headline": "Jaguars put Anton Harrison on injured reserve",
-    "summary": "A report on Tuesday morning said Jaguars left tackle Anton Harrison is headed for arthroscopic knee surgery and that his timeline for return won't be known until the operation takes place.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jaguars-put-anton-harrison-on-injured-reserve",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bengals-te-tanner-hudson-to-miss-rest-of-season-with-torn-pectoral",
-    "publishedAt": "2026-10-13T19:44:53.000Z",
-    "type": "Injury",
-    "headline": "Bengals TE Tanner Hudson to miss rest of season with torn pectoral",
-    "summary": "The Bengals have lost a member of their tight end corps for the rest of the season.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bengals-te-tanner-hudson-to-miss-rest-of-season-with-torn-pectoral",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "50177269",
-    "publishedAt": "2026-10-13T23:35:05Z",
-    "type": "Analysis",
-    "headline": "Saints owner Gayle Benson rips 1-4 start, says fans 'deserve better'",
-    "summary": "Saints owner Gayle Benson called out several members of the organization amid the team's 1-4 start and said that fans are \"right to expect more than we have delivered.\"",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50177269/saints-owner-benson-rips-1-4-start-says-fans-deserve-better",
     "sourceName": "ESPN"
   },
   {
