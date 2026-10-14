@@ -63,13 +63,13 @@
     "position": "LT",
     "players": [
       {
-        "playerId": "4685298",
-        "playerName": "Will Campbell",
+        "playerId": "4921438",
+        "playerName": "Caleb Lomu",
         "rank": 1
       },
       {
-        "playerId": "4921438",
-        "playerName": "Caleb Lomu",
+        "playerId": "4685298",
+        "playerName": "Will Campbell",
         "rank": 2
       },
       {
@@ -378,16 +378,10 @@
         "rank": 2
       },
       {
-        "playerId": "4242521",
-        "playerName": "K.J. Britt",
-        "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/q3jwsdcnxx1sqbuetd26",
-        "rank": 3
-      },
-      {
         "playerId": "4912116",
         "playerName": "Khalil Jacobs",
         "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/nldimve5kubrwmcwyke8",
-        "rank": 4
+        "rank": 3
       }
     ]
   },
@@ -430,11 +424,6 @@
         "playerName": "Channing Canada",
         "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/wtv3wfobhufuj8mbpfmj",
         "rank": 2
-      },
-      {
-        "playerId": "4688366",
-        "playerName": "Elliott Davison",
-        "rank": 3
       }
     ]
   },

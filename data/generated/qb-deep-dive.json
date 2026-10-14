@@ -37,8 +37,8 @@
     },
     "turnoverWorthyPlayRate": {
       "value": 0.049079754601226995,
-      "leagueRank": 31,
-      "leaguePercentile": 3
+      "leagueRank": 30,
+      "leaguePercentile": 6
     },
     "cleanPocketEpa": {
       "value": 0.3198147573029603,
@@ -96,39 +96,39 @@
   "situational": [
     {
       "label": "Play action",
-      "epa": -0.3414565441961366,
-      "plays": 29,
-      "shareOfDropbacks": 0.17791411042944785
+      "epa": -0.11112837430286689,
+      "plays": 39,
+      "shareOfDropbacks": 0.2392638036809816
     },
     {
       "label": "No play action",
-      "epa": 0.19646674205331882,
-      "plays": 134,
-      "shareOfDropbacks": 0.8220858895705522
+      "epa": 0.16740572783281107,
+      "plays": 124,
+      "shareOfDropbacks": 0.7607361963190185
     },
     {
       "label": "Blitzed (5+ rushers)",
-      "epa": -0.1483812480250249,
-      "plays": 42,
-      "shareOfDropbacks": 0.25766871165644173
+      "epa": 0.010207596859282375,
+      "plays": 51,
+      "shareOfDropbacks": 0.3128834355828221
     },
     {
       "label": "Not blitzed",
-      "epa": 0.1872422815744448,
-      "plays": 121,
-      "shareOfDropbacks": 0.7423312883435583
+      "epa": 0.14199746619315515,
+      "plays": 112,
+      "shareOfDropbacks": 0.6871165644171779
     },
     {
       "label": "Outside the pocket",
-      "epa": 0.09379228295747241,
-      "plays": 23,
-      "shareOfDropbacks": 0.1411042944785276
+      "epa": 0.08806971749853389,
+      "plays": 31,
+      "shareOfDropbacks": 0.1901840490797546
     },
     {
       "label": "Screens",
-      "epa": -0.22535893791504646,
-      "plays": 12,
-      "shareOfDropbacks": 0.0736196319018405
+      "epa": -0.05033297910598086,
+      "plays": 16,
+      "shareOfDropbacks": 0.09815950920245399
     }
   ]
 }
