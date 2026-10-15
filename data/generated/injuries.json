@@ -6,7 +6,7 @@
     "week": 6,
     "injury": "Knee - MCL",
     "gameStatus": "Questionable",
-    "lastUpdated": "2026-10-14T20:30:31.89Z",
+    "lastUpdated": "2026-10-14T21:19:34.384Z",
     "practiceStatus": "Limited"
   },
   {
@@ -16,7 +16,17 @@
     "week": 6,
     "injury": "Ankle",
     "gameStatus": "Questionable",
-    "lastUpdated": "2026-10-14T20:30:31.89Z",
+    "lastUpdated": "2026-10-14T21:19:34.384Z",
+    "practiceStatus": "Limited"
+  },
+  {
+    "playerId": "16771",
+    "playerName": "Morgan Moses",
+    "position": "OT",
+    "week": 6,
+    "injury": "Foot",
+    "gameStatus": "Questionable",
+    "lastUpdated": "2026-10-14T21:19:34.384Z",
     "practiceStatus": "Limited"
   },
   {
@@ -26,7 +36,7 @@
     "week": 6,
     "injury": "Chest",
     "gameStatus": "Questionable",
-    "lastUpdated": "2026-10-14T20:30:31.89Z",
+    "lastUpdated": "2026-10-14T21:19:34.384Z",
     "practiceStatus": "Limited"
   },
   {
@@ -36,7 +46,7 @@
     "week": 6,
     "injury": "Hamstring",
     "gameStatus": "Questionable",
-    "lastUpdated": "2026-10-14T20:30:31.89Z",
+    "lastUpdated": "2026-10-14T21:19:34.384Z",
     "practiceStatus": "Limited"
   },
   {
@@ -46,8 +56,18 @@
     "week": 6,
     "injury": "Neck",
     "gameStatus": "Questionable",
-    "lastUpdated": "2026-10-14T20:30:31.89Z",
+    "lastUpdated": "2026-10-14T21:19:34.384Z",
     "practiceStatus": "Did Not Participate"
+  },
+  {
+    "playerId": "4245273",
+    "playerName": "Christian Elliss",
+    "position": "LB",
+    "week": 6,
+    "injury": "Chest",
+    "gameStatus": "Questionable",
+    "lastUpdated": "2026-10-14T21:19:34.384Z",
+    "practiceStatus": "Limited"
   },
   {
     "playerId": "4686772",
@@ -56,7 +76,17 @@
     "week": 6,
     "injury": "Shoulder",
     "gameStatus": "Questionable",
-    "lastUpdated": "2026-10-14T20:30:31.89Z",
+    "lastUpdated": "2026-10-14T21:19:34.384Z",
+    "practiceStatus": "Limited"
+  },
+  {
+    "playerId": "3915525",
+    "playerName": "Dre'Mont Jones",
+    "position": "DE",
+    "week": 6,
+    "injury": "Shoulder",
+    "gameStatus": "Questionable",
+    "lastUpdated": "2026-10-14T21:19:34.384Z",
     "practiceStatus": "Limited"
   },
   {
@@ -66,7 +96,7 @@
     "week": 6,
     "injury": "Ankle",
     "gameStatus": "Questionable",
-    "lastUpdated": "2026-10-14T20:30:31.89Z",
+    "lastUpdated": "2026-10-14T21:19:34.384Z",
     "practiceStatus": "Limited"
   },
   {
@@ -76,8 +106,28 @@
     "week": 6,
     "injury": "Hamstring",
     "gameStatus": "Questionable",
-    "lastUpdated": "2026-10-14T20:30:31.89Z",
+    "lastUpdated": "2026-10-14T21:19:34.384Z",
     "practiceStatus": "Did Not Participate"
+  },
+  {
+    "playerId": "4368113",
+    "playerName": "Charles Woods",
+    "position": "CB",
+    "week": 6,
+    "injury": "Shoulder",
+    "gameStatus": "Questionable",
+    "lastUpdated": "2026-10-14T21:19:34.384Z",
+    "practiceStatus": "Limited"
+  },
+  {
+    "playerId": "4428930",
+    "playerName": "Craig Woodson",
+    "position": "S",
+    "week": 6,
+    "injury": "Shoulder",
+    "gameStatus": "Questionable",
+    "lastUpdated": "2026-10-14T21:19:34.384Z",
+    "practiceStatus": "Limited"
   },
   {
     "playerId": "patriots-aj-brown",
@@ -87,7 +137,7 @@
     "injury": "Ankle",
     "practiceStatus": "Limited",
     "gameStatus": null,
-    "lastUpdated": "2026-10-14T20:30:31.89Z"
+    "lastUpdated": "2026-10-14T21:19:34.384Z"
   },
   {
     "playerId": "patriots-marcus-bryant",
@@ -97,57 +147,7 @@
     "injury": "Ankle",
     "practiceStatus": "Limited",
     "gameStatus": null,
-    "lastUpdated": "2026-10-14T20:30:31.89Z"
-  },
-  {
-    "playerId": "patriots-christian-elliss",
-    "playerName": "Christian Elliss",
-    "position": "LB",
-    "week": 6,
-    "injury": "Chest",
-    "practiceStatus": "Limited",
-    "gameStatus": null,
-    "lastUpdated": "2026-10-14T20:30:31.89Z"
-  },
-  {
-    "playerId": "patriots-dremont-jones",
-    "playerName": "Dre’Mont Jones",
-    "position": "LB",
-    "week": 6,
-    "injury": "Shoulder",
-    "practiceStatus": "Limited",
-    "gameStatus": null,
-    "lastUpdated": "2026-10-14T20:30:31.89Z"
-  },
-  {
-    "playerId": "patriots-morgan-moses",
-    "playerName": "Morgan Moses",
-    "position": "T",
-    "week": 6,
-    "injury": "Foot",
-    "practiceStatus": "Limited",
-    "gameStatus": null,
-    "lastUpdated": "2026-10-14T20:30:31.89Z"
-  },
-  {
-    "playerId": "patriots-charles-woods",
-    "playerName": "Charles Woods",
-    "position": "CB",
-    "week": 6,
-    "injury": "Shoulder",
-    "practiceStatus": "Limited",
-    "gameStatus": null,
-    "lastUpdated": "2026-10-14T20:30:31.89Z"
-  },
-  {
-    "playerId": "patriots-craig-woodson",
-    "playerName": "Craig Woodson",
-    "position": "S",
-    "week": 6,
-    "injury": "Shoulder",
-    "practiceStatus": "Limited",
-    "gameStatus": null,
-    "lastUpdated": "2026-10-14T20:30:31.89Z"
+    "lastUpdated": "2026-10-14T21:19:34.384Z"
   },
   {
     "playerId": "patriots-drake-maye",
@@ -157,6 +157,6 @@
     "injury": "Right Shoulder",
     "practiceStatus": "Full",
     "gameStatus": null,
-    "lastUpdated": "2026-10-14T20:30:31.89Z"
+    "lastUpdated": "2026-10-14T21:19:34.384Z"
   }
 ]
