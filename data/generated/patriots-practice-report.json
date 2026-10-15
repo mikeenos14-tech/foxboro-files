@@ -1,12 +1,19 @@
 {
   "week": 6,
-  "asOf": "2026-10-14T21:19:34.384Z",
+  "asOf": "2026-10-15T20:02:15.69Z",
   "players": [
     {
       "team": "NE",
       "playerName": "Carlton Davis III",
       "position": "CB",
       "injury": "Neck",
+      "practiceStatus": "Did Not Participate"
+    },
+    {
+      "team": "NE",
+      "playerName": "Cory Durden",
+      "position": "DT",
+      "injury": "Illness",
       "practiceStatus": "Did Not Participate"
     },
     {
@@ -18,14 +25,14 @@
     },
     {
       "team": "NE",
-      "playerName": "A.J. Brown",
+      "playerName": "A.J. Brown*",
       "position": "WR",
       "injury": "Ankle",
       "practiceStatus": "Limited"
     },
     {
       "team": "NE",
-      "playerName": "Marcus Bryant",
+      "playerName": "Marcus Bryant*",
       "position": "T",
       "injury": "Ankle",
       "practiceStatus": "Limited"
@@ -56,13 +63,6 @@
       "playerName": "Christian Elliss",
       "position": "LB",
       "injury": "Chest",
-      "practiceStatus": "Limited"
-    },
-    {
-      "team": "NE",
-      "playerName": "Christian Gonzalez",
-      "position": "CB",
-      "injury": "Shoulder",
       "practiceStatus": "Limited"
     },
     {
@@ -106,6 +106,13 @@
       "position": "S",
       "injury": "Shoulder",
       "practiceStatus": "Limited"
+    },
+    {
+      "team": "NE",
+      "playerName": "Christian Gonzalez",
+      "position": "CB",
+      "injury": "Shoulder",
+      "practiceStatus": "Full"
     },
     {
       "team": "NE",

@@ -7,7 +7,7 @@
     "injury": "Foot",
     "practiceStatus": "Limited",
     "gameStatus": null,
-    "lastUpdated": "2026-10-14T21:19:34.384Z"
+    "lastUpdated": "2026-10-15T20:02:15.69Z"
   },
   {
     "playerId": "00-0033132",
@@ -17,7 +17,7 @@
     "injury": "Chest",
     "practiceStatus": "Limited",
     "gameStatus": null,
-    "lastUpdated": "2026-10-14T21:19:34.384Z"
+    "lastUpdated": "2026-10-15T20:02:15.69Z"
   },
   {
     "playerId": "00-0034778",
@@ -27,7 +27,7 @@
     "injury": "Neck",
     "practiceStatus": "Did Not Participate",
     "gameStatus": null,
-    "lastUpdated": "2026-10-14T21:19:34.384Z"
+    "lastUpdated": "2026-10-15T20:02:15.69Z"
   },
   {
     "playerId": "00-0035676",
@@ -37,7 +37,7 @@
     "injury": "Ankle",
     "practiceStatus": "Limited",
     "gameStatus": null,
-    "lastUpdated": "2026-10-14T21:19:34.384Z"
+    "lastUpdated": "2026-10-15T20:02:15.69Z"
   },
   {
     "playerId": "00-0035678",
@@ -47,7 +47,7 @@
     "injury": "Shoulder",
     "practiceStatus": "Limited",
     "gameStatus": null,
-    "lastUpdated": "2026-10-14T21:19:34.384Z"
+    "lastUpdated": "2026-10-15T20:02:15.69Z"
   },
   {
     "playerId": "00-0036813",
@@ -57,7 +57,7 @@
     "injury": "Chest",
     "practiceStatus": "Limited",
     "gameStatus": null,
-    "lastUpdated": "2026-10-14T21:19:34.384Z"
+    "lastUpdated": "2026-10-15T20:02:15.69Z"
   },
   {
     "playerId": "00-0037253",
@@ -67,7 +67,7 @@
     "injury": "Ankle",
     "practiceStatus": "Limited",
     "gameStatus": null,
-    "lastUpdated": "2026-10-14T21:19:34.384Z"
+    "lastUpdated": "2026-10-15T20:02:15.69Z"
   },
   {
     "playerId": "00-0039147",
@@ -75,9 +75,9 @@
     "position": "CB",
     "week": 6,
     "injury": "Shoulder",
-    "practiceStatus": "Limited",
+    "practiceStatus": "Full",
     "gameStatus": null,
-    "lastUpdated": "2026-10-14T21:19:34.384Z"
+    "lastUpdated": "2026-10-15T20:02:15.69Z"
   },
   {
     "playerId": "00-0039770",
@@ -87,7 +87,7 @@
     "injury": "Shoulder",
     "practiceStatus": "Limited",
     "gameStatus": null,
-    "lastUpdated": "2026-10-14T21:19:34.384Z"
+    "lastUpdated": "2026-10-15T20:02:15.69Z"
   },
   {
     "playerId": "00-0039851",
@@ -97,7 +97,7 @@
     "injury": "Shoulder",
     "practiceStatus": "Full",
     "gameStatus": null,
-    "lastUpdated": "2026-10-14T21:19:34.384Z"
+    "lastUpdated": "2026-10-15T20:02:15.69Z"
   },
   {
     "playerId": "00-0040226",
@@ -107,7 +107,7 @@
     "injury": "Ankle",
     "practiceStatus": "Limited",
     "gameStatus": null,
-    "lastUpdated": "2026-10-14T21:19:34.384Z"
+    "lastUpdated": "2026-10-15T20:02:15.69Z"
   },
   {
     "playerId": "00-0040699",
@@ -117,7 +117,7 @@
     "injury": "Knee",
     "practiceStatus": "Limited",
     "gameStatus": null,
-    "lastUpdated": "2026-10-14T21:19:34.384Z"
+    "lastUpdated": "2026-10-15T20:02:15.69Z"
   },
   {
     "playerId": "00-0040716",
@@ -127,7 +127,7 @@
     "injury": "Shoulder",
     "practiceStatus": "Limited",
     "gameStatus": null,
-    "lastUpdated": "2026-10-14T21:19:34.384Z"
+    "lastUpdated": "2026-10-15T20:02:15.69Z"
   },
   {
     "playerId": "00-0040734",
@@ -137,7 +137,7 @@
     "injury": "Ankle",
     "practiceStatus": "Limited",
     "gameStatus": null,
-    "lastUpdated": "2026-10-14T21:19:34.384Z"
+    "lastUpdated": "2026-10-15T20:02:15.69Z"
   },
   {
     "playerId": "00-0041088",
@@ -147,7 +147,7 @@
     "injury": "Hamstring",
     "practiceStatus": "Did Not Participate",
     "gameStatus": null,
-    "lastUpdated": "2026-10-14T21:19:34.384Z"
+    "lastUpdated": "2026-10-15T20:02:15.69Z"
   },
   {
     "playerId": "00-0041316",
@@ -157,6 +157,16 @@
     "injury": "Hamstring",
     "practiceStatus": "Limited",
     "gameStatus": null,
-    "lastUpdated": "2026-10-14T21:19:34.384Z"
+    "lastUpdated": "2026-10-15T20:02:15.69Z"
+  },
+  {
+    "playerId": "patriots-cory-durden",
+    "playerName": "Cory Durden",
+    "position": "DT",
+    "week": 6,
+    "injury": "Illness",
+    "practiceStatus": "Did Not Participate",
+    "gameStatus": null,
+    "lastUpdated": "2026-10-15T20:02:15.69Z"
   }
 ]
