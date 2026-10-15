@@ -1,66 +1,76 @@
 [
   {
-    "playerId": "4427366",
-    "playerName": "Breece Hall",
-    "position": "RB",
-    "week": 6,
-    "injury": "Quadriceps",
-    "gameStatus": "Doubtful",
-    "lastUpdated": "2026-10-14T21:19:34.384Z",
-    "practiceStatus": "Did Not Participate"
-  },
-  {
-    "playerId": "4597500",
-    "playerName": "Adonai Mitchell",
-    "position": "WR",
-    "week": 6,
-    "injury": "Finger",
-    "gameStatus": "Doubtful",
-    "lastUpdated": "2026-10-14T21:19:34.384Z",
-    "practiceStatus": "Did Not Participate"
-  },
-  {
-    "playerId": "4243375",
-    "playerName": "Dylan Parham",
-    "position": "G",
-    "week": 6,
-    "injury": "Knee",
-    "gameStatus": "Doubtful",
-    "lastUpdated": "2026-10-14T21:19:34.384Z",
-    "practiceStatus": "Did Not Participate"
-  },
-  {
-    "playerId": "5083315",
-    "playerName": "Kenyon Sadiq",
-    "position": "TE",
-    "week": 6,
-    "injury": "Concussion",
-    "gameStatus": "Questionable",
-    "lastUpdated": "2026-10-14T21:19:34.384Z",
-    "practiceStatus": "Limited"
-  },
-  {
-    "playerId": "4426686",
-    "playerName": "Dane Belton",
-    "position": "S",
-    "week": 6,
-    "injury": "Knee",
-    "gameStatus": "Questionable",
-    "lastUpdated": "2026-10-14T21:19:34.384Z",
-    "practiceStatus": "Limited"
-  },
-  {
-    "playerId": "4362094",
+    "playerId": "00-0036902",
     "playerName": "Joseph Ossai",
     "position": "DE",
     "week": 6,
     "injury": "Ankle",
-    "gameStatus": "Doubtful",
-    "lastUpdated": "2026-10-14T21:19:34.384Z",
-    "practiceStatus": "Did Not Participate"
+    "practiceStatus": "Did Not Participate",
+    "gameStatus": null,
+    "lastUpdated": "2026-10-14T21:19:34.384Z"
   },
   {
-    "playerId": "patriots-omar-cooper",
+    "playerId": "00-0037255",
+    "playerName": "Dylan Parham",
+    "position": "G",
+    "week": 6,
+    "injury": "Knee",
+    "practiceStatus": "Did Not Participate",
+    "gameStatus": null,
+    "lastUpdated": "2026-10-14T21:19:34.384Z"
+  },
+  {
+    "playerId": "00-0038120",
+    "playerName": "Breece Hall",
+    "position": "RB",
+    "week": 6,
+    "injury": "Quadricep",
+    "practiceStatus": "Did Not Participate",
+    "gameStatus": null,
+    "lastUpdated": "2026-10-14T21:19:34.384Z"
+  },
+  {
+    "playerId": "00-0038123",
+    "playerName": "Dane Belton",
+    "position": "S",
+    "week": 6,
+    "injury": "Knee",
+    "practiceStatus": "Limited",
+    "gameStatus": null,
+    "lastUpdated": "2026-10-14T21:19:34.384Z"
+  },
+  {
+    "playerId": "00-0039890",
+    "playerName": "Adonai Mitchell",
+    "position": "WR",
+    "week": 6,
+    "injury": "Finger",
+    "practiceStatus": "Did Not Participate",
+    "gameStatus": null,
+    "lastUpdated": "2026-10-14T21:19:34.384Z"
+  },
+  {
+    "playerId": "00-0040186",
+    "playerName": "Francisco Mauigoa",
+    "position": "LB",
+    "week": 6,
+    "injury": "Quadricep",
+    "practiceStatus": "Full",
+    "gameStatus": null,
+    "lastUpdated": "2026-10-15T07:55:35.988Z"
+  },
+  {
+    "playerId": "00-0041032",
+    "playerName": "Kenyon Sadiq",
+    "position": "TE",
+    "week": 6,
+    "injury": "Concussion",
+    "practiceStatus": "Limited",
+    "gameStatus": null,
+    "lastUpdated": "2026-10-14T21:19:34.384Z"
+  },
+  {
+    "playerId": "00-0041511",
     "playerName": "Omar Cooper Jr.",
     "position": "WR",
     "week": 6,
