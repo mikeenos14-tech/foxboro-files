@@ -1,5 +1,23 @@
 [
   {
+    "id": "50182680",
+    "publishedAt": "2026-10-15T10:18:56Z",
+    "type": "Analysis",
+    "headline": "WR Garrett Wilson deems Patriots matchup a 'big-ass game' for Jets",
+    "summary": "New York knows its first divisional game means a lot for the standings.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50182680/jets-patriots-matchup-big-game-pac-man",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "b402803e-a874-4a14-9866-1e979f1a01f0",
+    "publishedAt": "2026-10-15T10:00:00.000Z",
+    "type": "Analysis",
+    "headline": "Patriots Gameplan: Prepping for Jets Blitz-Happy Defense and Key Matchups in Week 6",
+    "summary": "The Patriots host the Jets for an AFC East showdown at Gillette Stadium on Sunday.",
+    "sourceUrl": "https://www.patriots.com/news/patriots-gameplan-prepping-for-jets-blitz-happy-defense-and-key-matchups-in-week-6-matchup",
+    "sourceName": "Patriots.com"
+  },
+  {
     "id": "819e8e20-9e62-415c-ac8e-22b1643f4d22",
     "publishedAt": "2026-10-14T22:45:24.000Z",
     "type": "Beat Report",
@@ -54,15 +72,6 @@
     "sourceName": "Patriots.com"
   },
   {
-    "id": "def62a70-5d7b-4cda-a9e6-9477694555ac",
-    "publishedAt": "2026-10-14T14:21:00.000Z",
-    "type": "Analysis",
-    "headline": "Game Preview: Patriots vs. Jets | NFL Week 6",
-    "summary": "The New England Patriots will host the New York Jets at Gillette Stadium on Sunday, October 18 at 1 PM ET.",
-    "sourceUrl": "https://www.patriots.com/news/game-preview-patriots-vs-jets-nfl-week-6",
-    "sourceName": "Patriots.com"
-  },
-  {
     "id": "50175463",
     "publishedAt": "2026-10-13T18:14:53Z",
     "type": "Injury",
@@ -108,30 +117,12 @@
     "sourceName": "ESPN"
   },
   {
-    "id": "50150455",
-    "publishedAt": "2026-10-11T11:14:08Z",
-    "type": "Injury",
-    "headline": "Patriots place veteran WR Mack Hollins on IR with calf injury",
-    "summary": "The Patriots placed veteran wide receiver Mack Hollins on injured reserve Saturday with a calf injury.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50150455/patriots-place-veteran-wr-mack-hollins-ir-calf-injury",
-    "sourceName": "ESPN"
-  },
-  {
     "id": "50142515",
     "publishedAt": "2026-10-11T10:00:02Z",
     "type": "Analysis",
     "headline": "Patriots to honor the 2001 Super Bowl team: Can the 2026 squad learn from them?",
     "summary": "Robert Kraft talked about the similarities between the two teams as he prepares to honor the 25th anniversary of the Patriots' first championship.",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/50142515/new-england-patriots-2001-adam-vinatieri-raiders",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50141584",
-    "publishedAt": "2026-10-09T18:39:41Z",
-    "type": "Analysis",
-    "headline": "Patriots won't have starting CBs Christian Gonzalez, Carlton Davis",
-    "summary": "The Patriots will be without starting cornerbacks Christian Gonzalez and Carlton Davis this week.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50141584/patriots-starting-cbs-christian-gonzalez-carlton-davis",
     "sourceName": "ESPN"
   }
 ]
