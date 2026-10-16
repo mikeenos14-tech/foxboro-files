@@ -2,12 +2,12 @@
   "gameId": "2026_06_NYJ_NE",
   "opponent": "NYJ",
   "opponentEpaRank": {
-    "offense": 18,
-    "defense": 8
+    "offense": 19,
+    "defense": 5
   },
   "ourEpaRank": {
-    "offense": 11,
-    "defense": 12
+    "offense": 10,
+    "defense": 11
   },
   "successRate": {
     "us": {
@@ -66,9 +66,9 @@
     {
       "group": "Pass Defense vs. Pass Offense",
       "ourGrade": 84,
-      "theirGrade": 52,
+      "theirGrade": 55,
       "edge": "us",
-      "note": "84/100 vs. 52/100 (advantage us).",
+      "note": "84/100 vs. 55/100 (advantage us).",
       "ourStatLine": "107/162 (66%) allowed, 1113 yds allowed, 6 TD allowed, 3 INT gained",
       "theirStatLine": "102/147 (69%), 1084 yds, 6 TD, 0 INT"
     },
@@ -84,7 +84,7 @@
   ],
   "matchupOfTheWeek": {
     "title": "Pass Defense vs. Pass Offense",
-    "description": "Our pass defense grades 84/100 (among the NFL's best) against NYJ's pass offense at 52/100 (about average) — the widest statistical edge on the board this week."
+    "description": "Our pass defense grades 84/100 (among the NFL's best) against NYJ's pass offense at 55/100 (about average) — the widest statistical edge on the board this week."
   },
   "opponentInjuries": [],
   "recentForm": {
@@ -132,15 +132,14 @@
     }
   ],
   "weather": {
-    "tempF": 57,
-    "wind": "8 mph",
+    "tempF": 50,
+    "wind": "9 mph",
     "precipitation": "0%",
     "isDome": false
   },
   "bettingContext": {
     "spread": -7.5,
     "overUnder": 43.5,
-    "asOf": "2026-10-15"
-  },
-  "previewTake": "This is the rare Patriots matchup where we get to sit back and admire our defense doing the heavy lifting—our pass defense grades out at 84/100, among the league's best, and we're facing a Jets pass offense that checks in at a pedestrian 52/100, the widest statistical advantage on the board this week. The problem is that our injury situation has gotten genuinely messy: Will Campbell's MCL sprain at left tackle is particularly concerning given that we're squaring up against the Jets' elite pass rush (94/100), and losing TreVeyon Henderson for multiple weeks removes a key weapon against a Jets run defense that's legitimately elite at 81/100. The encouraging news is that Christian Gonzalez looks ready to return at corner, Drake Maye just earned FedEx Player of the Week honors, and we've won three of our last five against these guys, including back-to-back blowouts last season. This should be winnable, but the injury gods have decided to make us work for it."
+    "asOf": "2026-10-16"
+  }
 }

@@ -53,7 +53,7 @@
     "ngs": {
       "timeToThrow": {
         "value": 3.16210852713178,
-        "rank": 3,
+        "rank": 2,
         "of": 37
       },
       "aggressiveness": {
@@ -149,7 +149,7 @@
     "ngs": {
       "timeToThrow": {
         "value": 3.11110638297872,
-        "rank": 4,
+        "rank": 3,
         "of": 37
       },
       "aggressiveness": {
@@ -388,28 +388,28 @@
     "playerName": "Bo Nix",
     "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/zvo9xatffmqn9lnukpgk",
     "team": "DEN",
-    "completions": 97,
-    "attempts": 162,
-    "yards": 942,
+    "completions": 114,
+    "attempts": 189,
+    "yards": 1049,
     "tds": 6,
     "ints": 3,
-    "cpoe": -2.6389903661345233,
+    "cpoe": -2.401701757433827,
     "accuracyByDepth": {
-      "short": 0.6506024096385542,
-      "medium": 0.4166666666666667,
-      "deep": 0.4166666666666667
+      "short": 0.6666666666666666,
+      "medium": 0.4,
+      "deep": 0.35714285714285715
     },
-    "pressureEpa": -1.2680806530203161,
-    "cleanPocketEpa": 0.0921331864339885,
+    "pressureEpa": -1.1439736990286087,
+    "cleanPocketEpa": 0.06482485494152836,
     "turnoverWorthyPlayRate": 0.041176470588235294,
     "ngs": {
       "timeToThrow": {
-        "value": 2.94755555555556,
+        "value": 2.95157671957672,
         "rank": 15,
         "of": 37
       },
       "aggressiveness": {
-        "value": 9.87654320987654,
+        "value": 9.52380952380952,
         "rank": 33,
         "of": 37
       }
@@ -996,28 +996,28 @@
     "playerName": "Sam Darnold",
     "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/fyay8vruj0cqmhopufzk",
     "team": "SEA",
-    "completions": 63,
-    "attempts": 98,
-    "yards": 755,
+    "completions": 90,
+    "attempts": 149,
+    "yards": 1033,
     "tds": 7,
-    "ints": 5,
-    "cpoe": 2.0794675234825313,
+    "ints": 7,
+    "cpoe": -0.11922147848623878,
     "accuracyByDepth": {
-      "short": 0.5957446808510638,
-      "medium": 0.6666666666666666,
-      "deep": 0.5
+      "short": 0.6086956521739131,
+      "medium": 0.6,
+      "deep": 0.4666666666666667
     },
-    "pressureEpa": -0.9022839571531258,
-    "cleanPocketEpa": 0.05457490458626167,
+    "pressureEpa": -0.902788146340645,
+    "cleanPocketEpa": 0.09015707594368315,
     "turnoverWorthyPlayRate": 0.037383177570093455,
     "ngs": {
       "timeToThrow": {
-        "value": 3.22619387755102,
-        "rank": 2,
+        "value": 3.10492517006803,
+        "rank": 4,
         "of": 37
       },
       "aggressiveness": {
-        "value": 18.3673469387755,
+        "value": 18.7919463087248,
         "rank": 8,
         "of": 37
       }

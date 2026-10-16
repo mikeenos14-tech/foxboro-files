@@ -23,18 +23,18 @@
   {
     "group": "RB",
     "grade": 42,
-    "trend": "flat",
+    "trend": "down",
     "soWhat": "EPA/play at RB, on 119 plays.",
     "windows": [
       {
         "key": "last-1",
         "label": "Last Game",
-        "grade": 35
+        "grade": 32
       },
       {
         "key": "last-3",
         "label": "Last 3 Games",
-        "grade": 42
+        "grade": 39
       }
     ],
     "statLine": "471 yds, 4.0 YPC, 3 TD, 1 FUM, 10% explosive",
@@ -44,7 +44,7 @@
   },
   {
     "group": "WR",
-    "grade": 77,
+    "grade": 84,
     "trend": "up",
     "soWhat": "EPA/play at WR, on 92 plays.",
     "windows": [
@@ -148,7 +148,7 @@
       {
         "key": "last-1",
         "label": "Last Game",
-        "grade": 81
+        "grade": 84
       },
       {
         "key": "last-3",

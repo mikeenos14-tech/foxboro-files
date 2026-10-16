@@ -240,14 +240,14 @@
       },
       {
         "team": "DEN",
-        "wins": 3,
+        "wins": 4,
         "losses": 2,
         "ties": 0,
-        "pointDifferential": -14,
+        "pointDifferential": -11,
         "isUs": false,
         "streak": {
           "result": "W",
-          "count": 1
+          "count": 2
         },
         "divisionRecord": {
           "wins": 1,
@@ -533,13 +533,13 @@
       {
         "team": "SEA",
         "wins": 3,
-        "losses": 2,
+        "losses": 3,
         "ties": 0,
-        "pointDifferential": 29,
+        "pointDifferential": 26,
         "isUs": false,
         "streak": {
           "result": "L",
-          "count": 1
+          "count": 2
         },
         "divisionRecord": {
           "wins": 1,

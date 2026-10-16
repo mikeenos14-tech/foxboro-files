@@ -43,8 +43,9 @@
     "at": "2026-10-12T19:26:19.502Z"
   },
   "preview 2026_06_NYJ_NE": {
-    "status": "written",
+    "status": "no-response",
     "problems": [],
-    "at": "2026-10-15T09:20:06.202Z"
+    "error": "API key rejected (HTTP 401) — it may have expired or been deleted",
+    "at": "2026-10-16T13:35:43.328Z"
   }
 }
