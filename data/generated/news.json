@@ -1,5 +1,23 @@
 [
   {
+    "id": "a068f37c-7511-4cea-b0d8-1e60d4a21129",
+    "publishedAt": "2026-10-16T19:26:31.000Z",
+    "type": "Injury",
+    "headline": "Injury Report Analysis: Christian Gonzalez expected to play, A.J. Brown officially questionable for Sunday's game vs. Jets",
+    "summary": "The Patriots will make a decision on Brown's (ankle) status for this week on Saturday, per head coach Mike Vrabel.",
+    "sourceUrl": "https://www.patriots.com/news/injury-report-analysis-christian-gonzalez-expected-to-play-a-j-brown-officially-questionable-for-sunday-s-game-vs-jets",
+    "sourceName": "Patriots.com"
+  },
+  {
+    "id": "0f789695-bc4c-4d7e-9d1d-7fc2c266252f",
+    "publishedAt": "2026-10-16T19:24:00.000Z",
+    "type": "Injury",
+    "headline": "Week 6 Injury Report: Patriots vs. Jets",
+    "summary": "The New England Patriots and the New York Jets announce the following player injuries and practice participation ahead of their Week 6 game.",
+    "sourceUrl": "https://www.patriots.com/news/week-6-injury-report-patriots-vs-jets",
+    "sourceName": "Patriots.com"
+  },
+  {
     "id": "9d3710db-c889-4642-866b-0a9c9b99a75e",
     "publishedAt": "2026-10-16T15:00:00.000Z",
     "type": "Analysis",
@@ -24,24 +42,6 @@
     "headline": "Patriots Gameplan: Prepping for Jets Blitz-Happy Defense and Key Matchups in Week 6",
     "summary": "The Patriots host the Jets for an AFC East showdown at Gillette Stadium on Sunday.",
     "sourceUrl": "https://www.patriots.com/news/patriots-gameplan-prepping-for-jets-blitz-happy-defense-and-key-matchups-in-week-6-matchup",
-    "sourceName": "Patriots.com"
-  },
-  {
-    "id": "def62a70-5d7b-4cda-a9e6-9477694555ac",
-    "publishedAt": "2026-10-16T12:00:00.000Z",
-    "type": "Analysis",
-    "headline": "Game Preview: Patriots vs. Jets | NFL Week 6",
-    "summary": "The New England Patriots will host the New York Jets at Gillette Stadium on Sunday, October 18 at 1 PM ET.",
-    "sourceUrl": "https://www.patriots.com/news/game-preview-patriots-vs-jets-nfl-week-6",
-    "sourceName": "Patriots.com"
-  },
-  {
-    "id": "9e4a99ff-93af-4736-93fb-7ce997a17026",
-    "publishedAt": "2026-10-16T06:52:00.000Z",
-    "type": "Analysis",
-    "headline": "3 to Watch: Patriots-Jets Meet in Week 6 AFC East Clash",
-    "summary": "The Patriots look to extend their winning streak to three games as they welcome the 2-3 New York Jets for an AFC East battle.",
-    "sourceUrl": "https://www.patriots.com/news/3-to-watch-patriots-jets-meet-in-week-6-afc-east-clash",
     "sourceName": "Patriots.com"
   },
   {
