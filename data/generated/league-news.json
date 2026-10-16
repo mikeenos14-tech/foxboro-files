@@ -1,16 +1,25 @@
 [
   {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/devonta-smith-listed-as-limited-in-eagles-practice-saquon-barkley-still-out",
-    "publishedAt": "2026-10-15T21:54:16.000Z",
-    "type": "Beat Report",
-    "headline": "DeVonta Smith listed as limited in Eagles practice, Saquon Barkley still out",
-    "summary": "The Eagles announced on Thursday that quarterback Jalen Hurts will not play against the Panthers due to a blood clot in his calf, which leaves Tanner McKee in line to make the first non-Week 18 start of his career.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/devonta-smith-listed-as-limited-in-eagles-practice-saquon-barkley-still-out",
-    "sourceName": "Pro Football Talk"
+    "id": "50192302",
+    "publishedAt": "2026-10-15T23:03:48Z",
+    "type": "Injury",
+    "headline": "Texans RB Montgomery, S Pitre out for London affair vs. Jaguars",
+    "summary": "Texans starting RB David Montgomery (groin) and safety Jalen Pitre (shoulder) have been ruled out for Sunday's matchup against the Jaguars in London.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50192302/texans-rb-montgomery-s-pitre-london-affair-vs-jaguars",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50192123",
+    "publishedAt": "2026-10-15T23:03:35Z",
+    "type": "Injury",
+    "headline": "Bears QB Williams unsure if he's playing, has to still go through protocols",
+    "summary": "Caleb Williams reached another milestone in his recovery from a hamstring injury, logging full participation in practice for the first time since Sept. 18.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50192123/bears-caleb-williams-yet-know-playing",
+    "sourceName": "ESPN"
   },
   {
     "id": "50191830",
-    "publishedAt": "2026-10-15T23:21:49Z",
+    "publishedAt": "2026-10-16T02:41:22Z",
     "type": "Analysis",
     "headline": "Jayden Daniels addresses teammates on gaffe, vows 'it'll never happen again'",
     "summary": "Jayden Daniels addressed his Commanders teammates, once more blaming himself for the end-of-overtime debacle against the Giants and vowing it won't happen again.",
@@ -18,22 +27,13 @@
     "sourceName": "ESPN"
   },
   {
-    "id": "50192475",
-    "publishedAt": "2026-10-15T23:23:28Z",
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/troy-aikman-it-seems-like-espn-is-going-to-go-in-a-different-direction",
+    "publishedAt": "2026-10-16T02:06:54.000Z",
     "type": "Analysis",
-    "headline": "Panthers to visit an Eagles team that was already reeling before losing Hurts to a blood clot",
-    "summary": "— The Carolina Panthers had already been installed as road betting favorites as they prepare to visit Philadelphia and face a banged-up Eagles team riding a three-game losing streak.",
-    "sourceUrl": "http://www.espn.com/nfl/preview?gameId=401872998",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=423072",
-    "publishedAt": "2026-10-15T18:57:36.000Z",
-    "type": "Analysis",
-    "headline": "Bucs QB Baker Mayfield To Miss 3rd Straight Game",
-    "summary": "Original predictions that Buccaneers quarterback Baker Mayfield would miss at least three weeks after dislocating his right thumb have turned out to be accurate. The 31-year-old did not practice on Thursday, per Rick Stroud of the Tampa Bay Times, and offensive coordinator Zac Robinson confirmed that his starting quarterback was “not quite ready” to return […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/bucs-qb-baker-mayfield-to-miss-3rd-straight-game",
-    "sourceName": "Pro Football Rumors"
+    "headline": "Troy Aikman: It seems like ESPN is going to go in a different direction",
+    "summary": "Hall of Fame quarterback and ESPN/ABC Monday Night Football analyst Troy Aikman made some waves on Thursday morning by creating the clear impression that he's planning to leave after his current contract expires, after Super Bowl LXI.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/troy-aikman-it-seems-like-espn-is-going-to-go-in-a-different-direction",
+    "sourceName": "Pro Football Talk"
   },
   {
     "id": "50192404",
@@ -45,12 +45,12 @@
     "sourceName": "ESPN"
   },
   {
-    "id": "50191811",
-    "publishedAt": "2026-10-15T21:07:28Z",
+    "id": "50192475",
+    "publishedAt": "2026-10-15T23:23:28Z",
     "type": "Analysis",
-    "headline": "Aaron Rodgers vs. Todd Bowles should be quite a chess match when Steelers visit the Buccaneers",
-    "summary": "— Todd Bowles will have to be quite creative to surprise Aaron Rodgers.",
-    "sourceUrl": "http://www.espn.com/nfl/preview?gameId=401873002",
+    "headline": "Panthers to visit an Eagles team that was already reeling before losing Hurts to a blood clot",
+    "summary": "— The Carolina Panthers had already been installed as road betting favorites as they prepare to visit Philadelphia and face a banged-up Eagles team riding a three-game losing streak.",
+    "sourceUrl": "http://www.espn.com/nfl/preview?gameId=401872998",
     "sourceName": "ESPN"
   }
 ]
