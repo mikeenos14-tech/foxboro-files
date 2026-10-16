@@ -70,6 +70,16 @@
     "lastUpdated": "2026-10-15T20:02:15.69Z"
   },
   {
+    "playerId": "00-0038653",
+    "playerName": "Cory Durden",
+    "position": "DT",
+    "week": 6,
+    "injury": "Illness",
+    "practiceStatus": "Did Not Participate",
+    "gameStatus": null,
+    "lastUpdated": "2026-10-15T20:02:15.69Z"
+  },
+  {
     "playerId": "00-0039147",
     "playerName": "Christian Gonzalez",
     "position": "CB",
@@ -156,16 +166,6 @@
     "week": 6,
     "injury": "Hamstring",
     "practiceStatus": "Limited",
-    "gameStatus": null,
-    "lastUpdated": "2026-10-15T20:02:15.69Z"
-  },
-  {
-    "playerId": "patriots-cory-durden",
-    "playerName": "Cory Durden",
-    "position": "DT",
-    "week": 6,
-    "injury": "Illness",
-    "practiceStatus": "Did Not Participate",
     "gameStatus": null,
     "lastUpdated": "2026-10-15T20:02:15.69Z"
   }
