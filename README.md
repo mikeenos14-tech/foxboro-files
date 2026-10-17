@@ -153,3 +153,19 @@ npm run dev
 
 The generated data in `data/generated/` is committed, so the site runs immediately
 without fetching anything. To refresh from source, run `npm run build:data`.
+
+## Replacing the API key
+
+The AI writing (recap Takes, the game preview, the news digest, the Around the League
+headline picker) uses one secret: `ANTHROPIC_API_KEY`, stored only in GitHub. Vercel
+doesn't need it — the AI runs in the GitHub refresh jobs, and Vercel serves the finished
+files. If the key expires or is deleted, nothing turns red and the site keeps its last good
+text, but the daily health check opens an issue saying "API key rejected (HTTP 401)…
+Replace ANTHROPIC_API_KEY" (first used for real on Oct 16, 2026).
+
+1. Create a new key at console.anthropic.com → API Keys (longest expiry offered; set a
+   calendar reminder a week before it).
+2. GitHub → Settings → Secrets and variables → Actions → `ANTHROPIC_API_KEY` → Update.
+3. Run **Refresh stats data** and **Refresh headlines data** from the Actions tab, then
+   **Daily health check**; it closes the issue once the AI log shows the calls succeeding.
+4. Delete the old key in the Anthropic console.
