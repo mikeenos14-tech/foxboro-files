@@ -1,12 +1,30 @@
 [
   {
     "id": "50200910",
-    "publishedAt": "2026-10-17T13:47:00Z",
+    "publishedAt": "2026-10-17T20:14:34Z",
     "type": "Transaction",
-    "headline": "Source: Patriots likely to activate WR A.J. Brown for Sunday's game vs. Jets",
-    "summary": "Patriots wide receiver A.J. Brown is likely to be activated after missing the past four games with a right high ankle sprain, a source told NFL Network's Ian Rapoport.",
+    "headline": "Patriots activate WR A.J. Brown for Sunday's game vs. Jets",
+    "summary": "Patriots wide receiver A.J. Brown was activated from injured reserve Saturday after missing the past four games with a right high ankle sprain, the team announced.",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/50200910/source-patriots-likely-activate-aj-brown-jets-game",
     "sourceName": "ESPN"
+  },
+  {
+    "id": "eb2eee09-9661-4e25-a2a2-d5615727e36a",
+    "publishedAt": "2026-10-17T20:00:05.000Z",
+    "type": "Injury",
+    "headline": "Roster Analysis: Patriots activate WR A.J. Brown for Sunday's game vs. the Jets in Week 6",
+    "summary": "The Patriots activated Brown (ankle) from injured reserve while elevating S Elliott Davison from the practice squad for Week 6.",
+    "sourceUrl": "https://www.patriots.com/news/roster-analysis-patriots-activate-wr-a-j-brown-for-sunday-s-game-vs-the-jets-in-week-6",
+    "sourceName": "Patriots.com"
+  },
+  {
+    "id": "5b5fb14d-900b-49e5-9b1f-a1d4c22b8849",
+    "publishedAt": "2026-10-17T20:00:05.000Z",
+    "type": "Transaction",
+    "headline": "Patriots Make a Series of Roster Moves",
+    "summary": "The New England Patriots announced today that WR A.J. Brown has been activated to the 53-man roster.",
+    "sourceUrl": "https://www.patriots.com/news/patriots-make-a-series-of-roster-moves-x0182",
+    "sourceName": "Patriots.com"
   },
   {
     "id": "a068f37c-7511-4cea-b0d8-1e60d4a21129",
@@ -33,24 +51,6 @@
     "headline": "Hunter Henry named NFLPA Community MVP after hosting second annual \"Freedom to Play\" ping pong tournament",
     "summary": "New England Patriots tight end Hunter Henry was named the NFLPA’s Community MVP for Week 6, two weeks after teammate Mack Hollins earned the same recognition.",
     "sourceUrl": "https://www.patriots.com/news/hunter-henry-named-nflpa-community-mvp-after-hosting-second-annual-freedom-to-play-ping-pong-tournament",
-    "sourceName": "Patriots.com"
-  },
-  {
-    "id": "cddc3765-f6c8-448a-9e25-9aa4526b4f9b",
-    "publishedAt": "2026-10-16T14:46:00.000Z",
-    "type": "Analysis",
-    "headline": "Expert Predictions: Week 6 Picks for Jets at Patriots",
-    "summary": "Experts share their picks for the Patriots Week 6 matchup against the New York Jets.",
-    "sourceUrl": "https://www.patriots.com/news/expert-predictions-week-6-picks-for-jets-at-patriots",
-    "sourceName": "Patriots.com"
-  },
-  {
-    "id": "b402803e-a874-4a14-9866-1e979f1a01f0",
-    "publishedAt": "2026-10-16T14:40:00.000Z",
-    "type": "Analysis",
-    "headline": "Patriots Gameplan: Prepping for Jets Blitz-Happy Defense and Key Matchups in Week 6",
-    "summary": "The Patriots host the Jets for an AFC East showdown at Gillette Stadium on Sunday.",
-    "sourceUrl": "https://www.patriots.com/news/patriots-gameplan-prepping-for-jets-blitz-happy-defense-and-key-matchups-in-week-6-matchup",
     "sourceName": "Patriots.com"
   },
   {

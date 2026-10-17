@@ -1,25 +1,16 @@
 [
   {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=423134",
-    "publishedAt": "2026-10-17T02:49:23.000Z",
+    "id": "50202417",
+    "publishedAt": "2026-10-17T22:48:14Z",
     "type": "Injury",
-    "headline": "Ravens’ Lamar Jackson, Cam Jurgens Out For Week 6",
-    "summary": "Lamar Jackson was out for the Ravens’ Week 5 victory. His ankle injury will require at least one more game out of the lineup. Head coach Jesse Minter announced on Friday (video link) that Jackson will be sidelined once again on Sunday against the Browns. As a result, Tyler Huntley will handle quarterback duties for a second straight game. The […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/ravens-lamar-jackson-cam-jurgens-out-for-week-6",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=423195",
-    "publishedAt": "2026-10-17T17:15:06.000Z",
-    "type": "Injury",
-    "headline": "Eagles Not Planning To Place Jalen Hurts On IR",
-    "summary": "Although Eagles quarterback Jalen Hurts is “out indefinitely” with a superficial blood clot in his calf, he may avoid a stint on injured reserve. The Eagles have yet to discuss sending Hurts to IR, sources told ESPN’s Adam Schefter and Ian Rapoport, but the reporters note that could change depending on how the recovery process […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/eagles-not-planning-to-place-jalen-hurts-on-ir",
-    "sourceName": "Pro Football Rumors"
+    "headline": "Eagles QB Jalen Hurts on IR due to blood clot, expected to be out indefinitely",
+    "summary": "The Eagles have placed Jalen Hurts on injured reserve after consultations with numerous doctors and experts, sources told ESPN and NFL Network.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50202417/sources-eagles-place-jalen-hurts-ir-due-blood-clot",
+    "sourceName": "ESPN"
   },
   {
     "id": "50203338",
-    "publishedAt": "2026-10-17T19:52:48Z",
+    "publishedAt": "2026-10-17T20:00:08Z",
     "type": "Injury",
     "headline": "Steelers place Wilson on IR with finger injury",
     "summary": "The Pittsburgh Steelers placed Roman Wilson on the injured reserve list, their second key receiver lost to injury in as many weeks.",
@@ -27,30 +18,39 @@
     "sourceName": "ESPN"
   },
   {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=423182",
-    "publishedAt": "2026-10-17T15:23:49.000Z",
+    "id": "50200910",
+    "publishedAt": "2026-10-17T20:14:34Z",
     "type": "Transaction",
-    "headline": "Patriots Expected To Activate WR A.J. Brown Off IR",
-    "summary": "A.J. Brown is set to make his return to the field this weekend. The Patriots are likely to activate their star receiver from injured reserve ahead of Sunday’s game against the Jets, per NFL Network’s Ian Rapoport. Brown, 29, suffered a high-ankle sprain in New England’s Week 1 loss to the Seahawks and landed on […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/patriots-expected-to-activate-wr-a-j-brown-off-ir",
-    "sourceName": "Pro Football Rumors"
+    "headline": "Patriots activate WR A.J. Brown for Sunday's game vs. Jets",
+    "summary": "Patriots wide receiver A.J. Brown was activated from injured reserve Saturday after missing the past four games with a right high ankle sprain, the team announced.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50200910/source-patriots-likely-activate-aj-brown-jets-game",
+    "sourceName": "ESPN"
   },
   {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/sean-mcvay-believes-the-harrison-mevis-blocked-field-goal-would-have-missed-anyway",
-    "publishedAt": "2026-10-17T19:03:50.000Z",
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/reports-caleb-williams-to-start-for-bears-sunday",
+    "publishedAt": "2026-10-17T20:47:47.000Z",
     "type": "Analysis",
-    "headline": "Sean McVay believes the Harrison Mevis blocked field goal would have missed anyway",
-    "summary": "After Monday night's overtime loss to the Bills, Rams coach Sean McVay minced no words — he said the field goal unit lost the game.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/sean-mcvay-believes-the-harrison-mevis-blocked-field-goal-would-have-missed-anyway",
+    "headline": "Reports: Caleb Williams to start for Bears Sunday",
+    "summary": "Bears quarterback Caleb Williams was coy about his availability for Sunday's game against the Falcons during a Friday press conference, but he seemed to send a message with a social media post later in the day.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/reports-caleb-williams-to-start-for-bears-sunday",
     "sourceName": "Pro Football Talk"
   },
   {
-    "id": "50190584",
-    "publishedAt": "2026-10-17T10:41:15Z",
-    "type": "Analysis",
-    "headline": "Rams can't seem to fix their special teams",
-    "summary": "Special teams have played a significant role in five of the Rams' nine losses since the start of last season, including the playoffs.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50190584/los-angeles-rams-special-teams-no-fix-week-6",
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=423235",
+    "publishedAt": "2026-10-17T21:11:45.000Z",
+    "type": "Transaction",
+    "headline": "NFL Practice Squad Updates: 10/17/26",
+    "summary": "Saturday’s NFL practice squad transactions: Atlanta Falcons Signed: S Jammie Robinson",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/nfl-practice-squad-updates-10-17-26",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "50202634",
+    "publishedAt": "2026-10-17T19:23:52Z",
+    "type": "Transaction",
+    "headline": "Taylor Moton among 3 Panthers activated ahead of Eagles game",
+    "summary": "The Panthers will have RT Taylor Moton and DE Tershawn Wharton available Sunday against the Eagles. RB Trevor Etienne was also activated off IR.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50202634/taylor-moton-3-panthers-activated-ahead-eagles-game",
     "sourceName": "ESPN"
   }
 ]
