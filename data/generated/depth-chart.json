@@ -4,15 +4,15 @@
     "position": "WR1",
     "players": [
       {
-        "playerId": "4361432",
-        "playerName": "Romeo Doubs",
-        "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/d27wez0jqd5vfcrjizpb",
+        "playerId": "4047646",
+        "playerName": "A.J. Brown",
+        "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/qfhvjyssf0lwsh0kienp",
         "rank": 1
       },
       {
-        "playerId": "4613202",
-        "playerName": "Kyle Williams",
-        "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/d31ahhl7yt97gu8iei8v",
+        "playerId": "4695193",
+        "playerName": "Efton Chism III",
+        "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/zbnf3ujmwprzgjnwdtlo",
         "rank": 2
       },
       {
@@ -27,15 +27,15 @@
     "position": "WR2",
     "players": [
       {
-        "playerId": "4427095",
-        "playerName": "DeMario Douglas",
-        "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/m3fpxawsccoqsajtqlec",
+        "playerId": "4361432",
+        "playerName": "Romeo Doubs",
+        "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/d27wez0jqd5vfcrjizpb",
         "rank": 1
       },
       {
-        "playerId": "4047646",
-        "playerName": "A.J. Brown",
-        "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/qfhvjyssf0lwsh0kienp",
+        "playerId": "4613202",
+        "playerName": "Kyle Williams",
+        "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/d31ahhl7yt97gu8iei8v",
         "rank": 2
       }
     ]
@@ -45,9 +45,9 @@
     "position": "WR3",
     "players": [
       {
-        "playerId": "4695193",
-        "playerName": "Efton Chism III",
-        "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/zbnf3ujmwprzgjnwdtlo",
+        "playerId": "4427095",
+        "playerName": "DeMario Douglas",
+        "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/m3fpxawsccoqsajtqlec",
         "rank": 1
       },
       {
@@ -576,22 +576,16 @@
         "rank": 1
       },
       {
-        "playerId": "4427095",
-        "playerName": "DeMario Douglas",
-        "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/m3fpxawsccoqsajtqlec",
-        "rank": 2
-      },
-      {
         "playerId": "4695193",
         "playerName": "Efton Chism III",
         "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/zbnf3ujmwprzgjnwdtlo",
-        "rank": 3
+        "rank": 2
       },
       {
-        "playerId": "4361432",
-        "playerName": "Romeo Doubs",
-        "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/d27wez0jqd5vfcrjizpb",
-        "rank": 4
+        "playerId": "4427095",
+        "playerName": "DeMario Douglas",
+        "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/m3fpxawsccoqsajtqlec",
+        "rank": 3
       }
     ]
   },
