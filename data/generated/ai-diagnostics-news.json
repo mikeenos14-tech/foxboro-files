@@ -1,14 +1,12 @@
 {
   "beat digest": {
-    "status": "no-response",
+    "status": "written",
     "problems": [],
-    "error": "API key rejected (HTTP 401) — it may have expired or been deleted",
-    "at": "2026-10-17T17:42:18.053Z"
+    "at": "2026-10-17T18:43:01.678Z"
   },
   "league headlines": {
-    "status": "no-response",
+    "status": "written",
     "problems": [],
-    "error": "API key rejected (HTTP 401) — it may have expired or been deleted",
-    "at": "2026-10-17T17:42:18.926Z"
+    "at": "2026-10-17T18:43:04.195Z"
   }
 }

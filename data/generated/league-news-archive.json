@@ -1,10 +1,100 @@
 [
   {
+    "id": "50202598",
+    "publishedAt": "2026-10-17T18:30:38Z",
+    "type": "Transaction",
+    "headline": "Bears CB Kyler Gordon set for 2026 debut after PUP activation",
+    "summary": "Bears nickel corner Kyler Gordon has been activated off the PUP list and could make his season debut against the Falcons.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50202598/bears-cb-kyler-gordon-set-2026-debut-pup-activation",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/the-black-box-idea-could-be-adopted-by-some-teams",
+    "publishedAt": "2026-10-17T18:30:13.000Z",
+    "type": "Analysis",
+    "headline": "The \"black box\" idea could be adopted by some teams",
+    "summary": "In the aftermath of the Commanders' overtime clock debacle against the Giants, it became impossible to figure out exactly what had happened.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/the-black-box-idea-could-be-adopted-by-some-teams",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=423196",
+    "publishedAt": "2026-10-17T18:24:19.000Z",
+    "type": "Analysis",
+    "headline": "Cowboys DC Christian Parker To Stay On Sidelines; More On Mike Pettine Hire",
+    "summary": "The Cowboys brought in veteran coach Mike Pettine as a senior assistant this week, raising questions about their confidence in first-year defensive coordinator Christian Parker. But hiring his mentor and former boss in Green Bay has been on Parker’s mind for a while. He reached out to Pettine when he first got the Cowboys’ DC […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/cowboys-dc-christian-parker-to-stay-on-sidelines-more-on-mike-pettine-hire",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "50202634",
+    "publishedAt": "2026-10-17T18:21:20Z",
+    "type": "Transaction",
+    "headline": "Taylor Moton among 3 Panthers activated ahead of Eagles game",
+    "summary": "The Panthers will have RT Taylor Moton and DE Tershawn Wharton available Sunday against the Eagles. RB Trevor Etienne was also activated off IR.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50202634/taylor-moton-3-panthers-activated-ahead-eagles-game",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=422984",
+    "publishedAt": "2026-10-17T18:16:35.000Z",
+    "type": "Transaction",
+    "headline": "Texans Activate LB Henry To’oTo’o From IR",
+    "summary": "OCTOBER 17: The Texans are activating To’oTo’o from IR and waiving linebacker Aiden Fisher, according to Wilson. OCTOBER 14: Continuing a Wednesday chock-full of Texans news, the team is opening the practice window for linebacker Henry To’oTo’o, per Aaron Wilson of KPRC 2. The Texans will have three weeks to activate him from injured reserve. […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/texans-designate-henry-tootoo-for-return",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jaguars-look-to-match-best-six-game-start-in-team-history",
+    "publishedAt": "2026-10-17T18:07:23.000Z",
+    "type": "Analysis",
+    "headline": "Jaguars look to match best six-game start in team history",
+    "summary": "As the Jaguars prepare to play their second straight game in London, they have an opportunity to do something they haven't done in 27 years — start the year 5-1.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jaguars-look-to-match-best-six-game-start-in-team-history",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=423213",
+    "publishedAt": "2026-10-17T18:07:04.000Z",
+    "type": "Transaction",
+    "headline": "Panthers Activate Three From Reserve Lists",
+    "summary": "As the Panthers prepare to visit a depleted Eagles team, they are getting the additional benefit of returning a few key reinforcements. According to ESPN’s Mike Kaye, Carolina has activated right tackle Taylor Moton and running Trevor Etienne on offense and defensive end Tershawn Wharton on defense. The Panthers were well-prepared for the hardship they […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/panthers-activate-three-from-reserve-lists",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/panthers-activate-taylor-moton-turk-wharton-trevor-etienne",
+    "publishedAt": "2026-10-17T17:55:30.000Z",
+    "type": "Transaction",
+    "headline": "Panthers activate Taylor Moton, Turk Wharton, Trevor Etienne",
+    "summary": "Panthers offensive tackle Taylor Moton is set to make his 2026 debut.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/panthers-activate-taylor-moton-turk-wharton-trevor-etienne",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "50202044",
+    "publishedAt": "2026-10-17T17:50:22Z",
+    "type": "Injury",
+    "headline": "Commanders RB Jacory Croskey-Merritt out vs. 49ers with groin injury",
+    "summary": "Commanders running back Jacory Croskey-Merritt won't play against the 49ers because of a groin injury, coach Dan Quinn said.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50202044/commanders-rb-croskey-merritt-vs-49ers-groin-injury",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bears-activate-kyler-gordon-sign-nick-mccloud-to-active-roster",
+    "publishedAt": "2026-10-17T17:40:20.000Z",
+    "type": "Transaction",
+    "headline": "Bears activate Kyler Gordon, sign Nick McCloud to active roster",
+    "summary": "Bears General Manager Ryan Poles said in September that he didn't know if cornerback Kyler Gordon would play for the Bears again, but it looks like he'll be back in their lineup against the Falcons on Sunday.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bears-activate-kyler-gordon-sign-nick-mccloud-to-active-roster",
+    "sourceName": "Pro Football Talk"
+  },
+  {
     "id": "profootballrumors-https://www.profootballrumors.com/?p=423208",
     "publishedAt": "2026-10-17T17:38:07.000Z",
     "type": "Transaction",
     "headline": "Bears Activate Kyler Gordon, Place Dayo Odeyingbo On IR",
-    "summary": "Injuries have plagued Bears cornerback Kyler Gordon since 2025, but he is finally nearing his season debut. The Bears activated Gordon from the reserve/PUP list on Saturday, per a team announcement. In less encouraging news, the Bears placed defensive lineman Dayo Odeyingbo on injured reserve. He will miss at least four games. More to come…",
+    "summary": "Injuries have plagued Bears cornerback Kyler Gordon since 2025, but he is finally nearing his season debut. The Bears activated Gordon from the reserve/PUP list on Saturday, per a team announcement. In less encouraging news, the Bears placed defensive lineman Dayo Odeyingbo on injured reserve. He will miss at least four games. Gordon became the […]",
     "sourceUrl": "https://www.profootballrumors.com/2026/10/bears-activate-kyler-gordon-place-dayo-odeyingbo-on-ir",
     "sourceName": "Pro Football Rumors"
   },
@@ -16,15 +106,6 @@
     "summary": "The Commanders will be without their top running back for Monday night's game against the 49ers.",
     "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/commanders-wont-have-jacory-croskey-merritt-monday-night",
     "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "50202044",
-    "publishedAt": "2026-10-17T17:29:04Z",
-    "type": "Injury",
-    "headline": "Commanders RB Jacory Croskey-Merritt out vs. 49ers with groin injury",
-    "summary": "Commanders running back Jacory Croskey-Merritt won't play Monday against San Francisco because of a groin injury, coach Dan Quinn said.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50202044/commanders-rb-croskey-merritt-vs-49ers-groin-injury",
-    "sourceName": "ESPN"
   },
   {
     "id": "profootballrumors-https://www.profootballrumors.com/?p=423195",
@@ -2851,15 +2932,6 @@
     "summary": "Greg Rousseau blocked a game-winning field goal attempt from the Rams on Monday night.",
     "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/greg-rousseau-wins-afc-special-teams-player-of-the-week",
     "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=422984",
-    "publishedAt": "2026-10-14T16:23:35.000Z",
-    "type": "Injury",
-    "headline": "Texans Designate Henry To’oTo’o For Return",
-    "summary": "Continuing a Wednesday chock-full of Texans news, the team is opening the practice window for linebacker Henry To’oTo’o, per Aaron Wilson of KPRC 2. The Texans will have three weeks to activate him from injured reserve. While To’oTo’o inked a two-year, $16MM extension in August, he hasn’t gotten much of a chance to contribute this […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/texans-designate-henry-tootoo-for-return",
-    "sourceName": "Pro Football Rumors"
   },
   {
     "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/49ers-p-corliss-waitman-is-the-nfc-special-teams-player-of-the-week",
@@ -14983,50 +15055,5 @@
     "summary": "Saints linebacker Kaden Elliss (calf) and edge rushers Carl Granderson (ankle) and Anfernee Jennings (knee) have been ruled out against the Falcons on \"Monday Night Football.\"",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/50092081/saints-rule-lb-kaden-elliss-pass-rusher-carl-granderson",
     "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/vinod-khosla-takes-issues-with-reporters-accurately-quoting-him-again",
-    "publishedAt": "2026-10-03T18:39:28.000Z",
-    "type": "Analysis",
-    "headline": "Vinod Khosla takes issues with reporters accurately quoting him, again",
-    "summary": "New Seahawks owner missed the layup in his Axios interview. Then, he took to Twitter and missed it again.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/vinod-khosla-takes-issues-with-reporters-accurately-quoting-him-again",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/vikings-close-in-on-record-for-consecutive-four-sack-games",
-    "publishedAt": "2026-10-03T18:20:44.000Z",
-    "type": "Analysis",
-    "headline": "Vikings close in on record for consecutive four-sack games",
-    "summary": "The Vikings have won eight games in a row (3-0 this season) thanks to a defense that has at times been dominant.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/vikings-close-in-on-record-for-consecutive-four-sack-games",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/derrick-henry-josh-allen-chase-a-record-rushing-td-start",
-    "publishedAt": "2026-10-03T17:58:45.000Z",
-    "type": "Analysis",
-    "headline": "Derrick Henry, Josh Allen chase a record rushing TD start",
-    "summary": "Both Ravens running back Derrick Henry and Bills quarterback Josh Allen have scored six rushing touchdowns through three games.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/derrick-henry-josh-allen-chase-a-record-rushing-td-start",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dolphins-sign-rb-carlos-washington-elevate-dl-mazi-smith",
-    "publishedAt": "2026-10-03T17:48:58.000Z",
-    "type": "Transaction",
-    "headline": "Dolphins sign RB Carlos Washington, elevate DL Mazi Smith",
-    "summary": "The Dolphins have added a running back to their active roster.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dolphins-sign-rb-carlos-washington-elevate-dl-mazi-smith",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=421805",
-    "publishedAt": "2026-10-03T17:45:17.000Z",
-    "type": "Injury",
-    "headline": "Eagles WR Devonta Smith To Miss Multiple Games",
-    "summary": "Eagles wide receiver DeVonta Smith is expected to be sidelined for multiple games with a “lingering right hamstring injury that initially caused him to miss time during camp,” per Olivia Reiner of The Philadelphia Inquirer. Smith, 27, should not be out for more than three games with no injured reserve placement expected at the time. […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/eagles-wr-devonta-smith-to-miss-multiple-games",
-    "sourceName": "Pro Football Rumors"
   }
 ]
