@@ -1,11 +1,83 @@
 [
   {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=423171",
+    "publishedAt": "2026-10-17T02:32:05.000Z",
+    "type": "Injury",
+    "headline": "NFC Injury Updates: Charbonnet, Williams, Hunt",
+    "summary": "Seahawks running back Zach Charbonnet wasn’t able to make it off the reserve/physically unable to perform list in time for the team’s Week 6 trip to Denver yesterday. According to ESPN’s Jeremy Fowler, though, the fourth-year rusher stands “a legitimate chance to make his season debut in Week 7 vs. Kansas City.” Seattle could’ve really […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/nfc-injury-updates-charbonnet-williams-hunt",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/troy-aikmans-role-with-the-dolphins-hovers-over-his-broadcasting-future",
+    "publishedAt": "2026-10-17T02:24:22.000Z",
+    "type": "Analysis",
+    "headline": "Troy Aikman's role with the Dolphins hovers over his broadcasting future",
+    "summary": "Why would any network with options opt for someone who works for one of the NFL's teams?",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/troy-aikmans-role-with-the-dolphins-hovers-over-his-broadcasting-future",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/terrion-arnold-remains-on-paid-leave",
+    "publishedAt": "2026-10-17T01:52:50.000Z",
+    "type": "Analysis",
+    "headline": "Terrion Arnold remains on paid leave",
+    "summary": "The NFL's decision to reinstate Packers running back Josh Jacobs and Broncos linebacker Jonathon Cooper from the Commissioner Exempt list carried with it a conspicuous omission.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/terrion-arnold-remains-on-paid-leave",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=423164",
+    "publishedAt": "2026-10-17T01:23:15.000Z",
+    "type": "Transaction",
+    "headline": "Cardinals To Activate S Kitan Crawford For Week 6",
+    "summary": "The Cardinals lost safety Kitan Crawford to ankle injury in practice four weeks ago, landing him on injured reserve early into the season. The team expected to be able to activate him as soon as he would be eligible, and they appear to have been right. According to Cardinals senior writer Darren Urban, it seems […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/cardinals-to-activate-s-kitan-crawford-for-week-6",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "50198029",
+    "publishedAt": "2026-10-16T23:56:38Z",
+    "type": "Analysis",
+    "headline": "Broncos' Jonathon Cooper off commissioner exempt list, could return Week 7",
+    "summary": "Broncos linebacker Jonathon Cooper was removed from the commissioner exempt list Friday, meaning he's available to play in Week 7. Cooper, who was arrested twice in a seven-day span in June on domestic violence charges, has been on the list since Aug. 30.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50198029/broncos-jonathon-cooper-removed-nfl-commissioner-exempt-list",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=423157",
+    "publishedAt": "2026-10-16T23:54:47.000Z",
+    "type": "Transaction",
+    "headline": "NFL Practice Squad Updates: 10/16/26",
+    "summary": "Here are today’s only practice squad transactions in the NFL: New Orleans Saints Signed: CB Jayden Price Released: T Alan Herron",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/nfl-practice-squad-updates-10-16-26",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
     "id": "50198584",
-    "publishedAt": "2026-10-16T22:59:11Z",
+    "publishedAt": "2026-10-16T23:49:32Z",
     "type": "Analysis",
     "headline": "Titans CEO apologizes to fans, supports Robert Saleh, GM",
     "summary": "Titans CEO Burke Nihill said the organization believes that coach Robert Saleh and GM Mike Borgonzi are \"ultimately going to get this team out of the woods.\"",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/50198584/titans-ceo-apologizes-fans-supports-robert-saleh-gm",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=423156",
+    "publishedAt": "2026-10-16T23:47:38.000Z",
+    "type": "Injury",
+    "headline": "Minor NFL Transactions: 10/16/26",
+    "summary": "Friday’s minor moves: Detroit Lions Placed on IR: OL Ben Bartch, WR Tom Kennedy (story), LB Devin White (story) Philadelphia Eagles Placed on IR: RB Will Shipley (story) The Lions continue to wade through injuries in the opening months of the season. Bartch, who got an early-season start due to an injury to starting left […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/minor-nfl-transactions-10-16-26",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "50198056",
+    "publishedAt": "2026-10-16T23:42:25Z",
+    "type": "Injury",
+    "headline": "Eagles' Saquon Barkley ruled out; DeVonta Smith likely to return",
+    "summary": "Eagles RB Saquon Barkley has been ruled out for Sunday's game against the Panthers with a hamstring injury, but it appears WR DeVonta Smith will return.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50198056/eagles-saquon-barkley-ruled-devonta-smith-return",
     "sourceName": "ESPN"
   },
   {
@@ -54,15 +126,6 @@
     "sourceName": "ESPN"
   },
   {
-    "id": "50198029",
-    "publishedAt": "2026-10-16T21:31:22Z",
-    "type": "Analysis",
-    "headline": "Broncos' Jonathon Cooper off commissioner exempt list, could return Week 7",
-    "summary": "Broncos linebacker Jonathon Cooper was removed from the commissioner exempt list Friday, meaning he's available to play in Week 7. Cooper, who was arrested twice in a seven-day span in June on domestic violence charges, has been on the list since Aug. 30.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50198029/broncos-jonathon-cooper-removed-nfl-commissioner-exempt-list",
-    "sourceName": "ESPN"
-  },
-  {
     "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/stephen-jones-says-joey-porter-jr-is-all-in-with-the-cowboys",
     "publishedAt": "2026-10-16T21:25:53.000Z",
     "type": "Analysis",
@@ -79,15 +142,6 @@
     "summary": "Terrion Arnold, Jonathon Cooper and Josh Jacobs each began the 2026 season on the commissioner’s exempt list. Cooper has now been removed, while the same will soon be true in Jacobs’ case. The Packers running back will come off the exempt list on Monday, as first reported by The Ringer’s Tom Pelissero. That means Jacobs will be eligible […]",
     "sourceUrl": "https://www.profootballrumors.com/2026/10/packers-rb-josh-jacobs-to-be-removed-from-commissioners-exempt-list",
     "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "50198056",
-    "publishedAt": "2026-10-16T21:09:31Z",
-    "type": "Injury",
-    "headline": "Eagles' Saquon Barkley ruled out; DeVonta Smith to return",
-    "summary": "Eagles RB Saquon Barkley has been ruled out for Sunday's game against the Panthers with a hamstring injury, but it appears WR DeVonta Smith will return.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50198056/eagles-saquon-barkley-ruled-devonta-smith-return",
-    "sourceName": "ESPN"
   },
   {
     "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/trent-mcduffie-kam-curl-questionable-for-rams-cardinals",
@@ -15001,68 +15055,5 @@
     "summary": "Two teams made practice squad adjustments on Friday. Here’s a look… Arizona Cardinals Signed: C Kingsley Eguakun New York Giants Signed: OL Kendrick Green Released: OL Darian Kinnard Green has picked up experience at all three interior offensive line positions since he joined the Steelers as a third-round pick in 2021. He started at center […]",
     "sourceUrl": "https://www.profootballrumors.com/2026/10/nfl-practice-squad-updates-10-2-26",
     "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/sean-mcvay-is-0-4-against-nick-sirianni",
-    "publishedAt": "2026-10-03T02:12:36.000Z",
-    "type": "Analysis",
-    "headline": "Sean McVay is 0-4 against Nick Sirianni",
-    "summary": "Rams coach Sean McVay has had tremendous success since becoming a head coach in 2017.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/sean-mcvay-is-0-4-against-nick-sirianni",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=421788",
-    "publishedAt": "2026-10-03T01:43:20.000Z",
-    "type": "Transaction",
-    "headline": "Dan Campbell Confirms Lions Pursued Trade For Joey Porter Jr.",
-    "summary": "The Cowboys acquired Joey Porter Jr. from the Steelers on Wednesday, reportedly beating out the Giants and Lions to land the cornerback. The notion that the Giants were in talks with the Steelers has been shot down since then, but the Lions were indeed involved. Head coach Dan Campbell confirmed general manager Brad Holmes pursued […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/dan-campbell-confirms-lions-pursued-trade-for-joey-porter-jr",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/five-teams-face-an-0-4-start-and-only-one-0-4-team-has-ever-made-the-playoffs",
-    "publishedAt": "2026-10-03T01:27:49.000Z",
-    "type": "Analysis",
-    "headline": "Five teams face an 0-4 start — and only one 0-4 team has ever made the playoffs",
-    "summary": "Week 4 is here, and five teams are still looking for their first victory of 2026.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/five-teams-face-an-0-4-start-and-only-one-0-4-team-has-ever-made-the-playoffs",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/new-bears-stadium-in-illinois-could-be-publicly-owned",
-    "publishedAt": "2026-10-03T01:09:57.000Z",
-    "type": "Transaction",
-    "headline": "New Bears stadium in Illinois could be publicly owned",
-    "summary": "The Bears claim to be focused on building a new stadium in Indiana.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/new-bears-stadium-in-illinois-could-be-publicly-owned",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/vinod-khosla-on-a-potential-seahawks-move-never-say-never",
-    "publishedAt": "2026-10-03T00:44:58.000Z",
-    "type": "Analysis",
-    "headline": "Vinod Khosla on a potential Seahawks move: \"Never say never\"",
-    "summary": "New owner keeps saying things that won't make the fan base happy.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/vinod-khosla-on-a-potential-seahawks-move-never-say-never",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=421780",
-    "publishedAt": "2026-10-03T00:41:01.000Z",
-    "type": "Injury",
-    "headline": "Ravens OLB Trey Hendrickson Undergoes Finger Surgery, Will Miss Week 4",
-    "summary": "The Ravens will go without star pass rusher Trey Hendrickson against the Titans on Sunday. Head coach Jesse Minter announced Hendrickson underwent finger surgery, adding that the outside linebacker’s absence should be “very, very short term” (via Jamison Hensley of ESPN). Hendrickson broke his finger in the Ravens’ 41-23 win in Indianapolis in Week 1. […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/ravens-olb-trey-hendrickson-undergoes-finger-surgery-will-miss-week-4",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "50085994",
-    "publishedAt": "2026-10-03T00:08:18Z",
-    "type": "Injury",
-    "headline": "Aaron Donald out, Puka Nacua to play in Rams' game vs. Eagles",
-    "summary": "Rams defensive tackle Aaron Donald will not play against the Eagles as he deals with back soreness, while wide receiver Puka Nacua will return from a hip injury after missing the past two games.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50085994/aaron-donald-puka-nacua-play-rams-game-vs-eagles",
-    "sourceName": "ESPN"
   }
 ]
