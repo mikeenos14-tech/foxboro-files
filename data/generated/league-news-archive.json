@@ -1,12 +1,84 @@
 [
   {
+    "id": "50203338",
+    "publishedAt": "2026-10-17T19:52:48Z",
+    "type": "Injury",
+    "headline": "Steelers place Wilson on IR with finger injury",
+    "summary": "The Pittsburgh Steelers placed Roman Wilson on the injured reserve list, their second key receiver lost to injury in as many weeks.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50203338/steelers-place-receiver-wilson-ir",
+    "sourceName": "ESPN"
+  },
+  {
     "id": "50202598",
-    "publishedAt": "2026-10-17T18:30:38Z",
+    "publishedAt": "2026-10-17T19:48:14Z",
     "type": "Transaction",
     "headline": "Bears CB Kyler Gordon set for 2026 debut after PUP activation",
     "summary": "Bears nickel corner Kyler Gordon has been activated off the PUP list and could make his season debut against the Falcons.",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/50202598/bears-cb-kyler-gordon-set-2026-debut-pup-activation",
     "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/commanders-list-stefon-diggs-eight-others-as-questionable",
+    "publishedAt": "2026-10-17T19:35:02.000Z",
+    "type": "Injury",
+    "headline": "Commanders list Stefon Diggs, eight others as questionable",
+    "summary": "The Commanders played without wide receiver Stefon Diggs last Sunday and they'll wait to make a call on his availability for Monday's game against the 49ers.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/commanders-list-stefon-diggs-eight-others-as-questionable",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/grant-delpit-sums-up-difference-between-lamar-jackson-and-tyler-huntley-in-four-words",
+    "publishedAt": "2026-10-17T19:30:08.000Z",
+    "type": "Analysis",
+    "headline": "Grant Delpit sums up difference between Lamar Jackson and Tyler Huntley in four words",
+    "summary": "On Sunday, Ravens quarterback Tyler Huntley will make his 19th career NFL start (including playoffs).",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/grant-delpit-sums-up-difference-between-lamar-jackson-and-tyler-huntley-in-four-words",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=423205",
+    "publishedAt": "2026-10-17T19:27:49.000Z",
+    "type": "Injury",
+    "headline": "Patriots RB TreVeyon Henderson Could Miss Time; Latest On OLB Harold Landry",
+    "summary": "The Patriots are getting wide receiver A.J. Brown back from injured reserve in Week 6, but another of their notable offensive weapons could miss time. Running back TreVeyon Henderson has a high ankle sprain that is expected to shelve him for multiple games, according to Adam Schefter of ESPN. Henderson will not require surgery, per […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/patriots-rb-treveyon-henderson-could-miss-time-latest-on-olb-harold-landry",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "50202634",
+    "publishedAt": "2026-10-17T19:23:52Z",
+    "type": "Transaction",
+    "headline": "Taylor Moton among 3 Panthers activated ahead of Eagles game",
+    "summary": "The Panthers will have RT Taylor Moton and DE Tershawn Wharton available Sunday against the Eagles. RB Trevor Etienne was also activated off IR.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50202634/taylor-moton-3-panthers-activated-ahead-eagles-game",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/arch-manning-struggles-and-colin-simmons-is-carted-as-texas-loses-to-florida",
+    "publishedAt": "2026-10-17T19:22:15.000Z",
+    "type": "Analysis",
+    "headline": "Arch Manning struggles and Colin Simmons is carted as Texas loses to Florida",
+    "summary": "Formerly No. 1 Texas lost its second straight game on Saturday, and it was a particularly rough day for the Longhorns' two highest-profile 2027 NFL draft prospects.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/arch-manning-struggles-and-colin-simmons-is-carted-as-texas-loses-to-florida",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/steelers-put-roman-wilson-on-injured-reserve",
+    "publishedAt": "2026-10-17T19:19:59.000Z",
+    "type": "Injury",
+    "headline": "Steelers put Roman Wilson on injured reserve",
+    "summary": "Steelers wide receiver Roman Wilson will be out of the lineup for an extended period of time.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/steelers-put-roman-wilson-on-injured-reserve",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/sean-mcvay-believes-the-harrison-mevis-blocked-field-goal-would-have-missed-anyway",
+    "publishedAt": "2026-10-17T19:03:50.000Z",
+    "type": "Analysis",
+    "headline": "Sean McVay believes the Harrison Mevis blocked field goal would have missed anyway",
+    "summary": "After Monday night's overtime loss to the Bills, Rams coach Sean McVay minced no words — he said the field goal unit lost the game.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/sean-mcvay-believes-the-harrison-mevis-blocked-field-goal-would-have-missed-anyway",
+    "sourceName": "Pro Football Talk"
   },
   {
     "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/the-black-box-idea-could-be-adopted-by-some-teams",
@@ -25,15 +97,6 @@
     "summary": "The Cowboys brought in veteran coach Mike Pettine as a senior assistant this week, raising questions about their confidence in first-year defensive coordinator Christian Parker. But hiring his mentor and former boss in Green Bay has been on Parker’s mind for a while. He reached out to Pettine when he first got the Cowboys’ DC […]",
     "sourceUrl": "https://www.profootballrumors.com/2026/10/cowboys-dc-christian-parker-to-stay-on-sidelines-more-on-mike-pettine-hire",
     "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "50202634",
-    "publishedAt": "2026-10-17T18:21:20Z",
-    "type": "Transaction",
-    "headline": "Taylor Moton among 3 Panthers activated ahead of Eagles game",
-    "summary": "The Panthers will have RT Taylor Moton and DE Tershawn Wharton available Sunday against the Eagles. RB Trevor Etienne was also activated off IR.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50202634/taylor-moton-3-panthers-activated-ahead-eagles-game",
-    "sourceName": "ESPN"
   },
   {
     "id": "profootballrumors-https://www.profootballrumors.com/?p=422984",
@@ -58,7 +121,7 @@
     "publishedAt": "2026-10-17T18:07:04.000Z",
     "type": "Transaction",
     "headline": "Panthers Activate Three From Reserve Lists",
-    "summary": "As the Panthers prepare to visit a depleted Eagles team, they are getting the additional benefit of returning a few key reinforcements. According to ESPN’s Mike Kaye, Carolina has activated right tackle Taylor Moton and running Trevor Etienne on offense and defensive end Tershawn Wharton on defense. The Panthers were well-prepared for the hardship they […]",
+    "summary": "As the Panthers prepare to visit a depleted Eagles team, they are getting the additional benefit of returning a few key reinforcements. According to ESPN’s Mike Kaye, Carolina has activated right tackle Taylor Moton and running Trevor Etienne on offense and defensive lineman Tershawn Wharton on defense. The Panthers were well-prepared for the hardship they […]",
     "sourceUrl": "https://www.profootballrumors.com/2026/10/panthers-activate-three-from-reserve-lists",
     "sourceName": "Pro Football Rumors"
   },
@@ -14992,68 +15055,5 @@
     "summary": "The Commanders have an alternate helmet that adds a spear to the W.",
     "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/josh-harris-doesnt-rule-out-a-permanent-return-of-the-spear-to-the-commanders-helmet",
     "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=421852",
-    "publishedAt": "2026-10-03T19:57:46.000Z",
-    "type": "Injury",
-    "headline": "Seahawks Place RB Jadarian Price On IR",
-    "summary": "Seahawks rookie running back Jadarian Price is going on IR with a chest injury, Adam Schefter of ESPN reports. Price will miss at least four games. The Seahawks are losing Price just as fellow running back Zach Charbonnet is nearing a return from the ACL tear he suffered in a divisional-round win over the 49ers […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/seahawks-place-rb-jadarian-price-on-ir",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "50092475",
-    "publishedAt": "2026-10-03T19:52:53Z",
-    "type": "Analysis",
-    "headline": "Terry McLaurin could miss Sunday's game against Colts",
-    "summary": "John Keim gives the latest updated on the status of Terry McLaurin heading into the Commanders game against the Colts.",
-    "sourceUrl": "https://www.espn.com/video/clip/_/id/50092475/terry-mclaurin-miss-sunday-game-colts",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50063176",
-    "publishedAt": "2026-10-03T19:46:43Z",
-    "type": "Analysis",
-    "headline": "NFL Week 4 uniforms: Browns wearing 'Alpha Dawg' look; Giants go 'Legacy'",
-    "summary": "Here's a look at what each NFL team is wearing in Week 4, led by an alternate look from the Cleveland Browns.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50063176/nfl-week-4-uniforms",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/saints-rule-out-kaden-elliss-carl-granderson-for-monday-nights-game",
-    "publishedAt": "2026-10-03T19:42:10.000Z",
-    "type": "Analysis",
-    "headline": "Saints rule out Kaden Elliss, Carl Granderson for Monday night's game",
-    "summary": "Linebacker Kaden Elliss moved from the Falcons to the Saints as a free agent this offseason, but he won't be playing against his former team on Monday night.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/saints-rule-out-kaden-elliss-carl-granderson-for-monday-nights-game",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/falcons-list-divine-deablo-samson-ebukam-as-questionable-for-monday-night",
-    "publishedAt": "2026-10-03T19:19:16.000Z",
-    "type": "Injury",
-    "headline": "Falcons list Divine Deablo, Samson Ebukam as questionable for Monday night",
-    "summary": "The Falcons have released their final injury report for Monday night's game in New Orleans and it includes three of the team's linebackers.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/falcons-list-divine-deablo-samson-ebukam-as-questionable-for-monday-night",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/victor-wembanyama-will-never-promote-gambling",
-    "publishedAt": "2026-10-03T19:17:27.000Z",
-    "type": "Analysis",
-    "headline": "Victor Wembanyama will \"never\" promote gambling",
-    "summary": "One of the benefits of a no-travel Saturday is that it gives me a chance to revisit topics that flashed across the radar screen during a week of non-stop NFL news.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/victor-wembanyama-will-never-promote-gambling",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "50092081",
-    "publishedAt": "2026-10-03T19:16:45Z",
-    "type": "Injury",
-    "headline": "Saints rule out LB Kaden Elliss, pass rusher Carl Granderson",
-    "summary": "Saints linebacker Kaden Elliss (calf) and edge rushers Carl Granderson (ankle) and Anfernee Jennings (knee) have been ruled out against the Falcons on \"Monday Night Football.\"",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50092081/saints-rule-lb-kaden-elliss-pass-rusher-carl-granderson",
-    "sourceName": "ESPN"
   }
 ]

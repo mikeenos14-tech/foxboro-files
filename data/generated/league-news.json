@@ -1,5 +1,14 @@
 [
   {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=423134",
+    "publishedAt": "2026-10-17T02:49:23.000Z",
+    "type": "Injury",
+    "headline": "Ravens’ Lamar Jackson, Cam Jurgens Out For Week 6",
+    "summary": "Lamar Jackson was out for the Ravens’ Week 5 victory. His ankle injury will require at least one more game out of the lineup. Head coach Jesse Minter announced on Friday (video link) that Jackson will be sidelined once again on Sunday against the Browns. As a result, Tyler Huntley will handle quarterback duties for a second straight game. The […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/ravens-lamar-jackson-cam-jurgens-out-for-week-6",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
     "id": "profootballrumors-https://www.profootballrumors.com/?p=423195",
     "publishedAt": "2026-10-17T17:15:06.000Z",
     "type": "Injury",
@@ -9,22 +18,13 @@
     "sourceName": "Pro Football Rumors"
   },
   {
-    "id": "50198056",
-    "publishedAt": "2026-10-16T23:42:25Z",
+    "id": "50203338",
+    "publishedAt": "2026-10-17T19:52:48Z",
     "type": "Injury",
-    "headline": "Eagles' Saquon Barkley ruled out; DeVonta Smith likely to return",
-    "summary": "Eagles RB Saquon Barkley has been ruled out for Sunday's game against the Panthers with a hamstring injury, but it appears WR DeVonta Smith will return.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50198056/eagles-saquon-barkley-ruled-devonta-smith-return",
+    "headline": "Steelers place Wilson on IR with finger injury",
+    "summary": "The Pittsburgh Steelers placed Roman Wilson on the injured reserve list, their second key receiver lost to injury in as many weeks.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50203338/steelers-place-receiver-wilson-ir",
     "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=423134",
-    "publishedAt": "2026-10-17T02:49:23.000Z",
-    "type": "Injury",
-    "headline": "Ravens’ Lamar Jackson, Cam Jurgens Out For Week 6",
-    "summary": "Lamar Jackson was out for the Ravens’ Week 5 victory. His ankle injury will require at least one more game out of the lineup. Head coach Jesse Minter announced on Friday (video link) that Jackson will be sidelined once again on Sunday against the Browns. As a result, Tyler Huntley will handle quarterback duties for a second straight game. The […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/ravens-lamar-jackson-cam-jurgens-out-for-week-6",
-    "sourceName": "Pro Football Rumors"
   },
   {
     "id": "profootballrumors-https://www.profootballrumors.com/?p=423182",
@@ -36,21 +36,21 @@
     "sourceName": "Pro Football Rumors"
   },
   {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=423196",
-    "publishedAt": "2026-10-17T18:24:19.000Z",
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/sean-mcvay-believes-the-harrison-mevis-blocked-field-goal-would-have-missed-anyway",
+    "publishedAt": "2026-10-17T19:03:50.000Z",
     "type": "Analysis",
-    "headline": "Cowboys DC Christian Parker To Stay On Sidelines; More On Mike Pettine Hire",
-    "summary": "The Cowboys brought in veteran coach Mike Pettine as a senior assistant this week, raising questions about their confidence in first-year defensive coordinator Christian Parker. But hiring his mentor and former boss in Green Bay has been on Parker’s mind for a while. He reached out to Pettine when he first got the Cowboys’ DC […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/cowboys-dc-christian-parker-to-stay-on-sidelines-more-on-mike-pettine-hire",
-    "sourceName": "Pro Football Rumors"
+    "headline": "Sean McVay believes the Harrison Mevis blocked field goal would have missed anyway",
+    "summary": "After Monday night's overtime loss to the Bills, Rams coach Sean McVay minced no words — he said the field goal unit lost the game.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/sean-mcvay-believes-the-harrison-mevis-blocked-field-goal-would-have-missed-anyway",
+    "sourceName": "Pro Football Talk"
   },
   {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/the-black-box-idea-could-be-adopted-by-some-teams",
-    "publishedAt": "2026-10-17T18:30:13.000Z",
+    "id": "50190584",
+    "publishedAt": "2026-10-17T10:41:15Z",
     "type": "Analysis",
-    "headline": "The \"black box\" idea could be adopted by some teams",
-    "summary": "In the aftermath of the Commanders' overtime clock debacle against the Giants, it became impossible to figure out exactly what had happened.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/the-black-box-idea-could-be-adopted-by-some-teams",
-    "sourceName": "Pro Football Talk"
+    "headline": "Rams can't seem to fix their special teams",
+    "summary": "Special teams have played a significant role in five of the Rams' nine losses since the start of last season, including the playoffs.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50190584/los-angeles-rams-special-teams-no-fix-week-6",
+    "sourceName": "ESPN"
   }
 ]
