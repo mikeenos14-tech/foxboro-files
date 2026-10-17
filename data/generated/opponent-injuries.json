@@ -6,7 +6,7 @@
     "week": 6,
     "injury": "Ankle",
     "practiceStatus": "Did Not Participate",
-    "gameStatus": null,
+    "gameStatus": "Out",
     "lastUpdated": "2026-10-15T20:02:15.69Z"
   },
   {
@@ -16,7 +16,7 @@
     "week": 6,
     "injury": "Knee",
     "practiceStatus": "Did Not Participate",
-    "gameStatus": null,
+    "gameStatus": "Out",
     "lastUpdated": "2026-10-15T20:02:15.69Z"
   },
   {
@@ -26,7 +26,7 @@
     "week": 6,
     "injury": "Quadricep",
     "practiceStatus": "Did Not Participate",
-    "gameStatus": null,
+    "gameStatus": "Out",
     "lastUpdated": "2026-10-15T20:02:15.69Z"
   },
   {
@@ -36,7 +36,7 @@
     "week": 6,
     "injury": "Knee",
     "practiceStatus": "Limited",
-    "gameStatus": null,
+    "gameStatus": "Questionable",
     "lastUpdated": "2026-10-15T20:02:15.69Z"
   },
   {
@@ -46,7 +46,7 @@
     "week": 6,
     "injury": "Finger",
     "practiceStatus": "Did Not Participate",
-    "gameStatus": null,
+    "gameStatus": "Out",
     "lastUpdated": "2026-10-15T20:02:15.69Z"
   },
   {
@@ -57,7 +57,7 @@
     "injury": "Quadricep",
     "practiceStatus": "Full",
     "gameStatus": null,
-    "lastUpdated": "2026-10-17T02:35:43.437Z"
+    "lastUpdated": "2026-10-17T07:25:59.160Z"
   },
   {
     "playerId": "00-0041032",
@@ -66,7 +66,7 @@
     "week": 6,
     "injury": "Concussion",
     "practiceStatus": "Limited",
-    "gameStatus": null,
+    "gameStatus": "Questionable",
     "lastUpdated": "2026-10-15T20:02:15.69Z"
   },
   {
@@ -76,7 +76,7 @@
     "week": 6,
     "injury": "Ankle",
     "practiceStatus": "Limited",
-    "gameStatus": null,
+    "gameStatus": "Questionable",
     "lastUpdated": "2026-10-15T20:02:15.69Z"
   },
   {
