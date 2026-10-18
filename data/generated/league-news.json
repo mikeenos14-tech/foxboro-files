@@ -1,30 +1,21 @@
 [
   {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=423195",
-    "publishedAt": "2026-10-18T15:01:06.000Z",
-    "type": "Analysis",
-    "headline": "Eagles Place QB Jalen Hurts On IR; Return Date Uncertain",
-    "summary": "OCTOBER 18: Rapoport (video link) says that Hurts will need to begin a regimen of blood thinners, and it is unclear when he will be able to return to the field. Schefter (video link) echoes that report and suggests Hurts may not be able to play again in 2026. OCTOBER 17: 10:00pm: Contrary to the […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/eagles-to-place-jalen-hurts-on-ir",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "50211308",
-    "publishedAt": "2026-10-18T17:13:30Z",
-    "type": "Analysis",
-    "headline": "Fairbairn's last-second 49-yard FG gives Texans 34-31 win over Jaguars at Wembley Stadium",
-    "summary": "— Ka’imi Fairbairn kicked a 49-yard field goal as time expired, C.J. Stroud threw three touchdown passes and the Houston Texans beat the Jacksonville Jaguars 34-31 on the slick grass of Wembley Stadium on Sunday.",
-    "sourceUrl": "http://www.espn.com/nfl/recap?gameId=401872996",
+    "id": "50212250",
+    "publishedAt": "2026-10-18T19:53:26Z",
+    "type": "Injury",
+    "headline": "Falcons' Kendal Daniels hurts neck on tackle vs. Bears, hospitalized",
+    "summary": "Kendal Daniels is alert and has movement in all his extremities, the Falcons said Sunday, after he injured his neck on a tackle attempt vs. the Bears.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50212250/falcons-kendal-daniels-carted-collision-vs-bears",
     "sourceName": "ESPN"
   },
   {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=423310",
-    "publishedAt": "2026-10-18T17:40:45.000Z",
-    "type": "Transaction",
-    "headline": "Chargers Expecting Turnaround, Rebuffing Trade Inquiries",
-    "summary": "The Chargers are presently sitting at 0-5 and therefore look like they will be sellers at next month’s deadline. A handful of notable players like Khalil Mack, Tuli Tuipulotu, and Quentin Johnston have already been mentioned in trade rumors. However, general manager Joe Hortiz is not interested in fielding trade calls just yet. As The […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/chargers-expecting-turnaround-rebuffing-trade-inquiries",
-    "sourceName": "Pro Football Rumors"
+    "id": "50211308",
+    "publishedAt": "2026-10-18T18:52:27Z",
+    "type": "Analysis",
+    "headline": "Fairbairn's last-second 49-yard FG gives Texans 34-31 win over Jaguars at Wembley Stadium",
+    "summary": "— Trying to seal a desperately needed win, Houston Texans quarterback C.J. Stroud threw an interception in the end zone and gave the Jacksonville Jaguars another chance on Sunday.",
+    "sourceUrl": "http://www.espn.com/nfl/recap?gameId=401872996",
+    "sourceName": "ESPN"
   },
   {
     "id": "50210735",
@@ -45,12 +36,21 @@
     "sourceName": "Pro Football Talk"
   },
   {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=423293",
-    "publishedAt": "2026-10-18T14:06:03.000Z",
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/sauce-gardner-questionable-to-return-with-calf-injury",
+    "publishedAt": "2026-10-18T19:18:57.000Z",
+    "type": "Injury",
+    "headline": "Sauce Gardner questionable to return with calf injury",
+    "summary": "The Colts are dealing with an injury to one of their key defensive players.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/sauce-gardner-questionable-to-return-with-calf-injury",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=423310",
+    "publishedAt": "2026-10-18T17:40:45.000Z",
     "type": "Transaction",
-    "headline": "Browns Open To Re-Signing QB Deshaun Watson",
-    "summary": "Back in June, Browns general manager Andrew Berry said he would not rule out a new deal for quarterback Deshaun Watson, who is now in the final season of his infamous five-year contract with Cleveland. At the time, Watson was still battling second-year pro Shedeur Sanders for the Browns’ starting QB job, and given that […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/browns-open-to-re-signing-qb-deshaun-watson",
+    "headline": "Chargers Expecting Turnaround, Rebuffing Trade Inquiries",
+    "summary": "The Chargers are presently sitting at 0-5 and therefore look like they will be sellers at next month’s deadline. A handful of notable players like Khalil Mack, Tuli Tuipulotu, and Quentin Johnston have already been mentioned in trade rumors. However, general manager Joe Hortiz is not interested in fielding trade calls just yet. As The […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/chargers-expecting-turnaround-rebuffing-trade-inquiries",
     "sourceName": "Pro Football Rumors"
   }
 ]
