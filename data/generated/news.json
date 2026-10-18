@@ -1,5 +1,50 @@
 [
   {
+    "id": "eb2eee09-9661-4e25-a2a2-d5615727e36a",
+    "publishedAt": "2026-10-18T12:25:00.000Z",
+    "type": "Injury",
+    "headline": "Roster Analysis: Patriots activate WR A.J. Brown for Sunday's game vs. the Jets in Week 6",
+    "summary": "The Patriots activated Brown (ankle) from injured reserve while elevating S Elliott Davison from the practice squad for Week 6.",
+    "sourceUrl": "https://www.patriots.com/news/roster-analysis-patriots-activate-wr-a-j-brown-for-sunday-s-game-vs-the-jets-in-week-6",
+    "sourceName": "Patriots.com"
+  },
+  {
+    "id": "85673bb4-315f-49bc-8fe3-d20e4272864f",
+    "publishedAt": "2026-10-18T12:20:00.000Z",
+    "type": "Analysis",
+    "headline": "How to Watch and Stream Sunday's Patriots Game Against the Jets | NFL Week 6",
+    "summary": "Complete broadcast information for this week's game between the New England Patriots and the New York Jets on Sunday, October 18, 2026 at 1 PM ET.",
+    "sourceUrl": "https://www.patriots.com/news/how-to-watch-and-stream-sunday-s-patriots-game-against-the-jets-nfl-week-6",
+    "sourceName": "Patriots.com"
+  },
+  {
+    "id": "50198740",
+    "publishedAt": "2026-10-18T10:00:04Z",
+    "type": "Analysis",
+    "headline": "Patriots' 2026 rookies: Who has made an impact through five weeks?",
+    "summary": "With two rookies assuming starting roles, let's take a look at how this year's draft class has panned out.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50198740/new-england-patriots-notebook-rookies-jets-lomu-jacas",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "9e4a99ff-93af-4736-93fb-7ce997a17026",
+    "publishedAt": "2026-10-18T06:25:00.000Z",
+    "type": "Analysis",
+    "headline": "3 to Watch: Patriots-Jets Meet in Week 6 AFC East Clash",
+    "summary": "The Patriots look to extend their winning streak to three games as they welcome the 2-3 New York Jets for an AFC East battle.",
+    "sourceUrl": "https://www.patriots.com/news/3-to-watch-patriots-jets-meet-in-week-6-afc-east-clash",
+    "sourceName": "Patriots.com"
+  },
+  {
+    "id": "def62a70-5d7b-4cda-a9e6-9477694555ac",
+    "publishedAt": "2026-10-18T05:25:00.000Z",
+    "type": "Analysis",
+    "headline": "Game Preview: Patriots vs. Jets | NFL Week 6",
+    "summary": "The New England Patriots will host the New York Jets at Gillette Stadium on Sunday, October 18 at 1 PM ET.",
+    "sourceUrl": "https://www.patriots.com/news/game-preview-patriots-vs-jets-nfl-week-6",
+    "sourceName": "Patriots.com"
+  },
+  {
     "id": "50200910",
     "publishedAt": "2026-10-17T20:14:34Z",
     "type": "Transaction",
@@ -9,48 +54,12 @@
     "sourceName": "ESPN"
   },
   {
-    "id": "eb2eee09-9661-4e25-a2a2-d5615727e36a",
-    "publishedAt": "2026-10-17T20:00:05.000Z",
-    "type": "Injury",
-    "headline": "Roster Analysis: Patriots activate WR A.J. Brown for Sunday's game vs. the Jets in Week 6",
-    "summary": "The Patriots activated Brown (ankle) from injured reserve while elevating S Elliott Davison from the practice squad for Week 6.",
-    "sourceUrl": "https://www.patriots.com/news/roster-analysis-patriots-activate-wr-a-j-brown-for-sunday-s-game-vs-the-jets-in-week-6",
-    "sourceName": "Patriots.com"
-  },
-  {
-    "id": "5b5fb14d-900b-49e5-9b1f-a1d4c22b8849",
-    "publishedAt": "2026-10-17T20:00:05.000Z",
-    "type": "Transaction",
-    "headline": "Patriots Make a Series of Roster Moves",
-    "summary": "The New England Patriots announced today that WR A.J. Brown has been activated to the 53-man roster.",
-    "sourceUrl": "https://www.patriots.com/news/patriots-make-a-series-of-roster-moves-x0182",
-    "sourceName": "Patriots.com"
-  },
-  {
-    "id": "a068f37c-7511-4cea-b0d8-1e60d4a21129",
-    "publishedAt": "2026-10-16T19:26:31.000Z",
-    "type": "Injury",
-    "headline": "Injury Report Analysis: Christian Gonzalez expected to play, A.J. Brown officially questionable for Sunday's game vs. Jets",
-    "summary": "The Patriots will make a decision on Brown's (ankle) status for this week on Saturday, per head coach Mike Vrabel.",
-    "sourceUrl": "https://www.patriots.com/news/injury-report-analysis-christian-gonzalez-expected-to-play-a-j-brown-officially-questionable-for-sunday-s-game-vs-jets",
-    "sourceName": "Patriots.com"
-  },
-  {
-    "id": "0f789695-bc4c-4d7e-9d1d-7fc2c266252f",
-    "publishedAt": "2026-10-16T19:24:00.000Z",
-    "type": "Injury",
-    "headline": "Week 6 Injury Report: Patriots vs. Jets",
-    "summary": "The New England Patriots and the New York Jets announce the following player injuries and practice participation ahead of their Week 6 game.",
-    "sourceUrl": "https://www.patriots.com/news/week-6-injury-report-patriots-vs-jets",
-    "sourceName": "Patriots.com"
-  },
-  {
-    "id": "9d3710db-c889-4642-866b-0a9c9b99a75e",
-    "publishedAt": "2026-10-16T15:00:00.000Z",
+    "id": "cddc3765-f6c8-448a-9e25-9aa4526b4f9b",
+    "publishedAt": "2026-10-16T14:46:00.000Z",
     "type": "Analysis",
-    "headline": "Hunter Henry named NFLPA Community MVP after hosting second annual \"Freedom to Play\" ping pong tournament",
-    "summary": "New England Patriots tight end Hunter Henry was named the NFLPA’s Community MVP for Week 6, two weeks after teammate Mack Hollins earned the same recognition.",
-    "sourceUrl": "https://www.patriots.com/news/hunter-henry-named-nflpa-community-mvp-after-hosting-second-annual-freedom-to-play-ping-pong-tournament",
+    "headline": "Expert Predictions: Week 6 Picks for Jets at Patriots",
+    "summary": "Experts share their picks for the Patriots Week 6 matchup against the New York Jets.",
+    "sourceUrl": "https://www.patriots.com/news/expert-predictions-week-6-picks-for-jets-at-patriots",
     "sourceName": "Patriots.com"
   },
   {
