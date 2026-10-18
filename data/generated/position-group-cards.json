@@ -1,9 +1,9 @@
 [
   {
     "group": "QB",
-    "grade": 61,
+    "grade": 65,
     "trend": "up",
-    "soWhat": "EPA/play at QB, on 168 plays.",
+    "soWhat": "EPA/play at QB, on 200 plays.",
     "windows": [
       {
         "key": "last-1",
@@ -13,172 +13,212 @@
       {
         "key": "last-3",
         "label": "Last 3 Games",
-        "grade": 81
+        "grade": 100
+      },
+      {
+        "key": "last-5",
+        "label": "Last 5 Games",
+        "grade": 68
       }
     ],
     "statLine": "",
-    "sampleSize": 168,
+    "sampleSize": 200,
     "confidence": "high"
   },
   {
     "group": "RB",
-    "grade": 42,
+    "grade": 35,
     "trend": "down",
-    "soWhat": "EPA/play at RB, on 119 plays.",
+    "soWhat": "EPA/play at RB, on 151 plays.",
     "windows": [
       {
         "key": "last-1",
         "label": "Last Game",
-        "grade": 32
+        "grade": 19
       },
       {
         "key": "last-3",
         "label": "Last 3 Games",
-        "grade": 39
+        "grade": 23
+      },
+      {
+        "key": "last-5",
+        "label": "Last 5 Games",
+        "grade": 48
       }
     ],
-    "statLine": "471 yds, 4.0 YPC, 3 TD, 1 FUM, 10% explosive",
-    "sampleSize": 119,
+    "statLine": "595 yds, 3.9 YPC, 3 TD, 2 FUM, 9% explosive",
+    "sampleSize": 151,
     "confidence": "high",
     "noisyMetric": true
   },
   {
     "group": "WR",
-    "grade": 84,
+    "grade": 71,
     "trend": "up",
-    "soWhat": "EPA/play at WR, on 92 plays.",
+    "soWhat": "EPA/play at WR, on 113 plays.",
     "windows": [
       {
         "key": "last-1",
         "label": "Last Game",
-        "grade": 100
+        "grade": 97
       },
       {
         "key": "last-3",
         "label": "Last 3 Games",
-        "grade": 90
+        "grade": 97
+      },
+      {
+        "key": "last-5",
+        "label": "Last 5 Games",
+        "grade": 81
       }
     ],
-    "statLine": "58/92 (63%), 846 yds, 3.0 YAC/rec, 6 TD",
-    "sampleSize": 92,
+    "statLine": "70/113 (62%), 1013 yds, 2.9 YAC/rec, 8 TD",
+    "sampleSize": 113,
     "confidence": "high",
     "secondaryGrade": {
       "label": "Hands & YAC (QB-independent)",
       "grade": null,
-      "detail": "57 of 61 catchable balls caught · 1 drop · 3.0 YAC/rec · 9/18 contested",
+      "detail": "57 of 61 catchable balls caught · 1 drop · 2.9 YAC/rec · 9/18 contested · charted so far: 92 of 113 targets",
       "note": "Not ranked yet — teams are still closer together than chance alone explains."
     }
   },
   {
     "group": "TE",
-    "grade": 81,
+    "grade": 90,
     "trend": "flat",
-    "soWhat": "EPA/play at TE, on 28 plays.",
+    "soWhat": "EPA/play at TE, on 36 plays.",
     "windows": [
       {
         "key": "last-1",
         "label": "Last Game",
-        "grade": 90
+        "grade": 97
       },
       {
         "key": "last-3",
         "label": "Last 3 Games",
-        "grade": 94
+        "grade": 97
+      },
+      {
+        "key": "last-5",
+        "label": "Last 5 Games",
+        "grade": 90
       }
     ],
-    "statLine": "23/28 (82%), 278 yds, 5.6 YAC/rec, 2 TD",
-    "sampleSize": 28,
+    "statLine": "28/36 (78%), 337 yds, 6.0 YAC/rec, 3 TD",
+    "sampleSize": 36,
     "confidence": "medium",
     "noisyMetric": true,
     "secondaryGrade": {
       "label": "Hands & YAC (QB-independent)",
       "grade": null,
-      "detail": "23 of 23 catchable balls caught · 0 drops · 5.6 YAC/rec · 3/5 contested",
+      "detail": "23 of 23 catchable balls caught · 0 drops · 6.0 YAC/rec · 3/5 contested · charted so far: 28 of 36 targets",
       "note": "Not ranked yet — teams are still closer together than chance alone explains."
     }
   },
   {
     "group": "Pass Protection",
-    "grade": 71,
-    "trend": "down",
+    "grade": 77,
+    "trend": "flat",
     "soWhat": "Pressure rate allowed — sacks or QB hits, so a beaten block still counts when a quick throw bails it out. Team-wide, and partly the QB's own time to throw.",
     "windows": [
       {
         "key": "last-1",
         "label": "Last Game",
-        "grade": 61
+        "grade": 71
       },
       {
         "key": "last-3",
         "label": "Last 3 Games",
+        "grade": 77
+      },
+      {
+        "key": "last-5",
+        "label": "Last 5 Games",
         "grade": 61
       }
     ],
     "statLine": "Drake Maye takes 3.06 sec to throw on average — 5th-longest of 37 qualified QBs (a longer hold gives the rush more time)",
-    "sampleSize": 169,
+    "sampleSize": 201,
     "confidence": "high"
   },
   {
     "group": "Pass Rush",
-    "grade": 58,
-    "trend": "flat",
+    "grade": 52,
+    "trend": "up",
     "soWhat": "Sack rate generated, team-wide — edge rushers, interior linemen and blitzers all included.",
     "windows": [
       {
         "key": "last-1",
         "label": "Last Game",
-        "grade": 61
+        "grade": 74
       },
       {
         "key": "last-3",
         "label": "Last 3 Games",
-        "grade": 29
+        "grade": 42
+      },
+      {
+        "key": "last-5",
+        "label": "Last 5 Games",
+        "grade": 48
       }
     ],
-    "statLine": "11 sacks, 31 QB hits — leader: Elijah Ponder (4.5 sacks)",
-    "sampleSize": 174,
+    "statLine": "14 sacks, 37 QB hits — leader: Elijah Ponder (5.5 sacks)",
+    "sampleSize": 207,
     "confidence": "high"
   },
   {
     "group": "Run Defense",
-    "grade": 45,
+    "grade": 52,
     "trend": "up",
     "soWhat": "Rush EPA allowed, team-wide — the front seven and run-support safeties together.",
     "windows": [
       {
         "key": "last-1",
         "label": "Last Game",
-        "grade": 84
+        "grade": 94
       },
       {
         "key": "last-3",
         "label": "Last 3 Games",
-        "grade": 26
+        "grade": 97
+      },
+      {
+        "key": "last-5",
+        "label": "Last 5 Games",
+        "grade": 52
       }
     ],
-    "statLine": "20 TFL, 5 forced fumbles — leader: Elijah Ponder (6 TFL)",
-    "sampleSize": 112,
+    "statLine": "25 TFL, 5 forced fumbles — leader: Elijah Ponder (7 TFL)",
+    "sampleSize": 138,
     "confidence": "high"
   },
   {
     "group": "Pass Defense",
-    "grade": 84,
+    "grade": 61,
     "trend": "down",
     "soWhat": "Pass EPA allowed, team-wide — coverage and pass rush together, since the two aren't separable in this data.",
     "windows": [
       {
         "key": "last-1",
         "label": "Last Game",
-        "grade": 48
+        "grade": 35
       },
       {
         "key": "last-3",
         "label": "Last 3 Games",
-        "grade": 39
+        "grade": 29
+      },
+      {
+        "key": "last-5",
+        "label": "Last 5 Games",
+        "grade": 77
       }
     ],
-    "statLine": "3 INT, 20 PBU — leader: Gabe Jacas (1 INT)",
-    "sampleSize": 173,
+    "statLine": "4 INT, 24 PBU — leader: Gabe Jacas (1 INT)",
+    "sampleSize": 206,
     "confidence": "high"
   }
 ]

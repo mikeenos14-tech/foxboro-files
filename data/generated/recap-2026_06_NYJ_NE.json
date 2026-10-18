@@ -1,0 +1,214 @@
+{
+  "gameId": "2026_06_NYJ_NE",
+  "narrative": "New England beat NYJ 26-19. The offense posted 0.01 EPA/play (43% success rate) while the defense allowed -0.04 EPA/play. Turnover margin was -1.",
+  "epaPerPlay": {
+    "offense": 0.012265918343946504,
+    "defense": -0.03686338693480613
+  },
+  "successRate": {
+    "offense": 0.43283582089552236,
+    "defense": 0.4915254237288136,
+    "leagueAverage": 0.4326887661141805
+  },
+  "turnoverMargin": -1,
+  "pointsOffTurnovers": {
+    "for": 0,
+    "against": 0
+  },
+  "explosivePlayRate": {
+    "for": 0.11940298507462686,
+    "against": 0.1694915254237288
+  },
+  "redZone": {
+    "offense": {
+      "att": 5,
+      "td": 3
+    },
+    "defense": {
+      "att": 4,
+      "td": 1
+    }
+  },
+  "thirdDown": {
+    "offense": {
+      "att": 15,
+      "conv": 8
+    },
+    "defense": {
+      "att": 10,
+      "conv": 3
+    }
+  },
+  "winProbabilityTimeline": [
+    {
+      "playIndex": 0,
+      "quarter": 1,
+      "clock": "15:00",
+      "homeWinProb": 0.566792041063309
+    },
+    {
+      "playIndex": 8,
+      "quarter": 1,
+      "clock": "11:04",
+      "homeWinProb": 0.450273156166077
+    },
+    {
+      "playIndex": 16,
+      "quarter": 1,
+      "clock": "08:17",
+      "homeWinProb": 0.511087536811829
+    },
+    {
+      "playIndex": 24,
+      "quarter": 1,
+      "clock": "04:35",
+      "homeWinProb": 0.571852773427963
+    },
+    {
+      "playIndex": 32,
+      "quarter": 1,
+      "clock": "01:54",
+      "homeWinProb": 0.658386021852493
+    },
+    {
+      "playIndex": 40,
+      "quarter": 2,
+      "clock": "13:42",
+      "homeWinProb": 0.736938655376434
+    },
+    {
+      "playIndex": 48,
+      "quarter": 2,
+      "clock": "10:15",
+      "homeWinProb": 0.699007511138916
+    },
+    {
+      "playIndex": 56,
+      "quarter": 2,
+      "clock": "06:00",
+      "homeWinProb": 0.764848113059998
+    },
+    {
+      "playIndex": 64,
+      "quarter": 2,
+      "clock": "01:56",
+      "homeWinProb": 0.831548154354096
+    },
+    {
+      "playIndex": 72,
+      "quarter": 2,
+      "clock": "01:29",
+      "homeWinProb": 0.818496078252792
+    },
+    {
+      "playIndex": 80,
+      "quarter": 2,
+      "clock": "00:24",
+      "homeWinProb": 0.878465354442596
+    },
+    {
+      "playIndex": 88,
+      "quarter": 3,
+      "clock": "14:56",
+      "homeWinProb": 0.927757382392883
+    },
+    {
+      "playIndex": 96,
+      "quarter": 3,
+      "clock": "11:10",
+      "homeWinProb": 0.882342644035816
+    },
+    {
+      "playIndex": 104,
+      "quarter": 3,
+      "clock": "08:10",
+      "homeWinProb": 0.703172296285629
+    },
+    {
+      "playIndex": 112,
+      "quarter": 3,
+      "clock": "04:04",
+      "homeWinProb": 0.739351212978363
+    },
+    {
+      "playIndex": 120,
+      "quarter": 3,
+      "clock": "00:02",
+      "homeWinProb": 0.836970567703247
+    },
+    {
+      "playIndex": 128,
+      "quarter": 4,
+      "clock": "13:33",
+      "homeWinProb": 0.857495605945587
+    },
+    {
+      "playIndex": 136,
+      "quarter": 4,
+      "clock": "09:31",
+      "homeWinProb": 0.878262154757977
+    },
+    {
+      "playIndex": 144,
+      "quarter": 4,
+      "clock": "07:31",
+      "homeWinProb": 0.829885303974152
+    },
+    {
+      "playIndex": 152,
+      "quarter": 4,
+      "clock": "03:46",
+      "homeWinProb": 0.953285694122314
+    },
+    {
+      "playIndex": 160,
+      "quarter": 4,
+      "clock": "01:14",
+      "homeWinProb": 0.990546345710754
+    },
+    {
+      "playIndex": 168,
+      "quarter": 4,
+      "clock": "00:42",
+      "homeWinProb": 0.957112547010183
+    },
+    {
+      "playIndex": 173,
+      "quarter": 4,
+      "clock": "00:00",
+      "homeWinProb": 1
+    }
+  ],
+  "standouts": [],
+  "goodBadUgly": {
+    "good": [
+      "Allowed NYJ touchdowns on 1 of 4 red-zone trips (25%), well below the 55% league norm.",
+      "Converted 8 of 15 third downs (53%), well above the 40% league norm."
+    ],
+    "bad": [
+      "Lost the turnover battle by 1."
+    ],
+    "ugly": []
+  },
+  "playerOfTheGame": {
+    "playerId": "00-0039851",
+    "playerName": "Drake Maye",
+    "wpa": 0.1604851469123515,
+    "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/mkauzrg7vo8lfziigsbg",
+    "reason": "Mostly as a passer."
+  },
+  "scoring": {
+    "us": {
+      "td": 3,
+      "fg": 2,
+      "safety": 0
+    },
+    "them": {
+      "td": 1,
+      "fg": 4,
+      "safety": 0
+    }
+  },
+  "fanTake": "The Patriots grinding out a 26-19 win over the Jets at home on Sunday felt less like a statement and more like a business trip — efficient, competent, and ultimately profitable, which is exactly what you want in October. Drake Maye's arm was the story, adding 16% win probability on a day when the offense operated right at league average but made it count when it mattered: converting third downs at 53% (well above the 40% norm) and punching home three touchdowns on five red-zone trips. The defense did its job holding New York to 25% red-zone efficiency and 30% on third down, both well below the league standard, which is the kind of quiet dominance that wins football games without needing the scoreboard to scream about it. Getting A.J. Brown, Will Campbell, and TreVeyon Henderson back in the lineup clearly mattered, and even the loss of Romeo Doubs to injury after that 42-yard touchdown grab in the first quarter couldn't derail the machine. It was workmanlike, it was winning, and in a division like the AFC East, that's all that really matters.",
+  "aiVersion": 8
+}

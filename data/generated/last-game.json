@@ -1,14 +1,15 @@
 {
-  "id": "2026_05_LV_NE",
+  "id": "2026_06_NYJ_NE",
   "season": 2026,
-  "week": 5,
+  "week": 6,
   "seasonType": "REG",
-  "date": "2026-10-11",
+  "date": "2026-10-18",
   "kickoffTimeEt": "13:00",
   "homeTeam": "NE",
-  "awayTeam": "LV",
-  "homeScore": 45,
-  "awayScore": 17,
+  "awayTeam": "NYJ",
+  "homeScore": 26,
+  "awayScore": 19,
   "status": "final",
-  "venue": "Gillette Stadium"
+  "venue": "Gillette Stadium",
+  "network": "CBS"
 }

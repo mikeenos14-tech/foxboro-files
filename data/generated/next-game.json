@@ -1,13 +1,12 @@
 {
-  "id": "2026_06_NYJ_NE",
+  "id": "2026_07_NE_CHI",
   "season": 2026,
-  "week": 6,
+  "week": 7,
   "seasonType": "REG",
-  "date": "2026-10-18",
-  "kickoffTimeEt": "13:00",
-  "homeTeam": "NE",
-  "awayTeam": "NYJ",
+  "date": "2026-10-22",
+  "kickoffTimeEt": "20:15",
+  "homeTeam": "CHI",
+  "awayTeam": "NE",
   "status": "scheduled",
-  "venue": "Gillette Stadium",
-  "network": "CBS"
+  "venue": "Soldier Field"
 }

@@ -600,6 +600,222 @@
       "yards": 8,
       "neEpa": 2.63426776509732
     },
+    "2026_06_NYJ_NE|1579": {
+      "key": "2026_06_NYJ_NE|1579",
+      "week": 6,
+      "opponent": "NYJ",
+      "quarter": 2,
+      "clock": "2:00",
+      "situation": "1st & 10 at NYJ 20",
+      "offense": "NE",
+      "description": "(2:00) (Shotgun) 10-D.Maye pass short right to 1-A.Brown to NYJ 12 for 8 yards (1-A.Thomas, 31-D.Bailey). FUMBLES (31-D.Bailey), and recovers at NYJ 12.",
+      "yards": 8,
+      "neEpa": 0.633137994474964
+    },
+    "2026_06_NYJ_NE|1611": {
+      "key": "2026_06_NYJ_NE|1611",
+      "week": 6,
+      "opponent": "NYJ",
+      "quarter": 2,
+      "clock": "1:56",
+      "situation": "2nd & 2 at NYJ 12",
+      "offense": "NE",
+      "description": "(1:56) 38-R.Stevenson up the middle to NYJ 14 for -2 yards (99-T.Sweat, 6-D.Belton).",
+      "yards": -2,
+      "neEpa": -1.26962651978829
+    },
+    "2026_06_NYJ_NE|1640": {
+      "key": "2026_06_NYJ_NE|1640",
+      "week": 6,
+      "opponent": "NYJ",
+      "quarter": 2,
+      "clock": "1:52",
+      "situation": "3rd & 4 at NYJ 14",
+      "offense": "NE",
+      "description": "(1:52) (Shotgun) 10-D.Maye pass incomplete short right to 1-A.Brown.",
+      "yards": 0,
+      "neEpa": -0.896410874543279
+    },
+    "2026_06_NYJ_NE|1670": {
+      "key": "2026_06_NYJ_NE|1670",
+      "week": 6,
+      "opponent": "NYJ",
+      "quarter": 2,
+      "clock": "1:49",
+      "situation": "4th & 4 at NYJ 14",
+      "offense": "NE",
+      "description": "(1:49) 8-A.Borregales 32 yard field goal is GOOD, Center-47-J.Ashby, Holder-19-M.Wishnowsky.",
+      "yards": 0,
+      "neEpa": 0.215933514687265
+    },
+    "2026_06_NYJ_NE|1958": {
+      "key": "2026_06_NYJ_NE|1958",
+      "week": 6,
+      "opponent": "NYJ",
+      "quarter": 2,
+      "clock": "0:29",
+      "situation": "1st & Goal at NYJ 9",
+      "offense": "NE",
+      "description": "(:29) (Shotgun) 10-D.Maye pass incomplete short middle to 1-A.Brown.",
+      "yards": 0,
+      "neEpa": -0.463979398366064
+    },
+    "2026_06_NYJ_NE|1981": {
+      "key": "2026_06_NYJ_NE|1981",
+      "week": 6,
+      "opponent": "NYJ",
+      "quarter": 2,
+      "clock": "0:24",
+      "situation": "2nd & Goal at NYJ 9",
+      "offense": "NE",
+      "description": "(:24) (Shotgun) 10-D.Maye pass incomplete short middle to 82-E.Raridon (6-D.Belton).",
+      "yards": 0,
+      "neEpa": -0.683306056365836
+    },
+    "2026_06_NYJ_NE|2016": {
+      "key": "2026_06_NYJ_NE|2016",
+      "week": 6,
+      "opponent": "NYJ",
+      "quarter": 2,
+      "clock": "0:20",
+      "situation": "3rd & Goal at NYJ 9",
+      "offense": "NE",
+      "description": "(:20) (Shotgun) 10-D.Maye pass short right to 3-D.Douglas for 9 yards, TOUCHDOWN.",
+      "yards": 9,
+      "neEpa": 3.81535679416265
+    },
+    "2026_06_NYJ_NE|3024": {
+      "key": "2026_06_NYJ_NE|3024",
+      "week": 6,
+      "opponent": "NYJ",
+      "quarter": 3,
+      "clock": "0:46",
+      "situation": "2nd & 1 at NYJ 18",
+      "offense": "NE",
+      "description": "(:46) (Shotgun) 9-C.Kiner up the middle to NYJ 14 for 4 yards (91-J.Briggs; 6-D.Belton).",
+      "yards": 4,
+      "neEpa": -0.038683787395712
+    },
+    "2026_06_NYJ_NE|3046": {
+      "key": "2026_06_NYJ_NE|3046",
+      "week": 6,
+      "opponent": "NYJ",
+      "quarter": 3,
+      "clock": "0:02",
+      "situation": "1st & 10 at NYJ 14",
+      "offense": "NE",
+      "description": "(:02) PENALTY on NYJ-31-D.Bailey, Neutral Zone Infraction, 5 yards, enforced at NYJ 14 - No Play.",
+      "yards": 0,
+      "neEpa": 0.28162055707071
+    },
+    "2026_06_NYJ_NE|3090": {
+      "key": "2026_06_NYJ_NE|3090",
+      "week": 6,
+      "opponent": "NYJ",
+      "quarter": 4,
+      "clock": "15:00",
+      "situation": "1st & 5 at NYJ 9",
+      "offense": "NE",
+      "description": "(15:00) (Shotgun) 9-C.Kiner right tackle to NYJ 7 for 2 yards (44-J.Sherwood).",
+      "yards": 2,
+      "neEpa": 0.0306857180548832
+    },
+    "2026_06_NYJ_NE|3117": {
+      "key": "2026_06_NYJ_NE|3117",
+      "week": 6,
+      "opponent": "NYJ",
+      "quarter": 4,
+      "clock": "14:20",
+      "situation": "2nd & 3 at NYJ 7",
+      "offense": "NE",
+      "description": "(14:20) (Shotgun) 10-D.Maye pass incomplete short middle to 86-E.Chism.",
+      "yards": 0,
+      "neEpa": -0.806705375085585
+    },
+    "2026_06_NYJ_NE|3140": {
+      "key": "2026_06_NYJ_NE|3140",
+      "week": 6,
+      "opponent": "NYJ",
+      "quarter": 4,
+      "clock": "14:13",
+      "situation": "3rd & 3 at NYJ 7",
+      "offense": "NE",
+      "description": "(14:13) (Shotgun) 10-D.Maye pass short right to 85-H.Henry for 7 yards, TOUCHDOWN.",
+      "yards": 7,
+      "neEpa": 2.39250250323676
+    },
+    "2026_06_NYJ_NE|3935": {
+      "key": "2026_06_NYJ_NE|3935",
+      "week": 6,
+      "opponent": "NYJ",
+      "quarter": 4,
+      "clock": "3:33",
+      "situation": "2nd & 2 at NYJ 16",
+      "offense": "NE",
+      "description": "(3:33) 9-C.Kiner right tackle to NYJ 13 for 3 yards (56-D.Davis).",
+      "yards": 3,
+      "neEpa": -0.414003368990961
+    },
+    "2026_06_NYJ_NE|3967": {
+      "key": "2026_06_NYJ_NE|3967",
+      "week": 6,
+      "opponent": "NYJ",
+      "quarter": 4,
+      "clock": "3:27",
+      "situation": "1st & 10 at NYJ 13",
+      "offense": "NE",
+      "description": "(3:27) 9-C.Kiner up the middle to NYJ 11 for 2 yards (99-T.Sweat; 52-K.Enagbare).",
+      "yards": 2,
+      "neEpa": -0.813964523607865
+    },
+    "2026_06_NYJ_NE|3999": {
+      "key": "2026_06_NYJ_NE|3999",
+      "week": 6,
+      "opponent": "NYJ",
+      "quarter": 4,
+      "clock": "2:41",
+      "situation": "2nd & 8 at NYJ 11",
+      "offense": "NE",
+      "description": "(2:41) (Shotgun) 9-C.Kiner up the middle to NYJ 6 for 5 yards (6-D.Belton; 29-M.Fitzpatrick).",
+      "yards": 5,
+      "neEpa": 0.317814775684383
+    },
+    "2026_06_NYJ_NE|4021": {
+      "key": "2026_06_NYJ_NE|4021",
+      "week": 6,
+      "opponent": "NYJ",
+      "quarter": 4,
+      "clock": "2:00",
+      "situation": "3rd & 3 at NYJ 6",
+      "offense": "NE",
+      "description": "(2:00) (Shotgun) 38-R.Stevenson up the middle to NYJ 4 for 2 yards (29-M.Fitzpatrick; 52-K.Enagbare). (Virtual Measurement).",
+      "yards": 2,
+      "neEpa": -0.655961679352913
+    },
+    "2026_06_NYJ_NE|4070": {
+      "key": "2026_06_NYJ_NE|4070",
+      "week": 6,
+      "opponent": "NYJ",
+      "quarter": 4,
+      "clock": "1:14",
+      "situation": "4th & 1 at NYJ 4",
+      "offense": "NE",
+      "description": "(1:14) (Run formation) PENALTY on NE, Delay of Game, 5 yards, enforced at NYJ 4 - No Play.",
+      "yards": 0,
+      "neEpa": 0.00374732695483226
+    },
+    "2026_06_NYJ_NE|4058": {
+      "key": "2026_06_NYJ_NE|4058",
+      "week": 6,
+      "opponent": "NYJ",
+      "quarter": 4,
+      "clock": "1:14",
+      "situation": "4th & 6 at NYJ 9",
+      "offense": "NE",
+      "description": "(1:14) 8-A.Borregales 27 yard field goal is GOOD, Center-47-J.Ashby, Holder-19-M.Wishnowsky.",
+      "yards": 0,
+      "neEpa": 0.0987200926830005
+    },
     "2026_01_NE_SEA|2575": {
       "key": "2026_01_NE_SEA|2575",
       "week": 1,
@@ -1284,6 +1500,138 @@
       "yards": 3,
       "neEpa": 2.9391639107489
     },
+    "2026_06_NYJ_NE|232": {
+      "key": "2026_06_NYJ_NE|232",
+      "week": 6,
+      "opponent": "NYJ",
+      "quarter": 1,
+      "clock": "10:22",
+      "situation": "2nd & 5 at NE 20",
+      "offense": "NYJ",
+      "description": "(10:22) 32-I.Davis left tackle to NE 16 for 4 yards (94-C.Durden).",
+      "yards": 4,
+      "neEpa": -0.137919316766784
+    },
+    "2026_06_NYJ_NE|254": {
+      "key": "2026_06_NYJ_NE|254",
+      "week": 6,
+      "opponent": "NYJ",
+      "quarter": 1,
+      "clock": "9:56",
+      "situation": "3rd & 1 at NE 16",
+      "offense": "NYJ",
+      "description": "(9:56) (No Huddle, Shotgun) 32-I.Davis right guard to NE 14 for 2 yards (97-M.Williams).",
+      "yards": 2,
+      "neEpa": -0.491443203005474
+    },
+    "2026_06_NYJ_NE|276": {
+      "key": "2026_06_NYJ_NE|276",
+      "week": 6,
+      "opponent": "NYJ",
+      "quarter": 1,
+      "clock": "9:20",
+      "situation": "1st & 10 at NE 14",
+      "offense": "NYJ",
+      "description": "(9:20) 32-I.Davis right tackle to NE 14 for no gain (5-Dr.Jones).",
+      "yards": 0,
+      "neEpa": 0.477681531338021
+    },
+    "2026_06_NYJ_NE|298": {
+      "key": "2026_06_NYJ_NE|298",
+      "week": 6,
+      "opponent": "NYJ",
+      "quarter": 1,
+      "clock": "8:41",
+      "situation": "2nd & 10 at NE 14",
+      "offense": "NYJ",
+      "description": "(8:41) (Shotgun) 7-G.Smith pass incomplete short left to 5-G.Wilson (25-M.Jones).",
+      "yards": 0,
+      "neEpa": 0.774831073358655
+    },
+    "2026_06_NYJ_NE|321": {
+      "key": "2026_06_NYJ_NE|321",
+      "week": 6,
+      "opponent": "NYJ",
+      "quarter": 1,
+      "clock": "8:34",
+      "situation": "3rd & 10 at NE 14",
+      "offense": "NYJ",
+      "description": "(8:34) (Shotgun) 7-G.Smith pass short left to 11-O.Cooper for 14 yards, TOUCHDOWN NULLIFIED by Penalty. PENALTY on NYJ-17-T.Patrick, Offensive Pass Interference, 10 yards, enforced at NE 14 - No Play.",
+      "yards": 0,
+      "neEpa": 0.750168086495251
+    },
+    "2026_06_NYJ_NE|2718": {
+      "key": "2026_06_NYJ_NE|2718",
+      "week": 6,
+      "opponent": "NYJ",
+      "quarter": 3,
+      "clock": "6:53",
+      "situation": "1st & 10 at NE 15",
+      "offense": "NYJ",
+      "description": "(6:53) 0-B.Allen right tackle to NE 16 for -1 yards (14-R.Spillane, 97-M.Williams).",
+      "yards": -1,
+      "neEpa": 0.88391518680146
+    },
+    "2026_06_NYJ_NE|2740": {
+      "key": "2026_06_NYJ_NE|2740",
+      "week": 6,
+      "opponent": "NYJ",
+      "quarter": 3,
+      "clock": "6:14",
+      "situation": "2nd & 11 at NE 16",
+      "offense": "NYJ",
+      "description": "(6:14) (Shotgun) 7-G.Smith pass short right to 11-O.Cooper to NE 10 for 6 yards (0-C.Gonzalez).",
+      "yards": 6,
+      "neEpa": -0.136826171306893
+    },
+    "2026_06_NYJ_NE|2765": {
+      "key": "2026_06_NYJ_NE|2765",
+      "week": 6,
+      "opponent": "NYJ",
+      "quarter": 3,
+      "clock": "5:31",
+      "situation": "3rd & 5 at NE 10",
+      "offense": "NYJ",
+      "description": "(5:31) (Shotgun) 7-G.Smith sacked at NE 18 for -8 yards (91-E.Ponder).",
+      "yards": -8,
+      "neEpa": 1.52796003014262
+    },
+    "2026_06_NYJ_NE|2785": {
+      "key": "2026_06_NYJ_NE|2785",
+      "week": 6,
+      "opponent": "NYJ",
+      "quarter": 3,
+      "clock": "4:50",
+      "situation": "4th & 13 at NE 18",
+      "offense": "NYJ",
+      "description": "(4:50) 19-J.Sanders 36 yard field goal is GOOD, Center-42-T.Hennessy, Holder-14-A.McNamara.",
+      "yards": 0,
+      "neEpa": -0.380365465431877
+    },
+    "2026_06_NYJ_NE|4277": {
+      "key": "2026_06_NYJ_NE|4277",
+      "week": 6,
+      "opponent": "NYJ",
+      "quarter": 4,
+      "clock": "0:42",
+      "situation": "1st & 10 at NE 18",
+      "offense": "NYJ",
+      "description": "(:42) (Shotgun) 7-G.Smith pass incomplete short left to 85-M.Taylor (53-C.Elliss).",
+      "yards": 0,
+      "neEpa": 1.60765077800055
+    },
+    "2026_06_NYJ_NE|4300": {
+      "key": "2026_06_NYJ_NE|4300",
+      "week": 6,
+      "opponent": "NYJ",
+      "quarter": 4,
+      "clock": "0:36",
+      "situation": "2nd & 10 at NE 18",
+      "offense": "NYJ",
+      "description": "(:36) 19-J.Sanders 36 yard field goal is GOOD, Center-42-T.Hennessy, Holder-14-A.McNamara.",
+      "yards": 0,
+      "neEpa": -0.31417553025561
+    },
     "2026_01_NE_SEA|320": {
       "key": "2026_01_NE_SEA|320",
       "week": 1,
@@ -1896,6 +2244,138 @@
       "yards": 8,
       "neEpa": 1.17676504014526
     },
+    "2026_06_NYJ_NE|475": {
+      "key": "2026_06_NYJ_NE|475",
+      "week": 6,
+      "opponent": "NYJ",
+      "quarter": 1,
+      "clock": "6:51",
+      "situation": "3rd & 3 at NE 34",
+      "offense": "NE",
+      "description": "(6:51) (Shotgun) 10-D.Maye pass incomplete short right to 1-A.Brown (56-D.Davis).",
+      "yards": 0,
+      "neEpa": -1.59295741980895
+    },
+    "2026_06_NYJ_NE|1065": {
+      "key": "2026_06_NYJ_NE|1065",
+      "week": 6,
+      "opponent": "NYJ",
+      "quarter": 2,
+      "clock": "13:06",
+      "situation": "3rd & 2 at NE 37",
+      "offense": "NE",
+      "description": "(13:06) 74-C.Lomu reported in as eligible. 38-R.Stevenson right tackle to NE 39 for 2 yards (1-A.Thomas). (Virtual Measurement).",
+      "yards": 2,
+      "neEpa": 0.743282386800274
+    },
+    "2026_06_NYJ_NE|1146": {
+      "key": "2026_06_NYJ_NE|1146",
+      "week": 6,
+      "opponent": "NYJ",
+      "quarter": 2,
+      "clock": "11:50",
+      "situation": "3rd & 6 at NE 43",
+      "offense": "NE",
+      "description": "(11:50) (Shotgun) 10-D.Maye pass incomplete short left to 3-D.Douglas.",
+      "yards": 0,
+      "neEpa": -1.54835467622615
+    },
+    "2026_06_NYJ_NE|1444": {
+      "key": "2026_06_NYJ_NE|1444",
+      "week": 6,
+      "opponent": "NYJ",
+      "quarter": 2,
+      "clock": "6:00",
+      "situation": "3rd & 1 at NE 48",
+      "offense": "NE",
+      "description": "(6:00) 32-T.Henderson left tackle to NE 48 for no gain (56-D.Davis).",
+      "yards": 0,
+      "neEpa": -1.70304451440461
+    },
+    "2026_06_NYJ_NE|1532": {
+      "key": "2026_06_NYJ_NE|1532",
+      "week": 6,
+      "opponent": "NYJ",
+      "quarter": 2,
+      "clock": "3:18",
+      "situation": "3rd & 2 at NYJ 42",
+      "offense": "NE",
+      "description": "(3:18) 38-R.Stevenson up the middle to NYJ 30 for 12 yards (44-J.Sherwood).",
+      "yards": 12,
+      "neEpa": 1.21562176116277
+    },
+    "2026_06_NYJ_NE|2296": {
+      "key": "2026_06_NYJ_NE|2296",
+      "week": 6,
+      "opponent": "NYJ",
+      "quarter": 3,
+      "clock": "11:57",
+      "situation": "3rd & 5 at NYJ 40",
+      "offense": "NE",
+      "description": "(11:57) (Shotgun) 10-D.Maye pass incomplete short right to 1-A.Brown.",
+      "yards": 0,
+      "neEpa": -1.80347145884298
+    },
+    "2026_06_NYJ_NE|2550": {
+      "key": "2026_06_NYJ_NE|2550",
+      "week": 6,
+      "opponent": "NYJ",
+      "quarter": 3,
+      "clock": "8:59",
+      "situation": "3rd & 3 at NE 24",
+      "offense": "NE",
+      "description": "(8:59) (Shotgun) 10-D.Maye pass short right to 3-D.Douglas to NE 29 for 5 yards [44-J.Sherwood].",
+      "yards": 5,
+      "neEpa": 1.57267433637753
+    },
+    "2026_06_NYJ_NE|2925": {
+      "key": "2026_06_NYJ_NE|2925",
+      "week": 6,
+      "opponent": "NYJ",
+      "quarter": 3,
+      "clock": "3:15",
+      "situation": "3rd & 10 at NE 46",
+      "offense": "NE",
+      "description": "(3:15) (Shotgun) 10-D.Maye pass short right to 18-K.Williams pushed ob at NYJ 42 for 12 yards (1-A.Thomas).",
+      "yards": 12,
+      "neEpa": 2.03318519587629
+    },
+    "2026_06_NYJ_NE|3404": {
+      "key": "2026_06_NYJ_NE|3404",
+      "week": 6,
+      "opponent": "NYJ",
+      "quarter": 4,
+      "clock": "11:16",
+      "situation": "3rd & 6 at NE 28",
+      "offense": "NE",
+      "description": "(11:16) (Shotgun) 10-D.Maye pass deep right to 3-D.Douglas to NYJ 33 for 39 yards (44-J.Sherwood). FUMBLES (44-J.Sherwood), RECOVERED by NYJ-29-M.Fitzpatrick at NYJ 25. 29-M.Fitzpatrick pushed ob at NYJ 45 for 20 yards (85-H.Henry).",
+      "yards": 39,
+      "neEpa": -2.42822016193531
+    },
+    "2026_06_NYJ_NE|3788": {
+      "key": "2026_06_NYJ_NE|3788",
+      "week": 6,
+      "opponent": "NYJ",
+      "quarter": 4,
+      "clock": "6:30",
+      "situation": "3rd & 13 at NE 37",
+      "offense": "NE",
+      "description": "(6:30) (Shotgun) 10-D.Maye pass short right to 85-H.Henry to NYJ 48 for 15 yards (1-A.Thomas; 44-J.Sherwood).",
+      "yards": 15,
+      "neEpa": 2.41675247298554
+    },
+    "2026_06_NYJ_NE|3884": {
+      "key": "2026_06_NYJ_NE|3884",
+      "week": 6,
+      "opponent": "NYJ",
+      "quarter": 4,
+      "clock": "3:50",
+      "situation": "3rd & 1 at NYJ 27",
+      "offense": "NE",
+      "description": "(3:50) 9-C.Kiner right tackle to NYJ 24 for 3 yards (56-D.Davis).",
+      "yards": 3,
+      "neEpa": 0.569252558983862
+    },
     "2026_01_NE_SEA|180": {
       "key": "2026_01_NE_SEA|180",
       "week": 1,
@@ -2484,6 +2964,102 @@
       "yards": 9,
       "neEpa": -1.53117719851434
     },
+    "2026_06_NYJ_NE|358": {
+      "key": "2026_06_NYJ_NE|358",
+      "week": 6,
+      "opponent": "NYJ",
+      "quarter": 1,
+      "clock": "8:26",
+      "situation": "3rd & 20 at NE 24",
+      "offense": "NYJ",
+      "description": "(8:26) (Shotgun) 7-G.Smith pass incomplete deep right to 85-M.Taylor (31-K.Byard).",
+      "yards": 0,
+      "neEpa": 0.72757110213839
+    },
+    "2026_06_NYJ_NE|567": {
+      "key": "2026_06_NYJ_NE|567",
+      "week": 6,
+      "opponent": "NYJ",
+      "quarter": 1,
+      "clock": "5:18",
+      "situation": "3rd & 16 at NYJ 14",
+      "offense": "NYJ",
+      "description": "(5:18) (Shotgun) 7-G.Smith sacked at NYJ 4 for -10 yards (90-C.Barmore).",
+      "yards": -10,
+      "neEpa": 1.51451653568074
+    },
+    "2026_06_NYJ_NE|972": {
+      "key": "2026_06_NYJ_NE|972",
+      "week": 6,
+      "opponent": "NYJ",
+      "quarter": 2,
+      "clock": "15:00",
+      "situation": "3rd & 4 at NE 32",
+      "offense": "NYJ",
+      "description": "(15:00) (Shotgun) 0-B.Allen up the middle to NE 30 for 2 yards (31-K.Byard).",
+      "yards": 2,
+      "neEpa": 1.27803846669849
+    },
+    "2026_06_NYJ_NE|1339": {
+      "key": "2026_06_NYJ_NE|1339",
+      "week": 6,
+      "opponent": "NYJ",
+      "quarter": 2,
+      "clock": "7:36",
+      "situation": "3rd & 1 at NE 39",
+      "offense": "NYJ",
+      "description": "(7:36) (Shotgun) 32-I.Davis up the middle to NE 39 for no gain (53-C.Elliss).",
+      "yards": 0,
+      "neEpa": 1.65961934358347
+    },
+    "2026_06_NYJ_NE|1766": {
+      "key": "2026_06_NYJ_NE|1766",
+      "week": 6,
+      "opponent": "NYJ",
+      "quarter": 2,
+      "clock": "1:35",
+      "situation": "3rd & 10 at NYJ 24",
+      "offense": "NYJ",
+      "description": "(1:35) (Shotgun) 7-G.Smith pass short right to 11-O.Cooper to NYJ 30 for 6 yards (53-C.Elliss).",
+      "yards": 6,
+      "neEpa": 0.130931739229709
+    },
+    "2026_06_NYJ_NE|3263": {
+      "key": "2026_06_NYJ_NE|3263",
+      "week": 6,
+      "opponent": "NYJ",
+      "quarter": 4,
+      "clock": "12:53",
+      "situation": "3rd & 2 at NYJ 28",
+      "offense": "NYJ",
+      "description": "(12:53) (Shotgun) 7-G.Smith pass short right to 5-G.Wilson to NYJ 37 for 9 yards (31-K.Byard). PENALTY on NE-5-Dr.Jones, Roughing the Passer, 15 yards, enforced at NYJ 37. Penalty on NE-5-Dr.Jones, Defensive Offside, declined.",
+      "yards": 9,
+      "neEpa": -2.12013120739721
+    },
+    "2026_06_NYJ_NE|3504": {
+      "key": "2026_06_NYJ_NE|3504",
+      "week": 6,
+      "opponent": "NYJ",
+      "quarter": 4,
+      "clock": "9:31",
+      "situation": "3rd & 2 at NE 47",
+      "offense": "NYJ",
+      "description": "(9:31) (Shotgun) 7-G.Smith pass short left to 5-G.Wilson to NE 35 for 12 yards (0-C.Gonzalez; 4-C.Woodson).",
+      "yards": 12,
+      "neEpa": -1.41075085813645
+    },
+    "2026_06_NYJ_NE|3625": {
+      "key": "2026_06_NYJ_NE|3625",
+      "week": 6,
+      "opponent": "NYJ",
+      "quarter": 4,
+      "clock": "7:27",
+      "situation": "3rd & 10 at NE 22",
+      "offense": "NYJ",
+      "description": "(7:27) (Shotgun) 7-G.Smith pass incomplete short middle.",
+      "yards": 0,
+      "neEpa": 1.01501785313577
+    },
     "2026_01_NE_SEA|1551": {
       "key": "2026_01_NE_SEA|1551",
       "week": 1,
@@ -2760,6 +3336,54 @@
       "yards": 26,
       "neEpa": 2.21669896086678
     },
+    "2026_06_NYJ_NE|1818": {
+      "key": "2026_06_NYJ_NE|1818",
+      "week": 6,
+      "opponent": "NYJ",
+      "quarter": 2,
+      "clock": "1:23",
+      "situation": "1st & 10 at NE 29",
+      "offense": "NE",
+      "description": "(1:23) (Shotgun) 10-D.Maye pass short right to 1-A.Brown to NE 44 for 15 yards (56-D.Davis).",
+      "yards": 15,
+      "neEpa": 0.594028396066278
+    },
+    "2026_06_NYJ_NE|1855": {
+      "key": "2026_06_NYJ_NE|1855",
+      "week": 6,
+      "opponent": "NYJ",
+      "quarter": 2,
+      "clock": "0:50",
+      "situation": "1st & 10 at NE 44",
+      "offense": "NE",
+      "description": "(:50) (Shotgun) 10-D.Maye pass short right to 85-H.Henry ran ob at NYJ 40 for 16 yards (6-D.Belton).",
+      "yards": 16,
+      "neEpa": 0.866591450991109
+    },
+    "2026_06_NYJ_NE|1885": {
+      "key": "2026_06_NYJ_NE|1885",
+      "week": 6,
+      "opponent": "NYJ",
+      "quarter": 2,
+      "clock": "0:43",
+      "situation": "1st & 10 at NYJ 40",
+      "offense": "NE",
+      "description": "(:43) (Shotgun) 10-D.Maye pass short right to 85-H.Henry to NYJ 30 for 10 yards (1-A.Thomas; 44-J.Sherwood).",
+      "yards": 10,
+      "neEpa": 0.692353080317844
+    },
+    "2026_06_NYJ_NE|1910": {
+      "key": "2026_06_NYJ_NE|1910",
+      "week": 6,
+      "opponent": "NYJ",
+      "quarter": 2,
+      "clock": "0:35",
+      "situation": "1st & 10 at NYJ 30",
+      "offense": "NE",
+      "description": "(:35) (Shotgun) 10-D.Maye pass short right to 3-D.Douglas ran ob at NYJ 19 for 11 yards. PENALTY on NYJ-31-D.Bailey, Roughing the Passer, 10 yards, enforced at NYJ 19.",
+      "yards": 11,
+      "neEpa": 1.46224464883562
+    },
     "2026_01_NE_SEA|1685": {
       "key": "2026_01_NE_SEA|1685",
       "week": 1,
@@ -2987,6 +3611,78 @@
       "description": "(:18) (Shotgun) 8-K.Cousins sacked at LV 22 for -9 yards (91-E.Ponder). FUMBLES (91-E.Ponder) [91-E.Ponder], touched at LV 20, recovered by LV-87-M.Mayer at LV 20.",
       "yards": -11,
       "neEpa": 0.237839600566076
+    },
+    "2026_06_NYJ_NE|1720": {
+      "key": "2026_06_NYJ_NE|1720",
+      "week": 6,
+      "opponent": "NYJ",
+      "quarter": 2,
+      "clock": "1:43",
+      "situation": "1st & 10 at NYJ 24",
+      "offense": "NYJ",
+      "description": "(1:43) (Shotgun) 7-G.Smith pass incomplete short right to 17-T.Patrick.",
+      "yards": 0,
+      "neEpa": 0.211789562134072
+    },
+    "2026_06_NYJ_NE|1743": {
+      "key": "2026_06_NYJ_NE|1743",
+      "week": 6,
+      "opponent": "NYJ",
+      "quarter": 2,
+      "clock": "1:39",
+      "situation": "2nd & 10 at NYJ 24",
+      "offense": "NYJ",
+      "description": "(1:39) (Shotgun) 7-G.Smith pass incomplete short right to 16-K.Sadiq [14-R.Spillane].",
+      "yards": 0,
+      "neEpa": 0.337932771886699
+    },
+    "2026_06_NYJ_NE|4130": {
+      "key": "2026_06_NYJ_NE|4130",
+      "week": 6,
+      "opponent": "NYJ",
+      "quarter": 4,
+      "clock": "1:08",
+      "situation": "1st & 10 at NYJ 25",
+      "offense": "NYJ",
+      "description": "(1:08) (Shotgun) 7-G.Smith pass short left to 11-O.Cooper ran ob at NYJ 43 for 18 yards (22-C.Woods).",
+      "yards": 18,
+      "neEpa": -0.721773195138667
+    },
+    "2026_06_NYJ_NE|4160": {
+      "key": "2026_06_NYJ_NE|4160",
+      "week": 6,
+      "opponent": "NYJ",
+      "quarter": 4,
+      "clock": "1:01",
+      "situation": "1st & 10 at NYJ 43",
+      "offense": "NYJ",
+      "description": "(1:01) (Shotgun) 7-G.Smith pass incomplete short left to 17-T.Patrick.",
+      "yards": 0,
+      "neEpa": 0.269728741259314
+    },
+    "2026_06_NYJ_NE|4183": {
+      "key": "2026_06_NYJ_NE|4183",
+      "week": 6,
+      "opponent": "NYJ",
+      "quarter": 4,
+      "clock": "0:59",
+      "situation": "2nd & 10 at NYJ 43",
+      "offense": "NYJ",
+      "description": "(:59) (Shotgun) 7-G.Smith pass short left to 17-T.Patrick ran ob at NE 42 for 15 yards.",
+      "yards": 15,
+      "neEpa": -1.1791079750983
+    },
+    "2026_06_NYJ_NE|4213": {
+      "key": "2026_06_NYJ_NE|4213",
+      "week": 6,
+      "opponent": "NYJ",
+      "quarter": 4,
+      "clock": "0:51",
+      "situation": "1st & 10 at NE 42",
+      "offense": "NYJ",
+      "description": "(:51) (Shotgun) 7-G.Smith pass short left to 85-M.Taylor ran ob at NE 35 for 7 yards.",
+      "yards": 7,
+      "neEpa": -0.425967138260603
     },
     "2026_01_NE_SEA|2163": {
       "key": "2026_01_NE_SEA|2163",
@@ -3407,6 +4103,42 @@
       "description": "8-A.Borregales kicks 62 yards from NE 35 to LV 3. 83-D.Thompkins to LV 27 for 24 yards (9-C.Kiner). PENALTY on NE-33-M.Brown, Face Mask, 15 yards, enforced at LV 27.",
       "yards": 0,
       "neEpa": -1.05885313404724
+    },
+    "2026_06_NYJ_NE|2213": {
+      "key": "2026_06_NYJ_NE|2213",
+      "week": 6,
+      "opponent": "NYJ",
+      "quarter": 3,
+      "clock": "13:32",
+      "situation": "1st & 10 at NYJ 45",
+      "offense": "NE",
+      "description": "(13:32) 38-R.Stevenson right tackle to NYJ 38 for 7 yards (31-D.Bailey; 1-A.Thomas). PENALTY on NE-85-H.Henry, Offensive Holding, 10 yards, enforced at NYJ 42.",
+      "yards": 3,
+      "neEpa": -0.617825995665044
+    },
+    "2026_06_NYJ_NE|2452": {
+      "key": "2026_06_NYJ_NE|2452",
+      "week": 6,
+      "opponent": "NYJ",
+      "quarter": 3,
+      "clock": "10:24",
+      "situation": "",
+      "offense": "NE",
+      "description": "19-J.Sanders kicks 58 yards from NYJ 35 to NE 7. 9-C.Kiner to NE 33 for 26 yards (9-W.McDonald). PENALTY on NE-48-N.Obiazor, Offensive Holding, 10 yards, enforced at NE 27.",
+      "yards": 0,
+      "neEpa": -0.624651358928531
+    },
+    "2026_06_NYJ_NE|4243": {
+      "key": "2026_06_NYJ_NE|4243",
+      "week": 6,
+      "opponent": "NYJ",
+      "quarter": 4,
+      "clock": "0:46",
+      "situation": "2nd & 3 at NE 35",
+      "offense": "NYJ",
+      "description": "(:46) (No Huddle, Shotgun) 7-G.Smith pass incomplete deep left to 17-T.Patrick. PENALTY on NE-31-K.Byard, Defensive Pass Interference, 17 yards, enforced at NE 35 - No Play.",
+      "yards": 0,
+      "neEpa": -1.61759795929538
     }
   },
   "lists": {
@@ -3670,6 +4402,88 @@
             "key": "2026_05_LV_NE|4190",
             "badge": "Touchdown",
             "tone": "good"
+          }
+        ]
+      },
+      {
+        "heading": "New England · Wk ? vs ? · Touchdown",
+        "entries": []
+      },
+      {
+        "heading": "New England · Wk 6 vs NYJ · Field goal",
+        "entries": [
+          {
+            "key": "2026_06_NYJ_NE|1579"
+          },
+          {
+            "key": "2026_06_NYJ_NE|1611"
+          },
+          {
+            "key": "2026_06_NYJ_NE|1640"
+          },
+          {
+            "key": "2026_06_NYJ_NE|1670"
+          }
+        ]
+      },
+      {
+        "heading": "New England · Wk 6 vs NYJ · Touchdown",
+        "entries": [
+          {
+            "key": "2026_06_NYJ_NE|1958"
+          },
+          {
+            "key": "2026_06_NYJ_NE|1981"
+          },
+          {
+            "key": "2026_06_NYJ_NE|2016",
+            "badge": "Touchdown",
+            "tone": "good"
+          }
+        ]
+      },
+      {
+        "heading": "New England · Wk 6 vs NYJ · Touchdown",
+        "entries": [
+          {
+            "key": "2026_06_NYJ_NE|3024"
+          },
+          {
+            "key": "2026_06_NYJ_NE|3046"
+          },
+          {
+            "key": "2026_06_NYJ_NE|3090"
+          },
+          {
+            "key": "2026_06_NYJ_NE|3117"
+          },
+          {
+            "key": "2026_06_NYJ_NE|3140",
+            "badge": "Touchdown",
+            "tone": "good"
+          }
+        ]
+      },
+      {
+        "heading": "New England · Wk 6 vs NYJ · Field goal",
+        "entries": [
+          {
+            "key": "2026_06_NYJ_NE|3935"
+          },
+          {
+            "key": "2026_06_NYJ_NE|3967"
+          },
+          {
+            "key": "2026_06_NYJ_NE|3999"
+          },
+          {
+            "key": "2026_06_NYJ_NE|4021"
+          },
+          {
+            "key": "2026_06_NYJ_NE|4070"
+          },
+          {
+            "key": "2026_06_NYJ_NE|4058"
           }
         ]
       },
@@ -3945,11 +4759,63 @@
             "key": "2026_05_LV_NE|4490"
           }
         ]
+      },
+      {
+        "heading": "Opponent · Wk 6 vs NYJ · Field goal",
+        "entries": [
+          {
+            "key": "2026_06_NYJ_NE|232"
+          },
+          {
+            "key": "2026_06_NYJ_NE|254"
+          },
+          {
+            "key": "2026_06_NYJ_NE|276"
+          },
+          {
+            "key": "2026_06_NYJ_NE|298"
+          },
+          {
+            "key": "2026_06_NYJ_NE|321"
+          }
+        ]
+      },
+      {
+        "heading": "Opponent · Wk ? vs ? · Touchdown",
+        "entries": []
+      },
+      {
+        "heading": "Opponent · Wk 6 vs NYJ · Field goal",
+        "entries": [
+          {
+            "key": "2026_06_NYJ_NE|2718"
+          },
+          {
+            "key": "2026_06_NYJ_NE|2740"
+          },
+          {
+            "key": "2026_06_NYJ_NE|2765"
+          },
+          {
+            "key": "2026_06_NYJ_NE|2785"
+          }
+        ]
+      },
+      {
+        "heading": "Opponent · Wk 6 vs NYJ · Field goal",
+        "entries": [
+          {
+            "key": "2026_06_NYJ_NE|4277"
+          },
+          {
+            "key": "2026_06_NYJ_NE|4300"
+          }
+        ]
       }
     ],
     "thirdDown": [
       {
-        "heading": "New England on third down — 24 of 62 converted",
+        "heading": "New England on third down — 32 of 77 converted",
         "entries": [
           {
             "key": "2026_01_NE_SEA|320",
@@ -4260,11 +5126,86 @@
             "key": "2026_05_LV_NE|4190",
             "badge": "Converted",
             "tone": "good"
+          },
+          {
+            "key": "2026_06_NYJ_NE|475",
+            "badge": "Stopped",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_06_NYJ_NE|1065",
+            "badge": "Converted",
+            "tone": "good"
+          },
+          {
+            "key": "2026_06_NYJ_NE|1146",
+            "badge": "Stopped",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_06_NYJ_NE|1444",
+            "badge": "Stopped",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_06_NYJ_NE|1532",
+            "badge": "Converted",
+            "tone": "good"
+          },
+          {
+            "key": "2026_06_NYJ_NE|1640",
+            "badge": "Stopped",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_06_NYJ_NE|2016",
+            "badge": "Converted",
+            "tone": "good"
+          },
+          {
+            "key": "2026_06_NYJ_NE|2296",
+            "badge": "Stopped",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_06_NYJ_NE|2550",
+            "badge": "Converted",
+            "tone": "good"
+          },
+          {
+            "key": "2026_06_NYJ_NE|2925",
+            "badge": "Converted",
+            "tone": "good"
+          },
+          {
+            "key": "2026_06_NYJ_NE|3140",
+            "badge": "Converted",
+            "tone": "good"
+          },
+          {
+            "key": "2026_06_NYJ_NE|3404",
+            "badge": "Stopped",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_06_NYJ_NE|3788",
+            "badge": "Converted",
+            "tone": "good"
+          },
+          {
+            "key": "2026_06_NYJ_NE|3884",
+            "badge": "Converted",
+            "tone": "good"
+          },
+          {
+            "key": "2026_06_NYJ_NE|4021",
+            "badge": "Stopped",
+            "tone": "bad"
           }
         ]
       },
       {
-        "heading": "Opponents on third down — 23 of 60 converted",
+        "heading": "Opponents on third down — 26 of 70 converted",
         "entries": [
           {
             "key": "2026_01_NE_SEA|180",
@@ -4565,13 +5506,63 @@
             "key": "2026_05_LV_NE|4467",
             "badge": "Stopped",
             "tone": "good"
+          },
+          {
+            "key": "2026_06_NYJ_NE|254",
+            "badge": "Converted",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_06_NYJ_NE|358",
+            "badge": "Stopped",
+            "tone": "good"
+          },
+          {
+            "key": "2026_06_NYJ_NE|567",
+            "badge": "Stopped",
+            "tone": "good"
+          },
+          {
+            "key": "2026_06_NYJ_NE|972",
+            "badge": "Stopped",
+            "tone": "good"
+          },
+          {
+            "key": "2026_06_NYJ_NE|1339",
+            "badge": "Stopped",
+            "tone": "good"
+          },
+          {
+            "key": "2026_06_NYJ_NE|1766",
+            "badge": "Stopped",
+            "tone": "good"
+          },
+          {
+            "key": "2026_06_NYJ_NE|2765",
+            "badge": "Stopped",
+            "tone": "good"
+          },
+          {
+            "key": "2026_06_NYJ_NE|3263",
+            "badge": "Converted",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_06_NYJ_NE|3504",
+            "badge": "Converted",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_06_NYJ_NE|3625",
+            "badge": "Stopped",
+            "tone": "good"
           }
         ]
       }
     ],
     "twoMinute": [
       {
-        "heading": "New England offense in the last two minutes of a half (38 plays)",
+        "heading": "New England offense in the last two minutes of a half (49 plays)",
         "entries": [
           {
             "key": "2026_01_NE_SEA|1551"
@@ -4686,11 +5677,44 @@
           },
           {
             "key": "2026_05_LV_NE|2189"
+          },
+          {
+            "key": "2026_06_NYJ_NE|1579"
+          },
+          {
+            "key": "2026_06_NYJ_NE|1611"
+          },
+          {
+            "key": "2026_06_NYJ_NE|1640"
+          },
+          {
+            "key": "2026_06_NYJ_NE|1818"
+          },
+          {
+            "key": "2026_06_NYJ_NE|1855"
+          },
+          {
+            "key": "2026_06_NYJ_NE|1885"
+          },
+          {
+            "key": "2026_06_NYJ_NE|1910"
+          },
+          {
+            "key": "2026_06_NYJ_NE|1958"
+          },
+          {
+            "key": "2026_06_NYJ_NE|1981"
+          },
+          {
+            "key": "2026_06_NYJ_NE|2016"
+          },
+          {
+            "key": "2026_06_NYJ_NE|4021"
           }
         ]
       },
       {
-        "heading": "New England defense in the last two minutes of a half (30 plays)",
+        "heading": "New England defense in the last two minutes of a half (38 plays)",
         "entries": [
           {
             "key": "2026_01_NE_SEA|1685"
@@ -4781,13 +5805,37 @@
           },
           {
             "key": "2026_05_LV_NE|2271"
+          },
+          {
+            "key": "2026_06_NYJ_NE|1720"
+          },
+          {
+            "key": "2026_06_NYJ_NE|1743"
+          },
+          {
+            "key": "2026_06_NYJ_NE|1766"
+          },
+          {
+            "key": "2026_06_NYJ_NE|4130"
+          },
+          {
+            "key": "2026_06_NYJ_NE|4160"
+          },
+          {
+            "key": "2026_06_NYJ_NE|4183"
+          },
+          {
+            "key": "2026_06_NYJ_NE|4213"
+          },
+          {
+            "key": "2026_06_NYJ_NE|4277"
           }
         ]
       }
     ],
     "fieldGoals": [
       {
-        "heading": "Field goal attempts — 6 of 8 made",
+        "heading": "Field goal attempts — 8 of 10 made",
         "entries": [
           {
             "key": "2026_01_NE_SEA|2163",
@@ -4828,13 +5876,23 @@
             "key": "2026_05_LV_NE|3698",
             "badge": "Good from 28",
             "tone": "good"
+          },
+          {
+            "key": "2026_06_NYJ_NE|1670",
+            "badge": "Good from 32",
+            "tone": "good"
+          },
+          {
+            "key": "2026_06_NYJ_NE|4058",
+            "badge": "Good from 27",
+            "tone": "good"
           }
         ]
       }
     ],
     "penalties": [
       {
-        "heading": "Penalties on New England (39)",
+        "heading": "Penalties on New England (44)",
         "entries": [
           {
             "key": "2026_01_NE_SEA|2283",
@@ -5029,6 +6087,31 @@
           {
             "key": "2026_05_LV_NE|3380",
             "badge": "15 yds",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_06_NYJ_NE|2213",
+            "badge": "10 yds",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_06_NYJ_NE|2452",
+            "badge": "10 yds",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_06_NYJ_NE|3263",
+            "badge": "15 yds",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_06_NYJ_NE|4070",
+            "badge": "5 yds",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_06_NYJ_NE|4243",
+            "badge": "17 yds",
             "tone": "bad"
           }
         ]

@@ -1,146 +1,140 @@
 {
-  "gameId": "2026_06_NYJ_NE",
-  "opponent": "NYJ",
+  "gameId": "2026_07_NE_CHI",
+  "opponent": "CHI",
   "opponentEpaRank": {
-    "offense": 19,
-    "defense": 5
+    "offense": 12,
+    "defense": 17
   },
   "ourEpaRank": {
     "offense": 10,
-    "defense": 11
+    "defense": 12
   },
   "successRate": {
     "us": {
       "offense": {
-        "value": 0.4536741214057508,
-        "leagueRank": 13,
-        "leaguePercentile": 61
+        "value": 0.45,
+        "leagueRank": 12,
+        "leaguePercentile": 65
       },
       "defense": {
-        "value": 0.42105263157894735,
-        "leagueRank": 11,
-        "leaguePercentile": 68
+        "value": 0.4331395348837209,
+        "leagueRank": 19,
+        "leaguePercentile": 42
       }
     },
     "them": {
       "offense": {
-        "value": 0.42758620689655175,
-        "leagueRank": 16,
-        "leaguePercentile": 52
+        "value": 0.4675925925925926,
+        "leagueRank": 10,
+        "leaguePercentile": 71
       },
       "defense": {
-        "value": 0.4423076923076923,
-        "leagueRank": 21,
-        "leaguePercentile": 35
+        "value": 0.40728476821192056,
+        "leagueRank": 4,
+        "leaguePercentile": 90
       }
     }
   },
   "positionGroupMatchups": [
     {
       "group": "Rush Offense vs. Run Defense",
-      "ourGrade": 68,
-      "theirGrade": 81,
-      "edge": "them",
-      "note": "68/100 vs. 81/100 (advantage them).",
-      "ourStatLine": "645 yds, 4.5 YPC, 4 TD, 1 FUM, 13% explosive",
-      "theirStatLine": "595 yds allowed, 4.4 YPC allowed, 4 TD allowed, 11% explosive allowed"
+      "ourGrade": 55,
+      "theirGrade": 16,
+      "edge": "us",
+      "note": "55/100 vs. 16/100 (advantage us).",
+      "ourStatLine": "794 yds, 4.4 YPC, 4 TD, 2 FUM, 12% explosive",
+      "theirStatLine": "545 yds allowed, 4.6 YPC allowed, 5 TD allowed, 12% explosive allowed"
     },
     {
       "group": "Pass Offense vs. Pass Defense",
-      "ourGrade": 61,
-      "theirGrade": 61,
+      "ourGrade": 65,
+      "theirGrade": 68,
       "edge": "even",
-      "note": "61/100 vs. 61/100 (close matchup).",
-      "ourStatLine": "103/157 (66%), 1274 yds, 8 TD, 7 INT",
-      "theirStatLine": "100/160 (63%) allowed, 977 yds allowed, 6 TD allowed, 1 INT gained"
+      "note": "65/100 vs. 68/100 (close matchup).",
+      "ourStatLine": "121/189 (64%), 1509 yds, 11 TD, 7 INT",
+      "theirStatLine": "102/163 (63%) allowed, 1368 yds allowed, 9 TD allowed, 3 INT gained"
     },
     {
       "group": "Run Defense vs. Rush Offense",
-      "ourGrade": 42,
-      "theirGrade": 29,
-      "edge": "us",
-      "note": "42/100 vs. 29/100 (advantage us).",
-      "ourStatLine": "455 yds allowed, 4.1 YPC allowed, 5 TD allowed, 9% explosive allowed",
-      "theirStatLine": "475 yds, 3.8 YPC, 4 TD, 0 FUM, 10% explosive"
+      "ourGrade": 52,
+      "theirGrade": 74,
+      "edge": "them",
+      "note": "52/100 vs. 74/100 (advantage them).",
+      "ourStatLine": "553 yds allowed, 4.0 YPC allowed, 5 TD allowed, 10% explosive allowed",
+      "theirStatLine": "970 yds, 4.6 YPC, 13 TD, 3 FUM, 11% explosive"
     },
     {
       "group": "Pass Defense vs. Pass Offense",
-      "ourGrade": 84,
-      "theirGrade": 55,
-      "edge": "us",
-      "note": "84/100 vs. 55/100 (advantage us).",
-      "ourStatLine": "107/162 (66%) allowed, 1113 yds allowed, 6 TD allowed, 3 INT gained",
-      "theirStatLine": "102/147 (69%), 1084 yds, 6 TD, 0 INT"
+      "ourGrade": 61,
+      "theirGrade": 58,
+      "edge": "even",
+      "note": "61/100 vs. 58/100 (close matchup).",
+      "ourStatLine": "127/192 (66%) allowed, 1365 yds allowed, 7 TD allowed, 4 INT gained",
+      "theirStatLine": "143/208 (69%), 1476 yds, 5 TD, 5 INT"
     },
     {
       "group": "Pass Protection vs. Pass Rush",
-      "ourGrade": 48,
-      "theirGrade": 94,
+      "ourGrade": 65,
+      "theirGrade": 97,
       "edge": "them",
-      "note": "48/100 vs. 94/100 (advantage them).",
-      "ourStatLine": "11 sacks allowed, 7% sack rate",
-      "theirStatLine": "17 sacks, 28 QB hits, 10% sack rate"
+      "note": "65/100 vs. 97/100 (advantage them).",
+      "ourStatLine": "11 sacks allowed, 5% sack rate",
+      "theirStatLine": "17 sacks, 31 QB hits, 9% sack rate"
     }
   ],
   "matchupOfTheWeek": {
-    "title": "Pass Defense vs. Pass Offense",
-    "description": "Our pass defense grades 84/100 (among the NFL's best) against NYJ's pass offense at 55/100 (about average) — the widest statistical edge on the board this week."
+    "title": "Rush Offense vs. Run Defense",
+    "description": "Our rush offense grades 55/100 (about average) against CHI's run defense at 16/100 (among the NFL's worst) — the widest statistical edge on the board this week."
   },
   "opponentInjuries": [],
   "recentForm": {
     "us": {
-      "lastGameEpaPerPlay": 0.44087734841135473,
-      "last3EpaPerPlay": 0.022971336946440726,
-      "last5EpaPerPlay": 0.0547540548479235,
-      "seasonEpaPerPlay": 0.0547540548479235,
-      "gamesPlayed": 5
+      "lastGameEpaPerPlay": 0.04912930527875264,
+      "last3EpaPerPlay": 0.19079391160984654,
+      "last5EpaPerPlay": 0.09819264576795364,
+      "seasonEpaPerPlay": 0.05362784642537974,
+      "gamesPlayed": 6
     },
     "them": {
-      "lastGameEpaPerPlay": 0.12030428735502252,
-      "last3EpaPerPlay": -0.04954512576482728,
-      "last5EpaPerPlay": 0.03743223452007513,
-      "seasonEpaPerPlay": 0.03743223452007513,
-      "gamesPlayed": 5
+      "lastGameEpaPerPlay": 0.2935504067526304,
+      "last3EpaPerPlay": -0.0494591818735154,
+      "last5EpaPerPlay": 0.037867138138634536,
+      "seasonEpaPerPlay": 0.05702922106806789,
+      "gamesPlayed": 6
     }
   },
   "priorBlendWeight": 0,
   "headToHead": [
     {
-      "season": 2025,
-      "result": "W",
-      "score": "42-10"
-    },
-    {
-      "season": 2025,
-      "result": "W",
-      "score": "27-14"
-    },
-    {
       "season": 2024,
       "result": "W",
-      "score": "25-22"
+      "score": "19-3"
     },
     {
-      "season": 2024,
+      "season": 2022,
       "result": "L",
-      "score": "3-24"
+      "score": "14-33"
     },
     {
-      "season": 2023,
-      "result": "L",
-      "score": "3-17"
+      "season": 2018,
+      "result": "W",
+      "score": "38-31"
+    },
+    {
+      "season": 2014,
+      "result": "W",
+      "score": "51-23"
+    },
+    {
+      "season": 2010,
+      "result": "W",
+      "score": "36-7"
     }
   ],
   "weather": {
-    "tempF": 50,
-    "wind": "2 mph",
-    "precipitation": "0%",
+    "tempF": 64,
+    "wind": "4 mph",
+    "precipitation": "1%",
     "isDome": false
-  },
-  "bettingContext": {
-    "spread": -7.5,
-    "overUnder": 43.5,
-    "asOf": "2026-10-18"
-  },
-  "previewTake": "Here's the delicious tension of this Sunday matchup: the Jets bring a top-five defense and a pass rush grading 94/100 — absolutely elite — but they're asking their 55/100 pass offense to operate against our 84/100 pass defense, which is the widest statistical edge on the board this week. We've owned New York lately (3-2 in the last five), and with A.J. Brown activated from injured reserve after four games out with an ankle sprain, there's real juice to our receiving game if he's truly ready. The wrinkle: our pass protection grades only 48/100, so even with our defensive prowess, we'll need Brown healthy and our line functional to weather what figures to be constant pressure. The Jets know this is a big divisional moment for them, but we're favored by a touchdown at home — and after some genuinely pedestrian efficiency lately (0.02 EPA per play over three games), this feels like a chance to remind everyone what we're capable of."
+  }
 }

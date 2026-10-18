@@ -18,17 +18,17 @@
   },
   {
     "team": "NE",
-    "wins": 3,
+    "wins": 4,
     "losses": 2,
     "ties": 0,
-    "pointDifferential": 16,
+    "pointDifferential": 23,
     "isUs": true,
     "streak": {
       "result": "W",
-      "count": 2
+      "count": 3
     },
     "divisionRecord": {
-      "wins": 1,
+      "wins": 2,
       "losses": 0,
       "ties": 0
     }
@@ -36,17 +36,17 @@
   {
     "team": "NYJ",
     "wins": 2,
-    "losses": 3,
+    "losses": 4,
     "ties": 0,
-    "pointDifferential": -3,
+    "pointDifferential": -10,
     "isUs": false,
     "streak": {
-      "result": "W",
+      "result": "L",
       "count": 1
     },
     "divisionRecord": {
       "wins": 0,
-      "losses": 0,
+      "losses": 1,
       "ties": 0
     }
   },
