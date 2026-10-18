@@ -1,5 +1,23 @@
 [
   {
+    "id": "24520aa8-0d9b-42d9-83b4-c134b795f462",
+    "publishedAt": "2026-10-18T15:32:32.000Z",
+    "type": "Analysis",
+    "headline": "Inactives Analysis: A.J. Brown, Will Campbell, TreVeyon Henderson officially active for Week 6 matchup vs. the Jets",
+    "summary": "Along with Campbell (knee) and Henderson (ankle), star WR A.J. Brown and CB Christian Gonzalez return to the lineup on Sunday.",
+    "sourceUrl": "https://www.patriots.com/news/inactives-analysis-a-j-brown-will-campbell-treveyon-henderson-officially-active-for-week-6-matchup-vs-the-jets",
+    "sourceName": "Patriots.com"
+  },
+  {
+    "id": "e9ab42a6-54a2-4004-be4d-68f96468c0b3",
+    "publishedAt": "2026-10-18T15:32:05.000Z",
+    "type": "Analysis",
+    "headline": "Week 6 Inactives: Jets at Patriots",
+    "summary": "The New England Patriots and New York Jets announce the following inactive players ahead of their NFL Week 6 game on October 18, 2026.",
+    "sourceUrl": "https://www.patriots.com/news/week-6-inactives-jets-at-patriots",
+    "sourceName": "Patriots.com"
+  },
+  {
     "id": "eb2eee09-9661-4e25-a2a2-d5615727e36a",
     "publishedAt": "2026-10-18T12:25:00.000Z",
     "type": "Injury",
@@ -25,24 +43,6 @@
     "summary": "With two rookies assuming starting roles, let's take a look at how this year's draft class has panned out.",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/50198740/new-england-patriots-notebook-rookies-jets-lomu-jacas",
     "sourceName": "ESPN"
-  },
-  {
-    "id": "9e4a99ff-93af-4736-93fb-7ce997a17026",
-    "publishedAt": "2026-10-18T06:25:00.000Z",
-    "type": "Analysis",
-    "headline": "3 to Watch: Patriots-Jets Meet in Week 6 AFC East Clash",
-    "summary": "The Patriots look to extend their winning streak to three games as they welcome the 2-3 New York Jets for an AFC East battle.",
-    "sourceUrl": "https://www.patriots.com/news/3-to-watch-patriots-jets-meet-in-week-6-afc-east-clash",
-    "sourceName": "Patriots.com"
-  },
-  {
-    "id": "def62a70-5d7b-4cda-a9e6-9477694555ac",
-    "publishedAt": "2026-10-18T05:25:00.000Z",
-    "type": "Analysis",
-    "headline": "Game Preview: Patriots vs. Jets | NFL Week 6",
-    "summary": "The New England Patriots will host the New York Jets at Gillette Stadium on Sunday, October 18 at 1 PM ET.",
-    "sourceUrl": "https://www.patriots.com/news/game-preview-patriots-vs-jets-nfl-week-6",
-    "sourceName": "Patriots.com"
   },
   {
     "id": "50200910",
@@ -123,15 +123,6 @@
     "headline": "Source: Patriots lineman Will Campbell out with MCL sprain",
     "summary": "Patriots left tackle Will Campbell has been diagnosed with an MCL sprain in his right knee and is expected to miss some game action, a source told ESPN.",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/50175463/source-patriots-lineman-campbell-mcl-sprain",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50173985",
-    "publishedAt": "2026-10-13T15:10:23Z",
-    "type": "Injury",
-    "headline": "Sources: Patriots' TreVeyon Henderson out multiple weeks with high ankle sprain",
-    "summary": "Patriots running back TreVeyon Henderson is expected to miss multiple weeks because of a high ankle sprain, sources told ESPN.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50173985/sources-patriots-treveyon-henderson-high-ankle-sprain",
     "sourceName": "ESPN"
   }
 ]
