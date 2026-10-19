@@ -1,12 +1,30 @@
 [
   {
     "id": "50213864",
-    "publishedAt": "2026-10-18T22:35:14Z",
+    "publishedAt": "2026-10-19T02:15:23Z",
     "type": "Injury",
     "headline": "Patriots' A.J. Brown has career-high 3 dropped passes in return from injury",
     "summary": "Patriots receiver A.J. Brown, coming off a right high ankle sprain that sidelined him four weeks, had a shaky return to action Sunday, dropping a career-high three passes in the team's win over the Jets",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/50213864/patriots-aj-brown-career-high-3-drops-return-injury",
     "sourceName": "ESPN"
+  },
+  {
+    "id": "6095cd90-e9ab-4246-9813-8937a4ca3c11",
+    "publishedAt": "2026-10-18T23:08:19.000Z",
+    "type": "Beat Report",
+    "headline": "Game Observations: 8 takeaways from the Patriots victory over the Jets in Week 6",
+    "summary": "The Patriots won their third straight game in a 26-19 victory over the Jets on Sunday.",
+    "sourceUrl": "https://www.patriots.com/news/game-observations-8-takeaways-from-the-patriots-victory-over-the-jets-in-week-6",
+    "sourceName": "Patriots.com"
+  },
+  {
+    "id": "d8a094d6-ac0a-4133-9b8b-a72c2d90e4b5",
+    "publishedAt": "2026-10-18T22:52:21.000Z",
+    "type": "Beat Report",
+    "headline": "Game Notes: Patriots Win Fourth-Straight Against the Jets",
+    "summary": "Game notes and stats from the Patriots Week 6 game against the New York Jets on Sunday, October 18, 2026.",
+    "sourceUrl": "https://www.patriots.com/news/game-notes-patriots-win-fourth-straight-over-the-jets",
+    "sourceName": "Patriots.com"
   },
   {
     "id": "50212069",
@@ -63,24 +81,6 @@
     "sourceName": "Patriots.com"
   },
   {
-    "id": "24520aa8-0d9b-42d9-83b4-c134b795f462",
-    "publishedAt": "2026-10-18T15:32:32.000Z",
-    "type": "Analysis",
-    "headline": "Inactives Analysis: A.J. Brown, Will Campbell, TreVeyon Henderson officially active for Week 6 matchup vs. the Jets",
-    "summary": "Along with Campbell (knee) and Henderson (ankle), star WR A.J. Brown and CB Christian Gonzalez return to the lineup on Sunday.",
-    "sourceUrl": "https://www.patriots.com/news/inactives-analysis-a-j-brown-will-campbell-treveyon-henderson-officially-active-for-week-6-matchup-vs-the-jets",
-    "sourceName": "Patriots.com"
-  },
-  {
-    "id": "e9ab42a6-54a2-4004-be4d-68f96468c0b3",
-    "publishedAt": "2026-10-18T15:32:05.000Z",
-    "type": "Analysis",
-    "headline": "Week 6 Inactives: Jets at Patriots",
-    "summary": "The New England Patriots and New York Jets announce the following inactive players ahead of their NFL Week 6 game on October 18, 2026.",
-    "sourceUrl": "https://www.patriots.com/news/week-6-inactives-jets-at-patriots",
-    "sourceName": "Patriots.com"
-  },
-  {
     "id": "50198740",
     "publishedAt": "2026-10-18T10:00:04Z",
     "type": "Analysis",
@@ -96,33 +96,6 @@
     "headline": "Patriots activate WR A.J. Brown for Sunday's game vs. Jets",
     "summary": "Patriots wide receiver A.J. Brown was activated from injured reserve Saturday after missing the past four games with a right high ankle sprain, the team announced.",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/50200910/source-patriots-likely-activate-aj-brown-jets-game",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50192401",
-    "publishedAt": "2026-10-15T23:39:29Z",
-    "type": "Analysis",
-    "headline": "Jon Morris, former AFL and NFL center with Patriots, dies at 84",
-    "summary": "Jon Morris, who played 11 of his 15-year AFL and NFL career with the Boston and New England Patriots, has died at age 84.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50192401/jon-morris-former-afl-nfl-center-patriots-dies-84",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50192345",
-    "publishedAt": "2026-10-15T22:49:28Z",
-    "type": "Analysis",
-    "headline": "Patriots on upset alert as Geno Smith brings a no-INT streak into Jets matchup with Patriots",
-    "summary": "— The New England Patriots are coming off their best performance of the season, doing almost everything they wanted during a 28-point win over the...",
-    "sourceUrl": "http://www.espn.com/nfl/preview?gameId=401873001",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50191062",
-    "publishedAt": "2026-10-15T19:48:48Z",
-    "type": "Analysis",
-    "headline": "Patriots star WR A.J. Brown says status 'still up in the air' for game vs. Jets",
-    "summary": "Patriots WR A.J. Brown says his status for Sunday's game against the Jets is \"still up in the air\" after returning to practice this week.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50191062/pats-aj-brown-says-status-air-vs-jets",
     "sourceName": "ESPN"
   }
 ]
