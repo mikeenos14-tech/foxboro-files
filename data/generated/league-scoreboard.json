@@ -39,6 +39,19 @@
     "overtime": false
   },
   {
+    "gameId": "2026_06_DAL_GB",
+    "week": 6,
+    "date": "2026-10-18",
+    "weekday": "Sunday",
+    "homeTeam": "GB",
+    "awayTeam": "DAL",
+    "homeScore": 23,
+    "awayScore": 13,
+    "homeRecord": "4-2",
+    "awayRecord": "2-4",
+    "overtime": false
+  },
+  {
     "gameId": "2026_06_TEN_IND",
     "week": 6,
     "date": "2026-10-18",
@@ -62,6 +75,45 @@
     "awayScore": 34,
     "homeRecord": "4-2",
     "awayRecord": "2-4",
+    "overtime": false
+  },
+  {
+    "gameId": "2026_06_LAC_KC",
+    "week": 6,
+    "date": "2026-10-18",
+    "weekday": "Sunday",
+    "homeTeam": "KC",
+    "awayTeam": "LAC",
+    "homeScore": 22,
+    "awayScore": 6,
+    "homeRecord": "5-0",
+    "awayRecord": "0-6",
+    "overtime": false
+  },
+  {
+    "gameId": "2026_06_ARI_LA",
+    "week": 6,
+    "date": "2026-10-18",
+    "weekday": "Sunday",
+    "homeTeam": "LA",
+    "awayTeam": "ARI",
+    "homeScore": 16,
+    "awayScore": 18,
+    "homeRecord": "2-4",
+    "awayRecord": "2-4",
+    "overtime": false
+  },
+  {
+    "gameId": "2026_06_BUF_LV",
+    "week": 6,
+    "date": "2026-10-18",
+    "weekday": "Sunday",
+    "homeTeam": "LV",
+    "awayTeam": "BUF",
+    "homeScore": 30,
+    "awayScore": 33,
+    "homeRecord": "3-3",
+    "awayRecord": "5-1",
     "overtime": false
   },
   {

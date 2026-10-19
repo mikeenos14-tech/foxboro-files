@@ -1,14 +1,14 @@
 [
   {
     "team": "BUF",
-    "wins": 4,
+    "wins": 5,
     "losses": 1,
     "ties": 0,
-    "pointDifferential": 23,
+    "pointDifferential": 26,
     "isUs": false,
     "streak": {
       "result": "W",
-      "count": 1
+      "count": 2
     },
     "divisionRecord": {
       "wins": 0,

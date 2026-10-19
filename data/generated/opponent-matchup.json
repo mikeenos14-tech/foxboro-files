@@ -2,12 +2,12 @@
   "gameId": "2026_07_NE_CHI",
   "opponent": "CHI",
   "opponentEpaRank": {
-    "offense": 12,
-    "defense": 17
+    "offense": 10,
+    "defense": 18
   },
   "ourEpaRank": {
-    "offense": 10,
-    "defense": 12
+    "offense": 11,
+    "defense": 11
   },
   "successRate": {
     "us": {
@@ -18,8 +18,8 @@
       },
       "defense": {
         "value": 0.4331395348837209,
-        "leagueRank": 19,
-        "leaguePercentile": 42
+        "leagueRank": 17,
+        "leaguePercentile": 48
       }
     },
     "them": {
@@ -30,8 +30,8 @@
       },
       "defense": {
         "value": 0.40728476821192056,
-        "leagueRank": 4,
-        "leaguePercentile": 90
+        "leagueRank": 5,
+        "leaguePercentile": 87
       }
     }
   },
@@ -39,18 +39,18 @@
     {
       "group": "Rush Offense vs. Run Defense",
       "ourGrade": 55,
-      "theirGrade": 16,
+      "theirGrade": 13,
       "edge": "us",
-      "note": "55/100 vs. 16/100 (advantage us).",
+      "note": "55/100 vs. 13/100 (advantage us).",
       "ourStatLine": "794 yds, 4.4 YPC, 4 TD, 2 FUM, 12% explosive",
       "theirStatLine": "545 yds allowed, 4.6 YPC allowed, 5 TD allowed, 12% explosive allowed"
     },
     {
       "group": "Pass Offense vs. Pass Defense",
       "ourGrade": 65,
-      "theirGrade": 68,
+      "theirGrade": 65,
       "edge": "even",
-      "note": "65/100 vs. 68/100 (close matchup).",
+      "note": "65/100 vs. 65/100 (close matchup).",
       "ourStatLine": "121/189 (64%), 1509 yds, 11 TD, 7 INT",
       "theirStatLine": "102/163 (63%) allowed, 1368 yds allowed, 9 TD allowed, 3 INT gained"
     },
@@ -65,26 +65,26 @@
     },
     {
       "group": "Pass Defense vs. Pass Offense",
-      "ourGrade": 61,
-      "theirGrade": 58,
+      "ourGrade": 68,
+      "theirGrade": 61,
       "edge": "even",
-      "note": "61/100 vs. 58/100 (close matchup).",
+      "note": "68/100 vs. 61/100 (close matchup).",
       "ourStatLine": "127/192 (66%) allowed, 1365 yds allowed, 7 TD allowed, 4 INT gained",
       "theirStatLine": "143/208 (69%), 1476 yds, 5 TD, 5 INT"
     },
     {
       "group": "Pass Protection vs. Pass Rush",
-      "ourGrade": 65,
-      "theirGrade": 97,
+      "ourGrade": 61,
+      "theirGrade": 94,
       "edge": "them",
-      "note": "65/100 vs. 97/100 (advantage them).",
+      "note": "61/100 vs. 94/100 (advantage them).",
       "ourStatLine": "11 sacks allowed, 5% sack rate",
       "theirStatLine": "17 sacks, 31 QB hits, 9% sack rate"
     }
   ],
   "matchupOfTheWeek": {
     "title": "Rush Offense vs. Run Defense",
-    "description": "Our rush offense grades 55/100 (about average) against CHI's run defense at 16/100 (among the NFL's worst) — the widest statistical edge on the board this week."
+    "description": "Our rush offense grades 55/100 (about average) against CHI's run defense at 13/100 (among the NFL's worst) — the widest statistical edge on the board this week."
   },
   "opponentInjuries": [],
   "recentForm": {
@@ -132,9 +132,15 @@
     }
   ],
   "weather": {
-    "tempF": 64,
+    "tempF": 63,
     "wind": "4 mph",
-    "precipitation": "1%",
+    "precipitation": "0%",
     "isDome": false
-  }
+  },
+  "bettingContext": {
+    "spread": 2.5,
+    "overUnder": 49.5,
+    "asOf": "2026-10-19"
+  },
+  "previewTake": "The Patriots head to Soldier Field for a Thursday night showdown with a Chicago defense that, on paper, looks like a piñata waiting to be whacked — specifically their run defense grading a putrid 13/100, which happens to be the widest statistical edge on this week's board against New England's respectable 55/100 rushing attack. Drake Maye's been slinging it with authority (three TDs in last week's win over the Jets), and our pass offense grades above average at 65/100, but here's the rub: the Bears are trotting out a pass rush that grades 94/100, which is among the league's elite, and our pass protection sits at 61/100 — so there's real tension between opportunity and risk. Throw in that A.J. Brown is working through a high ankle sprain and just dropped three passes in his return, and Romeo Doubs took a hit on that 42-yard TD catch against New York, and we're looking at a receiving corps that might not be operating at full strength. The good news: we're 4-1 against Chicago in the last five meetings and riding a three-game winning streak with slightly better recent form than our hosts — but this is a road night game where one specific vulnerability (the pass rush) could really hurt."
 }
