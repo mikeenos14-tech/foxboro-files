@@ -19,14 +19,14 @@
   "turnoverWorthyPlayRate": 0.049079754601226995,
   "ngs": {
     "timeToThrow": {
-      "value": 3.05695364238411,
+      "value": 3.09983606557377,
       "rank": 5,
-      "of": 37
+      "of": 39
     },
     "aggressiveness": {
-      "value": 14.5695364238411,
-      "rank": 21,
-      "of": 37
+      "value": 13.6612021857924,
+      "rank": 28,
+      "of": 39
     }
   },
   "ranks": {

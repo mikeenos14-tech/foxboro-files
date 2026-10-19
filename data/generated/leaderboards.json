@@ -36,7 +36,7 @@
           "value": "1"
         }
       ],
-      "detail": "3.2 yds of separation · 41st of 118 qualified"
+      "detail": "3.2 yds of separation · 37th of 123 qualified"
     },
     {
       "playerId": "00-0038621",
@@ -74,7 +74,7 @@
           "value": "1"
         }
       ],
-      "detail": "4.0 yds of separation · 10th of 118 qualified"
+      "detail": "3.8 yds of separation · 14th of 123 qualified"
     },
     {
       "playerId": "00-0033090",
@@ -112,7 +112,7 @@
           "value": "0"
         }
       ],
-      "detail": "3.2 yds of separation · 39th of 118 qualified"
+      "detail": "4.3 yds of separation · 3rd of 123 qualified"
     },
     {
       "playerId": "00-0033555",
@@ -150,7 +150,7 @@
           "value": "0"
         }
       ],
-      "detail": "2.7 yds of separation · 77th of 118 qualified"
+      "detail": "2.7 yds of separation · 88th of 123 qualified"
     },
     {
       "playerId": "00-0040131",
@@ -515,7 +515,7 @@
           "value": "0"
         }
       ],
-      "detail": "+0.54 yds/carry over expected · 12th of 43 qualified"
+      "detail": "+0.38 yds/carry over expected · 15th of 49 qualified"
     },
     {
       "playerId": "00-0040734",
@@ -545,7 +545,7 @@
           "value": "1"
         }
       ],
-      "detail": "+0.07 yds/carry over expected · 19th of 43 qualified"
+      "detail": "+0.05 yds/carry over expected · 20th of 49 qualified"
     },
     {
       "playerId": "00-0039851",
@@ -603,7 +603,8 @@
           "label": "FUM",
           "value": "1"
         }
-      ]
+      ],
+      "detail": "+0.39 yds/carry over expected · 14th of 49 qualified"
     },
     {
       "playerId": "00-0038476",
