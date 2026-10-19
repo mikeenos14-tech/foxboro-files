@@ -54,7 +54,11 @@
   },
   "preview 2026_07_NE_CHI": {
     "status": "written",
-    "problems": [],
-    "at": "2026-10-19T15:57:10.281Z"
+    "problems": [
+      [
+        "It makes a franchise-history claim that isn't in the facts given."
+      ]
+    ],
+    "at": "2026-10-19T17:18:48.967Z"
   }
 }
