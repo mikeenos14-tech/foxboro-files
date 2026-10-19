@@ -1,1 +1,38 @@
-[]
+[
+  {
+    "playerId": "4608686",
+    "playerName": "Kyle Monangai",
+    "position": "RB",
+    "week": 7,
+    "injury": "Toe",
+    "gameStatus": "Out",
+    "lastUpdated": "2026-10-19T16:28Z"
+  },
+  {
+    "playerId": "3121544",
+    "playerName": "T.J. Edwards",
+    "position": "LB",
+    "week": 7,
+    "injury": "Hamstring",
+    "gameStatus": "Out",
+    "lastUpdated": "2026-10-19T16:28Z"
+  },
+  {
+    "playerId": "4911952",
+    "playerName": "Keyshaun Elliott",
+    "position": "LB",
+    "week": 7,
+    "injury": "Quadriceps",
+    "gameStatus": "Out",
+    "lastUpdated": "2026-10-19T16:28Z"
+  },
+  {
+    "playerId": "4426374",
+    "playerName": "Tyrique Stevenson Sr.",
+    "position": "CB",
+    "week": 7,
+    "injury": "Hip",
+    "gameStatus": "Out",
+    "lastUpdated": "2026-10-19T16:28Z"
+  }
+]

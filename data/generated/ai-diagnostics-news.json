@@ -1,19 +1,16 @@
 {
   "beat digest": {
-    "status": "rejected",
+    "status": "written",
     "problems": [
-      [
-        "It says \"afternoon\", which doesn't fit the kickoff time given."
-      ],
       [
         "It says \"afternoon\", which doesn't fit the kickoff time given."
       ]
     ],
-    "at": "2026-10-19T16:06:54.665Z"
+    "at": "2026-10-19T21:56:00.373Z"
   },
   "league headlines": {
     "status": "written",
     "problems": [],
-    "at": "2026-10-19T16:06:57.281Z"
+    "at": "2026-10-19T21:56:02.756Z"
   }
 }

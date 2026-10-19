@@ -1,5 +1,509 @@
 [
   {
+    "id": "50221818",
+    "publishedAt": "2026-10-19T21:44:38Z",
+    "type": "Analysis",
+    "headline": "LaFleur enthused Packers RB Jacobs, 'an elite-level back,' may play Sunday",
+    "summary": "Green Bay's Josh Jacobs, 'an elite-level back,' in the eyes of Packers coach Matt LaFleur, will return to practice Wednesday and has a chance to play on Sunday against the Detroit Lions after missing six games while on the NFL's commissioner exempt list.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50221818/packers-josh-jacobs-practice-wednesday-play-sunday",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50221426",
+    "publishedAt": "2026-10-19T21:42:14Z",
+    "type": "Injury",
+    "headline": "Rams suffer several major injuries, including to WR Adams, who's out 6-10 weeks",
+    "summary": "Rams wideout Davante Adams ruptured a hamstring in Sunday's loss to the Cardinals, and he will be sidelined for six to 10 weeks, coach Sean McVay announced.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50221426/rams-lose-star-wr-davante-adams-6-10-weeks-mcvay-says",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50221678",
+    "publishedAt": "2026-10-19T21:41:35Z",
+    "type": "Analysis",
+    "headline": "Dan Orlovsky: Rams have to add another WR after losing Davante Adams",
+    "summary": "Dan Orlovsky: Rams have to add another WR after losing Davante Adams",
+    "sourceUrl": "https://www.espn.com/video/clip/_/id/50221678/rams-add-another-wr-losing-davante-adams",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/raiders-cut-ol-evan-neal-from-the-practice-squad",
+    "publishedAt": "2026-10-19T21:31:26.000Z",
+    "type": "Transaction",
+    "headline": "Raiders cut OL Evan Neal from the practice squad",
+    "summary": "The Raiders cut offensive lineman Evan Neal from their practice squad on Monday, the team announced.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/raiders-cut-ol-evan-neal-from-the-practice-squad",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "50221241",
+    "publishedAt": "2026-10-19T21:23:58Z",
+    "type": "Analysis",
+    "headline": "John Harbaugh: Giants 'honing in on' QB decision for Sunday vs. Texans",
+    "summary": "The Giants are \"honing in on\" a decision on who will start at quarterback for Sunday's game against the Texans, coach John Harbaugh said Monday.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50221241/john-harbaugh-giants-honing-qb-decision-week-7",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50220866",
+    "publishedAt": "2026-10-19T21:18:20Z",
+    "type": "Injury",
+    "headline": "Rams place kicker Blake Grupe on IR due to knee injury",
+    "summary": "The Rams have placed kicker Blake Grupe on injured reserve after he injured his right knee in the team's Week 6 loss to the Cardinals.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50220866/rams-place-kicker-blake-grupe-ir-due-knee-injury",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50221307",
+    "publishedAt": "2026-10-19T21:16:48Z",
+    "type": "Analysis",
+    "headline": "Patriots place WR Romeo Doubs (shoulder) on IR",
+    "summary": "The Patriots have placed Romeo Doubs on IR.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50221307/patriots-place-romeo-doubs-shoulder-ir",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/rams-wr-davante-adams-out-6-10-weeks-with-ruptured-hamstring",
+    "publishedAt": "2026-10-19T21:10:35.000Z",
+    "type": "Injury",
+    "headline": "Rams WR Davante Adams out 6-10 weeks with ruptured hamstring",
+    "summary": "DTs Poona Ford and Kobie Turner also will miss significant time, with Ford going on season-ending IR.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/rams-wr-davante-adams-out-6-10-weeks-with-ruptured-hamstring",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/micah-parsons-wont-practice-this-week-packers-dont-rule-out-week-8-return",
+    "publishedAt": "2026-10-19T21:00:12.000Z",
+    "type": "Beat Report",
+    "headline": "Micah Parsons won't practice this week, Packers don't rule out Week 8 return",
+    "summary": "Packers defensive end Micah Parsons said last week that he's \"gonna make sure everything is right\" before he returns from last season's torn ACL and that won't happen this week.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/micah-parsons-wont-practice-this-week-packers-dont-rule-out-week-8-return",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=423446",
+    "publishedAt": "2026-10-19T20:54:39.000Z",
+    "type": "Injury",
+    "headline": "Rams’ Davante Adams Facing Potential Two-Month Absence; Kobie Turner Heading To IR",
+    "summary": "It keeps getting worse for the preseason Super Bowl LXI favorite. Already dealing with a host of injuries, the Rams will be without Davante Adams for a while. A ruptured hamstring will sideline the All-Pro wide receiver, Sean McVay said Monday (via The Athletic’s Nate Atkins). A six- to 10-week absence is on tap for […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/rams-davante-adams-facing-potential-two-month-absence-poona-ford-out-for-season",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "50221053",
+    "publishedAt": "2026-10-19T20:50:47Z",
+    "type": "Injury",
+    "headline": "Commanders place starting RB Jacory Croskey-Merritt (groin) on IR",
+    "summary": "The Washington Commanders placed running back Jacory Croskey-Merritt on injured reserve, sidelining their starting back for at least four games.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50221053/commanders-place-rb-jacory-croskey-merritt-groin-ir",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bills-bringing-back-cb-tredavious-white",
+    "publishedAt": "2026-10-19T20:50:16.000Z",
+    "type": "Analysis",
+    "headline": "Bills bringing back CB Tre’Davious White",
+    "summary": "Veteran cornerback Tre’Davious White is returning to the Bills.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bills-bringing-back-cb-tredavious-white",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/vikings-designate-rb-jordan-mason-to-return-to-practice",
+    "publishedAt": "2026-10-19T20:45:02.000Z",
+    "type": "Beat Report",
+    "headline": "Vikings designate RB Jordan Mason to return to practice",
+    "summary": "The Vikings are getting healthier on offense.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/vikings-designate-rb-jordan-mason-to-return-to-practice",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/49ers-rule-out-wr-christian-kirk-elevate-two-players",
+    "publishedAt": "2026-10-19T20:40:04.000Z",
+    "type": "Transaction",
+    "headline": "49ers rule out WR Christian Kirk, elevate two players",
+    "summary": "The 49ers downgraded wide receiver Christian Kirk from questionable to out, confirming he will not play in Monday Night Football.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/49ers-rule-out-wr-christian-kirk-elevate-two-players",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "50220990",
+    "publishedAt": "2026-10-19T20:29:26Z",
+    "type": "Injury",
+    "headline": "Texans WR Tank Dell to play Sunday in 1st game since major 2024 knee injury",
+    "summary": "Texans wide receiver Tank Dell will return to the field against the New York Giants on Sunday after a 22-month hiatus.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50220990/texans-tank-dell-play-sunday-1st-game-knee-injury",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/patriots-place-romeo-doubs-on-injured-reserve",
+    "publishedAt": "2026-10-19T20:28:33.000Z",
+    "type": "Injury",
+    "headline": "Patriots place Romeo Doubs on injured reserve",
+    "summary": "The Patriots will not have one of their key receivers for at least the next four weeks.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/patriots-place-romeo-doubs-on-injured-reserve",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/commanders-put-jacory-croskey-merritt-on-ir-activate-three-players",
+    "publishedAt": "2026-10-19T20:28:10.000Z",
+    "type": "Transaction",
+    "headline": "Commanders put Jacory Croskey-Merritt on IR, activate three players",
+    "summary": "Commanders running back Jacory Croskey-Merritt will miss at least the next four games with a groin injury.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/commanders-put-jacory-croskey-merritt-on-ir-activate-three-players",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/texans-plan-for-tank-dell-to-play-in-week-7",
+    "publishedAt": "2026-10-19T20:20:09.000Z",
+    "type": "Analysis",
+    "headline": "Texans plan for Tank Dell to play in Week 7",
+    "summary": "Wide receiver Tank Dell's long comeback is set to reach its finish line against the Giants in Week 7.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/texans-plan-for-tank-dell-to-play-in-week-7",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "50220744",
+    "publishedAt": "2026-10-19T20:12:07Z",
+    "type": "Analysis",
+    "headline": "Colts to stick with Daniel Jones at quarterback vs. Vikings",
+    "summary": "Daniel Jones will remain the Indianapolis Colts' starting quarterback when they travel to play the Minnesota Vikings in Week 7, coach Shane Steichen said.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50220744/colts-stick-daniel-jones-quarterback-vs-vikings",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/nick-sirianni-sean-mannion-will-remain-the-play-caller",
+    "publishedAt": "2026-10-19T20:10:50.000Z",
+    "type": "Analysis",
+    "headline": "Nick Sirianni: Sean Mannion will remain the play caller",
+    "summary": "The Eagles rank 30th in total offense, including 29th in rushing.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/nick-sirianni-sean-mannion-will-remain-the-play-caller",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "50218623",
+    "publishedAt": "2026-10-19T20:10:33Z",
+    "type": "Transaction",
+    "headline": "What does firing GM Ballard mean for Colts coach Steichen?",
+    "summary": "Carlie Irsay-Gordon made a big change Monday, but is it the first of many as the trade deadline nears?",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50218623/colts-fire-gm-chris-ballard-shane-steichen",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=423432",
+    "publishedAt": "2026-10-19T20:07:12.000Z",
+    "type": "Injury",
+    "headline": "Patriots Place WR Romeo Doubs On IR",
+    "summary": "The Patriots continue to see their plans to use offseason receiver acquisitions A.J. Brown and Romeo Doubs together fizzle. Just as Brown returned from IR, Doubs is out of the equation. Doubs is now on New England’s IR list, per the team. The free agent pickup suffered a shoulder injury against the Jets on Sunday. […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/patriots-place-wr-romeo-doubs-on-ir",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "50220871",
+    "publishedAt": "2026-10-19T20:06:45Z",
+    "type": "Analysis",
+    "headline": "DeMeco Ryans can't wait to see Tank Dell back on the field",
+    "summary": "DeMeco Ryans can't wait to see Tank Dell back on the field",
+    "sourceUrl": "https://www.espn.com/video/clip/_/id/50220871/demeco-ryans-wait-see-tank-dell-back-field",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/nick-sirianni-on-jalen-hurts-full-faith-and-trust-in-how-our-medical-team-does-things",
+    "publishedAt": "2026-10-19T20:05:24.000Z",
+    "type": "Analysis",
+    "headline": "Nick Sirianni on Jalen Hurts: Full faith and trust in how our medical team does things",
+    "summary": "Sirianni faced several questions Monday about the team's handling of Hurts in Week 5.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/nick-sirianni-on-jalen-hurts-full-faith-and-trust-in-how-our-medical-team-does-things",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=423429",
+    "publishedAt": "2026-10-19T20:02:22.000Z",
+    "type": "Transaction",
+    "headline": "Bills To Bring Back Tre’Davious White",
+    "summary": "Struggling on defense, the Bills still sit 5-1 thanks to Josh Allen’s usual run of strong play. But Buffalo will make a move to potentially bolster its defense midway through the season. Tre’Davious White is returning to the team. White is joining the Bills’ practice squad, ESPN’s Adam Schefter reports. The move will precede a […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/bills-to-bring-back-tredavious-white",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=423425",
+    "publishedAt": "2026-10-19T19:55:50.000Z",
+    "type": "Injury",
+    "headline": "Rams Place K Blake Grupe On IR",
+    "summary": "The Rams’ special teams struggles included another interesting chapter Sunday. Blake Grupe, signed off the Jets’ practice squad last week, suffered an injury during the first half of his Rams debut. Grupe’s knee injury will end his season, as Sean McVay announced (via ESPN.com’s Sarah Barshop) the recent kicker acquisition suffered an ACL tear. The […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/rams-place-k-blake-grupe-on-ir",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/seahawks-te-elijah-arroyo-will-miss-time-with-shoulder-injury",
+    "publishedAt": "2026-10-19T19:54:17.000Z",
+    "type": "Injury",
+    "headline": "Seahawks TE Elijah Arroyo will miss time with shoulder injury",
+    "summary": "Seahawks tight end Elijah Arroyo is expected to miss time with a shoulder injury, Jeremy Fowler of ESPN reports.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/seahawks-te-elijah-arroyo-will-miss-time-with-shoulder-injury",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/john-harbaugh-were-honing-in-on-who-will-start-at-qb-in-week-7",
+    "publishedAt": "2026-10-19T19:54:14.000Z",
+    "type": "Analysis",
+    "headline": "John Harbaugh: We're \"honing in\" on who will start at QB in Week 7",
+    "summary": "The Giants' HC said the team is working through who will start at QB after J.J. McCarthy replaced Jameis Winston late in Sunday's game and played well.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/john-harbaugh-were-honing-in-on-who-will-start-at-qb-in-week-7",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "50220546",
+    "publishedAt": "2026-10-19T19:50:20Z",
+    "type": "Analysis",
+    "headline": "NFL suspends Bills' C.J. Gardner-Johnson for one game for spitting",
+    "summary": "The NFL has suspended Bills safety C.J. Gardner-Johnson for one game after cameras captured him spitting toward Raiders players on Sunday.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50220546/nfl-suspends-cj-gardner-johnson-one-game-spitting",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50219637",
+    "publishedAt": "2026-10-19T19:50:20Z",
+    "type": "Analysis",
+    "headline": "Eagles QB Jalen Hurts' blood clot diagnosis explained",
+    "summary": "ESPN spoke with a medical professional for a better understanding of causes, treatments and outlook for those with blood clots.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50219637/jalen-hurts-eagles-blood-clot",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=423413",
+    "publishedAt": "2026-10-19T19:48:27.000Z",
+    "type": "Analysis",
+    "headline": "Stephen Jones: Cowboys ‘Absolutely’ Believe In HC Brian Schottenheimer",
+    "summary": "Brian Schottenheimer represented an unusual hire during the 2025 offseason, considering more than a decade had passed since the veteran offensive staffer’s previous NFL head coaching interview, but the Cowboys boasted a high-octane attack last season. Dallas ranked second in scoring offense in 2025, but a last-place defensive finish held the team back. This season, […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/stephen-jones-cowboys-absolutely-believe-in-hc-brian-schottenheimer",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dan-patrick-colts-will-explore-hiring-peyton-manning-as-g-m",
+    "publishedAt": "2026-10-19T19:25:38.000Z",
+    "type": "Analysis",
+    "headline": "Dan Patrick: Colts will explore hiring Peyton Manning as G.M.",
+    "summary": "When the Colts last fired a head coach, they turned to former Colts center Jeff Saturday to be the head coach.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dan-patrick-colts-will-explore-hiring-peyton-manning-as-g-m",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cowboys-expect-dee-winters-to-miss-time-with-achilles-strain",
+    "publishedAt": "2026-10-19T19:21:02.000Z",
+    "type": "Analysis",
+    "headline": "Cowboys expect Dee Winters to miss time with Achilles strain",
+    "summary": "Cowboys linebacker Dee Winters started the first six games of the season, but the team will have to look elsewhere for defensive help in the near future.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cowboys-expect-dee-winters-to-miss-time-with-achilles-strain",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jesse-minter-lamar-jackson-could-potentially-return-to-practice-this-week",
+    "publishedAt": "2026-10-19T19:13:17.000Z",
+    "type": "Beat Report",
+    "headline": "Jesse Minter: Lamar Jackson could \"potentially\" return to practice this week",
+    "summary": "Ravens quarterback Lamar Jackson has missed two games with an ankle injury and head coach Jesse Minter didn't offer much clarity about his chances of returning for Week 7 during a Monday press conference.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jesse-minter-lamar-jackson-could-potentially-return-to-practice-this-week",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=423404",
+    "publishedAt": "2026-10-19T19:09:50.000Z",
+    "type": "Analysis",
+    "headline": "Bills S C.J. Gardner-Johnson Receives One-Game Suspension",
+    "summary": "Bills safety C.J. Gardner-Johnson spit in the direction of Raiders tight end Brock Bowers late in the first half of yesterday’s game. Gardner-Johnson was ejected, leading to a review of the incident by the NFL. That process has resulted in supplemental discipline. The league handed down a one-game suspension on Monday. Barring a successful appeal, that […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/bills-s-c-j-gardner-johnson-receives-one-game-suspension",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/c-j-gardner-johnson-suspended-for-one-game",
+    "publishedAt": "2026-10-19T19:08:42.000Z",
+    "type": "Analysis",
+    "headline": "C.J. Gardner-Johnson suspended for one game",
+    "summary": "The Bills have their bye in Week 7, but when they come back, they will not have one of their key defenders.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/c-j-gardner-johnson-suspended-for-one-game",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=423402",
+    "publishedAt": "2026-10-19T19:08:24.000Z",
+    "type": "Injury",
+    "headline": "Chargers Considering Offensive Changes",
+    "summary": "Coming off consecutive playoff trips, the Chargers are a stunning 0-6 to start Jim Harbaugh’s third season. Their offense, in particular, has been a mess. While the usual batch of injuries has emerged for the team, Justin Herbert was not playing well before those maladies began removing starters from the equation. Herbert has not looked […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/chargers-considering-offensive-changes",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/andy-reid-still-trusts-harrison-butker-after-two-misses-on-sunday",
+    "publishedAt": "2026-10-19T19:05:27.000Z",
+    "type": "Analysis",
+    "headline": "Andy Reid still trusts Harrison Butker after two misses on Sunday",
+    "summary": "Chiefs kicker Harrison Butker had a bad game on Sunday against the Chargers, missing an extra point and a field goal attempt.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/andy-reid-still-trusts-harrison-butker-after-two-misses-on-sunday",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "50220069",
+    "publishedAt": "2026-10-19T18:56:13Z",
+    "type": "Analysis",
+    "headline": "Can the Saints carry their winning momentum into Paris?",
+    "summary": "After New Orleans snapped its three-game losing streak, the team's focus quickly turns to Week 7 in France.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50220069/can-new-orleans-saints-carry-winning-momentum-paris",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=423391",
+    "publishedAt": "2026-10-19T18:54:00.000Z",
+    "type": "Transaction",
+    "headline": "Lions’ Brian Branch, Cade Mays Expected To Play In Week 7",
+    "summary": "On October 7, the Lions opened the practice window for safety Brian Branch and center Cade Mays. Both players are eligible to be activated at any time, and that should be taking place soon. “Barring anything negatively happening between now and the game, we plan on playing both of those guys,” head coach Dan Campbell said on Monday. With […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/lions-brian-branch-cade-mays-expected-to-play-in-week-7",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/shane-steichen-on-chris-ballards-firing-i-dont-think-it-falls-completely-on-chris",
+    "publishedAt": "2026-10-19T18:39:08.000Z",
+    "type": "Analysis",
+    "headline": "Shane Steichen on Chris Ballard's firing: \"I don't think it falls completely on Chris\"",
+    "summary": "In January, Colts owner Carlie Irsay-Gordon put both coach Shane Steichen and G.M.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/shane-steichen-on-chris-ballards-firing-i-dont-think-it-falls-completely-on-chris",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=423392",
+    "publishedAt": "2026-10-19T18:30:24.000Z",
+    "type": "Injury",
+    "headline": "Colts CB Sauce Gardner To Miss Time",
+    "summary": "Sauce Gardner arrived in Indianapolis as a hopeful trajectory-changing presence on defense at the 2025 trade deadline. The two-time All-Pro, however, has not moved the needle in the way the team aimed. Injuries have interfered with the ex-Jets star’s time with his second NFL team. A calf strain sidelined Gardner late last season, and the […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/calf-injury-to-sideline-colts-sauce-gardner",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "50219761",
+    "publishedAt": "2026-10-19T18:22:21Z",
+    "type": "Analysis",
+    "headline": "Sean Payton: Broncos not considering benching Bo Nix amid offense's struggles",
+    "summary": "The Broncos are not considering benching quarterback Bo Nix as the team struggles on offense, coach Sean Payton said Monday.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50219761/broncos-not-considering-benching-qb-bo-nix-sean-payton-says",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-on-doctors-advice-jalen-hurts-played-in-london-after-being-awake-for-36-hours",
+    "publishedAt": "2026-10-19T18:17:00.000Z",
+    "type": "Analysis",
+    "headline": "Report: On doctors' advice, Jalen Hurts played in London after being awake for 36 hours",
+    "summary": "The Jalen Hurts blood clot story keeps getting weirder.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-on-doctors-advice-jalen-hurts-played-in-london-after-being-awake-for-36-hours",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "50219961",
+    "publishedAt": "2026-10-19T18:14:12Z",
+    "type": "Beat Report",
+    "headline": "Mayfield to practice this week but Buccaneers to prep as if Daniels will play",
+    "summary": "Baker Mayfield will return to practice Wednesday for the Buccaneers, but the team will prepare as if Jalon Daniels will start at QB, coach Todd Bowles said.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50219961/mayfield-practice-buccaneers-prep-daniels-play",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50219601",
+    "publishedAt": "2026-10-19T18:01:07Z",
+    "type": "Analysis",
+    "headline": "Jets' Aaron Glenn backs Frank Reich despite team's struggles to score points",
+    "summary": "Jets coach Aaron Glenn backed offensive coordinator Frank Reich on Monday despite his team's struggles on offense this season.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50219601/jets-aaron-glenn-backs-frank-reich-amid-scoring-struggles",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=423386",
+    "publishedAt": "2026-10-19T17:50:28.000Z",
+    "type": "Injury",
+    "headline": "Seahawks TE Elijah Arroyo To Miss Time",
+    "summary": "Elijah Arroyo has been a part-time contributor on offense and special teams so far for the Seahawks. The second-year tight end will be sidelined for the time being, though. Arroyo suffered a shoulder injury during Thursday night’s loss to the Broncos, ESPN’s Jeremy Fowler reports. Missed time – and potentially a move to injured reserve – […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/seahawks-te-elijah-arroyo-to-miss-time",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/sean-payton-says-he-hasnt-considered-benching-bo-nix",
+    "publishedAt": "2026-10-19T17:28:59.000Z",
+    "type": "Analysis",
+    "headline": "Sean Payton says he hasn't considered benching Bo Nix",
+    "summary": "After Thursday night's overtime win by the Broncos over the Seahawks, Prime Video's Ryan Fitzpatrick sharply criticized quarterback Bo Nix, calling his performance \"garbage.\"",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/sean-payton-says-he-hasnt-considered-benching-bo-nix",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/for-andy-dalton-the-falcons-made-the-most-sense",
+    "publishedAt": "2026-10-19T17:10:03.000Z",
+    "type": "Analysis",
+    "headline": "For Andy Dalton, the Falcons made the most sense",
+    "summary": "Sooner rather than later, new Falcons quarterback Andy Dalton will explain his decision to choose the Falcons over the Eagles and other options.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/for-andy-dalton-the-falcons-made-the-most-sense",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-sauce-gardner-week-to-week-with-mild-calf-strain",
+    "publishedAt": "2026-10-19T17:01:12.000Z",
+    "type": "Injury",
+    "headline": "Report: Sauce Gardner week-to-week with mild calf strain",
+    "summary": "Colts cornerback Sauce Gardner may miss some time after departing Sunday’s game due to injury.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-sauce-gardner-week-to-week-with-mild-calf-strain",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "50219420",
+    "publishedAt": "2026-10-19T16:54:32Z",
+    "type": "Analysis",
+    "headline": "Pat McAfee reflects on state of Colts after firing of GM",
+    "summary": "Pat McAfee reflects on state of Colts after firing of GM",
+    "sourceUrl": "https://www.espn.com/video/clip/_/id/50219420/pat-mcafee-reflects-state-colts-firing-gm",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=423354",
+    "publishedAt": "2026-10-19T16:52:03.000Z",
+    "type": "Analysis",
+    "headline": "Saints WR Jordyn Tyson Could Play In Week 7",
+    "summary": "Jordyn Tyson has yet to make his NFL debut, but that could change shortly. The Saints rookie will be with the team in Paris for Week 7. Head coach Kellen Moore said on Monday that Tyson is among the players who will be traveling to Paris. The same is also true of linebacker Kaden Elliss. Tyson has been sidelined […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/saints-wr-jordyn-tyson-could-play-in-week-7",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/buccaneers-expect-baker-mayfield-to-practice-on-wednesday",
+    "publishedAt": "2026-10-19T16:48:46.000Z",
+    "type": "Beat Report",
+    "headline": "Buccaneers expect Baker Mayfield to practice on Wednesday",
+    "summary": "Buccaneers quarterback Baker Mayfield missed his third straight game on Sunday, but the team is hoping that his absence from the lineup will be ending soon.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/buccaneers-expect-baker-mayfield-to-practice-on-wednesday",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/after-nfl-objected-to-myles-garretts-sideline-apparel-garrett-kept-it-simple-on-sunday",
+    "publishedAt": "2026-10-19T16:40:41.000Z",
+    "type": "Analysis",
+    "headline": "After NFL objected to Myles Garrett's sideline apparel, Garrett kept it simple on Sunday",
+    "summary": "The NFL has clear, inflexible rules when it comes to the apparel worn by coaches and players on the sideline who aren't in uniform.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/after-nfl-objected-to-myles-garretts-sideline-apparel-garrett-kept-it-simple-on-sunday",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "50189765",
+    "publishedAt": "2026-10-19T16:36:56Z",
+    "type": "Analysis",
+    "headline": "Who plays 'Monday Night Football' tonight? Where to watch",
+    "summary": "Here's what to know about the Week 6 matchup.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50189765/commanders-vs-49ers-watch-monday-night-football-week-6",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/lions-plan-to-have-brian-branch-cade-mays-in-lineup-this-week",
+    "publishedAt": "2026-10-19T16:30:34.000Z",
+    "type": "Analysis",
+    "headline": "Lions plan to have Brian Branch, Cade Mays in lineup this week",
+    "summary": "The Lions got safety Brian Branch and center Cade Mays back at practice a couple of weeks ago and both players are set to return to the lineup in Week 7.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/lions-plan-to-have-brian-branch-cade-mays-in-lineup-this-week",
+    "sourceName": "Pro Football Talk"
+  },
+  {
     "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/assistant-gm-ed-dodds-will-run-colts-personnel-department-for-rest-of-the-season",
     "publishedAt": "2026-10-19T16:01:56.000Z",
     "type": "Analysis",
@@ -210,7 +714,7 @@
     "id": "profootballrumors-https://www.profootballrumors.com/?p=423358",
     "publishedAt": "2026-10-19T13:50:50.000Z",
     "type": "Transaction",
-    "headline": "Falcons To Sign QB Andy Dalton, Release Cooper Rush",
+    "headline": "Falcons Sign QB Andy Dalton, Release Cooper Rush",
     "summary": "Andy Dalton has managed to line up his next deal, and he will be returning to the NFC South. The veteran quarterback is joining the Falcons, ESPN’s Adam Schefter reports. In a corresponding move, Ian Rapoport of NFL Network reports Atlanta is releasing fellow passer Cooper Rush. That will leave the Falcons with four QBs on the […]",
     "sourceUrl": "https://www.profootballrumors.com/2026/10/falcons-to-sign-qb-andy-dalton-release-cooper-rush",
     "sourceName": "Pro Football Rumors"
@@ -2356,15 +2860,6 @@
     "summary": "The Titans have fired a head coach or GM each of the last four years, but they say they're going to be patient with their current coach and GM.",
     "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/titans-ceo-burke-nihill-our-organization-believes-in-coach-robert-saleh-gm-mike-borgonzi",
     "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "50189765",
-    "publishedAt": "2026-10-17T03:53:00Z",
-    "type": "Analysis",
-    "headline": "Commanders vs. 49ers: Where to watch 'Monday Night Football'",
-    "summary": "Here's what to know about the Week 6 matchup.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50189765/commanders-vs-49ers-watch-monday-night-football-week-6",
-    "sourceName": "ESPN"
   },
   {
     "id": "profootballrumors-https://www.profootballrumors.com/?p=423152",
@@ -14146,527 +14641,5 @@
     "summary": "The Cardinals’ latest rebuilding season will include 13 missed games from their left tackle. Mike LaFleur said Monday that Paris Johnson Jr. suffered a biceps tear and will miss the rest of the season. Although Johnson did not leave the field upon suffering the injury on Sunday, he departed a few plays later. The Cardinals replaced […]",
     "sourceUrl": "https://www.profootballrumors.com/2026/10/cardinals-paris-johnson-jr-out-for-season",
     "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "50111452",
-    "publishedAt": "2026-10-05T21:55:52Z",
-    "type": "Analysis",
-    "headline": "NFL suspends officials Jeff Seeman, Adrian Hill for conduct toward players",
-    "summary": "The NFL has suspended line judge Jeff Seeman for two games for appearing to swear at Cardinals tight end Trey McBride. Referee Adrian Hill has been suspended one game for a separate incident in the Vikings' win over the Dolphins.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50111452/nfl-suspends-officials-jeff-seeman-adrian-hill-conduct-players",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/wr-ceedee-lamb-thigh-cb-joey-porter-jr-ankle-estimated-as-full-participants",
-    "publishedAt": "2026-10-05T21:53:09.000Z",
-    "type": "Injury",
-    "headline": "WR CeeDee Lamb (thigh), CB Joey Porter Jr. (ankle) estimated as full participants",
-    "summary": "The Cowboys did not practice Monday, but they had to release an estimated injury report with Thursday's game against the Bucs looming.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/wr-ceedee-lamb-thigh-cb-joey-porter-jr-ankle-estimated-as-full-participants",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "50111202",
-    "publishedAt": "2026-10-05T21:39:19Z",
-    "type": "Injury",
-    "headline": "Sources: 49ers Pro Bowl FB Juszczyk (knee) expected out 2-3 weeks",
-    "summary": "49ers Pro Bowl fullback Kyle Juszczyk suffered a knee sprain and bone bruise that is expected to sideline him for two to three weeks, sources told ESPN's Adam Schefter and NFL Network's Ian Rapoport.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50111202/sources-49ers-pro-bowl-fb-juszczyk-knee-expected-2-3-weeks",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jeremiyah-love-says-coaches-are-managing-the-workload-though-longest-year-of-my-life",
-    "publishedAt": "2026-10-05T21:39:06.000Z",
-    "type": "Analysis",
-    "headline": "Jeremiyah Love says coaches are managing the workload though \"longest year of my life\"",
-    "summary": "For first-year players, a 17-game season means eventually hitting the so-called rookie wall.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jeremiyah-love-says-coaches-are-managing-the-workload-though-longest-year-of-my-life",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=422020",
-    "publishedAt": "2026-10-05T21:37:44.000Z",
-    "type": "Injury",
-    "headline": "Chargers LT Rashawn Slater Suffers High Ankle Sprain",
-    "summary": "Four games into his comeback season, Rashawn Slater will be shut down once again. Tests confirmed Monday the Pro Bowl Chargers left tackle suffered a high ankle sprain, according to NFL.com’s Ian Rapoport. After Slater left Seattle on crutches, per ESPN.com’s Kris Rhim, the prospect of another IR move involving the sixth-year blocker looms. Slater […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/chargers-lt-rashawn-slater-suffers-high-ankle-sprain",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "50111808",
-    "publishedAt": "2026-10-05T21:34:58Z",
-    "type": "Analysis",
-    "headline": "Bills CB Maxwell Hairston sorry for skipping media, addresses struggles",
-    "summary": "A day after skipping out on the media, Bills cornerback Maxwell Hairston held an impromptu news conference to apologize and provide context for his early-season struggles.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50111808/bills-cb-maxwell-hairston-sorry-skipping-media-addresses-struggles",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/nick-sirianni-more-answers-wednesday-on-saquon-barkleys-status",
-    "publishedAt": "2026-10-05T21:33:39.000Z",
-    "type": "Analysis",
-    "headline": "Nick Sirianni: More answers Wednesday on Saquon Barkley's status",
-    "summary": "Eagles running back Saquon Barkley's status for Week 5's game against the Jaguars in London is up in the air.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/nick-sirianni-more-answers-wednesday-on-saquon-barkleys-status",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "50110486",
-    "publishedAt": "2026-10-05T21:30:49Z",
-    "type": "Analysis",
-    "headline": "Ben Johnson: Tyson Bagent will start at QB for Bears vs. Packers",
-    "summary": "Tyson Bagent will be the Bears' starting quarterback for Sunday's game at the Packers, coach Ben Johnson announced Monday.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50110486/ben-johnson-tyson-bagent-start-qb-bears-vs-packers",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/falcons-elevate-s-jammie-robinson-for-monday-night-football",
-    "publishedAt": "2026-10-05T21:27:34.000Z",
-    "type": "Transaction",
-    "headline": "Falcons elevate S Jammie Robinson for Monday Night Football",
-    "summary": "The Falcons elevated safety Jammie Robinson to the active roster for Monday Night Football.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/falcons-elevate-s-jammie-robinson-for-monday-night-football",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/eagles-rb-tank-bigsby-to-have-surgery-on-a-core-muscle-injury",
-    "publishedAt": "2026-10-05T21:27:03.000Z",
-    "type": "Injury",
-    "headline": "Eagles RB Tank Bigsby to have surgery on a core muscle injury",
-    "summary": "The Eagles saw two running backs leave with injuries during Sunday's 24-20 loss to the Rams and at least one of them is going to be out for a while.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/eagles-rb-tank-bigsby-to-have-surgery-on-a-core-muscle-injury",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "50110763",
-    "publishedAt": "2026-10-05T21:25:23Z",
-    "type": "Injury",
-    "headline": "Packers LB Edgerrin Cooper has season-ending torn Achilles",
-    "summary": "Packers linebacker Edgerrin Cooper suffered a season-ending Achilles tear during Sunday's 17-14 victory over the Buccaneers.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50110763/sources-packers-lb-edgerrin-cooper-torn-achilles",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50111576",
-    "publishedAt": "2026-10-05T21:15:51Z",
-    "type": "Injury",
-    "headline": "How the sportsbooks adjust after high volume of early-season NFL injuries",
-    "summary": "With several players out for an extended time (some for the entire season), sportsbooks have reacted quickly.",
-    "sourceUrl": "https://www.espn.com/espn/betting/story/_/id/50111576/nfl-injuries-betting-impact-sportsbooks-odds",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50110871",
-    "publishedAt": "2026-10-05T21:08:12Z",
-    "type": "Injury",
-    "headline": "Broncos get good news on Pat Surtain II's ankle, sources say",
-    "summary": "Broncos star cornerback Pat Surtain II avoided a worst-case scenario on his ankle injury, sources told NFL Network's Ian Rapoport.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50110871/broncos-get-good-news-pat-surtain-ii-ankle-sources-say",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50110612",
-    "publishedAt": "2026-10-05T21:06:16Z",
-    "type": "Injury",
-    "headline": "Pat Surtain II out with an ankle injury: How will the Denver Broncos adjust?",
-    "summary": "While Surtain was able to avoid a long-term, season-ending injury, the loss of him and Riley Moss puts the Broncos in a short-term bind.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50110612/pat-surtain-ii-injury-denver-broncos-defense-effects",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=422006",
-    "publishedAt": "2026-10-05T21:05:46.000Z",
-    "type": "Injury",
-    "headline": "Chiefs WR Tyquan Thornton To Undergo Surgery; Late-Season Return In Play",
-    "summary": "The Chiefs’ Week 4 win over the Raiders moved the resurgent team’s record to 4-0, but the victory depleted the team at wide receiver. Rashee Rice left the game with a hamstring injury, and Tyquan Thornton encountered a longer-term setback. As Tyreek Hill reunion rumors persist, the Chiefs will be without Thornton for an extended […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/chiefs-wr-tyquan-thornton-to-undergo-surgery-late-season-return-in-play",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/commanders-fans-dominated-in-london-game-vs-colts",
-    "publishedAt": "2026-10-05T20:57:35.000Z",
-    "type": "Analysis",
-    "headline": "Commanders fans dominated in London game vs. Colts",
-    "summary": "The Commanders' loss in London to the Colts had nothing to do with a lack of fan support.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/commanders-fans-dominated-in-london-game-vs-colts",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cowboys-designate-g-tyler-smith-for-return-from-ir",
-    "publishedAt": "2026-10-05T20:52:31.000Z",
-    "type": "Analysis",
-    "headline": "Cowboys designate G Tyler Smith for return from IR",
-    "summary": "The Cowboys are getting closer to welcoming left guard Tyler Smith back to the lineup.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cowboys-designate-g-tyler-smith-for-return-from-ir",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dolphins-cut-rb-carlos-washington",
-    "publishedAt": "2026-10-05T20:49:22.000Z",
-    "type": "Transaction",
-    "headline": "Dolphins cut RB Carlos Washington",
-    "summary": "The Dolphins waived running back Carlos Washington Monday, the team announced.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dolphins-cut-rb-carlos-washington",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/micah-parsons-will-not-practice-this-week",
-    "publishedAt": "2026-10-05T20:45:35.000Z",
-    "type": "Beat Report",
-    "headline": "Micah Parsons will not practice this week",
-    "summary": "Packers defensive end Micah Parsons is eligible to come off of the physically unable to perform list this week, but it will not happen.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/micah-parsons-will-not-practice-this-week",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/sean-mcvay-aaron-donald-trending-toward-week-5-return",
-    "publishedAt": "2026-10-05T20:41:31.000Z",
-    "type": "Analysis",
-    "headline": "Sean McVay: Aaron Donald trending toward Week 5 return",
-    "summary": "It sounds like Aaron Donald's comeback will continue in Week 5.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/sean-mcvay-aaron-donald-trending-toward-week-5-return",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "50111468",
-    "publishedAt": "2026-10-05T20:39:10Z",
-    "type": "Injury",
-    "headline": "Vikings LG Jackson likely out for season, LT Darrisaw has concussion",
-    "summary": "Vikings left guard Donovan Jackson is headed for what is likely season-ending surgery to repair a meniscus tear, and left tackle Christian Darrisaw is in the concussion protocol.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50111468/vikings-lg-jackson-likely-season-lt-darrisaw-concussion",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/caleb-williams-still-week-to-week-but-wont-practice-this-week",
-    "publishedAt": "2026-10-05T20:35:55.000Z",
-    "type": "Beat Report",
-    "headline": "Caleb Williams still week to week but won't practice this week",
-    "summary": "Bears coach Ben Johnson said earlier in the day that Tyson Bagent will start Sunday's game against the Packers.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/caleb-williams-still-week-to-week-but-wont-practice-this-week",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "50111347",
-    "publishedAt": "2026-10-05T20:26:25Z",
-    "type": "Analysis",
-    "headline": "Ravens unsure if Lamar Jackson (ankle) will play vs. Falcons",
-    "summary": "The Ravens are uncertain whether quarterback Lamar Jackson will play Sunday night against the Falcons.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50111347/ravens-unsure-lamar-jackson-ankle-play-vs-falcons",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/saints-elevate-lbs-fadil-diggs-jackson-sirmon-for-monday-night",
-    "publishedAt": "2026-10-05T20:24:03.000Z",
-    "type": "Transaction",
-    "headline": "Saints elevate LBs Fadil Diggs, Jackson Sirmon for Monday night",
-    "summary": "The Saints are dealing with several injuries at linebacker, so they brought a pair of healthy ones up from the practice squad for Monday night's game against the Falcons.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/saints-elevate-lbs-fadil-diggs-jackson-sirmon-for-monday-night",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/nick-sirianni-we-felt-like-leaving-for-london-on-friday-would-be-best-for-the-team",
-    "publishedAt": "2026-10-05T20:20:00.000Z",
-    "type": "Analysis",
-    "headline": "Nick Sirianni: We felt like leaving for London on Friday would be best for the team",
-    "summary": "At the start of the season, there was a lot of talk about team travel for international games as the Rams played the 49ers in Australia.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/nick-sirianni-we-felt-like-leaving-for-london-on-friday-would-be-best-for-the-team",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=422007",
-    "publishedAt": "2026-10-05T20:19:24.000Z",
-    "type": "Injury",
-    "headline": "Cowboys Designate Tyler Smith For Return",
-    "summary": "IR-return season is upon us, and the Cowboys will make a key move on the first day. Tyler Smith is returning to practice this week, per Brian Schottenheimer (via All City DLLS’ Clarence Hill). The Cowboys placed Smith on IR shortly after cutdown day, with thumb surgery delaying the All-Pro guard’s 2026 debut. Although the […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/cowboys-designate-g-tyler-smith-for-return",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/chiefs-wr-tyquan-thornton-to-have-surgery-on-dislocated-ankle-will-be-out-3-4-months",
-    "publishedAt": "2026-10-05T20:15:24.000Z",
-    "type": "Injury",
-    "headline": "Chiefs WR Tyquan Thornton to have surgery on dislocated ankle, will be out 3-4 months",
-    "summary": "Chiefs wide receiver Tyquan Thornton went for more tests on his injured ankle on Monday and they confirmed that he will need to have surgery to repair a dislocation.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/chiefs-wr-tyquan-thornton-to-have-surgery-on-dislocated-ankle-will-be-out-3-4-months",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "50111484",
-    "publishedAt": "2026-10-05T20:05:15Z",
-    "type": "Analysis",
-    "headline": "Schefter: Officials involved in Week 4 controversies receiving suspensions",
-    "summary": "Schefter: Officials involved in Week 4 controversies receiving suspensions",
-    "sourceUrl": "https://www.espn.com/video/clip/_/id/50111484/officials-involved-week-4-controversies-receiving-suspensions",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50111470",
-    "publishedAt": "2026-10-05T20:03:10Z",
-    "type": "Analysis",
-    "headline": "Buccaneers S Antoine Winfield Jr. out 2-4 weeks with rib fracture",
-    "summary": "Buccaneers All-Pro safety Antoine Winfield Jr. is expected to miss 2-4 weeks with a :slight rib fracture,\" coach Todd Bowles said Monday.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50111470/buccaneers-s-antoine-winfield-jr-2-4-weeks-rib-fracture",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/nfl-suspends-referee-adrian-hill-line-judge-jeff-seeman-for-unprofessional-conduct-toward-players",
-    "publishedAt": "2026-10-05T19:58:52.000Z",
-    "type": "Analysis",
-    "headline": "NFL suspends referee Adrian Hill, line judge Jeff Seeman for unprofessional conduct toward players",
-    "summary": "Hill has been suspended for one game while Seeman received a two-game ban",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/nfl-suspends-referee-adrian-hill-line-judge-jeff-seeman-for-unprofessional-conduct-toward-players",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=421996",
-    "publishedAt": "2026-10-05T19:48:54.000Z",
-    "type": "Injury",
-    "headline": "Giants Could Place Braxton Berrios On IR",
-    "summary": "Braxton Berrios suffered a foot injury on Sunday. The veteran receiver/returner is now in line for an absence from the Giants. Berrios is heading to injured reserve, ESPN’s Adam Schefter reports. This move will ensure at least a four-game absence. The receiver spot will be shorthanded moving forward, while New York’s special teams will be impacted […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/giants-could-place-braxton-berrios-on-ir",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/panthers-hopeful-jaelan-phillips-monroe-freeling-can-return-after-week-5-bye",
-    "publishedAt": "2026-10-05T19:42:38.000Z",
-    "type": "Injury",
-    "headline": "Panthers \"hopeful\" Jaelan Phillips, Monroe Freeling can return after Week 5 bye",
-    "summary": "The Panthers have a bye in Week 5 and that will give a couple of their injured players a little more time to heal before they are back on the field.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/panthers-hopeful-jaelan-phillips-monroe-freeling-can-return-after-week-5-bye",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-jonathan-greenard-considered-day-to-day-with-ankle-injury",
-    "publishedAt": "2026-10-05T19:33:28.000Z",
-    "type": "Injury",
-    "headline": "Report: Jonathan Greenard considered day-to-day with ankle injury",
-    "summary": "Eagles edge rusher Jonathan Greenard did not suffer a major injury during Sunday’s loss to the Rams.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-jonathan-greenard-considered-day-to-day-with-ankle-injury",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/steelers-will-put-dl-derrick-harmon-on-injured-reserve",
-    "publishedAt": "2026-10-05T19:29:24.000Z",
-    "type": "Injury",
-    "headline": "Steelers will put DL Derrick Harmon on injured reserve",
-    "summary": "The Steelers will be without defensive lineman Derrick Harmon for at least four games.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/steelers-will-put-dl-derrick-harmon-on-injured-reserve",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jesse-minter-unsure-of-lamar-jacksons-availability-for-week-5-vs-falcons",
-    "publishedAt": "2026-10-05T19:22:21.000Z",
-    "type": "Injury",
-    "headline": "Jesse Minter unsure of Lamar Jackson's availability for Week 5 vs. Falcons",
-    "summary": "Minter told reporters that the team is still gathering information on the ankle injury Jackson suffered during Sunday's win over the Titans.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jesse-minter-unsure-of-lamar-jacksons-availability-for-week-5-vs-falcons",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bengals-call-tee-higgins-day-to-day-with-adductor-injury",
-    "publishedAt": "2026-10-05T19:19:27.000Z",
-    "type": "Injury",
-    "headline": "Bengals call Tee Higgins day-to-day with adductor injury",
-    "summary": "The Bengals saw their top two receivers leave Sunday's 22-17 loss to the Jaguars with injuries and it's unclear if either one of them will be back for Week 5.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bengals-call-tee-higgins-day-to-day-with-adductor-injury",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=421935",
-    "publishedAt": "2026-10-05T19:15:14.000Z",
-    "type": "Injury",
-    "headline": "Steelers To Place DT Derrick Harmon On IR; CB Jamel Dean To Miss Time",
-    "summary": "OCTOBER 5: Head coach Mike McCarthy announced on Monday (h/t ESPN’s Brooke Pryor) Harmon will indeed be placed on injured reserve. OCTOBER 4: The Steelers saw defensive tackle Derrick Harmon and cornerback Jamel Dean exit Thursday night’s loss. Both players are now in line for missed time. Harmon was carted off the field with a foot injury, and NFL Network’s Ian Rapoport […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/steelers-could-place-dt-derrick-harmon-on-ir-cb-jamel-dean-to-miss-time",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/robert-saleh-cam-ward-is-going-to-be-a-damn-good-quarterback",
-    "publishedAt": "2026-10-05T19:12:39.000Z",
-    "type": "Analysis",
-    "headline": "Robert Saleh: Cam Ward is going to be a damn good quarterback",
-    "summary": "Saleh called Sunday's loss to the Ravens the best game Ward has played this year.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/robert-saleh-cam-ward-is-going-to-be-a-damn-good-quarterback",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=421998",
-    "publishedAt": "2026-10-05T18:43:41.000Z",
-    "type": "Injury",
-    "headline": "Vikings G Donovan Jackson To Undergo Season-Ending Knee Surgery",
-    "summary": "The Vikings are still undefeated at this point, but they will be notably shorthanded along the offensive line moving forward. Guard Donovan Jackson is out for the remainder of the year. Jackson exited Sunday’s game against the Dolphins with a knee injury. Testing has revealed a meniscus tear in this case, head coach Kevin O’Connell said (h/t Ian Rapoport […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/vikings-g-donovan-jackson-to-undergo-season-ending-knee-surgery",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/antoine-winfield-jr-out-2-4-weeks-with-rib-fracture",
-    "publishedAt": "2026-10-05T18:41:50.000Z",
-    "type": "Injury",
-    "headline": "Antoine Winfield Jr. out 2-4 weeks with rib fracture",
-    "summary": "Already facing the challenge of a short week, the Buccaneers have yet another injury to a key player entering Week 5.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/antoine-winfield-jr-out-2-4-weeks-with-rib-fracture",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/texans-opening-practice-window-for-tank-dell",
-    "publishedAt": "2026-10-05T18:32:48.000Z",
-    "type": "Beat Report",
-    "headline": "Texans opening practice window for Tank Dell",
-    "summary": "Texans wide receiver Tank Dell is getting closer to a return.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/texans-opening-practice-window-for-tank-dell",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/donovan-jackson-out-with-torn-meniscus-christian-darrisaw-in-concussion-protocol",
-    "publishedAt": "2026-10-05T18:23:51.000Z",
-    "type": "Injury",
-    "headline": "Donovan Jackson out with torn meniscus, Christian Darrisaw in concussion protocol",
-    "summary": "The Vikings remain undefeated at 4-0, but they will have to deal with some injuries along their offensive line.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/donovan-jackson-out-with-torn-meniscus-christian-darrisaw-in-concussion-protocol",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-vrabel-efton-chism-iii-has-earned-more-opportunities",
-    "publishedAt": "2026-10-05T18:20:36.000Z",
-    "type": "Analysis",
-    "headline": "Mike Vrabel: Efton Chism III has earned more opportunities",
-    "summary": "On Sunday, OBJ met EC3.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-vrabel-efton-chism-iii-has-earned-more-opportunities",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/another-defendant-in-terrion-arnold-case-pleads-guilty-agrees-to-testify",
-    "publishedAt": "2026-10-05T17:57:41.000Z",
-    "type": "Analysis",
-    "headline": "Another defendant in Terrion Arnold case pleads guilty, agrees to testify",
-    "summary": "Seahawks cornerback Terrion Arnold remains on paid leave, as he faces eight felony counts arising from an alleged armed robbery and kidnapping.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/another-defendant-in-terrion-arnold-case-pleads-guilty-agrees-to-testify",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "50110820",
-    "publishedAt": "2026-10-05T17:47:57Z",
-    "type": "Analysis",
-    "headline": "Head coach Kyle Shanahan makes franchise history",
-    "summary": "The 49ers' win against the Broncos marks Kyle Shanahan's 167th franchise win, surpassing Bill Walsh for the all-time franchise record.",
-    "sourceUrl": "https://www.espn.com/video/clip/_/id/50110820/head-coach-kyle-shanahan-makes-franchise-history",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50110782",
-    "publishedAt": "2026-10-05T17:46:26Z",
-    "type": "Transaction",
-    "headline": "Adam Schefter's players to watch at the trade deadline",
-    "summary": "Adam Schefter's players to watch at the trade deadline ",
-    "sourceUrl": "https://www.espn.com/video/clip/_/id/50110782/adam-schefter-players-watch-trade-deadline",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-braxton-berrios-will-be-placed-on-ir-with-foot-injury",
-    "publishedAt": "2026-10-05T17:44:48.000Z",
-    "type": "Injury",
-    "headline": "Report: Braxton Berrios will be placed on IR with foot injury",
-    "summary": "The Giants will not have one of their key special teams players for at least the next four weeks.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-braxton-berrios-will-be-placed-on-ir-with-foot-injury",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "50110790",
-    "publishedAt": "2026-10-05T17:42:20Z",
-    "type": "Analysis",
-    "headline": "Breaking down the Broncos' offensive struggles",
-    "summary": "Jeffrey Legwold details Head Coach Sean Payton's thoughts on the Broncos' loss against the 49ers.",
-    "sourceUrl": "https://www.espn.com/video/clip/_/id/50110790/breaking-broncos-offensive-struggles",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/tests-confirm-packers-lb-edgerrin-cooper-tore-his-achilles",
-    "publishedAt": "2026-10-05T17:25:19.000Z",
-    "type": "Analysis",
-    "headline": "Tests confirm Packers LB Edgerrin Cooper tore his Achilles",
-    "summary": "Packers linebacker Edgerrin Cooper's season is over.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/tests-confirm-packers-lb-edgerrin-cooper-tore-his-achilles",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cbs-reporter-aditi-kinkhabwala-heard-no-profanity-from-trey-mcbride",
-    "publishedAt": "2026-10-05T17:23:56.000Z",
-    "type": "Analysis",
-    "headline": "CBS reporter Aditi Kinkhabwala heard no profanity from Trey McBride",
-    "summary": "On any given Sunday of NFL games, expect the unexpected.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cbs-reporter-aditi-kinkhabwala-heard-no-profanity-from-trey-mcbride",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=421937",
-    "publishedAt": "2026-10-05T17:23:25.000Z",
-    "type": "Injury",
-    "headline": "Packers LB Edgerrin Cooper Suffers Torn Achilles",
-    "summary": "OCTOBER 5: Cooper underwent an MRI on Monday. As NFL Network’s Ian Rapoport notes, it confirmed an Achilles tear took place yesterday. Cooper will miss the remainder of the season as a result. OCTOBER 4: The Packers’ defense appears to have been dealt a major blow. Linebacker Edgerrin Cooper was carted off the field, and he has since […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/packers-lb-edgerrin-cooper-carted-off-with-achilles-injury",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/marcus-mariota-suffered-mcl-sprain-on-sunday",
-    "publishedAt": "2026-10-05T17:17:45.000Z",
-    "type": "Injury",
-    "headline": "Marcus Mariota suffered MCL sprain on Sunday",
-    "summary": "If Jayden Daniels is not ready to play in Week 5, rookie Athan Kaliakmanis may get more playing time.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/marcus-mariota-suffered-mcl-sprain-on-sunday",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=421989",
-    "publishedAt": "2026-10-05T17:00:07.000Z",
-    "type": "Transaction",
-    "headline": "Steelers To Sign CB Sean Murphy-Bunting Off Buccaneers’ Practice Squad",
-    "summary": "In need of healthy cornerback options, the Steelers are in line to add a veteran to the mix. Sean Murphy-Bunting is being signed off the Buccaneers’ practice squad, The Ringer’s Tom Pelissero reports. Pittsburgh’s Joey Porter Jr. saga came to an end last week when he was traded to the Cowboys. That move did not come as a surprise […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/steelers-to-sign-cb-sean-murphy-bunting-off-buccaneers-practice-squad",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-rashawn-slater-believed-to-have-a-high-ankle-sprain",
-    "publishedAt": "2026-10-05T16:55:02.000Z",
-    "type": "Injury",
-    "headline": "Report: Rashawn Slater believed to have a high-ankle sprain",
-    "summary": "The Chargers saw left tackle Rashawn Slater get hurt in Sunday's loss to the Seahawks and the 0-4 team is reportedly set to be without him for a while.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-rashawn-slater-believed-to-have-a-high-ankle-sprain",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/tyson-bagent-is-expected-to-start-week-5-vs-packers",
-    "publishedAt": "2026-10-05T16:49:27.000Z",
-    "type": "Analysis",
-    "headline": "Tyson Bagent is expected to start Week 5 vs. Packers",
-    "summary": "Ben Johnson isn't going to play the, \"Who's going to start?\"",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/tyson-bagent-is-expected-to-start-week-5-vs-packers",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/broncos-wr-pat-bryant-is-expected-to-miss-time-with-sprained-ankle",
-    "publishedAt": "2026-10-05T16:48:25.000Z",
-    "type": "Injury",
-    "headline": "Broncos WR Pat Bryant is expected to miss time with sprained ankle",
-    "summary": "The Broncos had a pair of players leave Sunday's loss to the 49ers with ankle injuries, but early word on both is that they avoided serious injuries.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/broncos-wr-pat-bryant-is-expected-to-miss-time-with-sprained-ankle",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/steelers-sign-cb-sean-murphy-bunting-off-bucs-practice-squad",
-    "publishedAt": "2026-10-05T16:33:55.000Z",
-    "type": "Transaction",
-    "headline": "Steelers sign CB Sean Murphy-Bunting off Bucs practice squad",
-    "summary": "After the Steelers traded Joey Porter Jr. to the Cowboys, help is on the way for Pittsburgh’s secondary.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/steelers-sign-cb-sean-murphy-bunting-off-bucs-practice-squad",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-kyle-juszczyk-could-miss-a-couple-of-weeks-with-knee-injury",
-    "publishedAt": "2026-10-05T16:31:58.000Z",
-    "type": "Injury",
-    "headline": "Report: Kyle Juszczyk could miss a couple of weeks with knee injury",
-    "summary": "49ers fullback Kyle Juszczyk had to leave Sunday's win over the Broncos with a knee injury, but early indications are that he will avoid a long absence from the lineup.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-kyle-juszczyk-could-miss-a-couple-of-weeks-with-knee-injury",
-    "sourceName": "Pro Football Talk"
   }
 ]

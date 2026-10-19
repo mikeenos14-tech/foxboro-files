@@ -1,1 +1,29 @@
-[]
+[
+  {
+    "playerId": "4688779",
+    "playerName": "Channing Canada",
+    "position": "CB",
+    "week": 7,
+    "injury": "Hamstring",
+    "gameStatus": "Out",
+    "lastUpdated": "2026-10-19T17:09Z"
+  },
+  {
+    "playerId": "3916923",
+    "playerName": "Carlton Davis III",
+    "position": "CB",
+    "week": 7,
+    "injury": "Neck",
+    "gameStatus": "Out",
+    "lastUpdated": "2026-10-19T17:09Z"
+  },
+  {
+    "playerId": "4606666",
+    "playerName": "Karon Prunty",
+    "position": "CB",
+    "week": 7,
+    "injury": "Hamstring",
+    "gameStatus": "Out",
+    "lastUpdated": "2026-10-19T17:09Z"
+  }
+]

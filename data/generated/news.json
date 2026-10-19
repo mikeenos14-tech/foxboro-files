@@ -1,5 +1,41 @@
 [
   {
+    "id": "50221307",
+    "publishedAt": "2026-10-19T21:16:48Z",
+    "type": "Analysis",
+    "headline": "Patriots place WR Romeo Doubs (shoulder) on IR",
+    "summary": "The Patriots have placed Romeo Doubs on IR.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50221307/patriots-place-romeo-doubs-shoulder-ir",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "a75821ca-4715-4ca3-a786-f1612469666c",
+    "publishedAt": "2026-10-19T20:00:00.000Z",
+    "type": "Transaction",
+    "headline": "Patriots Place WR Romeo Doubs on Injured Reserve; Sign DB Elliott Davison to the 53-Man Roster from the Practice Squad; Announce Additional Practice Squad Moves",
+    "summary": "The Patriots announced today that they have placed WR Romeo Doubs on injured reserve and signed DB Elliott Davison to the 53-man roster from the practice squad. In addition, the Patriots signed WR Ryan Miller, OL Jacob Rizy and G Andrew Rupcich to the practice squad and released CB D’Shawn Jamison from the practice squad.",
+    "sourceUrl": "https://www.patriots.com/news/patriots-place-wr-romeo-doubs-on-injured-reserve-sign-db-elliott-davison-to-the-53-man-roster-from-the-practice-squad-announce-additional-practice-squad-moves",
+    "sourceName": "Patriots.com"
+  },
+  {
+    "id": "7d08ac0b-7f36-4b52-8320-0636cb80780d",
+    "publishedAt": "2026-10-19T19:55:52.000Z",
+    "type": "Analysis",
+    "headline": "After Further Review: Drake Maye and A.J. Brown film breakdown, quick-hit film notes from Sunday's win over the Jets",
+    "summary": "Breaking down the tape on the Drake Maye-A.J. Brown connection in Brown's return to the lineup in Week 6.",
+    "sourceUrl": "https://www.patriots.com/news/after-further-review-drake-maye-and-a-j-brown-film-breakdown-quick-hit-film-notes-from-sunday-s-win-over-the-jets",
+    "sourceName": "Patriots.com"
+  },
+  {
+    "id": "aab93126-3eed-4521-86cd-8efa81175b74",
+    "publishedAt": "2026-10-19T17:29:12.000Z",
+    "type": "Beat Report",
+    "headline": "Transcript: Head Coach Mike Vrabel Press Conference 10/19",
+    "summary": "Read the full transcript from Head Coach Mike Vrabel's press conference on Monday, October 19, 2026.",
+    "sourceUrl": "https://www.patriots.com/news/transcript-head-coach-mike-vrabel-press-conference-10-19",
+    "sourceName": "Patriots.com"
+  },
+  {
     "id": "50213864",
     "publishedAt": "2026-10-19T02:15:23Z",
     "type": "Injury",
@@ -54,48 +90,12 @@
     "sourceName": "ESPN"
   },
   {
-    "id": "7267d847-d956-46d2-a1d6-db18eeb45f09",
-    "publishedAt": "2026-10-18T20:45:00.000Z",
-    "type": "Beat Report",
-    "headline": "New England Patriots Postgame Quotes 10/18",
-    "summary": "New England Patriots Head Coach Mike Vrabel and select players comment on their Week 6 game against the New York Jets on Sunday, October 18, 2026.",
-    "sourceUrl": "https://www.patriots.com/news/new-england-patriots-postgame-quotes-10-18-x5479",
-    "sourceName": "Patriots.com"
-  },
-  {
-    "id": "58fcb6cb-d364-4fd1-a092-5da4851c0cb1",
-    "publishedAt": "2026-10-18T20:41:02.000Z",
-    "type": "Beat Report",
-    "headline": "Gamebook: Jets at Patriots Week 6",
-    "summary": "Download the NFL Gamebook with all of the statistics from the Patriots Week 6 game against the New York Jets on Sunday, October 18, 2026.",
-    "sourceUrl": "https://www.patriots.com/news/gamebook-jets-at-patriots-week-6",
-    "sourceName": "Patriots.com"
-  },
-  {
-    "id": "8e11ad07-32f5-4246-b542-7478d4a799ea",
-    "publishedAt": "2026-10-18T20:30:00.000Z",
-    "type": "Beat Report",
-    "headline": "New York Jets Postgame Quotes 10/18",
-    "summary": "New York Jets Head Coach Aaron Glenn and select players comment on their Week 6 game against the New England Patriots on Sunday, October 18, 2026.",
-    "sourceUrl": "https://www.patriots.com/news/new-york-jets-postgame-quotes-10-18",
-    "sourceName": "Patriots.com"
-  },
-  {
     "id": "50198740",
     "publishedAt": "2026-10-18T10:00:04Z",
     "type": "Analysis",
     "headline": "Patriots' 2026 rookies: Who has made an impact through five weeks?",
     "summary": "With two rookies assuming starting roles, let's take a look at how this year's draft class has panned out.",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/50198740/new-england-patriots-notebook-rookies-jets-lomu-jacas",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50200910",
-    "publishedAt": "2026-10-17T20:14:34Z",
-    "type": "Transaction",
-    "headline": "Patriots activate WR A.J. Brown for Sunday's game vs. Jets",
-    "summary": "Patriots wide receiver A.J. Brown was activated from injured reserve Saturday after missing the past four games with a right high ankle sprain, the team announced.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50200910/source-patriots-likely-activate-aj-brown-jets-game",
     "sourceName": "ESPN"
   }
 ]
