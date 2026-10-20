@@ -1,12 +1,21 @@
 [
   {
     "id": "50221307",
-    "publishedAt": "2026-10-19T21:16:48Z",
+    "publishedAt": "2026-10-20T00:36:36Z",
     "type": "Analysis",
     "headline": "Patriots place WR Romeo Doubs (shoulder) on IR",
     "summary": "The Patriots have placed Romeo Doubs on IR.",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/50221307/patriots-place-romeo-doubs-shoulder-ir",
     "sourceName": "ESPN"
+  },
+  {
+    "id": "8816ae15-a093-42a0-9cb6-ee298a027c5f",
+    "publishedAt": "2026-10-20T00:00:42.000Z",
+    "type": "Injury",
+    "headline": "Week 7 Injury Report: Patriots at Bears",
+    "summary": "The New England Patriots and the Chicago Bears announce the following player injuries and practice participation ahead of their Week 7 game.",
+    "sourceUrl": "https://www.patriots.com/news/week-7-injury-report-patriots-at-bears",
+    "sourceName": "Patriots.com"
   },
   {
     "id": "a75821ca-4715-4ca3-a786-f1612469666c",
@@ -51,15 +60,6 @@
     "headline": "Game Observations: 8 takeaways from the Patriots victory over the Jets in Week 6",
     "summary": "The Patriots won their third straight game in a 26-19 victory over the Jets on Sunday.",
     "sourceUrl": "https://www.patriots.com/news/game-observations-8-takeaways-from-the-patriots-victory-over-the-jets-in-week-6",
-    "sourceName": "Patriots.com"
-  },
-  {
-    "id": "d8a094d6-ac0a-4133-9b8b-a72c2d90e4b5",
-    "publishedAt": "2026-10-18T22:52:21.000Z",
-    "type": "Beat Report",
-    "headline": "Game Notes: Patriots Win Fourth-Straight Against the Jets",
-    "summary": "Game notes and stats from the Patriots Week 6 game against the New York Jets on Sunday, October 18, 2026.",
-    "sourceUrl": "https://www.patriots.com/news/game-notes-patriots-win-fourth-straight-over-the-jets",
     "sourceName": "Patriots.com"
   },
   {

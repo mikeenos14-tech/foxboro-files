@@ -1,12 +1,23 @@
 [
   {
+    "playerId": "3930040",
+    "playerName": "Jonah Jackson",
+    "position": "G",
+    "week": 7,
+    "injury": "Hip",
+    "gameStatus": "Questionable",
+    "lastUpdated": "2026-10-20T00:00:42.181Z",
+    "practiceStatus": "Did Not Participate"
+  },
+  {
     "playerId": "4608686",
     "playerName": "Kyle Monangai",
     "position": "RB",
     "week": 7,
     "injury": "Toe",
     "gameStatus": "Out",
-    "lastUpdated": "2026-10-19T16:28Z"
+    "lastUpdated": "2026-10-20T00:00:42.181Z",
+    "practiceStatus": "Did Not Participate"
   },
   {
     "playerId": "3121544",
@@ -15,24 +26,37 @@
     "week": 7,
     "injury": "Hamstring",
     "gameStatus": "Out",
-    "lastUpdated": "2026-10-19T16:28Z"
+    "lastUpdated": "2026-10-20T00:00:42.181Z",
+    "practiceStatus": "Did Not Participate"
   },
   {
-    "playerId": "4911952",
+    "playerId": "4372576",
+    "playerName": "Jack Sanborn",
+    "position": "LB",
+    "week": 7,
+    "injury": "Concussion",
+    "gameStatus": "Questionable",
+    "lastUpdated": "2026-10-20T00:00:42.181Z",
+    "practiceStatus": "Did Not Participate"
+  },
+  {
+    "playerId": "patriots-keyshaun-elliott",
     "playerName": "Keyshaun Elliott",
     "position": "LB",
     "week": 7,
-    "injury": "Quadriceps",
-    "gameStatus": "Out",
-    "lastUpdated": "2026-10-19T16:28Z"
+    "injury": "Quadricep",
+    "practiceStatus": "Full",
+    "gameStatus": null,
+    "lastUpdated": "2026-10-20T00:00:42.181Z"
   },
   {
-    "playerId": "4426374",
+    "playerId": "patriots-tyrique-stevenson",
     "playerName": "Tyrique Stevenson Sr.",
-    "position": "CB",
+    "position": "DB",
     "week": 7,
     "injury": "Hip",
-    "gameStatus": "Out",
-    "lastUpdated": "2026-10-19T16:28Z"
+    "practiceStatus": "Full",
+    "gameStatus": null,
+    "lastUpdated": "2026-10-20T00:00:42.181Z"
   }
 ]

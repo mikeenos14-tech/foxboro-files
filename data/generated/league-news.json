@@ -1,7 +1,16 @@
 [
   {
+    "id": "50222846",
+    "publishedAt": "2026-10-20T02:18:23Z",
+    "type": "Injury",
+    "headline": "Commanders' Terry McLaurin carted off field with knee injury, ruled out for MNF",
+    "summary": "Commanders wide receiver Terry McLaurin was carted off the field with his left leg in an air cast after injuring his knee in the first quarter of Monday night's game against the 49ers.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50222846/commanders-terry-mclaurin-carted-knee-injury-ruled-mnf-vs-49ers",
+    "sourceName": "ESPN"
+  },
+  {
     "id": "50221426",
-    "publishedAt": "2026-10-19T21:42:14Z",
+    "publishedAt": "2026-10-19T23:53:56Z",
     "type": "Injury",
     "headline": "Rams suffer several major injuries, including to WR Adams, who's out 6-10 weeks",
     "summary": "Rams wideout Davante Adams ruptured a hamstring in Sunday's loss to the Cardinals, and he will be sidelined for six to 10 weeks, coach Sean McVay announced.",
@@ -9,22 +18,22 @@
     "sourceName": "ESPN"
   },
   {
-    "id": "50221053",
-    "publishedAt": "2026-10-19T20:50:47Z",
+    "id": "50223535",
+    "publishedAt": "2026-10-20T02:56:48Z",
     "type": "Injury",
-    "headline": "Commanders place starting RB Jacory Croskey-Merritt (groin) on IR",
-    "summary": "The Washington Commanders placed running back Jacory Croskey-Merritt on injured reserve, sidelining their starting back for at least four games.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50221053/commanders-place-rb-jacory-croskey-merritt-groin-ir",
+    "headline": "49ers rule out Mike Evans due to Achilles injury",
+    "summary": "Niners receiver Mike Evans was ruled out of Monday night's game vs. the Commanders because of an Achilles injury.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50223535/49ers-rule-mike-evans-due-achilles-injury",
     "sourceName": "ESPN"
   },
   {
-    "id": "50220990",
-    "publishedAt": "2026-10-19T20:29:26Z",
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=423485",
+    "publishedAt": "2026-10-20T02:01:50.000Z",
     "type": "Injury",
-    "headline": "Texans WR Tank Dell to play Sunday in 1st game since major 2024 knee injury",
-    "summary": "Texans wide receiver Tank Dell will return to the field against the New York Giants on Sunday after a 22-month hiatus.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50220990/texans-tank-dell-play-sunday-1st-game-knee-injury",
-    "sourceName": "ESPN"
+    "headline": "Texans WR Tank Dell To Play In Week 7",
+    "summary": "It’s been 22 months since Tank Dell last appeared in an NFL game, but his absence is nearing an end. Texans coach DeMeco Ryans told reporters that the wide receiver will be activated from injured reserve ahead of the team’s Week 7 matchup with the Giants. Dell suffered a gruesome leg injury, including a dislocated […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/texans-wr-tank-dell-to-play-in-week-7",
+    "sourceName": "Pro Football Rumors"
   },
   {
     "id": "50218623",
@@ -36,21 +45,12 @@
     "sourceName": "ESPN"
   },
   {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jesse-minter-lamar-jackson-could-potentially-return-to-practice-this-week",
-    "publishedAt": "2026-10-19T19:13:17.000Z",
-    "type": "Beat Report",
-    "headline": "Jesse Minter: Lamar Jackson could \"potentially\" return to practice this week",
-    "summary": "Ravens quarterback Lamar Jackson has missed two games with an ankle injury and head coach Jesse Minter didn't offer much clarity about his chances of returning for Week 7 during a Monday press conference.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jesse-minter-lamar-jackson-could-potentially-return-to-practice-this-week",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=423391",
-    "publishedAt": "2026-10-19T18:54:00.000Z",
-    "type": "Transaction",
-    "headline": "Lions’ Brian Branch, Cade Mays Expected To Play In Week 7",
-    "summary": "On October 7, the Lions opened the practice window for safety Brian Branch and center Cade Mays. Both players are eligible to be activated at any time, and that should be taking place soon. “Barring anything negatively happening between now and the game, we plan on playing both of those guys,” head coach Dan Campbell said on Monday. With […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/lions-brian-branch-cade-mays-expected-to-play-in-week-7",
-    "sourceName": "Pro Football Rumors"
+    "id": "50220546",
+    "publishedAt": "2026-10-19T19:50:20Z",
+    "type": "Analysis",
+    "headline": "NFL suspends Bills' C.J. Gardner-Johnson for one game for spitting",
+    "summary": "The NFL has suspended Bills safety C.J. Gardner-Johnson for one game after cameras captured him spitting toward Raiders players on Sunday.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50220546/nfl-suspends-cj-gardner-johnson-one-game-spitting",
+    "sourceName": "ESPN"
   }
 ]
