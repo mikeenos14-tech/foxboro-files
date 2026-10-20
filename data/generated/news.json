@@ -1,5 +1,23 @@
 [
   {
+    "id": "aaf17af1-42a8-426c-96fa-d383a3065ad7",
+    "publishedAt": "2026-10-20T14:11:56.000Z",
+    "type": "Analysis",
+    "headline": "How to Watch and Stream Thursday's Patriots Game Against the Bears | NFL Week 7",
+    "summary": "Complete broadcast information for this week's game between the New England Patriots and the Chicago Bears on Thursday, October 22, 2026 at 8:15 PM ET.",
+    "sourceUrl": "https://www.patriots.com/news/how-to-watch-and-stream-thursday-s-patriots-game-against-the-bears-nfl-week-7",
+    "sourceName": "Patriots.com"
+  },
+  {
+    "id": "f20e31be-86f4-49b0-a7e3-1aee4d645dc3",
+    "publishedAt": "2026-10-20T13:53:05.000Z",
+    "type": "Analysis",
+    "headline": "Game Preview: Patriots at Bears | NFL Week 7",
+    "summary": "The New England Patriots will travel to play the Chicago Bears on Thursday Night Football.",
+    "sourceUrl": "https://www.patriots.com/news/game-preview-patriots-at-bears-nfl-week-7",
+    "sourceName": "Patriots.com"
+  },
+  {
     "id": "50221307",
     "publishedAt": "2026-10-20T00:36:36Z",
     "type": "Analysis",
@@ -36,15 +54,6 @@
     "sourceName": "Patriots.com"
   },
   {
-    "id": "aab93126-3eed-4521-86cd-8efa81175b74",
-    "publishedAt": "2026-10-19T17:29:12.000Z",
-    "type": "Beat Report",
-    "headline": "Transcript: Head Coach Mike Vrabel Press Conference 10/19",
-    "summary": "Read the full transcript from Head Coach Mike Vrabel's press conference on Monday, October 19, 2026.",
-    "sourceUrl": "https://www.patriots.com/news/transcript-head-coach-mike-vrabel-press-conference-10-19",
-    "sourceName": "Patriots.com"
-  },
-  {
     "id": "50213864",
     "publishedAt": "2026-10-19T02:15:23Z",
     "type": "Injury",
@@ -52,15 +61,6 @@
     "summary": "Patriots receiver A.J. Brown, coming off a right high ankle sprain that sidelined him four weeks, had a shaky return to action Sunday, dropping a career-high three passes in the team's win over the Jets",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/50213864/patriots-aj-brown-career-high-3-drops-return-injury",
     "sourceName": "ESPN"
-  },
-  {
-    "id": "6095cd90-e9ab-4246-9813-8937a4ca3c11",
-    "publishedAt": "2026-10-18T23:08:19.000Z",
-    "type": "Beat Report",
-    "headline": "Game Observations: 8 takeaways from the Patriots victory over the Jets in Week 6",
-    "summary": "The Patriots won their third straight game in a 26-19 victory over the Jets on Sunday.",
-    "sourceUrl": "https://www.patriots.com/news/game-observations-8-takeaways-from-the-patriots-victory-over-the-jets-in-week-6",
-    "sourceName": "Patriots.com"
   },
   {
     "id": "50212069",
