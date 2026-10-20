@@ -1,21 +1,30 @@
 [
   {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=423493",
-    "publishedAt": "2026-10-20T14:00:12.000Z",
+    "id": "50230371",
+    "publishedAt": "2026-10-20T19:28:02Z",
     "type": "Injury",
-    "headline": "Commanders WR Terry McLaurin Carted Off With Knee Injury",
-    "summary": "OCTOBER 20: McLaurin is set to undergo an MRI today, but Ian Rapoport of NFL Network reports the Commanders fear a season-ending injury occurred in this case. Head coach Dan Quinn also expressed pessimism when speaking after the game (h/t ESPN’s John Keim). News of a major injury in the near future would not come as a […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/commanders-wr-terry-mclaurin-carted-off-with-knee-injury",
-    "sourceName": "Pro Football Rumors"
+    "headline": "Commanders WR Terry McLaurin has torn patellar tendon, ending his season",
+    "summary": "Commanders wide receiver Terry McLaurin suffered a torn patellar tendon, an injury that will end his season, coach Dan Quinn announced Tuesday.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50230371/commanders-wr-terry-mclaurin-torn-patellar-tendon",
+    "sourceName": "ESPN"
   },
   {
-    "id": "50228752",
-    "publishedAt": "2026-10-20T15:38:18Z",
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/league-reportedly-concludes-jalen-hurtss-blood-clot-was-handled-appropriately-before-week-5-game",
+    "publishedAt": "2026-10-20T20:56:20.000Z",
     "type": "Analysis",
-    "headline": "Giants releasing RB Najee Harris, source says",
-    "summary": "The Giants are releasing running back Najee Harris, a source told NFL Network's Ian Rapoport. Harris started Sunday's loss against the Saints but had just two yards on four carries.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50228752/giants-releasing-rb-najee-harris-source-says",
-    "sourceName": "ESPN"
+    "headline": "League reportedly concludes Jalen Hurts's blood clot \"was handled appropriately\" before Week 5 game",
+    "summary": "NFL, Eagles were and are in lockstep on situation that has many unanswered questions.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/league-reportedly-concludes-jalen-hurtss-blood-clot-was-handled-appropriately-before-week-5-game",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=423569",
+    "publishedAt": "2026-10-20T21:03:16.000Z",
+    "type": "Injury",
+    "headline": "Baker Mayfield’s Status For Week 7 Uncertain",
+    "summary": "As of last Saturday, Buccaneers quarterback Baker Mayfield was reportedly trending toward returning from a thumb injury in Week 7. However, with the Bucs preparing to face the NFC South rival Panthers this Sunday, Mayfield’s status remains in question, Mike Garafolo of the NFL Network reports. Mayfield has missed three straight games since he dislocated […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/baker-mayfields-status-for-week-7-uncertain",
+    "sourceName": "Pro Football Rumors"
   },
   {
     "id": "50228692",
@@ -27,30 +36,21 @@
     "sourceName": "ESPN"
   },
   {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dan-quinns-fourth-down-explanation-exposes-a-different-failure-of-attention-to-detail",
-    "publishedAt": "2026-10-20T14:23:36.000Z",
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=423554",
+    "publishedAt": "2026-10-20T19:52:09.000Z",
     "type": "Analysis",
-    "headline": "Dan Quinn's fourth-down explanation exposes a different failure of attention to detail",
-    "summary": "After Monday night's game, Commanders coach Dan Quinn took his time in showing up to talk to reporters.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dan-quinns-fourth-down-explanation-exposes-a-different-failure-of-attention-to-detail",
-    "sourceName": "Pro Football Talk"
+    "headline": "Colts To Contact Peyton Manning About GM Job?",
+    "summary": "The Colts fired longtime general manager Chris Ballard on Monday, putting them in the market for a new leader of football operations for the first time since 2017. There are any number of paths the Colts could take to find Ballard’s replacement, including entrusting the role to someone with no experience running a front office. […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/colts-to-contact-peyton-manning-about-gm-job",
+    "sourceName": "Pro Football Rumors"
   },
   {
-    "id": "50228756",
-    "publishedAt": "2026-10-20T15:42:03Z",
+    "id": "50228752",
+    "publishedAt": "2026-10-20T15:38:18Z",
     "type": "Analysis",
-    "headline": "Stephen A. calls out Sean McVay amid disappointing Rams season",
-    "summary": "Stephen A. calls out Sean McVay amid disappointing Rams season",
-    "sourceUrl": "https://www.espn.com/video/clip/_/id/50228756/stephen-calls-sean-mcvay-amid-disappointing-rams-season",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50228984",
-    "publishedAt": "2026-10-20T15:59:21Z",
-    "type": "Analysis",
-    "headline": "Stephen A.: 'Cowboys defense has been horrid from start to finish'",
-    "summary": "Stephen A.: 'Cowboys defense has been horrid from start to finish'",
-    "sourceUrl": "https://www.espn.com/video/clip/_/id/50228984/cowboys-defense-horrid-start-finish",
+    "headline": "Giants releasing RB Najee Harris, source says",
+    "summary": "The Giants are releasing running back Najee Harris, a source told NFL Network's Ian Rapoport. Harris started Sunday's loss against the Saints but had just two yards on four carries.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50228752/giants-releasing-rb-najee-harris-source-says",
     "sourceName": "ESPN"
   }
 ]

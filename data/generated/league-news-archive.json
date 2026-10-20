@@ -1,5 +1,356 @@
 [
   {
+    "id": "50231705",
+    "publishedAt": "2026-10-20T21:03:40Z",
+    "type": "Transaction",
+    "headline": "Sources: Rams signing free agent kicker Brandon McManus",
+    "summary": "The Rams, after releasing Harrison Mevis and an injury to Blake Grupe, are signing free agent kicker Brandon McManus, sources told NFL Network.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50231705/sources-rams-signing-free-agent-kicker-brandon-mcmanus",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=423569",
+    "publishedAt": "2026-10-20T21:03:16.000Z",
+    "type": "Injury",
+    "headline": "Baker Mayfield’s Status For Week 7 Uncertain",
+    "summary": "As of last Saturday, Buccaneers quarterback Baker Mayfield was reportedly trending toward returning from a thumb injury in Week 7. However, with the Bucs preparing to face the NFC South rival Panthers this Sunday, Mayfield’s status remains in question, Mike Garafolo of the NFL Network reports. Mayfield has missed three straight games since he dislocated […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/baker-mayfields-status-for-week-7-uncertain",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "50231436",
+    "publishedAt": "2026-10-20T21:00:58Z",
+    "type": "Analysis",
+    "headline": "Cam Heyward details Steelers' preparation for Paris game",
+    "summary": "Cam Heyward details Steelers' preparation for Paris game",
+    "sourceUrl": "https://www.espn.com/video/clip/_/id/50231436/cam-heyward-details-steelers-preparation-paris-game",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/owners-approve-arctos-purchasing-a-limited-stake-in-the-falcons",
+    "publishedAt": "2026-10-20T20:58:23.000Z",
+    "type": "Analysis",
+    "headline": "Owners approve Arctos purchasing a limited stake in the Falcons",
+    "summary": "NFL owners approved Arctos' purchase of a limited stake in the Falcons on Tuesday, the team announced.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/owners-approve-arctos-purchasing-a-limited-stake-in-the-falcons",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/rams-add-k-brandon-mcmanus",
+    "publishedAt": "2026-10-20T20:56:35.000Z",
+    "type": "Analysis",
+    "headline": "Rams add K Brandon McManus",
+    "summary": "The Rams have found a new kicker.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/rams-add-k-brandon-mcmanus",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/league-reportedly-concludes-jalen-hurtss-blood-clot-was-handled-appropriately-before-week-5-game",
+    "publishedAt": "2026-10-20T20:56:20.000Z",
+    "type": "Analysis",
+    "headline": "League reportedly concludes Jalen Hurts's blood clot \"was handled appropriately\" before Week 5 game",
+    "summary": "NFL, Eagles were and are in lockstep on situation that has many unanswered questions.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/league-reportedly-concludes-jalen-hurtss-blood-clot-was-handled-appropriately-before-week-5-game",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "50230791",
+    "publishedAt": "2026-10-20T20:41:33Z",
+    "type": "Analysis",
+    "headline": "NFL to increase security in Paris for Steelers-Saints game",
+    "summary": "The NFL said security will be heightened for the game in Paris between the Steelers and Saints after civil unrest engulfed the French capital last weekend.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50230791/nfl-increase-security-paris-steelers-saints-game",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/caleb-williams-has-gone-from-32nd-last-year-to-first-this-year-in-completion-percentage",
+    "publishedAt": "2026-10-20T20:35:43.000Z",
+    "type": "Analysis",
+    "headline": "Caleb Williams has gone from 32nd last year to first this year in completion percentage",
+    "summary": "Bears quarterback Caleb Williams is a different player in 2026.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/caleb-williams-has-gone-from-32nd-last-year-to-first-this-year-in-completion-percentage",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/falcons-release-lb-bralen-trice",
+    "publishedAt": "2026-10-20T20:34:32.000Z",
+    "type": "Transaction",
+    "headline": "Falcons release LB Bralen Trice",
+    "summary": "With word emerging earlier on Tuesday that the Falcons were adding linebacker Charles Snowden, Atlanta has opened a roster spot.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/falcons-release-lb-bralen-trice",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cowboys-sign-qb-kyle-trask-to-their-practice-squad",
+    "publishedAt": "2026-10-20T20:33:46.000Z",
+    "type": "Transaction",
+    "headline": "Cowboys sign QB Kyle Trask to their practice squad",
+    "summary": "The Cowboys needed a third quarterback after losing Joe Milton off their practice squad.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cowboys-sign-qb-kyle-trask-to-their-practice-squad",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=423543",
+    "publishedAt": "2026-10-20T20:32:23.000Z",
+    "type": "Injury",
+    "headline": "Rams To Sign K Brandon McManus",
+    "summary": "3:32pm: McManus’ workout impressed the Rams, who are signing him, per Garafolo and NFL Network colleague Ian Rapoport. 1:12pm: Upon moving on from Harrison Mevis, the Rams added Blake Grupe as his kicker replacement. That proved to be short-lived, due to Grupe’s injury on Sunday. It has since been learned that Grupe suffered an ACL tear during his […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/rams-to-stage-workout-with-brandon-mcmanus-matt-prater",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "50230816",
+    "publishedAt": "2026-10-20T20:27:55Z",
+    "type": "Analysis",
+    "headline": "Reports: NFL won't punish Eagles for letting Jalen Hurts play with blood clot",
+    "summary": "The NFL will not punish the Eagles for how they handled the process surrounding quarterback Jalen Hurts being cleared to play Week 5 against the Jaguars, according to multiple reports.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50230816/reports-nfl-punish-eagles-jalen-hurts-situation",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/on-the-day-his-six-game-suspension-ended-jed-york-attends-quarterly-nfl-ownership-meeting",
+    "publishedAt": "2026-10-20T20:22:42.000Z",
+    "type": "Analysis",
+    "headline": "On the day his six-game suspension ended, Jed York attends quarterly NFL ownership meeting",
+    "summary": "On the same day his six-game suspension following an August arrest in Ohio ended, 49ers owner Jed York was present at the quarterly gathering of the most exclusive club in American sports.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/on-the-day-his-six-game-suspension-ended-jed-york-attends-quarterly-nfl-ownership-meeting",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/panthers-waive-ot-albert-reese",
+    "publishedAt": "2026-10-20T20:03:45.000Z",
+    "type": "Transaction",
+    "headline": "Panthers waive OT Albert Reese",
+    "summary": "The Panthers waived offensive tackle Albert Reese, the team announced Tuesday.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/panthers-waive-ot-albert-reese",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=423554",
+    "publishedAt": "2026-10-20T19:52:09.000Z",
+    "type": "Analysis",
+    "headline": "Colts To Contact Peyton Manning About GM Job?",
+    "summary": "The Colts fired longtime general manager Chris Ballard on Monday, putting them in the market for a new leader of football operations for the first time since 2017. There are any number of paths the Colts could take to find Ballard’s replacement, including entrusting the role to someone with no experience running a front office. […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/colts-to-contact-peyton-manning-about-gm-job",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cowboys-lb-demarvion-overshown-says-he-will-return-to-the-lineup-this-week",
+    "publishedAt": "2026-10-20T19:48:22.000Z",
+    "type": "Analysis",
+    "headline": "Cowboys LB DeMarvion Overshown says he will return to the lineup this week",
+    "summary": "The Cowboys won't have Dee Winters this week after the linebacker strained his Achilles in the loss to the Packers.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cowboys-lb-demarvion-overshown-says-he-will-return-to-the-lineup-this-week",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "48476156",
+    "publishedAt": "2026-10-20T19:42:45Z",
+    "type": "Analysis",
+    "headline": "2026 NFL awards tracker: Odds for MVP, Rookie of the Year and more",
+    "summary": "Who are the favorites to win seasonlong honors? Here are the odds for MVP, Rookie of the Year and more.",
+    "sourceUrl": "https://www.espn.com/espn/betting/story/_/id/48476156/2026-nfl-awards-betting-odds-mvp-rookie-year-offensive-defensive-player-coach",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/colts-add-wr-mecole-hardman-p-thomas-morstead-to-practice-squad",
+    "publishedAt": "2026-10-20T19:36:14.000Z",
+    "type": "Transaction",
+    "headline": "Colts add WR Mecole Hardman, P Thomas Morstead to practice squad",
+    "summary": "After firing General Manager Chris Ballard on Monday, the Colts have added a couple of depth pieces to their greater roster.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/colts-add-wr-mecole-hardman-p-thomas-morstead-to-practice-squad",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "47809892",
+    "publishedAt": "2026-10-20T19:28:49Z",
+    "type": "Analysis",
+    "headline": "Super Bowl LXI odds: All 32 teams' odds to win the championship",
+    "summary": "Every NFL team's win total, as well as odds to win the division, the conference and Super Bowl LXI.",
+    "sourceUrl": "https://www.espn.com/espn/betting/story/_/id/47809892/2026-super-bowl-lxi-odds-nfl-sports-betting-season-win-totals-playoffs",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50230371",
+    "publishedAt": "2026-10-20T19:28:02Z",
+    "type": "Injury",
+    "headline": "Commanders WR Terry McLaurin has torn patellar tendon, ending his season",
+    "summary": "Commanders wide receiver Terry McLaurin suffered a torn patellar tendon, an injury that will end his season, coach Dan Quinn announced Tuesday.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50230371/commanders-wr-terry-mclaurin-torn-patellar-tendon",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=423552",
+    "publishedAt": "2026-10-20T19:13:40.000Z",
+    "type": "Injury",
+    "headline": "Commanders WR Terry McLaurin Suffers Torn Patellar Tendon",
+    "summary": "Terry McLaurin was carted off the field during last night’s game. Pessimism soon emerged with respect to the chances of a return taking place this season, and it has proven to be well-founded. When speaking to the media on Tuesday, Commanders head coach Dan Quinn said McLaurin suffered a torn patellar tendon. As Washington feared, the Pro Bowl […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/commanders-wr-terry-mclaurin-suffers-torn-patellar-tendon",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/terry-mclaurin-out-for-year-with-torn-patellar-tendon",
+    "publishedAt": "2026-10-20T19:12:20.000Z",
+    "type": "Injury",
+    "headline": "Terry McLaurin out for year with torn patellar tendon",
+    "summary": "McLaurin was injured in Monday night's loss to the 49ers.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/terry-mclaurin-out-for-year-with-torn-patellar-tendon",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=423546",
+    "publishedAt": "2026-10-20T19:05:40.000Z",
+    "type": "Injury",
+    "headline": "NFL Will Not Punish Eagles For Handling Of Jalen Hurts",
+    "summary": "Eagles quarterback Jalen Hurts suffered a calf injury when he was cleated in a loss to the Rams in Week 4. The Eagles and Hurts flew to London for a matchup with the Jaguars the next week, and a day after they arrived, a superficial blood clot was discovered in his calf. Hurts spent a […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/nfl-will-not-punish-eagles-for-handling-of-jalen-hurts",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/patriots-dont-expect-ben-brown-alijah-vera-tucker-to-play-on-thursday",
+    "publishedAt": "2026-10-20T18:26:19.000Z",
+    "type": "Injury",
+    "headline": "Patriots don't expect Ben Brown, Alijah Vera-Tucker to play on Thursday",
+    "summary": "The Patriots saw three of their starting offensive linemen go down with injuries during last Sunday's win over the Jets and it looks like they'll be without at least two of them when they face the Bears on Thursday.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/patriots-dont-expect-ben-brown-alijah-vera-tucker-to-play-on-thursday",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dan-campbell-i-expect-kerby-joseph-to-play-this-year-but-no-timetable",
+    "publishedAt": "2026-10-20T18:15:07.000Z",
+    "type": "Analysis",
+    "headline": "Dan Campbell: I expect Kerby Joseph to play this year, but no timetable",
+    "summary": "The Lions are set to have Brian Branch in the lineup for the first time this season when they face the Packers on Sunday, but they're still waiting for another one of their safeties to get back on the field.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dan-campbell-i-expect-kerby-joseph-to-play-this-year-but-no-timetable",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "50229491",
+    "publishedAt": "2026-10-20T18:11:46Z",
+    "type": "Transaction",
+    "headline": "Dolphins release Riley Patterson after Week 5 problems defending kickoffs",
+    "summary": "The Dolphins released kicker Riley Patterson in a move aimed to improve one of the NFL's worst special teams units.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50229491/sources-dolphins-release-riley-patterson-amid-kickoff-woes",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dolphins-sign-rodney-mcgraw-to-53-man-roster",
+    "publishedAt": "2026-10-20T17:55:07.000Z",
+    "type": "Analysis",
+    "headline": "Dolphins sign Rodney McGraw to 53-man roster",
+    "summary": "The Dolphins have announced a few roster moves on Tuesday.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dolphins-sign-rodney-mcgraw-to-53-man-roster",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "50229520",
+    "publishedAt": "2026-10-20T17:46:16Z",
+    "type": "Analysis",
+    "headline": "Knockout league pickups: Trio of Lions among best pickups for Week 7",
+    "summary": "Tristan H. Cockcroft lists the most common players on eliminated teams and finds how much FAB to spend this week.",
+    "sourceUrl": "https://www.espn.com/fantasy/football/story/_/id/50229520/fantasy-football-knockout-waiver-wire-free-agent-pickups-nfl-week-7",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50229654",
+    "publishedAt": "2026-10-20T17:41:13Z",
+    "type": "Analysis",
+    "headline": "Saturday sounds off on Sirianni having to field questions about Hurts flying",
+    "summary": "Saturday sounds off on Sirianni having to field questions about Hurts flying",
+    "sourceUrl": "https://www.espn.com/video/clip/_/id/50229654/saturday-sounds-sirianni-having-field-questions-hurts-flying",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/zach-sieler-i-love-it-here-i-want-to-win-as-a-dolphin",
+    "publishedAt": "2026-10-20T17:36:06.000Z",
+    "type": "Analysis",
+    "headline": "Zach Sieler: I love it here, I want to win as a Dolphin",
+    "summary": "The Dolphins parted ways with a lot of veteran players heading into the 2026 season, but defensive tackle Zach Sieler was not one of them.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/zach-sieler-i-love-it-here-i-want-to-win-as-a-dolphin",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/brian-flores-declines-to-discuss-korn-ferry-document-that-was-made-public-last-week",
+    "publishedAt": "2026-10-20T17:26:14.000Z",
+    "type": "Analysis",
+    "headline": "Brian Flores declines to discuss Korn Ferry document that was made public last week",
+    "summary": "Vikings defensive coordinator wisely avoids talking about the case.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/brian-flores-declines-to-discuss-korn-ferry-document-that-was-made-public-last-week",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "50179373",
+    "publishedAt": "2026-10-20T17:20:09Z",
+    "type": "Analysis",
+    "headline": "NFL Week 7 betting odds: Lines and totals for every game",
+    "summary": "A look at the odds, spreads, totals and FPI predictions for every NFL game in Week 7.",
+    "sourceUrl": "https://www.espn.com/espn/betting/story/_/id/50179373/2026-nfl-week-7-schedule-odds-point-spreads-totals",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=423539",
+    "publishedAt": "2026-10-20T17:17:59.000Z",
+    "type": "Transaction",
+    "headline": "Falcons To Sign Charles Snowden Off Commanders’ Taxi Squad, Cut Bralen Trice",
+    "summary": "Charles Snowden has lined up his next NFL deal. The edge rusher is set to depart Washington and head to Atlanta. Snowden is being signed off the Commanders’ practice squad to join the Falcons on their active roster, NFL Network’s Ian Rapoport reports. In a corresponding move, Josh Kendall of The Athletic reports fellow defensive end Bralen Trice is being cut. […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/falcons-to-sign-charles-snowden-off-commanders-taxi-squad-cut-bralen-trice",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/the-no-sleep-issue-is-just-another-confusing-part-of-the-jalen-hurts-story",
+    "publishedAt": "2026-10-20T17:08:13.000Z",
+    "type": "Analysis",
+    "headline": "The no-sleep issue is just another confusing part of the Jalen Hurts story",
+    "summary": "The absence of complete information about the events that led to Eagles quarterback Jalen Hurts traveling to London with a blood clot in his leg, playing with a blood clot in his leg, and promptly traveling back to Philadelphia with a blood clot in his leg has resulted in plenty of reports aimed at filling the gaps.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/the-no-sleep-issue-is-just-another-confusing-part-of-the-jalen-hurts-story",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-umpire-larry-smith-out-for-season-after-slipping-on-wembley-stadium-grass",
+    "publishedAt": "2026-10-20T16:51:45.000Z",
+    "type": "Injury",
+    "headline": "Report: Umpire Larry Smith out for season after slipping on Wembley Stadium grass",
+    "summary": "NFL official Larry Smith suffered a season-ending injury on Sunday in London.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-umpire-larry-smith-out-for-season-after-slipping-on-wembley-stadium-grass",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/saints-arrive-in-paris-for-sundays-game-against-steelers",
+    "publishedAt": "2026-10-20T16:34:57.000Z",
+    "type": "Analysis",
+    "headline": "Saints arrive in Paris for Sunday's game against Steelers",
+    "summary": "Amid ongoing local unrest that has sparked full-blown riots, the NFL is pushing forward with its first-ever game in Paris.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/saints-arrive-in-paris-for-sundays-game-against-steelers",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/falcons-to-sign-lb-charles-snowden",
+    "publishedAt": "2026-10-20T16:33:05.000Z",
+    "type": "Analysis",
+    "headline": "Falcons to sign LB Charles Snowden",
+    "summary": "The Falcons are adding an edge rusher to the roster.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/falcons-to-sign-lb-charles-snowden",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=423536",
+    "publishedAt": "2026-10-20T16:27:44.000Z",
+    "type": "Transaction",
+    "headline": "Dolphins To Cut CB Storm Duck, K Riley Patterson",
+    "summary": "Storm Duck began the season on the reserve/PUP list. The third-year cornerback had his practice window opened three weeks ago, but he will not resume his time with the Dolphins. Instead, Barry Jackson of the Miami Herald reports Duck is being cut. Players must be signed to the active roster with 21 days of returning to […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/dolphins-to-cut-cb-storm-duck-k-riley-patterson",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dolphins-re-signing-k-zane-gonzalez-releasing-k-riley-patterson",
+    "publishedAt": "2026-10-20T16:22:42.000Z",
+    "type": "Transaction",
+    "headline": "Dolphins re-signing K Zane Gonzalez, releasing K Riley Patterson",
+    "summary": "Coming off their Week 6 bye, the Dolphins are replacing their kicker.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dolphins-re-signing-k-zane-gonzalez-releasing-k-riley-patterson",
+    "sourceName": "Pro Football Talk"
+  },
+  {
     "id": "50228984",
     "publishedAt": "2026-10-20T15:59:21Z",
     "type": "Analysis",
@@ -1320,15 +1671,6 @@
     "headline": "Stephen A. sounds off on John Harbaugh over Cam Skattebo comments",
     "summary": "Stephen A. sounds off on John Harbaugh over Cam Skattebo comments",
     "sourceUrl": "https://www.espn.com/video/clip/_/id/50218738/stephen-sounds-john-harbaugh-cam-skattebo-comments",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50179373",
-    "publishedAt": "2026-10-19T15:22:09Z",
-    "type": "Analysis",
-    "headline": "NFL Week 7 betting odds: Lines and totals for every game",
-    "summary": "A look at the odds, spreads, totals and FPI predictions for every NFL game in Week 7.",
-    "sourceUrl": "https://www.espn.com/espn/betting/story/_/id/50179373/2026-nfl-week-7-schedule-odds-point-spreads-totals",
     "sourceName": "ESPN"
   },
   {
@@ -4290,15 +4632,6 @@
     "headline": "Stephen A. sounds off on Bo Nix for 'not competing'",
     "summary": "Stephen A. sounds off on Bo Nix for 'not competing'",
     "sourceUrl": "https://www.espn.com/video/clip/_/id/50196351/stephen-sounds-bo-nix-not-competing",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "47809892",
-    "publishedAt": "2026-10-16T14:22:01Z",
-    "type": "Analysis",
-    "headline": "Super Bowl LXI odds: All 32 teams' odds to win the championship",
-    "summary": "Every NFL team's win total, as well as odds to win the division, the conference and Super Bowl LXI.",
-    "sourceUrl": "https://www.espn.com/espn/betting/story/_/id/47809892/2026-super-bowl-lxi-odds-nfl-sports-betting-season-win-totals-playoffs",
     "sourceName": "ESPN"
   },
   {
@@ -7341,15 +7674,6 @@
     "headline": "Seven things Solak thinks entering NFL Week 6: Time for Mendoza? Cowboys issues?",
     "summary": "Get ready for Week 6 with takes on two QB situations, two teams with defensive issues, two coaches on the hot seat and more.",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/50166233/week-6-seven-things-solak-thinks-raiders-eagles-cowboys",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "48476156",
-    "publishedAt": "2026-10-13T14:46:55Z",
-    "type": "Analysis",
-    "headline": "2026 NFL awards tracker: Odds for MVP, Rookie of the Year and more",
-    "summary": "Who are the favorites to win seasonlong honors? Here are the odds for MVP, Rookie of the Year and more.",
-    "sourceUrl": "https://www.espn.com/espn/betting/story/_/id/48476156/2026-nfl-awards-betting-odds-mvp-rookie-year-offensive-defensive-player-coach",
     "sourceName": "ESPN"
   },
   {
@@ -14344,275 +14668,5 @@
     "summary": "The Texans placed cornerback Jaylin Smith on injured reserve Tuesday, the team announced.",
     "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/texans-place-cb-jaylin-smith-on-ir",
     "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/chiefs-raiders-drew-28-4-million-viewers-most-watched-game-of-the-season",
-    "publishedAt": "2026-10-06T21:02:56.000Z",
-    "type": "Analysis",
-    "headline": "Chiefs-Raiders drew 28.4 million viewers, most-watched game of the season",
-    "summary": "Sunday's late afternoon game on CBS was the NFL's most-watched broadcast of the season so far.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/chiefs-raiders-drew-28-4-million-viewers-most-watched-game-of-the-season",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "50118173",
-    "publishedAt": "2026-10-06T21:02:30Z",
-    "type": "Transaction",
-    "headline": "Source: Seahawks decide not to sign RB Joe Mixon after physical",
-    "summary": "The Seahawks decided not to sign veteran running back Joe Mixon to their practice squad after he underwent a physical, a source told ESPN's Adam Schefter.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50118173/source-seahawks-decide-not-sign-rb-joe-mixon-physical",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50117645",
-    "publishedAt": "2026-10-06T20:50:02Z",
-    "type": "Analysis",
-    "headline": "Bryce Young to McAfee: 'We rally around the city in the same way they rally around us'",
-    "summary": "Bryce Young to McAfee: 'We rally around the city in the same way they rally around us'",
-    "sourceUrl": "https://www.espn.com/video/clip/_/id/50117645/rally-city-same-way-rally-us",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bucs-add-k-chase-mclaughlin-to-their-injury-report",
-    "publishedAt": "2026-10-06T20:43:46.000Z",
-    "type": "Injury",
-    "headline": "Bucs add K Chase McLaughlin to their injury report",
-    "summary": "The Buccaneers added kicker Chase McLaughlin to their injury report on Tuesday.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bucs-add-k-chase-mclaughlin-to-their-injury-report",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cardinals-signing-jedrick-wills-place-paris-johnson-on-ir",
-    "publishedAt": "2026-10-06T20:42:50.000Z",
-    "type": "Transaction",
-    "headline": "Cardinals signing Jedrick Wills, place Paris Johnson on IR",
-    "summary": "With Paris Johnson Jr. out for the season with a torn biceps, the Cardinals have added a former first-round pick to their offensive line.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cardinals-signing-jedrick-wills-place-paris-johnson-on-ir",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/patriots-release-lb-jose-ramirez",
-    "publishedAt": "2026-10-06T20:30:53.000Z",
-    "type": "Transaction",
-    "headline": "Patriots release LB Jose Ramirez",
-    "summary": "The Patriots have opened up a roster spot.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/patriots-release-lb-jose-ramirez",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "50119243",
-    "publishedAt": "2026-10-06T20:29:07Z",
-    "type": "Analysis",
-    "headline": "Dan Orlovsky: Lane Johnson's retirement a 'significant loss' for Eagles",
-    "summary": "Dan Orlovsky: Lane Johnson's retirement a 'significant loss' for Eagles",
-    "sourceUrl": "https://www.espn.com/video/clip/_/id/50119243/lane-johnson-retirement-significant-loss-eagles",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/ceedee-lamb-joey-porter-jr-remain-full-participants-for-cowboys",
-    "publishedAt": "2026-10-06T20:20:52.000Z",
-    "type": "Analysis",
-    "headline": "CeeDee Lamb, Joey Porter Jr. remain full participants for Cowboys",
-    "summary": "The Cowboys practice report did not change on Tuesday.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/ceedee-lamb-joey-porter-jr-remain-full-participants-for-cowboys",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/seahawks-sign-rb-robert-henry-off-commanders-practice-squad",
-    "publishedAt": "2026-10-06T20:13:37.000Z",
-    "type": "Transaction",
-    "headline": "Seahawks sign RB Robert Henry off Commanders practice squad",
-    "summary": "Joe Mixon may not be joining the Seahawks, but the club is still adding a running back.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/seahawks-sign-rb-robert-henry-off-commanders-practice-squad",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "50119127",
-    "publishedAt": "2026-10-06T20:11:06Z",
-    "type": "Analysis",
-    "headline": "Ian Rapoport: Eagles all-pro OT Lane Johnson announces retirement",
-    "summary": "Ian Rapoport: Eagles all-pro OT Lane Johnson announces retirement",
-    "sourceUrl": "https://www.espn.com/video/clip/_/id/50119127/eagles-all-pro-ot-lane-johnson-announces-retirement",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/eagles-rt-lane-johnson-announces-retirement",
-    "publishedAt": "2026-10-06T20:10:46.000Z",
-    "type": "Analysis",
-    "headline": "Eagles RT Lane Johnson announces retirement",
-    "summary": "He played 171 games in 14 seasons with the Eagles, who made him a first-round pick in 2013.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/eagles-rt-lane-johnson-announces-retirement",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/qb-dillon-gabriel-dt-kalia-davis-return-to-practice",
-    "publishedAt": "2026-10-06T19:51:58.000Z",
-    "type": "Beat Report",
-    "headline": "QB Dillon Gabriel, DT Kalia Davis designated to return to practice",
-    "summary": "The Browns opened the practice window for quarterback Dillon Gabriel and defensive tackle Kalia Davis, the team announced Tuesday.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/qb-dillon-gabriel-dt-kalia-davis-return-to-practice",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=422157",
-    "publishedAt": "2026-10-06T19:38:57.000Z",
-    "type": "Beat Report",
-    "headline": "Browns Open QB Dillon Gabriel’s Practice Window, Designate DT Kalia Davis For Return",
-    "summary": "The Browns found a way to keep their four quarterbacks at the August 30 53-man roster deadline, moving Dillon Gabriel to IR. The second-year QB already counts toward Cleveland’s eight in-season activations — via his return designation — and he is moving closer to a return. Gabriel is returning to practice, with the Browns announcing […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/browns-open-qb-dillon-gabriels-practice-window-designate-dt-kalia-davis-for-return",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=422112",
-    "publishedAt": "2026-10-06T19:23:26.000Z",
-    "type": "Transaction",
-    "headline": "Trade Expectation Growing For Cardinals WR Marvin Harrison Jr.?",
-    "summary": "The coming weeks will be full of trade chatter around the league. Marvin Harrison Jr. has already been mentioned as a candidate to be dealt in the near future. The third-year Cardinals receiver was unable to match the production from his rookie season, and things have not turned around so far in 2026. While playing under a […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/trade-expectation-growing-for-cardinals-wr-marvin-harrison-jr",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/saints-unsure-if-lb-kaden-elliss-will-return-this-week",
-    "publishedAt": "2026-10-06T19:14:39.000Z",
-    "type": "Injury",
-    "headline": "Saints unsure if LB Kaden Elliss will return this week",
-    "summary": "The Saints defense was torn apart by the Falcons on Monday night and it's unclear if they'll be getting one of their starting linebackers back on the field for Week 5.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/saints-unsure-if-lb-kaden-elliss-will-return-this-week",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/espns-matt-miller-pleads-not-guilty-to-misdemeanor-charge-from-june-car-crash",
-    "publishedAt": "2026-10-06T19:14:29.000Z",
-    "type": "Analysis",
-    "headline": "ESPN's Matt Miller pleads not guilty to misdemeanor charge from June car crash",
-    "summary": "ESPN NFL draft analyst Matt Miller was involved in a serious car accident in late June.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/espns-matt-miller-pleads-not-guilty-to-misdemeanor-charge-from-june-car-crash",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jaguars-sign-cb-alijah-huzzie-off-texans-practice-squad",
-    "publishedAt": "2026-10-06T19:12:31.000Z",
-    "type": "Transaction",
-    "headline": "Jaguars sign CB Alijah Huzzie off Texans practice squad",
-    "summary": "The Jaguars are poaching a defensive back from a division rival.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jaguars-sign-cb-alijah-huzzie-off-texans-practice-squad",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "50118441",
-    "publishedAt": "2026-10-06T19:09:14Z",
-    "type": "Analysis",
-    "headline": "Eisen reacts to Seahawks passing on Joe Mixon after his physical",
-    "summary": "Eisen reacts to Seahawks passing on Joe Mixon after his physical",
-    "sourceUrl": "https://www.espn.com/video/clip/_/id/50118441/eisen-reacts-seahawks-passing-joe-mixon-physical",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50117945",
-    "publishedAt": "2026-10-06T18:29:03Z",
-    "type": "Analysis",
-    "headline": "NFL Referees Association to challenge officials' suspensions",
-    "summary": "The NFL Referees Association said it will challenge the severity of the suspensions of two officials for unprofessional conduct.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50117945/nfl-referees-association-challenge-officials-suspensions",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-seahawks-opt-not-to-sign-joe-mixon-to-practice-squad-after-a-physical",
-    "publishedAt": "2026-10-06T17:58:11.000Z",
-    "type": "Transaction",
-    "headline": "Report: Seahawks will not sign Joe Mixon to practice squad after a physical",
-    "summary": "Joe Mixon's return to the NFL is back on hold.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-seahawks-opt-not-to-sign-joe-mixon-to-practice-squad-after-a-physical",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/ravens-te-durham-smythe-out-for-season-with-torn-achilles",
-    "publishedAt": "2026-10-06T17:54:35.000Z",
-    "type": "Injury",
-    "headline": "Ravens TE Durham Smythe out for season with torn Achilles",
-    "summary": "The Ravens will not have one of their veteran offensive contributors for the rest of the season.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/ravens-te-durham-smythe-out-for-season-with-torn-achilles",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=422124",
-    "publishedAt": "2026-10-06T17:49:16.000Z",
-    "type": "Injury",
-    "headline": "Ravens TE Durham Smythe Suffers Torn Achilles",
-    "summary": "Durham Smythe was among the Ravens players who exited Week 4 with an injury. The veteran tight end will not return in 2026. Smythe suffered an Achilles tear, Ian Rapoport of NFL Network reports. Testing confirmed the early fears in this case. As a result, Baltimore will be without a key run-blocking presence for the remainder […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/ravens-te-durham-smythe-suffers-torn-achilles",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/lb-demarvion-overshown-a-long-shot-to-play-for-cowboys-thursday",
-    "publishedAt": "2026-10-06T17:49:09.000Z",
-    "type": "Analysis",
-    "headline": "LB DeMarvion Overshown a \"long shot\" to play for Cowboys Thursday",
-    "summary": "Hope that the Cowboys will get linebacker DeMarvion Overshown back in the lineup on Thursday night are fading.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/lb-demarvion-overshown-a-long-shot-to-play-for-cowboys-thursday",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "50117652",
-    "publishedAt": "2026-10-06T17:36:34Z",
-    "type": "Analysis",
-    "headline": "Knockout league pickups: Jaxon Smith-Njigba, Ja'Marr Chase among big names available in Week 5",
-    "summary": "Tristan H. Cockcroft lists the most common players on eliminated teams and finds how much FAB to spend this week.",
-    "sourceUrl": "https://www.espn.com/fantasy/football/story/_/id/50117652/fantasy-football-knockout-waiver-wire-free-agent-pickups-nfl-week-5",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bears-re-signing-scotty-miller-to-practice-squad",
-    "publishedAt": "2026-10-06T17:23:30.000Z",
-    "type": "Transaction",
-    "headline": "Bears re-signing Scotty Miller to practice squad",
-    "summary": "The Bears are bringing a veteran receiver back to their practice squad.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bears-re-signing-scotty-miller-to-practice-squad",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "50117893",
-    "publishedAt": "2026-10-06T17:05:36Z",
-    "type": "Analysis",
-    "headline": "What Kevin O'Connell sees in Kyler Murray",
-    "summary": "What Kevin O'Connell sees in Kyler Murray ",
-    "sourceUrl": "https://www.espn.com/video/clip/_/id/50117893/what-kevin-oconnell-sees-kyler-murray",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/rams-add-lb-eric-kendricks-to-practice-squad",
-    "publishedAt": "2026-10-06T16:39:30.000Z",
-    "type": "Transaction",
-    "headline": "Rams add LB Eric Kendricks to practice squad",
-    "summary": "The Rams have added a notable veteran to their practice squad.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/rams-add-lb-eric-kendricks-to-practice-squad",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/nfl-referees-association-objects-to-severity-of-suspensions-of-adrian-hill-jeff-seeman",
-    "publishedAt": "2026-10-06T16:39:03.000Z",
-    "type": "Analysis",
-    "headline": "NFL Referees Association objects to \"severity\" of suspensions of Adrian Hill, Jeff Seeman",
-    "summary": "NFLRA contends the punishments exceed past disciplinary practices.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/nfl-referees-association-objects-to-severity-of-suspensions-of-adrian-hill-jeff-seeman",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/nfl-has-most-accepted-penalties-through-four-weeks-since-1978",
-    "publishedAt": "2026-10-06T16:35:31.000Z",
-    "type": "Analysis",
-    "headline": "NFL has most accepted penalties through four weeks since 1978",
-    "summary": "The flags have been flying throughout the NFL this season.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/nfl-has-most-accepted-penalties-through-four-weeks-since-1978",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=422116",
-    "publishedAt": "2026-10-06T16:35:27.000Z",
-    "type": "Transaction",
-    "headline": "Rams Sign LB Eric Kendricks",
-    "summary": "Eric Kendricks joined the 49ers in November of last year. The veteran linebacker has lined up another midseason deal which will send him to the NFC West. Kendricks signed with the Rams on Tuesday, per a team announcement. This is a practice squad deal, to no surprise. Kendricks, 34, will look to make an early impact […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/rams-sign-lb-eric-kendricks",
-    "sourceName": "Pro Football Rumors"
   }
 ]

@@ -10,12 +10,32 @@
     "practiceStatus": "Limited"
   },
   {
+    "playerId": "4362890",
+    "playerName": "Ben Brown",
+    "position": "C",
+    "week": 7,
+    "injury": "Knee",
+    "gameStatus": "Doubtful",
+    "lastUpdated": "2026-10-20T00:00:42.181Z",
+    "practiceStatus": "Did Not Participate"
+  },
+  {
+    "playerId": "4259646",
+    "playerName": "Alijah Vera-Tucker",
+    "position": "G",
+    "week": 7,
+    "injury": "Hamstring",
+    "gameStatus": "Doubtful",
+    "lastUpdated": "2026-10-20T00:00:42.181Z",
+    "practiceStatus": "Did Not Participate"
+  },
+  {
     "playerId": "4688779",
     "playerName": "Channing Canada",
     "position": "CB",
     "week": 7,
     "injury": "Hamstring",
-    "gameStatus": "Out",
+    "gameStatus": "Questionable",
     "lastUpdated": "2026-10-20T00:00:42.181Z",
     "practiceStatus": "Limited"
   },
@@ -25,7 +45,7 @@
     "position": "CB",
     "week": 7,
     "injury": "Neck",
-    "gameStatus": "Out",
+    "gameStatus": "Questionable",
     "lastUpdated": "2026-10-20T00:00:42.181Z",
     "practiceStatus": "Did Not Participate"
   },
@@ -35,7 +55,7 @@
     "position": "CB",
     "week": 7,
     "injury": "Hamstring",
-    "gameStatus": "Out",
+    "gameStatus": "Questionable",
     "lastUpdated": "2026-10-20T00:00:42.181Z",
     "practiceStatus": "Limited"
   },
@@ -50,31 +70,11 @@
     "lastUpdated": "2026-10-20T00:00:42.181Z"
   },
   {
-    "playerId": "patriots-ben-brown",
-    "playerName": "Ben Brown",
-    "position": "OL",
-    "week": 7,
-    "injury": "Knee",
-    "practiceStatus": "Did Not Participate",
-    "gameStatus": null,
-    "lastUpdated": "2026-10-20T00:00:42.181Z"
-  },
-  {
     "playerId": "patriots-joshua-farmer",
     "playerName": "Joshua Farmer",
     "position": "DT",
     "week": 7,
     "injury": "Personal",
-    "practiceStatus": "Did Not Participate",
-    "gameStatus": null,
-    "lastUpdated": "2026-10-20T00:00:42.181Z"
-  },
-  {
-    "playerId": "patriots-alijah-veratucker",
-    "playerName": "Alijah Vera-Tucker",
-    "position": "G",
-    "week": 7,
-    "injury": "Hamstring",
     "practiceStatus": "Did Not Participate",
     "gameStatus": null,
     "lastUpdated": "2026-10-20T00:00:42.181Z"

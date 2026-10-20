@@ -18,6 +18,15 @@
     "sourceName": "Patriots.com"
   },
   {
+    "id": "5fd52fde-99d5-422e-8e3f-aedb57ca83af",
+    "publishedAt": "2026-10-20T10:00:00.000Z",
+    "type": "Beat Report",
+    "headline": "Transcript: Head Coach Mike Vrabel Press Conference 10/20",
+    "summary": "Read the full transcript from Head Coach Mike Vrabel's press conference on Tuesday, October 20, 2026.",
+    "sourceUrl": "https://www.patriots.com/news/transcript-head-coach-mike-vrabel-press-conference-10-20-x9212",
+    "sourceName": "Patriots.com"
+  },
+  {
     "id": "50221307",
     "publishedAt": "2026-10-20T00:36:36Z",
     "type": "Analysis",
@@ -42,15 +51,6 @@
     "headline": "Patriots Place WR Romeo Doubs on Injured Reserve; Sign DB Elliott Davison to the 53-Man Roster from the Practice Squad; Announce Additional Practice Squad Moves",
     "summary": "The Patriots announced today that they have placed WR Romeo Doubs on injured reserve and signed DB Elliott Davison to the 53-man roster from the practice squad. In addition, the Patriots signed WR Ryan Miller, OL Jacob Rizy and G Andrew Rupcich to the practice squad and released CB D’Shawn Jamison from the practice squad.",
     "sourceUrl": "https://www.patriots.com/news/patriots-place-wr-romeo-doubs-on-injured-reserve-sign-db-elliott-davison-to-the-53-man-roster-from-the-practice-squad-announce-additional-practice-squad-moves",
-    "sourceName": "Patriots.com"
-  },
-  {
-    "id": "7d08ac0b-7f36-4b52-8320-0636cb80780d",
-    "publishedAt": "2026-10-19T19:55:52.000Z",
-    "type": "Analysis",
-    "headline": "After Further Review: Drake Maye and A.J. Brown film breakdown, quick-hit film notes from Sunday's win over the Jets",
-    "summary": "Breaking down the tape on the Drake Maye-A.J. Brown connection in Brown's return to the lineup in Week 6.",
-    "sourceUrl": "https://www.patriots.com/news/after-further-review-drake-maye-and-a-j-brown-film-breakdown-quick-hit-film-notes-from-sunday-s-win-over-the-jets",
     "sourceName": "Patriots.com"
   },
   {
@@ -81,12 +81,12 @@
     "sourceName": "ESPN"
   },
   {
-    "id": "50212707",
-    "publishedAt": "2026-10-18T20:48:52Z",
-    "type": "Beat Report",
-    "headline": "New York Jets vs. New England Patriots: Game Highlights",
-    "summary": "New York Jets vs. New England Patriots: Game Highlights",
-    "sourceUrl": "https://www.espn.com/video/clip/_/id/50212707/game-highlights",
+    "id": "50198740",
+    "publishedAt": "2026-10-18T10:00:04Z",
+    "type": "Analysis",
+    "headline": "Patriots' 2026 rookies: Who has made an impact through five weeks?",
+    "summary": "With two rookies assuming starting roles, let's take a look at how this year's draft class has panned out.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50198740/new-england-patriots-notebook-rookies-jets-lomu-jacas",
     "sourceName": "ESPN"
   }
 ]
