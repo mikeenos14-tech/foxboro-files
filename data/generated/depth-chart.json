@@ -10,9 +10,9 @@
         "rank": 1
       },
       {
-        "playerId": "4695193",
-        "playerName": "Efton Chism III",
-        "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/zbnf3ujmwprzgjnwdtlo",
+        "playerId": "4613202",
+        "playerName": "Kyle Williams",
+        "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/d31ahhl7yt97gu8iei8v",
         "rank": 2
       },
       {
@@ -27,24 +27,6 @@
     "position": "WR2",
     "players": [
       {
-        "playerId": "4361432",
-        "playerName": "Romeo Doubs",
-        "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/d27wez0jqd5vfcrjizpb",
-        "rank": 1
-      },
-      {
-        "playerId": "4613202",
-        "playerName": "Kyle Williams",
-        "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/d31ahhl7yt97gu8iei8v",
-        "rank": 2
-      }
-    ]
-  },
-  {
-    "unit": "Offense",
-    "position": "WR3",
-    "players": [
-      {
         "playerId": "4427095",
         "playerName": "DeMario Douglas",
         "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/m3fpxawsccoqsajtqlec",
@@ -54,6 +36,24 @@
         "playerId": "2991662",
         "playerName": "Mack Hollins",
         "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/qbz7whjzsittudcecezw",
+        "rank": 2
+      }
+    ]
+  },
+  {
+    "unit": "Offense",
+    "position": "WR3",
+    "players": [
+      {
+        "playerId": "4695193",
+        "playerName": "Efton Chism III",
+        "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/zbnf3ujmwprzgjnwdtlo",
+        "rank": 1
+      },
+      {
+        "playerId": "4361432",
+        "playerName": "Romeo Doubs",
+        "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/d27wez0jqd5vfcrjizpb",
         "rank": 2
       }
     ]
@@ -89,19 +89,14 @@
         "rank": 1
       },
       {
-        "playerId": "4362890",
-        "playerName": "Ben Brown",
-        "rank": 2
-      },
-      {
         "playerId": "3055886",
         "playerName": "Matt Pryor",
-        "rank": 3
+        "rank": 2
       },
       {
         "playerId": "15718",
         "playerName": "Greg Van Roten",
-        "rank": 4
+        "rank": 3
       }
     ]
   },
@@ -113,11 +108,6 @@
         "playerId": "4599198",
         "playerName": "Jared Wilson",
         "rank": 1
-      },
-      {
-        "playerId": "4362890",
-        "playerName": "Ben Brown",
-        "rank": 2
       }
     ]
   },
@@ -131,24 +121,19 @@
         "rank": 1
       },
       {
-        "playerId": "3055886",
-        "playerName": "Matt Pryor",
-        "rank": 2
-      },
-      {
         "playerId": "4428394",
         "playerName": "Walter Rouse",
-        "rank": 3
+        "rank": 2
       },
       {
         "playerId": "4046545",
         "playerName": "Mike Onwenu",
-        "rank": 4
+        "rank": 3
       },
       {
         "playerId": "15718",
         "playerName": "Greg Van Roten",
-        "rank": 5
+        "rank": 4
       }
     ]
   },

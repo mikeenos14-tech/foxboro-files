@@ -21,7 +21,7 @@
         },
         {
           "label": "Catchable",
-          "value": "87%"
+          "value": "88%"
         },
         {
           "label": "Drops",
@@ -36,7 +36,7 @@
           "value": "1"
         }
       ],
-      "detail": "3.2 yds of separation · 37th of 123 qualified"
+      "detail": "3.2 yds of separation · 39th of 125 qualified"
     },
     {
       "playerId": "00-0038621",
@@ -59,7 +59,7 @@
         },
         {
           "label": "Catchable",
-          "value": "87%"
+          "value": "91%"
         },
         {
           "label": "Drops",
@@ -74,7 +74,7 @@
           "value": "1"
         }
       ],
-      "detail": "3.8 yds of separation · 14th of 123 qualified"
+      "detail": "3.8 yds of separation · 14th of 125 qualified"
     },
     {
       "playerId": "00-0033090",
@@ -97,11 +97,11 @@
         },
         {
           "label": "Catchable",
-          "value": "100%"
+          "value": "95%"
         },
         {
           "label": "Drops",
-          "value": "0"
+          "value": "1"
         },
         {
           "label": "TD",
@@ -112,7 +112,7 @@
           "value": "0"
         }
       ],
-      "detail": "4.3 yds of separation · 3rd of 123 qualified"
+      "detail": "4.3 yds of separation · 3rd of 125 qualified"
     },
     {
       "playerId": "00-0033555",
@@ -150,7 +150,7 @@
           "value": "0"
         }
       ],
-      "detail": "2.7 yds of separation · 88th of 123 qualified"
+      "detail": "2.7 yds of separation · 89th of 125 qualified"
     },
     {
       "playerId": "00-0040131",
@@ -210,11 +210,11 @@
         },
         {
           "label": "Catchable",
-          "value": "100%"
+          "value": "90%"
         },
         {
           "label": "Drops",
-          "value": "0"
+          "value": "1"
         },
         {
           "label": "TD",
@@ -321,11 +321,11 @@
         },
         {
           "label": "Catchable",
-          "value": "100%"
+          "value": "75%"
         },
         {
           "label": "Drops",
-          "value": "0"
+          "value": "1"
         },
         {
           "label": "TD",
@@ -515,7 +515,7 @@
           "value": "0"
         }
       ],
-      "detail": "+0.38 yds/carry over expected · 15th of 49 qualified"
+      "detail": "+0.38 yds/carry over expected · 15th of 50 qualified"
     },
     {
       "playerId": "00-0040734",
@@ -545,7 +545,7 @@
           "value": "1"
         }
       ],
-      "detail": "+0.05 yds/carry over expected · 20th of 49 qualified"
+      "detail": "+0.05 yds/carry over expected · 20th of 50 qualified"
     },
     {
       "playerId": "00-0039851",
@@ -604,7 +604,7 @@
           "value": "1"
         }
       ],
-      "detail": "+0.39 yds/carry over expected · 14th of 49 qualified"
+      "detail": "+0.39 yds/carry over expected · 14th of 50 qualified"
     },
     {
       "playerId": "00-0038476",

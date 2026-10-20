@@ -34,7 +34,7 @@
       {
         "key": "last-1",
         "label": "Last Game",
-        "grade": 23
+        "grade": 16
       },
       {
         "key": "last-3",
@@ -71,7 +71,7 @@
       {
         "key": "last-5",
         "label": "Last 5 Games",
-        "grade": 84
+        "grade": 87
       }
     ],
     "statLine": "70/113 (62%), 1013 yds, 2.9 YAC/rec, 8 TD",
@@ -80,7 +80,7 @@
     "secondaryGrade": {
       "label": "Hands & YAC (QB-independent)",
       "grade": null,
-      "detail": "57 of 61 catchable balls caught · 1 drop · 2.9 YAC/rec · 9/18 contested · charted so far: 92 of 113 targets",
+      "detail": "69 of 75 catchable balls caught · 2 drops · 2.9 YAC/rec · 9/19 contested",
       "note": "Not ranked yet — teams are still closer together than chance alone explains."
     }
   },
@@ -93,7 +93,7 @@
       {
         "key": "last-1",
         "label": "Last Game",
-        "grade": 81
+        "grade": 84
       },
       {
         "key": "last-3",
@@ -103,7 +103,7 @@
       {
         "key": "last-5",
         "label": "Last 5 Games",
-        "grade": 90
+        "grade": 94
       }
     ],
     "statLine": "28/36 (78%), 337 yds, 6.0 YAC/rec, 3 TD",
@@ -113,7 +113,7 @@
     "secondaryGrade": {
       "label": "Hands & YAC (QB-independent)",
       "grade": null,
-      "detail": "23 of 23 catchable balls caught · 0 drops · 6.0 YAC/rec · 3/5 contested · charted so far: 28 of 36 targets",
+      "detail": "28 of 30 catchable balls caught · 2 drops · 6.0 YAC/rec · 3/5 contested",
       "note": "Not ranked yet — teams are still closer together than chance alone explains."
     }
   },
@@ -136,7 +136,7 @@
       {
         "key": "last-5",
         "label": "Last 5 Games",
-        "grade": 61
+        "grade": 55
       }
     ],
     "statLine": "Drake Maye takes 3.10 sec to throw on average — 5th-longest of 39 qualified QBs (a longer hold gives the rush more time)",
@@ -145,7 +145,7 @@
   },
   {
     "group": "Pass Rush",
-    "grade": 55,
+    "grade": 52,
     "trend": "flat",
     "soWhat": "Sack rate generated, team-wide — edge rushers, interior linemen and blitzers all included.",
     "windows": [
@@ -157,12 +157,12 @@
       {
         "key": "last-3",
         "label": "Last 3 Games",
-        "grade": 55
+        "grade": 52
       },
       {
         "key": "last-5",
         "label": "Last 5 Games",
-        "grade": 52
+        "grade": 48
       }
     ],
     "statLine": "14 sacks, 37 QB hits — leader: Elijah Ponder (5.5 sacks)",
@@ -178,17 +178,17 @@
       {
         "key": "last-1",
         "label": "Last Game",
-        "grade": 94
+        "grade": 97
       },
       {
         "key": "last-3",
         "label": "Last 3 Games",
-        "grade": 94
+        "grade": 90
       },
       {
         "key": "last-5",
         "label": "Last 5 Games",
-        "grade": 55
+        "grade": 58
       }
     ],
     "statLine": "25 TFL, 5 forced fumbles — leader: Elijah Ponder (7 TFL)",
@@ -204,12 +204,12 @@
       {
         "key": "last-1",
         "label": "Last Game",
-        "grade": 29
+        "grade": 26
       },
       {
         "key": "last-3",
         "label": "Last 3 Games",
-        "grade": 26
+        "grade": 23
       },
       {
         "key": "last-5",

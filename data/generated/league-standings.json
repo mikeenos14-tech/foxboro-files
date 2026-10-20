@@ -348,12 +348,12 @@
       {
         "team": "WAS",
         "wins": 1,
-        "losses": 3,
+        "losses": 4,
         "ties": 1,
-        "pointDifferential": -34,
+        "pointDifferential": -40,
         "isUs": false,
         "streak": {
-          "result": "T",
+          "result": "L",
           "count": 1
         },
         "divisionRecord": {
@@ -515,14 +515,14 @@
     "standings": [
       {
         "team": "SF",
-        "wins": 5,
+        "wins": 6,
         "losses": 0,
         "ties": 0,
-        "pointDifferential": 61,
+        "pointDifferential": 67,
         "isUs": false,
         "streak": {
           "result": "W",
-          "count": 5
+          "count": 6
         },
         "divisionRecord": {
           "wins": 3,

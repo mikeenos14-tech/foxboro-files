@@ -18,8 +18,8 @@
       },
       "defense": {
         "value": 0.4331395348837209,
-        "leagueRank": 17,
-        "leaguePercentile": 48
+        "leagueRank": 16,
+        "leaguePercentile": 52
       }
     },
     "them": {
@@ -38,10 +38,10 @@
   "positionGroupMatchups": [
     {
       "group": "Rush Offense vs. Run Defense",
-      "ourGrade": 55,
+      "ourGrade": 58,
       "theirGrade": 13,
       "edge": "us",
-      "note": "55/100 vs. 13/100 (advantage us).",
+      "note": "58/100 vs. 13/100 (advantage us).",
       "ourStatLine": "794 yds, 4.4 YPC, 4 TD, 2 FUM, 12% explosive",
       "theirStatLine": "545 yds allowed, 4.6 YPC allowed, 5 TD allowed, 12% explosive allowed"
     },
@@ -84,7 +84,7 @@
   ],
   "matchupOfTheWeek": {
     "title": "Rush Offense vs. Run Defense",
-    "description": "Our rush offense grades 55/100 (about average) against CHI's run defense at 13/100 (among the NFL's worst) — the widest statistical edge on the board this week."
+    "description": "Our rush offense grades 58/100 (about average) against CHI's run defense at 13/100 (among the NFL's worst) — the widest statistical edge on the board this week."
   },
   "opponentInjuries": [],
   "recentForm": {
@@ -132,15 +132,15 @@
     }
   ],
   "weather": {
-    "tempF": 64,
-    "wind": "4 mph",
+    "tempF": 62,
+    "wind": "5 mph",
     "precipitation": "0%",
     "isDome": false
   },
   "bettingContext": {
     "spread": 3,
-    "overUnder": 49.5,
-    "asOf": "2026-10-19"
+    "overUnder": 50.5,
+    "asOf": "2026-10-20"
   },
-  "previewTake": "The Patriots head to Soldier Field for a Thursday night primetime matchup against a Bears team they've absolutely owned over the past 16 years—4-1 in their last five meetings, including a 19-3 shutout just two years ago. But here's what should have us genuinely fired up: Chicago's run defense grades out at a truly dreadful 13/100, and our rush offense at 55/100 represents the single widest statistical edge on the board this week. The real concern? The Bears possess the NFL's elite pass rush at 94/100, which could make life uncomfortable for Drake Maye, especially if A.J. Brown—who just dropped a career-high three passes in his return from a four-week absence—and the passing game are still finding their rhythm. We're coming in off three straight wins with positive EPA momentum (0.19 over the last three games) against a Chicago team that's been treading water at -0.05, which means if we establish the run early, we could dictate this thing."
+  "previewTake": "The Patriots head to Soldier Field for a Thursday night showdown with a Bears defense that, frankly, looks like we ordered it custom: their run defense grades out at 13/100, which is approximately one-thirteenth of functional, while our rushing attack sits at a respectable 58/100. It's the widest statistical edge on the board this week, and it's hard to overstate how much we should be able to impose our will on the ground. The wrinkle is Chicago's pass rush—graded at 94/100, among the NFL's elite—which could make life uncomfortable for Drake Maye even with our 61/100 pass protection holding up reasonably well. We're 4-1 against these guys over the last five meetings, trending upward at +0.19 EPA/play over our last three games, and the line respects us: we're favored on the road. Losing Romeo Doubs to IR after he hauled in that 42-yard TD against the Jets stings, but if we can get the ground game rolling early, we should be able to control this game in a way Chicago's mediocre offense simply can't match."
 }
