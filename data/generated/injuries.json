@@ -6,7 +6,7 @@
     "week": 7,
     "injury": "Ankle",
     "gameStatus": "Questionable",
-    "lastUpdated": "2026-10-20T00:00:42.181Z",
+    "lastUpdated": "2026-10-20T21:38:59.105Z",
     "practiceStatus": "Limited"
   },
   {
@@ -16,8 +16,18 @@
     "week": 7,
     "injury": "Knee",
     "gameStatus": "Doubtful",
-    "lastUpdated": "2026-10-20T00:00:42.181Z",
+    "lastUpdated": "2026-10-20T21:38:59.105Z",
     "practiceStatus": "Did Not Participate"
+  },
+  {
+    "playerId": "16771",
+    "playerName": "Morgan Moses",
+    "position": "OT",
+    "week": 7,
+    "injury": "Foot",
+    "gameStatus": "Questionable",
+    "lastUpdated": "2026-10-20T21:38:59.105Z",
+    "practiceStatus": "Limited"
   },
   {
     "playerId": "4259646",
@@ -26,7 +36,7 @@
     "week": 7,
     "injury": "Hamstring",
     "gameStatus": "Doubtful",
-    "lastUpdated": "2026-10-20T00:00:42.181Z",
+    "lastUpdated": "2026-10-20T21:38:59.105Z",
     "practiceStatus": "Did Not Participate"
   },
   {
@@ -36,7 +46,7 @@
     "week": 7,
     "injury": "Hamstring",
     "gameStatus": "Questionable",
-    "lastUpdated": "2026-10-20T00:00:42.181Z",
+    "lastUpdated": "2026-10-20T21:38:59.105Z",
     "practiceStatus": "Limited"
   },
   {
@@ -46,8 +56,8 @@
     "week": 7,
     "injury": "Neck",
     "gameStatus": "Questionable",
-    "lastUpdated": "2026-10-20T00:00:42.181Z",
-    "practiceStatus": "Did Not Participate"
+    "lastUpdated": "2026-10-20T21:38:59.105Z",
+    "practiceStatus": "Limited"
   },
   {
     "playerId": "4606666",
@@ -56,18 +66,8 @@
     "week": 7,
     "injury": "Hamstring",
     "gameStatus": "Questionable",
-    "lastUpdated": "2026-10-20T00:00:42.181Z",
+    "lastUpdated": "2026-10-20T21:38:59.105Z",
     "practiceStatus": "Limited"
-  },
-  {
-    "playerId": "patriots-andy-borregales",
-    "playerName": "Andy Borregales",
-    "position": "K",
-    "week": 7,
-    "injury": "Personal",
-    "practiceStatus": "Did Not Participate",
-    "gameStatus": null,
-    "lastUpdated": "2026-10-20T00:00:42.181Z"
   },
   {
     "playerId": "patriots-joshua-farmer",
@@ -77,17 +77,17 @@
     "injury": "Personal",
     "practiceStatus": "Did Not Participate",
     "gameStatus": null,
-    "lastUpdated": "2026-10-20T00:00:42.181Z"
+    "lastUpdated": "2026-10-20T21:38:59.105Z"
   },
   {
-    "playerId": "patriots-morgan-moses",
-    "playerName": "Morgan Moses",
-    "position": "T",
+    "playerId": "patriots-andy-borregales",
+    "playerName": "Andy Borregales",
+    "position": "K",
     "week": 7,
-    "injury": "Foot",
-    "practiceStatus": "Limited",
+    "injury": "Personal",
+    "practiceStatus": "Full",
     "gameStatus": null,
-    "lastUpdated": "2026-10-20T00:00:42.181Z"
+    "lastUpdated": "2026-10-20T21:38:59.105Z"
   },
   {
     "playerId": "patriots-marcus-bryant",
@@ -97,7 +97,7 @@
     "injury": "Ankle",
     "practiceStatus": "Full",
     "gameStatus": null,
-    "lastUpdated": "2026-10-20T00:00:42.181Z"
+    "lastUpdated": "2026-10-20T21:38:59.105Z"
   },
   {
     "playerId": "patriots-kevin-byard",
@@ -107,7 +107,7 @@
     "injury": "Chest",
     "practiceStatus": "Full",
     "gameStatus": null,
-    "lastUpdated": "2026-10-20T00:00:42.181Z"
+    "lastUpdated": "2026-10-20T21:38:59.105Z"
   },
   {
     "playerId": "patriots-will-campbell",
@@ -117,7 +117,7 @@
     "injury": "Knee",
     "practiceStatus": "Full",
     "gameStatus": null,
-    "lastUpdated": "2026-10-20T00:00:42.181Z"
+    "lastUpdated": "2026-10-20T21:38:59.105Z"
   },
   {
     "playerId": "patriots-christian-elliss",
@@ -127,7 +127,7 @@
     "injury": "Chest",
     "practiceStatus": "Full",
     "gameStatus": null,
-    "lastUpdated": "2026-10-20T00:00:42.181Z"
+    "lastUpdated": "2026-10-20T21:38:59.105Z"
   },
   {
     "playerId": "patriots-treveyon-henderson",
@@ -137,7 +137,7 @@
     "injury": "Ankle",
     "practiceStatus": "Full",
     "gameStatus": null,
-    "lastUpdated": "2026-10-20T00:00:42.181Z"
+    "lastUpdated": "2026-10-20T21:38:59.105Z"
   },
   {
     "playerId": "patriots-dremont-jones",
@@ -147,7 +147,7 @@
     "injury": "Shoulder",
     "practiceStatus": "Full",
     "gameStatus": null,
-    "lastUpdated": "2026-10-20T00:00:42.181Z"
+    "lastUpdated": "2026-10-20T21:38:59.105Z"
   },
   {
     "playerId": "patriots-drake-maye",
@@ -157,7 +157,7 @@
     "injury": "Right Shoulder",
     "practiceStatus": "Full",
     "gameStatus": null,
-    "lastUpdated": "2026-10-20T00:00:42.181Z"
+    "lastUpdated": "2026-10-20T21:38:59.105Z"
   },
   {
     "playerId": "patriots-craig-woodson",
@@ -167,6 +167,6 @@
     "injury": "Shoulder",
     "practiceStatus": "Full",
     "gameStatus": null,
-    "lastUpdated": "2026-10-20T00:00:42.181Z"
+    "lastUpdated": "2026-10-20T21:38:59.105Z"
   }
 ]

@@ -1,26 +1,12 @@
 {
   "week": 7,
-  "asOf": "2026-10-20T00:00:42.181Z",
+  "asOf": "2026-10-20T21:38:59.105Z",
   "players": [
-    {
-      "team": "NE",
-      "playerName": "Andy Borregales",
-      "position": "K",
-      "injury": "Personal",
-      "practiceStatus": "Did Not Participate"
-    },
     {
       "team": "NE",
       "playerName": "Ben Brown",
       "position": "OL",
       "injury": "Knee",
-      "practiceStatus": "Did Not Participate"
-    },
-    {
-      "team": "NE",
-      "playerName": "Carlton Davis III",
-      "position": "CB",
-      "injury": "Neck",
       "practiceStatus": "Did Not Participate"
     },
     {
@@ -53,6 +39,13 @@
     },
     {
       "team": "NE",
+      "playerName": "Carlton Davis III",
+      "position": "CB",
+      "injury": "Neck",
+      "practiceStatus": "Limited"
+    },
+    {
+      "team": "NE",
       "playerName": "Morgan Moses",
       "position": "T",
       "injury": "Foot",
@@ -64,6 +57,13 @@
       "position": "CB",
       "injury": "Hamstring",
       "practiceStatus": "Limited"
+    },
+    {
+      "team": "NE",
+      "playerName": "Andy Borregales",
+      "position": "K",
+      "injury": "Personal",
+      "practiceStatus": "Full"
     },
     {
       "team": "NE",
@@ -130,13 +130,6 @@
     },
     {
       "team": "CHI",
-      "playerName": "Jonah Jackson",
-      "position": "OL",
-      "injury": "Hip / Quadricep",
-      "practiceStatus": "Did Not Participate"
-    },
-    {
-      "team": "CHI",
       "playerName": "Kyle Monangai",
       "position": "RB",
       "injury": "Thumb/Toe",
@@ -148,6 +141,13 @@
       "position": "LB",
       "injury": "Concussion",
       "practiceStatus": "Did Not Participate"
+    },
+    {
+      "team": "CHI",
+      "playerName": "Jonah Jackson",
+      "position": "OL",
+      "injury": "Hip / Quadricep",
+      "practiceStatus": "Limited"
     },
     {
       "team": "CHI",
