@@ -1,107 +1,17 @@
 [
   {
-    "playerId": "4047646",
-    "playerName": "A.J. Brown",
-    "position": "WR",
-    "week": 7,
-    "injury": "Ankle",
-    "gameStatus": "Questionable",
-    "lastUpdated": "2026-10-20T21:38:59.105Z",
-    "practiceStatus": "Limited"
-  },
-  {
-    "playerId": "4362890",
-    "playerName": "Ben Brown",
-    "position": "C",
-    "week": 7,
-    "injury": "Knee",
-    "gameStatus": "Doubtful",
-    "lastUpdated": "2026-10-20T21:38:59.105Z",
-    "practiceStatus": "Did Not Participate"
-  },
-  {
-    "playerId": "16771",
+    "playerId": "00-0031330",
     "playerName": "Morgan Moses",
-    "position": "OT",
-    "week": 7,
-    "injury": "Foot",
-    "gameStatus": "Questionable",
-    "lastUpdated": "2026-10-20T21:38:59.105Z",
-    "practiceStatus": "Limited"
-  },
-  {
-    "playerId": "4259646",
-    "playerName": "Alijah Vera-Tucker",
-    "position": "G",
-    "week": 7,
-    "injury": "Hamstring",
-    "gameStatus": "Doubtful",
-    "lastUpdated": "2026-10-20T21:38:59.105Z",
-    "practiceStatus": "Did Not Participate"
-  },
-  {
-    "playerId": "4688779",
-    "playerName": "Channing Canada",
-    "position": "CB",
-    "week": 7,
-    "injury": "Hamstring",
-    "gameStatus": "Questionable",
-    "lastUpdated": "2026-10-20T21:38:59.105Z",
-    "practiceStatus": "Limited"
-  },
-  {
-    "playerId": "3916923",
-    "playerName": "Carlton Davis III",
-    "position": "CB",
-    "week": 7,
-    "injury": "Neck",
-    "gameStatus": "Questionable",
-    "lastUpdated": "2026-10-20T21:38:59.105Z",
-    "practiceStatus": "Limited"
-  },
-  {
-    "playerId": "4606666",
-    "playerName": "Karon Prunty",
-    "position": "CB",
-    "week": 7,
-    "injury": "Hamstring",
-    "gameStatus": "Questionable",
-    "lastUpdated": "2026-10-20T21:38:59.105Z",
-    "practiceStatus": "Limited"
-  },
-  {
-    "playerId": "patriots-joshua-farmer",
-    "playerName": "Joshua Farmer",
-    "position": "DT",
-    "week": 7,
-    "injury": "Personal",
-    "practiceStatus": "Did Not Participate",
-    "gameStatus": null,
-    "lastUpdated": "2026-10-20T21:38:59.105Z"
-  },
-  {
-    "playerId": "patriots-andy-borregales",
-    "playerName": "Andy Borregales",
-    "position": "K",
-    "week": 7,
-    "injury": "Personal",
-    "practiceStatus": "Full",
-    "gameStatus": null,
-    "lastUpdated": "2026-10-20T21:38:59.105Z"
-  },
-  {
-    "playerId": "patriots-marcus-bryant",
-    "playerName": "Marcus Bryant",
     "position": "T",
     "week": 7,
-    "injury": "Ankle",
-    "practiceStatus": "Full",
+    "injury": "Foot",
+    "practiceStatus": "Limited",
     "gameStatus": null,
     "lastUpdated": "2026-10-20T21:38:59.105Z"
   },
   {
-    "playerId": "patriots-kevin-byard",
-    "playerName": "Kevin Byard III",
+    "playerId": "00-0033132",
+    "playerName": "Kevin Byard",
     "position": "S",
     "week": 7,
     "injury": "Chest",
@@ -110,17 +20,37 @@
     "lastUpdated": "2026-10-20T21:38:59.105Z"
   },
   {
-    "playerId": "patriots-will-campbell",
-    "playerName": "Will Campbell",
-    "position": "T",
+    "playerId": "00-0034778",
+    "playerName": "Carlton Davis III",
+    "position": "CB",
     "week": 7,
-    "injury": "Knee",
+    "injury": "Neck",
+    "practiceStatus": "Limited",
+    "gameStatus": null,
+    "lastUpdated": "2026-10-20T21:38:59.105Z"
+  },
+  {
+    "playerId": "00-0035676",
+    "playerName": "A.J. Brown",
+    "position": "WR",
+    "week": 7,
+    "injury": "Ankle",
+    "practiceStatus": "Limited",
+    "gameStatus": null,
+    "lastUpdated": "2026-10-20T21:38:59.105Z"
+  },
+  {
+    "playerId": "00-0035678",
+    "playerName": "Dre'Mont Jones",
+    "position": "LB",
+    "week": 7,
+    "injury": "Shoulder",
     "practiceStatus": "Full",
     "gameStatus": null,
     "lastUpdated": "2026-10-20T21:38:59.105Z"
   },
   {
-    "playerId": "patriots-christian-elliss",
+    "playerId": "00-0036813",
     "playerName": "Christian Elliss",
     "position": "LB",
     "week": 7,
@@ -130,7 +60,87 @@
     "lastUpdated": "2026-10-20T21:38:59.105Z"
   },
   {
-    "playerId": "patriots-treveyon-henderson",
+    "playerId": "00-0036979",
+    "playerName": "Alijah Vera-Tucker",
+    "position": "G",
+    "week": 7,
+    "injury": "Hamstring",
+    "practiceStatus": "Did Not Participate",
+    "gameStatus": null,
+    "lastUpdated": "2026-10-20T21:38:59.105Z"
+  },
+  {
+    "playerId": "00-0037413",
+    "playerName": "Ben Brown",
+    "position": "C",
+    "week": 7,
+    "injury": "Knee",
+    "practiceStatus": "Did Not Participate",
+    "gameStatus": null,
+    "lastUpdated": "2026-10-20T21:38:59.105Z"
+  },
+  {
+    "playerId": "00-0039851",
+    "playerName": "Drake Maye",
+    "position": "QB",
+    "week": 7,
+    "injury": "Shoulder",
+    "practiceStatus": "Full",
+    "gameStatus": null,
+    "lastUpdated": "2026-10-20T21:38:59.105Z"
+  },
+  {
+    "playerId": "00-0040171",
+    "playerName": "Joshua Farmer",
+    "position": "DT",
+    "week": 7,
+    "injury": "Not injury related - personal matter",
+    "practiceStatus": "Did Not Participate",
+    "gameStatus": null,
+    "lastUpdated": "2026-10-20T21:38:59.105Z"
+  },
+  {
+    "playerId": "00-0040200",
+    "playerName": "Andy Borregales",
+    "position": "K",
+    "week": 7,
+    "injury": "Not injury related - personal matter",
+    "practiceStatus": "Full",
+    "gameStatus": null,
+    "lastUpdated": "2026-10-20T21:38:59.105Z"
+  },
+  {
+    "playerId": "00-0040226",
+    "playerName": "Marcus Bryant",
+    "position": "T",
+    "week": 7,
+    "injury": "Ankle",
+    "practiceStatus": "Full",
+    "gameStatus": null,
+    "lastUpdated": "2026-10-20T21:38:59.105Z"
+  },
+  {
+    "playerId": "00-0040699",
+    "playerName": "Will Campbell",
+    "position": "T",
+    "week": 7,
+    "injury": "Knee",
+    "practiceStatus": "Full",
+    "gameStatus": null,
+    "lastUpdated": "2026-10-20T21:38:59.105Z"
+  },
+  {
+    "playerId": "00-0040716",
+    "playerName": "Craig Woodson",
+    "position": "S",
+    "week": 7,
+    "injury": "Shoulder",
+    "practiceStatus": "Full",
+    "gameStatus": null,
+    "lastUpdated": "2026-10-20T21:38:59.105Z"
+  },
+  {
+    "playerId": "00-0040734",
     "playerName": "TreVeyon Henderson",
     "position": "RB",
     "week": 7,
@@ -140,32 +150,22 @@
     "lastUpdated": "2026-10-20T21:38:59.105Z"
   },
   {
-    "playerId": "patriots-dremont-jones",
-    "playerName": "Dre’Mont Jones",
-    "position": "LB",
+    "playerId": "00-0041088",
+    "playerName": "Karon Prunty",
+    "position": "CB",
     "week": 7,
-    "injury": "Shoulder",
-    "practiceStatus": "Full",
+    "injury": "Hamstring",
+    "practiceStatus": "Limited",
     "gameStatus": null,
     "lastUpdated": "2026-10-20T21:38:59.105Z"
   },
   {
-    "playerId": "patriots-drake-maye",
-    "playerName": "Drake Maye",
-    "position": "QB",
+    "playerId": "00-0041316",
+    "playerName": "Channing Canada",
+    "position": "CB",
     "week": 7,
-    "injury": "Right Shoulder",
-    "practiceStatus": "Full",
-    "gameStatus": null,
-    "lastUpdated": "2026-10-20T21:38:59.105Z"
-  },
-  {
-    "playerId": "patriots-craig-woodson",
-    "playerName": "Craig Woodson",
-    "position": "S",
-    "week": 7,
-    "injury": "Shoulder",
-    "practiceStatus": "Full",
+    "injury": "Hamstring",
+    "practiceStatus": "Limited",
     "gameStatus": null,
     "lastUpdated": "2026-10-20T21:38:59.105Z"
   }

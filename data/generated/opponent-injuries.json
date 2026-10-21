@@ -1,60 +1,60 @@
 [
   {
-    "playerId": "3930040",
-    "playerName": "Jonah Jackson",
-    "position": "G",
-    "week": 7,
-    "injury": "Hip",
-    "gameStatus": "Questionable",
-    "lastUpdated": "2026-10-20T21:38:59.105Z",
-    "practiceStatus": "Limited"
-  },
-  {
-    "playerId": "4608686",
-    "playerName": "Kyle Monangai",
-    "position": "RB",
-    "week": 7,
-    "injury": "Toe",
-    "gameStatus": "Questionable",
-    "lastUpdated": "2026-10-20T21:38:59.105Z",
-    "practiceStatus": "Did Not Participate"
-  },
-  {
-    "playerId": "3121544",
+    "playerId": "00-0035386",
     "playerName": "T.J. Edwards",
     "position": "LB",
     "week": 7,
     "injury": "Hamstring",
-    "gameStatus": "Questionable",
-    "lastUpdated": "2026-10-20T21:38:59.105Z",
-    "practiceStatus": "Did Not Participate"
+    "practiceStatus": "Did Not Participate",
+    "gameStatus": null,
+    "lastUpdated": "2026-10-20T21:38:59.105Z"
   },
   {
-    "playerId": "4372576",
+    "playerId": "00-0036258",
+    "playerName": "Jonah Jackson",
+    "position": "G",
+    "week": 7,
+    "injury": "Hip",
+    "practiceStatus": "Limited",
+    "gameStatus": null,
+    "lastUpdated": "2026-10-20T21:38:59.105Z"
+  },
+  {
+    "playerId": "00-0037109",
     "playerName": "Jack Sanborn",
     "position": "LB",
     "week": 7,
     "injury": "Concussion",
-    "gameStatus": "Questionable",
-    "lastUpdated": "2026-10-20T21:38:59.105Z",
-    "practiceStatus": "Did Not Participate"
+    "practiceStatus": "Did Not Participate",
+    "gameStatus": null,
+    "lastUpdated": "2026-10-20T21:38:59.105Z"
   },
   {
-    "playerId": "patriots-keyshaun-elliott",
-    "playerName": "Keyshaun Elliott",
-    "position": "LB",
+    "playerId": "00-0039071",
+    "playerName": "Tyrique Stevenson",
+    "position": "CB",
     "week": 7,
-    "injury": "Quadricep",
+    "injury": "Hip",
     "practiceStatus": "Full",
     "gameStatus": null,
     "lastUpdated": "2026-10-20T21:38:59.105Z"
   },
   {
-    "playerId": "patriots-tyrique-stevenson",
-    "playerName": "Tyrique Stevenson Sr.",
-    "position": "DB",
+    "playerId": "00-0040236",
+    "playerName": "Kyle Monangai",
+    "position": "RB",
     "week": 7,
-    "injury": "Hip",
+    "injury": "Thumb",
+    "practiceStatus": "Did Not Participate",
+    "gameStatus": null,
+    "lastUpdated": "2026-10-20T21:38:59.105Z"
+  },
+  {
+    "playerId": "00-0041085",
+    "playerName": "Keyshaun Elliott",
+    "position": "LB",
+    "week": 7,
+    "injury": "Quadricep",
     "practiceStatus": "Full",
     "gameStatus": null,
     "lastUpdated": "2026-10-20T21:38:59.105Z"
