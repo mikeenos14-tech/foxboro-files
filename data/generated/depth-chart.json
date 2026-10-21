@@ -14,11 +14,6 @@
         "playerName": "Kyle Williams",
         "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/d31ahhl7yt97gu8iei8v",
         "rank": 2
-      },
-      {
-        "playerId": "4572655",
-        "playerName": "Jeremiah Webb",
-        "rank": 3
       }
     ]
   },
@@ -89,14 +84,19 @@
         "rank": 1
       },
       {
+        "playerId": "4428394",
+        "playerName": "Walter Rouse",
+        "rank": 2
+      },
+      {
         "playerId": "3055886",
         "playerName": "Matt Pryor",
-        "rank": 2
+        "rank": 3
       },
       {
         "playerId": "15718",
         "playerName": "Greg Van Roten",
-        "rank": 3
+        "rank": 4
       }
     ]
   },
@@ -121,19 +121,24 @@
         "rank": 1
       },
       {
+        "playerId": "3055886",
+        "playerName": "Matt Pryor",
+        "rank": 2
+      },
+      {
         "playerId": "4428394",
         "playerName": "Walter Rouse",
-        "rank": 2
+        "rank": 3
       },
       {
         "playerId": "4046545",
         "playerName": "Mike Onwenu",
-        "rank": 3
+        "rank": 4
       },
       {
         "playerId": "15718",
         "playerName": "Greg Van Roten",
-        "rank": 4
+        "rank": 5
       }
     ]
   },

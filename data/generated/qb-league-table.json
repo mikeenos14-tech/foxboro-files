@@ -21,13 +21,13 @@
     "ngs": {
       "timeToThrow": {
         "value": 2.96563742690058,
-        "rank": 11,
-        "of": 39
+        "rank": 10,
+        "of": 36
       },
       "aggressiveness": {
         "value": 12.8654970760234,
-        "rank": 32,
-        "of": 39
+        "rank": 29,
+        "of": 36
       }
     }
   },
@@ -54,12 +54,12 @@
       "timeToThrow": {
         "value": 3.16210852713178,
         "rank": 2,
-        "of": 39
+        "of": 36
       },
       "aggressiveness": {
         "value": 22.3076923076923,
         "rank": 3,
-        "of": 39
+        "of": 36
       }
     }
   },
@@ -86,12 +86,12 @@
       "timeToThrow": {
         "value": 3.09983606557377,
         "rank": 5,
-        "of": 39
+        "of": 36
       },
       "aggressiveness": {
         "value": 13.6612021857924,
-        "rank": 28,
-        "of": 39
+        "rank": 25,
+        "of": 36
       }
     }
   },
@@ -117,13 +117,13 @@
     "ngs": {
       "timeToThrow": {
         "value": 2.94802840909091,
-        "rank": 13,
-        "of": 39
+        "rank": 12,
+        "of": 36
       },
       "aggressiveness": {
         "value": 16.3841807909605,
-        "rank": 13,
-        "of": 39
+        "rank": 11,
+        "of": 36
       }
     }
   },
@@ -150,12 +150,12 @@
       "timeToThrow": {
         "value": 3.11110638297872,
         "rank": 3,
-        "of": 39
+        "of": 36
       },
       "aggressiveness": {
         "value": 12.5,
-        "rank": 33,
-        "of": 39
+        "rank": 30,
+        "of": 36
       }
     }
   },
@@ -181,13 +181,13 @@
     "ngs": {
       "timeToThrow": {
         "value": 2.56951322751323,
-        "rank": 36,
-        "of": 39
+        "rank": 34,
+        "of": 36
       },
       "aggressiveness": {
         "value": 13.7566137566138,
-        "rank": 26,
-        "of": 39
+        "rank": 24,
+        "of": 36
       }
     }
   },
@@ -213,13 +213,13 @@
     "ngs": {
       "timeToThrow": {
         "value": 2.86766666666667,
-        "rank": 20,
-        "of": 39
+        "rank": 19,
+        "of": 36
       },
       "aggressiveness": {
         "value": 16.0919540229885,
-        "rank": 15,
-        "of": 39
+        "rank": 13,
+        "of": 36
       }
     }
   },
@@ -245,13 +245,13 @@
     "ngs": {
       "timeToThrow": {
         "value": 2.75282173913043,
-        "rank": 27,
-        "of": 39
+        "rank": 25,
+        "of": 36
       },
       "aggressiveness": {
         "value": 15.0214592274678,
-        "rank": 21,
-        "of": 39
+        "rank": 19,
+        "of": 36
       }
     }
   },
@@ -277,13 +277,13 @@
     "ngs": {
       "timeToThrow": {
         "value": 2.88088837209302,
-        "rank": 19,
-        "of": 39
+        "rank": 18,
+        "of": 36
       },
       "aggressiveness": {
         "value": 19.1780821917808,
-        "rank": 8,
-        "of": 39
+        "rank": 7,
+        "of": 36
       }
     }
   },
@@ -309,13 +309,13 @@
     "ngs": {
       "timeToThrow": {
         "value": 2.83910599078341,
-        "rank": 21,
-        "of": 39
+        "rank": 20,
+        "of": 36
       },
       "aggressiveness": {
         "value": 14.2201834862385,
-        "rank": 23,
-        "of": 39
+        "rank": 21,
+        "of": 36
       }
     }
   },
@@ -341,13 +341,13 @@
     "ngs": {
       "timeToThrow": {
         "value": 2.7194262295082,
-        "rank": 31,
-        "of": 39
+        "rank": 29,
+        "of": 36
       },
       "aggressiveness": {
         "value": 16.304347826087,
-        "rank": 14,
-        "of": 39
+        "rank": 12,
+        "of": 36
       }
     }
   },
@@ -373,13 +373,13 @@
     "ngs": {
       "timeToThrow": {
         "value": 2.8990790960452,
-        "rank": 17,
-        "of": 39
+        "rank": 16,
+        "of": 36
       },
       "aggressiveness": {
         "value": 8.47457627118644,
-        "rank": 37,
-        "of": 39
+        "rank": 34,
+        "of": 36
       }
     }
   },
@@ -405,13 +405,13 @@
     "ngs": {
       "timeToThrow": {
         "value": 2.95157671957672,
-        "rank": 12,
-        "of": 39
+        "rank": 11,
+        "of": 36
       },
       "aggressiveness": {
         "value": 9.52380952380952,
-        "rank": 36,
-        "of": 39
+        "rank": 33,
+        "of": 36
       }
     }
   },
@@ -437,13 +437,13 @@
     "ngs": {
       "timeToThrow": {
         "value": 2.70833544303797,
-        "rank": 32,
-        "of": 39
+        "rank": 30,
+        "of": 36
       },
       "aggressiveness": {
         "value": 7.59493670886076,
-        "rank": 38,
-        "of": 39
+        "rank": 35,
+        "of": 36
       }
     }
   },
@@ -469,13 +469,13 @@
     "ngs": {
       "timeToThrow": {
         "value": 2.92398571428571,
-        "rank": 15,
-        "of": 39
+        "rank": 14,
+        "of": 36
       },
       "aggressiveness": {
         "value": 18.7793427230047,
-        "rank": 10,
-        "of": 39
+        "rank": 9,
+        "of": 36
       }
     }
   },
@@ -501,13 +501,13 @@
     "ngs": {
       "timeToThrow": {
         "value": 2.81371508379888,
-        "rank": 25,
-        "of": 39
+        "rank": 24,
+        "of": 36
       },
       "aggressiveness": {
         "value": 15.5555555555556,
-        "rank": 16,
-        "of": 39
+        "rank": 14,
+        "of": 36
       }
     }
   },
@@ -533,13 +533,13 @@
     "ngs": {
       "timeToThrow": {
         "value": 2.74497154471545,
-        "rank": 28,
-        "of": 39
+        "rank": 26,
+        "of": 36
       },
       "aggressiveness": {
         "value": 19.9186991869919,
-        "rank": 6,
-        "of": 39
+        "rank": 5,
+        "of": 36
       }
     }
   },
@@ -565,13 +565,13 @@
     "ngs": {
       "timeToThrow": {
         "value": 2.6410253164557,
-        "rank": 34,
-        "of": 39
+        "rank": 32,
+        "of": 36
       },
       "aggressiveness": {
         "value": 20.8860759493671,
-        "rank": 5,
-        "of": 39
+        "rank": 4,
+        "of": 36
       }
     }
   },
@@ -598,12 +598,12 @@
       "timeToThrow": {
         "value": 3.03627922077922,
         "rank": 6,
-        "of": 39
+        "of": 36
       },
       "aggressiveness": {
         "value": 14.2857142857143,
-        "rank": 22,
-        "of": 39
+        "rank": 20,
+        "of": 36
       }
     }
   },
@@ -629,13 +629,13 @@
     "ngs": {
       "timeToThrow": {
         "value": 2.93569298245614,
-        "rank": 14,
-        "of": 39
+        "rank": 13,
+        "of": 36
       },
       "aggressiveness": {
         "value": 13.7931034482759,
-        "rank": 25,
-        "of": 39
+        "rank": 23,
+        "of": 36
       }
     }
   },
@@ -662,12 +662,12 @@
       "timeToThrow": {
         "value": 3.25845054945055,
         "rank": 1,
-        "of": 39
+        "of": 36
       },
       "aggressiveness": {
         "value": 13.1868131868132,
-        "rank": 31,
-        "of": 39
+        "rank": 28,
+        "of": 36
       }
     }
   },
@@ -693,13 +693,13 @@
     "ngs": {
       "timeToThrow": {
         "value": 2.83829842931937,
-        "rank": 22,
-        "of": 39
+        "rank": 21,
+        "of": 36
       },
       "aggressiveness": {
         "value": 19.3717277486911,
-        "rank": 7,
-        "of": 39
+        "rank": 6,
+        "of": 36
       }
     }
   },
@@ -725,13 +725,13 @@
     "ngs": {
       "timeToThrow": {
         "value": 2.5676814159292,
-        "rank": 37,
-        "of": 39
+        "rank": 35,
+        "of": 36
       },
       "aggressiveness": {
         "value": 15.0442477876106,
-        "rank": 20,
-        "of": 39
+        "rank": 18,
+        "of": 36
       }
     }
   },
@@ -758,12 +758,12 @@
       "timeToThrow": {
         "value": 2.96651,
         "rank": 9,
-        "of": 39
+        "of": 36
       },
       "aggressiveness": {
         "value": 6.93069306930693,
-        "rank": 39,
-        "of": 39
+        "rank": 36,
+        "of": 36
       }
     }
   },
@@ -789,13 +789,13 @@
     "ngs": {
       "timeToThrow": {
         "value": 2.53859090909091,
-        "rank": 38,
-        "of": 39
+        "rank": 36,
+        "of": 36
       },
       "aggressiveness": {
         "value": 15.4545454545455,
-        "rank": 17,
-        "of": 39
+        "rank": 15,
+        "of": 36
       }
     }
   },
@@ -821,13 +821,13 @@
     "ngs": {
       "timeToThrow": {
         "value": 2.919695,
-        "rank": 16,
-        "of": 39
+        "rank": 15,
+        "of": 36
       },
       "aggressiveness": {
         "value": 13.9303482587065,
-        "rank": 24,
-        "of": 39
+        "rank": 22,
+        "of": 36
       }
     }
   },
@@ -853,13 +853,13 @@
     "ngs": {
       "timeToThrow": {
         "value": 2.7283547008547,
-        "rank": 30,
-        "of": 39
+        "rank": 28,
+        "of": 36
       },
       "aggressiveness": {
         "value": 17.8723404255319,
-        "rank": 11,
-        "of": 39
+        "rank": 10,
+        "of": 36
       }
     }
   },
@@ -886,12 +886,12 @@
       "timeToThrow": {
         "value": 2.98880208333333,
         "rank": 8,
-        "of": 39
+        "of": 36
       },
       "aggressiveness": {
         "value": 12.5,
-        "rank": 33,
-        "of": 39
+        "rank": 30,
+        "of": 36
       }
     }
   },
@@ -917,13 +917,13 @@
     "ngs": {
       "timeToThrow": {
         "value": 2.589125,
-        "rank": 35,
-        "of": 39
+        "rank": 33,
+        "of": 36
       },
       "aggressiveness": {
         "value": 23.5042735042735,
         "rank": 2,
-        "of": 39
+        "of": 36
       }
     }
   },
@@ -949,13 +949,13 @@
     "ngs": {
       "timeToThrow": {
         "value": 2.73378048780488,
-        "rank": 29,
-        "of": 39
+        "rank": 27,
+        "of": 36
       },
       "aggressiveness": {
         "value": 15.2610441767068,
-        "rank": 18,
-        "of": 39
+        "rank": 16,
+        "of": 36
       }
     }
   },
@@ -982,12 +982,12 @@
       "timeToThrow": {
         "value": 3.00001176470588,
         "rank": 7,
-        "of": 39
+        "of": 36
       },
       "aggressiveness": {
         "value": 15.2046783625731,
-        "rank": 19,
-        "of": 39
+        "rank": 17,
+        "of": 36
       }
     }
   },
@@ -1014,12 +1014,12 @@
       "timeToThrow": {
         "value": 3.10492517006803,
         "rank": 4,
-        "of": 39
+        "of": 36
       },
       "aggressiveness": {
         "value": 18.7919463087248,
-        "rank": 9,
-        "of": 39
+        "rank": 8,
+        "of": 36
       }
     }
   }
