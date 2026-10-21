@@ -1,5 +1,23 @@
 [
   {
+    "id": "50240151",
+    "publishedAt": "2026-10-21T18:37:11Z",
+    "type": "Analysis",
+    "headline": "It's Drake Maye versus Caleb Williams as the New England Patriots visit the Chicago Bears",
+    "summary": "— Caleb Williams and Drake Maye have known each other for years. They were part of the same draft class, and they grew up going to the same football camps.",
+    "sourceUrl": "http://www.espn.com/nfl/preview?gameId=401873010",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "5f37066e-8f5e-41de-8166-4e28fd330abb",
+    "publishedAt": "2026-10-21T16:06:44.000Z",
+    "type": "Analysis",
+    "headline": "3 to Watch: Patriots to Face Bears on Thursday Night Football",
+    "summary": "The Patriots travel to Chicago for Thursday Night Football tilt.",
+    "sourceUrl": "https://www.patriots.com/news/3-to-watch-patriots-to-face-bears-on-thursday-night-football",
+    "sourceName": "Patriots.com"
+  },
+  {
     "id": "2be7f8a9-8083-457d-96b7-f81bf5096fcb",
     "publishedAt": "2026-10-21T13:14:00.000Z",
     "type": "Analysis",
@@ -18,17 +36,8 @@
     "sourceName": "Patriots.com"
   },
   {
-    "id": "aaf17af1-42a8-426c-96fa-d383a3065ad7",
-    "publishedAt": "2026-10-20T14:11:56.000Z",
-    "type": "Analysis",
-    "headline": "How to Watch and Stream Thursday's Patriots Game Against the Bears | NFL Week 7",
-    "summary": "Complete broadcast information for this week's game between the New England Patriots and the Chicago Bears on Thursday, October 22, 2026 at 8:15 PM ET.",
-    "sourceUrl": "https://www.patriots.com/news/how-to-watch-and-stream-thursday-s-patriots-game-against-the-bears-nfl-week-7",
-    "sourceName": "Patriots.com"
-  },
-  {
     "id": "f20e31be-86f4-49b0-a7e3-1aee4d645dc3",
-    "publishedAt": "2026-10-20T13:53:05.000Z",
+    "publishedAt": "2026-10-21T06:53:00.000Z",
     "type": "Analysis",
     "headline": "Game Preview: Patriots at Bears | NFL Week 7",
     "summary": "The New England Patriots will travel to play the Chicago Bears on Thursday Night Football.",
@@ -36,12 +45,12 @@
     "sourceName": "Patriots.com"
   },
   {
-    "id": "dc5be060-9f1f-47cd-a946-ca3eb2daa6f4",
-    "publishedAt": "2026-10-20T13:00:00.000Z",
+    "id": "aaf17af1-42a8-426c-96fa-d383a3065ad7",
+    "publishedAt": "2026-10-21T05:11:00.000Z",
     "type": "Analysis",
-    "headline": "Walpole High School's Coach Chris Sullivan Named the New England Patriots Coach of the Week",
-    "summary": "After beating No. 11 Milton, Coach Chris Sullivan earns the honor of the New England Patriots Coach of the Week Award.",
-    "sourceUrl": "https://www.patriots.com/news/walpole-high-school-s-coach-chris-sullivan-named-the-new-england-patriots-coach-of-the-week",
+    "headline": "How to Watch and Stream Thursday's Patriots Game Against the Bears | NFL Week 7",
+    "summary": "Complete broadcast information for this week's game between the New England Patriots and the Chicago Bears on Thursday, October 22, 2026 at 8:15 PM ET.",
+    "sourceUrl": "https://www.patriots.com/news/how-to-watch-and-stream-thursday-s-patriots-game-against-the-bears-nfl-week-7",
     "sourceName": "Patriots.com"
   },
   {
@@ -78,15 +87,6 @@
     "headline": "Drake Maye's 3 TD passes help Patriots stave off late push by Jets in 26-19 win",
     "summary": "— The mantra in New England's locker room under Mike Vrabel has been to never apologize for a win. So no one was feeling bad about the Patriots improving to 2-0 in the AFC East after their victory over the New York Jets on Sunday.",
     "sourceUrl": "http://www.espn.com/nfl/recap?gameId=401873001",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50198740",
-    "publishedAt": "2026-10-18T10:00:04Z",
-    "type": "Analysis",
-    "headline": "Patriots' 2026 rookies: Who has made an impact through five weeks?",
-    "summary": "With two rookies assuming starting roles, let's take a look at how this year's draft class has panned out.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50198740/new-england-patriots-notebook-rookies-jets-lomu-jacas",
     "sourceName": "ESPN"
   }
 ]
