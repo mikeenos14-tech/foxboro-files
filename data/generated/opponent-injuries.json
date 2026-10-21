@@ -5,9 +5,9 @@
     "position": "LB",
     "week": 7,
     "injury": "Hamstring",
-    "practiceStatus": "Did Not Participate",
-    "gameStatus": null,
-    "lastUpdated": "2026-10-21T13:12:30.768Z"
+    "practiceStatus": "Limited",
+    "gameStatus": "Doubtful",
+    "lastUpdated": "2026-10-21T21:36:22.135Z"
   },
   {
     "playerId": "00-0036258",
@@ -15,9 +15,9 @@
     "position": "G",
     "week": 7,
     "injury": "Hip",
-    "practiceStatus": "Limited",
+    "practiceStatus": "Full",
     "gameStatus": null,
-    "lastUpdated": "2026-10-21T13:12:30.768Z"
+    "lastUpdated": "2026-10-21T21:36:22.135Z"
   },
   {
     "playerId": "00-0037109",
@@ -26,8 +26,8 @@
     "week": 7,
     "injury": "Concussion",
     "practiceStatus": "Did Not Participate",
-    "gameStatus": null,
-    "lastUpdated": "2026-10-21T13:12:30.768Z"
+    "gameStatus": "Out",
+    "lastUpdated": "2026-10-21T21:36:22.135Z"
   },
   {
     "playerId": "00-0039071",
@@ -36,8 +36,8 @@
     "week": 7,
     "injury": "Hip",
     "practiceStatus": "Full",
-    "gameStatus": null,
-    "lastUpdated": "2026-10-21T13:12:30.768Z"
+    "gameStatus": "Questionable",
+    "lastUpdated": "2026-10-21T21:36:22.135Z"
   },
   {
     "playerId": "00-0040236",
@@ -46,8 +46,8 @@
     "week": 7,
     "injury": "Thumb",
     "practiceStatus": "Did Not Participate",
-    "gameStatus": null,
-    "lastUpdated": "2026-10-21T13:12:30.768Z"
+    "gameStatus": "Out",
+    "lastUpdated": "2026-10-21T21:36:22.135Z"
   },
   {
     "playerId": "00-0041085",
@@ -57,6 +57,16 @@
     "injury": "Quadricep",
     "practiceStatus": "Full",
     "gameStatus": null,
-    "lastUpdated": "2026-10-21T13:12:30.768Z"
+    "lastUpdated": "2026-10-21T23:52:19.337Z"
+  },
+  {
+    "playerId": "patriots-keyshaun-elliot",
+    "playerName": "Keyshaun Elliot",
+    "position": "LB",
+    "week": 7,
+    "injury": "Quadricep",
+    "practiceStatus": "Full",
+    "gameStatus": null,
+    "lastUpdated": "2026-10-21T21:36:22.135Z"
   }
 ]

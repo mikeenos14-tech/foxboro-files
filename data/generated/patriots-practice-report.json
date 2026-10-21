@@ -1,68 +1,98 @@
 {
   "week": 7,
-  "asOf": "2026-10-21T13:12:30.768Z",
+  "asOf": "2026-10-21T21:36:22.135Z",
   "players": [
     {
       "team": "NE",
       "playerName": "Ben Brown",
       "position": "OL",
       "injury": "Knee",
-      "practiceStatus": "Did Not Participate"
-    },
-    {
-      "team": "NE",
-      "playerName": "Joshua Farmer",
-      "position": "DT",
-      "injury": "Personal",
-      "practiceStatus": "Did Not Participate"
-    },
-    {
-      "team": "NE",
-      "playerName": "Alijah Vera-Tucker",
-      "position": "G",
-      "injury": "Hamstring",
-      "practiceStatus": "Did Not Participate"
-    },
-    {
-      "team": "NE",
-      "playerName": "A.J. Brown",
-      "position": "WR",
-      "injury": "Ankle",
-      "practiceStatus": "Limited"
+      "practiceStatus": "Did Not Participate",
+      "gameStatus": "Out"
     },
     {
       "team": "NE",
       "playerName": "Channing Canada",
       "position": "CB",
       "injury": "Hamstring",
-      "practiceStatus": "Limited"
+      "practiceStatus": "Limited",
+      "gameStatus": "Out"
     },
     {
       "team": "NE",
       "playerName": "Carlton Davis III",
       "position": "CB",
       "injury": "Neck",
-      "practiceStatus": "Limited"
-    },
-    {
-      "team": "NE",
-      "playerName": "Morgan Moses",
-      "position": "T",
-      "injury": "Foot",
-      "practiceStatus": "Limited"
+      "practiceStatus": "Limited",
+      "gameStatus": "Out"
     },
     {
       "team": "NE",
       "playerName": "Karon Prunty",
       "position": "CB",
       "injury": "Hamstring",
-      "practiceStatus": "Limited"
+      "practiceStatus": "Limited",
+      "gameStatus": "Out"
+    },
+    {
+      "team": "NE",
+      "playerName": "Alijah Vera-Tucker",
+      "position": "G",
+      "injury": "Hamstring",
+      "practiceStatus": "Did Not Participate",
+      "gameStatus": "Out"
+    },
+    {
+      "team": "NE",
+      "playerName": "Kevin Byard III",
+      "position": "S",
+      "injury": "Chest",
+      "practiceStatus": "Full",
+      "gameStatus": "Questionable"
+    },
+    {
+      "team": "NE",
+      "playerName": "Christian Elliss",
+      "position": "LB",
+      "injury": "Chest",
+      "practiceStatus": "Full",
+      "gameStatus": "Questionable"
+    },
+    {
+      "team": "NE",
+      "playerName": "Morgan Moses",
+      "position": "T",
+      "injury": "Foot",
+      "practiceStatus": "Limited",
+      "gameStatus": "Questionable"
+    },
+    {
+      "team": "NE",
+      "playerName": "Craig Woodson",
+      "position": "S",
+      "injury": "Shoulder",
+      "practiceStatus": "Full",
+      "gameStatus": "Questionable"
+    },
+    {
+      "team": "NE",
+      "playerName": "Drake Maye",
+      "position": "QB",
+      "injury": "Right Shoulder",
+      "practiceStatus": "Full"
     },
     {
       "team": "NE",
       "playerName": "Andy Borregales",
       "position": "K",
       "injury": "Personal",
+      "practiceStatus": "Full"
+    },
+    {
+      "team": "NE",
+      "playerName": "A.J. Brown",
+      "position": "WR",
+      "injury": "Ankle",
       "practiceStatus": "Full"
     },
     {
@@ -74,13 +104,6 @@
     },
     {
       "team": "NE",
-      "playerName": "Kevin Byard III",
-      "position": "S",
-      "injury": "Chest",
-      "practiceStatus": "Full"
-    },
-    {
-      "team": "NE",
       "playerName": "Will Campbell",
       "position": "T",
       "injury": "Knee",
@@ -88,9 +111,9 @@
     },
     {
       "team": "NE",
-      "playerName": "Christian Elliss",
-      "position": "LB",
-      "injury": "Chest",
+      "playerName": "Joshua Farmer",
+      "position": "DT",
+      "injury": "Personal",
       "practiceStatus": "Full"
     },
     {
@@ -102,65 +125,55 @@
     },
     {
       "team": "NE",
-      "playerName": "Dre’Mont Jones",
+      "playerName": "Dre'Mont Jones",
       "position": "LB",
       "injury": "Shoulder",
       "practiceStatus": "Full"
-    },
-    {
-      "team": "NE",
-      "playerName": "Drake Maye",
-      "position": "QB",
-      "injury": "Right Shoulder",
-      "practiceStatus": "Full"
-    },
-    {
-      "team": "NE",
-      "playerName": "Craig Woodson",
-      "position": "S",
-      "injury": "Shoulder",
-      "practiceStatus": "Full"
-    },
-    {
-      "team": "CHI",
-      "playerName": "T.J. Edwards",
-      "position": "LB",
-      "injury": "Hamstring",
-      "practiceStatus": "Did Not Participate"
     },
     {
       "team": "CHI",
       "playerName": "Kyle Monangai",
       "position": "RB",
       "injury": "Thumb/Toe",
-      "practiceStatus": "Did Not Participate"
+      "practiceStatus": "Did Not Participate",
+      "gameStatus": "Out"
     },
     {
       "team": "CHI",
       "playerName": "Jack Sanborn",
       "position": "LB",
       "injury": "Concussion",
-      "practiceStatus": "Did Not Participate"
+      "practiceStatus": "Did Not Participate",
+      "gameStatus": "Out"
     },
     {
       "team": "CHI",
-      "playerName": "Jonah Jackson",
-      "position": "OL",
-      "injury": "Hip / Quadricep",
-      "practiceStatus": "Limited"
-    },
-    {
-      "team": "CHI",
-      "playerName": "Keyshaun Elliott",
+      "playerName": "T.J. Edwards",
       "position": "LB",
-      "injury": "Quadricep",
-      "practiceStatus": "Full"
+      "injury": "Hamstring",
+      "practiceStatus": "Limited",
+      "gameStatus": "Doubtful"
     },
     {
       "team": "CHI",
       "playerName": "Tyrique Stevenson Sr.",
       "position": "DB",
       "injury": "Hip",
+      "practiceStatus": "Full",
+      "gameStatus": "Questionable"
+    },
+    {
+      "team": "CHI",
+      "playerName": "Keyshaun Elliot",
+      "position": "LB",
+      "injury": "Quadricep",
+      "practiceStatus": "Full"
+    },
+    {
+      "team": "CHI",
+      "playerName": "Jonah Jackson",
+      "position": "OL",
+      "injury": "Hip/Quadricep",
       "practiceStatus": "Full"
     }
   ]

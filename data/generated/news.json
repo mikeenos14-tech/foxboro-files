@@ -1,5 +1,41 @@
 [
   {
+    "id": "a8c725b5-c7ff-4603-9ba3-d8dab4916b8e",
+    "publishedAt": "2026-10-21T21:11:22.000Z",
+    "type": "Analysis",
+    "headline": "Expert Predictions: Week 7 Picks for Patriots at Bears",
+    "summary": "Experts share their picks for the Patriots Week 7 matchup against the Chicago Bears.",
+    "sourceUrl": "https://www.patriots.com/news/expert-predictions-week-7-picks-for-patriots-at-bears",
+    "sourceName": "Patriots.com"
+  },
+  {
+    "id": "8816ae15-a093-42a0-9cb6-ee298a027c5f",
+    "publishedAt": "2026-10-21T20:00:00.000Z",
+    "type": "Injury",
+    "headline": "Week 7 Injury Report: Patriots at Bears",
+    "summary": "The New England Patriots and the Chicago Bears announce the following player injuries and practice participation ahead of their Week 7 game.",
+    "sourceUrl": "https://www.patriots.com/news/week-7-injury-report-patriots-at-bears",
+    "sourceName": "Patriots.com"
+  },
+  {
+    "id": "50240235",
+    "publishedAt": "2026-10-21T19:56:08Z",
+    "type": "Injury",
+    "headline": "Patriots' Alijah Vera-Tucker, Ben Brown ruled out vs. Bears",
+    "summary": "The Patriots will be without starting guards Alijah Vera-Tucker and Ben Brown for Thursday's game against the Bears due to injuries, coach Mike Vrabel said.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50240235/patriots-alijah-vera-tucker-ben-brown-ruled-vs-bears",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "967b9d04-f198-4332-b57a-ccb271b0edbe",
+    "publishedAt": "2026-10-21T19:14:12.000Z",
+    "type": "Injury",
+    "headline": "Injury Report Analysis: Patriots rule out five players for Thursday Night Football vs. the Bears",
+    "summary": "The Patriots ruled out CB Carlton Davis III (neck), G Alijah Vera-Tucker (hamstring), G Ben Brown (knee), CB Karon Prunty (hamstring), and CB Channing Canada (hamstring) for Thursday night in Chicago.",
+    "sourceUrl": "https://www.patriots.com/news/injury-report-analysis-patriots-rule-out-five-players-for-thursday-night-football-vs-the-bears",
+    "sourceName": "Patriots.com"
+  },
+  {
     "id": "50240151",
     "publishedAt": "2026-10-21T18:37:11Z",
     "type": "Analysis",
@@ -24,33 +60,6 @@
     "headline": "Patriots Gameplan: Maye off play-action, Johnson's staples and key matchups in Thursday Night Football vs. the Bears",
     "summary": "The Patriots need their stars to shine vs. the Bears on a short week in Chicago on Thursday night.",
     "sourceUrl": "https://www.patriots.com/news/patriots-gameplan-maye-off-play-action-johnson-s-staples-and-key-matchups-in-thursday-night-football-vs-the-bears",
-    "sourceName": "Patriots.com"
-  },
-  {
-    "id": "8816ae15-a093-42a0-9cb6-ee298a027c5f",
-    "publishedAt": "2026-10-21T13:12:00.000Z",
-    "type": "Injury",
-    "headline": "Week 7 Injury Report: Patriots at Bears",
-    "summary": "The New England Patriots and the Chicago Bears announce the following player injuries and practice participation ahead of their Week 7 game.",
-    "sourceUrl": "https://www.patriots.com/news/week-7-injury-report-patriots-at-bears",
-    "sourceName": "Patriots.com"
-  },
-  {
-    "id": "f20e31be-86f4-49b0-a7e3-1aee4d645dc3",
-    "publishedAt": "2026-10-21T06:53:00.000Z",
-    "type": "Analysis",
-    "headline": "Game Preview: Patriots at Bears | NFL Week 7",
-    "summary": "The New England Patriots will travel to play the Chicago Bears on Thursday Night Football.",
-    "sourceUrl": "https://www.patriots.com/news/game-preview-patriots-at-bears-nfl-week-7",
-    "sourceName": "Patriots.com"
-  },
-  {
-    "id": "aaf17af1-42a8-426c-96fa-d383a3065ad7",
-    "publishedAt": "2026-10-21T05:11:00.000Z",
-    "type": "Analysis",
-    "headline": "How to Watch and Stream Thursday's Patriots Game Against the Bears | NFL Week 7",
-    "summary": "Complete broadcast information for this week's game between the New England Patriots and the Chicago Bears on Thursday, October 22, 2026 at 8:15 PM ET.",
-    "sourceUrl": "https://www.patriots.com/news/how-to-watch-and-stream-thursday-s-patriots-game-against-the-bears-nfl-week-7",
     "sourceName": "Patriots.com"
   },
   {
