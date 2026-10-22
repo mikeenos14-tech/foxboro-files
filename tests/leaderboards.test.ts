@@ -72,3 +72,18 @@ test("an aborted snap is the carry of whoever picked it up", async () => {
   // A scramble leaves the short column empty.
   assert.equal(rusherId(play({ rusher_id: "", rusher_player_id: "00-qb" })), "00-qb");
 });
+
+test("a traded player's season line adds up both teams", async () => {
+  const { seasonLines } = await import("../scripts/lib/seasonLines");
+  const mhj = "00-0039337";
+  const pbp = [
+    { ...play({ receiver_player_id: mhj, complete_pass: "1", receiving_yards: "40", yards_gained: "40" }), posteam: "ARI" },
+    { ...play({ receiver_player_id: mhj, complete_pass: "0", receiving_yards: "", yards_gained: "0" }), posteam: "ARI" },
+    { ...play({ receiver_player_id: mhj, complete_pass: "1", receiving_yards: "34", yards_gained: "34" }), posteam: "HOU" },
+  ];
+  const line = seasonLines(pbp, "receiving").get(mhj);
+  assert.deepEqual(line?.teams.sort(), ["ARI", "HOU"]);
+  assert.equal(line?.numbers["Rec"], 2);
+  assert.equal(line?.numbers["Rec#2"], 3);
+  assert.equal(line?.numbers["Yds"], 74);
+});

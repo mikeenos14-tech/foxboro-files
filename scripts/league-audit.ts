@@ -10,7 +10,9 @@
 // had already happened elsewhere in the league weeks earlier.
 //
 // This runs the same comparison for all 32 teams and writes what it finds
-// to data/generated/league-audit.json. It never blocks anything; the
+// to data/generated/league-audit.json. Each player is compared on his
+// whole season across every team he played for, since that's what
+// nflverse's line is — a trade isn't a mismatch. It never blocks anything; the
 // daily health check reports any mismatch, so the bug gets fixed the
 // week it first appears anywhere.
 //
@@ -20,8 +22,7 @@ import { writeFile } from "node:fs/promises";
 import path from "node:path";
 import { loadCsv } from "./lib/csv";
 import { loadRegularSeasonPbp } from "./lib/pbp";
-import { receivingLeaders, rushingLeaders } from "./lib/leaderboards";
-import { ALL_TEAMS } from "./lib/teams";
+import { seasonLines } from "./lib/seasonLines";
 
 const OUT = path.join(process.cwd(), "data", "generated", "league-audit.json");
 
@@ -44,40 +45,40 @@ async function main() {
     return;
   }
 
+  // One comparison per player, on his whole season across every team he
+  // played for — nflverse's line is the combined one (seasonLines.ts).
   const byId = new Map(official.map((r) => [r.player_id, r]));
   const n = (v?: string) => (!v || v === "NA" ? 0 : Number(v));
-  const stat = (l: { stats: Array<{ label: string; value: string }> }, k: string) =>
-    l.stats.find((s) => s.label === k)?.value ?? "";
   const mismatches: string[] = [];
   let checked = 0;
-  for (const team of ALL_TEAMS) {
-    for (const l of receivingLeaders(pbp, new Map(), team)) {
-      const o = byId.get(l.playerId);
-      if (!o || o.recent_team !== team) continue;
+  const compare = (
+    lines: Map<string, { numbers: Record<string, number>; teams: string[] }>,
+    fields: Array<[string, string, string]>
+  ) => {
+    for (const [playerId, line] of lines) {
+      const o = byId.get(playerId);
+      if (!o) continue;
       checked++;
-      const [rec, targets] = stat(l, "Rec").split("/").map(Number);
-      for (const [what, ours, theirs] of [
-        ["receptions", rec, n(o.receptions)],
-        ["targets", targets, n(o.targets)],
-        ["receiving yards", Number(stat(l, "Yds")), n(o.receiving_yards)],
-        ["receiving TDs", Number(stat(l, "TD")), n(o.receiving_tds)],
-      ] as const) {
-        if (Math.abs(ours - theirs) > 0.5) mismatches.push(`${team} ${o.player_display_name} ${what}: site ${ours}, nflverse ${theirs}`);
+      const who = `${line.teams.join("/")} ${o.player_display_name}`;
+      for (const [label, column, what] of fields) {
+        const ours = line.numbers[label];
+        if (ours === undefined) continue;
+        const theirs = n(o[column]);
+        if (Math.abs(ours - theirs) > 0.5) mismatches.push(`${who} ${what}: site ${ours}, nflverse ${theirs}`);
       }
     }
-    for (const l of rushingLeaders(pbp, new Map(), team)) {
-      const o = byId.get(l.playerId);
-      if (!o || o.recent_team !== team) continue;
-      checked++;
-      for (const [what, ours, theirs] of [
-        ["carries", Number(stat(l, "Att")), n(o.carries)],
-        ["rushing yards", Number(stat(l, "Yds")), n(o.rushing_yards)],
-        ["rushing TDs", Number(stat(l, "TD")), n(o.rushing_tds)],
-      ] as const) {
-        if (Math.abs(ours - theirs) > 0.5) mismatches.push(`${team} ${o.player_display_name} ${what}: site ${ours}, nflverse ${theirs}`);
-      }
-    }
-  }
+  };
+  compare(seasonLines(pbp, "receiving"), [
+    ["Rec", "receptions", "receptions"],
+    ["Rec#2", "targets", "targets"],
+    ["Yds", "receiving_yards", "receiving yards"],
+    ["TD", "receiving_tds", "receiving TDs"],
+  ]);
+  compare(seasonLines(pbp, "rushing"), [
+    ["Att", "carries", "carries"],
+    ["Yds", "rushing_yards", "rushing yards"],
+    ["TD", "rushing_tds", "rushing TDs"],
+  ]);
   await writeFile(OUT, JSON.stringify({ at, checked, mismatches }, null, 2));
   console.log(`League audit: ${checked} player lines, ${mismatches.length} mismatches.`);
   for (const m of mismatches) console.log(`   - ${m}`);

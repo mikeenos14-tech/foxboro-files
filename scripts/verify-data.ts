@@ -17,6 +17,7 @@ import { readFile } from "node:fs/promises";
 import path from "node:path";
 import { loadCsv } from "./lib/csv";
 import { loadRegularSeasonPbp } from "./lib/pbp";
+import { seasonLines, type BoardKind, type SeasonLine } from "./lib/seasonLines";
 import type { GamePlays, GameRecap, LeaderPlays, SplitPlays, TeamLeaderboards } from "../lib/data/types";
 
 const GENERATED_DIR = path.join(process.cwd(), "data", "generated");
@@ -491,8 +492,22 @@ async function checkAgainstOfficialStats(): Promise<string[]> {
 
   const byId = new Map(official.map((r) => [r.player_id, r]));
   const n = (v: string | undefined) => (!v || v === "NA" ? 0 : Number(v));
-  const statOf = (line: { stats: Array<{ label: string; value: string }> }, label: string) =>
-    Number(line.stats.find((s) => s.label === label)?.value ?? NaN);
+  // nflverse's line is the player's whole season, every team combined, so
+  // a player who also played elsewhere is compared on his combined line
+  // (seasonLines.ts) — otherwise a trade reads as a mismatch.
+  const pbp = await loadRegularSeasonPbp("play_by_play_2026.csv");
+  const combined: Partial<Record<BoardKind, Map<string, SeasonLine>>> = {};
+  const seasonOf = (kind: BoardKind, playerId: string) => {
+    combined[kind] ??= seasonLines(pbp, kind);
+    return combined[kind]!.get(playerId);
+  };
+  const kindOf = (line: { stats: Array<{ label: string }> }): BoardKind =>
+    line.stats.some((s) => s.label === "Rec") ? "receiving" : line.stats.some((s) => s.label === "Att") ? "rushing" : "defense";
+  const statOf = (line: { playerId: string; stats: Array<{ label: string; value: string }> }, label: string) => {
+    const season = seasonOf(kindOf(line), line.playerId);
+    if (season && season.teams.length > 1) return season.numbers[label] ?? NaN;
+    return Number(line.stats.find((s) => s.label === label)?.value ?? NaN);
+  };
 
   for (const line of boards.rushing) {
     const o = byId.get(line.playerId);
@@ -512,8 +527,11 @@ async function checkAgainstOfficialStats(): Promise<string[]> {
   for (const line of boards.receiving) {
     const o = byId.get(line.playerId);
     if (!o) continue;
-    const rec = String(line.stats.find((s) => s.label === "Rec")?.value ?? "");
-    const [caught, targeted] = rec.split("/").map(Number);
+    const season = seasonOf("receiving", line.playerId);
+    const [caught, targeted] =
+      season && season.teams.length > 1
+        ? [season.numbers["Rec"], season.numbers["Rec#2"]]
+        : String(line.stats.find((s) => s.label === "Rec")?.value ?? "").split("/").map(Number);
     const expect: Array<[string, number, number]> = [
       ["receptions", caught, n(o.receptions)],
       ["targets", targeted, n(o.targets)],

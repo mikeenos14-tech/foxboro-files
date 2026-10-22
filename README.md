@@ -97,7 +97,8 @@ player lines are on the site, so a new kind of unusual play used to surface the 
 it happened in a Patriots game — a lateral in Week 5 froze the site for a day. Run
 league-wide, it immediately found two more (an aborted snap credited to the center who
 fumbled it, a lateral touchdown credited to the first receiver) that had already happened
-to other teams. The daily health check emails any mismatch.
+to other teams. A player traded mid-season is compared on his combined line across both teams,
+since that's what nflverse's season total is. The daily health check emails any mismatch.
 
 ### AI text is checked, not trusted
 
