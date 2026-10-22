@@ -1,5 +1,50 @@
 [
   {
+    "id": "50250747",
+    "publishedAt": "2026-10-22T19:00:15Z",
+    "type": "Injury",
+    "headline": "Chiefs place LT Josh Simmons on IR as rehab process stalls",
+    "summary": "The Chiefs have placed left tackle Josh Simmons on injured reserve, further delaying his return from a bulging disk in his lower back.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50250747/chiefs-placing-lt-josh-simmons-ir-rehab-process-stalls",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/lamar-jackson-present-participating-at-start-of-thursday-practice",
+    "publishedAt": "2026-10-22T17:56:40.000Z",
+    "type": "Beat Report",
+    "headline": "Lamar Jackson present, participating at start of Thursday practice",
+    "summary": "It looks like Lamar Jackson is on track to return from his ankle injury this weekend when the Ravens play the Bengals.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/lamar-jackson-present-participating-at-start-of-thursday-practice",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "50250887",
+    "publishedAt": "2026-10-22T18:26:09Z",
+    "type": "Transaction",
+    "headline": "Seahawks RB Zach Charbonnet activated off PUP list",
+    "summary": "Seahawks RB Zach Charbonnet, who has yet to play this season after scoring 12 TDs in 2025, has been activated off the PUP list and added to the 53-man roster.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50250887/seahawks-rb-zach-charbonnet-activated-pup-list",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/baker-mayfield-thumb-is-in-a-place-where-its-strong-enough-to-be-able-to-play",
+    "publishedAt": "2026-10-22T18:33:09.000Z",
+    "type": "Analysis",
+    "headline": "Baker Mayfield: Thumb is in a place where it’s strong enough to be able to play",
+    "summary": "Buccaneers quarterback Baker Mayfield appears on track to return from a dislocated right thumb in Week 7 when Tampa Bay plays Carolina.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/baker-mayfield-thumb-is-in-a-place-where-its-strong-enough-to-be-able-to-play",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jordan-love-dealing-with-sore-back-but-expects-to-play-vs-lions",
+    "publishedAt": "2026-10-22T13:47:36.000Z",
+    "type": "Injury",
+    "headline": "Jordan Love dealing with sore back, but expects to play vs. Lions",
+    "summary": "Packers quarterback Jordan Love popped up on Wednesday's injury report as limited with a back injury.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jordan-love-dealing-with-sore-back-but-expects-to-play-vs-lions",
+    "sourceName": "Pro Football Talk"
+  },
+  {
     "id": "50248820",
     "publishedAt": "2026-10-22T14:15:36Z",
     "type": "Analysis",
@@ -7,50 +52,5 @@
     "summary": "J.J. Watt will be the full-time lead NFL game analyst for CBS Sports, filling the role previously held by Tony Romo.",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/50248820/jj-watt-gets-deal-full-cbs-replacement-tony-romo",
     "sourceName": "ESPN"
-  },
-  {
-    "id": "50248869",
-    "publishedAt": "2026-10-22T14:11:59Z",
-    "type": "Injury",
-    "headline": "Sources: Eagles RB Barkley (hamstring) expected to practice, play vs. Cowboys",
-    "summary": "Eagles RB Saquon Barkley is expected to return to practice Thursday and is in line to play Monday against the Cowboys, sources told NFL Network's Mike Garafolo.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50248869/sources-eagles-barkley-expected-practice-play-vs-cowboys",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50244013",
-    "publishedAt": "2026-10-22T13:43:09Z",
-    "type": "Analysis",
-    "headline": "Sources: Nick Sirianni, Mike Vrabel among coaches fined for conduct toward refs",
-    "summary": "Nick Sirianni and Mike Vrabel have been fined $250,000 for conduct toward officials, sources confirmed to ESPN.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50244013/sirianni-vrabel-glenn-fined-250k-ref-conduct",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=423655",
-    "publishedAt": "2026-10-22T04:30:12.000Z",
-    "type": "Analysis",
-    "headline": "Giants To Start QB J.J. McCarthy In Week 7",
-    "summary": "Less than a month after the Giants acquired him from the Vikings, J.J. McCarthy is taking over as Big Blue’s starting quarterback. The Giants plan to start McCarthy against the Texans in Week 7, Jeremy Fowler of ESPN reports. Head coach John Harbaugh is making the switch after McCarthy outplayed Jameis Winston in a 34-27 […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/giants-plan-to-start-qb-j-j-mccarthy-in-week-7",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=423717",
-    "publishedAt": "2026-10-22T03:59:38.000Z",
-    "type": "Transaction",
-    "headline": "Cardinals Aiming To Trade QB?",
-    "summary": "Sitting with a 2025 Giants-like setup in which two veteran quarterbacks are on the roster accompanying a rookie-deal player, the Cardinals have long made sense as a team that could trade a passer before the deadline. That may be an organizational preference. With Jacoby Brissett and Gardner Minshew in Arizona’s first- and second-string spots, third-round […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/cardinals-aiming-to-trade-qb",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=423733",
-    "publishedAt": "2026-10-22T03:41:17.000Z",
-    "type": "Analysis",
-    "headline": "Roger Goodell: NFL Welcomes Investigation Into Jalen Hurts Treatment",
-    "summary": "The Eagles’ handling of Jalen Hurts’ blood clots has drawn scrutiny from the NFLPA, who called for an investigation into the situation despite approval from the league. Commissioner Roger Goodell said on Wednesday the NFL welcomes such an investigation while still backing Philadelphia’s medical approach. “Obviously, there was a medical evaluation, and I think our […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/roger-goodell-nfl-welcomes-investigation-into-jalen-hurts-treatment",
-    "sourceName": "Pro Football Rumors"
   }
 ]
