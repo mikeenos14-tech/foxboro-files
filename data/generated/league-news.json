@@ -1,10 +1,28 @@
 [
   {
-    "id": "50244013",
-    "publishedAt": "2026-10-22T04:45:46Z",
+    "id": "50248820",
+    "publishedAt": "2026-10-22T14:15:36Z",
     "type": "Analysis",
-    "headline": "Report: $250K fines for Sirianni, Vrabel, Glenn temporarily on hold",
-    "summary": "Nick Sirianni was fined $250,000 for conduct toward officials, a source said, confirming an SI report that noted Mike Vrabel and Aaron Glenn were similarly fined.",
+    "headline": "JJ Watt lands new deal as full-time CBS lead analyst replacement for Tony Romo",
+    "summary": "J.J. Watt will be the full-time lead NFL game analyst for CBS Sports, filling the role previously held by Tony Romo.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50248820/jj-watt-gets-deal-full-cbs-replacement-tony-romo",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50248869",
+    "publishedAt": "2026-10-22T14:11:59Z",
+    "type": "Injury",
+    "headline": "Sources: Eagles RB Barkley (hamstring) expected to practice, play vs. Cowboys",
+    "summary": "Eagles RB Saquon Barkley is expected to return to practice Thursday and is in line to play Monday against the Cowboys, sources told NFL Network's Mike Garafolo.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50248869/sources-eagles-barkley-expected-practice-play-vs-cowboys",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50244013",
+    "publishedAt": "2026-10-22T13:43:09Z",
+    "type": "Analysis",
+    "headline": "Sources: Nick Sirianni, Mike Vrabel among coaches fined for conduct toward refs",
+    "summary": "Nick Sirianni and Mike Vrabel have been fined $250,000 for conduct toward officials, sources confirmed to ESPN.",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/50244013/sirianni-vrabel-glenn-fined-250k-ref-conduct",
     "sourceName": "ESPN"
   },
@@ -18,15 +36,6 @@
     "sourceName": "Pro Football Rumors"
   },
   {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=423733",
-    "publishedAt": "2026-10-22T03:41:17.000Z",
-    "type": "Analysis",
-    "headline": "Roger Goodell: NFL Welcomes Investigation Into Jalen Hurts Treatment",
-    "summary": "The Eagles’ handling of Jalen Hurts’ blood clots has drawn scrutiny from the NFLPA, who called for an investigation into the situation despite approval from the league. Commissioner Roger Goodell said on Wednesday the NFL welcomes such an investigation while still backing Philadelphia’s medical approach. “Obviously, there was a medical evaluation, and I think our […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/roger-goodell-nfl-welcomes-investigation-into-jalen-hurts-treatment",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
     "id": "profootballrumors-https://www.profootballrumors.com/?p=423717",
     "publishedAt": "2026-10-22T03:59:38.000Z",
     "type": "Transaction",
@@ -36,21 +45,12 @@
     "sourceName": "Pro Football Rumors"
   },
   {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/davante-adams-will-have-a-cleanup-procedure-on-his-hamstring",
-    "publishedAt": "2026-10-21T22:13:30.000Z",
-    "type": "Injury",
-    "headline": "Davante Adams will have a \"cleanup\" procedure on his hamstring",
-    "summary": "Rams wide receiver Davante Adams was placed on injured reserve this week and his path back to the field will include a visit to the operating room.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/davante-adams-will-have-a-cleanup-procedure-on-his-hamstring",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "50242240",
-    "publishedAt": "2026-10-21T23:17:11Z",
-    "type": "Injury",
-    "headline": "Texans' Tank Dell says he won't fear being hit in return Sunday against Giants",
-    "summary": "Texans WR Tank Dell said he is \"ready to get tackled\" on Sunday when he returns for his first game since suffering a gruesome knee injury in December 2024.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50242240/texans-tank-dell-fear-being-hit-sunday-giants",
-    "sourceName": "ESPN"
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=423733",
+    "publishedAt": "2026-10-22T03:41:17.000Z",
+    "type": "Analysis",
+    "headline": "Roger Goodell: NFL Welcomes Investigation Into Jalen Hurts Treatment",
+    "summary": "The Eagles’ handling of Jalen Hurts’ blood clots has drawn scrutiny from the NFLPA, who called for an investigation into the situation despite approval from the league. Commissioner Roger Goodell said on Wednesday the NFL welcomes such an investigation while still backing Philadelphia’s medical approach. “Obviously, there was a medical evaluation, and I think our […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/roger-goodell-nfl-welcomes-investigation-into-jalen-hurts-treatment",
+    "sourceName": "Pro Football Rumors"
   }
 ]
