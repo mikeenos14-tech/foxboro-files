@@ -1,12 +1,66 @@
 [
   {
+    "id": "50244017",
+    "publishedAt": "2026-10-22T04:58:53Z",
+    "type": "Analysis",
+    "headline": "Why Tristan H. Cockcroft likes the Jets defense in Week 7",
+    "summary": "Why Tristan H. Cockcroft likes the Jets defense in Week 7",
+    "sourceUrl": "https://www.espn.com/video/clip/_/id/50244017/why-tristan-h-cockcroft-likes-jets-defense-week-7",
+    "sourceName": "ESPN"
+  },
+  {
     "id": "50244013",
-    "publishedAt": "2026-10-22T02:52:03Z",
+    "publishedAt": "2026-10-22T04:45:46Z",
     "type": "Analysis",
     "headline": "Report: $250K fines for Sirianni, Vrabel, Glenn temporarily on hold",
     "summary": "Nick Sirianni was fined $250,000 for conduct toward officials, a source said, confirming an SI report that noted Mike Vrabel and Aaron Glenn were similarly fined.",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/50244013/sirianni-vrabel-glenn-fined-250k-ref-conduct",
     "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=423655",
+    "publishedAt": "2026-10-22T04:30:12.000Z",
+    "type": "Analysis",
+    "headline": "Giants To Start QB J.J. McCarthy In Week 7",
+    "summary": "Less than a month after the Giants acquired him from the Vikings, J.J. McCarthy is taking over as Big Blue’s starting quarterback. The Giants plan to start McCarthy against the Texans in Week 7, Jeremy Fowler of ESPN reports. Head coach John Harbaugh is making the switch after McCarthy outplayed Jameis Winston in a 34-27 […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/giants-plan-to-start-qb-j-j-mccarthy-in-week-7",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=423691",
+    "publishedAt": "2026-10-22T04:25:42.000Z",
+    "type": "Analysis",
+    "headline": "Seahawks Did Not Make Offer To RB Kenneth Walker",
+    "summary": "Used in a timeshare with Zach Charbonnet for most of his Seahawks contract year, Kenneth Walker will return to Seattle as a Chief in Week 7 as the NFL’s rushing leader. The former Seahawks second-round pick is off to a dominant start with his new team, which deviated from a yearslong stretch of minimizing the […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/seahawks-did-not-make-offer-to-rb-kenneth-walker",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=423745",
+    "publishedAt": "2026-10-22T04:21:08.000Z",
+    "type": "Analysis",
+    "headline": "Lions TE Sam LaPorta Frustrated With Lack Of Extension",
+    "summary": "Lions tight end Sam LaPorta expressed his frustration with his contract situation during a recent appearance on Pardon My Take, lamenting his physical commitment to Detroit but the team’s lack of financial commitment in the other direction. “It’s disappointing that you go out there every week and bear the risk of getting hurt,” LaPorta said (via […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/lions-te-sam-laporta-frustrated-with-lack-of-extension",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=423717",
+    "publishedAt": "2026-10-22T03:59:38.000Z",
+    "type": "Transaction",
+    "headline": "Cardinals Aiming To Trade QB?",
+    "summary": "Sitting with a 2025 Giants-like setup in which two veteran quarterbacks are on the roster accompanying a rookie-deal player, the Cardinals have long made sense as a team that could trade a passer before the deadline. That may be an organizational preference. With Jacoby Brissett and Gardner Minshew in Arizona’s first- and second-string spots, third-round […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/cardinals-aiming-to-trade-qb",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=423733",
+    "publishedAt": "2026-10-22T03:41:17.000Z",
+    "type": "Analysis",
+    "headline": "Roger Goodell: NFL Welcomes Investigation Into Jalen Hurts Treatment",
+    "summary": "The Eagles’ handling of Jalen Hurts’ blood clots has drawn scrutiny from the NFLPA, who called for an investigation into the situation despite approval from the league. Commissioner Roger Goodell said on Wednesday the NFL welcomes such an investigation while still backing Philadelphia’s medical approach. “Obviously, there was a medical evaluation, and I think our […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/roger-goodell-nfl-welcomes-investigation-into-jalen-hurts-treatment",
+    "sourceName": "Pro Football Rumors"
   },
   {
     "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jc-latham-on-incident-with-jordan-elliott-it-was-just-an-unfortunate-situation",
@@ -25,15 +79,6 @@
     "summary": "The Steelers opened the 21-day practice window of starting safety DeShon Elliott 13 days ago, but he may not need to use the remaining eight days of the window to sit this weekend. Pittsburgh announced the release of veteran safety Rayshawn Jenkins today, and the move could be intended to make room for Elliott to […]",
     "sourceUrl": "https://www.profootballrumors.com/2026/10/steelers-release-s-rayshawn-jenkins",
     "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "50244017",
-    "publishedAt": "2026-10-22T02:14:21Z",
-    "type": "Analysis",
-    "headline": "Why Tristan H. Cockcroft likes the Jets defense in Week 7",
-    "summary": "Why Tristan H. Cockcroft likes the Jets defense in Week 7",
-    "sourceUrl": "https://www.espn.com/video/clip/_/id/50244017/why-tristan-h-cockcroft-likes-jets-defense-week-7",
-    "sourceName": "ESPN"
   },
   {
     "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/ufl-has-a-stadium-issue-in-st-louis",
@@ -162,15 +207,6 @@
     "sourceName": "ESPN"
   },
   {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=423717",
-    "publishedAt": "2026-10-21T23:59:38.000Z",
-    "type": "Transaction",
-    "headline": "Cardinals Aiming To Trade QB?",
-    "summary": "Sitting with a 2025 Giants-like setup in which two veteran quarterbacks are on the roster accompanying a rookie-deal player, the Cardinals have long made sense as a team that could trade a passer before the deadline. That may be an organizational preference. With Jacoby Brissett and Gardner Minshew in Arizona’s first- and second-string spots, third-round […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/cardinals-aiming-to-trade-qb",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
     "id": "50242155",
     "publishedAt": "2026-10-21T23:52:18Z",
     "type": "Analysis",
@@ -268,15 +304,6 @@
     "summary": "Rams wide receiver Davante Adams was placed on injured reserve this week and his path back to the field will include a visit to the operating room.",
     "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/davante-adams-will-have-a-cleanup-procedure-on-his-hamstring",
     "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=423691",
-    "publishedAt": "2026-10-21T22:01:42.000Z",
-    "type": "Analysis",
-    "headline": "Seahawks Did Not Make Offer To RB Kenneth Walker",
-    "summary": "Used in a timeshare with Zach Charbonnet for most of his Seahawks contract year, Kenneth Walker will return to Seattle as a Chief in Week 7 as the NFL’s rushing leader. The former Seahawks second-round pick is off to a dominant start with his new team, which deviated from a yearslong stretch of minimizing the […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/seahawks-did-not-make-offer-to-rb-kenneth-walker",
-    "sourceName": "Pro Football Rumors"
   },
   {
     "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/seven-texans-sit-out-wednesdays-practice-with-injuries",
@@ -529,15 +556,6 @@
     "summary": "Lamar Jackson was not dressed for Wednesday's practice at the portion open to the media.",
     "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/lamar-jackson-gets-a-little-bit-of-limited-work-at-wednesdays-practice",
     "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=423655",
-    "publishedAt": "2026-10-21T19:13:12.000Z",
-    "type": "Analysis",
-    "headline": "Giants To Start QB J.J. McCarthy In Week 7",
-    "summary": "2:13pm: Harbaugh confirmed that McCarthy will start this week (via Dan Duggan of The Athletic). 11:11am: Less than a month after the Giants acquired him from the Vikings, J.J. McCarthy is taking over as Big Blue’s starting quarterback. The Giants plan to start McCarthy against the Texans in Week 7, Jeremy Fowler of ESPN reports. […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/giants-plan-to-start-qb-j-j-mccarthy-in-week-7",
-    "sourceName": "Pro Football Rumors"
   },
   {
     "id": "50240051",
@@ -14713,50 +14731,5 @@
     "summary": "Cowboys head coach Brian Schottenheimer says changes are being made after the Cowboys have had field goals blocked in their last two games.",
     "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cowboys-will-move-pieces-around-in-field-goal-protection-after-blocks-two-weeks-in-a-row",
     "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=422266",
-    "publishedAt": "2026-10-08T04:20:09.000Z",
-    "type": "Transaction",
-    "headline": "Eagles Trade Cam Jurgens To Ravens",
-    "summary": "The Eagles shockingly lost future Hall of Fame right tackle Lane Johnson to retirement on Tuesday. A day later, another of the Eagles’ offensive line stalwarts is exiting. The Eagles are trading center Cam Jurgens and a 2027 seventh-round pick to the Ravens for a 2028 second-round selection and a 2027 fifth-rounder, Adam Schefter of […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/eagles-trade-cam-jurgens-to-ravens",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=422243",
-    "publishedAt": "2026-10-08T04:15:33.000Z",
-    "type": "Transaction",
-    "headline": "Vikings Sign WR Odell Beckham Jr.",
-    "summary": "The Giants released wide receiver Odell Beckham Jr. last week, but he is quickly catching on elsewhere. Beckham is signing with the Vikings, Jordan Schultz reports. He will join their practice squad, per Adam Schefter of ESPN. The team has announced the move. Beckham caught just nine passes in as many games in 2024 with the […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/vikings-to-sign-wr-odell-beckham-jr",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=422293",
-    "publishedAt": "2026-10-08T04:02:23.000Z",
-    "type": "Analysis",
-    "headline": "Texans HC DeMeco Ryans Reclaims Defensive Play-Calling Duties",
-    "summary": "Sitting at 0-4, the Texans are not making a coaching change. A shift in responsibilities will be taking place along the sidelines, however. Head coach DeMeco Ryans announced on Wednesday that he is taking over defensive play-calling responsibilities. A streamlining of communication among players on that side of the ball was cited as the primary reason for […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/texans-hc-demeco-ryans-reclaims-defensive-play-calling-duties",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=422322",
-    "publishedAt": "2026-10-08T03:59:57.000Z",
-    "type": "Injury",
-    "headline": "Buccaneers S Antoine Winfield To Miss Time",
-    "summary": "Buccaneers safety Antoine Winfield is expected to miss two to four weeks with a rib fracture, head coach Todd Bowles said on Monday (via senior team writer Scott Smith). The injury is yet another blow to an 0-4 Tampa Bay squad that will be without quarterback Baker Mayfield, linebacker SirVocea Dennis, and cornerback Benjamin Morrison […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/buccaneers-s-antoine-winfield-to-miss-time",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=422314",
-    "publishedAt": "2026-10-08T03:06:52.000Z",
-    "type": "Analysis",
-    "headline": "Patriots Work Out RB Jamaal Williams, OL Cody Ford",
-    "summary": "The Patriots hosted five players for tryouts on Tuesday, per ESPN’s Mike Reiss, including running back Jamaal Williams and offensive lineman Cody Ford. Williams, 31, is seeking a return to the NFL after going unsigned for the 2025 season. At 220 pounds, the lowest weight of his eight-year career, he is “in the best shape […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/patriots-work-out-rb-jamaal-williams-ot-cody-ford",
-    "sourceName": "Pro Football Rumors"
   }
 ]
