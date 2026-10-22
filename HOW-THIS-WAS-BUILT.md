@@ -251,6 +251,7 @@ to fall back on, so a source could be broken for days without anyone noticing. N
   it should be, or if a game finished more than 30 hours ago without a recap.
 - If the morning stats update fails, it **tries again at noon** on its own, and every download is retried three times first.
 - Every refresh checks **every team's** player numbers against the official totals, not just the Patriots'. In Week 5 an unusual play (a lateral) in a Patriots game froze the site for a day; the league-wide check found two more kinds of unusual play that had already happened to other teams and would have done the same. Now those get flagged, without blocking anything, the week they first happen anywhere.
+- That check had its own blind spot, found two weeks later: a **traded player**. The official numbers add up a player's whole season across both teams; the site's are per team. Marvin Harrison Jr. (Arizona, then Houston) set off three days of false alarms, and the same flaw would have frozen the site the first time a Patriots trade-deadline pickup played. Both checks now add up every team a player played for. The lesson again: a check is code too, and it needs testing against the odd cases just like the stats do.
 - If the AI writing stops working, most likely an expired API key, the health check says so in plain words and tells you which setting to replace. That happened for real in October 2026: the key stopped working on a Thursday, the health check emailed that afternoon, and replacing the key in GitHub (not Vercel, which never sees it) fixed it. The steps are in the README.
 - A **daily health check** confirms the sources are fresh, the latest runs succeeded
   and the live site matches the latest data. If not, it opens a GitHub issue, which
@@ -358,7 +359,7 @@ is sometimes yes, and an AI will rarely volunteer it.
 | **Data storage** | Plain files, no database — because the source gives us everything |
 | **Automation** | GitHub Actions — a robot on a schedule |
 | **Hosting** | Vercel — rebuilds automatically when data changes |
-| **Safety net** | About 175 tests, a verifier that checks against outside sources (for every team, not just the Patriots), and a daily health check |
+| **Safety net** | About 177 tests, a verifier that checks against outside sources (for every team, not just the Patriots), and a daily health check |
 | **Size** | ~19,000 lines, 174 code files, 7 runtime dependencies |
 
 And the six habits worth carrying to the next project:
