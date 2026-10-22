@@ -1,7 +1,34 @@
 [
   {
+    "id": "bd01f9dd-a97b-4a53-9e97-756ec959dcc6",
+    "publishedAt": "2026-10-22T22:47:41.000Z",
+    "type": "Analysis",
+    "headline": "Week 7 Inactives: Patriots at Bears",
+    "summary": "The New England Patriots and Chicago Bears announce the following inactive players ahead of their NFL Week 7 game on October 22, 2026.",
+    "sourceUrl": "https://www.patriots.com/news/week-7-inactives-patriots-at-bears-x7631",
+    "sourceName": "Patriots.com"
+  },
+  {
+    "id": "5462d017-0653-40e8-b35b-70badc41f03b",
+    "publishedAt": "2026-10-22T22:45:09.000Z",
+    "type": "Analysis",
+    "headline": "Inactives Analysis: Patriots place LG Alijah Vera-Tucker on IR, RT Morgan Moses officially active for Thursday night's game vs. the Bears",
+    "summary": "The Patriots five questionable players, including starting RT Morgan Moses, are officially active for Thursday Night Football.",
+    "sourceUrl": "https://www.patriots.com/news/inactives-analysis-patriots-place-lg-alijah-vera-tucker-on-ir-rt-morgan-moses-officially-active-for-thursday-night-s-game-vs-the-bears",
+    "sourceName": "Patriots.com"
+  },
+  {
+    "id": "fb8f7253-9c97-4799-985d-550705c15e85",
+    "publishedAt": "2026-10-22T20:00:00.000Z",
+    "type": "Transaction",
+    "headline": "Patriots Place G Alijah Vera-Tucker on Injured Reserve; Announce Additional Roster Moves",
+    "summary": "The Patriots announced today that G Alijah Vera-Tucker has been placed on injured reserve. In addition, the Patriots have elevated OL Xavier Newman-Johnson and LB Benton Whitley to the active roster from the practice squad.",
+    "sourceUrl": "https://www.patriots.com/news/patriots-place-g-alijah-vera-tucker-on-injured-reserve-announce-additional-roster-moves",
+    "sourceName": "Patriots.com"
+  },
+  {
     "id": "a8c725b5-c7ff-4603-9ba3-d8dab4916b8e",
-    "publishedAt": "2026-10-22T16:15:00.000Z",
+    "publishedAt": "2026-10-22T19:11:00.000Z",
     "type": "Analysis",
     "headline": "Expert Predictions: Week 7 Picks for Patriots at Bears",
     "summary": "Experts share their picks for the Patriots Week 7 matchup against the Chicago Bears.",
@@ -36,15 +63,6 @@
     "sourceName": "ESPN"
   },
   {
-    "id": "8816ae15-a093-42a0-9cb6-ee298a027c5f",
-    "publishedAt": "2026-10-21T20:00:00.000Z",
-    "type": "Injury",
-    "headline": "Week 7 Injury Report: Patriots at Bears",
-    "summary": "The New England Patriots and the Chicago Bears announce the following player injuries and practice participation ahead of their Week 7 game.",
-    "sourceUrl": "https://www.patriots.com/news/week-7-injury-report-patriots-at-bears",
-    "sourceName": "Patriots.com"
-  },
-  {
     "id": "50240235",
     "publishedAt": "2026-10-21T19:56:08Z",
     "type": "Injury",
@@ -54,15 +72,6 @@
     "sourceName": "ESPN"
   },
   {
-    "id": "967b9d04-f198-4332-b57a-ccb271b0edbe",
-    "publishedAt": "2026-10-21T19:14:12.000Z",
-    "type": "Injury",
-    "headline": "Injury Report Analysis: Patriots rule out five players for Thursday Night Football vs. the Bears",
-    "summary": "The Patriots ruled out CB Carlton Davis III (neck), G Alijah Vera-Tucker (hamstring), G Ben Brown (knee), CB Karon Prunty (hamstring), and CB Channing Canada (hamstring) for Thursday night in Chicago.",
-    "sourceUrl": "https://www.patriots.com/news/injury-report-analysis-patriots-rule-out-five-players-for-thursday-night-football-vs-the-bears",
-    "sourceName": "Patriots.com"
-  },
-  {
     "id": "50240151",
     "publishedAt": "2026-10-21T18:37:11Z",
     "type": "Analysis",
@@ -70,15 +79,6 @@
     "summary": "— Caleb Williams and Drake Maye have known each other for years. They were part of the same draft class, and they grew up going to the same football camps.",
     "sourceUrl": "http://www.espn.com/nfl/preview?gameId=401873010",
     "sourceName": "ESPN"
-  },
-  {
-    "id": "5f37066e-8f5e-41de-8166-4e28fd330abb",
-    "publishedAt": "2026-10-21T16:06:44.000Z",
-    "type": "Analysis",
-    "headline": "3 to Watch: Patriots to Face Bears on Thursday Night Football",
-    "summary": "The Patriots travel to Chicago for Thursday Night Football tilt.",
-    "sourceUrl": "https://www.patriots.com/news/3-to-watch-patriots-to-face-bears-on-thursday-night-football",
-    "sourceName": "Patriots.com"
   },
   {
     "id": "50221307",
