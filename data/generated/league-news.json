@@ -1,11 +1,38 @@
 [
   {
-    "id": "50252635",
-    "publishedAt": "2026-10-22T22:44:23Z",
+    "id": "50253588",
+    "publishedAt": "2026-10-23T02:50:52Z",
+    "type": "Analysis",
+    "headline": "Chicago Bears honor late Mike Ditka with fake mustaches, knit headbands on TNF",
+    "summary": "The Bears played their first home game Thursday since Mike Ditka's death Oct. 9.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50253588/chicago-bears-mike-ditka-tribute-game",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-multiple-teams-have-trade-interest-in-jonathan-taylor",
+    "publishedAt": "2026-10-23T01:28:41.000Z",
     "type": "Transaction",
-    "headline": "Source: Several teams interested in Colts RB Taylor as trade deadline approaches",
-    "summary": "As the Colts plot their next moves after firing GM Chris Ballard, a source told ESPN that several teams would be open to a potential trade for Jonathan Taylor.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50252635/several-teams-interested-trade-colts-jonathan-taylor",
+    "headline": "Report: Multiple teams have trade interest in Jonathan Taylor",
+    "summary": "It is unclear whether the Colts will be sellers at the trade deadline.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-multiple-teams-have-trade-interest-in-jonathan-taylor",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "50253264",
+    "publishedAt": "2026-10-22T23:47:08Z",
+    "type": "Transaction",
+    "headline": "Trey Hendrickson is set to face the Bengals for the first time since signing with Baltimore",
+    "summary": "— Trey Hendrickson is finally looking healthier — just in time for a matchup with his former team.",
+    "sourceUrl": "http://www.espn.com/nfl/preview?gameId=401873012",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50251985",
+    "publishedAt": "2026-10-23T00:36:15Z",
+    "type": "Analysis",
+    "headline": "Morris returns to Atlanta, leading a 49ers defense that will try to pressure Falcons QB Penix",
+    "summary": "— Raheem Morris, part of the Atlanta Falcons' leadership team that made Michael Penix Jr. the No. 8 overall pick in the 2024 draft, will return to Atlanta on Sunday as the defensive coordinator of an undefeated San Francisco 49ers team that will try...",
+    "sourceUrl": "http://www.espn.com/nfl/preview?gameId=401873017",
     "sourceName": "ESPN"
   },
   {
@@ -18,39 +45,12 @@
     "sourceName": "ESPN"
   },
   {
-    "id": "50252432",
-    "publishedAt": "2026-10-22T21:31:21Z",
+    "id": "50253313",
+    "publishedAt": "2026-10-23T00:03:25Z",
     "type": "Analysis",
-    "headline": "The Broncos' defense has carried the team. Now QB Bo Nix wants to shoulder the load vs. Cardinals",
-    "summary": "— Denver's ball-hawking defense has made it one of the better NFL teams so far this season.",
-    "sourceUrl": "http://www.espn.com/nfl/preview?gameId=401873019",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50251985",
-    "publishedAt": "2026-10-22T20:40:24Z",
-    "type": "Analysis",
-    "headline": "Morris returns to Atlanta and is expected to have 49ers defense try to pressure Falcons QB Penix",
-    "summary": "— Raheem Morris, part of the Atlanta Falcons' leadership team that made Michael Penix Jr. the No. 8 overall pick in the 2024 draft, will return to Atlanta on Sunday as the defensive coordinator of an undefeated San Francisco 49ers team that will try...",
-    "sourceUrl": "http://www.espn.com/nfl/preview?gameId=401873017",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50253140",
-    "publishedAt": "2026-10-22T23:24:09Z",
-    "type": "Analysis",
-    "headline": "Baker Mayfield set to make return vs. Panthers, looks to turn around struggling Buccaneers",
-    "summary": "— The last-place Tampa Bay Buccaneers are in need of a spark.",
-    "sourceUrl": "http://www.espn.com/nfl/preview?gameId=401873018",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50251708",
-    "publishedAt": "2026-10-22T20:12:10Z",
-    "type": "Analysis",
-    "headline": "Titans chase a rare 2nd straight win as the Browns arrive atop the AFC North",
-    "summary": "— Tennessee safety Amani Hooker couldn't remember the most recent time the Titans strung together back-to-back wins, and his guess off.",
-    "sourceUrl": "http://www.espn.com/nfl/preview?gameId=401873013",
+    "headline": "Eagles still trying to salvage NFC East crown without Hurts as they host Cowboys on Monday night",
+    "summary": "— Tanner McKee spent most of his two seasons widely considered one of the top young backup quarterbacks in the NFL.",
+    "sourceUrl": "http://www.espn.com/nfl/preview?gameId=401873009",
     "sourceName": "ESPN"
   }
 ]

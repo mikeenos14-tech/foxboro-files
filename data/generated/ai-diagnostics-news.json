@@ -1,12 +1,16 @@
 {
   "beat digest": {
     "status": "written",
-    "problems": [],
-    "at": "2026-10-22T23:49:29.004Z"
+    "problems": [
+      [
+        "It says \"second-year\", which isn't in the facts given."
+      ]
+    ],
+    "at": "2026-10-23T02:58:09.776Z"
   },
   "league headlines": {
     "status": "written",
     "problems": [],
-    "at": "2026-10-22T23:49:30.834Z"
+    "at": "2026-10-23T02:58:11.939Z"
   }
 }
