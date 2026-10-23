@@ -1,29 +1,47 @@
 [
   {
-    "id": "50253588",
-    "publishedAt": "2026-10-23T02:50:52Z",
-    "type": "Analysis",
-    "headline": "Chicago Bears honor late Mike Ditka with fake mustaches, knit headbands on TNF",
-    "summary": "The Bears played their first home game Thursday since Mike Ditka's death Oct. 9.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50253588/chicago-bears-mike-ditka-tribute-game",
+    "id": "50254858",
+    "publishedAt": "2026-10-23T07:01:47Z",
+    "type": "Injury",
+    "headline": "TE Cole Kmet exits Bears' win vs. Patriots with knee injury",
+    "summary": "Bears tight end Cole Kmet exited Thursday night's game against the Patriots on a cart after injuring his right knee in the fourth quarter.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50254858/bears-te-cole-kmet-exits-late-vs-patriots-knee-injury",
     "sourceName": "ESPN"
   },
   {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-multiple-teams-have-trade-interest-in-jonathan-taylor",
-    "publishedAt": "2026-10-23T01:28:41.000Z",
-    "type": "Transaction",
-    "headline": "Report: Multiple teams have trade interest in Jonathan Taylor",
-    "summary": "It is unclear whether the Colts will be sellers at the trade deadline.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-multiple-teams-have-trade-interest-in-jonathan-taylor",
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/ben-johnson-cole-kmets-knee-injury-doesnt-look-good",
+    "publishedAt": "2026-10-23T06:49:02.000Z",
+    "type": "Injury",
+    "headline": "Ben Johnson: Cole Kmet's knee injury doesn't look good",
+    "summary": "Caleb Williams said after the game, \"I don't have the words to describe what Cole is to me, to this team, to this organization.\"",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/ben-johnson-cole-kmets-knee-injury-doesnt-look-good",
     "sourceName": "Pro Football Talk"
   },
   {
-    "id": "50253264",
-    "publishedAt": "2026-10-22T23:47:08Z",
+    "id": "50254932",
+    "publishedAt": "2026-10-23T05:40:08Z",
+    "type": "Analysis",
+    "headline": "Caleb Williams throws 2 TD passes as the Bears beat Drake Maye and the Patriots 30-24",
+    "summary": "— Round 2 went to Caleb Williams and the Chicago Bears.",
+    "sourceUrl": "http://www.espn.com/nfl/recap?gameId=401873010",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=423832",
+    "publishedAt": "2026-10-23T04:20:15.000Z",
     "type": "Transaction",
-    "headline": "Trey Hendrickson is set to face the Bengals for the first time since signing with Baltimore",
-    "summary": "— Trey Hendrickson is finally looking healthier — just in time for a matchup with his former team.",
-    "sourceUrl": "http://www.espn.com/nfl/preview?gameId=401873012",
+    "headline": "Rams Expected To Explore WR Trade",
+    "summary": "Davante Adams has joined Myles Garrett and Kobie Turner among Rams placed on IR. While the future Hall of Fame wide receiver plans to undergo surgery to expedite his recovery, Los Angeles will be down a key weapon for several weeks. With the team 2-4 after another last-second loss, looking into some short-term help appears […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/rams-expected-to-explore-wr-trade",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "50253313",
+    "publishedAt": "2026-10-23T00:03:25Z",
+    "type": "Analysis",
+    "headline": "Eagles still trying to salvage NFC East crown without Hurts as they host Cowboys on Monday night",
+    "summary": "— Tanner McKee spent most of his two seasons widely considered one of the top young backup quarterbacks in the NFL.",
+    "sourceUrl": "http://www.espn.com/nfl/preview?gameId=401873009",
     "sourceName": "ESPN"
   },
   {
@@ -33,24 +51,6 @@
     "headline": "Morris returns to Atlanta, leading a 49ers defense that will try to pressure Falcons QB Penix",
     "summary": "— Raheem Morris, part of the Atlanta Falcons' leadership team that made Michael Penix Jr. the No. 8 overall pick in the 2024 draft, will return to Atlanta on Sunday as the defensive coordinator of an undefeated San Francisco 49ers team that will try...",
     "sourceUrl": "http://www.espn.com/nfl/preview?gameId=401873017",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50253068",
-    "publishedAt": "2026-10-22T23:12:09Z",
-    "type": "Analysis",
-    "headline": "Lions kick off quest to win NFC North with 1st division game of year against surging Packers at home",
-    "summary": "— The Detroit Lions are kicking off their first of six NFC North games against the Green Bay Packers and Minnesota Vikings in the Motor City over...",
-    "sourceUrl": "http://www.espn.com/nfl/preview?gameId=401873020",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50253313",
-    "publishedAt": "2026-10-23T00:03:25Z",
-    "type": "Analysis",
-    "headline": "Eagles still trying to salvage NFC East crown without Hurts as they host Cowboys on Monday night",
-    "summary": "— Tanner McKee spent most of his two seasons widely considered one of the top young backup quarterbacks in the NFL.",
-    "sourceUrl": "http://www.espn.com/nfl/preview?gameId=401873009",
     "sourceName": "ESPN"
   }
 ]
