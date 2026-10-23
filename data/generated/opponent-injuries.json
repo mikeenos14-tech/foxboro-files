@@ -1,39 +1,12 @@
 [
   {
-    "playerId": "4869645",
-    "playerName": "Caleb Douglas",
-    "position": "WR",
-    "week": 8,
-    "injury": "Ankle",
-    "gameStatus": "Questionable",
-    "lastUpdated": "2026-10-23T15:15Z"
-  },
-  {
-    "playerId": "4880236",
-    "playerName": "Will Kacmarek",
-    "position": "TE",
-    "week": 8,
-    "injury": "Hamstring",
-    "gameStatus": "Questionable",
-    "lastUpdated": "2026-10-22T23:55Z"
-  },
-  {
-    "playerId": "4682745",
-    "playerName": "Jaylen Wright",
-    "position": "RB",
-    "week": 8,
-    "injury": "Foot",
-    "gameStatus": "Questionable",
-    "lastUpdated": "2026-10-23T15:16Z"
-  },
-  {
     "playerId": "4259558",
     "playerName": "Robert Beal Jr.",
     "position": "DE",
     "week": 8,
     "injury": "Hamstring",
-    "gameStatus": "Questionable",
-    "lastUpdated": "2026-10-13T17:10Z"
+    "gameStatus": "Doubtful",
+    "lastUpdated": "2026-10-23T20:18Z"
   },
   {
     "playerId": "4259804",
@@ -50,16 +23,7 @@
     "position": "CB",
     "week": 8,
     "injury": "Quadriceps",
-    "gameStatus": "Questionable",
-    "lastUpdated": "2026-10-13T17:10Z"
-  },
-  {
-    "playerId": "4034729",
-    "playerName": "Tucker Addington",
-    "position": "LS",
-    "week": 8,
-    "injury": "Shoulder",
-    "gameStatus": "Questionable",
-    "lastUpdated": "2026-10-21T20:36Z"
+    "gameStatus": "Out",
+    "lastUpdated": "2026-10-23T20:18Z"
   }
 ]
