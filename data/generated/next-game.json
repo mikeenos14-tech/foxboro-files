@@ -1,13 +1,12 @@
 {
-  "id": "2026_07_NE_CHI",
+  "id": "2026_08_NE_MIA",
   "season": 2026,
-  "week": 7,
+  "week": 8,
   "seasonType": "REG",
-  "date": "2026-10-22",
-  "kickoffTimeEt": "20:15",
-  "homeTeam": "CHI",
+  "date": "2026-11-01",
+  "kickoffTimeEt": "16:25",
+  "homeTeam": "MIA",
   "awayTeam": "NE",
   "status": "scheduled",
-  "venue": "Soldier Field",
-  "network": "Prime Video"
+  "venue": "Hard Rock Stadium"
 }

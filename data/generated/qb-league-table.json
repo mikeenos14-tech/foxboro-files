@@ -26,7 +26,7 @@
       },
       "aggressiveness": {
         "value": 12.8654970760234,
-        "rank": 29,
+        "rank": 27,
         "of": 36
       }
     }
@@ -68,29 +68,29 @@
     "playerName": "Drake Maye",
     "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/mkauzrg7vo8lfziigsbg",
     "team": "NE",
-    "completions": 117,
-    "attempts": 183,
-    "yards": 1463,
-    "tds": 11,
-    "ints": 7,
-    "cpoe": 5.165611526180546,
+    "completions": 141,
+    "attempts": 214,
+    "yards": 1784,
+    "tds": 13,
+    "ints": 8,
+    "cpoe": 6.658953384225585,
     "accuracyByDepth": {
-      "short": 0.7037037037037037,
-      "medium": 0.5714285714285714,
-      "deep": 0.5
+      "short": 0.7340425531914894,
+      "medium": 0.5961538461538461,
+      "deep": 0.4827586206896552
     },
-    "pressureEpa": -0.8732336330818424,
-    "cleanPocketEpa": 0.30562735934930657,
+    "pressureEpa": -0.8581345024865787,
+    "cleanPocketEpa": 0.33601575498195574,
     "turnoverWorthyPlayRate": 0.041025641025641026,
     "ngs": {
       "timeToThrow": {
-        "value": 3.09983606557377,
-        "rank": 5,
+        "value": 3.10998591549296,
+        "rank": 4,
         "of": 36
       },
       "aggressiveness": {
-        "value": 13.6612021857924,
-        "rank": 25,
+        "value": 12.6168224299065,
+        "rank": 28,
         "of": 36
       }
     }
@@ -154,7 +154,7 @@
       },
       "aggressiveness": {
         "value": 12.5,
-        "rank": 30,
+        "rank": 29,
         "of": 36
       }
     }
@@ -644,29 +644,29 @@
     "playerName": "Caleb Williams",
     "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/h4qs11kutwiw7whekmyt",
     "team": "CHI",
-    "completions": 66,
-    "attempts": 91,
-    "yards": 712,
-    "tds": 3,
+    "completions": 88,
+    "attempts": 124,
+    "yards": 1020,
+    "tds": 5,
     "ints": 1,
-    "cpoe": 9.838977383404247,
+    "cpoe": 9.00604291153806,
     "accuracyByDepth": {
-      "short": 0.7674418604651163,
-      "medium": 0.5625,
-      "deep": 0.4444444444444444
+      "short": 0.7666666666666667,
+      "medium": 0.52,
+      "deep": 0.46153846153846156
     },
-    "pressureEpa": -0.7213489802390114,
-    "cleanPocketEpa": 0.44507380544379416,
+    "pressureEpa": -0.7772348492203869,
+    "cleanPocketEpa": 0.4975250069017216,
     "turnoverWorthyPlayRate": 0.01,
     "ngs": {
       "timeToThrow": {
-        "value": 3.25845054945055,
+        "value": 3.22226612903226,
         "rank": 1,
         "of": 36
       },
       "aggressiveness": {
-        "value": 13.1868131868132,
-        "rank": 28,
+        "value": 9.67741935483871,
+        "rank": 32,
         "of": 36
       }
     }
@@ -890,7 +890,7 @@
       },
       "aggressiveness": {
         "value": 12.5,
-        "rank": 30,
+        "rank": 29,
         "of": 36
       }
     }
@@ -1013,7 +1013,7 @@
     "ngs": {
       "timeToThrow": {
         "value": 3.10492517006803,
-        "rank": 4,
+        "rank": 5,
         "of": 36
       },
       "aggressiveness": {

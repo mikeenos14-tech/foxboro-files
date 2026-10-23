@@ -1,0 +1,223 @@
+{
+  "gameId": "2026_07_NE_CHI",
+  "narrative": "New England fell to CHI 24-30. The offense posted 0.18 EPA/play (47% success rate) while the defense allowed 0.20 EPA/play. Turnover margin was -1.",
+  "epaPerPlay": {
+    "offense": 0.18453900657216404,
+    "defense": 0.1950891260604188
+  },
+  "successRate": {
+    "offense": 0.46938775510204084,
+    "defense": 0.46153846153846156,
+    "leagueAverage": 0.4336954647352992
+  },
+  "turnoverMargin": -1,
+  "pointsOffTurnovers": {
+    "for": 0,
+    "against": 0
+  },
+  "explosivePlayRate": {
+    "for": 0.22448979591836735,
+    "against": 0.15384615384615385
+  },
+  "redZone": {
+    "offense": {
+      "att": 4,
+      "td": 3
+    },
+    "defense": {
+      "att": 4,
+      "td": 3
+    }
+  },
+  "thirdDown": {
+    "offense": {
+      "att": 7,
+      "conv": 2
+    },
+    "defense": {
+      "att": 13,
+      "conv": 4
+    }
+  },
+  "winProbabilityTimeline": [
+    {
+      "playIndex": 0,
+      "quarter": 1,
+      "clock": "15:00",
+      "homeWinProb": 0.566792041063309
+    },
+    {
+      "playIndex": 8,
+      "quarter": 1,
+      "clock": "11:35",
+      "homeWinProb": 0.605107724666596
+    },
+    {
+      "playIndex": 16,
+      "quarter": 1,
+      "clock": "09:12",
+      "homeWinProb": 0.673809200525284
+    },
+    {
+      "playIndex": 24,
+      "quarter": 1,
+      "clock": "05:54",
+      "homeWinProb": 0.663342177867889
+    },
+    {
+      "playIndex": 32,
+      "quarter": 1,
+      "clock": "02:32",
+      "homeWinProb": 0.731855571269989
+    },
+    {
+      "playIndex": 40,
+      "quarter": 1,
+      "clock": "00:00",
+      "homeWinProb": 0.794124498963356
+    },
+    {
+      "playIndex": 48,
+      "quarter": 2,
+      "clock": "11:33",
+      "homeWinProb": 0.715442927886269
+    },
+    {
+      "playIndex": 56,
+      "quarter": 2,
+      "clock": "07:49",
+      "homeWinProb": 0.79073566198349
+    },
+    {
+      "playIndex": 64,
+      "quarter": 2,
+      "clock": "04:21",
+      "homeWinProb": 0.659635543823242
+    },
+    {
+      "playIndex": 72,
+      "quarter": 2,
+      "clock": "02:21",
+      "homeWinProb": 0.751425802707672
+    },
+    {
+      "playIndex": 80,
+      "quarter": 2,
+      "clock": "00:14",
+      "homeWinProb": 0.903374150395393
+    },
+    {
+      "playIndex": 88,
+      "quarter": 3,
+      "clock": "14:27",
+      "homeWinProb": 0.778177082538605
+    },
+    {
+      "playIndex": 96,
+      "quarter": 3,
+      "clock": "09:48",
+      "homeWinProb": 0.866925895214081
+    },
+    {
+      "playIndex": 104,
+      "quarter": 3,
+      "clock": "06:52",
+      "homeWinProb": 0.895782843232155
+    },
+    {
+      "playIndex": 112,
+      "quarter": 3,
+      "clock": "03:46",
+      "homeWinProb": 0.783127963542938
+    },
+    {
+      "playIndex": 120,
+      "quarter": 3,
+      "clock": "00:54",
+      "homeWinProb": 0.757200047373772
+    },
+    {
+      "playIndex": 128,
+      "quarter": 4,
+      "clock": "13:14",
+      "homeWinProb": 0.763507425785065
+    },
+    {
+      "playIndex": 136,
+      "quarter": 4,
+      "clock": "09:21",
+      "homeWinProb": 0.883755683898926
+    },
+    {
+      "playIndex": 144,
+      "quarter": 4,
+      "clock": "06:22",
+      "homeWinProb": 0.840823113918304
+    },
+    {
+      "playIndex": 152,
+      "quarter": 4,
+      "clock": "01:56",
+      "homeWinProb": 0.966897785663605
+    },
+    {
+      "playIndex": 160,
+      "quarter": 4,
+      "clock": "01:34",
+      "homeWinProb": 0.977580992504954
+    },
+    {
+      "playIndex": 168,
+      "quarter": 4,
+      "clock": "00:37",
+      "homeWinProb": 0.986219108104706
+    },
+    {
+      "playIndex": 170,
+      "quarter": 4,
+      "clock": "00:00",
+      "homeWinProb": 1
+    }
+  ],
+  "standouts": [
+    {
+      "group": "h2h",
+      "text": "The first loss to CHI since 2022.",
+      "population": "every Patriots game against CHI since 1999 (8 games)",
+      "score": 0.9400000000000001,
+      "tone": "bad"
+    }
+  ],
+  "goodBadUgly": {
+    "good": [
+      "The offense averaged +0.18 EPA per play — better than an average offense.",
+      "Scored touchdowns on 3 of 4 red-zone trips (75%), well above the 55% league norm."
+    ],
+    "bad": [
+      "The defense allowed +0.20 EPA per play — worse than an average defense.",
+      "Lost the turnover battle by 1."
+    ],
+    "ugly": []
+  },
+  "playerOfTheGame": {
+    "playerId": "00-0039851",
+    "playerName": "Drake Maye",
+    "wpa": 0.17488359378461435,
+    "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/mkauzrg7vo8lfziigsbg",
+    "reason": "Mostly as a passer."
+  },
+  "scoring": {
+    "us": {
+      "td": 3,
+      "fg": 1,
+      "safety": 0
+    },
+    "them": {
+      "td": 3,
+      "fg": 3,
+      "safety": 0
+    }
+  },
+  "fanTake": "Well, that stung. Drake Maye was excellent—17% win probability added, mostly through the air—but it wasn't quite enough to overcome a night where our defense got thoroughly worked on third downs and in the red zone alike. Caleb Williams and the Bears capitalized where it mattered most: they hit 75% of their red-zone trips (same as us, which is the problem—that shouldn't happen to a Patriots defense), and even though both teams struggled on third down, Chicago's 31% conversion rate beat our 29%, and in a six-point game, those margins add up. We had an offensive efficiency advantage (0.18 EPA/play versus their 0.20), which feels like a moral victory precisely when we need actual victories, and our turnover margin didn't help matters either. The loss stings more because it's our first to Chicago since 2022, which means we'd had their number for a while—until tonight, when we couldn't quite close it out on the road.",
+  "aiVersion": 8
+}

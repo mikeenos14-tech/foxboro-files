@@ -1,0 +1,1332 @@
+{
+  "gameId": "2026_07_NE_CHI",
+  "plays": {
+    "2026_07_NE_CHI|1658": {
+      "key": "2026_07_NE_CHI|1658",
+      "week": 7,
+      "opponent": "CHI",
+      "quarter": 2,
+      "clock": "3:32",
+      "situation": "1st & 10 at CHI 15",
+      "offense": "NE",
+      "description": "(3:32) (Shotgun) 10-D.Maye pass deep right intended for 82-E.Raridon INTERCEPTED by 48-D.Jackson at CHI -7. Touchback.",
+      "yards": 0,
+      "neEpa": -5.27469820930855
+    },
+    "2026_07_NE_CHI|63": {
+      "key": "2026_07_NE_CHI|63",
+      "week": 7,
+      "opponent": "CHI",
+      "quarter": 1,
+      "clock": "14:53",
+      "situation": "1st & 10 at NE 31",
+      "offense": "NE",
+      "description": "(14:53) 10-D.Maye pass incomplete short left to 1-A.Brown.",
+      "yards": 0,
+      "neEpa": -0.527373746037483
+    },
+    "2026_07_NE_CHI|86": {
+      "key": "2026_07_NE_CHI|86",
+      "week": 7,
+      "opponent": "CHI",
+      "quarter": 1,
+      "clock": "14:49",
+      "situation": "2nd & 10 at NE 31",
+      "offense": "NE",
+      "description": "(14:49) (Shotgun) 10-D.Maye pass short right to 38-R.Stevenson pushed ob at 50 for 19 yards (1-J.Johnson).",
+      "yards": 19,
+      "neEpa": 1.92421977734193
+    },
+    "2026_07_NE_CHI|152": {
+      "key": "2026_07_NE_CHI|152",
+      "week": 7,
+      "opponent": "CHI",
+      "quarter": 1,
+      "clock": "13:44",
+      "situation": "1st & 20 at NE 40",
+      "offense": "NE",
+      "description": "(13:44) (Shotgun) 10-D.Maye pass short right to 32-T.Henderson to NE 48 for 8 yards (12-D.Bush).",
+      "yards": 8,
+      "neEpa": 0.101461161393672
+    },
+    "2026_07_NE_CHI|177": {
+      "key": "2026_07_NE_CHI|177",
+      "week": 7,
+      "opponent": "CHI",
+      "quarter": 1,
+      "clock": "13:04",
+      "situation": "2nd & 12 at NE 48",
+      "offense": "NE",
+      "description": "(13:04) (Shotgun) 10-D.Maye pass short left to 32-T.Henderson to CHI 46 for 6 yards (24-M.Muhammad; 31-D.Thieneman).",
+      "yards": 6,
+      "neEpa": -0.102271290263161
+    },
+    "2026_07_NE_CHI|224": {
+      "key": "2026_07_NE_CHI|224",
+      "week": 7,
+      "opponent": "CHI",
+      "quarter": 1,
+      "clock": "11:35",
+      "situation": "4th & 5 at CHI 45",
+      "offense": "NE",
+      "description": "(11:35) (Shotgun) 10-D.Maye sacked at CHI 46 for -1 yards (6-K.Gordon).",
+      "yards": -1,
+      "neEpa": -2.88151764171198
+    },
+    "2026_07_NE_CHI|438": {
+      "key": "2026_07_NE_CHI|438",
+      "week": 7,
+      "opponent": "CHI",
+      "quarter": 1,
+      "clock": "8:28",
+      "situation": "3rd & 4 at NE 33",
+      "offense": "NE",
+      "description": "(8:28) (Shotgun) 10-D.Maye pass incomplete short right to 18-K.Williams [92-D.Hardy].",
+      "yards": 0,
+      "neEpa": -1.4769427375868
+    },
+    "2026_07_NE_CHI|669": {
+      "key": "2026_07_NE_CHI|669",
+      "week": 7,
+      "opponent": "CHI",
+      "quarter": 1,
+      "clock": "4:33",
+      "situation": "3rd & 8 at NE 36",
+      "offense": "NE",
+      "description": "(4:33) (Shotgun) 10-D.Maye pass short left to 3-D.Douglas to NE 35 for -1 yards (6-K.Gordon, 21-C.Lewis).",
+      "yards": -1,
+      "neEpa": -1.44427379826084
+    },
+    "2026_07_NE_CHI|907": {
+      "key": "2026_07_NE_CHI|907",
+      "week": 7,
+      "opponent": "CHI",
+      "quarter": 1,
+      "clock": "1:32",
+      "situation": "1st & 10 at NE 26",
+      "offense": "NE",
+      "description": "(1:32) (Shotgun) 10-D.Maye pass short middle to 38-R.Stevenson to NE 30 for 4 yards (44-N.Sewell).",
+      "yards": 4,
+      "neEpa": -0.10239667375572
+    },
+    "2026_07_NE_CHI|954": {
+      "key": "2026_07_NE_CHI|954",
+      "week": 7,
+      "opponent": "CHI",
+      "quarter": 1,
+      "clock": "0:14",
+      "situation": "3rd & 2 at NE 34",
+      "offense": "NE",
+      "description": "(:14) (Shotgun) 10-D.Maye pass short middle to 82-E.Raridon to NE 49 for 15 yards (21-C.Lewis).",
+      "yards": 15,
+      "neEpa": 1.62256712815724
+    },
+    "2026_07_NE_CHI|999": {
+      "key": "2026_07_NE_CHI|999",
+      "week": 7,
+      "opponent": "CHI",
+      "quarter": 2,
+      "clock": "15:00",
+      "situation": "1st & 10 at NE 49",
+      "offense": "NE",
+      "description": "(15:00) (Shotgun) 10-D.Maye pass short middle to 38-R.Stevenson to CHI 42 for 9 yards (12-D.Bush).",
+      "yards": 9,
+      "neEpa": 0.634202160406858
+    },
+    "2026_07_NE_CHI|1024": {
+      "key": "2026_07_NE_CHI|1024",
+      "week": 7,
+      "opponent": "CHI",
+      "quarter": 2,
+      "clock": "14:26",
+      "situation": "2nd & 1 at CHI 42",
+      "offense": "NE",
+      "description": "(14:26) 10-D.Maye up the middle to CHI 42 for no gain (90-N.Gallimore).",
+      "yards": 0,
+      "neEpa": -0.613738627871499
+    },
+    "2026_07_NE_CHI|1081": {
+      "key": "2026_07_NE_CHI|1081",
+      "week": 7,
+      "opponent": "CHI",
+      "quarter": 2,
+      "clock": "13:31",
+      "situation": "1st & 10 at CHI 36",
+      "offense": "NE",
+      "description": "(13:31) (Shotgun) 10-D.Maye pass short left to 85-H.Henry to CHI 20 for 16 yards (29-T.Stevenson).",
+      "yards": 16,
+      "neEpa": 1.0054079258116
+    },
+    "2026_07_NE_CHI|1150": {
+      "key": "2026_07_NE_CHI|1150",
+      "week": 7,
+      "opponent": "CHI",
+      "quarter": 2,
+      "clock": "11:37",
+      "situation": "2nd & Goal at CHI 7",
+      "offense": "NE",
+      "description": "(11:37) (Shotgun) 10-D.Maye scrambles right guard to CHI 1 for 6 yards (20-C.Phillips). New England challenged the short of the goal line ruling, and the play was REVERSED. (Shotgun) 10-D.Maye scrambles right guard for 7 yards, TOUCHDOWN.",
+      "yards": 7,
+      "neEpa": 2.08421501051635
+    },
+    "2026_07_NE_CHI|1542": {
+      "key": "2026_07_NE_CHI|1542",
+      "week": 7,
+      "opponent": "CHI",
+      "quarter": 2,
+      "clock": "6:58",
+      "situation": "1st & 10 at NE 32",
+      "offense": "NE",
+      "description": "(6:58) (Shotgun) 10-D.Maye pass short right to 86-E.Chism to NE 48 for 16 yards (31-D.Thieneman).",
+      "yards": 16,
+      "neEpa": 0.996831680648029
+    },
+    "2026_07_NE_CHI|1589": {
+      "key": "2026_07_NE_CHI|1589",
+      "week": 7,
+      "opponent": "CHI",
+      "quarter": 2,
+      "clock": "5:42",
+      "situation": "2nd & 6 at CHI 48",
+      "offense": "NE",
+      "description": "(5:42) (Shotgun) 10-D.Maye pass short left to 82-E.Raridon to CHI 37 for 11 yards (48-D.Jackson; 29-T.Stevenson).",
+      "yards": 11,
+      "neEpa": 1.09786920342594
+    },
+    "2026_07_NE_CHI|1636": {
+      "key": "2026_07_NE_CHI|1636",
+      "week": 7,
+      "opponent": "CHI",
+      "quarter": 2,
+      "clock": "4:21",
+      "situation": "2nd & 3 at CHI 30",
+      "offense": "NE",
+      "description": "(4:21) (Shotgun) 10-D.Maye scrambles right end to CHI 15 for 15 yards (31-D.Thieneman).",
+      "yards": 15,
+      "neEpa": 0.845358994498383
+    },
+    "2026_07_NE_CHI|2054": {
+      "key": "2026_07_NE_CHI|2054",
+      "week": 7,
+      "opponent": "CHI",
+      "quarter": 2,
+      "clock": "0:09",
+      "situation": "1st & 10 at NE 34",
+      "offense": "NE",
+      "description": "(:09) (Shotgun) 10-D.Maye pass deep middle to 1-A.Brown to CHI 48 for 18 yards (24-M.Muhammad).",
+      "yards": 18,
+      "neEpa": 0.347125004831469
+    },
+    "2026_07_NE_CHI|2079": {
+      "key": "2026_07_NE_CHI|2079",
+      "week": 7,
+      "opponent": "CHI",
+      "quarter": 2,
+      "clock": "0:03",
+      "situation": "1st & 10 at CHI 48",
+      "offense": "NE",
+      "description": "(:03) (Shotgun) 10-D.Maye pass short right to 38-R.Stevenson for 48 yards, TOUCHDOWN.",
+      "yards": 48,
+      "neEpa": 6.54100484331138
+    },
+    "2026_07_NE_CHI|2482": {
+      "key": "2026_07_NE_CHI|2482",
+      "week": 7,
+      "opponent": "CHI",
+      "quarter": 3,
+      "clock": "9:41",
+      "situation": "1st & 10 at NE 20",
+      "offense": "NE",
+      "description": "(9:41) (Shotgun) 10-D.Maye pass short right to 85-H.Henry ran ob at NE 34 for 14 yards.",
+      "yards": 14,
+      "neEpa": 0.968666775152087
+    },
+    "2026_07_NE_CHI|2512": {
+      "key": "2026_07_NE_CHI|2512",
+      "week": 7,
+      "opponent": "CHI",
+      "quarter": 3,
+      "clock": "9:07",
+      "situation": "1st & 10 at NE 34",
+      "offense": "NE",
+      "description": "(9:07) (Shotgun) 10-D.Maye pass incomplete deep left to 1-A.Brown (24-M.Muhammad).",
+      "yards": 0,
+      "neEpa": -0.545651288703084
+    },
+    "2026_07_NE_CHI|2557": {
+      "key": "2026_07_NE_CHI|2557",
+      "week": 7,
+      "opponent": "CHI",
+      "quarter": 3,
+      "clock": "8:20",
+      "situation": "3rd & 7 at NE 37",
+      "offense": "NE",
+      "description": "(8:20) (Shotgun) 10-D.Maye pass short right to 85-H.Henry to 50 for 13 yards (50-G.Jarrett).",
+      "yards": 13,
+      "neEpa": 2.18375524994917
+    },
+    "2026_07_NE_CHI|2664": {
+      "key": "2026_07_NE_CHI|2664",
+      "week": 7,
+      "opponent": "CHI",
+      "quarter": 3,
+      "clock": "6:13",
+      "situation": "2nd & 12 at NE 48",
+      "offense": "NE",
+      "description": "(6:13) (Shotgun) 10-D.Maye pass deep left to 1-A.Brown to CHI 36 for 16 yards (29-T.Stevenson).",
+      "yards": 16,
+      "neEpa": 1.805638598511
+    },
+    "2026_07_NE_CHI|2689": {
+      "key": "2026_07_NE_CHI|2689",
+      "week": 7,
+      "opponent": "CHI",
+      "quarter": 3,
+      "clock": "5:34",
+      "situation": "1st & 10 at CHI 36",
+      "offense": "NE",
+      "description": "(5:34) 10-D.Maye pass short middle to 85-H.Henry to CHI 38 for -2 yards (59-J.Kromah, 48-D.Jackson).",
+      "yards": -2,
+      "neEpa": -1.05098441545852
+    },
+    "2026_07_NE_CHI|2714": {
+      "key": "2026_07_NE_CHI|2714",
+      "week": 7,
+      "opponent": "CHI",
+      "quarter": 3,
+      "clock": "4:50",
+      "situation": "2nd & 12 at CHI 38",
+      "offense": "NE",
+      "description": "(4:50) (Shotgun) 10-D.Maye pass short middle to 85-H.Henry to CHI 25 for 13 yards (21-C.Lewis).",
+      "yards": 13,
+      "neEpa": 1.80248530837707
+    },
+    "2026_07_NE_CHI|2763": {
+      "key": "2026_07_NE_CHI|2763",
+      "week": 7,
+      "opponent": "CHI",
+      "quarter": 3,
+      "clock": "3:52",
+      "situation": "1st & 15 at CHI 30",
+      "offense": "NE",
+      "description": "(3:52) (Shotgun) 10-D.Maye pass deep right to 82-E.Raridon for 30 yards, TOUCHDOWN.",
+      "yards": 30,
+      "neEpa": 3.53843090182636
+    },
+    "2026_07_NE_CHI|2941": {
+      "key": "2026_07_NE_CHI|2941",
+      "week": 7,
+      "opponent": "CHI",
+      "quarter": 3,
+      "clock": "2:50",
+      "situation": "1st & 10 at NE 26",
+      "offense": "NE",
+      "description": "(2:50) (Shotgun) 10-D.Maye pass short middle to 85-H.Henry to NE 40 for 14 yards (21-C.Lewis).",
+      "yards": 14,
+      "neEpa": 0.920627564424649
+    },
+    "2026_07_NE_CHI|2995": {
+      "key": "2026_07_NE_CHI|2995",
+      "week": 7,
+      "opponent": "CHI",
+      "quarter": 3,
+      "clock": "1:33",
+      "situation": "2nd & 9 at NE 41",
+      "offense": "NE",
+      "description": "(1:33) (Shotgun) 10-D.Maye pass short middle to 3-D.Douglas to NE 49 for 8 yards (31-D.Thieneman).",
+      "yards": 8,
+      "neEpa": 0.747746196575463
+    },
+    "2026_07_NE_CHI|3057": {
+      "key": "2026_07_NE_CHI|3057",
+      "week": 7,
+      "opponent": "CHI",
+      "quarter": 3,
+      "clock": "0:40",
+      "situation": "3rd & 6 at NE 44",
+      "offense": "NE",
+      "description": "(:40) (Shotgun) 10-D.Maye scrambles left end to NE 48 for 4 yards (12-D.Bush).",
+      "yards": 4,
+      "neEpa": -1.03846904821694
+    },
+    "2026_07_NE_CHI|3517": {
+      "key": "2026_07_NE_CHI|3517",
+      "week": 7,
+      "opponent": "CHI",
+      "quarter": 4,
+      "clock": "7:57",
+      "situation": "1st & 10 at NE 43",
+      "offense": "NE",
+      "description": "(7:57) (Shotgun) 10-D.Maye pass incomplete short left to 3-D.Douglas.",
+      "yards": 0,
+      "neEpa": -0.385558365378529
+    },
+    "2026_07_NE_CHI|3547": {
+      "key": "2026_07_NE_CHI|3547",
+      "week": 7,
+      "opponent": "CHI",
+      "quarter": 4,
+      "clock": "7:52",
+      "situation": "2nd & 10 at NE 43",
+      "offense": "NE",
+      "description": "(7:52) (Shotgun) 10-D.Maye sacked at NE 33 for -10 yards (sack split by 31-D.Thieneman and 92-D.Hardy).",
+      "yards": -10,
+      "neEpa": -1.64457119908184
+    },
+    "2026_07_NE_CHI|3567": {
+      "key": "2026_07_NE_CHI|3567",
+      "week": 7,
+      "opponent": "CHI",
+      "quarter": 4,
+      "clock": "7:11",
+      "situation": "3rd & 20 at NE 33",
+      "offense": "NE",
+      "description": "(7:11) (Shotgun) 10-D.Maye pass short left to 38-R.Stevenson to NE 46 for 13 yards (92-D.Hardy; 6-K.Gordon).",
+      "yards": 13,
+      "neEpa": -0.31362566514872
+    },
+    "2026_07_NE_CHI|3998": {
+      "key": "2026_07_NE_CHI|3998",
+      "week": 7,
+      "opponent": "CHI",
+      "quarter": 4,
+      "clock": "1:28",
+      "situation": "1st & 10 at NE 25",
+      "offense": "NE",
+      "description": "(1:28) (Shotgun) 10-D.Maye pass short right to 85-H.Henry pushed ob at NE 28 for 3 yards (31-D.Thieneman; 6-K.Gordon).",
+      "yards": 3,
+      "neEpa": -0.44537061068695
+    },
+    "2026_07_NE_CHI|4028": {
+      "key": "2026_07_NE_CHI|4028",
+      "week": 7,
+      "opponent": "CHI",
+      "quarter": 4,
+      "clock": "1:21",
+      "situation": "2nd & 7 at NE 28",
+      "offense": "NE",
+      "description": "(1:21) (Shotgun) 10-D.Maye pass short right to 1-A.Brown pushed ob at NE 42 for 14 yards (1-J.Johnson) [50-G.Jarrett].",
+      "yards": 14,
+      "neEpa": 0.834052060847171
+    },
+    "2026_07_NE_CHI|4092": {
+      "key": "2026_07_NE_CHI|4092",
+      "week": 7,
+      "opponent": "CHI",
+      "quarter": 4,
+      "clock": "1:09",
+      "situation": "1st & 10 at CHI 45",
+      "offense": "NE",
+      "description": "(1:09) (Shotgun) 10-D.Maye pass incomplete deep left to 1-A.Brown (29-T.Stevenson).",
+      "yards": 0,
+      "neEpa": -0.37549035291886
+    },
+    "2026_07_NE_CHI|4115": {
+      "key": "2026_07_NE_CHI|4115",
+      "week": 7,
+      "opponent": "CHI",
+      "quarter": 4,
+      "clock": "1:01",
+      "situation": "2nd & 10 at CHI 45",
+      "offense": "NE",
+      "description": "(1:01) (Shotgun) 10-D.Maye pass short right to 3-D.Douglas to CHI 29 for 16 yards (12-D.Bush) [50-G.Jarrett].",
+      "yards": 16,
+      "neEpa": 1.34638005355373
+    },
+    "2026_07_NE_CHI|202": {
+      "key": "2026_07_NE_CHI|202",
+      "week": 7,
+      "opponent": "CHI",
+      "quarter": 1,
+      "clock": "12:16",
+      "situation": "3rd & 6 at CHI 46",
+      "offense": "NE",
+      "description": "(12:16) (Shotgun) 38-R.Stevenson left guard to CHI 45 for 1 yard (48-D.Jackson).",
+      "yards": 1,
+      "neEpa": -1.52389978943393
+    },
+    "2026_07_NE_CHI|321": {
+      "key": "2026_07_NE_CHI|321",
+      "week": 7,
+      "opponent": "CHI",
+      "quarter": 1,
+      "clock": "10:02",
+      "situation": "3rd & 7 at NE 25",
+      "offense": "CHI",
+      "description": "(10:02) (Shotgun) 18-C.Williams pass incomplete short right to 14-K.Raymond.",
+      "yards": 0,
+      "neEpa": 1.44488994592365
+    },
+    "2026_07_NE_CHI|580": {
+      "key": "2026_07_NE_CHI|580",
+      "week": 7,
+      "opponent": "CHI",
+      "quarter": 1,
+      "clock": "6:28",
+      "situation": "3rd & 7 at CHI 24",
+      "offense": "CHI",
+      "description": "(6:28) (Shotgun) 18-C.Williams pass short left to 4-D.Swift to CHI 24 for no gain (53-C.Elliss; 22-C.Woods).",
+      "yards": 0,
+      "neEpa": 1.41321520926431
+    },
+    "2026_07_NE_CHI|1339": {
+      "key": "2026_07_NE_CHI|1339",
+      "week": 7,
+      "opponent": "CHI",
+      "quarter": 2,
+      "clock": "9:37",
+      "situation": "3rd & 7 at NE 26",
+      "offense": "CHI",
+      "description": "(9:37) (Shotgun) 18-C.Williams pass short left to 15-R.Odunze to NE 20 for 6 yards (14-R.Spillane; 25-M.Jones). (Virtual Measurement).",
+      "yards": 6,
+      "neEpa": -0.015681317076087
+    },
+    "2026_07_NE_CHI|1455": {
+      "key": "2026_07_NE_CHI|1455",
+      "week": 7,
+      "opponent": "CHI",
+      "quarter": 2,
+      "clock": "7:12",
+      "situation": "3rd & 8 at NE 13",
+      "offense": "CHI",
+      "description": "(7:12) (Shotgun) 18-C.Williams pass incomplete short left to 15-R.Odunze. ** Injury Update: NE-31-K.Byard has returned to the game. Penalty on CHI-15-R.Odunze, Offensive Pass Interference, declined.",
+      "yards": 0,
+      "neEpa": 0.845434671128114
+    },
+    "2026_07_NE_CHI|1983": {
+      "key": "2026_07_NE_CHI|1983",
+      "week": 7,
+      "opponent": "CHI",
+      "quarter": 2,
+      "clock": "0:21",
+      "situation": "3rd & 17 at NE 24",
+      "offense": "CHI",
+      "description": "(:21) (Shotgun) 18-C.Williams pass short right to 10-L.Burden for 24 yards, TOUCHDOWN.",
+      "yards": 24,
+      "neEpa": -4.35774193599355
+    },
+    "2026_07_NE_CHI|2230": {
+      "key": "2026_07_NE_CHI|2230",
+      "week": 7,
+      "opponent": "CHI",
+      "quarter": 3,
+      "clock": "13:52",
+      "situation": "3rd & 2 at CHI 36",
+      "offense": "CHI",
+      "description": "(13:52) (Shotgun) 18-C.Williams scrambles left end pushed ob at CHI 41 for 5 yards (22-C.Woods).",
+      "yards": 5,
+      "neEpa": -0.935427471529692
+    },
+    "2026_07_NE_CHI|2892": {
+      "key": "2026_07_NE_CHI|2892",
+      "week": 7,
+      "opponent": "CHI",
+      "quarter": 3,
+      "clock": "3:09",
+      "situation": "3rd & 8 at CHI 28",
+      "offense": "CHI",
+      "description": "(3:09) (Shotgun) 18-C.Williams pass incomplete deep right to 84-C.Loveland.",
+      "yards": 0,
+      "neEpa": 1.38803695561364
+    },
+    "2026_07_NE_CHI|3247": {
+      "key": "2026_07_NE_CHI|3247",
+      "week": 7,
+      "opponent": "CHI",
+      "quarter": 4,
+      "clock": "13:14",
+      "situation": "3rd & 11 at CHI 13",
+      "offense": "CHI",
+      "description": "(13:14) (Shotgun) 18-C.Williams pass deep right to 15-R.Odunze to CHI 34 for 21 yards (0-C.Gonzalez).",
+      "yards": 21,
+      "neEpa": -2.93494727672078
+    },
+    "2026_07_NE_CHI|3363": {
+      "key": "2026_07_NE_CHI|3363",
+      "week": 7,
+      "opponent": "CHI",
+      "quarter": 4,
+      "clock": "9:44",
+      "situation": "3rd & 2 at NE 43",
+      "offense": "CHI",
+      "description": "(9:44) (Shotgun) 18-C.Williams pass incomplete short right to 84-C.Loveland.",
+      "yards": 0,
+      "neEpa": 1.89221727289259
+    },
+    "2026_07_NE_CHI|3473": {
+      "key": "2026_07_NE_CHI|3473",
+      "week": 7,
+      "opponent": "CHI",
+      "quarter": 4,
+      "clock": "8:09",
+      "situation": "3rd & 11 at NE 35",
+      "offense": "CHI",
+      "description": "(8:09) (Shotgun) 18-C.Williams pass incomplete deep right [53-C.Elliss].",
+      "yards": 0,
+      "neEpa": 0.93407949794477
+    },
+    "2026_07_NE_CHI|3669": {
+      "key": "2026_07_NE_CHI|3669",
+      "week": 7,
+      "opponent": "CHI",
+      "quarter": 4,
+      "clock": "5:27",
+      "situation": "3rd & 1 at CHI 18",
+      "offense": "CHI",
+      "description": "(5:27) 65-L.Newman reported in as eligible. 4-D.Swift left end to CHI 26 for 8 yards (4-C.Woodson). PENALTY on CHI-13-Z.Thomas, Offensive Holding, 10 yards, enforced at CHI 20.",
+      "yards": 2,
+      "neEpa": 1.26206293911673
+    },
+    "2026_07_NE_CHI|3711": {
+      "key": "2026_07_NE_CHI|3711",
+      "week": 7,
+      "opponent": "CHI",
+      "quarter": 4,
+      "clock": "4:59",
+      "situation": "3rd & 9 at CHI 10",
+      "offense": "CHI",
+      "description": "(4:59) (Shotgun) 18-C.Williams pass deep right to 15-R.Odunze to CHI 31 for 21 yards (25-M.Jones).",
+      "yards": 21,
+      "neEpa": -2.33662506146356
+    },
+    "2026_07_NE_CHI|3918": {
+      "key": "2026_07_NE_CHI|3918",
+      "week": 7,
+      "opponent": "CHI",
+      "quarter": 4,
+      "clock": "1:46",
+      "situation": "3rd & 5 at NE 30",
+      "offense": "CHI",
+      "description": "(1:46) (Shotgun) 18-C.Williams sacked at NE 40 for -10 yards (90-C.Barmore). NE-90-C.Barmore was injured during the play.",
+      "yards": -10,
+      "neEpa": 1.68463510542533
+    },
+    "2026_07_NE_CHI|1106": {
+      "key": "2026_07_NE_CHI|1106",
+      "week": 7,
+      "opponent": "CHI",
+      "quarter": 2,
+      "clock": "12:54",
+      "situation": "1st & 10 at CHI 20",
+      "offense": "NE",
+      "description": "(12:54) 38-R.Stevenson left guard to CHI 7 for 13 yards (21-C.Lewis; 29-T.Stevenson).",
+      "yards": 13,
+      "neEpa": 0.86075275100302
+    },
+    "2026_07_NE_CHI|1128": {
+      "key": "2026_07_NE_CHI|1128",
+      "week": 7,
+      "opponent": "CHI",
+      "quarter": 2,
+      "clock": "12:16",
+      "situation": "1st & Goal at CHI 7",
+      "offense": "NE",
+      "description": "(12:16) 38-R.Stevenson left end to CHI 7 for no gain (48-D.Jackson).",
+      "yards": 0,
+      "neEpa": -0.529843861237168
+    },
+    "2026_07_NE_CHI|832": {
+      "key": "2026_07_NE_CHI|832",
+      "week": 7,
+      "opponent": "CHI",
+      "quarter": 1,
+      "clock": "1:43",
+      "situation": "1st & Goal at NE 4",
+      "offense": "CHI",
+      "description": "(1:43) 4-D.Swift left end for 4 yards, TOUCHDOWN.",
+      "yards": 4,
+      "neEpa": -0.960833765740972
+    },
+    "2026_07_NE_CHI|1368": {
+      "key": "2026_07_NE_CHI|1368",
+      "week": 7,
+      "opponent": "CHI",
+      "quarter": 2,
+      "clock": "8:57",
+      "situation": "4th & 1 at NE 20",
+      "offense": "CHI",
+      "description": "(8:57) 4-D.Swift left tackle pushed ob at NE 15 for 5 yards (4-C.Woodson).",
+      "yards": 5,
+      "neEpa": -1.67699660896324
+    },
+    "2026_07_NE_CHI|1395": {
+      "key": "2026_07_NE_CHI|1395",
+      "week": 7,
+      "opponent": "CHI",
+      "quarter": 2,
+      "clock": "8:20",
+      "situation": "1st & 10 at NE 15",
+      "offense": "CHI",
+      "description": "(8:20) 10-L.Burden left end pushed ob at NE 8 for 7 yards (53-C.Elliss).",
+      "yards": 7,
+      "neEpa": -0.376664560229983
+    },
+    "2026_07_NE_CHI|1422": {
+      "key": "2026_07_NE_CHI|1422",
+      "week": 7,
+      "opponent": "CHI",
+      "quarter": 2,
+      "clock": "7:49",
+      "situation": "2nd & 3 at NE 8",
+      "offense": "CHI",
+      "description": "(7:49) 18-C.Williams left guard to NE 8 for no gain. PENALTY on CHI-18-C.Williams, Illegal Forward Handoff, 5 yards, enforced at NE 8.",
+      "yards": 0,
+      "neEpa": 1.51126832771115
+    },
+    "2026_07_NE_CHI|1489": {
+      "key": "2026_07_NE_CHI|1489",
+      "week": 7,
+      "opponent": "CHI",
+      "quarter": 2,
+      "clock": "7:08",
+      "situation": "4th & 8 at NE 13",
+      "offense": "CHI",
+      "description": "(7:08) 8-C.Santos 31 yard field goal is GOOD, Center-46-S.Daly, Holder-19-T.Taylor.",
+      "yards": 0,
+      "neEpa": -0.186179564485738
+    },
+    "2026_07_NE_CHI|1940": {
+      "key": "2026_07_NE_CHI|1940",
+      "week": 7,
+      "opponent": "CHI",
+      "quarter": 2,
+      "clock": "0:34",
+      "situation": "1st & 10 at NE 17",
+      "offense": "CHI",
+      "description": "(:34) (Shotgun) 18-C.Williams pass incomplete short left.",
+      "yards": 0,
+      "neEpa": 0.445104127196828
+    },
+    "2026_07_NE_CHI|1963": {
+      "key": "2026_07_NE_CHI|1963",
+      "week": 7,
+      "opponent": "CHI",
+      "quarter": 2,
+      "clock": "0:27",
+      "situation": "2nd & 10 at NE 17",
+      "offense": "CHI",
+      "description": "(:27) (Shotgun) 18-C.Williams sacked at NE 24 for -7 yards (25-M.Jones).",
+      "yards": -7,
+      "neEpa": 1.08688584092306
+    },
+    "2026_07_NE_CHI|2412": {
+      "key": "2026_07_NE_CHI|2412",
+      "week": 7,
+      "opponent": "CHI",
+      "quarter": 3,
+      "clock": "9:48",
+      "situation": "2nd & 1 at NE 12",
+      "offense": "CHI",
+      "description": "(9:48) 18-C.Williams pass short left to 84-C.Loveland for 12 yards, TOUCHDOWN.",
+      "yards": 12,
+      "neEpa": -1.50515580567298
+    },
+    "2026_07_NE_CHI|244": {
+      "key": "2026_07_NE_CHI|244",
+      "week": 7,
+      "opponent": "CHI",
+      "quarter": 1,
+      "clock": "11:30",
+      "situation": "1st & 10 at CHI 46",
+      "offense": "CHI",
+      "description": "(11:30) 18-C.Williams pass short right to 10-L.Burden to NE 28 for 26 yards (4-C.Woodson).",
+      "yards": 26,
+      "neEpa": -1.51801441411953
+    },
+    "2026_07_NE_CHI|807": {
+      "key": "2026_07_NE_CHI|807",
+      "week": 7,
+      "opponent": "CHI",
+      "quarter": 1,
+      "clock": "2:32",
+      "situation": "2nd & 9 at CHI 38",
+      "offense": "CHI",
+      "description": "(2:32) (Shotgun) 18-C.Williams pass deep left to 10-L.Burden to NE 4 for 58 yards (31-K.Byard).",
+      "yards": 58,
+      "neEpa": -4.38862458040239
+    },
+    "2026_07_NE_CHI|1848": {
+      "key": "2026_07_NE_CHI|1848",
+      "week": 7,
+      "opponent": "CHI",
+      "quarter": 2,
+      "clock": "2:21",
+      "situation": "2nd & 11 at CHI 30",
+      "offense": "CHI",
+      "description": "(2:21) (Shotgun) 18-C.Williams pass deep middle to 10-L.Burden to NE 48 for 22 yards (22-C.Woods; 14-R.Spillane). PENALTY on NE-50-G.Jacas, Roughing the Passer, 15 yards, enforced at NE 48.",
+      "yards": 22,
+      "neEpa": -2.48947439156473
+    },
+    "2026_07_NE_CHI|1918": {
+      "key": "2026_07_NE_CHI|1918",
+      "week": 7,
+      "opponent": "CHI",
+      "quarter": 2,
+      "clock": "1:16",
+      "situation": "2nd & 4 at NE 27",
+      "offense": "CHI",
+      "description": "(1:16) 4-D.Swift left end to NE 17 for 10 yards (91-E.Ponder).",
+      "yards": 10,
+      "neEpa": -0.746420980576659
+    },
+    "2026_07_NE_CHI|2365": {
+      "key": "2026_07_NE_CHI|2365",
+      "week": 7,
+      "opponent": "CHI",
+      "quarter": 3,
+      "clock": "11:04",
+      "situation": "2nd & 14 at NE 43",
+      "offense": "CHI",
+      "description": "(11:04) (Shotgun) 18-C.Williams pass deep left to 84-C.Loveland to NE 21 for 22 yards (23-J.Reed).",
+      "yards": 22,
+      "neEpa": -2.45203304977622
+    },
+    "2026_07_NE_CHI|3294": {
+      "key": "2026_07_NE_CHI|3294",
+      "week": 7,
+      "opponent": "CHI",
+      "quarter": 4,
+      "clock": "11:54",
+      "situation": "2nd & 5 at CHI 39",
+      "offense": "CHI",
+      "description": "(11:54) (Shotgun) 4-D.Swift right tackle to CHI 49 for 10 yards (31-K.Byard; 22-C.Woods).",
+      "yards": 10,
+      "neEpa": -0.86803925037384
+    },
+    "2026_07_NE_CHI|3758": {
+      "key": "2026_07_NE_CHI|3758",
+      "week": 7,
+      "opponent": "CHI",
+      "quarter": 4,
+      "clock": "3:32",
+      "situation": "2nd & 12 at CHI 29",
+      "offense": "CHI",
+      "description": "(3:32) (Shotgun) 18-C.Williams pass short right to 15-R.Odunze to 50 for 21 yards (0-C.Gonzalez; 31-K.Byard).",
+      "yards": 21,
+      "neEpa": -1.86848703020951
+    }
+  },
+  "lists": {
+    "turnovers": [
+      {
+        "heading": "New England turnovers (1)",
+        "entries": [
+          {
+            "key": "2026_07_NE_CHI|1658",
+            "badge": "Interception",
+            "tone": "bad"
+          }
+        ]
+      },
+      {
+        "heading": "Takeaways (0)",
+        "entries": []
+      }
+    ],
+    "thirdDown": [
+      {
+        "heading": "New England on third down — 2 of 7 converted",
+        "entries": [
+          {
+            "key": "2026_07_NE_CHI|202",
+            "badge": "Stopped",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_07_NE_CHI|438",
+            "badge": "Stopped",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_07_NE_CHI|669",
+            "badge": "Stopped",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_07_NE_CHI|954",
+            "badge": "Converted",
+            "tone": "good"
+          },
+          {
+            "key": "2026_07_NE_CHI|2557",
+            "badge": "Converted",
+            "tone": "good"
+          },
+          {
+            "key": "2026_07_NE_CHI|3057",
+            "badge": "Stopped",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_07_NE_CHI|3567",
+            "badge": "Stopped",
+            "tone": "bad"
+          }
+        ]
+      },
+      {
+        "heading": "CHI on third down — 4 of 13 converted",
+        "entries": [
+          {
+            "key": "2026_07_NE_CHI|321",
+            "badge": "Stopped",
+            "tone": "good"
+          },
+          {
+            "key": "2026_07_NE_CHI|580",
+            "badge": "Stopped",
+            "tone": "good"
+          },
+          {
+            "key": "2026_07_NE_CHI|1339",
+            "badge": "Stopped",
+            "tone": "good"
+          },
+          {
+            "key": "2026_07_NE_CHI|1455",
+            "badge": "Stopped",
+            "tone": "good"
+          },
+          {
+            "key": "2026_07_NE_CHI|1983",
+            "badge": "Converted",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_07_NE_CHI|2230",
+            "badge": "Converted",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_07_NE_CHI|2892",
+            "badge": "Stopped",
+            "tone": "good"
+          },
+          {
+            "key": "2026_07_NE_CHI|3247",
+            "badge": "Converted",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_07_NE_CHI|3363",
+            "badge": "Stopped",
+            "tone": "good"
+          },
+          {
+            "key": "2026_07_NE_CHI|3473",
+            "badge": "Stopped",
+            "tone": "good"
+          },
+          {
+            "key": "2026_07_NE_CHI|3669",
+            "badge": "Stopped",
+            "tone": "good"
+          },
+          {
+            "key": "2026_07_NE_CHI|3711",
+            "badge": "Converted",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_07_NE_CHI|3918",
+            "badge": "Stopped",
+            "tone": "good"
+          }
+        ]
+      }
+    ],
+    "redZone": [
+      {
+        "heading": "New England red-zone trip 1 of 4 · Touchdown",
+        "entries": [
+          {
+            "key": "2026_07_NE_CHI|1106"
+          },
+          {
+            "key": "2026_07_NE_CHI|1128"
+          },
+          {
+            "key": "2026_07_NE_CHI|1150",
+            "badge": "Touchdown",
+            "tone": "good"
+          }
+        ]
+      },
+      {
+        "heading": "New England red-zone trip 2 of 4 · Turnover",
+        "entries": [
+          {
+            "key": "2026_07_NE_CHI|1658"
+          }
+        ]
+      },
+      {
+        "heading": "New England red-zone trip 3 of 4 · Touchdown",
+        "entries": []
+      },
+      {
+        "heading": "New England red-zone trip 4 of 4 · Touchdown",
+        "entries": []
+      },
+      {
+        "heading": "CHI red-zone trip 1 of 4 · Touchdown",
+        "entries": [
+          {
+            "key": "2026_07_NE_CHI|832",
+            "badge": "Touchdown",
+            "tone": "bad"
+          }
+        ]
+      },
+      {
+        "heading": "CHI red-zone trip 2 of 4 · Field goal",
+        "entries": [
+          {
+            "key": "2026_07_NE_CHI|1368"
+          },
+          {
+            "key": "2026_07_NE_CHI|1395"
+          },
+          {
+            "key": "2026_07_NE_CHI|1422"
+          },
+          {
+            "key": "2026_07_NE_CHI|1455"
+          },
+          {
+            "key": "2026_07_NE_CHI|1489"
+          }
+        ]
+      },
+      {
+        "heading": "CHI red-zone trip 3 of 4 · Touchdown",
+        "entries": [
+          {
+            "key": "2026_07_NE_CHI|1940"
+          },
+          {
+            "key": "2026_07_NE_CHI|1963"
+          }
+        ]
+      },
+      {
+        "heading": "CHI red-zone trip 4 of 4 · Touchdown",
+        "entries": [
+          {
+            "key": "2026_07_NE_CHI|2412",
+            "badge": "Touchdown",
+            "tone": "bad"
+          }
+        ]
+      }
+    ],
+    "explosive": [
+      {
+        "heading": "New England explosive plays (11) — runs of 10+ and passes of 15+ yards",
+        "entries": [
+          {
+            "key": "2026_07_NE_CHI|86",
+            "badge": "19 yds",
+            "tone": "good"
+          },
+          {
+            "key": "2026_07_NE_CHI|954",
+            "badge": "15 yds",
+            "tone": "good"
+          },
+          {
+            "key": "2026_07_NE_CHI|1081",
+            "badge": "16 yds",
+            "tone": "good"
+          },
+          {
+            "key": "2026_07_NE_CHI|1106",
+            "badge": "13 yds",
+            "tone": "good"
+          },
+          {
+            "key": "2026_07_NE_CHI|1542",
+            "badge": "16 yds",
+            "tone": "good"
+          },
+          {
+            "key": "2026_07_NE_CHI|1636",
+            "badge": "15 yds",
+            "tone": "good"
+          },
+          {
+            "key": "2026_07_NE_CHI|2054",
+            "badge": "18 yds",
+            "tone": "good"
+          },
+          {
+            "key": "2026_07_NE_CHI|2079",
+            "badge": "48 yds",
+            "tone": "good"
+          },
+          {
+            "key": "2026_07_NE_CHI|2664",
+            "badge": "16 yds",
+            "tone": "good"
+          },
+          {
+            "key": "2026_07_NE_CHI|2763",
+            "badge": "30 yds",
+            "tone": "good"
+          },
+          {
+            "key": "2026_07_NE_CHI|4115",
+            "badge": "16 yds",
+            "tone": "good"
+          }
+        ]
+      },
+      {
+        "heading": "CHI explosive plays (10) — runs of 10+ and passes of 15+ yards",
+        "entries": [
+          {
+            "key": "2026_07_NE_CHI|244",
+            "badge": "26 yds",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_07_NE_CHI|807",
+            "badge": "58 yds",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_07_NE_CHI|1848",
+            "badge": "22 yds",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_07_NE_CHI|1918",
+            "badge": "10 yds",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_07_NE_CHI|1983",
+            "badge": "24 yds",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_07_NE_CHI|2365",
+            "badge": "22 yds",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_07_NE_CHI|3247",
+            "badge": "21 yds",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_07_NE_CHI|3294",
+            "badge": "10 yds",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_07_NE_CHI|3711",
+            "badge": "21 yds",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_07_NE_CHI|3758",
+            "badge": "21 yds",
+            "tone": "bad"
+          }
+        ]
+      }
+    ],
+    "star": [
+      {
+        "heading": "Every play credited to D.Maye (win probability added)",
+        "entries": [
+          {
+            "key": "2026_07_NE_CHI|63",
+            "badge": "-1.8% win prob.",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_07_NE_CHI|86",
+            "badge": "+6.4% win prob.",
+            "tone": "good"
+          },
+          {
+            "key": "2026_07_NE_CHI|152",
+            "badge": "+1.0% win prob.",
+            "tone": "good"
+          },
+          {
+            "key": "2026_07_NE_CHI|177",
+            "badge": "-1.0% win prob.",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_07_NE_CHI|224",
+            "badge": "-4.2% win prob.",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_07_NE_CHI|438",
+            "badge": "-3.2% win prob.",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_07_NE_CHI|669",
+            "badge": "-2.1% win prob.",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_07_NE_CHI|907",
+            "badge": "-0.6% win prob.",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_07_NE_CHI|954",
+            "badge": "+1.9% win prob.",
+            "tone": "good"
+          },
+          {
+            "key": "2026_07_NE_CHI|999",
+            "badge": "+0.3% win prob.",
+            "tone": "good"
+          },
+          {
+            "key": "2026_07_NE_CHI|1024",
+            "badge": "-1.1% win prob.",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_07_NE_CHI|1081",
+            "badge": "+3.3% win prob.",
+            "tone": "good"
+          },
+          {
+            "key": "2026_07_NE_CHI|1150",
+            "badge": "+2.6% win prob.",
+            "tone": "good"
+          },
+          {
+            "key": "2026_07_NE_CHI|1542",
+            "badge": "+2.3% win prob.",
+            "tone": "good"
+          },
+          {
+            "key": "2026_07_NE_CHI|1589",
+            "badge": "+2.4% win prob.",
+            "tone": "good"
+          },
+          {
+            "key": "2026_07_NE_CHI|1636",
+            "badge": "+1.2% win prob.",
+            "tone": "good"
+          },
+          {
+            "key": "2026_07_NE_CHI|1658",
+            "badge": "-10.3% win prob.",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_07_NE_CHI|2054",
+            "badge": "+1.1% win prob.",
+            "tone": "good"
+          },
+          {
+            "key": "2026_07_NE_CHI|2079",
+            "badge": "+9.4% win prob.",
+            "tone": "good"
+          },
+          {
+            "key": "2026_07_NE_CHI|2482",
+            "badge": "+2.3% win prob.",
+            "tone": "good"
+          },
+          {
+            "key": "2026_07_NE_CHI|2512",
+            "badge": "-1.0% win prob.",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_07_NE_CHI|2557",
+            "badge": "+2.9% win prob.",
+            "tone": "good"
+          },
+          {
+            "key": "2026_07_NE_CHI|2664",
+            "badge": "+1.6% win prob.",
+            "tone": "good"
+          },
+          {
+            "key": "2026_07_NE_CHI|2689",
+            "badge": "-1.1% win prob.",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_07_NE_CHI|2714",
+            "badge": "+3.9% win prob.",
+            "tone": "good"
+          },
+          {
+            "key": "2026_07_NE_CHI|2763",
+            "badge": "+10.6% win prob.",
+            "tone": "good"
+          },
+          {
+            "key": "2026_07_NE_CHI|2941",
+            "badge": "+1.3% win prob.",
+            "tone": "good"
+          },
+          {
+            "key": "2026_07_NE_CHI|2995",
+            "badge": "+2.0% win prob.",
+            "tone": "good"
+          },
+          {
+            "key": "2026_07_NE_CHI|3057",
+            "badge": "-3.6% win prob.",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_07_NE_CHI|3517",
+            "badge": "-2.3% win prob.",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_07_NE_CHI|3547",
+            "badge": "-4.5% win prob.",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_07_NE_CHI|3567",
+            "badge": "-2.7% win prob.",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_07_NE_CHI|3998",
+            "badge": "-0.1% win prob.",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_07_NE_CHI|4028",
+            "badge": "+0.3% win prob.",
+            "tone": "good"
+          },
+          {
+            "key": "2026_07_NE_CHI|4092",
+            "badge": "-0.8% win prob.",
+            "tone": "bad"
+          },
+          {
+            "key": "2026_07_NE_CHI|4115",
+            "badge": "+0.8% win prob.",
+            "tone": "good"
+          }
+        ]
+      }
+    ]
+  },
+  "scrimmagePlays": {
+    "offense": 49,
+    "defense": 65
+  }
+}

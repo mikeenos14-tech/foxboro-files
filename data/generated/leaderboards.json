@@ -1,6 +1,44 @@
 {
   "receiving": [
     {
+      "playerId": "00-0033090",
+      "playerName": "Hunter Henry",
+      "position": "TE",
+      "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/hfbzcsv4v7fdpohl42mk",
+      "sortValue": 296,
+      "stats": [
+        {
+          "label": "Rec",
+          "value": "26/31"
+        },
+        {
+          "label": "Yds",
+          "value": "296"
+        },
+        {
+          "label": "YAC/rec",
+          "value": "6.6"
+        },
+        {
+          "label": "Catchable",
+          "value": "95%"
+        },
+        {
+          "label": "Drops",
+          "value": "1"
+        },
+        {
+          "label": "TD",
+          "value": "2"
+        },
+        {
+          "label": "FUM",
+          "value": "0"
+        }
+      ],
+      "detail": "4.4 yds of separation · 3rd of 112 qualified"
+    },
+    {
       "playerId": "00-0037816",
       "playerName": "Romeo Doubs",
       "position": "WR",
@@ -36,26 +74,26 @@
           "value": "1"
         }
       ],
-      "detail": "3.2 yds of separation · 38th of 111 qualified"
+      "detail": "3.2 yds of separation · 39th of 112 qualified"
     },
     {
       "playerId": "00-0038621",
       "playerName": "DeMario Douglas",
       "position": "WR",
       "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/m3fpxawsccoqsajtqlec",
-      "sortValue": 233,
+      "sortValue": 256,
       "stats": [
         {
           "label": "Rec",
-          "value": "20/30"
+          "value": "23/34"
         },
         {
           "label": "Yds",
-          "value": "233"
+          "value": "256"
         },
         {
           "label": "YAC/rec",
-          "value": "3.4"
+          "value": "3.5"
         },
         {
           "label": "Catchable",
@@ -74,45 +112,7 @@
           "value": "1"
         }
       ],
-      "detail": "3.8 yds of separation · 11th of 111 qualified"
-    },
-    {
-      "playerId": "00-0033090",
-      "playerName": "Hunter Henry",
-      "position": "TE",
-      "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/hfbzcsv4v7fdpohl42mk",
-      "sortValue": 225,
-      "stats": [
-        {
-          "label": "Rec",
-          "value": "19/24"
-        },
-        {
-          "label": "Yds",
-          "value": "225"
-        },
-        {
-          "label": "YAC/rec",
-          "value": "7.2"
-        },
-        {
-          "label": "Catchable",
-          "value": "95%"
-        },
-        {
-          "label": "Drops",
-          "value": "1"
-        },
-        {
-          "label": "TD",
-          "value": "2"
-        },
-        {
-          "label": "FUM",
-          "value": "0"
-        }
-      ],
-      "detail": "4.3 yds of separation · 3rd of 111 qualified"
+      "detail": "3.9 yds of separation · 11th of 112 qualified"
     },
     {
       "playerId": "00-0033555",
@@ -150,7 +150,81 @@
           "value": "0"
         }
       ],
-      "detail": "2.7 yds of separation · 84th of 111 qualified"
+      "detail": "2.7 yds of separation · 84th of 112 qualified"
+    },
+    {
+      "playerId": "00-0036875",
+      "playerName": "Rhamondre Stevenson",
+      "position": "RB",
+      "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/x9dlpy3i5fciajd4w9ij",
+      "sortValue": 204,
+      "stats": [
+        {
+          "label": "Rec",
+          "value": "20/24"
+        },
+        {
+          "label": "Yds",
+          "value": "204"
+        },
+        {
+          "label": "YAC/rec",
+          "value": "9.4"
+        },
+        {
+          "label": "Catchable",
+          "value": "94%"
+        },
+        {
+          "label": "Drops",
+          "value": "1"
+        },
+        {
+          "label": "TD",
+          "value": "1"
+        },
+        {
+          "label": "FUM",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "playerId": "00-0041395",
+      "playerName": "Eli Raridon",
+      "position": "TE",
+      "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/flj53cmijulfjxegejyc",
+      "sortValue": 168,
+      "stats": [
+        {
+          "label": "Rec",
+          "value": "12/16"
+        },
+        {
+          "label": "Yds",
+          "value": "168"
+        },
+        {
+          "label": "YAC/rec",
+          "value": "5.1"
+        },
+        {
+          "label": "Catchable",
+          "value": "90%"
+        },
+        {
+          "label": "Drops",
+          "value": "1"
+        },
+        {
+          "label": "TD",
+          "value": "2"
+        },
+        {
+          "label": "FUM",
+          "value": "0"
+        }
+      ]
     },
     {
       "playerId": "00-0040131",
@@ -161,7 +235,7 @@
       "stats": [
         {
           "label": "Rec",
-          "value": "6/11"
+          "value": "6/12"
         },
         {
           "label": "Yds",
@@ -190,97 +264,23 @@
       ]
     },
     {
-      "playerId": "00-0041395",
-      "playerName": "Eli Raridon",
-      "position": "TE",
-      "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/flj53cmijulfjxegejyc",
-      "sortValue": 112,
-      "stats": [
-        {
-          "label": "Rec",
-          "value": "9/12"
-        },
-        {
-          "label": "Yds",
-          "value": "112"
-        },
-        {
-          "label": "YAC/rec",
-          "value": "3.3"
-        },
-        {
-          "label": "Catchable",
-          "value": "90%"
-        },
-        {
-          "label": "Drops",
-          "value": "1"
-        },
-        {
-          "label": "TD",
-          "value": "1"
-        },
-        {
-          "label": "FUM",
-          "value": "0"
-        }
-      ]
-    },
-    {
-      "playerId": "00-0036875",
-      "playerName": "Rhamondre Stevenson",
-      "position": "RB",
-      "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/x9dlpy3i5fciajd4w9ij",
-      "sortValue": 111,
-      "stats": [
-        {
-          "label": "Rec",
-          "value": "15/19"
-        },
-        {
-          "label": "Yds",
-          "value": "111"
-        },
-        {
-          "label": "YAC/rec",
-          "value": "8.1"
-        },
-        {
-          "label": "Catchable",
-          "value": "94%"
-        },
-        {
-          "label": "Drops",
-          "value": "1"
-        },
-        {
-          "label": "TD",
-          "value": "0"
-        },
-        {
-          "label": "FUM",
-          "value": "1"
-        }
-      ]
-    },
-    {
       "playerId": "00-0040563",
       "playerName": "Efton Chism III",
       "position": "WR",
       "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/zbnf3ujmwprzgjnwdtlo",
-      "sortValue": 98,
+      "sortValue": 114,
       "stats": [
         {
           "label": "Rec",
-          "value": "9/14"
+          "value": "10/15"
         },
         {
           "label": "Yds",
-          "value": "98"
+          "value": "114"
         },
         {
           "label": "YAC/rec",
-          "value": "1.3"
+          "value": "2.5"
         },
         {
           "label": "Catchable",
@@ -305,19 +305,19 @@
       "playerName": "A.J. Brown",
       "position": "WR",
       "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/qfhvjyssf0lwsh0kienp",
-      "sortValue": 53,
+      "sortValue": 101,
       "stats": [
         {
           "label": "Rec",
-          "value": "6/14"
+          "value": "9/20"
         },
         {
           "label": "Yds",
-          "value": "53"
+          "value": "101"
         },
         {
           "label": "YAC/rec",
-          "value": "3.8"
+          "value": "2.6"
         },
         {
           "label": "Catchable",
@@ -335,26 +335,27 @@
           "label": "FUM",
           "value": "1"
         }
-      ]
+      ],
+      "detail": "2.5 yds of separation · 95th of 112 qualified"
     },
     {
       "playerId": "00-0040734",
       "playerName": "TreVeyon Henderson",
       "position": "RB",
       "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ac50ezemcsqyjkrfrzgt",
-      "sortValue": 31,
+      "sortValue": 45,
       "stats": [
         {
           "label": "Rec",
-          "value": "3/5"
+          "value": "5/7"
         },
         {
           "label": "Yds",
-          "value": "31"
+          "value": "45"
         },
         {
           "label": "YAC/rec",
-          "value": "6.0"
+          "value": "7.0"
         },
         {
           "label": "Catchable",
@@ -492,15 +493,15 @@
       "playerName": "Rhamondre Stevenson",
       "position": "RB",
       "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/x9dlpy3i5fciajd4w9ij",
-      "sortValue": 263,
+      "sortValue": 285,
       "stats": [
         {
           "label": "Att",
-          "value": "71"
+          "value": "77"
         },
         {
           "label": "Yds",
-          "value": "263"
+          "value": "285"
         },
         {
           "label": "YPC",
@@ -515,26 +516,55 @@
           "value": "0"
         }
       ],
-      "detail": "+0.38 yds/carry over expected · 13th of 44 qualified"
+      "detail": "+0.18 yds/carry over expected · 15th of 45 qualified"
+    },
+    {
+      "playerId": "00-0039851",
+      "playerName": "Drake Maye",
+      "position": "QB",
+      "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/mkauzrg7vo8lfziigsbg",
+      "sortValue": 211,
+      "stats": [
+        {
+          "label": "Att",
+          "value": "38"
+        },
+        {
+          "label": "Yds",
+          "value": "211"
+        },
+        {
+          "label": "YPC",
+          "value": "5.6"
+        },
+        {
+          "label": "TD",
+          "value": "2"
+        },
+        {
+          "label": "FUM",
+          "value": "2"
+        }
+      ]
     },
     {
       "playerId": "00-0040734",
       "playerName": "TreVeyon Henderson",
       "position": "RB",
       "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/ac50ezemcsqyjkrfrzgt",
-      "sortValue": 194,
+      "sortValue": 203,
       "stats": [
         {
           "label": "Att",
-          "value": "49"
+          "value": "52"
         },
         {
           "label": "Yds",
-          "value": "194"
+          "value": "203"
         },
         {
           "label": "YPC",
-          "value": "4.0"
+          "value": "3.9"
         },
         {
           "label": "TD",
@@ -545,55 +575,26 @@
           "value": "1"
         }
       ],
-      "detail": "+0.05 yds/carry over expected · 18th of 44 qualified"
-    },
-    {
-      "playerId": "00-0039851",
-      "playerName": "Drake Maye",
-      "position": "QB",
-      "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/mkauzrg7vo8lfziigsbg",
-      "sortValue": 185,
-      "stats": [
-        {
-          "label": "Att",
-          "value": "34"
-        },
-        {
-          "label": "Yds",
-          "value": "185"
-        },
-        {
-          "label": "YPC",
-          "value": "5.4"
-        },
-        {
-          "label": "TD",
-          "value": "1"
-        },
-        {
-          "label": "FUM",
-          "value": "2"
-        }
-      ]
+      "detail": "-0.00 yds/carry over expected · 20th of 45 qualified"
     },
     {
       "playerId": "00-0040556",
       "playerName": "Corey Kiner",
       "position": "RB",
       "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/zz4imen7bzozyeicm1mn",
-      "sortValue": 138,
+      "sortValue": 151,
       "stats": [
         {
           "label": "Att",
-          "value": "31"
+          "value": "35"
         },
         {
           "label": "Yds",
-          "value": "138"
+          "value": "151"
         },
         {
           "label": "YPC",
-          "value": "4.5"
+          "value": "4.3"
         },
         {
           "label": "TD",
@@ -603,7 +604,8 @@
           "label": "FUM",
           "value": "1"
         }
-      ]
+      ],
+      "detail": "+0.46 yds/carry over expected · 13th of 45 qualified"
     },
     {
       "playerId": "00-0038476",
@@ -699,11 +701,44 @@
       ]
     },
     {
+      "playerId": "00-0036981",
+      "playerName": "Christian Barmore",
+      "position": "DT",
+      "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/r2qnczxwkpqhk8is5jkv",
+      "sortValue": 17,
+      "stats": [
+        {
+          "label": "Sacks",
+          "value": "3"
+        },
+        {
+          "label": "QB Hits",
+          "value": "6"
+        },
+        {
+          "label": "TFL",
+          "value": "3"
+        },
+        {
+          "label": "INT",
+          "value": "0"
+        },
+        {
+          "label": "PBU",
+          "value": "0"
+        },
+        {
+          "label": "FF",
+          "value": "1"
+        }
+      ]
+    },
+    {
       "playerId": "00-0041569",
       "playerName": "Gabe Jacas",
       "position": "OLB",
       "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/pfj4ln4kaoimfwezeviq",
-      "sortValue": 14,
+      "sortValue": 15,
       "stats": [
         {
           "label": "Sacks",
@@ -711,7 +746,7 @@
         },
         {
           "label": "QB Hits",
-          "value": "5"
+          "value": "6"
         },
         {
           "label": "TFL",
@@ -728,39 +763,6 @@
         {
           "label": "FF",
           "value": "0"
-        }
-      ]
-    },
-    {
-      "playerId": "00-0036981",
-      "playerName": "Christian Barmore",
-      "position": "DT",
-      "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/r2qnczxwkpqhk8is5jkv",
-      "sortValue": 13,
-      "stats": [
-        {
-          "label": "Sacks",
-          "value": "2"
-        },
-        {
-          "label": "QB Hits",
-          "value": "5"
-        },
-        {
-          "label": "TFL",
-          "value": "2"
-        },
-        {
-          "label": "INT",
-          "value": "0"
-        },
-        {
-          "label": "PBU",
-          "value": "0"
-        },
-        {
-          "label": "FF",
-          "value": "1"
         }
       ]
     },
@@ -769,7 +771,7 @@
       "playerName": "Christian Elliss",
       "position": "ILB",
       "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/czu70fdqv4ktyg0rjusz",
-      "sortValue": 9,
+      "sortValue": 12,
       "stats": [
         {
           "label": "Sacks",
@@ -777,11 +779,11 @@
         },
         {
           "label": "QB Hits",
-          "value": "3"
+          "value": "5"
         },
         {
           "label": "TFL",
-          "value": "1"
+          "value": "2"
         },
         {
           "label": "INT",
@@ -794,6 +796,72 @@
         {
           "label": "FF",
           "value": "1"
+        }
+      ]
+    },
+    {
+      "playerId": "00-0037253",
+      "playerName": "Marcus Jones",
+      "position": "CB",
+      "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/detzacjtmwsbfwkujduj",
+      "sortValue": 12,
+      "stats": [
+        {
+          "label": "Sacks",
+          "value": "1"
+        },
+        {
+          "label": "QB Hits",
+          "value": "1"
+        },
+        {
+          "label": "TFL",
+          "value": "2"
+        },
+        {
+          "label": "INT",
+          "value": "1"
+        },
+        {
+          "label": "PBU",
+          "value": "5"
+        },
+        {
+          "label": "FF",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "playerId": "00-0039289",
+      "playerName": "Leonard Taylor III",
+      "position": "DT",
+      "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/id0gc6aoq3qfokpcu9os",
+      "sortValue": 9,
+      "stats": [
+        {
+          "label": "Sacks",
+          "value": "2"
+        },
+        {
+          "label": "QB Hits",
+          "value": "2"
+        },
+        {
+          "label": "TFL",
+          "value": "3"
+        },
+        {
+          "label": "INT",
+          "value": "0"
+        },
+        {
+          "label": "PBU",
+          "value": "0"
+        },
+        {
+          "label": "FF",
+          "value": "0"
         }
       ]
     },
@@ -864,31 +932,31 @@
       ]
     },
     {
-      "playerId": "00-0037253",
-      "playerName": "Marcus Jones",
-      "position": "CB",
-      "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/detzacjtmwsbfwkujduj",
-      "sortValue": 7,
+      "playerId": "00-0036916",
+      "playerName": "Milton Williams",
+      "position": "DT",
+      "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/atjr08mfju9h4h09jglo",
+      "sortValue": 6,
       "stats": [
         {
           "label": "Sacks",
-          "value": "0"
-        },
-        {
-          "label": "QB Hits",
-          "value": "0"
-        },
-        {
-          "label": "TFL",
-          "value": "0"
-        },
-        {
-          "label": "INT",
           "value": "1"
         },
         {
+          "label": "QB Hits",
+          "value": "2"
+        },
+        {
+          "label": "TFL",
+          "value": "2"
+        },
+        {
+          "label": "INT",
+          "value": "0"
+        },
+        {
           "label": "PBU",
-          "value": "5"
+          "value": "0"
         },
         {
           "label": "FF",
@@ -930,6 +998,39 @@
       ]
     },
     {
+      "playerId": "00-0040716",
+      "playerName": "Craig Woodson",
+      "position": "SS",
+      "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/lzv1w2xru9zzjuxn4gsx",
+      "sortValue": 5,
+      "stats": [
+        {
+          "label": "Sacks",
+          "value": "0"
+        },
+        {
+          "label": "QB Hits",
+          "value": "0"
+        },
+        {
+          "label": "TFL",
+          "value": "0"
+        },
+        {
+          "label": "INT",
+          "value": "1"
+        },
+        {
+          "label": "PBU",
+          "value": "3"
+        },
+        {
+          "label": "FF",
+          "value": "0"
+        }
+      ]
+    },
+    {
       "playerId": "00-0034720",
       "playerName": "Robert Spillane",
       "position": "ILB",
@@ -959,105 +1060,6 @@
         {
           "label": "FF",
           "value": "1"
-        }
-      ]
-    },
-    {
-      "playerId": "00-0036916",
-      "playerName": "Milton Williams",
-      "position": "DT",
-      "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/atjr08mfju9h4h09jglo",
-      "sortValue": 5,
-      "stats": [
-        {
-          "label": "Sacks",
-          "value": "1"
-        },
-        {
-          "label": "QB Hits",
-          "value": "2"
-        },
-        {
-          "label": "TFL",
-          "value": "1"
-        },
-        {
-          "label": "INT",
-          "value": "0"
-        },
-        {
-          "label": "PBU",
-          "value": "0"
-        },
-        {
-          "label": "FF",
-          "value": "0"
-        }
-      ]
-    },
-    {
-      "playerId": "00-0039289",
-      "playerName": "Leonard Taylor III",
-      "position": "DT",
-      "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/id0gc6aoq3qfokpcu9os",
-      "sortValue": 5,
-      "stats": [
-        {
-          "label": "Sacks",
-          "value": "1"
-        },
-        {
-          "label": "QB Hits",
-          "value": "1"
-        },
-        {
-          "label": "TFL",
-          "value": "2"
-        },
-        {
-          "label": "INT",
-          "value": "0"
-        },
-        {
-          "label": "PBU",
-          "value": "0"
-        },
-        {
-          "label": "FF",
-          "value": "0"
-        }
-      ]
-    },
-    {
-      "playerId": "00-0040716",
-      "playerName": "Craig Woodson",
-      "position": "SS",
-      "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/lzv1w2xru9zzjuxn4gsx",
-      "sortValue": 4,
-      "stats": [
-        {
-          "label": "Sacks",
-          "value": "0"
-        },
-        {
-          "label": "QB Hits",
-          "value": "0"
-        },
-        {
-          "label": "TFL",
-          "value": "0"
-        },
-        {
-          "label": "INT",
-          "value": "1"
-        },
-        {
-          "label": "PBU",
-          "value": "2"
-        },
-        {
-          "label": "FF",
-          "value": "0"
         }
       ]
     },
