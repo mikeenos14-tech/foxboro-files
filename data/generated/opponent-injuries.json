@@ -1,72 +1,65 @@
 [
   {
-    "playerId": "00-0035386",
-    "playerName": "T.J. Edwards",
-    "position": "LB",
-    "week": 7,
-    "injury": "Hamstring",
-    "practiceStatus": "Limited",
-    "gameStatus": "Doubtful",
-    "lastUpdated": "2026-10-21T21:36:22.135Z"
-  },
-  {
-    "playerId": "00-0036258",
-    "playerName": "Jonah Jackson",
-    "position": "G",
-    "week": 7,
-    "injury": "Hip",
-    "practiceStatus": "Full",
-    "gameStatus": null,
-    "lastUpdated": "2026-10-21T21:36:22.135Z"
-  },
-  {
-    "playerId": "00-0037109",
-    "playerName": "Jack Sanborn",
-    "position": "LB",
-    "week": 7,
-    "injury": "Concussion",
-    "practiceStatus": "Did Not Participate",
-    "gameStatus": "Out",
-    "lastUpdated": "2026-10-21T21:36:22.135Z"
-  },
-  {
-    "playerId": "00-0039071",
-    "playerName": "Tyrique Stevenson",
-    "position": "CB",
-    "week": 7,
-    "injury": "Hip",
-    "practiceStatus": "Full",
+    "playerId": "4869645",
+    "playerName": "Caleb Douglas",
+    "position": "WR",
+    "week": 8,
+    "injury": "Ankle",
     "gameStatus": "Questionable",
-    "lastUpdated": "2026-10-21T21:36:22.135Z"
+    "lastUpdated": "2026-10-22T20:36Z"
   },
   {
-    "playerId": "00-0040236",
-    "playerName": "Kyle Monangai",
+    "playerId": "4880236",
+    "playerName": "Will Kacmarek",
+    "position": "TE",
+    "week": 8,
+    "injury": "Hamstring",
+    "gameStatus": "Questionable",
+    "lastUpdated": "2026-10-22T23:55Z"
+  },
+  {
+    "playerId": "4682745",
+    "playerName": "Jaylen Wright",
     "position": "RB",
-    "week": 7,
-    "injury": "Thumb",
-    "practiceStatus": "Did Not Participate",
-    "gameStatus": "Out",
-    "lastUpdated": "2026-10-21T21:36:22.135Z"
+    "week": 8,
+    "injury": "Foot",
+    "gameStatus": "Questionable",
+    "lastUpdated": "2026-10-22T20:58Z"
   },
   {
-    "playerId": "00-0041085",
-    "playerName": "Keyshaun Elliott",
-    "position": "LB",
-    "week": 7,
-    "injury": "Quadricep",
-    "practiceStatus": "Full",
-    "gameStatus": null,
-    "lastUpdated": "2026-10-23T08:18:27.883Z"
+    "playerId": "4259558",
+    "playerName": "Robert Beal Jr.",
+    "position": "DE",
+    "week": 8,
+    "injury": "Hamstring",
+    "gameStatus": "Questionable",
+    "lastUpdated": "2026-10-13T17:10Z"
   },
   {
-    "playerId": "patriots-keyshaun-elliot",
-    "playerName": "Keyshaun Elliot",
+    "playerId": "4259804",
+    "playerName": "Willie Gay Jr.",
     "position": "LB",
-    "week": 7,
-    "injury": "Quadricep",
-    "practiceStatus": "Full",
-    "gameStatus": null,
-    "lastUpdated": "2026-10-21T21:36:22.135Z"
+    "week": 8,
+    "injury": "Illness",
+    "gameStatus": "Questionable",
+    "lastUpdated": "2026-10-22T20:18Z"
+  },
+  {
+    "playerId": "4371946",
+    "playerName": "Reese Taylor",
+    "position": "CB",
+    "week": 8,
+    "injury": "Quadriceps",
+    "gameStatus": "Questionable",
+    "lastUpdated": "2026-10-13T17:10Z"
+  },
+  {
+    "playerId": "4034729",
+    "playerName": "Tucker Addington",
+    "position": "LS",
+    "week": 8,
+    "injury": "Shoulder",
+    "gameStatus": "Questionable",
+    "lastUpdated": "2026-10-21T20:36Z"
   }
 ]

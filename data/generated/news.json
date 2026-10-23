@@ -1,5 +1,14 @@
 [
   {
+    "id": "67891192-de8c-4b0d-a14c-f41b52fa8a23",
+    "publishedAt": "2026-10-23T13:01:00.000Z",
+    "type": "Beat Report",
+    "headline": "Game Observations: 8 takeaways from the Patriots loss to the Bears on Thursday Night Football in Week 7",
+    "summary": "The Patriots fell to the Bears in a 30-24 loss in Chicago on Thursday night.",
+    "sourceUrl": "https://www.patriots.com/news/game-observations-8-takeaways-from-the-patriots-loss-to-the-bears-on-thursday-night-football-in-week-7",
+    "sourceName": "Patriots.com"
+  },
+  {
     "id": "50254932",
     "publishedAt": "2026-10-23T05:40:08Z",
     "type": "Analysis",
@@ -7,15 +16,6 @@
     "summary": "— Round 2 went to Caleb Williams and the Chicago Bears.",
     "sourceUrl": "http://www.espn.com/nfl/recap?gameId=401873010",
     "sourceName": "ESPN"
-  },
-  {
-    "id": "67891192-de8c-4b0d-a14c-f41b52fa8a23",
-    "publishedAt": "2026-10-23T05:23:18.000Z",
-    "type": "Beat Report",
-    "headline": "Game Observations: 8 takeaways from the Patriots loss to the Bears on Thursday Night Football in Week 7",
-    "summary": "The Patriots fell to the Bears in a 30-24 loss in Chicago on Thursday night.",
-    "sourceUrl": "https://www.patriots.com/news/game-observations-8-takeaways-from-the-patriots-loss-to-the-bears-on-thursday-night-football-in-week-7",
-    "sourceName": "Patriots.com"
   },
   {
     "id": "7e6e5b0e-c2c6-4dfc-99c1-3c277c2a4b8b",

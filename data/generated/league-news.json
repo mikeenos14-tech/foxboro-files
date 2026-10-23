@@ -1,14 +1,5 @@
 [
   {
-    "id": "50254858",
-    "publishedAt": "2026-10-23T07:01:47Z",
-    "type": "Injury",
-    "headline": "TE Cole Kmet exits Bears' win vs. Patriots with knee injury",
-    "summary": "Bears tight end Cole Kmet exited Thursday night's game against the Patriots on a cart after injuring his right knee in the fourth quarter.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50254858/bears-te-cole-kmet-exits-late-vs-patriots-knee-injury",
-    "sourceName": "ESPN"
-  },
-  {
     "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/ben-johnson-cole-kmets-knee-injury-doesnt-look-good",
     "publishedAt": "2026-10-23T06:49:02.000Z",
     "type": "Injury",
@@ -18,39 +9,48 @@
     "sourceName": "Pro Football Talk"
   },
   {
-    "id": "50254932",
-    "publishedAt": "2026-10-23T05:40:08Z",
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-jaguars-ot-anton-harrison-out-for-year-with-a-torn-acl",
+    "publishedAt": "2026-10-23T12:28:37.000Z",
+    "type": "Injury",
+    "headline": "Report: Jaguars OT Anton Harrison out for year with a torn ACL",
+    "summary": "When Jaguars left tackle Anton Harrison was placed on injured reserve earlier this month, word was that the results of knee surgery would determine how long he'll be out.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-jaguars-ot-anton-harrison-out-for-year-with-a-torn-acl",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "50233140",
+    "publishedAt": "2026-10-23T10:58:00Z",
     "type": "Analysis",
-    "headline": "Caleb Williams throws 2 TD passes as the Bears beat Drake Maye and the Patriots 30-24",
-    "summary": "— Round 2 went to Caleb Williams and the Chicago Bears.",
-    "sourceUrl": "http://www.espn.com/nfl/recap?gameId=401873010",
+    "headline": "Kenneth Walker III is thriving with Chiefs. Why did the Seahawks let him go?",
+    "summary": "While the Seahawks' run game is struggling, the Super Bowl MVP is on a historic pace for the Chiefs this season.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50233140/seattle-seahawks-kansas-city-chiefs-kenneth-walker",
     "sourceName": "ESPN"
   },
   {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=423832",
-    "publishedAt": "2026-10-23T04:20:15.000Z",
-    "type": "Transaction",
-    "headline": "Rams Expected To Explore WR Trade",
-    "summary": "Davante Adams has joined Myles Garrett and Kobie Turner among Rams placed on IR. While the future Hall of Fame wide receiver plans to undergo surgery to expedite his recovery, Los Angeles will be down a key weapon for several weeks. With the team 2-4 after another last-second loss, looking into some short-term help appears […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/rams-expected-to-explore-wr-trade",
-    "sourceName": "Pro Football Rumors"
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-puka-nacuas-calf-injury-not-believed-to-be-serious-but-week-7-status-unclear",
+    "publishedAt": "2026-10-23T13:29:11.000Z",
+    "type": "Injury",
+    "headline": "Report: Puka Nacua's calf injury not believed to be serious, but Week 7 status unclear",
+    "summary": "Rams receiver Puka Nacua had to exit Thursday's practice with a calf injury, and now there's a bit of an update on him.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-puka-nacuas-calf-injury-not-believed-to-be-serious-but-week-7-status-unclear",
+    "sourceName": "Pro Football Talk"
   },
   {
-    "id": "50253313",
-    "publishedAt": "2026-10-23T00:03:25Z",
+    "id": "50250196",
+    "publishedAt": "2026-10-23T10:00:00Z",
     "type": "Analysis",
-    "headline": "Eagles still trying to salvage NFC East crown without Hurts as they host Cowboys on Monday night",
-    "summary": "— Tanner McKee spent most of his two seasons widely considered one of the top young backup quarterbacks in the NFL.",
-    "sourceUrl": "http://www.espn.com/nfl/preview?gameId=401873009",
+    "headline": "What's wrong with Bo Nix? Exploring the Broncos QB's struggles, long-term status",
+    "summary": "The Broncos are winning, but Nix is dealing with the roughest stretch of his career. Why is he struggling -- and is he still Denver's long-term QB?",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50250196/quarterback-bo-nix-struggles-broncos-long-term-questions",
     "sourceName": "ESPN"
   },
   {
-    "id": "50251985",
-    "publishedAt": "2026-10-23T00:36:15Z",
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/nick-siranni-mike-vrabel-dont-address-specifics-regarding-recent-250-000-fines",
+    "publishedAt": "2026-10-23T13:54:47.000Z",
     "type": "Analysis",
-    "headline": "Morris returns to Atlanta, leading a 49ers defense that will try to pressure Falcons QB Penix",
-    "summary": "— Raheem Morris, part of the Atlanta Falcons' leadership team that made Michael Penix Jr. the No. 8 overall pick in the 2024 draft, will return to Atlanta on Sunday as the defensive coordinator of an undefeated San Francisco 49ers team that will try...",
-    "sourceUrl": "http://www.espn.com/nfl/preview?gameId=401873017",
-    "sourceName": "ESPN"
+    "headline": "Nick Siranni, Mike Vrabel don't address specifics regarding recent $250,000 fines",
+    "summary": "On Wednesday, a report emerged regarding significant fines imposed on three head coaches for their interactions with officials.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/nick-siranni-mike-vrabel-dont-address-specifics-regarding-recent-250-000-fines",
+    "sourceName": "Pro Football Talk"
   }
 ]

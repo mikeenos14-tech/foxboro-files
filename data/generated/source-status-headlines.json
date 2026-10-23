@@ -1,50 +1,50 @@
 {
   "web:espn-news.json": {
-    "lastAttempt": "2026-10-23T08:18:23.892Z",
-    "lastSuccess": "2026-10-23T08:18:23.892Z"
+    "lastAttempt": "2026-10-23T14:00:31.623Z",
+    "lastSuccess": "2026-10-23T14:00:31.623Z"
   },
   "web:espn-league-news.json": {
-    "lastAttempt": "2026-10-23T08:18:23.972Z",
-    "lastSuccess": "2026-10-23T08:18:23.972Z"
+    "lastAttempt": "2026-10-23T14:00:31.674Z",
+    "lastSuccess": "2026-10-23T14:00:31.674Z"
   },
   "web:espn-roster.json": {
-    "lastAttempt": "2026-10-23T08:18:24.040Z",
-    "lastSuccess": "2026-10-23T08:18:24.040Z"
+    "lastAttempt": "2026-10-23T14:00:31.787Z",
+    "lastSuccess": "2026-10-23T14:00:31.787Z"
   },
   "web:espn-depth-chart.json": {
-    "lastAttempt": "2026-10-23T08:18:24.093Z",
-    "lastSuccess": "2026-10-23T08:18:24.093Z"
+    "lastAttempt": "2026-10-23T14:00:31.816Z",
+    "lastSuccess": "2026-10-23T14:00:31.816Z"
   },
   "web:espn-standings.json": {
-    "lastAttempt": "2026-10-23T08:18:24.164Z",
-    "lastSuccess": "2026-10-23T08:18:24.164Z"
+    "lastAttempt": "2026-10-23T14:00:31.844Z",
+    "lastSuccess": "2026-10-23T14:00:31.844Z"
   },
   "web:team-rss.xml": {
-    "lastAttempt": "2026-10-23T08:18:24.367Z",
-    "lastSuccess": "2026-10-23T08:18:24.367Z"
+    "lastAttempt": "2026-10-23T14:00:32.014Z",
+    "lastSuccess": "2026-10-23T14:00:32.014Z"
   },
   "web:pfr-league-news.xml": {
-    "lastAttempt": "2026-10-23T08:18:24.550Z",
-    "lastSuccess": "2026-10-23T08:18:24.550Z"
+    "lastAttempt": "2026-10-23T14:00:32.141Z",
+    "lastSuccess": "2026-10-23T14:00:32.141Z"
   },
   "web:pft-league-news.xml": {
-    "lastAttempt": "2026-10-23T08:18:24.703Z",
-    "lastSuccess": "2026-10-23T08:18:24.703Z"
+    "lastAttempt": "2026-10-23T14:00:32.304Z",
+    "lastSuccess": "2026-10-23T14:00:32.304Z"
   },
   "web:espn-scoreboard.json": {
-    "lastAttempt": "2026-10-23T08:18:24.744Z",
-    "lastSuccess": "2026-10-23T08:18:24.744Z"
+    "lastAttempt": "2026-10-23T14:00:32.365Z",
+    "lastSuccess": "2026-10-23T14:00:32.365Z"
   },
   "web:espn-opponent-roster.json": {
-    "lastAttempt": "2026-10-23T08:18:24.815Z",
-    "lastSuccess": "2026-10-23T08:18:24.815Z"
+    "lastAttempt": "2026-10-23T14:00:32.417Z",
+    "lastSuccess": "2026-10-23T14:00:32.417Z"
   },
   "nflverse:games.csv": {
-    "lastAttempt": "2026-10-23T08:18:26.433Z",
-    "lastSuccess": "2026-10-23T08:18:26.433Z"
+    "lastAttempt": "2026-10-23T14:00:33.203Z",
+    "lastSuccess": "2026-10-23T14:00:33.203Z"
   },
   "nflverse:injuries_2026.csv": {
-    "lastAttempt": "2026-10-23T08:18:26.636Z",
-    "lastSuccess": "2026-10-23T08:18:26.636Z"
+    "lastAttempt": "2026-10-23T14:00:33.253Z",
+    "lastSuccess": "2026-10-23T14:00:33.253Z"
   }
 }
