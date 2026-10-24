@@ -132,10 +132,14 @@
     }
   ],
   "weather": {
-    "tempF": 85,
+    "tempF": 79,
     "wind": "10 mph",
-    "precipitation": "17%",
+    "precipitation": "30%",
     "isDome": false
   },
-  "previewTake": "Miami's pass defense grades out at 3/100—genuinely among the NFL's worst—and our pass offense sits at 71/100, which means we're looking at the widest statistical edge on the board this week. That's the matchup to hunt. The Dolphins are also 29th in defensive EPA overall, so there's real opportunity here, especially on the road at Hard Rock. What gives me pause: they've got the league's best run defense at 68/100 against our middle-of-the-pack rushing attack at 52/100, and their rush offense grades 84/100—elite—against our average pass defense. We're coming in hot at plus-0.15 EPA over our last three games while Miami's stumbling at minus-0.19, so the momentum is ours. This is a game we should win if we attack their secondary relentlessly."
+  "bettingContext": {
+    "spread": -8.5,
+    "overUnder": 44.5,
+    "asOf": "2026-10-24"
+  }
 }

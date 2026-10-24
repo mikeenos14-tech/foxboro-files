@@ -89,19 +89,14 @@
         "rank": 2
       },
       {
-        "playerId": "4259186",
-        "playerName": "Xavier Newman-Johnson",
-        "rank": 3
-      },
-      {
         "playerId": "4259646",
         "playerName": "Alijah Vera-Tucker",
-        "rank": 4
+        "rank": 3
       },
       {
         "playerId": "15718",
         "playerName": "Greg Van Roten",
-        "rank": 5
+        "rank": 4
       }
     ]
   },
@@ -335,16 +330,10 @@
         "rank": 1
       },
       {
-        "playerId": "4247722",
-        "playerName": "Benton Whitley",
-        "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xuch0jszvzrrin8jjxtx",
-        "rank": 2
-      },
-      {
         "playerId": "3122793",
         "playerName": "Harold Landry III",
         "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/u4vo0zlxvsph3annhc4f",
-        "rank": 3
+        "rank": 2
       }
     ]
   },

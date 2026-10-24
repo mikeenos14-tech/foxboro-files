@@ -8,5 +8,6 @@
   "homeTeam": "MIA",
   "awayTeam": "NE",
   "status": "scheduled",
-  "venue": "Hard Rock Stadium"
+  "venue": "Hard Rock Stadium",
+  "network": "CBS"
 }
