@@ -1,5 +1,59 @@
 [
   {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=423856",
+    "publishedAt": "2026-10-24T04:00:07.000Z",
+    "type": "Injury",
+    "headline": "Bears TE Cole Kmet Suffers Season-Ending Knee Injury",
+    "summary": "11:00pm: Kmet has a “serious” knee injury and will go on injured reserve, head coach Ben Johnson announced (via Courtney Cronin of ESPN). He will not return this season, Cronin reports. 11:28am: The Bears hung on for a 30-24 win over the Patriots on Thursday, but they may have lost tight end Cole Kmet to […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/bears-cole-kmet-could-be-done-for-year",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=423835",
+    "publishedAt": "2026-10-24T03:55:23.000Z",
+    "type": "Transaction",
+    "headline": "Pro Football Rumors Front Office Subscriber Chat: 10/23/26",
+    "summary": "Pro Football Rumors’ Sam Robinson will be holding a live chat at 2pm Central today, exclusively for Trade Rumors Front Office subscribers! Unlock Subscriber-Exclusive Articles Like This One With a Trade Rumors Front Office Subscription BENEFITS Access weekly subscriber-only articles by Sam Robinson Join exclusive weekly live chats with Sam Remove ads and support our […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/pro-football-rumors-front-office-subscriber-chat-10-23-26",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/seahawks-sent-mixed-signals-about-whether-zach-charbonnet-would-play-on-sunday",
+    "publishedAt": "2026-10-24T03:41:54.000Z",
+    "type": "Analysis",
+    "headline": "Seahawks sent mixed signals about whether Zach Charbonnet would play on Sunday",
+    "summary": "The Seahawks sent plenty of mixed signals this week regarding the question of whether running back Zach Charbonnet would play on Sunday.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/seahawks-sent-mixed-signals-about-whether-zach-charbonnet-would-play-on-sunday",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=423867",
+    "publishedAt": "2026-10-24T03:32:07.000Z",
+    "type": "Analysis",
+    "headline": "Colts QB Anthony Richardson Charged With Marijuana Possession",
+    "summary": "Colts backup quarterback Anthony Richardson was charged on Monday with a Class B misdemeanor for possession of marijuana, per Tyler Haughn of FOX 59. A bench trial is scheduled for Jan. 4, 2027. The charge stems from a traffic stop in Carmel, Ind., on Oct. 12, when police pulled Richardson over for having an expired […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/colts-qb-anthony-richardson-charged-with-marijuana-possession",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=423935",
+    "publishedAt": "2026-10-24T03:13:29.000Z",
+    "type": "Injury",
+    "headline": "Giants DE Chauncey Golston Out For Season",
+    "summary": "The Giants received a pair of tough injury updates heading into the weekend. After receiving confirmation that starting linebacker Tremaine Edmunds would miss the remainder of the season with a torn muscle in his chest, the team also found out today that defensive end Chauncey Golston would join him, per ESPN’s Jordan Raanan. Golston was […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/giants-de-chauncey-golston-out-for-season",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/president-trump-on-sundays-game-in-paris-nfl-probably-could-have-postponed",
+    "publishedAt": "2026-10-24T02:51:06.000Z",
+    "type": "Analysis",
+    "headline": "President Trump on Sunday's game in Paris: \"The NFL probably could have postponed\"",
+    "summary": "The NFL plans to press forward with Sunday's game between the Steelers and Saints in Paris.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/president-trump-on-sundays-game-in-paris-nfl-probably-could-have-postponed",
+    "sourceName": "Pro Football Talk"
+  },
+  {
     "id": "profootballrumors-https://www.profootballrumors.com/?p=423931",
     "publishedAt": "2026-10-24T02:11:38.000Z",
     "type": "Injury",
@@ -450,15 +504,6 @@
     "sourceName": "Pro Football Talk"
   },
   {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=423835",
-    "publishedAt": "2026-10-23T19:00:23.000Z",
-    "type": "Transaction",
-    "headline": "Pro Football Rumors Front Office Subscriber Chat: 10/23/26",
-    "summary": "Pro Football Rumors’ Sam Robinson will be holding a live chat at 2pm Central today, exclusively for Trade Rumors Front Office subscribers! Unlock Subscriber-Exclusive Articles Like This One With a Trade Rumors Front Office Subscription BENEFITS Access weekly subscriber-only articles by Sam Robinson Join exclusive weekly live chats with Sam Remove ads and support our […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/pro-football-rumors-front-office-subscriber-chat-10-23-26",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
     "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/vikings-rb-jordan-mason-questionable-for-sunday",
     "publishedAt": "2026-10-23T18:53:15.000Z",
     "type": "Injury",
@@ -540,15 +585,6 @@
     "sourceName": "Pro Football Talk"
   },
   {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=423856",
-    "publishedAt": "2026-10-23T18:08:07.000Z",
-    "type": "Injury",
-    "headline": "Bears TE Cole Kmet Suffers Season-Ending Knee Injury",
-    "summary": "1:08pm: Kmet has a “serious” knee injury and will go on injured reserve, head coach Ben Johnson announced (via Courtney Cronin of ESPN). He will not return this season, Cronin reports. 11:28am: The Bears hung on for a 30-24 win over the Patriots on Thursday, but they may have lost tight end Cole Kmet to […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/bears-cole-kmet-could-be-done-for-year",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
     "id": "50259154",
     "publishedAt": "2026-10-23T17:58:17Z",
     "type": "Injury",
@@ -601,15 +637,6 @@
     "summary": "The Colts officially will not have a few key players for Sunday’s game against the Vikings.",
     "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/sauce-gardner-tyler-warren-anthony-gould-ruled-out-for-colts-vikings",
     "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=423867",
-    "publishedAt": "2026-10-23T17:32:07.000Z",
-    "type": "Analysis",
-    "headline": "Colts QB Anthony Richardson Charged With Marijuana Possession",
-    "summary": "Colts backup quarterback Anthony Richardson was charged on Monday with a Class B misdemeanor for possession of marijuana, per Tyler Haughn of FOX 59. A bench trial is scheduled for Jan. 4, 2027. The charge stems from a traffic stop in Carmel, Ind., on Oct. 12, when police pulled Richardson over for having an expired […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/colts-qb-anthony-richardson-charged-with-marijuana-possession",
-    "sourceName": "Pro Football Rumors"
   },
   {
     "id": "50258811",
@@ -14775,51 +14802,6 @@
     "headline": "Aaron Rodgers set to move ahead of Peyton Manning on the all-time touchdown pass list",
     "summary": "With his next touchdown pass, Aaron Rodgers will have more than Peyton Manning, counting the playoffs.",
     "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/aaron-rodgers-set-to-move-ahead-of-peyton-manning-on-the-all-time-touchdown-pass-list",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=422410",
-    "publishedAt": "2026-10-10T04:30:37.000Z",
-    "type": "Analysis",
-    "headline": "Bears Legend Mike Ditka Passes Away At 86",
-    "summary": "The National Football League, the Bears franchise, and the city of Chicago have lost an icon. Hall of Fame tight end and former Bears and Saints head coach Mike Ditka has passed at the age of 86, his family announced Friday morning. “Mike Ditka epitomized football over so many years,” NFL commissioner Roger Goodell said […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/bears-legend-mike-ditka-passes-away-at-86",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=422416",
-    "publishedAt": "2026-10-10T04:20:39.000Z",
-    "type": "Transaction",
-    "headline": "Eagles Release QB Andy Dalton",
-    "summary": "Months after trading for Andy Dalton, the Eagles are moving him off their 53-man roster. Philadelphia is releasing the veteran quarterback, NFL.com’s Mike Garafolo reports. This will leave Tanner McKee and Cole Payton as Jalen Hurts’ backups. Dalton had won the Eagles’ second-string job entering the season, but Garafolo indicated before Week 4 Nick Sirianni […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/eagles-to-release-qb-andy-dalton",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=422462",
-    "publishedAt": "2026-10-10T04:15:27.000Z",
-    "type": "Injury",
-    "headline": "Ravens’ Lamar Jackson, Cam Jurgens To Miss Week 5",
-    "summary": "The sprained ankle Lamar Jackson suffered in Week 4 will sideline the superstar quarterback for at least one game. The Ravens will not create any mystery about the two-time MVP’s status, ruling him out for their Week 5 matchup against the Falcons. This designation moves Tyler Huntley into the Baltimore starting lineup, which has been […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/ravens-lamar-jackson-cam-jurgens-to-miss-week-5",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=422494",
-    "publishedAt": "2026-10-10T02:58:45.000Z",
-    "type": "Injury",
-    "headline": "NFL Injury Updates: Charbonnet, Jets Offense, McGregor",
-    "summary": "As the 2026 NFL season continues to develop, the Seahawks could certainly use some positive news on the injury front in their running backs room. Well, according to Albert Breer, a return of last year’s RB2, Zach Charbonnet, might not be too far off. Breer reports Charbonnet may return as soon as Week 6. Despite […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/nfl-injury-updates-charbonnet-jets-offense-mcgregor",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/multiple-playoff-teams-have-never-started-0-5",
-    "publishedAt": "2026-10-10T02:57:52.000Z",
-    "type": "Analysis",
-    "headline": "Multiple playoff teams have never started 0-5",
-    "summary": "One of the five 0-4 teams entering Week 5 (the Buccaneers) has finally gotten its first win of 2026.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/multiple-playoff-teams-have-never-started-0-5",
     "sourceName": "Pro Football Talk"
   }
 ]
