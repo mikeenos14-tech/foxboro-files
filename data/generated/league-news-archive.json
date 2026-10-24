@@ -1,5 +1,140 @@
 [
   {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/the-dallas-cowboys-cheerleaders-have-unionized",
+    "publishedAt": "2026-10-24T20:01:25.000Z",
+    "type": "Analysis",
+    "headline": "The Dallas Cowboys cheerleaders have unionized",
+    "summary": "One of the NFL's teams has another union to deal with — and the team in question didn't fight it.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/the-dallas-cowboys-cheerleaders-have-unionized",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/eagles-list-saquon-barkley-as-questionable-devonta-smith-dontayvion-wicks-ruled-out",
+    "publishedAt": "2026-10-24T20:00:52.000Z",
+    "type": "Injury",
+    "headline": "Eagles list Saquon Barkley as questionable; DeVonta Smith, Dontayvion Wicks ruled out",
+    "summary": "The Eagles have left the door open for running back Saquon Barkley to play on Monday night, but they will be down two wideouts against the Cowboys.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/eagles-list-saquon-barkley-as-questionable-devonta-smith-dontayvion-wicks-ruled-out",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "50268816",
+    "publishedAt": "2026-10-24T19:56:42Z",
+    "type": "Injury",
+    "headline": "Ravens rule out Lamar Jackson (ankle) vs. Bengals; Tyler 'Snoop' Huntley to start",
+    "summary": "The Baltimore Ravens have ruled QB Lamar Jackson out of Sundays game vs. the Cincinnati Bengals as he continues to deal with a high ankle sprain. Tyler \"Snoop\" Huntley will get the start.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50268816/ravens-rule-lamar-jackson-high-ankle-sprain-vs-bengals",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=423931",
+    "publishedAt": "2026-10-24T19:52:38.000Z",
+    "type": "Injury",
+    "headline": "Lamar Jackson Out With High Ankle Sprain",
+    "summary": "OCTOBER 24: Ahead of tomorrow’s home matchup with the Bengals, the Ravens have officially downgraded Jackson to “out.” The three-time first-team All-Pro passer will miss his third game in a row after sitting out the entire second half of Baltimore’s Week 4 win over the Titans. Per Tom Pelissero, Jackson was healthy enough to take […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/lamar-jackson-out-with-high-ankle-sprain",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/ravens-downgrade-qb-lamar-jackson-to-out-for-sunday",
+    "publishedAt": "2026-10-24T19:45:27.000Z",
+    "type": "Injury",
+    "headline": "Ravens downgrade QB Lamar Jackson to out for Sunday",
+    "summary": "Jackson will miss third straight game with high-ankle sprain.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/ravens-downgrade-qb-lamar-jackson-to-out-for-sunday",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/former-raiders-rb-pete-banaszak-dies-at-82",
+    "publishedAt": "2026-10-24T19:40:59.000Z",
+    "type": "Analysis",
+    "headline": "Former Raiders RB Pete Banaszak dies at 82",
+    "summary": "Former Raiders running back Pete Banaszak has died, the team announced Saturday.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/former-raiders-rb-pete-banaszak-dies-at-82",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=423391",
+    "publishedAt": "2026-10-24T19:15:00.000Z",
+    "type": "Transaction",
+    "headline": "Lions’ Brian Branch, Cade Mays Expected To Play In Week 7",
+    "summary": "OCTOBER 24: As expected, ESPN’s Jeremy Fowler reported this afternoon that Detroit plans to activate Branch from the reserve/physically unable to perform list today. 11 months after tearing his Achilles tendon, the Pro Bowl safety is finally approaching his return to the field. OCTOBER 19: On October 7, the Lions opened the practice window for […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/lions-brian-branch-cade-mays-expected-to-play-in-week-7",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/steelers-activate-s-deshon-elliott",
+    "publishedAt": "2026-10-24T19:05:39.000Z",
+    "type": "Transaction",
+    "headline": "Steelers activate S DeShon Elliott",
+    "summary": "Safety DeShon Elliott is back on the Steelers' active roster.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/steelers-activate-s-deshon-elliott",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/questions-linger-regarding-whether-jed-york-received-preferential-treatment",
+    "publishedAt": "2026-10-24T19:04:39.000Z",
+    "type": "Analysis",
+    "headline": "Questions linger regarding whether Jed York received preferential treatment",
+    "summary": "As it relates to the financial consequences of 49ers owner Jed York's suspension, relative to the financial consequences of a player suspension, there's no question that York received preferential treatment.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/questions-linger-regarding-whether-jed-york-received-preferential-treatment",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dolphins-activate-s-kyle-louis-back-to-active-roster",
+    "publishedAt": "2026-10-24T19:00:08.000Z",
+    "type": "Transaction",
+    "headline": "Dolphins activate S Kyle Louis back to active roster",
+    "summary": "The Dolphins activated safety Kyle Louis off injured reserve, the team announced Saturday.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dolphins-activate-s-kyle-louis-back-to-active-roster",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/chiefs-put-rb-brashard-smith-on-ir-activate-lb-cooper-mcdonald",
+    "publishedAt": "2026-10-24T18:58:15.000Z",
+    "type": "Transaction",
+    "headline": "Chiefs put RB Brashard Smith on IR, activate LB Cooper McDonald",
+    "summary": "The Chiefs made a change at running back ahead of Sunday's game against the Seahawks.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/chiefs-put-rb-brashard-smith-on-ir-activate-lb-cooper-mcdonald",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=423956",
+    "publishedAt": "2026-10-24T18:54:57.000Z",
+    "type": "Transaction",
+    "headline": "Browns Activate RB Dylan Sampson, Place G Teven Jenkins On IR",
+    "summary": "The Browns currently sit atop the AFC North, but their offense, which ranks 27th in total yards and 28th in points scored, could use a boost. Perhaps that boost will come from second-year running back Dylan Sampson, whom Cleveland has activated off injured reserve, placing offensive guard Teven Jenkins on IR in a corresponding move. […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/browns-activate-rb-dylan-sampson-place-g-teven-jenkins-on-ir",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/with-nick-bosa-out-longer-than-expected-49ers-may-not-have-enough-healthy-players-for-roster-spots-on-sunday",
+    "publishedAt": "2026-10-24T18:13:06.000Z",
+    "type": "Injury",
+    "headline": "With Nick Bosa out longer than expected, 49ers may not have enough healthy players for roster spots on Sunday",
+    "summary": "Bosa will miss fifth game with calf injury.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/with-nick-bosa-out-longer-than-expected-49ers-may-not-have-enough-healthy-players-for-roster-spots-on-sunday",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/giants-rule-out-s-jevon-holland-te-theo-johnson",
+    "publishedAt": "2026-10-24T17:55:17.000Z",
+    "type": "Injury",
+    "headline": "Giants rule out S Jevon Holland, TE Theo Johnson",
+    "summary": "The Giants ruled out a pair of players for Week 7 on Saturday afternoon.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/giants-rule-out-s-jevon-holland-te-theo-johnson",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/browns-activate-rb-dylan-sampson-from-ir-place-og-teven-jenkins-on-ir",
+    "publishedAt": "2026-10-24T17:51:53.000Z",
+    "type": "Transaction",
+    "headline": "Browns activate RB Dylan Sampson from IR, place OG Teven Jenkins on IR",
+    "summary": "The Browns have activated running back Dylan Sampson from injured reserve, the team announced.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/browns-activate-rb-dylan-sampson-from-ir-place-og-teven-jenkins-on-ir",
+    "sourceName": "Pro Football Talk"
+  },
+  {
     "id": "profootballrumors-https://www.profootballrumors.com/?p=423949",
     "publishedAt": "2026-10-24T17:19:46.000Z",
     "type": "Transaction",
@@ -214,15 +349,6 @@
     "summary": "The NFL plans to press forward with Sunday's game between the Steelers and Saints in Paris.",
     "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/president-trump-on-sundays-game-in-paris-nfl-probably-could-have-postponed",
     "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=423931",
-    "publishedAt": "2026-10-24T02:11:38.000Z",
-    "type": "Injury",
-    "headline": "Lamar Jackson Questionable With High Ankle Sprain",
-    "summary": "The Ravens have been without star quarterback Lamar Jackson for the past two games with what the team had been calling an ankle sprain. According to Jeff Zrebiec of The Athletic, though, Baltimore’s medical staff told Jackson today that he has a high ankle sprain. He’s listed as questionable after three limited practices this week, […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/lamar-jackson-questionable-with-high-ankle-sprain",
-    "sourceName": "Pro Football Rumors"
   },
   {
     "id": "50261735",
@@ -5245,15 +5371,6 @@
     "summary": "After New Orleans snapped its three-game losing streak, the team's focus quickly turns to Week 7 in France.",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/50220069/can-new-orleans-saints-carry-winning-momentum-paris",
     "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=423391",
-    "publishedAt": "2026-10-19T18:54:00.000Z",
-    "type": "Transaction",
-    "headline": "Lions’ Brian Branch, Cade Mays Expected To Play In Week 7",
-    "summary": "On October 7, the Lions opened the practice window for safety Brian Branch and center Cade Mays. Both players are eligible to be activated at any time, and that should be taking place soon. “Barring anything negatively happening between now and the game, we plan on playing both of those guys,” head coach Dan Campbell said on Monday. With […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/lions-brian-branch-cade-mays-expected-to-play-in-week-7",
-    "sourceName": "Pro Football Rumors"
   },
   {
     "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/shane-steichen-on-chris-ballards-firing-i-dont-think-it-falls-completely-on-chris",
@@ -14676,123 +14793,6 @@
     "headline": "Patriots Place Mack Hollins, Reggie Gilliam On IR",
     "summary": "The injuries keep piling up for the Patriots, who are placing wide receiver Mack Hollins and fullback Reggie Gilliam on IR, Doug Kyed of the Boston Herald reports. Both players will miss a minimum of four games. Hollins, who is in his second season with the Patriots, leads the team in catches (15) and receiving […]",
     "sourceUrl": "https://www.profootballrumors.com/2026/10/patriots-place-mack-hollins-reggie-gilliam-on-ir",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "50149634",
-    "publishedAt": "2026-10-10T19:50:54Z",
-    "type": "Injury",
-    "headline": "Steelers place WR Michael Pittman Jr. on IR with foot injury",
-    "summary": "The Pittsburgh Steelers placed wide receiver Michael Pittman Jr. (foot) on injured reserve, the team announced on Saturday.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50149634/steelers-placing-wr-pittman-injured-reserve",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/steelers-wr-michael-pittman-headed-to-ir",
-    "publishedAt": "2026-10-10T19:41:14.000Z",
-    "type": "Injury",
-    "headline": "Steelers WR Michael Pittman headed to IR",
-    "summary": "The Steelers are placing wide receiver Michael Pittman Jr. on injured reserve, Jeremy Fowler of ESPN reports.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/steelers-wr-michael-pittman-headed-to-ir",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "50149505",
-    "publishedAt": "2026-10-10T19:28:09Z",
-    "type": "Injury",
-    "headline": "Bills rule out Ed Oliver, Joshua Palmer, wait on WR DJ Moore",
-    "summary": "Bills wide receiver DJ Moore returned to practice in a noncontact jersey and will be designated as questionable for \"Monday Night Football\" against the Rams. Buffalo has ruled out wide receiver Joshua Palmer and defensive tackle Ed Oliver.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50149505/bills-rule-ed-oliver-joshua-palmer-wait-wr-dj-moore",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bill-belichick-gets-his-biggest-college-win-as-north-carolina-upsets-pitt",
-    "publishedAt": "2026-10-10T19:26:35.000Z",
-    "type": "Analysis",
-    "headline": "Bill Belichick gets his biggest college win as North Carolina upsets Pitt",
-    "summary": "Bill Belichick's North Carolina Tar Heels have finally beaten a ranked opponent.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bill-belichick-gets-his-biggest-college-win-as-north-carolina-upsets-pitt",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=422537",
-    "publishedAt": "2026-10-10T19:26:00.000Z",
-    "type": "Transaction",
-    "headline": "Texans Activate DT Kayden McDonald, S M.J. Stewart For Week 5",
-    "summary": "The Texans are getting some reinforcements on defense for Week 5. The team announced this afternoon that rookie second-round defensive tackle Kayden McDonald (injured reserve) and veteran safety M.J. Stewart (reserve physically unable to perform list) have been activated from their respective injured lists. To make room on the 53-man roster, Houston waived recently promoted […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/texans-activate-dt-kayden-mcdonald-s-m-j-stewart-for-week-5",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bears-activate-lb-noah-sewell-from-pup",
-    "publishedAt": "2026-10-10T19:25:21.000Z",
-    "type": "Transaction",
-    "headline": "Bears activate LB Noah Sewell from PUP",
-    "summary": "The Bears activated linebacker Noah Sewell from reserve/PUP, the team announced Saturday.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bears-activate-lb-noah-sewell-from-pup",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/vikings-will-elevate-odell-beckham-jr-from-practice-squad",
-    "publishedAt": "2026-10-10T19:16:15.000Z",
-    "type": "Transaction",
-    "headline": "Vikings will elevate Odell Beckham Jr. from practice squad",
-    "summary": "While there's a chance he'll be inactive, Vikings receiver Odell Beckham Jr. has a chance to make his debut for Minnesota on Sunday.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/vikings-will-elevate-odell-beckham-jr-from-practice-squad",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=422528",
-    "publishedAt": "2026-10-10T19:08:48.000Z",
-    "type": "Transaction",
-    "headline": "Bears Activate LB Noah Sewell",
-    "summary": "Bears linebacker Noah Sewell has not played in a game since he tore his Achilles in Week 17 last year, but he could make his return on Sunday in Green Bay. The Bears have activated Sewell from the reserve/PUP list and elevated running back Zavier Scott from the practice squad, the team announced. Sewell, a […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/bears-activate-lb-noah-sewell",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=422346",
-    "publishedAt": "2026-10-10T19:06:53.000Z",
-    "type": "Beat Report",
-    "headline": "Steelers Open DeShon Elliott’s Practice Window; Michael Pittman Jr. To IR",
-    "summary": "OCTOBER 10: Seeing as Pittman is expected to miss multiple weeks due to his foot injury, the Steelers have opted not to rush him back to the field. According to ESPN’s Jeremy Fowler, Pittsburgh is placing the veteran receiver on injured reserve. Fowler reports the placement as a move to the “short-term IR,” indicating that […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/steelers-open-deshon-elliotts-practice-window-michael-pittman-jr-to-ir",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/darron-lees-trial-is-set-for-september-20-2027",
-    "publishedAt": "2026-10-10T18:38:57.000Z",
-    "type": "Analysis",
-    "headline": "Darron Lee's murder trial is set for September 20, 2027",
-    "summary": "Former NFL linebacker Darron Lee, a first-round pick of the Jets in 2016, faces charges in Tennessee of killing his girlfriend.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/darron-lees-trial-is-set-for-september-20-2027",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=422516",
-    "publishedAt": "2026-10-10T18:37:10.000Z",
-    "type": "Injury",
-    "headline": "Colts Place DE Arden Key On IR",
-    "summary": "Colts defensive end Arden Key is going to miss extended time as a result of the hamstring injury he suffered in a 30-13 win over the Commanders in Week 4. The Colts placed Key on IR on Saturday, per a team announcement. In a corresponding move, they elevated wide receiver Nick Westbrook-Ikhine from the practice […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/colts-place-de-arden-key-on-ir",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "50148833",
-    "publishedAt": "2026-10-10T18:01:12Z",
-    "type": "Injury",
-    "headline": "Colts place DE Arden Key on IR with hamstring injury",
-    "summary": "Colts defensive end Arden Key has been placed on injured reserve with a hamstring injury, meaning he will miss at least four games before returning to the active roster.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50148833/colts-place-de-arden-key-ir-hamstring-injury",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=422499",
-    "publishedAt": "2026-10-10T17:45:41.000Z",
-    "type": "Transaction",
-    "headline": "Cardinals Finalizing WR Marvin Harrison Jr. Trade",
-    "summary": "12:45pm: The Texans have been in “deep negotiations” with the Cardinals regarding Harrison, Schultz confirms, with “significant draft capital” involved. Arizona is still holding out hope for a first-round pick, either from Houston or another team, though at least one other club believes he is only worth a Day 2 selection. The Chiefs are also among […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/cardinals-finalizing-wr-marvin-harrison-jr-trade",
     "sourceName": "Pro Football Rumors"
   }
 ]
