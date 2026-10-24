@@ -1,5 +1,68 @@
 [
   {
+    "id": "50264705",
+    "publishedAt": "2026-10-24T12:21:04Z",
+    "type": "Analysis",
+    "headline": "NFL House in Paris closes ahead of street protests in French capital",
+    "summary": "The NFL closed its \"NFL House\" in Paris as the city braced for street protests with a heavy police presence and storefronts boarded up.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50264705/nfl-house-paris-closes-ahead-street-protests",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/rhamondre-stevenson-says-bears-defensive-alignment-helped-with-48-yard-td",
+    "publishedAt": "2026-10-24T10:53:04.000Z",
+    "type": "Analysis",
+    "headline": "Rhamondre Stevenson says Bears' defensive alignment helped with 48-yard TD",
+    "summary": "Patriots running back Rhamondre Stevenson made one of the most stunning plays of this NFL season when he turned a short pass at the end of the first half and ran for a 48-yard touchdown against the Bears.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/rhamondre-stevenson-says-bears-defensive-alignment-helped-with-48-yard-td",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "50253343",
+    "publishedAt": "2026-10-24T10:00:21Z",
+    "type": "Analysis",
+    "headline": "Will Niners have edge with ex-Falcons coach facing Penix?",
+    "summary": "With all of the familiarity between Morris and the Falcons, Sunday's game should come down to execution.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50253343/atlanta-falcons-san-francisco-49er-raheem-morris",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50253768",
+    "publishedAt": "2026-10-24T10:00:13Z",
+    "type": "Analysis",
+    "headline": "Fernando Mendoza is embracing being Raiders' latest Hispanic QB",
+    "summary": "The rookie's next chapter is inspired by the legacies of a Hispanic coach, QB and a Raiders' fan base embracing the culture.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50253768/raiders-qb-fernando-mendoza-hispanic-plunkett-flores",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50258881",
+    "publishedAt": "2026-10-24T10:00:12Z",
+    "type": "Analysis",
+    "headline": "Inside the silent messages Boye Mafe sends every game day",
+    "summary": "The Bengals defensive end uses sign language to say \"I love you\" to his mother, Bola, who died of pancreatic cancer in 2018.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50258881/cincinnati-bengals-boye-mafe-sign-language",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bears-lead-nfl-in-time-of-possession-but-ben-johnson-would-prefer-one-play-td-drives",
+    "publishedAt": "2026-10-24T09:33:48.000Z",
+    "type": "Analysis",
+    "headline": "Bears lead NFL in time of possession, but Ben Johnson would prefer one-play TD drives",
+    "summary": "\"\"I've never been one for the time of possession stat. I don't know that that really equates to winning and losing,\" Johnson said.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/bears-lead-nfl-in-time-of-possession-but-ben-johnson-would-prefer-one-play-td-drives",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/lions-sam-laporta-clarifies-contract-comments-i-want-to-play-for-this-team",
+    "publishedAt": "2026-10-24T08:32:36.000Z",
+    "type": "Analysis",
+    "headline": "Lions' Sam LaPorta clarifies contract comments: \"I want to play for this team\"",
+    "summary": "The Lions' tight end is hoping to get a contract extension from the Lions.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/lions-sam-laporta-clarifies-contract-comments-i-want-to-play-for-this-team",
+    "sourceName": "Pro Football Talk"
+  },
+  {
     "id": "profootballrumors-https://www.profootballrumors.com/?p=423856",
     "publishedAt": "2026-10-24T04:00:07.000Z",
     "type": "Injury",
@@ -627,6 +690,15 @@
     "headline": "Lions' Dan Campbell downplays Sam LaPorta's contract comments",
     "summary": "Lions coach Dan Campbell is downplaying comments made by Sam LaPorta about the tight end's displeasure with where contract talks stand with the organization.",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/50258967/lions-dan-campbell-downplays-sam-laporta-contract-comments",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50257261",
+    "publishedAt": "2026-10-23T17:41:35Z",
+    "type": "Analysis",
+    "headline": "David Andrews' blood clot diagnosis illuminates what's going on with Jalen Hurts",
+    "summary": "The former NFL center tells ESPN about his experience as it might provide a window into the Eagles QB's situation.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50257261/patriots-david-andrews-blood-clots-eagles-jalen-hurts",
     "sourceName": "ESPN"
   },
   {
@@ -14739,69 +14811,6 @@
     "headline": "Ravens are much different with and without Lamar Jackson",
     "summary": "As expected, given that he's week-to-week with an ankle injury, Ravens quarterback Lamar Jackson will miss Sunday night's game against the Falcons.",
     "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/ravens-are-much-different-with-and-without-lamar-jackson",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/aaron-donald-no-setbacks-i-plan-on-playing-monday",
-    "publishedAt": "2026-10-10T12:53:36.000Z",
-    "type": "Analysis",
-    "headline": "Aaron Donald: No setbacks, I plan on playing Monday",
-    "summary": "Rams head coach Sean McVay said early in the week that defensive tackle Aaron Donald was trending toward a return to the lineup against the Bills on Monday night and things remain on track in Los Angeles.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/aaron-donald-no-setbacks-i-plan-on-playing-monday",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "50144125",
-    "publishedAt": "2026-10-10T12:27:21Z",
-    "type": "Analysis",
-    "headline": "Can the Seahawks' defense again silence the 49ers' hot offense Sunday?",
-    "summary": "Seattle's defense stole the show the past two times these teams met. But the 49ers and Brock Purdy are on a roll heading into Week 5.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50144125/seattle-seahawks-defense-49ers-offense-nfc-west-week-5",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/alvin-kamara-will-soon-become-the-sixth-nfl-player-with-5-000-yards-rushing-and-receiving",
-    "publishedAt": "2026-10-10T10:52:06.000Z",
-    "type": "Analysis",
-    "headline": "Alvin Kamara will soon become the sixth NFL player with 5,000 yards rushing and receiving",
-    "summary": "Kamara has 7,324 rushing yards and 4,995 receiving yards in his NFL career.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/alvin-kamara-will-soon-become-the-sixth-nfl-player-with-5-000-yards-rushing-and-receiving",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "50139238",
-    "publishedAt": "2026-10-10T10:00:10Z",
-    "type": "Analysis",
-    "headline": "Can Burrow, Bengals establish identity vs. Dolphins?",
-    "summary": "The Bengals put Burrow under center but ultimately went back to what the QB knows best. What's next?",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50139238/bengals-joe-burrow-dolphins-offensive-identity",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50140859",
-    "publishedAt": "2026-10-10T10:00:01Z",
-    "type": "Analysis",
-    "headline": "How wild-card game sent Bears, Packers in opposite directions",
-    "summary": "Ever since Chicago sent Green Bay home, the Bears have taken flight and the Packers can't find their footing.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50140859/green-bay-packers-chicago-bears-jordan-love-caleb-williams",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50134036",
-    "publishedAt": "2026-10-10T10:00:01Z",
-    "type": "Analysis",
-    "headline": "Texans, Titans face off desperately seeking first win after 0-4 starts",
-    "summary": "Tennessee coach Robert Saleh and Houston coach DeMeco Ryans put friendship aside in battle of winless teams.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50134036/texans-titans-0-4-matchup-desperate-win",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/aaron-rodgers-set-to-move-ahead-of-peyton-manning-on-the-all-time-touchdown-pass-list",
-    "publishedAt": "2026-10-10T08:38:21.000Z",
-    "type": "Analysis",
-    "headline": "Aaron Rodgers set to move ahead of Peyton Manning on the all-time touchdown pass list",
-    "summary": "With his next touchdown pass, Aaron Rodgers will have more than Peyton Manning, counting the playoffs.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/aaron-rodgers-set-to-move-ahead-of-peyton-manning-on-the-all-time-touchdown-pass-list",
     "sourceName": "Pro Football Talk"
   }
 ]
