@@ -25,5 +25,14 @@
     "injury": "Quadriceps",
     "gameStatus": "Out",
     "lastUpdated": "2026-10-24T02:00Z"
+  },
+  {
+    "playerId": "4880273",
+    "playerName": "Kyle Louis",
+    "position": "LB",
+    "week": 8,
+    "injury": "Knee",
+    "gameStatus": "Questionable",
+    "lastUpdated": "2026-10-24T17:17Z"
   }
 ]
