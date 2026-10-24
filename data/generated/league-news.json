@@ -1,7 +1,7 @@
 [
   {
     "id": "50260899",
-    "publishedAt": "2026-10-23T22:23:59Z",
+    "publishedAt": "2026-10-23T23:55:25Z",
     "type": "Injury",
     "headline": "Giants LB Tremaine Edmunds (chest) out for year, source says",
     "summary": "Giants linebacker Tremaine Edmunds will miss the rest of the season with a torn chest muscle, a source told ESPN's Jordan Raanan. Edmunds leads the team with 50 tackles and wears the green dot to make the calls on defense.",
@@ -18,26 +18,17 @@
     "sourceName": "ESPN"
   },
   {
-    "id": "50260001",
-    "publishedAt": "2026-10-23T20:55:19Z",
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=423931",
+    "publishedAt": "2026-10-24T02:11:38.000Z",
     "type": "Injury",
-    "headline": "Ravens' Lamar Jackson (high ankle sprain) unsure if he'll play",
-    "summary": "Ravens quarterback Lamar Jackson said he's dealing with a high ankle sprain and is unsure if he'll play this week against the Bengals, but is \"heading in the right direction\" after missing the past two games.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50260001/ravens-lamar-jackson-high-ankle-sprain-unsure-play",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=423911",
-    "publishedAt": "2026-10-23T22:55:08.000Z",
-    "type": "Analysis",
-    "headline": "Former Rams Five-Time Pro Bowl RB Lawrence McCutcheon Passes Away",
-    "summary": "Longtime Rams running back Lawrence McCutcheon passed away on Friday after a battle with Parkinson’s disease, his family and the team announced. He was 76 years old. “The Los Angeles Rams are deeply saddened by the passing of Lawrence McCutcheon,” the team said. “His impact on this organization spanned generations, and he embodied what it […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/former-rams-five-time-pro-bowl-rb-lawrence-mccutcheon-passes-away",
+    "headline": "Lamar Jackson Questionable With High Ankle Sprain",
+    "summary": "The Ravens have been without star quarterback Lamar Jackson for the past two games with what the team had been calling an ankle sprain. According to Jeff Zrebiec of The Athletic, though, Baltimore’s medical staff told Jackson today that he has a high ankle sprain. He’s listed as questionable after three limited practices this week, […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/lamar-jackson-questionable-with-high-ankle-sprain",
     "sourceName": "Pro Football Rumors"
   },
   {
     "id": "50260609",
-    "publishedAt": "2026-10-23T21:49:20Z",
+    "publishedAt": "2026-10-24T01:07:00Z",
     "type": "Injury",
     "headline": "49ers WR Evans, DE Bosa, WR Samuel out vs. Atlanta; WR Kirk may return",
     "summary": "49ers receivers Mike Evans and Deebo Samuel Sr., and defensive end Nick Bosa are among a half dozen players who have been ruled out for Sunday's game against the Falcons.",
@@ -45,8 +36,17 @@
     "sourceName": "ESPN"
   },
   {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/three-teams-could-be-undefeated-through-seven-weeks-which-is-a-rarity",
+    "publishedAt": "2026-10-24T01:20:13.000Z",
+    "type": "Analysis",
+    "headline": "Three teams could be undefeated through seven weeks, which is a rarity",
+    "summary": "Entering Week 7, three teams are undefeated.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/three-teams-could-be-undefeated-through-seven-weeks-which-is-a-rarity",
+    "sourceName": "Pro Football Talk"
+  },
+  {
     "id": "50260535",
-    "publishedAt": "2026-10-23T21:53:23Z",
+    "publishedAt": "2026-10-24T00:10:08Z",
     "type": "Analysis",
     "headline": "Cowboys say still time to turn things around after 2-4 start",
     "summary": "Cowboys stars Dak Prescott and CeeDee Lamb express belief that there's still time for the team to turn things around despite a 2-4 start.",
