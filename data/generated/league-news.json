@@ -1,7 +1,7 @@
 [
   {
     "id": "50268816",
-    "publishedAt": "2026-10-24T19:56:42Z",
+    "publishedAt": "2026-10-24T20:41:27Z",
     "type": "Injury",
     "headline": "Ravens rule out Lamar Jackson (ankle) vs. Bengals; Tyler 'Snoop' Huntley to start",
     "summary": "The Baltimore Ravens have ruled QB Lamar Jackson out of Sundays game vs. the Cincinnati Bengals as he continues to deal with a high ankle sprain. Tyler \"Snoop\" Huntley will get the start.",
@@ -9,12 +9,21 @@
     "sourceName": "ESPN"
   },
   {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=423935",
-    "publishedAt": "2026-10-24T03:13:29.000Z",
+    "id": "50269752",
+    "publishedAt": "2026-10-24T21:17:02Z",
     "type": "Injury",
-    "headline": "Giants DE Chauncey Golston Out For Season",
-    "summary": "The Giants received a pair of tough injury updates heading into the weekend. After receiving confirmation that starting linebacker Tremaine Edmunds would miss the remainder of the season with a torn muscle in his chest, the team also found out today that defensive end Chauncey Golston would join him, per ESPN’s Jordan Raanan. Golston was […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/giants-de-chauncey-golston-out-for-season",
+    "headline": "Eagles' DeVonta Smith, Dontayvion Wicks out vs. Cowboys",
+    "summary": "The Eagles' top two receivers -- DeVonta Smith and Dontayvion Wicks -- have been ruled out of Monday night's game against the Cowboys.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50269752/eagles-devonta-smith-dontayvion-wicks-vs-cowboys",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=423974",
+    "publishedAt": "2026-10-24T21:14:00.000Z",
+    "type": "Transaction",
+    "headline": "Giants CB Paulson Adebo Activated Off IR",
+    "summary": "The Giants will get some much-needed reinforcement in their secondary this weekend. According to Dan Duggan of The Athletic, one of New York’s five cornerbacks on injured reserve has been activated, and that cornerback is starter Paulson Adebo. In a corresponding move, linebacker Tremaine Edmunds has been placed on IR after suffering a torn muscle […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/giants-cb-paulson-adebo-activated-off-ir",
     "sourceName": "Pro Football Rumors"
   },
   {
@@ -27,30 +36,12 @@
     "sourceName": "Pro Football Talk"
   },
   {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=423391",
-    "publishedAt": "2026-10-24T19:15:00.000Z",
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/texans-activate-wr-tank-dell-to-the-active-roster",
+    "publishedAt": "2026-10-24T21:14:52.000Z",
     "type": "Transaction",
-    "headline": "Lions’ Brian Branch, Cade Mays Expected To Play In Week 7",
-    "summary": "OCTOBER 24: As expected, ESPN’s Jeremy Fowler reported this afternoon that Detroit plans to activate Branch from the reserve/physically unable to perform list today. 11 months after tearing his Achilles tendon, the Pro Bowl safety is finally approaching his return to the field. OCTOBER 19: On October 7, the Lions opened the practice window for […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/lions-brian-branch-cade-mays-expected-to-play-in-week-7",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=423867",
-    "publishedAt": "2026-10-24T03:32:07.000Z",
-    "type": "Analysis",
-    "headline": "Colts QB Anthony Richardson Charged With Marijuana Possession",
-    "summary": "Colts backup quarterback Anthony Richardson was charged on Monday with a Class B misdemeanor for possession of marijuana, per Tyler Haughn of FOX 59. A bench trial is scheduled for Jan. 4, 2027. The charge stems from a traffic stop in Carmel, Ind., on Oct. 12, when police pulled Richardson over for having an expired […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/colts-qb-anthony-richardson-charged-with-marijuana-possession",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/eagles-list-saquon-barkley-as-questionable-devonta-smith-dontayvion-wicks-ruled-out",
-    "publishedAt": "2026-10-24T20:00:52.000Z",
-    "type": "Injury",
-    "headline": "Eagles list Saquon Barkley as questionable; DeVonta Smith, Dontayvion Wicks ruled out",
-    "summary": "The Eagles have left the door open for running back Saquon Barkley to play on Monday night, but they will be down two wideouts against the Cowboys.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/eagles-list-saquon-barkley-as-questionable-devonta-smith-dontayvion-wicks-ruled-out",
+    "headline": "Texans activate WR Tank Dell to the active roster",
+    "summary": "Tank Dell will play his first game in nearly two years on Sunday when the Texans play the Giants.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/texans-activate-wr-tank-dell-to-the-active-roster",
     "sourceName": "Pro Football Talk"
   }
 ]

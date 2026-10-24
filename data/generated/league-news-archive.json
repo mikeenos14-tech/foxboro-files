@@ -1,5 +1,176 @@
 [
   {
+    "id": "50269656",
+    "publishedAt": "2026-10-24T22:15:19Z",
+    "type": "Injury",
+    "headline": "Vikings activate RB Jordan Mason off injured reserve",
+    "summary": "The Vikings activated running back Jordan Mason from injured reserve Saturday, completing his recovery from a fractured thumb that required surgery last month.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50269656/vikings-activate-rb-jordan-mason-injured-reserve",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=423946",
+    "publishedAt": "2026-10-24T22:12:54.000Z",
+    "type": "Injury",
+    "headline": "Minor NFL Transactions: 10/24/26",
+    "summary": "Here are today’s minor moves and standard gameday practice squad elevations before Week 7’s Sunday slate of games: Arizona Cardinals Signed from practice squad: RB Evan Hull Elevated: G Kingsley Eguakun, DT Jared Harrison-Hunte Waived: S Wydett Williams Jr. Baltimore Ravens Signed from practice squad: G Kyle Hergel Elevated: OLB Adisa Isaac Placed on IR: […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/minor-nfl-transactions-10-24-26",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=423972",
+    "publishedAt": "2026-10-24T21:58:20.000Z",
+    "type": "Transaction",
+    "headline": "Packers Activate RB Josh Jacobs, DT Jordon Riley",
+    "summary": "As expected, Josh Jacobs will be able to make his season debut this week. The Packers have officially activated him from the commissioner’s exempt list. Jacobs was among the players essentially placed on paid leave just before the start of the campaign. He remained unavailable to practice or play for Green Bay through the first six weeks […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/packers-activate-rb-josh-jacobs-dt-jordon-riley",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=423947",
+    "publishedAt": "2026-10-24T21:36:33.000Z",
+    "type": "Transaction",
+    "headline": "NFL Practice Squad Updates: 10/24/26",
+    "summary": "Saturday’s practice squad moves: Carolina Panthers Signed: CB Malcolm DeWalt IV Indianapolis Colts Released: P Thomas Morstead Minnesota Vikings Signed: RB DeeJay Dallas Released: CB Natrone Brooks San Francisco 49ers Signed: DT Ogbonnia Okoronkwo Released: DT Kevin Givens",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/nfl-practice-squad-updates-10-24-26",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "50269752",
+    "publishedAt": "2026-10-24T21:17:02Z",
+    "type": "Injury",
+    "headline": "Eagles' DeVonta Smith, Dontayvion Wicks out vs. Cowboys",
+    "summary": "The Eagles' top two receivers -- DeVonta Smith and Dontayvion Wicks -- have been ruled out of Monday night's game against the Cowboys.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50269752/eagles-devonta-smith-dontayvion-wicks-vs-cowboys",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/texans-activate-wr-tank-dell-to-the-active-roster",
+    "publishedAt": "2026-10-24T21:14:52.000Z",
+    "type": "Transaction",
+    "headline": "Texans activate WR Tank Dell to the active roster",
+    "summary": "Tank Dell will play his first game in nearly two years on Sunday when the Texans play the Giants.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/texans-activate-wr-tank-dell-to-the-active-roster",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=423974",
+    "publishedAt": "2026-10-24T21:14:00.000Z",
+    "type": "Transaction",
+    "headline": "Giants CB Paulson Adebo Activated Off IR",
+    "summary": "The Giants will get some much-needed reinforcement in their secondary this weekend. According to Dan Duggan of The Athletic, one of New York’s five cornerbacks on injured reserve has been activated, and that cornerback is starter Paulson Adebo. In a corresponding move, linebacker Tremaine Edmunds has been placed on IR after suffering a torn muscle […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/giants-cb-paulson-adebo-activated-off-ir",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "50269266",
+    "publishedAt": "2026-10-24T21:01:12Z",
+    "type": "Transaction",
+    "headline": "Packers activate RB Josh Jacobs for 2026 debut",
+    "summary": "Packers running back Josh Jacobs will make his 2026 season debut against the Lions after spending the first six weeks on the NFL's commissioner exempt list.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50269266/packers-activate-rb-josh-jacobs-2026-debut",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/49ers-activate-wr-christian-kirk-from-ir",
+    "publishedAt": "2026-10-24T21:00:39.000Z",
+    "type": "Transaction",
+    "headline": "49ers activate WR Christian Kirk from IR",
+    "summary": "The 49ers made a procedural move on Friday, releasing defensive lineman Ogbo Okoronkwo to make room for wide receiver Christian Kirk.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/49ers-activate-wr-christian-kirk-from-ir",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/wr-george-pickens-cb-joey-porter-jr-have-no-injury-designation",
+    "publishedAt": "2026-10-24T20:46:50.000Z",
+    "type": "Injury",
+    "headline": "WR George Pickens, CB Joey Porter Jr. have no injury designation",
+    "summary": "The Cowboys will have wide receiver George Pickens (shoulder) and cornerback Joey Porter Jr.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/wr-george-pickens-cb-joey-porter-jr-have-no-injury-designation",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "50268816",
+    "publishedAt": "2026-10-24T20:41:27Z",
+    "type": "Injury",
+    "headline": "Ravens rule out Lamar Jackson (ankle) vs. Bengals; Tyler 'Snoop' Huntley to start",
+    "summary": "The Baltimore Ravens have ruled QB Lamar Jackson out of Sundays game vs. the Cincinnati Bengals as he continues to deal with a high ankle sprain. Tyler \"Snoop\" Huntley will get the start.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50268816/ravens-rule-lamar-jackson-high-ankle-sprain-vs-bengals",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/three-panthers-players-fined-for-three-separate-incidents-of-taunting",
+    "publishedAt": "2026-10-24T20:37:03.000Z",
+    "type": "Analysis",
+    "headline": "Three Panthers players fined for three separate incidents of taunting",
+    "summary": "Only four players across the NFL got fined for taunting in Week 6, and three of those four were on the Panthers.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/three-panthers-players-fined-for-three-separate-incidents-of-taunting",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/lions-activate-brian-branch-cade-mays",
+    "publishedAt": "2026-10-24T20:32:34.000Z",
+    "type": "Transaction",
+    "headline": "Lions activate Brian Branch, Cade Mays",
+    "summary": "Safety Brian Branch will be back in the Lions' lineup on Sunday afternoon.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/lions-activate-brian-branch-cade-mays",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=423485",
+    "publishedAt": "2026-10-24T20:27:50.000Z",
+    "type": "Injury",
+    "headline": "Texans WR Tank Dell To Play In Week 7",
+    "summary": "OCTOBER 24: As expected, the Texans officially announced the activation of Dell from IR. Dell is set to make his first NFL appearance since his 2024 campaign, which ended with a brutal knee injury that would keep him out for the entire 2025 season, as well. Joining Dell on the active roster this weekend will […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/texans-wr-tank-dell-to-play-in-week-7",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/fred-warner-was-fined-for-hit-on-a-defenseless-player-malik-mustapha-was-not",
+    "publishedAt": "2026-10-24T20:24:32.000Z",
+    "type": "Analysis",
+    "headline": "Fred Warner was fined for hit on a defenseless player, Malik Mustapha was not",
+    "summary": "49ers linebacker Fred Warner heard from the NFL a couple of times for plays he made during Week 6.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/fred-warner-was-fined-for-hit-on-a-defenseless-player-malik-mustapha-was-not",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/falcons-activate-cb-a-j-terrell-from-ir",
+    "publishedAt": "2026-10-24T20:23:07.000Z",
+    "type": "Transaction",
+    "headline": "Falcons activate CB A.J. Terrell from IR",
+    "summary": "The Falcons activated cornerback A.J.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/falcons-activate-cb-a-j-terrell-from-ir",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=423391",
+    "publishedAt": "2026-10-24T20:12:00.000Z",
+    "type": "Transaction",
+    "headline": "Lions’ Brian Branch, Cade Mays Activated For Week 7",
+    "summary": "OCTOBER 24: As expected, ESPN’s Jeremy Fowler reported this afternoon that Detroit planned to activate Branch from the reserve/physically unable to perform list today. 11 months after tearing his Achilles tendon, the Pro Bowl safety is finally approaching his return to the field. Shortly after Fowler’s report, the team announced that Branch would officially be […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/lions-brian-branch-cade-mays-expected-to-play-in-week-7",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=423964",
+    "publishedAt": "2026-10-24T20:09:00.000Z",
+    "type": "Transaction",
+    "headline": "Falcons CB AJ Terrell Activated Off IR",
+    "summary": "The Falcons’ dinged up defense will get some help on Sunday after Atlanta activated starting cornerback AJ Terrell from injured reserve. The former second-team All-Pro corner will return to the starting lineup after missing the minimum required four games with a groin injury. In a corresponding move, the team placed swing tackle Michael Jerrell on […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/falcons-cb-aj-terrell-activated-off-ir",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-activate-josh-jacobs",
+    "publishedAt": "2026-10-24T20:07:33.000Z",
+    "type": "Transaction",
+    "headline": "Packers activate Josh Jacobs",
+    "summary": "Packers running back Josh Jacobs is set to make his first appearance of the 2026 season.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-activate-josh-jacobs",
+    "sourceName": "Pro Football Talk"
+  },
+  {
     "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/the-dallas-cowboys-cheerleaders-have-unionized",
     "publishedAt": "2026-10-24T20:01:25.000Z",
     "type": "Analysis",
@@ -16,15 +187,6 @@
     "summary": "The Eagles have left the door open for running back Saquon Barkley to play on Monday night, but they will be down two wideouts against the Cowboys.",
     "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/eagles-list-saquon-barkley-as-questionable-devonta-smith-dontayvion-wicks-ruled-out",
     "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "50268816",
-    "publishedAt": "2026-10-24T19:56:42Z",
-    "type": "Injury",
-    "headline": "Ravens rule out Lamar Jackson (ankle) vs. Bengals; Tyler 'Snoop' Huntley to start",
-    "summary": "The Baltimore Ravens have ruled QB Lamar Jackson out of Sundays game vs. the Cincinnati Bengals as he continues to deal with a high ankle sprain. Tyler \"Snoop\" Huntley will get the start.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50268816/ravens-rule-lamar-jackson-high-ankle-sprain-vs-bengals",
-    "sourceName": "ESPN"
   },
   {
     "id": "profootballrumors-https://www.profootballrumors.com/?p=423931",
@@ -52,15 +214,6 @@
     "summary": "Former Raiders running back Pete Banaszak has died, the team announced Saturday.",
     "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/former-raiders-rb-pete-banaszak-dies-at-82",
     "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=423391",
-    "publishedAt": "2026-10-24T19:15:00.000Z",
-    "type": "Transaction",
-    "headline": "Lions’ Brian Branch, Cade Mays Expected To Play In Week 7",
-    "summary": "OCTOBER 24: As expected, ESPN’s Jeremy Fowler reported this afternoon that Detroit plans to activate Branch from the reserve/physically unable to perform list today. 11 months after tearing his Achilles tendon, the Pro Bowl safety is finally approaching his return to the field. OCTOBER 19: On October 7, the Lions opened the practice window for […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/lions-brian-branch-cade-mays-expected-to-play-in-week-7",
-    "sourceName": "Pro Football Rumors"
   },
   {
     "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/steelers-activate-s-deshon-elliott",
@@ -4830,15 +4983,6 @@
     "headline": "Seahawks Designate OL Anthony Bradford For Return",
     "summary": "The Seahawks will soon be getting some reinforcement on the offensive line. The team announced that guard Anthony Bradford has been designated to return from IR. The lineman sat out Week 2 with hip and knee injuries, and he was subsequently placed on injured reserve. If this week goes well, he will be activated when […]",
     "sourceUrl": "https://www.profootballrumors.com/2026/10/seahawks-designate-ol-anthony-bradford-for-return",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=423485",
-    "publishedAt": "2026-10-20T02:01:50.000Z",
-    "type": "Injury",
-    "headline": "Texans WR Tank Dell To Play In Week 7",
-    "summary": "It’s been 22 months since Tank Dell last appeared in an NFL game, but his absence is nearing an end. Texans coach DeMeco Ryans told reporters that the wide receiver will be activated from injured reserve ahead of the team’s Week 7 matchup with the Giants. Dell suffered a gruesome leg injury, including a dislocated […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/texans-wr-tank-dell-to-play-in-week-7",
     "sourceName": "Pro Football Rumors"
   },
   {
@@ -14605,194 +14749,5 @@
     "summary": "McCaffrey and his wife, Olivia Culpo, announced the news of the birth of their second child in a joint post on Instagram on Saturday.",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/50151392/christian-mccaffrey-olivia-culpo-second-child",
     "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=422517",
-    "publishedAt": "2026-10-10T22:33:25.000Z",
-    "type": "Injury",
-    "headline": "Minor NFL Transactions: 10/10/26",
-    "summary": "Here are Week 5’s minor moves and standard gameday practice squad elevations: Arizona Cardinals Signed from practice squad: CB Art Green Atlanta Falcons Signed from practice squad: S Jammie Robinson Elevated: DE Drake Jackson, DE Bralen Trice Placed on IR: LB Yasir Abdullah Baltimore Ravens Elevated: T Chuma Edoga, G Kyle Hergel Cincinnati Bengals Elevated: […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/minor-nfl-transactions-10-10-26",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/nfl-issues-season-high-10-fines-for-player-safety-fouls-in-week-4",
-    "publishedAt": "2026-10-10T21:57:13.000Z",
-    "type": "Analysis",
-    "headline": "NFL issues season-high 10 fines for player safety fouls in Week 4",
-    "summary": "The NFL's announced Week 4 fines featured a season-high 10 infractions for player safety fouls that qualify toward a possible suspension.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/nfl-issues-season-high-10-fines-for-player-safety-fouls-in-week-4",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=422518",
-    "publishedAt": "2026-10-10T21:45:42.000Z",
-    "type": "Transaction",
-    "headline": "NFL Practice Squad Updates: 10/10/26",
-    "summary": "Saturday’s practice squad moves: San Francisco 49ers Signed: DT Ogbonnia Okoronkwo Released: DE Matt Judon As expected, Okoronkwo is announced right back with the 49ers’ practice squad after getting released yesterday. The veteran’s relationship with defensive coordinator Raheem Morris will keep him in San Francisco, and his willingness to move back and forth between the […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/nfl-practice-squad-updates-10-10-26",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/49ers-cut-matthew-judon-from-practice-squad",
-    "publishedAt": "2026-10-10T21:39:50.000Z",
-    "type": "Transaction",
-    "headline": "49ers cut Matthew Judon from practice squad",
-    "summary": "The 49ers released defensive end Matthew Judon from the practice squad on Saturday.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/49ers-cut-matthew-judon-from-practice-squad",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/nfl-fines-three-browns-players-including-deshaun-watson-for-smoking-celebration",
-    "publishedAt": "2026-10-10T21:16:59.000Z",
-    "type": "Analysis",
-    "headline": "NFL fines three Browns players, including Deshaun Watson, for smoking celebration",
-    "summary": "The joint statement from the NFL and NFL Players Association regarding impermissible celebrations makes it clear that players will still be fined for, well, joints.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/nfl-fines-three-browns-players-including-deshaun-watson-for-smoking-celebration",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "50150638",
-    "publishedAt": "2026-10-10T21:13:08Z",
-    "type": "Injury",
-    "headline": "Rams: Myles Garrett making 'good progress,' but no return timeline",
-    "summary": "Los Angeles Rams defensive end Myles Garrett is \"making good progress\" in his recovery from knee surgery, coach Sean McVay said, but the team is unlikely to open his 21-day practice window next week.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50150638/rams-say-myles-garrett-making-good-progress-no-return-line",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=421903",
-    "publishedAt": "2026-10-10T21:11:37.000Z",
-    "type": "Transaction",
-    "headline": "49ers Activate DE Mykel Williams To Play In Week 5; Latest On WRs Mike Evans, Christian Kirk",
-    "summary": "OCTOBER 10: As expected, the 49ers officially announced this afternoon that they have activated Williams from the reserve/physically unable to perform list. OCTOBER 4: The 49ers have received a rare piece of good news on the injury front. Per CBS Sports’ Matt Zenitz, DE Mykel Williams is expected to play in San Francisco’s key Week […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/49ers-activate-de-mykel-williams-to-play-in-week-5-latest-on-wrs-mike-evans-christian-kirk",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/patriots-put-wr-mack-hollins-on-injured-reserve",
-    "publishedAt": "2026-10-10T21:01:17.000Z",
-    "type": "Injury",
-    "headline": "Patriots put WR Mack Hollins on injured reserve",
-    "summary": "The Patriots could get A.J.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/patriots-put-wr-mack-hollins-on-injured-reserve",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dolphins-activate-kenneth-grant-from-injured-reserve",
-    "publishedAt": "2026-10-10T20:55:17.000Z",
-    "type": "Injury",
-    "headline": "Dolphins activate Kenneth Grant from injured reserve",
-    "summary": "Dolphins defensive lineman Kenneth Grant is set to make his 2026 debut.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dolphins-activate-kenneth-grant-from-injured-reserve",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=422289",
-    "publishedAt": "2026-10-10T20:42:50.000Z",
-    "type": "Transaction",
-    "headline": "Commanders CB Trey Amos, RB Jeremy McNichols Return To Practice; DE Deatrich Wise Activated",
-    "summary": "OCTOBER 10: Washington will unfortunately only see one of the three return for Week 5. The Commanders announced today that Wise has been activated from the reserve/PUP list, while Amos and McNichols remain out for now. OCTOBER 7: The Commanders could have reinforcements in place as early as Week 5. The team announced on Wednesday […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/commanders-cb-trey-amos-rb-jeremy-mcnichols-de-deatrich-wise-return-to-practice",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/texans-activate-s-m-j-stewart-dt-kayden-mcdonald",
-    "publishedAt": "2026-10-10T20:39:58.000Z",
-    "type": "Transaction",
-    "headline": "Texans activate S M.J. Stewart, DT Kayden McDonald",
-    "summary": "The Texans designated three players for return this week and two of them will be joining the active roster for Sunday's game against the Titans.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/texans-activate-s-m-j-stewart-dt-kayden-mcdonald",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/49ers-activate-dl-mykel-williams-who-will-make-his-2026-debut-sunday",
-    "publishedAt": "2026-10-10T20:34:20.000Z",
-    "type": "Transaction",
-    "headline": "49ers activate DL Mykel Williams, who will make his 2026 debut Sunday",
-    "summary": "The 49ers activated defensive lineman Mykel Williams from the reserve/physically unable to perform list, the team announced Saturday.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/49ers-activate-dl-mykel-williams-who-will-make-his-2026-debut-sunday",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/seahawks-sign-cb-trevon-diggs-to-their-active-roster",
-    "publishedAt": "2026-10-10T20:32:38.000Z",
-    "type": "Analysis",
-    "headline": "Seahawks sign CB Trevon Diggs to their active roster",
-    "summary": "Cornerback Trevon Diggs made his Seahawks debut last Sunday and he moved up to the active roster on a lasting basis Saturday.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/seahawks-sign-cb-trevon-diggs-to-their-active-roster",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=422561",
-    "publishedAt": "2026-10-10T20:28:09.000Z",
-    "type": "Transaction",
-    "headline": "Chargers Place QB Trey Lance, T Trevor Penning On IR; L.A. Activates Two From IR",
-    "summary": "Attrition continues to provide hardship for the still winless Chargers. Los Angeles announced today that, while they were able to activate fullback/defensive tackle Scott Matlock and offensive lineman Branson Taylor from injured reserve, they will be taking the roster spots of quarterback Trey Lance and offensive tackle Trevor Penning, who are being placed on IR. […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/chargers-place-qb-trey-lance-t-trevor-penning-on-ir-activate-two-from-ir",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/chargers-put-trey-lance-on-injured-reserve-make-several-other-roster-moves",
-    "publishedAt": "2026-10-10T20:24:57.000Z",
-    "type": "Injury",
-    "headline": "Chargers put Trey Lance on injured reserve, make several other roster moves",
-    "summary": "The Chargers announced a flurry of roster moves ahead of Sunday's game against the Broncos, including quarterback Trey Lance's move to injured reserve.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/chargers-put-trey-lance-on-injured-reserve-make-several-other-roster-moves",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cardinals-place-rg-isaiah-adams-on-ir",
-    "publishedAt": "2026-10-10T20:22:57.000Z",
-    "type": "Injury",
-    "headline": "Cardinals place RG Isaiah Adams on IR",
-    "summary": "Cardinals left tackle Paris Johnson is out for the season with a torn left biceps.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cardinals-place-rg-isaiah-adams-on-ir",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=422555",
-    "publishedAt": "2026-10-10T20:22:55.000Z",
-    "type": "Injury",
-    "headline": "Cardinals Place G Isaiah Adams On IR",
-    "summary": "After finding out they were losing left tackle Paris Johnson Jr. for the year earlier this week, the Cardinals now see starting right guard Isaiah Adams join him on injured reserve. Arizona reportedly doesn’t believe Adams’ ankle injury will keep him out as long as Johnson, but while he recovers third-year guard Jon Gaines II will start […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/cardinals-place-g-isaiah-adams-on-ir",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dj-moore-questionable-ed-oliver-out-for-bills-on-monday-night",
-    "publishedAt": "2026-10-10T20:17:17.000Z",
-    "type": "Injury",
-    "headline": "DJ Moore questionable, Ed Oliver out for Bills on Monday night",
-    "summary": "Bills wide receiver DJ Moore was at Saturday's practice in a red non-contact jersey and it remains to be seen if he'll be in the lineup against the Rams on Monday night.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dj-moore-questionable-ed-oliver-out-for-bills-on-monday-night",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/falcons-place-lb-yasir-abdullah-on-ir",
-    "publishedAt": "2026-10-10T20:14:01.000Z",
-    "type": "Injury",
-    "headline": "Falcons place LB Yasir Abdullah on IR",
-    "summary": "The Falcons placed linebacker Yasir Abdullah on injured reserve with a hamstring injury, the team announced Saturday.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/falcons-place-lb-yasir-abdullah-on-ir",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=422554",
-    "publishedAt": "2026-10-10T20:10:01.000Z",
-    "type": "Transaction",
-    "headline": "Dolphins Activate DT Kenneth Grant",
-    "summary": "As part of a series of roster moves on Saturday, the Dolphins activated defensive tackle Kenneth Grant from injured reserve, according to Marcel Louis-Jacques of ESPN. They also waived quarterback Brady Cook and elevated running back Carlos Washington and defensive lineman Rodney McGraw from their practice squad. The Dolphins designated both Grant and linebacker Trey […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/dolphins-activate-dt-kenneth-grant",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=422552",
-    "publishedAt": "2026-10-10T20:04:44.000Z",
-    "type": "Injury",
-    "headline": "Patriots Place Mack Hollins, Reggie Gilliam On IR",
-    "summary": "The injuries keep piling up for the Patriots, who are placing wide receiver Mack Hollins and fullback Reggie Gilliam on IR, Doug Kyed of the Boston Herald reports. Both players will miss a minimum of four games. Hollins, who is in his second season with the Patriots, leads the team in catches (15) and receiving […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/patriots-place-mack-hollins-reggie-gilliam-on-ir",
-    "sourceName": "Pro Football Rumors"
   }
 ]
