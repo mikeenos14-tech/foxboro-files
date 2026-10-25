@@ -42,13 +42,13 @@
     },
     "cleanPocketEpa": {
       "value": 0.33601575498195574,
-      "leagueRank": 10,
-      "leaguePercentile": 71
+      "leagueRank": 9,
+      "leaguePercentile": 74
     },
     "pressureEpa": {
       "value": -0.8581345024865787,
-      "leagueRank": 15,
-      "leaguePercentile": 55
+      "leagueRank": 17,
+      "leaguePercentile": 48
     }
   },
   "windows": [
@@ -146,9 +146,9 @@
     },
     {
       "label": "Screens",
-      "epa": -0.15236842204286075,
-      "plays": 19,
-      "shareOfDropbacks": 0.08333333333333333
+      "epa": -0.1972992217136437,
+      "plays": 20,
+      "shareOfDropbacks": 0.08771929824561403
     }
   ]
 }

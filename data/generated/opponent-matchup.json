@@ -2,12 +2,12 @@
   "gameId": "2026_08_NE_MIA",
   "opponent": "MIA",
   "opponentEpaRank": {
-    "offense": 26,
+    "offense": 17,
     "defense": 29
   },
   "ourEpaRank": {
-    "offense": 11,
-    "defense": 17
+    "offense": 9,
+    "defense": 15
   },
   "successRate": {
     "us": {
@@ -18,32 +18,32 @@
       },
       "defense": {
         "value": 0.43765281173594134,
-        "leagueRank": 20,
-        "leaguePercentile": 39
+        "leagueRank": 17,
+        "leaguePercentile": 48
       }
     },
     "them": {
       "offense": {
-        "value": 0.3759124087591241,
-        "leagueRank": 29,
-        "leaguePercentile": 10
+        "value": 0.39880952380952384,
+        "leagueRank": 28,
+        "leaguePercentile": 13
       },
       "defense": {
-        "value": 0.4862068965517241,
-        "leagueRank": 30,
-        "leaguePercentile": 6
+        "value": 0.49271137026239065,
+        "leagueRank": 31,
+        "leaguePercentile": 3
       }
     }
   },
   "positionGroupMatchups": [
     {
       "group": "Rush Offense vs. Run Defense",
-      "ourGrade": 52,
-      "theirGrade": 68,
-      "edge": "them",
-      "note": "52/100 vs. 68/100 (advantage them).",
+      "ourGrade": 55,
+      "theirGrade": 48,
+      "edge": "even",
+      "note": "55/100 vs. 48/100 (close matchup).",
       "ourStatLine": "864 yds, 4.4 YPC, 5 TD, 2 FUM, 12% explosive",
-      "theirStatLine": "568 yds allowed, 4.0 YPC allowed, 4 TD allowed, 11% explosive allowed"
+      "theirStatLine": "677 yds allowed, 4.2 YPC allowed, 4 TD allowed, 12% explosive allowed"
     },
     {
       "group": "Pass Offense vs. Pass Defense",
@@ -52,25 +52,25 @@
       "edge": "us",
       "note": "71/100 vs. 3/100 (advantage us).",
       "ourStatLine": "145/220 (66%), 1830 yds, 13 TD, 8 INT",
-      "theirStatLine": "111/145 (77%) allowed, 1130 yds allowed, 11 TD allowed, 3 INT gained"
+      "theirStatLine": "134/175 (77%) allowed, 1417 yds allowed, 14 TD allowed, 4 INT gained"
     },
     {
       "group": "Run Defense vs. Rush Offense",
       "ourGrade": 52,
-      "theirGrade": 84,
+      "theirGrade": 90,
       "edge": "them",
-      "note": "52/100 vs. 84/100 (advantage them).",
+      "note": "52/100 vs. 90/100 (advantage them).",
       "ourStatLine": "670 yds allowed, 4.0 YPC allowed, 6 TD allowed, 10% explosive allowed",
-      "theirStatLine": "633 yds, 4.9 YPC, 5 TD, 1 FUM, 15% explosive"
+      "theirStatLine": "791 yds, 4.7 YPC, 7 TD, 1 FUM, 14% explosive"
     },
     {
       "group": "Pass Defense vs. Pass Offense",
-      "ourGrade": 45,
-      "theirGrade": 10,
+      "ourGrade": 55,
+      "theirGrade": 16,
       "edge": "us",
-      "note": "45/100 vs. 10/100 (advantage us).",
+      "note": "55/100 vs. 16/100 (advantage us).",
       "ourStatLine": "149/225 (66%) allowed, 1673 yds allowed, 9 TD allowed, 4 INT gained",
-      "theirStatLine": "73/130 (56%), 849 yds, 2 TD, 4 INT"
+      "theirStatLine": "87/151 (58%), 1057 yds, 4 TD, 4 INT"
     },
     {
       "group": "Pass Protection vs. Pass Rush",
@@ -79,7 +79,7 @@
       "edge": "us",
       "note": "61/100 vs. 0/100 (advantage us).",
       "ourStatLine": "13 sacks allowed, 6% sack rate",
-      "theirStatLine": "4 sacks, 21 QB hits, 3% sack rate"
+      "theirStatLine": "6 sacks, 27 QB hits, 3% sack rate"
     }
   ],
   "matchupOfTheWeek": {
@@ -96,11 +96,11 @@
       "gamesPlayed": 7
     },
     "them": {
-      "lastGameEpaPerPlay": -0.1750841388546071,
-      "last3EpaPerPlay": -0.18589221415318638,
-      "last5EpaPerPlay": -0.2234918492185424,
-      "seasonEpaPerPlay": -0.2234918492185424,
-      "gamesPlayed": 5
+      "lastGameEpaPerPlay": 0.01144148469572731,
+      "last3EpaPerPlay": -0.05992713026840875,
+      "last5EpaPerPlay": -0.1808795518459113,
+      "seasonEpaPerPlay": -0.1752305553249046,
+      "gamesPlayed": 6
     }
   },
   "priorBlendWeight": 0,
@@ -132,14 +132,15 @@
     }
   ],
   "weather": {
-    "tempF": 85,
-    "wind": "11 mph",
-    "precipitation": "26%",
+    "tempF": 86,
+    "wind": "10 mph",
+    "precipitation": "30%",
     "isDome": false
   },
   "bettingContext": {
-    "spread": -8.5,
+    "spread": -7.5,
     "overUnder": 44.5,
     "asOf": "2026-10-25"
-  }
+  },
+  "previewTake": "Miami's pass defense grades out at a 3/100—basically the worst in football—and our pass offense is sitting pretty at 71/100, which sets up what could be an absolute clinic in the passing game if we execute. The Dolphins' pass rush is equally anemic at 0/100, meaning our quarterbacks should have time to let plays develop, and our pass protection crew (61/100) should handle whatever Miami throws at us. We're trending slightly positive over our last three (0.15 EPA/play) while Miami's trending negative (-0.06), and we're favored by a touchdown—all the ingredients for a road win. That said, Miami's rush offense grades at 90/100, so we'll need our run defense (52/100) to hold up if they try to pound the ball and control time of possession. This is a matchup where our strengths should exploit their weaknesses, plain and simple."
 }

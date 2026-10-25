@@ -36,33 +36,33 @@
   {
     "team": "NYJ",
     "wins": 2,
-    "losses": 4,
+    "losses": 5,
     "ties": 0,
-    "pointDifferential": -10,
+    "pointDifferential": -13,
     "isUs": false,
     "streak": {
       "result": "L",
-      "count": 1
+      "count": 2
     },
     "divisionRecord": {
       "wins": 0,
-      "losses": 1,
+      "losses": 2,
       "ties": 0
     }
   },
   {
     "team": "MIA",
-    "wins": 0,
+    "wins": 1,
     "losses": 5,
     "ties": 0,
-    "pointDifferential": -62,
+    "pointDifferential": -59,
     "isUs": false,
     "streak": {
-      "result": "L",
-      "count": 5
+      "result": "W",
+      "count": 1
     },
     "divisionRecord": {
-      "wins": 0,
+      "wins": 1,
       "losses": 0,
       "ties": 0
     }

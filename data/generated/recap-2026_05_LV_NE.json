@@ -8,7 +8,7 @@
   "successRate": {
     "offense": 0.5396825396825397,
     "defense": 0.42105263157894735,
-    "leagueAverage": 0.4336954647352992
+    "leagueAverage": 0.43605485568489877
   },
   "turnoverMargin": 0,
   "pointsOffTurnovers": {
@@ -181,6 +181,13 @@
   ],
   "standouts": [
     {
+      "group": "qb",
+      "text": "Drake Maye's +0.84 EPA per dropback is the 3rd-best quarterback game in the NFL this season.",
+      "population": "all 207 quarterback games this season with 15+ dropbacks",
+      "score": 0.9902912621359223,
+      "tone": "good"
+    },
+    {
       "group": "points",
       "text": "45 points, the most the Patriots have scored since Week 17, 2021.",
       "population": "every Patriots regular-season game since 1999 (444 games)",
@@ -188,17 +195,10 @@
       "tone": "good"
     },
     {
-      "group": "qb",
-      "text": "Drake Maye's +0.84 EPA per dropback is the 3rd-best quarterback game in the NFL this season.",
-      "population": "all 192 quarterback games this season with 15+ dropbacks",
-      "score": 0.9895287958115183,
-      "tone": "good"
-    },
-    {
       "group": "offense",
       "text": "The 4th-best offensive game by any team this season: +0.42 EPA per play.",
-      "population": "all 188 team-games this season",
-      "score": 0.983957219251337,
+      "population": "all 204 team-games this season",
+      "score": 0.9852216748768473,
       "tone": "good"
     }
   ],

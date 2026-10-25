@@ -36,19 +36,19 @@
     "playerName": "Malik Willis",
     "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/earybrx24kkhnk4innsw",
     "team": "MIA",
-    "completions": 73,
-    "attempts": 130,
-    "yards": 849,
-    "tds": 2,
+    "completions": 87,
+    "attempts": 151,
+    "yards": 1057,
+    "tds": 4,
     "ints": 4,
-    "cpoe": -7.337265857495373,
+    "cpoe": -6.93051020971081,
     "accuracyByDepth": {
-      "short": 0.6666666666666666,
-      "medium": 0.5925925925925926,
-      "deep": 0.17857142857142858
+      "short": 0.6896551724137931,
+      "medium": 0.5483870967741935,
+      "deep": 0.20689655172413793
     },
-    "pressureEpa": -1.3052343752313433,
-    "cleanPocketEpa": -0.010813476642462638,
+    "pressureEpa": -1.3229838129178357,
+    "cleanPocketEpa": 0.09273192076445713,
     "turnoverWorthyPlayRate": 0.034482758620689655,
     "ngs": {
       "timeToThrow": {
@@ -100,19 +100,19 @@
     "playerName": "Geno Smith",
     "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/q8wfqvmy7cwxdi35dtby",
     "team": "NYJ",
-    "completions": 122,
-    "attempts": 177,
-    "yards": 1336,
-    "tds": 7,
-    "ints": 1,
-    "cpoe": 4.210902395702539,
+    "completions": 145,
+    "attempts": 207,
+    "yards": 1623,
+    "tds": 10,
+    "ints": 2,
+    "cpoe": 5.236845240375108,
     "accuracyByDepth": {
-      "short": 0.75,
-      "medium": 0.5384615384615384,
-      "deep": 0.5625
+      "short": 0.7435897435897436,
+      "medium": 0.59375,
+      "deep": 0.6111111111111112
     },
-    "pressureEpa": -1.0870121983022876,
-    "cleanPocketEpa": 0.3243635222281083,
+    "pressureEpa": -1.0334974979192582,
+    "cleanPocketEpa": 0.36515204529252204,
     "turnoverWorthyPlayRate": 0.015151515151515152,
     "ngs": {
       "timeToThrow": {
@@ -128,33 +128,33 @@
     }
   },
   {
-    "playerId": "00-0034796",
-    "playerName": "Lamar Jackson",
-    "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/eno6s5qzl9grbfbfwhoa",
+    "playerId": "00-0035993",
+    "playerName": "Tyler Huntley",
+    "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/fxyjf9d5qkwqjdd8ypvv",
     "team": "BAL",
-    "completions": 68,
-    "attempts": 96,
-    "yards": 967,
-    "tds": 6,
+    "completions": 74,
+    "attempts": 106,
+    "yards": 727,
+    "tds": 4,
     "ints": 1,
-    "cpoe": 8.094578885263006,
+    "cpoe": 1.646025975545245,
     "accuracyByDepth": {
-      "short": 0.78,
-      "medium": 0.6666666666666666,
-      "deep": 0.4444444444444444
+      "short": 0.7272727272727273,
+      "medium": 0.5714285714285714,
+      "deep": 0.14285714285714285
     },
-    "pressureEpa": -1.2703784736450954,
-    "cleanPocketEpa": 0.5984039600385479,
-    "turnoverWorthyPlayRate": 0.02912621359223301,
+    "pressureEpa": -0.3893029227703143,
+    "cleanPocketEpa": 0.1324597713142441,
+    "turnoverWorthyPlayRate": 0.0379746835443038,
     "ngs": {
       "timeToThrow": {
-        "value": 3.11110638297872,
-        "rank": 3,
+        "value": 2.831875,
+        "rank": 23,
         "of": 36
       },
       "aggressiveness": {
-        "value": 12.5,
-        "rank": 29,
+        "value": 11.1111111111111,
+        "rank": 31,
         "of": 36
       }
     }
@@ -164,19 +164,19 @@
     "playerName": "Joe Burrow",
     "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/gnnvcgui1cijybukk2w7",
     "team": "CIN",
-    "completions": 135,
-    "attempts": 189,
-    "yards": 1361,
-    "tds": 11,
+    "completions": 157,
+    "attempts": 219,
+    "yards": 1653,
+    "tds": 15,
     "ints": 3,
-    "cpoe": 6.008888997377883,
+    "cpoe": 7.256179316857146,
     "accuracyByDepth": {
-      "short": 0.71,
-      "medium": 0.7441860465116279,
-      "deep": 0.5333333333333333
+      "short": 0.711864406779661,
+      "medium": 0.75,
+      "deep": 0.5555555555555556
     },
-    "pressureEpa": -0.5280131144102549,
-    "cleanPocketEpa": 0.28728650891250274,
+    "pressureEpa": -0.4749391738312409,
+    "cleanPocketEpa": 0.35120499519683723,
     "turnoverWorthyPlayRate": 0.015151515151515152,
     "ngs": {
       "timeToThrow": {
@@ -196,19 +196,19 @@
     "playerName": "Deshaun Watson",
     "headshotUrl": "https://static.www.nfl.com/image/private/f_auto,q_auto/league/otfs2docj6eahaebo5xn",
     "team": "CLE",
-    "completions": 111,
-    "attempts": 174,
-    "yards": 1174,
+    "completions": 136,
+    "attempts": 210,
+    "yards": 1482,
     "tds": 7,
-    "ints": 2,
-    "cpoe": -2.168747024577964,
+    "ints": 3,
+    "cpoe": -0.6303254334093333,
     "accuracyByDepth": {
-      "short": 0.7176470588235294,
-      "medium": 0.4827586206896552,
-      "deep": 0.3684210526315789
+      "short": 0.7407407407407407,
+      "medium": 0.5151515151515151,
+      "deep": 0.2916666666666667
     },
-    "pressureEpa": -1.0188081616475042,
-    "cleanPocketEpa": 0.2600021096120487,
+    "pressureEpa": -0.943854761441057,
+    "cleanPocketEpa": 0.247022475667947,
     "turnoverWorthyPlayRate": 0.02512562814070352,
     "ngs": {
       "timeToThrow": {
@@ -228,19 +228,19 @@
     "playerName": "Aaron Rodgers",
     "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/dypvakakxhccxs67tb0y",
     "team": "PIT",
-    "completions": 143,
-    "attempts": 233,
-    "yards": 1487,
-    "tds": 12,
+    "completions": 162,
+    "attempts": 263,
+    "yards": 1699,
+    "tds": 13,
     "ints": 5,
-    "cpoe": -0.8477622188181427,
+    "cpoe": -1.077556014060979,
     "accuracyByDepth": {
-      "short": 0.7168141592920354,
-      "medium": 0.48717948717948717,
-      "deep": 0.1875
+      "short": 0.7301587301587301,
+      "medium": 0.46511627906976744,
+      "deep": 0.19444444444444445
     },
-    "pressureEpa": -0.8684495218311984,
-    "cleanPocketEpa": 0.02208706378936897,
+    "pressureEpa": -0.9073938838895034,
+    "cleanPocketEpa": 0.049995024934918274,
     "turnoverWorthyPlayRate": 0.019762845849802372,
     "ngs": {
       "timeToThrow": {
@@ -260,19 +260,19 @@
     "playerName": "C.J. Stroud",
     "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/tt4zrtxlhifaljhj0rn7",
     "team": "HOU",
-    "completions": 143,
-    "attempts": 219,
-    "yards": 1714,
-    "tds": 9,
+    "completions": 160,
+    "attempts": 247,
+    "yards": 1867,
+    "tds": 11,
     "ints": 1,
-    "cpoe": 3.889011191617083,
+    "cpoe": 2.3108500680882096,
     "accuracyByDepth": {
-      "short": 0.7477477477477478,
-      "medium": 0.5576923076923077,
-      "deep": 0.4375
+      "short": 0.744,
+      "medium": 0.543859649122807,
+      "deep": 0.4166666666666667
     },
-    "pressureEpa": -1.330919353302732,
-    "cleanPocketEpa": 0.36082443656234886,
+    "pressureEpa": -1.2799215848791132,
+    "cleanPocketEpa": 0.33343478820940553,
     "turnoverWorthyPlayRate": 0.008583690987124463,
     "ngs": {
       "timeToThrow": {
@@ -292,19 +292,19 @@
     "playerName": "Daniel Jones",
     "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/yslz8jcyiekbmm7iguxm",
     "team": "IND",
-    "completions": 130,
-    "attempts": 218,
-    "yards": 1290,
+    "completions": 143,
+    "attempts": 240,
+    "yards": 1398,
     "tds": 4,
-    "ints": 6,
-    "cpoe": -3.405759235223138,
+    "ints": 7,
+    "cpoe": -4.030046436521746,
     "accuracyByDepth": {
-      "short": 0.6982758620689655,
-      "medium": 0.4883720930232558,
-      "deep": 0.14285714285714285
+      "short": 0.6846153846153846,
+      "medium": 0.5106382978723404,
+      "deep": 0.13793103448275862
     },
-    "pressureEpa": -1.1535162958959049,
-    "cleanPocketEpa": 0.05704359057519316,
+    "pressureEpa": -1.1610408880984708,
+    "cleanPocketEpa": 0.0607495161037813,
     "turnoverWorthyPlayRate": 0.055793991416309016,
     "ngs": {
       "timeToThrow": {
@@ -356,19 +356,19 @@
     "playerName": "Cam Ward",
     "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/l7iuimdeqgmmhdzdhl67",
     "team": "TEN",
-    "completions": 109,
-    "attempts": 177,
-    "yards": 998,
+    "completions": 129,
+    "attempts": 208,
+    "yards": 1179,
     "tds": 4,
-    "ints": 4,
-    "cpoe": -1.304547533844459,
+    "ints": 5,
+    "cpoe": -0.8584518004686424,
     "accuracyByDepth": {
-      "short": 0.7142857142857143,
-      "medium": 0.45,
-      "deep": 0.13333333333333333
+      "short": 0.7102803738317757,
+      "medium": 0.4883720930232558,
+      "deep": 0.14285714285714285
     },
-    "pressureEpa": -1.4369683324941436,
-    "cleanPocketEpa": -0.008301407917372532,
+    "pressureEpa": -1.083077554037024,
+    "cleanPocketEpa": -0.028561497871488265,
     "turnoverWorthyPlayRate": 0.02127659574468085,
     "ngs": {
       "timeToThrow": {
@@ -740,19 +740,19 @@
     "playerName": "Kyler Murray",
     "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/qzoa3bglbgxpxcvjqzo1",
     "team": "MIN",
-    "completions": 69,
-    "attempts": 101,
-    "yards": 662,
-    "tds": 2,
+    "completions": 83,
+    "attempts": 125,
+    "yards": 812,
+    "tds": 3,
     "ints": 2,
-    "cpoe": 5.683472206195194,
+    "cpoe": 2.904359277403145,
     "accuracyByDepth": {
-      "short": 0.8181818181818182,
+      "short": 0.8148148148148148,
       "medium": 0.5,
-      "deep": 0.46153846153846156
+      "deep": 0.4
     },
-    "pressureEpa": -1.0089662277730402,
-    "cleanPocketEpa": -0.021353963662582156,
+    "pressureEpa": -0.8171993828545933,
+    "cleanPocketEpa": -0.00917160854169988,
     "turnoverWorthyPlayRate": 0.00909090909090909,
     "ngs": {
       "timeToThrow": {
@@ -772,19 +772,19 @@
     "playerName": "Michael Penix Jr.",
     "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/mip4kogkqxwkkya6mvmh",
     "team": "ATL",
-    "completions": 71,
-    "attempts": 110,
-    "yards": 944,
-    "tds": 6,
+    "completions": 96,
+    "attempts": 144,
+    "yards": 1157,
+    "tds": 9,
     "ints": 1,
-    "cpoe": -1.49108452774654,
+    "cpoe": 0.12762700911048383,
     "accuracyByDepth": {
-      "short": 0.75,
-      "medium": 0.5714285714285714,
-      "deep": 0.5454545454545454
+      "short": 0.7761194029850746,
+      "medium": 0.53125,
+      "deep": 0.46153846153846156
     },
     "pressureEpa": -1.8717232179245917,
-    "cleanPocketEpa": 0.43033195012401526,
+    "cleanPocketEpa": 0.3917729687393947,
     "turnoverWorthyPlayRate": 0.02459016393442623,
     "ngs": {
       "timeToThrow": {
@@ -804,19 +804,19 @@
     "playerName": "Bryce Young",
     "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/vcvhmxvxw2a3armle0af",
     "team": "CAR",
-    "completions": 121,
-    "attempts": 201,
-    "yards": 1549,
-    "tds": 11,
-    "ints": 2,
-    "cpoe": 2.982057227614169,
+    "completions": 135,
+    "attempts": 228,
+    "yards": 1712,
+    "tds": 12,
+    "ints": 4,
+    "cpoe": 0.7195049553241474,
     "accuracyByDepth": {
-      "short": 0.6326530612244898,
-      "medium": 0.5918367346938775,
-      "deep": 0.46153846153846156
+      "short": 0.6140350877192983,
+      "medium": 0.5849056603773585,
+      "deep": 0.4642857142857143
     },
-    "pressureEpa": -0.4628603200400413,
-    "cleanPocketEpa": 0.314542828873497,
+    "pressureEpa": -0.6684220780640208,
+    "cleanPocketEpa": 0.23019122797891986,
     "turnoverWorthyPlayRate": 0.009345794392523364,
     "ngs": {
       "timeToThrow": {
@@ -836,19 +836,19 @@
     "playerName": "Tyler Shough",
     "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/vu51ogqu4i3abbwpj2fl",
     "team": "NO",
-    "completions": 153,
-    "attempts": 235,
-    "yards": 1443,
-    "tds": 12,
-    "ints": 5,
-    "cpoe": -0.6846589114930925,
+    "completions": 183,
+    "attempts": 273,
+    "yards": 1721,
+    "tds": 13,
+    "ints": 6,
+    "cpoe": -0.10987580275807882,
     "accuracyByDepth": {
-      "short": 0.696,
-      "medium": 0.5625,
-      "deep": 0.34615384615384615
+      "short": 0.738255033557047,
+      "medium": 0.56,
+      "deep": 0.3793103448275862
     },
-    "pressureEpa": -0.886038202389672,
-    "cleanPocketEpa": 0.11244268852506456,
+    "pressureEpa": -0.8900133023576234,
+    "cleanPocketEpa": 0.15787643259202067,
     "turnoverWorthyPlayRate": 0.028112449799196786,
     "ngs": {
       "timeToThrow": {
@@ -868,19 +868,19 @@
     "playerName": "Baker Mayfield",
     "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/gjb8e69jtt1ffqf1afue",
     "team": "TB",
-    "completions": 61,
-    "attempts": 96,
-    "yards": 615,
-    "tds": 2,
+    "completions": 68,
+    "attempts": 107,
+    "yards": 679,
+    "tds": 3,
     "ints": 2,
-    "cpoe": 0.3183898746326333,
+    "cpoe": 0.4552529121820669,
     "accuracyByDepth": {
-      "short": 0.6842105263157895,
-      "medium": 0.5,
+      "short": 0.6744186046511628,
+      "medium": 0.5384615384615384,
       "deep": 0.21428571428571427
     },
-    "pressureEpa": -1.769840080027645,
-    "cleanPocketEpa": 0.054727487647220026,
+    "pressureEpa": -1.7132292524408117,
+    "cleanPocketEpa": 0.10851411846812409,
     "turnoverWorthyPlayRate": 0.01834862385321101,
     "ngs": {
       "timeToThrow": {
@@ -964,19 +964,19 @@
     "playerName": "Brock Purdy",
     "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/xs2fyj1sqdgwvt9ihbri",
     "team": "SF",
-    "completions": 119,
-    "attempts": 171,
-    "yards": 1460,
-    "tds": 14,
-    "ints": 2,
-    "cpoe": 5.128296976347997,
+    "completions": 146,
+    "attempts": 211,
+    "yards": 1748,
+    "tds": 15,
+    "ints": 4,
+    "cpoe": 4.251220735107975,
     "accuracyByDepth": {
-      "short": 0.7945205479452054,
-      "medium": 0.5416666666666666,
+      "short": 0.7789473684210526,
+      "medium": 0.55,
       "deep": 0.5
     },
-    "pressureEpa": 0.03776741283016778,
-    "cleanPocketEpa": 0.3580810414681056,
+    "pressureEpa": -0.14169155897346697,
+    "cleanPocketEpa": 0.2976455320211019,
     "turnoverWorthyPlayRate": 0.022598870056497175,
     "ngs": {
       "timeToThrow": {
