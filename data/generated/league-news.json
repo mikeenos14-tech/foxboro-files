@@ -1,29 +1,29 @@
 [
   {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/nfl-nflpa-are-working-together-to-review-jalen-hurts-situation",
-    "publishedAt": "2026-10-25T12:55:28.000Z",
-    "type": "Analysis",
-    "headline": "NFL, NFLPA are \"working together\" to review Jalen Hurts situation",
-    "summary": "As another full Sunday of football approaches, there's a new development in the situation regarding Eagles quarterback Jalen Hurts, who is likely out for the rest of the year after a \"superficial\" blood clot became a deep vein thrombosis and blood clots in each lung.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/nfl-nflpa-are-working-together-to-review-jalen-hurts-situation",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=423931",
-    "publishedAt": "2026-10-25T04:30:38.000Z",
-    "type": "Injury",
-    "headline": "Lamar Jackson Out With High Ankle Sprain",
-    "summary": "OCTOBER 24: Ahead of tomorrow’s home matchup with the Bengals, the Ravens have officially downgraded Jackson to “out.” The three-time first-team All-Pro passer will miss his third game in a row after sitting out the entire second half of Baltimore’s Week 4 win over the Titans. Per Tom Pelissero, Jackson was healthy enough to take […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/lamar-jackson-out-with-high-ankle-sprain",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
     "id": "50275489",
     "publishedAt": "2026-10-25T13:02:13Z",
     "type": "Analysis",
     "headline": "Browns DT Maliek Collins lands 2-year extension worth $30 million, agent says",
     "summary": "The Browns and DT Maliek Collins have agreed to terms on a two-year, $30M extension that includes $23M guaranteed, his agent told ESPN and NFL Network.",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/50275489/browns-maliek-collins-lands-2-year-extension-agent-says",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=423931",
+    "publishedAt": "2026-10-25T15:40:38.000Z",
+    "type": "Injury",
+    "headline": "Ravens QB Lamar Jackson To Miss Week 7 With High Ankle Sprain, Expected To Return In Week 8",
+    "summary": "OCTOBER 25: Ian Rapoport of the NFL Network (video link) says Jackson’s ailment is not a “typical” high ankle sprain but did not elaborate further on that point. Per Rapoport, Jackson was indeed “close” to playing against the Bengals and is expected to suit up for the Ravens’ matchup with the Bills in Week 8. […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/lamar-jackson-out-with-high-ankle-sprain",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "50276432",
+    "publishedAt": "2026-10-25T14:14:37Z",
+    "type": "Analysis",
+    "headline": "NFL, NFLPA handling joint review of Jalen Hurts' blood clot diagnosis",
+    "summary": "The NFL and NFL Players Association are working together to review the handling of Jalen Hurts' blood clot diagnosis.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50276432/nfl-nflpa-handling-joint-review-jalen-hurts-diagnosis",
     "sourceName": "ESPN"
   },
   {
@@ -36,6 +36,15 @@
     "sourceName": "ESPN"
   },
   {
+    "id": "50275162",
+    "publishedAt": "2026-10-25T12:56:06Z",
+    "type": "Analysis",
+    "headline": "Rams optimistic that star WR Puka Nacua will play vs. Raiders, source says",
+    "summary": "The Rams are optimistic that star wide receiver Puka Nacua will play Sunday against the Raiders, a source told ESPN.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50275162/source-rams-optimistic-puka-nacua-play-vs-raiders",
+    "sourceName": "ESPN"
+  },
+  {
     "id": "profootballrumors-https://www.profootballrumors.com/?p=424026",
     "publishedAt": "2026-10-25T12:49:34.000Z",
     "type": "Transaction",
@@ -43,14 +52,5 @@
     "summary": "The Eagles are 2-4 and are without their starting quarterback for the rest of the year. It therefore would be reasonable to expect them to operate as sellers at the upcoming trade deadline. However, the state of the NFC East makes it a little more difficult to predict what GM Howie Roseman will do. Philadelphia […]",
     "sourceUrl": "https://www.profootballrumors.com/2026/10/eagles-to-both-buy-and-sell-at-trade-deadline",
     "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/texans-activate-wr-tank-dell-to-the-active-roster",
-    "publishedAt": "2026-10-24T21:14:52.000Z",
-    "type": "Transaction",
-    "headline": "Texans activate WR Tank Dell to the active roster",
-    "summary": "Tank Dell will play his first game in nearly two years on Sunday when the Texans play the Giants.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/texans-activate-wr-tank-dell-to-the-active-roster",
-    "sourceName": "Pro Football Talk"
   }
 ]

@@ -5,8 +5,8 @@
     "position": "DE",
     "week": 8,
     "injury": "Hamstring",
-    "gameStatus": "Doubtful",
-    "lastUpdated": "2026-10-23T20:18Z"
+    "gameStatus": "Out",
+    "lastUpdated": "2026-10-25T16:12Z"
   },
   {
     "playerId": "4259804",
@@ -14,8 +14,8 @@
     "position": "LB",
     "week": 8,
     "injury": "Illness",
-    "gameStatus": "Questionable",
-    "lastUpdated": "2026-10-22T20:18Z"
+    "gameStatus": "Out",
+    "lastUpdated": "2026-10-25T15:52Z"
   },
   {
     "playerId": "4371946",
@@ -24,6 +24,6 @@
     "week": 8,
     "injury": "Quadriceps",
     "gameStatus": "Out",
-    "lastUpdated": "2026-10-24T02:00Z"
+    "lastUpdated": "2026-10-25T15:34Z"
   }
 ]
