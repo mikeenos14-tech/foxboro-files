@@ -9,31 +9,13 @@
     "sourceName": "ESPN"
   },
   {
-    "id": "50269752",
-    "publishedAt": "2026-10-24T21:17:02Z",
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=423931",
+    "publishedAt": "2026-10-24T19:52:38.000Z",
     "type": "Injury",
-    "headline": "Eagles' DeVonta Smith, Dontayvion Wicks out vs. Cowboys",
-    "summary": "The Eagles' top two receivers -- DeVonta Smith and Dontayvion Wicks -- have been ruled out of Monday night's game against the Cowboys.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50269752/eagles-devonta-smith-dontayvion-wicks-vs-cowboys",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=423974",
-    "publishedAt": "2026-10-24T21:14:00.000Z",
-    "type": "Transaction",
-    "headline": "Giants CB Paulson Adebo Activated Off IR",
-    "summary": "The Giants will get some much-needed reinforcement in their secondary this weekend. According to Dan Duggan of The Athletic, one of New York’s five cornerbacks on injured reserve has been activated, and that cornerback is starter Paulson Adebo. In a corresponding move, linebacker Tremaine Edmunds has been placed on IR after suffering a torn muscle […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/giants-cb-paulson-adebo-activated-off-ir",
+    "headline": "Lamar Jackson Out With High Ankle Sprain",
+    "summary": "OCTOBER 24: Ahead of tomorrow’s home matchup with the Bengals, the Ravens have officially downgraded Jackson to “out.” The three-time first-team All-Pro passer will miss his third game in a row after sitting out the entire second half of Baltimore’s Week 4 win over the Titans. Per Tom Pelissero, Jackson was healthy enough to take […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/lamar-jackson-out-with-high-ankle-sprain",
     "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/without-tight-end-cole-kmet-bears-may-run-more-jumbo-six-lineman-formations",
-    "publishedAt": "2026-10-24T16:30:15.000Z",
-    "type": "Injury",
-    "headline": "Without tight end Cole Kmet, Bears may run more jumbo six-lineman formations",
-    "summary": "Bears tight end Cole Kmet suffered a season-ending knee injury on Thursday night, and the Bears' plan for replacing him could entail putting more offensive linemen on the field.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/without-tight-end-cole-kmet-bears-may-run-more-jumbo-six-lineman-formations",
-    "sourceName": "Pro Football Talk"
   },
   {
     "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/texans-activate-wr-tank-dell-to-the-active-roster",
@@ -43,5 +25,32 @@
     "summary": "Tank Dell will play his first game in nearly two years on Sunday when the Texans play the Giants.",
     "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/texans-activate-wr-tank-dell-to-the-active-roster",
     "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/49ers-activate-wr-christian-kirk-from-ir",
+    "publishedAt": "2026-10-24T21:00:39.000Z",
+    "type": "Transaction",
+    "headline": "49ers activate WR Christian Kirk from IR",
+    "summary": "The 49ers made a procedural move on Friday, releasing defensive lineman Ogbo Okoronkwo to make room for wide receiver Christian Kirk.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/49ers-activate-wr-christian-kirk-from-ir",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/lions-activate-brian-branch-cade-mays",
+    "publishedAt": "2026-10-24T20:32:34.000Z",
+    "type": "Transaction",
+    "headline": "Lions activate Brian Branch, Cade Mays",
+    "summary": "Safety Brian Branch will be back in the Lions' lineup on Sunday afternoon.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/lions-activate-brian-branch-cade-mays",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=423974",
+    "publishedAt": "2026-10-24T21:14:00.000Z",
+    "type": "Transaction",
+    "headline": "Giants CB Paulson Adebo Activated Off IR",
+    "summary": "The Giants will get some much-needed reinforcement in their secondary this weekend. According to Dan Duggan of The Athletic, one of New York’s five cornerbacks on injured reserve has been activated, and that cornerback is starter Paulson Adebo. In a corresponding move, linebacker Tremaine Edmunds has been placed on IR after suffering a torn muscle […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/giants-cb-paulson-adebo-activated-off-ir",
+    "sourceName": "Pro Football Rumors"
   }
 ]
