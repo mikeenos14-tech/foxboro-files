@@ -132,14 +132,14 @@
     }
   ],
   "weather": {
-    "tempF": 79,
-    "wind": "10 mph",
-    "precipitation": "30%",
+    "tempF": 85,
+    "wind": "11 mph",
+    "precipitation": "26%",
     "isDome": false
   },
   "bettingContext": {
     "spread": -8.5,
     "overUnder": 44.5,
-    "asOf": "2026-10-24"
+    "asOf": "2026-10-25"
   }
 }

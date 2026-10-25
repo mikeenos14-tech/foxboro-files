@@ -16,7 +16,7 @@
   },
   "pressureEpa": -0.8581345024865787,
   "cleanPocketEpa": 0.33601575498195574,
-  "turnoverWorthyPlayRate": 0.041025641025641026,
+  "turnoverWorthyPlayRate": 0.039473684210526314,
   "ngs": {
     "timeToThrow": {
       "value": 3.10998591549296,
@@ -36,7 +36,7 @@
       "leaguePercentile": 90
     },
     "turnoverWorthyPlayRate": {
-      "value": 0.041025641025641026,
+      "value": 0.039473684210526314,
       "leagueRank": 28,
       "leaguePercentile": 13
     },
@@ -69,7 +69,7 @@
         },
         "pressureEpa": -0.7645198927959438,
         "cleanPocketEpa": 0.5140049294017573,
-        "turnoverWorthyPlayRate": 0
+        "turnoverWorthyPlayRate": 0.030303030303030304
       }
     },
     {
@@ -89,7 +89,7 @@
         },
         "pressureEpa": -0.24328503107036775,
         "cleanPocketEpa": 0.5822341663081241,
-        "turnoverWorthyPlayRate": 0
+        "turnoverWorthyPlayRate": 0.01
       }
     },
     {
@@ -109,47 +109,46 @@
         },
         "pressureEpa": -0.921754279392189,
         "cleanPocketEpa": 0.4590622978719209,
-        "turnoverWorthyPlayRate": 0.029850746268656716
+        "turnoverWorthyPlayRate": 0.029940119760479042
       }
     }
   ],
   "situational": [
     {
       "label": "Play action",
-      "epa": -0.166884684973576,
-      "plays": 44,
-      "shareOfDropbacks": 0.22564102564102564
+      "epa": -0.1908580199929216,
+      "plays": 46,
+      "shareOfDropbacks": 0.20175438596491227
     },
     {
       "label": "No play action",
-      "epa": 0.20129516852044016,
-      "plays": 151,
-      "shareOfDropbacks": 0.7743589743589744
+      "epa": 0.23297610871809346,
+      "plays": 182,
+      "shareOfDropbacks": 0.7982456140350878
     },
     {
       "label": "Blitzed (5+ rushers)",
-      "epa": 0.020839533309612225,
-      "plays": 61,
-      "shareOfDropbacks": 0.3128205128205128
+      "epa": 0.11909642057920143,
+      "plays": 72,
+      "shareOfDropbacks": 0.3157894736842105
     },
     {
       "label": "Not blitzed",
-      "epa": 0.16254800579002082,
-      "plays": 134,
-      "shareOfDropbacks": 0.6871794871794872
+      "epa": 0.16055923452125717,
+      "plays": 156,
+      "shareOfDropbacks": 0.6842105263157895
     },
     {
       "label": "Outside the pocket",
-      "epa": 0.2392333142650373,
-      "plays": 39,
-      "shareOfDropbacks": 0.2
+      "epa": 0.3270302153324696,
+      "plays": 44,
+      "shareOfDropbacks": 0.19298245614035087
     },
     {
       "label": "Screens",
-      "epa": -0.07932087825237369,
-      "plays": 17,
-      "shareOfDropbacks": 0.08717948717948718
+      "epa": -0.15236842204286075,
+      "plays": 19,
+      "shareOfDropbacks": 0.08333333333333333
     }
-  ],
-  "chartingNote": "FTN's charting covers 6 of his 7 games so far — turnover-worthy rate and the splits below use those 6."
+  ]
 }

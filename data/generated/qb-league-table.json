@@ -81,7 +81,7 @@
     },
     "pressureEpa": -0.8581345024865787,
     "cleanPocketEpa": 0.33601575498195574,
-    "turnoverWorthyPlayRate": 0.041025641025641026,
+    "turnoverWorthyPlayRate": 0.039473684210526314,
     "ngs": {
       "timeToThrow": {
         "value": 3.10998591549296,
@@ -657,7 +657,7 @@
     },
     "pressureEpa": -0.7772348492203869,
     "cleanPocketEpa": 0.4975250069017216,
-    "turnoverWorthyPlayRate": 0.01,
+    "turnoverWorthyPlayRate": 0.007352941176470588,
     "ngs": {
       "timeToThrow": {
         "value": 3.22226612903226,
