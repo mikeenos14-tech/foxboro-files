@@ -132,14 +132,15 @@
     }
   ],
   "weather": {
-    "tempF": 86,
+    "tempF": 87,
     "wind": "10 mph",
-    "precipitation": "30%",
+    "precipitation": "29%",
     "isDome": false
   },
   "bettingContext": {
     "spread": -7,
     "overUnder": 44.5,
     "asOf": "2026-10-26"
-  }
+  },
+  "previewTake": "Miami's pass defense is a historical disaster — a 3/100 grade that ranks among the NFL's worst — and our pass offense, grading 77/100, represents the widest statistical edge on the board this week. That's the kind of matchup that doesn't come around often, especially on the road at Hard Rock Stadium. The problem, of course, is that Miami's rush offense (90/100) is among the league's best and will test our average run defense (55/100), so this won't be a one-sided affair. Still, recent form favors us slightly (0.15 EPA/play over three games versus Miami's -0.06), and we've already beaten them twice this season. The line at -7 feels right given the pass defense disparity, but winning on the road in South Florida in November is never automatic — we'll need our passing game to dominate early and often."
 }
