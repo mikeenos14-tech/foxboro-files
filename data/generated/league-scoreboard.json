@@ -13,6 +13,19 @@
     "overtime": false
   },
   {
+    "gameId": "2026_07_DEN_ARI",
+    "week": 7,
+    "date": "2026-10-25",
+    "weekday": "Sunday",
+    "homeTeam": "ARI",
+    "awayTeam": "DEN",
+    "homeScore": 16,
+    "awayScore": 30,
+    "homeRecord": "2-5",
+    "awayRecord": "5-2",
+    "overtime": false
+  },
+  {
     "gameId": "2026_07_SF_ATL",
     "week": 7,
     "date": "2026-10-25",
@@ -52,6 +65,19 @@
     "overtime": false
   },
   {
+    "gameId": "2026_07_GB_DET",
+    "week": 7,
+    "date": "2026-10-25",
+    "weekday": "Sunday",
+    "homeTeam": "DET",
+    "awayTeam": "GB",
+    "homeScore": 20,
+    "awayScore": 17,
+    "homeRecord": "4-2",
+    "awayRecord": "4-3",
+    "overtime": false
+  },
+  {
     "gameId": "2026_07_NYG_HOU",
     "week": 7,
     "date": "2026-10-25",
@@ -63,6 +89,19 @@
     "homeRecord": "2-5",
     "awayRecord": "4-2-1",
     "overtime": true
+  },
+  {
+    "gameId": "2026_07_LA_LV",
+    "week": 7,
+    "date": "2026-10-25",
+    "weekday": "Sunday",
+    "homeTeam": "LV",
+    "awayTeam": "LA",
+    "homeScore": 21,
+    "awayScore": 35,
+    "homeRecord": "3-4",
+    "awayRecord": "3-4",
+    "overtime": false
   },
   {
     "gameId": "2026_07_IND_MIN",
@@ -101,6 +140,19 @@
     "awayScore": 28,
     "homeRecord": "2-5",
     "awayRecord": "1-5",
+    "overtime": false
+  },
+  {
+    "gameId": "2026_07_KC_SEA",
+    "week": 7,
+    "date": "2026-10-25",
+    "weekday": "Sunday",
+    "homeTeam": "SEA",
+    "awayTeam": "KC",
+    "homeScore": 20,
+    "awayScore": 3,
+    "homeRecord": "4-3",
+    "awayRecord": "5-1",
     "overtime": false
   },
   {

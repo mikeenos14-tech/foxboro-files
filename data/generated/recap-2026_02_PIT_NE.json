@@ -8,7 +8,7 @@
   "successRate": {
     "offense": 0.4117647058823529,
     "defense": 0.373134328358209,
-    "leagueAverage": 0.43605485568489877
+    "leagueAverage": 0.435368937246188
   },
   "turnoverMargin": 0,
   "pointsOffTurnovers": {
@@ -177,8 +177,8 @@
     {
       "group": "defense",
       "text": "The 6th-best defensive game by any team this season: -0.36 EPA per play allowed.",
-      "population": "all 204 team-games this season",
-      "score": 0.9753694581280788,
+      "population": "all 212 team-games this season",
+      "score": 0.976303317535545,
       "tone": "good"
     },
     {

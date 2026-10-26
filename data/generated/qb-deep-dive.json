@@ -25,7 +25,7 @@
     },
     "aggressiveness": {
       "value": 12.6168224299065,
-      "rank": 28,
+      "rank": 27,
       "of": 36
     }
   },
@@ -42,13 +42,13 @@
     },
     "cleanPocketEpa": {
       "value": 0.33601575498195574,
-      "leagueRank": 9,
-      "leaguePercentile": 74
+      "leagueRank": 8,
+      "leaguePercentile": 77
     },
     "pressureEpa": {
       "value": -0.8581345024865787,
-      "leagueRank": 17,
-      "leaguePercentile": 48
+      "leagueRank": 18,
+      "leaguePercentile": 45
     }
   },
   "windows": [
