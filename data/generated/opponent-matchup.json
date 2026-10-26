@@ -132,15 +132,14 @@
     }
   ],
   "weather": {
-    "tempF": 88,
-    "wind": "11 mph",
-    "precipitation": "24%",
+    "tempF": 86,
+    "wind": "10 mph",
+    "precipitation": "30%",
     "isDome": false
   },
   "bettingContext": {
-    "spread": -7.5,
+    "spread": -7,
     "overUnder": 44.5,
     "asOf": "2026-10-26"
-  },
-  "previewTake": "Miami's pass defense grades out at 3/100—genuinely among the worst in football—and we're bringing a pass offense graded at 77/100. That's the widest statistical edge on the board this week, and it's hard to overstate how badly that matchup tilts in our favor. The Dolphins' pass rush is equally anemic at 3/100, which should give our quarterbacks time to actually function. The real question is whether we can finish drives; we're +0.15 in net EPA over our last three games while Miami's been struggling at -0.06 over theirs. On the road at Hard Rock in an afternoon slot, this feels like a genuine opportunity—especially after dropping three of the last five head-to-heads against this division opponent."
+  }
 }
