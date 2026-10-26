@@ -1,1 +1,29 @@
-[]
+[
+  {
+    "playerId": "4259558",
+    "playerName": "Robert Beal Jr.",
+    "position": "DE",
+    "week": 8,
+    "injury": "Hamstring",
+    "gameStatus": "Out",
+    "lastUpdated": "2026-10-26T18:38Z"
+  },
+  {
+    "playerId": "4259804",
+    "playerName": "Willie Gay Jr.",
+    "position": "LB",
+    "week": 8,
+    "injury": "Illness",
+    "gameStatus": "Out",
+    "lastUpdated": "2026-10-26T18:38Z"
+  },
+  {
+    "playerId": "4371946",
+    "playerName": "Reese Taylor",
+    "position": "CB",
+    "week": 8,
+    "injury": "Quadriceps",
+    "gameStatus": "Out",
+    "lastUpdated": "2026-10-26T18:38Z"
+  }
+]
