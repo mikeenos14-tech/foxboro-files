@@ -167,5 +167,18 @@
     "homeRecord": "1-6",
     "awayRecord": "5-2",
     "overtime": false
+  },
+  {
+    "gameId": "2026_07_DAL_PHI",
+    "week": 7,
+    "date": "2026-10-26",
+    "weekday": "Monday",
+    "homeTeam": "PHI",
+    "awayTeam": "DAL",
+    "homeScore": 21,
+    "awayScore": 38,
+    "homeRecord": "2-5",
+    "awayRecord": "3-4",
+    "overtime": false
   }
 ]

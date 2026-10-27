@@ -6,7 +6,7 @@
     "defense": 29
   },
   "ourEpaRank": {
-    "offense": 9,
+    "offense": 8,
     "defense": 14
   },
   "successRate": {
@@ -30,8 +30,8 @@
       },
       "defense": {
         "value": 0.49271137026239065,
-        "leagueRank": 31,
-        "leaguePercentile": 3
+        "leagueRank": 32,
+        "leaguePercentile": 0
       }
     }
   },
@@ -39,9 +39,9 @@
     {
       "group": "Rush Offense vs. Run Defense",
       "ourGrade": 52,
-      "theirGrade": 45,
+      "theirGrade": 42,
       "edge": "even",
-      "note": "52/100 vs. 45/100 (close matchup).",
+      "note": "52/100 vs. 42/100 (close matchup).",
       "ourStatLine": "864 yds, 4.4 YPC, 5 TD, 2 FUM, 12% explosive",
       "theirStatLine": "677 yds allowed, 4.2 YPC allowed, 4 TD allowed, 12% explosive allowed"
     },
@@ -132,15 +132,15 @@
     }
   ],
   "weather": {
-    "tempF": 87,
-    "wind": "10 mph",
-    "precipitation": "29%",
+    "tempF": 85,
+    "wind": "12 mph",
+    "precipitation": "44%",
     "isDome": false
   },
   "bettingContext": {
-    "spread": -7,
+    "spread": -7.5,
     "overUnder": 44.5,
-    "asOf": "2026-10-26"
+    "asOf": "2026-10-27"
   },
-  "previewTake": "Miami's pass defense is a historical disaster — a 3/100 grade that ranks among the NFL's worst — and our pass offense, grading 77/100, represents the widest statistical edge on the board this week. That's the kind of matchup that doesn't come around often, especially on the road at Hard Rock Stadium. The problem, of course, is that Miami's rush offense (90/100) is among the league's best and will test our average run defense (55/100), so this won't be a one-sided affair. Still, recent form favors us slightly (0.15 EPA/play over three games versus Miami's -0.06), and we've already beaten them twice this season. The line at -7 feels right given the pass defense disparity, but winning on the road in South Florida in November is never automatic — we'll need our passing game to dominate early and often."
+  "previewTake": "Here's the thing about Miami's pass defense: a grade of 3 out of 100 isn't just bad, it's historically, catastrophically, almost scientifically bad — and our pass offense (77/100) happens to be the sharpest weapon we're bringing to Hard Rock Stadium. The math is genuinely lopsided: we should be able to move the ball through the air at will, which matters in an afternoon game where Miami's own offense (16/100 passing grade) isn't exactly going to keep us in a shoot-out. The real chess match is our run defense (55/100) against their rushing attack (90/100), so keeping their ground game honest will be crucial — but if we can establish some passing rhythm early, we're looking at the kind of one-sided matchup that doesn't come around very often. We're 2-3 in our last five against Miami, so there's no such thing as a guaranteed road win in this division, but the talent disparity on one side of the ball is just too stark to ignore."
 }

@@ -312,32 +312,32 @@
         }
       },
       {
-        "team": "PHI",
-        "wins": 2,
+        "team": "DAL",
+        "wins": 3,
         "losses": 4,
         "ties": 0,
-        "pointDifferential": -31,
+        "pointDifferential": 9,
         "isUs": false,
         "streak": {
-          "result": "L",
-          "count": 4
+          "result": "W",
+          "count": 1
         },
         "divisionRecord": {
-          "wins": 1,
-          "losses": 0,
+          "wins": 2,
+          "losses": 1,
           "ties": 0
         }
       },
       {
-        "team": "DAL",
+        "team": "PHI",
         "wins": 2,
-        "losses": 4,
+        "losses": 5,
         "ties": 0,
-        "pointDifferential": -8,
+        "pointDifferential": -48,
         "isUs": false,
         "streak": {
           "result": "L",
-          "count": 2
+          "count": 5
         },
         "divisionRecord": {
           "wins": 1,

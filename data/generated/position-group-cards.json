@@ -8,7 +8,7 @@
       {
         "key": "last-1",
         "label": "Last Game",
-        "grade": 84
+        "grade": 81
       },
       {
         "key": "last-3",
@@ -27,19 +27,19 @@
   },
   {
     "group": "RB",
-    "grade": 29,
+    "grade": 26,
     "trend": "flat",
     "soWhat": "EPA/play at RB, on 164 plays.",
     "windows": [
       {
         "key": "last-1",
         "label": "Last Game",
-        "grade": 26
+        "grade": 23
       },
       {
         "key": "last-3",
         "label": "Last 3 Games",
-        "grade": 16
+        "grade": 13
       },
       {
         "key": "last-5",
@@ -61,12 +61,12 @@
       {
         "key": "last-1",
         "label": "Last Game",
-        "grade": 32
+        "grade": 29
       },
       {
         "key": "last-3",
         "label": "Last 3 Games",
-        "grade": 97
+        "grade": 100
       },
       {
         "key": "last-5",
@@ -93,7 +93,7 @@
       {
         "key": "last-1",
         "label": "Last Game",
-        "grade": 84
+        "grade": 81
       },
       {
         "key": "last-3",
@@ -119,14 +119,14 @@
   },
   {
     "group": "Pass Protection",
-    "grade": 74,
+    "grade": 71,
     "trend": "down",
     "soWhat": "Pressure rate allowed — sacks or QB hits, so a beaten block still counts when a quick throw bails it out. Team-wide, and partly the QB's own time to throw.",
     "windows": [
       {
         "key": "last-1",
         "label": "Last Game",
-        "grade": 48
+        "grade": 45
       },
       {
         "key": "last-3",
@@ -136,10 +136,10 @@
       {
         "key": "last-5",
         "label": "Last 5 Games",
-        "grade": 71
+        "grade": 68
       }
     ],
-    "statLine": "Drake Maye takes 3.11 sec to throw on average — 4th-longest of 36 qualified QBs (a longer hold gives the rush more time)",
+    "statLine": "Drake Maye takes 3.11 sec to throw on average — 4th-longest of 37 qualified QBs (a longer hold gives the rush more time)",
     "sampleSize": 234,
     "confidence": "high"
   },
@@ -178,7 +178,7 @@
       {
         "key": "last-1",
         "label": "Last Game",
-        "grade": 55
+        "grade": 58
       },
       {
         "key": "last-3",
@@ -204,7 +204,7 @@
       {
         "key": "last-1",
         "label": "Last Game",
-        "grade": 10
+        "grade": 13
       },
       {
         "key": "last-3",
