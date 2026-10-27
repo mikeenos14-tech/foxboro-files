@@ -1,5 +1,23 @@
 [
   {
+    "id": "b9ed8a56-2192-4a93-bb22-7830758276de",
+    "publishedAt": "2026-10-27T14:17:35.000Z",
+    "type": "Analysis",
+    "headline": "Game Preview: Patriots at Dolphins | NFL Week 8",
+    "summary": "The New England Patriots travel to Miami to face the Dolphins on Sunday, November 1, 2026 at 4:15 PM ET.",
+    "sourceUrl": "https://www.patriots.com/news/game-preview-patriots-at-dolphins-nfl-week-8",
+    "sourceName": "Patriots.com"
+  },
+  {
+    "id": "20aec0af-552b-4236-b1c9-2a7c30c85e5b",
+    "publishedAt": "2026-10-27T14:15:00.000Z",
+    "type": "Analysis",
+    "headline": "How to Watch and Stream Sunday's Patriots Game Against the Dolphins | NFL Week 8",
+    "summary": "Complete broadcast information for this week's game between the New England Patriots and the Miami Dophins on Sunday, November 1, 2026 at 4:25 PM ET.",
+    "sourceUrl": "https://www.patriots.com/news/how-to-watch-and-stream-sunday-s-patriots-game-against-the-dolphins-nfl-week-8",
+    "sourceName": "Patriots.com"
+  },
+  {
     "id": "b2f7be20-ea96-4d99-8ccb-1fd583b01b11",
     "publishedAt": "2026-10-26T20:00:00.000Z",
     "type": "Transaction",
@@ -36,15 +54,6 @@
     "sourceName": "Patriots.com"
   },
   {
-    "id": "67891192-de8c-4b0d-a14c-f41b52fa8a23",
-    "publishedAt": "2026-10-23T13:01:00.000Z",
-    "type": "Beat Report",
-    "headline": "Game Observations: 8 takeaways from the Patriots loss to the Bears on Thursday Night Football in Week 7",
-    "summary": "The Patriots fell to the Bears in a 30-24 loss in Chicago on Thursday night.",
-    "sourceUrl": "https://www.patriots.com/news/game-observations-8-takeaways-from-the-patriots-loss-to-the-bears-on-thursday-night-football-in-week-7",
-    "sourceName": "Patriots.com"
-  },
-  {
     "id": "50254932",
     "publishedAt": "2026-10-23T05:40:08Z",
     "type": "Analysis",
@@ -52,15 +61,6 @@
     "summary": "— Round 2 went to Caleb Williams and the Chicago Bears.",
     "sourceUrl": "http://www.espn.com/nfl/recap?gameId=401873010",
     "sourceName": "ESPN"
-  },
-  {
-    "id": "7e6e5b0e-c2c6-4dfc-99c1-3c277c2a4b8b",
-    "publishedAt": "2026-10-23T05:10:52.000Z",
-    "type": "Beat Report",
-    "headline": "Game Notes: Stevenson Reaches Career High in Receiving Yards",
-    "summary": "Game notes and stats from the Patriots Week 7 game against the Chicago Bears on Thursday, October 22, 2026.",
-    "sourceUrl": "https://www.patriots.com/news/game-notes-stevenson-reaches-career-high-in-receiving-yards",
-    "sourceName": "Patriots.com"
   },
   {
     "id": "50237846",
