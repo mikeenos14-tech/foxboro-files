@@ -1,30 +1,72 @@
 [
   {
-    "playerId": "4259558",
-    "playerName": "Robert Beal Jr.",
-    "position": "DE",
+    "playerId": "4367209",
+    "playerName": "Greg Dulcich",
+    "position": "TE",
+    "week": 8,
+    "injury": "Ankle",
+    "gameStatus": "Questionable",
+    "lastUpdated": "2026-10-28T20:35:41.648Z",
+    "practiceStatus": "Limited"
+  },
+  {
+    "playerId": "4880236",
+    "playerName": "Will Kacmarek",
+    "position": "TE",
     "week": 8,
     "injury": "Hamstring",
     "gameStatus": "Questionable",
-    "lastUpdated": "2026-10-27T13:11Z"
+    "lastUpdated": "2026-10-28T20:35:41.648Z",
+    "practiceStatus": "Limited"
+  },
+  {
+    "playerId": "4870976",
+    "playerName": "Kadyn Proctor",
+    "position": "OT",
+    "week": 8,
+    "injury": "Concussion",
+    "gameStatus": "Questionable",
+    "lastUpdated": "2026-10-28T20:31Z"
+  },
+  {
+    "playerId": "4569603",
+    "playerName": "Malik Washington",
+    "position": "WR",
+    "week": 8,
+    "injury": "Knee",
+    "gameStatus": "Questionable",
+    "lastUpdated": "2026-10-28T20:35:41.648Z",
+    "practiceStatus": "Limited"
+  },
+  {
+    "playerId": "4430681",
+    "playerName": "Jared Wayne",
+    "position": "WR",
+    "week": 8,
+    "injury": "Knee",
+    "gameStatus": "Questionable",
+    "lastUpdated": "2026-10-28T20:35:41.648Z",
+    "practiceStatus": "Limited"
   },
   {
     "playerId": "4360488",
     "playerName": "JuJu Brents",
     "position": "CB",
     "week": 8,
-    "injury": "Concussion",
+    "injury": "Neck",
     "gameStatus": "Questionable",
-    "lastUpdated": "2026-10-28T17:00Z"
+    "lastUpdated": "2026-10-28T20:35:41.648Z",
+    "practiceStatus": "Did Not Participate"
   },
   {
-    "playerId": "4259804",
-    "playerName": "Willie Gay Jr.",
-    "position": "LB",
+    "playerId": "4880346",
+    "playerName": "Michael Taaffe",
+    "position": "S",
     "week": 8,
-    "injury": "Illness",
+    "injury": "Neck",
     "gameStatus": "Questionable",
-    "lastUpdated": "2026-10-27T13:11Z"
+    "lastUpdated": "2026-10-28T20:35:41.648Z",
+    "practiceStatus": "Limited"
   },
   {
     "playerId": "4371946",
@@ -33,6 +75,57 @@
     "week": 8,
     "injury": "Quadriceps",
     "gameStatus": "Questionable",
-    "lastUpdated": "2026-10-27T13:11Z"
+    "lastUpdated": "2026-10-28T20:35:41.648Z",
+    "practiceStatus": "Limited"
+  },
+  {
+    "playerId": "4431664",
+    "playerName": "Dante Trader Jr.",
+    "position": "S",
+    "week": 8,
+    "injury": "Shoulder",
+    "gameStatus": "Questionable",
+    "lastUpdated": "2026-10-28T20:35:41.648Z",
+    "practiceStatus": "Limited"
+  },
+  {
+    "playerId": "4034729",
+    "playerName": "Tucker Addington",
+    "position": "LS",
+    "week": 8,
+    "injury": "Shoulder",
+    "gameStatus": "Questionable",
+    "lastUpdated": "2026-10-28T20:35:41.648Z",
+    "practiceStatus": "Limited"
+  },
+  {
+    "playerId": "patriots-rob-beal",
+    "playerName": "Rob Beal Jr.",
+    "position": "EDGE",
+    "week": 8,
+    "injury": "Hamstring",
+    "practiceStatus": "Full",
+    "gameStatus": null,
+    "lastUpdated": "2026-10-28T20:35:41.648Z"
+  },
+  {
+    "playerId": "patriots-malik-willis",
+    "playerName": "Malik Willis",
+    "position": "QB",
+    "week": 8,
+    "injury": "Groin",
+    "practiceStatus": "Full",
+    "gameStatus": null,
+    "lastUpdated": "2026-10-28T20:35:41.648Z"
+  },
+  {
+    "playerId": "patriots-jaylen-wright",
+    "playerName": "Jaylen Wright",
+    "position": "RB",
+    "week": 8,
+    "injury": "Foot / Quad",
+    "practiceStatus": "Full",
+    "gameStatus": null,
+    "lastUpdated": "2026-10-28T20:35:41.648Z"
   }
 ]

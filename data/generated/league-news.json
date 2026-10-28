@@ -1,7 +1,16 @@
 [
   {
+    "id": "50309816",
+    "publishedAt": "2026-10-28T20:00:29Z",
+    "type": "Injury",
+    "headline": "Pass rusher Jaelan Phillips among four Panthers ruled out for TNF vs. Packers",
+    "summary": "The Panthers ruled out four players, including starting OLB Jaelan Phillips (hamstring) and left guard Damien Lewis (knee) for \"Thursday Night Football.\"",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50309816/pass-rusher-jaelan-phillips-4-panthers-ruled-tnf",
+    "sourceName": "ESPN"
+  },
+  {
     "id": "50309159",
-    "publishedAt": "2026-10-28T17:52:08Z",
+    "publishedAt": "2026-10-28T18:29:23Z",
     "type": "Transaction",
     "headline": "Sources: Colts' Josh Downs requests trade; Jonathan Taylor hasn't, per coach",
     "summary": "Colts wide receiver Josh Downs is requesting a trade amid the team's rebuilding efforts, sources told ESPN's Jeremy Fowler on Wednesday.",
@@ -9,48 +18,39 @@
     "sourceName": "ESPN"
   },
   {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/josh-downs-on-trade-request-im-open-to-whatever",
-    "publishedAt": "2026-10-28T17:04:57.000Z",
-    "type": "Transaction",
-    "headline": "Josh Downs on trade request: \"I'm open to whatever\"",
-    "summary": "Downs did not explicitly confirm he'd requested a trade, but he didn't reject the notion of playing elsewhere when asked on Wednesday.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/josh-downs-on-trade-request-im-open-to-whatever",
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/derwin-james-could-land-on-ir-after-hamstring-setback",
+    "publishedAt": "2026-10-28T19:59:42.000Z",
+    "type": "Injury",
+    "headline": "Derwin James could land on IR after hamstring setback",
+    "summary": "The Chargers' bid to salvage their season may unfold without the assistance of safety Derwin James.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/derwin-james-could-land-on-ir-after-hamstring-setback",
     "sourceName": "Pro Football Talk"
   },
   {
-    "id": "50043542",
-    "publishedAt": "2026-10-28T16:41:49Z",
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-texans-expect-jaylin-noel-to-miss-the-rest-of-the-season",
+    "publishedAt": "2026-10-28T21:51:12.000Z",
+    "type": "Injury",
+    "headline": "Report: Texans expect Jaylin Noel to miss the rest of the season",
+    "summary": "The toe injury that landed Texans wide receiver Jaylin Noel on injured reserve is likely to end his season.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-texans-expect-jaylin-noel-to-miss-the-rest-of-the-season",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "50308919",
+    "publishedAt": "2026-10-28T22:07:19Z",
     "type": "Transaction",
-    "headline": "NFL trade deadline grades: DeForest Buckner, Quenton Nelson dealt by Colts, more",
-    "summary": "Does Buckner make the 49ers Super Bowl hopefuls? Will Quenton Nelson upgrade the Seahawks' O-line? We're grading NFL trades ahead of November's deadline.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50043542/2026-trade-deadline-grades-latest-best-worst-deals",
+    "headline": "Jets WR Garrett Wilson says he doesn't want to be traded but does want to win",
+    "summary": "Jets receiver Garrett Wilson says he doesn't want to be traded but he expressed that he's frustrated by his target share and, most of all, losing.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50308919/jets-wr-garrett-wilson-says-want-traded",
     "sourceName": "ESPN"
   },
   {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/liam-coen-colts-traded-away-two-good-players-right-before-we-play-them-cant-deny-that",
-    "publishedAt": "2026-10-28T15:52:01.000Z",
-    "type": "Transaction",
-    "headline": "Liam Coen: Colts traded away two good players right before we play them, can't deny that",
-    "summary": "Jaguars head coach Liam Coen acknowledged that his team's task got a little easier when the Colts traded away two of their top players, offensive lineman Quenton Nelson and defensive lineman DeForest Buckner.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/liam-coen-colts-traded-away-two-good-players-right-before-we-play-them-cant-deny-that",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=424319",
-    "publishedAt": "2026-10-28T14:53:09.000Z",
-    "type": "Transaction",
-    "headline": "Bengals Not Planning To Trade Shemar Stewart",
-    "summary": "Although defensive end Shemar Stewart has been a nonfactor for the 4-2 Bengals, teams are reportedly eyeing him as the Nov. 10 trade deadline approaches. It appears those clubs will have to look elsewhere, though, as the Bengals are not planning to deal Stewart, Paul Dehner Jr. of The Athletic reports. Stewart, a polarizing prospect […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/bengals-not-planning-to-trade-shemar-stewart",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/giants-gm-joe-schoen-on-trades-were-looking-but-has-to-make-sense-now-and-in-future",
-    "publishedAt": "2026-10-28T14:09:30.000Z",
-    "type": "Transaction",
-    "headline": "Giants GM Joe Schoen on trades: We're looking, but has to make sense now and in future",
-    "summary": "The Giants hit their bye week in first place in the NFC East with a 4-2-1 record and that's made the prospect of bolstering the roster in the trade market a popular topic of conversation around the team.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/giants-gm-joe-schoen-on-trades-were-looking-but-has-to-make-sense-now-and-in-future",
-    "sourceName": "Pro Football Talk"
+    "id": "50311435",
+    "publishedAt": "2026-10-28T21:53:49Z",
+    "type": "Beat Report",
+    "headline": "Ravens list Lamar Jackson as full participant in practice",
+    "summary": "Lamar Jackson was a full participant in Wednesday's practice for the Ravens.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50311435/ravens-list-lamar-jackson-full-participant-practice",
+    "sourceName": "ESPN"
   }
 ]

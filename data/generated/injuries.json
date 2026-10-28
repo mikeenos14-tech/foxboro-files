@@ -1,38 +1,122 @@
 [
   {
+    "playerId": "4047646",
+    "playerName": "A.J. Brown",
+    "position": "WR",
+    "week": 8,
+    "injury": "Knee",
+    "gameStatus": "Questionable",
+    "lastUpdated": "2026-10-28T20:35:41.648Z",
+    "practiceStatus": "Limited"
+  },
+  {
     "playerId": "4362890",
     "playerName": "Ben Brown",
     "position": "C",
     "week": 8,
     "injury": "Knee",
     "gameStatus": "Questionable",
-    "lastUpdated": "2026-10-27T13:11Z"
+    "lastUpdated": "2026-10-28T20:35:41.648Z",
+    "practiceStatus": "Limited"
   },
   {
-    "playerId": "4688779",
+    "playerId": "16771",
+    "playerName": "Morgan Moses",
+    "position": "OT",
+    "week": 8,
+    "injury": "Foot",
+    "gameStatus": "Questionable",
+    "lastUpdated": "2026-10-28T20:35:41.648Z",
+    "practiceStatus": "Limited"
+  },
+  {
+    "playerId": "16910",
+    "playerName": "DaQuan Jones",
+    "position": "DT",
+    "week": 8,
+    "injury": "Back",
+    "gameStatus": "Questionable",
+    "lastUpdated": "2026-10-28T20:35:41.648Z",
+    "practiceStatus": "Limited"
+  },
+  {
+    "playerId": "patriots-marcus-bryant",
+    "playerName": "Marcus Bryant",
+    "position": "T",
+    "week": 8,
+    "injury": "Ankle",
+    "practiceStatus": "Full",
+    "gameStatus": null,
+    "lastUpdated": "2026-10-28T20:35:41.648Z"
+  },
+  {
+    "playerId": "patriots-kevin-byard",
+    "playerName": "Kevin Byard III",
+    "position": "S",
+    "week": 8,
+    "injury": "Chest",
+    "practiceStatus": "Full",
+    "gameStatus": null,
+    "lastUpdated": "2026-10-28T20:35:41.648Z"
+  },
+  {
+    "playerId": "patriots-channing-canada",
     "playerName": "Channing Canada",
     "position": "CB",
     "week": 8,
     "injury": "Hamstring",
-    "gameStatus": "Questionable",
-    "lastUpdated": "2026-10-27T13:11Z"
+    "practiceStatus": "Full",
+    "gameStatus": null,
+    "lastUpdated": "2026-10-28T20:35:41.648Z"
   },
   {
-    "playerId": "3916923",
+    "playerId": "patriots-carlton-davis",
     "playerName": "Carlton Davis III",
     "position": "CB",
     "week": 8,
     "injury": "Neck",
-    "gameStatus": "Questionable",
-    "lastUpdated": "2026-10-27T13:11Z"
+    "practiceStatus": "Full",
+    "gameStatus": null,
+    "lastUpdated": "2026-10-28T20:35:41.648Z"
   },
   {
-    "playerId": "4606666",
+    "playerId": "patriots-christian-elliss",
+    "playerName": "Christian Elliss",
+    "position": "LB",
+    "week": 8,
+    "injury": "Chest",
+    "practiceStatus": "Full",
+    "gameStatus": null,
+    "lastUpdated": "2026-10-28T20:35:41.648Z"
+  },
+  {
+    "playerId": "patriots-dremont-jones",
+    "playerName": "Dre’Mont Jones",
+    "position": "LB",
+    "week": 8,
+    "injury": "Shoulder",
+    "practiceStatus": "Full",
+    "gameStatus": null,
+    "lastUpdated": "2026-10-28T20:35:41.648Z"
+  },
+  {
+    "playerId": "patriots-drake-maye",
+    "playerName": "Drake Maye",
+    "position": "QB",
+    "week": 8,
+    "injury": "Right Shoulder",
+    "practiceStatus": "Full",
+    "gameStatus": null,
+    "lastUpdated": "2026-10-28T20:35:41.648Z"
+  },
+  {
+    "playerId": "patriots-karon-prunty",
     "playerName": "Karon Prunty",
     "position": "CB",
     "week": 8,
     "injury": "Hamstring",
-    "gameStatus": "Questionable",
-    "lastUpdated": "2026-10-27T13:11Z"
+    "practiceStatus": "Full",
+    "gameStatus": null,
+    "lastUpdated": "2026-10-28T20:35:41.648Z"
   }
 ]
