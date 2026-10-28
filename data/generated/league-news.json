@@ -1,16 +1,16 @@
 [
   {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=424299",
-    "publishedAt": "2026-10-28T02:47:21.000Z",
-    "type": "Analysis",
-    "headline": "Colts Want 2nd-Round Pick Plus More For RB Jonathan Taylor",
-    "summary": "The Colts began a fire sale this week, trading away guard Quenton Nelson and defensive tackle DeForest Buckner. More moves are expected with running back Jonathan Taylor among the other players who could be dealt before the deadline. Indianapolis received third- and fifth-round picks for Nelson and accepted a fourth-rounder for Buckner, but Taylor will cost […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/colts-want-2nd-round-pick-plus-more-for-rb-jonathan-taylor",
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=424195",
+    "publishedAt": "2026-10-28T04:20:13.000Z",
+    "type": "Transaction",
+    "headline": "Colts Trade Quenton Nelson To Seahawks",
+    "summary": "Quenton Nelson is on an expiring contract, and his time with the Colts is coming to an end well before the 2026 season concludes. The All-Pro guard is on the move. Nelson is being traded to the Seahawks, as first reported by ESPN’s Adam Schefter and NFL Network’s Ian Rapoport. Indianapolis will receive a 2027 third-round pick as […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/colts-to-trade-g-quenton-nelson-to-seahawks",
     "sourceName": "Pro Football Rumors"
   },
   {
     "id": "profootballrumors-https://www.profootballrumors.com/?p=424249",
-    "publishedAt": "2026-10-27T20:46:21.000Z",
+    "publishedAt": "2026-10-28T04:18:21.000Z",
     "type": "Transaction",
     "headline": "49ers Reacquire DT DeForest Buckner",
     "summary": "A fire sale is in full swing in Indianapolis, which traded potential Hall of Fame guard Quenton Nelson to Seattle earlier Tuesday. The Colts are now moving on from defensive tackle DeForest Buckner, who is going to the 49ers for a 2027 fourth-round pick, Tom Pelissero of The Ringer reports. The teams have since announced […]",
@@ -18,21 +18,12 @@
     "sourceName": "Pro Football Rumors"
   },
   {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=424269",
-    "publishedAt": "2026-10-27T23:00:45.000Z",
-    "type": "Transaction",
-    "headline": "Packers, Bears, Eagles Showed Interest In Quenton Nelson",
-    "summary": "To kick off a two-trade Tuesday, the rebuilding Colts sent perennial Pro Bowl guard Quenton Nelson to the Seahawks for a third-round pick next year and a fifth-rounder in 2028. There was competition for Nelson, per ESPN’s Jeremy Fowler, who reports the Packers, Bears and Eagles had “varying levels of interest.” Guard has been a […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/packers-bears-eagles-showed-interest-in-quenton-nelson",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "50301493",
-    "publishedAt": "2026-10-27T22:29:20Z",
-    "type": "Analysis",
-    "headline": "Montez Sweat returns to Bears following 'devastating' 2-game suspension",
-    "summary": "Bears DE Montez Sweat is back with the team following his \"devastating\" two-game suspension violating the NFL's performance enhancing substances policy.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50301493/montez-sweat-back-bears-devastating-2-game-suspension",
+    "id": "50302347",
+    "publishedAt": "2026-10-28T10:36:20Z",
+    "type": "Beat Report",
+    "headline": "Matt LaFleur isn't ruling out imminent practice return for Micah Parsons",
+    "summary": "Green Bay Packers edge rusher Micah Parsons might finally be back on the practice field next week, more than 10 months after he underwent surgery on his left knee.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50302347/matt-lafleur-hints-possible-practice-return-micah-parsons",
     "sourceName": "ESPN"
   },
   {
@@ -46,11 +37,20 @@
   },
   {
     "id": "50300226",
-    "publishedAt": "2026-10-27T19:48:27Z",
+    "publishedAt": "2026-10-28T10:36:41Z",
     "type": "Injury",
     "headline": "Giants place RB Tyrone Tracy Jr. on IR with hamstring injury",
     "summary": "The Giants are placing RB Tyrone Tracy Jr. on injured reserve with a hamstring injury, with Devin Singletary expected to play a bigger role on offense.",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/50300226/giants-place-rb-tyrone-tracy-ir-hamstring-injury",
     "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=424299",
+    "publishedAt": "2026-10-28T02:47:21.000Z",
+    "type": "Analysis",
+    "headline": "Colts Want Second-Round Pick Plus More For RB Jonathan Taylor",
+    "summary": "The Colts began a fire sale this week, trading away guard Quenton Nelson and defensive tackle DeForest Buckner. More moves are expected, with running back Jonathan Taylor among the other players who could be dealt before the deadline. Indianapolis received third- and fifth-round picks for Nelson and accepted a fourth-rounder for Buckner, but Taylor will cost […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/colts-want-2nd-round-pick-plus-more-for-rb-jonathan-taylor",
+    "sourceName": "Pro Football Rumors"
   }
 ]
