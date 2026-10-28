@@ -3,12 +3,12 @@
   "season": 2026,
   "epaPerPlay": {
     "offense": {
-      "value": 0.06507362687660044,
+      "value": 0.06507350064335678,
       "leagueRank": 8,
       "leaguePercentile": 77
     },
     "defense": {
-      "value": -0.01523195461480625,
+      "value": -0.015232079263704361,
       "leagueRank": 14,
       "leaguePercentile": 58
     }
@@ -61,12 +61,12 @@
       "key": "last-3-weeks",
       "label": "Last 3 Games",
       "offense": {
-        "value": 0.18869638437923564,
+        "value": 0.18869557799732167,
         "leagueRank": 3,
         "leaguePercentile": 94
       },
       "defense": {
-        "value": 0.06608658235101826,
+        "value": 0.0660857759691043,
         "leagueRank": 25,
         "leaguePercentile": 23
       },
@@ -104,12 +104,12 @@
       "key": "last-5-weeks",
       "label": "Last 5 Games",
       "offense": {
-        "value": 0.08864925577615797,
+        "value": 0.08864891442332426,
         "leagueRank": 9,
         "leaguePercentile": 74
       },
       "defense": {
-        "value": 0.0706135844533549,
+        "value": 0.07061324603202487,
         "leagueRank": 23,
         "leaguePercentile": 29
       },

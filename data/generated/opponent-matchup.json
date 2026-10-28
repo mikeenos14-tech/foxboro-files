@@ -132,15 +132,15 @@
     }
   ],
   "weather": {
-    "tempF": 85,
-    "wind": "12 mph",
-    "precipitation": "44%",
+    "tempF": 86,
+    "wind": "10 mph",
+    "precipitation": "66%",
     "isDome": false
   },
   "bettingContext": {
-    "spread": -7.5,
-    "overUnder": 44.5,
-    "asOf": "2026-10-27"
+    "spread": -7,
+    "overUnder": 43.5,
+    "asOf": "2026-10-28"
   },
-  "previewTake": "Here's the thing about Miami's pass defense: a grade of 3 out of 100 isn't just bad, it's historically, catastrophically, almost scientifically bad — and our pass offense (77/100) happens to be the sharpest weapon we're bringing to Hard Rock Stadium. The math is genuinely lopsided: we should be able to move the ball through the air at will, which matters in an afternoon game where Miami's own offense (16/100 passing grade) isn't exactly going to keep us in a shoot-out. The real chess match is our run defense (55/100) against their rushing attack (90/100), so keeping their ground game honest will be crucial — but if we can establish some passing rhythm early, we're looking at the kind of one-sided matchup that doesn't come around very often. We're 2-3 in our last five against Miami, so there's no such thing as a guaranteed road win in this division, but the talent disparity on one side of the ball is just too stark to ignore."
+  "previewTake": "Miami's pass defense is historically bad—a 3/100 grade that ranks among the NFL's worst—and our pass offense, graded 77/100, represents the single widest statistical edge on the board this week. That's the kind of mismatch that should make any Patriots fan salivate, especially with our recent form (0.15 EPA/play over the last three games) trending better than Miami's (-0.06). The catch? We're heading to Hard Rock Stadium on the road for an afternoon kickoff, and Miami's rush offense grades at 90/100—elite territory—which means they'll test our run defense (55/100) while we ought to be able to shred their secondary at will. We're favored by a touchdown for good reason, but road games carry their own gravity, and Miami's won three of our last five meetings; if we can avoid shooting ourselves in the foot, this should be our day to put up points."
 }
