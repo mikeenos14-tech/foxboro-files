@@ -132,15 +132,15 @@
     }
   ],
   "weather": {
-    "tempF": 86,
-    "wind": "10 mph",
-    "precipitation": "66%",
+    "tempF": 80,
+    "wind": "15 mph",
+    "precipitation": "82%",
     "isDome": false
   },
   "bettingContext": {
     "spread": -7,
     "overUnder": 43.5,
-    "asOf": "2026-10-28"
+    "asOf": "2026-10-29"
   },
-  "previewTake": "Miami's pass defense is historically bad—a 3/100 grade that ranks among the NFL's worst—and our pass offense, graded 77/100, represents the single widest statistical edge on the board this week. That's the kind of mismatch that should make any Patriots fan salivate, especially with our recent form (0.15 EPA/play over the last three games) trending better than Miami's (-0.06). The catch? We're heading to Hard Rock Stadium on the road for an afternoon kickoff, and Miami's rush offense grades at 90/100—elite territory—which means they'll test our run defense (55/100) while we ought to be able to shred their secondary at will. We're favored by a touchdown for good reason, but road games carry their own gravity, and Miami's won three of our last five meetings; if we can avoid shooting ourselves in the foot, this should be our day to put up points."
+  "previewTake": "We're heading to Miami on Sunday as a touchdown favorite, and honestly, the numbers tell a story almost too good to be true: our pass offense (77/100) is playing against their pass defense (3/100), the widest statistical mismatch on the board this week. That's not hyperbole—that's a generational gap in one matchup. Yes, we'll need to account for their elite rush offense (90/100) that'll test our average run defense (55/100), and we can't overlook their elite pass rush... oh wait, they don't have one (3/100). The real variable here is us: we're clicking at +0.15 EPA per play over our last three games while Miami's been underwater at -0.06. With our secondary healthy and ready, this looks like a game where our strengths line up perfectly against their weaknesses—assuming we don't beat ourselves in the 4:25 PM sun."
 }
