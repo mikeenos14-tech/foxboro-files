@@ -1,12 +1,16 @@
 {
   "beat digest": {
     "status": "written",
-    "problems": [],
-    "at": "2026-10-28T22:16:14.066Z"
+    "problems": [
+      [
+        "It makes a franchise-history claim that isn't in the facts given."
+      ]
+    ],
+    "at": "2026-10-29T03:56:17.960Z"
   },
   "league headlines": {
     "status": "written",
     "problems": [],
-    "at": "2026-10-28T22:16:16.759Z"
+    "at": "2026-10-29T03:56:20.490Z"
   }
 }
