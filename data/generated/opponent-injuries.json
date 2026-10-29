@@ -1,115 +1,26 @@
 [
   {
-    "playerId": "4367209",
+    "playerId": "00-0037252",
     "playerName": "Greg Dulcich",
     "position": "TE",
     "week": 8,
     "injury": "Ankle",
-    "gameStatus": "Questionable",
-    "lastUpdated": "2026-10-28T20:35:41.648Z",
-    "practiceStatus": "Limited"
-  },
-  {
-    "playerId": "4880236",
-    "playerName": "Will Kacmarek",
-    "position": "TE",
-    "week": 8,
-    "injury": "Hamstring",
-    "gameStatus": "Questionable",
-    "lastUpdated": "2026-10-28T20:35:41.648Z",
-    "practiceStatus": "Limited"
-  },
-  {
-    "playerId": "4870976",
-    "playerName": "Kadyn Proctor",
-    "position": "OT",
-    "week": 8,
-    "injury": "Concussion",
-    "gameStatus": "Questionable",
-    "lastUpdated": "2026-10-29T01:25Z"
-  },
-  {
-    "playerId": "4569603",
-    "playerName": "Malik Washington",
-    "position": "WR",
-    "week": 8,
-    "injury": "Knee",
-    "gameStatus": "Questionable",
-    "lastUpdated": "2026-10-28T20:35:41.648Z",
-    "practiceStatus": "Limited"
-  },
-  {
-    "playerId": "4430681",
-    "playerName": "Jared Wayne",
-    "position": "WR",
-    "week": 8,
-    "injury": "Knee",
-    "gameStatus": "Questionable",
-    "lastUpdated": "2026-10-28T20:35:41.648Z",
-    "practiceStatus": "Limited"
-  },
-  {
-    "playerId": "4360488",
-    "playerName": "JuJu Brents",
-    "position": "CB",
-    "week": 8,
-    "injury": "Concussion",
-    "gameStatus": "Questionable",
-    "lastUpdated": "2026-10-28T20:35:41.648Z",
-    "practiceStatus": "Did Not Participate"
-  },
-  {
-    "playerId": "4880346",
-    "playerName": "Michael Taaffe",
-    "position": "S",
-    "week": 8,
-    "injury": "Neck",
-    "gameStatus": "Questionable",
-    "lastUpdated": "2026-10-28T20:35:41.648Z",
-    "practiceStatus": "Limited"
-  },
-  {
-    "playerId": "4371946",
-    "playerName": "Reese Taylor",
-    "position": "CB",
-    "week": 8,
-    "injury": "Quadriceps",
-    "gameStatus": "Questionable",
-    "lastUpdated": "2026-10-28T20:35:41.648Z",
-    "practiceStatus": "Limited"
-  },
-  {
-    "playerId": "4431664",
-    "playerName": "Dante Trader Jr.",
-    "position": "S",
-    "week": 8,
-    "injury": "Shoulder",
-    "gameStatus": "Questionable",
-    "lastUpdated": "2026-10-28T20:35:41.648Z",
-    "practiceStatus": "Limited"
-  },
-  {
-    "playerId": "4034729",
-    "playerName": "Tucker Addington",
-    "position": "LS",
-    "week": 8,
-    "injury": "Shoulder",
-    "gameStatus": "Questionable",
-    "lastUpdated": "2026-10-28T20:35:41.648Z",
-    "practiceStatus": "Limited"
-  },
-  {
-    "playerId": "patriots-rob-beal",
-    "playerName": "Rob Beal Jr.",
-    "position": "EDGE",
-    "week": 8,
-    "injury": "Hamstring",
-    "practiceStatus": "Full",
+    "practiceStatus": "Limited",
     "gameStatus": null,
     "lastUpdated": "2026-10-28T20:35:41.648Z"
   },
   {
-    "playerId": "patriots-malik-willis",
+    "playerId": "00-0037686",
+    "playerName": "Tucker Addington",
+    "position": "LS",
+    "week": 8,
+    "injury": "Shoulder",
+    "practiceStatus": "Limited",
+    "gameStatus": null,
+    "lastUpdated": "2026-10-28T20:35:41.648Z"
+  },
+  {
+    "playerId": "00-0038128",
     "playerName": "Malik Willis",
     "position": "QB",
     "week": 8,
@@ -119,12 +30,112 @@
     "lastUpdated": "2026-10-28T20:35:41.648Z"
   },
   {
-    "playerId": "patriots-jaylen-wright",
+    "playerId": "00-0038521",
+    "playerName": "Reese Taylor",
+    "position": "CB",
+    "week": 8,
+    "injury": "Quadricep",
+    "practiceStatus": "Limited",
+    "gameStatus": null,
+    "lastUpdated": "2026-10-28T20:35:41.648Z"
+  },
+  {
+    "playerId": "00-0038603",
+    "playerName": "Rob Beal Jr.",
+    "position": "DE",
+    "week": 8,
+    "injury": "Hamstring",
+    "practiceStatus": "Full",
+    "gameStatus": null,
+    "lastUpdated": "2026-10-28T20:35:41.648Z"
+  },
+  {
+    "playerId": "00-0038728",
+    "playerName": "Jared Wayne",
+    "position": "WR",
+    "week": 8,
+    "injury": "Knee",
+    "practiceStatus": "Limited",
+    "gameStatus": null,
+    "lastUpdated": "2026-10-28T20:35:41.648Z"
+  },
+  {
+    "playerId": "00-0039156",
+    "playerName": "Julius Brents",
+    "position": "CB",
+    "week": 8,
+    "injury": "Neck",
+    "practiceStatus": "Did Not Participate",
+    "gameStatus": null,
+    "lastUpdated": "2026-10-29T12:07:30.450Z"
+  },
+  {
+    "playerId": "00-0039874",
     "playerName": "Jaylen Wright",
     "position": "RB",
     "week": 8,
-    "injury": "Foot / Quad",
+    "injury": "Foot",
     "practiceStatus": "Full",
+    "gameStatus": null,
+    "lastUpdated": "2026-10-28T20:35:41.648Z"
+  },
+  {
+    "playerId": "00-0039880",
+    "playerName": "Malik Washington",
+    "position": "WR",
+    "week": 8,
+    "injury": "Knee",
+    "practiceStatus": "Limited",
+    "gameStatus": null,
+    "lastUpdated": "2026-10-28T20:35:41.648Z"
+  },
+  {
+    "playerId": "00-0040182",
+    "playerName": "Dante Trader Jr.",
+    "position": "S",
+    "week": 8,
+    "injury": "Shoulder",
+    "practiceStatus": "Limited",
+    "gameStatus": null,
+    "lastUpdated": "2026-10-28T20:35:41.648Z"
+  },
+  {
+    "playerId": "00-0041521",
+    "playerName": "Kadyn Proctor",
+    "position": "T",
+    "week": 8,
+    "injury": "Concussion",
+    "practiceStatus": "Did Not Participate",
+    "gameStatus": null,
+    "lastUpdated": "2026-10-29T12:07:30.450Z"
+  },
+  {
+    "playerId": "00-0041524",
+    "playerName": "Will Kacmarek",
+    "position": "TE",
+    "week": 8,
+    "injury": "Hamstring",
+    "practiceStatus": "Limited",
+    "gameStatus": null,
+    "lastUpdated": "2026-10-28T20:35:41.648Z"
+  },
+  {
+    "playerId": "00-0041528",
+    "playerName": "Michael Taaffe",
+    "position": "S",
+    "week": 8,
+    "injury": "Neck",
+    "practiceStatus": "Limited",
+    "gameStatus": null,
+    "lastUpdated": "2026-10-28T20:35:41.648Z"
+  },
+  {
+    "playerId": "patriots-juju-brents",
+    "playerName": "JuJu Brents",
+    "position": "CB",
+    "week": 8,
+    "injury": "Neck / Concussion",
+    "practiceStatus": "Did Not Participate",
     "gameStatus": null,
     "lastUpdated": "2026-10-28T20:35:41.648Z"
   }

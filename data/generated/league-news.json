@@ -1,21 +1,39 @@
 [
   {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=424435",
-    "publishedAt": "2026-10-29T03:12:35.000Z",
+    "id": "50307555",
+    "publishedAt": "2026-10-29T10:00:06Z",
+    "type": "Injury",
+    "headline": "Why Micah Parsons' ACL recovery is taking longer than Patrick Mahomes'",
+    "summary": "They were injured the same day, but while Mahomes was ready for Week 1, Parsons has yet to practice.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50307555/packers-micah-parsons-return-acl-patrick-mahomes",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=424333",
+    "publishedAt": "2026-10-29T04:10:04.000Z",
     "type": "Transaction",
-    "headline": "CB Jack Jones Cut After 49ers’ Trade",
-    "summary": "The 49ers made headlines yesterday when they moved to reacquire their seventh overall pick from the 2016 NFL Draft — defensive tackle DeForest Buckner — from the Colts. In order to add Buckner to the 53-man roster, though, San Francisco needed to clear a spot, and according to Aaron Wilson of KPRC 2, the team […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/cb-jack-jones-cut-after-49ers-trade",
+    "headline": "Colts’ Jonathan Taylor Has Not Requested Trade; Josh Downs Wants Out",
+    "summary": "11:10pm: Downs has requested a trade, according to Fowler. The Steelers are one of “multiple” teams from the AFC with interest in Downs, per Jordan Schultz. 11:08am: The 2-5 Colts announced themselves as sellers when they dealt guard Quenton Nelson to the Seahawks and defensive tackle DeForest Buckner to the 49ers on Tuesday. They could […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/colts-jonathan-taylor-has-not-requested-trade-josh-downs-drawing-interest",
     "sourceName": "Pro Football Rumors"
   },
   {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/sean-mcvay-davante-adams-closer-to-the-shorter-term-of-the-6-10-week-timeline",
-    "publishedAt": "2026-10-29T01:45:39.000Z",
-    "type": "Injury",
-    "headline": "Sean McVay: Davante Adams \"closer to the shorter term\" of the 6-10 week timeline",
-    "summary": "Rams wide receiver Davante Adams injured his hamstring in an Oct. 18 game against the Cardinals.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/sean-mcvay-davante-adams-closer-to-the-shorter-term-of-the-6-10-week-timeline",
-    "sourceName": "Pro Football Talk"
+    "id": "50306991",
+    "publishedAt": "2026-10-29T10:00:13Z",
+    "type": "Analysis",
+    "headline": "Why Vikings' astronomical 70% blitz rate isn't a gimmick",
+    "summary": "Minnesota blitzed Indianapolis 85% of the time Sunday, as they redefine what a 'normal' pass rush can be in the NFL.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50306991/vikings-astronomical-blitz-rate-brian-flores-sack",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=424364",
+    "publishedAt": "2026-10-29T04:07:44.000Z",
+    "type": "Analysis",
+    "headline": "Texans, C.J. Stroud Were Close On Offseason Extension; Deal Expected In 2027",
+    "summary": "Although the Texans have been one of the NFL’s most disappointing teams, C.J. Stroud has not been the primary reason for Houston’s struggles. The fourth-year quarterback has shown improvement from his concerning conclusion to Year 3. Stroud sits seventh in QBR and exited Week 7 with an 11:1 TD-INT ratio. This early-season showing bodes well […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/texans-c-j-stroud-were-close-on-offseason-extension-deal-expected-in-2027",
+    "sourceName": "Pro Football Rumors"
   },
   {
     "id": "50312603",
@@ -27,30 +45,12 @@
     "sourceName": "ESPN"
   },
   {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=424425",
-    "publishedAt": "2026-10-29T00:40:56.000Z",
-    "type": "Injury",
-    "headline": "Eagles Place RB Dameon Pierce On IR",
-    "summary": "The Eagles offensive backfield has taken its licks this year with starting quarterback Jalen Hurts and three running backs finding their way to injured reserve leading up to today. Well, in case the running backs were worried about getting outnumbered on the IR, they no longer need to fear after the team announced that Dameon […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/eagles-place-rb-dameon-pierce-on-ir",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "50311965",
-    "publishedAt": "2026-10-29T00:35:22Z",
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cam-heyward-jared-verse-calling-steelers-dirty-will-be-addressed-sunday",
+    "publishedAt": "2026-10-29T11:07:55.000Z",
     "type": "Analysis",
-    "headline": "Justin Jefferson on down year amid Vikes' 6-0 start: 'What we're doing is working'",
-    "summary": "Justin Jefferson, whose 23 catches are a career low through the first seven weeks of a season, said ultimately what the 6-0 Vikings are doing now \"is working.\"",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50311965/justin-jefferson-addresses-year-amid-vikings-6-0-start",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50311100",
-    "publishedAt": "2026-10-28T21:42:47Z",
-    "type": "Transaction",
-    "headline": "Brian Thomas Jr. trying to ignore trade talk, 'keep working hard' for Jaguars",
-    "summary": "Jaguars receiver Brian Thomas Jr. said Wednesday that he isn't concerned about being the subject of recent trade rumors.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50311100/jaguars-brian-thomas-jr-trying-ignore-trade-talk",
-    "sourceName": "ESPN"
+    "headline": "Cam Heyward: Jared Verse calling Steelers \"dirty\" will be addressed Sunday",
+    "summary": "Dislike between the Browns and Steelers has been brewing for decades, so there isn't much need for any one player to fan the flames of the bad feelings between the two AFC North teams.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cam-heyward-jared-verse-calling-steelers-dirty-will-be-addressed-sunday",
+    "sourceName": "Pro Football Talk"
   }
 ]
