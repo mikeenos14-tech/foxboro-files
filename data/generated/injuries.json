@@ -100,6 +100,16 @@
     "lastUpdated": "2026-10-29T20:16:31.509Z"
   },
   {
+    "playerId": "00-0040734",
+    "playerName": "TreVeyon Henderson",
+    "position": "RB",
+    "week": 8,
+    "injury": "Illness",
+    "practiceStatus": "Did Not Participate",
+    "gameStatus": null,
+    "lastUpdated": "2026-10-29T20:16:31.509Z"
+  },
+  {
     "playerId": "00-0041088",
     "playerName": "Karon Prunty",
     "position": "CB",
@@ -116,16 +126,6 @@
     "week": 8,
     "injury": "Hamstring",
     "practiceStatus": "Full",
-    "gameStatus": null,
-    "lastUpdated": "2026-10-29T20:16:31.509Z"
-  },
-  {
-    "playerId": "patriots-treveyon-henderson",
-    "playerName": "TreVeyon Henderson",
-    "position": "RB",
-    "week": 8,
-    "injury": "Illness",
-    "practiceStatus": "Did Not Participate",
     "gameStatus": null,
     "lastUpdated": "2026-10-29T20:16:31.509Z"
   }
