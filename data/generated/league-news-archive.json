@@ -1,7 +1,7 @@
 [
   {
     "id": "50302364",
-    "publishedAt": "2026-10-29T19:57:50Z",
+    "publishedAt": "2026-10-30T00:30:13Z",
     "type": "Analysis",
     "headline": "NFL Week 8 uniforms: Jaguars, Lions become latest team to debut Rivalries look",
     "summary": "Here's a look at what each NFL team is wearing in Week 8, led by Rivalries looks from Jacksonville and Detroit.",
@@ -9,8 +9,17 @@
     "sourceName": "ESPN"
   },
   {
+    "id": "50323203",
+    "publishedAt": "2026-10-30T00:15:33Z",
+    "type": "Analysis",
+    "headline": "Source: Bears quarterback Caleb Williams fined again for cleats",
+    "summary": "The NFL has fined Caleb Williams $23,882 for sporting Caddix cleats in Week 7, a source confirmed to ESPN on Thursday.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50323203/bears-quarterback-caleb-williams-fined-again-cleats",
+    "sourceName": "ESPN"
+  },
+  {
     "id": "50321154",
-    "publishedAt": "2026-10-29T19:57:38Z",
+    "publishedAt": "2026-10-30T00:13:14Z",
     "type": "Transaction",
     "headline": "Toub: Butker still Chiefs' kicker despite struggles, Tucker signing",
     "summary": "Chiefs special teams coordinator Dave Toub expressed rather emphatically that Harrison Butker is the team's kicker despite the team signing Justin Tucker, who hasn't played in the NFL since 2024, to their practice squad.",
@@ -18,13 +27,400 @@
     "sourceName": "ESPN"
   },
   {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cowboys-eagles-audience-blows-out-world-series-game-3",
+    "publishedAt": "2026-10-30T00:08:46.000Z",
+    "type": "Analysis",
+    "headline": "Cowboys-Eagles' audience blows out World Series Game 3",
+    "summary": "There once was a time when the mere thought of competing with the World Series made the NFL hide under the bed.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cowboys-eagles-audience-blows-out-world-series-game-3",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "50319184",
+    "publishedAt": "2026-10-30T00:01:28Z",
+    "type": "Transaction",
+    "headline": "Jeffery Simmons traded to Bears: Does dealing multiple first-round picks work?",
+    "summary": "The Bears' aggressive move for Simmons marks the 10th time in the past decade that a team has traded multiple first-round picks for a star player. But the hit rate isn't great.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50319184/jeffery-simmons-trade-two-first-round-picks-bears-titans",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50323084",
+    "publishedAt": "2026-10-30T00:01:06Z",
+    "type": "Analysis",
+    "headline": "NFL Week 8's best arrivals, led by Panthers' Bryce Young",
+    "summary": "Here's a look at the best-dressed players around the NFL in Week 8.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50323084/nfl-week-8-fashion",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=424530",
+    "publishedAt": "2026-10-29T23:57:54.000Z",
+    "type": "Analysis",
+    "headline": "Seahawks To Move Grey Zabel To RG; Several Teams Were In Quenton Nelson Mix",
+    "summary": "Quenton Nelson stepped into the left guard role in the Colts’ lineup in Week 1 of his rookie year, doing so after starting 36 games at that position in Notre Dame. The future Hall of Famer manned the LG post throughout his time in Indianapolis. Unsurprisingly, the Seahawks will not make him change up despite […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/seahawks-to-move-grey-zabel-to-rg-several-teams-were-in-quenton-nelson-mix",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "50322754",
+    "publishedAt": "2026-10-29T23:40:19Z",
+    "type": "Analysis",
+    "headline": "Quenton Nelson: Cherished time with Colts but excited to play for Seahawks",
+    "summary": "Eight-time Pro Bowl guard Quenton Nelson expressed excitement over what he called \"a new opportunity\" with the Seahawks following eight-plus seasons with the Colts.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50322754/quenton-nelson-awesome-play-seahawks-colts-trade",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cardinals-rb-jeremiyah-love-wr-michael-wilson-remain-limited-thursday",
+    "publishedAt": "2026-10-29T23:15:53.000Z",
+    "type": "Analysis",
+    "headline": "Cardinals RB Jeremiyah Love, WR Michael Wilson remain limited Thursday",
+    "summary": "Cardinals rookie running back Jeremiyah Love was limited again Thursday.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cardinals-rb-jeremiyah-love-wr-michael-wilson-remain-limited-thursday",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/thursday-night-football-wr-matthew-golden-dt-devonte-wyatt-are-active-for-packers-vs-panthers",
+    "publishedAt": "2026-10-29T22:57:19.000Z",
+    "type": "Analysis",
+    "headline": "Thursday Night Football: WR Matthew Golden, DT Devonte Wyatt are active for Packers vs. Panthers",
+    "summary": "The Packers will have wide receiver Matthew Golden (shoulder/foot), defensive tackle Devonte Wyatt (ankle) and cornerback Keisean Nixon (shoulder).",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/thursday-night-football-wr-matthew-golden-dt-devonte-wyatt-are-active-for-packers-vs-panthers",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=424523",
+    "publishedAt": "2026-10-29T22:48:43.000Z",
+    "type": "Injury",
+    "headline": "Minor NFL Transactions: 10/29/26",
+    "summary": "Here are Thursday’s minor moves: Carolina Panthers Signed from practice squad: CB Malcolm DeWalt Placed on IR: CB Akayleb Evans Elevated: T Jake Curhan, CB Marco Wilson Chicago Bears Waived: DE Jamree Kromah Dallas Cowboys Designated for return from IR: DL Jonathan Bullard Green Bay Packers Elevated: OLB Arron Mosby Indianapolis Colts Signed from practice squad: […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/minor-nfl-transactions-10-29-26",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/eric-bieniemy-shares-positive-update-about-his-wife-who-was-shot-three-months-ago",
+    "publishedAt": "2026-10-29T22:43:44.000Z",
+    "type": "Analysis",
+    "headline": "Eric Bieniemy shares positive update about his wife, who was shot three months ago",
+    "summary": "Chiefs offensive coordinator Eric Bieniemy shared a positive update on his wife, Mia, who survived a shooting in late July.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/eric-bieniemy-shares-positive-update-about-his-wife-who-was-shot-three-months-ago",
+    "sourceName": "Pro Football Talk"
+  },
+  {
     "id": "50321084",
-    "publishedAt": "2026-10-29T19:47:40Z",
+    "publishedAt": "2026-10-29T22:35:24Z",
     "type": "Analysis",
     "headline": "Longtime football coach June Jones, pioneer of run-and-shoot offense, dies at 73",
     "summary": "Longtime college and pro football coach June Jones, who helped popularize the run-and-shoot offense, has died at 73.",
     "sourceUrl": "https://www.espn.com/college-football/story/_/id/50321084/long-football-coach-june-jones-dies-age-73",
     "sourceName": "ESPN"
+  },
+  {
+    "id": "50322617",
+    "publishedAt": "2026-10-29T22:32:53Z",
+    "type": "Analysis",
+    "headline": "Commanders and Eagles head into 'Sunday Night Football' with season-defining matchup on deck",
+    "summary": "— The Washington Commanders and Philadelphia Eagles are each facing a...",
+    "sourceUrl": "http://www.espn.com/nfl/preview?gameId=401873035",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/broncos-list-jaylen-waddle-zach-allen-as-limited-at-thursdays-practice",
+    "publishedAt": "2026-10-29T22:32:35.000Z",
+    "type": "Beat Report",
+    "headline": "Broncos list Jaylen Waddle, Zach Allen as limited at Thursday's practice",
+    "summary": "Broncos wide receiver Jaylen Waddle was back on the practice field Thursday.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/broncos-list-jaylen-waddle-zach-allen-as-limited-at-thursdays-practice",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "50322549",
+    "publishedAt": "2026-10-29T22:23:00Z",
+    "type": "Analysis",
+    "headline": "Vikings and Lions match up NFL's stingiest defense vs. high-scoring offense in NFC North showdown",
+    "summary": "— The Minnesota Vikings are the NFL's only unbeaten team thanks to their stingy defense and stellar special teams.",
+    "sourceUrl": "http://www.espn.com/nfl/preview?gameId=401873030",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=424526",
+    "publishedAt": "2026-10-29T22:20:23.000Z",
+    "type": "Transaction",
+    "headline": "NFL Practice Squad Updates: 10/29/26",
+    "summary": "Here are Thursday’s practice squad moves: Chicago Bears Signed: CB Josh Butler Indianapolis Colts Signed: G Joshua Gray Released: LB Germaine Pratt Tennessee Titans Signed: DT Timmy Horne Released: LB Mohamoud Diabate Pratt, who rejoined former Bengals DC Lou Anarumo in Indianapolis last season, caught back on with the AFC South team this year. Pratt […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/nfl-practice-squad-updates-10-29-26",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/steve-wilkss-role-with-commanders-will-now-include-game-days",
+    "publishedAt": "2026-10-29T22:12:33.000Z",
+    "type": "Analysis",
+    "headline": "Steve Wilks's role with Commanders will now include game days",
+    "summary": "The Commanders have quickly decided to give veteran defensive coach Steve Wilks more duties.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/steve-wilkss-role-with-commanders-will-now-include-game-days",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/aaron-jones-returns-to-vikings-practice-on-thursday",
+    "publishedAt": "2026-10-29T22:11:46.000Z",
+    "type": "Beat Report",
+    "headline": "Aaron Jones returns to Vikings practice on Thursday",
+    "summary": "Vikings running back Aaron Jones took a step in the right direction at practice on Thursday.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/aaron-jones-returns-to-vikings-practice-on-thursday",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/chiefs-add-rookie-cb-mansoor-delane-to-the-injury-report",
+    "publishedAt": "2026-10-29T22:08:11.000Z",
+    "type": "Injury",
+    "headline": "Chiefs add rookie CB Mansoor Delane to the injury report",
+    "summary": "The Chiefs added rookie cornerback Mansoor Delane to their injury report Thursday.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/chiefs-add-rookie-cb-mansoor-delane-to-the-injury-report",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/saquon-barkley-devonta-smith-out-of-practice-again-thursday",
+    "publishedAt": "2026-10-29T22:03:31.000Z",
+    "type": "Beat Report",
+    "headline": "Saquon Barkley, DeVonta Smith out of practice again Thursday",
+    "summary": "The Eagles remained without some key offensive players at practice on Thursday.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/saquon-barkley-devonta-smith-out-of-practice-again-thursday",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "50322400",
+    "publishedAt": "2026-10-29T22:02:47Z",
+    "type": "Analysis",
+    "headline": "Rams and Chargers share a city, not a rivalry as they head into their first meeting in 4 seasons",
+    "summary": "— Although the Los Angeles Rams and the Los Angeles Chargers share a stadium, they don't share a rivalry.",
+    "sourceUrl": "http://www.espn.com/nfl/preview?gameId=401873032",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dan-campbell-i-dont-do-a-big-study-on-fourth-downs-its-just-what-i-believe-in",
+    "publishedAt": "2026-10-29T21:54:19.000Z",
+    "type": "Analysis",
+    "headline": "Dan Campbell: I don't do a big study on fourth downs, it's just what I believe in",
+    "summary": "Analytics studies have consistently shown that NFL teams should go for it on fourth down more often.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dan-campbell-i-dont-do-a-big-study-on-fourth-downs-its-just-what-i-believe-in",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "50322007",
+    "publishedAt": "2026-10-29T21:46:44Z",
+    "type": "Analysis",
+    "headline": "Jets' Brownlee says he was benched for missing meetings, but 'good' for Sunday",
+    "summary": "Jets nickelback Jarvis Brownlee Jr. was benched last Sunday and fined by the team because he missed multiple mandatory meetings.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50322007/jets-jarvis-brownlee-says-was-benched-missing-meetings",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50322217",
+    "publishedAt": "2026-10-29T21:44:47Z",
+    "type": "Injury",
+    "headline": "AFC West lead at stake as Patrick Mahomes and Bo Nix grind through injury comebacks",
+    "summary": "— The AFC West lead is at stake Sunday as Patrick Mahomes and ",
+    "sourceUrl": "http://www.espn.com/nfl/preview?gameId=401873033",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-mcdaniel-you-have-to-produce-results-or-theres-gonna-be-heat",
+    "publishedAt": "2026-10-29T21:43:16.000Z",
+    "type": "Analysis",
+    "headline": "Mike McDaniel: \"You have to produce results or there's gonna be heat\"",
+    "summary": "The Chargers' bye week began with head coach Jim Harbaugh not committing to keeping Mike McDaniel as the offensive play-caller.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-mcdaniel-you-have-to-produce-results-or-theres-gonna-be-heat",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "50322138",
+    "publishedAt": "2026-10-29T21:39:47Z",
+    "type": "Analysis",
+    "headline": "Josh Allen looks to renew rivalry with Lamar Jackson as Bills host Ravens",
+    "summary": "— Josh Allen can appreciate how heated discussions can get over bar stools, on talk radio and social media over whether he or Lamar Jackson are the better quarterback.",
+    "sourceUrl": "http://www.espn.com/nfl/preview?gameId=401873026",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=424514",
+    "publishedAt": "2026-10-29T21:39:19.000Z",
+    "type": "Transaction",
+    "headline": "Dolphins Rumors: Chop, Sieler, Jackson",
+    "summary": "With the Dolphins in the early stages of a full-blown rebuild and off to a 1-5 start, they could be open to shipping out some players before the Nov. 10 trade deadline. Edge defender Chop Robinson is among Dolphins who are expected to draw interest, but the team is inclined to keep him, according to […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/dolphins-rumors-chop-sieler-jackson",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "50322075",
+    "publishedAt": "2026-10-29T21:31:47Z",
+    "type": "Analysis",
+    "headline": "Jags' home winning streak against Indy is 'weird, quirky' and a long shot to end Sunday",
+    "summary": "— Jaguars left tackle Walker Little perfectly summed up Jacksonville's 11-game home winning streak against Indianapolis.",
+    "sourceUrl": "http://www.espn.com/nfl/preview?gameId=401873028",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50322011",
+    "publishedAt": "2026-10-29T21:25:47Z",
+    "type": "Analysis",
+    "headline": "Falcons' Penix and Buccaneers' Mayfield aiming to help rebounding teams take control of NFC South",
+    "summary": "— Welcome to the NFC South, where inconsistency and seemingly disastrous starts to this season have not undermined the aspirations of the Atlanta Falcons and Tampa Bay Buccaneers.",
+    "sourceUrl": "http://www.espn.com/nfl/preview?gameId=401873025",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50322006",
+    "publishedAt": "2026-10-29T21:24:47Z",
+    "type": "Analysis",
+    "headline": "Cowboys look for rare winning streak under Brian Schottenheimer in visit from Cardinals",
+    "summary": "— Sustainability is the next challenge for the Dallas Cowboys, who have just one winning streak in nearly a season and a half under coach Brian Schottenheimer.",
+    "sourceUrl": "http://www.espn.com/nfl/preview?gameId=401873024",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/nfl-fines-caleb-williams-23-882-for-unauthorized-logo-on-shoes-in-week-7",
+    "publishedAt": "2026-10-29T21:20:54.000Z",
+    "type": "Analysis",
+    "headline": "NFL fines Caleb Williams $23,882 for \"unauthorized logo\" on shoes in Week 7",
+    "summary": "NFL doubles the fine amount from Week 6; Williams has said he won't back down.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/nfl-fines-caleb-williams-23-882-for-unauthorized-logo-on-shoes-in-week-7",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cowboys-add-og-tyler-smith-te-luke-schoonmaker-to-their-injury-report",
+    "publishedAt": "2026-10-29T21:13:15.000Z",
+    "type": "Injury",
+    "headline": "Cowboys add OG Tyler Smith, TE Luke Schoonmaker to their injury report",
+    "summary": "The Cowboys added two players to their injury report and opened the 21-day practice window for defensive tackle Jonathan Bullard (calf).",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cowboys-add-og-tyler-smith-te-luke-schoonmaker-to-their-injury-report",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jamarr-chase-returns-to-practice-as-a-full-participant",
+    "publishedAt": "2026-10-29T21:12:42.000Z",
+    "type": "Beat Report",
+    "headline": "Ja'Marr Chase returns to practice as a full participant",
+    "summary": "The Bengals got one of their key players back at practice on Thursday.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jamarr-chase-returns-to-practice-as-a-full-participant",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/seahawks-rookie-rb-jadarian-price-returns-to-practice",
+    "publishedAt": "2026-10-29T21:01:33.000Z",
+    "type": "Beat Report",
+    "headline": "Seahawks rookie RB Jadarian Price returns to practice",
+    "summary": "Seahawks rookie running back Jadarian Price is nearing a return.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/seahawks-rookie-rb-jadarian-price-returns-to-practice",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/treveyon-henderson-did-not-practice-thursday-due-to-an-illness",
+    "publishedAt": "2026-10-29T20:53:49.000Z",
+    "type": "Beat Report",
+    "headline": "TreVeyon Henderson did not practice Thursday due to an illness",
+    "summary": "Aside from A.J.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/treveyon-henderson-did-not-practice-thursday-due-to-an-illness",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-elevate-arron-mosby-from-the-practice-squad",
+    "publishedAt": "2026-10-29T20:50:46.000Z",
+    "type": "Transaction",
+    "headline": "Packers elevate Arron Mosby from the practice squad",
+    "summary": "The Packers elevated edge rusher Arron Mosby from the practice squad to the active roster, the team announced Thursday.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/packers-elevate-arron-mosby-from-the-practice-squad",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/lamar-jackson-has-another-full-practice-on-thursday",
+    "publishedAt": "2026-10-29T20:48:37.000Z",
+    "type": "Beat Report",
+    "headline": "Lamar Jackson has another full practice on Thursday",
+    "summary": "Accurate predictions about whether Ravens quarterback Lamar Jackson will return to action from an ankle injury have been tough to come by in recent weeks, but it's looking a lot like this will be the week.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/lamar-jackson-has-another-full-practice-on-thursday",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "50321006",
+    "publishedAt": "2026-10-29T20:47:25Z",
+    "type": "Beat Report",
+    "headline": "Patriots' A.J. Brown misses practice Thursday due to new knee ailment",
+    "summary": "The Patriots' A.J. Brown missed his first practice since returning from IR, with a new knee ailment in addition to his previously injured ankle.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50321006/patriots-aj-brown-misses-practice-due-new-knee-ailment",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "50321581",
+    "publishedAt": "2026-10-29T20:46:47Z",
+    "type": "Analysis",
+    "headline": "Seahawks' dominant defense faces challenge in Bears QB Caleb Williams and NFL's top rushing offense",
+    "summary": "Now it's Chicago's turn to face Seattle's “Dark Side.”",
+    "sourceUrl": "http://www.espn.com/nfl/preview?gameId=401873036",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/panthers-place-cb-akayleb-evans-on-injured-reserve",
+    "publishedAt": "2026-10-29T20:38:53.000Z",
+    "type": "Injury",
+    "headline": "Panthers place CB Akayleb Evans on injured reserve",
+    "summary": "The Panthers placed cornerback Akayleb Evans on injured reserve, the team announced.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/panthers-place-cb-akayleb-evans-on-injured-reserve",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/kyle-monangai-again-listed-as-non-participant-on-thursday",
+    "publishedAt": "2026-10-29T20:37:13.000Z",
+    "type": "Analysis",
+    "headline": "Kyle Monangai again listed as non-participant on Thursday",
+    "summary": "Bears running back Kyle Monangai remains sidelined as Chicago begins its practice week for the Monday night match with Seattle.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/kyle-monangai-again-listed-as-non-participant-on-thursday",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/david-bailey-misses-second-straight-practice-braelon-allen-up-to-full-participation",
+    "publishedAt": "2026-10-29T20:30:27.000Z",
+    "type": "Beat Report",
+    "headline": "David Bailey misses second straight practice, Braelon Allen up to full participation",
+    "summary": "The Jets practiced without first-round pick David Bailey for the second straight day on Thursday.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/david-bailey-misses-second-straight-practice-braelon-allen-up-to-full-participation",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=424506",
+    "publishedAt": "2026-10-29T20:24:44.000Z",
+    "type": "Transaction",
+    "headline": "Colts Not Planning To Trade DT Adetomiwa Adebawore",
+    "summary": "Colts defensive tackle Adetomiwa Adebawore is on pace for his best season in 2026, the last year of his rookie contract. The Colts are selling before the Nov. 10 trade deadline and have already dealt impending free agents Quenton Nelson and DeForest Buckner, but it does not appear Adebawore will follow them to the exits. […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/colts-not-planning-to-trade-dt-adetomiwa-adebawore",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jahmyr-gibbs-amon-ra-st-brown-return-for-full-practices",
+    "publishedAt": "2026-10-29T20:09:29.000Z",
+    "type": "Analysis",
+    "headline": "Jahmyr Gibbs, Amon-Ra St. Brown return for full practices",
+    "summary": "The Lions got running back Jahmyr Gibbs and wide receiver Amon-Ra St.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jahmyr-gibbs-amon-ra-st-brown-return-for-full-practices",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jared-verse-returns-to-practice-tytus-howard-remains-sidelined",
+    "publishedAt": "2026-10-29T20:08:53.000Z",
+    "type": "Beat Report",
+    "headline": "Jared Verse returns to practice, Tytus Howard remains sidelined",
+    "summary": "Jared Verse was back on the practice field for the Browns on Thursday as they continue to prepare for Sunday's matchup with the Steelers.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jared-verse-returns-to-practice-tytus-howard-remains-sidelined",
+    "sourceName": "Pro Football Talk"
+  },
+  {
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-evans-working-tirelessly-to-calm-down-his-achilles-tendinitis",
+    "publishedAt": "2026-10-29T20:04:56.000Z",
+    "type": "Analysis",
+    "headline": "Mike Evans \"working tirelessly\" to calm down his Achilles tendinitis",
+    "summary": "49ers wide receiver Mike Evans missed Sunday's game against the Falcons with Achilles tendinitis.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/mike-evans-working-tirelessly-to-calm-down-his-achilles-tendinitis",
+    "sourceName": "Pro Football Talk"
   },
   {
     "id": "profootballrumors-https://www.profootballrumors.com/?p=424496",
@@ -43,15 +439,6 @@
     "summary": "Raiders running back Ashton Jeanty took a shot at the Jets defense from Las Vegas ahead of this Sunday's game between the teams and it was heard in New Jersey.",
     "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jets-dc-brian-duker-on-ashton-jeantys-comments-plenty-of-confidence-in-our-guys",
     "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "50321006",
-    "publishedAt": "2026-10-29T19:41:11Z",
-    "type": "Beat Report",
-    "headline": "Patriots' A.J. Brown misses practice Thursday due to new knee ailment",
-    "summary": "The Patriots' A.J. Brown missed his first practice since returning from IR, with a new knee ailment, in addition to his injured ankle.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50321006/patriots-aj-brown-misses-practice-due-new-knee-ailment",
-    "sourceName": "ESPN"
   },
   {
     "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/june-jones-innovator-of-the-run-and-shoot-offense-dies-at-73",
@@ -13876,347 +14263,5 @@
     "summary": "49ers wide receiver Mike Evans has played through injured ribs.",
     "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/49ers-wr-mike-evans-misses-practice-with-achilles-soreness",
     "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=423104",
-    "publishedAt": "2026-10-16T00:31:29.000Z",
-    "type": "Analysis",
-    "headline": "Andy Dalton Mulling Offers; QB Could Return To Eagles",
-    "summary": "Andy Dalton saw his brief Eagles tenure come to an end earlier this month. The 16th-year quarterback is a free agent as a result, although his next deal could be in place soon. Dalton currently has offers from multiple teams, NFL Network’s Mike Garafolo reports. The longtime Bengals starter is weighing his options at this time. […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/andy-dalton-mulling-offers-qb-could-return-to-eagles",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jon-morris-a-member-of-the-patriots-hall-of-fame-died-at-84",
-    "publishedAt": "2026-10-16T00:25:31.000Z",
-    "type": "Analysis",
-    "headline": "Jon Morris, a member of the Patriots Hall of Fame, died at 84",
-    "summary": "Jon Morris, a member of the Patriots Hall of Fame, has died, the team announced Thursday.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jon-morris-a-member-of-the-patriots-hall-of-fame-died-at-84",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "50175780",
-    "publishedAt": "2026-10-16T00:00:42Z",
-    "type": "Analysis",
-    "headline": "NFL Week 6 uniforms: Broncos, Seahawks throw it back in TNF matchup",
-    "summary": "Here's a look at what each NFL team is wearing in Week 6, led by throwbacks from the Broncos and Seahawks.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50175780/nfl-week-6-uniforms",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=423102",
-    "publishedAt": "2026-10-15T23:46:24.000Z",
-    "type": "Injury",
-    "headline": "Minor NFL Transactions: 10/15/26",
-    "summary": "Here are Thursday’s minor moves, including gameday elevations for the opening contest of Week 6: Atlanta Falcons Released: S Jammie Robinson  Denver Broncos Elevated: S Taylor Rapp, CB Sean Fresch Jr. Los Angeles Chargers Placed on IR: FB Alec Ingold San Francisco 49ers Signed from practice squad: DL Ogbo Okoronkwo Seattle Seahawks Elevated: WR Irv Charles, LB Jimmy Ciarlo Washington Commanders Designated for return […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/minor-nfl-transactions-10-15-26",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/rams-add-s-kam-curl-to-practice-report-with-an-ankle-injury",
-    "publishedAt": "2026-10-15T23:43:17.000Z",
-    "type": "Injury",
-    "headline": "Rams add S Kam Curl to practice report with an ankle injury",
-    "summary": "The Rams added safety Kam Curl to the practice report Thursday.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/rams-add-s-kam-curl-to-practice-report-with-an-ankle-injury",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jeremiyah-love-missed-practice-again-on-thursday",
-    "publishedAt": "2026-10-15T23:41:30.000Z",
-    "type": "Beat Report",
-    "headline": "Jeremiyah Love missed practice again on Thursday",
-    "summary": "Cardinals running back Jeremiyah Love's ankle injury continues to create uncertainty about the first-round pick's availability for Sunday's game against the Rams.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jeremiyah-love-missed-practice-again-on-thursday",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "50192401",
-    "publishedAt": "2026-10-15T23:39:29Z",
-    "type": "Analysis",
-    "headline": "Jon Morris, former AFL and NFL center with Patriots, dies at 84",
-    "summary": "Jon Morris, who played 11 of his 15-year AFL and NFL career with the Boston and New England Patriots, has died at age 84.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50192401/jon-morris-former-afl-nfl-center-patriots-dies-84",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/caleb-williams-confirms-he-tore-his-hamstring-doesnt-know-his-status-for-sunday",
-    "publishedAt": "2026-10-15T23:31:16.000Z",
-    "type": "Injury",
-    "headline": "Caleb Williams confirms he tore his hamstring, doesn't know his status for Sunday",
-    "summary": "Williams has had two full practices this week as he works his way back from the Week 2 injury.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/caleb-williams-confirms-he-tore-his-hamstring-doesnt-know-his-status-for-sunday",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "50192475",
-    "publishedAt": "2026-10-15T23:23:28Z",
-    "type": "Analysis",
-    "headline": "Panthers to visit an Eagles team that was already reeling before losing Hurts to a blood clot",
-    "summary": "— The Carolina Panthers had already been installed as road betting favorites as they prepare to visit Philadelphia and face a banged-up Eagles team riding a three-game losing streak.",
-    "sourceUrl": "http://www.espn.com/nfl/preview?gameId=401872998",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cowboys-cb-joey-porter-jr-has-full-practice-expects-to-have-no-limitations-sunday",
-    "publishedAt": "2026-10-15T23:12:07.000Z",
-    "type": "Beat Report",
-    "headline": "Cowboys CB Joey Porter Jr. has full practice, expects to have no limitations Sunday",
-    "summary": "Cowboys cornerback Joey Porter Jr. participated fully in Thursday's practice, and he expects to have no limitations for Sunday's game against the Packers.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cowboys-cb-joey-porter-jr-has-full-practice-expects-to-have-no-limitations-sunday",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "50192302",
-    "publishedAt": "2026-10-15T23:03:48Z",
-    "type": "Injury",
-    "headline": "Texans RB Montgomery, S Pitre out for London affair vs. Jaguars",
-    "summary": "Texans starting RB David Montgomery (groin) and safety Jalen Pitre (shoulder) have been ruled out for Sunday's matchup against the Jaguars in London.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50192302/texans-rb-montgomery-s-pitre-london-affair-vs-jaguars",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50192123",
-    "publishedAt": "2026-10-15T23:03:35Z",
-    "type": "Injury",
-    "headline": "Bears QB Williams unsure if he's playing, has to still go through protocols",
-    "summary": "Caleb Williams reached another milestone in his recovery from a hamstring injury, logging full participation in practice for the first time since Sept. 18.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50192123/bears-caleb-williams-yet-know-playing",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=423096",
-    "publishedAt": "2026-10-15T22:56:32.000Z",
-    "type": "Analysis",
-    "headline": "Former Pro Bowl C Jon Morris Dies At 84",
-    "summary": "The Patriots announced on Thursday that center Jon Morris has passed away. He was 84. Morris spent his first 11 seasons in the organization. His career began as a draftee of the Boston Patriots in 1964 and he immediately became a full-time starter and cornerstone player. Morris was an AFL All-Star each year from 1964-69, earning four […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/former-pro-bowl-c-jon-morris-dies-at-84",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "50192404",
-    "publishedAt": "2026-10-15T22:56:28Z",
-    "type": "Analysis",
-    "headline": "Sean McVay faces former offensive coordinator Mike LaFleur for first time when Rams host Cardinals",
-    "summary": "— The game between the Rams and Cardinals on Sunday is about more than the latest matchup pitting Sean McVay against one of his former offensive assistants — in this instance, ",
-    "sourceUrl": "http://www.espn.com/nfl/preview?gameId=401873004",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/thursday-night-football-broncos-cb-riley-moss-is-active",
-    "publishedAt": "2026-10-15T22:53:35.000Z",
-    "type": "Analysis",
-    "headline": "Thursday Night Football: Broncos CB Riley Moss is active",
-    "summary": "The Broncos will have cornerback Riley Moss in the lineup against the Seahawks tonight.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/thursday-night-football-broncos-cb-riley-moss-is-active",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "50192345",
-    "publishedAt": "2026-10-15T22:49:28Z",
-    "type": "Analysis",
-    "headline": "Patriots on upset alert as Geno Smith brings a no-INT streak into Jets matchup with Patriots",
-    "summary": "— The New England Patriots are coming off their best performance of the season, doing almost everything they wanted during a 28-point win over the...",
-    "sourceUrl": "http://www.espn.com/nfl/preview?gameId=401873001",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/joe-alt-derwin-james-remain-out-of-practice-for-chargers",
-    "publishedAt": "2026-10-15T22:25:39.000Z",
-    "type": "Beat Report",
-    "headline": "Joe Alt, Derwin James remain out of practice for Chargers",
-    "summary": "The Chargers remained without a few starters at Thursday's practice.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/joe-alt-derwin-james-remain-out-of-practice-for-chargers",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=423094",
-    "publishedAt": "2026-10-15T22:11:01.000Z",
-    "type": "Injury",
-    "headline": "Lions To Sign WR DeAndre Carter",
-    "summary": "The Lions lost returner Tom Kennedy in Week 5. He is expected to undergo surgery on his MCL and spend the remainder of the 2026 season in recovery. Detroit spent Thursday looking at free agent options to serve as Kennedy’s replacement. DeAndre Carter and Steven Sims worked out for the Lions, as noted by Dave Birkett of the Detroit […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/lions-to-sign-wr-deandre-carter",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/chris-olave-misses-second-straight-practice-with-an-illness",
-    "publishedAt": "2026-10-15T22:10:31.000Z",
-    "type": "Beat Report",
-    "headline": "Chris Olave misses second straight practice with an illness",
-    "summary": "The Saints practiced without wide receiver Chris Olave for the second straight day on Thursday.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/chris-olave-misses-second-straight-practice-with-an-illness",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/broncos-elevate-s-taylor-rapp-db-sean-fresch-for-thursday-night",
-    "publishedAt": "2026-10-15T22:00:44.000Z",
-    "type": "Transaction",
-    "headline": "Broncos elevate S Taylor Rapp, DB Sean Fresch for Thursday night",
-    "summary": "The Broncos are dealing with several injuries in their defensive backfield, so they elevated a couple of players to help round out the secondary ahead of Thursday night's game against the Seahawks.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/broncos-elevate-s-taylor-rapp-db-sean-fresch-for-thursday-night",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/devonta-smith-listed-as-limited-in-eagles-practice-saquon-barkley-still-out",
-    "publishedAt": "2026-10-15T21:54:16.000Z",
-    "type": "Beat Report",
-    "headline": "DeVonta Smith listed as limited in Eagles practice, Saquon Barkley still out",
-    "summary": "The Eagles announced on Thursday that quarterback Jalen Hurts will not play against the Panthers due to a blood clot in his calf, which leaves Tanner McKee in line to make the first non-Week 18 start of his career.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/devonta-smith-listed-as-limited-in-eagles-practice-saquon-barkley-still-out",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/texans-tank-dell-david-montgomery-jalen-pitre-will-not-travel-to-london-to-play-jaguars",
-    "publishedAt": "2026-10-15T21:48:36.000Z",
-    "type": "Injury",
-    "headline": "Texans' Tank Dell, David Montgomery, Jalen Pitre will not travel to London to play Jaguars",
-    "summary": "Three injured Texans will stay home rather than make the trip to London to face the Jaguars on Sunday.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/texans-tank-dell-david-montgomery-jalen-pitre-will-not-travel-to-london-to-play-jaguars",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cowboys-dc-christian-parker-mike-pettine-a-right-hand-man-not-a-save-the-day-hire",
-    "publishedAt": "2026-10-15T21:46:20.000Z",
-    "type": "Analysis",
-    "headline": "Cowboys DC Christian Parker: Mike Pettine a \"right-hand man\" not a \"save the day\" hire",
-    "summary": "The Cowboys hired longtime NFL defensive coordinator and former Browns head coach Mike Pettine as a senior defensive assistant this week and defensive coordinator Christian Parker was asked at a Thursday press conference if Pettine is a \"save the day\" hire after a rough start.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/cowboys-dc-christian-parker-mike-pettine-a-right-hand-man-not-a-save-the-day-hire",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "50192014",
-    "publishedAt": "2026-10-15T21:44:28Z",
-    "type": "Analysis",
-    "headline": "Bears and Falcons lean on run games but have endured stressful starts to the season at quarterback",
-    "summary": "— When Chicago Bears coach Ben Johnson said this week that “a lot of things have gone through our minds” about his quarterback depth chart, the Atlanta Falcons could relate.",
-    "sourceUrl": "http://www.espn.com/nfl/preview?gameId=401872999",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50191989",
-    "publishedAt": "2026-10-15T21:39:28Z",
-    "type": "Analysis",
-    "headline": "The 49ers look to avoid letdown, while the Commanders try to get past hangover of disappointing tie",
-    "summary": "— The San Francisco 49ers were still basking in the glow of an exhilarating road win against division...",
-    "sourceUrl": "http://www.espn.com/nfl/preview?gameId=401873008",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50191957",
-    "publishedAt": "2026-10-15T21:28:28Z",
-    "type": "Analysis",
-    "headline": "The Bills aim to avoid a letdown in Las Vegas as the Raiders seek a rebound",
-    "summary": "— Buffalo will come into its game against Las Vegas trying to maintain momentum. The Bills could learn a lesson on what not to do from the Raiders.",
-    "sourceUrl": "http://www.espn.com/nfl/preview?gameId=401873005",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/with-his-next-td-catch-davante-adams-will-pass-larry-fitzgerald-on-the-all-time-list",
-    "publishedAt": "2026-10-15T21:24:50.000Z",
-    "type": "Analysis",
-    "headline": "With his next TD catch, Davante Adams will pass Larry Fitzgerald on the all-time list",
-    "summary": "Rams wide receiver Davante Adams has four touchdown catches this season.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/with-his-next-td-catch-davante-adams-will-pass-larry-fitzgerald-on-the-all-time-list",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "50191564",
-    "publishedAt": "2026-10-15T21:09:13Z",
-    "type": "Injury",
-    "headline": "Raiders' Ashton Jeanty feels 'great' ahead of game vs. Bills",
-    "summary": "Raiders running back Ashton Jeanty, who has been battling ankle and foot injuries, said he's feeling great ahead of Sunday's game against the Bills.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50191564/raiders-ashton-jeanty-feels-great-ahead-game-vs-bills",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50191811",
-    "publishedAt": "2026-10-15T21:07:28Z",
-    "type": "Analysis",
-    "headline": "Aaron Rodgers vs. Todd Bowles should be quite a chess match when Steelers visit the Buccaneers",
-    "summary": "— Todd Bowles will have to be quite creative to surprise Aaron Rodgers.",
-    "sourceUrl": "http://www.espn.com/nfl/preview?gameId=401873002",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50191115",
-    "publishedAt": "2026-10-15T21:05:29Z",
-    "type": "Analysis",
-    "headline": "Colts RB Jonathan Taylor not fretting slower start than usual",
-    "summary": "Taylor may have lower numbers than usual, but he's still in the top 10 in rushing yards and rushing TDs.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50191115/colts-jonathan-taylor-low-rushing-stats",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50191722",
-    "publishedAt": "2026-10-15T20:51:28Z",
-    "type": "Analysis",
-    "headline": "Packers seek to build on their momentum as Cowboys attempt to bounce back from ugly loss",
-    "summary": "— Jordan Love and the Green Bay Packers are aiming to build off their best win of the season as they prepare to host a Dallas team attempting to bounce...",
-    "sourceUrl": "http://www.espn.com/nfl/preview?gameId=401873007",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/ravens-add-zay-flowers-to-injury-report-as-limited-participant",
-    "publishedAt": "2026-10-15T20:51:05.000Z",
-    "type": "Injury",
-    "headline": "Ravens add Zay Flowers to injury report as limited participant",
-    "summary": "With quarterback Lamar Jackson already dealing with an ankle issue, the Ravens' top receiver now has an injury to deal with.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/ravens-add-zay-flowers-to-injury-report-as-limited-participant",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/ravens-falcons-game-without-lamar-jackson-averages-17-million-viewers",
-    "publishedAt": "2026-10-15T20:48:49.000Z",
-    "type": "Analysis",
-    "headline": "Ravens-Falcons game without Lamar Jackson averages 17 million viewers",
-    "summary": "Star players continue to sell.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/ravens-falcons-game-without-lamar-jackson-averages-17-million-viewers",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "50191622",
-    "publishedAt": "2026-10-15T20:39:28Z",
-    "type": "Analysis",
-    "headline": "The Colts are hoping to get Jonathan Taylor back on track when they host the winless Titans",
-    "summary": "The Indianapolis Colts need Jonathan Taylor to become a big-play threat again.",
-    "sourceUrl": "http://www.espn.com/nfl/preview?gameId=401873003",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/christian-gonzalez-upgraded-to-full-participant-on-thursday-injury-report",
-    "publishedAt": "2026-10-15T20:30:34.000Z",
-    "type": "Injury",
-    "headline": "Christian Gonzalez upgraded to full participant on Thursday injury report",
-    "summary": "Patriots cornerback Christian Gonzalez said earlier this week that he would be ready to play Sunday's game against the Jets.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/christian-gonzalez-upgraded-to-full-participant-on-thursday-injury-report",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jayden-daniels-on-clock-debacle-ultimately-its-on-me",
-    "publishedAt": "2026-10-15T20:30:01.000Z",
-    "type": "Analysis",
-    "headline": "Jayden Daniels on clock debacle: \"Ultimately, it's on me\"",
-    "summary": "When it comes to the Week 5 overtime clock debacle for the Commanders, both coach Dan Quinn and quarterback Jayden Daniels continue to take the blame for the failure to stop the clock before a potential game-winning field.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jayden-daniels-on-clock-debacle-ultimately-its-on-me",
-    "sourceName": "Pro Football Talk"
-  },
-  {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=423088",
-    "publishedAt": "2026-10-15T20:29:41.000Z",
-    "type": "Beat Report",
-    "headline": "49ers Open Christian Kirk’s Practice Window; Latest On Deebo Samuel, Demarcus Robinson",
-    "summary": "The receiver position has been hit hard in the 49ers’ case early this season. Christian Kirk’s return to full strength would help, though, and he should be available shortly. The 49ers announced on Thursday that Kirk’s practice window has been opened. His 21-day activation period has now begun as a result. Kirk was among the players […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/49ers-open-christian-kirks-practice-window-latest-on-deebo-samuel-demarcus-robinson",
-    "sourceName": "Pro Football Rumors"
-  },
-  {
-    "id": "50191464",
-    "publishedAt": "2026-10-15T20:09:28Z",
-    "type": "Analysis",
-    "headline": "Marvin Harrison Jr. set to debut for Texans in London against Jaguars, Parker Washington",
-    "summary": "— Plenty of attention will be on Marvin Harrison Jr. when the receiver makes his Houston Texans debut on Sunday against the Jacksonville Jaguars in London.",
-    "sourceUrl": "http://www.espn.com/nfl/preview?gameId=401872996",
-    "sourceName": "ESPN"
   }
 ]

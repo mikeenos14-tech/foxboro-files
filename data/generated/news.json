@@ -1,12 +1,30 @@
 [
   {
+    "id": "50322729",
+    "publishedAt": "2026-10-29T22:50:18Z",
+    "type": "Beat Report",
+    "headline": "A. J. Brown misses Patriots practice",
+    "summary": "Mike Reiss reports on the with A. J. Brown's status since coming off injured reserve.",
+    "sourceUrl": "https://www.espn.com/video/clip/_/id/50322729/a-j-brown-misses-patriots-practice",
+    "sourceName": "ESPN"
+  },
+  {
     "id": "50321006",
-    "publishedAt": "2026-10-29T19:41:11Z",
+    "publishedAt": "2026-10-29T20:47:25Z",
     "type": "Beat Report",
     "headline": "Patriots' A.J. Brown misses practice Thursday due to new knee ailment",
-    "summary": "The Patriots' A.J. Brown missed his first practice since returning from IR, with a new knee ailment, in addition to his injured ankle.",
+    "summary": "The Patriots' A.J. Brown missed his first practice since returning from IR, with a new knee ailment in addition to his previously injured ankle.",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/50321006/patriots-aj-brown-misses-practice-due-new-knee-ailment",
     "sourceName": "ESPN"
+  },
+  {
+    "id": "776cc9e2-521a-4694-92f7-ee14fa2e37d7",
+    "publishedAt": "2026-10-29T20:13:00.000Z",
+    "type": "Injury",
+    "headline": "Week 8 Injury Report: Patriots at Dolphins",
+    "summary": "The New England Patriots and the Miami Dolphins announce the following player injuries and practice participation ahead of their Week 8 game.",
+    "sourceUrl": "https://www.patriots.com/news/week-8-injury-report-patriots-at-dolphins-x9227",
+    "sourceName": "Patriots.com"
   },
   {
     "id": "50320103",
@@ -45,15 +63,6 @@
     "sourceName": "ESPN"
   },
   {
-    "id": "776cc9e2-521a-4694-92f7-ee14fa2e37d7",
-    "publishedAt": "2026-10-29T13:43:00.000Z",
-    "type": "Injury",
-    "headline": "Week 8 Injury Report: Patriots at Dolphins",
-    "summary": "The New England Patriots and the Miami Dolphins announce the following player injuries and practice participation ahead of their Week 8 game.",
-    "sourceUrl": "https://www.patriots.com/news/week-8-injury-report-patriots-at-dolphins-x9227",
-    "sourceName": "Patriots.com"
-  },
-  {
     "id": "b9ed8a56-2192-4a93-bb22-7830758276de",
     "publishedAt": "2026-10-29T13:40:00.000Z",
     "type": "Analysis",
@@ -87,15 +96,6 @@
     "headline": "Patriots must improve turnover differential if they want to win, other notes",
     "summary": "It's one of Mike Vrabel's four pillars of the team identity -- and New England is struggling with it after losing to the Bears on Thursday.",
     "sourceUrl": "https://www.espn.com/nfl/story/_/id/50262387/new-england-patriots-week-7-loss-notebook",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50254932",
-    "publishedAt": "2026-10-23T05:40:08Z",
-    "type": "Analysis",
-    "headline": "Caleb Williams throws 2 TD passes as the Bears beat Drake Maye and the Patriots 30-24",
-    "summary": "— Round 2 went to Caleb Williams and the Chicago Bears.",
-    "sourceUrl": "http://www.espn.com/nfl/recap?gameId=401873010",
     "sourceName": "ESPN"
   }
 ]
