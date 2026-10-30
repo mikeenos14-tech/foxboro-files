@@ -250,7 +250,7 @@
       },
       "aggressiveness": {
         "value": 16.3498098859316,
-        "rank": 12,
+        "rank": 11,
         "of": 36
       }
     }
@@ -277,7 +277,7 @@
     "ngs": {
       "timeToThrow": {
         "value": 2.88204115226337,
-        "rank": 17,
+        "rank": 16,
         "of": 36
       },
       "aggressiveness": {
@@ -373,7 +373,7 @@
     "ngs": {
       "timeToThrow": {
         "value": 2.86375480769231,
-        "rank": 18,
+        "rank": 17,
         "of": 36
       },
       "aggressiveness": {
@@ -708,29 +708,29 @@
     "playerName": "Jordan Love",
     "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/thz8stjkbjwddxqnozi5",
     "team": "GB",
-    "completions": 162,
-    "attempts": 271,
-    "yards": 1958,
-    "tds": 13,
-    "ints": 5,
-    "cpoe": -2.9734245781209534,
+    "completions": 192,
+    "attempts": 312,
+    "yards": 2246,
+    "tds": 16,
+    "ints": 6,
+    "cpoe": -1.0774856322253783,
     "accuracyByDepth": {
-      "short": 0.6929133858267716,
-      "medium": 0.5416666666666666,
-      "deep": 0.3409090909090909
+      "short": 0.7191780821917808,
+      "medium": 0.5925925925925926,
+      "deep": 0.32075471698113206
     },
     "pressureEpa": -0.2528528473972453,
-    "cleanPocketEpa": 0.20558144936849646,
+    "cleanPocketEpa": 0.20008315186061246,
     "turnoverWorthyPlayRate": 0.03496503496503497,
     "ngs": {
       "timeToThrow": {
-        "value": 2.60194095940959,
+        "value": 2.58496794871795,
         "rank": 34,
         "of": 36
       },
       "aggressiveness": {
-        "value": 16.9741697416974,
-        "rank": 11,
+        "value": 16.3461538461538,
+        "rank": 12,
         "of": 36
       }
     }
@@ -804,28 +804,28 @@
     "playerName": "Bryce Young",
     "headshotUrl": "https://static.www.nfl.com/image/upload/f_auto,q_auto/league/vcvhmxvxw2a3armle0af",
     "team": "CAR",
-    "completions": 135,
-    "attempts": 228,
-    "yards": 1712,
-    "tds": 12,
-    "ints": 4,
-    "cpoe": 0.7195049553241474,
+    "completions": 158,
+    "attempts": 269,
+    "yards": 1921,
+    "tds": 13,
+    "ints": 5,
+    "cpoe": -0.2494200754957146,
     "accuracyByDepth": {
-      "short": 0.6140350877192983,
-      "medium": 0.5849056603773585,
-      "deep": 0.4642857142857143
+      "short": 0.6330935251798561,
+      "medium": 0.5517241379310345,
+      "deep": 0.4482758620689655
     },
-    "pressureEpa": -0.6684220780640208,
-    "cleanPocketEpa": 0.23019122797891986,
+    "pressureEpa": -0.6768388356615828,
+    "cleanPocketEpa": 0.18867529583412504,
     "turnoverWorthyPlayRate": 0.016260162601626018,
     "ngs": {
       "timeToThrow": {
-        "value": 2.88220704845815,
-        "rank": 16,
+        "value": 2.86121722846442,
+        "rank": 18,
         "of": 36
       },
       "aggressiveness": {
-        "value": 13.5964912280702,
+        "value": 13.3828996282528,
         "rank": 23,
         "of": 36
       }

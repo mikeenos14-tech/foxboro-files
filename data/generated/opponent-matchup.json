@@ -6,7 +6,7 @@
     "defense": 29
   },
   "ourEpaRank": {
-    "offense": 8,
+    "offense": 9,
     "defense": 14
   },
   "successRate": {
@@ -18,15 +18,15 @@
       },
       "defense": {
         "value": 0.43765281173594134,
-        "leagueRank": 18,
-        "leaguePercentile": 45
+        "leagueRank": 19,
+        "leaguePercentile": 42
       }
     },
     "them": {
       "offense": {
         "value": 0.39880952380952384,
-        "leagueRank": 27,
-        "leaguePercentile": 16
+        "leagueRank": 28,
+        "leaguePercentile": 13
       },
       "defense": {
         "value": 0.49271137026239065,
@@ -132,15 +132,15 @@
     }
   ],
   "weather": {
-    "tempF": 80,
-    "wind": "15 mph",
-    "precipitation": "82%",
+    "tempF": 83,
+    "wind": "18 mph",
+    "precipitation": "78%",
     "isDome": false
   },
   "bettingContext": {
     "spread": -7,
     "overUnder": 43.5,
-    "asOf": "2026-10-29"
+    "asOf": "2026-10-30"
   },
-  "previewTake": "We're heading to Miami on Sunday as a touchdown favorite, and honestly, the numbers tell a story almost too good to be true: our pass offense (77/100) is playing against their pass defense (3/100), the widest statistical mismatch on the board this week. That's not hyperbole—that's a generational gap in one matchup. Yes, we'll need to account for their elite rush offense (90/100) that'll test our average run defense (55/100), and we can't overlook their elite pass rush... oh wait, they don't have one (3/100). The real variable here is us: we're clicking at +0.15 EPA per play over our last three games while Miami's been underwater at -0.06. With our secondary healthy and ready, this looks like a game where our strengths line up perfectly against their weaknesses—assuming we don't beat ourselves in the 4:25 PM sun."
+  "previewTake": "This is a road game we should win, and I mean that in the most mathematically literal way possible: our pass offense (77/100) is playing against Miami's pass defense (3/100), the single widest statistical edge on the entire slate this week. We're 0.15 net EPA/play over our last three games versus their minus-0.06, we're favored by a touchdown, and we've beaten them twice already this season. The only real cloud is A.J. Brown's mysterious new knee issue that kept him out of Thursday practice—we need to know more about that before kickoff. If our receivers can get healthy looks against a Miami secondary that's apparently been worn down, this should be a statement road win in the AFC East."
 }

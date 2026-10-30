@@ -420,13 +420,13 @@
       },
       {
         "team": "GB",
-        "wins": 4,
+        "wins": 5,
         "losses": 3,
         "ties": 0,
-        "pointDifferential": -1,
+        "pointDifferential": 7,
         "isUs": false,
         "streak": {
-          "result": "L",
+          "result": "W",
           "count": 1
         },
         "divisionRecord": {
@@ -443,13 +443,13 @@
       {
         "team": "CAR",
         "wins": 3,
-        "losses": 3,
+        "losses": 4,
         "ties": 0,
-        "pointDifferential": -7,
+        "pointDifferential": -15,
         "isUs": false,
         "streak": {
           "result": "L",
-          "count": 1
+          "count": 2
         },
         "divisionRecord": {
           "wins": 1,

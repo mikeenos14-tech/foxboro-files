@@ -93,7 +93,7 @@
       {
         "key": "last-1",
         "label": "Last Game",
-        "grade": 81
+        "grade": 84
       },
       {
         "key": "last-3",
@@ -131,12 +131,12 @@
       {
         "key": "last-3",
         "label": "Last 3 Games",
-        "grade": 61
+        "grade": 58
       },
       {
         "key": "last-5",
         "label": "Last 5 Games",
-        "grade": 68
+        "grade": 65
       }
     ],
     "statLine": "Drake Maye takes 3.11 sec to throw on average — 4th-longest of 36 qualified QBs (a longer hold gives the rush more time)",
@@ -145,14 +145,14 @@
   },
   {
     "group": "Pass Rush",
-    "grade": 65,
+    "grade": 68,
     "trend": "up",
     "soWhat": "Sack rate generated, team-wide — edge rushers, interior linemen and blitzers all included.",
     "windows": [
       {
         "key": "last-1",
         "label": "Last Game",
-        "grade": 84
+        "grade": 81
       },
       {
         "key": "last-3",
@@ -162,7 +162,7 @@
       {
         "key": "last-5",
         "label": "Last 5 Games",
-        "grade": 45
+        "grade": 42
       }
     ],
     "statLine": "17 sacks, 43 QB hits — leader: Elijah Ponder (5.5 sacks)",
@@ -188,7 +188,7 @@
       {
         "key": "last-5",
         "label": "Last 5 Games",
-        "grade": 45
+        "grade": 52
       }
     ],
     "statLine": "31 TFL, 5 forced fumbles — leader: Elijah Ponder (7 TFL)",
@@ -214,7 +214,7 @@
       {
         "key": "last-5",
         "label": "Last 5 Games",
-        "grade": 19
+        "grade": 23
       }
     ],
     "statLine": "4 INT, 25 PBU — leader: Gabe Jacas (1 INT)",
