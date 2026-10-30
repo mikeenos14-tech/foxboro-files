@@ -5,9 +5,9 @@
     "position": "TE",
     "week": 8,
     "injury": "Ankle",
-    "practiceStatus": "Limited",
+    "practiceStatus": "Full",
     "gameStatus": null,
-    "lastUpdated": "2026-10-29T20:16:31.509Z"
+    "lastUpdated": "2026-10-30T19:58:52.545Z"
   },
   {
     "playerId": "00-0037686",
@@ -15,9 +15,9 @@
     "position": "LS",
     "week": 8,
     "injury": "Shoulder",
-    "practiceStatus": "Limited",
+    "practiceStatus": "Full",
     "gameStatus": null,
-    "lastUpdated": "2026-10-29T20:16:31.509Z"
+    "lastUpdated": "2026-10-30T19:58:52.545Z"
   },
   {
     "playerId": "00-0038128",
@@ -27,7 +27,7 @@
     "injury": "Groin",
     "practiceStatus": "Full",
     "gameStatus": null,
-    "lastUpdated": "2026-10-29T20:16:31.509Z"
+    "lastUpdated": "2026-10-30T19:58:52.545Z"
   },
   {
     "playerId": "00-0038521",
@@ -35,9 +35,9 @@
     "position": "CB",
     "week": 8,
     "injury": "Quadricep",
-    "practiceStatus": "Limited",
-    "gameStatus": null,
-    "lastUpdated": "2026-10-29T20:16:31.509Z"
+    "practiceStatus": "Full",
+    "gameStatus": "Questionable",
+    "lastUpdated": "2026-10-30T19:58:52.545Z"
   },
   {
     "playerId": "00-0038603",
@@ -47,7 +47,7 @@
     "injury": "Hamstring",
     "practiceStatus": "Full",
     "gameStatus": null,
-    "lastUpdated": "2026-10-29T20:16:31.509Z"
+    "lastUpdated": "2026-10-30T19:58:52.545Z"
   },
   {
     "playerId": "00-0038728",
@@ -55,9 +55,9 @@
     "position": "WR",
     "week": 8,
     "injury": "Knee",
-    "practiceStatus": "Limited",
+    "practiceStatus": "Full",
     "gameStatus": null,
-    "lastUpdated": "2026-10-29T20:16:31.509Z"
+    "lastUpdated": "2026-10-30T19:58:52.545Z"
   },
   {
     "playerId": "00-0039156",
@@ -67,7 +67,7 @@
     "injury": "Neck",
     "practiceStatus": "Limited",
     "gameStatus": null,
-    "lastUpdated": "2026-10-30T17:37:30.393Z"
+    "lastUpdated": "2026-10-30T21:52:41.420Z"
   },
   {
     "playerId": "00-0039874",
@@ -77,7 +77,7 @@
     "injury": "Foot",
     "practiceStatus": "Full",
     "gameStatus": null,
-    "lastUpdated": "2026-10-29T20:16:31.509Z"
+    "lastUpdated": "2026-10-30T19:58:52.545Z"
   },
   {
     "playerId": "00-0039880",
@@ -85,9 +85,9 @@
     "position": "WR",
     "week": 8,
     "injury": "Knee",
-    "practiceStatus": "Limited",
+    "practiceStatus": "Full",
     "gameStatus": null,
-    "lastUpdated": "2026-10-29T20:16:31.509Z"
+    "lastUpdated": "2026-10-30T19:58:52.545Z"
   },
   {
     "playerId": "00-0040182",
@@ -95,9 +95,9 @@
     "position": "S",
     "week": 8,
     "injury": "Shoulder",
-    "practiceStatus": "Limited",
+    "practiceStatus": "Full",
     "gameStatus": null,
-    "lastUpdated": "2026-10-29T20:16:31.509Z"
+    "lastUpdated": "2026-10-30T19:58:52.545Z"
   },
   {
     "playerId": "00-0041521",
@@ -107,7 +107,7 @@
     "injury": "Concussion",
     "practiceStatus": "Did Not Participate",
     "gameStatus": null,
-    "lastUpdated": "2026-10-30T17:37:30.393Z"
+    "lastUpdated": "2026-10-30T21:52:41.420Z"
   },
   {
     "playerId": "00-0041524",
@@ -115,9 +115,9 @@
     "position": "TE",
     "week": 8,
     "injury": "Hamstring",
-    "practiceStatus": "Limited",
+    "practiceStatus": "Full",
     "gameStatus": null,
-    "lastUpdated": "2026-10-29T20:16:31.509Z"
+    "lastUpdated": "2026-10-30T19:58:52.545Z"
   },
   {
     "playerId": "00-0041528",
@@ -125,9 +125,9 @@
     "position": "S",
     "week": 8,
     "injury": "Neck",
-    "practiceStatus": "Limited",
+    "practiceStatus": "Full",
     "gameStatus": null,
-    "lastUpdated": "2026-10-29T20:16:31.509Z"
+    "lastUpdated": "2026-10-30T19:58:52.545Z"
   },
   {
     "playerId": "patriots-juju-brents",
@@ -135,8 +135,8 @@
     "position": "CB",
     "week": 8,
     "injury": "Neck / Concussion",
-    "practiceStatus": "Limited",
-    "gameStatus": null,
-    "lastUpdated": "2026-10-29T20:16:31.509Z"
+    "practiceStatus": "Full",
+    "gameStatus": "Questionable",
+    "lastUpdated": "2026-10-30T19:58:52.545Z"
   }
 ]

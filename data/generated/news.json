@@ -1,11 +1,47 @@
 [
   {
+    "id": "776cc9e2-521a-4694-92f7-ee14fa2e37d7",
+    "publishedAt": "2026-10-30T19:52:00.000Z",
+    "type": "Injury",
+    "headline": "Week 8 Injury Report: Patriots at Dolphins",
+    "summary": "The New England Patriots and the Miami Dolphins announce the following player injuries and practice participation ahead of their Week 8 game.",
+    "sourceUrl": "https://www.patriots.com/news/week-8-injury-report-patriots-at-dolphins-x9227",
+    "sourceName": "Patriots.com"
+  },
+  {
+    "id": "280e2ecb-fae8-4f66-9850-0cdee33c6538",
+    "publishedAt": "2026-10-30T19:50:33.000Z",
+    "type": "Injury",
+    "headline": "Injury Report Analysis: WR A.J. Brown, RB TreVeyon Henderson questionable for Week 8 matchup vs. the Dolphins",
+    "summary": "Brown (ankle/knee) is officially questionable for Sunday's game after sitting out the final two practices this week.",
+    "sourceUrl": "https://www.patriots.com/news/injury-report-analysis-wr-a-j-brown-rb-treveyon-henderson-questionable-for-week-8-matchup-vs-the-dolphins",
+    "sourceName": "Patriots.com"
+  },
+  {
     "id": "743ed14e-6b27-43ca-a6fa-ccfcbe873c10",
-    "publishedAt": "2026-10-30T13:00:00.000Z",
+    "publishedAt": "2026-10-30T19:20:00.000Z",
     "type": "Analysis",
     "headline": "Expert Predictions: Week 8 Picks for Patriots at Dolphins",
     "summary": "Experts share their picks for the Patriots Week 8 matchup against the Miami Dolphins.",
     "sourceUrl": "https://www.patriots.com/news/expert-predictions-week-8-picks-for-patriots-at-dolphins",
+    "sourceName": "Patriots.com"
+  },
+  {
+    "id": "50329240",
+    "publishedAt": "2026-10-30T18:03:26Z",
+    "type": "Injury",
+    "headline": "Patriots WR A.J. Brown (ankle, knee) listed as questionable",
+    "summary": "Patriots wide receiver A.J. Brown is questionable for Sunday's road game against the Dolphins after missing the past two practices due to knee and ankle issues.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50329240/patriots-wr-aj-brown-ankle-knee-listed-questionable",
+    "sourceName": "ESPN"
+  },
+  {
+    "id": "9e407e52-af76-4d07-9519-f449f20daf3d",
+    "publishedAt": "2026-10-30T14:00:00.000Z",
+    "type": "Beat Report",
+    "headline": "Transcript: Head Coach Mike Vrabel Press Conference 10/30",
+    "summary": "Read the full transcript from Patriots head coach Mike Vrabel's press conference on Friday, October 30, 2026.",
+    "sourceUrl": "https://www.patriots.com/news/transcript-head-coach-mike-vrabel-press-conference-10-30",
     "sourceName": "Patriots.com"
   },
   {
@@ -36,15 +72,6 @@
     "sourceName": "ESPN"
   },
   {
-    "id": "776cc9e2-521a-4694-92f7-ee14fa2e37d7",
-    "publishedAt": "2026-10-29T20:13:00.000Z",
-    "type": "Injury",
-    "headline": "Week 8 Injury Report: Patriots at Dolphins",
-    "summary": "The New England Patriots and the Miami Dolphins announce the following player injuries and practice participation ahead of their Week 8 game.",
-    "sourceUrl": "https://www.patriots.com/news/week-8-injury-report-patriots-at-dolphins-x9227",
-    "sourceName": "Patriots.com"
-  },
-  {
     "id": "50320103",
     "publishedAt": "2026-10-29T17:45:47Z",
     "type": "Analysis",
@@ -52,24 +79,6 @@
     "summary": "— Most of the current players on the Miami Dolphins roster haven't faced the New England Patriots very much.",
     "sourceUrl": "http://www.espn.com/nfl/preview?gameId=401873034",
     "sourceName": "ESPN"
-  },
-  {
-    "id": "6b54dc93-d905-4f17-ad70-d333ae850170",
-    "publishedAt": "2026-10-29T15:19:02.000Z",
-    "type": "Analysis",
-    "headline": "Patriots Gameplan: Self-Scouting the Pats Through Seven Games and Prepping for the Dolphins in Week 8",
-    "summary": "With the team coming off a mini bye week, where do things stand for the Patriots seven weeks into the season?",
-    "sourceUrl": "https://www.patriots.com/news/patriots-gameplan-self-scouting-the-pats-through-seven-games-and-prepping-for-the-dolphins-in-week-8",
-    "sourceName": "Patriots.com"
-  },
-  {
-    "id": "db6da46a-5034-42c9-925b-3cf09fe05ab7",
-    "publishedAt": "2026-10-29T14:29:13.000Z",
-    "type": "Analysis",
-    "headline": "3 to Watch: Patriots Target Third AFC East Win in Miami",
-    "summary": "The Patriots hit the road to Miami for an AFC East matchup against the Dolphins.",
-    "sourceUrl": "https://www.patriots.com/news/3-to-watch-patriots-target-third-afc-east-win-in-miami",
-    "sourceName": "Patriots.com"
   },
   {
     "id": "50311096",
