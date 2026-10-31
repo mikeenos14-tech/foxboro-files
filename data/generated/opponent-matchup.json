@@ -132,15 +132,14 @@
     }
   ],
   "weather": {
-    "tempF": 83,
-    "wind": "18 mph",
-    "precipitation": "78%",
+    "tempF": 74,
+    "wind": "10 mph",
+    "precipitation": "38%",
     "isDome": false
   },
   "bettingContext": {
     "spread": -7,
     "overUnder": 43.5,
-    "asOf": "2026-10-30"
-  },
-  "previewTake": "This is a road game we should win, and I mean that in the most mathematically literal way possible: our pass offense (77/100) is playing against Miami's pass defense (3/100), the single widest statistical edge on the entire slate this week. We're 0.15 net EPA/play over our last three games versus their minus-0.06, we're favored by a touchdown, and we've beaten them twice already this season. The only real cloud is A.J. Brown's mysterious new knee issue that kept him out of Thursday practice—we need to know more about that before kickoff. If our receivers can get healthy looks against a Miami secondary that's apparently been worn down, this should be a statement road win in the AFC East."
+    "asOf": "2026-10-31"
+  }
 }

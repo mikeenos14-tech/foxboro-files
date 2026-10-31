@@ -63,8 +63,15 @@
     "at": "2026-10-23T13:53:55.413Z"
   },
   "preview 2026_08_NE_MIA": {
-    "status": "written",
-    "problems": [],
-    "at": "2026-10-30T15:24:19.461Z"
+    "status": "rejected",
+    "problems": [
+      [
+        "It makes a franchise-history claim that isn't in the facts given."
+      ],
+      [
+        "It makes a franchise-history claim that isn't in the facts given."
+      ]
+    ],
+    "at": "2026-10-31T14:54:08.321Z"
   }
 }
