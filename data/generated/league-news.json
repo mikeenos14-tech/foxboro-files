@@ -1,7 +1,16 @@
 [
   {
+    "id": "50336399",
+    "publishedAt": "2026-10-31T15:46:37Z",
+    "type": "Injury",
+    "headline": "Source: Commanders DT Daron Payne suffered season-ending foot injury",
+    "summary": "Commanders defensive tackle Daron Payne suffered a season-ending Jones fracture in practice Friday, a source told ESPN's Adam Schefter.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50336399/source-commanders-dt-payne-suffered-season-ending-foot-injury",
+    "sourceName": "ESPN"
+  },
+  {
     "id": "50323095",
-    "publishedAt": "2026-10-31T11:14:49Z",
+    "publishedAt": "2026-10-31T15:08:29Z",
     "type": "Transaction",
     "headline": "Sources: Colts willing to trade RB Jonathan Taylor, active in talks with teams",
     "summary": "The Colts now are open to trading Jonathan Taylor, sources told ESPN and NFL Network, and multiple teams have reached out to Indianapolis.",
@@ -9,48 +18,39 @@
     "sourceName": "ESPN"
   },
   {
-    "id": "50331710",
-    "publishedAt": "2026-10-31T00:05:38Z",
-    "type": "Injury",
-    "headline": "Sources: Commanders' Daron Payne likely IR-bound after practice injury",
-    "summary": "Commanders DT Daron Payne suffered a significant foot injury in practice Friday that likely will land him on injured reserve, sources told NFL Network.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50331710/sources-commanders-daron-payne-injures-foot-practice",
+    "id": "50333636",
+    "publishedAt": "2026-10-31T15:56:51Z",
+    "type": "Analysis",
+    "headline": "Records show 3 other women accused Packers' Josh Jacobs of abuse after arrest",
+    "summary": "Three other women contacted police to detail allegations of abuse against Packers RB Josh Jacobs following his May arrest for an altercation with his then-girlfriend.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50333636/records-show-3-other-women-accused-packers-josh-jacobs-abuse",
     "sourceName": "ESPN"
   },
   {
-    "id": "profootballrumors-https://www.profootballrumors.com/?p=424611",
-    "publishedAt": "2026-10-30T20:46:52.000Z",
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=424556",
+    "publishedAt": "2026-10-31T12:00:23.000Z",
     "type": "Transaction",
-    "headline": "Teams Calling Titans On Tony Pollard, Calvin Ridley; Latest On Tennessee Trade Outlook",
-    "summary": "The Titans cashed in their top trade chip Thursday, sending Jeffery Simmons to the Bears for a package headlined by two first-round picks. Although the team was not planning to trade Simmons, signing off on such a deal certainly means the rebuilding club is open for business. More Titans are coming up in trade rumors. […]",
-    "sourceUrl": "https://www.profootballrumors.com/2026/10/teams-calling-titans-on-tony-pollard-calvin-ridley-latest-on-tennessee-trade-outlook",
+    "headline": "Age, Contract, Buyer History Highlight Unique Jeffery Simmons Trade",
+    "summary": "After the Colts unloaded two of this decade’s best linemen for third-, fourth- and fifth-round picks, the Titans landed a monster haul from a Bears team that stood down on DeForest Buckner. Deeming the 32-year-old defensive tackle an iffy bet for a fourth-round pick, Chicago sent Tennessee two firsts for Jeffery Simmons. Chicago’s seminal swing, […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/424556",
     "sourceName": "Pro Football Rumors"
   },
   {
-    "id": "50331651",
-    "publishedAt": "2026-10-31T11:19:14Z",
-    "type": "Transaction",
-    "headline": "'No way' that Jets trade star WR Garrett Wilson before deadline, source says",
-    "summary": "The Jets are not expected to trade Garrett Wilson, sources told ESPN, despite increased speculation about the star WR's future.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50331651/no-way-jets-trade-garrett-wilson-deadline-source-says",
+    "id": "50335830",
+    "publishedAt": "2026-10-31T16:18:43Z",
+    "type": "Analysis",
+    "headline": "NFL scouts favor Drew Mestemaker as first QB taken in draft",
+    "summary": "In a midseason poll of 25 NFL scouts, Oklahoma State's Drew Mestemaker was the overwhelming choice to be the first quarterback selected in the 2027 NFL draft.",
+    "sourceUrl": "https://www.espn.com/college-football/story/_/id/50335830/nfl-scouts-favor-drew-mestemaker-first-qb-taken-draft",
     "sourceName": "ESPN"
   },
   {
-    "id": "50312381",
-    "publishedAt": "2026-10-31T10:24:11Z",
+    "id": "50335296",
+    "publishedAt": "2026-10-31T13:49:42Z",
     "type": "Analysis",
-    "headline": "Will the Bills' defense stop them from winning a Super Bowl?",
-    "summary": "Buffalo's defense ranks among the worst in several key statistical areas, including the third-most points allowed.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50312381/bill-defense-super-bowl-gardner-johnson-rousseau",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "50331179",
-    "publishedAt": "2026-10-31T10:00:00Z",
-    "type": "Analysis",
-    "headline": "Joe Burrow's trust makes Tee Higgins level up for Bengals",
-    "summary": "No receiver in the NFL has been better on tight window throws this season than the Bengals' Tee Higgins.",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50331179/cincinnati-bengals-tee-higgins-joe-burrow",
+    "headline": "Appellate court revives 'Sunday Ticket' antitrust verdict against NFL",
+    "summary": "A verdict in a class action lawsuit filed by \"Sunday Ticket\" subscribers claiming the NFL broke antitrust laws has been revived by a federal appeals court, more than two years after a $4.7 billion ruling against the league was reversed.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50335296/appeals-court-revives-sunday-ticket-verdict-nfl",
     "sourceName": "ESPN"
   }
 ]
