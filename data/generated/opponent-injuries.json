@@ -65,9 +65,9 @@
     "position": "CB",
     "week": 8,
     "injury": "Neck",
-    "practiceStatus": "Limited",
-    "gameStatus": null,
-    "lastUpdated": "2026-10-31T03:42:14.802Z"
+    "practiceStatus": "Full",
+    "gameStatus": "Questionable",
+    "lastUpdated": "2026-10-31T11:34:17.606Z"
   },
   {
     "playerId": "00-0039874",
@@ -106,8 +106,8 @@
     "week": 8,
     "injury": "Concussion",
     "practiceStatus": "Did Not Participate",
-    "gameStatus": null,
-    "lastUpdated": "2026-10-31T03:42:14.802Z"
+    "gameStatus": "Out",
+    "lastUpdated": "2026-10-31T11:34:17.606Z"
   },
   {
     "playerId": "00-0041524",
