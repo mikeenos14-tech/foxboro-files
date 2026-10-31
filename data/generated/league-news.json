@@ -1,5 +1,23 @@
 [
   {
+    "id": "profootballrumors-https://www.profootballrumors.com/?p=424650",
+    "publishedAt": "2026-10-31T03:05:36.000Z",
+    "type": "Analysis",
+    "headline": "Bears’ Ryan Poles Pursued Jeffery Simmons Over Time; Expects DT To Play Monday",
+    "summary": "The surprising deal that sent star defensive tackle Jeffery Simmons to Chicago did not come together overnight. According to NFL insider Jordan Schultz, Bears general manager Ryan Poles had personally checked in on Simmons several times over the past couple weeks, but as Albert Breer of Sports Illustrated points out, one could trace the roots […]",
+    "sourceUrl": "https://www.profootballrumors.com/2026/10/bears-ryan-poles-pursued-jeffery-simmons-over-time-expects-dt-to-play-monday",
+    "sourceName": "Pro Football Rumors"
+  },
+  {
+    "id": "50331710",
+    "publishedAt": "2026-10-31T00:05:38Z",
+    "type": "Injury",
+    "headline": "Sources: Commanders' Daron Payne likely IR-bound after practice injury",
+    "summary": "Commanders DT Daron Payne suffered a significant foot injury in practice Friday that likely will land him on injured reserve, sources told NFL Network.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50331710/sources-commanders-daron-payne-injures-foot-practice",
+    "sourceName": "ESPN"
+  },
+  {
     "id": "profootballrumors-https://www.profootballrumors.com/?p=424611",
     "publishedAt": "2026-10-30T20:46:52.000Z",
     "type": "Transaction",
@@ -18,30 +36,21 @@
     "sourceName": "Pro Football Rumors"
   },
   {
-    "id": "50329330",
-    "publishedAt": "2026-10-30T19:55:05Z",
-    "type": "Injury",
-    "headline": "Ravens QB Jackson to return for Bills clash, calls ankle pain 'bearable'",
-    "summary": "Ravens quarterback Lamar Jackson will return to play Sunday at Buffalo, saying the pain in his injured left ankle is \"bearable.\"",
-    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50329330/ravens-qb-lamar-jackson-expected-return-vs-bills",
+    "id": "50329806",
+    "publishedAt": "2026-10-30T20:56:49Z",
+    "type": "Analysis",
+    "headline": "With 10 games left and Ejiro Evero out, what's next for Panthers' defense?",
+    "summary": "Here are three reasons for optimism as Carolina makes a defensive coordinator change to Todd Wash.",
+    "sourceUrl": "https://www.espn.com/nfl/story/_/id/50329806/carolina-panthers-defense-ejiro-evero-next-todd-wash",
     "sourceName": "ESPN"
   },
   {
-    "id": "50330890",
-    "publishedAt": "2026-10-30T21:40:29Z",
+    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jeffery-simmons-says-calling-caleb-williams-painted-nails-was-just-smack-talk",
+    "publishedAt": "2026-10-30T20:34:01.000Z",
     "type": "Analysis",
-    "headline": "Defensive tweaks on deck for the Cowboys",
-    "summary": "Todd Archer details Dallas Cowboys DC Christian Parker's adjustments following a league-high number of opening-possession touchdowns allowed.",
-    "sourceUrl": "https://www.espn.com/video/clip/_/id/50330890/defensive-tweaks-deck-cowboys",
-    "sourceName": "ESPN"
-  },
-  {
-    "id": "profootballtalk-https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dave-canales-says-defensive-coaching-changes-are-about-the-players-feeling-confident",
-    "publishedAt": "2026-10-30T19:11:15.000Z",
-    "type": "Analysis",
-    "headline": "Dave Canales says defensive coaching changes are about the players feeling confident",
-    "summary": "Panthers head coach Dave Canales fired defensive coordinator Ejiro Evero and defensive passing game coordinator Jonathan Cooley less than 12 hours after Thursday night's loss to the Packers, and Canales said on Friday afternoon that he wants his players to be confident in their defense.",
-    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/dave-canales-says-defensive-coaching-changes-are-about-the-players-feeling-confident",
+    "headline": "Jeffery Simmons says calling Caleb Williams \"Painted Nails\" was \"just smack talk\"",
+    "summary": "New Bears defensive tackle Jeffery Simmons said his nickname for Caleb Williams two years ago was nothing more than gamesmanship.",
+    "sourceUrl": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/jeffery-simmons-says-calling-caleb-williams-painted-nails-was-just-smack-talk",
     "sourceName": "Pro Football Talk"
   }
 ]
